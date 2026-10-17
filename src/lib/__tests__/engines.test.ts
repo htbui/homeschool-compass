@@ -203,3 +203,22 @@ describe('community + unit study', () => {
     expect(plan.days[0].perChild[0].activity).toContain('Ancient Egypt');
   });
 });
+
+describe('recommendRhythm', () => {
+  it('builds a rhythm with no parent contention for a 5/9/13 family', async () => {
+    const { recommendRhythm } = await import('../recommend');
+    const { findRhythmConflicts } = await import('../schedule');
+    const year = new Date().getFullYear();
+    const kids = [child('leo', `${year - 5}-01-01`), child('maya', `${year - 9}-01-01`), child('noah', `${year - 13}-01-01`)];
+    const blocks = recommendRhythm(kids, 'charlotte_mason');
+    expect(findRhythmConflicts(blocks)).toEqual([]);
+    expect(blocks.some((b) => b.mode === 'group' && b.childIds.length === 3)).toBe(true);
+    // Each child's own blocks never overlap.
+    for (const k of kids) {
+      const mine = blocks.filter((b) => b.childIds.includes(k.id)).map((b) => [toMin(b.start), toMin(b.start) + b.durationMin]).sort((a, b) => a[0] - b[0]);
+      for (let i = 1; i < mine.length; i++) expect(mine[i][0]).toBeGreaterThanOrEqual(mine[i - 1][1]);
+    }
+  });
+});
+
+const toMin = (t: string) => Number(t.slice(0, 2)) * 60 + Number(t.slice(3));

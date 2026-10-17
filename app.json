@@ -3,12 +3,14 @@
     "name": "Kinship",
     "slug": "kinship",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/images/icon.png",
     "scheme": "kinship",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.kinship.homeschool",
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
@@ -17,27 +19,40 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.kinship.homeschool"
     },
     "web": {
-      "output": "server",
-      "favicon": "./assets/images/favicon.png"
+      "output": "single",
+      "favicon": "./assets/images/favicon.png",
+      "name": "Kinship",
+      "themeColor": "#2F6B5E",
+      "backgroundColor": "#FBF8F3"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#2F6B5E",
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
       ],
-      "expo-sharing"
+      "expo-sharing",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Kinship uses your photos to add work samples and receipts to your homeschool portfolio.",
+          "cameraPermission": "Kinship uses the camera so kids and parents can snap work samples for the portfolio.",
+          "microphonePermission": false
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "description": "Multi-child homeschool operating system: rhythms, compliance, portfolios, and community."
   }
 }
