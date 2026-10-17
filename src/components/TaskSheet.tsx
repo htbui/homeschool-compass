@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { View } from 'react-native';
 
 import { formatClock, formatDate } from '@/lib/dates';
@@ -9,24 +9,26 @@ import { Button, Chip, Field, ModeBadge, Pill, Row, Sheet, space, Stack, T } fro
 
 /** Parent-side detail for one task: steps, adjust time, mark done, skip. */
 export function TaskSheet({ task, onClose }: { task?: Task; onClose: () => void }) {
-  const child = useStore((s) => s.children.find((c) => c.id === task?.childId));
-  const { updateTask, completeTask, reopenTask, toggleStep, removeTask } = useStore.getState();
-  const [start, setStart] = useState(task?.start ?? '09:00');
-  const [dur, setDur] = useState(String(task?.durationMin ?? 30));
-
-  useEffect(() => {
-    setStart(task?.start ?? '09:00');
-    setDur(String(task?.durationMin ?? 30));
-  }, [task?.id, task?.start, task?.durationMin]);
-
-  // Read the live task so step toggles re-render.
+  // Read the live task so step toggles and status changes re-render.
   const live = useStore((s) => s.tasks.find((t) => t.id === task?.id));
-  if (!task || !live) return <Sheet visible={false} onClose={onClose} title=""><View /></Sheet>;
+  if (!task || !live) return null;
+  return (
+    <Sheet visible onClose={onClose} title={`${live.icon} ${live.title}`}>
+      {/* Keyed so the time fields re-initialize when the task's time changes. */}
+      <TaskDetail key={`${live.id}-${live.start}-${live.durationMin}`} task={live} onClose={onClose} />
+    </Sheet>
+  );
+}
 
+function TaskDetail({ task: live, onClose }: { task: Task; onClose: () => void }) {
+  const child = useStore((s) => s.children.find((c) => c.id === live.childId));
+  const { updateTask, completeTask, reopenTask, toggleStep, removeTask } = useStore.getState();
+  const [start, setStart] = useState(live.start);
+  const [dur, setDur] = useState(String(live.durationMin));
   const timeOk = /^([01]\d|2[0-3]):[0-5]\d$/.test(start) && Number(dur) > 0;
 
   return (
-    <Sheet visible onClose={onClose} title={`${live.icon} ${live.title}`}>
+    <>
       <Row wrap gap={6}>
         <ModeBadge mode={live.mode} />
         <Pill text={subjectLabel(live.subject)} />
@@ -75,6 +77,6 @@ export function TaskSheet({ task, onClose }: { task?: Task; onClose: () => void 
           <Button title="Mark done ✓" onPress={() => completeTask(live.id)} />
         )}
       </Row>
-    </Sheet>
+    </>
   );
 }

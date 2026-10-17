@@ -1,5 +1,5 @@
 import { router, useLocalSearchParams } from 'expo-router';
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { View } from 'react-native';
 
 import { BlockForm } from '@/components/BlockForm';
@@ -20,15 +20,9 @@ export default function RhythmBuilder() {
     return d === 0 || d === 6 ? 1 : d;
   });
   const [editing, setEditing] = useState<RhythmBlock | 'new' | null>(null);
-  const [oneOffDate, setOneOffDate] = useState<string | undefined>();
+  const oneOffDate = params.addFor;
+  const setOneOffDate = (d: string | undefined) => router.setParams({ addFor: d });
   const confirm = useConfirm();
-
-  useEffect(() => {
-    if (params.addFor) {
-      setOneOffDate(params.addFor);
-      router.setParams({ addFor: undefined });
-    }
-  }, [params.addFor]);
 
   const dayBlocks = useMemo(() => blocks.filter((b) => b.days.includes(day)).sort((a, b) => toMinutes(a.start) - toMinutes(b.start)), [blocks, day]);
   const conflicts = useMemo(() => findRhythmConflicts(blocks), [blocks]);

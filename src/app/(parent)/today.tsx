@@ -21,6 +21,12 @@ export default function FlightDeck() {
   const [openTask, setOpenTask] = useState<Task | undefined>();
   const [bumpOpen, setBumpOpen] = useState(false);
   const [toast, setToast] = useState('');
+  const [now, setNow] = useState(() => Date.now());
+
+  useEffect(() => {
+    const t = setInterval(() => setNow(Date.now()), 30_000);
+    return () => clearInterval(t);
+  }, []);
 
   const family = useStore((s) => s.family)!;
   const children = useStore((s) => s.children);
@@ -131,7 +137,7 @@ export default function FlightDeck() {
           const k = childName(h.childId);
           const t = allTasks.find((x) => x.id === h.taskId);
           const filler = suggestWhileWaiting(allTasks.filter((x) => x.date === todayKey()), h.childId, h.taskId);
-          const mins = Math.max(0, Math.round((Date.now() - Date.parse(h.createdAt)) / 60000));
+          const mins = Math.max(0, Math.round((now - Date.parse(h.createdAt)) / 60000));
           return (
             <View key={h.id} style={{ gap: 4, paddingVertical: 6, borderTopWidth: 1, borderColor: c.border }}>
               <T v="label">{k?.avatar} {k?.name} · {t ? t.title : 'General help'}</T>

@@ -37,6 +37,9 @@
   },
   "devDependencies": {
     "@types/react": "~19.3.0",
+    "eslint": "^9.0.0",
+    "eslint-config-expo": "~58.0.4",
+    "puppeteer-core": "^24.43.1",
     "typescript": "~6.0.3",
     "vitest": "^4.1.12"
   },
@@ -48,7 +51,8 @@
     "web": "expo start --web",
     "lint": "expo lint",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test:e2e": "mkdir -p e2e/screenshots && node e2e/onboarding.mjs && node e2e/smoke.mjs && W=390 H=844 node e2e/smoke.mjs"
   },
   "private": true
 }

@@ -211,7 +211,6 @@ export const useStore = create<Store>()(
         return moves.length;
       },
       bumpDay: (date, target, opts) => {
-        const s = get();
         // Make sure the target day's rhythm exists first so bumped work lands after it.
         get().ensureTasks(target);
         const { tasks, moved } = gentleBump(get().tasks, date, target, opts);

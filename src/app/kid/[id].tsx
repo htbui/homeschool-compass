@@ -1,5 +1,5 @@
 import { router, useLocalSearchParams } from 'expo-router';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Pressable, Text, View } from 'react-native';
 
 import { PinPad } from '@/components/PinPad';
@@ -35,10 +35,7 @@ export default function DailyAdventure() {
     ensureTasks(today);
   }, [today, ensureTasks]);
 
-  const tasks = useMemo(
-    () => allTasks.filter((t) => t.childId === id && t.date === today && t.status !== 'skipped').sort((a, b) => toMinutes(a.start) - toMinutes(b.start)),
-    [allTasks, id, today],
-  );
+  const tasks = allTasks.filter((t) => t.childId === id && t.date === today && t.status !== 'skipped').sort((a, b) => toMinutes(a.start) - toMinutes(b.start));
 
   if (!kid) {
     return (

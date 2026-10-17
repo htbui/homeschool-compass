@@ -37,21 +37,23 @@ export default function ActivityCard() {
   const [reflection, setReflection] = useState('');
   const [celebrate, setCelebrate] = useState(false);
   const tick = useRef<ReturnType<typeof setInterval> | null>(null);
-
-  useEffect(() => {
-    if (running) tick.current = setInterval(() => setElapsed((e) => e + 1), 1000);
-    return () => {
-      if (tick.current) clearInterval(tick.current);
-    };
-  }, [running]);
+  const elapsedRef = useRef(0);
 
   const POMODORO = 25 * 60;
   useEffect(() => {
-    if (timerMode === 'pomodoro' && elapsed >= POMODORO && running) {
-      setRunning(false);
-      speak('Great focus! Time for a 5 minute break.');
-    }
-  }, [elapsed, timerMode, running, POMODORO]);
+    if (!running) return;
+    tick.current = setInterval(() => {
+      elapsedRef.current += 1;
+      setElapsed(elapsedRef.current);
+      if (timerMode === 'pomodoro' && elapsedRef.current >= POMODORO) {
+        setRunning(false);
+        speak('Great focus! Time for a 5 minute break.');
+      }
+    }, 1000);
+    return () => {
+      if (tick.current) clearInterval(tick.current);
+    };
+  }, [running, timerMode, POMODORO]);
 
   if (!task || !kid) {
     return (
@@ -143,6 +145,7 @@ export default function ActivityCard() {
             value={timerMode}
             onChange={(m) => {
               setTimerMode(m);
+              elapsedRef.current = 0;
               setElapsed(0);
               setRunning(false);
             }}
