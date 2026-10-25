@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { View } from 'react-native';
 
-import { ageOn, todayKey } from '@/lib/dates';
+import { ageOn, formatDate, todayKey } from '@/lib/dates';
 import { uid } from '@/lib/id';
 import type { Child, LearningDifference } from '@/lib/types';
 import { AVATARS, KID_COLORS } from '@/store/seed';
-import { Button, Chip, Field, Row, space, Stack, T } from '@/ui';
+import { Button, Chip, DateField, Field, Row, space, Stack, T } from '@/ui';
 
 const DIFFS: { value: LearningDifference; label: string }[] = [
   { value: 'adhd', label: 'ADHD' },
@@ -27,37 +27,40 @@ export function gradeForAge(age: number) {
 
 export function ChildForm({ initial, index, onSave, onCancel }: { initial?: Child; index: number; onSave: (c: Child) => void; onCancel?: () => void }) {
   const [name, setName] = useState(initial?.name ?? '');
-  const [birthdate, setBirthdate] = useState(initial?.birthdate ?? '');
+  const [birthdate, setBirthdate] = useState<string | undefined>(initial?.birthdate);
   const [grade, setGrade] = useState(initial?.grade ?? '');
+  // Grade follows the birthdate until the parent picks one explicitly.
+  const [gradeTouched, setGradeTouched] = useState(!!initial?.grade);
   const [avatar, setAvatar] = useState(initial?.avatar ?? AVATARS[index % AVATARS.length]);
   const [diffs, setDiffs] = useState<LearningDifference[]>(initial?.learningDifferences ?? []);
   const [passions, setPassions] = useState((initial?.passions ?? []).join(', '));
   const [solo, setSolo] = useState(initial?.soloToleranceMin ?? 15);
   const [pin, setPin] = useState(initial?.pin ?? '');
 
-  const validDate = /^\d{4}-\d{2}-\d{2}$/.test(birthdate) && !Number.isNaN(Date.parse(birthdate)) && birthdate < todayKey();
-  const age = validDate ? ageOn(birthdate) : undefined;
-  const ok = name.trim() && validDate && (pin === '' || /^\d{4}$/.test(pin));
+  const age = birthdate ? ageOn(birthdate) : undefined;
+  const pinOk = pin === '' || /^\d{4}$/.test(pin);
+  const missing = [!name.trim() && 'a name', !birthdate && 'a valid birthdate', !pinOk && 'a 4-digit PIN (or leave it blank)'].filter(Boolean);
+  const ok = missing.length === 0;
 
   return (
     <Stack gap={space.lg}>
       <Field label="Name" value={name} onChangeText={setName} placeholder="Maya" />
-      <Field
+      <DateField
         label="Birthdate"
-        placeholder="YYYY-MM-DD"
+        required
         value={birthdate}
-        onChangeText={(v) => {
-          setBirthdate(v);
-          if (/^\d{4}-\d{2}-\d{2}$/.test(v) && !grade) setGrade(gradeForAge(ageOn(v)));
+        onChange={(d) => {
+          setBirthdate(d);
+          if (d && !gradeTouched) setGrade(gradeForAge(ageOn(d)));
         }}
-        hint={age !== undefined ? `Age ${age}` : 'Format: 2017-05-21'}
-        keyboardType="numbers-and-punctuation"
+        validate={(d) => (d >= todayKey() ? 'Birthdate must be in the past' : ageOn(d) > 21 ? 'Kinship is for learners up to age 21' : undefined)}
+        describe={(d) => `${formatDate(d, { month: 'long', day: 'numeric', year: 'numeric' })} · age ${ageOn(d)}`}
       />
       <View style={{ gap: 6 }}>
         <T v="label">Grade level</T>
         <Row wrap gap={6}>
           {GRADES.map((g) => (
-            <Chip key={g} label={g} selected={grade === g} onPress={() => setGrade(g)} />
+            <Chip key={g} label={g} selected={grade === g} onPress={() => { setGrade(g); setGradeTouched(true); }} />
           ))}
         </Row>
       </View>
@@ -90,9 +93,12 @@ export function ChildForm({ initial, index, onSave, onCancel }: { initial?: Chil
       <Row style={{ justifyContent: 'flex-end' }}>
         {onCancel ? <Button title="Cancel" kind="secondary" onPress={onCancel} /> : null}
         <Button
+          style={{ flexShrink: 1 }}
           title={initial ? 'Save' : 'Add child'}
           disabled={!ok}
+          reason={ok ? undefined : `Still needed: ${missing.join(', ')}`}
           onPress={() =>
+            birthdate &&
             onSave({
               id: initial?.id ?? uid('k'),
               name: name.trim(),

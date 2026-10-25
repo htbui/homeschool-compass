@@ -61,7 +61,7 @@ export default function NoiScreen() {
           {signed ? (
             <Button kind="secondary" title={`Signed ${noi.signedAt!.slice(0, 10)} · Unsign`} onPress={() => updateNoi({ signedAt: undefined, checklist: { ...noi.checklist, signed: false } })} />
           ) : (
-            <Button title="Sign letter ✍️" disabled={!canSign} onPress={() => updateNoi({ signedAt: new Date().toISOString(), checklist: { ...noi.checklist, signed: true } })} />
+            <Button title="Sign letter ✍️" disabled={!canSign} reason={`Still needed: ${[!noi.parentName.trim() && 'educator name', !noi.address.trim() && 'home address', noi.signature.trim().length <= 2 && 'your typed signature'].filter(Boolean).join(', ')}`} onPress={() => updateNoi({ signedAt: new Date().toISOString(), checklist: { ...noi.checklist, signed: true } })} />
           )}
           <Button kind={signed ? 'primary' : 'secondary'} icon="⬇️" title="Export PDF" loading={busy} onPress={exportLetter} />
         </Row>

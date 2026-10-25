@@ -12,7 +12,8 @@ export default function FamilyStep() {
   const d = useDraft();
   const law = getStateLaw(d.stateCode);
   const pinOk = /^\d{4}$/.test(d.parentPin);
-  const canContinue = d.familyName.trim() && d.parentName.trim() && pinOk && law;
+  const missing = [!d.familyName.trim() && 'family name', !d.parentName.trim() && 'your name', !pinOk && '4-digit parent PIN', !law && 'state'].filter(Boolean);
+  const canContinue = missing.length === 0;
 
   return (
     <Screen>
@@ -45,7 +46,7 @@ export default function FamilyStep() {
           <StatePicker value={d.stateCode} onChange={(stateCode) => d.set({ stateCode })} />
         </View>
         {law ? <StateRadarCard law={law} /> : null}
-        <Button size="lg" title="Continue" disabled={!canContinue} onPress={() => router.push('/onboarding/kids')} />
+        <Button size="lg" title="Continue" disabled={!canContinue} reason={`Still needed: ${missing.join(', ')}`} onPress={() => router.push('/onboarding/kids')} />
       </Stack>
     </Screen>
   );

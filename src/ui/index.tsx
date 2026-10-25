@@ -21,6 +21,7 @@ import type { AttentionMode } from '@/lib/types';
 import { fonts, MAX_WIDTH, MODE_META, modeColors, radius, space, useColors } from './theme';
 
 export * from './theme';
+export { DateField, MoneyField, ParsedField, TimeField } from './fields';
 
 type Variant = 'display' | 'title' | 'heading' | 'body' | 'label' | 'caption';
 
@@ -75,8 +76,18 @@ export function Button({
   size = 'md',
   loading,
   style,
+  reason,
   ...rest
-}: PressableProps & { title: string; kind?: BtnKind; icon?: string; size?: 'sm' | 'md' | 'lg'; loading?: boolean; style?: StyleProp<ViewStyle> }) {
+}: PressableProps & {
+  title: string;
+  kind?: BtnKind;
+  icon?: string;
+  size?: 'sm' | 'md' | 'lg';
+  loading?: boolean;
+  style?: StyleProp<ViewStyle>;
+  /** Shown under the button while it's disabled, so people know what's missing. */
+  reason?: string;
+}) {
   const c = useColors();
   const palette: Record<BtnKind, { bg: string; fg: string; border: string }> = {
     primary: { bg: c.primary, fg: c.primaryText, border: c.primary },
@@ -86,6 +97,14 @@ export function Button({
     accent: { bg: c.accent, fg: '#2B1D05', border: c.accent },
   };
   const p = palette[kind];
+  if (rest.disabled && reason) {
+    return (
+      <View style={[{ gap: 4 }, style]}>
+        <Button title={title} kind={kind} icon={icon} size={size} loading={loading} {...rest} />
+        <Text style={{ color: c.textMuted, fontSize: 12, fontFamily: fonts.body, textAlign: 'center' }}>{reason}</Text>
+      </View>
+    );
+  }
   const pad = size === 'sm' ? { paddingVertical: 6, paddingHorizontal: 12 } : size === 'lg' ? { paddingVertical: 16, paddingHorizontal: 22 } : { paddingVertical: 11, paddingHorizontal: 16 };
   return (
     <Pressable
@@ -226,8 +245,11 @@ export function Sheet({ visible, onClose, title, children }: { visible: boolean;
   const c = useColors();
   return (
     <Modal visible={visible} transparent animationType="fade" onRequestClose={onClose}>
-      <Pressable style={styles.backdrop} onPress={onClose}>
-        <Pressable style={[styles.sheet, { backgroundColor: c.bg, borderColor: c.border }]} onPress={() => {}}>
+      <View style={styles.backdrop}>
+        {/* Backdrop is a sibling layer, not a wrapper: a focusable Pressable around the
+            content steals focus from text inputs on web. */}
+        <Pressable style={StyleSheet.absoluteFill} onPress={onClose} accessibilityLabel="Close dialog" />
+        <View style={[styles.sheet, { backgroundColor: c.bg, borderColor: c.border }]}>
           <Row style={{ justifyContent: 'space-between', marginBottom: space.md }}>
             <T v="title" style={{ flex: 1 }}>{title}</T>
             <Pressable onPress={onClose} accessibilityLabel="Close" hitSlop={12}>
@@ -237,8 +259,8 @@ export function Sheet({ visible, onClose, title, children }: { visible: boolean;
           <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{ gap: space.md, paddingBottom: space.lg }}>
             {children}
           </ScrollView>
-        </Pressable>
-      </Pressable>
+        </View>
+      </View>
     </Modal>
   );
 }

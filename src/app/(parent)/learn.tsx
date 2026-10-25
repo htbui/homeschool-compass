@@ -4,13 +4,14 @@ import { View } from 'react-native';
 import { formatDate } from '@/lib/dates';
 import { uid } from '@/lib/id';
 import { CURRICULUM_PRESETS, pacing } from '@/lib/pacing';
+import { parseCount } from '@/lib/parse';
 import { PHILOSOPHY_INFO } from '@/lib/quiz';
 import { CURRICULUM_SUGGESTIONS } from '@/lib/recommend';
 import { SUBJECT_LIST, SUBJECTS, subjectLabel } from '@/lib/subjects';
 import type { Curriculum, RhythmBlock, Subject } from '@/lib/types';
 import { generateUnitStudy, TIER_LABEL, type UnitPlan } from '@/lib/unitStudy';
 import { useStore } from '@/store/useStore';
-import { Button, Card, Chip, Empty, Field, Pill, Progress, Row, Screen, Section, Segmented, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
+import { Button, Card, Chip, DateField, Empty, Field, Pill, Progress, Row, Screen, Section, Segmented, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
 
 type Tab = 'curricula' | 'unit';
 
@@ -176,10 +177,21 @@ function CurriculumForm({ initial, onSave, onDelete }: { initial?: Curriculum; o
   const [done, setDone] = useState(String(initial?.lessonsDone ?? 0));
   const [childIds, setChildIds] = useState<string[]>(initial?.childIds ?? kids.slice(0, 1).map((k) => k.id));
   const [model, setModel] = useState<Curriculum['model']>(initial?.model ?? 'turnkey');
-  const [start, setStart] = useState(initial?.startDate ?? family.schoolYearStart);
-  const [end, setEnd] = useState(initial?.targetEndDate ?? family.schoolYearEnd);
-  const dateOk = (d: string) => /^\d{4}-\d{2}-\d{2}$/.test(d);
-  const ok = name.trim() && Number(lessons) > 0 && childIds.length && dateOk(start) && dateOk(end) && end > start;
+  const [start, setStart] = useState<string | undefined>(initial?.startDate ?? family.schoolYearStart);
+  const [end, setEnd] = useState<string | undefined>(initial?.targetEndDate ?? family.schoolYearEnd);
+  const total = parseCount(lessons);
+  const completed = done.trim() === '' || done.trim() === '0' ? 0 : parseCount(done);
+  const missing = [
+    !name.trim() && 'a name',
+    !total && 'total lessons',
+    completed === undefined && 'a whole number of completed lessons',
+    total && completed !== undefined && completed > total && 'completed ≤ total',
+    childIds.length === 0 && 'at least one student',
+    !start && 'a start date',
+    !end && 'a target finish date',
+    start && end && end <= start && 'a finish date after the start',
+  ].filter(Boolean);
+  const ok = missing.length === 0;
   const presets = useMemo(() => CURRICULUM_PRESETS, []);
 
   return (
@@ -203,13 +215,13 @@ function CurriculumForm({ initial, onSave, onDelete }: { initial?: Curriculum; o
           ))}
         </Row>
       </View>
-      <Row gap={space.md}>
-        <View style={{ flex: 1 }}><Field label="Total lessons" keyboardType="number-pad" value={lessons} onChangeText={(v) => setLessons(v.replace(/\D/g, ''))} /></View>
-        <View style={{ flex: 1 }}><Field label="Completed" keyboardType="number-pad" value={done} onChangeText={(v) => setDone(v.replace(/\D/g, ''))} /></View>
+      <Row gap={space.md} align="flex-start">
+        <View style={{ flex: 1 }}><Field label="Total lessons" keyboardType="number-pad" value={lessons} onChangeText={setLessons} placeholder="120" /></View>
+        <View style={{ flex: 1 }}><Field label="Completed so far" keyboardType="number-pad" value={done} onChangeText={setDone} placeholder="0" /></View>
       </Row>
-      <Row gap={space.md}>
-        <View style={{ flex: 1 }}><Field label="Start" value={start} onChangeText={setStart} placeholder="YYYY-MM-DD" /></View>
-        <View style={{ flex: 1 }}><Field label="Target finish" value={end} onChangeText={setEnd} placeholder="YYYY-MM-DD" /></View>
+      <Row gap={space.md} align="flex-start" wrap>
+        <View style={{ flex: 1, minWidth: 200 }}><DateField label="Start" value={start} onChange={setStart} /></View>
+        <View style={{ flex: 1, minWidth: 200 }}><DateField label="Target finish" value={end} onChange={setEnd} /></View>
       </Row>
       <View style={{ gap: 6 }}>
         <T v="label">Students</T>
@@ -232,14 +244,18 @@ function CurriculumForm({ initial, onSave, onDelete }: { initial?: Curriculum; o
         <Button
           title="Save"
           disabled={!ok}
+          reason={`Still needed: ${missing.join(', ')}`}
           onPress={() =>
+            total &&
+            start &&
+            end &&
             onSave({
               id: initial?.id ?? uid('c'),
               name: name.trim(),
               subject,
               childIds,
-              totalLessons: Number(lessons),
-              lessonsDone: Math.min(Number(done) || 0, Number(lessons)),
+              totalLessons: total,
+              lessonsDone: Math.min(completed ?? 0, total),
               startDate: start,
               targetEndDate: end,
               schoolDays: initial?.schoolDays ?? family.schoolDays,

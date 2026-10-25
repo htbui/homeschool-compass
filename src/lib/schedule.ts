@@ -207,9 +207,16 @@ export function gentleBump(
 
   const moving = new Set(toMove.map((t) => t.id));
   const nextEnd = new Map<ID, number>();
+  // The parent's commitments on the target day (one entry per activity).
+  const parentBusy: Interval[] = [];
+  const seenActivity = new Set<string>();
   for (const t of tasks) {
-    if (t.date !== target) continue;
+    if (t.date !== target || moving.has(t.id) || t.status === 'skipped') continue;
     nextEnd.set(t.childId, Math.max(nextEnd.get(t.childId) ?? 0, taskInterval(t).end));
+    if (needsParent(t) && !seenActivity.has(activityKey(t))) {
+      seenActivity.add(activityKey(t));
+      parentBusy.push(taskInterval(t));
+    }
   }
 
   // Group copies move together and keep a shared start time.
@@ -222,10 +229,19 @@ export function gentleBump(
       continue;
     }
     const peers = t.groupKey ? sorted.filter((x) => x.groupKey === t.groupKey) : [t];
-    const earliest = Math.max(toMinutes(t.start), ...peers.map((p) => nextEnd.get(p.childId) ?? 0));
-    for (const p of peers) nextEnd.set(p.childId, earliest + t.durationMin);
-    if (t.groupKey) groupStart.set(t.groupKey, earliest);
-    newStart.set(t.id, earliest);
+    let start = Math.max(toMinutes(t.start), ...peers.map((p) => nextEnd.get(p.childId) ?? 0));
+    // Parent-led work also has to wait until the parent is free.
+    if (needsParent(t)) {
+      for (let guard = 0; guard < 200; guard++) {
+        const clash = parentBusy.find((b) => overlaps(b, { start, end: start + t.durationMin }));
+        if (!clash) break;
+        start = clash.end;
+      }
+      parentBusy.push({ start, end: start + t.durationMin });
+    }
+    for (const p of peers) nextEnd.set(p.childId, start + t.durationMin);
+    if (t.groupKey) groupStart.set(t.groupKey, start);
+    newStart.set(t.id, start);
   }
 
   const updated = tasks.map((t) => {

@@ -221,26 +221,40 @@ export default function FlightDeck() {
       ) : null}
 
       <Section title="Daily orchestration timeline" subtitle={formatDate(date, { weekday: 'long', month: 'long', day: 'numeric' })}>
-        {children.length === 0 ? (
-          <Empty icon="🧒" title="Add your kids in Settings" />
-        ) : tasks.length === 0 ? (
-          <Empty
-            icon="🌤️"
-            title={blocksCount ? 'Nothing scheduled this day' : 'No rhythm yet'}
-            body={blocksCount ? 'It may be a weekend or a day off. Enjoy it!' : 'Build a weekly rhythm and each day fills in automatically.'}
-            action={<Button title={blocksCount ? 'Add a task' : 'Build my rhythm'} onPress={() => router.push('/schedule')} />}
-          />
-        ) : wide ? (
-          <Row align="flex-start" gap={space.lg}>
-            <View style={{ flex: 1 }}>{timeline}</View>
-            {sidePanel}
-          </Row>
-        ) : (
-          <Stack>
-            {timeline}
-            {sidePanel}
-          </Stack>
-        )}
+        {(() => {
+          const main =
+            children.length === 0 ? (
+              <Card><Empty icon="🧒" title="Add your kids in Settings" /></Card>
+            ) : tasks.length === 0 ? (
+              <Card>
+                <Empty
+                  icon="🌤️"
+                  title={blocksCount ? 'Nothing scheduled this day' : 'No rhythm yet'}
+                  body={blocksCount ? 'It may be a weekend or a day off. Enjoy it!' : 'Build a weekly rhythm and each day fills in automatically.'}
+                  action={
+                    <Button
+                      title={blocksCount ? 'Add a task' : 'Build my rhythm'}
+                      onPress={() => router.push(blocksCount ? { pathname: '/schedule', params: { addFor: date } } : '/schedule')}
+                    />
+                  }
+                />
+              </Card>
+            ) : (
+              timeline
+            );
+          // The help queue and compliance radar stay visible even on empty days.
+          return wide ? (
+            <Row align="flex-start" gap={space.lg}>
+              <View style={{ flex: 1 }}>{main}</View>
+              {sidePanel}
+            </Row>
+          ) : (
+            <Stack>
+              {main}
+              {sidePanel}
+            </Stack>
+          );
+        })()}
       </Section>
 
       <TaskSheet task={openTask} onClose={() => setOpenTask(undefined)} />

@@ -37,7 +37,7 @@ export default function KidsStep() {
           </Card>
         ))}
         <Button kind="secondary" icon="＋" title="Add a child" onPress={() => setEditing('new')} />
-        <Button size="lg" title="Continue to style quiz" disabled={children.length === 0} onPress={() => router.push('/onboarding/quiz')} style={{ marginTop: space.lg }} />
+        <Button size="lg" title="Continue to style quiz" disabled={children.length === 0} reason="Add at least one child to continue" onPress={() => router.push('/onboarding/quiz')} style={{ marginTop: space.lg }} />
       </Stack>
 
       <Sheet visible={editing !== null} onClose={() => setEditing(null)} title={editing === 'new' ? 'Add a child' : 'Edit child'}>

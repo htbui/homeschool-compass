@@ -3,11 +3,12 @@ import { View } from 'react-native';
 
 import { matchFamilies, SAMPLE_FAMILIES } from '@/lib/community';
 import { formatDate, addDays, todayKey } from '@/lib/dates';
+import { parseCount } from '@/lib/parse';
 import { PHILOSOPHY_INFO } from '@/lib/quiz';
 import { SUBJECT_LIST, SUBJECTS, subjectLabel } from '@/lib/subjects';
 import type { Philosophy, Subject, SwapListing } from '@/lib/types';
 import { useStore } from '@/store/useStore';
-import { Button, Card, Chip, Field, Pill, Row, Screen, Section, Segmented, Sheet, space, Stack, T, useColors } from '@/ui';
+import { Button, Card, Chip, DateField, Field, MoneyField, Pill, Row, Screen, Section, Segmented, Sheet, space, Stack, T, useColors } from '@/ui';
 
 type Tab = 'families' | 'coops' | 'events' | 'swap';
 const RADII = [2, 5, 10, 25, 50];
@@ -196,22 +197,29 @@ function CoopSheet({ visible, onClose, onSave }: { visible: boolean; onClose: ()
 
 function EventSheet({ visible, onClose, onSave }: { visible: boolean; onClose: () => void; onSave: (e: { title: string; date: string; location: string; ages: string; costPerKid: number; capacity: number }) => void }) {
   const [title, setTitle] = useState('');
-  const [date, setDate] = useState(addDays(todayKey(), 7));
+  const [date, setDate] = useState<string | undefined>(addDays(todayKey(), 7));
   const [location, setLocation] = useState('');
   const [ages, setAges] = useState('All ages');
-  const [cost, setCost] = useState('0');
+  const [cost, setCost] = useState<number | undefined>(0);
   const [capacity, setCapacity] = useState('20');
+  const cap = parseCount(capacity);
+  const missing = [!title.trim() && 'a title', !date && 'a valid upcoming date', cost === undefined && 'a cost (0 for free)', !cap && 'capacity'].filter(Boolean);
   return (
     <Sheet visible={visible} onClose={onClose} title="Organize a field trip">
       <Field label="Title" value={title} onChangeText={setTitle} />
-      <Field label="Date" value={date} onChangeText={setDate} />
+      <DateField label="Date" value={date} onChange={setDate} validate={(d) => (d < todayKey() ? 'Pick today or a future date' : undefined)} />
       <Field label="Location (public meeting place)" value={location} onChangeText={setLocation} />
       <Field label="Ages" value={ages} onChangeText={setAges} />
-      <Row gap={space.md}>
-        <View style={{ flex: 1 }}><Field label="Cost per kid ($)" keyboardType="decimal-pad" value={cost} onChangeText={setCost} /></View>
+      <Row gap={space.md} align="flex-start">
+        <View style={{ flex: 1 }}><MoneyField label="Cost per kid ($)" value={cost} onChange={setCost} example="0" /></View>
         <View style={{ flex: 1 }}><Field label="Capacity" keyboardType="number-pad" value={capacity} onChangeText={setCapacity} /></View>
       </Row>
-      <Button title="Create" disabled={!title.trim() || !/^\d{4}-\d{2}-\d{2}$/.test(date)} onPress={() => onSave({ title: title.trim(), date, location: location.trim() || 'TBD', ages, costPerKid: Number(cost) || 0, capacity: Number(capacity) || 20 })} />
+      <Button
+        title="Create"
+        disabled={missing.length > 0}
+        reason={`Still needed: ${missing.join(', ')}`}
+        onPress={() => date && cap && onSave({ title: title.trim(), date, location: location.trim() || 'TBD', ages, costPerKid: cost ?? 0, capacity: cap })}
+      />
     </Sheet>
   );
 }
@@ -220,7 +228,7 @@ function SwapSheet({ visible, onClose, onSave }: { visible: boolean; onClose: ()
   const [title, setTitle] = useState('');
   const [subject, setSubject] = useState<Subject>('math');
   const [condition, setCondition] = useState<SwapListing['condition']>('good');
-  const [price, setPrice] = useState('0');
+  const [price, setPrice] = useState<number | undefined>(0);
   return (
     <Sheet visible={visible} onClose={onClose} title="List an item">
       <Field label="What is it?" value={title} onChangeText={setTitle} placeholder="Saxon Math 6/5 student text" />
@@ -234,8 +242,13 @@ function SwapSheet({ visible, onClose, onSave }: { visible: boolean; onClose: ()
           <Chip key={cnd} label={cnd.replace('_', ' ')} selected={condition === cnd} onPress={() => setCondition(cnd)} />
         ))}
       </Row>
-      <Field label="Price ($, 0 = free)" keyboardType="decimal-pad" value={price} onChangeText={setPrice} />
-      <Button title="List it" disabled={!title.trim()} onPress={() => onSave({ title: title.trim(), subject, condition, price: Number(price) || 0 })} />
+      <MoneyField label="Price ($, 0 = free)" value={price} onChange={setPrice} example="0" />
+      <Button
+        title="List it"
+        disabled={!title.trim() || price === undefined}
+        reason={!title.trim() ? 'Describe the item' : 'Enter a price (0 for free)'}
+        onPress={() => onSave({ title: title.trim(), subject, condition, price: price ?? 0 })}
+      />
     </Sheet>
   );
 }

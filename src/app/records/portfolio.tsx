@@ -6,7 +6,7 @@ import { SUBJECT_LIST, SUBJECTS, subjectLabel } from '@/lib/subjects';
 import type { Evidence, Subject } from '@/lib/types';
 import { useStore } from '@/store/useStore';
 import { deletePhoto, pickPhoto } from '@/services/media';
-import { Button, Card, Chip, Empty, Field, Row, Screen, Section, Sheet, space, Stack, T, useConfirm } from '@/ui';
+import { Button, Card, Chip, DateField, Empty, Field, Row, Screen, Section, Sheet, space, Stack, T, useConfirm } from '@/ui';
 
 export default function PortfolioVault() {
   const kids = useStore((s) => s.children);
@@ -76,12 +76,13 @@ export default function PortfolioVault() {
                 <Chip key={s} label={`${SUBJECTS[s].icon} ${SUBJECTS[s].label}`} selected={draft.subject === s} onPress={() => setDraft({ ...draft, subject: s })} />
               ))}
             </Row>
-            <Field label="Date" value={draft.date} onChangeText={(date) => setDraft({ ...draft, date })} />
+            <DateField label="Date" value={draft.date} onChange={(date) => setDraft({ ...draft, date: date ?? '' })} />
             <Field label="Note" value={draft.note} onChangeText={(note) => setDraft({ ...draft, note })} placeholder="Long division practice, p. 42" />
             <Field label="Learning standard (optional)" value={draft.standard ?? ''} onChangeText={(standard) => setDraft({ ...draft, standard })} placeholder="CCSS.MATH.4.NBT.B.6" />
             <Button
               title="Save to portfolio"
-              disabled={!draft.childId}
+              disabled={!draft.childId || !draft.date}
+              reason={!draft.childId ? 'Choose a child' : 'Enter a valid date'}
               onPress={() => {
                 addEvidence({ ...draft, standard: draft.standard?.trim() || undefined });
                 setDraft(null);

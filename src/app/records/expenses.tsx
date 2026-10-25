@@ -9,7 +9,7 @@ import type { Expense, FundingSource } from '@/lib/types';
 import { useStore } from '@/store/useStore';
 import { exportHtml } from '@/services/exportDoc';
 import { pickPhoto } from '@/services/media';
-import { Button, Card, Chip, Empty, Field, Pill, Progress, Row, Screen, Section, Sheet, space, Stack, Stat, T, useColors } from '@/ui';
+import { Button, Card, Chip, DateField, Empty, Field, MoneyField, Pill, Progress, Row, Screen, Section, Sheet, space, Stack, Stat, T, useColors } from '@/ui';
 
 const CATEGORIES: Expense['category'][] = ['curriculum', 'supplies', 'tutoring', 'technology', 'field_trip', 'testing', 'other'];
 const SOURCES: { value: FundingSource; label: string }[] = [
@@ -27,7 +27,7 @@ export default function ExpensesScreen() {
   const award = useStore((s) => s.esaAnnualAward);
   const { upsertExpense, removeExpense, setEsaAward } = useStore.getState();
   const [editing, setEditing] = useState<Expense | null>(null);
-  const [awardText, setAwardText] = useState(award ? String(award) : '');
+  const [awardDraft, setAwardDraft] = useState<number | undefined>(award || undefined);
   const [busy, setBusy] = useState(false);
   const law = getStateLaw(family.stateCode);
 
@@ -70,9 +70,9 @@ export default function ExpensesScreen() {
         </Row>
         <Row gap={space.sm} align="flex-end">
           <View style={{ flex: 1 }}>
-            <Field label="Annual ESA award" keyboardType="decimal-pad" value={awardText} onChangeText={setAwardText} placeholder="7000" />
+            <MoneyField label="Annual ESA award" value={awardDraft} onChange={setAwardDraft} example="7,000" />
           </View>
-          <Button kind="secondary" title="Save" onPress={() => setEsaAward(Number(awardText) || 0)} />
+          <Button kind="secondary" title={awardDraft === award ? 'Saved ✓' : 'Save'} disabled={awardDraft === undefined || awardDraft === award} onPress={() => awardDraft !== undefined && setEsaAward(awardDraft)} />
         </Row>
         {award ? <Progress value={esaSpent / award} color={esaSpent > award ? c.danger : c.success} /> : null}
         <Row wrap>
@@ -109,9 +109,9 @@ export default function ExpensesScreen() {
           <Stack gap={space.md}>
             <Field label="Vendor" value={editing.vendor} onChangeText={(vendor) => setEditing({ ...editing, vendor })} placeholder="Rainbow Resource Center" />
             <Field label="Description" value={editing.description} onChangeText={(description) => setEditing({ ...editing, description })} />
-            <Row gap={space.md}>
-              <View style={{ flex: 1 }}><Field label="Amount ($)" keyboardType="decimal-pad" value={editing.amount ? String(editing.amount) : ''} onChangeText={(v) => setEditing({ ...editing, amount: Number(v.replace(/[^\d.]/g, '')) || 0 })} /></View>
-              <View style={{ flex: 1 }}><Field label="Date" value={editing.date} onChangeText={(date) => setEditing({ ...editing, date })} /></View>
+            <Row gap={space.md} align="flex-start" wrap>
+              <View style={{ flex: 1, minWidth: 150 }}><MoneyField label="Amount ($)" required value={editing.amount || undefined} onChange={(v) => setEditing({ ...editing, amount: v ?? 0 })} /></View>
+              <View style={{ flex: 1, minWidth: 180 }}><DateField label="Date" required value={editing.date || undefined} onChange={(date) => setEditing({ ...editing, date: date ?? '' })} /></View>
             </Row>
             <Row wrap gap={6}>
               {CATEGORIES.map((cat) => (
@@ -134,7 +134,12 @@ export default function ExpensesScreen() {
             <Button kind="secondary" icon="🧾" title={editing.receiptUri ? 'Replace receipt' : 'Attach receipt'} onPress={async () => { const uri = await pickPhoto('library'); if (uri) setEditing({ ...editing, receiptUri: uri }); }} />
             <Row style={{ justifyContent: 'flex-end' }}>
               {expenses.some((x) => x.id === editing.id) ? <Button kind="danger" title="Delete" onPress={() => { removeExpense(editing.id); setEditing(null); }} /> : null}
-              <Button title="Save" disabled={!editing.amount || !editing.vendor.trim()} onPress={() => { upsertExpense(editing); setEditing(null); }} />
+              <Button
+                title="Save"
+                disabled={!editing.amount || !editing.vendor.trim() || !editing.date}
+                reason={`Still needed: ${[!editing.vendor.trim() && 'vendor', !editing.amount && 'an amount', !editing.date && 'a valid date'].filter(Boolean).join(', ')}`}
+                onPress={() => { upsertExpense(editing); setEditing(null); }}
+              />
             </Row>
           </Stack>
         ) : null}

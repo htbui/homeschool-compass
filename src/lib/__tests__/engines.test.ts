@@ -133,6 +133,21 @@ describe('rhythm materialization + gentle bump', () => {
     expect(new Set(g.map((t) => t.start)).size).toBe(1);
   });
 
+  it('never double-books the parent on the target day', () => {
+    const today = '2026-10-19';
+    const target = '2026-10-20';
+    const tasks = [
+      // Already on the target day: Maya's 1-on-1 at 13:30.
+      task({ id: 'maya-existing', childId: 'maya', date: target, start: '13:30', mode: 'parent' }),
+      task({ id: 'leo-existing', childId: 'leo', date: target, start: '13:00', mode: 'solo' }),
+      // Bumped from today: Leo's 1-on-1 would land at 13:30 (after his last task) — same as Maya's.
+      task({ id: 'leo-bumped', childId: 'leo', date: today, start: '09:00', mode: 'parent' }),
+      task({ id: 'maya-bumped', childId: 'maya', date: today, start: '09:00', mode: 'parent' }),
+    ];
+    const { tasks: out } = gentleBump(tasks, today, target);
+    expect(findParentConflicts(out.filter((t) => t.date === target))).toEqual([]);
+  });
+
   it('offers next school day and flex day targets', () => {
     // Monday → Tuesday next school day, Friday flex
     const targets = bumpTargets('2026-10-19', [1, 2, 3, 4, 5], 5);

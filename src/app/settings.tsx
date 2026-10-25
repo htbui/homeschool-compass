@@ -9,7 +9,7 @@ import { describeResult } from '@/lib/quiz';
 import type { Child, Weekday } from '@/lib/types';
 import { useStore } from '@/store/useStore';
 import { shareText } from '@/services/exportDoc';
-import { Button, Card, Chip, Field, Row, Screen, Section, Sheet, space, Stack, T, useConfirm } from '@/ui';
+import { Button, Card, Chip, DateField, Field, Row, Screen, Section, Sheet, space, Stack, T, useConfirm } from '@/ui';
 
 export default function Settings() {
   const family = useStore((s) => s.family);
@@ -20,6 +20,7 @@ export default function Settings() {
   const [importText, setImportText] = useState('');
   const [importError, setImportError] = useState('');
   const [pin, setPin] = useState('');
+  const [pinSaved, setPinSaved] = useState(false);
   const confirm = useConfirm();
 
   if (!family) return null;
@@ -37,9 +38,9 @@ export default function Settings() {
           </View>
           <Row gap={space.sm} align="flex-end">
             <View style={{ flex: 1 }}>
-              <Field label="Change parent PIN" keyboardType="number-pad" maxLength={4} secureTextEntry value={pin} onChangeText={(v) => setPin(v.replace(/\D/g, ''))} placeholder="New 4-digit PIN" />
+              <Field label="Change parent PIN" keyboardType="number-pad" maxLength={4} secureTextEntry value={pin} onChangeText={(v) => { setPin(v.replace(/\D/g, '')); setPinSaved(false); }} placeholder="New 4-digit PIN" />
             </View>
-            <Button kind="secondary" title="Update" disabled={!/^\d{4}$/.test(pin)} onPress={() => { updateFamily({ parentPin: pin }); setPin(''); }} />
+            <Button kind="secondary" title={pinSaved ? 'Updated ✓' : 'Update'} disabled={!/^\d{4}$/.test(pin)} onPress={() => { updateFamily({ parentPin: pin }); setPin(''); setPinSaved(true); }} />
           </Row>
           {family.philosophy ? (
             <Card>
@@ -51,9 +52,13 @@ export default function Settings() {
       </Section>
 
       <Section title="School calendar">
-        <Row gap={space.md}>
-          <View style={{ flex: 1 }}><Field label="Year starts" value={family.schoolYearStart} onChangeText={(schoolYearStart) => updateFamily({ schoolYearStart })} /></View>
-          <View style={{ flex: 1 }}><Field label="Year ends" value={family.schoolYearEnd} onChangeText={(schoolYearEnd) => updateFamily({ schoolYearEnd })} /></View>
+        <Row gap={space.md} align="flex-start" wrap>
+          <View style={{ flex: 1, minWidth: 200 }}>
+            <DateField label="Year starts" value={family.schoolYearStart} onChange={(d) => d && d < family.schoolYearEnd && updateFamily({ schoolYearStart: d })} validate={(d) => (d >= family.schoolYearEnd ? 'Must be before the end date' : undefined)} />
+          </View>
+          <View style={{ flex: 1, minWidth: 200 }}>
+            <DateField label="Year ends" value={family.schoolYearEnd} onChange={(d) => d && d > family.schoolYearStart && updateFamily({ schoolYearEnd: d })} validate={(d) => (d <= family.schoolYearStart ? 'Must be after the start date' : undefined)} />
+          </View>
         </Row>
         <T v="label">School days</T>
         <Row wrap gap={6}>

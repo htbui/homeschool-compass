@@ -29,7 +29,8 @@ npx expo export --platform web                              # static web build i
 npm test            # unit tests for the domain engines (vitest)
 npm run typecheck
 npm run lint
-npm run test:e2e    # browser tests (needs `npm run web` running, plus local Chrome or CHROME_PATH)
+npm run test:e2e    # browser tests: every screen and form at desktop + phone size
+                    # (needs `npm run web` running, plus local Chrome or CHROME_PATH)
 ```
 
 ## What's built (mapped to the plan)

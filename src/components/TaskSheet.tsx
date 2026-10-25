@@ -2,10 +2,11 @@ import { useState } from 'react';
 import { View } from 'react-native';
 
 import { formatClock, formatDate } from '@/lib/dates';
+import { parseCount } from '@/lib/parse';
 import { subjectLabel } from '@/lib/subjects';
 import type { Task } from '@/lib/types';
 import { useStore } from '@/store/useStore';
-import { Button, Chip, Field, ModeBadge, Pill, Row, Sheet, space, Stack, T } from '@/ui';
+import { Button, Chip, Field, ModeBadge, Pill, Row, Sheet, space, Stack, T, TimeField } from '@/ui';
 
 /** Parent-side detail for one task: steps, adjust time, mark done, skip. */
 export function TaskSheet({ task, onClose }: { task?: Task; onClose: () => void }) {
@@ -23,9 +24,10 @@ export function TaskSheet({ task, onClose }: { task?: Task; onClose: () => void 
 function TaskDetail({ task: live, onClose }: { task: Task; onClose: () => void }) {
   const child = useStore((s) => s.children.find((c) => c.id === live.childId));
   const { updateTask, completeTask, reopenTask, toggleStep, removeTask } = useStore.getState();
-  const [start, setStart] = useState(live.start);
+  const [start, setStart] = useState<string | undefined>(live.start);
   const [dur, setDur] = useState(String(live.durationMin));
-  const timeOk = /^([01]\d|2[0-3]):[0-5]\d$/.test(start) && Number(dur) > 0;
+  const minutes = parseCount(dur);
+  const changed = start !== live.start || minutes !== live.durationMin;
 
   return (
     <>
@@ -50,15 +52,21 @@ function TaskDetail({ task: live, onClose }: { task: Task; onClose: () => void }
       {live.reflection ? <T>💭 “{live.reflection}”</T> : null}
       {live.minutesSpent ? <T v="caption" muted>Timer: {live.minutesSpent} min logged</T> : null}
 
-      <Row gap={space.md} align="flex-end">
+      <Row gap={space.md} align="flex-start">
         <View style={{ flex: 1 }}>
-          <Field label="Start (HH:MM)" value={start} onChangeText={setStart} maxLength={5} />
+          <TimeField label="Start time" value={start} onChange={setStart} />
         </View>
-        <View style={{ flex: 1 }}>
-          <Field label="Minutes" value={dur} onChangeText={(v) => setDur(v.replace(/\D/g, ''))} keyboardType="number-pad" />
+        <View style={{ width: 110 }}>
+          <Field label="Minutes" value={dur} onChangeText={setDur} keyboardType="number-pad" hint={minutes ? undefined : 'Whole minutes'} />
         </View>
-        <Button title="Update" kind="secondary" disabled={!timeOk} onPress={() => updateTask(live.id, { start, durationMin: Number(dur) })} />
       </Row>
+      <Button
+        title="Update time"
+        kind="secondary"
+        disabled={!start || !minutes || !changed}
+        reason={!start ? 'Enter a valid start time' : !minutes ? 'Enter minutes greater than 0' : 'Change the time or length to update'}
+        onPress={() => start && minutes && updateTask(live.id, { start, durationMin: minutes })}
+      />
 
       <Row wrap style={{ justifyContent: 'flex-end', marginTop: space.sm }}>
         <Button

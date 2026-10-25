@@ -6,7 +6,7 @@ import { uid } from '@/lib/id';
 import { SUBJECT_LIST, SUBJECTS } from '@/lib/subjects';
 import type { AttentionMode, RhythmBlock, Subject, Weekday } from '@/lib/types';
 import { useStore } from '@/store/useStore';
-import { Button, Chip, Field, MODE_META, Row, space, Stack, T } from '@/ui';
+import { Button, Chip, Field, MODE_META, Row, space, Stack, T, TimeField } from '@/ui';
 
 const DURATIONS = [10, 15, 20, 30, 45, 60, 90];
 
@@ -30,15 +30,15 @@ export function BlockForm({
   const [subject, setSubject] = useState<Subject>(initial?.subject ?? 'math');
   const [childIds, setChildIds] = useState<string[]>(initial?.childIds ?? (kids[0] ? [kids[0].id] : []));
   const [mode, setMode] = useState<AttentionMode>(initial?.mode ?? 'solo');
-  const [start, setStart] = useState(initial?.start ?? '09:00');
+  const [start, setStart] = useState<string | undefined>(initial?.start ?? '09:00');
   const [duration, setDuration] = useState(initial?.durationMin ?? 30);
   const [days, setDays] = useState<Weekday[]>(initial?.days ?? [1, 2, 3, 4, 5]);
   const [steps, setSteps] = useState((initial?.steps ?? []).join('\n'));
   const [icon, setIcon] = useState(initial?.icon ?? SUBJECTS[initial?.subject ?? 'math'].icon);
   const [curriculumId, setCurriculumId] = useState(initial?.curriculumId);
 
-  const timeOk = /^([01]\d|2[0-3]):[0-5]\d$/.test(start);
-  const ok = title.trim() && childIds.length > 0 && timeOk && (oneOff || days.length > 0);
+  const missing = [!title.trim() && 'a title', childIds.length === 0 && 'at least one child', !start && 'a valid start time', !oneOff && days.length === 0 && 'at least one day'].filter(Boolean);
+  const ok = missing.length === 0;
   const toggle = <V,>(list: V[], v: V) => (list.includes(v) ? list.filter((x) => x !== v) : [...list, v]);
 
   return (
@@ -90,7 +90,7 @@ export function BlockForm({
       </View>
       <Row gap={space.md} align="flex-start">
         <View style={{ flex: 1 }}>
-          <Field label="Start (HH:MM)" value={start} onChangeText={setStart} maxLength={5} hint={timeOk ? undefined : '24-hour time, e.g. 13:30'} />
+          <TimeField label="Start time" required value={start} onChange={setStart} />
         </View>
         <View style={{ width: 90 }}>
           <Field label="Icon" value={icon} onChangeText={setIcon} maxLength={4} />
@@ -132,7 +132,9 @@ export function BlockForm({
         <Button
           title="Save"
           disabled={!ok}
+          reason={`Still needed: ${missing.join(', ')}`}
           onPress={() =>
+            start &&
             onSave({
               id: initial?.id ?? uid('b'),
               title: title.trim(),

@@ -4,10 +4,11 @@ import { View } from 'react-native';
 import { useCompliance } from '@/hooks/useCompliance';
 import { formatDate, todayKey } from '@/lib/dates';
 import { toHours } from '@/lib/hours';
+import { parseCount } from '@/lib/parse';
 import { SUBJECT_LIST, SUBJECTS, subjectLabel } from '@/lib/subjects';
 import type { Subject } from '@/lib/types';
 import { useStore } from '@/store/useStore';
-import { Button, Card, Chip, Field, Row, Screen, Section, space, Stack, T } from '@/ui';
+import { Button, Card, Chip, DateField, Field, Row, Screen, Section, space, Stack, T } from '@/ui';
 
 export default function HoursScreen() {
   const kids = useStore((s) => s.children);
@@ -19,12 +20,14 @@ export default function HoursScreen() {
   const [childIds, setChildIds] = useState<string[]>(kids.map((k) => k.id));
   const [subject, setSubject] = useState<Subject>('pe');
   const [minutes, setMinutes] = useState('60');
-  const [date, setDate] = useState(todayKey());
+  const [date, setDate] = useState<string | undefined>(todayKey());
   const [note, setNote] = useState('');
 
   const recentDone = useMemo(() => tasks.filter((t) => t.status === 'done').sort((a, b) => (b.completedAt ?? '').localeCompare(a.completedAt ?? '')).slice(0, 12), [tasks]);
   const kid = (id: string) => kids.find((k) => k.id === id);
-  const ok = childIds.length && Number(minutes) > 0 && /^\d{4}-\d{2}-\d{2}$/.test(date);
+  const mins = parseCount(minutes);
+  const missing = [childIds.length === 0 && 'at least one child', !mins && 'minutes', !date && 'a valid date'].filter(Boolean);
+  const ok = missing.length === 0;
 
   return (
     <Screen edges={[]}>
@@ -62,16 +65,18 @@ export default function HoursScreen() {
               <Chip key={s} label={`${SUBJECTS[s].icon} ${SUBJECTS[s].label}`} selected={subject === s} onPress={() => setSubject(s)} />
             ))}
           </Row>
-          <Row gap={space.md}>
-            <View style={{ flex: 1 }}><Field label="Minutes" keyboardType="number-pad" value={minutes} onChangeText={(v) => setMinutes(v.replace(/\D/g, ''))} /></View>
-            <View style={{ flex: 1 }}><Field label="Date" value={date} onChangeText={setDate} /></View>
+          <Row gap={space.md} align="flex-start">
+            <View style={{ width: 110 }}><Field label="Minutes" keyboardType="number-pad" value={minutes} onChangeText={setMinutes} /></View>
+            <View style={{ flex: 1 }}><DateField label="Date" value={date} onChange={setDate} validate={(d) => (d > todayKey() ? "Can't log time in the future" : undefined)} /></View>
           </Row>
           <Field label="Note" value={note} onChangeText={setNote} placeholder="Swim lessons, museum field trip…" />
           <Button
             title="Add log"
             disabled={!ok}
+            reason={`Still needed: ${missing.join(', ')}`}
             onPress={() => {
-              for (const childId of childIds) addHoursLog({ childId, date, subject, minutes: Number(minutes), note: note.trim() || undefined });
+              if (!date || !mins) return;
+              for (const childId of childIds) addHoursLog({ childId, date, subject, minutes: mins, note: note.trim() || undefined });
               setNote('');
             }}
           />

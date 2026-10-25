@@ -13,6 +13,22 @@ const browser = await puppeteer.launch({
 });
 const page = await browser.newPage();
 await page.setViewport({ width, height });
+// The demo family's rhythm runs Mon–Fri; pin the clock to a Wednesday morning so the
+// timeline and kid missions exist no matter what day the suite runs.
+await page.evaluateOnNewDocument(() => {
+  const RealDate = Date;
+  const offset = new RealDate('2026-10-21T10:00:00').getTime() - RealDate.now();
+  class FixedDate extends RealDate {
+    constructor(...args) {
+      if (args.length === 0) super(RealDate.now() + offset);
+      else super(...args);
+    }
+    static now() {
+      return RealDate.now() + offset;
+    }
+  }
+  window.Date = FixedDate;
+});
 const errors = [];
 page.on('console', (m) => { if (m.type() === 'error') errors.push(m.text()); });
 page.on('pageerror', (e) => errors.push(`PAGEERROR ${e.message}`));
