@@ -297,6 +297,7 @@ export function planFromListing(l: Listing, o: PlanOptions): { curriculum: Curri
     childIds: o.childIds,
     totalLessons: l.lessons,
     lessonsDone: 0,
+    progress: Object.fromEntries(o.childIds.map((id) => [id, 0])),
     startDate: o.startDate,
     targetEndDate: finish ?? addDays(o.startDate, 180),
     schoolDays: o.days,

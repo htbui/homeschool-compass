@@ -1,6 +1,9 @@
 // Cloud scenarios with real accounts: two devices syncing one family, the
 // live marketplace, and two families meeting in the community.
 // Needs `npm run db:start` and `npm run web` (with .env.local pointing at it).
+import { mkdirSync, writeFileSync } from 'node:fs';
+import { dirname } from 'node:path';
+
 import puppeteer from 'puppeteer-core';
 
 const BASE = process.env.BASE_URL ?? 'http://localhost:8081';
@@ -196,6 +199,26 @@ try {
   await A.click('Add to plan', { exact: true });
   await A.expect('Added to your plan ✓');
   log(await B.waitStore((s) => s.curricula?.some((k) => k.name.includes('Kitchen Chemistry'))), 'new curriculum syncs to the tablet');
+  // Upload the lesson PDF on the phone; the tablet opens it from family storage.
+  const pdf = new URL('./screenshots/lessons.pdf', import.meta.url).pathname;
+  mkdirSync(dirname(pdf), { recursive: true });
+  writeFileSync(pdf, '%PDF-1.4\n1 0 obj<</Type/Catalog/Pages 2 0 R>>endobj 2 0 obj<</Type/Pages/Kids[]/Count 0>>endobj\ntrailer<</Root 1 0 R>>\n%%EOF\n');
+  const [chooser] = await Promise.all([A.page.waitForFileChooser(), A.click('Upload PDF or image')]);
+  await chooser.accept([pdf]);
+  log(await A.waitStore((s) => s.curricula?.find((k) => k.name.includes('Kitchen Chemistry'))?.materials?.[0]?.remotePath?.endsWith('.pdf')), 'lesson PDF uploaded to family storage');
+  log(await B.waitStore((s) => !!s.curricula?.find((k) => k.name.includes('Kitchen Chemistry'))?.materials?.[0]?.remotePath), 'lesson PDF syncs to the tablet');
+  // (The tablet is in kid mode; on web the phone also keeps only the cloud copy.)
+  await A.goto('/learn');
+  await A.clickIn('Kitchen Chemistry', 'Lesson links & files (1)');
+  const tabOpened = new Promise((resolve) => {
+    const on = (t) => { if (t.url().includes('/storage/v1/')) { browser.off('targetchanged', on); resolve(t.url()); } };
+    browser.on('targetchanged', on);
+  });
+  await A.click('Open', { exact: true });
+  const opened = await Promise.race([tabOpened, sleep(8000).then(() => '')]);
+  const res = opened.includes('/storage/v1/object/sign/') ? await fetch(opened) : undefined;
+  log(!!res?.ok && (await res.text()).startsWith('%PDF'), `opens the PDF from family storage (${opened.slice(0, 60)}…)`);
+  await A.goto('/market');
   log((await A.store()).expenses?.some((e) => e.description.includes('Kitchen Chemistry') && e.fundingSource === 'tax'), 'expense recorded');
   await A.goto('/listing/l-pinecone-chem');
   await A.click('Write a review');

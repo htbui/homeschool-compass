@@ -1,3 +1,4 @@
+import { lessonLabel } from './curriculum';
 import { ageOn, formatClock, formatDate, toMinutes } from './dates';
 import { esc } from './documents';
 import { subjectLabel } from './subjects';
@@ -12,6 +13,8 @@ import type { Child, Curriculum, Subject, Task } from './types';
 export interface WorksheetContext {
   children: Child[];
   curricula: Curriculum[];
+  /** All tasks, so upcoming lessons get the right numbers. */
+  tasks?: Task[];
   parentName?: string;
 }
 
@@ -26,14 +29,6 @@ export function workAreaFor(subject: Subject, age: number): WorkArea {
   if (DRAW.includes(subject)) return 'draw';
   if (WRITING.includes(subject)) return age <= 7 ? 'primary' : 'lines';
   return 'lines';
-}
-
-/** "Lesson 37 of 120 · Saxon Math" for curriculum-linked tasks. */
-export function lessonLabel(task: Task, curricula: Curriculum[]): string | undefined {
-  const cur = task.curriculumId ? curricula.find((c) => c.id === task.curriculumId) : undefined;
-  if (!cur) return undefined;
-  const n = task.status === 'done' ? cur.lessonsDone : Math.min(cur.totalLessons, cur.lessonsDone + 1);
-  return `${cur.name} · Lesson ${n} of ${cur.totalLessons}`;
 }
 
 const workArea = (kind: WorkArea) => {
@@ -53,7 +48,7 @@ function sheet(task: Task, ctx: WorksheetContext): string {
   const kid = ctx.children.find((k) => k.id === task.childId);
   const age = kid ? ageOn(kid.birthdate, task.date) : 10;
   const young = age <= 7;
-  const lesson = lessonLabel(task, ctx.curricula);
+  const lesson = lessonLabel(task, ctx.curricula, ctx.tasks);
   const withWho = task.mode === 'parent' ? `with ${ctx.parentName?.split(' ')[0] || 'a grown-up'}` : task.mode === 'group' ? 'with the family' : 'on my own';
   const steps = task.steps.length
     ? `<h2>Steps</h2><ol class="steps">${task.steps.map((s) => `<li><span class="box">${s.done ? '✓' : ''}</span>${esc(s.label)}</li>`).join('')}</ol>`

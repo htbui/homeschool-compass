@@ -2,7 +2,8 @@ import { describe, expect, it } from 'vitest';
 
 import { isDateKey, relativeDayLabel, stepDay, weekdayOf } from '../dates';
 import type { Child, Curriculum, Task } from '../types';
-import { lessonLabel, workAreaFor, worksheetHtml } from '../worksheet';
+import { lessonLabel } from '../curriculum';
+import { workAreaFor, worksheetHtml } from '../worksheet';
 
 const kid: Child = { id: 'k1', name: 'Maya <3', birthdate: '2017-05-21', grade: '4th Grade', avatar: '🦊', color: '#f00', learningDifferences: [], passions: [], soloToleranceMin: 20, sparks: 0 };
 const cur: Curriculum = { id: 'c1', name: 'Fraction Forest', subject: 'math', childIds: ['k1'], totalLessons: 120, lessonsDone: 36, startDate: '2026-08-17', targetEndDate: '2027-05-28', schoolDays: [1, 2, 3, 4, 5], model: 'turnkey' };
@@ -15,7 +16,7 @@ const ctx = { children: [kid], curricula: [cur], parentName: 'Dana Miller' };
 describe('worksheets', () => {
   it('labels the next lesson for curriculum-linked tasks', () => {
     expect(lessonLabel(task(), [cur])).toBe('Fraction Forest · Lesson 37 of 120');
-    expect(lessonLabel(task({ status: 'done' }), [cur])).toBe('Fraction Forest · Lesson 36 of 120');
+    expect(lessonLabel(task({ status: 'done', lessonNo: 36 }), [cur])).toBe('Fraction Forest · Lesson 36 of 120');
     expect(lessonLabel(task({ curriculumId: undefined }), [cur])).toBeUndefined();
   });
 

@@ -1,3 +1,4 @@
+import { doneFor } from './curriculum';
 import { ageOn, formatDate, todayKey } from './dates';
 import { summarizeHours, toHours } from './hours';
 import type { HoursSummary } from './hours';
@@ -107,7 +108,7 @@ export function evaluatorPacketHtml(args: {
         <p class="muted">${done.length} activities completed · ${samples.length} work samples</p>
         <h3>Instructional hours</h3>${hoursTable(summary)}
         <h3>Curricula</h3>
-        ${curr.length ? `<table><tr><th>Curriculum</th><th>Subject</th><th>Progress</th></tr>${curr.map((k) => `<tr><td>${esc(k.name)}</td><td>${esc(subjectLabel(k.subject))}</td><td>${k.lessonsDone} / ${k.totalLessons} lessons</td></tr>`).join('')}</table>` : '<p class="muted">None recorded.</p>'}
+        ${curr.length ? `<table><tr><th>Curriculum</th><th>Subject</th><th>Progress</th></tr>${curr.map((k) => `<tr><td>${esc(k.name)}</td><td>${esc(subjectLabel(k.subject))}</td><td>${doneFor(k, c.id)} / ${k.totalLessons} lessons</td></tr>`).join('')}</table>` : '<p class="muted">None recorded.</p>'}
         ${reflections.length ? `<h3>Student reflections</h3><ul>${reflections.map((t) => `<li><b>${esc(t.title)}</b> (${esc(formatDate(t.date))}): ${esc(t.reflection)}</li>`).join('')}</ul>` : ''}
         <h3>Work samples</h3>
         ${samples.length ? `<div class="grid">${samples.map((e) => `<figure><img src="${esc(e.uri)}"/><figcaption>${esc(formatDate(e.date))} · ${esc(subjectLabel(e.subject))}${e.standard ? ` · ${esc(e.standard)}` : ''}<br/>${esc(e.note)}</figcaption></figure>`).join('')}</div>` : '<p class="muted">No samples captured in this period.</p>'}

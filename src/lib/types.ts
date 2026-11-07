@@ -130,6 +130,8 @@ export interface Task {
   selfAssessment?: 1 | 2 | 3;
   reflection?: string;
   curriculumId?: ID;
+  /** Which lesson of the curriculum this was, recorded when it's finished. */
+  lessonNo?: number;
   bumpedFrom?: DateKey;
 }
 
@@ -176,11 +178,28 @@ export interface Curriculum {
   subject: Subject;
   childIds: ID[];
   totalLessons: number;
+  /** Starting point for any student without their own entry in `progress`. */
   lessonsDone: number;
+  /** Lessons each student has finished — siblings move at their own pace. */
+  progress?: Partial<Record<ID, number>>;
   startDate: DateKey;
   targetEndDate: DateKey;
   schoolDays: Weekday[];
   model: 'turnkey' | 'modular' | 'custom';
+  /** Where the lessons live: the publisher's site, or the family's own PDF. */
+  materials?: LessonMaterial[];
+}
+
+export interface LessonMaterial {
+  id: ID;
+  label: string;
+  /** A web link (online course, video playlist, publisher portal). */
+  url?: string;
+  /** An uploaded file: on this device, and/or in family cloud storage. */
+  uri?: string;
+  remotePath?: string;
+  fileName?: string;
+  mimeType?: string;
 }
 
 export type FundingSource = 'esa' | 'tax' | 'out_of_pocket';

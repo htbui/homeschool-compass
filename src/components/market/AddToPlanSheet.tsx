@@ -2,6 +2,7 @@ import { router } from 'expo-router';
 import { useState } from 'react';
 import { View } from 'react-native';
 
+import { MaterialsEditor } from '@/components/LessonMaterials';
 import { formatDate, WEEKDAY_SHORT } from '@/lib/dates';
 import { defaultLessonDays, finishDateFor, INVOLVEMENT_LABEL, matchListing, nextStartDate, suggestStartTime, type Listing } from '@/lib/market';
 import type { ID, Weekday } from '@/lib/types';
@@ -27,7 +28,7 @@ function PlanForm({ listing, purchaseId, onClose, intro }: { listing: Listing; p
   const [startDate, setStartDate] = useState<string | undefined>(nextStartDate(family.schoolDays));
   const needsParent = listing.parentInvolvement !== 'low';
   const [startTime, setStartTime] = useState<string | undefined>(() => suggestStartTime(blocks, childIds, days, listing.minutesPerLesson, needsParent));
-  const [done, setDone] = useState<{ finish?: string } | null>(null);
+  const [done, setDone] = useState<{ finish?: string; curriculumId: ID } | null>(null);
 
   const finish = startDate ? finishDateFor(startDate, days, listing.lessons) : undefined;
   const late = finish && finish > family.schoolYearEnd;
@@ -39,7 +40,7 @@ function PlanForm({ listing, purchaseId, onClose, intro }: { listing: Listing; p
   const save = () => {
     if (!startDate || !startTime) return;
     const r = useStore.getState().addListingToPlan(listing, { childIds, days, startDate, startTime, children: kids }, purchaseId);
-    setDone({ finish: r.curriculum.targetEndDate });
+    setDone({ finish: r.curriculum.targetEndDate, curriculumId: r.curriculum.id });
   };
 
   if (done) {
@@ -49,7 +50,11 @@ function PlanForm({ listing, purchaseId, onClose, intro }: { listing: Listing; p
           {listing.title} starts {formatDate(startDate!, { weekday: 'long', month: 'long', day: 'numeric' })} at the pace of {days.length} lesson{days.length === 1 ? '' : 's'} a week
           {done.finish ? `, finishing around ${formatDate(done.finish, { month: 'long', day: 'numeric', year: 'numeric' })}` : ''}.
         </T>
-        <T muted>Lessons appear on the Rhythm and in each child&apos;s day. Finishing a lesson moves the curriculum forward, and missed days are re-paced automatically.</T>
+        <T muted>Lessons appear on the Rhythm and in each child&apos;s day. Finishing a lesson moves that child forward, and missed days are re-paced automatically.</T>
+        <Card>
+          <T v="heading">Where do the lessons live?</T>
+          <MaterialsEditor curriculumId={done.curriculumId} />
+        </Card>
         <Row wrap style={{ justifyContent: 'flex-end' }}>
           <Button kind="secondary" title="See pacing" onPress={() => { onClose(); router.push('/learn'); }} />
           <Button title="See the rhythm" onPress={() => { onClose(); router.push('/schedule'); }} />

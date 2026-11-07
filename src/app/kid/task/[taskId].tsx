@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Pressable, Text, View } from 'react-native';
 import { useShallow } from 'zustand/react/shallow';
 
+import { LessonCard } from '@/components/LessonMaterials';
 import { MediaImage } from '@/components/MediaImage';
 import { usePrint } from '@/hooks/usePrint';
 import { ageOn, formatDate, todayKey } from '@/lib/dates';
@@ -132,6 +133,7 @@ export default function ActivityCard() {
         </Pressable>
         <T muted>{subjectLabel(task.subject)} · {task.durationMin} min{task.mode === 'parent' ? ` · with ${parentWord}` : task.mode === 'group' ? ' · with the family' : ''}</T>
       </Card>
+      <LessonCard task={task} kid />
 
       {task.steps.length > 0 ? (
         <Stack gap={space.sm} style={{ marginTop: space.lg }}>

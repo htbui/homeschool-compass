@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { View } from 'react-native';
 
+import { LessonCard } from '@/components/LessonMaterials';
 import { usePrint } from '@/hooks/usePrint';
 import { formatClock, formatDate } from '@/lib/dates';
 import { parseCount } from '@/lib/parse';
@@ -43,6 +44,7 @@ function TaskDetail({ task: live, onClose }: { task: Task; onClose: () => void }
         {formatDate(live.date)} · {formatClock(live.start)} · {live.durationMin} min
         {live.bumpedFrom ? ` · bumped from ${formatDate(live.bumpedFrom)}` : ''}
       </T>
+      <LessonCard task={live} />
       {live.steps.length ? (
         <Stack gap={6}>
           <T v="label">Steps</T>

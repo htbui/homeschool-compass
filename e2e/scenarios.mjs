@@ -22,7 +22,8 @@ page.setDefaultTimeout(15000);
 const errors = [];
 page.on('console', (m) => { if (m.type() === 'error') errors.push(m.text()); });
 page.on('pageerror', (e) => errors.push(`PAGEERROR ${e.message}`));
-browser.on('targetcreated', async (t) => { const p = await t.page().catch(() => null); if (p && p !== page) setTimeout(() => p.close().catch(() => {}), 1500); });
+const opened = [];
+browser.on('targetcreated', async (t) => { opened.push(t.url()); const p = await t.page().catch(() => null); if (p && p !== page) setTimeout(() => p.close().catch(() => {}), 1500); });
 
 let failures = 0;
 let section = '';
@@ -482,6 +483,14 @@ async function run() {
   await expect('in your library', 'claim confirmation');
   await click('Add to plan', { exact: true });
   await expect('Added to your plan ✓');
+  await expect('Where do the lessons live?', 'asks where the lessons live');
+  log(await isDisabled('Add link'), 'link needs an address');
+  await fill('https://…', 'not a link');
+  await expect('Enter a web address', 'rejects a non-link');
+  await fill('https://…', 'example.com/nature-videos');
+  await fill('Video lessons', 'Nature videos');
+  await click('Add link', { exact: true });
+  log((await store()).curricula.find((k) => k.name === 'Free Nature Journal Starter')?.materials?.[0]?.url === 'https://example.com/nature-videos', 'lesson link saved to the curriculum');
   const st = await store();
   const cur = st.curricula.find((k) => k.name === 'Free Nature Journal Starter');
   log(!!cur && cur.totalLessons === 8, 'curriculum created with lesson count');
@@ -489,6 +498,7 @@ async function run() {
   log(st.purchases.some((p) => p.curriculumId === cur?.id), 'purchase linked to plan');
   await click('See pacing');
   await expect('Free Nature Journal Starter', 'shows on Curriculum tab');
+  await expect('Lesson links & files (1)', 'curriculum card shows its materials');
   await expect('Where curricula come from');
   // Review it.
   await goTab('Market');
@@ -647,6 +657,36 @@ async function run() {
   await expectNot('Back to today');
   // This family started today, so there is nothing further back yet.
   log(await page.evaluate(() => document.querySelector('[aria-label="Previous day"]')?.getAttribute('aria-disabled') === 'true'), 'no days before the family started');
+  // Find the first Nature Journal lesson (added from the Marketplace) and open its materials.
+  let lesson = false;
+  for (let i = 0; i < 8 && !lesson; i++) {
+    await clickLabel('Next day');
+    lesson = await page.evaluate(() => {
+      const el = [...document.querySelectorAll('[tabindex]')].reverse().find((e) => e.offsetParent && e.innerText.includes('Free Nature Journal Starter'));
+      el?.click();
+      return !!el;
+    });
+  }
+  await sleep(600);
+  log(lesson, 'marketplace curriculum shows up in the kid’s days');
+  if (lesson) {
+    const n = Number((await bodyText()).match(/Lesson (\d+) of 8/)?.[1]);
+    // Lucia may have started an earlier Nature Journal lesson early, so count her open ones before this.
+    const st2 = await store();
+    const nj = st2.curricula.find((k) => k.name === 'Free Nature Journal Starter');
+    const lucia = st2.children.find((k) => k.name === 'Lucia').id;
+    const mine = st2.tasks.filter((t) => t.curriculumId === nj.id && t.childId === lucia).sort((x, y) => x.date.localeCompare(y.date));
+    const shown = page.url().split('/').pop();
+    const expected = mine.findIndex((t) => t.id === shown) + 1;
+    log(expected > 0 && n === expected, `mission shows its lesson number (Lesson ${n}, expected ${expected})`);
+    opened.length = 0;
+    await click('Open Nature videos');
+    await sleep(500);
+    log(opened.some((u) => u.startsWith('https://example.com/nature-videos')), `Open button opens the lesson link (${opened.join(', ')})`);
+    await click('‹ My day');
+  }
+  await click('Back to today');
+  await expect('Your missions today');
   await click('for help');
   await expect('Help is on the way');
   await click('OK', { exact: true });

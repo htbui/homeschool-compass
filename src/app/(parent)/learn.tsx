@@ -2,6 +2,8 @@ import { router } from 'expo-router';
 import { useMemo, useState } from 'react';
 import { View } from 'react-native';
 
+import { MaterialsEditor } from '@/components/LessonMaterials';
+import { doneFor, forChild } from '@/lib/curriculum';
 import { formatDate } from '@/lib/dates';
 import { uid } from '@/lib/id';
 import { CURRICULUM_PRESETS, pacing } from '@/lib/pacing';
@@ -29,8 +31,10 @@ export default function CurriculumHub() {
   const curricula = useStore((s) => s.curricula);
   const kids = useStore((s) => s.children);
   const family = useStore((s) => s.family)!;
-  const { upsertCurriculum, removeCurriculum, adjustLessons, upsertBlock } = useStore.getState();
+  const { upsertCurriculum, removeCurriculum, upsertBlock } = useStore.getState();
   const [editing, setEditing] = useState<Curriculum | 'new' | null>(null);
+  const [materialsFor, setMaterialsFor] = useState<string | null>(null);
+  const materialsCur = curricula.find((k) => k.id === materialsFor);
   const confirm = useConfirm();
 
   const [theme, setTheme] = useState('');
@@ -76,35 +80,21 @@ export default function CurriculumHub() {
               />
             ) : (
               <Stack>
-                {curricula.map((k) => {
-                  const p = pacing(k, undefined);
-                  const st = STATE_LABEL[p.state];
-                  return (
-                    <Card key={k.id}>
-                      <Row style={{ justifyContent: 'space-between' }} wrap>
-                        <T v="heading" style={{ flex: 1 }}>{SUBJECTS[k.subject].icon} {k.name}</T>
-                        <Pill text={`${st.emoji} ${st.text}`} bg={p.state === 'behind' ? c.accentSoft : c.primarySoft} fg={c.text} />
-                      </Row>
-                      <T v="caption" muted>
-                        {k.childIds.map((id) => kids.find((x) => x.id === id)?.name).filter(Boolean).join(', ')} · {k.model} · target {formatDate(k.targetEndDate, { month: 'short', day: 'numeric', year: 'numeric' })}
-                      </T>
-                      <Progress value={k.lessonsDone / k.totalLessons} />
-                      <T v="label">{k.lessonsDone} / {k.totalLessons} lessons</T>
-                      {p.state !== 'done' ? (
-                        <T v="caption">
-                          Pace: <T v="caption" style={{ fontWeight: '700' }}>{p.lessonsPerWeek} lessons/week</T> ({p.lessonsPerDay}/day) over {p.remainingSchoolDays} school days left
-                          {p.delta < 0 ? ` · ${-p.delta} behind the original plan, now spread out` : p.delta > 0 ? ` · ${p.delta} ahead` : ''}
-                          {p.projectedFinish ? ` · at original pace you'd finish ${formatDate(p.projectedFinish, { month: 'short', day: 'numeric' })}` : ''}
-                        </T>
-                      ) : null}
-                      <Row wrap>
-                        <Button size="sm" kind="secondary" title="−1" onPress={() => adjustLessons(k.id, -1)} />
-                        <Button size="sm" title="+1 lesson" onPress={() => adjustLessons(k.id, 1)} />
-                        <Button size="sm" kind="ghost" title="Edit" onPress={() => setEditing(k)} />
-                      </Row>
-                    </Card>
-                  );
-                })}
+                {curricula.map((k) => (
+                  <Card key={k.id}>
+                    <T v="heading">{SUBJECTS[k.subject].icon} {k.name}</T>
+                    <T v="caption" muted>
+                      {k.childIds.map((id) => kids.find((x) => x.id === id)?.name).filter(Boolean).join(', ')} · {k.model} · target {formatDate(k.targetEndDate, { month: 'short', day: 'numeric', year: 'numeric' })}
+                    </T>
+                    {k.childIds.map((id) => (
+                      <KidProgress key={id} curriculum={k} childId={id} named={k.childIds.length > 1} />
+                    ))}
+                    <Row wrap>
+                      <Button size="sm" kind="secondary" title={`📖 Lesson links & files${k.materials?.length ? ` (${k.materials.length})` : ''}`} onPress={() => setMaterialsFor(k.id)} />
+                      <Button size="sm" kind="ghost" title="Edit" onPress={() => setEditing(k)} />
+                    </Row>
+                  </Card>
+                ))}
               </Stack>
             )}
           </Section>
@@ -173,8 +163,41 @@ export default function CurriculumHub() {
           />
         ) : null}
       </Sheet>
+      <Sheet visible={!!materialsCur} onClose={() => setMaterialsFor(null)} title={`📖 ${materialsCur?.name ?? ''}`}>
+        {materialsCur ? <MaterialsEditor curriculumId={materialsCur.id} /> : null}
+      </Sheet>
       {confirm.element}
     </Screen>
+  );
+}
+
+/** One student's progress and pace through a curriculum. */
+function KidProgress({ curriculum, childId, named }: { curriculum: Curriculum; childId: string; named: boolean }) {
+  const c = useColors();
+  const kid = useStore((s) => s.children.find((x) => x.id === childId));
+  const { adjustLessons } = useStore.getState();
+  const done = doneFor(curriculum, childId);
+  const p = pacing(forChild(curriculum, childId), undefined);
+  const st = STATE_LABEL[p.state];
+  return (
+    <Stack gap={4} style={named ? { borderTopWidth: 1, borderColor: c.border, paddingTop: space.sm } : undefined}>
+      <Row style={{ justifyContent: 'space-between' }} wrap>
+        <T v="label" style={{ flex: 1 }}>{named ? `${kid?.avatar ?? ''} ${kid?.name ?? 'Student'} · ` : ''}{done} / {curriculum.totalLessons} lessons</T>
+        <Pill text={`${st.emoji} ${st.text}`} bg={p.state === 'behind' ? c.accentSoft : c.primarySoft} fg={c.text} />
+      </Row>
+      <Progress value={done / curriculum.totalLessons} />
+      {p.state !== 'done' ? (
+        <T v="caption">
+          Pace: <T v="caption" style={{ fontWeight: '700' }}>{p.lessonsPerWeek} lessons/week</T> ({p.lessonsPerDay}/day) over {p.remainingSchoolDays} school days left
+          {p.delta < 0 ? ` · ${-p.delta} behind the original plan, now spread out` : p.delta > 0 ? ` · ${p.delta} ahead` : ''}
+          {p.projectedFinish ? ` · at original pace you'd finish ${formatDate(p.projectedFinish, { month: 'short', day: 'numeric' })}` : ''}
+        </T>
+      ) : null}
+      <Row wrap>
+        <Button size="sm" kind="secondary" title="−1" onPress={() => adjustLessons(curriculum.id, -1, childId)} />
+        <Button size="sm" title={named ? `+1 lesson for ${kid?.name ?? 'student'}` : '+1 lesson'} onPress={() => adjustLessons(curriculum.id, 1, childId)} />
+      </Row>
+    </Stack>
   );
 }
 
@@ -184,18 +207,21 @@ function CurriculumForm({ initial, onSave, onDelete }: { initial?: Curriculum; o
   const [name, setName] = useState(initial?.name ?? '');
   const [subject, setSubject] = useState<Subject>(initial?.subject ?? 'math');
   const [lessons, setLessons] = useState(String(initial?.totalLessons ?? ''));
-  const [done, setDone] = useState(String(initial?.lessonsDone ?? 0));
   const [childIds, setChildIds] = useState<string[]>(initial?.childIds ?? kids.slice(0, 1).map((k) => k.id));
+  // Lessons finished so far, per student.
+  const [done, setDone] = useState<Record<string, string>>(() => Object.fromEntries(kids.map((k) => [k.id, String(initial && initial.childIds.includes(k.id) ? doneFor(initial, k.id) : 0)])));
   const [model, setModel] = useState<Curriculum['model']>(initial?.model ?? 'turnkey');
   const [start, setStart] = useState<string | undefined>(initial?.startDate ?? family.schoolYearStart);
   const [end, setEnd] = useState<string | undefined>(initial?.targetEndDate ?? family.schoolYearEnd);
   const total = parseCount(lessons);
-  const completed = done.trim() === '' || done.trim() === '0' ? 0 : parseCount(done);
+  const countOf = (v = '') => (v.trim() === '' || v.trim() === '0' ? 0 : parseCount(v));
+  const completed = Object.fromEntries(childIds.map((id) => [id, countOf(done[id])]));
+  const counts = Object.values(completed);
   const missing = [
     !name.trim() && 'a name',
     !total && 'total lessons',
-    completed === undefined && 'a whole number of completed lessons',
-    total && completed !== undefined && completed > total && 'completed ≤ total',
+    counts.some((n) => n === undefined) && 'a whole number of completed lessons',
+    total && counts.some((n) => n !== undefined && n > total) && 'completed ≤ total',
     childIds.length === 0 && 'at least one student',
     !start && 'a start date',
     !end && 'a target finish date',
@@ -226,10 +252,7 @@ function CurriculumForm({ initial, onSave, onDelete }: { initial?: Curriculum; o
           ))}
         </Row>
       </View>
-      <Row gap={space.md} align="flex-start">
-        <View style={{ flex: 1 }}><Field label="Total lessons" keyboardType="number-pad" value={lessons} onChangeText={setLessons} placeholder="120" /></View>
-        <View style={{ flex: 1 }}><Field label="Completed so far" keyboardType="number-pad" value={done} onChangeText={setDone} placeholder="0" /></View>
-      </Row>
+      <Field label="Total lessons" keyboardType="number-pad" value={lessons} onChangeText={setLessons} placeholder="120" />
       <Row gap={space.md} align="flex-start" wrap>
         <View style={{ flex: 1, minWidth: 200 }}><DateField label="Start" value={start} onChange={setStart} /></View>
         <View style={{ flex: 1, minWidth: 200 }}><DateField label="Target finish" value={end} onChange={setEnd} /></View>
@@ -242,6 +265,17 @@ function CurriculumForm({ initial, onSave, onDelete }: { initial?: Curriculum; o
           ))}
         </Row>
       </View>
+      {childIds.length ? (
+        <Row gap={space.md} align="flex-start" wrap>
+          {kids
+            .filter((k) => childIds.includes(k.id))
+            .map((k) => (
+              <View key={k.id} style={{ flex: 1, minWidth: 140 }}>
+                <Field label={childIds.length > 1 ? `${k.name}: lessons done` : 'Completed so far'} keyboardType="number-pad" value={done[k.id] ?? ''} onChangeText={(v) => setDone({ ...done, [k.id]: v })} placeholder="0" />
+              </View>
+            ))}
+        </Row>
+      ) : null}
       <View style={{ gap: 6 }}>
         <T v="label">Model</T>
         <Row wrap gap={6}>
@@ -266,7 +300,9 @@ function CurriculumForm({ initial, onSave, onDelete }: { initial?: Curriculum; o
               subject,
               childIds,
               totalLessons: total,
-              lessonsDone: Math.min(completed ?? 0, total),
+              lessonsDone: Math.min(total, ...counts.map((n) => n ?? 0)),
+              progress: Object.fromEntries(childIds.map((id) => [id, Math.min(total, completed[id] ?? 0)])),
+              materials: initial?.materials,
               startDate: start,
               targetEndDate: end,
               schoolDays: initial?.schoolDays ?? family.schoolDays,

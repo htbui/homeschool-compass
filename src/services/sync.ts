@@ -39,6 +39,7 @@ export function snapshot(s: Store = useStore.getState()): Workspace {
   for (const k of SYNC_KEYS) out[k] = s[k];
   out.evidence = s.evidence.map((e) => ({ ...e, uri: '' }));
   out.expenses = s.expenses.map(({ receiptUri: _r, ...e }) => e);
+  out.curricula = s.curricula.map((c) => (c.materials ? { ...c, materials: c.materials.map(({ uri: _u, ...m }) => m) } : c));
   // Round-trip through JSON so `undefined` fields match what the server stores.
   return JSON.parse(JSON.stringify(out));
 }
@@ -52,6 +53,10 @@ function apply(ws: Partial<Workspace>) {
     }
     if (ws.evidence) next.evidence = ws.evidence.map((e) => ({ ...e, uri: s.evidence.find((x) => x.id === e.id)?.uri || e.uri || '' }));
     if (ws.expenses) next.expenses = ws.expenses.map((e) => ({ ...e, receiptUri: s.expenses.find((x) => x.id === e.id)?.receiptUri }));
+    if (ws.curricula) {
+      const local = new Map(s.curricula.flatMap((c) => c.materials ?? []).map((m) => [m.id, m.uri]));
+      next.curricula = ws.curricula.map((c) => (c.materials ? { ...c, materials: c.materials.map((m) => ({ ...m, uri: local.get(m.id) })) } : c));
+    }
     return next;
   });
 }
@@ -342,12 +347,17 @@ async function receive(remote: Workspace, version: number) {
 
 const UPLOAD_LIMIT = 6;
 
-/** Upload portfolio photos and receipts that only exist on this device. */
+/** Upload portfolio photos, receipts, and lesson files that only exist on this device. */
 async function uploadMedia(fid: string | undefined) {
   if (!supabase || !fid) return;
   const s = useStore.getState();
   const photos = s.evidence.filter((e) => e.uri && !e.remotePath).slice(0, UPLOAD_LIMIT);
   const receipts = s.expenses.filter((e) => e.receiptUri && !e.receiptPath).slice(0, UPLOAD_LIMIT);
+  const files = s.curricula.flatMap((c) => (c.materials ?? []).filter((m) => m.uri && !m.remotePath).map((m) => ({ c, m }))).slice(0, UPLOAD_LIMIT);
+  for (const { c, m } of files) {
+    const path = await upload(fid, `materials/${m.id}`, m.uri!, m.mimeType);
+    if (path) useStore.getState().updateMaterial(c.id, m.id, { remotePath: path });
+  }
   for (const e of photos) {
     const path = await upload(fid, `evidence/${e.id}`, e.uri);
     if (path) useStore.setState((st) => ({ evidence: st.evidence.map((x) => (x.id === e.id ? { ...x, remotePath: path } : x)) }));
@@ -358,9 +368,17 @@ async function uploadMedia(fid: string | undefined) {
   }
 }
 
-async function upload(fid: string, name: string, uri: string): Promise<string | undefined> {
+/** Store a file in family cloud storage right away (signed in only); returns its path. */
+export async function uploadFamilyFile(name: string, uri: string, contentType?: string): Promise<string | undefined> {
+  const fid = account().familyId;
+  return supabase && fid ? upload(fid, name, uri, contentType) : undefined;
+}
+
+async function upload(fid: string, name: string, uri: string, type?: string): Promise<string | undefined> {
   try {
-    const { body, contentType } = await readForUpload(uri);
+    const read = await readForUpload(uri);
+    const body = read.body;
+    const contentType = type || read.contentType;
     const ext = contentType.split('/')[1]?.replace('jpeg', 'jpg') ?? 'jpg';
     const path = `${fid}/${name}.${ext}`;
     const { error } = await supabase!.storage.from('family-media').upload(path, body, { contentType, upsert: true });
@@ -373,7 +391,7 @@ async function upload(fid: string, name: string, uri: string): Promise<string | 
 
 const signed = new Map<string, { url: string; expires: number }>();
 
-/** A short-lived URL for a family photo stored in the cloud. */
+/** A short-lived URL for a family photo or file stored in the cloud. */
 export async function mediaUrl(path: string): Promise<string | undefined> {
   if (!supabase) return undefined;
   const hit = signed.get(path);

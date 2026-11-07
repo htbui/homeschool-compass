@@ -2,6 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 
+import { doneFor, setDoneFor } from '@/lib/curriculum';
 import { fromMinutes, schoolYearLabel, todayKey } from '@/lib/dates';
 import { uid } from '@/lib/id';
 import { autoStagger, gentleBump, tasksForDate } from '@/lib/schedule';
@@ -17,6 +18,7 @@ import type {
   HelpRequest,
   HoursLog,
   ID,
+  LessonMaterial,
   MoodCheckIn,
   NoiDraft,
   RhythmBlock,
@@ -83,8 +85,12 @@ interface Actions {
   removeHoursLog: (id: ID) => void;
 
   upsertCurriculum: (c: Curriculum) => void;
+  addMaterial: (curriculumId: ID, m: LessonMaterial) => void;
+  updateMaterial: (curriculumId: ID, id: ID, patch: Partial<LessonMaterial>) => void;
+  removeMaterial: (curriculumId: ID, id: ID) => void;
   removeCurriculum: (id: ID) => void;
-  adjustLessons: (id: ID, delta: number) => void;
+  /** Nudge one student's lesson count (or every student's, without a childId). */
+  adjustLessons: (id: ID, delta: number, childId?: ID) => void;
 
   upsertExpense: (e: Expense) => void;
   removeExpense: (id: ID) => void;
@@ -199,12 +205,13 @@ export const useStore = create<Store>()(
           const task = s.tasks.find((t) => t.id === id);
           if (!task || task.status === 'done') return {};
           const bonus = p.reflection ? 5 : 0;
+          const cur = task.curriculumId ? s.curricula.find((c) => c.id === task.curriculumId) : undefined;
           return {
-            tasks: s.tasks.map((t) => (t.id === id ? { ...t, ...p, status: 'done', completedAt: new Date().toISOString(), steps: t.steps.map((st) => ({ ...st, done: true })) } : t)),
+            tasks: s.tasks.map((t) =>
+              t.id === id ? { ...t, ...p, status: 'done', completedAt: new Date().toISOString(), steps: t.steps.map((st) => ({ ...st, done: true })), lessonNo: cur ? Math.min(cur.totalLessons, doneFor(cur, t.childId) + 1) : undefined } : t,
+            ),
             children: s.children.map((c) => (c.id === task.childId ? { ...c, sparks: c.sparks + SPARKS_PER_TASK + bonus } : c)),
-            curricula: task.curriculumId
-              ? s.curricula.map((c) => (c.id === task.curriculumId ? { ...c, lessonsDone: Math.min(c.totalLessons, c.lessonsDone + 1) } : c))
-              : s.curricula,
+            curricula: cur ? s.curricula.map((c) => (c.id === cur.id ? setDoneFor(c, task.childId, doneFor(c, task.childId) + 1) : c)) : s.curricula,
             help: s.help.map((h) => (h.taskId === id && !h.resolvedAt ? { ...h, resolvedAt: new Date().toISOString() } : h)),
           };
         }),
@@ -213,9 +220,9 @@ export const useStore = create<Store>()(
           const task = s.tasks.find((t) => t.id === id);
           if (!task || task.status !== 'done') return {};
           return {
-            tasks: s.tasks.map((t) => (t.id === id ? { ...t, status: 'in_progress', completedAt: undefined } : t)),
+            tasks: s.tasks.map((t) => (t.id === id ? { ...t, status: 'in_progress', completedAt: undefined, lessonNo: undefined } : t)),
             children: s.children.map((c) => (c.id === task.childId ? { ...c, sparks: Math.max(0, c.sparks - SPARKS_PER_TASK) } : c)),
-            curricula: task.curriculumId ? s.curricula.map((c) => (c.id === task.curriculumId ? { ...c, lessonsDone: Math.max(0, c.lessonsDone - 1) } : c)) : s.curricula,
+            curricula: task.curriculumId ? s.curricula.map((c) => (c.id === task.curriculumId ? setDoneFor(c, task.childId, doneFor(c, task.childId) - 1) : c)) : s.curricula,
           };
         }),
       startEarly: (id) =>
@@ -273,9 +280,15 @@ export const useStore = create<Store>()(
       removeHoursLog: (id) => set((s) => ({ hoursLogs: s.hoursLogs.filter((l) => l.id !== id) })),
 
       upsertCurriculum: (c) => set((s) => ({ curricula: s.curricula.some((x) => x.id === c.id) ? s.curricula.map((x) => (x.id === c.id ? c : x)) : [...s.curricula, c] })),
+      addMaterial: (cid, m) => set((s) => ({ curricula: s.curricula.map((c) => (c.id === cid ? { ...c, materials: [...(c.materials ?? []), m] } : c)) })),
+      updateMaterial: (cid, id, patch) =>
+        set((s) => ({ curricula: s.curricula.map((c) => (c.id === cid ? { ...c, materials: c.materials?.map((m) => (m.id === id ? { ...m, ...patch } : m)) } : c)) })),
+      removeMaterial: (cid, id) => set((s) => ({ curricula: s.curricula.map((c) => (c.id === cid ? { ...c, materials: c.materials?.filter((m) => m.id !== id) } : c)) })),
       removeCurriculum: (id) => set((s) => ({ curricula: s.curricula.filter((c) => c.id !== id) })),
-      adjustLessons: (id, delta) =>
-        set((s) => ({ curricula: s.curricula.map((c) => (c.id === id ? { ...c, lessonsDone: Math.max(0, Math.min(c.totalLessons, c.lessonsDone + delta)) } : c)) })),
+      adjustLessons: (id, delta, childId) =>
+        set((s) => ({
+          curricula: s.curricula.map((c) => (c.id === id ? (childId ? [childId] : c.childIds).reduce((k, kid) => setDoneFor(k, kid, doneFor(k, kid) + delta), c) : c)),
+        })),
 
       upsertExpense: (e) => set((s) => ({ expenses: s.expenses.some((x) => x.id === e.id) ? s.expenses.map((x) => (x.id === e.id ? e : x)) : [e, ...s.expenses] })),
       removeExpense: (id) => set((s) => ({ expenses: s.expenses.filter((e) => e.id !== id) })),

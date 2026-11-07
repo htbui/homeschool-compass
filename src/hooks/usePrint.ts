@@ -13,7 +13,7 @@ export function usePrint() {
     const s = useStore.getState();
     setBusy(true);
     try {
-      const html = worksheetHtml(tasks, { children: s.children, curricula: s.curricula, parentName: s.family?.parentName }, title);
+      const html = worksheetHtml(tasks, { children: s.children, curricula: s.curricula, tasks: s.tasks, parentName: s.family?.parentName }, title);
       await printDocument(html, title ?? (tasks.length === 1 ? tasks[0].title : 'Lesson packet'));
     } finally {
       setBusy(false);
