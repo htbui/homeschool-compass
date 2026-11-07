@@ -1,8 +1,9 @@
 import { router, useLocalSearchParams } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
-import { Image, Pressable, Text, View } from 'react-native';
+import { Pressable, Text, View } from 'react-native';
 import { useShallow } from 'zustand/react/shallow';
 
+import { MediaImage } from '@/components/MediaImage';
 import { usePrint } from '@/hooks/usePrint';
 import { ageOn, formatDate, todayKey } from '@/lib/dates';
 import { subjectLabel } from '@/lib/subjects';
@@ -184,7 +185,7 @@ export default function ActivityCard() {
         <T v="caption" muted>Snap a photo of a worksheet, drawing, or project — it goes in your portfolio.</T>
         <Row wrap gap={space.sm}>
           {photos.map((p) => (
-            <Image key={p.id} source={{ uri: p.uri }} style={{ width: 96, height: 96, borderRadius: 10 }} />
+            <MediaImage key={p.id} uri={p.uri} remotePath={p.remotePath} style={{ width: 96, height: 96, borderRadius: 10 }} />
           ))}
         </Row>
         <Row wrap>

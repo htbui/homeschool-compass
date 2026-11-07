@@ -47,7 +47,10 @@
           "cameraPermission": "Kinship uses the camera so kids and parents can snap work samples for the portfolio.",
           "microphonePermission": false
         }
-      ]
+      ],
+      "expo-image",
+      "expo-status-bar",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,

@@ -38,9 +38,9 @@ export function CheckoutSheet({ listing, visible, onClose, onPurchased }: { list
     try {
       const r = await checkout(listing, free ? 'out_of_pocket' : funding);
       if (r.status === 'done') {
-        useStore.getState().recordPurchase(r.purchase);
+        if (!useStore.getState().purchases.some((p) => p.id === r.purchase.id)) useStore.getState().recordPurchase(r.purchase);
         onPurchased(r.purchase);
-      } else if (r.status === 'error') setError(r.message);
+      } else if (r.status === 'error' || r.status === 'pending') setError(r.message);
     } finally {
       setBusy(false);
     }
@@ -73,6 +73,8 @@ export function CheckoutSheet({ listing, visible, onClose, onPurchased }: { list
         <Card tint={c.accentSoft}>
           <T v="caption">🧪 Demo checkout: this is a sample listing, so no card is charged. Real purchases go through secure checkout once you sign in to Kinship.</T>
         </Card>
+      ) : !free ? (
+        <T v="caption" muted>🔒 You&apos;ll pay on a secure checkout page; Kinship never sees your card.</T>
       ) : null}
       {error ? <T color={c.danger}>{error}</T> : null}
       <Row style={{ justifyContent: 'flex-end' }}>

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Image, Pressable, View } from 'react-native';
 
+import { MediaImage } from '@/components/MediaImage';
 import { formatDate, todayKey } from '@/lib/dates';
 import { SUBJECT_LIST, SUBJECTS, subjectLabel } from '@/lib/subjects';
 import type { Evidence, Subject } from '@/lib/types';
@@ -53,7 +54,7 @@ export default function PortfolioVault() {
           <Row wrap gap={space.md} align="flex-start">
             {shown.map((e) => (
               <Pressable key={e.id} onPress={() => setView(e)} style={{ width: 160 }}>
-                <Image source={{ uri: e.uri }} style={{ width: 160, height: 140, borderRadius: 12 }} />
+                <MediaImage uri={e.uri} remotePath={e.remotePath} style={{ width: 160, height: 140, borderRadius: 12 }} />
                 <T v="caption" numberOfLines={1}>{kid(e.childId)?.avatar} {subjectLabel(e.subject)} · {formatDate(e.date)}</T>
                 {e.note ? <T v="caption" muted numberOfLines={1}>{e.note}</T> : null}
               </Pressable>
@@ -95,7 +96,7 @@ export default function PortfolioVault() {
       <Sheet visible={!!view} onClose={() => setView(null)} title={view ? `${kid(view.childId)?.name} · ${subjectLabel(view.subject)}` : ''}>
         {view ? (
           <View style={{ gap: space.md }}>
-            <Image source={{ uri: view.uri }} style={{ width: '100%', height: 320, borderRadius: 12 }} resizeMode="contain" />
+            <MediaImage uri={view.uri} remotePath={view.remotePath} style={{ width: '100%', height: 320, borderRadius: 12 }} resizeMode="contain" />
             <T>{formatDate(view.date, { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' })}</T>
             {view.note ? <T>{view.note}</T> : null}
             {view.standard ? <Card><T v="caption">Standard: {view.standard}</T></Card> : null}

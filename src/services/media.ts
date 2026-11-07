@@ -37,6 +37,13 @@ export async function toDataUri(uri: string): Promise<string> {
   }
 }
 
+/** Bytes and type of a local photo, for uploading to family storage. */
+export async function readForUpload(uri: string): Promise<{ body: ArrayBuffer; contentType: string }> {
+  const lower = uri.toLowerCase();
+  const contentType = lower.endsWith('.png') ? 'image/png' : lower.endsWith('.heic') ? 'image/heic' : lower.endsWith('.webp') ? 'image/webp' : 'image/jpeg';
+  return { body: await new File(uri).arrayBuffer(), contentType };
+}
+
 export async function deletePhoto(uri: string): Promise<void> {
   if (uri.startsWith('data:')) return;
   try {

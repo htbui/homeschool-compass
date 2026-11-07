@@ -1,5 +1,5 @@
 import { Stack as RouterStack, router, useLocalSearchParams } from 'expo-router';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { View, useWindowDimensions } from 'react-native';
 
 import { AddToPlanSheet } from '@/components/market/AddToPlanSheet';
@@ -22,7 +22,7 @@ import {
 import { SUBJECTS } from '@/lib/subjects';
 import { useCatalog } from '@/store/useMarket';
 import { useStore } from '@/store/useStore';
-import { deleteReview, voteHelpful } from '@/services/marketApi';
+import { deleteReview, loadReviews, voteHelpful } from '@/services/marketApi';
 import { Button, Card, Chip, Empty, Pill, Progress, Row, Screen, Section, space, Stack, T, useColors, useConfirm } from '@/ui';
 
 const REVIEW_SORT: Record<ReviewSort, string> = { helpful: 'Most helpful', newest: 'Newest', high: 'Highest', low: 'Lowest' };
@@ -31,7 +31,7 @@ export default function ListingDetail() {
   const c = useColors();
   const { width } = useWindowDimensions();
   const { id } = useLocalSearchParams<{ id: string }>();
-  const { listings, reviews: allReviews } = useCatalog();
+  const { listings, reviews: allReviews, source } = useCatalog();
   const family = useStore((s) => s.family);
   const kids = useStore((s) => s.children);
   const purchase = useStore((s) => s.purchases.find((p) => p.listingId === id));
@@ -43,6 +43,11 @@ export default function ListingDetail() {
   const [reviewing, setReviewing] = useState(false);
   const [reviewSort, setReviewSort] = useState<ReviewSort>('helpful');
   const [starFilter, setStarFilter] = useState<number | null>(null);
+
+  // Reload when the live catalog arrives (it replaces the sample one after launch).
+  useEffect(() => {
+    if (id) loadReviews(id);
+  }, [id, source]);
 
   const l = listings.find((x) => x.id === id);
   if (!l) {

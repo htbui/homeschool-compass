@@ -6,6 +6,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
 import { useColorScheme } from 'react-native';
 
+import { startSync } from '@/services/sync';
 import { useStore } from '@/store/useStore';
 import { useColors } from '@/ui';
 
@@ -17,7 +18,11 @@ export default function RootLayout() {
   const hydrated = useStore((s) => s.hydrated);
 
   useEffect(() => {
-    if (hydrated) SplashScreen.hideAsync();
+    if (hydrated) {
+      SplashScreen.hideAsync();
+      // Start cloud sync only after local data has loaded, so it merges against the real state.
+      startSync();
+    }
   }, [hydrated]);
 
   const base = scheme === 'dark' ? DarkTheme : DefaultTheme;
@@ -35,6 +40,7 @@ export default function RootLayout() {
         <Stack.Screen name="kid" />
         <Stack.Screen name="records" />
         <Stack.Screen name="settings" options={{ headerShown: true, title: 'Settings' }} />
+        <Stack.Screen name="account" options={{ headerShown: true, title: 'Account & sync' }} />
         <Stack.Screen name="listing/[id]" options={{ headerShown: true, title: 'Curriculum', headerBackTitle: 'Marketplace' }} />
       </Stack>
     </ThemeProvider>

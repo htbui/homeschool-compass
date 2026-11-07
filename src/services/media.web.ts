@@ -33,4 +33,10 @@ export async function toDataUri(uri: string): Promise<string> {
   return uri;
 }
 
+/** Bytes and type of a stored photo (a data URI on web), for uploading. */
+export async function readForUpload(uri: string): Promise<{ body: Blob; contentType: string }> {
+  const blob = await (await fetch(uri)).blob();
+  return { body: blob, contentType: blob.type || 'image/jpeg' };
+}
+
 export async function deletePhoto(_uri: string): Promise<void> {}

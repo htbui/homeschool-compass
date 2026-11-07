@@ -157,6 +157,8 @@ export interface Evidence {
   note: string;
   taskId?: ID;
   standard?: string;
+  /** Path in family cloud storage once uploaded (other devices load it from there). */
+  remotePath?: string;
 }
 
 export interface HoursLog {
@@ -194,6 +196,8 @@ export interface Expense {
   childId?: ID;
   approvedVendor: boolean;
   receiptUri?: string;
+  /** Path in family cloud storage once the receipt is uploaded. */
+  receiptPath?: string;
 }
 
 export interface NoiDraft {

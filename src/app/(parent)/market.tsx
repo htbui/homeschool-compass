@@ -28,7 +28,7 @@ import { SUBJECT_LIST, SUBJECTS } from '@/lib/subjects';
 import type { Philosophy, Subject } from '@/lib/types';
 import { useCatalog } from '@/store/useMarket';
 import { useStore } from '@/store/useStore';
-import { deleteListing } from '@/services/marketApi';
+import { deleteListing, refreshPurchases } from '@/services/marketApi';
 import { Button, Card, Chip, Empty, Field, Pill, Row, Screen, Section, Segmented, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
 
 type View_ = 'browse' | 'library' | 'selling';
@@ -37,7 +37,7 @@ type GradeMode = 'mine' | 'all';
 export default function Marketplace() {
   const c = useColors();
   const { width } = useWindowDimensions();
-  const params = useLocalSearchParams<{ used?: string; view?: string; q?: string; style?: string }>();
+  const params = useLocalSearchParams<{ used?: string; view?: string; q?: string; style?: string; checkout?: string }>();
   const family = useStore((s) => s.family)!;
   const kids = useStore((s) => s.children);
   const purchases = useStore((s) => s.purchases);
@@ -64,6 +64,8 @@ export default function Marketplace() {
   if (paramKey !== seenParams) {
     setSeenParams(paramKey);
     if (params.view === 'selling' || params.view === 'library') setView(params.view);
+    // Back from hosted checkout: pick up the new purchase.
+    if (params.checkout === 'success') refreshPurchases();
     if (params.used) {
       setView('browse');
       setUsed('used');

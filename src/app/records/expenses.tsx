@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import { Image, View } from 'react-native';
+import { View } from 'react-native';
 
+import { MediaImage } from '@/components/MediaImage';
 import { formatDate, schoolYearLabel, todayKey } from '@/lib/dates';
 import { expenseReportHtml } from '@/lib/documents';
 import { uid } from '@/lib/id';
@@ -96,7 +97,7 @@ export default function ExpensesScreen() {
                 <Row gap={6}>
                   <Pill text={SOURCES.find((s) => s.value === e.fundingSource)!.label} />
                   {e.approvedVendor ? <Pill text="Approved vendor ✓" bg={c.successSoft} fg={c.success} /> : null}
-                  {e.receiptUri ? <Pill text="🧾 Receipt" /> : null}
+                  {e.receiptUri || e.receiptPath ? <Pill text="🧾 Receipt" /> : null}
                 </Row>
               </Card>
             ))}
@@ -130,8 +131,8 @@ export default function ExpensesScreen() {
               ))}
             </Row>
             <Chip label={`${editing.approvedVendor ? '✓' : '○'} Approved ESA vendor`} selected={editing.approvedVendor} onPress={() => setEditing({ ...editing, approvedVendor: !editing.approvedVendor })} />
-            {editing.receiptUri ? <Image source={{ uri: editing.receiptUri }} style={{ width: '100%', height: 180, borderRadius: 12 }} resizeMode="contain" /> : null}
-            <Button kind="secondary" icon="🧾" title={editing.receiptUri ? 'Replace receipt' : 'Attach receipt'} onPress={async () => { const uri = await pickPhoto('library'); if (uri) setEditing({ ...editing, receiptUri: uri }); }} />
+            {editing.receiptUri || editing.receiptPath ? <MediaImage uri={editing.receiptUri} remotePath={editing.receiptPath} style={{ width: '100%', height: 180, borderRadius: 12 }} resizeMode="contain" /> : null}
+            <Button kind="secondary" icon="🧾" title={editing.receiptUri ? 'Replace receipt' : 'Attach receipt'} onPress={async () => { const uri = await pickPhoto('library'); if (uri) setEditing({ ...editing, receiptUri: uri, receiptPath: undefined }); }} />
             <Row style={{ justifyContent: 'flex-end' }}>
               {expenses.some((x) => x.id === editing.id) ? <Button kind="danger" title="Delete" onPress={() => { removeExpense(editing.id); setEditing(null); }} /> : null}
               <Button

@@ -7,8 +7,11 @@ import { StatePicker } from '@/components/StatePicker';
 import { ageOn, WEEKDAY_SHORT } from '@/lib/dates';
 import { describeResult } from '@/lib/quiz';
 import type { Child, Weekday } from '@/lib/types';
+import { STATUS_LABEL, useAccount } from '@/store/useAccount';
 import { useStore } from '@/store/useStore';
+import { cloudEnabled } from '@/services/cloud';
 import { shareText } from '@/services/exportDoc';
+import { signOut } from '@/services/sync';
 import { Button, Card, Chip, DateField, Field, Row, Screen, Section, Sheet, space, Stack, T, useConfirm } from '@/ui';
 
 export default function Settings() {
@@ -22,12 +25,24 @@ export default function Settings() {
   const [pin, setPin] = useState('');
   const [pinSaved, setPinSaved] = useState(false);
   const confirm = useConfirm();
+  const account = useAccount();
 
   if (!family) return null;
   const toggleDay = (d: Weekday) => updateFamily({ schoolDays: family.schoolDays.includes(d) ? family.schoolDays.filter((x) => x !== d) : [...family.schoolDays, d].sort() });
 
   return (
     <Screen edges={[]}>
+      {cloudEnabled ? (
+        <Section title="Account & sync">
+          <Card onPress={() => router.push('/account')}>
+            <Row wrap style={{ justifyContent: 'space-between' }}>
+              <T v="heading">{account.userId ? account.email : 'Not signed in'}</T>
+              <T v="label">{account.userId ? STATUS_LABEL[account.status] : 'Sign in ›'}</T>
+            </Row>
+            <T v="caption" muted>{account.userId ? 'Your family syncs across every device signed in to this account.' : 'Sign in to sync across devices, shop the live marketplace, and meet families nearby.'}</T>
+          </Card>
+        </Section>
+      ) : null}
       <Section title="Family">
         <Stack gap={space.md}>
           <Field label="Family name" value={family.familyName} onChangeText={(familyName) => updateFamily({ familyName })} />
@@ -91,7 +106,7 @@ export default function Settings() {
         </Stack>
       </Section>
 
-      <Section title="Your data" subtitle="Kinship is offline-first: everything lives on this device. Back up to move between devices until cloud sync arrives.">
+      <Section title="Your data" subtitle={account.userId ? 'Kinship is offline-first: this device keeps a full copy and syncs with your account. Backups are a handy extra copy.' : 'Kinship is offline-first: everything lives on this device. Back up to move it, or sign in to sync.'}>
         <Row wrap>
           <Button kind="secondary" icon="⬇️" title="Export backup" onPress={() => shareText(exportData(), `kinship-backup-${new Date().toISOString().slice(0, 10)}.json`, 'application/json')} />
           <Button kind="secondary" icon="⬆️" title="Import backup" onPress={() => setImportOpen(true)} />
@@ -99,10 +114,16 @@ export default function Settings() {
             kind="danger"
             title="Erase everything"
             onPress={() =>
-              confirm.ask('Erase all Kinship data on this device?', () => {
-                resetAll();
-                router.replace('/onboarding');
-              }, { body: 'This cannot be undone. Export a backup first if you might want it later.', confirm: 'Erase' })
+              confirm.ask(
+                'Erase all Kinship data on this device?',
+                async () => {
+                  // Signed in: sign out first so the erase doesn't sync to the account.
+                  if (account.userId) await signOut(false);
+                  else resetAll();
+                  router.replace('/onboarding');
+                },
+                { body: account.userId ? 'This signs you out and erases this device. Your account keeps its copy — to delete that too, use Account & sync → Leave family.' : 'This cannot be undone. Export a backup first if you might want it later.', confirm: 'Erase' },
+              )
             }
           />
         </Row>

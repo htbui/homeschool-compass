@@ -2,11 +2,14 @@ import { router } from 'expo-router';
 import { useMemo, useState } from 'react';
 import { View } from 'react-native';
 
+import { LiveCommunity } from '@/components/community/LiveCommunity';
 import { matchFamilies, SAMPLE_FAMILIES } from '@/lib/community';
 import { formatDate, addDays, todayKey } from '@/lib/dates';
 import { parseCount } from '@/lib/parse';
 import { PHILOSOPHY_INFO } from '@/lib/quiz';
 import type { Philosophy } from '@/lib/types';
+import { cloudEnabled } from '@/services/cloud';
+import { useAccount } from '@/store/useAccount';
 import { useStore } from '@/store/useStore';
 import { Button, Card, Chip, DateField, Field, MoneyField, Pill, Row, Screen, Section, Segmented, Sheet, space, Stack, T, useColors } from '@/ui';
 
@@ -20,6 +23,18 @@ const AGE_BANDS = [
 ];
 
 export default function CommunityHub() {
+  const live = useAccount((s) => cloudEnabled && !!s.userId && !!s.familyId && !s.conflict);
+  return (
+    <Screen>
+      <T v="display">Community</T>
+      <T muted>Local families, co-ops, and field trips. Exact addresses are never shared — only distance bands.</T>
+      {live ? <LiveCommunity /> : <PreviewCommunity />}
+    </Screen>
+  );
+}
+
+/** Sample network shown until the family signs in to the Kinship service. */
+function PreviewCommunity() {
   const c = useColors();
   const [tab, setTab] = useState<Tab>('families');
   const family = useStore((s) => s.family)!;
@@ -40,11 +55,17 @@ export default function CommunityHub() {
   const [newEvent, setNewEvent] = useState(false);
 
   return (
-    <Screen>
-      <T v="display">Community</T>
-      <T muted>Verified local families, co-ops, field trips, and curriculum swaps. Exact addresses are never shared — only distance bands.</T>
+    <>
       <Card tint={c.accentSoft} style={{ marginTop: space.md }}>
-        <T v="caption">🧪 Preview: you&apos;re seeing a sample network. Live matching, messaging, and verification turn on when the Kinship community service launches. Your co-ops, events, and listings are saved on this device.</T>
+        <T v="caption">
+          🧪 Preview: you&apos;re seeing a sample network, saved only on this device.{' '}
+          {cloudEnabled ? 'Sign in to meet real families, co-ops, and field trips near you.' : 'The live community turns on when this app is connected to the Kinship service.'}
+        </T>
+        {cloudEnabled ? (
+          <Row>
+            <Button size="sm" title="Sign in or create an account" onPress={() => router.push('/account')} />
+          </Row>
+        ) : null}
       </Card>
       <View style={{ marginTop: space.lg }}>
         <Segmented<Tab>
@@ -170,7 +191,7 @@ export default function CommunityHub() {
 
       <CoopSheet visible={newCoop} onClose={() => setNewCoop(false)} onSave={(name, description, meets) => { addCoop({ name, description, meets, duties: [{ label: 'Organizer', family: family.parentName }] }); setNewCoop(false); }} />
       <EventSheet visible={newEvent} onClose={() => setNewEvent(false)} onSave={(e) => { addEvent({ ...e, host: family.parentName }); setNewEvent(false); }} />
-    </Screen>
+    </>
   );
 }
 

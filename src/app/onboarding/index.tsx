@@ -1,6 +1,7 @@
 import { router } from 'expo-router';
 import { View } from 'react-native';
 
+import { cloudEnabled } from '@/services/cloud';
 import { useDraft } from '@/store/onboardingDraft';
 import { demoWorkspace } from '@/store/seed';
 import { useStore } from '@/store/useStore';
@@ -55,6 +56,7 @@ export default function Welcome() {
           }}
         />
         <Button size="lg" kind="secondary" title="Explore with a demo family" onPress={startDemo} />
+        {cloudEnabled ? <Button kind="ghost" title="Already use Kinship? Sign in" onPress={() => router.push('/account')} /> : null}
         <T v="caption" muted style={{ textAlign: 'center' }}>
           Your data stays on this device until you choose to sync.
         </T>
