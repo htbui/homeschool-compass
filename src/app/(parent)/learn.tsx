@@ -1,3 +1,4 @@
+import { router } from 'expo-router';
 import { useMemo, useState } from 'react';
 import { View } from 'react-native';
 
@@ -6,7 +7,6 @@ import { uid } from '@/lib/id';
 import { CURRICULUM_PRESETS, pacing } from '@/lib/pacing';
 import { parseCount } from '@/lib/parse';
 import { PHILOSOPHY_INFO } from '@/lib/quiz';
-import { CURRICULUM_SUGGESTIONS } from '@/lib/recommend';
 import { SUBJECT_LIST, SUBJECTS, subjectLabel } from '@/lib/subjects';
 import type { Curriculum, RhythmBlock, Subject } from '@/lib/types';
 import { generateUnitStudy, TIER_LABEL, type UnitPlan } from '@/lib/unitStudy';
@@ -59,7 +59,7 @@ export default function CurriculumHub() {
   return (
     <Screen>
       <T v="display">Curriculum</T>
-      <T muted>Content-agnostic: Kinship paces and tracks whatever you already use.</T>
+      <T muted>Kinship paces and tracks any curriculum — one from the Marketplace, or one you already own.</T>
       <View style={{ marginTop: space.lg }}>
         <Segmented<Tab> value={tab} onChange={setTab} options={[{ value: 'curricula', label: '📚 Pacing' }, { value: 'unit', label: '🧭 Unit Study Generator' }]} />
       </View>
@@ -68,7 +68,12 @@ export default function CurriculumHub() {
         <>
           <Section title="Your curricula" subtitle="Missed days are re-spread across the rest of the year — no backlog, no guilt." action={<Button size="sm" icon="＋" title="Add" onPress={() => setEditing('new')} />}>
             {curricula.length === 0 ? (
-              <Empty icon="📚" title="No curricula yet" body="Add a textbook or program with its lesson count and Kinship calculates your weekly pace." />
+              <Empty
+                icon="📚"
+                title="No curricula yet"
+                body="Find one in the Marketplace, or add a textbook you already own with its lesson count, and Kinship calculates your weekly pace."
+                action={<Button title="Browse the Marketplace" onPress={() => router.push('/market')} />}
+              />
             ) : (
               <Stack>
                 {curricula.map((k) => {
@@ -103,15 +108,20 @@ export default function CurriculumHub() {
               </Stack>
             )}
           </Section>
-          {primary ? (
-            <Section title={`Popular with ${PHILOSOPHY_INFO[primary].label} families`}>
-              <Row wrap gap={6}>
-                {CURRICULUM_SUGGESTIONS[primary].map((s) => (
-                  <Chip key={s} label={s} />
-                ))}
+          <Section title="Where curricula come from">
+            <Card>
+              <T>
+                <T style={{ fontWeight: '700' }}>🛍️ The Marketplace</T> — publishers list their curricula and families list used or homemade ones. Compare ratings and reviews, filter by your kids&apos; grades and your teaching style, then buy and add it to your plan in one step.
+              </T>
+              <T>
+                <T style={{ fontWeight: '700' }}>📦 What you already own</T> — tap <T style={{ fontWeight: '700' }}>＋ Add</T> and enter the lesson count (or pick a popular program from Quick import). Kinship doesn&apos;t need to sell it to pace it.
+              </T>
+              <Row wrap>
+                <Button title="Browse the Marketplace" onPress={() => router.push('/market')} />
+                {primary ? <Button kind="secondary" title={`${PHILOSOPHY_INFO[primary].emoji} Picks for ${PHILOSOPHY_INFO[primary].label}`} onPress={() => router.push({ pathname: '/market', params: { style: primary } })} /> : null}
               </Row>
-            </Section>
-          ) : null}
+            </Card>
+          </Section>
         </>
       ) : (
         <>
@@ -198,6 +208,7 @@ function CurriculumForm({ initial, onSave, onDelete }: { initial?: Curriculum; o
     <Stack gap={space.lg}>
       {!initial ? (
         <View style={{ gap: 6 }}>
+          <T v="caption" muted>Track a curriculum you already own. Looking for something new? Browse the Marketplace.</T>
           <T v="label">Quick import</T>
           <Row wrap gap={6}>
             {presets.map((p) => (

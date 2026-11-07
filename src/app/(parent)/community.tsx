@@ -1,3 +1,4 @@
+import { router } from 'expo-router';
 import { useMemo, useState } from 'react';
 import { View } from 'react-native';
 
@@ -5,8 +6,7 @@ import { matchFamilies, SAMPLE_FAMILIES } from '@/lib/community';
 import { formatDate, addDays, todayKey } from '@/lib/dates';
 import { parseCount } from '@/lib/parse';
 import { PHILOSOPHY_INFO } from '@/lib/quiz';
-import { SUBJECT_LIST, SUBJECTS, subjectLabel } from '@/lib/subjects';
-import type { Philosophy, Subject, SwapListing } from '@/lib/types';
+import type { Philosophy } from '@/lib/types';
 import { useStore } from '@/store/useStore';
 import { Button, Card, Chip, DateField, Field, MoneyField, Pill, Row, Screen, Section, Segmented, Sheet, space, Stack, T, useColors } from '@/ui';
 
@@ -25,8 +25,7 @@ export default function CommunityHub() {
   const family = useStore((s) => s.family)!;
   const coops = useStore((s) => s.coops);
   const events = useStore((s) => s.events);
-  const swaps = useStore((s) => s.swaps);
-  const { toggleCoop, addCoop, toggleEvent, addEvent, addSwap, removeSwap } = useStore.getState();
+  const { toggleCoop, addCoop, toggleEvent, addEvent } = useStore.getState();
 
   const [radius, setRadius] = useState(10);
   const [ageBand, setAgeBand] = useState(0);
@@ -39,7 +38,6 @@ export default function CommunityHub() {
 
   const [newCoop, setNewCoop] = useState(false);
   const [newEvent, setNewEvent] = useState(false);
-  const [newSwap, setNewSwap] = useState(false);
 
   return (
     <Screen>
@@ -158,25 +156,20 @@ export default function CommunityHub() {
       ) : null}
 
       {tab === 'swap' ? (
-        <Section title="Curriculum swap" subtitle="Used books, manipulatives, and lab gear within local verified circles." action={<Button size="sm" icon="＋" title="List item" onPress={() => setNewSwap(true)} />}>
-          <Stack gap={space.sm}>
-            {swaps.map((s) => (
-              <Card key={s.id}>
-                <Row style={{ justifyContent: 'space-between' }} wrap>
-                  <T v="heading" style={{ flex: 1 }}>{SUBJECTS[s.subject].icon} {s.title}</T>
-                  <T v="heading" color={c.primary}>{s.price ? `$${s.price}` : 'Free'}</T>
-                </Row>
-                <T v="caption" muted>{subjectLabel(s.subject)} · {s.condition.replace('_', ' ')} · {s.mine ? 'Your listing' : `${s.seller} · ${s.distanceBand}`}</T>
-                <Row>{s.mine ? <Button size="sm" kind="danger" title="Remove" onPress={() => removeSwap(s.id)} /> : <Button size="sm" kind="secondary" title="I'm interested" />}</Row>
-              </Card>
-            ))}
-          </Stack>
+        <Section title="Curriculum swap" subtitle="Used books, manipulatives, and lab gear from other families.">
+          <Card tint={c.primarySoft}>
+            <T v="heading">📦 Swaps now live in the Marketplace</T>
+            <T>Browse used curricula from other families, or list your own, alongside new curricula from publishers — with reviews, grade filters, and one-tap “add to plan”.</T>
+            <Row wrap>
+              <Button title="Browse used curricula" onPress={() => router.push({ pathname: '/market', params: { used: '1' } })} />
+              <Button kind="secondary" title="Sell something" onPress={() => router.push({ pathname: '/market', params: { view: 'selling' } })} />
+            </Row>
+          </Card>
         </Section>
       ) : null}
 
       <CoopSheet visible={newCoop} onClose={() => setNewCoop(false)} onSave={(name, description, meets) => { addCoop({ name, description, meets, duties: [{ label: 'Organizer', family: family.parentName }] }); setNewCoop(false); }} />
       <EventSheet visible={newEvent} onClose={() => setNewEvent(false)} onSave={(e) => { addEvent({ ...e, host: family.parentName }); setNewEvent(false); }} />
-      <SwapSheet visible={newSwap} onClose={() => setNewSwap(false)} onSave={(s) => { addSwap(s); setNewSwap(false); }} />
     </Screen>
   );
 }
@@ -219,35 +212,6 @@ function EventSheet({ visible, onClose, onSave }: { visible: boolean; onClose: (
         disabled={missing.length > 0}
         reason={`Still needed: ${missing.join(', ')}`}
         onPress={() => date && cap && onSave({ title: title.trim(), date, location: location.trim() || 'TBD', ages, costPerKid: cost ?? 0, capacity: cap })}
-      />
-    </Sheet>
-  );
-}
-
-function SwapSheet({ visible, onClose, onSave }: { visible: boolean; onClose: () => void; onSave: (s: Omit<SwapListing, 'id' | 'mine' | 'seller' | 'distanceBand'>) => void }) {
-  const [title, setTitle] = useState('');
-  const [subject, setSubject] = useState<Subject>('math');
-  const [condition, setCondition] = useState<SwapListing['condition']>('good');
-  const [price, setPrice] = useState<number | undefined>(0);
-  return (
-    <Sheet visible={visible} onClose={onClose} title="List an item">
-      <Field label="What is it?" value={title} onChangeText={setTitle} placeholder="Saxon Math 6/5 student text" />
-      <Row wrap gap={6}>
-        {SUBJECT_LIST.map((s) => (
-          <Chip key={s} label={`${SUBJECTS[s].icon} ${SUBJECTS[s].label}`} selected={subject === s} onPress={() => setSubject(s)} />
-        ))}
-      </Row>
-      <Row wrap gap={6}>
-        {(['new', 'like_new', 'good', 'fair'] as const).map((cnd) => (
-          <Chip key={cnd} label={cnd.replace('_', ' ')} selected={condition === cnd} onPress={() => setCondition(cnd)} />
-        ))}
-      </Row>
-      <MoneyField label="Price ($, 0 = free)" value={price} onChange={setPrice} example="0" />
-      <Button
-        title="List it"
-        disabled={!title.trim() || price === undefined}
-        reason={!title.trim() ? 'Describe the item' : 'Enter a price (0 for free)'}
-        onPress={() => onSave({ title: title.trim(), subject, condition, price: price ?? 0 })}
       />
     </Sheet>
   );

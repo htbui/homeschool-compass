@@ -1,6 +1,6 @@
 import { addDays, schoolYearLabel, stepDay, todayKey, weekdayOf } from '@/lib/dates';
 import { tasksForDate } from '@/lib/schedule';
-import type { Child, CoOp, CommunityEvent, Curriculum, DateKey, FamilyProfile, RhythmBlock, SwapListing, Task, Weekday } from '@/lib/types';
+import type { Child, CoOp, CommunityEvent, Curriculum, DateKey, FamilyProfile, RhythmBlock, Task, Weekday } from '@/lib/types';
 
 const WEEKDAYS: Weekday[] = [1, 2, 3, 4, 5];
 
@@ -99,7 +99,7 @@ function demoHistory(blocks: RhythmBlock[]): Task[] {
   return out;
 }
 
-export function seedCommunity(): { coops: CoOp[]; events: CommunityEvent[]; swaps: SwapListing[] } {
+export function seedCommunity(): { coops: CoOp[]; events: CommunityEvent[] } {
   const t = todayKey();
   return {
     coops: [
@@ -111,12 +111,6 @@ export function seedCommunity(): { coops: CoOp[]; events: CommunityEvent[]; swap
       { id: 'e1', title: 'Natural History Museum – Homeschool Day', date: addDays(t, 6), location: 'Museum of Nature & Science', ages: 'All ages', host: 'Marcus T.', costPerKid: 8, rsvps: 14, capacity: 30, going: false, carpool: false },
       { id: 'e2', title: 'Creek Study & Macroinvertebrate Hunt', date: addDays(t, 10), location: 'Cherry Creek Trailhead', ages: '6–12', host: 'Sarah K.', costPerKid: 0, rsvps: 9, capacity: 15, going: false, carpool: false },
       { id: 'e3', title: 'Park Day + Curriculum Swap Table', date: addDays(t, 3), location: 'Washington Park, north pavilion', ages: 'All ages', host: 'Hannah W.', costPerKid: 0, rsvps: 22, capacity: 60, going: false, carpool: false },
-    ],
-    swaps: [
-      { id: 's1', title: 'Saxon Math 5/4 – textbook + answer key', subject: 'math', condition: 'good', price: 25, seller: 'Rachel B.', distanceBand: 'within 25 mi', mine: false },
-      { id: 's2', title: 'Story of the World Vol. 2 + Activity Book', subject: 'history', condition: 'like_new', price: 30, seller: 'Marcus T.', distanceBand: 'within 5 mi', mine: false },
-      { id: 's3', title: 'Snap Circuits Jr. kit', subject: 'science', condition: 'good', price: 15, seller: 'Anh N.', distanceBand: 'within 10 mi', mine: false },
-      { id: 's4', title: 'Cuisenaire rods (classroom set)', subject: 'math', condition: 'fair', price: 0, seller: 'Priya R.', distanceBand: 'within 5 mi', mine: false },
     ],
   };
 }

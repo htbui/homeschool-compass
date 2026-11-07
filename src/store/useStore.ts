@@ -20,9 +20,9 @@ import type {
   MoodCheckIn,
   NoiDraft,
   RhythmBlock,
-  SwapListing,
   Task,
 } from '@/lib/types';
+import { planFromListing, type Listing, type PlanOptions, type Purchase, type Review } from '@/lib/market';
 
 import { seedCommunity } from './seed';
 
@@ -43,7 +43,11 @@ interface Data {
   noi: NoiDraft;
   coops: CoOp[];
   events: CommunityEvent[];
-  swaps: SwapListing[];
+  /** Marketplace: what this family bought, listed, and reviewed. */
+  purchases: Purchase[];
+  myListings: Listing[];
+  myReviews: Review[];
+  helpfulVotes: ID[];
   mode: AppMode;
 }
 
@@ -90,8 +94,14 @@ interface Actions {
   addCoop: (c: Omit<CoOp, 'id' | 'joined' | 'members'>) => void;
   toggleEvent: (id: ID, field: 'going' | 'carpool') => void;
   addEvent: (e: Omit<CommunityEvent, 'id' | 'rsvps' | 'going' | 'carpool'>) => void;
-  addSwap: (s: Omit<SwapListing, 'id' | 'mine' | 'seller' | 'distanceBand'>) => void;
-  removeSwap: (id: ID) => void;
+
+  recordPurchase: (p: Purchase) => void;
+  addListingToPlan: (listing: Listing, opts: PlanOptions, purchaseId?: ID) => { curriculum: Curriculum; blocks: RhythmBlock[] };
+  upsertMyListing: (l: Listing) => void;
+  removeMyListing: (id: ID) => void;
+  upsertMyReview: (r: Review) => void;
+  removeMyReview: (id: ID) => void;
+  toggleHelpful: (reviewId: ID) => void;
 
   setMode: (m: AppMode) => void;
   importData: (json: string) => void;
@@ -125,6 +135,10 @@ const initialData = (): Data => ({
   esaAnnualAward: 0,
   noi: emptyNoi(),
   ...seedCommunity(),
+  purchases: [],
+  myListings: [],
+  myReviews: [],
+  helpfulVotes: [],
   mode: { kind: 'parent' },
 });
 
@@ -256,8 +270,30 @@ export const useStore = create<Store>()(
           }),
         })),
       addEvent: (e) => set((s) => ({ events: [...s.events, { ...e, id: uid('e'), rsvps: 1, going: true, carpool: false }] })),
-      addSwap: (sw) => set((s) => ({ swaps: [{ ...sw, id: uid('s'), mine: true, seller: s.family?.parentName ?? 'You', distanceBand: 'you' }, ...s.swaps] })),
-      removeSwap: (id) => set((s) => ({ swaps: s.swaps.filter((x) => x.id !== id) })),
+
+      recordPurchase: (p) =>
+        set((s) => {
+          // Paid purchases land in the expense tracker for ESA / tax records.
+          const expense: Expense | undefined =
+            p.price > 0
+              ? { id: uid('x'), date: p.purchasedAt.slice(0, 10), vendor: p.seller, description: p.title, amount: p.price, category: 'curriculum', fundingSource: p.fundingSource, approvedVendor: p.esaEligible }
+              : undefined;
+          return { purchases: [p, ...s.purchases.filter((x) => x.id !== p.id)], expenses: expense ? [expense, ...s.expenses] : s.expenses };
+        }),
+      addListingToPlan: (listing, opts, purchaseId) => {
+        const { curriculum, blocks } = planFromListing(listing, opts);
+        set((s) => ({
+          curricula: [...s.curricula, curriculum],
+          blocks: [...s.blocks, ...blocks],
+          purchases: s.purchases.map((p) => (p.id === purchaseId || (!purchaseId && p.listingId === listing.id) ? { ...p, curriculumId: curriculum.id } : p)),
+        }));
+        return { curriculum, blocks };
+      },
+      upsertMyListing: (l) => set((s) => ({ myListings: [{ ...l, mine: true }, ...s.myListings.filter((x) => x.id !== l.id)] })),
+      removeMyListing: (id) => set((s) => ({ myListings: s.myListings.filter((x) => x.id !== id) })),
+      upsertMyReview: (r) => set((s) => ({ myReviews: [{ ...r, mine: true }, ...s.myReviews.filter((x) => x.id !== r.id && x.listingId !== r.listingId)] })),
+      removeMyReview: (id) => set((s) => ({ myReviews: s.myReviews.filter((x) => x.id !== id) })),
+      toggleHelpful: (reviewId) => set((s) => ({ helpfulVotes: s.helpfulVotes.includes(reviewId) ? s.helpfulVotes.filter((x) => x !== reviewId) : [...s.helpfulVotes, reviewId] })),
 
       setMode: (mode) => set({ mode }),
       exportData: () => {

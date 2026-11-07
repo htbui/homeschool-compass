@@ -35,6 +35,7 @@ export default function RootLayout() {
         <Stack.Screen name="kid" />
         <Stack.Screen name="records" />
         <Stack.Screen name="settings" options={{ headerShown: true, title: 'Settings' }} />
+        <Stack.Screen name="listing/[id]" options={{ headerShown: true, title: 'Curriculum', headerBackTitle: 'Marketplace' }} />
       </Stack>
     </ThemeProvider>
   );

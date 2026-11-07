@@ -230,14 +230,3 @@ export interface CommunityEvent {
   going: boolean;
   carpool: boolean;
 }
-
-export interface SwapListing {
-  id: ID;
-  title: string;
-  subject: Subject;
-  condition: 'new' | 'like_new' | 'good' | 'fair';
-  price: number;
-  seller: string;
-  distanceBand: string;
-  mine: boolean;
-}
