@@ -3,7 +3,7 @@ import { useState } from 'react';
 import type { Task } from '@/lib/types';
 import { worksheetHtml } from '@/lib/worksheet';
 import { useStore } from '@/store/useStore';
-import { printHtml } from '@/services/exportDoc';
+import { printDocument } from '@/services/printing';
 
 /** Print one task as a worksheet, or several as a day packet. */
 export function usePrint() {
@@ -13,9 +13,8 @@ export function usePrint() {
     const s = useStore.getState();
     setBusy(true);
     try {
-      await printHtml(worksheetHtml(tasks, { children: s.children, curricula: s.curricula, parentName: s.family?.parentName }, title));
-    } catch {
-      // Closing the native print dialog without printing rejects on iOS; nothing to do.
+      const html = worksheetHtml(tasks, { children: s.children, curricula: s.curricula, parentName: s.family?.parentName }, title);
+      await printDocument(html, title ?? (tasks.length === 1 ? tasks[0].title : 'Lesson packet'));
     } finally {
       setBusy(false);
     }

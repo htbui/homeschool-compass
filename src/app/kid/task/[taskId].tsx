@@ -29,7 +29,7 @@ export default function ActivityCard() {
   const family = useStore((s) => s.family);
   const photos = useStore(useShallow((s) => s.evidence.filter((e) => e.taskId === taskId)));
   const openHelp = useStore((s) => s.help.find((h) => h.childId === task?.childId && !h.resolvedAt));
-  const { toggleStep, startTask, completeTask, requestHelp, addEvidence } = useStore.getState();
+  const { toggleStep, startTask, completeTask, requestHelp, addEvidence, startEarly } = useStore.getState();
 
   const [elapsed, setElapsed] = useState(0);
   const [running, setRunning] = useState(false);
@@ -119,8 +119,9 @@ export default function ActivityCard() {
       </Row>
       {upcoming ? (
         <Card tint={c.accentSoft} style={{ marginTop: space.md }}>
-          <T v="heading">👀 Sneak peek — this is for {formatDate(task.date, { weekday: 'long', month: 'long', day: 'numeric' })}</T>
-          <T>You can read the steps and print the worksheet now. You&apos;ll start it on {formatDate(task.date, { weekday: 'long' })}.</T>
+          <T v="heading">📅 Planned for {formatDate(task.date, { weekday: 'long', month: 'long', day: 'numeric' })}</T>
+          <T>It&apos;s planned for {formatDate(task.date, { weekday: 'long' })}, but you can get a head start! Starting now moves it to today.</T>
+          <Button size="lg" title="Start it now 🚀" onPress={() => { startEarly(task.id); speak(`Great! Let's start ${task.title} now.`); }} />
         </Card>
       ) : null}
 

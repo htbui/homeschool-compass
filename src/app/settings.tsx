@@ -8,11 +8,12 @@ import { ageOn, WEEKDAY_SHORT } from '@/lib/dates';
 import { describeResult } from '@/lib/quiz';
 import type { Child, Weekday } from '@/lib/types';
 import { STATUS_LABEL, useAccount } from '@/store/useAccount';
+import { usePrinter } from '@/store/usePrinter';
 import { useStore } from '@/store/useStore';
 import { cloudEnabled } from '@/services/cloud';
 import { shareText } from '@/services/exportDoc';
 import { signOut } from '@/services/sync';
-import { Button, Card, Chip, DateField, Field, Row, Screen, Section, Sheet, space, Stack, T, useConfirm } from '@/ui';
+import { Button, Card, Chip, DateField, Field, Row, Screen, Section, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
 
 export default function Settings() {
   const family = useStore((s) => s.family);
@@ -26,6 +27,8 @@ export default function Settings() {
   const [pinSaved, setPinSaved] = useState(false);
   const confirm = useConfirm();
   const account = useAccount();
+  const printer = usePrinter();
+  const c = useColors();
 
   if (!family) return null;
   const toggleDay = (d: Weekday) => updateFamily({ schoolDays: family.schoolDays.includes(d) ? family.schoolDays.filter((x) => x !== d) : [...family.schoolDays, d].sort() });
@@ -104,6 +107,17 @@ export default function Settings() {
             </Card>
           ))}
         </Stack>
+      </Section>
+
+      <Section title="Printing" subtitle="Worksheets and day packets print from 🖨️ buttons on tasks and days. Set up per device.">
+        <Card onPress={() => printer.openSetup()}>
+          <Row wrap style={{ justifyContent: 'space-between' }}>
+            <T v="heading">{!printer.config ? 'Not set up yet' : printer.config.mode === 'saved' ? `🖨️ ${printer.config.name}` : '🖨️ Choose in the print dialog'}</T>
+            <T v="label">{printer.config ? 'Change ›' : 'Set up ›'}</T>
+          </Row>
+          <T v="caption" muted>{printer.config ? `Paper: ${printer.config.paper === 'a4' ? 'A4' : 'US Letter'}` : 'You’ll be asked the first time you print.'}</T>
+          {printer.lastError ? <T v="caption" color={c.danger}>{printer.lastError}</T> : null}
+        </Card>
       </Section>
 
       <Section title="Your data" subtitle={account.userId ? 'Kinship is offline-first: this device keeps a full copy and syncs with your account. Backups are a handy extra copy.' : 'Kinship is offline-first: everything lives on this device. Back up to move it, or sign in to sync.'}>

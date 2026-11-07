@@ -612,26 +612,36 @@ async function run() {
   // Past and future days
   const printedDoc = () => page.evaluate(() => [...document.querySelectorAll('iframe')].at(-1)?.contentDocument?.body?.textContent ?? '');
   await click('Print my day');
-  await sleep(600);
-  log((await printedDoc()).includes('Check off each mission'), 'print my day builds a packet');
+  await expect('Set up printing', 'first print asks to set up printing');
+  await click('A4', { exact: true });
+  await click('Save & print');
+  await sleep(800);
+  const packet = await printedDoc();
+  log(packet.includes('My work') && packet.includes('Lucia'), 'print my day prints the worksheets');
+  log((await page.evaluate(() => [...document.querySelectorAll('iframe')].at(-1)?.contentDocument?.head?.innerHTML ?? '')).includes('size:A4'), 'paper size applied');
   await clickLabel('Next day');
   await expect('coming up', 'next day shows upcoming');
   await expect('Back to today');
   await expectNot('for help', 'no help button on future days');
   const peek = await page.evaluate(() => {
-    const el = [...document.querySelectorAll('[tabindex]')].find((e) => e.offsetParent && /PEEK/.test(e.innerText));
+    const el = [...document.querySelectorAll('[tabindex]')].find((e) => e.offsetParent && /START EARLY/.test(e.innerText));
     el?.click();
-    return !!el;
+    return el?.innerText.split('\n')[0];
   });
   await sleep(600);
   if (peek) {
-    await expect('Sneak peek', 'future mission opens as a preview');
-    await expectNot("I'm done!", 'future mission cannot be completed');
+    await expect('Planned for', 'upcoming mission shows its planned day');
     await click('Print worksheet');
     await sleep(600);
     log((await printedDoc()).includes('My work'), 'worksheet printed from activity card');
+    await click('Start it now');
+    await expect("I'm done!", 'kid can start an upcoming mission early');
+    const today = new Date().toLocaleDateString('en-CA');
+    const moved = (await store()).tasks.find((t) => t.date === today && t.bumpedFrom > today && t.status === 'in_progress');
+    log(!!moved, 'early start moves the mission to today (hours count today)');
     await click('‹ My day');
-  } else log(true, 'no rhythm missions on the next school day (skipped peek)');
+    await expect('coming up', 'back on the upcoming day');
+  } else log(true, 'no rhythm missions on the next school day (skipped early start)');
   await clickLabel('Previous day');
   await expect('Your missions today', 'previous from tomorrow returns to today');
   await expectNot('Back to today');
@@ -654,6 +664,20 @@ async function run() {
   await expect('Help queue (1 waiting)');
   await click('On my way ✓');
   await expect('No one needs you right now.', 'help resolved');
+
+  scenario('Settings: printing');
+  await click('Settings', { exact: false });
+  await expect('Printing');
+  await expect('Choose in the print dialog', 'printer setup saved from the first print');
+  await expect('Paper: A4');
+  await click('Change ›');
+  await click('US Letter');
+  await click('Print a test page');
+  await sleep(800);
+  log((await page.evaluate(() => [...document.querySelectorAll('iframe')].at(-1)?.contentDocument?.body?.textContent ?? '')).includes('Kinship test page'), 'test page printed');
+  await click('Save', { exact: true });
+  await expect('Paper: US Letter', 'paper size changed in settings');
+  await page.goBack(); await sleep(700);
 
   scenario('Persistence + erase');
   await page.reload({ waitUntil: 'networkidle0' });

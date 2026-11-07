@@ -23,8 +23,15 @@ export async function exportHtml(html: string, _filename: string): Promise<void>
   setTimeout(go, 600);
 }
 
+/** Browsers choose the printer in their own print dialog; pages can't pick one. */
+export const canChoosePrinter = false;
+
+export async function choosePrinter(): Promise<{ name: string; url: string } | undefined> {
+  return undefined;
+}
+
 /** Print an HTML document from a hidden iframe (no pop-up window needed). */
-export async function printHtml(html: string): Promise<void> {
+export async function printHtml(html: string, _opts: { printerUrl?: string; paper?: 'letter' | 'a4' } = {}): Promise<void> {
   const frame = document.createElement('iframe');
   frame.setAttribute('aria-hidden', 'true');
   frame.style.cssText = 'position:fixed;right:0;bottom:0;width:0;height:0;border:0;';

@@ -2,7 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 
-import { schoolYearLabel, todayKey } from '@/lib/dates';
+import { fromMinutes, schoolYearLabel, todayKey } from '@/lib/dates';
 import { uid } from '@/lib/id';
 import { autoStagger, gentleBump, tasksForDate } from '@/lib/schedule';
 import type {
@@ -68,6 +68,8 @@ interface Actions {
   startTask: (id: ID) => void;
   completeTask: (id: ID, p?: { minutesSpent?: number; selfAssessment?: 1 | 2 | 3; reflection?: string }) => void;
   reopenTask: (id: ID) => void;
+  /** A kid working ahead: move an upcoming task to today so its time counts today. */
+  startEarly: (id: ID) => void;
   staggerDay: (date: DateKey) => number;
   bumpDay: (date: DateKey, target: DateKey, opts?: { fromTime?: string; childId?: ID }) => number;
 
@@ -214,6 +216,30 @@ export const useStore = create<Store>()(
             tasks: s.tasks.map((t) => (t.id === id ? { ...t, status: 'in_progress', completedAt: undefined } : t)),
             children: s.children.map((c) => (c.id === task.childId ? { ...c, sparks: Math.max(0, c.sparks - SPARKS_PER_TASK) } : c)),
             curricula: task.curriculumId ? s.curricula.map((c) => (c.id === task.curriculumId ? { ...c, lessonsDone: Math.max(0, c.lessonsDone - 1) } : c)) : s.curricula,
+          };
+        }),
+      startEarly: (id) =>
+        set((s) => {
+          const today = todayKey();
+          const task = s.tasks.find((t) => t.id === id);
+          if (!task || task.date <= today) return {};
+          const now = new Date();
+          const start = fromMinutes(Math.ceil((now.getHours() * 60 + now.getMinutes()) / 5) * 5);
+          return {
+            tasks: s.tasks.map((t) =>
+              t.id === id
+                ? {
+                    ...t,
+                    date: today,
+                    start,
+                    status: 'in_progress',
+                    // Remember the planned day so the rhythm doesn't recreate it there.
+                    bumpedFrom: t.bumpedFrom ?? t.date,
+                    // Done solo ahead of the family, so it's no longer part of the group session.
+                    groupKey: t.groupKey ? `${t.groupKey}>early` : undefined,
+                  }
+                : t,
+            ),
           };
         }),
       staggerDay: (date) => {

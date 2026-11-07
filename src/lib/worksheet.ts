@@ -130,3 +130,22 @@ export function worksheetHtml(tasks: Task[], ctx: WorksheetContext, title?: stri
   .box-cell{width:28px}
 </style></head><body>${body}</body></html>`;
 }
+
+/** A one-page test print to check the printer, paper size, and margins. */
+export function testPageHtml(printerName?: string): string {
+  return `<!doctype html><html><head><meta charset="utf-8"/><title>Kinship test page</title>
+<style>
+  @page{margin:14mm}
+  body{font-family:'Helvetica Neue',Arial,sans-serif;color:#1d1d1b;margin:0}
+  .frame{border:3px solid #2F6B5E;border-radius:12px;padding:28px;min-height:80vh;display:flex;flex-direction:column;gap:14px}
+  h1{margin:0;font-size:30px} .grid{height:160px;background-image:linear-gradient(#ccc 1px,transparent 1px),linear-gradient(90deg,#ccc 1px,transparent 1px);background-size:20px 20px;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .swatches{display:flex;gap:8px} .swatches span{width:60px;height:30px;border-radius:6px;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+</style></head><body><div class="frame">
+  <h1>🧭 Kinship test page</h1>
+  <p>If you can read this and see the full green border, printing is set up${printerName ? ` on <b>${esc(printerName)}</b>` : ''}.</p>
+  <p>The border should sit inside the paper edge on all four sides. If it's cut off, check the paper size in Settings → Printing.</p>
+  <div class="grid"></div>
+  <div class="swatches"><span style="background:#2F6B5E"></span><span style="background:#E3A33B"></span><span style="background:#E07A5F"></span><span style="background:#4C7FD9"></span></div>
+  <p style="color:#777;font-size:12px">Printed ${esc(new Date().toLocaleString())}</p>
+</div></body></html>`;
+}

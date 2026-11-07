@@ -216,7 +216,7 @@ export default function DailyAdventure() {
                 </Pressable>
               ) : (
                 <T v="label" color={isDone ? c.success : isCurrent ? c.accent : c.textMuted}>
-                  {isDone ? 'COMPLETED' : t.status === 'in_progress' ? 'IN PROGRESS' : isCurrent ? 'UP NEXT' : isFuture ? 'PEEK 👀' : !isToday ? 'NOT FINISHED' : ''}
+                  {isDone ? 'COMPLETED' : t.status === 'in_progress' ? 'IN PROGRESS' : isCurrent ? 'UP NEXT' : isFuture ? 'START EARLY? 🚀' : !isToday ? 'NOT FINISHED' : ''}
                 </T>
               )}
             </Pressable>

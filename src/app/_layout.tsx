@@ -6,6 +6,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
 import { useColorScheme } from 'react-native';
 
+import { PrintSetupSheet } from '@/components/PrintSetupSheet';
 import { startSync } from '@/services/sync';
 import { useStore } from '@/store/useStore';
 import { useColors } from '@/ui';
@@ -43,6 +44,7 @@ export default function RootLayout() {
         <Stack.Screen name="account" options={{ headerShown: true, title: 'Account & sync' }} />
         <Stack.Screen name="listing/[id]" options={{ headerShown: true, title: 'Curriculum', headerBackTitle: 'Marketplace' }} />
       </Stack>
+      <PrintSetupSheet />
     </ThemeProvider>
   );
 }
