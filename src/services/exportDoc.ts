@@ -11,6 +11,11 @@ export async function exportHtml(html: string, filename: string): Promise<void> 
   }
 }
 
+/** Open the system print dialog for an HTML document (AirPrint / Android print service). */
+export async function printHtml(html: string): Promise<void> {
+  await Print.printAsync({ html });
+}
+
 export async function shareText(text: string, filename: string, mimeType = 'text/plain'): Promise<void> {
   const { File, Paths } = await import('expo-file-system');
   const f = new File(Paths.cache, filename);

@@ -88,3 +88,27 @@ export function schoolYearLabel(key: DateKey = todayKey()): string {
   const startYear = d.getMonth() >= 6 ? d.getFullYear() : d.getFullYear() - 1;
   return `${startYear}–${startYear + 1}`;
 }
+
+/**
+ * The nearest date before (dir -1) or after (dir 1) `from` that `isOpen`
+ * accepts, looking at most `maxLookahead` days away.
+ */
+export function stepDay(from: DateKey, dir: -1 | 1, isOpen: (d: DateKey) => boolean, maxLookahead = 14): DateKey | undefined {
+  for (let i = 1; i <= maxLookahead; i++) {
+    const candidate = addDays(from, dir * i);
+    if (isOpen(candidate)) return candidate;
+  }
+  return undefined;
+}
+
+const DATE_KEY = /^\d{4}-\d{2}-\d{2}$/;
+export const isDateKey = (s: unknown): s is DateKey => typeof s === 'string' && DATE_KEY.test(s) && toDateKey(fromDateKey(s)) === s;
+
+/** "Today", "Yesterday", "Tomorrow", or e.g. "Monday, Nov 2". */
+export function relativeDayLabel(key: DateKey, today: DateKey = todayKey()): string {
+  const d = diffDays(today, key);
+  if (d === 0) return 'Today';
+  if (d === -1) return 'Yesterday';
+  if (d === 1) return 'Tomorrow';
+  return formatDate(key, { weekday: 'long', month: 'short', day: 'numeric' });
+}

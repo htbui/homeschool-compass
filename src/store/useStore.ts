@@ -48,7 +48,7 @@ interface Data {
 }
 
 interface Actions {
-  completeOnboarding: (p: { family: FamilyProfile; children: Child[]; blocks?: RhythmBlock[]; curricula?: Curriculum[] }) => void;
+  completeOnboarding: (p: { family: FamilyProfile; children: Child[]; blocks?: RhythmBlock[]; curricula?: Curriculum[]; tasks?: Task[] }) => void;
   updateFamily: (patch: Partial<FamilyProfile>) => void;
   upsertChild: (c: Child) => void;
   removeChild: (id: ID) => void;
@@ -137,8 +137,8 @@ export const useStore = create<Store>()(
       ...initialData(),
       hydrated: false,
 
-      completeOnboarding: ({ family, children, blocks = [], curricula = [] }) =>
-        set({ family, children, blocks, curricula, noi: { ...emptyNoi(), parentName: family.parentName, signature: '' }, mode: { kind: 'parent' } }),
+      completeOnboarding: ({ family, children, blocks = [], curricula = [], tasks = [] }) =>
+        set({ family, children, blocks, curricula, tasks, noi: { ...emptyNoi(), parentName: family.parentName, signature: '' }, mode: { kind: 'parent' } }),
       updateFamily: (patch) => set((s) => ({ family: s.family ? { ...s.family, ...patch } : s.family })),
       upsertChild: (c) => set((s) => ({ children: s.children.some((x) => x.id === c.id) ? s.children.map((x) => (x.id === c.id ? c : x)) : [...s.children, c] })),
       removeChild: (id) =>

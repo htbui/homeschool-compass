@@ -108,6 +108,15 @@ await clickText('Mark complete');
 await sleep(2500);
 await check('back to day', 'My day');
 
+// Look back at last school day, then return
+await page.evaluate(() => [...document.querySelectorAll('[aria-label="Previous day"]')].at(-1).click());
+await sleep(700);
+await check('history day', 'looking back');
+await check('history missions done', '✅');
+await clickText('Back to today');
+await sleep(600);
+await check('back on today', 'Today ·');
+
 // Help button → parent queue after exit with PIN
 await clickText('for help');
 await sleep(600);

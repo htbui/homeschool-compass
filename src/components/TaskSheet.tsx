@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { View } from 'react-native';
 
+import { usePrint } from '@/hooks/usePrint';
 import { formatClock, formatDate } from '@/lib/dates';
 import { parseCount } from '@/lib/parse';
 import { subjectLabel } from '@/lib/subjects';
@@ -24,6 +25,7 @@ export function TaskSheet({ task, onClose }: { task?: Task; onClose: () => void 
 function TaskDetail({ task: live, onClose }: { task: Task; onClose: () => void }) {
   const child = useStore((s) => s.children.find((c) => c.id === live.childId));
   const { updateTask, completeTask, reopenTask, toggleStep, removeTask } = useStore.getState();
+  const { print, busy: printing } = usePrint();
   const [start, setStart] = useState<string | undefined>(live.start);
   const [dur, setDur] = useState(String(live.durationMin));
   const minutes = parseCount(dur);
@@ -69,6 +71,7 @@ function TaskDetail({ task: live, onClose }: { task: Task; onClose: () => void }
       />
 
       <Row wrap style={{ justifyContent: 'flex-end', marginTop: space.sm }}>
+        <Button title="Print worksheet" icon="🖨️" kind="secondary" loading={printing} onPress={() => print([live])} />
         <Button
           title="Delete"
           kind="danger"

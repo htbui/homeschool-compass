@@ -91,6 +91,15 @@ async function fillLabel(label, text) {
   if (text) await page.keyboard.type(text);
   await sleep(150);
 }
+async function clickLabel(label) {
+  const ok = await page.evaluate((l) => {
+    const el = [...document.querySelectorAll(`[aria-label="${l}"]`)].reverse().find((e) => e.offsetParent !== null);
+    el?.click();
+    return !!el;
+  }, label);
+  if (!ok) throw new Error(`[${section}] nothing labelled "${label}"`);
+  await sleep(500);
+}
 const shot = (name) => page.screenshot({ path: `${OUT}${name}.png` });
 const store = () => page.evaluate(() => JSON.parse(localStorage.getItem('kinship-v1') ?? '{}').state ?? {});
 /** Tab labels include an icon glyph, so match the tab whose last text line is the name. */
@@ -523,6 +532,34 @@ async function run() {
   await sleep(2500);
   const sparks1 = (await store()).children.find((c) => c.name === 'Lucia').sparks;
   log(sparks1 === sparks0 + 15, `sparks +15 with reflection (${sparks0} → ${sparks1})`);
+  // Past and future days
+  const printedDoc = () => page.evaluate(() => [...document.querySelectorAll('iframe')].at(-1)?.contentDocument?.body?.textContent ?? '');
+  await click('Print my day');
+  await sleep(600);
+  log((await printedDoc()).includes('Check off each mission'), 'print my day builds a packet');
+  await clickLabel('Next day');
+  await expect('coming up', 'next day shows upcoming');
+  await expect('Back to today');
+  await expectNot('for help', 'no help button on future days');
+  const peek = await page.evaluate(() => {
+    const el = [...document.querySelectorAll('[tabindex]')].find((e) => e.offsetParent && /PEEK/.test(e.innerText));
+    el?.click();
+    return !!el;
+  });
+  await sleep(600);
+  if (peek) {
+    await expect('Sneak peek', 'future mission opens as a preview');
+    await expectNot("I'm done!", 'future mission cannot be completed');
+    await click('Print worksheet');
+    await sleep(600);
+    log((await printedDoc()).includes('My work'), 'worksheet printed from activity card');
+    await click('‹ My day');
+  } else log(true, 'no rhythm missions on the next school day (skipped peek)');
+  await clickLabel('Previous day');
+  await expect('Your missions today', 'previous from tomorrow returns to today');
+  await expectNot('Back to today');
+  // This family started today, so there is nothing further back yet.
+  log(await page.evaluate(() => document.querySelector('[aria-label="Previous day"]')?.getAttribute('aria-disabled') === 'true'), 'no days before the family started');
   await click('for help');
   await expect('Help is on the way');
   await click('OK', { exact: true });

@@ -3,7 +3,8 @@ import { useEffect, useRef, useState } from 'react';
 import { Image, Pressable, Text, View } from 'react-native';
 import { useShallow } from 'zustand/react/shallow';
 
-import { ageOn, todayKey } from '@/lib/dates';
+import { usePrint } from '@/hooks/usePrint';
+import { ageOn, formatDate, todayKey } from '@/lib/dates';
 import { subjectLabel } from '@/lib/subjects';
 import { useStore } from '@/store/useStore';
 import { pickPhoto } from '@/services/media';
@@ -38,6 +39,7 @@ export default function ActivityCard() {
   const [celebrate, setCelebrate] = useState(false);
   const tick = useRef<ReturnType<typeof setInterval> | null>(null);
   const elapsedRef = useRef(0);
+  const { print, busy: printing } = usePrint();
 
   const POMODORO = 25 * 60;
   useEffect(() => {
@@ -70,11 +72,13 @@ export default function ActivityCard() {
   const mm = String(Math.floor(shown / 60)).padStart(2, '0');
   const ss = String(shown % 60).padStart(2, '0');
   const done = task.status === 'done';
+  // Upcoming missions can be read and printed ahead of time, but not started yet.
+  const upcoming = task.date > todayKey();
 
   const addPhoto = async (source: 'camera' | 'library') => {
     const uri = await pickPhoto(source);
     if (!uri) return;
-    addEvidence({ childId: kid.id, date: todayKey(), subject: task.subject, uri, note: task.title, taskId: task.id });
+    addEvidence({ childId: kid.id, date: task.date < todayKey() ? task.date : todayKey(), subject: task.subject, uri, note: task.title, taskId: task.id });
     startTask(task.id);
   };
 
@@ -101,16 +105,23 @@ export default function ActivityCard() {
 
   return (
     <Screen>
-      <Row style={{ justifyContent: 'space-between' }}>
+      <Row wrap style={{ justifyContent: 'space-between' }}>
         <Button kind="ghost" title="‹ My day" onPress={() => router.back()} />
-        <Button
+        <Button kind="secondary" size="sm" title="🖨️ Print worksheet" loading={printing} onPress={() => print([task])} />
+        {upcoming ? null : <Button
           kind={openHelp ? 'secondary' : 'accent'}
           size="sm"
           title={openHelp ? `${parentWord} is coming` : 'Need help ✋'}
           disabled={!!openHelp}
           onPress={() => requestHelp(kid.id, task.id)}
-        />
+        />}
       </Row>
+      {upcoming ? (
+        <Card tint={c.accentSoft} style={{ marginTop: space.md }}>
+          <T v="heading">👀 Sneak peek — this is for {formatDate(task.date, { weekday: 'long', month: 'long', day: 'numeric' })}</T>
+          <T>You can read the steps and print the worksheet now. You&apos;ll start it on {formatDate(task.date, { weekday: 'long' })}.</T>
+        </Card>
+      ) : null}
 
       <Card style={{ alignItems: 'center', marginTop: space.md }}>
         <Text style={{ fontSize: nonReader ? 96 : 64 }}>{task.icon}</Text>
@@ -129,7 +140,7 @@ export default function ActivityCard() {
           {task.steps.map((s) => (
             <Pressable
               key={s.id}
-              disabled={done}
+              disabled={done || upcoming}
               onPress={() => toggleStep(task.id, s.id)}
               style={({ pressed }) => ({ flexDirection: 'row', gap: space.md, alignItems: 'center', padding: space.md, borderRadius: 14, backgroundColor: s.done ? c.successSoft : c.surface, borderWidth: 1, borderColor: c.border, opacity: pressed ? 0.8 : 1 })}>
               <Text style={{ fontSize: 26 }}>{s.done ? '✅' : '⬜️'}</Text>
@@ -139,7 +150,7 @@ export default function ActivityCard() {
         </Stack>
       ) : null}
 
-      {!done ? (
+      {!done && !upcoming ? (
         <Card style={{ marginTop: space.lg, alignItems: 'center' }}>
           <Segmented<TimerMode>
             value={timerMode}
@@ -168,7 +179,7 @@ export default function ActivityCard() {
         </Card>
       ) : null}
 
-      <Card style={{ marginTop: space.lg }}>
+      {upcoming ? null : <Card style={{ marginTop: space.lg }}>
         <T v="heading">📸 Show your work</T>
         <T v="caption" muted>Snap a photo of a worksheet, drawing, or project — it goes in your portfolio.</T>
         <Row wrap gap={space.sm}>
@@ -180,9 +191,9 @@ export default function ActivityCard() {
           <Button kind="secondary" icon="📷" title="Camera" onPress={() => addPhoto('camera')} />
           <Button kind="secondary" icon="🖼️" title="Photos" onPress={() => addPhoto('library')} />
         </Row>
-      </Card>
+      </Card>}
 
-      {done ? (
+      {upcoming ? null : done ? (
         <Card tint={c.successSoft} style={{ marginTop: space.lg, alignItems: 'center' }}>
           <T v="title">✅ Completed</T>
           {task.reflection ? <T>💭 “{task.reflection}”</T> : null}

@@ -3,7 +3,8 @@ import { useEffect, useState } from 'react';
 import { Pressable, Text, View } from 'react-native';
 
 import { PinPad } from '@/components/PinPad';
-import { ageOn, formatClock, toMinutes, todayKey } from '@/lib/dates';
+import { usePrint } from '@/hooks/usePrint';
+import { addDays, ageOn, formatClock, formatDate, isDateKey, relativeDayLabel, stepDay, toMinutes, todayKey, weekdayOf } from '@/lib/dates';
 import { suggestWhileWaiting } from '@/lib/schedule';
 import { useStore } from '@/store/useStore';
 import { speak } from '@/services/speech';
@@ -19,8 +20,13 @@ const MOODS = [
 
 export default function DailyAdventure() {
   const c = useColors();
-  const { id } = useLocalSearchParams<{ id: string }>();
+  const params = useLocalSearchParams<{ id: string; date?: string }>();
+  const id = params.id;
   const today = todayKey();
+  // The day being viewed: today by default; kids can step to past and upcoming days.
+  const date = isDateKey(params.date) ? params.date : today;
+  const isToday = date === today;
+  const isFuture = date > today;
   const kid = useStore((s) => s.children.find((k) => k.id === id));
   const kids = useStore((s) => s.children);
   const family = useStore((s) => s.family);
@@ -30,12 +36,26 @@ export default function DailyAdventure() {
   const { ensureTasks, setMood, requestHelp, setMode } = useStore.getState();
   const [helpOpen, setHelpOpen] = useState(false);
   const [exitOpen, setExitOpen] = useState(false);
+  const { print, busy: printing } = usePrint();
 
   useEffect(() => {
-    ensureTasks(today);
-  }, [today, ensureTasks]);
+    // Plan today and upcoming days from the rhythm. Past days show what actually happened.
+    if (date >= today) ensureTasks(date);
+  }, [date, today, ensureTasks]);
 
-  const tasks = allTasks.filter((t) => t.childId === id && t.date === today && t.status !== 'skipped').sort((a, b) => toMinutes(a.start) - toMinutes(b.start));
+  const tasks = allTasks.filter((t) => t.childId === id && t.date === date && t.status !== 'skipped').sort((a, b) => toMinutes(a.start) - toMinutes(b.start));
+
+  // Navigable days: school days (or any day this child has work) from when the
+  // family started, up to three weeks ahead within the school year.
+  const kidDates = allTasks.filter((t) => t.childId === id && t.status !== 'skipped').map((t) => t.date);
+  const earliest = [family?.createdAt.slice(0, 10) ?? today, ...kidDates].sort()[0];
+  const horizon = addDays(today, 21);
+  const latest = family && family.schoolYearEnd >= today && family.schoolYearEnd < horizon ? family.schoolYearEnd : horizon;
+  const kidDateSet = new Set(kidDates);
+  const isOpen = (d: string) => d >= earliest && d <= latest && (kidDateSet.has(d) || (family?.schoolDays ?? [1, 2, 3, 4, 5]).includes(weekdayOf(d)));
+  const prevDay = stepDay(date, -1, isOpen);
+  const nextDay = stepDay(date, 1, isOpen);
+  const goDay = (d: string) => router.setParams({ date: d === today ? undefined : d });
 
   if (!kid) {
     return (
@@ -56,6 +76,8 @@ export default function DailyAdventure() {
   const greetEmoji = hour < 17 ? '☀️' : '🌙';
   const parentWord = family?.parentName.split(' ')[0] ?? 'your grown-up';
   const filler = suggestWhileWaiting(allTasks.filter((t) => t.date === today), kid.id, current?.id);
+  const dayWord = relativeDayLabel(date, today);
+  const dayName = formatDate(date, { weekday: 'long' });
 
   const companions = (groupKey?: string) =>
     groupKey
@@ -66,7 +88,7 @@ export default function DailyAdventure() {
           .join(' & ')
       : '';
 
-  if (!mood) {
+  if (!mood && isToday) {
     return (
       <Screen>
         <View style={{ alignItems: 'center', gap: space.lg, paddingTop: space.xxl }}>
@@ -103,7 +125,7 @@ export default function DailyAdventure() {
               <T v="label">⭐ {kid.sparks} Sparks earned</T>
             </View>
           </Row>
-          <Button
+          {isToday ? <Button
             kind={openHelp ? 'secondary' : 'accent'}
             size="lg"
             title={openHelp ? `${parentWord} is coming ✋` : `Ask ${parentWord} for help ✋`}
@@ -111,22 +133,45 @@ export default function DailyAdventure() {
               if (!openHelp) requestHelp(kid.id, current?.id);
               setHelpOpen(true);
             }}
-          />
+          /> : null}
         </Row>
       </Card>
 
+      <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.sm, marginTop: space.lg }}>
+        <Button kind="secondary" size="lg" title="‹" accessibilityLabel="Previous day" disabled={!prevDay} onPress={() => prevDay && goDay(prevDay)} />
+        <Pressable onPress={() => speak(isToday ? `Today is ${dayName}` : `${dayWord}`)} style={{ flex: 1, alignItems: 'center' }}>
+          <T v="title" style={{ textAlign: 'center' }}>{isToday ? `Today · ${dayName}` : dayWord}</T>
+          <T v="caption" muted>{formatDate(date, { month: 'long', day: 'numeric' })}{isFuture ? ' · coming up' : !isToday ? ' · looking back' : ''}</T>
+        </Pressable>
+        <Button kind="secondary" size="lg" title="›" accessibilityLabel="Next day" disabled={!nextDay} onPress={() => nextDay && goDay(nextDay)} />
+      </View>
+      {!isToday ? (
+        <Row style={{ justifyContent: 'center', marginTop: space.sm }}>
+          <Button kind="ghost" size="sm" title="↩ Back to today" onPress={() => goDay(today)} />
+        </Row>
+      ) : null}
+
       <View style={{ marginTop: space.xl, gap: space.sm }}>
         <Row style={{ justifyContent: 'space-between' }}>
-          <T v="heading">{nonReader ? '🗺️ My day' : `Your missions today (${done} of ${tasks.length} done)`}</T>
-          {nonReader ? <Button kind="ghost" size="sm" title="🔊 Read to me" onPress={() => speak(`You have ${tasks.length - done} things to do today. ${current ? `Next is ${current.title}.` : ''}`)} /> : null}
+          <T v="heading" style={{ flexShrink: 1 }}>
+            {nonReader
+              ? isFuture ? `🗺️ ${dayName}` : '🗺️ My day'
+              : isFuture
+                ? `Coming up ${isToday ? 'today' : dayWord === 'Tomorrow' ? 'tomorrow' : `on ${dayName}`} (${tasks.length} mission${tasks.length === 1 ? '' : 's'})`
+                : `${isToday ? 'Your missions today' : `${dayWord}'s missions`} (${done} of ${tasks.length} done)`}
+          </T>
+          <Row gap={4}>
+            {nonReader ? <Button kind="ghost" size="sm" title="🔊 Read to me" onPress={() => speak(isFuture ? `On ${dayName} you will do ${tasks.length} things. ${tasks.map((t) => t.title).join(', ')}.` : `You have ${tasks.length - done} things to do. ${current ? `Next is ${current.title}.` : ''}`)} /> : null}
+            {tasks.length ? <Button kind="ghost" size="sm" title="🖨️ Print my day" loading={printing} onPress={() => print(tasks, `${kid.name}'s day · ${formatDate(date, { weekday: 'long', month: 'long', day: 'numeric' })}`)} /> : null}
+          </Row>
         </Row>
         <Progress value={tasks.length ? done / tasks.length : 0} color={c.accent} height={12} />
       </View>
 
-      {allDone ? (
+      {allDone && !isFuture ? (
         <Card tint={c.successSoft} style={{ marginTop: space.lg, alignItems: 'center' }}>
           <Text style={{ fontSize: 64 }}>🎉🏆🎉</Text>
-          <T v="display" style={{ textAlign: 'center' }}>Day complete!</T>
+          <T v="display" style={{ textAlign: 'center' }}>{isToday ? 'Day complete!' : `${dayWord}: all done!`}</T>
           <T style={{ textAlign: 'center' }}>
             You finished {tasks.length} mission{tasks.length === 1 ? '' : 's'} and spent about {Math.round(tasks.reduce((a, t) => a + (t.minutesSpent || t.durationMin), 0))} minutes learning. Amazing work, {kid.name}!
           </T>
@@ -134,9 +179,9 @@ export default function DailyAdventure() {
       ) : null}
 
       <Stack gap={space.md} style={{ marginTop: space.lg }}>
-        {tasks.length === 0 ? <Card><T>No missions today — enjoy a free day! 🌈</T></Card> : null}
+        {tasks.length === 0 ? <Card><T>{isToday ? 'No missions today — enjoy a free day! 🌈' : isFuture ? `Nothing planned for ${dayName} yet. 🌈` : `No missions were recorded for ${dayName}.`}</T></Card> : null}
         {tasks.map((t, i) => {
-          const isCurrent = current?.id === t.id;
+          const isCurrent = isToday && current?.id === t.id;
           const isDone = t.status === 'done';
           const withWho = companions(t.groupKey);
           return (
@@ -170,7 +215,9 @@ export default function DailyAdventure() {
                   <Text style={{ fontSize: 28 }}>🔊</Text>
                 </Pressable>
               ) : (
-                <T v="label" color={isDone ? c.success : isCurrent ? c.accent : c.textMuted}>{isDone ? 'COMPLETED' : t.status === 'in_progress' ? 'IN PROGRESS' : isCurrent ? 'UP NEXT' : ''}</T>
+                <T v="label" color={isDone ? c.success : isCurrent ? c.accent : c.textMuted}>
+                  {isDone ? 'COMPLETED' : t.status === 'in_progress' ? 'IN PROGRESS' : isCurrent ? 'UP NEXT' : isFuture ? 'PEEK 👀' : !isToday ? 'NOT FINISHED' : ''}
+                </T>
               )}
             </Pressable>
           );

@@ -5,6 +5,7 @@ import { Pressable, ScrollView, View, useWindowDimensions } from 'react-native';
 
 import { TaskSheet } from '@/components/TaskSheet';
 import { useCompliance } from '@/hooks/useCompliance';
+import { usePrint } from '@/hooks/usePrint';
 import { addDays, formatClock, formatDate, fromMinutes, toMinutes, todayKey } from '@/lib/dates';
 import { bumpTargets, findParentConflicts, suggestWhileWaiting } from '@/lib/schedule';
 import { TIER_INFO } from '@/lib/states';
@@ -35,6 +36,7 @@ export default function FlightDeck() {
   const blocksCount = useStore((s) => s.blocks.length);
   const { ensureTasks, staggerDay, bumpDay, resolveHelp } = useStore.getState();
   const compliance = useCompliance();
+  const { print, busy: printing } = usePrint();
 
   useEffect(() => {
     ensureTasks(date);
@@ -181,7 +183,16 @@ export default function FlightDeck() {
           <Button kind={date === todayKey() ? 'primary' : 'secondary'} size="sm" title={date === todayKey() ? `Today · ${formatDate(date)}` : formatDate(date)} onPress={() => setDate(todayKey())} />
           <Button kind="secondary" size="sm" title="›" onPress={() => setDate(addDays(date, 1))} accessibilityLabel="Next day" />
         </Row>
-        <Row gap={space.xs}>
+        <Row gap={space.xs} wrap>
+          <Button
+            kind="secondary"
+            size="sm"
+            icon="🖨️"
+            title="Print day"
+            loading={printing}
+            disabled={!tasks.some((t) => t.status !== 'skipped')}
+            onPress={() => print(tasks.filter((t) => t.status !== 'skipped'), `Lesson packet · ${formatDate(date, { weekday: 'long', month: 'long', day: 'numeric' })}`)}
+          />
           <Button kind="secondary" size="sm" icon="➕" title="Task" onPress={() => router.push({ pathname: '/schedule', params: { addFor: date } })} />
           <Button kind="secondary" size="sm" icon="↪︎" title="Bump remaining" disabled={!tasks.some((t) => t.status === 'todo' || t.status === 'in_progress')} onPress={() => setBumpOpen(true)} />
         </Row>

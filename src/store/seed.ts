@@ -1,5 +1,6 @@
-import { addDays, schoolYearLabel, todayKey } from '@/lib/dates';
-import type { Child, CoOp, CommunityEvent, Curriculum, FamilyProfile, RhythmBlock, SwapListing, Weekday } from '@/lib/types';
+import { addDays, schoolYearLabel, stepDay, todayKey, weekdayOf } from '@/lib/dates';
+import { tasksForDate } from '@/lib/schedule';
+import type { Child, CoOp, CommunityEvent, Curriculum, DateKey, FamilyProfile, RhythmBlock, SwapListing, Task, Weekday } from '@/lib/types';
 
 const WEEKDAYS: Weekday[] = [1, 2, 3, 4, 5];
 
@@ -42,7 +43,7 @@ export function demoWorkspace() {
     schoolYearEnd: end,
     schoolDays: WEEKDAYS,
     flexDay: 5,
-    createdAt: new Date().toISOString(),
+    createdAt: `${addDays(todayKey(), -14)}T09:00:00.000Z`,
   };
 
   const b = (p: Omit<RhythmBlock, 'days'> & { days?: Weekday[] }): RhythmBlock => ({ days: WEEKDAYS, ...p });
@@ -68,7 +69,34 @@ export function demoWorkspace() {
     { id: 'c-sotw', name: 'Story of the World Vol. 1', subject: 'history', childIds: ['leo', 'maya', 'noah'], totalLessons: 42, lessonsDone: 6, startDate: start, targetEndDate: end, schoolDays: [2, 4], model: 'custom' },
   ];
 
-  return { family, children, blocks, curricula };
+  return { family, children, blocks, curricula, tasks: demoHistory(blocks) };
+}
+
+const REFLECTIONS = ['Bean roots grow down even upside down!', 'Fractions are like pizza slices', 'Magma cools into rock', 'I can read “ship” now', 'Leaves have veins like we do'];
+
+/** The last two weeks of school days, mostly finished, so kids can look back. */
+function demoHistory(blocks: RhythmBlock[]): Task[] {
+  const out: Task[] = [];
+  const today = todayKey();
+  let day: DateKey | undefined = today;
+  for (let n = 0; n < 10; n++) {
+    day = stepDay(day, -1, (d) => WEEKDAYS.includes(weekdayOf(d)));
+    if (!day) break;
+    const d = day;
+    tasksForDate(blocks, d, []).forEach((t, i) => {
+      // Every few days one task is left unfinished, like real life.
+      const skippedOne = n % 3 === 1 && i === 4;
+      out.push({
+        ...t,
+        status: skippedOne ? 'todo' : 'done',
+        completedAt: skippedOne ? undefined : `${d}T${t.start}:00`,
+        steps: t.steps.map((st) => ({ ...st, done: !skippedOne })),
+        selfAssessment: skippedOne ? undefined : (((i + n) % 3) + 1) as 1 | 2 | 3,
+        reflection: !skippedOne && i % 4 === 1 ? REFLECTIONS[(n + i) % REFLECTIONS.length] : undefined,
+      });
+    });
+  }
+  return out;
 }
 
 export function seedCommunity(): { coops: CoOp[]; events: CommunityEvent[]; swaps: SwapListing[] } {
