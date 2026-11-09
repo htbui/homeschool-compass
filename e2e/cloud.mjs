@@ -46,12 +46,17 @@ async function device(name) {
     },
     async expect(t, label = `shows "${t}"`, ms) { log(await d.waitFor(t, ms), `${name}: ${label}`); },
     async click(t, { exact = false } = {}) {
-      const ok = await page.evaluate((t, exact) => {
-        const els = [...document.querySelectorAll('[role="button"],button,a,[tabindex]')].reverse();
-        const el = els.find((e) => e.offsetParent !== null && e.innerText && (exact ? e.innerText.trim() === t : e.innerText.trim().includes(t)));
-        el?.click();
-        return !!el;
-      }, t, exact);
+      // Screens load their code on demand, so wait (up to 8s) for the button over slow links.
+      let ok = false;
+      for (const end = Date.now() + 8000; !ok && Date.now() < end; ) {
+        ok = await page.evaluate((t, exact) => {
+          const els = [...document.querySelectorAll('[role="button"],button,a,[tabindex]')].reverse();
+          const el = els.find((e) => e.offsetParent !== null && e.innerText && (exact ? e.innerText.trim() === t : e.innerText.trim().includes(t)));
+          el?.click();
+          return !!el;
+        }, t, exact);
+        if (!ok) await sleep(300);
+      }
       if (!ok) throw new Error(`[${section}] ${name}: nothing clickable with text "${t}"`);
       await sleep(500);
     },
@@ -305,7 +310,11 @@ try {
   });
   await new Promise((r) => course.listen(0, '0.0.0.0', r));
   // The import runs on the server (in Docker), which reaches this page through the host.
-  const courseUrl = `http://host.docker.internal:${course.address().port}/pond`;
+  // STUDIO_IMPORT_URL tests a real public course page instead (for deployed builds,
+  // where the server refuses private addresses).
+  const real = process.env.STUDIO_IMPORT_URL;
+  const courseUrl = real ?? `http://host.docker.internal:${course.address().port}/pond`;
+  const expectLesson = process.env.STUDIO_IMPORT_LESSON ?? 'Frog life cycle';
   const S = await device('creator');
   await signUpOrIn(S, `creator-${run}@example.test`, 'up');
   await S.expect('No family on this account yet', 'creator account without a family');
@@ -317,7 +326,8 @@ try {
   await S.fillLabel('Course page', courseUrl);
   await S.click('Load page');
   await S.expect('License found: CC BY-SA 4.0', 'server fetched the page and found its license', 20000);
-  await S.expect('Preview: 3 lessons in 2 units');
+  await S.expect(real ? 'Preview:' : 'Preview: 3 lessons in 2 units');
+  if (real) await S.fillLabel('Your plan’s title', `Chemistry plan ${run}`);
   await S.click('Create lesson plan');
   await S.expect('saved automatically');
   await S.click('📝 Details');
@@ -334,15 +344,15 @@ try {
   // A family finds it, gets it free, and the plan arrives with its lessons and credit.
   await A.goto(`/listing/${pub.listingId}`);
   await A.expect("What's inside", 'family sees the outline');
-  await A.expect('Frog life cycle');
-  await A.expect(`Adapted from “Open Pond Science ${run}” by Pond Project`, 'credit to the source');
+  await A.expect(expectLesson);
+  await A.expect(real ? `(${real})` : `Adapted from “Open Pond Science ${run}” by Pond Project`, 'credit to the source');
   await A.click('Get it free', { exact: true });
   await A.click('Get it free', { exact: true });
   await A.expect('It’s in your library', 'claimed', 15000);
   await A.click('Add to plan', { exact: true });
   await A.expect('Added to your plan ✓');
   const pond = (await A.store()).curricula.find((k) => k.packageId === pub.id);
-  log(pond?.outline?.[0]?.lessons?.[0]?.links?.[0]?.url?.endsWith('/frogs') && pond.license?.kind === 'cc_by_sa' && pond.totalLessons === 3, 'family plan has every lesson, its link, and the license');
+  log((real ? pond?.outline?.flatMap((u) => u.lessons).some((l) => l.title === expectLesson && l.links[0]?.url.startsWith('https://')) : pond?.outline?.[0]?.lessons?.[0]?.links?.[0]?.url?.endsWith('/frogs') && pond.totalLessons === 3) && pond.license?.kind === 'cc_by_sa', 'family plan has every lesson, its link, and the license');
   course.close();
 
   // ───────────────────────────── Sign out keeps data; erase stays local

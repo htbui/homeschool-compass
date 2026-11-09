@@ -32,20 +32,32 @@ const scenario = (name) => { section = name; console.log(`\n— ${name}`); };
 
 const bodyText = () => page.evaluate(() => document.body.innerText);
 const has = async (t) => (await bodyText()).includes(t);
-const expect = async (t, label = `shows "${t}"`) => log(await has(t), label);
+/** Screens load their code on demand, so checks wait up to 8s (needed over slow links). */
+const waitHas = async (t, ms = 8000) => {
+  for (const end = Date.now() + ms; Date.now() < end; await sleep(250)) if (await has(t)) return true;
+  return has(t);
+};
+const expect = async (t, label = `shows "${t}"`) => log(await waitHas(t), label);
 const expectNot = async (t, label = `hides "${t}"`) => log(!(await has(t)), label);
 
 /** Click the last visible clickable whose text matches (dialogs render last, so they win). */
 async function click(text, { exact = false } = {}) {
-  const ok = await page.evaluate((t, exact) => {
+  let ok = false;
+  for (const end = Date.now() + 8000; !ok && Date.now() < end; ) {
+    ok = await tryClick(text, exact);
+    if (!ok) await sleep(250);
+  }
+  if (!ok) throw new Error(`[${section}] nothing clickable with text "${text}"`);
+  await sleep(450);
+}
+async function tryClick(text, exact) {
+  return page.evaluate((t, exact) => {
     const els = [...document.querySelectorAll('[role="button"],button,a,[tabindex]')].reverse();
     const el = els.find((e) => e.offsetParent !== null && e.innerText && (exact ? e.innerText.trim() === t : e.innerText.trim().includes(t)));
     if (!el) return false;
     el.click();
     return true;
   }, text, exact);
-  if (!ok) throw new Error(`[${section}] nothing clickable with text "${text}"`);
-  await sleep(450);
 }
 async function isDisabled(text) {
   return page.evaluate((t) => {
@@ -55,7 +67,8 @@ async function isDisabled(text) {
 }
 /** Fill the nth visible input/textarea with this placeholder. */
 async function fill(placeholder, text, nth = 0) {
-  const tag = await page.evaluate((ph, nth) => {
+  let tag = null;
+  for (const end = Date.now() + 8000; !tag && Date.now() < end; await sleep(tag ? 0 : 250)) tag = await page.evaluate((ph, nth) => {
     const visible = [...document.querySelectorAll('input,textarea')].filter((e) => e.offsetParent !== null && (e.getAttribute('placeholder') ?? '') === ph);
     const el = visible.at(nth);
     if (!el) return null;
@@ -225,7 +238,20 @@ async function run() {
   await fill('https://…', 'example.org/course');
   await click('Load page');
   await sleep(500);
-  await expect('Sign in to import from a website', 'explains web import needs an account in the browser');
+  await expect('Loading a website needs a Kinship account', 'explains why the page can’t load here');
+  await click('Enter the details myself');
+  await fillLabel('Course name', 'Open Garden Course');
+  await fillLabel('Author or organization (optional)', 'Garden Project');
+  await click('CC BY-NC-SA', { exact: true });
+  await fillLabel('Course outline', 'Unit 1: Seeds\nWhat is a seed? https://example.org/garden/seed\nSprouting\nUnit 2: Soil\nSoil layers');
+  await expect('Preview: 3 lessons in 2 units', 'pasted outline parsed');
+  await click('Create lesson plan');
+  await expect('saved automatically', 'plan created from a manual source');
+  const manual = await pkgNamed('Open Garden Course (lesson plan)');
+  log(manual?.origin.kind === 'open_web' && manual.origin.url === 'https://example.org/course' && manual.origin.licenseDetected === false && manual.license.kind === 'cc_by_nc_sa' && manual.units[0].lessons[0].links[0]?.url === 'https://example.org/garden/seed', 'source, license, and lesson links recorded');
+  await click('🚀 Publish');
+  await expect('No license was found on the source page', 'creator can still correct the license');
+  await expect('I checked https://example.org/course', 'asks to confirm the source license');
 
   scenario('Studio → Compass');
   await page.goto(`${BASE}/studio`, { waitUntil: 'networkidle0' });

@@ -193,6 +193,11 @@ function Web({ onCreate }: { onCreate: Create }) {
   const c = useColors();
   const [url, setUrl] = useState('');
   const [page, setPage] = useState<(WebImport & { url: string }) | null>(null);
+  // When the page can't be read (sign-in needed, the site blocks it, or it's built by scripts),
+  // the creator enters the source details and pastes the outline themselves.
+  const [manual, setManual] = useState(false);
+  const [sourceTitle, setSourceTitle] = useState('');
+  const [author, setAuthor] = useState('');
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
   const [outline, setOutline] = useState('');
@@ -200,9 +205,18 @@ function Web({ onCreate }: { onCreate: Create }) {
   const [title, setTitle] = useState('');
   const link = normalizeUrl(url);
   const pasted = useMemo(() => (outline.trim() ? parseOutline(outline) : undefined), [outline]);
-  const result: ImportResult = pasted ?? page ?? { units: [], warnings: [] };
-  const license = page?.license ?? (chosen ? { kind: chosen } : undefined);
-  const missing = [!page && 'load the source page', !title.trim() && 'a title', !lessonTotal(result.units) && 'lessons (from the page, or paste the outline)', page && !license && 'the source’s license (or “Not sure”)'].filter(Boolean);
+  const result: ImportResult = pasted ?? (manual ? undefined : page) ?? { units: [], warnings: [] };
+  const detected = manual ? undefined : page?.license;
+  const license = detected ?? (chosen ? { kind: chosen } : undefined);
+  const ready = manual || !!page;
+  const missing = [
+    !link && 'the course’s web address',
+    !ready && 'load the page (or enter its details yourself)',
+    manual && !sourceTitle.trim() && 'the course’s name',
+    !title.trim() && 'a title for your plan',
+    ready && !lessonTotal(result.units) && (manual ? 'the course outline' : 'lessons (from the page, or paste the outline)'),
+    ready && !license && 'the source’s license (or “Not sure”)',
+  ].filter(Boolean);
 
   const load = async () => {
     if (!link) return;
@@ -212,12 +226,19 @@ function Web({ onCreate }: { onCreate: Create }) {
       const res = await fetchPage(link);
       const parsed = parseWebPage(res.html, res.url);
       setPage({ ...parsed, url: res.url });
+      setManual(false);
       setTitle((t) => t || `${parsed.title} (lesson plan)`.slice(0, 160));
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
     } finally {
       setBusy(false);
     }
+  };
+
+  const enterManually = () => {
+    setManual(true);
+    setPage(null);
+    setError('');
   };
 
   return (
@@ -229,34 +250,65 @@ function Web({ onCreate }: { onCreate: Create }) {
           </View>
           <Button title="Load page" disabled={!link} loading={busy} onPress={load} />
         </Row>
-        {error ? <T color={c.danger}>{error}</T> : null}
+        {error ? (
+          <Card tint={c.accentSoft}>
+            <T>{error}</T>
+            <T v="caption">You can still adapt it: enter the course’s details and paste its outline (copy the table of contents from the page).</T>
+            <Row>
+              <Button size="sm" title="Enter the details myself" onPress={enterManually} />
+            </Row>
+          </Card>
+        ) : !ready ? (
+          <Button size="sm" kind="ghost" title="Can’t load the page? Enter the details myself" onPress={enterManually} />
+        ) : null}
       </Section>
 
-      {page ? (
+      {page && !manual ? (
+        <Card>
+          <T v="heading">🌐 {page.title}</T>
+          <T v="caption" muted>{page.url}{page.author ? ` · by ${page.author}` : ''}</T>
+          {page.license ? (
+            <T>
+              License found: <T style={{ fontWeight: '700' }}>{licenseName(page.license)}</T> — {LICENSE_INFO[page.license.kind].label}. Your plan keeps this license.
+              {!LICENSE_INFO[page.license.kind].adapt ? ' It doesn’t allow sharing adapted versions, so your plan will be for your family only.' : !LICENSE_INFO[page.license.kind].commercial ? ' It’s non-commercial, so your plan must be free.' : ''}
+            </T>
+          ) : (
+            <T>No license found on this page.</T>
+          )}
+        </Card>
+      ) : null}
+
+      {manual ? (
+        <Section title="About the course" subtitle="Used to credit the source on your plan, its listing, and printouts.">
+          <Field label="Course name" value={sourceTitle} onChangeText={(v) => { setSourceTitle(v); if (!title || title === `${sourceTitle} (lesson plan)`) setTitle(v ? `${v} (lesson plan)` : ''); }} placeholder="Open Botany for Kids" maxLength={160} />
+          <Field label="Author or organization (optional)" value={author} onChangeText={setAuthor} maxLength={120} />
+        </Section>
+      ) : null}
+
+      {ready && !detected ? (
+        <Stack gap={6}>
+          <T>Check the course’s terms (often linked in the page footer) and choose the license it states:</T>
+          <Row wrap gap={6}>
+            {SOURCE_LICENSES.map((k) => (
+              <Chip key={k} label={k === 'all_rights_reserved' ? '© All rights reserved' : LICENSE_INFO[k].short} selected={chosen === k} onPress={() => setChosen(k)} />
+            ))}
+            <Chip label="Not sure" selected={chosen === 'unknown'} onPress={() => setChosen('unknown')} />
+          </Row>
+          <T v="caption" muted>Unsure or all-rights-reserved sources can still be used in your own family’s plan; they just can’t be published.</T>
+        </Stack>
+      ) : null}
+
+      {ready ? (
         <>
-          <Card>
-            <T v="heading">🌐 {page.title}</T>
-            <T v="caption" muted>{page.url}{page.author ? ` · by ${page.author}` : ''}</T>
-            {page.license ? (
-              <T>
-                License found: <T style={{ fontWeight: '700' }}>{licenseName(page.license)}</T> — {LICENSE_INFO[page.license.kind].label}. Your plan keeps this license.
-                {!LICENSE_INFO[page.license.kind].adapt ? ' It doesn’t allow sharing adapted versions, so your plan will be for your family only.' : !LICENSE_INFO[page.license.kind].commercial ? ' It’s non-commercial, so your plan must be free.' : ''}
-              </T>
-            ) : (
-              <Stack gap={6}>
-                <T>No license found on this page. Check the source’s terms (often linked in the footer) and choose what it says:</T>
-                <Row wrap gap={6}>
-                  {SOURCE_LICENSES.map((k) => (
-                    <Chip key={k} label={k === 'all_rights_reserved' ? '© All rights reserved' : LICENSE_INFO[k].short} selected={chosen === k} onPress={() => setChosen(k)} />
-                  ))}
-                  <Chip label="Not sure" selected={chosen === 'unknown'} onPress={() => setChosen('unknown')} />
-                </Row>
-                <T v="caption" muted>Unsure or all-rights-reserved sources can still be used in your own family’s plan; they just can’t be published.</T>
-              </Stack>
-            )}
-          </Card>
           <Field label="Your plan’s title" value={title} onChangeText={setTitle} maxLength={160} />
-          <Field label="Or paste the course outline (optional)" value={outline} onChangeText={setOutline} multiline placeholder="Use this if the page’s lessons didn’t come through, or to use the course’s own outline. The source and license above are still recorded." />
+          <Field
+            label={manual ? 'Course outline' : 'Or paste the course outline (optional)'}
+            value={outline}
+            onChangeText={setOutline}
+            multiline
+            style={{ minHeight: 140 }}
+            placeholder={manual ? 'Paste the table of contents — one lesson per line. Lines starting with Unit, Chapter, Week… start a new unit. Lesson links in the text are kept.' : 'Use this if the page’s lessons didn’t come through. The source and license above are still recorded.'}
+          />
           <Preview result={result} />
         </>
       ) : null}
@@ -266,12 +318,14 @@ function Web({ onCreate }: { onCreate: Create }) {
           disabled={missing.length > 0}
           reason={`Still needed: ${missing.join(', ')}`}
           onPress={() =>
-            page &&
+            link &&
             license &&
             onCreate({
               title: title.trim(),
               units: result.units,
-              origin: { kind: 'open_web', url: page.url, title: page.title, author: page.author, retrievedAt: new Date().toISOString(), licenseDetected: !!page.license },
+              origin: manual
+                ? { kind: 'open_web', url: link, title: sourceTitle.trim(), author: author.trim() || undefined, retrievedAt: new Date().toISOString(), licenseDetected: false }
+                : { kind: 'open_web', url: page!.url, title: page!.title, author: page!.author, retrievedAt: new Date().toISOString(), licenseDetected: !!page!.license },
               license,
               format: 'online',
               price: 0,

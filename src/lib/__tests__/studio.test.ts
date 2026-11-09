@@ -156,6 +156,16 @@ describe('web page import', () => {
     expect(r.units[0].lessons[1].links[0].url).toBe('https://free.example.org/botany/lessons/sprouting.html');
   });
 
+  it('skips wiki housekeeping links (edit, history, special pages)', () => {
+    const wiki = `<html><title>Arithmetic - Wikibooks</title><body><main>
+      <div class="mw-heading"><h2>Unit 1</h2><span class="mw-editsection">[<a href="/w/index.php?title=Arithmetic&action=edit&section=1">edit</a>]</span></div>
+      <ul><li><a href="/wiki/Arithmetic/Counting">Counting</a></li><li><a href="/wiki/Special:Search">Search tools</a></li><li><a href="/w/index.php?title=Arithmetic&printable=yes">Printable version</a></li></ul>
+      </main><footer>Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</a></footer></body></html>`;
+    const r = parseWebPage(wiki, 'https://en.wikibooks.org/wiki/Arithmetic');
+    expect(titles(r)).toEqual([['Unit 1', ['Counting']]]);
+    expect(r.license).toMatchObject({ kind: 'cc_by_sa', version: '4.0' });
+  });
+
   it('says so when a page has no lessons or license', () => {
     const r = parseWebPage('<html><title>Blank</title><body><p>Hello</p></body></html>', 'https://x.example.org');
     expect(r.units).toEqual([]);

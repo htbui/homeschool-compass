@@ -177,7 +177,7 @@ export async function fetchPage(url: string): Promise<{ url: string; html: strin
     }
     return data as { url: string; html: string };
   }
-  if (Platform.OS === 'web') throw new Error('Sign in to import from a website (browsers can’t read other sites directly). Or paste the course outline instead.');
+  if (Platform.OS === 'web') throw new Error('Loading a website needs a Kinship account (browsers can’t read other sites directly).');
   const res = await fetch(url, { headers: { Accept: 'text/html' } });
   if (!res.ok) throw new Error(`That page answered ${res.status}.`);
   if (!/text\/html|text\/plain/i.test(res.headers.get('content-type') ?? '')) throw new Error('That address isn’t a web page.');

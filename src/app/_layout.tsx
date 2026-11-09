@@ -6,11 +6,14 @@ import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
 import { useColorScheme } from 'react-native';
 
+import { markLoaded } from '@/components/AppErrorBoundary';
 import { PrintSetupSheet } from '@/components/PrintSetupSheet';
 import { startSync } from '@/services/sync';
 import { useStore } from '@/store/useStore';
 import { useStudio } from '@/store/useStudio';
 import { useColors } from '@/ui';
+
+export { AppErrorBoundary as ErrorBoundary } from '@/components/AppErrorBoundary';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -24,6 +27,7 @@ export default function RootLayout() {
   useEffect(() => {
     if (hydrated) {
       SplashScreen.hideAsync();
+      markLoaded();
       // Start cloud sync only after local data has loaded, so it merges against the real state.
       startSync();
     }

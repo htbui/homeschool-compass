@@ -300,8 +300,12 @@ async function run() {
 
   // ───────────────────────────── Curriculum
   scenario('Curriculum: pacing');
-  await goTab('Curriculum');
+  await goTab('My Curriculum');
   await click('＋  Add', { exact: true });
+  await expect('Find one in the Marketplace', 'Add offers the Marketplace');
+  await expect('Convert a book you own');
+  await expect('Create your own in Studio');
+  await click('Just track lessons');
   await click('Saxon Math (grade level)');
   await fill('0', '12');
   await fill('05/21/2017', '8/17/2026', 0);
@@ -451,7 +455,7 @@ async function run() {
 
   // ───────────────────────────── Marketplace
   scenario('Marketplace');
-  await goTab('Market');
+  await goTab('Marketplace');
   await click('🛍️ Browse');
   await expect('Sample catalog', 'sample catalog is labelled');
   await click('All grades', { exact: true });
@@ -501,7 +505,7 @@ async function run() {
   await expect('Lesson links & files (1)', 'curriculum card shows its materials');
   await expect('Where curricula come from');
   // Review it.
-  await goTab('Market');
+  await goTab('Marketplace');
   await click('📚 My library');
   await click('Write a review');
   log(await isDisabled('Post review'), 'review needs stars + text');

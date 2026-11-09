@@ -292,7 +292,10 @@ const meta = (html: string, name: string) =>
   html.match(new RegExp(`<meta[^>]+(?:name|property)=["']${name}["'][^>]*content=["']([^"']*)["']`, 'i'))?.[1] ??
   html.match(new RegExp(`<meta[^>]+content=["']([^"']*)["'][^>]*(?:name|property)=["']${name}["']`, 'i'))?.[1];
 
-const SKIP_LINK = /^(home|about|contact|login|log in|sign in|sign up|register|search|menu|privacy|terms|cookie|donate|share|tweet|facebook|twitter|instagram|pinterest|youtube|subscribe|next|previous|prev|back|top|skip to content|read more|more)$/i;
+const SKIP_LINK =
+  /^(home|about|about us|contact|contact us|login|log in|sign in|sign up|register|search|menu|privacy|privacy policy|terms|terms of use|cookie|cookies|donate|share|tweet|facebook|twitter|instagram|pinterest|youtube|subscribe|next|previous|prev|back|top|back to top|skip to content|read more|more|edit|edit source|view source|edit this page|printable version|print|print this page|download|download pdf|pdf|pdf version|history|view history|talk|discussion|permanent link|permalink|cite|cite this page|help|faq|feedback|report|log out|\[?\d+\]?|\^|↑)$/i;
+/** Wiki/CMS housekeeping links (edit, history, special pages) that are never lessons. */
+const HOUSEKEEPING = /[?&](action|veaction|oldid|diff|printable)=|\/(Special|Talk|User|Help|Template|Category|File|Wikibooks|Wikiversity|Wikipedia):|\/w\/index\.php|\/(login|signin|signup|register|cart|account)\b/i;
 const SOCIAL = /(facebook|twitter|x|instagram|pinterest|linkedin|tiktok)\.com$/i;
 
 /**
@@ -320,7 +323,7 @@ export function parseWebPage(html: string, pageUrl: string): WebImport {
   let m: RegExpExecArray | null;
   while ((m = re.exec(body))) {
     if (m[1]) {
-      const t = textOf(m[2]);
+      const t = textOf(m[2]).replace(/\s*\[\s*edit( source)?\s*\]\s*$/i, '');
       if (t) tokens.push({ kind: 'heading', text: t });
     } else if (m[3] !== undefined) {
       const inner = m[3];
@@ -356,7 +359,7 @@ export function parseWebPage(html: string, pageUrl: string): WebImport {
       } catch {
         continue;
       }
-      if (!/^https?:$/.test(url.protocol) || SOCIAL.test(url.hostname) || /creativecommons\.org/.test(url.hostname)) continue;
+      if (!/^https?:$/.test(url.protocol) || SOCIAL.test(url.hostname) || /creativecommons\.org/.test(url.hostname) || HOUSEKEEPING.test(url.href)) continue;
       if (url.href.split('#')[0] === base.href.split('#')[0]) continue;
       if (seen.has(url.href)) continue;
       seen.add(url.href);

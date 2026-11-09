@@ -62,7 +62,9 @@ npm run test:cloud     # row-level security + server rules against the local Sup
 npm run test:e2e       # local-only browser tests, every screen and form (and Studio) at desktop + phone size
                        # (needs `npm run web:local` on :8082, plus local Chrome or CHROME_PATH)
 npm run test:e2e:cloud # two devices syncing, live marketplace, Studio web import + publish, two families in the community
-                       # (needs `npm run db:start` and `npm run web` on :8081)
+                       # (needs `npm run db:start` and `npm run web` on :8081; the web import uses a page on this
+                       # machine, which needs STUDIO_FETCH_ALLOW_PRIVATE=1 in supabase/functions/.env — or set
+                       # STUDIO_IMPORT_URL / STUDIO_IMPORT_LESSON to a real public course page)
 ```
 
 ## What's built (mapped to the plan)

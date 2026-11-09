@@ -1,6 +1,7 @@
 /// <reference types="node" />
 // Studio on the server: private drafts, license rules enforced at publish,
 // paid lesson plans delivered only to buyers, and the web-import fetcher.
+import { existsSync, readFileSync } from 'node:fs';
 import { createServer, type Server } from 'node:http';
 import type { AddressInfo } from 'node:net';
 
@@ -196,14 +197,25 @@ describe('web import fetcher', () => {
   afterAll(() => server.close());
 
   // The edge runtime runs in Docker, so it reaches this test server via the host.
+  // That's a private address, so it only works when local testing turns on
+  // STUDIO_FETCH_ALLOW_PRIVATE; otherwise the fetcher must refuse it.
   const page = (path: string) => `http://host.docker.internal:${port}${path}`;
+  const envFile = new globalThis.URL('../functions/.env', import.meta.url);
+  const allowPrivate = existsSync(envFile) && /^STUDIO_FETCH_ALLOW_PRIVATE=1$/m.test(readFileSync(envFile, 'utf8'));
+
+  it.skipIf(allowPrivate)('refuses private and internal addresses', async () => {
+    for (const url of [page('/course'), 'http://127.0.0.1:55421/rest/v1/', 'http://169.254.169.254/latest/meta-data/', 'http://localhost/']) {
+      const r = await parent.functions.invoke('fetch-page', { body: { url } });
+      expect(r.error).toBeTruthy();
+    }
+  });
 
   it('needs an account', async () => {
     const anon = createClient(URL, KEY, { auth: { persistSession: false } });
     expect((await anon.functions.invoke('fetch-page', { body: { url: page('/course') } })).error).toBeTruthy();
   });
 
-  it('fetches a page, following redirects', async () => {
+  it.runIf(allowPrivate)('fetches a page, following redirects', async () => {
     const { data, error } = await parent.functions.invoke('fetch-page', { body: { url: page('/redirect') } });
     expect(error).toBeNull();
     expect(data.url).toBe(page('/course'));
@@ -214,6 +226,6 @@ describe('web import fetcher', () => {
     for (const url of ['file:///etc/passwd', 'ftp://example.org/x', 'not a url']) {
       expect((await parent.functions.invoke('fetch-page', { body: { url } })).error).toBeTruthy();
     }
-    expect((await parent.functions.invoke('fetch-page', { body: { url: page('/file.pdf') } })).error).toBeTruthy();
+    if (allowPrivate) expect((await parent.functions.invoke('fetch-page', { body: { url: page('/file.pdf') } })).error).toBeTruthy();
   });
 });

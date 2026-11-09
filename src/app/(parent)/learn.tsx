@@ -34,6 +34,7 @@ export default function CurriculumHub() {
   const { upsertCurriculum, removeCurriculum, upsertBlock } = useStore.getState();
   const [editing, setEditing] = useState<Curriculum | 'new' | null>(null);
   const [materialsFor, setMaterialsFor] = useState<string | null>(null);
+  const [adding, setAdding] = useState(false);
   const materialsCur = curricula.find((k) => k.id === materialsFor);
   const confirm = useConfirm();
 
@@ -62,15 +63,15 @@ export default function CurriculumHub() {
 
   return (
     <Screen>
-      <T v="display">Curriculum</T>
-      <T muted>Kinship paces and tracks any curriculum — one from the Marketplace, or one you already own.</T>
+      <T v="display">My Curriculum</T>
+      <T muted>Everything your kids are learning, paced lesson by lesson — from the Marketplace, a book you own, or one you made in Studio.</T>
       <View style={{ marginTop: space.lg }}>
         <Segmented<Tab> value={tab} onChange={setTab} options={[{ value: 'curricula', label: '📚 Pacing' }, { value: 'unit', label: '🧭 Unit Study Generator' }]} />
       </View>
 
       {tab === 'curricula' ? (
         <>
-          <Section title="Your curricula" subtitle="Missed days are re-spread across the rest of the year — no backlog, no guilt." action={<Button size="sm" icon="＋" title="Add" onPress={() => setEditing('new')} />}>
+          <Section title="Your curricula" subtitle="Missed days are re-spread across the rest of the year — no backlog, no guilt." action={<Button size="sm" icon="＋" title="Add" onPress={() => setAdding(true)} />}>
             {curricula.length === 0 ? (
               <Empty
                 icon="📚"
@@ -167,6 +168,28 @@ export default function CurriculumHub() {
             onDelete={editing === 'new' ? undefined : () => confirm.ask(`Remove ${editing.name}?`, () => { removeCurriculum(editing.id); setEditing(null); }, { confirm: 'Remove' })}
           />
         ) : null}
+      </Sheet>
+      <Sheet visible={adding} onClose={() => setAdding(false)} title="Add a curriculum">
+        <Stack>
+          {(
+            [
+              { icon: '🛍️', title: 'Find one in the Marketplace', body: 'Browse by your kids’ grades and your style, read reviews, and add it to your plan with every lesson scheduled.', go: () => router.push('/market') },
+              { icon: '📕', title: 'Convert a book you own', body: 'Paste its table of contents and get daily lessons with page ranges. Private to your family.', go: () => router.push({ pathname: '/studio/import', params: { from: 'book' } }) },
+              { icon: '🎨', title: 'Create your own in Studio', body: 'Write lessons from scratch, import a spreadsheet, or adapt a free online course.', go: () => router.push('/studio/new') },
+              { icon: '🔢', title: 'Just track lessons', body: 'Already have a curriculum and only want pacing? Enter its lesson count.', go: () => setEditing('new') },
+            ] as const
+          ).map((o) => (
+            <Card
+              key={o.title}
+              onPress={() => {
+                setAdding(false);
+                o.go();
+              }}>
+              <T v="heading">{o.icon} {o.title}</T>
+              <T v="caption" muted>{o.body}</T>
+            </Card>
+          ))}
+        </Stack>
       </Sheet>
       <Sheet visible={!!materialsCur} onClose={() => setMaterialsFor(null)} title={`📖 ${materialsCur?.name ?? ''}`}>
         {materialsCur ? <MaterialsEditor curriculumId={materialsCur.id} /> : null}

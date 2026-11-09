@@ -5,7 +5,7 @@ const OUT = new URL('./screenshots/', import.meta.url).pathname;
 const browser = await puppeteer.launch({ executablePath: process.env.CHROME_PATH ?? '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: 'new' });
 setTimeout(() => { console.log('WATCHDOG'); process.exit(2); }, 120000).unref();
 const page = await browser.newPage();
-await page.setViewport({ width: 430, height: 900 });
+await page.setViewport({ width: Number(process.env.W ?? 430), height: 900, isMobile: !!process.env.MOBILE, hasTouch: !!process.env.MOBILE });
 page.setDefaultTimeout(15000);
 const errors = [];
 page.on('console', (m) => { if (m.type() === 'error') errors.push(m.text()); });
