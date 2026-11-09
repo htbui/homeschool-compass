@@ -1,3 +1,6 @@
+import type { License } from './license';
+import type { PackageUnit } from './package';
+
 // Core domain model for Kinship. Everything here is plain data so it can be
 // persisted locally today and synced to the Kinship API later.
 
@@ -132,6 +135,8 @@ export interface Task {
   curriculumId?: ID;
   /** Which lesson of the curriculum this was, recorded when it's finished. */
   lessonNo?: number;
+  /** The outline lesson this task's steps were filled from. */
+  lessonId?: ID;
   bumpedFrom?: DateKey;
 }
 
@@ -188,6 +193,13 @@ export interface Curriculum {
   model: 'turnkey' | 'modular' | 'custom';
   /** Where the lessons live: the publisher's site, or the family's own PDF. */
   materials?: LessonMaterial[];
+  /** Lesson-by-lesson plan, from Studio or a Marketplace package. */
+  outline?: PackageUnit[];
+  packageId?: ID;
+  packageVersion?: number;
+  license?: License;
+  /** Credit line the license requires (shown on lessons and printouts). */
+  attribution?: string;
 }
 
 export interface LessonMaterial {

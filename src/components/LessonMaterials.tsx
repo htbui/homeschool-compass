@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { View } from 'react-native';
 
 import { lessonNumber, normalizeUrl } from '@/lib/curriculum';
+import { lessonAt } from '@/lib/package';
 import { uid } from '@/lib/id';
 import type { LessonMaterial, Task } from '@/lib/types';
 import { deleteMaterialFile, MAX_FILE_MB, openMaterial, pickMaterialFile } from '@/services/materials';
@@ -36,12 +37,18 @@ export function LessonCard({ task, kid }: { task: Task; kid?: boolean }) {
   const [editing, setEditing] = useState(false);
   if (!cur) return null;
   const n = lessonNumber(task, cur, tasks);
-  const materials = cur.materials ?? [];
+  const lesson = lessonAt(cur.outline, n);
+  // Lesson-specific links first, then the curriculum's general materials.
+  const lessonLinks: LessonMaterial[] = (lesson?.links ?? []).map((l, i) => ({ id: `${lesson!.id}-${i}`, label: l.label, url: l.url }));
+  const materials = [...lessonLinks, ...(cur.materials ?? [])];
 
   return (
     <Card tint={c.primarySoft} style={kid ? { marginTop: space.md } : undefined}>
-      <T v={kid ? 'title' : 'heading'}>📖 Lesson {n} of {cur.totalLessons}</T>
-      <T v="caption" muted>{cur.name}</T>
+      <T v={kid ? 'title' : 'heading'}>📖 Lesson {n} of {cur.totalLessons}{lesson ? `: ${lesson.title}` : ''}</T>
+      <T v="caption" muted>{cur.name}{lesson?.unit ? ` · ${lesson.unit}` : ''}</T>
+      {lesson?.pages ? <T v={kid ? 'heading' : 'body'}>📄 Pages {lesson.pages}</T> : null}
+      {lesson?.questions.length ? <T v="caption">✏️ {lesson.questions.length} worksheet question{lesson.questions.length === 1 ? '' : 's'} — print the worksheet to answer on paper.</T> : null}
+      {!kid && lesson?.notes ? <T v="caption">📝 {lesson.notes}</T> : null}
       {materials.length ? (
         <Row wrap>
           {materials.map((m) => (
@@ -52,6 +59,7 @@ export function LessonCard({ task, kid }: { task: Task; kid?: boolean }) {
         <T v="caption">Your lesson book or video is wherever you usually find it — ask a grown-up if you&apos;re not sure.</T>
       ) : null}
       {error ? <T v="caption" color={c.danger}>{error}</T> : null}
+      {cur.attribution ? <T v="caption" muted>{cur.attribution}</T> : null}
       {!kid ? (
         editing ? (
           <MaterialsEditor curriculumId={cur.id} />

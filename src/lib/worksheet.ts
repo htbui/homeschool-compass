@@ -1,4 +1,4 @@
-import { lessonLabel } from './curriculum';
+import { lessonFor, lessonLabel } from './curriculum';
 import { ageOn, formatClock, formatDate, toMinutes } from './dates';
 import { esc } from './documents';
 import { subjectLabel } from './subjects';
@@ -49,6 +49,12 @@ function sheet(task: Task, ctx: WorksheetContext): string {
   const age = kid ? ageOn(kid.birthdate, task.date) : 10;
   const young = age <= 7;
   const lesson = lessonLabel(task, ctx.curricula, ctx.tasks);
+  const plan = lessonFor(task, ctx.curricula, ctx.tasks);
+  const credit = ctx.curricula.find((c) => c.id === task.curriculumId)?.attribution;
+  const questions = plan?.questions.length
+    ? `<h2>Questions</h2><ol class="questions">${plan.questions.map((q) => `<li>${esc(q)}<div class="line"></div><div class="line"></div></li>`).join('')}</ol>`
+    : '';
+  const reading = plan?.pages || plan?.links.length ? `<p class="meta">${plan.pages ? `📄 Pages ${esc(plan.pages)}` : ''}${plan.pages && plan.links.length ? ' · ' : ''}${plan.links.map((l) => `🔗 ${esc(l.label)}: ${esc(l.url)}`).join(' · ')}</p>` : '';
   const withWho = task.mode === 'parent' ? `with ${ctx.parentName?.split(' ')[0] || 'a grown-up'}` : task.mode === 'group' ? 'with the family' : 'on my own';
   const steps = task.steps.length
     ? `<h2>Steps</h2><ol class="steps">${task.steps.map((s) => `<li><span class="box">${s.done ? '✓' : ''}</span>${esc(s.label)}</li>`).join('')}</ol>`
@@ -58,14 +64,16 @@ function sheet(task: Task, ctx: WorksheetContext): string {
     <div class="namebar"><span>Name: <b>${esc(kid?.name ?? '')}</b></span><span>Date: <b>${esc(formatDate(task.date, { weekday: 'long', month: 'long', day: 'numeric' }))}</b></span></div>
     <h1><span class="icon">${esc(task.icon)}</span> ${esc(task.title)}</h1>
     <p class="meta">${esc(subjectLabel(task.subject))} · ${esc(formatClock(task.start))} · ${task.durationMin} minutes · ${esc(withWho)}${lesson ? `<br/>${esc(lesson)}` : ''}</p>
+    ${reading}
     ${steps}
+    ${questions}
     <h2>My work</h2>
     ${workArea(workAreaFor(task.subject, age))}
     <div class="bottom">
       <div><h2>How did it go?</h2><div class="faces"><span>☐ 😕 Tricky</span><span>☐ 🙂 Got it</span><span>☐ 🤩 Easy!</span></div></div>
       ${young ? '' : '<div><h2>One thing I learned</h2><div class="line"></div><div class="line"></div></div>'}
     </div>
-    <p class="foot">Time spent: ______ min &nbsp;·&nbsp; Grown-up check: ☐ &nbsp;·&nbsp; Keep this page for the portfolio, or snap a photo of it in Kinship.</p>
+    <p class="foot">Time spent: ______ min &nbsp;·&nbsp; Grown-up check: ☐ &nbsp;·&nbsp; Keep this page for the portfolio, or snap a photo of it in Kinship.${credit ? `<br/>${esc(credit)}` : ''}</p>
   </section>`;
 }
 
@@ -121,6 +129,7 @@ export function worksheetHtml(tasks: Task[], ctx: WorksheetContext, title?: stri
   .bottom{display:grid;grid-template-columns:1fr 1fr;gap:20px}
   .faces{display:flex;gap:16px;font-size:16px;flex-wrap:wrap}
   .foot{color:#777;font-size:11px;margin-top:18px}
+  .questions{padding-left:20px;margin:0} .questions li{font-size:16px;margin:6px 0 14px}
   table{border-collapse:collapse;width:100%;font-size:15px} td,th{border:1px solid #ccc;padding:7px 8px;text-align:left} th{background:#f4f1ea}
   .box-cell{width:28px}
 </style></head><body>${body}</body></html>`;

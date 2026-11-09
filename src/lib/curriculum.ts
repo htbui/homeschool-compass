@@ -1,4 +1,6 @@
 import { todayKey, toMinutes } from './dates';
+import { uid } from './id';
+import { lessonAt, type FlatLesson, type PackageLesson } from './package';
 import type { Curriculum, ID, Task } from './types';
 
 /**
@@ -35,11 +37,53 @@ export function lessonNumber(task: Task, c: Curriculum, tasks: Task[] = []): num
   return Math.min(c.totalLessons, doneFor(c, task.childId) + 1 + (task.status === 'done' ? -1 : ahead));
 }
 
-/** "Saxon Algebra ½ · Lesson 37 of 123" for curriculum-linked tasks. */
+/** "Saxon Algebra ½ · Lesson 37 of 123: Ratios" for curriculum-linked tasks. */
 export function lessonLabel(task: Task, curricula: Curriculum[], tasks?: Task[]): string | undefined {
   const cur = task.curriculumId ? curricula.find((c) => c.id === task.curriculumId) : undefined;
   if (!cur) return undefined;
-  return `${cur.name} · Lesson ${lessonNumber(task, cur, tasks)} of ${cur.totalLessons}`;
+  const n = lessonNumber(task, cur, tasks);
+  const lesson = lessonAt(cur.outline, n);
+  return `${cur.name} · Lesson ${n} of ${cur.totalLessons}${lesson ? `: ${lesson.title}` : ''}`;
+}
+
+/** The outline lesson a task covers (curricula with a lesson-by-lesson plan). */
+export function lessonFor(task: Task, curricula: Curriculum[], tasks?: Task[]): FlatLesson | undefined {
+  const cur = task.curriculumId ? curricula.find((c) => c.id === task.curriculumId) : undefined;
+  if (!cur?.outline) return undefined;
+  return lessonAt(cur.outline, lessonNumber(task, cur, tasks));
+}
+
+/** A lesson's checklist: its own steps, or ones made from its pages, links, and questions. */
+export function stepsForLesson(l: PackageLesson): string[] {
+  if (l.steps.length) return l.steps;
+  return [
+    l.pages && `Read pages ${l.pages}`,
+    l.links.length && (l.links.length === 1 ? `Open “${l.links[0].label}”` : 'Open the lesson links'),
+    l.questions.length && `Answer the ${l.questions.length === 1 ? 'question' : `${l.questions.length} questions`}`,
+  ].filter((x): x is string => !!x);
+}
+
+/**
+ * Fill not-yet-started tasks on `date` with their lesson's steps. Re-run as
+ * progress changes so each task always shows the lesson that's actually next.
+ * Returns the same array when nothing changed.
+ */
+export function withLessons(tasks: Task[], curricula: Curriculum[], date: string): Task[] {
+  let changed = false;
+  const out = tasks.map((t) => {
+    if (t.date !== date || t.status !== 'todo' || t.steps.some((s) => s.done) || !t.curriculumId) return t;
+    const lesson = lessonFor(t, curricula, tasks);
+    if (!lesson || lesson.id === t.lessonId) return t;
+    const steps = stepsForLesson(lesson);
+    changed = true;
+    return {
+      ...t,
+      lessonId: lesson.id,
+      steps: steps.length ? steps.map((label) => ({ id: uid('s'), label, done: false })) : t.steps,
+      durationMin: lesson.minutes ?? t.durationMin,
+    };
+  });
+  return changed ? out : tasks;
 }
 
 /** Accepts "khanacademy.org/…" as well as full URLs; undefined when it isn't a web link. */

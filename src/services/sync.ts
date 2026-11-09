@@ -5,6 +5,7 @@ import { AppState } from 'react-native';
 import { deepEqual, mergeWorkspace } from '@/lib/sync';
 import { useAccount } from '@/store/useAccount';
 import { useStore, type Store } from '@/store/useStore';
+import { useStudio } from '@/store/useStudio';
 
 import { friendlyError, supabase } from './cloud';
 import { readForUpload } from './media';
@@ -111,6 +112,8 @@ export function startSync() {
 async function connect(userId: string, email?: string) {
   if (!supabase) return;
   account().set({ userId, email, status: 'syncing', error: undefined });
+  // Studio drafts and the creator profile belong to the account, not the family.
+  import('./studioApi').then((m) => m.loadStudio()).catch(() => {});
   try {
     const { data, error } = await supabase.from('family_members').select('family_id, families(name)').eq('user_id', userId).maybeSingle();
     if (error) throw error;
@@ -426,7 +429,10 @@ export async function signOut(keepData: boolean) {
   account().reset();
   base = {};
   await AsyncStorage.removeItem(BASE_KEY);
-  if (!keepData) useStore.getState().resetAll();
+  if (!keepData) {
+    useStore.getState().resetAll();
+    useStudio.getState().reset();
+  }
   const { refreshMarketplace } = await import('./marketApi');
   await refreshMarketplace();
 }

@@ -1,6 +1,8 @@
 import { addDays, todayKey } from './dates';
 import type { Listing, Review } from './market';
 import { ratingSummary } from './market';
+import { lessonTotal, outlinePreview } from './package';
+import { SAMPLE_OUTLINES, sampleStudioListings } from './studioSample';
 
 /**
  * Sample catalog shown until real sellers are connected (and in local-only
@@ -106,5 +108,11 @@ export function sampleCatalog(): { listings: Listing[]; reviews: Review[] } {
     });
     reviews.push(...rs);
   });
+  // Sample listings with a full lesson plan, and creator (Studio) listings.
+  for (const l of listings) {
+    const content = SAMPLE_OUTLINES[l.id];
+    if (content) Object.assign(l, { packageId: `pk-${l.id}`, outline: outlinePreview(content.units), lessons: lessonTotal(content.units), license: content.license });
+  }
+  listings.push(...sampleStudioListings().map((p) => p.listing));
   return { listings, reviews };
 }

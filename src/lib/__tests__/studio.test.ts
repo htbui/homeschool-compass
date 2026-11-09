@@ -1,0 +1,165 @@
+import { describe, expect, it } from 'vitest';
+
+import { parseOutline, parseTable, parseWebPage, splitRows } from '../importers';
+import { detectLicense, licenseUrl } from '../license';
+import { allLessons, attributionFor, lessonAt, newLesson, newPackage, newUnit, packageToListing, publishIssues, publishRules } from '../package';
+
+const titles = (r: { units: { title: string; lessons: { title: string; pages?: string }[] }[] }) => r.units.map((u) => [u.title, u.lessons.map((l) => `${l.title}${l.pages ? ` [${l.pages}]` : ''}`)]);
+
+describe('table of contents import', () => {
+  it('reads chapters, lessons, dot leaders and page ranges', () => {
+    const r = parseOutline(`Chapter 1: Whole Numbers ........ 1
+  1.1 Place Value ........ 2
+  1.2 Rounding ........ 9
+Chapter 2: Fractions ........ 15
+  2.1 What Is a Fraction? ........ 16
+  2.2 Equivalent Fractions ........ 22`, { lastPage: 30 });
+    expect(titles(r)).toEqual([
+      ['Chapter 1: Whole Numbers', ['1.1 Place Value [2–8]', '1.2 Rounding [9–14]']],
+      ['Chapter 2: Fractions', ['2.1 What Is a Fraction? [16–21]', '2.2 Equivalent Fractions [22–30]']],
+    ]);
+  });
+
+  it('keeps "Lesson 5" as a title, not a page number', () => {
+    const r = parseOutline('Unit 1\nLesson 1\nLesson 2\nUnit 2\nLesson 3');
+    expect(titles(r)).toEqual([['Unit 1', ['Lesson 1', 'Lesson 2']], ['Unit 2', ['Lesson 3']]]);
+  });
+
+  it('uses indentation when there are no unit words', () => {
+    const r = parseOutline('Ancient Egypt\n  The Nile\n  Pyramids\nAncient Greece\n  City States');
+    expect(titles(r)).toEqual([['Ancient Egypt', ['The Nile', 'Pyramids']], ['Ancient Greece', ['City States']]]);
+  });
+
+  it('splits chapter-only contents into lessons by pages', () => {
+    const r = parseOutline('Chapter 1 Numbers 1\nChapter 2 Shapes 21', { pagesPerLesson: 10, lastPage: 40 });
+    expect(titles(r)).toEqual([
+      ['Chapter 1 Numbers', ['Chapter 1 Numbers (1 of 2) [1–10]', 'Chapter 1 Numbers (2 of 2) [11–20]']],
+      ['Chapter 2 Shapes', ['Chapter 2 Shapes (1 of 2) [21–30]', 'Chapter 2 Shapes (2 of 2) [31–40]']],
+    ]);
+  });
+
+  it('picks up bullets, links, and written page ranges', () => {
+    const r = parseOutline('# Week 1\n- Day 1: Read pp. 12-18\n- Day 2 video https://example.org/v/2');
+    expect(r.units[0].title).toBe('Week 1');
+    expect(r.units[0].lessons[0].pages).toBe('12–18');
+    expect(r.units[0].lessons[1].links[0].url).toBe('https://example.org/v/2');
+    expect(r.units[0].lessons[1].title).toBe('Day 2 video');
+  });
+
+  it('warns on empty input', () => {
+    expect(parseOutline('  \n ').warnings[0]).toMatch(/Nothing to import/);
+  });
+});
+
+describe('spreadsheet import', () => {
+  it('splits quoted CSV cells', () => {
+    expect(splitRows('a,"b, c","say ""hi"""\n1,2,3')).toEqual([['a', 'b, c', 'say "hi"'], ['1', '2', '3']]);
+  });
+
+  it('maps common headers and groups by unit', () => {
+    const r = parseTable('Unit\tLesson\tPages\tMinutes\tLink\tSteps\tQuestions\nAnimals\tMammals\t4-9\t25\thttps://example.org/m\tRead; Draw a mammal\tWhat is a mammal?\nAnimals\tBirds\t10-14\t\t\t\t\nPlants\tSeeds\t15-20\t\t\t\t');
+    expect(titles(r)).toEqual([['Animals', ['Mammals [4–9]', 'Birds [10–14]']], ['Plants', ['Seeds [15–20]']]]);
+    const m = r.units[0].lessons[0];
+    expect(m.minutes).toBe(25);
+    expect(m.steps).toEqual(['Read', 'Draw a mammal']);
+    expect(m.questions).toEqual(['What is a mammal?']);
+    expect(m.links[0].url).toBe('https://example.org/m');
+  });
+
+  it('falls back to the first column without headers', () => {
+    const r = parseTable('Counting\nAdding\n');
+    expect(titles(r)).toEqual([['Lessons', ['Counting', 'Adding']]]);
+    expect(r.warnings[0]).toMatch(/No header row/);
+  });
+});
+
+describe('licenses', () => {
+  it('detects Creative Commons badges and written statements', () => {
+    expect(detectLicense('<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">')).toMatchObject({ kind: 'cc_by_nc_sa', version: '4.0' });
+    expect(detectLicense('<p>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License.</p>')).toMatchObject({ kind: 'cc_by_sa', version: '3.0' });
+    expect(detectLicense('<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>')).toMatchObject({ kind: 'cc0' });
+    expect(detectLicense('<p>© 2024 Example Press. All rights reserved.</p>')).toBeUndefined();
+    expect(licenseUrl({ kind: 'cc_by', version: '4.0' })).toBe('https://creativecommons.org/licenses/by/4.0/');
+  });
+
+  it('keeps book conversions private and enforces the source license', () => {
+    const book = newPackage({ origin: { kind: 'owned_book', title: 'Math 4' } });
+    expect(publishRules(book).canPublish).toBe(false);
+    const web = (kind: Parameters<typeof publishRules>[0]['license']['kind'], confirmed = true) =>
+      publishRules({ origin: { kind: 'open_web', url: 'https://x.org', title: 'X', retrievedAt: '', licenseDetected: true }, license: { kind }, licenseConfirmed: confirmed });
+    expect(web('cc_by_nc_sa')).toMatchObject({ canPublish: true, mustBeFree: true, licenseLocked: true });
+    expect(web('cc_by')).toMatchObject({ canPublish: true, mustBeFree: false });
+    expect(web('cc_by_nd').canPublish).toBe(false);
+    expect(web('all_rights_reserved').canPublish).toBe(false);
+    expect(web('unknown').canPublish).toBe(false);
+    expect(web('cc_by', false).canPublish).toBe(false);
+    expect(publishRules(newPackage()).canPublish).toBe(true);
+  });
+
+  it('credits the source', () => {
+    const pkg = newPackage({ title: 'Botany', origin: { kind: 'open_web', url: 'https://free.example.org/botany', title: 'Open Botany', author: 'Jo Fern', retrievedAt: '', licenseDetected: true }, license: { kind: 'cc_by_sa', version: '4.0' } });
+    expect(attributionFor(pkg, 'Studio Kim')).toBe('Adapted from “Open Botany” by Jo Fern (https://free.example.org/botany), licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Organized into lessons by Studio Kim.');
+  });
+});
+
+describe('packages', () => {
+  const pkg = newPackage({
+    title: 'Fractions Workshop',
+    description: 'Hands-on fractions for curious 4th graders.',
+    subjects: ['math'],
+    price: 12,
+    units: [newUnit('Halves', [newLesson('Fold paper', { steps: ['Fold', 'Color'] }), newLesson('Share a pizza')]), newUnit('Quarters', [newLesson('Quarter hours', { questions: ['What is 1/4 of 60?'] })])],
+  });
+
+  it('numbers lessons across units', () => {
+    expect(allLessons(pkg.units).map((l) => `${l.n} ${l.unit}: ${l.title}`)).toEqual(['1 Halves: Fold paper', '2 Halves: Share a pizza', '3 Quarters: Quarter hours']);
+    expect(lessonAt(pkg.units, 3)?.title).toBe('Quarter hours');
+    expect(lessonAt(pkg.units, 4)).toBeUndefined();
+  });
+
+  it('lists what is missing before publishing', () => {
+    expect(publishIssues(pkg)).toEqual([]);
+    expect(publishIssues({ ...pkg, title: '', units: [newUnit('U', [newLesson('')])] })).toEqual(['a title', 'a title for every lesson']);
+    const nc = { ...pkg, origin: { kind: 'open_web' as const, url: 'https://x.org', title: 'X', retrievedAt: '', licenseDetected: true }, license: { kind: 'cc_by_nc' as const }, licenseConfirmed: true };
+    expect(publishIssues(nc)).toContain('a price of $0 (the source is non-commercial)');
+    expect(packageToListing(nc, 'Kim').price).toBe(0);
+  });
+
+  it('becomes a listing with a public outline', () => {
+    const l = packageToListing(pkg, 'Studio Kim');
+    expect(l).toMatchObject({ title: 'Fractions Workshop', sellerKind: 'creator', lessons: 3, price: 12, packageId: pkg.id });
+    expect(l.outline).toEqual([{ title: 'Halves', lessons: ['Fold paper', 'Share a pizza'] }, { title: 'Quarters', lessons: ['Quarter hours'] }]);
+    expect(l.includes).toContain('Printable worksheet questions');
+  });
+});
+
+describe('web page import', () => {
+  const html = `<html><head><title>Open Botany for Kids</title><meta name="author" content="Jo Fern"></head><body>
+  <nav><a href="/">Home</a><a href="/about">About</a></nav>
+  <main>
+    <h1>Open Botany</h1>
+    <h2>Unit 1: Seeds</h2>
+    <ul><li><a href="/lessons/seed-parts">Parts of a seed</a></li><li><a href="lessons/sprouting.html">Sprouting beans</a></li></ul>
+    <h2>Unit 2: Leaves</h2>
+    <ul><li><a href="https://free.example.org/lessons/leaf-shapes">Leaf shapes</a></li><li>Leaf rubbing art</li></ul>
+    <h2>Share</h2><a href="https://facebook.com/x">Facebook</a>
+  </main>
+  <footer><a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a></footer></body></html>`;
+
+  it('turns headings into units and links into lessons, with license and author', () => {
+    const r = parseWebPage(html, 'https://free.example.org/botany/');
+    expect(r.title).toBe('Open Botany for Kids');
+    expect(r.author).toBe('Jo Fern');
+    expect(r.license).toMatchObject({ kind: 'cc_by_nc', version: '4.0' });
+    expect(titles(r)).toEqual([['Unit 1: Seeds', ['Parts of a seed', 'Sprouting beans']], ['Unit 2: Leaves', ['Leaf shapes', 'Leaf rubbing art']]]);
+    expect(r.units[0].lessons[0].links[0].url).toBe('https://free.example.org/lessons/seed-parts');
+    expect(r.units[0].lessons[1].links[0].url).toBe('https://free.example.org/botany/lessons/sprouting.html');
+  });
+
+  it('says so when a page has no lessons or license', () => {
+    const r = parseWebPage('<html><title>Blank</title><body><p>Hello</p></body></html>', 'https://x.example.org');
+    expect(r.units).toEqual([]);
+    expect(r.warnings.join(' ')).toMatch(/Couldn’t find a list of lessons/);
+    expect(r.warnings.join(' ')).toMatch(/No license found/);
+  });
+});

@@ -4,7 +4,8 @@ import { View } from 'react-native';
 
 import { MaterialsEditor } from '@/components/LessonMaterials';
 import { formatDate, WEEKDAY_SHORT } from '@/lib/dates';
-import { defaultLessonDays, finishDateFor, INVOLVEMENT_LABEL, matchListing, nextStartDate, suggestStartTime, type Listing } from '@/lib/market';
+import { defaultLessonDays, finishDateFor, INVOLVEMENT_LABEL, matchListing, nextStartDate, suggestStartTime, type Listing, type PackageContent } from '@/lib/market';
+import { packageContent } from '@/services/studioApi';
 import type { ID, Weekday } from '@/lib/types';
 import { useStore } from '@/store/useStore';
 import { Button, Card, Chip, DateField, Row, Sheet, space, Stack, T, TimeField, useColors } from '@/ui';
@@ -13,11 +14,11 @@ import { Button, Card, Chip, DateField, Row, Sheet, space, Stack, T, TimeField, 
  * Turn a curriculum into a paced plan: who's doing it, which days, when.
  * Creates a Curriculum (pacing) and RhythmBlocks (schedule) in one step.
  */
-export function AddToPlanSheet({ listing, purchaseId, visible, onClose, intro }: { listing: Listing; purchaseId?: ID; visible: boolean; onClose: () => void; intro?: string }) {
-  return visible ? <PlanForm listing={listing} purchaseId={purchaseId} onClose={onClose} intro={intro} /> : null;
+export function AddToPlanSheet({ listing, purchaseId, visible, onClose, intro, content }: { listing: Listing; purchaseId?: ID; visible: boolean; onClose: () => void; intro?: string; content?: PackageContent }) {
+  return visible ? <PlanForm listing={listing} purchaseId={purchaseId} onClose={onClose} intro={intro} content={content} /> : null;
 }
 
-function PlanForm({ listing, purchaseId, onClose, intro }: { listing: Listing; purchaseId?: ID; onClose: () => void; intro?: string }) {
+function PlanForm({ listing, purchaseId, onClose, intro, content }: { listing: Listing; purchaseId?: ID; onClose: () => void; intro?: string; content?: PackageContent }) {
   const c = useColors();
   const family = useStore((s) => s.family)!;
   const kids = useStore((s) => s.children);
@@ -37,10 +38,22 @@ function PlanForm({ listing, purchaseId, onClose, intro }: { listing: Listing; p
   const toggleKid = (id: ID) => setChildIds(childIds.includes(id) ? childIds.filter((x) => x !== id) : [...childIds, id]);
   const toggleDay = (d: Weekday) => setDays(days.includes(d) ? days.filter((x) => x !== d) : [...days, d].sort() as Weekday[]);
 
-  const save = () => {
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState('');
+  const save = async () => {
     if (!startDate || !startTime) return;
-    const r = useStore.getState().addListingToPlan(listing, { childIds, days, startDate, startTime, children: kids }, purchaseId);
-    setDone({ finish: r.curriculum.targetEndDate, curriculumId: r.curriculum.id });
+    setBusy(true);
+    setError('');
+    try {
+      // Studio packages bring their full lesson-by-lesson plan.
+      const plan = content ?? (listing.packageId ? await packageContent(listing) : undefined);
+      const r = useStore.getState().addListingToPlan(listing, { childIds, days, startDate, startTime, children: kids }, purchaseId, plan);
+      setDone({ finish: r.curriculum.targetEndDate, curriculumId: r.curriculum.id });
+    } catch (e) {
+      setError(e instanceof Error ? e.message : String(e));
+    } finally {
+      setBusy(false);
+    }
   };
 
   if (done) {
@@ -102,9 +115,10 @@ function PlanForm({ listing, purchaseId, onClose, intro }: { listing: Listing; p
           {late ? <T v="caption">That&apos;s after your school year ends ({formatDate(family.schoolYearEnd, { month: 'short', day: 'numeric' })}). Add a lesson day to finish on time — or keep going over the summer.</T> : null}
         </Card>
       ) : null}
+      {error ? <T color={c.danger}>{error}</T> : null}
       <Row style={{ justifyContent: 'flex-end' }}>
         <Button kind="secondary" title={intro ? 'Later' : 'Cancel'} onPress={onClose} />
-        <Button title="Add to plan" disabled={missing.length > 0} reason={`Still needed: ${missing.join(', ')}`} onPress={save} />
+        <Button title="Add to plan" disabled={missing.length > 0} reason={`Still needed: ${missing.join(', ')}`} loading={busy} onPress={save} />
       </Row>
     </Sheet>
   );

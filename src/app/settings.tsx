@@ -8,6 +8,8 @@ import { ageOn, WEEKDAY_SHORT } from '@/lib/dates';
 import { describeResult } from '@/lib/quiz';
 import type { Child, Weekday } from '@/lib/types';
 import { STATUS_LABEL, useAccount } from '@/store/useAccount';
+import { enterStudio } from '@/services/studioMode';
+import { useStudio } from '@/store/useStudio';
 import { usePrinter } from '@/store/usePrinter';
 import { useStore } from '@/store/useStore';
 import { cloudEnabled } from '@/services/cloud';
@@ -29,6 +31,7 @@ export default function Settings() {
   const account = useAccount();
   const printer = usePrinter();
   const c = useColors();
+  const studioName = useStudio((s) => s.profile?.name);
 
   if (!family) return null;
   const toggleDay = (d: Weekday) => updateFamily({ schoolDays: family.schoolDays.includes(d) ? family.schoolDays.filter((x) => x !== d) : [...family.schoolDays, d].sort() });
@@ -46,6 +49,16 @@ export default function Settings() {
           </Card>
         </Section>
       ) : null}
+      <Section title="Kinship Studio">
+        <Card onPress={enterStudio}>
+          <Row wrap style={{ justifyContent: 'space-between' }}>
+            <T v="heading">🎨 {studioName ?? 'Make your own curricula'}</T>
+            <T v="label">Switch to Studio ›</T>
+          </Row>
+          <T v="caption" muted>Write lesson plans, convert books you own or free online courses, and publish to the Marketplace.</T>
+        </Card>
+      </Section>
+
       <Section title="Family">
         <Stack gap={space.md}>
           <Field label="Family name" value={family.familyName} onChangeText={(familyName) => updateFamily({ familyName })} />

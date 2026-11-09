@@ -19,16 +19,17 @@ const familyId = () => useAccount.getState().familyId;
 
 // ───────────────────────────── Row mapping
 
-type ListingRow = {
+export type ListingRow = {
   id: string; seller_family: string | null; seller_name: string; seller_kind: Listing['sellerKind']; seller_verified: boolean; title: string; subjects: string[]; grade_min: number; grade_max: number;
   philosophies: string[]; format: Listing['format']; price: number | string; condition: Listing['condition'] | null; description: string; includes: string[]; lessons: number; lessons_per_week: number;
   minutes_per_lesson: number; parent_involvement: Listing['parentInvolvement']; family_style: boolean; lesson_steps: string[]; cover: string; color: string; esa_eligible: boolean;
   rating_avg: number | string; rating_count: number; sample: boolean; status: string; created_at: string;
+  creator_user?: string | null; package_id?: string | null; license?: Listing['license'] | null; attribution?: string | null; outline?: Listing['outline'] | null;
 };
 type ReviewRow = { id: string; listing_id: string; family_id: string | null; author_name: string; rating: number; title: string; body: string; child_grade: string | null; verified: boolean; helpful: number; sample: boolean; created_at: string };
 type PurchaseRow = { id: string; listing_id: string | null; title: string; seller: string; price: number | string; funding_source: FundingSource; status: Purchase['status'] | 'cancelled'; demo: boolean; esa_eligible: boolean; created_at: string };
 
-const toListing = (r: ListingRow, fid?: string): Listing => ({
+export const toListing = (r: ListingRow, fid?: string): Listing => ({
   id: r.id,
   title: r.title,
   seller: r.seller_name,
@@ -56,7 +57,11 @@ const toListing = (r: ListingRow, fid?: string): Listing => ({
   ratingCount: r.rating_count,
   createdAt: r.created_at,
   sample: r.sample || undefined,
-  mine: !!fid && r.seller_family === fid ? true : undefined,
+  mine: (!!fid && r.seller_family === fid) || (!!r.creator_user && r.creator_user === useAccount.getState().userId) ? true : undefined,
+  packageId: r.package_id ?? undefined,
+  license: r.license ?? undefined,
+  attribution: r.attribution ?? undefined,
+  outline: r.outline ?? undefined,
 });
 
 const fromListing = (l: Listing, fid: string) => ({

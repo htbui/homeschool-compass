@@ -9,6 +9,7 @@ import { useColorScheme } from 'react-native';
 import { PrintSetupSheet } from '@/components/PrintSetupSheet';
 import { startSync } from '@/services/sync';
 import { useStore } from '@/store/useStore';
+import { useStudio } from '@/store/useStudio';
 import { useColors } from '@/ui';
 
 SplashScreen.preventAutoHideAsync();
@@ -16,7 +17,9 @@ SplashScreen.preventAutoHideAsync();
 export default function RootLayout() {
   const scheme = useColorScheme();
   const c = useColors();
-  const hydrated = useStore((s) => s.hydrated);
+  const familyHydrated = useStore((s) => s.hydrated);
+  const studioHydrated = useStudio((s) => s.hydrated);
+  const hydrated = familyHydrated && studioHydrated;
 
   useEffect(() => {
     if (hydrated) {
@@ -43,6 +46,7 @@ export default function RootLayout() {
         <Stack.Screen name="settings" options={{ headerShown: true, title: 'Settings' }} />
         <Stack.Screen name="account" options={{ headerShown: true, title: 'Account & sync' }} />
         <Stack.Screen name="listing/[id]" options={{ headerShown: true, title: 'Curriculum', headerBackTitle: 'Marketplace' }} />
+        <Stack.Screen name="studio" />
       </Stack>
       <PrintSetupSheet />
     </ThemeProvider>

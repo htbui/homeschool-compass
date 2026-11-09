@@ -4,6 +4,7 @@
 import { writeFileSync } from 'node:fs';
 
 import { sampleCatalog } from '../src/lib/marketSample.ts';
+import { sampleContent } from '../src/lib/studioSample.ts';
 
 const q = (v: unknown): string => {
   if (v === null || v === undefined) return 'null';
@@ -13,6 +14,7 @@ const q = (v: unknown): string => {
   return `'${String(v).replace(/'/g, "''")}'`;
 };
 const arr = (v: string[]) => (v.length ? q(v) : `'{}'::text[]`);
+const js = (v: unknown) => (v === undefined || v === null ? 'null' : `${q(JSON.stringify(v))}::jsonb`);
 
 const { listings, reviews } = sampleCatalog();
 const lines: string[] = [
@@ -22,10 +24,12 @@ const lines: string[] = [
 ];
 for (const l of listings) {
   lines.push(
-    `insert into public.listings (id, seller_name, seller_kind, seller_verified, title, subjects, grade_min, grade_max, philosophies, format, price, condition, description, includes, lessons, lessons_per_week, minutes_per_lesson, parent_involvement, family_style, lesson_steps, cover, color, esa_eligible, sample, created_at) values (` +
-      [q(l.id), q(l.seller), q(l.sellerKind), q(l.sellerVerified), q(l.title), arr(l.subjects), l.gradeMin, l.gradeMax, arr(l.philosophies), q(l.format), l.price, q(l.condition), q(l.description), arr(l.includes), l.lessons, l.lessonsPerWeek, l.minutesPerLesson, q(l.parentInvolvement), q(l.familyStyle), arr(l.lessonSteps), q(l.cover), q(l.color), q(l.esaEligible), 'true', q(l.createdAt)].join(', ') +
+    `insert into public.listings (id, seller_name, seller_kind, seller_verified, title, subjects, grade_min, grade_max, philosophies, format, price, condition, description, includes, lessons, lessons_per_week, minutes_per_lesson, parent_involvement, family_style, lesson_steps, cover, color, esa_eligible, sample, created_at, package_id, package_version, license, attribution, outline) values (` +
+      [q(l.id), q(l.seller), q(l.sellerKind), q(l.sellerVerified), q(l.title), arr(l.subjects), l.gradeMin, l.gradeMax, arr(l.philosophies), q(l.format), l.price, q(l.condition), q(l.description), arr(l.includes), l.lessons, l.lessonsPerWeek, l.minutesPerLesson, q(l.parentInvolvement), q(l.familyStyle), arr(l.lessonSteps), q(l.cover), q(l.color), q(l.esaEligible), 'true', q(l.createdAt), q(l.packageId), l.packageId ? 1 : 'null', js(l.license), q(l.attribution), js(l.outline)].join(', ') +
       ');',
   );
+  const content = l.packageId ? sampleContent(l.id) : undefined;
+  if (content) lines.push(`insert into public.package_releases (listing_id, version, content) values (${q(l.id)}, 1, ${js(content)});`);
 }
 lines.push('');
 for (const r of reviews) {

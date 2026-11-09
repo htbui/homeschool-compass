@@ -22,6 +22,8 @@ import {
 import { SUBJECTS } from '@/lib/subjects';
 import { useCatalog } from '@/store/useMarket';
 import { useStore } from '@/store/useStore';
+import { useStudio } from '@/store/useStudio';
+import { LICENSE_INFO, licenseName } from '@/lib/license';
 import { deleteReview, loadReviews, voteHelpful } from '@/services/marketApi';
 import { Button, Card, Chip, Empty, Pill, Progress, Row, Screen, Section, space, Stack, T, useColors, useConfirm } from '@/ui';
 
@@ -37,6 +39,7 @@ export default function ListingDetail() {
   const purchase = useStore((s) => s.purchases.find((p) => p.listingId === id));
   const inPlan = useStore((s) => !!purchase?.curriculumId && s.curricula.some((k) => k.id === purchase.curriculumId));
   const votes = useStore((s) => s.helpfulVotes);
+  const studioPkg = useStudio((s) => s.packages.find((p) => p.listingId === id));
   const confirm = useConfirm();
   const [buying, setBuying] = useState(false);
   const [planning, setPlanning] = useState<{ purchase: Purchase; fresh: boolean } | null>(null);
@@ -79,13 +82,19 @@ export default function ListingDetail() {
           )}
         </>
       ) : l.mine ? (
-        <T muted>This is your listing.</T>
+        <>
+          <T muted>This is your listing.</T>
+          {studioPkg ? <Button kind="secondary" title="🎨 Edit in Studio" onPress={() => router.push({ pathname: '/studio/[id]', params: { id: studioPkg.id, tab: 'lessons' } })} /> : null}
+        </>
+      ) : !family ? (
+        <T muted>Set up your family in Compass to get curricula and schedule their lessons.</T>
       ) : (
         <Button size="lg" title={l.price === 0 ? 'Get it free' : 'Buy'} onPress={() => setBuying(true)} />
       )}
       <T v="caption" muted>
         {l.esaEligible ? '🏛️ Approved ESA vendor. ' : ''}
-        {l.sellerKind === 'family' ? 'Sold by a family: arrange pickup in a public place or shipping.' : `Sold by ${l.seller}${l.sellerVerified ? ' (verified publisher)' : ''}.`}
+        {l.sellerKind === 'family' ? 'Sold by a family: arrange pickup in a public place or shipping.' : `Sold by ${l.seller}${l.sellerVerified ? ' (verified publisher)' : l.sellerKind === 'creator' ? ', an independent creator' : ''}.`}
+        {l.packageId ? ' Comes with a lesson-by-lesson plan: each day shows that lesson’s steps, pages, and links.' : ''}
       </T>
     </Card>
   );
@@ -102,7 +111,7 @@ export default function ListingDetail() {
               <T muted>
                 {l.seller}
                 {l.sellerVerified ? ' ✓ verified' : ''}
-                {l.sellerKind === 'family' ? ' · family seller' : ''}
+                {l.sellerKind === 'family' ? ' · family seller' : l.sellerKind === 'creator' ? ' · Studio creator' : ''}
               </T>
               <Row gap={6}>
                 {summary.count ? (
@@ -148,6 +157,16 @@ export default function ListingDetail() {
           </Row>
           {l.familyStyle ? <T v="caption" color={c.group}>👨‍👩‍👧 Family-style: siblings can do it together in one block.</T> : null}
           {l.philosophies.length ? <T v="caption" muted>Teaching style: {l.philosophies.map((p) => PHILOSOPHY_SHORT[p]).join(', ')}</T> : null}
+
+          {l.outline?.length ? <Outline outline={l.outline} /> : null}
+
+          {l.license || l.attribution ? (
+            <Card tint={c.surfaceAlt}>
+              <T v="label">📜 License: {l.license ? (l.license.kind === 'all_rights_reserved' ? '© All rights reserved' : `${licenseName(l.license)} — ${LICENSE_INFO[l.license.kind].label}`) : 'see credit'}</T>
+              {l.attribution ? <T v="caption">{l.attribution}</T> : null}
+              {l.license && LICENSE_INFO[l.license.kind].adapt ? <T v="caption" muted>You may adapt and share it{LICENSE_INFO[l.license.kind].attribution ? ' with credit' : ''}{LICENSE_INFO[l.license.kind].shareAlike ? ', under the same license' : ''}{LICENSE_INFO[l.license.kind].commercial ? '' : ', non-commercially'}.</T> : null}
+            </Card>
+          ) : null}
 
           {l.includes.length ? (
             <Section title="What's included">
@@ -257,5 +276,28 @@ function Fact({ label, value }: { label: string; value: string }) {
       <T v="caption" muted>{label}</T>
       <T v="label">{value}</T>
     </View>
+  );
+}
+
+/** Unit and lesson titles — what's inside before buying. */
+function Outline({ outline }: { outline: NonNullable<import('@/lib/market').Listing['outline']> }) {
+  const [open, setOpen] = useState(false);
+  const total = outline.reduce((a, u) => a + u.lessons.length, 0);
+  const shown = open ? outline : outline.slice(0, 2);
+  const offsets = shown.map((_, i) => shown.slice(0, i).reduce((a, u) => a + u.lessons.length, 0));
+  return (
+    <Section title="What's inside" subtitle={`${total} lessons in ${outline.length} unit${outline.length === 1 ? '' : 's'} · each one schedules into your day`}>
+      {shown.map((u, i) => (
+        <View key={`${u.title}-${i}`} style={{ gap: 2 }}>
+          <T v="label">{u.title}</T>
+          {u.lessons.map((t, j) => (
+            <T key={`${j}-${t}`} v="caption">
+              {offsets[i] + j + 1}. {t}
+            </T>
+          ))}
+        </View>
+      ))}
+      {outline.length > 2 ? <Button size="sm" kind="ghost" title={open ? 'Show less' : `Show all ${outline.length} units`} onPress={() => setOpen(!open)} /> : null}
+    </Section>
   );
 }

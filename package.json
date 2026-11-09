@@ -53,7 +53,7 @@
     "lint": "expo lint",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
-    "test:e2e": "export BASE_URL=http://localhost:8082 && node e2e/scenarios.mjs && W=390 H=844 node e2e/scenarios.mjs && node e2e/onboarding.mjs && node e2e/smoke.mjs",
+    "test:e2e": "export BASE_URL=http://localhost:8082 && node e2e/scenarios.mjs && W=390 H=844 node e2e/scenarios.mjs && node e2e/studio.mjs && W=390 H=844 node e2e/studio.mjs && node e2e/onboarding.mjs && node e2e/smoke.mjs",
     "test:cloud": "set -a && . ./.env.local && set +a && vitest run --config vitest.cloud.config.mts",
     "db:start": "supabase start -x studio,imgproxy,vector,logflare,supavisor",
     "db:reset": "supabase db reset",

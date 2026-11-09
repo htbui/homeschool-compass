@@ -2,6 +2,7 @@
 // live marketplace, and two families meeting in the community.
 // Needs `npm run db:start` and `npm run web` (with .env.local pointing at it).
 import { mkdirSync, writeFileSync } from 'node:fs';
+import { createServer } from 'node:http';
 import { dirname } from 'node:path';
 
 import puppeteer from 'puppeteer-core';
@@ -293,6 +294,56 @@ try {
   await C.clickIn(`Museum day ${run}`, 'RSVP');
   await C.clickIn(`Museum day ${run}`, 'Join carpool matching');
   await C.expect(`Carpool with: Dana ${run}`, 'carpool match shown');
+
+  // ───────────────────────────── A creator adapts a free online course and publishes it
+  scenario('Studio (cloud)');
+  const course = createServer((req, res) => {
+    res.writeHead(200, { 'Content-Type': 'text/html' }).end(`<html><head><title>Open Pond Science ${run}</title><meta name="author" content="Pond Project"></head><body><main>
+      <h2>Unit 1: Pond life</h2><ul><li><a href="/frogs">Frog life cycle</a></li><li><a href="/insects">Water insects</a></li></ul>
+      <h2>Unit 2: Water</h2><ul><li><a href="/ph">Testing pond water</a></li></ul></main>
+      <footer>Licensed under <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></footer></body></html>`);
+  });
+  await new Promise((r) => course.listen(0, '0.0.0.0', r));
+  // The import runs on the server (in Docker), which reaches this page through the host.
+  const courseUrl = `http://host.docker.internal:${course.address().port}/pond`;
+  const S = await device('creator');
+  await signUpOrIn(S, `creator-${run}@example.test`, 'up');
+  await S.expect('No family on this account yet', 'creator account without a family');
+  await S.goto('/studio');
+  await S.fillLabel('Creator or shop name', `Pond Studio ${run}`);
+  await S.click('Open my Studio');
+  await S.expect(`Pond Studio ${run}`, 'creator profile saved');
+  await S.goto('/studio/import?from=web');
+  await S.fillLabel('Course page', courseUrl);
+  await S.click('Load page');
+  await S.expect('License found: CC BY-SA 4.0', 'server fetched the page and found its license', 20000);
+  await S.expect('Preview: 3 lessons in 2 units');
+  await S.click('Create lesson plan');
+  await S.expect('saved automatically');
+  await S.click('📝 Details');
+  await S.fillLabel('Description', 'Pond science for the whole family, from frogs to water testing.');
+  await S.click('🔬 Science');
+  await S.click('🚀 Publish');
+  await S.expect('can’t be changed', 'source license is locked');
+  log(!(await S.has('Publish to the Marketplace')) || (await S.page.evaluate(() => [...document.querySelectorAll('[role="button"]')].find((e) => e.innerText.trim() === 'Publish to the Marketplace')?.getAttribute('aria-disabled') === 'true')), 'publishing waits for the license check');
+  await S.click('I checked');
+  await sleep(1800); // the draft saves to the account before publishing
+  await S.click('Publish to the Marketplace');
+  log(await S.waitFor('Published v1', 15000), 'published through the server');
+  const pub = (await S.page.evaluate(() => JSON.parse(localStorage.getItem('kinship-studio')).state.packages))[0];
+  // A family finds it, gets it free, and the plan arrives with its lessons and credit.
+  await A.goto(`/listing/${pub.listingId}`);
+  await A.expect("What's inside", 'family sees the outline');
+  await A.expect('Frog life cycle');
+  await A.expect(`Adapted from “Open Pond Science ${run}” by Pond Project`, 'credit to the source');
+  await A.click('Get it free', { exact: true });
+  await A.click('Get it free', { exact: true });
+  await A.expect('It’s in your library', 'claimed', 15000);
+  await A.click('Add to plan', { exact: true });
+  await A.expect('Added to your plan ✓');
+  const pond = (await A.store()).curricula.find((k) => k.packageId === pub.id);
+  log(pond?.outline?.[0]?.lessons?.[0]?.links?.[0]?.url?.endsWith('/frogs') && pond.license?.kind === 'cc_by_sa' && pond.totalLessons === 3, 'family plan has every lesson, its link, and the license');
+  course.close();
 
   // ───────────────────────────── Sign out keeps data; erase stays local
   scenario('Sign out');

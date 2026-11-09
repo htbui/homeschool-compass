@@ -1,5 +1,7 @@
 import { addDays, ageOn, fromMinutes, schoolDatesBetween, toMinutes, todayKey, weekdayOf } from './dates';
 import { uid } from './id';
+import type { License } from './license';
+import { lessonTotal, type PackageUnit } from './package';
 import type { AttentionMode, Child, ClockTime, Curriculum, DateKey, FamilyProfile, FundingSource, ID, Philosophy, RhythmBlock, Subject, Weekday } from './types';
 
 /**
@@ -12,7 +14,8 @@ import type { AttentionMode, Child, ClockTime, Curriculum, DateKey, FamilyProfil
  */
 
 export type ListingFormat = 'print' | 'digital' | 'online' | 'bundle';
-export type SellerKind = 'publisher' | 'family';
+/** Publishers, Studio creators, and families selling used books. */
+export type SellerKind = 'publisher' | 'creator' | 'family';
 export type Involvement = 'high' | 'medium' | 'low';
 export type Condition = 'new' | 'like_new' | 'good' | 'fair';
 
@@ -48,8 +51,15 @@ export interface Listing {
   createdAt: string;
   /** Demo catalog entry (shown with a "Sample" badge). */
   sample?: boolean;
-  /** Listed by this family. */
+  /** Listed by this family (or this Studio creator). */
   mine?: boolean;
+  /** Made in Studio: the full lesson plan comes with it. */
+  packageId?: ID;
+  license?: License;
+  /** Credit line required by the license. */
+  attribution?: string;
+  /** Unit and lesson titles, shown before buying. */
+  outline?: { title: string; lessons: string[] }[];
 }
 
 export interface Review {
@@ -288,20 +298,32 @@ export interface PlanOptions {
  * their own block. Parent-led blocks for different kids are staggered so the
  * parent isn't needed in two places at once.
  */
-export function planFromListing(l: Listing, o: PlanOptions): { curriculum: Curriculum; blocks: RhythmBlock[]; finish?: DateKey } {
-  const finish = finishDateFor(o.startDate, o.days, l.lessons);
+/** A package's lesson plan, delivered with the purchase. */
+export interface PackageContent {
+  units: PackageUnit[];
+  version: number;
+  license?: License;
+  attribution?: string;
+}
+
+export function planFromListing(l: Listing, o: PlanOptions, content?: PackageContent): { curriculum: Curriculum; blocks: RhythmBlock[]; finish?: DateKey } {
+  const lessons = content ? lessonTotal(content.units) || l.lessons : l.lessons;
+  const finish = finishDateFor(o.startDate, o.days, lessons);
   const curriculum: Curriculum = {
     id: uid('c'),
     name: l.title,
     subject: l.subjects[0] ?? 'other',
     childIds: o.childIds,
-    totalLessons: l.lessons,
+    totalLessons: lessons,
     lessonsDone: 0,
     progress: Object.fromEntries(o.childIds.map((id) => [id, 0])),
     startDate: o.startDate,
     targetEndDate: finish ?? addDays(o.startDate, 180),
     schoolDays: o.days,
     model: l.format === 'bundle' ? 'turnkey' : 'modular',
+    ...(content
+      ? { outline: content.units, packageId: l.packageId, packageVersion: content.version, license: content.license ?? l.license, attribution: content.attribution ?? l.attribution }
+      : {}),
   };
   const modeFor = (childId: ID): AttentionMode => {
     if (l.parentInvolvement === 'high') return 'parent';

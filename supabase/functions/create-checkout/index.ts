@@ -31,7 +31,7 @@ Deno.serve(async (req) => {
     if (!listing) return json({ error: 'That listing is no longer available.' }, 404);
     const price = Number(listing.price);
     if (price <= 0) return json({ error: 'This listing is free — claim it instead.' }, 400);
-    if (listing.seller_family === member.family_id) return json({ error: 'You can’t buy your own listing.' }, 400);
+    if (listing.seller_family === member.family_id || listing.creator_user === user.id) return json({ error: 'You can’t buy your own listing.' }, 400);
 
     const { data: owned } = await admin.from('purchases').select('*').eq('family_id', member.family_id).eq('listing_id', listingId).eq('status', 'paid').maybeSingle();
     if (owned) return json({ purchase: owned });

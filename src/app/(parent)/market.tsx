@@ -27,6 +27,7 @@ import { PHILOSOPHY_INFO } from '@/lib/quiz';
 import { SUBJECT_LIST, SUBJECTS } from '@/lib/subjects';
 import type { Philosophy, Subject } from '@/lib/types';
 import { useCatalog } from '@/store/useMarket';
+import { enterStudio } from '@/services/studioMode';
 import { useStore } from '@/store/useStore';
 import { deleteListing, refreshPurchases } from '@/services/marketApi';
 import { Button, Card, Chip, Empty, Field, Pill, Row, Screen, Section, Segmented, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
@@ -41,7 +42,9 @@ export default function Marketplace() {
   const family = useStore((s) => s.family)!;
   const kids = useStore((s) => s.children);
   const purchases = useStore((s) => s.purchases);
-  const myListings = useStore((s) => s.myListings);
+  // Studio creations are managed in Studio; this tab is for used books and simple listings.
+  const allMine = useStore((s) => s.myListings);
+  const myListings = useMemo(() => allMine.filter((l) => !l.packageId), [allMine]);
   const { listings, source } = useCatalog();
 
   const [view, setView] = useState<View_>(params.view === 'selling' ? 'selling' : params.view === 'library' ? 'library' : 'browse');
@@ -165,7 +168,12 @@ export default function Marketplace() {
       {view === 'library' ? <Library purchases={purchases} listings={listings} onBrowse={() => setView('browse')} /> : null}
 
       {view === 'selling' ? (
-        <Section title="Your listings" subtitle="Sell or give away curricula you're done with, or share something you made." action={<Button size="sm" icon="＋" title="List a curriculum" onPress={() => setSelling('new')} />}>
+        <>
+        <Card onPress={enterStudio} style={{ marginTop: space.lg }}>
+          <T v="heading">🎨 Made your own curriculum?</T>
+          <T v="caption" muted>Build it lesson by lesson in Kinship Studio — or adapt a free online course — and families can schedule every lesson in one tap.</T>
+        </Card>
+        <Section title="Your listings" subtitle="Sell or give away curricula you're done with." action={<Button size="sm" icon="＋" title="List a curriculum" onPress={() => setSelling('new')} />}>
           {myListings.length === 0 ? (
             <Empty icon="🏷️" title="Nothing listed yet" body="Finished a level? List it so another family can use it — free or for a few dollars." action={<Button title="List a curriculum" onPress={() => setSelling('new')} />} />
           ) : (
@@ -176,6 +184,7 @@ export default function Marketplace() {
             </Stack>
           )}
         </Section>
+        </>
       ) : null}
 
       <Sheet visible={filtersOpen} onClose={() => setFiltersOpen(false)} title="Filters">

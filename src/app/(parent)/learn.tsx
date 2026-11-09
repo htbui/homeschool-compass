@@ -106,9 +106,14 @@ export default function CurriculumHub() {
               <T>
                 <T style={{ fontWeight: '700' }}>📦 What you already own</T> — tap <T style={{ fontWeight: '700' }}>＋ Add</T> and enter the lesson count (or pick a popular program from Quick import). Kinship doesn&apos;t need to sell it to pace it.
               </T>
+              <T>
+                <T style={{ fontWeight: '700' }}>📕 Lesson by lesson</T> — paste a book&apos;s table of contents and Studio turns it into daily lessons with page ranges (private to your family). Or build your own, or adapt a free online course.
+              </T>
               <Row wrap>
                 <Button title="Browse the Marketplace" onPress={() => router.push('/market')} />
                 {primary ? <Button kind="secondary" title={`${PHILOSOPHY_INFO[primary].emoji} Picks for ${PHILOSOPHY_INFO[primary].label}`} onPress={() => router.push({ pathname: '/market', params: { style: primary } })} /> : null}
+                <Button kind="secondary" title="📕 Convert a book you own" onPress={() => router.push({ pathname: '/studio/import', params: { from: 'book' } })} />
+                <Button kind="ghost" title="🎨 Make your own in Studio" onPress={() => router.push('/studio/new')} />
               </Row>
             </Card>
           </Section>

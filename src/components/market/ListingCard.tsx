@@ -37,7 +37,7 @@ export function ListingCard({ listing: l, owned, reasons }: { listing: Listing; 
           <T v="caption" muted numberOfLines={1}>
             {l.seller}
             {l.sellerVerified ? ' ✓' : ''}
-            {l.sellerKind === 'family' ? ' · family seller' : ''}
+            {l.sellerKind === 'family' ? ' · family seller' : l.sellerKind === 'creator' ? ' · Studio creator' : ''}
           </T>
           <Row gap={6}>
             {l.ratingCount ? (

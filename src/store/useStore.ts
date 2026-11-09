@@ -2,7 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 
-import { doneFor, setDoneFor } from '@/lib/curriculum';
+import { doneFor, setDoneFor, withLessons } from '@/lib/curriculum';
 import { fromMinutes, schoolYearLabel, todayKey } from '@/lib/dates';
 import { uid } from '@/lib/id';
 import { autoStagger, gentleBump, tasksForDate } from '@/lib/schedule';
@@ -24,7 +24,7 @@ import type {
   RhythmBlock,
   Task,
 } from '@/lib/types';
-import { planFromListing, type Listing, type PlanOptions, type Purchase, type Review } from '@/lib/market';
+import { planFromListing, type Listing, type PackageContent, type PlanOptions, type Purchase, type Review } from '@/lib/market';
 
 import { seedCommunity } from './seed';
 
@@ -104,7 +104,8 @@ interface Actions {
   addEvent: (e: Omit<CommunityEvent, 'id' | 'rsvps' | 'going' | 'carpool'>) => void;
 
   recordPurchase: (p: Purchase) => void;
-  addListingToPlan: (listing: Listing, opts: PlanOptions, purchaseId?: ID) => { curriculum: Curriculum; blocks: RhythmBlock[] };
+  /** `content` is the full lesson plan for Studio packages. */
+  addListingToPlan: (listing: Listing, opts: PlanOptions, purchaseId?: ID, content?: PackageContent) => { curriculum: Curriculum; blocks: RhythmBlock[] };
   upsertMyListing: (l: Listing) => void;
   removeMyListing: (id: ID) => void;
   upsertMyReview: (r: Review) => void;
@@ -187,7 +188,10 @@ export const useStore = create<Store>()(
       ensureTasks: (date) => {
         const s = get();
         const fresh = tasksForDate(s.blocks, date, s.tasks.filter((t) => t.date === date || t.bumpedFrom === date));
-        if (fresh.length) set({ tasks: [...s.tasks, ...fresh] });
+        const all = fresh.length ? [...s.tasks, ...fresh] : s.tasks;
+        // Lesson-by-lesson curricula: show the lesson that's actually next.
+        const next = withLessons(all, s.curricula, date);
+        if (next !== s.tasks) set({ tasks: next });
       },
       addTask: ({ steps = [], ...t }) =>
         set((s) => ({ tasks: [...s.tasks, { ...t, id: uid('t'), status: 'todo', steps: steps.map((label) => ({ id: uid('s'), label, done: false })) }] })),
@@ -319,8 +323,8 @@ export const useStore = create<Store>()(
               : undefined;
           return { purchases: [p, ...s.purchases.filter((x) => x.id !== p.id)], expenses: expense ? [expense, ...s.expenses] : s.expenses };
         }),
-      addListingToPlan: (listing, opts, purchaseId) => {
-        const { curriculum, blocks } = planFromListing(listing, opts);
+      addListingToPlan: (listing, opts, purchaseId, content) => {
+        const { curriculum, blocks } = planFromListing(listing, opts, content);
         set((s) => ({
           curricula: [...s.curricula, curriculum],
           blocks: [...s.blocks, ...blocks],
