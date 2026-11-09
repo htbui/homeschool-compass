@@ -85,4 +85,4 @@ _New ideas land here, then get a priority._
   - import a spreadsheet
   - adapt a free online curriculum, keeping its license
   - publish to the Marketplace
-  - lesson-by-lesson plans in kids' days
+  - lesson-by-lesson plans in kids' days (`ed43348`)
