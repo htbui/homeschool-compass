@@ -16,6 +16,7 @@ _Last updated: 2026-11-09_
 ## P0: Launch blockers (most need a decision or an account from you)
 
 - [ ] **Hosted backend:** create the production Supabase project, then share its URL and publishable key. Apply the migrations and deploy the edge functions (`create-checkout`, `stripe-webhook`, `fetch-page`).
+- [ ] **Permanent test links:** host the web app with EAS Hosting (`eas deploy`), and share an Android build anyone can install plus iOS TestFlight. Needs an Expo login. For now there's a temporary Cloudflare link that only works while the dev machine is running.
 - [ ] **Phone builds:** log in to Expo (`! npx eas-cli@latest login`) and run the first EAS builds. iOS also needs an Apple Developer account.
 - [ ] **Payments:** add Stripe keys so buyers can pay for real. Today only demo payments work.
 - [ ] **Creator payouts:** pay creators through Stripe Connect, with onboarding, a platform fee, and payouts. Sales are recorded, but creators aren't paid yet.
