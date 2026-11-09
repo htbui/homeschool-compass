@@ -57,7 +57,7 @@ export default function Welcome() {
           }}
         />
         <Button size="lg" kind="secondary" title="Explore with a demo family" onPress={startDemo} />
-        <Button kind="secondary" icon="🎨" title="I make curricula — open Studio" onPress={enterStudio} />
+        <Button kind="secondary" icon="🎨" title="Curriculum Creator Studio" onPress={enterStudio} />
         {cloudEnabled ? <Button kind="ghost" title="Already use Kinship? Sign in" onPress={() => router.push('/account')} /> : null}
         <T v="caption" muted style={{ textAlign: 'center' }}>
           Your data stays on this device until you choose to sync.

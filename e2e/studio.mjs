@@ -124,7 +124,7 @@ async function run() {
 
   // ───────────────────────────── A creator with no family
   scenario('Creator onboarding');
-  await click('I make curricula');
+  await click('Curriculum Creator Studio');
   await expect('Kinship Studio');
   log(await isDisabled('Open my Studio'), 'profile needs a name');
   await fill('Maple Room Studio', 'Test Creator Co');
