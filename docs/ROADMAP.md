@@ -26,7 +26,7 @@ _Last updated: 2026-11-11_
 - [ ] **Apple and Google rules for digital sales:** decide how in-app purchases of digital curricula work on iOS and Android, for example web checkout only, in-app purchase, or reader-app rules.
 - [ ] **Legal:**
   - Terms of service and a creator agreement covering rights and licensing warranties.
-  - Copyright takedown process for listings.
+  - Copyright takedown process for listings. _The in-app claim and takedown flow is built (`ceceb9a`); still needs a written policy and a designated DMCA agent._
   - Privacy policy covering kids' data (COPPA).
   - **Trademark clearance for "Freerange"** with an attorney before filing. Nearby live marks: FREERANGE (Reg. 8209861, Class 41, preparedness education) and FREE RANGE KIDS (Reg. 7911708, Class 42, childrearing website). File as a distinctive mark, such as FREERANGE HOMESCHOOL with a logo.
 - [ ] **Test on real devices:**
@@ -38,12 +38,11 @@ _Last updated: 2026-11-11_
 ## P1: Next up
 
 - [ ] **Studio: AI drafting with Claude, approved by a parent or creator.** _Waiting on an Anthropic API key (paid per use); parked until you're ready to pay for services._ Drafts lesson steps, worksheet questions, answer keys, and versions for younger and older kids. Every draft stays marked "draft" until a person approves it.
-- [ ] **Studio: photo → table of contents in the app.** Read the text on the device so there's no need to copy it with Live Text or Google Lens first.
+- [ ] **Studio: photo → table of contents in the app.** _Needs an on-device text-recognition module, so it waits for the first Expo development build._ Read the text on the device so there's no need to copy it with Live Text or Google Lens first.
 - [ ] **Studio: better web import** for sites that build their pages with scripts:
   - video playlists
   - large open textbook sites
   - each site's own outline format
-- [ ] **Marketplace: moderation.** Report a listing or review, an admin review queue, and takedowns.
 - [ ] **Marketplace: creator verification badge,** plus onboarding as an ESA vendor.
 - [ ] **Community:** messaging between families, and identity verification for meetups.
 - [ ] **Accurate distances:** load the Census ZIP-area (ZCTA) data. This needs your OK to download it; today distances use a ZIP-prefix fallback.
@@ -90,3 +89,4 @@ _New ideas land here, then get a priority._
   - lesson-by-lesson plans in kids' days (`ed43348`)
 - [x] Studio plan updates: creators add a "What's new" note when they publish; families see "Update available", preview new, changed, and removed lessons, and update or skip. Each kid keeps their place. A family's own Studio edits flow into its plan the same way (`001b6a3`)
 - [x] Answer keys and parent-only notes: answers line up with worksheet questions, print on a separate grown-ups' page, and never show in kid mode (`c9ccf18`)
+- [x] Marketplace moderation: report listings and reviews (including copyright claims), auto-hide after 3 reports, moderator queue, takedowns sellers can't undo (`ceceb9a`)
