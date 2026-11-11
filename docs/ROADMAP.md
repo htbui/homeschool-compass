@@ -37,8 +37,7 @@ _Last updated: 2026-11-11_
 
 ## P1: Next up
 
-- [ ] **Studio: AI drafting with Claude, approved by a parent or creator.** Drafts lesson steps, worksheet questions, answer keys, and versions for younger and older kids. Every draft stays marked "draft" until a person approves it.
-- [ ] **Studio: answer keys and parent-only notes.** Hidden from kid mode, printed on a separate answer sheet.
+- [ ] **Studio: AI drafting with Claude, approved by a parent or creator.** _Waiting on an Anthropic API key (paid per use); parked until you're ready to pay for services._ Drafts lesson steps, worksheet questions, answer keys, and versions for younger and older kids. Every draft stays marked "draft" until a person approves it.
 - [ ] **Studio: photo → table of contents in the app.** Read the text on the device so there's no need to copy it with Live Text or Google Lens first.
 - [ ] **Studio: better web import** for sites that build their pages with scripts:
   - video playlists
@@ -90,3 +89,4 @@ _New ideas land here, then get a priority._
   - publish to the Marketplace
   - lesson-by-lesson plans in kids' days (`ed43348`)
 - [x] Studio plan updates: creators add a "What's new" note when they publish; families see "Update available", preview new, changed, and removed lessons, and update or skip. Each kid keeps their place. A family's own Studio edits flow into its plan the same way (`001b6a3`)
+- [x] Answer keys and parent-only notes: answers line up with worksheet questions, print on a separate grown-ups' page, and never show in kid mode (`c9ccf18`)
