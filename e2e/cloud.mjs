@@ -1,6 +1,7 @@
 // Cloud scenarios with real accounts: two devices syncing one family, the
 // live marketplace, and two families meeting in the community.
 // Needs `npm run db:start` and `npm run web` (with .env.local pointing at it).
+import { execFileSync } from 'node:child_process';
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { dirname } from 'node:path';
@@ -375,6 +376,33 @@ try {
   const pond2 = (await A.store()).curricula.find((k) => k.packageId === pub.id);
   log(pond2?.packageVersion === 2 && pond2.totalLessons === pond.totalLessons + 1 && pond2.outline.flatMap((u) => u.lessons).some((l) => l.title === `Pond review ${run}`), 'family plan moved to version 2');
   log(!(await A.has('Update available')), 'update banner gone');
+
+  // ───────────────────────────── Moderation
+  scenario('Moderation');
+  await A.goto(`/listing/${pub.listingId}`);
+  await A.click('🚩 Report this listing');
+  await A.click('©️ Copies my work or breaks a license');
+  await A.fillLabel('Your original work and what was copied', `Pond Days, chapters 1–3 ${run}`);
+  await A.fillLabel('Email or phone to reach you', 'author@example.test');
+  await A.click('Send report');
+  await A.expect('Thanks, we got it.', 'report sent');
+  log(!(await B.has('Moderation queue')), 'no moderation for regular families');
+  // Moderators are added in SQL; here the tablet's account becomes one.
+  const modId = (await B.account()).userId;
+  if (!/^[0-9a-f-]{36}$/.test(modId ?? '')) throw new Error('no user id for the moderator');
+  execFileSync('docker', ['exec', '-i', 'supabase_db_freerange', 'psql', '-U', 'postgres', '-qc', `insert into public.app_admins (user_id) values ('${modId}') on conflict do nothing`]);
+  await B.goto('/settings');
+  await B.click('🚩 Moderation queue ›');
+  await B.expect(`Pond Days, chapters 1–3 ${run}`, 'moderator sees the copyright claim', 15000);
+  await B.expect('contact: author@example.test');
+  await B.fillLabel('Note (kept with the decision)', 'Upheld in e2e');
+  await B.click('Take it down');
+  await sleep(1500);
+  log(!(await B.has(`Pond Days, chapters 1–3 ${run}`)), 'queue cleared after the decision');
+  await A.goto(`/listing/${pub.listingId}`);
+  log(await A.waitFor('That listing isn\'t available', 15000), 'taken-down listing is gone for families');
+  await S.goto('/studio');
+  await S.expect('Hidden by Freerange moderators', 'creator sees the takedown', 15000);
   course.close();
 
   // ───────────────────────────── Sign out keeps data; erase stays local

@@ -150,6 +150,8 @@ export interface ListingStats {
   revenue: number;
   ratingAvg: number;
   ratingCount: number;
+  /** Listing status: "suspended" when moderators took it down. */
+  status?: string;
 }
 
 /** Sales and ratings per listing for the dashboard (account only). */
@@ -158,9 +160,9 @@ export async function creatorStats(): Promise<Record<string, ListingStats>> {
   const { data, error } = await supabase!.rpc('creator_stats');
   if (error) return {};
   return Object.fromEntries(
-    ((data ?? []) as { listing_id: string; sales: number; revenue: number | string; rating_avg: number | string; rating_count: number }[]).map((r) => [
+    ((data ?? []) as { listing_id: string; sales: number; revenue: number | string; rating_avg: number | string; rating_count: number; status: string }[]).map((r) => [
       r.listing_id,
-      { sales: Number(r.sales), revenue: Number(r.revenue), ratingAvg: Number(r.rating_avg), ratingCount: r.rating_count },
+      { sales: Number(r.sales), revenue: Number(r.revenue), ratingAvg: Number(r.rating_avg), ratingCount: r.rating_count, status: r.status },
     ]),
   );
 }

@@ -1,6 +1,6 @@
 import type { Listing, Purchase, Review } from '@/lib/market';
 import { sampleCatalog } from '@/lib/marketSample';
-import type { FundingSource } from '@/lib/types';
+import type { FundingSource, ID } from '@/lib/types';
 import { useAccount } from '@/store/useAccount';
 import { useMarket } from '@/store/useMarket';
 import { useStore } from '@/store/useStore';
@@ -26,7 +26,7 @@ export type ListingRow = {
   rating_avg: number | string; rating_count: number; sample: boolean; status: string; created_at: string;
   creator_user?: string | null; package_id?: string | null; package_version?: number | null; license?: Listing['license'] | null; attribution?: string | null; outline?: Listing['outline'] | null;
 };
-type ReviewRow = { id: string; listing_id: string; family_id: string | null; author_name: string; rating: number; title: string; body: string; child_grade: string | null; verified: boolean; helpful: number; sample: boolean; created_at: string };
+type ReviewRow = { id: string; listing_id: string; family_id: string | null; author_name: string; rating: number; title: string; body: string; child_grade: string | null; verified: boolean; helpful: number; sample: boolean; hidden?: boolean; created_at: string };
 type PurchaseRow = { id: string; listing_id: string | null; title: string; seller: string; price: number | string; funding_source: FundingSource; status: Purchase['status'] | 'cancelled'; demo: boolean; esa_eligible: boolean; created_at: string };
 
 export const toListing = (r: ListingRow, fid?: string): Listing => ({
@@ -63,6 +63,7 @@ export const toListing = (r: ListingRow, fid?: string): Listing => ({
   license: r.license ?? undefined,
   attribution: r.attribution ?? undefined,
   outline: r.outline ?? undefined,
+  suspended: r.status === 'suspended' || undefined,
 });
 
 const fromListing = (l: Listing, fid: string) => ({
@@ -103,6 +104,7 @@ const toReview = (r: ReviewRow, fid?: string): Review => ({
   helpful: r.helpful,
   sample: r.sample || undefined,
   mine: !!fid && r.family_id === fid ? true : undefined,
+  hidden: r.hidden || undefined,
 });
 
 export const toPurchase = (r: PurchaseRow): Purchase => ({
@@ -145,7 +147,7 @@ export async function refreshMarketplace(): Promise<void> {
 async function refreshMine(fid: string) {
   if (!supabase) return;
   const [mine, reviews, votes] = await Promise.all([
-    supabase.from('listings').select('*').eq('seller_family', fid).eq('status', 'active'),
+    supabase.from('listings').select('*').eq('seller_family', fid).in('status', ['active', 'suspended']),
     supabase.from('reviews').select('*').eq('family_id', fid),
     supabase.from('review_votes').select('review_id'),
   ]);
@@ -282,3 +284,50 @@ export async function voteHelpful(reviewId: string): Promise<void> {
 
 /** Kept for screens that refresh the catalog explicitly (e.g. pull to refresh). */
 export const refreshCatalog = refreshMarketplace;
+
+// ───────────────────────────── Reports and moderation
+
+export type ReportReason = 'copyright' | 'inappropriate' | 'spam' | 'misleading' | 'personal_info' | 'other';
+export type ReportTarget = { kind: 'listing' | 'review'; id: ID };
+
+/** Send a report to the moderators. Returns whether it's now hidden (several people reported it). */
+export async function reportContent(target: ReportTarget, reason: ReportReason, details: string, contact?: string): Promise<{ hidden: boolean }> {
+  if (!signedIn()) throw new Error('Sign in (Settings → Account & sync) to send a report.');
+  const { data, error } = await supabase!.rpc('report_content', { kind: target.kind, target: target.id, why: reason, info: details.trim(), reach: contact?.trim() || null });
+  if (error) throw new Error(friendlyError(error));
+  return data as { hidden: boolean };
+}
+
+export async function isModerator(): Promise<boolean> {
+  if (!signedIn()) return false;
+  const { data } = await supabase!.rpc('is_admin');
+  return data === true;
+}
+
+export interface QueueItem {
+  kind: 'listing' | 'review';
+  id: ID;
+  listingId?: ID;
+  title: string;
+  excerpt: string;
+  owner: string;
+  /** Listing status, or "hidden"/"visible" for a review. */
+  state: string;
+  reasons: ReportReason[];
+  count: number;
+  latest: string;
+  reports: { reason: ReportReason; details: string; contact: string | null; at: string }[];
+}
+
+export async function moderationQueue(): Promise<QueueItem[]> {
+  const { data, error } = await supabase!.rpc('moderation_queue');
+  if (error) throw new Error(friendlyError(error));
+  return (
+    data as { target_kind: QueueItem['kind']; target_id: string; listing_id: string | null; title: string; excerpt: string; owner: string; state: string; reasons: ReportReason[]; report_count: number; latest: string; reports: QueueItem['reports'] }[]
+  ).map((r) => ({ kind: r.target_kind, id: r.target_id, listingId: r.listing_id ?? undefined, title: r.title, excerpt: r.excerpt, owner: r.owner, state: r.state, reasons: r.reasons, count: Number(r.report_count), latest: r.latest, reports: r.reports }));
+}
+
+export async function moderate(target: ReportTarget, action: 'hide' | 'restore' | 'dismiss', note?: string): Promise<void> {
+  const { error } = await supabase!.rpc('moderate', { kind: target.kind, target: target.id, action, note: note?.trim() || null });
+  if (error) throw new Error(friendlyError(error));
+}

@@ -1,5 +1,5 @@
 import { router } from 'expo-router';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { View } from 'react-native';
 
 import { ChildForm } from '@/components/ChildForm';
@@ -14,6 +14,7 @@ import { usePrinter } from '@/store/usePrinter';
 import { useStore } from '@/store/useStore';
 import { cloudEnabled } from '@/services/cloud';
 import { shareText } from '@/services/exportDoc';
+import { isModerator } from '@/services/marketApi';
 import { signOut } from '@/services/sync';
 import { Button, Card, Chip, DateField, Field, Row, Screen, Section, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
 
@@ -32,6 +33,14 @@ export default function Settings() {
   const printer = usePrinter();
   const c = useColors();
   const studioName = useStudio((s) => s.profile?.name);
+  const [moderator, setModerator] = useState(false);
+  useEffect(() => {
+    let alive = true;
+    isModerator().then((m) => alive && setModerator(m));
+    return () => {
+      alive = false;
+    };
+  }, [account.userId]);
 
   if (!family) return null;
   const toggleDay = (d: Weekday) => updateFamily({ schoolDays: family.schoolDays.includes(d) ? family.schoolDays.filter((x) => x !== d) : [...family.schoolDays, d].sort() });
@@ -46,6 +55,14 @@ export default function Settings() {
               <T v="label">{account.userId ? STATUS_LABEL[account.status] : 'Sign in ›'}</T>
             </Row>
             <T v="caption" muted>{account.userId ? 'Your family syncs across every device signed in to this account.' : 'Sign in to sync across devices, shop the live marketplace, and meet families nearby.'}</T>
+          </Card>
+        </Section>
+      ) : null}
+      {moderator ? (
+        <Section title="Freerange team">
+          <Card onPress={() => router.push('/moderation')}>
+            <T v="heading">🚩 Moderation queue ›</T>
+            <T v="caption" muted>Review reported listings and reviews, including copyright claims.</T>
           </Card>
         </Section>
       ) : null}

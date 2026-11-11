@@ -53,6 +53,8 @@ export interface Listing {
   sample?: boolean;
   /** Listed by this family (or this Studio creator). */
   mine?: boolean;
+  /** Taken down by moderators (only its seller still sees it). */
+  suspended?: boolean;
   /** Made in Studio: the full lesson plan comes with it. */
   packageId?: ID;
   /** Latest published release of its lesson plan. */
@@ -77,6 +79,8 @@ export interface Review {
   helpful: number;
   mine?: boolean;
   sample?: boolean;
+  /** Hidden by moderators (only its author still sees it). */
+  hidden?: boolean;
 }
 
 export interface Purchase {

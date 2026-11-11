@@ -5,6 +5,7 @@ import { View, useWindowDimensions } from 'react-native';
 import { AddToPlanSheet } from '@/components/market/AddToPlanSheet';
 import { CheckoutSheet } from '@/components/market/CheckoutSheet';
 import { Cover, money, Stars } from '@/components/market/ListingCard';
+import { ReportSheet } from '@/components/market/ReportSheet';
 import { ReviewSheet } from '@/components/market/ReviewSheet';
 import { formatDate } from '@/lib/dates';
 import {
@@ -24,7 +25,7 @@ import { useCatalog } from '@/store/useMarket';
 import { useStore } from '@/store/useStore';
 import { useStudio } from '@/store/useStudio';
 import { LICENSE_INFO, licenseName } from '@/lib/license';
-import { deleteReview, loadReviews, voteHelpful } from '@/services/marketApi';
+import { deleteReview, loadReviews, voteHelpful, type ReportTarget } from '@/services/marketApi';
 import { Button, Card, Chip, Empty, Pill, Progress, Row, Screen, Section, space, Stack, T, useColors, useConfirm } from '@/ui';
 
 const REVIEW_SORT: Record<ReviewSort, string> = { helpful: 'Most helpful', newest: 'Newest', high: 'Highest', low: 'Lowest' };
@@ -45,6 +46,7 @@ export default function ListingDetail() {
   const [planning, setPlanning] = useState<{ purchase: Purchase; fresh: boolean } | null>(null);
   const [reviewing, setReviewing] = useState(false);
   const [reviewSort, setReviewSort] = useState<ReviewSort>('helpful');
+  const [reporting, setReporting] = useState<(ReportTarget & { name: string }) | null>(null);
   const [starFilter, setStarFilter] = useState<number | null>(null);
 
   // Reload when the live catalog arrives (it replaces the sample one after launch).
@@ -84,6 +86,11 @@ export default function ListingDetail() {
       ) : l.mine ? (
         <>
           <T muted>This is your listing.</T>
+          {l.suspended ? (
+            <Card tint={c.accentSoft}>
+              <T v="caption">🚩 Hidden by Freerange moderators after a report, so families can’t find or buy it. Families who already have it keep it. Questions or a counter-claim: support@freerangehomeschooling.com</T>
+            </Card>
+          ) : null}
           {studioPkg ? <Button kind="secondary" title="🎨 Edit in Studio" onPress={() => router.push({ pathname: '/studio/[id]', params: { id: studioPkg.id, tab: 'lessons' } })} /> : null}
         </>
       ) : !family ? (
@@ -96,6 +103,11 @@ export default function ListingDetail() {
         {l.sellerKind === 'family' ? 'Sold by a family: arrange pickup in a public place or shipping.' : `Sold by ${l.seller}${l.sellerVerified ? ' (verified publisher)' : l.sellerKind === 'creator' ? ', an independent creator' : ''}.`}
         {l.packageId ? ' Comes with a lesson-by-lesson plan: each day shows that lesson’s steps, pages, and links.' : ''}
       </T>
+      {!l.mine && !l.sample ? (
+        <Row>
+          <Button size="sm" kind="ghost" title="🚩 Report this listing" onPress={() => setReporting({ kind: 'listing', id: l.id, name: l.title })} />
+        </Row>
+      ) : null}
     </Card>
   );
 
@@ -240,9 +252,11 @@ export default function ListingDetail() {
                     {r.verified ? ' · ✓ Verified purchase' : ''}
                   </T>
                   <T>{r.body}</T>
+                  {r.mine && r.hidden ? <T v="caption" color={c.accent}>🚩 Hidden by moderators. Other families don’t see this review.</T> : null}
                   {!r.mine ? (
                     <Row>
                       <Button size="sm" kind="ghost" title={`👍 Helpful${r.helpful ? ` (${r.helpful})` : ''}${votes.includes(r.id) ? ' ✓' : ''}`} onPress={() => voteHelpful(r.id)} />
+                      {!r.sample ? <Button size="sm" kind="ghost" title="Report" onPress={() => setReporting({ kind: 'review', id: r.id, name: `${r.author}’s review` })} /> : null}
                     </Row>
                   ) : null}
                 </Card>
@@ -253,6 +267,7 @@ export default function ListingDetail() {
         {wide ? buyBox : null}
       </View>
 
+      <ReportSheet target={reporting ?? undefined} name={reporting?.name} onClose={() => setReporting(null)} />
       <CheckoutSheet
         listing={l}
         visible={buying}

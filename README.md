@@ -36,11 +36,12 @@ npm run web
 
 **Production:**
 1. Create a Supabase project and run `supabase link` then `supabase db push`. Production gets no seed data, so the live catalog starts empty until sellers list.
-2. Deploy the checkout functions with `supabase functions deploy create-checkout stripe-webhook`.
+2. Deploy the server functions with `supabase functions deploy create-checkout stripe-webhook fetch-page`. Never set `STUDIO_FETCH_ALLOW_PRIVATE` in production.
 3. Set the function secrets with `supabase secrets set STRIPE_SECRET_KEY=… STRIPE_WEBHOOK_SECRET=… CHECKOUT_RETURN_ORIGINS=https://your.site,freerange://`.
 4. Point a Stripe webhook (`checkout.session.completed`, `checkout.session.expired`) at `/functions/v1/stripe-webhook`.
 5. Put the project URL and publishable key in your EAS environment variables.
 6. For accurate distances, load ZIP centroids with `node scripts/load-zcta.mjs` (see the script header).
+7. Add moderators (they get **Settings → Moderation queue**) in the SQL editor: `insert into public.app_admins (user_id) values ('<auth user id>');`. Reports from three different people hide a listing or review until a moderator decides.
 
 ### Builds for the app stores
 
