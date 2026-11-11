@@ -253,10 +253,10 @@ begin
 
   select coalesce(max(version), 0) + 1 into ver from public.package_releases where listing_id = lid;
   insert into public.package_releases (listing_id, version, content)
-  values (lid, ver, jsonb_build_object('units', c -> 'units', 'license', c -> 'license', 'attribution', c -> 'attribution', 'version', ver));
+  values (lid, ver, jsonb_build_object('units', c -> 'units', 'license', c -> 'license', 'attribution', c -> 'attribution', 'version', ver, 'note', nullif(btrim(c ->> 'releaseNote'), '')));
   update public.listings set package_version = ver where id = lid returning * into l;
   update public.packages
-     set content = c || jsonb_build_object('status', 'published', 'version', ver, 'listingId', lid, 'price', price, 'publishedAt', now()),
+     set content = (c - 'releaseNote') || jsonb_build_object('status', 'published', 'version', ver, 'listingId', lid, 'price', price, 'publishedAt', now()),
          updated_at = now()
    where id = pkg.id;
   return l;

@@ -5,6 +5,7 @@ import { createJSONStorage, persist } from 'zustand/middleware';
 import { doneFor, setDoneFor, withLessons } from '@/lib/curriculum';
 import { fromMinutes, schoolYearLabel, todayKey } from '@/lib/dates';
 import { uid } from '@/lib/id';
+import { applyPlanUpdate } from '@/lib/planUpdate';
 import { autoStagger, gentleBump, tasksForDate } from '@/lib/schedule';
 import type {
   Child,
@@ -91,6 +92,10 @@ interface Actions {
   removeCurriculum: (id: ID) => void;
   /** Nudge one student's lesson count (or every student's, without a childId). */
   adjustLessons: (id: ID, delta: number, childId?: ID) => void;
+  /** Move a lesson-by-lesson plan to a newer version, keeping each kid's place. */
+  updatePlan: (id: ID, content: PackageContent) => void;
+  /** Hide a newer version until the next one (key: release number or Studio save time). */
+  skipPlanUpdate: (id: ID, key: string) => void;
 
   upsertExpense: (e: Expense) => void;
   removeExpense: (id: ID) => void;
@@ -289,6 +294,14 @@ export const useStore = create<Store>()(
         set((s) => ({ curricula: s.curricula.map((c) => (c.id === cid ? { ...c, materials: c.materials?.map((m) => (m.id === id ? { ...m, ...patch } : m)) } : c)) })),
       removeMaterial: (cid, id) => set((s) => ({ curricula: s.curricula.map((c) => (c.id === cid ? { ...c, materials: c.materials?.filter((m) => m.id !== id) } : c)) })),
       removeCurriculum: (id) => set((s) => ({ curricula: s.curricula.filter((c) => c.id !== id) })),
+      updatePlan: (id, content) =>
+        set((s) => {
+          const cur = s.curricula.find((c) => c.id === id);
+          if (!cur || !content.units.length) return {};
+          const { curriculum, tasks } = applyPlanUpdate(cur, s.tasks, content);
+          return { curricula: s.curricula.map((c) => (c.id === id ? curriculum : c)), tasks: withLessons(tasks, s.curricula.map((c) => (c.id === id ? curriculum : c)), todayKey()) };
+        }),
+      skipPlanUpdate: (id, key) => set((s) => ({ curricula: s.curricula.map((c) => (c.id === id ? { ...c, skippedUpdate: key } : c)) })),
       adjustLessons: (id, delta, childId) =>
         set((s) => ({
           curricula: s.curricula.map((c) => (c.id === id ? (childId ? [childId] : c.childIds).reduce((k, kid) => setDoneFor(k, kid, doneFor(k, kid) + delta), c) : c)),

@@ -24,7 +24,7 @@ export type ListingRow = {
   philosophies: string[]; format: Listing['format']; price: number | string; condition: Listing['condition'] | null; description: string; includes: string[]; lessons: number; lessons_per_week: number;
   minutes_per_lesson: number; parent_involvement: Listing['parentInvolvement']; family_style: boolean; lesson_steps: string[]; cover: string; color: string; esa_eligible: boolean;
   rating_avg: number | string; rating_count: number; sample: boolean; status: string; created_at: string;
-  creator_user?: string | null; package_id?: string | null; license?: Listing['license'] | null; attribution?: string | null; outline?: Listing['outline'] | null;
+  creator_user?: string | null; package_id?: string | null; package_version?: number | null; license?: Listing['license'] | null; attribution?: string | null; outline?: Listing['outline'] | null;
 };
 type ReviewRow = { id: string; listing_id: string; family_id: string | null; author_name: string; rating: number; title: string; body: string; child_grade: string | null; verified: boolean; helpful: number; sample: boolean; created_at: string };
 type PurchaseRow = { id: string; listing_id: string | null; title: string; seller: string; price: number | string; funding_source: FundingSource; status: Purchase['status'] | 'cancelled'; demo: boolean; esa_eligible: boolean; created_at: string };
@@ -59,6 +59,7 @@ export const toListing = (r: ListingRow, fid?: string): Listing => ({
   sample: r.sample || undefined,
   mine: (!!fid && r.seller_family === fid) || (!!r.creator_user && r.creator_user === useAccount.getState().userId) ? true : undefined,
   packageId: r.package_id ?? undefined,
+  packageVersion: r.package_version ?? undefined,
   license: r.license ?? undefined,
   attribution: r.attribution ?? undefined,
   outline: r.outline ?? undefined,

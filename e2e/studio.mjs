@@ -280,6 +280,56 @@ async function run() {
   const cur = (await store()).curricula.find((k) => k.name === 'Earth Science Reader');
   log(cur?.outline?.length === 2 && cur.totalLessons === 3 && cur.outline[0].lessons[1].pages === '10–19', 'curriculum has the lesson-by-lesson plan');
 
+  scenario('Studio edits flow into the plan');
+  // Edit the conversion (a new first lesson) after one kid has finished a lesson.
+  await page.evaluate((id) => {
+    const s = JSON.parse(localStorage.getItem('freerange-studio'));
+    const p = s.state.packages.find((x) => x.id === id);
+    p.units[0].lessons.unshift({ id: 'pl-e2e-intro', title: 'Rocks all around us', steps: ['Collect three rocks'], links: [], questions: [] });
+    p.updatedAt = new Date().toISOString();
+    localStorage.setItem('freerange-studio', JSON.stringify(s));
+    const f = JSON.parse(localStorage.getItem('freerange-v1'));
+    const c = f.state.curricula.find((k) => k.packageId === id);
+    c.progress[c.childIds[0]] = 1;
+    localStorage.setItem('freerange-v1', JSON.stringify(f));
+  }, book.id);
+  await page.goto(`${BASE}/learn`, { waitUntil: 'networkidle0' });
+  await sleep(800);
+  await expect('You changed this plan in Studio', 'My Curriculum notices the Studio edit');
+  await click('Review update');
+  await expect('3 → 4 lessons');
+  await expect('＋ 1 new');
+  await expect('Rocks all around us');
+  await expect('counts as done', 'explains the new lesson before the kid’s spot');
+  await click('Update my plan');
+  await sleep(500);
+  const upd = (await store()).curricula.find((k) => k.packageId === book.id);
+  log(upd.totalLessons === 4 && upd.progress[upd.childIds[0]] === 2 && upd.outline[0].lessons[0].title === 'Rocks all around us', 'plan updated and the kid stays past the lesson they finished');
+  await expectNot('You changed this plan in Studio', 'banner gone after updating');
+  // Another edit, kept out of the plan on purpose.
+  await page.evaluate((id) => {
+    const s = JSON.parse(localStorage.getItem('freerange-studio'));
+    const p = s.state.packages.find((x) => x.id === id);
+    p.units[0].lessons[0].title = 'Rocks everywhere';
+    p.updatedAt = new Date().toISOString();
+    localStorage.setItem('freerange-studio', JSON.stringify(s));
+  }, book.id);
+  await page.goto(`${BASE}/learn`, { waitUntil: 'networkidle0' });
+  await sleep(800);
+  await click('Review update');
+  await expect('✏️ 1 changed');
+  await click('Keep the plan as it is');
+  await sleep(300);
+  await expectNot('You changed this plan in Studio', 'kept the plan as it is');
+  log((await store()).curricula.find((k) => k.packageId === book.id).outline[0].lessons[0].title === 'Rocks all around us', 'plan unchanged after keeping it');
+
+  // Editing pacing details keeps the lesson plan (the conversion is the last card).
+  await page.evaluate(() => [...document.querySelectorAll('[role="button"]')].filter((e) => e.innerText.trim() === 'Edit').at(-1)?.click());
+  await expect('Edit curriculum');
+  await click('Save', { exact: true });
+  await sleep(300);
+  log(!!(await store()).curricula.find((k) => k.packageId === book.id)?.outline?.length, 'editing the curriculum keeps its lesson plan');
+
   scenario('Buy a Studio curriculum and see the lessons');
   await page.goto(`${BASE}/listing/l-fractions-workshop`, { waitUntil: 'networkidle0' });
   await sleep(900);

@@ -197,6 +197,10 @@ export interface Curriculum {
   outline?: PackageUnit[];
   packageId?: ID;
   packageVersion?: number;
+  /** The Marketplace listing it came from (where newer versions show up). */
+  listingId?: ID;
+  /** A newer version the family chose not to take (release number or Studio save time). */
+  skippedUpdate?: string;
   license?: License;
   /** Credit line the license requires (shown on lessons and printouts). */
   attribution?: string;

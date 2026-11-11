@@ -458,6 +458,16 @@ function Publish({ pkg, update }: { pkg: CurriculumPackage; update: Update }) {
               ))}
             </Card>
           ) : null}
+          {pkg.version > 0 ? (
+            <Field
+              label="What’s new in this update (optional)"
+              value={pkg.releaseNote ?? ''}
+              onChangeText={(v) => update({ releaseNote: v.slice(0, 500) })}
+              multiline
+              placeholder="Added two review lessons in Unit 2 and fixed the page numbers in Unit 3."
+              hint="Families who already have it see this when they review the update."
+            />
+          ) : null}
           {error ? <T color={c.danger}>{error}</T> : null}
           <Row wrap style={{ justifyContent: 'flex-end' }}>
             {pkg.status === 'published' && pkg.listingId ? <Button kind="secondary" title="View listing" onPress={() => router.push({ pathname: '/listing/[id]', params: { id: pkg.listingId! } })} /> : null}
@@ -469,7 +479,7 @@ function Publish({ pkg, update }: { pkg: CurriculumPackage; update: Update }) {
               onPress={() => run('pub', () => publishPackage(pkg))}
             />
           </Row>
-          {pkg.status === 'published' ? <T v="caption" muted>Families who already have it keep their version; new families get the update.</T> : null}
+          {pkg.status === 'published' ? <T v="caption" muted>New families get the update. Families who already have it see “Update available” and choose when to switch; everyone keeps their place.</T> : null}
         </Section>
       ) : null}
 

@@ -3,6 +3,7 @@ import { useMemo, useState } from 'react';
 import { View } from 'react-native';
 
 import { MaterialsEditor } from '@/components/LessonMaterials';
+import { PlanUpdateSheet, UpdateBanner, usePlanUpdates } from '@/components/PlanUpdate';
 import { doneFor, forChild } from '@/lib/curriculum';
 import { formatDate } from '@/lib/dates';
 import { uid } from '@/lib/id';
@@ -36,6 +37,9 @@ export default function CurriculumHub() {
   const [materialsFor, setMaterialsFor] = useState<string | null>(null);
   const [adding, setAdding] = useState(false);
   const materialsCur = curricula.find((k) => k.id === materialsFor);
+  const updates = usePlanUpdates();
+  const [reviewing, setReviewing] = useState<string | null>(null);
+  const reviewCur = curricula.find((k) => k.id === reviewing);
   const confirm = useConfirm();
 
   const [theme, setTheme] = useState('');
@@ -87,6 +91,7 @@ export default function CurriculumHub() {
                     <T v="caption" muted>
                       {k.childIds.map((id) => kids.find((x) => x.id === id)?.name).filter(Boolean).join(', ')} · {k.model} · target {formatDate(k.targetEndDate, { month: 'short', day: 'numeric', year: 'numeric' })}
                     </T>
+                    {updates[k.id] ? <UpdateBanner info={updates[k.id]} onPress={() => setReviewing(k.id)} /> : null}
                     {k.childIds.map((id) => (
                       <KidProgress key={id} curriculum={k} childId={id} named={k.childIds.length > 1} />
                     ))}
@@ -194,6 +199,7 @@ export default function CurriculumHub() {
       <Sheet visible={!!materialsCur} onClose={() => setMaterialsFor(null)} title={`📖 ${materialsCur?.name ?? ''}`}>
         {materialsCur ? <MaterialsEditor curriculumId={materialsCur.id} /> : null}
       </Sheet>
+      <PlanUpdateSheet curriculum={reviewCur} info={reviewCur ? updates[reviewCur.id] : undefined} onClose={() => setReviewing(null)} />
       {confirm.element}
     </Screen>
   );
@@ -323,6 +329,8 @@ function CurriculumForm({ initial, onSave, onDelete }: { initial?: Curriculum; o
             start &&
             end &&
             onSave({
+              // Keep what this form doesn't edit: the lesson plan, its license, where it came from.
+              ...initial,
               id: initial?.id ?? uid('c'),
               name: name.trim(),
               subject,
@@ -330,7 +338,6 @@ function CurriculumForm({ initial, onSave, onDelete }: { initial?: Curriculum; o
               totalLessons: total,
               lessonsDone: Math.min(total, ...counts.map((n) => n ?? 0)),
               progress: Object.fromEntries(childIds.map((id) => [id, Math.min(total, completed[id] ?? 0)])),
-              materials: initial?.materials,
               startDate: start,
               targetEndDate: end,
               schoolDays: initial?.schoolDays ?? family.schoolDays,

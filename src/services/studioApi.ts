@@ -112,7 +112,7 @@ export async function publishPackage(pkg: CurriculumPackage): Promise<Curriculum
 
   // On this device only: list it in the local catalog.
   const now = new Date().toISOString();
-  const saved: CurriculumPackage = { ...ready, status: 'published', version: pkg.version + 1, listingId: pkg.listingId ?? uid('l'), publishedAt: now, updatedAt: now };
+  const saved: CurriculumPackage = { ...ready, releaseNote: undefined, status: 'published', version: pkg.version + 1, listingId: pkg.listingId ?? uid('l'), publishedAt: now, updatedAt: now };
   const existing = useStore.getState().myListings.find((l) => l.id === saved.listingId);
   useStore.getState().upsertMyListing(packageToListing(saved, profile.name, existing));
   useStudio.getState().upsertPackage(saved);
@@ -133,7 +133,7 @@ export async function unpublishPackage(pkg: CurriculumPackage): Promise<Curricul
 }
 
 /** The full lesson plan for a listing (after buying it, or for free ones). */
-export async function packageContent(listing: Listing): Promise<PackageContent | undefined> {
+export async function packageContent(listing: Pick<Listing, 'id' | 'packageId' | 'sample'>): Promise<PackageContent | undefined> {
   if (!listing.packageId) return undefined;
   const local = useStudio.getState().packages.find((p) => p.id === listing.packageId);
   if (supabase && useMarket.getState().source === 'cloud' && !listing.sample) {

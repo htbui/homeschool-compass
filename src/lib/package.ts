@@ -71,6 +71,8 @@ export interface CurriculumPackage {
   status: 'draft' | 'published';
   /** Bumped every time it's published. */
   version: number;
+  /** "What's new" for the next release, shown to families who already have it. */
+  releaseNote?: string;
   listingId?: ID;
   createdAt: string;
   updatedAt: string;
@@ -261,6 +263,7 @@ export function packageToListing(pkg: CurriculumPackage, seller: string, existin
     ratingCount: existing?.ratingCount ?? 0,
     createdAt: existing?.createdAt ?? new Date().toISOString(),
     packageId: pkg.id,
+    packageVersion: pkg.version || undefined,
     license: pkg.license,
     attribution: attributionFor(pkg, seller),
     outline: outlinePreview(pkg.units),

@@ -353,6 +353,28 @@ try {
   await A.expect('Added to your plan ✓');
   const pond = (await A.store()).curricula.find((k) => k.packageId === pub.id);
   log((real ? pond?.outline?.flatMap((u) => u.lessons).some((l) => l.title === expectLesson && l.links[0]?.url.startsWith('https://')) : pond?.outline?.[0]?.lessons?.[0]?.links?.[0]?.url?.endsWith('/frogs') && pond.totalLessons === 3) && pond.license?.kind === 'cc_by_sa', 'family plan has every lesson, its link, and the license');
+
+  // The creator publishes an update; the family previews it and takes it, keeping their place.
+  await S.click('📚 Lessons');
+  await S.click('＋ Add lesson');
+  await S.fillLabel('Title', `Pond review ${run}`);
+  await S.click('Save lesson');
+  await S.click('🚀 Publish');
+  await S.fillLabel('What’s new in this update (optional)', `Added a review lesson ${run}.`);
+  await sleep(1800);
+  await S.click('Publish update (v2)');
+  log(await S.waitFor('Published v2', 15000), 'creator published an update');
+  await A.goto('/learn');
+  await A.expect('Update available: version 2', 'family sees the update', 15000);
+  await A.click('Review update');
+  await A.expect(`Added a review lesson ${run}.`, 'creator’s note shown');
+  await A.expect('＋ 1 new');
+  await A.expect('Everyone keeps their place');
+  await A.click('Update my plan');
+  await sleep(500);
+  const pond2 = (await A.store()).curricula.find((k) => k.packageId === pub.id);
+  log(pond2?.packageVersion === 2 && pond2.totalLessons === pond.totalLessons + 1 && pond2.outline.flatMap((u) => u.lessons).some((l) => l.title === `Pond review ${run}`), 'family plan moved to version 2');
+  log(!(await A.has('Update available')), 'update banner gone');
   course.close();
 
   // ───────────────────────────── Sign out keeps data; erase stays local

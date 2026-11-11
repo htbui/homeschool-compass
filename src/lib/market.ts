@@ -55,6 +55,8 @@ export interface Listing {
   mine?: boolean;
   /** Made in Studio: the full lesson plan comes with it. */
   packageId?: ID;
+  /** Latest published release of its lesson plan. */
+  packageVersion?: number;
   license?: License;
   /** Credit line required by the license. */
   attribution?: string;
@@ -304,6 +306,8 @@ export interface PackageContent {
   version: number;
   license?: License;
   attribution?: string;
+  /** The creator's "what's new" for this release. */
+  note?: string;
 }
 
 export function planFromListing(l: Listing, o: PlanOptions, content?: PackageContent): { curriculum: Curriculum; blocks: RhythmBlock[]; finish?: DateKey } {
@@ -321,6 +325,7 @@ export function planFromListing(l: Listing, o: PlanOptions, content?: PackageCon
     targetEndDate: finish ?? addDays(o.startDate, 180),
     schoolDays: o.days,
     model: l.format === 'bundle' ? 'turnkey' : 'modular',
+    listingId: l.id,
     ...(content
       ? { outline: content.units, packageId: l.packageId, packageVersion: content.version, license: content.license ?? l.license, attribution: content.attribution ?? l.attribution }
       : {}),
