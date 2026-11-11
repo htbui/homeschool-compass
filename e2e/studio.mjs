@@ -165,6 +165,7 @@ async function run() {
   await fillLabel('Pages (optional)', '4–9');
   await fill('Watch the video\nDo problems 1–10\nCheck your answers', 'Count the rockets\nDraw a rocket');
   await fill('What is ¼ of 12?', 'How many rockets are there?');
+  await fillLabel('Answer key (one per line, in the same order)', 'Five');
   await fill('https://… (video, reading, worksheet)', 'example.com/rockets');
   await fill('Label', 'Rocket video');
   await click('Add link', { exact: true });
@@ -172,7 +173,7 @@ async function run() {
   await expect('1. Counting rockets', 'lesson renamed');
   let p = await pkgNamed('Space Math');
   const l1 = p?.units[0].lessons[0];
-  log(l1?.steps.length === 2 && l1.questions[0] === 'How many rockets are there?' && l1.links[0].url === 'https://example.com/rockets' && l1.pages === '4–9', 'lesson details saved');
+  log(l1?.steps.length === 2 && l1.questions[0] === 'How many rockets are there?' && l1.answers?.[0] === 'Five' && l1.links[0].url === 'https://example.com/rockets' && l1.pages === '4–9', 'lesson details saved');
   await clickLabel('Move lesson 2 up');
   p = await pkgNamed('Space Math');
   log(p.units[0].lessons[0].title === 'Lesson 2', 'reorder lessons');
@@ -378,6 +379,31 @@ async function run() {
     await sleep(800);
     const printed = await page.evaluate(() => [...document.querySelectorAll('iframe')].at(-1)?.contentDocument?.body?.textContent ?? '');
     log(printed.includes('Draw a shape that is NOT cut in half.') && printed.includes('CC BY 4.0'), 'worksheet prints the lesson’s questions and credit');
+    log(!printed.includes('two unequal parts') && !printed.includes('halves match exactly'), 'kid worksheet leaves out the answers and parent notes');
+    await expectNot('answer key', 'kid mode hides the answer key');
+    await expectNot('halves match exactly', 'kid mode hides parent notes');
+
+    scenario('Answer key for grown-ups');
+    const lessonDate = await page.evaluate(() => {
+      const s = JSON.parse(localStorage.getItem('freerange-v1'));
+      s.state.mode = { kind: 'parent' };
+      localStorage.setItem('freerange-v1', JSON.stringify(s));
+      return s.state.tasks.filter((t) => t.title.startsWith('Fractions Workshop')).map((t) => t.date).sort()[0];
+    });
+    await page.goto(`${BASE}/today`, { waitUntil: 'networkidle0' });
+    await sleep(800);
+    for (let i = 0; i < 14 && !(await has('Fractions Workshop')); i++) await clickLabel('Next day');
+    log(await has('Fractions Workshop'), `lesson on the parent's day (${lessonDate})`);
+    await expect('Answer key', 'day has an answer key to print');
+    await page.evaluate(() => [...document.querySelectorAll('[tabindex]')].reverse().find((e) => e.offsetParent && e.innerText.includes('Fractions Workshop') && e.innerText.length < 200)?.click());
+    await expect('🔑 Show answer key');
+    await click('🔑 Show answer key');
+    await expect('two unequal parts', 'parent sees the answers');
+    await expect('halves match exactly', 'parent sees their notes');
+    await click('Answer key');
+    await sleep(800);
+    const key = await page.evaluate(() => [...document.querySelectorAll('iframe')].at(-1)?.contentDocument?.body?.textContent ?? '');
+    log(key.includes('Any shape split into two unequal parts') && key.includes('For grown-ups') && key.includes('halves match exactly'), 'answer key prints with answers and notes');
   }
 }
 

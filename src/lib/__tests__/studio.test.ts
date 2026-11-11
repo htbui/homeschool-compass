@@ -67,6 +67,9 @@ describe('spreadsheet import', () => {
   });
 
   it('falls back to the first column without headers', () => {
+    const keyed = parseTable('Lesson\tQuestions\tAnswer key\nHalves\tHalf of 4?; Half of 8?\t2; 4');
+    expect(keyed.units[0].lessons[0].answers).toEqual(['2', '4']);
+    expect(parseTable('Lesson\tQuestions\nHalves\tHalf of 4?').units[0].lessons[0].answers).toBeUndefined();
     const r = parseTable('Counting\nAdding\n');
     expect(titles(r)).toEqual([['Lessons', ['Counting', 'Adding']]]);
     expect(r.warnings[0]).toMatch(/No header row/);

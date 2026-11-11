@@ -9,6 +9,7 @@ import { usePrint } from '@/hooks/usePrint';
 import { addDays, formatClock, formatDate, fromMinutes, toMinutes, todayKey } from '@/lib/dates';
 import { bumpTargets, findParentConflicts, suggestWhileWaiting } from '@/lib/schedule';
 import { TIER_INFO } from '@/lib/states';
+import { hasAnswerKey } from '@/lib/worksheet';
 import type { ID, Task } from '@/lib/types';
 import { selectOpenHelp, useStore } from '@/store/useStore';
 import { Button, Card, Empty, modeColors, Pill, Row, Screen, Section, Sheet, space, Stack, Stat, T, useColors } from '@/ui';
@@ -32,11 +33,12 @@ export default function FlightDeck() {
   const family = useStore((s) => s.family)!;
   const children = useStore((s) => s.children);
   const allTasks = useStore((s) => s.tasks);
+  const curricula = useStore((s) => s.curricula);
   const help = useStore(useShallow(selectOpenHelp));
   const blocksCount = useStore((s) => s.blocks.length);
   const { ensureTasks, staggerDay, bumpDay, resolveHelp } = useStore.getState();
   const compliance = useCompliance();
-  const { print, busy: printing } = usePrint();
+  const { print, printAnswers, busy: printing } = usePrint();
 
   useEffect(() => {
     ensureTasks(date);
@@ -193,6 +195,16 @@ export default function FlightDeck() {
             disabled={!tasks.some((t) => t.status !== 'skipped')}
             onPress={() => print(tasks.filter((t) => t.status !== 'skipped'), `Lesson packet · ${formatDate(date, { weekday: 'long', month: 'long', day: 'numeric' })}`)}
           />
+          {tasks.some((t) => t.status !== 'skipped' && hasAnswerKey(t, { curricula, tasks: allTasks })) ? (
+            <Button
+              kind="secondary"
+              size="sm"
+              icon="🔑"
+              title="Answer key"
+              loading={printing}
+              onPress={() => printAnswers(tasks.filter((t) => t.status !== 'skipped'), `Answer key · ${formatDate(date, { weekday: 'long', month: 'long', day: 'numeric' })}`)}
+            />
+          ) : null}
           <Button kind="secondary" size="sm" icon="➕" title="Task" onPress={() => router.push({ pathname: '/schedule', params: { addFor: date } })} />
           <Button kind="secondary" size="sm" icon="↪︎" title="Bump remaining" disabled={!tasks.some((t) => t.status === 'todo' || t.status === 'in_progress')} onPress={() => setBumpOpen(true)} />
         </Row>

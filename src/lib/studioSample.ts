@@ -50,9 +50,9 @@ const FRACTIONS: PackageUnit[] = [
     id: 'fw-u1',
     title: 'Unit 1: Halves and wholes',
     lessons: [
-      L('fw-1', 'Fold it in half', { minutes: 25, steps: ['Fold paper shapes in half', 'Color one half', 'Write ½ on each'], questions: ['Draw a shape that is NOT cut in half.'] }),
+      L('fw-1', 'Fold it in half', { minutes: 25, steps: ['Fold paper shapes in half', 'Color one half', 'Write ½ on each'], questions: ['Draw a shape that is NOT cut in half.'], answers: ['Any shape split into two unequal parts'], notes: 'Let them check by folding: halves match exactly when folded.' }),
       L('fw-2', 'Fair shares', { steps: ['Share 8 crackers between 2 people', 'Share 8 between 4', 'Draw what you did'] }),
-      L('fw-3', 'Half of a number', { steps: ['Use counters to find half of 6, 10, 14', 'Find half of an odd number — what happens?'], questions: ['What is half of 12?', 'What is half of 20?'] }),
+      L('fw-3', 'Half of a number', { steps: ['Use counters to find half of 6, 10, 14', 'Find half of an odd number — what happens?'], questions: ['What is half of 12?', 'What is half of 20?'], answers: ['6', '10'] }),
     ],
   },
   {

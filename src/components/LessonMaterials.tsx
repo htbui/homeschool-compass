@@ -35,6 +35,7 @@ export function LessonCard({ task, kid }: { task: Task; kid?: boolean }) {
   const tasks = useStore((s) => s.tasks);
   const { open, busy, error } = useOpen();
   const [editing, setEditing] = useState(false);
+  const [showKey, setShowKey] = useState(false);
   if (!cur) return null;
   const n = lessonNumber(task, cur, tasks);
   const lesson = lessonAt(cur.outline, n);
@@ -49,6 +50,25 @@ export function LessonCard({ task, kid }: { task: Task; kid?: boolean }) {
       {lesson?.pages ? <T v={kid ? 'heading' : 'body'}>📄 Pages {lesson.pages}</T> : null}
       {lesson?.questions.length ? <T v="caption">✏️ {lesson.questions.length} worksheet question{lesson.questions.length === 1 ? '' : 's'} — print the worksheet to answer on paper.</T> : null}
       {!kid && lesson?.notes ? <T v="caption">📝 {lesson.notes}</T> : null}
+      {!kid && lesson?.answers?.some(Boolean) ? (
+        showKey ? (
+          <Stack gap={2}>
+            <T v="label">🔑 Answer key</T>
+            {lesson.questions.map((q, i) => (
+              <T key={`${i}-${q}`} v="caption">
+                {i + 1}. {q} → <T v="caption" style={{ fontWeight: '700' }}>{lesson.answers?.[i] || '—'}</T>
+              </T>
+            ))}
+            <Row>
+              <Button size="sm" kind="ghost" title="Hide answer key" onPress={() => setShowKey(false)} />
+            </Row>
+          </Stack>
+        ) : (
+          <Row>
+            <Button size="sm" kind="ghost" title="🔑 Show answer key" onPress={() => setShowKey(true)} />
+          </Row>
+        )
+      ) : null}
       {materials.length ? (
         <Row wrap>
           {materials.map((m) => (

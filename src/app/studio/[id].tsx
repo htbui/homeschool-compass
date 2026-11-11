@@ -247,6 +247,12 @@ function Lessons({ pkg, update }: { pkg: CurriculumPackage; update: Update }) {
 }
 
 const lines = (s: string) => s.split('\n').map((x) => x.trim()).filter(Boolean);
+/** Answers line up with questions by position, so blank lines stay (a question with no answer yet). */
+const answerKey = (questions: string, answers: string): string[] | undefined => {
+  const key = answers.split('\n').map((x) => x.trim()).slice(0, lines(questions).length);
+  while (key.length && !key.at(-1)) key.pop();
+  return key.length ? key : undefined;
+};
 
 function LessonSheet({ lesson, units, unitIndex, onClose, onSave, onDelete }: { lesson: PackageLesson; units: PackageUnit[]; unitIndex: number; onClose: () => void; onSave: (l: PackageLesson, unit: number) => void; onDelete: () => void }) {
   const c = useColors();
@@ -255,6 +261,7 @@ function LessonSheet({ lesson, units, unitIndex, onClose, onSave, onDelete }: { 
   const [minutes, setMinutes] = useState(lesson.minutes ? String(lesson.minutes) : '');
   const [steps, setSteps] = useState(lesson.steps.join('\n'));
   const [questions, setQuestions] = useState(lesson.questions.join('\n'));
+  const [answers, setAnswers] = useState((lesson.answers ?? []).join('\n'));
   const [notes, setNotes] = useState(lesson.notes ?? '');
   const [links, setLinks] = useState(lesson.links);
   const [linkUrl, setLinkUrl] = useState('');
@@ -273,6 +280,16 @@ function LessonSheet({ lesson, units, unitIndex, onClose, onSave, onDelete }: { 
       </Row>
       <Field label="Steps for the kid (one per line)" value={steps} onChangeText={setSteps} multiline placeholder={'Watch the video\nDo problems 1–10\nCheck your answers'} />
       <Field label="Worksheet questions (one per line, optional)" value={questions} onChangeText={setQuestions} multiline placeholder="What is ¼ of 12?" />
+      {lines(questions).length ? (
+        <Field
+          label="Answer key (one per line, in the same order)"
+          value={answers}
+          onChangeText={setAnswers}
+          multiline
+          placeholder="3"
+          hint={answers.split('\n').filter((x) => x.trim()).length > lines(questions).length ? 'There are more answers than questions.' : 'Only grown-ups see these. They print on a separate answer sheet.'}
+        />
+      ) : null}
       <Stack gap={6}>
         <T v="label">Links</T>
         {links.map((l, i) => (
@@ -288,7 +305,7 @@ function LessonSheet({ lesson, units, unitIndex, onClose, onSave, onDelete }: { 
         </Row>
         {linkUrl.trim() && !link ? <T v="caption" color={c.danger}>Enter a web address</T> : null}
       </Stack>
-      <Field label="Notes for the parent (optional)" value={notes} onChangeText={setNotes} multiline />
+      <Field label="Notes for the parent (optional)" value={notes} onChangeText={setNotes} multiline hint="Never shown to kids." />
       {units.length > 1 ? (
         <Stack gap={6}>
           <T v="label">Unit</T>
@@ -305,7 +322,7 @@ function LessonSheet({ lesson, units, unitIndex, onClose, onSave, onDelete }: { 
           title="Save lesson"
           disabled={missing.length > 0}
           reason={`Still needed: ${missing.join(', ')}`}
-          onPress={() => onSave({ ...lesson, title: title.trim(), pages: pages.trim() || undefined, minutes: mins, steps: lines(steps), questions: lines(questions), notes: notes.trim() || undefined, links }, unit)}
+          onPress={() => onSave({ ...lesson, title: title.trim(), pages: pages.trim() || undefined, minutes: mins, steps: lines(steps), questions: lines(questions), answers: answerKey(questions, answers), notes: notes.trim() || undefined, links }, unit)}
         />
       </Row>
     </Sheet>

@@ -135,6 +135,53 @@ export function worksheetHtml(tasks: Task[], ctx: WorksheetContext, title?: stri
 </style></head><body>${body}</body></html>`;
 }
 
+/** Tasks whose lesson has answers or parent notes to print. */
+export function hasAnswerKey(task: Task, ctx: Pick<WorksheetContext, 'curricula' | 'tasks'>): boolean {
+  const plan = lessonFor(task, ctx.curricula, ctx.tasks);
+  return !!plan && (!!plan.answers?.some(Boolean) || !!plan.notes);
+}
+
+/**
+ * The grown-ups' copy: each lesson's questions with their answers, and the
+ * parent notes. Printed separately so it never ends up in a kid's packet.
+ */
+export function answerKeyHtml(tasks: Task[], ctx: WorksheetContext, title = 'Answer key'): string {
+  const sorted = tasks
+    .filter((t) => hasAnswerKey(t, ctx))
+    .sort((a, b) => a.date.localeCompare(b.date) || toMinutes(a.start) - toMinutes(b.start) || a.childId.localeCompare(b.childId));
+  const body = sorted
+    .map((t) => {
+      const plan = lessonFor(t, ctx.curricula, ctx.tasks)!;
+      const kid = ctx.children.find((k) => k.id === t.childId);
+      const rows = plan.questions
+        .map((q, i) => `<tr><td class="num">${i + 1}</td><td>${esc(q)}</td><td class="ans">${plan.answers?.[i] ? esc(plan.answers[i]) : '<span class="none">—</span>'}</td></tr>`)
+        .join('');
+      return `<div class="lesson">
+        <h2>${esc(lessonLabel(t, ctx.curricula, ctx.tasks) ?? t.title)}</h2>
+        <p class="meta">${esc(kid?.name ?? '')} · ${esc(formatDate(t.date, { weekday: 'long', month: 'long', day: 'numeric' }))}</p>
+        ${rows ? `<table><tr><th></th><th>Question</th><th>Answer</th></tr>${rows}</table>` : ''}
+        ${plan.notes ? `<p class="notes"><b>Notes:</b> ${esc(plan.notes)}</p>` : ''}
+      </div>`;
+    })
+    .join('');
+  return `<!doctype html>
+<html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>${esc(title)}</title>
+<style>
+  @page{margin:14mm}
+  body{font-family:'Helvetica Neue',Arial,sans-serif;color:#1d1d1b;margin:0 auto;padding:0 8px;max-width:760px}
+  h1{font-size:26px;margin:12px 0 2px} .sub{color:#777;margin:0 0 12px;font-size:13px}
+  .lesson{break-inside:avoid;page-break-inside:avoid;border-top:2px solid #1d1d1b;padding-top:8px;margin-top:16px}
+  h2{font-size:17px;margin:0 0 2px} .meta{color:#555;margin:0 0 8px;font-size:13px}
+  table{border-collapse:collapse;width:100%;font-size:14px} td,th{border:1px solid #ccc;padding:6px 8px;text-align:left;vertical-align:top} th{background:#f4f1ea}
+  .num{width:24px;color:#777} .ans{font-weight:700;width:38%} .none{color:#aaa;font-weight:400}
+  .notes{font-size:14px;background:#f8f6f1;border-radius:6px;padding:8px 10px}
+</style></head><body>
+  <h1>🔑 ${esc(title)}</h1><p class="sub">For grown-ups. Keep this page away from the worksheets.</p>
+  ${body || '<p>No answers or notes for these lessons yet.</p>'}
+</body></html>`;
+}
+
 /** A one-page test print to check the printer, paper size, and margins. */
 export function testPageHtml(printerName?: string): string {
   return `<!doctype html><html><head><meta charset="utf-8"/><title>Freerange test page</title>

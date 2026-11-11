@@ -174,7 +174,7 @@ export function parseOutline(text: string, opts: OutlineOptions = {}): ImportRes
 
 // ───────────────────────────── Spreadsheets
 
-type Column = 'unit' | 'title' | 'pages' | 'minutes' | 'link' | 'steps' | 'questions' | 'notes';
+type Column = 'unit' | 'title' | 'pages' | 'minutes' | 'link' | 'steps' | 'questions' | 'answers' | 'notes';
 const HEADERS: Record<Column, RegExp> = {
   unit: /^(unit|chapter|module|week|section|part|topic group)$/i,
   title: /^(lesson|lesson title|title|topic|name|lesson name|activity)$/i,
@@ -183,6 +183,7 @@ const HEADERS: Record<Column, RegExp> = {
   link: /^(link|url|video|resource|website)$/i,
   steps: /^(steps|activities|tasks|to ?do|instructions)$/i,
   questions: /^(questions|worksheet|exercises|problems|review questions)$/i,
+  answers: /^(answers?|answer key|key|solutions?)$/i,
   notes: /^(notes?|teacher notes|parent notes|comments)$/i,
 };
 
@@ -261,6 +262,7 @@ export function parseTable(text: string): ImportResult {
         links: link && URL_RE.test(link) ? [{ label: 'Open lesson', url: link.match(URL_RE)![0] }] : [],
         steps: listCell(get(r, 'steps')),
         questions: listCell(get(r, 'questions')),
+        answers: listCell(get(r, 'answers')).length ? listCell(get(r, 'answers')) : undefined,
         notes: get(r, 'notes') || undefined,
       }),
     );

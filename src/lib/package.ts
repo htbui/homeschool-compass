@@ -29,7 +29,9 @@ export interface PackageLesson {
   links: LessonLink[];
   /** Printed on the worksheet. */
   questions: string[];
-  /** For the parent. */
+  /** Answer key, matching `questions` by position. Parents only: never shown in kid mode or on kids' worksheets. */
+  answers?: string[];
+  /** For the parent only. */
   notes?: string;
 }
 
@@ -249,7 +251,7 @@ export function packageToListing(pkg: CurriculumPackage, seller: string, existin
     format: pkg.format,
     price: publishRules(pkg).mustBeFree ? 0 : pkg.price,
     description: pkg.description.trim(),
-    includes: [`${lessons} lessons in ${pkg.units.length} unit${pkg.units.length === 1 ? '' : 's'}`, 'Lesson-by-lesson plan that schedules into Freerange', ...(allLessons(pkg.units).some((l) => l.questions.length) ? ['Printable worksheet questions'] : [])],
+    includes: [`${lessons} lessons in ${pkg.units.length} unit${pkg.units.length === 1 ? '' : 's'}`, 'Lesson-by-lesson plan that schedules into Freerange', ...(allLessons(pkg.units).some((l) => l.questions.length) ? ['Printable worksheet questions'] : []), ...(allLessons(pkg.units).some((l) => l.answers?.some(Boolean)) ? ['Answer key for grown-ups'] : [])],
     lessons,
     lessonsPerWeek: pkg.lessonsPerWeek,
     minutesPerLesson: pkg.minutesPerLesson,

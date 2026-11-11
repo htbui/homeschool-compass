@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest';
 import { isDateKey, relativeDayLabel, stepDay, weekdayOf } from '../dates';
 import type { Child, Curriculum, Task } from '../types';
 import { lessonLabel } from '../curriculum';
-import { workAreaFor, worksheetHtml } from '../worksheet';
+import { answerKeyHtml, hasAnswerKey, workAreaFor, worksheetHtml } from '../worksheet';
 
 const kid: Child = { id: 'k1', name: 'Maya <3', birthdate: '2017-05-21', grade: '4th Grade', avatar: '🦊', color: '#f00', learningDifferences: [], passions: [], soloToleranceMin: 20, sparks: 0 };
 const cur: Curriculum = { id: 'c1', name: 'Fraction Forest', subject: 'math', childIds: ['k1'], totalLessons: 120, lessonsDone: 36, startDate: '2026-08-17', targetEndDate: '2027-05-28', schoolDays: [1, 2, 3, 4, 5], model: 'turnkey' };
@@ -36,6 +36,26 @@ describe('worksheets', () => {
     const packet = worksheetHtml([task(), task({ id: 't2', title: 'Read aloud', subject: 'reading', start: '10:00', curriculumId: undefined })], ctx, 'Monday packet');
     expect(packet.match(/class="sheet/g)).toHaveLength(3);
     expect(packet).toContain('<title>Monday packet</title>');
+  });
+
+  it('prints answers and parent notes only on the separate answer key', () => {
+    const planned: Curriculum = {
+      ...cur,
+      lessonsDone: 0,
+      totalLessons: 1,
+      outline: [{ id: 'u', title: 'Halves', lessons: [{ id: 'l1', title: 'Fold it', steps: [], links: [], questions: ['Half of 12?', 'Half of 7?'], answers: ['6'], notes: 'Use counters <b>' }] }],
+    };
+    const c2 = { ...ctx, curricula: [planned] };
+    const sheet = worksheetHtml([task()], c2);
+    expect(sheet).toContain('Half of 12?');
+    expect(sheet).not.toContain('Use counters');
+    expect(hasAnswerKey(task(), c2)).toBe(true);
+    expect(hasAnswerKey(task({ curriculumId: undefined }), c2)).toBe(false);
+    const key = answerKeyHtml([task(), task({ id: 't2', curriculumId: undefined })], c2);
+    expect(key).toContain('<td class="ans">6</td>');
+    expect(key).toContain('<span class="none">—</span>');
+    expect(key).toContain('Use counters &lt;b&gt;');
+    expect(key.match(/class="lesson"/g)).toHaveLength(1);
   });
 });
 
