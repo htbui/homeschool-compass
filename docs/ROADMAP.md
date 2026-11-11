@@ -37,8 +37,6 @@ _Last updated: 2026-11-11_
 
 ## P1: Next up
 
-- [ ] **Studio: send updates to families.** When a creator publishes a new version, families who already have it see "Update available". The update keeps each kid's progress, and the family can preview what changed before accepting it.
-- [ ] **Studio: edit a family's own conversion after it's in the plan,** and push the changes into the plan, keeping progress.
 - [ ] **Studio: AI drafting with Claude, approved by a parent or creator.** Drafts lesson steps, worksheet questions, answer keys, and versions for younger and older kids. Every draft stays marked "draft" until a person approves it.
 - [ ] **Studio: answer keys and parent-only notes.** Hidden from kid mode, printed on a separate answer sheet.
 - [ ] **Studio: photo → table of contents in the app.** Read the text on the device so there's no need to copy it with Live Text or Google Lens first.
@@ -91,3 +89,4 @@ _New ideas land here, then get a priority._
   - adapt a free online curriculum, keeping its license
   - publish to the Marketplace
   - lesson-by-lesson plans in kids' days (`ed43348`)
+- [x] Studio plan updates: creators add a "What's new" note when they publish; families see "Update available", preview new, changed, and removed lessons, and update or skip. Each kid keeps their place. A family's own Studio edits flow into its plan the same way (`001b6a3`)
