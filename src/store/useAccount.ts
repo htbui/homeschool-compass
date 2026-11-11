@@ -34,7 +34,7 @@ export const useAccount = create<AccountState>()(
       reset: () => set({ userId: undefined, email: undefined, familyId: undefined, familyName: undefined, version: 0, status: 'off', lastSyncedAt: undefined, error: undefined, conflict: undefined }),
     }),
     {
-      name: 'kinship-account',
+      name: 'freerange-account',
       storage: createJSONStorage(() => AsyncStorage),
       partialize: ({ userId, email, familyId, familyName, version, lastSyncedAt }) => ({ userId, email, familyId, familyName, version, lastSyncedAt }),
     },

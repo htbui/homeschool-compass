@@ -1,4 +1,4 @@
--- Kinship Curriculum Marketplace: listings, reviews, helpful votes, purchases.
+-- Freerange Curriculum Marketplace: listings, reviews, helpful votes, purchases.
 --
 -- Anyone (even signed out) can browse active listings and read reviews.
 -- Families list curricula and review what they've used; publisher listings,

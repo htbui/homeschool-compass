@@ -4,7 +4,7 @@ import { Platform, View } from 'react-native';
 
 import { Button, T, useColors } from '@/ui';
 
-const RELOAD_KEY = 'kinship-reloaded-for-update';
+const RELOAD_KEY = 'freerange-reloaded-for-update';
 
 /** A newer version was deployed while this page was open, so a screen's code file is gone. */
 const isStaleBuild = (e: Error) => /Loading chunk|dynamically imported module|Importing a module script failed|Unexpected token '<'|Requiring unknown module|ChunkLoadError|AsyncRequireError|Loading module .* failed/i.test(`${e.name} ${e.message}`);

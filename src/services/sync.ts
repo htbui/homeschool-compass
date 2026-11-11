@@ -20,7 +20,7 @@ export const SYNC_KEYS = ['family', 'children', 'blocks', 'tasks', 'help', 'mood
 type SyncKey = (typeof SYNC_KEYS)[number];
 export type Workspace = Pick<Store, SyncKey>;
 
-const BASE_KEY = 'kinship-sync-base';
+const BASE_KEY = 'freerange-sync-base';
 const PUSH_DELAY = 1200;
 
 let base: Partial<Workspace> = {};

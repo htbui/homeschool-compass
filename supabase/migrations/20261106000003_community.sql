@@ -1,4 +1,4 @@
--- Kinship Community: family finder, connection requests, co-ops, field trips.
+-- Freerange Community: family finder, connection requests, co-ops, field trips.
 --
 -- Parents only (kids never reach these screens). Locations are ZIP codes kept
 -- in a private table; other families only ever see a distance band such as
@@ -82,7 +82,7 @@ create or replace function public.my_display_name()
 returns text
 language sql stable security definer set search_path = ''
 as $$
-  select coalesce((select display_name from public.community_profiles where family_id = public.my_family_id()), 'A Kinship family');
+  select coalesce((select display_name from public.community_profiles where family_id = public.my_family_id()), 'A Freerange family');
 $$;
 
 create or replace function public.email_verified_family(fid uuid)
@@ -168,7 +168,7 @@ returns table (family_id uuid, display_name text, status text, direction text, m
 language sql stable security definer set search_path = ''
 as $$
   with me as (select public.my_family_id() as fid)
-  select other.family_id, coalesce(p.display_name, 'A Kinship family'), c.status,
+  select other.family_id, coalesce(p.display_name, 'A Freerange family'), c.status,
          case when c.from_family = me.fid then 'outgoing' else 'incoming' end,
          c.message,
          case when c.status = 'accepted' then coalesce(p.contact, '') else '' end,

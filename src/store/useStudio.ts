@@ -51,7 +51,7 @@ export const useStudio = create<StudioState>()(
       reset: () => set({ active: false, profile: undefined, packages: [] }),
     }),
     {
-      name: 'kinship-studio',
+      name: 'freerange-studio',
       storage: createJSONStorage(() => AsyncStorage),
       partialize: ({ hydrated: _h, ...rest }) => rest,
       onRehydrateStorage: () => () => useStudio.setState({ hydrated: true }),

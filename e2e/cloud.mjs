@@ -11,7 +11,7 @@ const BASE = process.env.BASE_URL ?? 'http://localhost:8081';
 const run = Date.now().toString(36);
 const EMAIL_A = `dana-${run}@example.test`;
 const EMAIL_C = `rosa-${run}@example.test`;
-const PASSWORD = 'kinship-test-1';
+const PASSWORD = 'freerange-test-1';
 
 const browser = await puppeteer.launch({
   executablePath: process.env.CHROME_PATH ?? '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
@@ -90,8 +90,8 @@ async function device(name) {
       await page.keyboard.type(value);
       await sleep(150);
     },
-    store: () => page.evaluate(() => JSON.parse(localStorage.getItem('kinship-v1') ?? '{}').state ?? {}),
-    account: () => page.evaluate(() => JSON.parse(localStorage.getItem('kinship-account') ?? '{}').state ?? {}),
+    store: () => page.evaluate(() => JSON.parse(localStorage.getItem('freerange-v1') ?? '{}').state ?? {}),
+    account: () => page.evaluate(() => JSON.parse(localStorage.getItem('freerange-account') ?? '{}').state ?? {}),
     async goto(path) { await page.goto(`${BASE}${path}`, { waitUntil: 'networkidle0' }); await sleep(800); },
     async tab(label) {
       const ok = await page.evaluate((label) => {
@@ -340,7 +340,7 @@ try {
   await sleep(1800); // the draft saves to the account before publishing
   await S.click('Publish to the Marketplace');
   log(await S.waitFor('Published v1', 15000), 'published through the server');
-  const pub = (await S.page.evaluate(() => JSON.parse(localStorage.getItem('kinship-studio')).state.packages))[0];
+  const pub = (await S.page.evaluate(() => JSON.parse(localStorage.getItem('freerange-studio')).state.packages))[0];
   // A family finds it, gets it free, and the plan arrives with its lessons and credit.
   await A.goto(`/listing/${pub.listingId}`);
   await A.expect("What's inside", 'family sees the outline');

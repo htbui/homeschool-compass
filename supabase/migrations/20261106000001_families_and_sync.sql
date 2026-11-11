@@ -1,4 +1,4 @@
--- Kinship: families, membership, invites, and the synced family workspace.
+-- Freerange: families, membership, invites, and the synced family workspace.
 --
 -- Each signed-in parent belongs to one family. The family's planner data
 -- (children, rhythm, tasks, records…) is one JSON document in `workspaces`,

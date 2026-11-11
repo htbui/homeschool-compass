@@ -36,7 +36,7 @@ export const usePrinter = create<PrinterState>()(
       setError: (lastError) => set({ lastError }),
     }),
     {
-      name: 'kinship-printer',
+      name: 'freerange-printer',
       storage: createJSONStorage(() => AsyncStorage),
       partialize: ({ config }) => ({ config }),
     },

@@ -3,7 +3,7 @@
 // Without it, the community falls back to matching ZIP prefixes.
 //
 //   node scripts/load-zcta.mjs path/to/2024_Gaz_zcta_national.txt
-//   docker exec -i supabase_db_kinship psql -U postgres < supabase/zcta.sql   # local
+//   docker exec -i supabase_db_freerange psql -U postgres < supabase/zcta.sql   # local
 //   psql "$DATABASE_URL" -f supabase/zcta.sql                                   # hosted
 //
 // Download: https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html

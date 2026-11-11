@@ -1,15 +1,15 @@
-# Kinship: Multi-Child Homeschool Operating System & Community Hub
+# Freerange: Multi-Child Homeschool Operating System & Community Hub
 ## Comprehensive Product Blueprint & Architecture Plan
 
 ---
 
 ## 1. Executive Summary & Vision
 
-**Kinship** is an all-in-one homeschooling platform engineered specifically to solve the "multi-age, multi-pace" dilemma that family educators face. Instead of treating each child as an isolated silo or forcing rigid traditional school schedules into the home, Kinship synchronizes family-wide learning with individual student autonomy.
+**Freerange** is an all-in-one homeschooling platform engineered specifically to solve the "multi-age, multi-pace" dilemma that family educators face. Instead of treating each child as an isolated silo or forcing rigid traditional school schedules into the home, Freerange synchronizes family-wide learning with individual student autonomy.
 
 ```
                   ┌────────────────────────────────────────────────────────┐
-                  │                 KINSHIP PLATFORM                      │
+                  │                 FREERANGE PLATFORM                      │
                   └──────────────────────────┬─────────────────────────────┘
                                              │
          ┌───────────────────┬───────────────┴───────────────┬───────────────────┐
@@ -43,7 +43,7 @@ flowchart LR
     S3 -->|Needs 15% Direct Guidance / 85% Self-Paced| P
 ```
 
-| Persona | Needs & Frustrations | Kinship Solution |
+| Persona | Needs & Frustrations | Freerange Solution |
 | :--- | :--- | :--- |
 | **Parent Organizer** | Overwhelmed by juggle; terrified of missing legal obligations; curriculum burnout. | Central schedule with "Parent 1-on-1 Staggering", 1-click legal compliance, automatic portfolio generator. |
 | **Younger Child (Ages 4–7)** | Cannot read lengthy task lists; short attention spans; tactile & visual learners. | Icon-based, playful daily flow; audio read-aloud prompts; gamified step completion. |
@@ -62,7 +62,7 @@ The onboarding journey guides families from "Can I actually do this?" to a fully
 sequenceDiagram
     autonumber
     actor Parent
-    participant App as Kinship Onboarding
+    participant App as Freerange Onboarding
     participant Engine as Rules & Curric Engine
     Parent->>App: Enter Zip Code / Region & Kid Ages
     App->>Engine: Fetch State Mandates & Available Funding
@@ -123,7 +123,7 @@ stateDiagram-v2
 
 ### Module 3: Curriculum Architecture & Marketplace
 
-Kinship supports three curriculum models:
+Freerange supports three curriculum models:
 1. **Turnkey / Pre-Packaged**: Importing commercial curricula (e.g., Saxon Math, Beast Academy, Story of the World, Blossom & Root, Torchlight, The Good and the Beautiful).
 2. **Modular / A La Carte**: Parents mix and match providers per child and per subject.
 3. **Custom / Unit Studies**: Parents build their own thematic units that all kids explore together at varying depths.
@@ -145,14 +145,14 @@ graph TD
 ```
 
 #### Features:
-* **Curriculum Pacing Engine**: Enter "120 lessons in this textbook" and your desired school calendar; Kinship calculates weekly pacing and auto-reschedules missed days without backlog guilt.
+* **Curriculum Pacing Engine**: Enter "120 lessons in this textbook" and your desired school calendar; Freerange calculates weekly pacing and auto-reschedules missed days without backlog guilt.
 * **Co-Op & Micro-School Integration**: Link a class (e.g., "Tuesday 10 AM Co-op Chemistry") so shared homework and group schedules populate directly into the student's week.
 
 ---
 
 ### Module 4: Dynamic Family Schedule & Orchestration Engine
 
-The biggest failure point of multi-kid homeschooling is **parent contention**—when three kids all need mom/dad's help simultaneously. Kinship's calendar is explicitly built to prevent this.
+The biggest failure point of multi-kid homeschooling is **parent contention**—when three kids all need mom/dad's help simultaneously. Freerange's calendar is explicitly built to prevent this.
 
 #### The "Parent Availability Balancing" Algorithm
 ```
@@ -206,7 +206,7 @@ flowchart TD
 
 ### Module 6: Community, Co-ops & Group Activities
 
-Homeschooling thrives on community. Kinship provides a safe, verified network for parents to collaborate and kids to socialize.
+Homeschooling thrives on community. Freerange provides a safe, verified network for parents to collaborate and kids to socialize.
 
 ```mermaid
 graph LR
@@ -278,7 +278,7 @@ graph TD
 ### A. Parent "Family Flight Deck" (Desktop / Tablet)
 ```
 +------------------------------------------------------------------------------------+
-| KINSHIP  [Family: The Miller Crew]       State: Colorado (Moderate Reg)  [Settings]|
+| FREERANGE  [Family: The Miller Crew]       State: Colorado (Moderate Reg)  [Settings]|
 +------------------------------------------------------------------------------------+
 | [Today's Rhythm]   [Curriculums]   [State Compliance (84/172 Days)]   [Community]  |
 +------------------------------------------------------------------------------------+
@@ -339,6 +339,6 @@ graph TD
 
 ## 7. Open Architectural & Product Decisions
 
-1. **Curriculum Ingestion Strategy**: Should Kinship directly partner with curriculum publishers (licensing content via APIs) or remain content-agnostic (focusing on planning, pacing, and tracking user-owned curriculum)?
+1. **Curriculum Ingestion Strategy**: Should Freerange directly partner with curriculum publishers (licensing content via APIs) or remain content-agnostic (focusing on planning, pacing, and tracking user-owned curriculum)?
 2. **Community Verification Standard**: To guarantee child safety in real-world meetups, what tier of parent ID verification (e.g., Stripe Identity, background check integration, or invite-only vouched circles) should be mandated?
 3. **Monetization Model**: Freemium model (free compliance + basic calendar, premium subscription for multi-kid balancing algorithm and AI portfolio exports) vs. School/Co-op bulk licensing.

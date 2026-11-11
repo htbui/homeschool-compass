@@ -114,7 +114,7 @@ async function clickLabel(label) {
   await sleep(500);
 }
 const shot = (name) => page.screenshot({ path: `${OUT}${name}.png` });
-const store = () => page.evaluate(() => JSON.parse(localStorage.getItem('kinship-v1') ?? '{}').state ?? {});
+const store = () => page.evaluate(() => JSON.parse(localStorage.getItem('freerange-v1') ?? '{}').state ?? {});
 /** Tab labels include an icon glyph, so match the tab whose last text line is the name. */
 const goTab = async (name) => {
   const ok = await page.evaluate((name) => {
@@ -126,7 +126,7 @@ const goTab = async (name) => {
   await sleep(600);
 };
 
-const studio = () => page.evaluate(() => JSON.parse(localStorage.getItem('kinship-studio') ?? '{}').state ?? {});
+const studio = () => page.evaluate(() => JSON.parse(localStorage.getItem('freerange-studio') ?? '{}').state ?? {});
 const pkgNamed = async (title) => (await studio()).packages?.find((p) => p.title === title);
 
 async function run() {
@@ -301,9 +301,9 @@ async function run() {
   const st = await store();
   const kidId = fw.childIds[0];
   await page.evaluate((id) => {
-    const s = JSON.parse(localStorage.getItem('kinship-v1'));
+    const s = JSON.parse(localStorage.getItem('freerange-v1'));
     s.state.mode = { kind: 'kid', childId: id };
-    localStorage.setItem('kinship-v1', JSON.stringify(s));
+    localStorage.setItem('freerange-v1', JSON.stringify(s));
   }, kidId);
   await page.goto(`${BASE}/kid/${kidId}`, { waitUntil: 'networkidle0' });
   await sleep(1000);

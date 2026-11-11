@@ -58,7 +58,7 @@
     "db:start": "supabase start -x studio,imgproxy,vector,logflare,supavisor",
     "db:reset": "supabase db reset",
     "db:seed:gen": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --import ./scripts/ts-hooks.mjs scripts/gen-seed.ts",
-    "web:local": "EXPO_PUBLIC_KINSHIP_LOCAL_ONLY=1 expo start --web --port 8082",
+    "web:local": "EXPO_PUBLIC_FREERANGE_LOCAL_ONLY=1 expo start --web --port 8082",
     "test:e2e:cloud": "node e2e/cloud.mjs"
   },
   "private": true

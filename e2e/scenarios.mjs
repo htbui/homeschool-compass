@@ -102,7 +102,7 @@ async function clickLabel(label) {
   await sleep(500);
 }
 const shot = (name) => page.screenshot({ path: `${OUT}${name}.png` });
-const store = () => page.evaluate(() => JSON.parse(localStorage.getItem('kinship-v1') ?? '{}').state ?? {});
+const store = () => page.evaluate(() => JSON.parse(localStorage.getItem('freerange-v1') ?? '{}').state ?? {});
 /** Tab labels include an icon glyph, so match the tab whose last text line is the name. */
 const goTab = async (name) => {
   const ok = await page.evaluate((name) => {

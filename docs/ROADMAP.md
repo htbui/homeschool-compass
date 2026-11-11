@@ -1,6 +1,6 @@
 # Freerange Roadmap
 
-_Freerange: Homeschooling Outside The Box_ (formerly Kinship). Domains: freerangehomeschooling.com, freerangehomeschool.app.
+_Freerange: Homeschooling Outside The Box_. Domains: freerangehomeschooling.com, freerangehomeschool.app.
 
 The working to-do list, by priority. New ideas go in **Ideas inbox** first, then get a priority.
 Check a box when it ships, and add the commit next to it.
@@ -78,7 +78,7 @@ _New ideas land here, then get a priority._
 
 ## Done
 
-- [x] Compass app (built as Kinship): onboarding, daily flight deck, rhythm, kid mode, state rules, records (`458eeb2` and earlier)
+- [x] Compass app: onboarding, daily flight deck, rhythm, kid mode, state rules, records (`458eeb2` and earlier)
 - [x] Kid mode: browse past and future days, printable worksheets (`4dfdad5`)
 - [x] Curriculum Marketplace: browse, sort, review, buy, add to plan (`cca14ee`)
 - [x] Accounts, real-time multi-device sync, live marketplace and community on Supabase (`a2a9be7`)

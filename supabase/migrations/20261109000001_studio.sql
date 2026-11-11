@@ -1,4 +1,4 @@
--- Kinship Studio: creators make lesson-by-lesson curriculum packages and
+-- Freerange Studio: creators make lesson-by-lesson curriculum packages and
 -- publish them to the Marketplace.
 --
 -- Packages are private drafts owned by one user (no family needed). Publishing
@@ -72,13 +72,13 @@ create policy "anyone browses active listings" on public.listings
   for select to anon, authenticated using (status = 'active' or public.is_family_member(seller_family) or creator_user = auth.uid());
 
 -- Families can't touch the package fields of their own listings; only
--- publish_package() (which sets kinship.publishing) writes them.
+-- publish_package() (which sets freerange.publishing) writes them.
 create or replace function public.listings_protect()
 returns trigger
 language plpgsql
 as $$
 begin
-  if auth.uid() is not null and pg_trigger_depth() = 1 and coalesce(current_setting('kinship.publishing', true), '') <> 'on' then
+  if auth.uid() is not null and pg_trigger_depth() = 1 and coalesce(current_setting('freerange.publishing', true), '') <> 'on' then
     if tg_op = 'INSERT' then
       new.seller_verified := false;
       new.esa_eligible := false;
@@ -222,7 +222,7 @@ begin
 
   select * into existing from public.listings where package_id = pkg.id;
   lid := coalesce(existing.id, c ->> 'listingId', gen_random_uuid()::text);
-  perform set_config('kinship.publishing', 'on', true);
+  perform set_config('freerange.publishing', 'on', true);
   insert into public.listings (
     id, seller_family, seller_name, seller_kind, creator_user, title, subjects, grade_min, grade_max, philosophies, format, price,
     description, includes, lessons, lessons_per_week, minutes_per_lesson, parent_involvement, family_style, lesson_steps, cover, color,
@@ -233,7 +233,7 @@ begin
     (c ->> 'gradeMin')::smallint, (c ->> 'gradeMax')::smallint,
     coalesce((select array_agg(x) from jsonb_array_elements_text(c -> 'philosophies') x), '{}'),
     c ->> 'format', price, coalesce(c ->> 'description', ''),
-    array[lessons || ' lessons', 'Lesson-by-lesson plan that schedules into Kinship'],
+    array[lessons || ' lessons', 'Lesson-by-lesson plan that schedules into Freerange'],
     lessons, coalesce((c ->> 'lessonsPerWeek')::smallint, 3), coalesce((c ->> 'minutesPerLesson')::smallint, 30),
     coalesce(c ->> 'parentInvolvement', 'medium'), coalesce((c ->> 'familyStyle')::boolean, false), '{}',
     coalesce(c ->> 'cover', '📘'), coalesce(c ->> 'color', '#2F6B5E'),
@@ -270,7 +270,7 @@ returns void
 language plpgsql security definer set search_path = ''
 as $$
 begin
-  perform set_config('kinship.publishing', 'on', true);
+  perform set_config('freerange.publishing', 'on', true);
   update public.listings set status = 'removed' where package_id = pkg_id and creator_user = auth.uid();
   update public.packages set content = content || '{"status":"draft"}'::jsonb, updated_at = now() where id = pkg_id and owner = auth.uid();
 end;

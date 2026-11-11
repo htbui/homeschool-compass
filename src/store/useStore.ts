@@ -346,13 +346,13 @@ export const useStore = create<Store>()(
       },
       importData: (json) => {
         const parsed = JSON.parse(json);
-        if (!['freerange', 'kinship'].includes(parsed?.app) || !parsed.data) throw new Error('Not a Freerange backup file');
+        if (parsed?.app !== 'freerange' || !parsed.data) throw new Error('Not a Freerange backup file');
         set({ ...initialData(), ...parsed.data, mode: { kind: 'parent' } });
       },
       resetAll: () => set({ ...initialData() }),
     }),
     {
-      name: 'kinship-v1',
+      name: 'freerange-v1',
       storage: createJSONStorage(() => AsyncStorage),
       partialize: ({ hydrated: _h, ...rest }) => rest,
       onRehydrateStorage: () => () => useStore.setState({ hydrated: true }),

@@ -2,8 +2,7 @@
 # https://supabase.com/docs/guides/local-development/cli/config
 # A string used to distinguish different Supabase projects on the same host. Defaults to the
 # working directory name when running `supabase init`.
-# Internal id for the local stack (container names, volumes). Renaming it would start a fresh local database.
-project_id = "kinship"
+project_id = "freerange"
 
 [api]
 enabled = true

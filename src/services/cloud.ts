@@ -7,8 +7,8 @@ import { AppState, Platform } from 'react-native';
  * the app runs local-only: everything stays on the device and the
  * marketplace and community show sample data.
  */
-// EXPO_PUBLIC_KINSHIP_LOCAL_ONLY=1 forces local-only mode (used by the offline e2e suites).
-const url = process.env.EXPO_PUBLIC_KINSHIP_LOCAL_ONLY === '1' ? undefined : process.env.EXPO_PUBLIC_SUPABASE_URL;
+// EXPO_PUBLIC_FREERANGE_LOCAL_ONLY=1 forces local-only mode (used by the offline e2e suites).
+const url = process.env.EXPO_PUBLIC_FREERANGE_LOCAL_ONLY === '1' ? undefined : process.env.EXPO_PUBLIC_SUPABASE_URL;
 const key = process.env.EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
 
 export const supabase: SupabaseClient | null =
@@ -16,7 +16,7 @@ export const supabase: SupabaseClient | null =
     ? createClient(url, key, {
         auth: {
           storage: AsyncStorage,
-          storageKey: 'kinship-auth',
+          storageKey: 'freerange-auth',
           autoRefreshToken: true,
           persistSession: true,
           detectSessionInUrl: Platform.OS === 'web',
