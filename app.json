@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "Kinship",
-    "slug": "kinship",
+    "name": "Freerange",
+    "slug": "freerange",
     "version": "1.0.0",
     "orientation": "default",
     "icon": "./assets/images/icon.png",
-    "scheme": "kinship",
+    "scheme": "freerange",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon",
-      "bundleIdentifier": "com.kinship.homeschool",
+      "bundleIdentifier": "app.freerangehomeschool",
       "supportsTablet": true
     },
     "android": {
@@ -20,14 +20,16 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.kinship.homeschool"
+      "package": "app.freerangehomeschool"
     },
     "web": {
       "output": "single",
       "favicon": "./assets/images/favicon.png",
-      "name": "Kinship",
+      "name": "Freerange",
       "themeColor": "#2F6B5E",
-      "backgroundColor": "#FBF8F3"
+      "backgroundColor": "#FBF8F3",
+      "shortName": "Freerange",
+      "description": "Freerange: Homeschooling Outside The Box"
     },
     "plugins": [
       "expo-router",
@@ -43,8 +45,8 @@
       [
         "expo-image-picker",
         {
-          "photosPermission": "Kinship uses your photos to add work samples and receipts to your homeschool portfolio.",
-          "cameraPermission": "Kinship uses the camera so kids and parents can snap work samples for the portfolio.",
+          "photosPermission": "Freerange uses your photos to add work samples and receipts to your homeschool portfolio.",
+          "cameraPermission": "Freerange uses the camera so kids and parents can snap work samples for the portfolio.",
           "microphonePermission": false
         }
       ],
@@ -56,6 +58,6 @@
       "typedRoutes": true,
       "reactCompiler": true
     },
-    "description": "Multi-child homeschool operating system: rhythms, compliance, portfolios, and community."
+    "description": "Freerange: Homeschooling Outside The Box. A flexible homeschool planner for every kid, with a curriculum marketplace, a creator studio, and a local community."
   }
 }

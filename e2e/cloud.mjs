@@ -135,7 +135,7 @@ try {
   scenario('Second device');
   const B = await device('tablet');
   await B.goto('/');
-  await B.click('Already use Kinship? Sign in');
+  await B.click('Already use Freerange? Sign in');
   await B.fillLabel('Email', EMAIL_A);
   await B.fillLabel('Password', PASSWORD);
   await B.click('Sign in', { exact: true });
@@ -359,7 +359,7 @@ try {
   scenario('Sign out');
   await B.goto('/account');
   await B.click('Sign out', { exact: true });
-  await B.expect('Sign in to Kinship');
+  await B.expect('Sign in to Freerange');
   log(!!(await B.store()).family, 'data kept on the device after sign-out');
   const before = (await A.account()).version;
   await A.goto('/account');

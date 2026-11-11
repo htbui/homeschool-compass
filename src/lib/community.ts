@@ -64,7 +64,7 @@ export function matchFamilies(cards: FamilyCard[], f: FamilyFilter, myInterests:
     .sort((a, b) => b.score - a.score);
 }
 
-/** Sample network shown until the Kinship community service is connected. */
+/** Sample network shown until the Freerange community service is connected. */
 export const SAMPLE_FAMILIES: FamilyCard[] = [
   { id: 'f1', displayName: 'Sarah K.', kidAges: [6, 9], philosophies: ['charlotte_mason', 'nature_forest'], interests: ['nature journaling', 'birds', 'read-alouds'], distanceMiles: 1.8, verified: true },
   { id: 'f2', displayName: 'Marcus T.', kidAges: [8, 10, 13], philosophies: ['classical'], interests: ['latin', 'chess', 'history'], distanceMiles: 4.2, verified: true },

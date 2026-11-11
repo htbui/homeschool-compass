@@ -71,10 +71,10 @@ export function CheckoutSheet({ listing, visible, onClose, onPurchased }: { list
       ) : null}
       {source === 'sample' && !free ? (
         <Card tint={c.accentSoft}>
-          <T v="caption">🧪 Demo checkout: this is a sample listing, so no card is charged. Real purchases go through secure checkout once you sign in to Kinship.</T>
+          <T v="caption">🧪 Demo checkout: this is a sample listing, so no card is charged. Real purchases go through secure checkout once you sign in to Freerange.</T>
         </Card>
       ) : !free ? (
-        <T v="caption" muted>🔒 You&apos;ll pay on a secure checkout page; Kinship never sees your card.</T>
+        <T v="caption" muted>🔒 You&apos;ll pay on a secure checkout page; Freerange never sees your card.</T>
       ) : null}
       {error ? <T color={c.danger}>{error}</T> : null}
       <Row style={{ justifyContent: 'flex-end' }}>

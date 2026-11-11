@@ -1,8 +1,8 @@
 import type { License } from './license';
 import type { PackageUnit } from './package';
 
-// Core domain model for Kinship. Everything here is plain data so it can be
-// persisted locally today and synced to the Kinship API later.
+// Core domain model for Freerange. Everything here is plain data so it can be
+// persisted locally today and synced to the Freerange API later.
 
 export type ID = string;
 /** ISO calendar date, e.g. "2026-10-16". */

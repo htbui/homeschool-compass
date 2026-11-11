@@ -76,7 +76,7 @@ export default function CurriculumHub() {
               <Empty
                 icon="📚"
                 title="No curricula yet"
-                body="Find one in the Marketplace, or add a textbook you already own with its lesson count, and Kinship calculates your weekly pace."
+                body="Find one in the Marketplace, or add a textbook you already own with its lesson count, and Freerange calculates your weekly pace."
                 action={<Button title="Browse the Marketplace" onPress={() => router.push('/market')} />}
               />
             ) : (
@@ -105,7 +105,7 @@ export default function CurriculumHub() {
                 <T style={{ fontWeight: '700' }}>🛍️ The Marketplace</T> — publishers list their curricula and families list used or homemade ones. Compare ratings and reviews, filter by your kids&apos; grades and your teaching style, then buy and add it to your plan in one step.
               </T>
               <T>
-                <T style={{ fontWeight: '700' }}>📦 What you already own</T> — tap <T style={{ fontWeight: '700' }}>＋ Add</T> and enter the lesson count (or pick a popular program from Quick import). Kinship doesn&apos;t need to sell it to pace it.
+                <T style={{ fontWeight: '700' }}>📦 What you already own</T> — tap <T style={{ fontWeight: '700' }}>＋ Add</T> and enter the lesson count (or pick a popular program from Quick import). Freerange doesn&apos;t need to sell it to pace it.
               </T>
               <T>
                 <T style={{ fontWeight: '700' }}>📕 Lesson by lesson</T> — paste a book&apos;s table of contents and Studio turns it into daily lessons with page ranges (private to your family). Or build your own, or adapt a free online course.

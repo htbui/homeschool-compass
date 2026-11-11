@@ -8,7 +8,7 @@ import { useStore } from '@/store/useStore';
 import { friendlyError, supabase } from './cloud';
 
 /**
- * Marketplace actions. Without the Kinship service everything stays on the
+ * Marketplace actions. Without the Freerange service everything stays on the
  * device against the sample catalog. With it, the catalog, reviews, votes,
  * and purchases are shared tables; this family's own listings and reviews are
  * mirrored into the local store so screens read them the same way.

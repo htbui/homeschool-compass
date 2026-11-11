@@ -194,7 +194,7 @@ async function run() {
   await click('nature', { exact: true });
   await expect('Recommended daily rhythm');
   await shot('s-results');
-  await click('Start homeschooling with Kinship');
+  await click('Start homeschooling with Freerange');
   await expect('Family Flight Deck');
   await expect('The Rivera Family');
   const s0 = await store();
@@ -572,7 +572,7 @@ async function run() {
   await page.evaluate(() => { const t = [...document.querySelectorAll('textarea')].at(-1); t.focus(); });
   await page.keyboard.type('{"nope":1}');
   await click('Import', { exact: true });
-  await expect('Not a Kinship backup file', 'rejects bad backup');
+  await expect('Not a Freerange backup file', 'rejects bad backup');
   await page.keyboard.press('Escape');
   await click('✕', { exact: true }).catch(() => {});
   await page.goBack(); await sleep(700);
@@ -718,7 +718,7 @@ async function run() {
   await click('US Letter');
   await click('Print a test page');
   await sleep(800);
-  log((await page.evaluate(() => [...document.querySelectorAll('iframe')].at(-1)?.contentDocument?.body?.textContent ?? '')).includes('Kinship test page'), 'test page printed');
+  log((await page.evaluate(() => [...document.querySelectorAll('iframe')].at(-1)?.contentDocument?.body?.textContent ?? '')).includes('Freerange test page'), 'test page printed');
   await click('Save', { exact: true });
   await expect('Paper: US Letter', 'paper size changed in settings');
   await page.goBack(); await sleep(700);
@@ -732,7 +732,7 @@ async function run() {
   await click('Erase everything');
   await click('Erase', { exact: true });
   await sleep(800);
-  await expect('Welcome to Kinship', 'erase returns to welcome');
+  await expect('Welcome to Freerange', 'erase returns to welcome');
 }
 
 try {

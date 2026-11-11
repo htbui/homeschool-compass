@@ -78,7 +78,7 @@ export interface LiveEvent {
 }
 
 const db = () => {
-  if (!supabase) throw new Error('Community needs the Kinship service.');
+  if (!supabase) throw new Error('Community needs the Freerange service.');
   return supabase;
 };
 const fid = () => {

@@ -171,7 +171,7 @@ export default function Marketplace() {
         <>
         <Card onPress={enterStudio} style={{ marginTop: space.lg }}>
           <T v="heading">🎨 Made your own curriculum?</T>
-          <T v="caption" muted>Build it lesson by lesson in Kinship Studio — or adapt a free online course — and families can schedule every lesson in one tap.</T>
+          <T v="caption" muted>Build it lesson by lesson in Freerange Studio — or adapt a free online course — and families can schedule every lesson in one tap.</T>
         </Card>
         <Section title="Your listings" subtitle="Sell or give away curricula you're done with." action={<Button size="sm" icon="＋" title="List a curriculum" onPress={() => setSelling('new')} />}>
           {myListings.length === 0 ? (

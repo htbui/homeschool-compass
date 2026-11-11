@@ -342,11 +342,11 @@ export const useStore = create<Store>()(
       exportData: () => {
         const { hydrated: _h, ...rest } = get();
         const data = Object.fromEntries(Object.entries(rest).filter(([, v]) => typeof v !== 'function'));
-        return JSON.stringify({ app: 'kinship', version: 1, exportedAt: new Date().toISOString(), data }, null, 2);
+        return JSON.stringify({ app: 'freerange', version: 1, exportedAt: new Date().toISOString(), data }, null, 2);
       },
       importData: (json) => {
         const parsed = JSON.parse(json);
-        if (parsed?.app !== 'kinship' || !parsed.data) throw new Error('Not a Kinship backup file');
+        if (!['freerange', 'kinship'].includes(parsed?.app) || !parsed.data) throw new Error('Not a Freerange backup file');
         set({ ...initialData(), ...parsed.data, mode: { kind: 'parent' } });
       },
       resetAll: () => set({ ...initialData() }),

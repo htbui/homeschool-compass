@@ -33,7 +33,7 @@ export default function CommunityHub() {
   );
 }
 
-/** Sample network shown until the family signs in to the Kinship service. */
+/** Sample network shown until the family signs in to the Freerange service. */
 function PreviewCommunity() {
   const c = useColors();
   const [tab, setTab] = useState<Tab>('families');
@@ -59,7 +59,7 @@ function PreviewCommunity() {
       <Card tint={c.accentSoft} style={{ marginTop: space.md }}>
         <T v="caption">
           🧪 Preview: you&apos;re seeing a sample network, saved only on this device.{' '}
-          {cloudEnabled ? 'Sign in to meet real families, co-ops, and field trips near you.' : 'The live community turns on when this app is connected to the Kinship service.'}
+          {cloudEnabled ? 'Sign in to meet real families, co-ops, and field trips near you.' : 'The live community turns on when this app is connected to the Freerange service.'}
         </T>
         {cloudEnabled ? (
           <Row>

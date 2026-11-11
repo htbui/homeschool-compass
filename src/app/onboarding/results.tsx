@@ -131,7 +131,7 @@ export default function Results() {
         <RhythmPreview blocks={rhythm} kids={d.children} />
       </Section>
 
-      <Button size="lg" title="Start homeschooling with Kinship" onPress={finish} style={{ marginTop: space.xxl }} />
+      <Button size="lg" title="Start homeschooling with Freerange" onPress={finish} style={{ marginTop: space.xxl }} />
     </Screen>
   );
 }

@@ -55,7 +55,7 @@ const TEMPLATES: Record<number, { title: string; body: string }[]> = {
   ],
   4: [
     { title: 'Solid, with a few gaps', body: 'Really good overall. I add some extra practice for review, but the core is excellent.' },
-    { title: 'Great content, busy weeks', body: 'Some weeks felt long, so we spread lessons out. Kinship re-pacing helped a lot.' },
+    { title: 'Great content, busy weeks', body: 'Some weeks felt long, so we spread lessons out. Freerange re-pacing helped a lot.' },
     { title: 'Kids like it', body: 'Engaging and well explained. A couple of activities needed supplies we didn’t have.' },
   ],
   3: [

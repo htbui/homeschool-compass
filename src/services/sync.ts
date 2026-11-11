@@ -72,7 +72,7 @@ let retryTimer: ReturnType<typeof setTimeout> | null = null;
 
 function fail(e: unknown) {
   const msg = friendlyError(e);
-  const offline = /reach Kinship/.test(msg);
+  const offline = /reach Freerange/.test(msg);
   account().set({ status: offline ? 'offline' : 'error', error: msg });
   // Network blips: try again shortly instead of waiting for the next edit.
   if (offline && account().familyId && !retryTimer) {

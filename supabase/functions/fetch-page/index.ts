@@ -36,7 +36,7 @@ Deno.serve(async (req) => {
       const res = await fetch(target, {
         redirect: 'manual',
         signal: AbortSignal.timeout(TIMEOUT_MS),
-        headers: { 'User-Agent': 'KinshipStudio/1.0 (curriculum import)', Accept: 'text/html,application/xhtml+xml,text/plain;q=0.8' },
+        headers: { 'User-Agent': 'FreerangeStudio/1.0 (curriculum import)', Accept: 'text/html,application/xhtml+xml,text/plain;q=0.8' },
       });
       if (res.status >= 300 && res.status < 400) {
         const next = res.headers.get('location');

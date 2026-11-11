@@ -20,7 +20,7 @@ function LocalOnly() {
   return (
     <Screen edges={[]}>
       <Section title="Cloud sync isn't set up in this build">
-        <T>Kinship is running local-only: your family&apos;s data lives on this device. Use Settings → Export backup to move it to another device.</T>
+        <T>Freerange is running local-only: your family&apos;s data lives on this device. Use Settings → Export backup to move it to another device.</T>
         <T muted>Developers: add EXPO_PUBLIC_SUPABASE_URL and EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY (see README → Cloud).</T>
       </Section>
     </Screen>
@@ -59,7 +59,7 @@ function SignInForm() {
 
   return (
     <Screen edges={[]}>
-      <Section title={mode === 'in' ? 'Sign in to Kinship' : 'Create your Kinship account'} subtitle="Sync your family across phones, tablets, and the web, shop the live marketplace, and meet families nearby.">
+      <Section title={mode === 'in' ? 'Sign in to Freerange' : 'Create your Freerange account'} subtitle="Sync your family across phones, tablets, and the web, shop the live marketplace, and meet families nearby.">
         <Segmented<'in' | 'up'> value={mode} onChange={setMode} options={[{ value: 'in', label: 'Sign in' }, { value: 'up', label: 'Create account' }]} />
         <Card>
           <Field label="Email" value={email} onChangeText={setEmail} autoCapitalize="none" autoComplete="email" keyboardType="email-address" textContentType="emailAddress" />
@@ -150,7 +150,7 @@ function SignedIn() {
       </Section>
 
       {acct.familyId ? (
-        <Section title="Add another parent or caregiver" subtitle="They create their own Kinship account, then enter this code to share your family's planner.">
+        <Section title="Add another parent or caregiver" subtitle="They create their own Freerange account, then enter this code to share your family's planner.">
           <Card>
             {invite ? (
               <Stack gap={4}>

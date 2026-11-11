@@ -1,4 +1,6 @@
-# Kinship Roadmap
+# Freerange Roadmap
+
+_Freerange: Homeschooling Outside The Box_ (formerly Kinship). Domains: freerangehomeschooling.com, freerangehomeschool.app.
 
 The working to-do list, by priority. New ideas go in **Ideas inbox** first, then get a priority.
 Check a box when it ships, and add the commit next to it.
@@ -9,12 +11,13 @@ Check a box when it ships, and add the commit next to it.
 - **P2:** soon.
 - **P3:** later or nice to have.
 
-_Last updated: 2026-11-09_
+_Last updated: 2026-11-11_
 
 ---
 
 ## P0: Launch blockers (most need a decision or an account from you)
 
+- [ ] **Business email and DNS:** set up Google Workspace on freerangehomeschooling.com (admin@, support@ as aliases), then move the Cloudflare login to the business address. Add SPF, DKIM, and DMARC records.
 - [ ] **Hosted backend:** create the production Supabase project, then share its URL and publishable key. Apply the migrations and deploy the edge functions (`create-checkout`, `stripe-webhook`, `fetch-page`).
 - [ ] **Permanent test links:** host the web app with EAS Hosting (`eas deploy`), and share an Android build anyone can install plus iOS TestFlight. Needs an Expo login. For now there's a temporary Cloudflare link that only works while the dev machine is running.
 - [ ] **Phone builds:** log in to Expo (`! npx eas-cli@latest login`) and run the first EAS builds. iOS also needs an Apple Developer account.
@@ -25,6 +28,7 @@ _Last updated: 2026-11-09_
   - Terms of service and a creator agreement covering rights and licensing warranties.
   - Copyright takedown process for listings.
   - Privacy policy covering kids' data (COPPA).
+  - **Trademark clearance for "Freerange"** with an attorney before filing. Nearby live marks: FREERANGE (Reg. 8209861, Class 41, preparedness education) and FREE RANGE KIDS (Reg. 7911708, Class 42, childrearing website). File as a distinctive mark, such as FREERANGE HOMESCHOOL with a logo.
 - [ ] **Test on real devices:**
   - printing (AirPrint and Android print services)
   - opening lesson PDFs
@@ -74,13 +78,13 @@ _New ideas land here, then get a priority._
 
 ## Done
 
-- [x] Kinship Compass app: onboarding, daily flight deck, rhythm, kid mode, state rules, records (`458eeb2` and earlier)
+- [x] Compass app (built as Kinship): onboarding, daily flight deck, rhythm, kid mode, state rules, records (`458eeb2` and earlier)
 - [x] Kid mode: browse past and future days, printable worksheets (`4dfdad5`)
 - [x] Curriculum Marketplace: browse, sort, review, buy, add to plan (`cca14ee`)
 - [x] Accounts, real-time multi-device sync, live marketplace and community on Supabase (`a2a9be7`)
 - [x] Kids can start lessons early; printer setup in Settings (`1d0eac2`)
 - [x] Progress tracked separately for each kid; lesson links and PDFs with an Open button (`13d2e3f`)
-- [x] Kinship Studio:
+- [x] Studio:
   - create from scratch
   - convert a book you own (private)
   - import a spreadsheet

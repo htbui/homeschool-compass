@@ -43,7 +43,7 @@ export async function openMaterial(m: LessonMaterial): Promise<string | undefine
     let uri = m.uri && new File(m.uri).exists ? m.uri : undefined;
     if (!uri && m.remotePath) {
       const url = await mediaUrl(m.remotePath);
-      if (!url) return 'Couldn’t reach Kinship to fetch this file. Check your connection.';
+      if (!url) return 'Couldn’t reach Freerange to fetch this file. Check your connection.';
       const dir = new Directory(Paths.cache, 'materials');
       if (!dir.exists) dir.create({ intermediates: true });
       const dest = new File(dir, `${m.id}-${(m.fileName ?? 'lesson.pdf').replace(/[^\w.-]/g, '_')}`);
@@ -51,7 +51,7 @@ export async function openMaterial(m: LessonMaterial): Promise<string | undefine
       uri = dest.uri;
     }
     if (!uri) return 'This file was added on another device. Sign in on both devices to share it with the family.';
-    if (!(await Sharing.isAvailableAsync())) return 'This device can’t open files from Kinship.';
+    if (!(await Sharing.isAvailableAsync())) return 'This device can’t open files from Freerange.';
     await Sharing.shareAsync(uri, { mimeType: m.mimeType, UTI: m.mimeType === 'application/pdf' ? 'com.adobe.pdf' : undefined, dialogTitle: m.label });
     return undefined;
   } catch {

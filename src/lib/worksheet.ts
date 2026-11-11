@@ -73,7 +73,7 @@ function sheet(task: Task, ctx: WorksheetContext): string {
       <div><h2>How did it go?</h2><div class="faces"><span>☐ 😕 Tricky</span><span>☐ 🙂 Got it</span><span>☐ 🤩 Easy!</span></div></div>
       ${young ? '' : '<div><h2>One thing I learned</h2><div class="line"></div><div class="line"></div></div>'}
     </div>
-    <p class="foot">Time spent: ______ min &nbsp;·&nbsp; Grown-up check: ☐ &nbsp;·&nbsp; Keep this page for the portfolio, or snap a photo of it in Kinship.${credit ? `<br/>${esc(credit)}` : ''}</p>
+    <p class="foot">Time spent: ______ min &nbsp;·&nbsp; Grown-up check: ☐ &nbsp;·&nbsp; Keep this page for the portfolio, or snap a photo of it in Freerange.${credit ? `<br/>${esc(credit)}` : ''}</p>
   </section>`;
 }
 
@@ -137,7 +137,7 @@ export function worksheetHtml(tasks: Task[], ctx: WorksheetContext, title?: stri
 
 /** A one-page test print to check the printer, paper size, and margins. */
 export function testPageHtml(printerName?: string): string {
-  return `<!doctype html><html><head><meta charset="utf-8"/><title>Kinship test page</title>
+  return `<!doctype html><html><head><meta charset="utf-8"/><title>Freerange test page</title>
 <style>
   @page{margin:14mm}
   body{font-family:'Helvetica Neue',Arial,sans-serif;color:#1d1d1b;margin:0}
@@ -145,7 +145,7 @@ export function testPageHtml(printerName?: string): string {
   h1{margin:0;font-size:30px} .grid{height:160px;background-image:linear-gradient(#ccc 1px,transparent 1px),linear-gradient(90deg,#ccc 1px,transparent 1px);background-size:20px 20px;-webkit-print-color-adjust:exact;print-color-adjust:exact}
   .swatches{display:flex;gap:8px} .swatches span{width:60px;height:30px;border-radius:6px;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 </style></head><body><div class="frame">
-  <h1>🧭 Kinship test page</h1>
+  <h1>🧭 Freerange test page</h1>
   <p>If you can read this and see the full green border, printing is set up${printerName ? ` on <b>${esc(printerName)}</b>` : ''}.</p>
   <p>The border should sit inside the paper edge on all four sides. If it's cut off, check the paper size in Settings → Printing.</p>
   <div class="grid"></div>

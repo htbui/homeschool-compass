@@ -83,7 +83,7 @@ Deno.serve(async (req) => {
       return json({ purchase: paid });
     }
 
-    return json({ error: 'Payments aren’t set up yet, so paid curricula can’t be bought through Kinship.' }, 503);
+    return json({ error: 'Payments aren’t set up yet, so paid curricula can’t be bought through Freerange.' }, 503);
   } catch (e) {
     return json({ error: e instanceof Error ? e.message : String(e) }, 500);
   }
@@ -91,6 +91,6 @@ Deno.serve(async (req) => {
 
 /** Only send buyers back to the app itself. */
 function allowedReturn(url: string): boolean {
-  const allowed = (Deno.env.get('CHECKOUT_RETURN_ORIGINS') ?? 'http://localhost:8081,kinship://').split(',').map((s) => s.trim()).filter(Boolean);
+  const allowed = (Deno.env.get('CHECKOUT_RETURN_ORIGINS') ?? 'http://localhost:8081,freerange://').split(',').map((s) => s.trim()).filter(Boolean);
   return allowed.some((origin) => url === origin || url.startsWith(origin.endsWith('/') || origin.endsWith('://') ? origin : `${origin}/`));
 }

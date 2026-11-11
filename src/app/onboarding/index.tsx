@@ -31,7 +31,7 @@ export default function Welcome() {
         <View style={{ width: 84, height: 84, borderRadius: 28, backgroundColor: c.primary, alignItems: 'center', justifyContent: 'center' }}>
           <T style={{ fontSize: 44 }}>🧭</T>
         </View>
-        <T v="display" style={{ textAlign: 'center' }}>Welcome to Kinship</T>
+        <T v="display" style={{ textAlign: 'center' }}>Welcome to Freerange</T>
         <T muted style={{ textAlign: 'center', maxWidth: 480 }}>
           The homeschool operating system for families teaching several kids at several paces.
         </T>
@@ -58,7 +58,7 @@ export default function Welcome() {
         />
         <Button size="lg" kind="secondary" title="Explore with a demo family" onPress={startDemo} />
         <Button kind="secondary" icon="🎨" title="Curriculum Creator Studio" onPress={enterStudio} />
-        {cloudEnabled ? <Button kind="ghost" title="Already use Kinship? Sign in" onPress={() => router.push('/account')} /> : null}
+        {cloudEnabled ? <Button kind="ghost" title="Already use Freerange? Sign in" onPress={() => router.push('/account')} /> : null}
         <T v="caption" muted style={{ textAlign: 'center' }}>
           Your data stays on this device until you choose to sync.
         </T>

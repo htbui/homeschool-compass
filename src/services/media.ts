@@ -6,7 +6,7 @@ import { uid } from '@/lib/id';
 /**
  * Snap-and-upload for the Evidence Vault (native). Photos are copied out of the
  * picker's cache into the app's document directory so the OS can't purge them.
- * When the Kinship API exists these get uploaded to encrypted storage instead.
+ * When the Freerange API exists these get uploaded to encrypted storage instead.
  */
 export async function pickPhoto(source: 'camera' | 'library'): Promise<string | undefined> {
   if (source === 'camera') {

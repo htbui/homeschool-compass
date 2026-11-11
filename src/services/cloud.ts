@@ -3,7 +3,7 @@ import { createClient, type SupabaseClient } from '@supabase/supabase-js';
 import { AppState, Platform } from 'react-native';
 
 /**
- * The Kinship service (Supabase). When the environment variables aren't set
+ * The Freerange service (Supabase). When the environment variables aren't set
  * the app runs local-only: everything stays on the device and the
  * marketplace and community show sample data.
  */
@@ -37,7 +37,7 @@ if (supabase && Platform.OS !== 'web') {
 /** Turn a Supabase/PostgREST error into a sentence a parent can act on. */
 export function friendlyError(e: unknown): string {
   const msg = e && typeof e === 'object' && 'message' in e ? String((e as { message: unknown }).message) : String(e);
-  if (/Failed to fetch|Network request failed|NetworkError/i.test(msg)) return 'Can’t reach Kinship right now. Your changes are saved on this device and will sync when you’re back online.';
+  if (/Failed to fetch|Network request failed|NetworkError/i.test(msg)) return 'Can’t reach Freerange right now. Your changes are saved on this device and will sync when you’re back online.';
   if (/Invalid login credentials/i.test(msg)) return 'That email and password don’t match.';
   if (/User already registered/i.test(msg)) return 'There’s already an account with that email — sign in instead.';
   if (/Password should be at least/i.test(msg)) return 'Use a password of at least 6 characters.';

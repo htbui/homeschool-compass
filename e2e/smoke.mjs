@@ -1,4 +1,4 @@
-// Headless smoke test of the Kinship web build: demo onboarding, every parent tab, kid flow.
+// Headless smoke test of the Freerange web build: demo onboarding, every parent tab, kid flow.
 import puppeteer from 'puppeteer-core';
 
 const BASE = process.env.BASE_URL ?? 'http://localhost:8081';
@@ -56,7 +56,7 @@ await page.goto(BASE, { waitUntil: 'networkidle0' });
 await page.evaluate(() => localStorage.clear());
 await page.goto(BASE, { waitUntil: 'networkidle0' });
 await sleep(1500);
-await check('welcome', 'Welcome to Kinship');
+await check('welcome', 'Welcome to Freerange');
 await shot('01-welcome');
 
 await clickText('Explore with a demo family');

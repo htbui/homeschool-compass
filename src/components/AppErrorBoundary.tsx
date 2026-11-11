@@ -33,7 +33,7 @@ export function AppErrorBoundary({ error, retry }: ErrorBoundaryProps) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', gap: 12, padding: 24, backgroundColor: c.bg }}>
       <T style={{ fontSize: 48 }}>🧭</T>
-      <T v="title" style={{ textAlign: 'center' }}>{stale ? 'Kinship was updated' : 'Something went wrong'}</T>
+      <T v="title" style={{ textAlign: 'center' }}>{stale ? 'Freerange was updated' : 'Something went wrong'}</T>
       <T muted style={{ textAlign: 'center', maxWidth: 420 }}>
         {stale ? 'Reload to get the latest version. Your data is saved.' : 'Your data is saved on this device. Try again, and if it keeps happening, reload the app.'}
       </T>

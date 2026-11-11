@@ -167,7 +167,7 @@ export async function creatorStats(): Promise<Record<string, ListingStats>> {
 
 // ───────────────────────────── Web import
 
-/** Load a web page's HTML. Through the Kinship service when signed in; phones can also fetch directly. */
+/** Load a web page's HTML. Through the Freerange service when signed in; phones can also fetch directly. */
 export async function fetchPage(url: string): Promise<{ url: string; html: string }> {
   if (signedIn()) {
     const { data, error } = await supabase!.functions.invoke('fetch-page', { body: { url } });
@@ -177,7 +177,7 @@ export async function fetchPage(url: string): Promise<{ url: string; html: strin
     }
     return data as { url: string; html: string };
   }
-  if (Platform.OS === 'web') throw new Error('Loading a website needs a Kinship account (browsers can’t read other sites directly).');
+  if (Platform.OS === 'web') throw new Error('Loading a website needs a Freerange account (browsers can’t read other sites directly).');
   const res = await fetch(url, { headers: { Accept: 'text/html' } });
   if (!res.ok) throw new Error(`That page answered ${res.status}.`);
   if (!/text\/html|text\/plain/i.test(res.headers.get('content-type') ?? '')) throw new Error('That address isn’t a web page.');

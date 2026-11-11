@@ -5,7 +5,7 @@ import { createJSONStorage, persist } from 'zustand/middleware';
 import type { CurriculumPackage } from '@/lib/package';
 
 /**
- * Studio: the creator side of Kinship (like a seller's shop manager). A
+ * Studio: the creator side of Freerange (like a seller's shop manager). A
  * creator profile plus their curriculum packages. Works without a family —
  * someone who only makes curricula never has to set one up. When signed in,
  * packages are also saved to the creator's account.

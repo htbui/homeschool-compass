@@ -40,7 +40,7 @@ export default function CreatorSetup() {
     <Screen edges={[]}>
       {!profile ? (
         <Stack gap={space.sm}>
-          <T v="display">🎨 Kinship Studio</T>
+          <T v="display">🎨 Freerange Studio</T>
           <T muted>Make lesson-by-lesson curricula that families can add to their day in one tap — write your own, or turn a free online course into a ready-to-teach plan. Families find them in the Marketplace.</T>
         </Stack>
       ) : null}
@@ -51,7 +51,7 @@ export default function CreatorSetup() {
       </Section>
       {cloudEnabled && !signedIn ? (
         <Card tint={c.accentSoft}>
-          <T>To publish to everyone and get paid, sign in to a Kinship account. You can start drafting now; your work moves to your account when you sign in.</T>
+          <T>To publish to everyone and get paid, sign in to a Freerange account. You can start drafting now; your work moves to your account when you sign in.</T>
           <Row>
             <Button size="sm" kind="secondary" title="Sign in or create an account" onPress={() => router.push('/account')} />
           </Row>

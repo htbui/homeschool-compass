@@ -31,7 +31,7 @@ export async function pickMaterialFile(): Promise<PickResult> {
     return { material: { ...base, remotePath } };
   }
   if (size > MAX_LOCAL_MB * 1024 * 1024) {
-    return { error: `Files over ${MAX_LOCAL_MB} MB need a Kinship account (they're kept in your family's private cloud). Sign in under Settings → Account, or add a link instead.` };
+    return { error: `Files over ${MAX_LOCAL_MB} MB need a Freerange account (they're kept in your family's private cloud). Sign in under Settings → Account, or add a link instead.` };
   }
   const blob = asset.file ?? (await (await fetch(asset.uri)).blob());
   const uri = await new Promise<string>((resolve, reject) => {
@@ -53,7 +53,7 @@ export async function openMaterial(m: LessonMaterial): Promise<string | undefine
     return undefined;
   }
   const tab = window.open('', '_blank');
-  if (!tab) return 'Your browser blocked the new tab. Allow pop-ups for Kinship and try again.';
+  if (!tab) return 'Your browser blocked the new tab. Allow pop-ups for Freerange and try again.';
   tab.opener = null;
   try {
     let href: string | undefined;
@@ -61,7 +61,7 @@ export async function openMaterial(m: LessonMaterial): Promise<string | undefine
     else if (m.remotePath) href = await mediaUrl(m.remotePath);
     if (!href) {
       tab.close();
-      return m.remotePath ? 'Couldn’t reach Kinship to fetch this file. Check your connection.' : 'This file was added on another device. Sign in on both devices to share it with the family.';
+      return m.remotePath ? 'Couldn’t reach Freerange to fetch this file. Check your connection.' : 'This file was added on another device. Sign in on both devices to share it with the family.';
     }
     tab.location.href = href;
     return undefined;

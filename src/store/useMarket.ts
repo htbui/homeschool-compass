@@ -8,7 +8,7 @@ import { useStore } from './useStore';
 
 /**
  * The browsable catalog (everyone's listings and reviews). It's a cache:
- * the sample catalog in local-only mode, the Kinship service when signed in.
+ * the sample catalog in local-only mode, the Freerange service when signed in.
  * This family's own purchases, listings, and reviews live in `useStore`.
  */
 interface MarketState {

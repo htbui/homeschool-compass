@@ -49,7 +49,7 @@ export default function Settings() {
           </Card>
         </Section>
       ) : null}
-      <Section title="Kinship Studio">
+      <Section title="Freerange Studio">
         <Card onPress={enterStudio}>
           <Row wrap style={{ justifyContent: 'space-between' }}>
             <T v="heading">🎨 {studioName ?? 'Make your own curricula'}</T>
@@ -133,16 +133,16 @@ export default function Settings() {
         </Card>
       </Section>
 
-      <Section title="Your data" subtitle={account.userId ? 'Kinship is offline-first: this device keeps a full copy and syncs with your account. Backups are a handy extra copy.' : 'Kinship is offline-first: everything lives on this device. Back up to move it, or sign in to sync.'}>
+      <Section title="Your data" subtitle={account.userId ? 'Freerange is offline-first: this device keeps a full copy and syncs with your account. Backups are a handy extra copy.' : 'Freerange is offline-first: everything lives on this device. Back up to move it, or sign in to sync.'}>
         <Row wrap>
-          <Button kind="secondary" icon="⬇️" title="Export backup" onPress={() => shareText(exportData(), `kinship-backup-${new Date().toISOString().slice(0, 10)}.json`, 'application/json')} />
+          <Button kind="secondary" icon="⬇️" title="Export backup" onPress={() => shareText(exportData(), `freerange-backup-${new Date().toISOString().slice(0, 10)}.json`, 'application/json')} />
           <Button kind="secondary" icon="⬆️" title="Import backup" onPress={() => setImportOpen(true)} />
           <Button
             kind="danger"
             title="Erase everything"
             onPress={() =>
               confirm.ask(
-                'Erase all Kinship data on this device?',
+                'Erase all Freerange data on this device?',
                 async () => {
                   // Signed in: sign out first so the erase doesn't sync to the account.
                   if (account.userId) await signOut(false);
@@ -177,7 +177,7 @@ export default function Settings() {
       </Sheet>
 
       <Sheet visible={importOpen} onClose={() => setImportOpen(false)} title="Import backup">
-        <T muted>Paste the contents of a Kinship backup file. This replaces everything on this device.</T>
+        <T muted>Paste the contents of a Freerange backup file. This replaces everything on this device.</T>
         <Field multiline value={importText} onChangeText={(t) => { setImportText(t); setImportError(''); }} style={{ minHeight: 160 }} />
         {importError ? <T color="#C8463F">{importError}</T> : null}
         <Button

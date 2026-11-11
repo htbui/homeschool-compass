@@ -4,7 +4,7 @@ import type { Involvement, Listing, ListingFormat } from './market';
 import type { ID, Philosophy, Subject } from './types';
 
 /**
- * Kinship curriculum packages: a lesson-by-lesson plan made in Studio.
+ * Freerange curriculum packages: a lesson-by-lesson plan made in Studio.
  *
  * Studio writes packages (from scratch, from a book's table of contents, a
  * spreadsheet, or a free course online); Compass schedules them so each day
@@ -247,7 +247,7 @@ export function packageToListing(pkg: CurriculumPackage, seller: string, existin
     format: pkg.format,
     price: publishRules(pkg).mustBeFree ? 0 : pkg.price,
     description: pkg.description.trim(),
-    includes: [`${lessons} lessons in ${pkg.units.length} unit${pkg.units.length === 1 ? '' : 's'}`, 'Lesson-by-lesson plan that schedules into Kinship', ...(allLessons(pkg.units).some((l) => l.questions.length) ? ['Printable worksheet questions'] : [])],
+    includes: [`${lessons} lessons in ${pkg.units.length} unit${pkg.units.length === 1 ? '' : 's'}`, 'Lesson-by-lesson plan that schedules into Freerange', ...(allLessons(pkg.units).some((l) => l.questions.length) ? ['Printable worksheet questions'] : [])],
     lessons,
     lessonsPerWeek: pkg.lessonsPerWeek,
     minutesPerLesson: pkg.minutesPerLesson,

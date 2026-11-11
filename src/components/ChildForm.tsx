@@ -53,7 +53,7 @@ export function ChildForm({ initial, index, onSave, onCancel }: { initial?: Chil
           setBirthdate(d);
           if (d && !gradeTouched) setGrade(gradeForAge(ageOn(d)));
         }}
-        validate={(d) => (d >= todayKey() ? 'Birthdate must be in the past' : ageOn(d) > 21 ? 'Kinship is for learners up to age 21' : undefined)}
+        validate={(d) => (d >= todayKey() ? 'Birthdate must be in the past' : ageOn(d) > 21 ? 'Freerange is for learners up to age 21' : undefined)}
         describe={(d) => `${formatDate(d, { month: 'long', day: 'numeric', year: 'numeric' })} · age ${ageOn(d)}`}
       />
       <View style={{ gap: 6 }}>

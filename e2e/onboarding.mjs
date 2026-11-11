@@ -71,7 +71,7 @@ await sleep(800);
 await check('results', 'Your homeschool style');
 await check('rhythm preview', 'Recommended daily rhythm');
 await page.screenshot({ path: `${OUT}10-results.png` });
-await clickText('Start homeschooling with Kinship');
+await clickText('Start homeschooling with Freerange');
 await sleep(1200);
 await check('landed on flight deck', 'Family Flight Deck');
 await check('compliance radar NOI', 'Notice of Intent not filed yet');

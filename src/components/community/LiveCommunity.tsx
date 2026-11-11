@@ -44,7 +44,7 @@ const AGE_BANDS = [
   { label: '12+', min: 12, max: 18 },
 ];
 
-/** Community backed by the Kinship service: real families, co-ops, and field trips nearby. */
+/** Community backed by the Freerange service: real families, co-ops, and field trips nearby. */
 export function LiveCommunity() {
   const c = useColors();
   const [profile, setProfile] = useState<CommunityProfile | null | undefined>(undefined);
@@ -286,7 +286,7 @@ function Families({ radius }: { radius: number }) {
         </Row>
         {finder.error || error ? <T color={c.danger}>{finder.error || error}</T> : null}
         <Stack gap={space.sm}>
-          {finder.data && finder.data.length === 0 ? <Empty icon="🧭" title="No families match yet" body="Try a wider radius. As more families nearby join Kinship, they'll show up here." /> : null}
+          {finder.data && finder.data.length === 0 ? <Empty icon="🧭" title="No families match yet" body="Try a wider radius. As more families nearby join Freerange, they'll show up here." /> : null}
           {(finder.data ?? []).map((f) => (
             <Card key={f.familyId}>
               <Row style={{ justifyContent: 'space-between' }} wrap>

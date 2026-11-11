@@ -138,7 +138,7 @@ async function run() {
   // ───────────────────────────── A creator with no family
   scenario('Creator onboarding');
   await click('Curriculum Creator Studio');
-  await expect('Kinship Studio');
+  await expect('Freerange Studio');
   log(await isDisabled('Open my Studio'), 'profile needs a name');
   await fill('Maple Room Studio', 'Test Creator Co');
   await click('Open my Studio');
@@ -238,7 +238,7 @@ async function run() {
   await fill('https://…', 'example.org/course');
   await click('Load page');
   await sleep(500);
-  await expect('Loading a website needs a Kinship account', 'explains why the page can’t load here');
+  await expect('Loading a website needs a Freerange account', 'explains why the page can’t load here');
   await click('Enter the details myself');
   await fillLabel('Course name', 'Open Garden Course');
   await fillLabel('Author or organization (optional)', 'Garden Project');
@@ -259,7 +259,7 @@ async function run() {
   await expect('Published', 'dashboard sections');
   await expect('Private (family use only)');
   await click('Set up a family');
-  await expect('Welcome to Kinship', 'no family yet → onboarding');
+  await expect('Welcome to Freerange', 'no family yet → onboarding');
   await click('Explore with a demo family');
   await sleep(800);
   await expect('Family Flight Deck');

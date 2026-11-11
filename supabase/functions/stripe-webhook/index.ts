@@ -1,4 +1,4 @@
-// Stripe → Kinship: marks purchases paid (or cancelled) when Checkout finishes.
+// Stripe → Freerange: marks purchases paid (or cancelled) when Checkout finishes.
 // Verifies Stripe's signature, so it must be deployed with JWT verification
 // off (see supabase/config.toml) and STRIPE_WEBHOOK_SECRET set.
 import { createClient } from 'npm:@supabase/supabase-js@2';

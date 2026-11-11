@@ -80,7 +80,7 @@ function ReviewForm({ listing, existing, onClose }: { listing: Listing; existing
           </Row>
         </Stack>
       ) : null}
-      <T v="caption" muted>{owned ? '✓ Shown as a verified purchase.' : 'You haven’t bought this through Kinship, so it won’t carry a verified-purchase badge.'} Reviews show your first name and last initial only.</T>
+      <T v="caption" muted>{owned ? '✓ Shown as a verified purchase.' : 'You haven’t bought this through Freerange, so it won’t carry a verified-purchase badge.'} Reviews show your first name and last initial only.</T>
       {error ? <T color={c.danger}>{error}</T> : null}
       <Row style={{ justifyContent: 'flex-end' }}>
         <Button kind="secondary" title="Cancel" onPress={onClose} />
