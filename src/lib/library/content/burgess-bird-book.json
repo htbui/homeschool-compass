@@ -1,0 +1,1150 @@
+{
+  "key": "burgess-bird-book",
+  "title": "The Burgess Bird Book for Children",
+  "sourceTitle": "The Burgess Bird Book for Children",
+  "author": "Thornton W. Burgess",
+  "year": 1919,
+  "sourceUrl": "https://www.gutenberg.org/ebooks/3074",
+  "readUrl": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Project Gutenberg eBook #3074: public domain in the USA; first published 1919 (Little, Brown), before 1930",
+  "subjects": [
+    "science"
+  ],
+  "gradeMin": 1,
+  "gradeMax": 4,
+  "philosophies": [
+    "charlotte_mason",
+    "nature_forest"
+  ],
+  "lessonsPerWeek": 3,
+  "minutesPerLesson": 30,
+  "parentInvolvement": "high",
+  "familyStyle": true,
+  "cover": "🐦",
+  "color": "#3D9970",
+  "description": "A classic 1919 read-aloud in which Peter Rabbit gossips with Jenny Wren and meets dozens of real North American birds, from robins and bluebirds to owls and crossbills. Each sitting is one chapter read aloud, a narration, and a nature-study outing or journal page about that chapter's birds. Siblings can do it together, and the full text is free online.",
+  "includes": [
+    "45 lessons in 6 units, one per chapter",
+    "Link to the free full text for every chapter",
+    "A nature-study activity for the real bird species in each chapter",
+    "Narration prompts and comprehension questions with answers",
+    "Follows the birds through a full year, from spring arrivals to winter visitors"
+  ],
+  "units": [
+    {
+      "title": "Unit 1: Spring Comes to the Old Orchard (Chapters I–VIII)",
+      "lessons": [
+        {
+          "title": "Chapter I: Jenny Wren Arrives",
+          "steps": [
+            "Read Chapter I, \"Jenny Wren Arrives\", aloud together",
+            "Ask your child to narrate (tell back) the chapter in their own words",
+            "Nature study (House Wren): Listen outside for a loud, bubbly song from a small brown bird with its tail cocked up; that may be a House Wren"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter I",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0001"
+            }
+          ],
+          "questions": [
+            "Why does Jenny Wren leave the Old Orchard every fall?",
+            "What color is Jenny Wren's suit, and why does she like it?"
+          ],
+          "answers": [
+            "In winter there is no food for her there, so she goes south where there is food",
+            "Brown; it is neat and helps her get out of sight in a hurry"
+          ],
+          "notes": "Start a nature journal today; the House Wren can be its first page."
+        },
+        {
+          "title": "Chapter II: The Old Orchard Bully",
+          "steps": [
+            "Read Chapter II, \"The Old Orchard Bully\", aloud together",
+            "Have your child tell the story back, including what they learned about the bird",
+            "Nature study (House Sparrow (English Sparrow)): Look for House Sparrows near buildings or parking lots; sketch the male's black throat and the white bar on his wing"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter II",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0002"
+            }
+          ],
+          "questions": [
+            "Where had Jenny Wren's old house been?",
+            "What made all the birds stop quarreling and join together?"
+          ],
+          "answers": [
+            "In a hole in one of the old apple trees",
+            "Black Pussy the cat came creeping through the Old Orchard"
+          ],
+          "notes": "Peter says the English Sparrow doesn't belong in this country: it was brought to America from Europe."
+        },
+        {
+          "title": "Chapter III: Jenny Has a Good Word for Some Sparrows",
+          "steps": [
+            "Read Chapter III, \"Jenny Has a Good Word for Some Sparrows\", aloud together",
+            "Narration: your child retells the chapter; younger ones can act out Peter's visit",
+            "Nature study (Song Sparrow, White-throated Sparrow, and Fox Sparrow): Look in damp, brushy places for a streaky brown sparrow singing a cheerful song; listen for the White-throat's slow whistle in spring or fall"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter III",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0003"
+            }
+          ],
+          "questions": [
+            "Where does Little Friend the Song Sparrow like to build his nest?",
+            "What does Peter think Whitethroat's song says?",
+            "What is funny about the way Scratcher the Fox Sparrow scratches in the leaves?"
+          ],
+          "answers": [
+            "On or near the ground, never more than a foot or two up",
+            "\"I live happ-i-ly, happ-i-ly, happ-i-ly\"",
+            "He uses both feet at once"
+          ]
+        },
+        {
+          "title": "Chapter IV: Chippy, Sweetvoice, and Dotty",
+          "steps": [
+            "Read Chapter IV, \"Chippy, Sweetvoice, and Dotty\", aloud together",
+            "Ask your child to tell back what Peter found out in this chapter",
+            "Nature study (Chipping Sparrow, American Tree Sparrow, and Vesper Sparrow): Look for a tiny sparrow with a rusty cap on lawns or in trees; draw its white eye-line next to Bully from chapter 2"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter IV",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0004"
+            }
+          ],
+          "questions": [
+            "What does Chippy line his nest with?",
+            "How can you tell Dotty the Tree Sparrow from Chippy?",
+            "Where did Sweetvoice the Vesper Sparrow build his nest?"
+          ],
+          "answers": [
+            "Long horsehair from a horse's tail or mane",
+            "Dotty is bigger and has a round black dot in the middle of his breast",
+            "In a hoofprint of Bossy the Cow"
+          ]
+        },
+        {
+          "title": "Chapter V: Peter Learns Something He Hadn't Guessed",
+          "steps": [
+            "Read Chapter V, \"Peter Learns Something He Hadn't Guessed\", aloud together",
+            "Narration: your child describes the bird(s) from memory: size, colors, voice, and nest",
+            "Nature study (Eastern Bluebird and American Robin): Watch a robin hunting on a lawn: count how many steps it runs before it stops, tilts its head, and pulls up a worm"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter V",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0005"
+            }
+          ],
+          "questions": [
+            "Which bird family do bluebirds and robins both belong to?",
+            "What do robins use for the foundation of their nest?",
+            "Where was the Bluebirds' nest?"
+          ],
+          "answers": [
+            "The Thrush family",
+            "Mud",
+            "In a hole in an old fence post"
+          ]
+        },
+        {
+          "title": "Chapter VI: An Old Friend In a New Home",
+          "steps": [
+            "Read Chapter VI, \"An Old Friend In a New Home\", aloud together",
+            "Ask your child to narrate (tell back) the chapter in their own words",
+            "Nature study (Eastern Phoebe and Least Flycatcher): Sit quietly near water and watch for a bird that darts out from a perch, snaps up a flying insect, and returns, wagging its tail"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter VI",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0006"
+            }
+          ],
+          "questions": [
+            "Where did Mr. and Mrs. Phoebe build their nest this year?",
+            "Why do Phoebes get back in spring before the other flycatchers?",
+            "How did Chebec the Least Flycatcher get his name?"
+          ],
+          "answers": [
+            "Under the bridge over the Laughing Brook",
+            "They don't go as far south in winter",
+            "He keeps calling \"Chebec!\" over and over; \"Least\" because he is the smallest of the family"
+          ]
+        },
+        {
+          "title": "Chapter VII: The Watchman of the Old Orchard",
+          "steps": [
+            "Read Chapter VII, \"The Watchman of the Old Orchard\", aloud together",
+            "Have your child tell the story back, including what they learned about the bird",
+            "Nature study (Eastern Kingbird and Great Crested Flycatcher): Watch the sky for a small bird chasing a hawk or crow; in your journal, draw the Kingbird's white tail band and compare it with the Phoebe from chapter 6"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter VII",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0007"
+            }
+          ],
+          "questions": [
+            "Why is Scrapper called the Kingbird?",
+            "What strange thing did Cresty ask Peter to look for?",
+            "What does Scrapper mostly eat?"
+          ],
+          "answers": [
+            "Because he is fearless and chases away even big hawks",
+            "A snake's cast-off skin",
+            "All kinds of flying insects (only a few bees, mostly drones)"
+          ]
+        },
+        {
+          "title": "Chapter VIII: Old Clothes and Old Houses",
+          "steps": [
+            "Read Chapter VIII, \"Old Clothes and Old Houses\", aloud together",
+            "Narration: your child retells the chapter; younger ones can act out Peter's visit",
+            "Nature study (Eastern Wood-Pewee (and the birds that nest in old woodpecker holes)): On a walk, look for round holes in tree trunks; list which birds from the book might use an old woodpecker hole"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter VIII",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0008"
+            }
+          ],
+          "questions": [
+            "What does Pewee keep calling?",
+            "Why do Cresty and his wife want a snake skin?",
+            "Name two birds besides Jenny Wren that use old woodpecker houses."
+          ],
+          "answers": [
+            "His own name: \"Pee-wee!\"",
+            "They always put a piece of snake skin in their nest",
+            "Any two of: Cresty, Bully the English Sparrow, Winsome Bluebird, Skimmer the Tree Swallow, the Nuthatch, the Chickadee, the Flicker, the Sparrow Hawk, the Screech Owl"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 2: Meadow, Pool, and Orchard Neighbors (Chapters IX–XVI)",
+      "lessons": [
+        {
+          "title": "Chapter IX: Longbill and Teeter",
+          "steps": [
+            "Read Chapter IX, \"Longbill and Teeter\", aloud together",
+            "Ask your child to tell back what Peter found out in this chapter",
+            "Nature study (American Woodcock and Spotted Sandpiper): If you are near a pond or stream, watch for a small shorebird that bobs its tail up and down as it walks; draw a Woodcock's long bill and big, far-back eyes"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter IX",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0009"
+            }
+          ],
+          "questions": [
+            "How does Longbill catch worms deep in the ground?",
+            "Why must the Woodcock fly south when the ground freezes?",
+            "Why didn't Peter see Teeter's eggs?"
+          ],
+          "answers": [
+            "He pushes his long bill in, feels the worm, and opens just the tip of the upper bill to grab it",
+            "He can only probe for worms in soft ground",
+            "They were in a hollow in the sand and looked just like the pebbles around them"
+          ]
+        },
+        {
+          "title": "Chapter X: Redwing and Yellow Wing",
+          "steps": [
+            "Read Chapter X, \"Redwing and Yellow Wing\", aloud together",
+            "Narration: your child describes the bird(s) from memory: size, colors, voice, and nest",
+            "Nature study (Red-winged Blackbird and Northern Flicker): Look in marshes or wet fields for a black bird with red shoulder patches; in flight, look for a flicker's white rump and golden wing linings"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter X",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0010"
+            }
+          ],
+          "questions": [
+            "How does Redwing get his name?",
+            "How is Mrs. Redwing dressed?",
+            "What family does Yellow Wing the Flicker belong to?"
+          ],
+          "answers": [
+            "From the red patch on the bend of each wing",
+            "In plain grayish-brown with darker streaks, no bright feathers",
+            "The Woodpecker family"
+          ]
+        },
+        {
+          "title": "Chapter XI: Drummers and Carpenters",
+          "steps": [
+            "Read Chapter XI, \"Drummers and Carpenters\", aloud together",
+            "Ask your child to narrate (tell back) the chapter in their own words",
+            "Nature study (Downy Woodpecker, Hairy Woodpecker, and Red-headed Woodpecker): Listen for a woodpecker drumming; if you can see it, decide whether it is a Downy or a Hairy by its size and outer tail feathers"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XI",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0011"
+            }
+          ],
+          "questions": [
+            "Why does Downy drum on a hollow limb?",
+            "How can you tell Hairy from Downy?",
+            "Why does Yellow Wing spend so much time on the ground?"
+          ],
+          "answers": [
+            "For happiness, the way other birds sing",
+            "Hairy is bigger and his outer tail feathers are all white; Downy's have black bars",
+            "He is hunting ants"
+          ]
+        },
+        {
+          "title": "Chapter XII: Some Unlikely Relatives",
+          "steps": [
+            "Read Chapter XII, \"Some Unlikely Relatives\", aloud together",
+            "Have your child tell the story back, including what they learned about the bird",
+            "Nature study (Brown-headed Cowbird and Baltimore Oriole): Look high in tall trees, especially elms, for an oriole's hanging bag-shaped nest; draw it in your journal"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XII",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0012"
+            }
+          ],
+          "questions": [
+            "What did Sally Sly the Cowbird do in Chebec's nest?",
+            "What is the Orioles' nest like?",
+            "Name two birds Jenny says belong to the Blackbird family."
+          ],
+          "answers": [
+            "She laid her egg there so Chebec would raise her baby",
+            "A deep hanging pocket woven of grass, string, hair, and bark",
+            "Any two of: orioles, meadowlarks, grackles, bobolinks, cowbirds, Redwing"
+          ]
+        },
+        {
+          "title": "Chapter XIII: More of the Blackbird Family",
+          "steps": [
+            "Read Chapter XIII, \"More of the Blackbird Family\", aloud together",
+            "Narration: your child retells the chapter; younger ones can act out Peter's visit",
+            "Nature study (Orchard Oriole and Bobolink): In your journal, draw the Orchard Oriole beside the Baltimore Oriole from chapter 12 and color in how their suits differ; in grassy fields, listen for a bubbling song sung in flight"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XIII",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0013"
+            }
+          ],
+          "questions": [
+            "How is Weaver the Orchard Oriole's suit different from Goldy's?",
+            "Where do Bobolinks build their nest?",
+            "How did Bubbling Bob protect his nest from Jimmy Skunk?"
+          ],
+          "answers": [
+            "Where Goldy is orange, Weaver is chestnut",
+            "On the ground in the meadow grass",
+            "He led Jimmy away from it by flying down in the grass far from the real nest"
+          ]
+        },
+        {
+          "title": "Chapter XIV: Bob White and Carol the Meadow Lark",
+          "steps": [
+            "Read Chapter XIV, \"Bob White and Carol the Meadow Lark\", aloud together",
+            "Ask your child to tell back what Peter found out in this chapter",
+            "Nature study (Northern Bobwhite and Eastern Meadowlark): Listen in open fields for a whistled \"Bob-white!\" or a meadowlark's sweet song from a fence post; draw the meadowlark's black V on its yellow breast"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XIV",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0014"
+            }
+          ],
+          "questions": [
+            "How did Mrs. Meadow Lark hide the way to her nest?",
+            "Why does Mrs. Meadow Lark land away from her nest and walk to it?",
+            "Where was Mrs. Bob White's nest?"
+          ],
+          "answers": [
+            "With a little tunnel of grass leading to it",
+            "So no one watching will find the nest",
+            "In a clump of tall weeds right beside a busy cow path"
+          ]
+        },
+        {
+          "title": "Chapter XV: A Swallow and One Who Isn't",
+          "steps": [
+            "Read Chapter XV, \"A Swallow and One Who Isn't\", aloud together",
+            "Narration: your child describes the bird(s) from memory: size, colors, voice, and nest",
+            "Nature study (Tree Swallow and Chimney Swift): On a warm evening, watch for swifts (\"cigars with wings\") chattering over chimneys, and for swallows gliding low over fields or water"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XV",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0015"
+            }
+          ],
+          "questions": [
+            "Why does Skimmer have a small bill and short legs?",
+            "Is Sooty the Chimney Swift a swallow?",
+            "How does Sooty gather sticks for his nest?"
+          ],
+          "answers": [
+            "He catches insects in the air and almost never walks or hops",
+            "No, he is a swift",
+            "He snaps off dead twigs with his feet while flying"
+          ]
+        },
+        {
+          "title": "Chapter XVI: A Robber in the Old Orchard",
+          "steps": [
+            "Read Chapter XVI, \"A Robber in the Old Orchard\", aloud together",
+            "Ask your child to narrate (tell back) the chapter in their own words",
+            "Nature study (Purple Martin and Barn Swallow): Look for a swallow with a deeply forked tail around barns or fields; draw its forked tail in your journal next to the Tree Swallow from chapter 15"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XVI",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0016"
+            }
+          ],
+          "questions": [
+            "Why does Twitter the Purple Martin live in a house with many rooms?",
+            "Where does Forktail the Barn Swallow build his nest?",
+            "Who finally drove Mr. Blacksnake away from Skimmer's nest?"
+          ],
+          "answers": [
+            "He loves company and likes to live with many of his own kind",
+            "Inside Farmer Brown's barn, of mud and straw lined with feathers",
+            "Farmer Brown's boy"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 3: Robbers, Hunters, and Fishermen (Chapters XVII–XXIII)",
+      "lessons": [
+        {
+          "title": "Chapter XVII: More Robbers",
+          "steps": [
+            "Read Chapter XVII, \"More Robbers\", aloud together",
+            "Have your child tell the story back, including what they learned about the bird",
+            "Nature study (Blue Jay and American Crow): Listen for a crow's \"caw\" or a jay's loud alarm call; notice whether other animals react, the way the Green Forest folk do"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XVII",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0017"
+            }
+          ],
+          "questions": [
+            "Who robbed the Robins' eggs, and who robbed the Chebecs'?",
+            "What clue showed it was Sammy Jay?",
+            "What good thing did Sammy Jay do for Peter?"
+          ],
+          "answers": [
+            "Blacky the Crow robbed the Robins; Sammy Jay robbed the Chebecs",
+            "A blue and white feather under Chebec's nest",
+            "He warned Peter that Reddy Fox was coming"
+          ]
+        },
+        {
+          "title": "Chapter XVIII: Some Homes in the Green Forest",
+          "steps": [
+            "Read Chapter XVIII, \"Some Homes in the Green Forest\", aloud together",
+            "Narration: your child retells the chapter; younger ones can act out Peter's visit",
+            "Nature study (Ovenbird and Red-tailed Hawk): Watch the sky for a big hawk circling; if it flies low, look for a reddish tail. In the woods, listen for a loud \"teacher, teacher, teacher!\""
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XVIII",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0018"
+            }
+          ],
+          "questions": [
+            "Why is Teacher called the Oven Bird?",
+            "What does Blacky do for Mrs. Blacky while she sits on the eggs?",
+            "How did Redtail the Hawk get his name?"
+          ],
+          "answers": [
+            "His nest on the ground is roofed over like an oven",
+            "He brings her food",
+            "His tail is a rich reddish-brown"
+          ]
+        },
+        {
+          "title": "Chapter XIX: A Maker of Thunder and a Friend in Black",
+          "steps": [
+            "Read Chapter XIX, \"A Maker of Thunder and a Friend in Black\", aloud together",
+            "Ask your child to tell back what Peter found out in this chapter",
+            "Nature study (Ruffed Grouse and Common Grackle): Look at a grackle or starling in bright sun and notice how its black feathers shine with changing colors (iridescence); draw a grackle next to the Crow from chapter 17 to show the size difference"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XIX",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0019"
+            }
+          ],
+          "questions": [
+            "What makes Strutter's 'thunder'?",
+            "Why didn't Peter see Mrs. Grouse on her nest?",
+            "What color are Creaker the Grackle's eyes?"
+          ],
+          "answers": [
+            "His wings beating faster and faster",
+            "Her brown cloak matched the dead leaves all around her",
+            "Yellow"
+          ]
+        },
+        {
+          "title": "Chapter XX: A Fisherman Robbed",
+          "steps": [
+            "Read Chapter XX, \"A Fisherman Robbed\", aloud together",
+            "Narration: your child describes the bird(s) from memory: size, colors, voice, and nest",
+            "Nature study (Osprey and Bald Eagle): If you live near water, watch for a big hawk hovering and then diving feet-first for a fish; in your journal, draw the Bald Eagle's white head and tail beside the Osprey's white underparts"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XX",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0020"
+            }
+          ],
+          "questions": [
+            "How does Plunger the Osprey catch fish?",
+            "How did King Eagle get Plunger's fish?",
+            "Do young Bald Eagles have white heads?"
+          ],
+          "answers": [
+            "He circles high, hovers, then plunges into the water and grabs the fish with his curved claws",
+            "He chased Plunger until he dropped it, then caught it before it hit the water",
+            "No; they get white heads only when they grow up"
+          ]
+        },
+        {
+          "title": "Chapter XXI: A Fishing Party",
+          "steps": [
+            "Read Chapter XXI, \"A Fishing Party\", aloud together",
+            "Ask your child to narrate (tell back) the chapter in their own words",
+            "Nature study (Great Blue Heron and Belted Kingfisher): At a pond or stream, watch for a tall heron standing still and a kingfisher diving head-first; listen for the kingfisher's loud rattle"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXI",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0021"
+            }
+          ],
+          "questions": [
+            "How is Longlegs' way of fishing different from Plunger's?",
+            "How does Longlegs carry his neck when he flies?",
+            "Where do kingfishers make their home?"
+          ],
+          "answers": [
+            "Longlegs stands still and waits for fish to come to him; Plunger hunts from the air",
+            "Folded back on his shoulders",
+            "In a hole they dig in a high, gravelly bank near water"
+          ]
+        },
+        {
+          "title": "Chapter XXII: Some Feathered Diggers",
+          "steps": [
+            "Read Chapter XXII, \"Some Feathered Diggers\", aloud together",
+            "Have your child tell the story back, including what they learned about the bird",
+            "Nature study (Bank Swallow and American Kestrel (Sparrow Hawk)): Look for a small falcon perched on a wire or dead tree, or hovering over a field; look along sandy banks for rows of small holes"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXII",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0022"
+            }
+          ],
+          "questions": [
+            "Where does Banker the Bank Swallow live?",
+            "What does Killy the Sparrow Hawk mostly eat?",
+            "What kind of nest did Mrs. Longlegs have?"
+          ],
+          "answers": [
+            "In a hole he digs in a sandy bank, near many other Bank Swallows",
+            "Grasshoppers, insects, and meadow mice",
+            "A loose platform of sticks in a tree"
+          ]
+        },
+        {
+          "title": "Chapter XXIII: Some Big Mouths",
+          "steps": [
+            "Read Chapter XXIII, \"Some Big Mouths\", aloud together",
+            "Narration: your child retells the chapter; younger ones can act out Peter's visit",
+            "Nature study (Common Nighthawk and Eastern Whip-poor-will): On a summer evening, watch the sky for a nighthawk with white wing patches and listen for its call or its booming dive"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXIII",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0023"
+            }
+          ],
+          "questions": [
+            "What makes the 'boom' when Boomer dives?",
+            "Where does Mrs. Nighthawk lay her eggs?",
+            "How can you tell the Whip-poor-will from the Nighthawk?"
+          ],
+          "answers": [
+            "The wind rushing through his wing feathers as he turns upward",
+            "On the bare ground or a flat rock; she builds no nest",
+            "The Whip-poor-will has no white patches on its wings"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 4: Warblers and Bright Singers (Chapters XXIV–XXX)",
+      "lessons": [
+        {
+          "title": "Chapter XXIV: The Warblers Arrive",
+          "steps": [
+            "Read Chapter XXIV, \"The Warblers Arrive\", aloud together",
+            "Ask your child to tell back what Peter found out in this chapter",
+            "Nature study (American Redstart and Yellow Warbler): In spring, look for tiny, busy birds flitting in the treetops; try to spot a black-and-orange Redstart or an all-yellow warbler"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXIV",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0024"
+            }
+          ],
+          "questions": [
+            "Which bigger bird does Zee Zee the Redstart remind Peter of?",
+            "How did Sunshine fool Sally Sly the Cowbird?",
+            "What soft material do the Yellow Warblers always use in their nest?"
+          ],
+          "answers": [
+            "Goldy the Baltimore Oriole",
+            "He and his mate built a new floor in the nest right over her egg",
+            "Fern-cotton"
+          ]
+        },
+        {
+          "title": "Chapter XXV: Three Cousins Quite Unlike",
+          "steps": [
+            "Read Chapter XXV, \"Three Cousins Quite Unlike\", aloud together",
+            "Narration: your child describes the bird(s) from memory: size, colors, voice, and nest",
+            "Nature study (Black-and-white Warbler, Common Yellowthroat, and Yellow-breasted Chat): Look for a small striped bird creeping up and down tree trunks; in brushy places, watch for a yellow bird wearing a black mask"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXV",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0025"
+            }
+          ],
+          "questions": [
+            "How is Creeper the Black and White Warbler different from the other warblers?",
+            "How can you always tell Mummer the Yellow-throat?",
+            "Which is the largest of the warbler family?"
+          ],
+          "answers": [
+            "He creeps along tree trunks and limbs instead of flitting about in the leaves",
+            "By the black mask across his face",
+            "Chut-Chut the Yellow-breasted Chat"
+          ]
+        },
+        {
+          "title": "Chapter XXVI: Peter Gets a Lame Neck",
+          "steps": [
+            "Read Chapter XXVI, \"Peter Gets a Lame Neck\", aloud together",
+            "Ask your child to narrate (tell back) the chapter in their own words",
+            "Nature study (Northern Parula, Yellow-rumped (Myrtle) Warbler, and Magnolia Warbler): In your journal, make a warbler page: draw the Parula, Myrtle, and Magnolia warblers and color in the yellow patches that help tell them apart"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXVI",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0026"
+            }
+          ],
+          "questions": [
+            "Where do Sprite the Parula Warbler and his mate build their nest?",
+            "How did Peter recognize Fidget the Myrtle Warbler?",
+            "Where do Fidget and Weechi like to build?"
+          ],
+          "answers": [
+            "Inside a hanging bunch of gray moss",
+            "By his yellow cap, yellow sides, and yellow patch at the base of his tail",
+            "In little hemlock trees, not far from the ground"
+          ]
+        },
+        {
+          "title": "Chapter XXVII: A New Friend and an Old One",
+          "steps": [
+            "Read Chapter XXVII, \"A New Friend and an Old One\", aloud together",
+            "Have your child tell the story back, including what they learned about the bird",
+            "Nature study (Northern Cardinal and Gray Catbird): Listen in bushes and hedges for a cat-like \"meow\"; look for a red cardinal, and notice how different the plainer female looks"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXVII",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0027"
+            }
+          ],
+          "questions": [
+            "How does Glory the Cardinal help when there is a second family?",
+            "Why is Kitty called the Catbird?",
+            "What is special about Kitty's song?"
+          ],
+          "answers": [
+            "He takes care of the first babies so Mrs. Cardinal can sit on the second eggs",
+            "One of his calls sounds like a cat's meow",
+            "It is made of bits of other birds' songs, plus notes of his own"
+          ]
+        },
+        {
+          "title": "Chapter XXVIII: Peter Sees Rosebreast and Finds Redcoat",
+          "steps": [
+            "Read Chapter XXVIII, \"Peter Sees Rosebreast and Finds Redcoat\", aloud together",
+            "Narration: your child retells the chapter; younger ones can act out Peter's visit",
+            "Nature study (Rose-breasted Grosbeak and Scarlet Tanager): Draw the male Rose-breasted Grosbeak and Scarlet Tanager in your journal, then draw each one's mate beside him; compare with the Cardinals from chapter 27"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0028"
+            }
+          ],
+          "questions": [
+            "Why do farmers like Grosbeaks in the potato patch?",
+            "How did Redcoat the Tanager hurt his wing?",
+            "Who helped Redcoat?"
+          ],
+          "answers": [
+            "They eat lots of potato bugs",
+            "Dodging Broadwing the Hawk, he flew into a sharp dead twig that went through his wing",
+            "Farmer Brown's boy, who gently worked the twig out"
+          ]
+        },
+        {
+          "title": "Chapter XXIX: The Constant Singers",
+          "steps": [
+            "Read Chapter XXIX, \"The Constant Singers\", aloud together",
+            "Ask your child to tell back what Peter found out in this chapter",
+            "Nature study (Red-eyed Vireo, Warbling Vireo, and Yellow-throated Vireo): On a summer day, listen in tall trees for a bird that keeps singing short phrases over and over all day long"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXIX",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0029"
+            }
+          ],
+          "questions": [
+            "How did Redeye get his name?",
+            "What odd thing does Redeye like to put in his nest?",
+            "What happened when the Cowbird egg hatched in Redeye's nest?"
+          ],
+          "answers": [
+            "His eyes are red",
+            "A piece of paper",
+            "The big young Cowbird took most of the food and pushed one of Redeye's babies out of the nest"
+          ]
+        },
+        {
+          "title": "Chapter XXX: Jenny Wren's Cousins",
+          "steps": [
+            "Read Chapter XXX, \"Jenny Wren's Cousins\", aloud together",
+            "Narration: your child describes the bird(s) from memory: size, colors, voice, and nest",
+            "Nature study (Brown Thrasher and Northern Mockingbird): Listen for a bird that copies other birds' songs; then draw the Brown Thrasher next to the Catbird from chapter 27, since they belong to the same family"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXX",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0030"
+            }
+          ],
+          "questions": [
+            "Why is Brownie called a Thrasher?",
+            "Is Brownie the Thrasher a thrush?",
+            "How did Mocker fool Peter?"
+          ],
+          "answers": [
+            "Because he thrashes his long tail around so much",
+            "No; he is related to the Mockingbird and the Catbird",
+            "He whistled exactly like Glory the Cardinal"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 5: Summer Songs and Farewells (Chapters XXXI–XXXVII)",
+      "lessons": [
+        {
+          "title": "Chapter XXXI: Voices of the Dusk",
+          "steps": [
+            "Read Chapter XXXI, \"Voices of the Dusk\", aloud together",
+            "Ask your child to narrate (tell back) the chapter in their own words",
+            "Nature study (Wood Thrush, Hermit Thrush, and Veery): Go outside at dusk and sit very still for five minutes; listen for a flute-like evening song and write down every bird voice you hear"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXI",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0031"
+            }
+          ],
+          "questions": [
+            "Which bird does Melody the Wood Thrush say is the most beautiful singer?",
+            "What does Melody use in his nest that Welcome Robin also uses?",
+            "Where does the Hermit Thrush build its nest?"
+          ],
+          "answers": [
+            "His cousin Hermit the Hermit Thrush",
+            "Mud",
+            "On the ground"
+          ]
+        },
+        {
+          "title": "Chapter XXXII: Peter Saves a Friend and Learns Something",
+          "steps": [
+            "Read Chapter XXXII, \"Peter Saves a Friend and Learns Something\", aloud together",
+            "Have your child tell the story back, including what they learned about the bird",
+            "Nature study (Eastern Towhee and Indigo Bunting): Under bushes, listen for a bird noisily scratching in dead leaves; along field edges, look for a small, bright blue bird singing from a treetop"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXII",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0032"
+            }
+          ],
+          "questions": [
+            "How did Peter save Chewink from Reddy Fox?",
+            "What family does Chewink say is the biggest bird family?",
+            "Why is Mrs. Indigo glad she isn't bright blue?"
+          ],
+          "answers": [
+            "He thumped the ground with his feet, his danger signal",
+            "The Finch and Sparrow family",
+            "A bright coat attracts too much attention from enemies"
+          ]
+        },
+        {
+          "title": "Chapter XXXIII: A Royal Dresser and a Late Nester",
+          "steps": [
+            "Read Chapter XXXIII, \"A Royal Dresser and a Late Nester\", aloud together",
+            "Narration: your child retells the chapter; younger ones can act out Peter's visit",
+            "Nature study (Purple Finch and American Goldfinch): Look at the seed heads of dandelions or thistles for goldfinches; draw the male's black cap and yellow body, then the plainer female"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXIII",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0033"
+            }
+          ],
+          "questions": [
+            "Why do the Goldfinches wait until July to build a nest?",
+            "What does Chicoree call as he flies?",
+            "What color is Linnet the Purple Finch?"
+          ],
+          "answers": [
+            "They need thistledown for the nest and plenty of seeds for their young",
+            "\"Chic-o-ree, per-chic-o-ree!\"",
+            "Rose-red"
+          ]
+        },
+        {
+          "title": "Chapter XXXIV: Mourner the Dove and Cuckoo",
+          "steps": [
+            "Read Chapter XXXIV, \"Mourner the Dove and Cuckoo\", aloud together",
+            "Ask your child to tell back what Peter found out in this chapter",
+            "Nature study (Mourning Dove and Yellow-billed Cuckoo): Listen in the morning for a dove's soft, sad-sounding coo; look for hairy tent caterpillar webs in trees and think about which bird eats them"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXIV",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0034"
+            }
+          ],
+          "questions": [
+            "Why does Mourner the Dove swallow gravel?",
+            "What is a dove's nest like?",
+            "What useful thing does Cuckoo eat that few other birds will touch?"
+          ],
+          "answers": [
+            "The little stones help his gizzard grind up the hard seeds he eats",
+            "A flimsy platform of a few sticks",
+            "Hairy tent caterpillars"
+          ]
+        },
+        {
+          "title": "Chapter XXXV: A Butcher and a Hummer",
+          "steps": [
+            "Read Chapter XXXV, \"A Butcher and a Hummer\", aloud together",
+            "Narration: your child describes the bird(s) from memory: size, colors, voice, and nest",
+            "Nature study (Loggerhead Shrike and Ruby-throated Hummingbird): Put out (or find) flowers that hummingbirds visit and watch for one hovering; draw the hummingbird's nest from the description: a tiny cup of plant down covered in lichens"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXV",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0035"
+            }
+          ],
+          "questions": [
+            "Why does Butcher the Shrike stick his food on thorns?",
+            "How did Hummer the Hummingbird get his name?",
+            "How far south does Hummer go for the winter?"
+          ],
+          "answers": [
+            "To store extra food for later, and to hold bigger prey while he tears it apart",
+            "His wings move so fast they hum like a bee",
+            "All the way to South America"
+          ]
+        },
+        {
+          "title": "Chapter XXXVI: A Stranger and a Dandy",
+          "steps": [
+            "Read Chapter XXXVI, \"A Stranger and a Dandy\", aloud together",
+            "Ask your child to narrate (tell back) the chapter in their own words",
+            "Nature study (European Starling and Cedar Waxwing): Look at a flock of starlings in the sun and notice their speckles and shine; if you see waxwings, look for the yellow tip on the tail and red 'wax' on the wings"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXVI",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0036"
+            }
+          ],
+          "questions": [
+            "Where did Speckles the Starling come from?",
+            "What happens to a starling's yellow bill in winter?",
+            "Why are waxwings also called Cedarbirds?"
+          ],
+          "answers": [
+            "From across the ocean, like the English Sparrow",
+            "It turns almost black",
+            "They love to eat cedar berries"
+          ]
+        },
+        {
+          "title": "Chapter XXXVII: Farewells and Welcomes",
+          "steps": [
+            "Read Chapter XXXVII, \"Farewells and Welcomes\", aloud together",
+            "Have your child tell the story back, including what they learned about the bird",
+            "Nature study (Black-capped Chickadee): Hang suet or put out seeds for chickadees and watch them feed upside down; listen for the \"chick-a-dee-dee-dee\" call and the whistled \"fee-bee\" song"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXVII",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0037"
+            }
+          ],
+          "questions": [
+            "What is Tommy Tit's secret for staying warm in winter?",
+            "What does Tommy Tit eat on bare trees in winter?",
+            "What is Tommy Tit's spring love call?"
+          ],
+          "answers": [
+            "Keep your stomach full: food makes heat, and feathers keep it in",
+            "Insect eggs, worms under the bark, and sleeping insects in bark cracks",
+            "A soft whistled \"Phoe-be! Phoe-be!\""
+          ],
+          "notes": "Many birds have left for the south by this chapter. Start a list of birds you still see as the weather turns cold."
+        }
+      ]
+    },
+    {
+      "title": "Unit 6: Winter Visitors (Chapters XXXVIII–XLV)",
+      "lessons": [
+        {
+          "title": "Chapter XXXVIII: Honker and Dippy Arrive",
+          "steps": [
+            "Read Chapter XXXVIII, \"Honker and Dippy Arrive\", aloud together",
+            "Narration: your child retells the chapter; younger ones can act out Peter's visit",
+            "Nature study (Canada Goose and Common Loon): In fall, listen and look up for geese flying in a V; count how many birds are in the V if you see one"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0038"
+            }
+          ],
+          "questions": [
+            "What shape does Honker's flock make when it flies?",
+            "Why is Dippy the Loon so awkward on land?",
+            "Why does Dippy have a sharp, pointed bill instead of a broad one like Honker's?"
+          ],
+          "answers": [
+            "A letter V",
+            "His short legs are set so far back on his body that he can't keep his balance to walk",
+            "He eats fish and needs to hold on to slippery fish"
+          ]
+        },
+        {
+          "title": "Chapter XXXIX: Peter Discovers Two Old Friends",
+          "steps": [
+            "Read Chapter XXXIX, \"Peter Discovers Two Old Friends\", aloud together",
+            "Ask your child to tell back what Peter found out in this chapter",
+            "Nature study (White-breasted Nuthatch and Brown Creeper): Watch tree trunks for a bird walking head-first down (nuthatch) and one spiraling up (creeper); draw arrows in your journal showing which way each one moves"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXIX",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0039"
+            }
+          ],
+          "questions": [
+            "How can Yank-Yank walk head-first down a tree?",
+            "How did the Nuthatch get its name?",
+            "Where does Seep-Seep the Brown Creeper build its nest?"
+          ],
+          "answers": [
+            "He twists one foot around and hooks its claws into the bark to keep from falling",
+            "From cracking ('hatching') nuts wedged in cracks in the bark",
+            "Behind a piece of loose bark on a tree or stub"
+          ]
+        },
+        {
+          "title": "Chapter XL: Some Merry Seed-Eaters",
+          "steps": [
+            "Read Chapter XL, \"Some Merry Seed-Eaters\", aloud together",
+            "Narration: your child describes the bird(s) from memory: size, colors, voice, and nest",
+            "Nature study (American Tree Sparrow and Dark-eyed Junco): After a snow, look for small birds feeding on weed seeds; look for a gray bird with white outer tail feathers that flash when it flies (a junco)"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XL",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0040"
+            }
+          ],
+          "questions": [
+            "Why can Dotty stay all winter when Chippy can't?",
+            "What other name does Slaty the Junco have?",
+            "Who crept up on the seed-eaters in the weedy field?"
+          ],
+          "answers": [
+            "Dotty eats seeds, which he can find in winter; Chippy eats worms and bugs",
+            "Snowbird",
+            "Black Pussy the cat"
+          ],
+          "notes": "Dotty first appeared in chapter 4. Look back at your journal page for Chippy and compare."
+        },
+        {
+          "title": "Chapter XLI: More Friends Come With the Snow",
+          "steps": [
+            "Read Chapter XLI, \"More Friends Come With the Snow\", aloud together",
+            "Ask your child to narrate (tell back) the chapter in their own words",
+            "Nature study (Snow Bunting and Horned Lark): On a snowy day, look in open fields or along roadsides for flocks of birds walking (not hopping) on the snow"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XLI",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0041"
+            }
+          ],
+          "questions": [
+            "Where does Snowflake the Snow Bunting nest?",
+            "Why does Snowflake come south in winter?",
+            "How did Wanderer the Horned Lark get his name?"
+          ],
+          "answers": [
+            "Far north, on the shore of the Polar Sea",
+            "Deep snow up north covers the seeds he needs to eat",
+            "From the two little tufts of black feathers above his eyes that look like horns"
+          ]
+        },
+        {
+          "title": "Chapter XLII: Peter Learns Something About Spooky",
+          "steps": [
+            "Read Chapter XLII, \"Peter Learns Something About Spooky\", aloud together",
+            "Have your child tell the story back, including what they learned about the bird",
+            "Nature study (Eastern Screech-Owl): Look for holes in old trees where an owl might roost; on a quiet evening, listen for a screech owl's soft trill or whinny"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XLII",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0042"
+            }
+          ],
+          "questions": [
+            "Why couldn't Peter eat the bark in Farmer Brown's young orchard?",
+            "Why does Spooky turn his whole head to look sideways?",
+            "What does Spooky mostly eat?"
+          ],
+          "answers": [
+            "Farmer Brown had wrapped wire netting around the trees",
+            "His eyes are fixed in their sockets and can't move",
+            "Mice and shrews in winter, and grasshoppers and other insects in summer"
+          ]
+        },
+        {
+          "title": "Chapter XLIII: Queer Feet and a Queerer Bill",
+          "steps": [
+            "Read Chapter XLIII, \"Queer Feet and a Queerer Bill\", aloud together",
+            "Narration: your child retells the chapter; younger ones can act out Peter's visit",
+            "Nature study (Ruffed Grouse (in winter) and Red Crossbill): Look at a pine cone and try to find the seeds hidden under its scales; think about how a crossbill's crossed bill works like scissors"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XLIII",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0043"
+            }
+          ],
+          "questions": [
+            "What are Strutter's winter 'snowshoes'?",
+            "What is strange about Snipper the Crossbill's bill?",
+            "What does Snipper like to eat best?"
+          ],
+          "answers": [
+            "Little horny points that grow out from the sides of his toes so he doesn't sink in the snow",
+            "The tips of the upper and lower halves cross each other",
+            "Seeds from the cones of evergreen trees"
+          ],
+          "notes": "Strutter the Ruffed Grouse first appeared in chapter 19. Compare his summer and winter feet."
+        },
+        {
+          "title": "Chapter XLIV: More Folks in Red",
+          "steps": [
+            "Read Chapter XLIV, \"More Folks in Red\", aloud together",
+            "Ask your child to tell back what Peter found out in this chapter",
+            "Nature study (Pine Grosbeak and Common Redpoll): Look for small flocks feeding in birch trees or weedy fields in winter; notice whether the whole flock takes off at the same moment"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XLIV",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0044"
+            }
+          ],
+          "questions": [
+            "Which summer bird is Piny the Pine Grosbeak's cousin?",
+            "Why does Mrs. Grosbeak look for cedar, ash, and sumac trees?",
+            "How did Redpoll get his name?"
+          ],
+          "answers": [
+            "Rosebreast the Rose-breasted Grosbeak",
+            "They keep their berries all winter, which she can eat",
+            "From his red cap"
+          ]
+        },
+        {
+          "title": "Chapter XLV: Peter Sees Two Terrible Feathered Hunters",
+          "steps": [
+            "Read Chapter XLV, \"Peter Sees Two Terrible Feathered Hunters\", aloud together",
+            "Narration: your child describes the bird(s) from memory: size, colors, voice, and nest",
+            "Nature study (Northern Goshawk and Great Horned Owl): Make a final journal page: list every bird you have seen this year, and mark which ones you also met in this book"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XLV",
+              "url": "https://www.gutenberg.org/cache/epub/3074/pg3074-images.html#link2HCH0045"
+            }
+          ],
+          "questions": [
+            "How did Peter escape from Terror the Goshawk?",
+            "Why did Peter sit perfectly still when he heard Hooty's call?",
+            "When do Great Horned Owls start nesting?"
+          ],
+          "answers": [
+            "He dove into a hollow log",
+            "Hooty calls to scare animals into moving so his sharp ears can find them",
+            "In late winter, while there is still snow and ice"
+          ],
+          "notes": "This is the last chapter. A fun follow-up is to reread chapter 1 and see how much more you know about the Old Orchard birds now."
+        }
+      ]
+    }
+  ]
+}

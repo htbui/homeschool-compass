@@ -1,0 +1,5073 @@
+{
+  "key": "intermediate-language-lessons",
+  "title": "Intermediate Language Lessons",
+  "sourceTitle": "Intermediate Language Lessons",
+  "author": "Emma Serl",
+  "year": 1914,
+  "sourceUrl": "https://archive.org/details/intermediatelan00serlgoog",
+  "readUrl": "https://archive.org/details/intermediatelan00serlgoog/page/n19/mode/1up",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Copyright 1914 by Emma Serl, American Book Company (title page of the Internet Archive scan of Harvard's copy); published before 1930, so public domain in the USA; Internet Archive marks it NOT_IN_COPYRIGHT with full public view",
+  "subjects": [
+    "writing",
+    "reading"
+  ],
+  "gradeMin": 4,
+  "gradeMax": 6,
+  "philosophies": [
+    "charlotte_mason",
+    "classical",
+    "traditional"
+  ],
+  "lessonsPerWeek": 4,
+  "minutesPerLesson": 30,
+  "parentInvolvement": "medium",
+  "familyStyle": false,
+  "cover": "✍️",
+  "color": "#2F6B5E",
+  "description": "Emma Serl's classic 1914 language book for grades 4–6, the sequel to Primary Language Lessons. Each day mixes poems and stories to study, picture study, dictation, letter writing, and short grammar lessons, building up to the parts of speech. The full book is free to read online.",
+  "includes": [
+    "209 lessons covering all 301 of the book's lessons in 23 units",
+    "Poems to memorize, picture study, dictation, letter writing, and debate",
+    "Grammar from capitals and commas up to all eight parts of speech",
+    "Answers for grammar, punctuation, and fact questions",
+    "A link to the free scanned book for every lesson"
+  ],
+  "units": [
+    {
+      "title": "Part One: Lessons 1–12",
+      "lessons": [
+        {
+          "title": "Lesson 1: The Finding of Moses",
+          "steps": [
+            "Read the story of the finding of Moses together",
+            "Tell the story back in your own words",
+            "Describe the painting by Delaroche that goes with it"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 1",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n19/mode/1up"
+            }
+          ],
+          "pages": "pp. 1–2",
+          "questions": [
+            "Who watched the baby from far off?",
+            "Why did the princess name the baby Moses?"
+          ],
+          "answers": [
+            "His sister Miriam",
+            "Because she drew him out of the water"
+          ]
+        },
+        {
+          "title": "Lesson 2: Names of Persons and Places",
+          "steps": [
+            "From the Moses story, copy the names of the country, the baby, his sister, and the king",
+            "Make your own rule for capital letters in names",
+            "Write the names of two countries, four cities, two states, two famous men, five boys, and five girls"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 2",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n20/mode/1up"
+            }
+          ],
+          "pages": "pp. 2–3",
+          "questions": [
+            "What country is named in the Moses story?",
+            "What kind of letter begins the name of a person or place?"
+          ],
+          "answers": [
+            "Egypt",
+            "A capital letter"
+          ]
+        },
+        {
+          "title": "Lesson 3: The Stone in the Road",
+          "steps": [
+            "Read the story of the king and the stone",
+            "Tell it again from the book's outline (the king, the people, the stone, those who passed, the miller's boy, the gold)",
+            "Find what the king said at the end and make a rule for the word I"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 3",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n21/mode/1up"
+            }
+          ],
+          "pages": "pp. 3–5",
+          "questions": [
+            "Who finally moved the stone?",
+            "What was hidden under it?",
+            "How is the word I always written?"
+          ],
+          "answers": [
+            "The miller's boy",
+            "A bag of gold",
+            "With a capital letter"
+          ]
+        },
+        {
+          "title": "Lessons 4–5: Selection to Be Memorized; Composition — A Fairy Story",
+          "steps": [
+            "Copy Alice Cary's verse about true worth and begin memorizing it",
+            "Plan a fairy story like \"The Stone in the Road\": a fairy hides a jewel in a well bucket and asks passers-by for water",
+            "Make an outline, then tell the story aloud, starting \"Once upon a time, a fairy...\""
+          ],
+          "links": [
+            {
+              "label": "Read lesson 4",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n23/mode/1up"
+            }
+          ],
+          "pages": "pp. 5–6",
+          "questions": [
+            "Who wrote the verse?",
+            "In the verse, what is \"so kingly\"?"
+          ],
+          "answers": [
+            "Alice Cary",
+            "Kindness"
+          ]
+        },
+        {
+          "title": "Lesson 6: The Wise Fairy",
+          "steps": [
+            "Read Alice Cary's poem \"The Wise Fairy\" aloud",
+            "Explain the third, seventh, and eighth stanzas in your own words",
+            "Tell the story of the good fairy and say which part you like best"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 6",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n24/mode/1up"
+            }
+          ],
+          "pages": "pp. 6–8",
+          "questions": [
+            "What happened to the fairy's gold when someone spent it on jewels or fine silks?",
+            "What is a distaff?"
+          ],
+          "answers": [
+            "It turned into a lump of clay",
+            "A stick that holds flax or wool for spinning"
+          ]
+        },
+        {
+          "title": "Lessons 7–8: Oral Composition; The Sentence",
+          "steps": [
+            "Tell a story of Frank and May: each got two dollars, one spent it wisely and one foolishly",
+            "Learn the three kinds of sentences: statement, question, command",
+            "Write five statements, five questions, and five commands about \"The Wise Fairy\""
+          ],
+          "links": [
+            {
+              "label": "Read lesson 7",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n26/mode/1up"
+            },
+            {
+              "label": "Read lesson 8",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n27/mode/1up"
+            }
+          ],
+          "pages": "pp. 8–11",
+          "questions": [
+            "What mark goes after a statement?",
+            "What mark goes after a question?",
+            "What do we call a sentence that orders something?"
+          ],
+          "answers": [
+            "A period",
+            "A question mark",
+            "A command"
+          ]
+        },
+        {
+          "title": "Lessons 9–10: Picture Study — The Flower Girl; Composition",
+          "steps": [
+            "Look at J. G. Brown's painting \"The Flower Girl\" and talk through the book's questions",
+            "Suggest another name for the picture",
+            "Write the story one of the boys might tell his sister, starting \"As I was going down the street I...\""
+          ],
+          "links": [
+            {
+              "label": "Read lesson 9",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n29/mode/1up"
+            }
+          ],
+          "pages": "pp. 11–12",
+          "questions": [
+            "Why do you think the girl is selling flowers?",
+            "Do you think the boys will buy any?"
+          ]
+        },
+        {
+          "title": "Lesson 11: Use of the Dictionary",
+          "steps": [
+            "Talk about how a dictionary is arranged and how it shows pronunciation",
+            "Race to find each word on the book's list (castle, hedge, orchard, meadow...)",
+            "Copy the words divided into syllables with their pronunciation marks, then say them"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 11",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n30/mode/1up"
+            }
+          ],
+          "pages": "p. 12",
+          "questions": [
+            "In what order are words arranged in the dictionary?"
+          ],
+          "answers": [
+            "Alphabetical order"
+          ]
+        },
+        {
+          "title": "Lesson 12: Correct Use of Words",
+          "steps": [
+            "Read the book's six sentences with me, him and me, you and me",
+            "Write sentences with me, then rewrite them using him and me, you and me, her and me",
+            "Write a sentence with us, then rewrite it with them and us"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 12",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n30/mode/1up"
+            }
+          ],
+          "pages": "pp. 12–13",
+          "questions": [
+            "Fill in: \"Did you call him and ___?\" (I or me)",
+            "Fill in: \"Mother bought candy for you and ___.\" (I or me)"
+          ],
+          "answers": [
+            "me",
+            "me"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part One: Lessons 13–24",
+      "lessons": [
+        {
+          "title": "Lesson 13: The Robin",
+          "steps": [
+            "Read Celia Thaxter's poem \"The Robin\" and begin memorizing it",
+            "Look up other words for caroled, piping, blissful, rapturously, jubilant",
+            "Decide which you like better: the dictionary words or the poet's"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 13",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n31/mode/1up"
+            }
+          ],
+          "pages": "pp. 13–15",
+          "questions": [
+            "What is a single line of poetry called?",
+            "What are the parts a poem is divided into called?",
+            "How does each line of a poem begin?"
+          ],
+          "answers": [
+            "A verse",
+            "Stanzas",
+            "With a capital letter"
+          ]
+        },
+        {
+          "title": "Lessons 14–15: Correct Use of Words; Conversation — Birds",
+          "steps": [
+            "Copy the five \"There ___\" sentences, filling in is or are, then again with was or were",
+            "Sort the book's list of birds: swimmers, waders, birds of prey, seed eaters, singers",
+            "Tell what you know of these birds' habits"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 14",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n33/mode/1up"
+            }
+          ],
+          "pages": "pp. 15–16",
+          "questions": [
+            "\"There ___ a robin in the tree.\" (is or are)",
+            "\"There ___ rain clouds in the sky.\" (is or are)",
+            "Name two swimmers from the bird list"
+          ],
+          "answers": [
+            "is",
+            "are",
+            "The swan and the duck"
+          ]
+        },
+        {
+          "title": "Lesson 16: Composition — Description of a Bird",
+          "steps": [
+            "Read the riddle description and guess the bird",
+            "Write your own description of a bird by the outline: size, nest, color, song, food, other habits",
+            "Read it aloud and let others guess the bird"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 16",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n34/mode/1up"
+            }
+          ],
+          "pages": "pp. 16–17",
+          "questions": [
+            "What orange-and-black bird weaves a hanging nest?"
+          ],
+          "answers": [
+            "The oriole"
+          ]
+        },
+        {
+          "title": "Lesson 17: Correct Use of Words",
+          "steps": [
+            "Write sentences about what you taught a pet and what you learned at school",
+            "Decide when to use learn and when to use teach",
+            "Use this bird, that bird, these birds, those birds in sentences and make a rule"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 17",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n35/mode/1up"
+            }
+          ],
+          "pages": "pp. 17–18",
+          "questions": [
+            "\"Birds ___ their young to fly.\" (learn or teach)",
+            "Which word points to more than one bird far away: this, that, these, or those?"
+          ],
+          "answers": [
+            "teach",
+            "those"
+          ]
+        },
+        {
+          "title": "Lesson 18: The Red-Headed Woodpecker",
+          "steps": [
+            "Read the selection about the pair of Redheads",
+            "Tell what each of its five paragraphs is about",
+            "Notice how the first word of each paragraph is indented"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 18",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n36/mode/1up"
+            }
+          ],
+          "pages": "pp. 18–20",
+          "questions": [
+            "How many young woodpeckers hatched?",
+            "How did the pair share the digging?",
+            "What do we call a group of sentences about one central thought?"
+          ],
+          "answers": [
+            "Six",
+            "They took turns, about twenty minutes each",
+            "A paragraph"
+          ]
+        },
+        {
+          "title": "Lessons 19–20: An Imaginary Dialogue; Words of a Series",
+          "steps": [
+            "Write a dialogue between Robin and Mrs. Robin choosing a nest place, using the book's form (Robin. / Mrs. Robin.)",
+            "Compare the two canary sentences and find where the commas go",
+            "Write the book's six series sentences, using and only once in each"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 19",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n38/mode/1up"
+            }
+          ],
+          "pages": "pp. 20–21",
+          "questions": [
+            "What mark separates words in a series?"
+          ],
+          "answers": [
+            "A comma"
+          ]
+        },
+        {
+          "title": "Lesson 21: Paragraphs — An Indian Legend",
+          "steps": [
+            "Read the legend of the wren's song",
+            "Arrange its sentences into four paragraphs, each about one central thought",
+            "Copy your paragraphs with the first word indented"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 21",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n39/mode/1up"
+            }
+          ],
+          "pages": "pp. 21–23",
+          "questions": [
+            "Which bird sang the clearest, highest trill?",
+            "What lesson did the priest take for his people?"
+          ],
+          "answers": [
+            "The wren",
+            "Everyone can be happy; even the weakest can sing a song of thanks"
+          ]
+        },
+        {
+          "title": "Lessons 22–23: Conversation — Indians; Composition — Indians",
+          "steps": [
+            "Talk through the book's outline: homes, work, education of boys, wigwams, canoes, weapons, food",
+            "Look at pictures or museum objects of Native American life if you have them",
+            "Write a short composition from the outline, starting with the book's opening sentence"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 22",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n41/mode/1up"
+            },
+            {
+              "label": "Read lesson 23",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n42/mode/1up"
+            }
+          ],
+          "pages": "pp. 23–24",
+          "questions": [
+            "What were some of the ways Native Americans traveled and built homes?"
+          ]
+        },
+        {
+          "title": "Lesson 24: Titles and Abbreviations",
+          "steps": [
+            "Study the names with titles (President Adams, Doctor Johnson, Uncle George)",
+            "Write the months and days of the week with their abbreviations, and your state's",
+            "Write out what Rev., Dr., Ave., St., Jr., Sr., Mr., Mrs. stand for"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 24",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n42/mode/1up"
+            }
+          ],
+          "pages": "pp. 24–25",
+          "questions": [
+            "What mark follows an abbreviation?",
+            "What does Ave. stand for?",
+            "What does Rev. stand for?"
+          ],
+          "answers": [
+            "A period",
+            "Avenue",
+            "Reverend"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part One: Lessons 25–37",
+      "lessons": [
+        {
+          "title": "Lesson 25: Helen Keller",
+          "steps": [
+            "Read the story of Helen Keller and tell it back",
+            "Find the central thought of each paragraph",
+            "Use communicate, imitate, and graduate in sentences; practice dividing words at the end of a line"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 25",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n43/mode/1up"
+            }
+          ],
+          "pages": "pp. 25–27",
+          "questions": [
+            "What illness left Helen Keller unable to do what?",
+            "What mark joins a word divided at the end of a line?",
+            "Divide \"dreadful\" into syllables."
+          ],
+          "answers": [
+            "It left her blind and deaf",
+            "A hyphen",
+            "dread-ful"
+          ]
+        },
+        {
+          "title": "Lesson 26: Letter Writing — Helen Keller to O. W. Holmes",
+          "steps": [
+            "Read Helen Keller's letter to the poet Oliver Wendell Holmes",
+            "Give the central thought of each paragraph and arrange them as an outline",
+            "Talk about how she could have learned about butterflies"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 26",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n45/mode/1up"
+            }
+          ],
+          "pages": "pp. 27–29",
+          "questions": [
+            "How old was Helen when she wrote this letter (she was born May 1880)?",
+            "To what does she compare butterflies?"
+          ],
+          "answers": [
+            "Nine years old",
+            "To boys and girls who leave their books to play in the fields"
+          ]
+        },
+        {
+          "title": "Lesson 27: Letter Writing",
+          "steps": [
+            "Reread Helen Keller's letter and name its five parts",
+            "Notice the punctuation after the salutation, close, and signature",
+            "Write the book's six letter headings from dictation"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 27",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n47/mode/1up"
+            }
+          ],
+          "pages": "pp. 29–30",
+          "questions": [
+            "What is the part of a letter that tells where and when it was written?",
+            "What is \"Dear kind Poet\" called?",
+            "What mark goes between the city and the state?"
+          ],
+          "answers": [
+            "The heading",
+            "The salutation",
+            "A comma"
+          ]
+        },
+        {
+          "title": "Lessons 28–29: Letter Writing; Addressing an Envelope",
+          "steps": [
+            "Write one of the book's letters: thanking Charles for a puppy, or Uncle Frank for a box of fruit",
+            "Check it has a heading, salutation, body, complimentary close, and signature",
+            "Address envelopes to the two people in the book"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 28",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n48/mode/1up"
+            },
+            {
+              "label": "Read lesson 29",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n49/mode/1up"
+            }
+          ],
+          "pages": "pp. 30–32",
+          "questions": [
+            "Where do the letters R. D. and the route number go on an envelope?",
+            "Where should the stamp go?"
+          ],
+          "answers": [
+            "In the lower left-hand corner",
+            "In the upper right-hand corner"
+          ]
+        },
+        {
+          "title": "Lessons 30–31: Selection to Be Memorized; Dictation — The Apple Tree",
+          "steps": [
+            "Memorize Bryant's lines \"What plant we in this apple tree?\"",
+            "Find the central thought of each paragraph about the apple tree",
+            "Write the apple-tree paragraphs from dictation"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 30",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n50/mode/1up"
+            },
+            {
+              "label": "Read lesson 31",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n51/mode/1up"
+            }
+          ],
+          "pages": "pp. 32–33",
+          "questions": [
+            "Who wrote the apple-tree poem?",
+            "What color is the apple tree in spring?"
+          ],
+          "answers": [
+            "William Cullen Bryant",
+            "White"
+          ]
+        },
+        {
+          "title": "Lessons 32–33: Conversation — Fruits; Description — A Fruit Store",
+          "steps": [
+            "Talk about the fourteen fruits in the book: where and how each grows",
+            "Answer the book's six questions in sentences with words in a series",
+            "Write a description of a fruit store by the five-part outline"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 32",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n51/mode/1up"
+            },
+            {
+              "label": "Read lesson 33",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n52/mode/1up"
+            }
+          ],
+          "pages": "pp. 33–35",
+          "questions": [
+            "Which of these fruits have you seen growing?",
+            "Which fruits grow only where it is always warm?"
+          ]
+        },
+        {
+          "title": "Lesson 34: Correct Use of Words — Sit and Set",
+          "steps": [
+            "Read the five sit/set/sat sentences and learn the difference",
+            "Write the book's six sentences about setting dishes and where people sit",
+            "Copy the seven fill-in sentences with set, sit, or sat"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 34",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n53/mode/1up"
+            }
+          ],
+          "pages": "pp. 35–36",
+          "questions": [
+            "\"Bring your chair and ___ near me.\"",
+            "\"I ___ near the window yesterday.\"",
+            "\"___ that bottle of ink on the desk.\""
+          ],
+          "answers": [
+            "sit",
+            "sat",
+            "Set"
+          ]
+        },
+        {
+          "title": "Lesson 35: The Barefoot Boy",
+          "steps": [
+            "Read Whittier's poem \"The Barefoot Boy\" aloud",
+            "Describe the boy from the first stanza and plan a picture of him",
+            "Write the names of three insects, two birds, and three animals from the poem, with a sentence on each one's habits"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 35",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n54/mode/1up"
+            }
+          ],
+          "pages": "pp. 36–39",
+          "questions": [
+            "Who wrote \"The Barefoot Boy\"?",
+            "Why is the wasp called a \"mason\"?"
+          ],
+          "answers": [
+            "John Greenleaf Whittier",
+            "Because it builds its nest of mud, like a mason builds with mortar"
+          ]
+        },
+        {
+          "title": "Lessons 36–37: Conversation — The Farmer; Possessive Form",
+          "steps": [
+            "Talk about the farmer's work in each season, his tools, and the crops near you",
+            "Study the three possessive sentences from \"The Barefoot Boy\"",
+            "Write sentences with the miller's boy, Pharaoh's daughter, and the possessive of man, bluebird, squirrel, fairy, king, sister"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 36",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n57/mode/1up"
+            },
+            {
+              "label": "Read lesson 37",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n58/mode/1up"
+            }
+          ],
+          "pages": "pp. 39–41",
+          "questions": [
+            "What is added to a word to show ownership?",
+            "Do the names of the seasons begin with capital letters?",
+            "Write the possessive form of \"king.\""
+          ],
+          "answers": [
+            "An apostrophe and s ('s)",
+            "No",
+            "king's"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part One: Lessons 38–50",
+      "lessons": [
+        {
+          "title": "Lessons 38–39: Composition; Names",
+          "steps": [
+            "Copy the paragraph about Farmer Davis and old Speckle, then finish the story of the ducklings in paragraphs",
+            "Learn given name, middle name, surname, and initials",
+            "Write the four poets' names using initials for the given and middle names"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 38",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n59/mode/1up"
+            }
+          ],
+          "pages": "pp. 41–42",
+          "questions": [
+            "What are John Greenleaf Whittier's initials?",
+            "What mark goes after an initial used alone?",
+            "Write Oliver Wendell Holmes with initials."
+          ],
+          "answers": [
+            "J. G. W.",
+            "A period",
+            "O. W. Holmes"
+          ]
+        },
+        {
+          "title": "Lesson 40: Story of the Flax",
+          "steps": [
+            "Read \"Story of the Flax\" and list every change the flax went through",
+            "Tell the story of the flax from your list",
+            "Write the first and second paragraphs from dictation"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 40",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n60/mode/1up"
+            }
+          ],
+          "pages": "pp. 42–44",
+          "questions": [
+            "What was the flax finally made into?",
+            "What did the rag picker's linen rags become at the mill?"
+          ],
+          "answers": [
+            "Paper with the words of a great poet printed on it (a book)",
+            "Fine linen paper"
+          ]
+        },
+        {
+          "title": "Lessons 41–42: Composition — Description; Composition — The Thirsty Crow",
+          "steps": [
+            "Write a paragraph describing this book: cover, paper, print, margins, illustrations",
+            "Read the fable of the thirsty crow",
+            "Copy the opening of \"The Crow's Story\" and finish it as the crow would tell it, in paragraphs"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 41",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n62/mode/1up"
+            }
+          ],
+          "pages": "pp. 44–45",
+          "questions": [
+            "How did the crow raise the water in the pitcher?"
+          ],
+          "answers": [
+            "She dropped little stones into it one by one"
+          ]
+        },
+        {
+          "title": "Lesson 43: Composition — Dialogue",
+          "steps": [
+            "Write the conversation when the grasshopper asks the ant to play, using the book's form",
+            "Write the second conversation, when the grasshopper comes begging in winter",
+            "Read both conversations aloud with someone"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 43",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n63/mode/1up"
+            }
+          ],
+          "pages": "pp. 45–46",
+          "questions": [
+            "What was the ant doing when the grasshopper met him?"
+          ],
+          "answers": [
+            "Putting away food for winter"
+          ]
+        },
+        {
+          "title": "Lesson 44: Conversation — The Cat Family",
+          "steps": [
+            "Talk about the house cat using the book's outline (claws, whiskers, tongue, hunting...)",
+            "Compare the lion, tiger, leopard, puma, lynx and others with the house cat",
+            "Write ten questions about one animal of the cat family and quiz someone"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 44",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n64/mode/1up"
+            }
+          ],
+          "pages": "pp. 46–47",
+          "questions": [
+            "What do we call animals that are alike in structure and habits?"
+          ],
+          "answers": [
+            "A family"
+          ]
+        },
+        {
+          "title": "Lessons 45–46: Composition — Description of an Animal; Dictation — Description of a Lion",
+          "steps": [
+            "Write a description of one animal from the book's list, modeled on the cat outline",
+            "Read the description of the lion and use height, tawny, shaggy, prowls, concealed in sentences",
+            "Make an outline of the lion description, then write it from dictation"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 45",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n65/mode/1up"
+            },
+            {
+              "label": "Read lesson 46",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n66/mode/1up"
+            }
+          ],
+          "pages": "pp. 47–49",
+          "questions": [
+            "Why is the lion called \"the king of beasts\"?",
+            "Where does the lion live?"
+          ],
+          "answers": [
+            "Because of his strength and majestic mane (he is a terror to man and beast)",
+            "In the forests of Asia and in Africa"
+          ]
+        },
+        {
+          "title": "Lesson 47: Reproduction — A Fable",
+          "steps": [
+            "Read the fable of the two cats, the cheese, and the monkey",
+            "Rewrite it in dialogue form, starting the way the book shows",
+            "Find yes and no followed by commas in your reader"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 47",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n67/mode/1up"
+            }
+          ],
+          "pages": "pp. 49–50",
+          "questions": [
+            "Who ended up with the cheese?",
+            "What mark usually follows yes or no when it answers a question?"
+          ],
+          "answers": [
+            "The monkey ate it all",
+            "A comma"
+          ]
+        },
+        {
+          "title": "Lessons 48–49: Composition; Reproduction — A Fable",
+          "steps": [
+            "Write a story like the cats' quarrel about two little girls, a bigger boy, and a ripe peach",
+            "Choose one fable from the book's list (The Hare and the Tortoise, The Lion and the Mouse...) and write it in your own words"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 48",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n68/mode/1up"
+            },
+            {
+              "label": "Read lesson 49",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n69/mode/1up"
+            }
+          ],
+          "pages": "pp. 50–51",
+          "questions": [
+            "What lesson does your chosen fable teach?"
+          ]
+        },
+        {
+          "title": "Lesson 50: Imaginative Letter",
+          "steps": [
+            "Imagine you are a kitten left at home while your owner visits away",
+            "Write a letter from the kitten about how it is treated and what the children are doing",
+            "Include one adventure from a kitten's day"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 50",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n69/mode/1up"
+            }
+          ],
+          "pages": "pp. 51–52",
+          "questions": [
+            "What will your kitten be most eager to tell?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part One: Lessons 51–62",
+      "lessons": [
+        {
+          "title": "Lesson 51: Summary",
+          "steps": [
+            "Read the book's \"To Remember\" list of capital and punctuation rules",
+            "Give an example sentence for each rule",
+            "Write ten of the rules from memory"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 51",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n70/mode/1up"
+            }
+          ],
+          "pages": "pp. 52–53",
+          "questions": [
+            "What mark separates words of a series?",
+            "What joins the syllables of a word divided at the end of a line?",
+            "What is a paragraph made of?"
+          ],
+          "answers": [
+            "A comma",
+            "A hyphen",
+            "One or more sentences about the same central thought"
+          ]
+        },
+        {
+          "title": "Lessons 52–53: Dictation — Quotation Marks; Meaning of Words",
+          "steps": [
+            "Read the Little Red Hen sentences and notice the marks around spoken words",
+            "Write the sentences from dictation",
+            "Pair words of nearly the same meaning from the book's list, then words of opposite meaning, and use them in sentences"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 52",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n71/mode/1up"
+            },
+            {
+              "label": "Read lesson 53",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n72/mode/1up"
+            }
+          ],
+          "pages": "pp. 53–55",
+          "questions": [
+            "What marks go around a speaker's exact words?",
+            "Give a word that means the opposite of \"tame.\""
+          ],
+          "answers": [
+            "Quotation marks",
+            "Wild"
+          ]
+        },
+        {
+          "title": "Lesson 54: Don't Give Up",
+          "steps": [
+            "Read Phoebe Cary's poem \"Don't Give Up\" and talk about what it teaches",
+            "Discuss what can be learned from losing a game or failing a test",
+            "Write the first two stanzas from dictation and begin memorizing the poem"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 54",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n73/mode/1up"
+            }
+          ],
+          "pages": "pp. 55–56",
+          "questions": [
+            "Who wrote \"Don't Give Up\"?",
+            "By what does the poem say all that's great and good is done?"
+          ],
+          "answers": [
+            "Phoebe Cary",
+            "Patient trying"
+          ]
+        },
+        {
+          "title": "Lesson 55: Contractions",
+          "steps": [
+            "Find you've in the poem and write the two words it stands for",
+            "Write the full words for each contraction on the book's list",
+            "Write sentences using five of the contractions"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 55",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n74/mode/1up"
+            }
+          ],
+          "pages": "pp. 56–57",
+          "questions": [
+            "What mark shows that letters are left out?",
+            "What two words does can't stand for?",
+            "What does they're stand for?"
+          ],
+          "answers": [
+            "An apostrophe",
+            "can not (cannot)",
+            "they are"
+          ]
+        },
+        {
+          "title": "Lessons 56–57: Quotations; Dictation",
+          "steps": [
+            "Read the conversation between the teacher and Tom",
+            "Find each direct quotation and notice the marks around it",
+            "Copy the conversation carefully, then write it from dictation"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 56",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n75/mode/1up"
+            },
+            {
+              "label": "Read lesson 57",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n76/mode/1up"
+            }
+          ],
+          "pages": "pp. 57–58",
+          "questions": [
+            "What marks enclose a direct quotation?",
+            "What mark separates the quotation from the rest of the sentence?",
+            "How does the first word of a direct quotation begin?"
+          ],
+          "answers": [
+            "Quotation marks",
+            "A comma",
+            "With a capital letter"
+          ]
+        },
+        {
+          "title": "Lesson 58: Correct Use of Words",
+          "steps": [
+            "Read the book's answers (It is I. It was he and I. It was they.)",
+            "Write a question that each answer could reply to",
+            "Read your questions and answers aloud"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 58",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n76/mode/1up"
+            }
+          ],
+          "pages": "pp. 58–59",
+          "questions": [
+            "\"Who is at the door?\" — \"It is ___.\" (I or me)",
+            "\"It might have been ___.\" (they or them)"
+          ],
+          "answers": [
+            "I",
+            "they"
+          ]
+        },
+        {
+          "title": "Lessons 59–60: Description of a Game; Letter Writing",
+          "steps": [
+            "Draw a diagram of a baseball ground, tennis court, or croquet ground, or choose your favorite game",
+            "Write a description of the game and two or three of its rules",
+            "Write a thank-you letter to Aunt Ellen for a birthday ball and bat, racquet, or croquet set"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 59",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n77/mode/1up"
+            }
+          ],
+          "pages": "pp. 59–60",
+          "questions": [
+            "Why does Aunt begin with a capital letter in \"Aunt Ellen\"?"
+          ],
+          "answers": [
+            "It is a title used as part of a name"
+          ]
+        },
+        {
+          "title": "Lesson 61: Picture Study — Gambols of Children",
+          "steps": [
+            "Look at the picture and tell what you see",
+            "Talk through the book's questions: which child is oldest, what is the man saying?",
+            "Tell a story the picture suggests to you"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 61",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n78/mode/1up"
+            }
+          ],
+          "pages": "pp. 60–62",
+          "questions": [
+            "What does the word gambols mean?"
+          ],
+          "answers": [
+            "Playful skipping and frolicking"
+          ]
+        },
+        {
+          "title": "Lesson 62: Correct Use of Words — Present, Past, and Future",
+          "steps": [
+            "Rewrite the book's ten sentences with \"yesterday,\" \"last summer\" and similar words, changing the verb to past time",
+            "Rewrite them with \"to-morrow,\" \"next week\" and similar, using will (shall in the fifth)",
+            "Rewrite them once more using has or have"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 62",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n80/mode/1up"
+            }
+          ],
+          "pages": "pp. 62–63",
+          "questions": [
+            "Past time of \"The bells ring\"?",
+            "Past time of \"The farmer boy drives the cows\"?",
+            "\"The author has ___ a beautiful poem.\" (wrote or written)"
+          ],
+          "answers": [
+            "The bells rang",
+            "The farmer boy drove the cows",
+            "written"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part One: Lessons 63–76",
+      "lessons": [
+        {
+          "title": "Lessons 63–64: The Comma in Address; Oral Composition — A Story",
+          "steps": [
+            "Study the three sentences where someone is spoken to by name",
+            "Write sentences speaking to Mr. Davis, Cousin Clara, Grandfather, Rover and the others on the list",
+            "Choose one of the book's story starters, make an outline, and tell the story aloud"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 63",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n81/mode/1up"
+            },
+            {
+              "label": "Read lesson 64",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n82/mode/1up"
+            }
+          ],
+          "pages": "pp. 63–65",
+          "questions": [
+            "What sets off the name of the person spoken to?",
+            "Punctuate: \"May I play after school Mother\""
+          ],
+          "answers": [
+            "A comma or commas",
+            "\"May I play after school, Mother?\""
+          ]
+        },
+        {
+          "title": "Lesson 65: The Village Blacksmith",
+          "steps": [
+            "Read Longfellow's poem \"The Village Blacksmith\" aloud",
+            "Describe the smith and explain anvil, forge, bellows, and sledge",
+            "Use the book's phrases (sinewy hands, flaming forge...) in sentences and talk about the poem's lesson"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 65",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n83/mode/1up"
+            }
+          ],
+          "pages": "pp. 65–68",
+          "questions": [
+            "Who wrote \"The Village Blacksmith\"?",
+            "Under what kind of tree did the smithy stand?"
+          ],
+          "answers": [
+            "Henry Wadsworth Longfellow",
+            "A spreading chestnut tree"
+          ]
+        },
+        {
+          "title": "Lessons 66–67: Henry Wadsworth Longfellow; Singular and Plural Forms",
+          "steps": [
+            "Read about Longfellow and tell the story of the chestnut tree",
+            "Learn singular and plural, then copy twenty singular words from the Longfellow lesson",
+            "Write the singular of churches, foxes, potatoes and the rest of the list"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 66",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n86/mode/1up"
+            },
+            {
+              "label": "Read lesson 67",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n87/mode/1up"
+            }
+          ],
+          "pages": "pp. 68–71",
+          "questions": [
+            "What was made from the wood of the chestnut tree?",
+            "How is the plural of most words formed?",
+            "What is the plural of \"church\"?"
+          ],
+          "answers": [
+            "A chair, given to Longfellow by the school children",
+            "By adding s",
+            "churches"
+          ]
+        },
+        {
+          "title": "Lesson 68: The Wind and the Moon",
+          "steps": [
+            "Read George Macdonald's poem \"The Wind and the Moon\"",
+            "Tell what happened in each part of the story and describe the sky",
+            "Find the rhyming words in each stanza and use slumbered, blast, glimmering, motionless in sentences"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 68",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n89/mode/1up"
+            }
+          ],
+          "pages": "pp. 71–74",
+          "questions": [
+            "Did the wind really blow out the moon?",
+            "Which words rhyme in the first stanza?"
+          ],
+          "answers": [
+            "No, the moon had never even heard him",
+            "stare, air, chair"
+          ]
+        },
+        {
+          "title": "Lessons 69–70: Conversation — Clothing; Conversation — Cotton",
+          "steps": [
+            "Name what shoes, buttons, gingham, gloves, raincoats and the others are made of",
+            "Talk about how cotton is grown, picked, ginned, baled, shipped, spun, and woven",
+            "Tell all you can about cotton, grouping your sentences in paragraphs"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 69",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n92/mode/1up"
+            },
+            {
+              "label": "Read lesson 70",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n93/mode/1up"
+            }
+          ],
+          "pages": "pp. 74–76",
+          "questions": [
+            "What machine separates cotton fibers from the seeds?"
+          ],
+          "answers": [
+            "The cotton gin"
+          ]
+        },
+        {
+          "title": "Lessons 71–72: Composition — Cotton; Letter Writing",
+          "steps": [
+            "Reread \"Story of the Flax,\" then write the story of one cotton plant from the cotton outline",
+            "Imagine visiting a cousin on a cotton plantation and write a letter home about it",
+            "Ask questions about home and send messages to your family"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 71",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n94/mode/1up"
+            }
+          ],
+          "pages": "pp. 76–77",
+          "questions": [
+            "Who bought the cloth in your story?"
+          ]
+        },
+        {
+          "title": "Lesson 73: Words That Rhyme",
+          "steps": [
+            "Write lists of words that rhyme with grow, kind, ground, talk, tree, nest and the rest",
+            "Look at the rhyme pattern in \"The Barefoot Boy\"",
+            "Write a four-line stanza (lines 1-2 and 3-4 rhyming) about one of the book's subjects, then another of your own"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 73",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n95/mode/1up"
+            }
+          ],
+          "pages": "p. 77",
+          "questions": [
+            "In \"The Barefoot Boy,\" which line rhymes with the first?"
+          ],
+          "answers": [
+            "The second"
+          ]
+        },
+        {
+          "title": "Lessons 74–75: Writing Sentences; Written Conversation",
+          "steps": [
+            "In the Moses sentence, find the words that tell when, who, and what she did",
+            "Write similar sentences about an Indian boy, a gray squirrel, George Washington and others",
+            "Write the conversation between Bessie and her new neighbor Nellie about school and the neighborhood"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 74",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n95/mode/1up"
+            },
+            {
+              "label": "Read lesson 75",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n96/mode/1up"
+            }
+          ],
+          "pages": "pp. 77–79",
+          "questions": [
+            "In the Moses sentence, which words tell when?"
+          ],
+          "answers": [
+            "Many hundred years ago"
+          ]
+        },
+        {
+          "title": "Lesson 76: Letter Writing",
+          "steps": [
+            "Read the situation: a boy failed an examination and wants to quit school",
+            "Write him a kind letter urging him to try again and offering to help",
+            "Check your heading, salutation, close, and signature"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 76",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n97/mode/1up"
+            }
+          ],
+          "pages": "p. 79",
+          "questions": [
+            "What reasons will you give him to keep going?"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part One: Lessons 77–89",
+      "lessons": [
+        {
+          "title": "Lesson 77: Possessive Form — Plurals",
+          "steps": [
+            "Compare \"the milk of cows\" and \"cows' milk\" and notice where the apostrophe goes",
+            "Change lion's, ant's, teacher's and the others to the possessive plural",
+            "Rewrite the six sentences (the music of the fairies...) using possessive forms"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 77",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n97/mode/1up"
+            }
+          ],
+          "pages": "pp. 79–81",
+          "questions": [
+            "Plural possessive of \"lion's\"?",
+            "Rewrite: \"Claws of cats are curved and long.\"",
+            "Where does the apostrophe go in a plural ending in s?"
+          ],
+          "answers": [
+            "lions'",
+            "Cats' claws are curved and long.",
+            "After the s"
+          ]
+        },
+        {
+          "title": "Lessons 78–79: Conversation — The Dog Family; Picture Study — The Wounded Companion",
+          "steps": [
+            "Talk about the dog using the book's outline (sense of smell, varieties, bravery...)",
+            "Compare the wolf, fox, coyote, hyena, and jackal with the dog and write ten statements",
+            "Describe the picture \"The Wounded Companion\" and tell the story it suggests"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 78",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n99/mode/1up"
+            },
+            {
+              "label": "Read lesson 79",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n101/mode/1up"
+            }
+          ],
+          "pages": "pp. 81–83",
+          "questions": [
+            "Name three animals of the dog family."
+          ],
+          "answers": [
+            "Any three of: wolf, fox, coyote, jackal (the book also lists the hyena)"
+          ]
+        },
+        {
+          "title": "Lesson 80: Composition — Story about Wool",
+          "steps": [
+            "Copy the paragraph about Frank Wentworth and his mother",
+            "Finish the story: shearing, carding, spinning, dyeing, weaving, and sewing the coat",
+            "Include conversation between Frank and his mother"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 80",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n101/mode/1up"
+            }
+          ],
+          "pages": "pp. 83–84",
+          "questions": [
+            "What is done to wool after it is cut and before it is spun?"
+          ],
+          "answers": [
+            "It is combed or carded into long rolls"
+          ]
+        },
+        {
+          "title": "Lessons 81–82: Correct Use of Words — Can and May; Composition — Frisk and the Mirror",
+          "steps": [
+            "Read the three sentences and tell which asks permission and which tells ability",
+            "Write six sentences asking permission with may and ten asking ability with can",
+            "Tell or write the story of Frisk and the mirror as Frisk would tell it"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 81",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n102/mode/1up"
+            },
+            {
+              "label": "Read lesson 82",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n103/mode/1up"
+            }
+          ],
+          "pages": "pp. 84–87",
+          "questions": [
+            "\"___ I help you, Mother?\" (asking permission: can or may)",
+            "\"I am sure I ___ spin it.\" (ability: can or may)",
+            "What did Frisk really see in the mirror?"
+          ],
+          "answers": [
+            "May",
+            "can",
+            "Himself"
+          ]
+        },
+        {
+          "title": "Lessons 83–84: Picture Study — Shepherd and Sheep; Correct Use of Words",
+          "steps": [
+            "Describe the picture and guess the season and time of day",
+            "Talk about how a dog helps a shepherd",
+            "Change the six shepherd sentences to past time, future time, and with has or have"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 83",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n105/mode/1up"
+            }
+          ],
+          "pages": "pp. 87–88",
+          "questions": [
+            "Past time of \"He takes a lamb in his arms\"?",
+            "\"The shepherd has ___ to his dog.\" (spoke or spoken)"
+          ],
+          "answers": [
+            "He took a lamb in his arms",
+            "spoken"
+          ]
+        },
+        {
+          "title": "Lesson 85: Singular and Plural — Irregular Plurals",
+          "steps": [
+            "Learn the irregular plurals: mice, oxen, geese, feet, men, women, teeth, children",
+            "Notice sheep, deer, and moose stay the same",
+            "Copy ten plural words from \"Story of the Flax\" and change them to singular"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 85",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n106/mode/1up"
+            }
+          ],
+          "pages": "pp. 88–89",
+          "questions": [
+            "Plural of \"goose\"?",
+            "Plural of \"ox\"?",
+            "Plural of \"deer\"?"
+          ],
+          "answers": [
+            "geese",
+            "oxen",
+            "deer"
+          ]
+        },
+        {
+          "title": "Lesson 86: King Solomon and the Bees",
+          "steps": [
+            "Read John G. Saxe's poem \"King Solomon and the Bees\"",
+            "Talk through how the Queen of Sheba tested Solomon and how he answered",
+            "Write the story in paragraphs with at least two direct quotations, using words from the book's list"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 86",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n107/mode/1up"
+            }
+          ],
+          "pages": "pp. 89–91",
+          "questions": [
+            "How did Solomon tell which wreath was made of real flowers?",
+            "Who wrote this poem?"
+          ],
+          "answers": [
+            "He had the window opened and the bees flew to the real flowers",
+            "John G. Saxe"
+          ]
+        },
+        {
+          "title": "Lesson 87: Composition — A Story",
+          "steps": [
+            "Tell the fable of the hare and the tortoise",
+            "Write a similar story about quick Frank and hard-working Carl in a spelling contest",
+            "Show how Carl won, and include direct quotations"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 87",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n109/mode/1up"
+            }
+          ],
+          "pages": "pp. 91–92",
+          "questions": [
+            "Who won the race in the fable?"
+          ],
+          "answers": [
+            "The tortoise"
+          ]
+        },
+        {
+          "title": "Lessons 88–89: Daybreak; Dictation",
+          "steps": [
+            "Read Longfellow's \"Daybreak\" and find everything the wind spoke to",
+            "Explain mariners, chanticleer, clarion, belfry, proclaim, and leafy banners",
+            "Write the first four stanzas from dictation"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 88",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n110/mode/1up"
+            },
+            {
+              "label": "Read lesson 89",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n111/mode/1up"
+            }
+          ],
+          "pages": "pp. 92–94",
+          "questions": [
+            "Who wrote \"Daybreak\"?",
+            "What did the wind tell the bird to do?",
+            "What contraction is in the poem?"
+          ],
+          "answers": [
+            "Henry Wadsworth Longfellow",
+            "Awake and sing",
+            "o'er (over)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part One: Lessons 90–100",
+      "lessons": [
+        {
+          "title": "Lesson 90: Exclamations",
+          "steps": [
+            "Find the exclamation points in the three sentences and in \"Daybreak\"",
+            "Write an exclamation for each of the book's situations (lost money, won a game, given a holiday...)",
+            "Read your exclamations aloud with feeling"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 90",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n112/mode/1up"
+            }
+          ],
+          "pages": "pp. 94–95",
+          "questions": [
+            "What mark goes after an exclamation?"
+          ],
+          "answers": [
+            "An exclamation point"
+          ]
+        },
+        {
+          "title": "Lesson 91: An Autobiography",
+          "steps": [
+            "Learn what an autobiography is",
+            "Write your own autobiography following the book's outline: birthplace, school, games, books, pets, friends, plans",
+            "Read it aloud to the family"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 91",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n113/mode/1up"
+            }
+          ],
+          "pages": "pp. 95–96",
+          "questions": [
+            "What is an autobiography?"
+          ],
+          "answers": [
+            "The story of a person's life written by that person"
+          ]
+        },
+        {
+          "title": "Lesson 92: Composition — An Original Fairy Story",
+          "steps": [
+            "Read the beginning: a sad child under an oak tree and an old, old fairy",
+            "Plan the fairy's question, the child's answer, and how the fairy helps; make an outline",
+            "Write the story using quotation marks, exclamations, and a possessive"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 92",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n114/mode/1up"
+            }
+          ],
+          "pages": "pp. 96–97",
+          "questions": [
+            "What will the fairy ask first in your story?"
+          ]
+        },
+        {
+          "title": "Lessons 93–94: Composition — Two Squirrels; Conversation — Gnawers or Rodents",
+          "steps": [
+            "Write or tell a story about two squirrels in an old elm, with a narrow escape",
+            "Talk about the squirrel using the book's outline (teeth, food, winter store)",
+            "Tell what you know of the beaver, chipmunk, porcupine, prairie dog, woodchuck and other gnawers"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 93",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n115/mode/1up"
+            }
+          ],
+          "pages": "pp. 97–99",
+          "questions": [
+            "Why is a squirrel called a gnawer?"
+          ],
+          "answers": [
+            "Because it gnaws with its sharp front teeth"
+          ]
+        },
+        {
+          "title": "Lesson 95: Correct Use of Words — Comparing",
+          "steps": [
+            "Read the tall, taller, tallest sentences and decide when each is used",
+            "Study the table of comparisons (good, better, best; many, more, most...)",
+            "Write sentences comparing two things and more than two things"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 95",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n117/mode/1up"
+            }
+          ],
+          "pages": "pp. 99–101",
+          "questions": [
+            "Comparing two boys: \"Henry is the ___.\" (taller or tallest)",
+            "good, better, ___?",
+            "far, farther, ___?"
+          ],
+          "answers": [
+            "taller",
+            "best",
+            "farthest"
+          ]
+        },
+        {
+          "title": "Lessons 96–97: Conversation — Money; Composition — History of a Dime",
+          "steps": [
+            "Talk through the book's questions about coins and paper money; examine a real coin",
+            "Write the history of a dime from the mint to a bank and on through many hands",
+            "End the story with the dime lost in a lake or river"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 96",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n119/mode/1up"
+            }
+          ],
+          "pages": "pp. 101–102",
+          "questions": [
+            "What is the place where money is coined called?"
+          ],
+          "answers": [
+            "The mint"
+          ]
+        },
+        {
+          "title": "Lesson 98: Picture Study — Return of the Fishing Boats",
+          "steps": [
+            "Study the picture, then close your eyes and try to see it",
+            "Talk through the book's questions: time of day, where the boats have been",
+            "Tell the story a twelve-year-old boy aboard might tell"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 98",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n120/mode/1up"
+            }
+          ],
+          "pages": "pp. 102–104",
+          "questions": [
+            "Which poem in the book could this picture illustrate?"
+          ]
+        },
+        {
+          "title": "Lesson 99: Sweet and Low",
+          "steps": [
+            "Read Tennyson's lullaby \"Sweet and Low\" and talk about who is singing it",
+            "Find the rhymes and the lines that end in the same word",
+            "Memorize the poem and write the first stanza from memory"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 99",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n122/mode/1up"
+            }
+          ],
+          "pages": "pp. 104–106",
+          "questions": [
+            "Who wrote \"Sweet and Low\"?",
+            "Where is the baby's father?"
+          ],
+          "answers": [
+            "Alfred Tennyson",
+            "Out on the sea"
+          ]
+        },
+        {
+          "title": "Lesson 100: Summary",
+          "steps": [
+            "Read the second \"To Remember\" list (quotations, address, plurals, possessives)",
+            "Give an example for each rule",
+            "Write the possessive of one singular and one plural word"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 100",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n124/mode/1up"
+            }
+          ],
+          "pages": "pp. 106–107",
+          "questions": [
+            "What is placed after an exclamation?",
+            "How does a plural ending in s form the possessive?",
+            "What does an apostrophe show in a contraction?"
+          ],
+          "answers": [
+            "An exclamation point",
+            "By adding an apostrophe",
+            "That one or more letters have been left out"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part Two: Lessons 101–113",
+      "lessons": [
+        {
+          "title": "Lesson 101: The Story of a Seed",
+          "steps": [
+            "Read George Macdonald's \"The Story of a Seed\"",
+            "Find exclamations, contractions, and divided quotations in it",
+            "Tell the story; use wearisome, dismay, yielded, straightway in sentences"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 101",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n125/mode/1up"
+            }
+          ],
+          "pages": "pp. 107–110",
+          "questions": [
+            "What flower did the second seed become?",
+            "What did that seed keep saying to itself?"
+          ],
+          "answers": [
+            "A snowdrop",
+            "\"It's all right; I will be what I can.\""
+          ]
+        },
+        {
+          "title": "Lessons 102–103: Dictation; Divided Quotations",
+          "steps": [
+            "Write the first twelve lines of \"The Story of a Seed\" from dictation",
+            "Change the three book sentences into divided quotations",
+            "Write quotations divided by each of the book's phrases (replied the soldier, laughed Harry...)"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 102",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n128/mode/1up"
+            }
+          ],
+          "pages": "pp. 110–111",
+          "questions": [
+            "Make this a divided quotation: \"I'm growing! Good-by,\" the seed replied."
+          ],
+          "answers": [
+            "\"I'm growing!\" the seed replied. \"Good-by.\""
+          ]
+        },
+        {
+          "title": "Lesson 104: Divided Quotations — The Fox and the Crow",
+          "steps": [
+            "Read the plain telling of the fox and the crow",
+            "Rewrite it with as many direct quotations as you can, some divided by \"said the fox\"",
+            "Add what the crow may have thought as she flew home"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 104",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n129/mode/1up"
+            }
+          ],
+          "pages": "pp. 111–112",
+          "questions": [
+            "Why did the crow drop the cheese?"
+          ],
+          "answers": [
+            "She opened her mouth to sing because the fox flattered her"
+          ]
+        },
+        {
+          "title": "Lessons 105–106: Indirect Quotations; Composition — A Story",
+          "steps": [
+            "Compare the four fox sentences and find which are indirect quotations",
+            "Change direct quotations from Lessons 88, 56, and 101 into indirect ones",
+            "Write the story of Paul Carter and the pocketbook he found, with both kinds of quotations"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 105",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n130/mode/1up"
+            },
+            {
+              "label": "Read lesson 106",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n131/mode/1up"
+            }
+          ],
+          "pages": "pp. 112–113",
+          "questions": [
+            "Change to indirect: The fox said, \"I have heard that your voice is very beautiful.\""
+          ],
+          "answers": [
+            "The fox said that he had heard that her voice was very beautiful."
+          ]
+        },
+        {
+          "title": "Lesson 107: Conversation — The Body",
+          "steps": [
+            "Talk through the book's 26 questions about the body",
+            "Compare the elbow joint and the wrist joint",
+            "Name the five senses and say which you think matters most"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 107",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n131/mode/1up"
+            }
+          ],
+          "pages": "pp. 113–115",
+          "questions": [
+            "What organ pumps the blood through the body?",
+            "Where is the brain located?",
+            "Name the five senses."
+          ],
+          "answers": [
+            "The heart",
+            "In the head, inside the skull",
+            "Sight, hearing, smell, taste, touch"
+          ]
+        },
+        {
+          "title": "Lesson 108: Debate",
+          "steps": [
+            "Read the question: sight is more important than hearing",
+            "Each speaker makes an outline, putting the strongest argument last",
+            "Hold the debate, answer each other's arguments, and let listeners decide"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 108",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n133/mode/1up"
+            }
+          ],
+          "pages": "pp. 115–116",
+          "questions": [
+            "Which side, affirmative or negative, argues that sight is more important?"
+          ],
+          "answers": [
+            "The affirmative"
+          ]
+        },
+        {
+          "title": "Lesson 109: Letter Writing — Review",
+          "steps": [
+            "Write the three headings: from home today, from a nearby city last Christmas, from London on your next birthday",
+            "Write salutations and closings for mother, cousin, uncle, teacher, classmate",
+            "Write a note inviting a classmate home, then write the answer"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 109",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n134/mode/1up"
+            }
+          ],
+          "pages": "pp. 116–117",
+          "questions": [
+            "What comes right after the salutation in a letter?"
+          ],
+          "answers": [
+            "The body of the letter"
+          ]
+        },
+        {
+          "title": "Lesson 110: Homonyms",
+          "steps": [
+            "Learn what homonyms are",
+            "Find the meaning of each pair (steal/steel, knot/not, hour/our...) and use each in a sentence",
+            "Fill the blanks in the book's six sentences"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 110",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n135/mode/1up"
+            }
+          ],
+          "pages": "pp. 117–119",
+          "questions": [
+            "\"The athlete performed a dangerous ___.\" (feet or feat)",
+            "\"I will ___ you there in an ___.\"",
+            "\"Soap is made from ashes and ___.\" (lie or lye)"
+          ],
+          "answers": [
+            "feat",
+            "meet, hour",
+            "lye"
+          ]
+        },
+        {
+          "title": "Lesson 111: Picture Study — Departure of the Pilgrims",
+          "steps": [
+            "Tell the story of the Pilgrims: England, Holland, and why they came to America",
+            "Describe the picture: the people in the boat and on the shore",
+            "Tell what you know of the voyage and early days in America"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 111",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n137/mode/1up"
+            }
+          ],
+          "pages": "p. 119",
+          "questions": [
+            "To what country did the Pilgrims go first after leaving England?"
+          ],
+          "answers": [
+            "Holland"
+          ]
+        },
+        {
+          "title": "Lessons 112–113: Conversation — Foods; Composition — A Loaf of Bread",
+          "steps": [
+            "Write a Thanksgiving menu and tell where each food comes from",
+            "Sort foods into animal, vegetable, and mineral",
+            "Write the history of a loaf of bread from sowing the wheat to baking"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 112",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n137/mode/1up"
+            },
+            {
+              "label": "Read lesson 113",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n138/mode/1up"
+            }
+          ],
+          "pages": "pp. 119–121",
+          "questions": [
+            "What is a menu?",
+            "Is salt an animal, vegetable, or mineral food?"
+          ],
+          "answers": [
+            "A list of foods in the order they are served at a meal",
+            "Mineral"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part Two: Lessons 114–124",
+      "lessons": [
+        {
+          "title": "Lessons 114–115: Thanksgiving; Singular and Plural",
+          "steps": [
+            "Read Edward Everett Hale's \"Thanksgiving\" and name the foods it praises",
+            "Talk about what you are thankful for",
+            "Learn plurals of words ending in f or fe (wolf, wolves) and write the plurals of knife, life, half, loaf, thief, sheaf"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 114",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n139/mode/1up"
+            },
+            {
+              "label": "Read lesson 115",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n140/mode/1up"
+            }
+          ],
+          "pages": "pp. 121–123",
+          "questions": [
+            "Plural of \"knife\"?",
+            "Plural of \"loaf\"?",
+            "Most words ending in f or fe form the plural by changing f or fe to what?"
+          ],
+          "answers": [
+            "knives",
+            "loaves",
+            "ves"
+          ]
+        },
+        {
+          "title": "Lesson 116: Conversation — Cud Chewers",
+          "steps": [
+            "Talk about the cow using the book's outline",
+            "Tell how the goat, deer, giraffe, sheep, antelope, and buffalo are like the cow",
+            "Review: name animals of the cat family, the dog family, and the rodents"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 116",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n141/mode/1up"
+            }
+          ],
+          "pages": "pp. 123–125",
+          "questions": [
+            "Why is the cow called a cud chewer?"
+          ],
+          "answers": [
+            "She brings swallowed food back up to chew it again"
+          ]
+        },
+        {
+          "title": "Lesson 117: Picture Study — The Deer Family",
+          "steps": [
+            "Read about the painter Edwin Landseer",
+            "Describe his picture \"The Deer Family\" and tell what you know of deer",
+            "Finish the book's \"because\" sentences about capitals and punctuation"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 117",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n143/mode/1up"
+            }
+          ],
+          "pages": "pp. 125–126",
+          "questions": [
+            "Where was Landseer born?",
+            "Why is there a comma after \"bears\"?"
+          ],
+          "answers": [
+            "In London, in 1802",
+            "It separates words in a series"
+          ]
+        },
+        {
+          "title": "Lesson 118: Correct Use of Words",
+          "steps": [
+            "Change the nine bird-and-wind sentences to past time",
+            "Rewrite them for future time",
+            "Rewrite them using has or have"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 118",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n144/mode/1up"
+            }
+          ],
+          "pages": "pp. 126–127",
+          "questions": [
+            "Past of \"The wind blows loud and shrill\"?",
+            "\"They have ___ a place in a tall tree.\" (chose or chosen)",
+            "\"The birds have ___ to build a nest.\" (began or begun)"
+          ],
+          "answers": [
+            "The wind blew loud and shrill",
+            "chosen",
+            "begun"
+          ]
+        },
+        {
+          "title": "Lesson 119: The Windflower",
+          "steps": [
+            "Read Lucy Larcom's poem \"The Windflower\" and explain what it means",
+            "Look up boisterous, fragile, raiment",
+            "Learn compound words and copy ten from your books, noticing hyphens"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 119",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n145/mode/1up"
+            }
+          ],
+          "pages": "pp. 127–128",
+          "questions": [
+            "What is another name for the windflower?",
+            "What kind of word is \"windflower\"?",
+            "How is the number 35 written in words?"
+          ],
+          "answers": [
+            "The anemone",
+            "A compound word",
+            "thirty-five"
+          ]
+        },
+        {
+          "title": "Lesson 120: Prose Study — A Plant",
+          "steps": [
+            "Read L. H. Bailey's \"A Plant\"",
+            "Talk about the plant's secrets and the lesson it taught",
+            "Write \"The Child and the Plant,\" beginning as the book shows"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 120",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n146/mode/1up"
+            }
+          ],
+          "pages": "pp. 128–130",
+          "questions": [
+            "What happened to the plant while the writer was on vacation?",
+            "What lesson did the plant teach?"
+          ],
+          "answers": [
+            "It died",
+            "That it is worth while to have a plant"
+          ]
+        },
+        {
+          "title": "Lessons 121–122: Conversation — Flowers; Composition — The Monarch Butterfly",
+          "steps": [
+            "Answer the twelve flower questions in sentences with a series and one connecting word",
+            "Write a short description of your favorite flower",
+            "Finish the monarch story: egg, caterpillar, chrysalis, butterfly"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 121",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n148/mode/1up"
+            },
+            {
+              "label": "Read lesson 122",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n149/mode/1up"
+            }
+          ],
+          "pages": "pp. 130–131",
+          "questions": [
+            "On what plant did the monarch lay her eggs?"
+          ],
+          "answers": [
+            "Milkweed"
+          ]
+        },
+        {
+          "title": "Lesson 123: Dictation — The Green of England",
+          "steps": [
+            "Read the paragraph about England's verdure and look up universal, verdure, foliage, rustic",
+            "Complete the nine \"because\" sentences",
+            "Write the paragraph from dictation"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 123",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n149/mode/1up"
+            }
+          ],
+          "pages": "pp. 131–133",
+          "questions": [
+            "What is verdure?",
+            "Why is there an apostrophe and s after Stoddard?"
+          ],
+          "answers": [
+            "Green growing plants; greenness",
+            "To show possession (the lectures belong to Stoddard)"
+          ]
+        },
+        {
+          "title": "Lesson 124: October's Bright Blue Weather",
+          "steps": [
+            "Read Helen Hunt Jackson's poem \"October's Bright Blue Weather\"",
+            "Find the flowers, seeds, and fruits mentioned",
+            "Describe a picture you would paint for the poem, beginning \"If I were painting a picture...\""
+          ],
+          "links": [
+            {
+              "label": "Read lesson 124",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n151/mode/1up"
+            }
+          ],
+          "pages": "pp. 133–135",
+          "questions": [
+            "Who wrote \"October's Bright Blue Weather\"?"
+          ],
+          "answers": [
+            "Helen Hunt Jackson"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part Two: Lessons 125–138",
+      "lessons": [
+        {
+          "title": "Lesson 125: Correct Use of Words — Don't and Doesn't",
+          "steps": [
+            "Find the contractions in the three sentences",
+            "Rewrite the seven sentences with don't or doesn't",
+            "Write three questions beginning with don't and three with doesn't"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 125",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n153/mode/1up"
+            }
+          ],
+          "pages": "pp. 135–136",
+          "questions": [
+            "\"A bee ___ have time to play.\" (don't or doesn't)",
+            "\"Some birds ___ go south.\" (don't or doesn't)",
+            "Doesn't stands for what two words?"
+          ],
+          "answers": [
+            "doesn't",
+            "don't",
+            "does not"
+          ]
+        },
+        {
+          "title": "Lessons 126–127: Picture Study — The Balloon; Composition",
+          "steps": [
+            "Look at Julien Dupré's painting \"The Balloon\" and talk about what the haymakers are doing and saying",
+            "Write a short description of the picture",
+            "Reread \"October's Bright Blue Weather,\" then write a short article proving another month or season is the best"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 126",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n154/mode/1up"
+            }
+          ],
+          "pages": "pp. 136–138",
+          "questions": [
+            "In what country does this picture show country life?"
+          ],
+          "answers": [
+            "France"
+          ]
+        },
+        {
+          "title": "Lessons 128–129: Conversation — Ships of the Air; Composition — A Trip in an Airship",
+          "steps": [
+            "Talk about balloons and airships: what makes them rise and whether they can sail against the wind",
+            "Imagine an airship trip over a country you have studied in geography",
+            "Write about the start, how it felt to rise, and what you saw below"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 128",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n156/mode/1up"
+            }
+          ],
+          "pages": "pp. 138–139",
+          "questions": [
+            "Can a balloon sail against the wind?"
+          ],
+          "answers": [
+            "No, it drifts with the wind"
+          ]
+        },
+        {
+          "title": "Lesson 130: Abbreviations — The States",
+          "steps": [
+            "Read the list of state abbreviations (these are the 1914 forms, not today's postal codes)",
+            "Learn the abbreviations for your state and its neighbors",
+            "Write them from dictation"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 130",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n157/mode/1up"
+            }
+          ],
+          "pages": "pp. 139–140",
+          "questions": [
+            "Why are words sometimes abbreviated?",
+            "What was the book's abbreviation for New York?"
+          ],
+          "answers": [
+            "To save time and space",
+            "N. Y."
+          ]
+        },
+        {
+          "title": "Lesson 131: Reproduction — A Fable",
+          "steps": [
+            "Read the fable of the cat, the monkey, and the chestnuts",
+            "Rewrite it in dialogue form, beginning as the book shows",
+            "Add anything to the conversation that makes it more interesting"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 131",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n158/mode/1up"
+            }
+          ],
+          "pages": "pp. 140–141",
+          "questions": [
+            "Who ate the chestnuts the cat pulled from the fire?",
+            "How did the monkey get the cat to keep trying?"
+          ],
+          "answers": [
+            "The monkey",
+            "He flattered her"
+          ]
+        },
+        {
+          "title": "Lesson 132: Composition — A Fairy Story",
+          "steps": [
+            "Choose a story from the book's list (Cinderella, The Ugly Duckling, Jack and the Bean Stalk...)",
+            "Make a short outline",
+            "Tell or write the story in your own words"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 132",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n159/mode/1up"
+            }
+          ],
+          "pages": "pp. 141–142",
+          "questions": [
+            "Which story did you choose, and what is its turning point?"
+          ]
+        },
+        {
+          "title": "Lessons 133–134: Echo; Explanatory Expressions",
+          "steps": [
+            "Read the myth of Echo and tell it back",
+            "Find the explanatory expression \"the queen of the heavens\" and see how commas set it off",
+            "Use the book's explanatory expressions in sentences, then add your own after George Washington, Cinderella, The Panama Canal..."
+          ],
+          "links": [
+            {
+              "label": "Read lesson 133",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n160/mode/1up"
+            },
+            {
+              "label": "Read lesson 134",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n161/mode/1up"
+            }
+          ],
+          "pages": "pp. 142–144",
+          "questions": [
+            "What was Echo's punishment?",
+            "Who was Juno?",
+            "What sets off an explanatory expression from the rest of the sentence?"
+          ],
+          "answers": [
+            "She could only repeat the last words others said",
+            "The queen of the heavens",
+            "Commas"
+          ]
+        },
+        {
+          "title": "Lessons 135–136: Selection to Be Memorized; Singular and Plural",
+          "steps": [
+            "Memorize Stoddard's lines \"Under the trees\" and write them from memory",
+            "Bring leaves from different trees and name them; talk about shade, timber, and fuel trees",
+            "Learn plurals of words ending in y after a consonant and write the plurals of the book's ten words"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 135",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n162/mode/1up"
+            },
+            {
+              "label": "Read lesson 136",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n163/mode/1up"
+            }
+          ],
+          "pages": "pp. 144–146",
+          "questions": [
+            "Plural of \"baby\"?",
+            "Plural of \"country\"?",
+            "Words ending in y after a consonant change y to what and add what?"
+          ],
+          "answers": [
+            "babies",
+            "countries",
+            "Change y to i and add es"
+          ]
+        },
+        {
+          "title": "Lessons 137–138: Picture Study — A River Scene; Dictation",
+          "steps": [
+            "Read about the French painter Corot and study his \"River Scene\"",
+            "Talk through the book's questions: why so much sky, morning or evening?",
+            "Explain Corot's words about inviting nature into his studio, then write them from dictation"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 137",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n164/mode/1up"
+            },
+            {
+              "label": "Read lesson 138",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n166/mode/1up"
+            }
+          ],
+          "pages": "pp. 146–148",
+          "questions": [
+            "What season did Corot love best as a boy?"
+          ],
+          "answers": [
+            "Springtime"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part Two: Lessons 139–151",
+      "lessons": [
+        {
+          "title": "Lesson 139: The Song of the Brook",
+          "steps": [
+            "Read Tennyson's \"The Song of the Brook\" aloud",
+            "Name the places the brook passes through and explain \"brimming river\"",
+            "Memorize your favorite stanza and the last stanza"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 139",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n166/mode/1up"
+            }
+          ],
+          "pages": "pp. 148–150",
+          "questions": [
+            "Who wrote \"The Song of the Brook\"?",
+            "What does the brook say it does while men come and go?"
+          ],
+          "answers": [
+            "Alfred Tennyson",
+            "It goes on forever"
+          ]
+        },
+        {
+          "title": "Lesson 140: Composition — The Story a Drop of Water Told",
+          "steps": [
+            "With a map, trace the Missouri River from Yellowstone to the Gulf of Mexico",
+            "Write the drop of water's story, beginning as the book shows",
+            "Use phrases from \"The Song of the Brook\" such as brimming river and sandy shallows"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 140",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n168/mode/1up"
+            }
+          ],
+          "pages": "pp. 150–151",
+          "questions": [
+            "Into what river does the Missouri flow on the way to the Gulf of Mexico?"
+          ],
+          "answers": [
+            "The Mississippi River"
+          ]
+        },
+        {
+          "title": "Lessons 141–142: Business Letters; Letter Writing",
+          "steps": [
+            "Read John Edwards's order for tulip bulbs and the seed company's reply",
+            "Learn the address part of a business letter; write both letters from dictation",
+            "Write a letter ordering a book from a publisher, and the publisher's reply"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 141",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n169/mode/1up"
+            },
+            {
+              "label": "Read lesson 142",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n170/mode/1up"
+            }
+          ],
+          "pages": "pp. 151–153",
+          "questions": [
+            "What is the part between the heading and the salutation in a business letter called?",
+            "What salutation did the company use to John Edwards?"
+          ],
+          "answers": [
+            "The address",
+            "Dear Sir"
+          ]
+        },
+        {
+          "title": "Lessons 143–144: Autobiography of a Book; Correct Use of Words",
+          "steps": [
+            "Imagine you are a book and write your autobiography, from the printer to all who read you",
+            "Find the meanings of the homonym sets (do/dew/due, sew/so/sow, right/write...)",
+            "Use each homonym in a sentence"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 143",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n171/mode/1up"
+            }
+          ],
+          "pages": "pp. 153–154",
+          "questions": [
+            "\"The rent is ___ on Monday.\" (do, dew, or due)",
+            "\"I have ___ much homework.\" (to, two, or too)",
+            "\"Please ___ me a letter.\" (right or write)"
+          ],
+          "answers": [
+            "due",
+            "too",
+            "write"
+          ]
+        },
+        {
+          "title": "Lesson 145: A Diary",
+          "steps": [
+            "Read the diary entries Louisa M. Alcott wrote as a girl",
+            "Complete the book's five \"because\" sentences",
+            "Start keeping a diary for a week"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 145",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n172/mode/1up"
+            }
+          ],
+          "pages": "pp. 154–155",
+          "questions": [
+            "What is a diary?",
+            "Why does Cousin begin with a capital in \"Cousin Louisa\"?"
+          ],
+          "answers": [
+            "A record of the events of each day",
+            "It is a title used with a name"
+          ]
+        },
+        {
+          "title": "Lesson 146: Longfellow's Diary",
+          "steps": [
+            "Read Longfellow's diary description of a June morning",
+            "Look up tessellated and notice how the description begins and ends",
+            "Using it as a model, describe an autumn, spring, or winter day"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 146",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n173/mode/1up"
+            }
+          ],
+          "pages": "pp. 155–156",
+          "questions": [
+            "In what country did the morning make Longfellow imagine himself?"
+          ],
+          "answers": [
+            "Spain"
+          ]
+        },
+        {
+          "title": "Lesson 147: The Cloud",
+          "steps": [
+            "Read Percy Bysshe Shelley's poem \"The Cloud\" and tell what the cloud does",
+            "Find interior rhymes, like showers and flowers in the first line",
+            "Write a four-line stanza with lines 1 and 3 or 2 and 4 rhyming"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 147",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n174/mode/1up"
+            }
+          ],
+          "pages": "pp. 156–158",
+          "questions": [
+            "What are rhymes inside a single line called?",
+            "Which word rhymes with showers in the first line?"
+          ],
+          "answers": [
+            "Interior rhymes",
+            "flowers"
+          ]
+        },
+        {
+          "title": "Lessons 148–149: Dictation — A Dry Season; Composition",
+          "steps": [
+            "Read Henry Ward Beecher's paragraph about a dry season",
+            "Write it from dictation",
+            "Write a paragraph called \"A Wet Season,\" beginning \"Rain, rain, rain!\""
+          ],
+          "links": [
+            {
+              "label": "Read lesson 148",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n176/mode/1up"
+            },
+            {
+              "label": "Read lesson 149",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n177/mode/1up"
+            }
+          ],
+          "pages": "pp. 158–159",
+          "questions": [
+            "Who wrote \"A Dry Season\"?"
+          ],
+          "answers": [
+            "Henry Ward Beecher"
+          ]
+        },
+        {
+          "title": "Lessons 150–151: Summary; Correct Use of Words",
+          "steps": [
+            "Read the third \"To Remember\" list and give an example of each rule",
+            "Use he and I, you and I, with you and me, to him and me and the rest in sentences",
+            "Decide where you mention yourself when naming several people"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 150",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n177/mode/1up"
+            },
+            {
+              "label": "Read lesson 151",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n178/mode/1up"
+            }
+          ],
+          "pages": "pp. 159–160",
+          "questions": [
+            "When you speak of yourself and others, whom do you mention last?",
+            "\"The gift is from you and ___.\" (I or me)",
+            "\"She and ___ went to town.\" (I or me)"
+          ],
+          "answers": [
+            "Yourself",
+            "me",
+            "I"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part Two: Lessons 152–167",
+      "lessons": [
+        {
+          "title": "Lessons 152–153: Picture Study — Two Mothers; Composition — An Important Event",
+          "steps": [
+            "Look at Elizabeth Gardner's \"Two Mothers\" and talk about how each mother cares for her little ones",
+            "Study a newspaper article and its headlines",
+            "Write a news article with headlines about the most important event of the past month"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 152",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n178/mode/1up"
+            },
+            {
+              "label": "Read lesson 153",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n180/mode/1up"
+            }
+          ],
+          "pages": "pp. 160–162",
+          "questions": [
+            "Who are the two mothers in the picture?"
+          ],
+          "answers": [
+            "A woman and a hen"
+          ]
+        },
+        {
+          "title": "Lesson 154: The Tree",
+          "steps": [
+            "Read Bjørnson's poem \"The Tree\"",
+            "Learn what personified means, and find the personified things in the poem",
+            "Write the first stanza from memory and list the rhyming words"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 154",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n180/mode/1up"
+            }
+          ],
+          "pages": "pp. 162–164",
+          "questions": [
+            "Why does Tree begin with a capital letter in this poem?",
+            "To whom did the Tree give its berries?"
+          ],
+          "answers": [
+            "It is personified (it talks like a person)",
+            "To the girl"
+          ]
+        },
+        {
+          "title": "Lesson 155: Composition — Story of an Oak Desk",
+          "steps": [
+            "Begin: \"Once upon a time a tiny acorn fell to the ground...\"",
+            "Follow the book's outline: the tree grows, is cut, floats to the mill, becomes a desk",
+            "Describe the woods and the river, and tell what has happened to the desk since"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 155",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n182/mode/1up"
+            }
+          ],
+          "pages": "p. 164",
+          "questions": [
+            "What happens to the log just before it is made into a desk?"
+          ],
+          "answers": [
+            "It is sawed at the mill"
+          ]
+        },
+        {
+          "title": "Lessons 156–157: Composition — A Story; A Dialogue",
+          "steps": [
+            "Write how Carl Bremen warned the train after rain washed out the track",
+            "Write the dialogue between Carl and Mr. Evans, beginning as the book shows",
+            "Read the dialogue aloud with a partner"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 156",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n182/mode/1up"
+            },
+            {
+              "label": "Read lesson 157",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n183/mode/1up"
+            }
+          ],
+          "pages": "pp. 164–165",
+          "questions": [
+            "What had the heavy rain washed away?"
+          ],
+          "answers": [
+            "Part of the railroad track"
+          ]
+        },
+        {
+          "title": "Lessons 158–159: Letter Writing; Formation of Sentences",
+          "steps": [
+            "Write the letter Carl might send his mother about his new home and school",
+            "See how two sentences join with the word who",
+            "Combine each of the book's eight pairs using who"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 158",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n183/mode/1up"
+            },
+            {
+              "label": "Read lesson 159",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n184/mode/1up"
+            }
+          ],
+          "pages": "pp. 165–167",
+          "questions": [
+            "Combine with who: \"The artist was Jean Corot. He painted beautiful pictures of trees.\"",
+            "Combine: \"The boy found a sack of gold. He moved the stone from the road.\""
+          ],
+          "answers": [
+            "The artist who painted beautiful pictures of trees was Jean Corot.",
+            "The boy who moved the stone from the road found a sack of gold."
+          ]
+        },
+        {
+          "title": "Lessons 160–161: Composition — A Story; Letter Writing",
+          "steps": [
+            "Write the story of a rich, lonely man and a ragged boy at a toy-shop window",
+            "Write to W. A. King of Erie, Penn., asking to rent a house",
+            "Write the dealer's reply describing a house and its rent"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 160",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n185/mode/1up"
+            }
+          ],
+          "pages": "pp. 167–168",
+          "questions": [
+            "What did the man in your story do for the boy?"
+          ]
+        },
+        {
+          "title": "Lessons 162–163: Picture Study — Summer Evening; Study of Words",
+          "steps": [
+            "Talk about the picture \"Summer Evening\" and what you would add to it",
+            "Write a short description of a summer evening",
+            "List twelve words of size, weight, height, or depth and match them to mountain, river, tree, cloud..."
+          ],
+          "links": [
+            {
+              "label": "Read lesson 162",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n186/mode/1up"
+            }
+          ],
+          "pages": "pp. 168–170",
+          "questions": [
+            "Which word fits a mountain better: tiny or gigantic?"
+          ],
+          "answers": [
+            "gigantic"
+          ]
+        },
+        {
+          "title": "Lessons 164–165: Woodman, Spare that Tree; Composition — A Plea for Life",
+          "steps": [
+            "Read George Pope Morris's poem and find why the tree was dear to the poet",
+            "Find a person spoken to, contractions, a possessive, and plurals in the poem",
+            "Imagine you are a hundred-year-old oak and write a plea for your life"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 164",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n188/mode/1up"
+            },
+            {
+              "label": "Read lesson 165",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n190/mode/1up"
+            }
+          ],
+          "pages": "pp. 170–172",
+          "questions": [
+            "Who is spoken to in the first line?",
+            "What contraction means \"I will\"?"
+          ],
+          "answers": [
+            "The woodman",
+            "I'll"
+          ]
+        },
+        {
+          "title": "Lessons 166–167: Review — Singular and Plural; Kinds of Sentences",
+          "steps": [
+            "Write the plural of each of the book's fifty words",
+            "Learn declarative, interrogative, imperative, and exclamatory sentences",
+            "Write three of each kind about pictures in the book"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 166",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n190/mode/1up"
+            },
+            {
+              "label": "Read lesson 167",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n191/mode/1up"
+            }
+          ],
+          "pages": "pp. 172–174",
+          "questions": [
+            "Plural of \"potato\"?",
+            "What kind of sentence is \"Put away your axe.\"?",
+            "What kind of sentence is \"Long live the great tree!\"?"
+          ],
+          "answers": [
+            "potatoes",
+            "Imperative",
+            "Exclamatory"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part Two: Lessons 168–179",
+      "lessons": [
+        {
+          "title": "Lesson 168: Letter Writing",
+          "steps": [
+            "Choose one: Henry Andrews asking the price of a box of tools, or Mrs. Ethel Edwards asking about furs",
+            "Write the letter with the correct business form",
+            "Write the store's reply"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 168",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n192/mode/1up"
+            }
+          ],
+          "pages": "pp. 174–175",
+          "questions": [
+            "What salutation should the reply to Mrs. Edwards use?"
+          ],
+          "answers": [
+            "Dear Madam"
+          ]
+        },
+        {
+          "title": "Lesson 169: Legend of the Arbutus",
+          "steps": [
+            "Read the legend of old Winter and the maiden Spring",
+            "Tell the story and list pictures that could illustrate it",
+            "Find four different ways capital letters are used in it"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 169",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n193/mode/1up"
+            }
+          ],
+          "pages": "pp. 175–177",
+          "questions": [
+            "Who was the maiden?",
+            "What flower grew where the old man had lain?"
+          ],
+          "answers": [
+            "Spring",
+            "The arbutus"
+          ]
+        },
+        {
+          "title": "Lesson 170: Conversation — The Post Office",
+          "steps": [
+            "Talk through the book's questions: stamps, postmen, rural delivery, parcel post, registered mail",
+            "Trace a letter from your home to New York and count the people who handle it",
+            "Write a few sentences about what you learned"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 170",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n195/mode/1up"
+            }
+          ],
+          "pages": "pp. 177–178",
+          "questions": [
+            "Why must every envelope bear a stamp?"
+          ],
+          "answers": [
+            "To pay for carrying the letter"
+          ]
+        },
+        {
+          "title": "Lessons 171–172: Description — A Postage Stamp; Titles",
+          "steps": [
+            "Examine some postage stamps and describe one: its pictures, printing, and why they were chosen",
+            "Find the song, book, composition, and newspaper titles in the four sentences",
+            "Write sentences naming a song, a poem, a book you read, a book you want to read, and a newspaper"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 171",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n196/mode/1up"
+            }
+          ],
+          "pages": "pp. 178–179",
+          "questions": [
+            "What marks enclose the title of a poem or book used in a sentence?",
+            "Name the book in the sentences."
+          ],
+          "answers": [
+            "Quotation marks (or the title is italicized)",
+            "Black Beauty"
+          ]
+        },
+        {
+          "title": "Lessons 173–174: Letter Writing; Selection to Be Memorized",
+          "steps": [
+            "Write George or Edith Randall's letter to the Richmond library asking for a list of ten good books, and the reply",
+            "Read Shakespeare's lines \"Neither a borrower nor a lender be\" and talk about what they mean",
+            "Memorize the lines and write them from memory"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 173",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n197/mode/1up"
+            },
+            {
+              "label": "Read lesson 174",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n198/mode/1up"
+            }
+          ],
+          "pages": "pp. 179–180",
+          "questions": [
+            "Who wrote \"Neither a borrower nor a lender be\"?",
+            "What should a letter asking a favor enclose for the answer?"
+          ],
+          "answers": [
+            "William Shakespeare",
+            "A stamp"
+          ]
+        },
+        {
+          "title": "Lesson 175: Formation of Sentences — Combining",
+          "steps": [
+            "See how three short sentences about the snow became one long sentence",
+            "Combine each of the book's five groups (the south wind, the elm tree, the seeds, the robin) into one sentence",
+            "Write five groups of short sentences of your own and combine them"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 175",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n198/mode/1up"
+            }
+          ],
+          "pages": "pp. 180–183",
+          "questions": [
+            "Combine: \"He blew his soft breath against the snowflakes. The snowflakes disappeared.\""
+          ],
+          "answers": [
+            "When he blew his soft breath against the snowflakes, they disappeared."
+          ]
+        },
+        {
+          "title": "Lessons 176–177: Picture Study — Return of the Mayflower; Letter Writing",
+          "steps": [
+            "Tell what you know of the Pilgrims and describe the picture of the Mayflower sailing home",
+            "Talk about how the people left in America must have felt",
+            "Write a letter, as a Pilgrim child, to a cousin in England about the new country"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 176",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n201/mode/1up"
+            }
+          ],
+          "pages": "pp. 183–184",
+          "questions": [
+            "What was the name of the Pilgrims' ship?"
+          ],
+          "answers": [
+            "The Mayflower"
+          ]
+        },
+        {
+          "title": "Lesson 178: Old Ironsides",
+          "steps": [
+            "Read about the Constitution and the Guerriere in the War of 1812",
+            "Read Oliver Wendell Holmes's poem \"Old Ironsides\" and explain aye, ensign, and shattered hulk",
+            "Talk about what the poet thought should be done with the ship"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 178",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n202/mode/1up"
+            }
+          ],
+          "pages": "pp. 184–187",
+          "questions": [
+            "What ship was nicknamed \"Old Ironsides\"?",
+            "Who wrote the poem?",
+            "What did the poet say should be done with the ship?"
+          ],
+          "answers": [
+            "The Constitution",
+            "Oliver Wendell Holmes",
+            "Sink her beneath the waves with her flag nailed to the mast, rather than tear her apart"
+          ]
+        },
+        {
+          "title": "Lesson 179: Study of Words — Synonyms",
+          "steps": [
+            "Learn what synonyms are (plot and plan)",
+            "Match each word in column 1 with its synonym in column 2 and write the pairs",
+            "Use five of the pairs in sentences"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 179",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n205/mode/1up"
+            }
+          ],
+          "pages": "pp. 187–188",
+          "questions": [
+            "Synonym for \"lessen\" from the list?",
+            "Synonym for \"ancient\"?",
+            "Synonym for \"courageous\"?"
+          ],
+          "answers": [
+            "diminish",
+            "old",
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part Two: Lessons 180–195",
+      "lessons": [
+        {
+          "title": "Lessons 180–181: Description of an Old Mill; Composition — A Description",
+          "steps": [
+            "Read the description of the old mill and see if you could recognize it",
+            "Write sentences whose first part tells where (\"Near the gate stood a cherry tree...\")",
+            "Describe a church, station, school, library, or other building using the book's outline"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 180",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n206/mode/1up"
+            },
+            {
+              "label": "Read lesson 181",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n207/mode/1up"
+            }
+          ],
+          "pages": "pp. 188–190",
+          "questions": [
+            "What stood in front of the old mill?"
+          ],
+          "answers": [
+            "An immense oak tree"
+          ]
+        },
+        {
+          "title": "Lessons 182–183: Description of a Person; Selection to Be Memorized",
+          "steps": [
+            "Make an outline for describing a person",
+            "Describe a tramp, a baby, a blacksmith, an engineer, a policeman, or your mother",
+            "Read Francis Bourdillon's \"The night has a thousand eyes,\" memorize it, and write it from memory"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 182",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n208/mode/1up"
+            },
+            {
+              "label": "Read lesson 183",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n209/mode/1up"
+            }
+          ],
+          "pages": "pp. 190–191",
+          "questions": [
+            "What are the thousand eyes of the night?",
+            "What is the one eye of the day?"
+          ],
+          "answers": [
+            "The stars",
+            "The sun"
+          ]
+        },
+        {
+          "title": "Lessons 184–185: Correct Use of Words; Letter Writing",
+          "steps": [
+            "Review synonyms and homonyms",
+            "Use the homonym sets (there/their, flour/flower, sent/cent/scent...) in sentences",
+            "Write Tom Evans's letter to his rich uncle about a poor family's needs"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 184",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n209/mode/1up"
+            },
+            {
+              "label": "Read lesson 185",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n210/mode/1up"
+            }
+          ],
+          "pages": "pp. 191–193",
+          "questions": [
+            "\"The bees love the ___ in the garden.\" (flour or flower)",
+            "\"I ___ the bell ring.\" (herd or heard)",
+            "\"The children rode their bikes over ___.\" (there or their)"
+          ],
+          "answers": [
+            "flower",
+            "heard",
+            "there"
+          ]
+        },
+        {
+          "title": "Lessons 186–187: Composition — A Story; An Imaginary Diary",
+          "steps": [
+            "Finish the story of Harry Ford and the lame little dog, ending with something the dog does for Harry",
+            "Review Louisa Alcott's diary",
+            "Write a week-long diary for a Maltese kitten"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 186",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n211/mode/1up"
+            }
+          ],
+          "pages": "pp. 193–195",
+          "questions": [
+            "What will the dog do for Harry at the end of your story?"
+          ]
+        },
+        {
+          "title": "Lesson 188: Picture Study — The Spinner",
+          "steps": [
+            "Describe the painting \"The Spinner\" by Nicolas Maes",
+            "Talk about spinning with a spindle and distaff long ago and how wool is made now",
+            "Compare it with \"The Gleaners\" and describe another picture that could teach the same lesson"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 188",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n213/mode/1up"
+            }
+          ],
+          "pages": "pp. 195–196",
+          "questions": [
+            "What was the distaff used for?"
+          ],
+          "answers": [
+            "To hold the wool or flax while spinning"
+          ]
+        },
+        {
+          "title": "Lesson 189: The Heritage",
+          "steps": [
+            "Read James Russell Lowell's poem \"The Heritage\"",
+            "Talk about what the rich man's son and the poor man's son each inherit",
+            "Discuss the book's questions about charity: money or a chance to work?"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 189",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n214/mode/1up"
+            }
+          ],
+          "pages": "pp. 196–199",
+          "questions": [
+            "Who wrote \"The Heritage\"?",
+            "What does \"to hold in fee\" mean?"
+          ],
+          "answers": [
+            "James Russell Lowell",
+            "To possess"
+          ]
+        },
+        {
+          "title": "Lessons 190–191: Selection to Be Memorized; Composition",
+          "steps": [
+            "Read Charles Kingsley's words on work and talk about who is happier",
+            "Memorize the paragraph and write it from memory",
+            "Write a composition on the traits you like and dislike in a boy or girl"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 190",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n217/mode/1up"
+            }
+          ],
+          "pages": "pp. 199–200",
+          "questions": [
+            "According to Kingsley, what does being forced to work and do your best breed in you?"
+          ],
+          "answers": [
+            "A hundred virtues that the idle never know"
+          ]
+        },
+        {
+          "title": "Lessons 192–193: Quotations; To-Day",
+          "steps": [
+            "Collect quotations and stories about politeness, industry, truthfulness, and kindness to animals",
+            "Read Thomas Carlyle's poem \"To-Day\" and talk about a \"useless\" day",
+            "Use eternity, aforetime, behold, dawning in sentences and memorize the poem"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 192",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n218/mode/1up"
+            }
+          ],
+          "pages": "pp. 200–201",
+          "questions": [
+            "Who wrote \"To-Day\"?"
+          ],
+          "answers": [
+            "Thomas Carlyle"
+          ]
+        },
+        {
+          "title": "Lessons 194–195: Composition; Summary",
+          "steps": [
+            "Write a two-part composition: a child who wasted a day, and one who did not",
+            "Read the fourth \"To Remember\" list (synonyms, personification, kinds of sentences, titles)",
+            "Give one example for each kind of sentence"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 194",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n219/mode/1up"
+            },
+            {
+              "label": "Read lesson 195",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n220/mode/1up"
+            }
+          ],
+          "pages": "pp. 201–203",
+          "questions": [
+            "What is a sentence that commands or requests called?",
+            "What are words with nearly the same meaning called?"
+          ],
+          "answers": [
+            "An imperative sentence",
+            "Synonyms"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part Three: Lessons 196–208",
+      "lessons": [
+        {
+          "title": "Lesson 196: A Chinese Folk Story — How the Moon Became Beautiful",
+          "steps": [
+            "Read the Chinese folk story of the Moon and the earth maiden Tseh-N'io",
+            "Make an outline of the story",
+            "Tell the story from your outline"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 196",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n221/mode/1up"
+            }
+          ],
+          "pages": "pp. 203–206",
+          "questions": [
+            "Where did the people say Tseh-N'io had gone?"
+          ],
+          "answers": [
+            "To live with the Moon"
+          ]
+        },
+        {
+          "title": "Lesson 197: Subject and Predicate",
+          "steps": [
+            "Learn the subject (what is spoken about) and the predicate (what is said about it)",
+            "Write sentences using the book's subjects (The Panama Canal, The great Mississippi River...)",
+            "Write sentences using the book's predicates (...spins a web from which silk is made)"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 197",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n224/mode/1up"
+            }
+          ],
+          "pages": "pp. 206–207",
+          "questions": [
+            "Subject of \"Its soft yellow light brightens the earth\"?",
+            "Predicate of \"The moon is very beautiful\"?"
+          ],
+          "answers": [
+            "Its soft yellow light",
+            "is very beautiful"
+          ]
+        },
+        {
+          "title": "Lessons 198–199: Selection for Study — October; Review",
+          "steps": [
+            "Read Henry Ward Beecher's paragraph on October and compare it with \"October's Bright Blue Weather\"",
+            "Write it from dictation and complete the six \"because\" sentences",
+            "Copy the seven sentences, underlining subjects once and predicates twice"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 198",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n225/mode/1up"
+            },
+            {
+              "label": "Read lesson 199",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n226/mode/1up"
+            }
+          ],
+          "pages": "pp. 207–209",
+          "questions": [
+            "Subject of \"Apples drop in the stillest hours\"?",
+            "Why is there an apostrophe and s in \"year's\"?"
+          ],
+          "answers": [
+            "Apples",
+            "To show possession"
+          ]
+        },
+        {
+          "title": "Lessons 200–201: Selection to Be Memorized; Letter Writing",
+          "steps": [
+            "Read Carruth's autumn poem and describe the colors you'd use to paint it",
+            "Memorize it and write it from memory",
+            "Write a letter inviting a friend to dinner and a ride on Saturday, and an answer"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 200",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n227/mode/1up"
+            }
+          ],
+          "pages": "pp. 209–211",
+          "questions": [
+            "Who wrote \"Some of us call it autumn\"?"
+          ],
+          "answers": [
+            "William Herbert Carruth"
+          ]
+        },
+        {
+          "title": "Lesson 202: Picture Study — The Gleaners",
+          "steps": [
+            "Read about Millet and his painting \"The Gleaners\"",
+            "Find where the light is strongest and the shade heaviest",
+            "Talk about what suggests wealth and what suggests poverty, and how the picture makes you feel"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 202",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n229/mode/1up"
+            }
+          ],
+          "pages": "pp. 211–212",
+          "questions": [
+            "What are the three women doing in the field?",
+            "Who painted \"The Gleaners\"?"
+          ],
+          "answers": [
+            "Picking up stray grain the reapers left",
+            "Jean François Millet"
+          ]
+        },
+        {
+          "title": "Lesson 203: Compound Subject and Predicate",
+          "steps": [
+            "Find the two subjects in sentence 1 and the two predicates in sentence 2",
+            "Name the subjects and predicates in the book's ten sentences",
+            "Tell which are compound"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 203",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n230/mode/1up"
+            }
+          ],
+          "pages": "pp. 212–213",
+          "questions": [
+            "Compound subject of \"New York and Chicago are large cities\"?",
+            "Compound predicate of \"The farmer plowed the ground and planted the seed\"?"
+          ],
+          "answers": [
+            "New York and Chicago",
+            "plowed the ground and planted the seed"
+          ]
+        },
+        {
+          "title": "Lesson 204: July",
+          "steps": [
+            "Read Susan Hartley Swett's poem \"July\" aloud",
+            "Talk about the pictures in each stanza and why \"flame\" is used for poppies",
+            "Memorize the two stanzas that mean the most to you"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 204",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n231/mode/1up"
+            }
+          ],
+          "pages": "pp. 213–215",
+          "questions": [
+            "What line ends every stanza?"
+          ],
+          "answers": [
+            "It is July."
+          ]
+        },
+        {
+          "title": "Lesson 205: Transposed Order",
+          "steps": [
+            "Compare \"The ripe nuts fall to the ground\" with \"To the ground fall the ripe nuts\"",
+            "Put the subject first in the book's nine transposed sentences",
+            "Put the subject last in the five other sentences"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 205",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n233/mode/1up"
+            }
+          ],
+          "pages": "pp. 215–216",
+          "questions": [
+            "Subject of \"Near the waterfall stands an old mill\"?",
+            "Rewrite \"Calm and quiet are the days\" with the subject first."
+          ],
+          "answers": [
+            "an old mill",
+            "The days are calm and quiet."
+          ]
+        },
+        {
+          "title": "Lessons 206–207: Conversation — The School; Debate",
+          "steps": [
+            "Talk about how schools are run and paid for and about your state university",
+            "Prepare outlines for a debate: a high school education fits one better for business",
+            "Hold the debate, using the rules from Lesson 108"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 206",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n234/mode/1up"
+            },
+            {
+              "label": "Read lesson 207",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n235/mode/1up"
+            }
+          ],
+          "pages": "pp. 216–217",
+          "questions": [
+            "In a debate, where should the strongest arguments be placed?"
+          ],
+          "answers": [
+            "Last"
+          ]
+        },
+        {
+          "title": "Lesson 208: The Invention of Printing",
+          "steps": [
+            "Read how books were made before printing and how block printing began",
+            "Compare chances for education then and now",
+            "Tell what you know of modern printing"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 208",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n235/mode/1up"
+            }
+          ],
+          "pages": "pp. 217–219",
+          "questions": [
+            "How were books made six hundred years ago?",
+            "Why could block-printed pages be printed on only one side?"
+          ],
+          "answers": [
+            "They were written by hand",
+            "Because the wet block was pressed onto one side of the paper"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part Three: Lessons 209–221",
+      "lessons": [
+        {
+          "title": "Lesson 209: Composition — News Items",
+          "steps": [
+            "Clip news items from a paper and read the best ones aloud",
+            "Write local news items about events of the past week",
+            "Write a newspaper item on one of the book's topics (a brave boy, a storm, the baseball game...)"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 209",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n237/mode/1up"
+            }
+          ],
+          "pages": "pp. 219–220",
+          "questions": [
+            "Which topic did you choose and what is your headline?"
+          ]
+        },
+        {
+          "title": "Lessons 210–211: Dictation; Nouns",
+          "steps": [
+            "Read James A. Garfield's paragraph on industry and list all the names in it",
+            "Learn that names are called nouns; write the paragraph from dictation",
+            "Write the book's eight lists of nouns (things at home, foods, instruments, flowers...)"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 210",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n238/mode/1up"
+            }
+          ],
+          "pages": "pp. 220–221",
+          "questions": [
+            "What are all words used as names called?",
+            "Name two nouns from Garfield's first line."
+          ],
+          "answers": [
+            "Nouns",
+            "ship, sea, plow, field"
+          ]
+        },
+        {
+          "title": "Lesson 212: The Music of Labor",
+          "steps": [
+            "Read the poem \"The Music of Labor\"",
+            "Find the lines about the tailor, shoemaker, author, farmer, engineer, weaver, blacksmith, carpenter",
+            "Tell what you know about one of the industries"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 212",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n239/mode/1up"
+            }
+          ],
+          "pages": "pp. 221–223",
+          "questions": [
+            "Whose work is \"the clinking of the magic type\"?"
+          ],
+          "answers": [
+            "The printer's"
+          ]
+        },
+        {
+          "title": "Lessons 213–214: Michael Angelo; Pronouns",
+          "steps": [
+            "Read how Michael Angelo carved the statue of David from a spoiled block of marble",
+            "Tell the story of the statue and the Bible story of David",
+            "Learn pronouns and antecedents; copy the pronouns from Lesson 198 with their antecedents"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 213",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n241/mode/1up"
+            },
+            {
+              "label": "Read lesson 214",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n243/mode/1up"
+            }
+          ],
+          "pages": "pp. 223–226",
+          "questions": [
+            "How long did Michael Angelo work on the statue?",
+            "What is a word used in place of a noun?",
+            "What is the noun a pronoun stands for called?"
+          ],
+          "answers": [
+            "Eighteen months",
+            "A pronoun",
+            "Its antecedent"
+          ]
+        },
+        {
+          "title": "Lesson 215: Composition — Description of a Place",
+          "steps": [
+            "Look at what a travelers' guidebook contains",
+            "Write a guide to the place where you live",
+            "Describe its most important places, buildings, or natural beauty"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 215",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n244/mode/1up"
+            }
+          ],
+          "pages": "pp. 226–227",
+          "questions": [
+            "What place in your town would you send a visitor to first?"
+          ]
+        },
+        {
+          "title": "Lesson 216: Common and Proper Nouns",
+          "steps": [
+            "Find the nouns in the sentence about the marble block in Florence",
+            "Learn the difference between proper nouns (Florence) and common nouns (block)",
+            "Write five each of cities, states, countries, rivers, and great men"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 216",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n245/mode/1up"
+            }
+          ],
+          "pages": "pp. 227–228",
+          "questions": [
+            "Is \"Florence\" a common or a proper noun?",
+            "Is \"block\" a common or a proper noun?",
+            "How do all proper nouns begin?"
+          ],
+          "answers": [
+            "Proper",
+            "Common",
+            "With a capital letter"
+          ]
+        },
+        {
+          "title": "Lesson 217: \"Down to Sleep\"",
+          "steps": [
+            "Read Helen Hunt Jackson's poem \"Down to Sleep\"",
+            "Talk about the words that describe November woods and days, and who the \"viewless mother\" is",
+            "Compare it with \"October's Bright Blue Weather\" and Beecher's October paragraph"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 217",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n246/mode/1up"
+            }
+          ],
+          "pages": "pp. 228–229",
+          "questions": [
+            "Who wrote \"Down to Sleep\"?",
+            "What month does the poem describe?"
+          ],
+          "answers": [
+            "Helen Hunt Jackson",
+            "November"
+          ]
+        },
+        {
+          "title": "Lessons 218–219: Composition — A Lost Article; Possessives",
+          "steps": [
+            "Read the lost-umbrella notice and write your own notice for a lost article",
+            "Copy the possessive nouns from the six sentences and sort them into singular and plural",
+            "Write the possessive singular and plural of the book's twelve nouns, then of six nouns whose plurals don't end in s"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 218",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n247/mode/1up"
+            },
+            {
+              "label": "Read lesson 219",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n248/mode/1up"
+            }
+          ],
+          "pages": "pp. 229–231",
+          "questions": [
+            "Possessive plural of \"robin\"?",
+            "Possessive plural of \"child\"?",
+            "Possessive singular of \"forest\"?"
+          ],
+          "answers": [
+            "robins'",
+            "children's",
+            "forest's"
+          ]
+        },
+        {
+          "title": "Lessons 220–221: Conversation — Coal; Composition",
+          "steps": [
+            "Talk about where coal is found, how it is mined, and its uses",
+            "Compare soft coal and anthracite, and coal and wood as fuel",
+            "Write a composition on coal covering those points"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 220",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n249/mode/1up"
+            },
+            {
+              "label": "Read lesson 221",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n250/mode/1up"
+            }
+          ],
+          "pages": "pp. 231–232",
+          "questions": [
+            "Which is the hard coal: soft coal or anthracite?"
+          ],
+          "answers": [
+            "Anthracite"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part Three: Lessons 222–235",
+      "lessons": [
+        {
+          "title": "Lesson 222: Conversation — Electricity",
+          "steps": [
+            "Talk about how electricity lights houses, carries voices, and runs machines",
+            "Find out about one: airships, wireless telegraphy, motor cars, motor cycles, motor boats",
+            "Tell the family what you learned"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 222",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n250/mode/1up"
+            }
+          ],
+          "pages": "pp. 232–233",
+          "questions": [
+            "What invention lets us talk over long distances by electricity?"
+          ],
+          "answers": [
+            "The telephone"
+          ]
+        },
+        {
+          "title": "Lesson 223: Picture Study and Letter — The First Railway Train",
+          "steps": [
+            "Describe the engine and coaches of the first railway train",
+            "Compare it with a modern engine",
+            "Write a letter to a cousin as if you had just seen the first train move"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 223",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n251/mode/1up"
+            }
+          ],
+          "pages": "pp. 233–234",
+          "questions": [
+            "What power moved the first railway train?"
+          ],
+          "answers": [
+            "Steam"
+          ]
+        },
+        {
+          "title": "Lesson 224: Conversation — Transportation",
+          "steps": [
+            "Talk about prairie schooners, dog sleds, camels, sailboats, steamboats, and trains",
+            "Gather pictures of different ways to travel",
+            "Write a description of a sailboat, ocean steamer, train, street car, automobile, or motor cycle"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 224",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n252/mode/1up"
+            }
+          ],
+          "pages": "pp. 234–235",
+          "questions": [
+            "What advantage does a camel have over a horse in the desert?"
+          ],
+          "answers": [
+            "It can go a long time without water"
+          ]
+        },
+        {
+          "title": "Lessons 225–226: Debate; Dictation — Transportation",
+          "steps": [
+            "Debate: geography is of more value to the pupil than arithmetic",
+            "Write the transportation paragraph from dictation",
+            "Copy fifteen nouns, sorting singular from plural, and find the pronoun and its antecedent"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 225",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n253/mode/1up"
+            },
+            {
+              "label": "Read lesson 226",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n254/mode/1up"
+            }
+          ],
+          "pages": "pp. 235–237",
+          "questions": [
+            "According to the paragraph, why is teaming expensive over long distances?",
+            "Is transport by canal boat cheaper or more expensive than by railroad?"
+          ],
+          "answers": [
+            "A team drags small loads slowly, so its food and care cost as much as the load is worth",
+            "Cheaper (but slower)"
+          ]
+        },
+        {
+          "title": "Lessons 227–228: Conversation — Good Roads; Railroads",
+          "steps": [
+            "Talk about how good roads are made and why they help farmers",
+            "Plan a train trip from home to one of the book's places using a map or timetable",
+            "Find pictures or poems about a place you'd like to visit"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 227",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n255/mode/1up"
+            }
+          ],
+          "pages": "pp. 237–239",
+          "questions": [
+            "Which of the book's places would you most like to visit, and why?"
+          ]
+        },
+        {
+          "title": "Lesson 229: Picture Study — The Breaking Wave",
+          "steps": [
+            "Study \"The Breaking Wave\" and suggest another name for it",
+            "Talk about why the artist shows so much sea and so little sky",
+            "Compare it with \"Return of the Fishing Boats\""
+          ],
+          "links": [
+            {
+              "label": "Read lesson 229",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n257/mode/1up"
+            }
+          ],
+          "pages": "pp. 239–240",
+          "questions": [
+            "What colors do you think the painter used?"
+          ]
+        },
+        {
+          "title": "Lessons 230–231: Advertisement and Answer; Writing Advertisements",
+          "steps": [
+            "Read the advertisement for a bookkeeper and write a letter answering it",
+            "Look at real advertisements and pick the best",
+            "Write ads of no more than thirty words for each of the book's seven headings"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 230",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n258/mode/1up"
+            }
+          ],
+          "pages": "pp. 240–241",
+          "questions": [
+            "Where should the answer to the bookkeeper advertisement be sent?"
+          ],
+          "answers": [
+            "To D 643, \"Times\" Office"
+          ]
+        },
+        {
+          "title": "Lessons 232–233: The Blue Jay; Conversation — Birds' Nests",
+          "steps": [
+            "Read Susan Hartley Swett's poem \"The Blue Jay\" and explain azure and bonniest",
+            "Tell in your own words how the poet says the blue jay was made",
+            "Find out about the nests of as many birds on the book's list as you can"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 232",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n259/mode/1up"
+            },
+            {
+              "label": "Read lesson 233",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n260/mode/1up"
+            }
+          ],
+          "pages": "pp. 241–243",
+          "questions": [
+            "According to the poem, what were the fairies making when they made the blue jay?",
+            "Where does the barn swallow build its nest?"
+          ],
+          "answers": [
+            "A great blue flower, which they tossed into the air",
+            "In barns, often on the beams, using mud"
+          ]
+        },
+        {
+          "title": "Lessons 234–235: Dictation — The Oriole's Nest; Biography of an Oriole",
+          "steps": [
+            "Find a compound word and a series in the oriole paragraph",
+            "Write it from dictation",
+            "Write an oriole's life story from the outline, including a narrow escape"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 234",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n261/mode/1up"
+            },
+            {
+              "label": "Read lesson 235",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n262/mode/1up"
+            }
+          ],
+          "pages": "pp. 243–245",
+          "questions": [
+            "Why is the nest fastened at the fork of the twig?",
+            "Name the compound word in the paragraph."
+          ],
+          "answers": [
+            "So that its door stays open",
+            "framework (also horsehairs, near-by, pocket-shaped)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part Three: Lessons 236–249",
+      "lessons": [
+        {
+          "title": "Lesson 236: Winter",
+          "steps": [
+            "Read Longfellow's paragraph \"Winter\" and describe the picture it makes",
+            "Find the words that describe leaves, water, and figures",
+            "Learn that describing words are adjectives; write the paragraph from dictation"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 236",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n263/mode/1up"
+            }
+          ],
+          "pages": "pp. 245–246",
+          "questions": [
+            "To what is the wind compared?",
+            "What is a word that describes a noun or pronoun called?"
+          ],
+          "answers": [
+            "The blast of a trumpet",
+            "An adjective"
+          ]
+        },
+        {
+          "title": "Lessons 237–238: Conversation — Proverbs; Dictation — The Bells",
+          "steps": [
+            "Talk about the five sayings (Every cloud has a silver lining...) and tell a story for one",
+            "Read Poe's \"The Bells\" and listen for the sleigh-bell music",
+            "Memorize it and write it from memory or dictation"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 237",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n264/mode/1up"
+            },
+            {
+              "label": "Read lesson 238",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n265/mode/1up"
+            }
+          ],
+          "pages": "pp. 246–248",
+          "questions": [
+            "Who wrote \"The Bells\"?",
+            "What kind of bells does this part describe?"
+          ],
+          "answers": [
+            "Edgar Allan Poe",
+            "Silver sleigh bells"
+          ]
+        },
+        {
+          "title": "Lessons 239–240: Composition; Choice of Adjectives",
+          "steps": [
+            "Write what you would improve in your neighborhood with a large sum of money",
+            "Copy the thirty nouns and place a fitting adjective before each",
+            "Read your best adjective pairs aloud"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 239",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n266/mode/1up"
+            }
+          ],
+          "pages": "pp. 248–249",
+          "questions": [
+            "Which adjective did you choose for \"ocean\"?"
+          ]
+        },
+        {
+          "title": "Lesson 241: Selection for Study — Under the Stone",
+          "steps": [
+            "Read Oliver Wendell Holmes's passage about turning over a flat stone in a field",
+            "Look up revelation, unforeseen, community, larvae, compressed and use them in sentences",
+            "Copy ten singular nouns, ten plural nouns, five pronouns, and ten adjectives from it"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 241",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n267/mode/1up"
+            }
+          ],
+          "pages": "pp. 249–251",
+          "questions": [
+            "What grows where the stone once lay the next year?",
+            "What does \"poisoned by sunshine\" mean for the creatures under the stone?"
+          ],
+          "answers": [
+            "Tall green grass, dandelions, and buttercups",
+            "They live in the dark and flee from the light"
+          ]
+        },
+        {
+          "title": "Lessons 242–243: Composition; Debate",
+          "steps": [
+            "Write about your first ride on a horse, bicycle, rowboat, automobile, or motor boat",
+            "Tell when, where, with whom, and something interesting that happened",
+            "Debate: more pleasure comes from a horse and carriage than from an automobile"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 242",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n269/mode/1up"
+            }
+          ],
+          "pages": "pp. 251–252",
+          "questions": [
+            "What is the most interesting part of your first ride?"
+          ]
+        },
+        {
+          "title": "Lesson 244: Picture Study — The Horse Fair",
+          "steps": [
+            "Read about Rosa Bonheur and how she sketched horses for two years",
+            "Study \"The Horse Fair\" and find the principal horse",
+            "Talk about whether an artist puts the main subject exactly in the center"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 244",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n270/mode/1up"
+            }
+          ],
+          "pages": "pp. 252–254",
+          "questions": [
+            "Who painted \"The Horse Fair\"?",
+            "In what country did Rosa Bonheur live?",
+            "Name another animal painter from this book."
+          ],
+          "answers": [
+            "Rosa Bonheur",
+            "France",
+            "Edwin Landseer"
+          ]
+        },
+        {
+          "title": "Lessons 245–246: The Horse's Prayer; Composition",
+          "steps": [
+            "Read \"The Horse's Prayer\" and talk about how a horse should and should not be treated",
+            "Find words in series and synonyms for offer, provide, shelter, reward; write the first two paragraphs from dictation",
+            "Write a dog's prayer about how dogs are sometimes neglected"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 245",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n272/mode/1up"
+            },
+            {
+              "label": "Read lesson 246",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n274/mode/1up"
+            }
+          ],
+          "pages": "pp. 254–256",
+          "questions": [
+            "Why is there a comma before \"my Master\" in the first line?",
+            "What word could replace \"prayer\" in the first line?"
+          ],
+          "answers": [
+            "Master is the person spoken to (address)",
+            "petition"
+          ]
+        },
+        {
+          "title": "Lessons 247–248: Adjectives and Nouns; Summary",
+          "steps": [
+            "Write a fitting noun after each of the book's 24 adjectives (transparent, porous, fleecy...)",
+            "Read the fifth \"To Remember\" list on subjects, predicates, nouns, pronouns, adjectives",
+            "Give an example of each"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 247",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n274/mode/1up"
+            },
+            {
+              "label": "Read lesson 248",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n275/mode/1up"
+            }
+          ],
+          "pages": "pp. 256–258",
+          "questions": [
+            "What is a word that describes a noun or pronoun?",
+            "How do plural nouns ending in s form the possessive?"
+          ],
+          "answers": [
+            "An adjective",
+            "By adding an apostrophe after the s"
+          ]
+        },
+        {
+          "title": "Lesson 249: Landing of the Pilgrim Fathers",
+          "steps": [
+            "Read Felicia Hemans's poem \"Landing of the Pilgrim Fathers\"",
+            "Describe the picture in the first six lines and the people in the band of exiles",
+            "Use breaking waves, giant branches, stormy sky, dim woods in sentences"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 249",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n276/mode/1up"
+            }
+          ],
+          "pages": "pp. 258–260",
+          "questions": [
+            "Why did the Pilgrims come to America, according to the poem?",
+            "Who wrote the poem?"
+          ],
+          "answers": [
+            "For freedom to worship God",
+            "Felicia D. Hemans"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part Three: Lessons 250–262",
+      "lessons": [
+        {
+          "title": "Lessons 250–251: Selection for Study; Verbs",
+          "steps": [
+            "Read Louisa M. Alcott's \"I shine,\" says the sun",
+            "Learn that action words are verbs; copy twelve nouns and ten verbs, then write it from dictation",
+            "Write sentences with verbs for what a horse, dog, sun, wind, fire, bird, farmer, and you can do"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 250",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n278/mode/1up"
+            },
+            {
+              "label": "Read lesson 251",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n279/mode/1up"
+            }
+          ],
+          "pages": "pp. 260–262",
+          "questions": [
+            "What part of speech is \"shine\" in \"I shine,\" says the sun?",
+            "What does the child say she does?"
+          ],
+          "answers": [
+            "A verb",
+            "Smiles"
+          ]
+        },
+        {
+          "title": "Lessons 252–253: Verbs — Continued; Letter Writing",
+          "steps": [
+            "Learn that verbs can show being or state of being, and can be more than one word",
+            "Copy verbs and nouns from the lessons the book names",
+            "Write one of the three letters: change of address, asking to use a vacant lot, or a note to your teacher"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 252",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n280/mode/1up"
+            },
+            {
+              "label": "Read lesson 253",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n281/mode/1up"
+            }
+          ],
+          "pages": "pp. 262–263",
+          "questions": [
+            "What is the verb in \"November woods are bare and still\"?",
+            "Is \"had been running\" one verb or three?"
+          ],
+          "answers": [
+            "are",
+            "One verb"
+          ]
+        },
+        {
+          "title": "Lesson 254: Conversation — The Court",
+          "steps": [
+            "Talk about the duties of a judge",
+            "Tell how a trial is held when a man is accused of stealing",
+            "Explain jury, attorney for the defense, and acquittal"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 254",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n281/mode/1up"
+            }
+          ],
+          "pages": "pp. 263–264",
+          "questions": [
+            "How many people serve on a jury?",
+            "Who decides whether the accused is guilty?"
+          ],
+          "answers": [
+            "Twelve",
+            "The jury"
+          ]
+        },
+        {
+          "title": "Lesson 255: The Burial of Sir John Moore",
+          "steps": [
+            "Read about Sir John Moore and Charles Wolfe's poem on his burial",
+            "Find the lines that tell the time of burial and the soldiers' feelings",
+            "Explain corse, rampart, shroud, martial, random"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 255",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n282/mode/1up"
+            }
+          ],
+          "pages": "pp. 264–266",
+          "questions": [
+            "Where was Sir John Moore killed?",
+            "When was he buried?"
+          ],
+          "answers": [
+            "In Spain",
+            "At night"
+          ]
+        },
+        {
+          "title": "Lesson 256: Correct Use of Words — Shall and Will",
+          "steps": [
+            "Learn: for simple future use shall with I and we, will with others; reverse it for determination",
+            "Write the six sentences about your summer trip using shall and will",
+            "Fill in the six sentences of determination"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 256",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n284/mode/1up"
+            }
+          ],
+          "pages": "pp. 266–267",
+          "questions": [
+            "Simple future: \"I ___ see you soon.\"",
+            "Determination: \"I ___ tell the truth.\"",
+            "Determination: \"You ___ not hurt this boy.\""
+          ],
+          "answers": [
+            "shall",
+            "will",
+            "shall"
+          ]
+        },
+        {
+          "title": "Lesson 257: Composition — A Description",
+          "steps": [
+            "Choose the prettiest spot near your home",
+            "Describe it, tell how to reach it, and what makes it beautiful",
+            "Read your description aloud"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 257",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n285/mode/1up"
+            }
+          ],
+          "pages": "pp. 267–268",
+          "questions": [
+            "What makes your spot especially beautiful?"
+          ]
+        },
+        {
+          "title": "Lesson 258: The Seasons",
+          "steps": [
+            "Read Oliver Wendell Holmes's \"The Seasons\"",
+            "Compare his New England seasons with yours",
+            "List birds, insects, flowers, and trees from it; look up linger, heralds, tapestry, desolate"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 258",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n286/mode/1up"
+            }
+          ],
+          "pages": "pp. 268–271",
+          "questions": [
+            "Which bird does Holmes say appears as early as the first of March?",
+            "What does Holmes call \"the winding up of autumn\"?"
+          ],
+          "answers": [
+            "The bluebird",
+            "Thanksgiving"
+          ]
+        },
+        {
+          "title": "Lessons 259–260: Review; Sentences like Model",
+          "steps": [
+            "Copy six pronouns, fifteen adjectives, and fifteen verbs from \"The Seasons\"",
+            "Copy its first sentence and use it as a model to finish the book's four sentences",
+            "Use heralds of spring and gorgeous tapestry in sentences"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 259",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n289/mode/1up"
+            },
+            {
+              "label": "Read lesson 260",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n290/mode/1up"
+            }
+          ],
+          "pages": "pp. 271–272",
+          "questions": [
+            "What do you write after each pronoun?"
+          ],
+          "answers": [
+            "Its antecedent"
+          ]
+        },
+        {
+          "title": "Lessons 261–262: Quotations; The Year's at the Spring",
+          "steps": [
+            "Start a notebook of quotations you love, and share why you like them",
+            "Read Browning's song from \"Pippa Passes\" and the story of Pippa's one holiday",
+            "Find the contractions, memorize the stanza, and write it from memory"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 261",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n290/mode/1up"
+            },
+            {
+              "label": "Read lesson 262",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n291/mode/1up"
+            }
+          ],
+          "pages": "pp. 272–274",
+          "questions": [
+            "What time of day does the song describe?",
+            "What does \"The year's\" stand for?",
+            "Who wrote it?"
+          ],
+          "answers": [
+            "Morning, at seven",
+            "The year is",
+            "Robert Browning"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part Three: Lessons 263–275",
+      "lessons": [
+        {
+          "title": "Lesson 263: Adverbs",
+          "steps": [
+            "Find the words that tell how, when, and where in the three squirrel and flower sentences",
+            "Add adverbs telling how to the seven sentences (The brook murmurs...)",
+            "Use the book's lists of how, when, and where adverbs in sentences"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 263",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n292/mode/1up"
+            }
+          ],
+          "pages": "pp. 274–275",
+          "questions": [
+            "Adverb in \"The ground squirrels peep timidly out of their holes\"?",
+            "Does \"soon\" tell how, when, or where?",
+            "Does \"here\" tell how, when, or where?"
+          ],
+          "answers": [
+            "timidly",
+            "When",
+            "Where"
+          ]
+        },
+        {
+          "title": "Lessons 264–265: Adverbs — Continued",
+          "steps": [
+            "See how \"very\" changes the adjective \"high\"",
+            "Place an adjective after too, so, quite, very, more, most, less, least and use them in sentences",
+            "See how \"more\" changes \"carefully\" and complete the book's definition of an adverb"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 264",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n293/mode/1up"
+            },
+            {
+              "label": "Read lesson 265",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n294/mode/1up"
+            }
+          ],
+          "pages": "pp. 275–276",
+          "questions": [
+            "In \"a very high mountain,\" what word modifies \"high\"?",
+            "Complete: An adverb modifies a ___, an ___, or another ___."
+          ],
+          "answers": [
+            "very",
+            "verb, adjective, adverb"
+          ]
+        },
+        {
+          "title": "Lesson 266: Composition — A Business Circular",
+          "steps": [
+            "Look at business circulars and advertisements",
+            "Talk about what such writing must do",
+            "Write a circular for a grocer, plumber, florist, dry-goods merchant, or jeweler"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 266",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n294/mode/1up"
+            }
+          ],
+          "pages": "pp. 276–277",
+          "questions": [
+            "Which business did you advertise, and what is your best selling point?"
+          ]
+        },
+        {
+          "title": "Lessons 267–268: A Biography — Samuel Morse; Telegrams",
+          "steps": [
+            "Read the biography of Samuel Morse and tell the story of the telegraph",
+            "Talk about patents and copyrights, and find the copyright mark in this book",
+            "Write the book's three telegrams in ten words or fewer each"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 267",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n295/mode/1up"
+            },
+            {
+              "label": "Read lesson 268",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n297/mode/1up"
+            }
+          ],
+          "pages": "pp. 277–280",
+          "questions": [
+            "Between which two cities was the first telegraph line built?",
+            "What did Morse invent?"
+          ],
+          "answers": [
+            "Washington and Baltimore",
+            "The telegraph"
+          ]
+        },
+        {
+          "title": "Lessons 269–270: Prepositions; Composition — A Biography",
+          "steps": [
+            "Find the words that relate Charlestown, New York, and his native town to the rest of the sentence",
+            "Use the book's list of prepositions in sentences",
+            "Outline the Morse biography, then write a short biography of Washington, Lincoln, or someone else"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 269",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n298/mode/1up"
+            }
+          ],
+          "pages": "pp. 280–281",
+          "questions": [
+            "Preposition in \"born at Charlestown\"?",
+            "How does a biography differ from an autobiography?"
+          ],
+          "answers": [
+            "at",
+            "A biography is written by someone else; an autobiography by the person himself"
+          ]
+        },
+        {
+          "title": "Lesson 271: Correct Use of Words — Who and Whom",
+          "steps": [
+            "Write questions beginning of whom, with whom, for whom, by whom, to whom, from whom",
+            "Write five questions beginning with Who",
+            "Write a Whom question for each of the book's eight statements"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 271",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n299/mode/1up"
+            }
+          ],
+          "pages": "pp. 281–282",
+          "questions": [
+            "\"___ did Samuel Morse meet on the ship?\" (Who or Whom)",
+            "\"To ___ did you give the book?\" (who or whom)",
+            "Question for \"Millet loved the poor people\"?"
+          ],
+          "answers": [
+            "Whom",
+            "whom",
+            "Whom did Millet love?"
+          ]
+        },
+        {
+          "title": "Lesson 272: The Coming of Spring",
+          "steps": [
+            "Read Nora Perry's poem \"The Coming of Spring\"",
+            "Copy four contractions with the words they stand for",
+            "Memorize the part you like best"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 272",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n300/mode/1up"
+            }
+          ],
+          "pages": "pp. 282–284",
+          "questions": [
+            "What does \"There's\" stand for?",
+            "Who wrote the poem?"
+          ],
+          "answers": [
+            "There is",
+            "Nora Perry"
+          ]
+        },
+        {
+          "title": "Lesson 273: Selection for Study — A Bird's Real Home",
+          "steps": [
+            "Read the selection on a bird's real home and winter travels",
+            "Copy nouns, pronouns, adjectives, verbs, adverbs, and prepositions in separate lists",
+            "Make an outline, close the book, and retell it from your outline"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 273",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n302/mode/1up"
+            }
+          ],
+          "pages": "pp. 284–286",
+          "questions": [
+            "According to the selection, where is a bird's real home?",
+            "Why does a bird travel in winter?"
+          ],
+          "answers": [
+            "Where he spends the summer and raises his family",
+            "To find food it cannot get at home in winter"
+          ]
+        },
+        {
+          "title": "Lessons 274–275: The Flag Goes By; Dictation",
+          "steps": [
+            "Read Henry H. Bennett's \"The Flag Goes By\" and talk about why the command is \"Hats off!\"",
+            "Memorize it and write the first two stanzas from memory",
+            "Write Beecher's paragraph about a nation's flag from dictation and list its nouns and verbs"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 274",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n304/mode/1up"
+            },
+            {
+              "label": "Read lesson 275",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n305/mode/1up"
+            }
+          ],
+          "pages": "pp. 286–288",
+          "questions": [
+            "Who wrote \"The Flag Goes By\"?"
+          ],
+          "answers": [
+            "Henry H. Bennett"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part Three: Lessons 276–290",
+      "lessons": [
+        {
+          "title": "Lesson 276: Conversation — The Soldier",
+          "steps": [
+            "Talk about a soldier's life, uniform, and duties",
+            "Explain artillery, cavalry, infantry, barracks, rations, flag of truce",
+            "Find where the national military school is"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 276",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n306/mode/1up"
+            }
+          ],
+          "pages": "pp. 288–289",
+          "questions": [
+            "What is cavalry?",
+            "Where is the national military school?"
+          ],
+          "answers": [
+            "Soldiers who fight on horseback",
+            "West Point, New York"
+          ]
+        },
+        {
+          "title": "Lessons 277–278: A Man Without a Country; Conjunctions",
+          "steps": [
+            "Read about Edward Everett Hale's story and the officer's words to the young sailor",
+            "Tell the incident and repeat as much of his speech as you can",
+            "Learn conjunctions and write sentences where and, but, and or join words and sentences"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 277",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n307/mode/1up"
+            },
+            {
+              "label": "Read lesson 278",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n308/mode/1up"
+            }
+          ],
+          "pages": "pp. 289–291",
+          "questions": [
+            "What was the officer's punishment?",
+            "What is a word that connects words or sentences called?"
+          ],
+          "answers": [
+            "He was never again allowed to hear of the United States",
+            "A conjunction"
+          ]
+        },
+        {
+          "title": "Lessons 279–280: Composition — The Flag; Conversation — The State",
+          "steps": [
+            "Find out the history of the flag and who made the first one",
+            "Write a short composition, \"The Flag of the United States\"",
+            "Talk about your governor, the legislature, and how the state is paid for"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 279",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n309/mode/1up"
+            }
+          ],
+          "pages": "pp. 291–292",
+          "questions": [
+            "What do the thirteen stripes stand for?",
+            "Who makes the laws of your state?"
+          ],
+          "answers": [
+            "The thirteen original colonies",
+            "The state legislature"
+          ]
+        },
+        {
+          "title": "Lesson 281: Interjections",
+          "steps": [
+            "Find the words in the three sentences that call, attract attention, or show feeling",
+            "Learn how O and Oh are written",
+            "Write sentences using what, behold, alas, oh, hark, hurrah as interjections"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 281",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n310/mode/1up"
+            }
+          ],
+          "pages": "pp. 292–293",
+          "questions": [
+            "What mark usually follows an interjection?",
+            "Is the interjection O always written as a capital?",
+            "What usually follows Oh?"
+          ],
+          "answers": [
+            "An exclamation point",
+            "Yes",
+            "A comma"
+          ]
+        },
+        {
+          "title": "Lessons 282–283: Columbus; Picture Study — Columbus",
+          "steps": [
+            "Read Joaquin Miller's poem \"Columbus\" and talk about the mate's fears",
+            "Find the quotation within a quotation and its single marks",
+            "Talk through the book's outline about Columbus's voyage and describe the picture of his return to Spain"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 282",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n311/mode/1up"
+            },
+            {
+              "label": "Read lesson 283",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n314/mode/1up"
+            }
+          ],
+          "pages": "pp. 293–298",
+          "questions": [
+            "What marks enclose a quotation within a quotation?",
+            "What did Columbus keep saying when the mate wanted to turn back?",
+            "Who helped Columbus get his ships?"
+          ],
+          "answers": [
+            "Single quotation marks",
+            "\"Sail on!\"",
+            "Queen Isabella of Spain"
+          ]
+        },
+        {
+          "title": "Lesson 284: Selection for Study — Close of Day",
+          "steps": [
+            "Read Thackeray's description of evening in the Rhineland",
+            "Using it as a model, write a description of the break of day",
+            "Begin \"The sun rises suddenly from behind the great castle-crested mountains...\""
+          ],
+          "links": [
+            {
+              "label": "Read lesson 284",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n316/mode/1up"
+            }
+          ],
+          "pages": "pp. 298–299",
+          "questions": [
+            "Who wrote the Rhineland description?"
+          ],
+          "answers": [
+            "William Makepeace Thackeray"
+          ]
+        },
+        {
+          "title": "Lessons 285–286: Words Derived from Proper Nouns; Invitations",
+          "steps": [
+            "Find the proper nouns that Japanese, French, Russian, Norwegian and the rest come from",
+            "Study the formal invitation, acceptance, and regret",
+            "Write a formal invitation, an acceptance, a regret, and a Patrons' Day invitation"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 285",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n317/mode/1up"
+            }
+          ],
+          "pages": "pp. 299–300",
+          "questions": [
+            "From what proper noun does \"Norwegian\" come?",
+            "How do words from proper nouns begin?"
+          ],
+          "answers": [
+            "Norway",
+            "With a capital letter"
+          ]
+        },
+        {
+          "title": "Lessons 287–288: Letter Writing; May",
+          "steps": [
+            "Write a courteous letter from the grocer T. L. Barnes asking George Owens to settle his bill",
+            "Read Frank Dempster Sherman's poem \"May\" and use its phrases in sentences",
+            "Write three questions about the first stanza and two each about the second and third"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 287",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n318/mode/1up"
+            },
+            {
+              "label": "Read lesson 288",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n319/mode/1up"
+            }
+          ],
+          "pages": "pp. 300–302",
+          "questions": [
+            "Who wrote \"May\"?",
+            "Which bird saw the secret sign?"
+          ],
+          "answers": [
+            "Frank Dempster Sherman",
+            "The bluebird"
+          ]
+        },
+        {
+          "title": "Lessons 289–290: Conversation — The Nation; Quotations",
+          "steps": [
+            "Talk about the President, Vice President, and Congress",
+            "Learn the two houses of Congress",
+            "Bring quotations and stories about obedience, cleanliness, promptness, and honesty"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 289",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n320/mode/1up"
+            }
+          ],
+          "pages": "pp. 302–303",
+          "questions": [
+            "Of what two parts is Congress made?",
+            "Who makes the laws of the United States?",
+            "How long is a President's term?"
+          ],
+          "answers": [
+            "The Senate and the House of Representatives",
+            "Congress",
+            "Four years"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part Three: Lessons 291–301",
+      "lessons": [
+        {
+          "title": "Lesson 291: Daffodils",
+          "steps": [
+            "Read Wordsworth's \"Daffodils\" aloud",
+            "Give meanings for jocund, sprightly, solitude, and synonyms for glee, wealth, bliss",
+            "Describe the picture the poem makes and talk about the last stanza"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 291",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n321/mode/1up"
+            }
+          ],
+          "pages": "pp. 303–304",
+          "questions": [
+            "Who wrote \"Daffodils\"?",
+            "To what does the poet compare himself in the first line?"
+          ],
+          "answers": [
+            "William Wordsworth",
+            "A cloud"
+          ]
+        },
+        {
+          "title": "Lesson 292: Summer Rain",
+          "steps": [
+            "Read Beecher's \"Summer Rain\" and find what is compared to coining money",
+            "Use his phrases (a rain of riches, the soft mines of heaven) in sentences",
+            "Write the first paragraph from dictation"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 292",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n322/mode/1up"
+            }
+          ],
+          "pages": "pp. 304–306",
+          "questions": [
+            "To what are the roots compared?",
+            "Why does He begin with a capital in the last paragraph?"
+          ],
+          "answers": [
+            "Machinery (in a mint)",
+            "It refers to God"
+          ]
+        },
+        {
+          "title": "Lessons 293–294: Description — Plan of a House; Home, Sweet Home",
+          "steps": [
+            "Draw the plan of a house larger than the book's four-room plan",
+            "Describe each room's size, windows, wall paper, and furniture",
+            "Read John Howard Payne's \"Home, Sweet Home\" and talk about peace of mind"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 293",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n324/mode/1up"
+            },
+            {
+              "label": "Read lesson 294",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n325/mode/1up"
+            }
+          ],
+          "pages": "pp. 306–308",
+          "questions": [
+            "Who wrote \"Home, Sweet Home\"?"
+          ],
+          "answers": [
+            "John Howard Payne"
+          ]
+        },
+        {
+          "title": "Lesson 295: Letter Writing — A Reference",
+          "steps": [
+            "Write C. S. Ferguson's letter asking Professor Barnes about Frank Darby",
+            "Write the professor's reply recommending Frank, beginning as the book shows",
+            "Write a second reply in which he cannot recommend Frank, and say why"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 295",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n326/mode/1up"
+            }
+          ],
+          "pages": "pp. 308–309",
+          "questions": [
+            "What good points would an employer want to know about Frank?"
+          ]
+        },
+        {
+          "title": "Lesson 296: Conversation — Proverbs",
+          "steps": [
+            "Read the book's proverbs and say what each teaches",
+            "Tell stories for a few, using the book's suggestions",
+            "Write one of the stories"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 296",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n327/mode/1up"
+            }
+          ],
+          "pages": "pp. 309–310",
+          "questions": [
+            "Finish the proverb: \"A stitch in time ___.\"",
+            "Finish: \"A bird in the hand is worth ___.\"",
+            "Finish: \"Necessity is the mother of ___.\""
+          ],
+          "answers": [
+            "saves nine",
+            "two in the bush",
+            "invention"
+          ]
+        },
+        {
+          "title": "Lesson 297: The Day Is Done",
+          "steps": [
+            "Read Longfellow's \"The Day Is Done\"",
+            "Learn what a simile is, and find the similes in the poem",
+            "Copy similes from the lessons the book lists, and begin memorizing the poem"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 297",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n328/mode/1up"
+            }
+          ],
+          "pages": "pp. 310–313",
+          "questions": [
+            "In the first stanza, to what is the falling of darkness compared?",
+            "What words usually introduce a simile?"
+          ],
+          "answers": [
+            "A feather drifting down from an eagle in flight",
+            "As or like"
+          ]
+        },
+        {
+          "title": "Lesson 298: Selections for Study — Ruskin and Van Dyke",
+          "steps": [
+            "Read John Ruskin's words on work and Henry Van Dyke's \"The Footpath to Peace\"",
+            "Talk about what each means",
+            "Write the Ruskin selection from dictation"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 298",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n331/mode/1up"
+            }
+          ],
+          "pages": "pp. 313–314",
+          "questions": [
+            "Who wrote \"The Footpath to Peace\"?",
+            "According to Ruskin, how should work for our delight be done?"
+          ],
+          "answers": [
+            "Henry Van Dyke",
+            "Heartily"
+          ]
+        },
+        {
+          "title": "Lesson 299: Suggestions for Descriptions",
+          "steps": [
+            "Choose one of the book's five subjects: a pleasant bedroom, an untidy dining room, a mystery building, a yard plan, or a book character",
+            "Plan the details, drawing a diagram if you choose the yard",
+            "Write the description so clearly that others see what you see"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 299",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n332/mode/1up"
+            }
+          ],
+          "pages": "pp. 314–315",
+          "questions": [
+            "Which subject did you choose?"
+          ]
+        },
+        {
+          "title": "Lessons 300–301: Selection for Study — Neighbor Mine; Summary",
+          "steps": [
+            "Read the New York children's song \"Neighbor Mine\" and say what it teaches",
+            "Write five rules for keeping streets, sidewalks, and yards clean",
+            "Read the final \"To Remember\" list on verbs, adverbs, prepositions, conjunctions, interjections"
+          ],
+          "links": [
+            {
+              "label": "Read lesson 300",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n333/mode/1up"
+            },
+            {
+              "label": "Read lesson 301",
+              "url": "https://archive.org/details/intermediatelan00serlgoog/page/n334/mode/1up"
+            }
+          ],
+          "pages": "pp. 315–316",
+          "questions": [
+            "What is a word that shows the relation of a noun to the rest of the sentence?",
+            "What is a word used by itself to show feeling?",
+            "Determination: \"We ___ go even if it rains.\" (shall or will)"
+          ],
+          "answers": [
+            "A preposition",
+            "An interjection",
+            "will"
+          ]
+        }
+      ]
+    }
+  ]
+}

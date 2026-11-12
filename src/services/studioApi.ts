@@ -3,7 +3,7 @@ import { Platform } from 'react-native';
 import { uid } from '@/lib/id';
 import type { Listing, PackageContent } from '@/lib/market';
 import { attributionFor, packageToListing, publishIssues, type CurriculumPackage } from '@/lib/package';
-import { sampleContent } from '@/lib/studioSample';
+import { loadLibraryContent } from '@/lib/library';
 import { useAccount } from '@/store/useAccount';
 import { useMarket } from '@/store/useMarket';
 import { useStore } from '@/store/useStore';
@@ -142,7 +142,7 @@ export async function packageContent(listing: Pick<Listing, 'id' | 'packageId' |
     return (data as PackageContent | null) ?? undefined;
   }
   if (local) return { units: local.units, version: local.version, license: local.license, attribution: local.attribution };
-  return sampleContent(listing.id);
+  return loadLibraryContent(listing.id);
 }
 
 export interface ListingStats {

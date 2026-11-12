@@ -331,21 +331,22 @@ async function run() {
   await sleep(300);
   log(!!(await store()).curricula.find((k) => k.packageId === book.id)?.outline?.length, 'editing the curriculum keeps its lesson plan');
 
-  scenario('Buy a Studio curriculum and see the lessons');
-  await page.goto(`${BASE}/listing/l-fractions-workshop`, { waitUntil: 'networkidle0' });
+  scenario('Get a Library curriculum and see the lessons');
+  await page.goto(`${BASE}/listing/l-lib-rays-primary-arithmetic`, { waitUntil: 'networkidle0' });
   await sleep(900);
   await expect("What's inside");
-  await expect('Fold it in half');
-  await expect('License: CC BY 4.0');
-  await expect('Studio creator');
-  await click('Buy', { exact: true });
-  await click('Buy for $9');
+  await expect('Counting to 10');
+  await expect('License: Public domain');
+  await expect('Freerange Library');
+  await click('Get it free', { exact: true });
+  await click('Get it free', { exact: true });
   await sleep(800);
-  await expect('It’s in your library', 'plan sheet opens after buying');
+  await expect('in your library', 'plan sheet opens after claiming');
   await click('Add to plan', { exact: true });
   await expect('Added to your plan ✓');
-  const fw = (await store()).curricula.find((k) => k.name.startsWith('Fractions Workshop'));
-  log(fw?.outline?.length === 3 && fw.totalLessons === 12 && fw.license?.kind === 'cc_by', 'purchase brings the full plan and license');
+  const NAME = "Ray's New Primary Arithmetic";
+  const fw = (await store()).curricula.find((k) => k.name.startsWith(NAME));
+  log(fw?.outline?.length === 13 && fw.totalLessons === 89 && fw.license?.kind === 'public_domain', 'the full plan and license come with it');
   // Find the first scheduled lesson in a kid's days.
   await page.goto(`${BASE}/today`, { waitUntil: 'networkidle0' });
   await sleep(800);
@@ -361,49 +362,49 @@ async function run() {
   if (await has('How are you feeling today?')) await click('Super!');
   let found = false;
   for (let i = 0; i < 9 && !found; i++) {
-    found = await page.evaluate(() => {
-      const el = [...document.querySelectorAll('[tabindex]')].reverse().find((e) => e.offsetParent && e.innerText.includes('Fractions Workshop'));
+    found = await page.evaluate((name) => {
+      const el = [...document.querySelectorAll('[tabindex]')].reverse().find((e) => e.offsetParent && e.innerText.includes(name));
       el?.click();
       return !!el;
-    });
+    }, NAME);
     if (!found) await clickLabel('Next day');
   }
   await sleep(700);
   log(found, `lesson appears in ${st.children.find((k) => k.id === kidId)?.name}'s days`);
   if (found) {
-    await expect('Lesson 1 of 12: Fold it in half', 'mission shows the lesson title');
-    await expect('Fold paper shapes in half', 'mission steps come from the lesson');
-    await expect('Fractions Workshop” by Maple Room Studio', 'credit shown on the lesson');
+    await expect('Lesson 1 of 89: Lesson I: Counting to 10', 'mission shows the lesson title');
+    await expect('Count out 1 to 10 buttons', 'mission steps come from the lesson');
+    await expect('Lesson plan by Freerange Library', 'credit shown on the lesson');
     await click('Print worksheet');
     await click('Save & print').catch(() => {});
     await sleep(800);
     const printed = await page.evaluate(() => [...document.querySelectorAll('iframe')].at(-1)?.contentDocument?.body?.textContent ?? '');
-    log(printed.includes('Draw a shape that is NOT cut in half.') && printed.includes('CC BY 4.0'), 'worksheet prints the lesson’s questions and credit');
-    log(!printed.includes('two unequal parts') && !printed.includes('halves match exactly'), 'kid worksheet leaves out the answers and parent notes');
+    log(printed.includes('Write the figure for seven.') && printed.includes('public domain'), 'worksheet prints the lesson’s questions and credit');
+    log(!printed.includes('jar of beans') && !printed.includes('For grown-ups'), 'kid worksheet leaves out the answers and parent notes');
     await expectNot('answer key', 'kid mode hides the answer key');
-    await expectNot('halves match exactly', 'kid mode hides parent notes');
+    await expectNot('jar of beans', 'kid mode hides parent notes');
 
     scenario('Answer key for grown-ups');
-    const lessonDate = await page.evaluate(() => {
+    const lessonDate = await page.evaluate((name) => {
       const s = JSON.parse(localStorage.getItem('freerange-v1'));
       s.state.mode = { kind: 'parent' };
       localStorage.setItem('freerange-v1', JSON.stringify(s));
-      return s.state.tasks.filter((t) => t.title.startsWith('Fractions Workshop')).map((t) => t.date).sort()[0];
-    });
+      return s.state.tasks.filter((t) => t.title.startsWith(name)).map((t) => t.date).sort()[0];
+    }, NAME);
     await page.goto(`${BASE}/today`, { waitUntil: 'networkidle0' });
     await sleep(800);
-    for (let i = 0; i < 14 && !(await has('Fractions Workshop')); i++) await clickLabel('Next day');
-    log(await has('Fractions Workshop'), `lesson on the parent's day (${lessonDate})`);
+    for (let i = 0; i < 14 && !(await has(NAME)); i++) await clickLabel('Next day');
+    log(await has(NAME), `lesson on the parent's day (${lessonDate})`);
     await expect('Answer key', 'day has an answer key to print');
-    await page.evaluate(() => [...document.querySelectorAll('[tabindex]')].reverse().find((e) => e.offsetParent && e.innerText.includes('Fractions Workshop') && e.innerText.length < 200)?.click());
+    await page.evaluate((name) => [...document.querySelectorAll('[tabindex]')].reverse().find((e) => e.offsetParent && e.innerText.includes(name) && e.innerText.length < 200)?.click(), NAME);
     await expect('🔑 Show answer key');
     await click('🔑 Show answer key');
-    await expect('two unequal parts', 'parent sees the answers');
-    await expect('halves match exactly', 'parent sees their notes');
+    await expect('seven. → 7', 'parent sees the answers');
+    await expect('jar of beans', 'parent sees the notes');
     await click('Answer key');
     await sleep(800);
     const key = await page.evaluate(() => [...document.querySelectorAll('iframe')].at(-1)?.contentDocument?.body?.textContent ?? '');
-    log(key.includes('Any shape split into two unequal parts') && key.includes('For grown-ups') && key.includes('halves match exactly'), 'answer key prints with answers and notes');
+    log(key.includes('Write the figure for seven.') && key.includes('For grown-ups') && key.includes('jar of beans'), 'answer key prints with answers and notes');
   }
 }
 

@@ -45,6 +45,18 @@ _Last updated: 2026-11-11_
   - each site's own outline format
 - [ ] **Marketplace: creator verification badge,** plus onboarding as an ESA vendor.
 - [ ] **Community:** messaging between families, and identity verification for meetups.
+- [ ] **Freerange Library: more conversions.** Only works anyone may adapt and sell (public domain, CC0, CC BY, CC BY-SA). Next candidates:
+  - more McGuffey readers (Third through Sixth)
+  - Ray's Intellectual Arithmetic
+  - the rest of the Open Up Resources 6–8 math (grades 7–8)
+  - Handbook of Nature Study
+  - The Story of the Romans
+
+  Can't convert without permission:
+  - Easy Peasy and Ambleside Online (all rights reserved)
+  - Khan Academy, Core Knowledge, CK-12 and EngageNY (non-commercial licenses)
+  - OpenStax: now non-commercial, and its book pages ban AI use without written permission
+  - Primary Language Lessons: no public-domain scan readable online
 - [ ] **Accurate distances:** load the Census ZIP-area (ZCTA) data. This needs your OK to download it; today distances use a ZIP-prefix fallback.
 
 ## P2: Soon

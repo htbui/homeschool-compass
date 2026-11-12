@@ -1,5 +1,5 @@
 import type { Listing, Purchase, Review } from '@/lib/market';
-import { sampleCatalog } from '@/lib/marketSample';
+import { libraryListings } from '@/lib/library';
 import type { FundingSource, ID } from '@/lib/types';
 import { useAccount } from '@/store/useAccount';
 import { useMarket } from '@/store/useMarket';
@@ -125,7 +125,7 @@ export const toPurchase = (r: PurchaseRow): Purchase => ({
 /** Load the catalog (and, when signed in, this family's purchases, listings, reviews, votes). */
 export async function refreshMarketplace(): Promise<void> {
   if (!supabase) {
-    useMarket.getState().setCatalog({ ...sampleCatalog(), source: 'sample' });
+    useMarket.getState().setCatalog({ listings: libraryListings(), reviews: [], source: 'sample' });
     return;
   }
   const market = useMarket.getState();

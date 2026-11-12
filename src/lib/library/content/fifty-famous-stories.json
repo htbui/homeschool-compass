@@ -1,0 +1,913 @@
+{
+  "key": "fifty-famous-stories",
+  "title": "Fifty Famous Stories Retold",
+  "sourceTitle": "Fifty Famous Stories Retold",
+  "author": "James Baldwin",
+  "year": 1896,
+  "sourceUrl": "https://www.gutenberg.org/ebooks/18442",
+  "readUrl": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Project Gutenberg #18442: 'Public domain in the USA'; first published by the American Book Company in 1896",
+  "subjects": [
+    "reading",
+    "history"
+  ],
+  "gradeMin": 2,
+  "gradeMax": 4,
+  "philosophies": [
+    "charlotte_mason",
+    "classical",
+    "traditional"
+  ],
+  "lessonsPerWeek": 3,
+  "minutesPerLesson": 15,
+  "parentInvolvement": "high",
+  "familyStyle": true,
+  "cover": "🏰",
+  "color": "#E3A33B",
+  "description": "James Baldwin's classic collection of short hero tales and legends, from King Alfred's burned cakes to Horatius at the bridge and Whittington's cat. Each day you read one or two stories aloud, your child tells it back, and then draws a favorite scene. A gentle first taste of history for ages 7 to 10, and the full text is free online.",
+  "includes": [
+    "34 lessons in 7 units covering all 50 stories",
+    "Link to the free full text for every story",
+    "A narration prompt and a drawing prompt for each lesson",
+    "One question per story, with answers",
+    "Parent notes on legends and dated passages"
+  ],
+  "units": [
+    {
+      "title": "Unit 1: Kings and Outlaws of Old England",
+      "lessons": [
+        {
+          "title": "Lesson 1: King Alfred and the Cakes and King Alfred and the Beggar",
+          "steps": [
+            "Read “King Alfred and the Cakes” and “King Alfred and the Beggar” aloud together",
+            "Tell back both Alfred stories in order: the burned cakes, then the beggar at the door",
+            "Draw Alfred by the hearth with the cakes smoking"
+          ],
+          "links": [
+            {
+              "label": "Read “King Alfred and the Cakes”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#FIFTY_FAMOUS_STORIES_RETOLD"
+            },
+            {
+              "label": "Read “King Alfred and the Beggar”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#KING_ALFRED_AND_THE_BEGGAR"
+            }
+          ],
+          "pages": "pp. 5–9",
+          "questions": [
+            "Why did King Alfred let the cakes burn?",
+            "What did Alfred give the beggar?"
+          ],
+          "answers": [
+            "He was busy thinking about how to gather his army and beat the Danes",
+            "Half of his only loaf and half of his wine"
+          ]
+        },
+        {
+          "title": "Lesson 2: King Canute on the Seashore and The Sons of William the Conqueror",
+          "steps": [
+            "Read “King Canute on the Seashore” and “The Sons of William the Conqueror” aloud together",
+            "Narrate how Canute taught his officers a lesson, then what each prince chose to be",
+            "Draw Canute's chair at the water's edge, or the three princes' birds"
+          ],
+          "links": [
+            {
+              "label": "Read “King Canute on the Seashore”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#KING_CANUTE_ON_THE_SEASHORE"
+            },
+            {
+              "label": "Read “The Sons of William the Conqueror”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THE_SONS_OF_WILLIAM_THE_CONQUEROR"
+            }
+          ],
+          "pages": "pp. 10–16",
+          "questions": [
+            "What did Canute command the sea to do?",
+            "Which bird did Henry, the Handsome Scholar, choose?"
+          ],
+          "answers": [
+            "Come no farther and not touch his feet",
+            "A starling"
+          ]
+        },
+        {
+          "title": "Lesson 3: The White Ship",
+          "steps": [
+            "Read “The White Ship” aloud together",
+            "Narrate the voyage of the White Ship from the merry start to the sad end",
+            "Draw the white ship with its white sails under the full moon"
+          ],
+          "links": [
+            {
+              "label": "Read “The White Ship”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THE_WHITE_SHIP"
+            }
+          ],
+          "pages": "pp. 17–20",
+          "questions": [
+            "Why did Prince William row back to the sinking ship?"
+          ],
+          "answers": [
+            "To save his little sister"
+          ],
+          "notes": "The ending is sad: the prince and nearly everyone aboard drown. The poem at the end is a nice one to read aloud."
+        },
+        {
+          "title": "Lesson 4: King John and the Abbot",
+          "steps": [
+            "Read “King John and the Abbot” aloud together",
+            "Narrate the three questions and the shepherd's three clever answers",
+            "Draw the shepherd throwing off the abbot's gown before King John"
+          ],
+          "links": [
+            {
+              "label": "Read “King John and the Abbot”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#KING_JOHN_AND_THE_ABBOT"
+            }
+          ],
+          "pages": "pp. 21–27",
+          "questions": [
+            "What did the shepherd say the king was thinking?"
+          ],
+          "answers": [
+            "That he was the Abbot of Canterbury, but he was only the abbot's shepherd"
+          ]
+        },
+        {
+          "title": "Lesson 5: A Story of Robin Hood",
+          "steps": [
+            "Read “A Story of Robin Hood” aloud together",
+            "Narrate how Robin Hood helped Allin-a-Dale",
+            "Draw Robin Hood dressed as a harper at the church door"
+          ],
+          "links": [
+            {
+              "label": "Read “A Story of Robin Hood”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#A_STORY_OF_ROBIN_HOOD"
+            }
+          ],
+          "pages": "pp. 28–32",
+          "questions": [
+            "What did Robin Hood do when he blew his horn three times?"
+          ],
+          "answers": [
+            "He called twenty-four of his men in green, with Allin-a-Dale among them, into the church"
+          ],
+          "notes": "Baldwin admits Robin was a lawless outlaw; a good chance to talk about whether robbing the rich is ever right."
+        }
+      ]
+    },
+    {
+      "title": "Unit 2: Scotland, Gotham, and Brave Englishmen",
+      "lessons": [
+        {
+          "title": "Lesson 6: Bruce and the Spider and The Black Douglas",
+          "steps": [
+            "Read “Bruce and the Spider” and “The Black Douglas” aloud together",
+            "Narrate what Bruce learned from the spider, then how the Black Douglas took the castle",
+            "Draw the spider's web under the shed, or the men creeping like cattle toward the wall"
+          ],
+          "links": [
+            {
+              "label": "Read “Bruce and the Spider”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#BRUCE_AND_THE_SPIDER"
+            },
+            {
+              "label": "Read “The Black Douglas”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THE_BLACK_DOUGLAS"
+            }
+          ],
+          "pages": "pp. 33–38",
+          "questions": [
+            "How many times did the spider try before her thread reached the beam?",
+            "What did the watchman think the Black Douglas and his men were?"
+          ],
+          "answers": [
+            "Seven",
+            "The farmer's cattle"
+          ]
+        },
+        {
+          "title": "Lesson 7: Three Men of Gotham and Other Wise Men of Gotham",
+          "steps": [
+            "Read “Three Men of Gotham” and “Other Wise Men of Gotham” aloud together",
+            "Retell the quarrel on the bridge, then the silly things the sheriff saw in Gotham",
+            "Draw one of the 'foolish' things the men of Gotham were doing"
+          ],
+          "links": [
+            {
+              "label": "Read “Three Men of Gotham”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THREE_MEN_OF_GOTHAM"
+            },
+            {
+              "label": "Read “Other Wise Men of Gotham”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#OTHER_WISE_MEN_OF_GOTHAM"
+            }
+          ],
+          "pages": "pp. 39–45",
+          "questions": [
+            "How did the man with the sack show Hodge and Peter they were foolish?",
+            "Why did the men of Gotham act like fools?"
+          ],
+          "answers": [
+            "He poured all his meal into the river, then asked how much was in the sack",
+            "So the king's sheriff would think them simple and not cut off their noses"
+          ]
+        },
+        {
+          "title": "Lesson 8: The Miller of the Dee and Sir Philip Sidney",
+          "steps": [
+            "Read “The Miller of the Dee” and “Sir Philip Sidney” aloud together",
+            "Narrate why the miller was happy, then what Sir Philip Sidney did with the cup of water",
+            "Draw the miller at work in his mill by the river"
+          ],
+          "links": [
+            {
+              "label": "Read “The Miller of the Dee”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THE_MILLER_OF_THE_DEE"
+            },
+            {
+              "label": "Read “Sir Philip Sidney”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#SIR_PHILIP_SIDNEY"
+            }
+          ],
+          "pages": "pp. 46–50",
+          "questions": [
+            "Which river turned the happy miller's mill?",
+            "Who did Sir Philip Sidney give his water to?"
+          ],
+          "answers": [
+            "The River Dee",
+            "A dying soldier lying nearby"
+          ]
+        },
+        {
+          "title": "Lesson 9: The Ungrateful Soldier and Sir Humphrey Gilbert",
+          "steps": [
+            "Read “The Ungrateful Soldier” and “Sir Humphrey Gilbert” aloud together",
+            "Narrate what the Danish soldier did after the Swede shot at him, then Sir Humphrey Gilbert's last voyage",
+            "Draw the little 'Squirrel' among the icebergs"
+          ],
+          "links": [
+            {
+              "label": "Read “The Ungrateful Soldier”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THE_UNGRATEFUL_SOLDIER"
+            },
+            {
+              "label": "Read “Sir Humphrey Gilbert”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#SIR_HUMPHREY_GILBERT"
+            }
+          ],
+          "pages": "pp. 51–53",
+          "questions": [
+            "How did the Dane 'punish' the Swede who shot at him?",
+            "What were the names of the two ships?"
+          ],
+          "answers": [
+            "He drank half the water and gave him only the other half",
+            "The Squirrel and the Golden Hind"
+          ],
+          "notes": "The Gilbert story describes America as roamed by 'wild Indians'; you might point out that many Native nations already had towns and farms here."
+        },
+        {
+          "title": "Lesson 10: Sir Walter Raleigh",
+          "steps": [
+            "Read “Sir Walter Raleigh” aloud together",
+            "Narrate the cloak and the puddle, and the two plants Raleigh brought home",
+            "Draw Raleigh spreading his scarlet cloak over the puddle"
+          ],
+          "links": [
+            {
+              "label": "Read “Sir Walter Raleigh”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#SIR_WALTER_RALEIGH"
+            }
+          ],
+          "pages": "pp. 54–57",
+          "questions": [
+            "What two things from America did Raleigh make known in England?"
+          ],
+          "answers": [
+            "The potato and tobacco"
+          ],
+          "notes": "Calls the Native people 'savage Indians.' Worth a quick talk about where potatoes and tobacco came from: Native farmers had grown them for centuries."
+        }
+      ]
+    },
+    {
+      "title": "Unit 3: Heroes of America, the Sea, and the Mountains",
+      "lessons": [
+        {
+          "title": "Lesson 11: Pocahontas and George Washington and his Hatchet",
+          "steps": [
+            "Read “Pocahontas” and “George Washington and his Hatchet” aloud together",
+            "Narrate the Pocahontas story, then the cherry tree story",
+            "Draw young George with his hatchet"
+          ],
+          "links": [
+            {
+              "label": "Read “Pocahontas”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#POCAHONTAS"
+            },
+            {
+              "label": "Read “George Washington and his Hatchet”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#GEORGE_WASHINGTON_AND_HIS_HATCHET"
+            }
+          ],
+          "pages": "pp. 58–60",
+          "questions": [
+            "What did Pocahontas do to save John Smith?",
+            "What did George's father say he would rather lose than hear one lie?"
+          ],
+          "answers": [
+            "She threw herself between him and the clubs and laid her head on his",
+            "A dozen cherry trees"
+          ],
+          "notes": "Both are legends: historians doubt Smith's rescue tale (the book itself says some tales are untrue), and the cherry tree story was invented by an early biographer. Pocahontas was about 11 at the time; the book calls the Powhatan people simply 'Indians' and their leader 'king.'"
+        },
+        {
+          "title": "Lesson 12: Grace Darling",
+          "steps": [
+            "Read “Grace Darling” aloud together",
+            "Narrate the rescue from the night of the storm to the lighthouse",
+            "Draw Grace and her father rowing toward the wreck"
+          ],
+          "links": [
+            {
+              "label": "Read “Grace Darling”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#GRACE_DARLING"
+            }
+          ],
+          "pages": "pp. 61–63",
+          "questions": [
+            "Who rowed out with Grace to save the shipwrecked men?"
+          ],
+          "answers": [
+            "Her father, the lighthouse keeper"
+          ],
+          "notes": "This really happened, in 1838, off the coast of northeast England."
+        },
+        {
+          "title": "Lesson 13: The Story of William Tell and Arnold Winkelried",
+          "steps": [
+            "Read “The Story of William Tell” and “Arnold Winkelried” aloud together",
+            "Narrate William Tell and the apple, then how Arnold Winkelried broke the lines",
+            "Draw Tell's arrow and the apple, or Arnold running at the spears"
+          ],
+          "links": [
+            {
+              "label": "Read “The Story of William Tell”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THE_STORY_OF_WILLIAM_TELL"
+            },
+            {
+              "label": "Read “Arnold Winkelried”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#ARNOLD_WINKELRIED"
+            }
+          ],
+          "pages": "pp. 64–68",
+          "questions": [
+            "What did Tell say the second arrow was for?",
+            "What did Arnold Winkelried cry as he ran at the spears?"
+          ],
+          "answers": [
+            "For the tyrant's heart, if he had hurt his child",
+            "Make way for liberty!"
+          ],
+          "notes": "Find Switzerland on a map. Arnold's story ends with his death for his country."
+        },
+        {
+          "title": "Lesson 14: The Bell of Atri",
+          "steps": [
+            "Read “The Bell of Atri” aloud together",
+            "Narrate the story of the bell of justice and the old horse",
+            "Draw the starving horse pulling on the grapevine rope"
+          ],
+          "links": [
+            {
+              "label": "Read “The Bell of Atri”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THE_BELL_OF_ATRI"
+            }
+          ],
+          "pages": "pp. 69–74",
+          "questions": [
+            "What did the judges order the miser to do?"
+          ],
+          "answers": [
+            "Set aside half his gold to give the horse food, a pasture and a warm stall"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 4: Stories of Old Rome",
+      "lessons": [
+        {
+          "title": "Lesson 15: How Napoleon crossed the Alps and The Story of Cincinnatus",
+          "steps": [
+            "Read “How Napoleon crossed the Alps” and “The Story of Cincinnatus” aloud together",
+            "Narrate Napoleon's march over the Alps, then how Cincinnatus saved Rome",
+            "Draw Cincinnatus leaving his plow in the field"
+          ],
+          "links": [
+            {
+              "label": "Read “How Napoleon crossed the Alps”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#HOW_NAPOLEON_CROSSED_THE_ALPS"
+            },
+            {
+              "label": "Read “The Story of Cincinnatus”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THE_STORY_OF_CINCINNATUS"
+            }
+          ],
+          "pages": "pp. 75–81",
+          "questions": [
+            "What word did Napoleon say a man who means to win never uses?",
+            "How many days was Cincinnatus ruler of Rome?"
+          ],
+          "answers": [
+            "Impossible",
+            "Sixteen"
+          ],
+          "notes": "The Cincinnatus story calls Rome's enemies 'half-wild' and 'savage' men; that is the Romans' side of the story."
+        },
+        {
+          "title": "Lesson 16: The Story of Regulus and Cornelia's Jewels",
+          "steps": [
+            "Read “The Story of Regulus” and “Cornelia's Jewels” aloud together",
+            "Narrate why Regulus went back to Carthage, then what Cornelia called her jewels",
+            "Draw Cornelia with her two sons beside her"
+          ],
+          "links": [
+            {
+              "label": "Read “The Story of Regulus”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THE_STORY_OF_REGULUS"
+            },
+            {
+              "label": "Read “Cornelia's Jewels”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#CORNELIAS_JEWELS"
+            }
+          ],
+          "pages": "pp. 82–86",
+          "questions": [
+            "Why did Regulus go back to prison in Carthage?",
+            "What did Cornelia say were her jewels?"
+          ],
+          "answers": [
+            "Because he had promised to, and a Roman keeps his word",
+            "Her two sons"
+          ],
+          "notes": "Regulus goes back to a cruel death; the story stays brief about it."
+        },
+        {
+          "title": "Lesson 17: Androclus and the Lion",
+          "steps": [
+            "Read “Androclus and the Lion” aloud together",
+            "Narrate the story of Androclus and the lion",
+            "Draw Androclus pulling the thorn from the lion's paw"
+          ],
+          "links": [
+            {
+              "label": "Read “Androclus and the Lion”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#ANDROCLUS_AND_THE_LION"
+            }
+          ],
+          "pages": "pp. 87–90",
+          "questions": [
+            "What was hurting the lion?"
+          ],
+          "answers": [
+            "A long, sharp thorn in his paw"
+          ],
+          "notes": "Androclus was enslaved, and the crowd came to watch him be killed. A gentle opening to talk about slavery in Rome."
+        },
+        {
+          "title": "Lesson 18: Horatius at the Bridge",
+          "steps": [
+            "Read “Horatius at the Bridge” aloud together",
+            "Narrate how Horatius kept the bridge",
+            "Draw Horatius on the bridge, or leaping into the Tiber"
+          ],
+          "links": [
+            {
+              "label": "Read “Horatius at the Bridge”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#HORATIUS_AT_THE_BRIDGE"
+            }
+          ],
+          "pages": "pp. 91–94",
+          "questions": [
+            "Which river did Horatius swim across?"
+          ],
+          "answers": [
+            "The Tiber"
+          ]
+        },
+        {
+          "title": "Lesson 19: Julius Cæsar and The Sword of Damocles",
+          "steps": [
+            "Read “Julius Cæsar” and “The Sword of Damocles” aloud together",
+            "Narrate the two Caesar stories, then what Damocles saw over his head",
+            "Draw Damocles at the feast with the sword hanging above"
+          ],
+          "links": [
+            {
+              "label": "Read “Julius Cæsar”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#JULIUS_CAESAR"
+            },
+            {
+              "label": "Read “The Sword of Damocles”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THE_SWORD_OF_DAMOCLES"
+            }
+          ],
+          "pages": "pp. 95–99",
+          "questions": [
+            "What did Caesar say he would rather be than the second man in Rome?",
+            "What held up the sword over Damocles?"
+          ],
+          "answers": [
+            "The head man of a village",
+            "A single horsehair"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 5: Stories of Greece (and a Hawk)",
+      "lessons": [
+        {
+          "title": "Lesson 20: Damon and Pythias and A Laconic Answer",
+          "steps": [
+            "Read “Damon and Pythias” and “A Laconic Answer” aloud together",
+            "Narrate how Damon trusted his friend, then the Spartans' one-word answer",
+            "Draw Pythias arriving at the prison door just in time"
+          ],
+          "links": [
+            {
+              "label": "Read “Damon and Pythias”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#DAMON_AND_PYTHIAS"
+            },
+            {
+              "label": "Read “A Laconic Answer”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#A_LACONIC_ANSWER"
+            }
+          ],
+          "pages": "pp. 100–102",
+          "questions": [
+            "Why was Pythias late coming back?",
+            "What one word did the Spartans send back to King Philip?"
+          ],
+          "answers": [
+            "He was delayed by storms and shipwreck",
+            "If"
+          ],
+          "notes": "Try being 'laconic' at lunch: answer in as few words as you can."
+        },
+        {
+          "title": "Lesson 21: The Ungrateful Guest and Alexander and Bucephalus",
+          "steps": [
+            "Read “The Ungrateful Guest” and “Alexander and Bucephalus” aloud together",
+            "Narrate the ungrateful guest, then how Alexander tamed Bucephalus",
+            "Draw young Alexander turning Bucephalus toward the sun"
+          ],
+          "links": [
+            {
+              "label": "Read “The Ungrateful Guest”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THE_UNGRATEFUL_GUEST"
+            },
+            {
+              "label": "Read “Alexander and Bucephalus”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#ALEXANDER_AND_BUCEPHALUS"
+            }
+          ],
+          "pages": "pp. 103–107",
+          "questions": [
+            "How had the farmer helped the soldier?",
+            "What was Bucephalus afraid of?"
+          ],
+          "answers": [
+            "He cared for him after he was washed up half-drowned from a shipwreck",
+            "His own shadow"
+          ]
+        },
+        {
+          "title": "Lesson 22: Diogenes the Wise Man and The Brave Three Hundred",
+          "steps": [
+            "Read “Diogenes the Wise Man” and “The Brave Three Hundred” aloud together",
+            "Narrate the two Diogenes stories, then the stand of the three hundred",
+            "Draw Diogenes by his tub, or Diogenes with his lantern"
+          ],
+          "links": [
+            {
+              "label": "Read “Diogenes the Wise Man”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#DIOGENES_THE_WISE_MAN"
+            },
+            {
+              "label": "Read “The Brave Three Hundred”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THE_BRAVE_THREE_HUNDRED"
+            }
+          ],
+          "pages": "pp. 108–111",
+          "questions": [
+            "What did Diogenes ask Alexander to do for him?",
+            "Who led the three hundred Spartans in the pass?"
+          ],
+          "answers": [
+            "Stand aside so he would not block the sunshine",
+            "Leonidas, King of the Spartans"
+          ],
+          "notes": "Leonidas's men all die in battle; you can keep the telling short for little ones."
+        },
+        {
+          "title": "Lesson 23: Socrates and his House and The King and his Hawk",
+          "steps": [
+            "Read “Socrates and his House” and “The King and his Hawk” aloud together",
+            "Narrate Socrates's small house, then the story of the king and his hawk",
+            "Draw the hawk swooping at the silver cup"
+          ],
+          "links": [
+            {
+              "label": "Read “Socrates and his House”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#SOCRATES_AND_HIS_HOUSE"
+            },
+            {
+              "label": "Read “The King and his Hawk”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THE_KING_AND_HIS_HAWK"
+            }
+          ],
+          "pages": "pp. 112–117",
+          "questions": [
+            "What did Socrates hope to fill his little house with?",
+            "Why did the hawk keep knocking the cup away?"
+          ],
+          "answers": [
+            "True friends",
+            "A poisonous dead snake was lying in the spring"
+          ],
+          "notes": "Genghis Khan kills his hawk before he understands; the lesson is never to act in anger."
+        }
+      ]
+    },
+    {
+      "title": "Unit 6: Stories from Many Lands",
+      "lessons": [
+        {
+          "title": "Lesson 24: Doctor Goldsmith and The Kingdoms",
+          "steps": [
+            "Read “Doctor Goldsmith” and “The Kingdoms” aloud together",
+            "Narrate Doctor Goldsmith's 'medicine,' then the king's three questions to the children",
+            "Draw the children around the king in the meadow"
+          ],
+          "links": [
+            {
+              "label": "Read “Doctor Goldsmith”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#DOCTOR_GOLDSMITH"
+            },
+            {
+              "label": "Read “The Kingdoms”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THE_KINGDOMS"
+            }
+          ],
+          "pages": "pp. 118–122",
+          "questions": [
+            "What was really in Goldsmith's box of 'medicine'?",
+            "To what kingdom did the boy say the orange belonged?"
+          ],
+          "answers": [
+            "Money",
+            "The vegetable kingdom"
+          ]
+        },
+        {
+          "title": "Lesson 25: The Barmecide Feast",
+          "steps": [
+            "Read “The Barmecide Feast” aloud together",
+            "Narrate the pretend feast and the real one",
+            "Draw the Barmecide and Schacabac at the empty table"
+          ],
+          "links": [
+            {
+              "label": "Read “The Barmecide Feast”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THE_BARMECIDE_FEAST"
+            }
+          ],
+          "pages": "pp. 123–126",
+          "questions": [
+            "Why did the Barmecide invite Schacabac to live with him?"
+          ],
+          "answers": [
+            "Because he was good-humored and quick-witted and made the best of everything"
+          ],
+          "notes": "From the Arabian Nights."
+        },
+        {
+          "title": "Lesson 26: The Endless Tale and The Blind Men and the Elephant",
+          "steps": [
+            "Read “The Endless Tale” and “The Blind Men and the Elephant” aloud together",
+            "Narrate the locust story the stranger told, then what each blind man thought",
+            "Draw the six blind men around the elephant"
+          ],
+          "links": [
+            {
+              "label": "Read “The Endless Tale”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THE_ENDLESS_TALE"
+            },
+            {
+              "label": "Read “The Blind Men and the Elephant”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THE_BLIND_MEN_AND_THE_ELEPHANT"
+            }
+          ],
+          "pages": "pp. 127–131",
+          "questions": [
+            "What did the locusts keep carrying away?",
+            "What did the man who held the tail say the elephant was like?"
+          ],
+          "answers": [
+            "Grains of corn, one at a time",
+            "A rope"
+          ]
+        },
+        {
+          "title": "Lesson 27: Maximilian and the Goose Boy",
+          "steps": [
+            "Read “Maximilian and the Goose Boy” aloud together",
+            "Narrate the king, the book, and the geese",
+            "Draw the king chasing the geese with the whip"
+          ],
+          "links": [
+            {
+              "label": "Read “Maximilian and the Goose Boy”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#MAXIMILIAN_AND_THE_GOOSE_BOY"
+            }
+          ],
+          "pages": "pp. 132–136",
+          "questions": [
+            "What did the goose boy say the king would never be?"
+          ],
+          "answers": [
+            "A good gooseherd"
+          ]
+        },
+        {
+          "title": "Lesson 28: The Inchcape Rock",
+          "steps": [
+            "Read “The Inchcape Rock” aloud together",
+            "Narrate what the Abbot did and what Ralph the Rover did",
+            "Draw the bell on the buoy above the rock"
+          ],
+          "links": [
+            {
+              "label": "Read “The Inchcape Rock”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#THE_INCHCAPE_ROCK"
+            }
+          ],
+          "pages": "pp. 137–139",
+          "questions": [
+            "What did Ralph the Rover do to the bell?"
+          ],
+          "answers": [
+            "He cut it loose so it sank into the sea"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 7: Longer Tales",
+      "lessons": [
+        {
+          "title": "Lesson 29: Whittington and his Cat (Parts I–II)",
+          "steps": [
+            "Read parts I–II of “Whittington and his Cat” aloud together",
+            "Narrate how Dick came to London and why he bought a cat",
+            "Draw the eight-horse wagon on the road to London"
+          ],
+          "links": [
+            {
+              "label": "Read “Whittington and his Cat”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#WHITTINGTON_AND_HIS_CAT"
+            }
+          ],
+          "pages": "pp. 140–144",
+          "questions": [
+            "What did Dick hear people say London's streets were paved with?",
+            "Why did Dick buy a cat?"
+          ],
+          "answers": [
+            "Gold",
+            "To drive away the rats and mice in his garret"
+          ],
+          "notes": "Read parts I and II (The City, The Kitchen) today."
+        },
+        {
+          "title": "Lesson 30: Whittington and his Cat (Parts III–V)",
+          "steps": [
+            "Read parts III–V of “Whittington and his Cat” aloud together",
+            "Narrate the ship's voyage, the cat at the palace, and Dick's fortune",
+            "Draw the cat chasing the rats from the king's table"
+          ],
+          "links": [
+            {
+              "label": "Read “Whittington and his Cat”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#WHITTINGTON_AND_HIS_CAT"
+            }
+          ],
+          "pages": "pp. 144–152",
+          "questions": [
+            "What did the bells of Bow Church seem to say to Dick?",
+            "Whom did Dick marry?"
+          ],
+          "answers": [
+            "Turn again, Whittington, thrice Lord Mayor of London",
+            "Alice, Mr. Fitzwarren's daughter"
+          ],
+          "notes": "Read parts III–V (The Venture, The Cat, The Fortune). The book says the people there had 'never seen any white men' and pokes fun at the queen's English; a good chance to talk about how travelers' tales treated other peoples."
+        },
+        {
+          "title": "Lesson 31: Casabianca",
+          "steps": [
+            "Read “Casabianca” aloud together",
+            "Narrate what happened on the burning ship",
+            "Draw the boy standing on the deck"
+          ],
+          "links": [
+            {
+              "label": "Read “Casabianca”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#CASABIANCA"
+            }
+          ],
+          "pages": "pp. 153–155",
+          "questions": [
+            "Why would Casabianca not leave the ship?"
+          ],
+          "answers": [
+            "His father had told him to stay at his post, and he did not know his father was dead"
+          ],
+          "notes": "This is a sad story of war (the Battle of the Nile, 1798). Read ahead if you have a sensitive child."
+        },
+        {
+          "title": "Lesson 32: Antonio Canova",
+          "steps": [
+            "Read “Antonio Canova” aloud together",
+            "Narrate how Antonio saved the Count's dinner",
+            "Draw the butter lion on the Count's table"
+          ],
+          "links": [
+            {
+              "label": "Read “Antonio Canova”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#ANTONIO_CANOVA"
+            }
+          ],
+          "pages": "pp. 156–161",
+          "questions": [
+            "What did Antonio carve his lion from?"
+          ],
+          "answers": [
+            "A big lump of butter"
+          ]
+        },
+        {
+          "title": "Lesson 33: Picciola",
+          "steps": [
+            "Read “Picciola” aloud together",
+            "Narrate how Charney cared for his little plant",
+            "Draw Picciola growing between the paving stones"
+          ],
+          "links": [
+            {
+              "label": "Read “Picciola”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#PICCIOLA"
+            }
+          ],
+          "pages": "pp. 162–166",
+          "questions": [
+            "Who helped Charney save the plant and get set free?"
+          ],
+          "answers": [
+            "The emperor's wife (Napoleon's empress), after reading his handkerchief"
+          ]
+        },
+        {
+          "title": "Lesson 34: Mignon",
+          "steps": [
+            "Read “Mignon” aloud together",
+            "Narrate how Mignon came to live with Wilhelm and how she tried to please him",
+            "Draw Mignon dancing blindfolded among the eggs"
+          ],
+          "links": [
+            {
+              "label": "Read “Mignon”",
+              "url": "https://www.gutenberg.org/cache/epub/18442/pg18442-images.html#MIGNON"
+            }
+          ],
+          "pages": "pp. 167–172",
+          "questions": [
+            "What did Mignon dance among without touching any?"
+          ],
+          "answers": [
+            "Eggs laid out on a carpet"
+          ],
+          "notes": "From Goethe's novel. Mignon tries to scrub the brown tint off her skin, thinking it is dye; you may want to talk about that. The story ends without a real ending."
+        }
+      ]
+    }
+  ]
+}

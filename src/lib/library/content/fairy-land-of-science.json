@@ -1,0 +1,978 @@
+{
+  "key": "fairy-land-of-science",
+  "title": "The Fairy-Land of Science",
+  "sourceTitle": "The Fairy-Land of Science",
+  "author": "Arabella B. Buckley",
+  "year": 1879,
+  "sourceUrl": "https://www.gutenberg.org/ebooks/5726",
+  "readUrl": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Project Gutenberg eBook #5726: 'Copyright: Public domain in the USA.' First published 1879; author Arabella B. Buckley (1840–1929). Lessons link to the Gutenberg text; no text is reproduced.",
+  "subjects": [
+    "science"
+  ],
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "philosophies": [
+    "charlotte_mason",
+    "classical"
+  ],
+  "lessonsPerWeek": 2,
+  "minutesPerLesson": 40,
+  "parentInvolvement": "high",
+  "familyStyle": true,
+  "cover": "🧚",
+  "color": "#3D9970",
+  "description": "Arabella Buckley's 1879 classic invites children to meet the 'fairies' of science: sunbeams, air, water, ice, sound, plants, coal and bees. It's a family read-aloud for grades 4–8. Each sitting pairs a short reading with narration, a simple home demonstration from the book, and a nature-journal entry. It's a public-domain classic, and the full text is free online.",
+  "includes": [
+    "30 lessons in 10 units (one per lecture)",
+    "Link to the free full text for every lesson, plus the exact starting point",
+    "Safe home demonstrations drawn from the book",
+    "Narration prompts and nature-journal entries",
+    "Questions with answers",
+    "Parent notes where the 1879 science is outdated or a demo is unsafe"
+  ],
+  "units": [
+    {
+      "title": "Lecture I: The Fairy-Land of Science — How to Enter It, How to Use It, and How to Enjoy It",
+      "lessons": [
+        {
+          "title": "Lecture I, part 1: Science has its own fairy tales",
+          "steps": [
+            "Read aloud from the start of Lecture I up to 'One picture more'",
+            "Child narrates the frozen-brook 'Sleeping Beauty' story and names the invisible 'fairies' (heat, cohesion, gravitation, crystallization, life)",
+            "Demonstration: drip water from a spoon onto wax paper or a leaf and watch each drop pull itself round (cohesion at work)",
+            "Nature journal: draw one raindrop's journey from cloud to ground and label which 'fairy' acts at each step"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture I (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00005"
+            }
+          ],
+          "pages": "From the opening ('I have promised to introduce you') to the snowdrop in the garden",
+          "questions": [
+            "What does Buckley say holds the water drops together into round drops?",
+            "Which invisible force pulls the raindrops down to the earth?",
+            "What shape does every good snowflake have?"
+          ],
+          "answers": [
+            "Cohesion",
+            "Gravitation",
+            "A six-pointed star (crystal)"
+          ],
+          "notes": "Buckley's 'fairies' are a teaching image for natural forces and energy; she says so herself in her footnote. Enjoy the metaphor, then name the real force each time."
+        },
+        {
+          "title": "Lecture I, part 2: How to enter, use, and enjoy fairy-land",
+          "steps": [
+            "Read aloud from 'One picture more' to the end of the lecture",
+            "Narrate: why does Buckley say a coal fire warms us with 'sunbeams of ages ago'?",
+            "Demonstration: breathe on a cold window or mirror and watch drops form (as little Cissy did); then stir sugar into water and set a spoonful aside to dry out and leave the sugar behind",
+            "Nature journal: sketch one everyday object near you and write a question about its 'history'"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture I (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00005"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00034"
+            }
+          ],
+          "pages": "From 'One picture more' to the end of Lecture I",
+          "questions": [
+            "How do the particles behave in a solid, a liquid, and a gas?",
+            "When sugar dissolves in water, is that chemical attraction? How can you tell?",
+            "What made the 'rain inside' on Cissy's window?"
+          ],
+          "answers": [
+            "Solid: locked tightly together; liquid: held together but able to roll past each other; gas: flying apart and spreading out",
+            "No; the water can dry away and the sugar is left unchanged",
+            "Water from their breath condensing on the cold glass"
+          ],
+          "notes": "Do NOT try the potassium-in-water demonstration; it is dangerous. Her formula 'K + H2O = KHO + H' is old notation; today it is written 2K + 2H2O → 2KOH + H2."
+        }
+      ]
+    },
+    {
+      "title": "Lecture II: Sunbeams, and the Work They Do",
+      "lessons": [
+        {
+          "title": "Lecture II, part 1: The sun, source of the sunbeams",
+          "steps": [
+            "Read aloud from the start of Lecture II to the cooling 'veil' of water particles",
+            "Narrate the express-train journey to the sun and the giant stuffing earths into the 'sun-ball'",
+            "Demonstration: in a dark room, shine a flashlight (the 'sun') on a ball with a sticker on it (your home) and turn the ball slowly to show sunrise",
+            "Nature journal: draw the sun with a row of tiny earths across its face"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture II (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00067"
+            }
+          ],
+          "pages": "From the opening of Lecture II to the end of the magnifying-glass passage",
+          "questions": [
+            "Is it the sun that moves at sunrise, or the earth?",
+            "About how many earths would it take to fill the sun, by Buckley's count?",
+            "What protects us from the full fierce heat of the sun's rays?"
+          ],
+          "answers": [
+            "The earth turns",
+            "About 1,331,000 (more than a million)",
+            "Tiny particles of water vapour in the air"
+          ],
+          "notes": "Modern figures: the sun is about 93 million miles away and about 865,000 miles across. Never look at the sun or focus it with a magnifying glass; skip the burning-paper trick."
+        },
+        {
+          "title": "Lecture II, part 2: What is a sunbeam?",
+          "steps": [
+            "Read aloud from 'We have now learnt something of the distance' to the end of the prism passage",
+            "Narrate the two ways of touching something far away, and which one Buckley says light uses",
+            "Demonstration: drop a pebble in a basin and watch ripples travel to the edge; then set a glass of water in a sunny window and find the rainbow it throws",
+            "Nature journal: paint or colour the spectrum in order: red, orange, yellow, green, blue, indigo, violet"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture II (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00067"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00083"
+            }
+          ],
+          "pages": "From 'We have now learnt something of the distance' to the prism and its colours",
+          "questions": [
+            "Did Newton think light was made of particles or waves?",
+            "How long does a sunbeam take to reach us from the sun, according to Buckley?",
+            "What happens to sunlight when it passes through a prism?"
+          ],
+          "answers": [
+            "Particles (tiny bits thrown out by the sun)",
+            "About seven and a half minutes",
+            "It is split into a band of colours"
+          ],
+          "notes": "The 'ether' was later shown not to exist; light needs no medium and crosses empty space as an electromagnetic wave. Light actually takes about 8 minutes 20 seconds to arrive and travels about 186,000 miles per second."
+        },
+        {
+          "title": "Lecture II, part 3: Colours, and how we see",
+          "steps": [
+            "Read aloud from 'Till now we have talked of the sunbeam' to the leaf digesting its food",
+            "Narrate why a leaf looks green",
+            "Demonstration: make a spinning colour wheel from card painted in rainbow colours and spin it on a pencil to see it turn whitish",
+            "Nature journal: collect three coloured leaves or petals and write which colour each sends back to your eye"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture II (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00067"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00097"
+            }
+          ],
+          "pages": "From 'Till now we have talked of the sunbeam' to how leaves use sunlight",
+          "questions": [
+            "Which waves are larger and lazier, red or violet?",
+            "Why can you often not see a clean pane of glass?",
+            "Why can you see a white tablecloth in a dim room but not a black coat?"
+          ],
+          "answers": [
+            "Red",
+            "It lets nearly all the light waves pass through instead of sending them back to your eye",
+            "White sends back nearly all the light waves; black sends back hardly any"
+          ],
+          "notes": "Old mirrors were backed with quicksilver (mercury); modern mirrors use aluminium or silver, which is much safer."
+        },
+        {
+          "title": "Lecture II, part 4: Light, heat, and the chemical rays at work",
+          "steps": [
+            "Read aloud from 'We all know that a plant becomes pale' to the end of the lecture",
+            "Narrate how the warmth of your breath was once in a sunbeam",
+            "Demonstration: lay lace or leaves on sun-print (cyanotype) paper in the sun, then rinse it as the packet directs, a safe modern version of Buckley's lace picture",
+            "Nature journal: list five things in your house whose heat or light came first from the sun"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture II (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00067"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00112"
+            }
+          ],
+          "pages": "From 'We all know that a plant becomes pale' to the end of Lecture II",
+          "questions": [
+            "What happens to a plant kept away from sunlight?",
+            "Can you see the 'dark heat-rays' from a warm iron? How do you know they are there?",
+            "What did the sunbeams do to the nitrate-of-silver paper under the lace?"
+          ],
+          "answers": [
+            "It becomes pale and sickly",
+            "No, you cannot see them, but you can feel them as heat on your face",
+            "Turned it dark brown, leaving a light picture of the lace where the threads blocked the sun"
+          ],
+          "notes": "Her 'dark heat-rays' are what we call infrared, and her 'chemical rays' are mostly ultraviolet and blue light. Don't handle silver nitrate; use sun-print paper instead. Burning coal also releases carbon dioxide, a link worth discussing with older children."
+        }
+      ]
+    },
+    {
+      "title": "Lecture III: The Aerial Ocean in Which We Live",
+      "lessons": [
+        {
+          "title": "Lecture III, part 1: What the air is made of",
+          "steps": [
+            "Read aloud from the start of Lecture III to the heap of papers",
+            "Narrate the being who could see gases looking at us 'deep-air creatures'",
+            "Demonstration (adult lights it): stand a tea-light in a dish of water, cover it with a glass jar, and watch the flame go out once the oxygen is used",
+            "Nature journal: draw a fish in water and a person in air side by side, and label each 'ocean'"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture III (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00121"
+            }
+          ],
+          "pages": "From the opening of Lecture III to the heap of papers pressing down",
+          "questions": [
+            "What two gases make up most of the air?",
+            "Which gas is used up when something burns or when we breathe?",
+            "Why is it good that air is not made entirely of oxygen?"
+          ],
+          "answers": [
+            "Oxygen and nitrogen",
+            "Oxygen",
+            "Everything would burn far too fast; fires could not be stopped"
+          ],
+          "notes": "Air is about 78% nitrogen, 21% oxygen and nearly 1% argon (argon was discovered in 1894). Her 'carbonic acid gas' is carbon dioxide. In the jar demo the water rises mostly because the air cools, not only because oxygen is used up. Do not try the phosphorus experiment."
+        },
+        {
+          "title": "Lecture III, part 2: The weight of the air",
+          "steps": [
+            "Read aloud from the pop-gun to the description of the barometer",
+            "Narrate Mr. Glaisher's balloon ascent and why he fainted",
+            "Demonstration (over a sink): fill a glass to the brim, press a card on top, turn it over and let go; the air holds the card up",
+            "Nature journal: watch for shooting stars on a clear night and record the date, time and direction"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture III (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00121"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00137"
+            }
+          ],
+          "pages": "From the pop-gun to the barometer",
+          "questions": [
+            "How much weight does the air press on each square inch at sea level?",
+            "How did meteors show that the atmosphere is more than 100 miles high?",
+            "Why does a limpet cling so tightly to a rock?"
+          ],
+          "answers": [
+            "About 15 pounds",
+            "They glow by rubbing against air at least 100 miles up, so there must be air that high",
+            "It pushes out the air under its shell and the weight of the air presses it down"
+          ],
+          "notes": "Meteors mostly burn up about 50–75 miles up; the air fades out gradually with no sharp top. The big meteor showers now peak around August 12 and November 17."
+        },
+        {
+          "title": "Lecture III, part 3: The barometer and the winds",
+          "steps": [
+            "Read aloud from 'But why will it not remain more than 30 inches' to the end of the lecture",
+            "Narrate the schoolboys rushing out of the crowded room, and what it tells us about wind",
+            "Demonstration: dip a straw in water, put a finger over the top and lift; the water stays in, like Buckley's U-tube",
+            "Nature journal: note the wind direction and the weather each day this week; if you have a barometer, record it too"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture III (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00121"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00152"
+            }
+          ],
+          "pages": "From 'But why will it not remain more than 30 inches high' to the end of Lecture III",
+          "questions": [
+            "When the mercury in a barometer falls, what weather do we often expect?",
+            "Which way does the breeze usually blow at the seaside by day, and why?",
+            "Why does sunlight reach into shady corners on earth, but not on the moon?"
+          ],
+          "answers": [
+            "Rain",
+            "From the sea to the land, because the land heats up and its warm air rises, so cooler sea air rushes in",
+            "Tiny particles in our air scatter the light; the moon has no air to scatter it"
+          ],
+          "notes": "Falling pressure usually comes from moving weather systems, not only from damp air. Mercury is poisonous; handle only sealed instruments."
+        }
+      ]
+    },
+    {
+      "title": "Lecture IV: A Drop of Water on Its Travels",
+      "lessons": [
+        {
+          "title": "Lecture IV, part 1: Steam, vapour, and clouds",
+          "steps": [
+            "Read aloud from the start of Lecture IV to the clouds resting on columns of vapour",
+            "Narrate what happens inside a kettle as it boils",
+            "Demonstration (adult only near the kettle): look for the clear gap just above the spout before the cloud begins; hold a cold plate in the cloud with an oven mitt and catch the 'water-dust'",
+            "Nature journal: sketch today's clouds and mark where their flat bottoms are"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture IV (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00171"
+            }
+          ],
+          "pages": "From the opening of Lecture IV to the flat-bottomed summer clouds",
+          "questions": [
+            "Why can't you see steam right at the mouth of the kettle?",
+            "What did Dr. Tyndall call the tiny drops in a cloud?",
+            "Why does rising damp air form clouds?"
+          ],
+          "answers": [
+            "It is still hot enough to be an invisible gas",
+            "Water-dust",
+            "As it rises it spreads out and cools, and the vapour gathers into tiny drops"
+          ],
+          "notes": "Steam burns badly; keep children's hands well back from the spout."
+        },
+        {
+          "title": "Lecture IV, part 2: Rain, dew, hail, and crystals",
+          "steps": [
+            "Read aloud from the forming of rain to the growing of crystals",
+            "Narrate why there is dew on the grass but none on the gravel path",
+            "Demonstration: set a glass of ice water on the table and watch 'artificial dew' form on the outside; also dissolve salt in warm water, pour a little on a dark plate and leave it to dry into cubes",
+            "Nature journal: go out early one morning and record where you find dew and where you don't"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture IV (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00171"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00183"
+            }
+          ],
+          "pages": "From 'And now, suppose that while these or any other kind of clouds' to growing nitre crystals",
+          "questions": [
+            "What happens when wet winds are pushed up cold mountains?",
+            "How does water vapour in the air help us on a summer night?",
+            "What is the difference between how hail forms and how snow forms?"
+          ],
+          "answers": [
+            "The air cools and drops its water as rain",
+            "It holds in the earth's heat so the ground does not freeze",
+            "Hail is a raindrop that freezes; snow forms when vapour freezes into crystals before becoming a drop"
+          ],
+          "notes": "Her vapour 'veil' that keeps nights warm is part of what we now call the greenhouse effect."
+        },
+        {
+          "title": "Lecture IV, part 3: Snow, ice, glaciers, and the salty sea",
+          "steps": [
+            "Read aloud from the bar magnets to the end of the lecture",
+            "Narrate the whole round trip of the water drop from tropical sea back to the sea",
+            "Demonstration: fill a small plastic tub to the brim with water, freeze it overnight, and see the ice bulge above the rim; play with two magnets to feel them attract and push apart",
+            "Nature journal: catch snowflakes on dark cloth (or draw six-sided ones) and draw what you see"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture IV (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00171"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00199"
+            }
+          ],
+          "pages": "From the bar magnets to the end of Lecture IV",
+          "questions": [
+            "Why do water pipes burst in a hard frost?",
+            "How is a glacier made?",
+            "Why is the sea salty?"
+          ],
+          "answers": [
+            "Water expands when it freezes and cracks the pipe",
+            "Snow piles up and is pressed together until it becomes solid ice that creeps down the valley",
+            "Rivers carry dissolved salts to the sea; the sun lifts out only pure water and leaves the salts behind"
+          ],
+          "notes": "Water molecules aren't tiny magnets; they line up in a six-sided pattern because of electrical attraction (hydrogen bonds), but the magnet picture is a good start. About nine-tenths of an iceberg is underwater."
+        }
+      ]
+    },
+    {
+      "title": "Lecture V: The Two Great Sculptors — Water and Ice",
+      "lessons": [
+        {
+          "title": "Lecture V, part 1: Rain and rivers carve the land",
+          "steps": [
+            "Read aloud from the start of Lecture V to the Rhine's oyster-shells",
+            "Narrate how the earth-pillars got their capping stones",
+            "Demonstration: fill a jar with muddy water from a stream or puddle and leave it overnight to see how much soil settles",
+            "Nature journal: after a rain shower, sketch the little rills on a sloping path and how they join"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture V (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00219"
+            }
+          ],
+          "pages": "From the opening of Lecture V to the carbonate of lime carried by the Rhine",
+          "questions": [
+            "How does Buckley say a sculptor is like water?",
+            "What is left at the bottom of a glass of river water after it stands?",
+            "What forms the hard crust inside a kettle in chalk country?"
+          ],
+          "answers": [
+            "Both slowly cut and shape a rough block into beautiful forms",
+            "A layer of mud",
+            "Carbonate of lime (chalk) from the water"
+          ]
+        },
+        {
+          "title": "Lecture V, part 2: Ravines, waterfalls, and canyons",
+          "steps": [
+            "Read aloud from St. Paul's churchyard to how gravel, sand and mud settle",
+            "Narrate the history of the little ravine from furrow to fern-covered valley",
+            "Demonstration: shake gravel, sand and soil in a jar of water and watch which settles first",
+            "Nature journal: draw the layers that settled in your jar and label them"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture V (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00219"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00235"
+            }
+          ],
+          "pages": "From St. Paul's churchyard full of oyster shells to the sinking gravel",
+          "questions": [
+            "How are pot-holes made beside a waterfall?",
+            "About how fast did Lyell think Niagara Falls ate back the cliff?",
+            "In moving water, which drops first: big stones or fine sand?"
+          ],
+          "answers": [
+            "Water swirls pebbles round and round in a hollow and grinds the rock",
+            "About one foot a year",
+            "Big stones"
+          ],
+          "notes": "Modern estimates say Niagara's gorge took roughly 12,000 years and the Grand Canyon about 5–6 million years. Both are slow, just as Buckley says."
+        },
+        {
+          "title": "Lecture V, part 3: Deltas, caves, sea-cliffs, and glaciers",
+          "steps": [
+            "Read aloud from the Nile to the end of the lecture",
+            "Narrate how a glacier works like a carpenter's plane",
+            "Demonstration: build a sloping sand tray, trickle water from a watering can down it into a 'sea', and watch a delta grow",
+            "Nature journal: draw a stalactite and stalagmite meeting, and mark which hangs down"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture V (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00219"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00248"
+            }
+          ],
+          "pages": "From the history of the Nile to the end of Lecture V",
+          "questions": [
+            "What is a delta made of?",
+            "What is the difference between a stalactite and a stalagmite?",
+            "How can you tell a boulder was carried by ice rather than rolled by water?"
+          ],
+          "answers": [
+            "Mud carried down by the river and dropped at its mouth",
+            "A stalactite hangs from the roof; a stalagmite grows up from the floor",
+            "Its edges are still sharp; water would have rounded them"
+          ],
+          "notes": "We now know of several ice ages; the last ended about 11,700 years ago. Kentucky's Mammoth Cave has since been mapped to over 400 miles."
+        }
+      ]
+    },
+    {
+      "title": "Lecture VI: The Voices of Nature, and How We Hear Them",
+      "lessons": [
+        {
+          "title": "Lecture VI, part 1: What sound is",
+          "steps": [
+            "Read aloud from the start of Lecture VI to the 'globes' of sound spreading from a clap",
+            "Narrate the row of boxwood balls and the bell",
+            "Demonstration: tie a metal spoon to the middle of a string, wrap the ends round your fingers and hold them to your ears, then tap the spoon on a table",
+            "Nature journal: sit still outside for five minutes and list every sound you hear"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture VI (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00269"
+            }
+          ],
+          "pages": "From the opening of Lecture VI to sound spreading on all sides",
+          "questions": [
+            "What two things are needed for us to hear?",
+            "What are a 'condensation' and a 'rarefaction'?",
+            "Which makes shorter sound waves, a man's bass voice or a woman's voice?"
+          ],
+          "answers": [
+            "Something moving the air, and an ear (hearing instrument) to receive it",
+            "A crowding together of air particles, and a spreading apart of them",
+            "A woman's voice"
+          ],
+          "notes": "Today scientists call the wave itself 'sound' whether or not anyone hears it; Buckley means the sensation."
+        },
+        {
+          "title": "Lecture VI, part 2: Echoes and the ear",
+          "steps": [
+            "Read aloud from why sound grows fainter to the harp-strings of the inner ear",
+            "Narrate the journey of a sound from the air to the brain: drum, hammer, anvil, stirrup, fluid, nerve",
+            "Demonstration: find a big wall or cliff, pace at least 60 feet away and clap to hear an echo; or whisper through a long tube or garden hose",
+            "Nature journal: draw and label the outer ear, eardrum and three little bones"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture VI (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00269"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00288"
+            }
+          ],
+          "pages": "From why sound grows fainter to Corti's organ",
+          "questions": [
+            "How far from a wall must you stand to hear a separate echo?",
+            "Name the three little bones in the ear.",
+            "Why could Biot hear a whisper half a mile through a tube?"
+          ],
+          "answers": [
+            "At least 56 feet",
+            "Hammer, anvil, and stirrup",
+            "The tube kept the sound waves from spreading out"
+          ],
+          "notes": "The tiny stones (otoliths) in the inner ear help with balance rather than prolonging sound. Never put anything into the ear canal."
+        },
+        {
+          "title": "Lecture VI, part 3: Music, noise, thunder, and living voices",
+          "steps": [
+            "Read aloud from noise and musical notes to the end of the lecture",
+            "Narrate why the little brook sings while the deep river is quiet",
+            "Demonstration: run a stick along a picket fence, then blow across bottles holding different amounts of water and compare the notes",
+            "Nature journal: listen to one bird for a few minutes and describe its song in words or marks"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture VI (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00269"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00307"
+            }
+          ],
+          "pages": "From 'But why then do we not hear all sounds as music?' to the end of Lecture VI",
+          "questions": [
+            "What makes a sound a musical note instead of a noise?",
+            "Do quicker vibrations make a higher or a lower note?",
+            "Why do we see lightning before we hear thunder?"
+          ],
+          "answers": [
+            "The shocks come quickly and regularly",
+            "Higher",
+            "Light travels far faster than sound"
+          ],
+          "notes": "Two corrections: sound covers about a mile in 5 seconds (not half a mile), and insects buzz mainly from their fast wingbeats, not from wings scraping their legs. The 'sea' in a shell is room noise echoing inside it."
+        }
+      ]
+    },
+    {
+      "title": "Lecture VII: The Life of a Primrose",
+      "lessons": [
+        {
+          "title": "Lecture VII, part 1: The seed and the plantlet",
+          "steps": [
+            "Read aloud from the start of Lecture VII to the mustard seed-leaves",
+            "Narrate how the plantlet feeds before it has roots or leaves",
+            "Demonstration: soak a large bean overnight, peel it, split the halves and find the tiny plantlet; peel a segment of orange to see its juice cells",
+            "Nature journal: draw the opened bean and label the seed-leaves, root end and shoot"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture VII (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00328"
+            }
+          ],
+          "pages": "From the opening of Lecture VII to the seed-leaves coming above ground",
+          "questions": [
+            "What are the two halves of an almond (or bean) seed?",
+            "What does the young plantlet eat at first?",
+            "How does a plant grow bigger, cell by cell?"
+          ],
+          "answers": [
+            "Seed-leaves that hold and feed the plantlet",
+            "The stored food (starch, oils, sugar) in its seed-leaves",
+            "Each cell fills up and divides into two, again and again"
+          ],
+          "notes": "Buckley uses a soaked almond; a soaked lima or broad bean works the same way and avoids nut allergies. Her 'protoplasm' is the living contents of the cell."
+        },
+        {
+          "title": "Lecture VII, part 2: How a plant feeds itself",
+          "steps": [
+            "Read aloud from 'And now the plant can no longer afford to be idle' to the stored food in the underground stem",
+            "Narrate how water climbs from the roots to the leaves",
+            "Demonstration: fill a glass with water, put fresh leaves in, turn it upside down in a saucer of water and set it in the sun; look for oxygen bubbles after an hour",
+            "Nature journal: press a leaf and label where its green cells and its stomates are"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture VII (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00328"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00343"
+            }
+          ],
+          "pages": "From 'And now the plant can no longer afford to be idle' to the primrose's underground stem",
+          "questions": [
+            "What can plants make food from that we cannot?",
+            "What gives leaves their green colour?",
+            "What do the stomates on the underside of a leaf do?"
+          ],
+          "answers": [
+            "Water, gases from the air, and minerals (matter that was never alive)",
+            "Chlorophyll",
+            "Open to let out extra water (and close to keep it in when the air is dry)"
+          ],
+          "notes": "The oxygen a leaf gives off actually comes from splitting water, not from carbon dioxide (discovered in 1941). Stomates also let carbon dioxide in. Do NOT try the sugar-and-sulphuric-acid experiment."
+        },
+        {
+          "title": "Lecture VII, part 3: The flower and its seed",
+          "steps": [
+            "Read aloud from the flower buds to the end of the lecture",
+            "Narrate why the primrose needs insects, and how they carry pollen between the two kinds of flower",
+            "Demonstration: gently take apart a simple flower (primrose, buttercup or tulip) and find calyx, corolla, stamens, and pistil with a magnifying glass",
+            "Nature journal: draw and label the flower parts you found"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture VII (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00328"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00360"
+            }
+          ],
+          "pages": "From 'We have now seen how a plant springs up' to the end of Lecture VII",
+          "questions": [
+            "What is the yellow dust in the anthers called?",
+            "What must happen before an ovule can become a seed?",
+            "Why does the primrose have a bright, sweet-scented crown?"
+          ],
+          "answers": [
+            "Pollen",
+            "Pollen must land on the stigma and send a tube down to the ovule",
+            "To attract insects that carry pollen from flower to flower"
+          ],
+          "notes": "Primroses really do come in two forms ('pin' and 'thrum'); Darwin's work on them still holds. Children with pollen allergies may want gloves."
+        }
+      ]
+    },
+    {
+      "title": "Lecture VIII: The History of a Piece of Coal",
+      "lessons": [
+        {
+          "title": "Lecture VIII, part 1: Into the coal-mine",
+          "steps": [
+            "Read aloud from the start of Lecture VIII to the scaly trees",
+            "Narrate the imaginary journey down the shaft: roof, floor and coal",
+            "Demonstration: look closely at a piece of barbecue charcoal or coal with a magnifying glass for thin layers; press a fern leaf into soft clay to make a 'fossil' print",
+            "Nature journal: draw the coal 'sandwich': underclay with roots, coal, and shale roof with leaf prints"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture VIII (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00378"
+            }
+          ],
+          "pages": "From the opening of Lecture VIII to the Lepidodendrons",
+          "questions": [
+            "What do we find in the shale roof of a coal-mine?",
+            "What living plant is most like the giant scaly trees of the coal forests?",
+            "How do coal balls prove that coal is made of plants?"
+          ],
+          "answers": [
+            "Impressions of ferns, reeds and other plants",
+            "The little club-moss (Selaginella)",
+            "Thin slices show leaves, stems and spores that match the plants above and below the coal"
+          ],
+          "notes": "Coal forests grew about 300–360 million years ago, in the Carboniferous period, far longer ago than Buckley could know."
+        },
+        {
+          "title": "Lecture VIII, part 2: The coal forest and the Great Dismal Swamp",
+          "steps": [
+            "Read aloud from the Sigillaria to the jungle of plants fringing the coal-swamp",
+            "Narrate how the swamp stayed free of mud",
+            "Demonstration: pour muddy water through a thick pad of grass or moss in a funnel and compare it with the muddy water",
+            "Nature journal: look for horsetails or club-moss on a walk and sketch them"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture VIII (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00378"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00395"
+            }
+          ],
+          "pages": "From the Sigillaria to the coal-swamp fringed with ferns",
+          "questions": [
+            "What modern marsh plant is a small cousin of the Calamite?",
+            "What is peat made of?",
+            "Why did the streams entering the Dismal Swamp bring clear water?"
+          ],
+          "answers": [
+            "The horsetail (Equisetum)",
+            "The remains of plants that lived and died in the swamp",
+            "The thick reeds, ferns and shrubs around the swamp filtered out the earth"
+          ],
+          "notes": "Coal forests were not as silent as she says: giant dragonflies and other flying insects lived there."
+        },
+        {
+          "title": "Lecture VIII, part 3: From peat to coal, and what coal gives us",
+          "steps": [
+            "Read aloud from the shale bed to the end of the lecture",
+            "Narrate what heat and pressure did to the buried plants",
+            "Demonstration: stack thin layers of different coloured clay or dough, press them under a pile of books overnight, and cut through to see the 'seams'",
+            "Nature journal: list five things Buckley says we get from coal"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture VIII (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00378"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00406"
+            }
+          ],
+          "pages": "From the shale covering the coal to the end of Lecture VIII",
+          "questions": [
+            "What two things changed beds of dead plants into hard coal?",
+            "Why does some coal burn with a flame and some only glow red?",
+            "Why did the Sussex iron-works close?"
+          ],
+          "answers": [
+            "The great weight of rock above (pressure) and heat",
+            "Flaming coal still has its oils and gases; hard coal has lost them and is nearly pure carbon",
+            "They ran out of wood for fuel and there was no coal nearby"
+          ],
+          "notes": "Do not try the clay-pipe coal-gas experiment. Today we know burning coal adds carbon dioxide to the air and warms the climate, which makes a good discussion for older children."
+        }
+      ]
+    },
+    {
+      "title": "Lecture IX: Bees in the Hive",
+      "lessons": [
+        {
+          "title": "Lecture IX, part 1: A city of bees",
+          "steps": [
+            "Read aloud from the start of Lecture IX to the honey-gatherers hanging to make wax",
+            "Narrate how the bees build the first wall of wax",
+            "Demonstration: look closely at a piece of beeswax or a beeswax candle, then watch bees on flowers from a calm, respectful distance",
+            "Nature journal: draw a worker, a drone and a queen and note how they differ"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture IX (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00426"
+            }
+          ],
+          "pages": "From the opening of Lecture IX to bees hanging to make wax",
+          "questions": [
+            "How did Huber manage to watch bees at work?",
+            "What is propolis and what do bees use it for?",
+            "Where does a bee's wax come from?"
+          ],
+          "answers": [
+            "He made a hive he could open and close, with a glass hive inside",
+            "A gum from sticky buds, used to seal cracks in the hive",
+            "From little pockets under her body, made from the honey she has digested"
+          ],
+          "notes": "Keep a calm distance from bees, and take extra care with anyone who has a sting allergy. Drones are male bees; the workers are all female."
+        },
+        {
+          "title": "Lecture IX, part 2: Cells, honey, and young bees",
+          "steps": [
+            "Read aloud from the nursing bees to the princess in her royal cell",
+            "Narrate the life of a young bee from egg to worker",
+            "Demonstration: bundle drinking straws tightly with a rubber band and look at the ends, or squeeze round balls of play-dough together, to see circles pressed into six-sided shapes",
+            "Nature journal: draw a few six-sided cells and show which hold honey, bee-bread and eggs"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture IX (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00426"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00438"
+            }
+          ],
+          "pages": "From the nursing bees to the royal jelly",
+          "questions": [
+            "Why are honeycomb cells six-sided?",
+            "What is bee-bread?",
+            "How many days after the egg is laid does a worker bee come out of her cell?"
+          ],
+          "answers": [
+            "It is the closest-fitting shape; it fills every bit of space and uses the least wax",
+            "Pollen stored in the comb",
+            "21 days"
+          ],
+          "notes": "A queen can actually lay well over 1,000 eggs a day at the height of summer, far more than 200. Drones take about 24 days to develop."
+        },
+        {
+          "title": "Lecture IX, part 3: Swarms, queens, and the busy hive",
+          "steps": [
+            "Read aloud from the eldest princess to the end of the lecture",
+            "Narrate why the old queen leaves with a swarm",
+            "Demonstration: fan a paper fan at the open end of a cardboard box with a tissue strip hanging inside to see how fanning bees move air through the hive",
+            "Nature journal: list all the different jobs bees do in the hive"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture IX (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00426"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00454"
+            }
+          ],
+          "pages": "From the eldest princess to the end of Lecture IX",
+          "questions": [
+            "Why are the royal eggs laid a few days apart?",
+            "How do bees keep the hive cool and fresh?",
+            "What do bees do with a slug too heavy to carry out?"
+          ],
+          "answers": [
+            "So one princess can leave with a swarm before the next one comes out",
+            "Some bees stand at the entrance and fan their wings to make a current of air",
+            "Seal it over with propolis so it cannot decay"
+          ],
+          "notes": "Summer workers live about six weeks; only the autumn-born bees last through winter. Queens may live two to five years."
+        }
+      ]
+    },
+    {
+      "title": "Lecture X: Bees and Flowers",
+      "lessons": [
+        {
+          "title": "Lecture X, part 1: Why flowers wear colours and scents",
+          "steps": [
+            "Read aloud from the start of Lecture X to the drooping bell-flowers",
+            "Narrate what the bee does for the flower in return for honey",
+            "Demonstration (outdoors): set out squares of coloured paper, each with a drop of sugar water, and watch from a distance which colours insects visit, a simple version of Lubbock's test",
+            "Nature journal: note three flowers that close at night or before rain, or that smell stronger in the evening"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture X (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00469"
+            }
+          ],
+          "pages": "From the opening of Lecture X to drooping bell-flowers",
+          "questions": [
+            "Why do grasses and oak trees not need bright flowers?",
+            "How did Lubbock show bees remember colours?",
+            "Why do bell-shaped flowers often hang their heads?"
+          ],
+          "answers": [
+            "The wind carries their pollen",
+            "Bees trained to find honey on blue glass still went to the blue glass first after the honey was moved",
+            "To keep rain and dew out of the honey"
+          ],
+          "notes": "Bees see blue and ultraviolet well but are nearly blind to red. Buckley says there were no flying insects in coal-forest times; there were, but flowers had not yet appeared."
+        },
+        {
+          "title": "Lecture X, part 2: Geranium, dead-nettle, salvia, and violet",
+          "steps": [
+            "Read aloud from the ants and hairy stalks to the violet's box of pollen",
+            "Narrate how the wood-geranium keeps itself from using its own pollen",
+            "Demonstration: gently push a pencil tip into a salvia, sage or dead-nettle flower and watch the stamen swing down",
+            "Nature journal: draw the lines on a flower petal and show where they point"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture X (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00469"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00491"
+            }
+          ],
+          "pages": "From keeping honey for the right insect to the violet",
+          "questions": [
+            "Who first found out that flowers keep their honey for insects?",
+            "What do the coloured lines on many petals do?",
+            "Why does a bee visit only one kind of flower on each trip, and how does that help?"
+          ],
+          "answers": [
+            "Christian Conrad Sprengel",
+            "They point the way to the honey",
+            "She likes the same kind of honey on each journey, so the pollen goes to the same kind of flower, where it is useful"
+          ],
+          "notes": "Garden 'geraniums' are really pelargoniums, as Buckley notes; they show the same tricks."
+        },
+        {
+          "title": "Lecture X, part 3: Bird's-foot trefoil, orchis, and helping one another",
+          "steps": [
+            "Read aloud from the bird's-foot trefoil to the end of the book",
+            "Narrate how the orchis's pollen masses bend forward on the bee's head",
+            "Demonstration: press gently on the side petals (wings) of a clover, pea or vetch flower and see the keel open to show the pollen",
+            "Nature journal: write one 'fairy' you would like to study next (Buckley suggests a grain of salt, a butterfly or an ant) and a question about it"
+          ],
+          "links": [
+            {
+              "label": "Read Lecture X (full text)",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00469"
+            },
+            {
+              "label": "Start of today's reading",
+              "url": "https://www.gutenberg.org/cache/epub/5726/pg5726-images.html#id00510"
+            }
+          ],
+          "pages": "From the inside of the bird's-foot trefoil to the end of the book",
+          "questions": [
+            "What are the 'standard', 'wings' and 'keel' of a pea-like flower?",
+            "How does the bird's-foot trefoil manage if no bee comes?",
+            "What lesson does Buckley draw from bees and flowers helping each other?"
+          ],
+          "answers": [
+            "The upright top petal, the two side petals, and the two joined lower petals",
+            "After a while its stigma becomes sticky and it uses its own pollen",
+            "Those who do the most for others receive the most in return"
+          ],
+          "notes": "Wild orchids are protected in many places; observe them where they grow rather than picking them."
+        }
+      ]
+    }
+  ]
+}

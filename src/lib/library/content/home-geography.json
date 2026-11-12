@@ -1,0 +1,892 @@
+{
+  "key": "home-geography",
+  "title": "Home Geography for Primary Grades",
+  "sourceTitle": "Home Geography for Primary Grades",
+  "author": "C. C. Long",
+  "year": 1894,
+  "sourceUrl": "https://www.gutenberg.org/ebooks/12228",
+  "readUrl": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Project Gutenberg eBook #12228: public domain in the USA; American Book Company textbook published around the turn of the century (well before 1930) First published by American Book Company in 1894.",
+  "subjects": [
+    "geography",
+    "science"
+  ],
+  "gradeMin": 1,
+  "gradeMax": 3,
+  "philosophies": [
+    "charlotte_mason",
+    "nature_forest",
+    "traditional"
+  ],
+  "lessonsPerWeek": 3,
+  "minutesPerLesson": 20,
+  "parentInvolvement": "high",
+  "familyStyle": true,
+  "cover": "🧭",
+  "color": "#E3A33B",
+  "description": "A gentle classic primer that teaches geography by starting at your own front door: finding north by the sun and stars, measuring and mapping your room, and spotting hills, streams, and ponds nearby. Each sitting is one or two short lessons with a hands-on or outdoor activity, a poem now and then, and a few questions to talk over. Great for siblings together, and the full text is free online.",
+  "includes": [
+    "31 sittings covering all 45 lessons, in 5 units",
+    "Link to the free full text for every lesson",
+    "Hands-on activities from the book: shadow watching, room plans, sand-table land forms, water experiments",
+    "Questions with answers for each sitting",
+    "Covers direction, maps, land and water forms, weather, plants, animals, minerals, and how people work"
+  ],
+  "units": [
+    {
+      "title": "Unit 1: Direction, Distance, and Plans (Lessons I–X)",
+      "lessons": [
+        {
+          "title": "Lessons I–II: Position; How the Sun Shows Direction",
+          "steps": [
+            "Read Lessons I and II together and do the right/left/front/back game at the table, then turn around and play it again",
+            "Go outside in the morning and point to where the sun rose; name that direction east",
+            "Stand with your right arm toward east and left arm toward west, and name north (in front) and south (behind)",
+            "Copywork: copy the sentence about the sun rising in the east and setting in the west"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson I",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less1"
+            },
+            {
+              "label": "Read Lesson II",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less2"
+            }
+          ],
+          "questions": [
+            "In which direction does the sun seem to rise?",
+            "In which direction does it seem to set?",
+            "If your right hand points east and your left hand points west, which way are you facing?"
+          ],
+          "answers": [
+            "East",
+            "West",
+            "North"
+          ],
+          "notes": "Right and left change when you turn around; north, south, east, and west don't. That is the big idea of these first lessons."
+        },
+        {
+          "title": "Lessons III–IV: How the Stars Show Direction; How the Compass Shows Direction",
+          "steps": [
+            "Read Lessons III and IV together",
+            "On a clear night, go outside and find the Big Dipper; follow its two pointer stars to the North Star",
+            "Look at a real compass (or a phone compass) and watch the needle settle; mark N, S, E, W on paper around it",
+            "Draw the eight points of the compass: N, NE, E, SE, S, SW, W, NW"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson III",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less3"
+            },
+            {
+              "label": "Read Lesson IV",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less4"
+            }
+          ],
+          "questions": [
+            "Which star always shows the north?",
+            "What is the name of the group of stars that contains the Dipper?",
+            "Which direction is halfway between north and east?"
+          ],
+          "answers": [
+            "The North Star",
+            "The Great Bear",
+            "Northeast"
+          ]
+        },
+        {
+          "title": "Lessons V–VI: Questions on Direction; What the Winds Bring (poem)",
+          "steps": [
+            "Read Lesson V and talk through the questions together",
+            "Mark where your shadow falls at three times of day (morning, noon, and late afternoon); notice when it is shortest",
+            "Look for a flag, smoke, or weather vane and decide which way the wind is blowing",
+            "Read the poem \"What the Winds Bring\" (Lesson VI) aloud and talk about what each wind brings"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson V",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less5"
+            },
+            {
+              "label": "Read Lesson VI",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less6"
+            }
+          ],
+          "questions": [
+            "When during the day is your shadow shortest?",
+            "In what direction will birds fly when winter comes?",
+            "In the poem, what does the north wind bring?"
+          ],
+          "answers": [
+            "At noon, when the sun is highest",
+            "South",
+            "Snowflakes (and frost pictures on the windows)"
+          ]
+        },
+        {
+          "title": "Lesson VII: How to Tell Distance",
+          "steps": [
+            "Read Lesson VII together",
+            "Measure with a ruler: a book, a table, and a doorway; then use a yardstick or tape measure on a room",
+            "Guess a distance by eye (like across the yard), then measure it to check",
+            "Talk about a place about a mile from home and how long it would take to walk there"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson VII",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less7"
+            }
+          ],
+          "questions": [
+            "How many inches are in a foot?",
+            "How many feet are in a yard?",
+            "Which measure is used for long distances, like between towns?"
+          ],
+          "answers": [
+            "12",
+            "3",
+            "The mile"
+          ],
+          "notes": "The book suggests guessing first, then measuring, and repeating until the guesses get close."
+        },
+        {
+          "title": "Lesson VIII: Pictures and Plans",
+          "steps": [
+            "Read Lesson VIII together and compare the picture and the plan of the schoolroom",
+            "Trace around blocks on paper to make a plan of a block 'house', like the boy in the lesson",
+            "Begin a plan of one room at home: measure two walls and choose a scale, such as 1 inch for 1 foot"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson VIII",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less8"
+            }
+          ],
+          "questions": [
+            "What is the difference between a picture and a plan?",
+            "In the lesson's plan, what does one inch stand for?"
+          ],
+          "answers": [
+            "A picture shows things as we see them; a plan shows where things are and their direction from each other",
+            "One foot in the room"
+          ]
+        },
+        {
+          "title": "Lessons IX–X: Written Exercise; God Made Them All (poem)",
+          "steps": [
+            "Read Lesson IX and answer the questions about your own home or school in full sentences",
+            "Draw a plan of your room at home with the bed, table, chairs, and door; mark N, S, E, and W",
+            "Draw a plan of your house and yard",
+            "Read the poem \"God Made Them All\" (Lesson X) aloud"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson IX",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less9"
+            },
+            {
+              "label": "Read Lesson X",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less10"
+            }
+          ],
+          "questions": [
+            "What do we call a drawing that shows where things are in a room?",
+            "Is the top of a plan always north?"
+          ],
+          "answers": [
+            "A plan",
+            "No; you have to mark which way is north"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 2: Land Forms and Weather (Lessons XI–XVII)",
+      "lessons": [
+        {
+          "title": "Lesson XI: Plains",
+          "steps": [
+            "Read Lesson XI together",
+            "Find the flattest piece of land near you and imagine it stretching for miles; that is a plain",
+            "Find a picture of a palm tree and draw it",
+            "Talk about why travelers cross the desert on camels instead of horses"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XI",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less11"
+            }
+          ],
+          "questions": [
+            "What is a broad, nearly level stretch of land called?",
+            "What is a grassy, flowery plain called?",
+            "What is an oasis?"
+          ],
+          "answers": [
+            "A plain",
+            "A prairie",
+            "A fertile spot with water in the middle of a desert"
+          ]
+        },
+        {
+          "title": "Lesson XII: Hills, Mountains, Valleys",
+          "steps": [
+            "Read Lesson XII together",
+            "Walk up a hill (or the biggest slope nearby) and name its base, slope, and summit; look at the view from the top",
+            "Model hills, mountains, and a valley in sand, clay, or play dough",
+            "Draw a hill you have seen, with a little of the land around it"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XII",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less12"
+            }
+          ],
+          "questions": [
+            "What do we call the bottom, the sides, and the top of a hill?",
+            "What is the land between hills or mountains called?",
+            "Is it warmer or colder at the top of a high mountain?"
+          ],
+          "answers": [
+            "The base (foot), the slopes (sides), and the summit (top)",
+            "A valley",
+            "Colder"
+          ]
+        },
+        {
+          "title": "Lessons XIII–XIV: Rain, Wind, and Snow; How Water Is Changed to Vapor",
+          "steps": [
+            "Read Lessons XIII and XIV together",
+            "Wipe a damp sponge across a slate or chalkboard and watch the water disappear",
+            "Set a plate of water in the sun and check it later; talk about where the water went",
+            "With a grown-up, watch a kettle boil and see the water turn to vapor"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XIII",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less13"
+            },
+            {
+              "label": "Read Lesson XIV",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less14"
+            }
+          ],
+          "questions": [
+            "What does heat change water into?",
+            "Can warm air or cold air hold more vapor?",
+            "Why does vapor rise into the air?"
+          ],
+          "answers": [
+            "Vapor",
+            "Warm air",
+            "It is lighter than air"
+          ],
+          "notes": "The book says to give the weather lessons when that weather happens; save a rainy or snowy day for these if you can."
+        },
+        {
+          "title": "Lesson XV: How Vapor Is Changed to Water",
+          "steps": [
+            "Read Lesson XV together",
+            "With a grown-up, hold a cold plate over steaming water and watch drops form and roll down",
+            "Fill a glass or pitcher with ice water and watch mist and drops gather on the outside",
+            "Breathe on a cold window and see your breath turn to water"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XV",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less15"
+            }
+          ],
+          "questions": [
+            "What turns vapor back into water?",
+            "Where does the water on the outside of an ice-water pitcher come from?",
+            "Does the water come through the pitcher from inside?"
+          ],
+          "answers": [
+            "Cold",
+            "From vapor in the air that is cooled by the cold pitcher",
+            "No"
+          ]
+        },
+        {
+          "title": "Lessons XVI–XVII: Dew, Clouds, and Rain; The Fairy Artist (poem)",
+          "steps": [
+            "Read Lesson XVI together",
+            "Go outside early in the morning to look for dew on the grass (or frost in cold weather)",
+            "Watch the clouds for a few minutes and notice how they change shape",
+            "Read the poem \"The Fairy Artist\" (Lesson XVII) and draw a frosty window picture"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XVI",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less16"
+            },
+            {
+              "label": "Read Lesson XVII",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less17"
+            }
+          ],
+          "questions": [
+            "What is dew?",
+            "What is frozen dew called?",
+            "What are clouds made of?"
+          ],
+          "answers": [
+            "Water from the air that cools on cold grass and leaves and turns into drops",
+            "Frost",
+            "Tiny drops of water or crystals of ice"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 3: Rivers, Maps, and Water Forms (Lessons XVIII–XXVIII)",
+      "lessons": [
+        {
+          "title": "Lesson XVIII: How Rivers Are Made",
+          "steps": [
+            "Read Lesson XVIII together",
+            "Visit a brook, creek, or river if you can; notice which way the water flows and what grows on its banks",
+            "Draw a spring with a little brook flowing from it, and the grasses around it",
+            "Copywork: copy two of the river words (spring, source, mouth, tributary) with their meanings"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XVIII",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less18"
+            }
+          ],
+          "questions": [
+            "What is the beginning of a river called?",
+            "Where a river flows into another body of water is called its what?",
+            "What is a small stream flowing into a larger one called?"
+          ],
+          "answers": [
+            "Its source",
+            "Its mouth",
+            "A tributary"
+          ]
+        },
+        {
+          "title": "Lessons XIX–XX: More About Rivers; The Brook (poem)",
+          "steps": [
+            "Read Lesson XIX together",
+            "Pour water slowly onto the ridge of a tent-shaped piece of paper or a sand ridge and watch it run down both sides (a water-parting)",
+            "Read the poem \"The Brook\" (Lesson XX) aloud and trace the brook's journey with your finger in the air",
+            "Talk about why a river runs fast in some places and slow in others"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XIX",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less19"
+            },
+            {
+              "label": "Read Lesson XX",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less20"
+            }
+          ],
+          "questions": [
+            "What do we call hills that divide the water to flow down two sides?",
+            "What is it called when a river falls over a high ledge of rock?",
+            "Why does a river wind about on level land?"
+          ],
+          "answers": [
+            "A water-parting or watershed",
+            "A waterfall or cataract",
+            "The water moves slowly there and is easily turned from its course"
+          ]
+        },
+        {
+          "title": "Lesson XXI: Work of Flowing Rivers",
+          "steps": [
+            "Read Lesson XXI together",
+            "Put mud and water in a jar, shake it, and let it stand; notice which settles first, the coarse or the fine",
+            "After a rain, look for little streams carrying soil down a slope",
+            "Collect a few smooth stones from a stream or beach and talk about how they got round"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXI",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less21"
+            }
+          ],
+          "questions": [
+            "What happens to muddy water when it stands still?",
+            "What makes stream stones smooth and round?",
+            "Where do rich river meadows come from?"
+          ],
+          "answers": [
+            "The mud settles to the bottom and the water clears",
+            "Rubbing against each other as the water rolls them along",
+            "Soil that rivers wash down from the hills and leave when they flood"
+          ]
+        },
+        {
+          "title": "Lessons XXII–XXIII: Waterdrop's Story; The River (poem)",
+          "steps": [
+            "Read \"Waterdrop's Story\" (Lesson XXII) aloud",
+            "Narration: your child tells the waterdrop's whole journey back, from sea to cloud to rain to river to sea",
+            "Draw the water cycle as a circle of pictures",
+            "Read the poem \"The River\" (Lesson XXIII) and talk about its questions"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXII",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less22"
+            },
+            {
+              "label": "Read Lesson XXIII",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less23"
+            }
+          ],
+          "questions": [
+            "Where did the waterdrop's journey begin and end?",
+            "What made the drops come together and fall as rain?",
+            "What machine did the water turn on its way?"
+          ],
+          "answers": [
+            "In the sea",
+            "The cold wind by the mountain chilled them and made them heavy",
+            "A mill-wheel"
+          ]
+        },
+        {
+          "title": "Lesson XXIV: A Map",
+          "steps": [
+            "Read Lesson XXIV together",
+            "Draw a simple map with mountains (short facing lines) and a river (a line that gets thicker toward its mouth)",
+            "Look at a real map of your area and find a river, hills, and your town"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXIV",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less24"
+            }
+          ],
+          "questions": [
+            "What is the difference between a plan and a map?",
+            "Why is the river line drawn thicker toward its mouth?"
+          ],
+          "answers": [
+            "A plan shows a room, house, or yard; a map shows land and water",
+            "Because the river gets wider as it flows toward the sea"
+          ],
+          "notes": "The book's warning is worth repeating: the lines on a map stand for real mountains and rivers, so picture the real thing."
+        },
+        {
+          "title": "Lesson XXV: Forms of Land and Water",
+          "steps": [
+            "Read Lesson XXV together",
+            "Make a lake with an inlet, an outlet, and an island in sand, a sandbox, or a baking pan",
+            "If there is a pond or lake nearby, walk along part of its shore",
+            "Draw a map of a river and lake on paper"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXV",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less25"
+            }
+          ],
+          "questions": [
+            "What is a lake?",
+            "What is the river that lets water into a lake called?",
+            "What is an island?"
+          ],
+          "answers": [
+            "Water surrounded by land (a hollow in the land filled with water)",
+            "The inlet",
+            "A piece of land with water all around it"
+          ]
+        },
+        {
+          "title": "Lesson XXVI: More About Forms of Land and Water",
+          "steps": [
+            "Read Lesson XXVI together",
+            "In sand or after a rain, make a peninsula, an isthmus, a bay, and a strait",
+            "Look for pictures of bays and peninsulas in books or magazines",
+            "Copywork: copy the meaning of peninsula and strait"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXVI",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less26"
+            }
+          ],
+          "questions": [
+            "What does the word peninsula mean?",
+            "What connects a peninsula to the mainland?",
+            "What is a strait?"
+          ],
+          "answers": [
+            "Almost an island",
+            "An isthmus",
+            "A narrow passage of water joining two larger bodies of water"
+          ]
+        },
+        {
+          "title": "Lessons XXVII–XXVIII: A Trip to the Highlands; Spring (poem)",
+          "steps": [
+            "Read \"A Trip to the Highlands\" (Lesson XXVII) aloud",
+            "Take a walk to the highest place you can reach nearby and look for land and water forms from the top",
+            "Narration: your child retells the trip and names every land or water form the children saw",
+            "Read the poem \"Spring\" (Lesson XXVIII) aloud"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXVII",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less27"
+            },
+            {
+              "label": "Read Lesson XXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less28"
+            }
+          ],
+          "questions": [
+            "Did it get warmer or cooler as the children climbed?",
+            "What did the father say the land reaching out into the lake was?",
+            "How did the city look from the top of the hill?"
+          ],
+          "answers": [
+            "Cooler",
+            "A peninsula",
+            "Small, with little straight streets and tiny house-tops"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 4: Plants (Lessons XXIX–XXXVI)",
+      "lessons": [
+        {
+          "title": "Lessons XXIX–XXX: Useful Vegetables; Useful Grains",
+          "steps": [
+            "Read Lessons XXIX and XXX together",
+            "Sort vegetables from your kitchen: which do we eat the roots, leaves, stems, or seeds of?",
+            "Plant a few seeds (beans or corn) in a cup of soil and start watching them grow",
+            "Draw one of the grains, such as wheat or an ear of corn"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXIX",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less29"
+            },
+            {
+              "label": "Read Lesson XXX",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less30"
+            }
+          ],
+          "questions": [
+            "Name a vegetable whose root we eat.",
+            "Which grain makes the choicest flour?",
+            "Why is it called Indian corn?"
+          ],
+          "answers": [
+            "Any of: beet, turnip, radish, carrot",
+            "Wheat",
+            "Because American Indians first raised it"
+          ],
+          "notes": "The book suggests planting seeds and watching them sprout; keep the cup going for the plant lessons that follow."
+        },
+        {
+          "title": "Lesson XXXI: Fruits",
+          "steps": [
+            "Read Lesson XXXI together",
+            "Name fruits that grow near you and sort them: trees, bushes, or vines",
+            "Visit an orchard, garden, or market and look at where fruits come from",
+            "Talk about why people in hot and cold countries eat different foods"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXI",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less31"
+            }
+          ],
+          "questions": [
+            "What is a place where many fruit trees grow called?",
+            "Where does the orange grow in our country?",
+            "Name a fruit that grows on a vine."
+          ],
+          "answers": [
+            "An orchard",
+            "Only in the warmer parts",
+            "Grapes (or melons)"
+          ]
+        },
+        {
+          "title": "Lesson XXXII: Useful Plants",
+          "steps": [
+            "Read Lesson XXXII together",
+            "Look at the labels on your clothes and find which are cotton or linen",
+            "Find out where your sugar comes from; taste a little maple syrup if you have some",
+            "Write or tell what you learned about cotton and linen"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXII",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less32"
+            }
+          ],
+          "questions": [
+            "What plant does linen come from?",
+            "What machine separates cotton from its seeds?",
+            "Name two plants that sugar is made from."
+          ],
+          "answers": [
+            "Flax",
+            "The cotton gin",
+            "Sugar cane and the sugar maple"
+          ]
+        },
+        {
+          "title": "Lesson XXXIII: Forest Trees",
+          "steps": [
+            "Read Lesson XXXIII together",
+            "Take a walk and learn the names of three trees near you; collect a leaf from each",
+            "Look at the wooden furniture in your home and guess what kinds of wood it is made of",
+            "Draw and color one of the trees you found"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXIII",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less33"
+            }
+          ],
+          "questions": [
+            "What do we call trees planted along streets to keep off the sun?",
+            "How tall are some of the great trees of California?",
+            "What is lumber used for?"
+          ],
+          "answers": [
+            "Shade trees",
+            "Nearly 400 feet high",
+            "Building houses, ships, and furniture"
+          ]
+        },
+        {
+          "title": "Lesson XXXIV: Flowers",
+          "steps": [
+            "Read Lesson XXXIV together",
+            "Go on a flower walk and name as many flowers as you can; notice where each one grows",
+            "Find the parts of a plant: root, stem, leaves, bud, and flower",
+            "Begin learning the poem \"Spring and the Flowers\" by heart"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXIV",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less34"
+            }
+          ],
+          "questions": [
+            "Name the parts of a plant.",
+            "Do all flowers grow in the same kind of place?"
+          ],
+          "answers": [
+            "Root, stem, leaves, bud, and flower",
+            "No; some need wet places and some need dry ones"
+          ]
+        },
+        {
+          "title": "Lessons XXXV–XXXVI: What Is Necessary to Make Plants Grow; Summer Rain (poem)",
+          "steps": [
+            "Read Lesson XXXV together",
+            "Check on your seed cup: talk about what it needs to keep growing",
+            "Try an experiment: keep one seedling in the dark or without water and compare it with one that has light and water",
+            "Read the poem \"Summer Rain\" (Lesson XXXVI) aloud"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXV",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less35"
+            },
+            {
+              "label": "Read Lesson XXXVI",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less36"
+            }
+          ],
+          "questions": [
+            "What two things does the lesson say plants need to grow?",
+            "Why don't plants grow in deserts?",
+            "Why don't plants grow in winter?"
+          ],
+          "answers": [
+            "Heat (warmth) and rain (moisture)",
+            "There is not enough rain",
+            "It is too cold"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 5: Animals, Minerals, and People (Lessons XXXVII–XLV)",
+      "lessons": [
+        {
+          "title": "Lessons XXXVII–XXXVIII: The Parts of Animals; The Covering of Animals",
+          "steps": [
+            "Read Lessons XXXVII and XXXVIII together",
+            "Watch a cat, dog, chicken, or duck and notice its feet, claws, beak, or bill and what it uses them for",
+            "Draw a duck's webbed foot next to a hen's foot",
+            "Sort animals by their covering: fur, hair, feathers, wool, scales, or shell"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXVII",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less37"
+            },
+            {
+              "label": "Read Lesson XXXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less38"
+            }
+          ],
+          "questions": [
+            "What do we call animals that live near people and are tame?",
+            "What keeps a duck's feathers from getting wet?",
+            "Why does a duck have webbed feet?"
+          ],
+          "answers": [
+            "Domestic animals",
+            "An oily coating",
+            "For swimming"
+          ],
+          "notes": "The big idea of both lessons: each animal has the parts and the covering that suit the life it leads."
+        },
+        {
+          "title": "Lessons XXXIX–XL: Uses of Animals; The Signs of the Seasons (poem)",
+          "steps": [
+            "Read Lesson XXXIX together",
+            "Find things at home that come from animals: wool, leather, milk, eggs, silk",
+            "Make a list of animals that are useful for food, for work, and for clothing",
+            "Read the poem \"The Signs of the Seasons\" (Lesson XL) and look outside for signs of the season you are in now"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXIX",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less39"
+            },
+            {
+              "label": "Read Lesson XL",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less40"
+            }
+          ],
+          "questions": [
+            "Where does wool come from?",
+            "How is silk made?",
+            "In the poem, what are two signs that spring is here?"
+          ],
+          "answers": [
+            "Sheep",
+            "Silkworms spin cocoons of silk thread",
+            "The bluebird comes and builds its nest, and violets peep up"
+          ]
+        },
+        {
+          "title": "Lesson XLI: Things Found in the Earth",
+          "steps": [
+            "Read Lesson XLI together",
+            "Hunt around the house for things made of iron or steel, copper, tin, brass, and gold or silver",
+            "Look at a pencil and talk about what the 'lead' is really made of",
+            "Start a collection of rocks and minerals from your area, as the book suggests"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLI",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less41"
+            }
+          ],
+          "questions": [
+            "What is the most useful of all metals, according to the lesson?",
+            "What is the hole dug in the earth to get minerals called?",
+            "What is a 'lead' pencil really made of?"
+          ],
+          "answers": [
+            "Iron",
+            "A mine",
+            "Graphite"
+          ]
+        },
+        {
+          "title": "Lesson XLII: More About Things Found in the Earth",
+          "steps": [
+            "Read Lesson XLII together",
+            "Walk around your neighborhood and look for granite, marble, slate, brick, and sandstone in buildings, steps, and curbs",
+            "Rub a piece of sandstone or chalk to see how it crumbles; compare it with a hard stone",
+            "Add any building stones you find to your rock collection and label them"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLII",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less42"
+            }
+          ],
+          "questions": [
+            "What is the place where building stone is dug called?",
+            "What are bricks made from?",
+            "What is glass made from?"
+          ],
+          "answers": [
+            "A quarry",
+            "Clay",
+            "Sand"
+          ]
+        },
+        {
+          "title": "Lesson XLIII: How People Live, and What They Are Doing",
+          "steps": [
+            "Read Lesson XLIII together",
+            "Talk about the kinds of homes people live in: tents, wigwams, huts, snow houses, bamboo houses",
+            "Trace one thing you ate today back to the plant or animal it came from",
+            "Name the work of farmers, stock-raisers, miners, lumbermen, and fishermen"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLIII",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less43"
+            }
+          ],
+          "questions": [
+            "What do we call the work of raising crops?",
+            "What is the business of raising cows and sheep called?",
+            "When do lumbermen cut trees, and how do the logs get to the mill?"
+          ],
+          "answers": [
+            "Agriculture or farming",
+            "Stock-raising",
+            "In winter; they float down the streams in spring when the snow melts"
+          ]
+        },
+        {
+          "title": "Lessons XLIV–XLV: More About What People Are Doing; A Review Lesson",
+          "steps": [
+            "Read Lessons XLIV and XLV together",
+            "Make a list of all the jobs (occupations) you can think of, and the jobs people do near you",
+            "Pick one thing in your home and talk about where it was made and how it got to you",
+            "Review: walk through your town or neighborhood and name the stores, workshops, roads, or waterways you see"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLIV",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less44"
+            },
+            {
+              "label": "Read Lesson XLV",
+              "url": "https://www.gutenberg.org/cache/epub/12228/pg12228-images.html#less45"
+            }
+          ],
+          "questions": [
+            "What do we call the buying, selling, and exchanging of goods?",
+            "Where are most things made in a city?",
+            "Why do people in different places do different kinds of work?"
+          ],
+          "answers": [
+            "Trade or commerce",
+            "In mills and factories",
+            "It depends on the place they live: the land, mountains, sea, or city around them"
+          ]
+        }
+      ]
+    }
+  ]
+}

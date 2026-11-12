@@ -457,31 +457,22 @@ async function run() {
   scenario('Marketplace');
   await goTab('Marketplace');
   await click('🛍️ Browse');
-  await expect('Sample catalog', 'sample catalog is labelled');
+  await expect('Freerange Library: classic and openly licensed', 'local catalog is the Freerange Library');
   await click('All grades', { exact: true });
   await fill('Search curricula, publishers, subjects…', 'phonics');
-  await expect('Little Wren Phonics, Book 1', 'search finds phonics');
-  await expectNot('Pre-Algebra Quest', 'search hides non-matches');
+  await expect('McGuffey', 'search finds phonics');
+  await expectNot('Story of the Greeks', 'search hides non-matches');
   await fill('Search curricula, publishers, subjects…', '');
   await click('Price: low to high');
-  const firstPrice = await page.evaluate(() => [...document.querySelectorAll('[tabindex]')].find((e) => e.offsetParent && /Pinecone|Owl|Fernwood|Wildflower|Brightfield|Little Wren|Atlas|Copper|Meadowlark|Northstar|Harbor|Lamplight|Puente/.test(e.innerText) && /\$|Free/.test(e.innerText))?.innerText ?? '');
-  log(firstPrice.includes('Free'), 'cheapest first');
-  await click('⚙️ Filters');
-  await click('Used, from families');
-  await click('Show ', { exact: false });
-  await expect('family seller', 'used filter shows family listings');
-  await click('⚙️ Filters');
-  await click('Clear all');
-  await click('Show ', { exact: false });
+  await expect('Free', 'everything in the Library is free');
   await click('Best match');
-  // Open a free listing, claim it, add it to the plan.
-  await fill('Search curricula, publishers, subjects…', 'nature journal');
-  await click('Free Nature Journal Starter');
+  // Open a Library curriculum, claim it, add it to the plan.
+  await fill('Search curricula, publishers, subjects…', 'burgess');
+  await click('The Burgess Bird Book for Children');
   await sleep(600);
   await expect('Why it fits your family');
-  await expect('Reviews');
-  await click('Lowest', { exact: true });
-  await click('5★ (', { exact: false });
+  await expect('Jenny Wren Arrives', 'shows the real chapter list');
+  await expect('public domain', 'credits the original book');
   await click('Get it free', { exact: true });
   await click('Get it free', { exact: true });
   await expect('in your library', 'claim confirmation');
@@ -491,17 +482,18 @@ async function run() {
   log(await isDisabled('Add link'), 'link needs an address');
   await fill('https://…', 'not a link');
   await expect('Enter a web address', 'rejects a non-link');
-  await fill('https://…', 'example.com/nature-videos');
-  await fill('Video lessons', 'Nature videos');
+  await fill('https://…', 'example.com/bird-songs');
+  await fill('Video lessons', 'Bird songs');
   await click('Add link', { exact: true });
-  log((await store()).curricula.find((k) => k.name === 'Free Nature Journal Starter')?.materials?.[0]?.url === 'https://example.com/nature-videos', 'lesson link saved to the curriculum');
+  const BIRDS = 'The Burgess Bird Book for Children';
+  log((await store()).curricula.find((k) => k.name === BIRDS)?.materials?.[0]?.url === 'https://example.com/bird-songs', 'lesson link saved to the curriculum');
   const st = await store();
-  const cur = st.curricula.find((k) => k.name === 'Free Nature Journal Starter');
-  log(!!cur && cur.totalLessons === 8, 'curriculum created with lesson count');
+  const cur = st.curricula.find((k) => k.name === BIRDS);
+  log(!!cur && cur.totalLessons === 45, 'curriculum created with lesson count');
   log(st.blocks.some((b) => b.curriculumId === cur?.id), 'rhythm block linked to curriculum');
   log(st.purchases.some((p) => p.curriculumId === cur?.id), 'purchase linked to plan');
   await click('See pacing');
-  await expect('Free Nature Journal Starter', 'shows on Curriculum tab');
+  await expect(BIRDS, 'shows on Curriculum tab');
   await expect('Lesson links & files (1)', 'curriculum card shows its materials');
   await expect('Where curricula come from');
   // Review it.
@@ -510,23 +502,11 @@ async function run() {
   await click('Write a review');
   log(await isDisabled('Post review'), 'review needs stars + text');
   await clickLabel('4 stars');
-  await fill("What worked, what didn't, and who it's best for.", 'Lovely gentle start to nature study for all ages.');
+  await fill("What worked, what didn't, and who it's best for.", 'Lovely gentle start to bird study for all ages.');
   await click('Post review', { exact: true });
   await expect('Edit review (4★)', 'review saved');
   await click('View listing');
   await expect('Verified purchase', 'own review shows verified');
-  await page.goBack(); await sleep(600);
-  // Buy a paid listing (demo checkout) and check the expense tracker.
-  await click('🛍️ Browse');
-  await fill('Search curricula, publishers, subjects…', 'kitchen chemistry');
-  await click('Kitchen Chemistry');
-  await sleep(600);
-  await click('Buy', { exact: true });
-  await expect('Demo checkout', 'demo checkout is labelled');
-  await click('🧾 Tax-deductible');
-  await click('Buy for $29');
-  await click('Later', { exact: true });
-  log((await store()).expenses.some((e) => e.description.includes('Kitchen Chemistry') && e.amount === 29 && e.fundingSource === 'tax'), 'purchase recorded as tax expense');
   await page.goBack(); await sleep(600);
   // Sell something.
   await click('🏷️ Selling');
@@ -661,12 +641,12 @@ async function run() {
   await expectNot('Back to today');
   // This family started today, so there is nothing further back yet.
   log(await page.evaluate(() => document.querySelector('[aria-label="Previous day"]')?.getAttribute('aria-disabled') === 'true'), 'no days before the family started');
-  // Find the first Nature Journal lesson (added from the Marketplace) and open its materials.
+  // Find the first Burgess Bird Book lesson (added from the Marketplace) and open its materials.
   let lesson = false;
   for (let i = 0; i < 8 && !lesson; i++) {
     await clickLabel('Next day');
     lesson = await page.evaluate(() => {
-      const el = [...document.querySelectorAll('[tabindex]')].reverse().find((e) => e.offsetParent && e.innerText.includes('Free Nature Journal Starter'));
+      const el = [...document.querySelectorAll('[tabindex]')].reverse().find((e) => e.offsetParent && e.innerText.includes('The Burgess Bird Book for Children'));
       el?.click();
       return !!el;
     });
@@ -674,19 +654,19 @@ async function run() {
   await sleep(600);
   log(lesson, 'marketplace curriculum shows up in the kid’s days');
   if (lesson) {
-    const n = Number((await bodyText()).match(/Lesson (\d+) of 8/)?.[1]);
-    // Lucia may have started an earlier Nature Journal lesson early, so count her open ones before this.
+    const n = Number((await bodyText()).match(/Lesson (\d+) of 45/)?.[1]);
+    // Lucia may have started an earlier Burgess lesson early, so count her open ones before this.
     const st2 = await store();
-    const nj = st2.curricula.find((k) => k.name === 'Free Nature Journal Starter');
+    const nj = st2.curricula.find((k) => k.name === 'The Burgess Bird Book for Children');
     const lucia = st2.children.find((k) => k.name === 'Lucia').id;
     const mine = st2.tasks.filter((t) => t.curriculumId === nj.id && t.childId === lucia).sort((x, y) => x.date.localeCompare(y.date));
     const shown = page.url().split('/').pop();
     const expected = mine.findIndex((t) => t.id === shown) + 1;
     log(expected > 0 && n === expected, `mission shows its lesson number (Lesson ${n}, expected ${expected})`);
     opened.length = 0;
-    await click('Open Nature videos');
+    await click('Open Bird songs');
     await sleep(500);
-    log(opened.some((u) => u.startsWith('https://example.com/nature-videos')), `Open button opens the lesson link (${opened.join(', ')})`);
+    log(opened.some((u) => u.startsWith('https://example.com/bird-songs')), `Open button opens the lesson link (${opened.join(', ')})`);
     await click('‹ My day');
   }
   await click('Back to today');

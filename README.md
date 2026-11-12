@@ -30,12 +30,12 @@ Every table has row-level security; `supabase/tests/cloud.test.ts` checks the ru
 npm run db:start          # local stack on ports 5542x; prints the URL and publishable key
 cp .env.example .env.local   # fill in EXPO_PUBLIC_SUPABASE_URL / _PUBLISHABLE_KEY
 cp supabase/functions/.env.example supabase/functions/.env   # PAYMENTS_MODE=demo: paid checkout completes instantly, flagged demo
-npm run db:reset          # migrations + sample catalog (supabase/seed.sql, from src/lib/marketSample.ts)
+npm run db:reset          # migrations + the Freerange Library (supabase/seed.sql; npm run library:gen rebuilds it)
 npm run web
 ```
 
 **Production:**
-1. Create a Supabase project and run `supabase link` then `supabase db push`. Production gets no seed data, so the live catalog starts empty until sellers list.
+1. Create a Supabase project and run `supabase link` then `supabase db push --include-seed`. The seed is the Freerange Library (free, openly licensed lesson plans) and is safe to run again: after changing the Library, run `npm run library:gen` and push the seed again. Bump an entry's `version` when its lessons change so families get an update.
 2. Deploy the server functions with `supabase functions deploy create-checkout stripe-webhook fetch-page`. Never set `STUDIO_FETCH_ALLOW_PRIVATE` in production.
 3. Set the function secrets with `supabase secrets set STRIPE_SECRET_KEY=… STRIPE_WEBHOOK_SECRET=… CHECKOUT_RETURN_ORIGINS=https://your.site,freerange://`.
 4. Point a Stripe webhook (`checkout.session.completed`, `checkout.session.expired`) at `/functions/v1/stripe-webhook`.

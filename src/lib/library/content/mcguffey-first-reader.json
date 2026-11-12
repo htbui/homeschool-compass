@@ -1,0 +1,1506 @@
+{
+  "key": "mcguffey-first-reader",
+  "title": "McGuffey's First Eclectic Reader",
+  "sourceTitle": "McGuffey's First Eclectic Reader, Revised Edition",
+  "author": "William Holmes McGuffey",
+  "year": 1879,
+  "sourceUrl": "https://www.gutenberg.org/ebooks/14640",
+  "readUrl": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Project Gutenberg eBook #14640: 'Public domain in the USA.' Revised edition first copyrighted 1879 (Van Antwerp, Bragg & Co.); renewals 1896, 1907, and 1920, all before 1930.",
+  "subjects": [
+    "phonics",
+    "reading"
+  ],
+  "gradeMin": 0,
+  "gradeMax": 1,
+  "philosophies": [
+    "charlotte_mason",
+    "classical",
+    "traditional",
+    "faith_based"
+  ],
+  "lessonsPerWeek": 4,
+  "minutesPerLesson": 20,
+  "parentInvolvement": "high",
+  "familyStyle": false,
+  "cover": "📖",
+  "color": "#4C7FD9",
+  "description": "The classic First Reader takes a beginning reader from “The dog ran” to real little stories about pets, picnics, and brave dogs. Each lesson starts with its new words; you practice them, read the story together, copy a line, and talk about it. The full text is free online.",
+  "includes": [
+    "61 lessons in 8 units covering all 63 First Reader lessons",
+    "Link to the free full text for every lesson",
+    "New words and a sound focus for each lesson",
+    "Copywork line and a hands-on or narration activity",
+    "Simple comprehension questions with answers",
+    "Review and script (cursive) slate lessons marked in the notes"
+  ],
+  "units": [
+    {
+      "title": "Unit 1: Lessons I–IX",
+      "lessons": [
+        {
+          "title": "Lessons I–II: The Dog and the Cat",
+          "steps": [
+            "New words: dog, the, ran, cat, mat, is, on; sound focus: short a, short o, short i; th",
+            "Read the lesson aloud together, pointing to each word; then let your child read it alone",
+            "Slate work: copy “The cat is on the mat.”",
+            "Sound out d-o-g and c-a-t, then change one letter to make log, hat, sat"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson I",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00041"
+            },
+            {
+              "label": "Read Lesson II",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00047"
+            }
+          ],
+          "questions": [
+            "What did the dog do?",
+            "Where is the cat?"
+          ],
+          "answers": [
+            "It ran",
+            "On the mat"
+          ],
+          "notes": "Two very short opening lessons combined into one sitting."
+        },
+        {
+          "title": "Lesson III: The Man and the Pen",
+          "steps": [
+            "New words: it, his, pen, hand, in, has, man; sound focus: short e; p, h",
+            "You read a line, then your child reads it back; finish by reading the whole lesson together",
+            "Slate work: copy “The man has a pen.”",
+            "Hold a pen in your hand and act out the last two lines"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson III",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00054"
+            }
+          ],
+          "questions": [
+            "What does the man have?",
+            "Where is the pen?"
+          ],
+          "answers": [
+            "A pen",
+            "In his hand"
+          ]
+        },
+        {
+          "title": "Lesson IV: The Fat Hen",
+          "steps": [
+            "New words: hen, fat, rat, box, big, run, from, can; sound focus: short u; f, b, x",
+            "Let your child read the lesson aloud slowly; help only on words they can't sound out",
+            "Slate work: copy “The fat hen is on the box.”",
+            "Narrate: who is on the box and who ran away?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson IV",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00063"
+            }
+          ],
+          "questions": [
+            "Where is the fat hen?",
+            "What ran from the box?"
+          ],
+          "answers": [
+            "On the box",
+            "The big rat"
+          ]
+        },
+        {
+          "title": "Lesson V: Rab Has the Hat",
+          "steps": [
+            "New words: Rab, Ann, hat, catch, see; sound focus: ch",
+            "Read it once aloud for your child, then have them read it to you (or to a sibling or stuffed animal)",
+            "Slate work: copy “See Rab! See Ann!”",
+            "Look at the picture: why is Ann running?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson V",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00071"
+            }
+          ],
+          "questions": [
+            "What does Rab have?",
+            "Who is trying to catch Rab?"
+          ],
+          "answers": [
+            "The hat",
+            "Ann"
+          ]
+        },
+        {
+          "title": "Lesson VI: Ann Catches Rab",
+          "steps": [
+            "New words: she, pat, too, now, let, me; sound focus: sh, oo, ow",
+            "Read the lesson aloud together, pointing to each word; then let your child read it alone",
+            "Slate work: copy “Now Ann can pat Rab.”",
+            "Tell how the story from Lesson V ends"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson VI",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00078"
+            }
+          ],
+          "questions": [
+            "Did Ann catch Rab?",
+            "What does Ann do to Rab now?"
+          ],
+          "answers": [
+            "Yes",
+            "Pats him"
+          ]
+        },
+        {
+          "title": "Lesson VII: The Black Hen",
+          "steps": [
+            "New words: Ned, eggs, black, left, fed, nest, them, get, will; sound focus: ck; w",
+            "You read a line, then your child reads it back; finish by reading the whole lesson together",
+            "Slate work: copy “She is a black hen.”",
+            "Count the eggs in the picture"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson VII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00086"
+            }
+          ],
+          "questions": [
+            "What color is the hen?",
+            "Who fed the hen?"
+          ],
+          "answers": [
+            "Black",
+            "Ned"
+          ]
+        },
+        {
+          "title": "Lesson VIII: The Big Black Hat",
+          "steps": [
+            "New words: head, he, Nat, come, with; sound focus: ea as short e (head)",
+            "Let your child read the lesson aloud slowly; help only on words they can't sound out",
+            "Slate work: copy “Ned has it on his head.”",
+            "Play dress-up with a big hat and read the lesson in a 'big man' voice"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson VIII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00096"
+            }
+          ],
+          "questions": [
+            "Who has the black hat on his head?",
+            "Who is called to come and see?"
+          ],
+          "answers": [
+            "Ned",
+            "Nat"
+          ]
+        },
+        {
+          "title": "Lesson IX: Review",
+          "steps": [
+            "Read the old words at the top quickly, like a game",
+            "Slate work: copy “The man has a hat.”",
+            "Narrate: what is in the box, and who has the black hat?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson IX",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00101"
+            }
+          ],
+          "questions": [
+            "Where is the big rat?",
+            "What should Nat get?"
+          ],
+          "answers": [
+            "In the box",
+            "The eggs"
+          ],
+          "notes": "Review lesson: the words at the top are old words to practice. Let your child read as independently as possible. Ends with slate work (script) to copy."
+        }
+      ]
+    },
+    {
+      "title": "Unit 2: Lessons X–XVI",
+      "lessons": [
+        {
+          "title": "Lesson X: Nell and the Eggs",
+          "steps": [
+            "New words: Nell, some, pan, him, yes, do, you, have; sound focus: y as a consonant; v",
+            "Read the lesson aloud together, pointing to each word; then let your child read it alone",
+            "Slate work: copy “She has a pan with some eggs in it.”",
+            "Read it as a conversation, with your child as Nell"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson X",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00111"
+            }
+          ],
+          "questions": [
+            "What does Nell have?",
+            "Who will run to catch Rab?"
+          ],
+          "answers": [
+            "A pan with some eggs in it",
+            "The speaker (I)"
+          ]
+        },
+        {
+          "title": "Lesson XI: Jip and the Cart",
+          "steps": [
+            "New words: O, whip, Ben, up, still, sit, if, stand, Jip; sound focus: wh; j",
+            "You read a line, then your child reads it back; finish by reading the whole lesson together",
+            "Slate work: copy “Get up, Jip!”",
+            "Look at the picture: what kind of animal is Jip?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XI",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00120"
+            }
+          ],
+          "questions": [
+            "What does Ann want to do?",
+            "What must she do first?"
+          ],
+          "answers": [
+            "Get in the cart",
+            "Sit still"
+          ]
+        },
+        {
+          "title": "Lesson XII: Kitty's Pet Bird",
+          "steps": [
+            "New words: Kitty, nice, sweet, sing, just, hang, cage, then, song, pet, put, not; sound focus: ng; long i (nice)",
+            "Let your child read the lesson aloud slowly; help only on words they can't sound out",
+            "Slate work: copy “It can sing a sweet song.”",
+            "Narrate: why does Kitty hang the cage up?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00130"
+            }
+          ],
+          "questions": [
+            "What can Kitty's pet do?",
+            "Why will Kitty hang the cage up?"
+          ],
+          "answers": [
+            "Sing a sweet song",
+            "So the cat can not catch the bird"
+          ]
+        },
+        {
+          "title": "Lesson XIII: Tom and His Dog",
+          "steps": [
+            "New words: Tom, top, Kitty's, at, back, look, good, doll, think, spot; sound focus: short oo (look, good)",
+            "Read it once aloud for your child, then have them read it to you (or to a sibling or stuffed animal)",
+            "Slate work: copy “Tom has a big top, too.”",
+            "Spin a top if you have one, or talk about the picture"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XIII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00138"
+            }
+          ],
+          "questions": [
+            "Where is the black spot on the dog?",
+            "Where is Tom's top?"
+          ],
+          "answers": [
+            "On his back",
+            "On the box with Kitty's doll"
+          ]
+        },
+        {
+          "title": "Lesson XIV: The Duck on the Pond",
+          "steps": [
+            "New words: sun, we, how, pond, stop, for, go, swim, her, us, hot, duck; sound focus: er (her)",
+            "Read the lesson aloud together, pointing to each word; then let your child read it alone",
+            "Slate work: copy “Now the duck will swim in the pond.”",
+            "Tell what the man fed, and where each animal went"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XIV",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00145"
+            }
+          ],
+          "questions": [
+            "What will the duck do now?",
+            "Why don't they stop at the pond?"
+          ],
+          "answers": [
+            "Swim in the pond",
+            "It is hot"
+          ]
+        },
+        {
+          "title": "Lesson XV: Run, Skip, and Jump",
+          "steps": [
+            "New words: John, rock, set, jump, fun, must, may, under, skip, bank, but, touch; sound focus: two-syllable word: un-der",
+            "You read a line, then your child reads it back; finish by reading the whole lesson together",
+            "Slate work: copy “We must not touch the nest.”",
+            "Go outside and run, skip, and jump like the children"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XV",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00154"
+            }
+          ],
+          "questions": [
+            "Where is the duck's nest?",
+            "May they touch the nest?"
+          ],
+          "answers": [
+            "On the bank, under the rock",
+            "No, only look at it"
+          ]
+        },
+        {
+          "title": "Lesson XVI: Review: By the Pond",
+          "steps": [
+            "Read the review in turns, one sentence each",
+            "Slate work: copy “The sun has set, and the pond is still.”",
+            "Find every name in the lesson and count them"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XVI",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00161"
+            }
+          ],
+          "questions": [
+            "Where is Kitty's doll?",
+            "Where does the duck have her nest?"
+          ],
+          "answers": [
+            "On the rock",
+            "Under the rock"
+          ],
+          "notes": "Review lesson: the words at the top are old words to practice. Let your child read as independently as possible."
+        }
+      ]
+    },
+    {
+      "title": "Unit 3: Lessons XVII–XXVII",
+      "lessons": [
+        {
+          "title": "Lessons XVII–XVIII: Slate Work",
+          "steps": [
+            "New words: are, ink, moss, this, tub, upset, nut, did, shut, shall, lost, fox, men, met, step, into, hunt, mud; sound focus: two-syllable words: up-set, in-to",
+            "Read it once aloud for your child, then have them read it to you (or to a sibling or stuffed animal)",
+            "Slate work: copy “Ben upset the tub.”",
+            "Choose three short sentences from the two slate pages and copy them neatly"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XVII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00167"
+            },
+            {
+              "label": "Read Lesson XVIII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00171"
+            }
+          ],
+          "questions": [
+            "Who upset the tub?",
+            "What did Ben lose?"
+          ],
+          "answers": [
+            "Ben",
+            "His hat"
+          ],
+          "notes": "Lessons XVII and XVIII are script (cursive) slate pages only, so they are combined. Read the script together before copying."
+        },
+        {
+          "title": "Lesson XIX: The Old Cow",
+          "steps": [
+            "New words: Kate, old, no, grass, dear, likes, be, drink, milk, cow, out, gives; sound focus: long a (Kate)",
+            "Read the lesson aloud together, pointing to each word; then let your child read it alone",
+            "Slate work: copy “She gives us sweet milk.”",
+            "Narrate: why won't the cow come out of the pond?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XIX",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00177"
+            }
+          ],
+          "questions": [
+            "Where is the old cow?",
+            "What does the cow give us?"
+          ],
+          "answers": [
+            "In the pond",
+            "Sweet milk"
+          ]
+        },
+        {
+          "title": "Lesson XX: Riding on Prince",
+          "steps": [
+            "New words: mamma, large, as, papa, arms, ride, far, barn, both, Prince, trot, your; sound focus: ar (far, barn, arms)",
+            "You read a line, then your child reads it back; finish by reading the whole lesson together",
+            "Slate work: copy “We are both on Prince.”",
+            "Pretend to trot to the barn as you reread it"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XX",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00185"
+            }
+          ],
+          "questions": [
+            "What is Prince?",
+            "How far will Prince trot?"
+          ],
+          "answers": [
+            "A horse",
+            "As far as the barn"
+          ]
+        },
+        {
+          "title": "Lesson XXI: Fanny's Ball",
+          "steps": [
+            "New words: of, that, toss, fall, well, Fanny, ball, wall, was, pretty, done, what; sound focus: all (ball, wall, fall)",
+            "Let your child read the lesson aloud slowly; help only on words they can't sound out",
+            "Slate work: copy “That was well done.”",
+            "Toss a ball back and forth, reading one line per catch"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXI",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00192"
+            }
+          ],
+          "questions": [
+            "What does Fanny have?",
+            "Where should Fanny toss it next?"
+          ],
+          "answers": [
+            "A pretty ball",
+            "To the top of the wall"
+          ]
+        },
+        {
+          "title": "Lesson XXII: At the Pond with Tom",
+          "steps": [
+            "New words: had, went, call, might, flag, near, swam, swing; sound focus: short a (had, flag, swam)",
+            "Read it once aloud for your child, then have them read it to you (or to a sibling or stuffed animal)",
+            "Slate work: copy “We fed her.”",
+            "Narrate what the girl and Tom did at the pond"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00202"
+            }
+          ],
+          "questions": [
+            "What did Tom take to the pond?",
+            "Where do they want to go next?"
+          ],
+          "answers": [
+            "His flag",
+            "To the swing"
+          ]
+        },
+        {
+          "title": "Lesson XXIII: Here Comes the Band",
+          "steps": [
+            "New words: here, band, hear, horse, play, they, pass, where, front, fine, hope, comes; sound focus: hear and here sound alike",
+            "Read the lesson aloud together, pointing to each word; then let your child read it alone",
+            "Slate work: copy “Here comes the band!”",
+            "March around the room like the band"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXIII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00210"
+            }
+          ],
+          "questions": [
+            "Who is in front of the band?",
+            "What do the boys hope?"
+          ],
+          "answers": [
+            "A large man with a big hat",
+            "That the band will stop and play for them"
+          ]
+        },
+        {
+          "title": "Lesson XXIV: In the Woods",
+          "steps": [
+            "New words: Bess, happy, make, cart, tent, woods, little, very, bed, Robert, gone, draw; sound focus: two-syllable words: hap-py, lit-tle",
+            "You read a line, then your child reads it back; finish by reading the whole lesson together",
+            "Slate work: copy “Bess and Robert are very happy.”",
+            "Build a blanket tent and read the lesson inside it"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXIV",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00221"
+            }
+          ],
+          "questions": [
+            "What does Robert have?",
+            "What will Jip pull?"
+          ],
+          "answers": [
+            "A big tent and a flag",
+            "The cart with Bess and her doll"
+          ]
+        },
+        {
+          "title": "Lesson XXV: Kate's Doll",
+          "steps": [
+            "New words: James, Mary, made, sang, my, lay, sport, spade, lap, dig, doll's, sand, said; sound focus: said is a sight word",
+            "Let your child read the lesson aloud slowly; help only on words they can't sound out",
+            "Slate work: copy “Kate made the doll's bed.”",
+            "Read the talking parts with two voices"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXV",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00228"
+            }
+          ],
+          "questions": [
+            "What did James want to do?",
+            "Why couldn't Kate play?"
+          ],
+          "answers": [
+            "Dig in the sand with his spade",
+            "She had to make her doll's bed"
+          ]
+        },
+        {
+          "title": "Lesson XXVI: By the Brook",
+          "steps": [
+            "New words: its, shade, brook, picks, all, by, help, stones, glad, soft; sound focus: long a (shade)",
+            "Read it once aloud for your child, then have them read it to you (or to a sibling or stuffed animal)",
+            "Slate work: copy “They are all in the shade.”",
+            "Pick up some small stones and talk about what you find"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXVI",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00238"
+            }
+          ],
+          "questions": [
+            "Where are the children playing?",
+            "What does Mary pick up?"
+          ],
+          "answers": [
+            "In the shade by the brook",
+            "Little stones"
+          ]
+        },
+        {
+          "title": "Lesson XXVII: Review: What Shall We Do?",
+          "steps": [
+            "Read it as a play between Fanny and John",
+            "Slate work: copy “Shall we go to the big woods?”",
+            "Plan your own picnic: what would you take?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXVII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00246"
+            }
+          ],
+          "questions": [
+            "What does John like to do?",
+            "Who will they ask to hang up a swing?"
+          ],
+          "answers": [
+            "Play on the grass",
+            "Mamma"
+          ],
+          "notes": "Review lesson: the words at the top are old words to practice. Let your child read as independently as possible."
+        }
+      ]
+    },
+    {
+      "title": "Unit 4: Lessons XXVIII–XXXIII",
+      "lessons": [
+        {
+          "title": "Lesson XXVIII: The Little Chick",
+          "steps": [
+            "New words: peep, while, take, sleep, tuck, safe, oh, wet, feet, chick, can't, feels, wing; sound focus: ee (peep, sleep, feet)",
+            "You read a line, then your child reads it back; finish by reading the whole lesson together",
+            "Slate work: copy “Peep, peep!”",
+            "Act it out with a toy chick hiding under a 'wing'"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00252"
+            }
+          ],
+          "questions": [
+            "Where did the girl take the chick?",
+            "Where does the chick go to sleep?"
+          ],
+          "answers": [
+            "Back to the hen",
+            "Under the hen's wing"
+          ]
+        },
+        {
+          "title": "Lesson XXIX: The Kite",
+          "steps": [
+            "New words: wind, time, there, fence, kite, high, eyes, bright, flies, why, day, shines; sound focus: long i spelled i-e, igh, y",
+            "Let your child read the lesson aloud slowly; help only on words they can't sound out",
+            "Slate work: copy “The sun shines bright.”",
+            "Copy the slate work, then fly a kite or draw one"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXIX",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00260"
+            }
+          ],
+          "questions": [
+            "Why does the kite fly high?",
+            "Where was the dog?"
+          ],
+          "answers": [
+            "There is a good wind",
+            "Under the cart"
+          ],
+          "notes": "Ends with slate work to copy."
+        },
+        {
+          "title": "Lesson XXX: A Boat for the Dolls",
+          "steps": [
+            "New words: wish, float, tie, know, rope, boat, try, shore, give, pole, don't, push, drag, won't, oar, funny; sound focus: oa (float, boat, oar)",
+            "Read it once aloud for your child, then have them read it to you (or to a sibling or stuffed animal)",
+            "Slate work: copy “Nell let the pole fall on the tub.”",
+            "Float a small tub or bowl in water to test Kate's plan"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXX",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00271"
+            }
+          ],
+          "questions": [
+            "What did they use for a boat?",
+            "What happened at the end of the slate work?"
+          ],
+          "answers": [
+            "A little tub",
+            "Nell let the pole fall and upset the tub"
+          ],
+          "notes": "Ends with slate work that continues the story."
+        },
+        {
+          "title": "Lesson XXXI: Brave Old Ponto",
+          "steps": [
+            "New words: bound, Rose, called, got, drown, found, brave, came, Ponto, jumped, mouth, around, brought, water; sound focus: ou (bound, found, mouth)",
+            "Read the lesson aloud together, pointing to each word; then let your child read it alone",
+            "Slate work: copy “Good, old Ponto!”",
+            "Answer the question at the end: what do you think of Ponto?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXI",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00285"
+            }
+          ],
+          "questions": [
+            "Who is Ponto?",
+            "Which doll did Ponto bring out first?"
+          ],
+          "answers": [
+            "Kate's dog",
+            "Bess"
+          ]
+        },
+        {
+          "title": "Lesson XXXII: A June Day",
+          "steps": [
+            "New words: June, Lucy's, air, kind, trees, singing, blue, when, pure, says, sky, picnic; sound focus: says is a sight word",
+            "You read a line, then your child reads it back; finish by reading the whole lesson together",
+            "Slate work: copy “The sky is as blue as it can be.”",
+            "Describe the weather today the way the lesson describes June"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00295"
+            }
+          ],
+          "questions": [
+            "Where are Lucy and her mamma?",
+            "When will they have a picnic?"
+          ],
+          "answers": [
+            "In the woods",
+            "When papa can get a tent"
+          ]
+        },
+        {
+          "title": "Lesson XXXIII: Review: The Lost Ball",
+          "steps": [
+            "Read it with expression, especially the questions",
+            "Slate work: copy “Ponto has found it.”",
+            "Hide a ball and let your child find it like Ponto"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXIII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00304"
+            }
+          ],
+          "questions": [
+            "Who found the lost ball?",
+            "Whose feet will he lay it at?"
+          ],
+          "answers": [
+            "Ponto",
+            "Little Lucy's"
+          ],
+          "notes": "Review lesson: the words at the top are old words to practice. Let your child read as independently as possible."
+        }
+      ]
+    },
+    {
+      "title": "Unit 5: Lessons XXXIV–XL",
+      "lessons": [
+        {
+          "title": "Lesson XXXIV: The Big Flag",
+          "steps": [
+            "New words: boy, our, spoil, hurrah, own, coil, noise, fourth, such, join, thank, about, hoist, pay, July, playing; sound focus: oi and oy",
+            "Read it once aloud for your child, then have them read it to you (or to a sibling or stuffed animal)",
+            "Slate work: copy “Hurrah for the flag, boys!”",
+            "Read the conversation between James and papa with two voices"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXIV",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00310"
+            }
+          ],
+          "questions": [
+            "What were the boys playing?",
+            "What did papa give with the flag?"
+          ],
+          "answers": [
+            "Fourth of July",
+            "A coil of rope"
+          ]
+        },
+        {
+          "title": "Lesson XXXV: The White Kitten",
+          "steps": [
+            "New words: finished, bonnet, lesson, saved, white, away, I've, am, work, scamper, ready, garden; sound focus: two-syllable words; I've",
+            "Read the lesson aloud together, pointing to each word; then let your child read it alone",
+            "Slate work: copy “Kitty, my pretty, white kitty.”",
+            "Memorize the first four lines"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXV",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00324"
+            }
+          ],
+          "questions": [
+            "What has the child finished?",
+            "What did the child save for the kitty?"
+          ],
+          "answers": [
+            "Work and lesson",
+            "Some milk"
+          ],
+          "notes": "This lesson is a script (cursive) poem. Read it together and use a stanza as copywork."
+        },
+        {
+          "title": "Lesson XXXVI: Frank's Boat",
+          "steps": [
+            "New words: care, always, line, Frank, row, been, keeps, home; sound focus: ow as long o (row)",
+            "You read a line, then your child reads it back; finish by reading the whole lesson together",
+            "Slate work: copy “Frank has a pretty boat.”",
+            "Draw Frank's boat with its black line"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXVI",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00332"
+            }
+          ],
+          "questions": [
+            "What color is Frank's boat?",
+            "Where does he keep it?"
+          ],
+          "answers": [
+            "White, with a black line near the water",
+            "In the pond near his home"
+          ]
+        },
+        {
+          "title": "Lesson XXXVII: The Little Boat",
+          "steps": [
+            "New words: much, one, yet, hungry, seen, grandma, corn, would; sound focus: one is a sight word",
+            "Let your child read the lesson aloud slowly; help only on words they can't sound out",
+            "Slate work: copy “Has grandma seen it?”",
+            "Narrate: what will John give Lucy, and what is in Lucy's pan?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXVII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00339"
+            }
+          ],
+          "questions": [
+            "What will John give Lucy?",
+            "What is in Lucy's pan?"
+          ],
+          "answers": [
+            "The little boat, when it is finished",
+            "Corn for her hens"
+          ]
+        },
+        {
+          "title": "Lesson XXXVIII: Going to Market",
+          "steps": [
+            "New words: market, bread, basket, bought, meat, tea, trying, tell, which; sound focus: ea (bread vs. meat, tea)",
+            "Read it once aloud for your child, then have them read it to you (or to a sibling or stuffed animal)",
+            "Slate work: copy “She has bought some bread.”",
+            "Play market: 'buy' bread, meat, and tea with play money"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00348"
+            }
+          ],
+          "questions": [
+            "What did mamma buy?",
+            "Where are the things?"
+          ],
+          "answers": [
+            "Bread, meat, and tea",
+            "In the basket on her arm"
+          ]
+        },
+        {
+          "title": "Lesson XXXIX: Dear Old Grandma",
+          "steps": [
+            "New words: reads, so, wears, please, could, hair, fast, love, easy, gray, chair, who, glasses; sound focus: air (hair, chair)",
+            "Read the lesson aloud together, pointing to each word; then let your child read it alone",
+            "Slate work: copy “She wears glasses when she reads.”",
+            "Tell one way your child can help a grandparent"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXIX",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00355"
+            }
+          ],
+          "questions": [
+            "What does grandma wear when she reads?",
+            "What does Robert do when she asks for a drink?"
+          ],
+          "answers": [
+            "Glasses",
+            "Runs as fast as he can to get it"
+          ]
+        },
+        {
+          "title": "Lesson XL: The Bee in the Flower",
+          "steps": [
+            "New words: does, wonder, mother, other, bee, honey, listen, flower; sound focus: o as short u (mother, other, honey)",
+            "You read a line, then your child reads it back; finish by reading the whole lesson together",
+            "Slate work: copy “Shall we let it out?”",
+            "Look at a real flower and find where a bee could go in"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XL",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00363"
+            }
+          ],
+          "questions": [
+            "What was shut up in the flower?",
+            "Why did it go into the flower?"
+          ],
+          "answers": [
+            "A bee",
+            "For some honey"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 6: Lessons XLI–XLVI",
+      "lessons": [
+        {
+          "title": "Lesson XLI: Frank and James White",
+          "steps": [
+            "New words: best, hitched, their, should, or, riding, live, holds, hay, driving, tight, early; sound focus: -ing endings",
+            "Let your child read the lesson aloud slowly; help only on words they can't sound out",
+            "Slate work: copy “Some horses can trot very fast.”",
+            "Copy the slate work, then talk about being kind to animals"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLI",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00372"
+            }
+          ],
+          "questions": [
+            "Who is riding and who is driving?",
+            "What will the boys give the horses?"
+          ],
+          "answers": [
+            "Frank is riding; James is driving",
+            "Some hay or corn"
+          ],
+          "notes": "Ends with slate work to copy."
+        },
+        {
+          "title": "Lesson XLII: The Bird's Nest",
+          "steps": [
+            "New words: looking, thought, picking, heard, chirp, were, told, birds, search, dearly, young, girl, loved, children, besides; sound focus: ir, ur, ear (chirp, girl, heard, search)",
+            "Read it once aloud for your child, then have them read it to you (or to a sibling or stuffed animal)",
+            "Slate work: copy “She left the birds.”",
+            "Narrate: what did the girl find, and why did she leave it?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00384"
+            }
+          ],
+          "questions": [
+            "What was the girl looking for?",
+            "What did she find besides flowers?"
+          ],
+          "answers": [
+            "Flowers for her mother",
+            "A nest with young birds"
+          ]
+        },
+        {
+          "title": "Lesson XLIII: The Lightning Train",
+          "steps": [
+            "New words: eight, ask, after, town, past, ah, ticket, right, half, two, train, ding, lightning; sound focus: eigh (eight)",
+            "Read the lesson aloud together, pointing to each word; then let your child read it alone",
+            "Slate work: copy “All right! Time is up!”",
+            "Play train in a basket or box and read it as a play"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLIII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00393"
+            }
+          ],
+          "questions": [
+            "What time will the train get back?",
+            "What does mamma want from town?"
+          ],
+          "answers": [
+            "Half past eight",
+            "A big basket with two good little children in it"
+          ]
+        },
+        {
+          "title": "Lesson XLIV: Playing School",
+          "steps": [
+            "New words: school, even, three, room, small; sound focus: oo (school, room)",
+            "You read a line, then your child reads it back; finish by reading the whole lesson together",
+            "Slate work: copy “It is noon, and the school is out.”",
+            "Play school: your child is the teacher and reads to you"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLIV",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00408"
+            }
+          ],
+          "questions": [
+            "Who is the teacher?",
+            "What is Fanny reading about?"
+          ],
+          "answers": [
+            "Mary",
+            "A poor little boy who was lost in the woods"
+          ]
+        },
+        {
+          "title": "Lesson XLV: Polly the Parrot",
+          "steps": [
+            "New words: apple, mew, tease, cracker, down, new, silly, asleep, wants, calls, knew, friends, upon, flew, Poll, Polly; sound focus: ew (mew, new, knew, flew)",
+            "Let your child read the lesson aloud slowly; help only on words they can't sound out",
+            "Slate work: copy “Polly wants a cracker.”",
+            "Say Polly's lines in a parrot voice"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLV",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00420"
+            }
+          ],
+          "questions": [
+            "What kind of bird is Polly?",
+            "What did Polly do to tease the cat?"
+          ],
+          "answers": [
+            "A parrot",
+            "Lit on the cat's back while she was asleep"
+          ]
+        },
+        {
+          "title": "Lesson XLVI: Review: A Nice Time in the Woods",
+          "steps": [
+            "Read it as a conversation between mother and the child",
+            "Slate work: copy “Rab was such a good dog.”",
+            "Narrate the whole day in the woods in order"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLVI",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00429"
+            }
+          ],
+          "questions": [
+            "Who are the best flowers for?",
+            "What did Rab guard?"
+          ],
+          "answers": [
+            "Grandma",
+            "The dolls and the basket"
+          ],
+          "notes": "Review lesson: the words at the top are old words to practice. Let your child read as independently as possible."
+        }
+      ]
+    },
+    {
+      "title": "Unit 7: Lessons XLVII–LV",
+      "lessons": [
+        {
+          "title": "Lesson XLVII: Home from the Beach",
+          "steps": [
+            "New words: beach, shells, these, seat, waves, going, ever, sea, watch, evening, lazy, side; sound focus: ea (beach, seat, sea)",
+            "Read the lesson aloud together, pointing to each word; then let your child read it alone",
+            "Slate work: copy “They have been to the beach.”",
+            "If you have shells, sort them while you talk about the story"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLVII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00440"
+            }
+          ],
+          "questions": [
+            "What did John find?",
+            "Who is driving?"
+          ],
+          "answers": [
+            "Some pretty shells",
+            "Ben White"
+          ]
+        },
+        {
+          "title": "Lesson XLVIII: Frank Goes Fishing",
+          "steps": [
+            "New words: log, quiet, proud, pulled, fish, stump, river, father; sound focus: ou (proud)",
+            "You read a line, then your child reads it back; finish by reading the whole lesson together",
+            "Slate work: copy “How proud he feels!”",
+            "Narrate: where are they, and what did Frank catch?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLVIII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00450"
+            }
+          ],
+          "questions": [
+            "Who took Frank fishing?",
+            "What is Frank's seat?"
+          ],
+          "answers": [
+            "His father",
+            "The stump of a big tree"
+          ]
+        },
+        {
+          "title": "Lesson XLIX: The Rain",
+          "steps": [
+            "New words: rain, outside, often, pitter, say, window, sound, patter, drops, sometimes, only, music; sound focus: compound words (outside, sometimes)",
+            "Let your child read the lesson aloud slowly; help only on words they can't sound out",
+            "Slate work: copy “Pit, pitter, patter, pat.”",
+            "Listen to rain (or a recording) and tap out the pitter-patter rhythm"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLIX",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00459"
+            }
+          ],
+          "questions": [
+            "Where do the drops pitter-patter?",
+            "What does the child think the sound is like?"
+          ],
+          "answers": [
+            "On the window",
+            "Pretty music"
+          ],
+          "notes": "This lesson is all script (cursive) slate work. Read it together first, then copy the little rhyme at the end."
+        },
+        {
+          "title": "Lesson L: Winter Fun",
+          "steps": [
+            "New words: sled, throw, winter, hurt, ice, cover, Henry, next, skate, ground, merry, snow, sister, laughing, pair; sound focus: er (winter, cover, sister)",
+            "Read it once aloud for your child, then have them read it to you (or to a sibling or stuffed animal)",
+            "Slate work: copy “What fun it is to skate on the ice!”",
+            "Name your favorite winter game"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson L",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00465"
+            }
+          ],
+          "questions": [
+            "Why does Henry pull his sister on the sled?",
+            "How do we know the boy who fell is not hurt?"
+          ],
+          "answers": [
+            "She is too small to skate",
+            "He is laughing"
+          ]
+        },
+        {
+          "title": "Lesson LI: Fido's Tricks",
+          "steps": [
+            "New words: paw, polite, means, isn't, speak, sir, shake, Fido, tricks, teach, dinner, Ellen, bowwow; sound focus: aw (paw)",
+            "Read the lesson aloud together, pointing to each word; then let your child read it alone",
+            "Slate work: copy “Give me your paw, Fido.”",
+            "Teach a pet or stuffed animal a 'trick' while reading"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LI",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00475"
+            }
+          ],
+          "questions": [
+            "What is Fido wearing?",
+            "What does Fido's 'Bowwow' mean?"
+          ],
+          "answers": [
+            "The boy's hat",
+            "Thank you, I will"
+          ]
+        },
+        {
+          "title": "Lesson LII: The Rat in the Shed",
+          "steps": [
+            "New words: puss, shed, pain, way, stole, saw, hid, eat, Hattie, suffer, sorry, something, caught, tried, Nero; sound focus: ai, ay (pain, way)",
+            "You read a line, then your child reads it back; finish by reading the whole lesson together",
+            "Slate work: copy “Puss was hid on a big box.”",
+            "Read it as a conversation between Frank and Hattie"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00483"
+            }
+          ],
+          "questions": [
+            "Who caught the rat?",
+            "Why does Hattie feel sorry?"
+          ],
+          "answers": [
+            "The old cat",
+            "She does not like to see even a rat suffer pain"
+          ]
+        },
+        {
+          "title": "Lesson LIII: At the Seaside",
+          "steps": [
+            "New words: roll, build, grandpa, hard, foam, ships, houses, long, sail, break, wooden, blow; sound focus: oa, ai (foam, sail)",
+            "Let your child read the lesson aloud slowly; help only on words they can't sound out",
+            "Slate work: copy “They watch the waves.”",
+            "Draw a sand house with a wall around it"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LIII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00497"
+            }
+          ],
+          "questions": [
+            "What does grandpa like to watch?",
+            "Who are the shells for?"
+          ],
+          "answers": [
+            "The big ships sail away",
+            "Their little sister"
+          ]
+        },
+        {
+          "title": "Lesson LIV: Willie's Rabbits",
+          "steps": [
+            "New words: asked, wanted, four, Willie's, night, rabbits, lad, carried, cents, telling, fifty, master; sound focus: -ed endings (asked, wanted, carried)",
+            "Read it once aloud for your child, then have them read it to you (or to a sibling or stuffed animal)",
+            "Slate work: copy “What soft, kind eyes they have.”",
+            "Copy the slate work about rabbits"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LIV",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00507"
+            }
+          ],
+          "questions": [
+            "How many rabbits did father buy?",
+            "How much did they cost?"
+          ],
+          "answers": [
+            "Four",
+            "Fifty cents"
+          ],
+          "notes": "Ends with script slate work."
+        },
+        {
+          "title": "Lesson LV: The Bird's Nest in the Bush",
+          "steps": [
+            "New words: bush, cunning, place, show, find, broken, over, bring, again, fasten; sound focus: silent t (fasten)",
+            "Read the lesson aloud together, pointing to each word; then let your child read it alone",
+            "Slate work: copy “O Willie! a bird's nest!”",
+            "Narrate: why shouldn't they take the nest?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LV",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00521"
+            }
+          ],
+          "questions": [
+            "Where did Willie find the nest?",
+            "Why can't they take it and bring it back?"
+          ],
+          "answers": [
+            "In a bush",
+            "They could not fasten it in its place again"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 8: Lessons LVI–LXIII",
+      "lessons": [
+        {
+          "title": "Lesson LVI: How the Nest Was Made",
+          "steps": [
+            "New words: strong, round, dry, bill, worked, sends, claws, flit, God, spring; sound focus: aw (claws)",
+            "You read a line, then your child reads it back; finish by reading the whole lesson together",
+            "Slate work: copy “God made the little birds to sing.”",
+            "Copy the four-line verse"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LVI",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00530"
+            }
+          ],
+          "questions": [
+            "What is the nest made of?",
+            "Did they take the nest?"
+          ],
+          "answers": [
+            "Horse-hairs and dry grass",
+            "No"
+          ],
+          "notes": "Ends with a script verse to copy."
+        },
+        {
+          "title": "Lesson LVII: The Little Brown Birds",
+          "steps": [
+            "New words: feathers, ago, fly, worm, crumb, feeding, ugly, off, feed, brown, guess, things; sound focus: silent b (crumb); gu (guess)",
+            "Let your child read the lesson aloud slowly; help only on words they can't sound out",
+            "Slate work: copy “Here comes the old bird.”",
+            "Watch birds outside for five minutes and tell what they do"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LVII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00541"
+            }
+          ],
+          "questions": [
+            "What did the brown bird carry away?",
+            "What did the mother bird bring?"
+          ],
+          "answers": [
+            "A crumb",
+            "A worm"
+          ]
+        },
+        {
+          "title": "Lesson LVIII: The Lord Is Near",
+          "steps": [
+            "New words: falling, counts, woes, nigh, begun, griefs, stars, tear, morning, Lord, each, joys; sound focus: igh (nigh)",
+            "Read it once aloud for your child, then have them read it to you (or to a sibling or stuffed animal)",
+            "Slate work: copy “Think the Lord is near.”",
+            "Read the hymn together twice; explain nigh and woes"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LVIII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00553"
+            }
+          ],
+          "questions": [
+            "When does the poem say to think the Lord is nigh?"
+          ],
+          "answers": [
+            "When the morning has begun"
+          ],
+          "notes": "This lesson is a script (cursive) hymn. Read it together and copy one stanza."
+        },
+        {
+          "title": "Lesson LIX: Mary Meets Frank",
+          "steps": [
+            "New words: whistle, pocket, willow, note, filled, dead, sick, walk, every, blew, lane, lame, taking, cane, took; sound focus: silent t (whistle)",
+            "Read the lesson aloud together, pointing to each word; then let your child read it alone",
+            "Slate work: copy “Let us whistle it to sleep.”",
+            "Narrate: who is Frank, and who takes care of him?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LIX",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00560"
+            }
+          ],
+          "questions": [
+            "Who takes care of Frank?",
+            "What did Frank take out of his pocket?"
+          ],
+          "answers": [
+            "His grandma",
+            "A willow whistle"
+          ]
+        },
+        {
+          "title": "Lesson LX: The Willow Whistle",
+          "steps": [
+            "New words: turned, face, cried, low, almost, soon, more, cry, once, because; sound focus: once is a sight word",
+            "You read a line, then your child reads it back; finish by reading the whole lesson together",
+            "Slate work: copy “It whistles!”",
+            "Try to whistle, or blow a straw whistle, like Mary"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LX",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00570"
+            }
+          ],
+          "questions": [
+            "Why did Frank give Mary the whistle?",
+            "What happened to the doll's eyes?"
+          ],
+          "answers": [
+            "Because she was so good to his grandma",
+            "They shut, as if it were asleep"
+          ]
+        },
+        {
+          "title": "Lesson LXI: The Hen and Her Chickens",
+          "steps": [
+            "New words: stood, himself, flapping, first, twelve, flapped, walked, flap, obey, better, Chippy, food, stone, before, chickens, kept; sound focus: -ed and -ing endings",
+            "Let your child read the lesson aloud slowly; help only on words they can't sound out",
+            "Slate work: copy “Just flap your wings.”",
+            "Act it out: jump from a 'stone' (a pillow) to the other side"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXI",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00582"
+            }
+          ],
+          "questions": [
+            "How many chickens did the hen have?",
+            "Where did she want to take them?"
+          ],
+          "answers": [
+            "Twelve",
+            "Across the brook"
+          ]
+        },
+        {
+          "title": "Lesson LXII: Chippy Tried",
+          "steps": [
+            "New words: chirped, never, indeed, slowly, really, brood, began, didn't, use, door, bite, piece; sound focus: ie (piece); didn't",
+            "Read it once aloud for your child, then have them read it to you (or to a sibling or stuffed animal)",
+            "Slate work: copy “Well, I tried.”",
+            "Talk about why Chippy got the bread"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00596"
+            }
+          ],
+          "questions": [
+            "Who got the piece of bread?",
+            "Why?"
+          ],
+          "answers": [
+            "Chippy",
+            "He was the only one who really tried"
+          ]
+        },
+        {
+          "title": "Lesson LXIII: The Last Lesson",
+          "steps": [
+            "New words: last, slates, write, waste, neat, taken, clean, learn, reader, parents, second; sound focus: silent w (write)",
+            "Read the lesson aloud together, pointing to each word; then let your child read it alone",
+            "Slate work: copy “We have finished the First Reader.”",
+            "Celebrate finishing the book; look over the Phonic Chart together"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXIII",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00609"
+            },
+            {
+              "label": "Phonic Chart",
+              "url": "https://www.gutenberg.org/cache/epub/14640/pg14640-images.html#id00619"
+            }
+          ],
+          "questions": [
+            "What book comes next?",
+            "How should children keep their books?"
+          ],
+          "answers": [
+            "The Second Reader",
+            "Neat and clean"
+          ],
+          "notes": "The Phonic Chart after this lesson lists every sound taught; it makes a good review sheet."
+        }
+      ]
+    }
+  ]
+}

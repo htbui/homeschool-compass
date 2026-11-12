@@ -111,7 +111,7 @@ export default function Marketplace() {
       <T muted>Curricula from publishers and used books from other families — compare reviews, buy, and drop it straight into your plan.</T>
       {source === 'sample' ? (
         <Card tint={c.accentSoft} style={{ marginTop: space.md }}>
-          <T v="caption">🧪 Sample catalog: these publishers, listings, and reviews are demo data so you can try the marketplace. Sign in (Settings → Account) to shop the live catalog.</T>
+          <T v="caption">📚 Freerange Library: classic and openly licensed curricula, free and ready to schedule. Sign in (Settings → Account) to also see publishers, creators, and used books from families.</T>
         </Card>
       ) : null}
       <View style={{ marginTop: space.lg }}>

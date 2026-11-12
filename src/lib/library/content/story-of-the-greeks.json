@@ -1,0 +1,2914 @@
+{
+  "key": "story-of-the-greeks",
+  "title": "The Story of the Greeks",
+  "sourceTitle": "The Story of the Greeks",
+  "author": "H. A. Guerber",
+  "year": 1896,
+  "sourceUrl": "https://www.gutenberg.org/ebooks/23495",
+  "readUrl": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Project Gutenberg #23495: \"Public domain in the USA\"; title page reads \"Copyright, 1896, by American Book Company\" (published 1896)",
+  "subjects": [
+    "history"
+  ],
+  "gradeMin": 3,
+  "gradeMax": 6,
+  "philosophies": [
+    "classical",
+    "charlotte_mason"
+  ],
+  "lessonsPerWeek": 4,
+  "minutesPerLesson": 20,
+  "parentInvolvement": "high",
+  "familyStyle": true,
+  "cover": "🏛️",
+  "color": "#E3A33B",
+  "description": "H. A. Guerber's classic 1896 read-aloud tells the story of ancient Greece in short, lively chapters, from the old myths and the Trojan War through Marathon, Pericles, Socrates, and Alexander to the Roman conquest. It suits the whole family in grades 3–6: each day you read one chapter aloud, your child narrates it back, finds the place on a map, and adds it to a timeline. The full text is free online.",
+  "includes": [
+    "115 lessons in 15 units, one chapter per lesson",
+    "Link to the free full text for every chapter",
+    "Narration prompt, map work, and timeline entry for each lesson",
+    "Comprehension questions with answers",
+    "Parent notes flagging myth told as history, dated viewpoints, and mature content"
+  ],
+  "units": [
+    {
+      "title": "Unit 1: Myths and Heroes (Chapters 1–12)",
+      "lessons": [
+        {
+          "title": "Chapter 1: Early Inhabitants of Greece",
+          "steps": [
+            "Read Chapter I, \"Early Inhabitants of Greece,\" aloud together",
+            "Narration: tell who lived in Greece long ago and who came by sea to teach them",
+            "Map work: Find Greece, the Mediterranean Sea, Egypt, and Phoenicia on a map; notice the islands like stepping-stones",
+            "Timeline: Add \"Pelasgians live in Greece\" at c. 2000 BC (the book's estimate)"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter I",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#I_EARLY_INHABITANTS_OF_GREECE"
+            }
+          ],
+          "questions": [
+            "How did the earliest Greeks, the Pelasgians, live?",
+            "Why did Egyptian and Phoenician sailors hop from island to island instead of crossing open sea?"
+          ],
+          "answers": [
+            "In forests and caves, hunting with clubs and stone-tipped weapons and wearing animal skins",
+            "They had no compass, so they stayed in sight of land"
+          ],
+          "notes": "The book dates events by Bible stories (\"when Isaac went to Egypt\"). Modern historians describe early Greece differently; treat the Egyptian-teacher story as an old tradition."
+        },
+        {
+          "title": "Chapter 2: The Deluge of Ogyges",
+          "steps": [
+            "Read Chapter II, \"The Deluge of Ogyges,\" aloud together",
+            "Narration: tell how Inachus helped the Pelasgians and what happened in the great flood",
+            "Map work: Find Argos on a map of Greece",
+            "Timeline: Add \"Deluge of Ogyges\" to the myths strip of your timeline (legend, no real date)"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter II",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#II_THE_DELUGE_OF_OGYGES"
+            }
+          ],
+          "questions": [
+            "Why did later Greeks call the huge old stone walls \"Cyclopean\"?",
+            "Which city did Inachus found?"
+          ],
+          "answers": [
+            "They said one-eyed giants called Cyclopes must have built them",
+            "Argos"
+          ],
+          "notes": "Inachus and Ogyges are legendary figures, though the giant \"Cyclopean\" walls are real and can still be seen."
+        },
+        {
+          "title": "Chapter 3: The Founding of Many Important Cities",
+          "steps": [
+            "Read Chapter III, \"The Founding of Many Important Cities,\" aloud together",
+            "Narration: name the founders in this chapter and what each one gave the Greeks",
+            "Map work: Find Athens, Thebes, Argos, Mycenae, and the Isthmus of Corinth on a map of Greece",
+            "Timeline: Add \"Mycenae's great walls and gold masks\" at c. 1600–1200 BC; put Cecrops and Cadmus on the myths strip"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter III",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#III_THE_FOUNDING_OF_MANY_IMPORTANT_CITIES"
+            }
+          ],
+          "questions": [
+            "What very important gift did Cadmus bring to Greece?",
+            "Whose name was given to the city of Athens?",
+            "What surprising things were found in the old tombs at Mycenae?"
+          ],
+          "answers": [
+            "The alphabet (writing)",
+            "The goddess Athene",
+            "Thin masks of pure gold, plus weapons, armor, and pottery"
+          ],
+          "notes": "Cecrops, Cadmus, and Danaus are founders from legend. The Mycenae finds are real (dug up in 1876)."
+        },
+        {
+          "title": "Chapter 4: Story of Deucalion",
+          "steps": [
+            "Read Chapter IV, \"Story of Deucalion,\" aloud together",
+            "Narration: tell the story of Deucalion and Pyrrha after the flood",
+            "Map work: Find Thessaly, Delphi, and the pass of Thermopylae on a map of Greece",
+            "Timeline: Add \"Deucalion's flood\" to the myths strip; add \"Amphictyonic Council meets at Delphi\" (a real league, its beginning is legendary)"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter IV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#IV_STORY_OF_DEUCALION"
+            }
+          ],
+          "questions": [
+            "What did Deucalion decide \"your mother's bones\" meant?",
+            "What does the name Thermopylae mean?"
+          ],
+          "answers": [
+            "The stones of the Earth",
+            "The Hot Gateway (hot springs in a narrow pass)"
+          ],
+          "notes": "The Deucalion story is a myth; the book says so."
+        },
+        {
+          "title": "Chapter 5: Story of Dædalus and Icarus",
+          "steps": [
+            "Read Chapter V, \"Story of Dædalus and Icarus,\" aloud together",
+            "Narration: tell how Daedalus and Icarus escaped from Crete",
+            "Map work: Find Crete and the Icarian Sea on a map",
+            "Timeline: Add \"Daedalus and Icarus\" and \"King Minos of Crete\" to the myths strip"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter V",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#V_STORY_OF_DAEDALUS_AND_ICARUS"
+            }
+          ],
+          "questions": [
+            "Which useful inventions does the book credit to Daedalus?",
+            "Why did Icarus fall into the sea?",
+            "Who were the Hellenes named after?"
+          ],
+          "answers": [
+            "The saw, the potter's wheel, and sails for ships",
+            "He flew too near the sun and the wax holding his wings melted",
+            "Hellen, son of Deucalion"
+          ],
+          "notes": "The book suggests the wing story grew out of Daedalus inventing sails. That is the author's guess; the Minoan civilization on Crete was real."
+        },
+        {
+          "title": "Chapter 6: The Adventures of Jason",
+          "steps": [
+            "Read Chapter VI, \"The Adventures of Jason,\" aloud together",
+            "Narration: tell who the heroes were and what Jason went looking for",
+            "Map work: Find the Peloponnesus, then trace the Argo's route from Greece across the Black Sea to Colchis",
+            "Timeline: Add \"Voyage of the Argo\" to the myths strip"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter VI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#VI_THE_ADVENTURES_OF_JASON"
+            }
+          ],
+          "questions": [
+            "How many heroes sailed on the Argo?",
+            "What did the Golden Fleece really stand for, according to the book?",
+            "Where does the name Peloponnesus come from?"
+          ],
+          "answers": [
+            "Fifty",
+            "The riches the Greeks brought home from trading in the East",
+            "Pelops, who ruled the peninsula"
+          ],
+          "notes": "Jason's voyage is legend; the book explains it as an early trading journey."
+        },
+        {
+          "title": "Chapter 7: Theseus Visits the Labyrinth",
+          "steps": [
+            "Read Chapter VII, \"Theseus Visits the Labyrinth,\" aloud together",
+            "Narration: tell how Theseus beat the monster in the Labyrinth, and what happened to his father",
+            "Map work: Find Athens, Crete, the Aegean Sea, and the island of Scyros",
+            "Timeline: Add \"Theseus and the Labyrinth\" to the myths strip"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter VII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#VII_THESEUS_VISITS_THE_LABYRINTH"
+            }
+          ],
+          "questions": [
+            "How did Theseus find his way out of the Labyrinth?",
+            "Why did King Aegeus think his son was dead?",
+            "What festival did Theseus start for Athene?"
+          ],
+          "answers": [
+            "By following a long thread the king's daughter gave him",
+            "The ship came back with black sails instead of white",
+            "The Panathenaea"
+          ],
+          "notes": "Theseus is a legendary hero. The Acropolis named here is real and still stands in Athens."
+        },
+        {
+          "title": "Chapter 8: The Terrible Prophecy",
+          "steps": [
+            "Read Chapter VIII, \"The Terrible Prophecy,\" aloud together",
+            "Narration: tell why baby Oedipus was sent away and how he ended up in Corinth",
+            "Map work: Find Thebes, Delphi, and Corinth on a map of Greece",
+            "Timeline: Add \"Oedipus\" to the myths strip"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter VIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#VIII_THE_TERRIBLE_PROPHECY"
+            }
+          ],
+          "questions": [
+            "Why did King Laius want to get rid of his baby son?",
+            "What does the name Oedipus mean?"
+          ],
+          "answers": [
+            "An oracle said the son would kill his father and bring ruin to the city",
+            "Swollen-footed"
+          ],
+          "notes": "The Oedipus myth spans three chapters and has dark themes (a man unknowingly marries his mother). Preview it and shorten or skip parts if needed for younger children."
+        },
+        {
+          "title": "Chapter 9: The Sphinx's Riddle",
+          "steps": [
+            "Read Chapter IX, \"The Sphinx's Riddle,\" aloud together",
+            "Narration: tell what happened at the crossroads and how Oedipus beat the Sphinx",
+            "Map work: Find Thebes in Boeotia and trace a road toward Delphi",
+            "Timeline: Add \"The Sphinx's riddle\" to the myths strip next to Oedipus"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter IX",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#IX_THE_SPHINXS_RIDDLE"
+            }
+          ],
+          "questions": [
+            "What was the Sphinx's riddle, and what was the answer?",
+            "What did the Sphinx look like?"
+          ],
+          "answers": [
+            "What walks on four feet in the morning, two at noon, and three at night? Man",
+            "A woman's head, a lion's body, and an eagle's wings"
+          ],
+          "notes": "Myth. The violence at the crossroads is told plainly; you may want to summarize it."
+        },
+        {
+          "title": "Chapter 10: Blindness and Death of Œdipus",
+          "steps": [
+            "Read Chapter X, \"Blindness and Death of Œdipus,\" aloud together",
+            "Narration: tell how the truth about Oedipus came out and what Antigone did",
+            "Map work: Find Thebes again and talk about how far a blind man could wander on foot"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter X",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#X_BLINDNESS_AND_DEATH_OF_OEDIPUS"
+            }
+          ],
+          "questions": [
+            "What did the oracle say would stop the plague in Thebes?",
+            "Which daughter stayed to guide her blind father?"
+          ],
+          "answers": [
+            "Finding and punishing the man who killed King Laius",
+            "Antigone"
+          ],
+          "notes": "Contains Jocasta's suicide and Oedipus blinding himself. Read ahead and soften or summarize for younger listeners."
+        },
+        {
+          "title": "Chapter 11: The Brothers' Quarrel",
+          "steps": [
+            "Read Chapter XI, \"The Brothers' Quarrel,\" aloud together",
+            "Narration: tell why Eteocles and Polynices fought and how their quarrel ended",
+            "Map work: Find Argos, Nemea, and Thebes and trace the march of the Seven",
+            "Timeline: Add \"Seven against Thebes\" to the myths strip; note the real Nemean Games"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XI_THE_BROTHERS_QUARREL"
+            }
+          ],
+          "questions": [
+            "What was the brothers' agreement, and who broke it?",
+            "Which games did the seven chiefs start, and in whose honor?",
+            "How long did the first siege of Thebes last?"
+          ],
+          "answers": [
+            "To rule a year each in turn; Eteocles broke it",
+            "The Nemean Games, honoring Hercules' victory over the Nemean lion",
+            "Seven years"
+          ],
+          "notes": "The book itself says this family story is a myth."
+        },
+        {
+          "title": "Chapter 12: The Taking of Thebes",
+          "steps": [
+            "Read Chapter XII, \"The Taking of Thebes,\" aloud together",
+            "Narration: tell how the sons of the Seven finally took Thebes",
+            "Map work: Find Thebes and Argos on a map of Greece",
+            "Timeline: Add \"War of the Epigoni\" to the myths strip"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XII_THE_TAKING_OF_THEBES"
+            }
+          ],
+          "questions": [
+            "What does \"Epigoni\" mean?",
+            "Who was put on the throne of Thebes after it was taken?"
+          ],
+          "answers": [
+            "Descendants (the sons of the first warriors)",
+            "Thersander, son of Polynices"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 2: Troy, Homer, and the End of the Heroic Age (Chapters 13–20)",
+      "lessons": [
+        {
+          "title": "Chapter 13: The Childhood of Paris",
+          "steps": [
+            "Read Chapter XIII, \"The Childhood of Paris,\" aloud together",
+            "Narration: tell the story of Paris from his mother's dream to his journey home with Helen",
+            "Map work: Find Troy in Asia Minor (modern Turkey), Sparta, and the port of Aulis",
+            "Timeline: Add \"Paris and Helen\" to the myths strip, beginning the Trojan War story"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XIII_THE_CHILDHOOD_OF_PARIS"
+            }
+          ],
+          "questions": [
+            "What did Queen Hecuba dream about baby Paris?",
+            "How was Paris recognized when he came to Troy?",
+            "Where did Menelaus tell his allies to gather?"
+          ],
+          "answers": [
+            "A flaming brand in his cradle that set the palace on fire",
+            "He won all the prizes at the games, looked like the royal family, and Cassandra named him",
+            "Aulis"
+          ],
+          "notes": "The Trojan War comes from Homer's poems. Troy was a real city, but the story with gods and heroes is legend, not proven history."
+        },
+        {
+          "title": "Chapter 14: The Muster of the Troops",
+          "steps": [
+            "Read Chapter XIV, \"The Muster of the Troops,\" aloud together",
+            "Narration: tell who the Greek chiefs were and how Ulysses found Achilles",
+            "Map work: Find Aulis and the island of Scyros",
+            "Timeline: Add \"Greek army gathers at Aulis\" to the myths strip"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XIV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XIV_THE_MUSTER_OF_THE_TROOPS"
+            }
+          ],
+          "questions": [
+            "Why was Achilles' heel the only place he could be hurt?",
+            "How did Ulysses trick Achilles into showing who he was?",
+            "Who was chosen leader of the whole Greek army?"
+          ],
+          "answers": [
+            "His mother held him by the heel when she dipped him in the river Styx",
+            "He put a fine sword among his trinkets, and only Achilles grabbed it",
+            "Agamemnon, King of Mycenae"
+          ]
+        },
+        {
+          "title": "Chapter 15: The Sacrifice of Iphigenia",
+          "steps": [
+            "Read Chapter XV, \"The Sacrifice of Iphigenia,\" aloud together",
+            "Narration: tell why the Greek fleet could not sail and what happened once they reached Troy",
+            "Map work: Trace the route from Aulis across the Aegean Sea to Troy",
+            "Timeline: Add \"Siege of Troy begins\" to the myths strip (ancient Greeks placed it near 1200 BC)"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XV_THE_SACRIFICE_OF_IPHIGENIA"
+            }
+          ],
+          "questions": [
+            "Why was there no wind to carry the Greek ships?",
+            "How long had the war gone on before anyone was close to winning?"
+          ],
+          "answers": [
+            "Agamemnon had offended the goddess Diana, and the oracle said she must be appeased",
+            "Nine years"
+          ],
+          "notes": "The story of a father asked to sacrifice his daughter is upsetting; the book has the goddess rescue her. A good chance to talk about myths versus history."
+        },
+        {
+          "title": "Chapter 16: The Wrath of Achilles",
+          "steps": [
+            "Read Chapter XVI, \"The Wrath of Achilles,\" aloud together",
+            "Narration: tell why Achilles stopped fighting and what made him return",
+            "Map work: Find the plain between Troy and the sea where the armies camped",
+            "Timeline: Add \"The Wrath of Achilles (the Iliad)\" to the myths strip"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XVI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XVI_THE_WRATH_OF_ACHILLES"
+            }
+          ],
+          "questions": [
+            "Why did Achilles refuse to fight for Agamemnon?",
+            "Whose armor did Patroclus wear into battle, and who killed him?"
+          ],
+          "answers": [
+            "Agamemnon unfairly took away the captive girl given to Achilles",
+            "Achilles' armor; Hector killed him"
+          ],
+          "notes": "The book mentions captives being made slaves. Gods sending a plague is part of the myth."
+        },
+        {
+          "title": "Chapter 17: Death of Hector and Achilles",
+          "steps": [
+            "Read Chapter XVII, \"Death of Hector and Achilles,\" aloud together",
+            "Narration: tell about the fight between Hector and Achilles and King Priam's visit",
+            "Map work: Find Troy and imagine the walls the old king watched from",
+            "Timeline: Add \"Death of Hector and Achilles\" to the myths strip"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XVII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XVII_DEATH_OF_HECTOR_AND_ACHILLES"
+            }
+          ],
+          "questions": [
+            "Why did old King Priam secretly visit Achilles' tent?",
+            "How did Achilles die?"
+          ],
+          "answers": [
+            "To beg for the body of his son Hector so he could bury it",
+            "A poisoned arrow shot by Paris hit his heel"
+          ]
+        },
+        {
+          "title": "Chapter 18: The Burning of Troy",
+          "steps": [
+            "Read Chapter XVIII, \"The Burning of Troy,\" aloud together",
+            "Narration: tell how the wooden horse tricked the Trojans",
+            "Map work: Find Troy, then Sicily and southern Italy (\"Great Greece\"), and the Tiber River where Aeneas landed",
+            "Timeline: Add \"Fall of Troy\" to the myths strip (Greek tradition said c. 1184 BC); add the real \"Troy excavated by Schliemann, 1870s\" to the modern end"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XVIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XVIII_THE_BURNING_OF_TROY"
+            }
+          ],
+          "questions": [
+            "Whose idea was the wooden horse?",
+            "Why did the Trojans tear down part of their own wall?",
+            "Which Trojan prince escaped to start a new kingdom in Italy?"
+          ],
+          "answers": [
+            "Ulysses",
+            "The horse was too big to fit through the gates",
+            "Aeneas"
+          ],
+          "notes": "Archaeologists did find a burned city at Troy, but the wooden horse and the heroes are legend."
+        },
+        {
+          "title": "Chapter 19: Heroic Death of Codrus",
+          "steps": [
+            "Read Chapter XIX, \"Heroic Death of Codrus,\" aloud together",
+            "Narration: tell how King Codrus saved Athens",
+            "Map work: Find the Peloponnesus (the \"mulberry leaf\"), Sparta, Athens, and the Ionian cities of Ephesus and Miletus in Asia Minor",
+            "Timeline: Add \"Dorians move into the Peloponnesus\" at c. 1100 BC and \"Death of Codrus\" at c. 1070 BC (traditional date)"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XIX",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XIX_HEROIC_DEATH_OF_CODRUS"
+            }
+          ],
+          "questions": [
+            "What had the oracle promised about the coming battle?",
+            "Why did Codrus dress as an ordinary soldier?",
+            "What title did the Athenians give their rulers after Codrus instead of king?"
+          ],
+          "answers": [
+            "The army whose king was killed would win",
+            "So the enemy would not recognize him and spare him",
+            "Archon"
+          ],
+          "notes": "The book says real history begins here. Codrus is still partly legendary; written records came later."
+        },
+        {
+          "title": "Chapter 20: The Blind Poet",
+          "steps": [
+            "Read Chapter XX, \"The Blind Poet,\" aloud together",
+            "Narration: tell what we know about Homer and how his poems spread",
+            "Map work: Find the island of Chios and the coast of Asia Minor",
+            "Timeline: Add \"Homer's Iliad and Odyssey\" at c. 750 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XX",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XX_THE_BLIND_POET"
+            }
+          ],
+          "questions": [
+            "What are Homer's two great poems about?",
+            "How were Homer's poems kept alive before they were written down?",
+            "Which island was most often named as Homer's birthplace?"
+          ],
+          "answers": [
+            "The Iliad tells of the Trojan War; the Odyssey of Ulysses' ten-year voyage home",
+            "People memorized and recited them from place to place",
+            "Chios"
+          ],
+          "notes": "The pirate-blinding story is a legend; historians are not sure Homer was one real person."
+        }
+      ]
+    },
+    {
+      "title": "Unit 3: Sparta and the Laws of Lycurgus (Chapters 21–28)",
+      "lessons": [
+        {
+          "title": "Chapter 21: The Rise of Sparta",
+          "steps": [
+            "Read Chapter XXI, \"The Rise of Sparta,\" aloud together",
+            "Narration: tell how Lycurgus protected the baby king",
+            "Map work: Find Sparta and Laconia on a map of Greece",
+            "Timeline: Add \"Lycurgus gives Sparta its laws\" at c. 800 BC (traditional date)"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXI_THE_RISE_OF_SPARTA"
+            }
+          ],
+          "questions": [
+            "Who were the Helots?",
+            "Why did Sparta have two kings at once?",
+            "How did Lycurgus keep the baby king Charilaus safe?"
+          ],
+          "answers": [
+            "Prisoners of war who became Spartan slaves",
+            "Aristodemus's twin sons both became king, and each line continued",
+            "He pretended to agree to kill him, then took him to the council hall and had him named king"
+          ],
+          "notes": "Many historians think Lycurgus may be partly or wholly legendary."
+        },
+        {
+          "title": "Chapter 22: The Spartan Training",
+          "steps": [
+            "Read Chapter XXII, \"The Spartan Training,\" aloud together",
+            "Narration: describe a Spartan boy's life after age seven",
+            "Map work: Find the Eurotas River near Sparta",
+            "Timeline: Add \"Spartan training system\" alongside Lycurgus (c. 800–600 BC)"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXII_THE_SPARTAN_TRAINING"
+            }
+          ],
+          "questions": [
+            "At what age were Spartan children given over to the state?",
+            "What did Spartan boys sleep on?"
+          ],
+          "answers": [
+            "Seven",
+            "A pile of rushes from the Eurotas River"
+          ],
+          "notes": "The chapter describes leaving weak babies to die. Read ahead and decide how to handle it."
+        },
+        {
+          "title": "Chapter 23: The Brave Spartan Boy",
+          "steps": [
+            "Read Chapter XXIII, \"The Brave Spartan Boy,\" aloud together",
+            "Narration: tell the story of the boy and the fox, and what \"laconic\" means",
+            "Map work: Find Laconia, the land around Sparta"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXIII_THE_BRAVE_SPARTAN_BOY"
+            }
+          ],
+          "questions": [
+            "Why were Spartan boys trained to steal food?",
+            "What does \"laconic\" speech mean, and where does the word come from?"
+          ],
+          "answers": [
+            "Spartan armies had no supply wagons and had to find their own food in war",
+            "Saying a lot in few words; from Laconia, the land of Sparta"
+          ],
+          "notes": "The book praises harsh customs (flogging, the fox story). Ask your child whether these customs were good or wise."
+        },
+        {
+          "title": "Chapter 24: Public Tables in Sparta",
+          "steps": [
+            "Read Chapter XXIV, \"Public Tables in Sparta,\" aloud together",
+            "Narration: describe the Spartan common tables and what mothers told sons going to war",
+            "Map work: Find Sparta and Messenia next to it"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXIV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXIV_PUBLIC_TABLES_IN_SPARTA"
+            }
+          ],
+          "questions": [
+            "What was the Spartan men's favorite food?",
+            "What did a Spartan mother say when handing her son his shield, and what did she mean?"
+          ],
+          "answers": [
+            "Black broth, a thick dark stew",
+            "\"Come back with it or on it\": come home with honor or die bravely"
+          ],
+          "notes": "The book describes deliberately getting a slave drunk as a lesson, a cruel custom worth discussing."
+        },
+        {
+          "title": "Chapter 25: Laws of Lycurgus",
+          "steps": [
+            "Read Chapter XXV, \"Laws of Lycurgus,\" aloud together",
+            "Narration: tell what Lycurgus did about money and how he made the laws last",
+            "Map work: Find Sparta and talk about how hard it would be to cart heavy iron money there",
+            "Timeline: Add \"Sparta uses iron money\" next to Lycurgus"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXV_LAWS_OF_LYCURGUS"
+            }
+          ],
+          "questions": [
+            "Why did Lycurgus make the Spartans use iron money?",
+            "How did Lycurgus make sure the laws would be kept after he left?"
+          ],
+          "answers": [
+            "It was so heavy that no one could hide it, steal it, or grow greedy for wealth",
+            "He made the citizens swear to obey them until he came back, then never returned"
+          ],
+          "notes": "Story of the oath is a legend about a figure who may not have existed."
+        },
+        {
+          "title": "Chapter 26: The Messenian War",
+          "steps": [
+            "Read Chapter XXVI, \"The Messenian War,\" aloud together",
+            "Narration: tell why Sparta attacked Messenia and what happened at Ithome",
+            "Map work: Find Messenia and Mount Ithome west of Sparta",
+            "Timeline: Add \"First Messenian War\" at c. 743–724 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXVI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXVI_THE_MESSENIAN_WAR"
+            }
+          ],
+          "questions": [
+            "Why did the Spartans want Messenia's land?",
+            "Why couldn't the Spartans climb up to Ithome?"
+          ],
+          "answers": [
+            "Its fields were more fertile than their own",
+            "It stood on a very high, steep rock and the defenders rolled stones down"
+          ],
+          "notes": "Includes a king sacrificing his daughter and then taking his own life. Preview before reading aloud."
+        },
+        {
+          "title": "Chapter 27: The Music of Tyrtæus",
+          "steps": [
+            "Read Chapter XXVII, \"The Music of Tyrtæus,\" aloud together",
+            "Narration: tell how a lame schoolmaster helped the Spartans win",
+            "Map work: Find Messenia, Sparta, and Athens",
+            "Timeline: Add \"Second Messenian War\" at c. 685–668 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXVII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXVII_THE_MUSIC_OF_TYRTAEUS"
+            }
+          ],
+          "questions": [
+            "What bold thing did Aristomenes do inside Sparta?",
+            "Whom did the Athenians send to lead the Spartans, and how did he help?"
+          ],
+          "answers": [
+            "He hung a trophy of captured arms in the main temple and wrote his name under it",
+            "Tyrtaeus, a lame schoolmaster, who stirred them with war songs"
+          ]
+        },
+        {
+          "title": "Chapter 28: Aristomenes' Escape",
+          "steps": [
+            "Read Chapter XXVIII, \"Aristomenes' Escape,\" aloud together",
+            "Narration: tell how Aristomenes got out of the pit",
+            "Map work: Find Messenia, then Sicily, the city of Messina, and the Strait of Messina",
+            "Timeline: Add \"Messenians found colonies in Italy and Sicily\" at c. 650 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXVIII_ARISTOMENES_ESCAPE"
+            }
+          ],
+          "questions": [
+            "What animal led Aristomenes out of the pit?",
+            "Which city in Sicily was named after the Messenians' homeland?"
+          ],
+          "answers": [
+            "A fox",
+            "Messina"
+          ],
+          "notes": "The escape story is a legend told about a real war."
+        }
+      ]
+    },
+    {
+      "title": "Unit 4: The Olympic Games and the Lawgivers of Athens (Chapters 29–35)",
+      "lessons": [
+        {
+          "title": "Chapter 29: The Olympic Games",
+          "steps": [
+            "Read Chapter XXIX, \"The Olympic Games,\" aloud together",
+            "Narration: describe the Olympic games: where, how often, and what the winners received",
+            "Map work: Find Elis and Olympia, northwest of Sparta",
+            "Timeline: Add \"First recorded Olympic games\" at 776 BC (the book says 774) and \"Modern Olympics revived in Athens\" at AD 1896"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXIX",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXIX_THE_OLYMPIC_GAMES"
+            }
+          ],
+          "questions": [
+            "What prize did Olympic winners receive?",
+            "How did Greeks use the games to count time?",
+            "Where were the first modern Olympics held, and when?"
+          ],
+          "answers": [
+            "A crown of wild olive leaves",
+            "They counted by Olympiads, the four-year spans between games",
+            "Athens, in 1896"
+          ],
+          "notes": "Hercules founding the games is legend. The book was written in 1896, the year the modern games began, so it calls them brand new."
+        },
+        {
+          "title": "Chapter 30: Milo of Croton",
+          "steps": [
+            "Read Chapter XXX, \"Milo of Croton,\" aloud together",
+            "Narration: tell how Milo became so strong and how he died",
+            "Map work: Find Croton in southern Italy (a Greek colony)",
+            "Timeline: Add \"Milo of Croton, Olympic wrestler\" at c. 540–510 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXX",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXX_MILO_OF_CROTON"
+            }
+          ],
+          "questions": [
+            "How did Milo train to grow stronger each day?",
+            "What trapped Milo in the forest?"
+          ],
+          "answers": [
+            "He carried a calf every day as it grew into an ox",
+            "His hands got caught when a split tree trunk snapped shut"
+          ],
+          "notes": "Milo was a real champion wrestler, but stories like eating a whole ox are exaggerated legends."
+        },
+        {
+          "title": "Chapter 31: The Jealous Athlete",
+          "steps": [
+            "Read Chapter XXXI, \"The Jealous Athlete,\" aloud together",
+            "Narration: tell what happened to the jealous man and to the statue",
+            "Map work: Find Olympia again on a map of Greece",
+            "Timeline: Add \"Theagenes, champion athlete\" at c. 480 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXXI_THE_JEALOUS_ATHLETE"
+            }
+          ],
+          "questions": [
+            "How did the jealous man die?",
+            "What punishment did the judges give the statue?"
+          ],
+          "answers": [
+            "He shook the statue until it fell and crushed him",
+            "It was thrown into the sea"
+          ],
+          "notes": "Good chance to discuss what the book calls superstition."
+        },
+        {
+          "title": "Chapter 32: The Girls' Games",
+          "steps": [
+            "Read Chapter XXXII, \"The Girls' Games,\" aloud together",
+            "Narration: describe the girls' torch race and the chariot races",
+            "Map work: Find Olympia and sketch a stadium and a hippodrome"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXXII_THE_GIRLS_GAMES"
+            }
+          ],
+          "questions": [
+            "How did a girl win the torch race?",
+            "Where were the horse and chariot races held?"
+          ],
+          "answers": [
+            "By reaching the goal first with her torch still lit, or keeping it lit longest",
+            "In the hippodrome"
+          ],
+          "notes": "Girls' races at Olympia were held at a separate festival honoring the goddess Hera."
+        },
+        {
+          "title": "Chapter 33: The Bloody Laws of Draco",
+          "steps": [
+            "Read Chapter XXXIII, \"The Bloody Laws of Draco,\" aloud together",
+            "Narration: tell about Draco's laws and what happened to Cylon's followers",
+            "Map work: Find Athens, the Acropolis, and the island of Aegina",
+            "Timeline: Add \"Cylon tries to seize Athens\" at c. 632 BC and \"Draco's laws\" at c. 621 BC (the book says 602)"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXXIII_THE_BLOODY_LAWS_OF_DRACO"
+            }
+          ],
+          "questions": [
+            "Why do we still call very harsh rules \"draconian\"?",
+            "What punishment did Draco set for stealing a cabbage?",
+            "Why did Cylon's men hold a cord tied to Athene's statue?"
+          ],
+          "answers": [
+            "Draco's laws punished small wrongs as severely as great crimes",
+            "Death",
+            "They believed it kept them under the goddess's protection"
+          ]
+        },
+        {
+          "title": "Chapter 34: The Laws of Solon",
+          "steps": [
+            "Read Chapter XXXIV, \"The Laws of Solon,\" aloud together",
+            "Narration: tell what Solon changed in Athens",
+            "Map work: Find Athens and the Areopagus hill beside the Acropolis",
+            "Timeline: Add \"Solon's laws\" at 594 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXIV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXXIV_THE_LAWS_OF_SOLON"
+            }
+          ],
+          "questions": [
+            "Why were trials at the Areopagus held in the dark?",
+            "How long did Epimenides sleep in the cave?",
+            "How long did Solon ask the Athenians to keep his laws while he traveled?"
+          ],
+          "answers": [
+            "So the jury would judge by the facts, not by how the accused looked",
+            "Fifty-eight years",
+            "Ten years"
+          ],
+          "notes": "Epimenides' long sleep is a legend (like Rip Van Winkle)."
+        },
+        {
+          "title": "Chapter 35: The First Plays",
+          "steps": [
+            "Read Chapter XXXV, \"The First Plays,\" aloud together",
+            "Narration: tell how Greek plays began and what the Theater of Dionysus was like",
+            "Map work: Find Athens and the Theater of Dionysus below the Acropolis",
+            "Timeline: Add \"Thespis, first actor\" at c. 534 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXXV_THE_FIRST_PLAYS"
+            }
+          ],
+          "questions": [
+            "What does \"tragedy\" mean in Greek?",
+            "Why did Solon dislike the plays?",
+            "Name one Greek writer of tragedies and one of comedies."
+          ],
+          "answers": [
+            "Goat song",
+            "He said they taught people to love a lie",
+            "Tragedies: Aeschylus, Sophocles, or Euripides; comedies: Aristophanes"
+          ],
+          "notes": "Actors are still called \"thespians\" after Thespis."
+        }
+      ]
+    },
+    {
+      "title": "Unit 5: Tyrants of Athens and the Great King (Chapters 36–41)",
+      "lessons": [
+        {
+          "title": "Chapter 36: The Tyrant Pisistratus",
+          "steps": [
+            "Read Chapter XXXVI, \"The Tyrant Pisistratus,\" aloud together",
+            "Narration: tell how Pisistratus tricked his way to power and what good he did",
+            "Map work: Find Athens and its Acropolis",
+            "Timeline: Add \"Pisistratus becomes tyrant\" at 561 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXVI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXXVI_THE_TYRANT_PISISTRATUS"
+            }
+          ],
+          "questions": [
+            "What trick did Pisistratus use to get a bodyguard?",
+            "Which two English words come from the Greek \"aristoi\" and \"demos\"?",
+            "What did Pisistratus do with Homer's poems?"
+          ],
+          "answers": [
+            "He wounded himself and said nobles had attacked him",
+            "Aristocrat and democrat",
+            "Had them written down and put in a public library"
+          ]
+        },
+        {
+          "title": "Chapter 37: The Tyrant's Insult",
+          "steps": [
+            "Read Chapter XXXVII, \"The Tyrant's Insult,\" aloud together",
+            "Narration: tell why Harmodius and Aristogiton turned against the tyrants",
+            "Map work: Find Athens; Solon had been traveling in Asia Minor across the Aegean",
+            "Timeline: Add \"Death of Pisistratus; his sons rule\" at 527 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXVII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXXVII_THE_TYRANTS_INSULT"
+            }
+          ],
+          "questions": [
+            "How did Solon feel when he came home and found Pisistratus ruling?",
+            "How did Hipparchus insult Harmodius?"
+          ],
+          "answers": [
+            "Sorry at first, but he forgave him because he ruled wisely",
+            "He banned Harmodius's sister from carrying flowers in the procession"
+          ]
+        },
+        {
+          "title": "Chapter 38: Death of the Conspirators",
+          "steps": [
+            "Read Chapter XXXVIII, \"Death of the Conspirators,\" aloud together",
+            "Narration: tell what happened at the festival and how Leaena kept the secret",
+            "Map work: Find Athens on a map of Greece",
+            "Timeline: Add \"Hipparchus killed\" at 514 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXXVIII_DEATH_OF_THE_CONSPIRATORS"
+            }
+          ],
+          "questions": [
+            "Which tyrant did Harmodius kill?",
+            "What image was put on Leaena's tomb, and why?"
+          ],
+          "answers": [
+            "Hipparchus",
+            "A lioness without a tongue, because she kept silent under torture"
+          ],
+          "notes": "Contains torture; you may want to summarize Leaena's story."
+        },
+        {
+          "title": "Chapter 39: Hippias Driven Out of Athens",
+          "steps": [
+            "Read Chapter XXXIX, \"Hippias Driven Out of Athens,\" aloud together",
+            "Narration: tell how Hippias was driven out and how ostracism worked",
+            "Map work: Find Delphi, Athens, and Sparta",
+            "Timeline: Add \"Hippias driven out\" at 510 BC and \"Clisthenes' reforms\" at 508 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXIX",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XXXIX_HIPPIAS_DRIVEN_OUT_OF_ATHENS"
+            }
+          ],
+          "questions": [
+            "How did the Alcmaeonidae win the favor of the priests at Delphi?",
+            "What was written on the shells in an ostracism vote?",
+            "How many votes were needed to ostracize a man?"
+          ],
+          "answers": [
+            "They rebuilt the temple in white marble, paying the extra cost themselves",
+            "The name of the man to be banished",
+            "Six thousand"
+          ]
+        },
+        {
+          "title": "Chapter 40: The Great King",
+          "steps": [
+            "Read Chapter XL, \"The Great King,\" aloud together",
+            "Narration: describe the Great King and how he ruled his huge empire",
+            "Map work: Find Persia, Ecbatana, and Ionia on the coast of Asia Minor",
+            "Timeline: Add \"Darius I becomes king of Persia\" at 522 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XL",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XL_THE_GREAT_KING"
+            }
+          ],
+          "questions": [
+            "What were satraps?",
+            "What was special about the walls of Ecbatana?"
+          ],
+          "answers": [
+            "Governors who ruled the provinces (satrapies) for the king",
+            "There were seven walls, each painted a different bright color"
+          ]
+        },
+        {
+          "title": "Chapter 41: Hippias Visits Darius",
+          "steps": [
+            "Read Chapter XLI, \"Hippias Visits Darius,\" aloud together",
+            "Narration: tell how a Greek doctor helped make Darius want to conquer Greece",
+            "Map work: Trace a route from Persia across Asia Minor to Greece",
+            "Timeline: Add \"Democedes, Greek doctor at the Persian court\" at c. 520 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XLI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XLI_HIPPIAS_VISITS_DARIUS"
+            }
+          ],
+          "questions": [
+            "How did Democedes become the king's doctor?",
+            "Why did Darius decide to conquer Greece?"
+          ],
+          "answers": [
+            "He healed the king's hurt foot after the Persian doctors failed",
+            "His officers' reports on Greece made him curious, and Hippias urged him on"
+          ],
+          "notes": "The book tells this mostly from the historian Herodotus; scholars think the real reasons for the war were more political."
+        }
+      ]
+    },
+    {
+      "title": "Unit 6: The Persian Wars (Chapters 42–53)",
+      "lessons": [
+        {
+          "title": "Chapter 42: Destruction of the Persian Host",
+          "steps": [
+            "Read Chapter XLII, \"Destruction of the Persian Host,\" aloud together",
+            "Narration: tell why Darius was angry with the Athenians and what happened to his first army and fleet",
+            "Map work: Find Sardis, Ionia, the Hellespont, and Mount Athos",
+            "Timeline: Add \"Ionian Revolt; Sardis burned\" at 499–498 BC and \"Persian fleet wrecked off Mount Athos\" at 492 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XLII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XLII_DESTRUCTION_OF_THE_PERSIAN_HOST"
+            }
+          ],
+          "questions": [
+            "What did Darius's slave say to him every day at dinner?",
+            "What destroyed the Persian fleet near Mount Athos?"
+          ],
+          "answers": [
+            "\"Master, remember the Athenians!\"",
+            "A terrible storm"
+          ]
+        },
+        {
+          "title": "Chapter 43: The Advance of the Second Host",
+          "steps": [
+            "Read Chapter XLIII, \"The Advance of the Second Host,\" aloud together",
+            "Narration: tell how Athens and Sparta answered Darius and how Miltiades came to command",
+            "Map work: Find Marathon, Athens, Sparta, and Plataea",
+            "Timeline: Add \"Persians demand earth and water\" at 491 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XLIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XLIII_THE_ADVANCE_OF_THE_SECOND_HOST"
+            }
+          ],
+          "questions": [
+            "What did \"earth and water\" stand for?",
+            "Why did the Spartans say they could not come at once?",
+            "How did Miltiades become sole commander?"
+          ],
+          "answers": [
+            "Accepting the Persian king as master of their land and sea",
+            "They believed they had to wait until the moon was full",
+            "Aristides and the other generals gave him their days of command"
+          ]
+        },
+        {
+          "title": "Chapter 44: The Battle of Marathon",
+          "steps": [
+            "Read Chapter XLIV, \"The Battle of Marathon,\" aloud together",
+            "Narration: tell the story of the Battle of Marathon and the runner who carried the news",
+            "Map work: Find Marathon on a map of Greece and measure about how far it is to Athens",
+            "Timeline: Add \"Battle of Marathon\" at 490 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XLIV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XLIV_THE_BATTLE_OF_MARATHON"
+            }
+          ],
+          "questions": [
+            "Who attacked first at Marathon?",
+            "What did the runner say when he reached Athens?",
+            "Why did Miltiades march his tired army straight back to Athens?"
+          ],
+          "answers": [
+            "The Greeks",
+            "\"Rejoice, we have conquered!\"",
+            "To defend the city in case the Persian fleet sailed there"
+          ],
+          "notes": "The famous Marathon runner story is a later legend, the origin of today's marathon race. Some of the gory details can be skipped."
+        },
+        {
+          "title": "Chapter 45: Miltiades' Disgrace",
+          "steps": [
+            "Read Chapter XLV, \"Miltiades' Disgrace,\" aloud together",
+            "Narration: tell how Athens honored Miltiades and how he fell from favor",
+            "Map work: Find the Acropolis in Athens and the island of Paros",
+            "Timeline: Add \"Miltiades dies in disgrace\" at 489 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XLV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XLV_MILTIADES_DISGRACE"
+            }
+          ],
+          "questions": [
+            "What was made from the captured Persian shields and arms?",
+            "Why was Miltiades put on trial?",
+            "Who was Miltiades' son?"
+          ],
+          "answers": [
+            "A huge statue of Athene on the Acropolis",
+            "He used the fleet to attack Paros over a personal quarrel and failed",
+            "Cimon"
+          ]
+        },
+        {
+          "title": "Chapter 46: Aristides the Just",
+          "steps": [
+            "Read Chapter XLVI, \"Aristides the Just,\" aloud together",
+            "Narration: tell what happened when the farmer asked Aristides to write on his shell",
+            "Map work: Find Athens and the market place (agora)",
+            "Timeline: Add \"Aristides ostracized\" at 482 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XLVI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XLVI_ARISTIDES_THE_JUST"
+            }
+          ],
+          "questions": [
+            "What did Themistocles and Aristides disagree about?",
+            "Why did the farmer want Aristides banished?",
+            "What did Aristides write on the shell?"
+          ],
+          "answers": [
+            "Themistocles wanted more ships; Aristides wanted a bigger land army",
+            "He was tired of hearing him called \"the Just\"",
+            "His own name"
+          ]
+        },
+        {
+          "title": "Chapter 47: Two Noble Spartan Youths",
+          "steps": [
+            "Read Chapter XLVII, \"Two Noble Spartan Youths,\" aloud together",
+            "Narration: tell what Bulis and Sperthias offered Xerxes and how he answered",
+            "Map work: Find Sparta and Persia",
+            "Timeline: Add \"Darius dies; Xerxes becomes king\" at 486 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XLVII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XLVII_TWO_NOBLE_SPARTAN_YOUTHS"
+            }
+          ],
+          "questions": [
+            "Why did Bulis and Sperthias go to Persia?",
+            "Why wouldn't they bow before Xerxes?"
+          ],
+          "answers": [
+            "To offer their lives to make up for the Persian messengers Sparta had killed",
+            "They said such honor belonged only to their gods"
+          ],
+          "notes": "The army sizes here (two million) come from ancient writers; modern historians think it was far smaller."
+        },
+        {
+          "title": "Chapter 48: The Great Army",
+          "steps": [
+            "Read Chapter XLVIII, \"The Great Army,\" aloud together",
+            "Narration: describe Xerxes' army crossing the Hellespont",
+            "Map work: Find the Hellespont and the canal at Mount Athos",
+            "Timeline: Add \"Xerxes crosses the Hellespont\" at 480 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XLVIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XLVIII_THE_GREAT_ARMY"
+            }
+          ],
+          "questions": [
+            "What did Xerxes do after a storm wrecked his bridges?",
+            "Why did Xerxes weep when he looked at his army?",
+            "Who were the Immortals?"
+          ],
+          "answers": [
+            "Had the waves whipped and chains thrown into the strait",
+            "In a hundred years every one of those men would be dead",
+            "The king's bodyguard of picked soldiers"
+          ]
+        },
+        {
+          "title": "Chapter 49: Preparations for Defense",
+          "steps": [
+            "Read Chapter XLIX, \"Preparations for Defense,\" aloud together",
+            "Narration: tell how the Greeks prepared to meet Xerxes",
+            "Map work: Find Corinth, Thermopylae, and Artemisium",
+            "Timeline: Add \"Greek council at Corinth\" at 481 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XLIX",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XLIX_PREPARATIONS_FOR_DEFENSE"
+            }
+          ],
+          "questions": [
+            "Why did so few soldiers go with Leonidas?",
+            "How many Spartans went to guard Thermopylae?"
+          ],
+          "answers": [
+            "Most Greeks were at the Olympic games and believed it was wrong to fight during them",
+            "Three hundred"
+          ]
+        },
+        {
+          "title": "Chapter 50: Leonidas at Thermopylæ",
+          "steps": [
+            "Read Chapter L, \"Leonidas at Thermopylæ,\" aloud together",
+            "Narration: tell how Leonidas and his men held the pass",
+            "Map work: Find Thermopylae on a map of Greece and look at the narrow strip between mountains and sea",
+            "Timeline: Add \"Battle of Thermopylae\" at 480 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter L",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#L_LEONIDAS_AT_THERMOPYLAE"
+            }
+          ],
+          "questions": [
+            "What did Leonidas answer when told to give up his weapons?",
+            "What did he say about the arrows darkening the sun?"
+          ],
+          "answers": [
+            "\"Come and take them!\"",
+            "\"Then we can fight in the shade.\""
+          ],
+          "notes": "The \"fight in the shade\" line is usually credited to the Spartan Dieneces in Herodotus."
+        },
+        {
+          "title": "Chapter 51: Death of Leonidas",
+          "steps": [
+            "Read Chapter LI, \"Death of Leonidas,\" aloud together",
+            "Narration: tell how the Persians got around the Greeks at Thermopylae and what happened next",
+            "Map work: Find Thermopylae, Delphi, Artemisium, and the Isthmus of Corinth",
+            "Timeline: Add \"Death of Leonidas\" at 480 BC (same year as Thermopylae)"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LI_DEATH_OF_LEONIDAS"
+            }
+          ],
+          "questions": [
+            "Who showed the Persians the secret path?",
+            "Which allies stayed to die with the Spartans?",
+            "What did the Greeks start building across the Isthmus of Corinth?"
+          ],
+          "answers": [
+            "Ephialtes, a Greek shepherd",
+            "Seven hundred Thespians",
+            "A huge wall"
+          ],
+          "notes": "The storm at Delphi is told as if the gods protected their temple; this comes from Herodotus."
+        },
+        {
+          "title": "Chapter 52: The Burning of Athens",
+          "steps": [
+            "Read Chapter LII, \"The Burning of Athens,\" aloud together",
+            "Narration: tell what \"wooden walls\" meant and what happened to Athens",
+            "Map work: Find Athens and the Bay of Salamis",
+            "Timeline: Add \"Persians burn Athens\" at 480 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LII_THE_BURNING_OF_ATHENS"
+            }
+          ],
+          "questions": [
+            "What did Themistocles say the \"wooden walls\" were?",
+            "Where did the Athenian families go?",
+            "What did Themistocles say when Eurybiades raised his staff?"
+          ],
+          "answers": [
+            "Their ships",
+            "To the Peloponnesus",
+            "\"Strike if you will, but hear me!\""
+          ]
+        },
+        {
+          "title": "Chapter 53: The Battles of Salamis and Platæa",
+          "steps": [
+            "Read Chapter LIII, \"The Battles of Salamis and Platæa,\" aloud together",
+            "Narration: tell about the victories at Salamis and Plataea, and Pausanias's two suppers",
+            "Map work: Find Salamis, Plataea, and Mycale (on the coast of Asia Minor)",
+            "Timeline: Add \"Battle of Salamis\" at 480 BC and \"Battles of Plataea and Mycale\" at 479 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LIII_THE_BATTLES_OF_SALAMIS_AND_PLATAEA"
+            }
+          ],
+          "questions": [
+            "Who rowed out to warn the Greek fleet of Xerxes' plan?",
+            "Where did Xerxes watch the sea battle from?",
+            "What point did Pausanias make with the two suppers?"
+          ],
+          "answers": [
+            "Aristides",
+            "A throne on a mountain",
+            "That the plain Spartans had beaten the luxurious Persians"
+          ],
+          "notes": "The Greek commander at Mycale was actually the Spartan king Leotychides, not Eurybiades as the book says."
+        }
+      ]
+    },
+    {
+      "title": "Unit 7: The Golden Age of Athens (Chapters 54–59)",
+      "lessons": [
+        {
+          "title": "Chapter 54: The Rebuilding of Athens",
+          "steps": [
+            "Read Chapter LIV, \"The Rebuilding of Athens,\" aloud together",
+            "Narration: tell how the Athenians rebuilt their city and how Themistocles fooled the Spartans",
+            "Map work: Find Athens, Sparta, and Miletus",
+            "Timeline: Add \"Walls of Athens rebuilt\" at 478 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LIV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LIV_THE_REBUILDING_OF_ATHENS"
+            }
+          ],
+          "questions": [
+            "What \"good omen\" encouraged the Athenians?",
+            "How did Themistocles give Athens time to finish the walls?"
+          ],
+          "answers": [
+            "A new shoot grew from the burned sacred olive tree",
+            "He drew out the talks in Sparta until the walls were high enough"
+          ]
+        },
+        {
+          "title": "Chapter 55: Death of Pausanias",
+          "steps": [
+            "Read Chapter LV, \"Death of Pausanias,\" aloud together",
+            "Narration: tell what happened to Pausanias and to Themistocles",
+            "Map work: Find Sparta, then Persia, where Themistocles ended his life",
+            "Timeline: Add \"Pausanias dies\" at c. 470 BC and \"Themistocles ostracized\" at c. 471 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LV_DEATH_OF_PAUSANIAS"
+            }
+          ],
+          "questions": [
+            "What wrong did Pausanias do?",
+            "What did Themistocles refuse to do for the Persian king?"
+          ],
+          "answers": [
+            "He secretly offered to help the Persians if they made him king of all Greece",
+            "Lead a Persian army against the Greeks"
+          ],
+          "notes": "Mentions starvation and suicide; summarize if needed."
+        },
+        {
+          "title": "Chapter 56: Cimon Improves Athens",
+          "steps": [
+            "Read Chapter LVI, \"Cimon Improves Athens,\" aloud together",
+            "Narration: tell how Aristides and Cimon each served Athens",
+            "Map work: Find Athens, the island of Scyros, and the Theseum (Temple of Hephaestus) in Athens",
+            "Timeline: Add \"Theseus's bones brought to Athens\" at c. 475 BC and \"Death of Aristides\" at c. 468 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LVI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LVI_CIMON_IMPROVES_ATHENS"
+            }
+          ],
+          "questions": [
+            "How rich was Aristides when he died?",
+            "What did the Athenians wrongly do with the allies' money?",
+            "Where did Athenians go to hear philosophers?"
+          ],
+          "answers": [
+            "So poor there was not enough to pay for his funeral",
+            "Spent it to beautify their own city instead of on the army and navy",
+            "The gardens of the Academy (and the Lyceum)"
+          ],
+          "notes": "The bones were believed to be Theseus's; the building called the Theseum is actually a temple of Hephaestus."
+        },
+        {
+          "title": "Chapter 57: The Earthquake",
+          "steps": [
+            "Read Chapter LVII, \"The Earthquake,\" aloud together",
+            "Narration: tell how Cimon changed and what happened after the earthquake at Sparta",
+            "Map work: Find Sparta and Messenia, and Athens to the northeast",
+            "Timeline: Add \"Great earthquake at Sparta; Helots revolt\" at 464 BC and \"Cimon ostracized\" at 461 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LVII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LVII_THE_EARTHQUAKE"
+            }
+          ],
+          "questions": [
+            "Who scolded the young Cimon for being lazy?",
+            "How did Cimon help poor people who were too proud to ask?",
+            "Why did the Athenians ostracize Cimon?"
+          ],
+          "answers": [
+            "Aristides the Just",
+            "His servants found out their needs and helped them secretly",
+            "They were angry that the Spartans had insulted the army Cimon urged them to send"
+          ]
+        },
+        {
+          "title": "Chapter 58: The Age of Pericles",
+          "steps": [
+            "Read Chapter LVIII, \"The Age of Pericles,\" aloud together",
+            "Narration: tell what Pericles built and how Cimon served Athens one last time",
+            "Map work: Find the Acropolis, the Parthenon, and the port of Piraeus with the Long Walls",
+            "Timeline: Add \"Parthenon built\" at 447–432 BC and \"Thirty Years' Peace\" at 446 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LVIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LVIII_THE_AGE_OF_PERICLES"
+            }
+          ],
+          "questions": [
+            "What did the Long Walls connect?",
+            "Who made the carvings and great statue for the Parthenon?",
+            "Why was Cimon's death kept secret for a month?"
+          ],
+          "answers": [
+            "Athens and its seaport, Piraeus",
+            "Phidias",
+            "So the army could get used to a new leader without losing courage"
+          ]
+        },
+        {
+          "title": "Chapter 59: The Teachings of Anaxagoras",
+          "steps": [
+            "Read Chapter LIX, \"The Teachings of Anaxagoras,\" aloud together",
+            "Narration: tell what Anaxagoras taught about the sun and moon and why he was exiled",
+            "Map work: Find Athens and the Peloponnesus (Anaxagoras guessed the sun was about as big as the Peloponnesus)",
+            "Timeline: Add \"Anaxagoras teaches in Athens\" at c. 460–430 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LIX",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LIX_THE_TEACHINGS_OF_ANAXAGORAS"
+            }
+          ],
+          "questions": [
+            "What did Anaxagoras say the sun really was?",
+            "What did he think the moon was like?"
+          ],
+          "answers": [
+            "A great glowing rock, not a god in a chariot",
+            "Much like the earth, with mountains, plains, and seas"
+          ],
+          "notes": "The author writes from a 19th-century Christian viewpoint (Anaxagoras \"had never heard of the true God\"). Adjust the framing to suit your family."
+        }
+      ]
+    },
+    {
+      "title": "Unit 8: The Peloponnesian War (Chapters 60–68)",
+      "lessons": [
+        {
+          "title": "Chapter 60: Beginning of the Peloponnesian War",
+          "steps": [
+            "Read Chapter LX, \"Beginning of the Peloponnesian War,\" aloud together",
+            "Narration: tell how Pericles explained the eclipse to his pilot",
+            "Map work: Find Attica, Athens, Piraeus, and the Peloponnesus",
+            "Timeline: Add \"Peloponnesian War begins\" at 431 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LX",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LX_BEGINNING_OF_THE_PELOPONNESIAN_WAR"
+            }
+          ],
+          "questions": [
+            "What was Pericles' plan for fighting Sparta?",
+            "How did Pericles show his pilot what an eclipse is?"
+          ],
+          "answers": [
+            "Bring everyone inside the city walls and fight with the navy at sea",
+            "He threw his cloak over the man's head, blocking the sun the way the moon does"
+          ],
+          "notes": "Try the cloak demonstration with a lamp and a ball."
+        },
+        {
+          "title": "Chapter 61: Death of Pericles",
+          "steps": [
+            "Read Chapter LXI, \"Death of Pericles,\" aloud together",
+            "Narration: tell about the plague in Athens and Pericles' last words",
+            "Map work: Find Athens and the island of Cos, home of Hippocrates",
+            "Timeline: Add \"Plague in Athens\" at 430 BC and \"Death of Pericles\" at 429 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXI_DEATH_OF_PERICLES"
+            }
+          ],
+          "questions": [
+            "Why did Hippocrates refuse the Persian king's offer?",
+            "What was Pericles proudest of as he died?"
+          ],
+          "answers": [
+            "He said his duty was to save his own countrymen first",
+            "That he never caused any fellow citizen to put on mourning"
+          ],
+          "notes": "Hippocrates was a real doctor, but the story of his coming to cure Athens is a later legend. Some plague descriptions are grim."
+        },
+        {
+          "title": "Chapter 62: The Philosopher Socrates",
+          "steps": [
+            "Read Chapter LXII, \"The Philosopher Socrates,\" aloud together",
+            "Narration: tell what kind of man and teacher Socrates was",
+            "Map work: Find Athens on a map of Greece",
+            "Timeline: Add \"Socrates teaching in Athens\" at c. 430–399 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXII_THE_PHILOSOPHER_SOCRATES"
+            }
+          ],
+          "questions": [
+            "What was Socrates' trade?",
+            "What did Socrates say after being drenched with water?"
+          ],
+          "answers": [
+            "A stonecutter",
+            "\"After the thunder comes the rain.\""
+          ],
+          "notes": "The book's view of Xanthippe as a scold comes from old anecdotes and is unkind; little is really known about her. The author also reads Christian ideas into Socrates."
+        },
+        {
+          "title": "Chapter 63: Socrates' Favorite Pupil",
+          "steps": [
+            "Read Chapter LXIII, \"Socrates' Favorite Pupil,\" aloud together",
+            "Narration: tell what Alcibiades was like as a boy and how Socrates saved him",
+            "Map work: Find the Academy outside Athens where Socrates taught",
+            "Timeline: Add \"Socrates saves Alcibiades in battle\" at c. 432 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXIII_SOCRATES_FAVORITE_PUPIL"
+            }
+          ],
+          "questions": [
+            "Name Socrates' three famous pupils from this chapter.",
+            "What did little Alcibiades do when a wagon would not stop?",
+            "Why was Alcibiades in danger in his first battle?"
+          ],
+          "answers": [
+            "Plato, Xenophon, and Alcibiades",
+            "He lay down in the road and dared the driver to come on",
+            "His showy gold armor was weak and his flatterers left him"
+          ]
+        },
+        {
+          "title": "Chapter 64: Youth of Alcibiades",
+          "steps": [
+            "Read Chapter LXIV, \"Youth of Alcibiades,\" aloud together",
+            "Narration: tell about the tricks Alcibiades played to get people talking",
+            "Map work: Find Olympia, where Alcibiades raced his chariots",
+            "Timeline: Add \"Alcibiades wins at Olympia\" at 416 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXIV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXIV_YOUTH_OF_ALCIBIADES"
+            }
+          ],
+          "questions": [
+            "Why did Alcibiades cut off his dog's tail?",
+            "How was Alcibiades different from Nicias?"
+          ],
+          "answers": [
+            "To give the Athenians something to talk about",
+            "Alcibiades was bold and ambitious; Nicias was careful and slow"
+          ]
+        },
+        {
+          "title": "Chapter 65: Greek Colonies in Italy",
+          "steps": [
+            "Read Chapter LXV, \"Greek Colonies in Italy,\" aloud together",
+            "Narration: tell about the Sybarites and why Athens sent a fleet to Sicily",
+            "Map work: Find Sybaris, Croton, and Tarentum in southern Italy, and Syracuse and Messina in Sicily",
+            "Timeline: Add \"Athenian expedition to Sicily sails\" at 415 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXV_GREEK_COLONIES_IN_ITALY"
+            }
+          ],
+          "questions": [
+            "What does it mean to call someone a Sybarite?",
+            "What happened to the statues of Hermes just before the fleet sailed?"
+          ],
+          "answers": [
+            "A person who loves luxury and ease too much",
+            "They were broken, and Alcibiades was blamed"
+          ]
+        },
+        {
+          "title": "Chapter 66: Alcibiades in Disgrace",
+          "steps": [
+            "Read Chapter LXVI, \"Alcibiades in Disgrace,\" aloud together",
+            "Narration: tell how Alcibiades turned against Athens and then tried to help it again",
+            "Map work: Find Syracuse, Sparta, and Decelea near Athens",
+            "Timeline: Add \"Athenian defeat at Syracuse\" at 413 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXVI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXVI_ALCIBIADES_IN_DISGRACE"
+            }
+          ],
+          "questions": [
+            "Where did Alcibiades go instead of returning to Athens for trial?",
+            "What did the Spartans fortify only twelve miles from Athens?"
+          ],
+          "answers": [
+            "Sparta",
+            "Decelea"
+          ]
+        },
+        {
+          "title": "Chapter 67: Death of Alcibiades",
+          "steps": [
+            "Read Chapter LXVII, \"Death of Alcibiades,\" aloud together",
+            "Narration: tell how the war ended and how Alcibiades died",
+            "Map work: Find the Chersonese (Gallipoli peninsula) by the Hellespont, then Athens",
+            "Timeline: Add \"Athenian fleet destroyed at Aegospotami\" at 405 BC, \"Athens surrenders\" at 404 BC, and \"Death of Alcibiades\" at 404 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXVII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXVII_DEATH_OF_ALCIBIADES"
+            }
+          ],
+          "questions": [
+            "What did the Spartans tear down to the sound of music?",
+            "Who were the Thirty Tyrants?"
+          ],
+          "answers": [
+            "The Long Walls of Athens",
+            "Thirty cruel men the Spartans put in charge of Athens"
+          ]
+        },
+        {
+          "title": "Chapter 68: The Overthrow of the Thirty Tyrants",
+          "steps": [
+            "Read Chapter LXVIII, \"The Overthrow of the Thirty Tyrants,\" aloud together",
+            "Narration: tell how Thrasybulus freed Athens",
+            "Map work: Find Athens and Sparta",
+            "Timeline: Add \"Thrasybulus overthrows the Thirty Tyrants\" at 403 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXVIII_THE_OVERTHROW_OF_THE_THIRTY_TYRANTS"
+            }
+          ],
+          "questions": [
+            "Who drove out the Thirty Tyrants?",
+            "Why did Sparta have to pay for Lysander's funeral?"
+          ],
+          "answers": [
+            "Thrasybulus",
+            "He kept none of the booty and died poor"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 9: Socrates, Xenophon, and Agesilaus (Chapters 69–75)",
+      "lessons": [
+        {
+          "title": "Chapter 69: Accusation of Socrates",
+          "steps": [
+            "Read Chapter LXIX, \"Accusation of Socrates,\" aloud together",
+            "Narration: tell how a comedy helped turn people against Socrates",
+            "Map work: Find Delphi, whose oracle called Socrates the wisest man",
+            "Timeline: Add \"Aristophanes' play The Clouds\" at 423 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXIX",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXIX_ACCUSATION_OF_SOCRATES"
+            }
+          ],
+          "questions": [
+            "What did the oracle at Delphi say about Socrates?",
+            "Why did Socrates go to see the play that mocked him?",
+            "What two charges were made against Socrates?"
+          ],
+          "answers": [
+            "That he was the most learned (wisest) man in Greece",
+            "To find out if any of the faults it showed were ones he could correct",
+            "Giving bad advice to young men and speaking ill of the gods"
+          ]
+        },
+        {
+          "title": "Chapter 70: Death of Socrates",
+          "steps": [
+            "Read Chapter LXX, \"Death of Socrates,\" aloud together",
+            "Narration: tell why Socrates would not escape from prison",
+            "Map work: Find Athens and the island of Delos",
+            "Timeline: Add \"Death of Socrates\" at 399 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXX",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXX_DEATH_OF_SOCRATES"
+            }
+          ],
+          "questions": [
+            "Why was Socrates' death delayed a month?",
+            "Why did Socrates refuse to escape?",
+            "Which pupil wrote down his last conversation?"
+          ],
+          "answers": [
+            "No one could be executed while the sacred ship was away at Delos",
+            "It would be breaking the law, which he had never done",
+            "Plato"
+          ],
+          "notes": "This chapter describes his death by poison calmly but in detail. The book again presents Socrates in Christian terms."
+        },
+        {
+          "title": "Chapter 71: The Defeat of Cyrus",
+          "steps": [
+            "Read Chapter LXXI, \"The Defeat of Cyrus,\" aloud together",
+            "Narration: tell why Cyrus fought his brother and what trouble the Greek soldiers were left in",
+            "Map work: Find Persia and the Euphrates River near Babylon, where Cunaxa was",
+            "Timeline: Add \"Battle of Cunaxa\" at 401 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXI_THE_DEFEAT_OF_CYRUS"
+            }
+          ],
+          "questions": [
+            "Why did Cyrus think he should be king instead of Artaxerxes?",
+            "What happened to the Greek officers after the battle?",
+            "Who came up with a plan to save the Greek army?"
+          ],
+          "answers": [
+            "He was the first son born after their father became king",
+            "They were invited to a council and killed",
+            "Xenophon"
+          ]
+        },
+        {
+          "title": "Chapter 72: The Retreat of the Ten Thousand",
+          "steps": [
+            "Read Chapter LXXII, \"The Retreat of the Ten Thousand,\" aloud together",
+            "Narration: describe the long march of the Ten Thousand",
+            "Map work: Trace the route from Babylon north through the mountains to the Black Sea and on to Pergamus",
+            "Timeline: Add \"Retreat of the Ten Thousand\" at 401–400 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXII_THE_RETREAT_OF_THE_TEN_THOUSAND"
+            }
+          ],
+          "questions": [
+            "What did Xenophon ask of the soldiers before agreeing to lead?",
+            "About how far did the Greeks march to reach the sea?",
+            "What is the name of Xenophon's book about the march?"
+          ],
+          "answers": [
+            "That each would promise to obey him and not quarrel",
+            "About a thousand miles",
+            "The Anabasis"
+          ]
+        },
+        {
+          "title": "Chapter 73: Agesilaus in Asia",
+          "steps": [
+            "Read Chapter LXXIII, \"Agesilaus in Asia,\" aloud together",
+            "Narration: tell what kind of man and general Agesilaus was",
+            "Map work: Find Sparta, then Ionia on the coast of Asia Minor",
+            "Timeline: Add \"Agesilaus fights the Persians in Asia Minor\" at 396–394 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXIII_AGESILAUS_IN_ASIA"
+            }
+          ],
+          "questions": [
+            "How did Agesilaus look different from most Spartans?",
+            "Why did the Persians think Agesilaus was strange for a king?"
+          ],
+          "answers": [
+            "He was small, weak, and lame",
+            "He dressed like his soldiers and led them himself, without pomp"
+          ]
+        },
+        {
+          "title": "Chapter 74: A Strange Interview",
+          "steps": [
+            "Read Chapter LXXIV, \"A Strange Interview,\" aloud together",
+            "Narration: tell about the meeting under the tree",
+            "Map work: Find Asia Minor (Phrygia) where Pharnabazus governed"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXIV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXIV_A_STRANGE_INTERVIEW"
+            }
+          ],
+          "questions": [
+            "What was Agesilaus eating when Pharnabazus arrived?",
+            "What did the Persian king try when his soldiers could not beat Agesilaus?"
+          ],
+          "answers": [
+            "Bread and onions",
+            "Bribery: he paid Athens and its allies to rise against Sparta"
+          ]
+        },
+        {
+          "title": "Chapter 75: The Peace of Antalcidas",
+          "steps": [
+            "Read Chapter LXXV, \"The Peace of Antalcidas,\" aloud together",
+            "Narration: tell why Agesilaus had to come home and what the Peace of Antalcidas gave away",
+            "Map work: Find Coronea in Boeotia and the island of Cyprus",
+            "Timeline: Add \"Battle of Coronea\" at 394 BC and \"Peace of Antalcidas (King's Peace)\" at 387 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXV_THE_PEACE_OF_ANTALCIDAS"
+            }
+          ],
+          "questions": [
+            "What did Agesilaus mean by \"ten thousand Persian archers\"?",
+            "What did the treaty hand over to the Persian king?"
+          ],
+          "answers": [
+            "Ten thousand Persian coins stamped with an archer, used as a bribe",
+            "The Greek cities of Asia Minor and the island of Cyprus"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 10: The Rise of Thebes (Chapters 76–80)",
+      "lessons": [
+        {
+          "title": "Chapter 76: The Theban Friends",
+          "steps": [
+            "Read Chapter LXXVI, \"The Theban Friends,\" aloud together",
+            "Narration: tell how Sparta took Thebes and how Pelopidas and Epaminondas became friends",
+            "Map work: Find Thebes in Boeotia",
+            "Timeline: Add \"Sparta seizes Thebes\" at 382 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXVI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXVI_THE_THEBAN_FRIENDS"
+            }
+          ],
+          "questions": [
+            "How did the Spartans take Thebes without a fight?",
+            "How did Pelopidas and Epaminondas become friends?"
+          ],
+          "answers": [
+            "They came during a festival when the Thebans were unarmed in the temple",
+            "Epaminondas saved the wounded Pelopidas in battle"
+          ]
+        },
+        {
+          "title": "Chapter 77: Thebes Free Once More",
+          "steps": [
+            "Read Chapter LXXVII, \"Thebes Free Once More,\" aloud together",
+            "Narration: tell how twelve exiles freed Thebes",
+            "Map work: Trace the road from Athens to Thebes",
+            "Timeline: Add \"Thebes freed from Sparta\" at 379 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXVII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXVII_THEBES_FREE_ONCE_MORE"
+            }
+          ],
+          "questions": [
+            "How did the exiles get into the Spartan banquet?",
+            "What did Charon leave with Pelopidas to prove he was loyal?"
+          ],
+          "answers": [
+            "Dressed as dancing girls",
+            "His only son, a baby"
+          ]
+        },
+        {
+          "title": "Chapter 78: The Battle of Leuctra",
+          "steps": [
+            "Read Chapter LXXVIII, \"The Battle of Leuctra,\" aloud together",
+            "Narration: tell about the Sacred Battalion and the Battle of Leuctra",
+            "Map work: Find Leuctra in Boeotia, then Laconia",
+            "Timeline: Add \"Battle of Leuctra: Thebes defeats Sparta\" at 371 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXVIII_THE_BATTLE_OF_LEUCTRA"
+            }
+          ],
+          "questions": [
+            "What oath did the Sacred Battalion take?",
+            "What did Epaminondas say about the bad omens?",
+            "What terms did Epaminondas give Sparta?"
+          ],
+          "answers": [
+            "Never to turn their backs on the enemy or surrender",
+            "That no omen forbids fighting to defend your country",
+            "Never attack Thebes again and set the Messenians free"
+          ]
+        },
+        {
+          "title": "Chapter 79: Death of Pelopidas",
+          "steps": [
+            "Read Chapter LXXIX, \"Death of Pelopidas,\" aloud together",
+            "Narration: tell how Pelopidas was captured, freed, and finally killed",
+            "Map work: Find Thessaly in northern Greece",
+            "Timeline: Add \"Death of Pelopidas\" at 364 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXIX",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXIX_DEATH_OF_PELOPIDAS"
+            }
+          ],
+          "questions": [
+            "Why was Pelopidas sent to Thessaly?",
+            "How did Epaminondas end up commanding when he was only a soldier?"
+          ],
+          "answers": [
+            "To warn the cruel tyrant Alexander of Thessaly",
+            "The soldiers begged him to lead after their generals failed"
+          ],
+          "notes": "The ending describes harsh treatment of the tyrant's body; skip if needed."
+        },
+        {
+          "title": "Chapter 80: The Battle of Mantinea",
+          "steps": [
+            "Read Chapter LXXX, \"The Battle of Mantinea,\" aloud together",
+            "Narration: tell about Epaminondas's last battle and his last words",
+            "Map work: Find Mantinea in the central Peloponnesus",
+            "Timeline: Add \"Battle of Mantinea; death of Epaminondas\" at 362 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXX",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXX_THE_BATTLE_OF_MANTINEA"
+            }
+          ],
+          "questions": [
+            "What two things did the wounded Epaminondas ask about first?",
+            "What did he call Leuctra and Mantinea?"
+          ],
+          "answers": [
+            "How the battle was going and whether his shield was safe",
+            "His \"daughters,\" who would keep his name alive"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 11: The Tyrants of Syracuse (Chapters 81–86)",
+      "lessons": [
+        {
+          "title": "Chapter 81: The Tyrant of Syracuse",
+          "steps": [
+            "Read Chapter LXXXI, \"The Tyrant of Syracuse,\" aloud together",
+            "Narration: tell how Philoxenus answered the tyrant's poems",
+            "Map work: Find Syracuse on the island of Sicily",
+            "Timeline: Add \"Dionysius the Elder rules Syracuse\" at 405–367 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXXI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXXI_THE_TYRANT_OF_SYRACUSE"
+            }
+          ],
+          "questions": [
+            "Why did Dionysius send Philoxenus to the Quarries?",
+            "What did Philoxenus say the second time he was asked about the poems?"
+          ],
+          "answers": [
+            "He honestly said the tyrant's poems were trash",
+            "\"Take me back to the Quarries!\""
+          ]
+        },
+        {
+          "title": "Chapter 82: Story of Damon and Pythias",
+          "steps": [
+            "Read Chapter LXXXII, \"Story of Damon and Pythias,\" aloud together",
+            "Narration: tell the story of Damon and Pythias",
+            "Map work: Find Syracuse on a map of Sicily",
+            "Timeline: Add \"Damon and Pythias\" near Dionysius (c. 4th century BC; a famous story)"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXXII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXXII_STORY_OF_DAMON_AND_PYTHIAS"
+            }
+          ],
+          "questions": [
+            "What did Damon offer to do for Pythias?",
+            "Name two things that delayed Pythias on his way back.",
+            "What did Dionysius do when Pythias returned?"
+          ],
+          "answers": [
+            "Stay in prison and die in his place if he did not return",
+            "Robbers tied him to a tree; a flooded stream; a hot, dry plain",
+            "Set both of them free"
+          ],
+          "notes": "A famous friendship tale, probably more legend than history."
+        },
+        {
+          "title": "Chapter 83: The Sword of Damocles",
+          "steps": [
+            "Read Chapter LXXXIII, \"The Sword of Damocles,\" aloud together",
+            "Narration: tell what Damocles learned at the banquet",
+            "Map work: Find Syracuse in Sicily"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXXIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXXIII_THE_SWORD_OF_DAMOCLES"
+            }
+          ],
+          "questions": [
+            "What was hanging over Damocles' head?",
+            "What lesson did Dionysius teach him?"
+          ],
+          "answers": [
+            "A sword hanging by a single hair",
+            "A person always living in fear cannot be truly happy"
+          ]
+        },
+        {
+          "title": "Chapter 84: Dion and Dionysius",
+          "steps": [
+            "Read Chapter LXXXIV, \"Dion and Dionysius,\" aloud together",
+            "Narration: tell how Plato came to Syracuse and what happened to him and Dion",
+            "Map work: Find Athens, Syracuse, and Olympia",
+            "Timeline: Add \"Plato visits Syracuse\" at c. 367 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXXIV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXXIV_DION_AND_DIONYSIUS"
+            }
+          ],
+          "questions": [
+            "Who was Dion's teacher in Athens?",
+            "How did the crowd at Olympia honor Plato?"
+          ],
+          "answers": [
+            "Plato",
+            "They gave him an olive crown like a champion's"
+          ],
+          "notes": "Ancient sources place Plato being sold into slavery on his earlier visit to Dionysius the Elder; the book merges the stories."
+        },
+        {
+          "title": "Chapter 85: Civil War in Syracuse",
+          "steps": [
+            "Read Chapter LXXXV, \"Civil War in Syracuse,\" aloud together",
+            "Narration: tell how Dion returned and trapped Dionysius in the citadel",
+            "Map work: Find Syracuse and its harbor",
+            "Timeline: Add \"Dion returns to Syracuse\" at 357 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXXV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXXV_CIVIL_WAR_IN_SYRACUSE"
+            }
+          ],
+          "questions": [
+            "Why did Dion come back to Syracuse with an army?",
+            "Why did the people start to tire of Dion?"
+          ],
+          "answers": [
+            "To punish Dionysius, who had forced Dion's wife to marry another man",
+            "He was so strict and harsh in demanding virtue and obedience"
+          ]
+        },
+        {
+          "title": "Chapter 86: Death of Dion",
+          "steps": [
+            "Read Chapter LXXXVI, \"Death of Dion,\" aloud together",
+            "Narration: tell how Dionysius's letter turned the people against Dion, and how the tyrant ended up",
+            "Map work: Find Syracuse and Corinth",
+            "Timeline: Add \"Dion murdered\" at 354 BC and \"Dionysius the Younger exiled to Corinth\" at 344 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXXVI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXXVI_DEATH_OF_DION"
+            }
+          ],
+          "questions": [
+            "How did Dionysius trick the people into turning against Dion?",
+            "What job did Dionysius have at the end of his life in Corinth?"
+          ],
+          "answers": [
+            "He wrote a letter that made it sound as if Dion wanted to be tyrant",
+            "Schoolteacher"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 12: Philip of Macedon and Young Alexander (Chapters 87–94)",
+      "lessons": [
+        {
+          "title": "Chapter 87: Philip of Macedon",
+          "steps": [
+            "Read Chapter LXXXVII, \"Philip of Macedon,\" aloud together",
+            "Narration: tell how Philip became king and how he built his army",
+            "Map work: Find Macedon north of Greece, and Thebes where Philip grew up",
+            "Timeline: Add \"Philip II becomes king of Macedon\" at 359 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXXVII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXXVII_PHILIP_OF_MACEDON"
+            }
+          ],
+          "questions": [
+            "Where did young Philip live as a hostage, and who looked after him?",
+            "What was the Macedonian phalanx?",
+            "What did the widow mean by appealing \"from Philip drunk to Philip sober\"?"
+          ],
+          "answers": [
+            "In Thebes, in the house of Epaminondas",
+            "Soldiers packed in a solid block, shields locked, with long spears pointing out in rows",
+            "She wanted the king to judge her case again when his head was clear"
+          ]
+        },
+        {
+          "title": "Chapter 88: Philip Begins His Conquests",
+          "steps": [
+            "Read Chapter LXXXVIII, \"Philip Begins His Conquests,\" aloud together",
+            "Narration: tell about Aster's arrow and Demosthenes' speeches",
+            "Map work: Find Olynthus and Thrace in the north",
+            "Timeline: Add \"Demosthenes' first Philippic\" at 351 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXXVIII_PHILIP_BEGINS_HIS_CONQUESTS"
+            }
+          ],
+          "questions": [
+            "How did Philip treat Nicanor, who spoke badly of him?",
+            "What was written on Aster's arrow?",
+            "What is a \"Philippic\"?"
+          ],
+          "answers": [
+            "Kindly, with a seat at his table and rich gifts",
+            "\"To Philip's left eye\"",
+            "A fierce speech against someone, named after Demosthenes' speeches against Philip"
+          ]
+        },
+        {
+          "title": "Chapter 89: The Orator Demosthenes",
+          "steps": [
+            "Read Chapter LXXXIX, \"The Orator Demosthenes,\" aloud together",
+            "Narration: tell how Demosthenes taught himself to be a great speaker",
+            "Map work: Find Olynthus, which Philip destroyed, and Athens",
+            "Timeline: Add \"Philip destroys Olynthus\" at 348 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter LXXXIX",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#LXXXIX_THE_ORATOR_DEMOSTHENES"
+            }
+          ],
+          "questions": [
+            "Why did Demosthenes practice with pebbles in his mouth by the sea?",
+            "Why did he shave half his head?"
+          ],
+          "answers": [
+            "To speak clearly and loudly enough to be heard over the waves",
+            "So he would be too embarrassed to go out and would stay home to study"
+          ],
+          "notes": "Good chance to talk about practice and perseverance."
+        },
+        {
+          "title": "Chapter 90: Philip Masters Greece",
+          "steps": [
+            "Read Chapter XC, \"Philip Masters Greece,\" aloud together",
+            "Narration: tell how Philip became master of Greece",
+            "Map work: Find Phocis, Delphi, and Chaeronea in Boeotia",
+            "Timeline: Add \"Battle of Chaeronea\" at 338 BC and \"Philip is murdered\" at 336 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XC",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XC_PHILIP_MASTERS_GREECE"
+            }
+          ],
+          "questions": [
+            "Why was the Sacred War fought?",
+            "How old was Alexander at Chaeronea, and what did he do there?",
+            "What did Demosthenes do during the battle?"
+          ],
+          "answers": [
+            "The Phocians took land set aside for Apollo and robbed the temple at Delphi",
+            "Eighteen; he crushed the Theban Sacred Battalion",
+            "He ran away and begged for mercy when a bush caught his cloak"
+          ]
+        },
+        {
+          "title": "Chapter 91: Birth of Alexander",
+          "steps": [
+            "Read Chapter XCI, \"Birth of Alexander,\" aloud together",
+            "Narration: tell about the day Alexander was born and how he was raised",
+            "Map work: Find Pella in Macedon and Ephesus in Asia Minor",
+            "Timeline: Add \"Alexander born; Temple of Diana at Ephesus burned\" at 356 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XCI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XCI_BIRTH_OF_ALEXANDER"
+            }
+          ],
+          "questions": [
+            "What three events were said to happen on the day Alexander was born?",
+            "Which books did Alexander keep under his pillow?"
+          ],
+          "answers": [
+            "Parmenio won a victory, Philip's horses won at Olympia, and the Temple of Diana at Ephesus burned",
+            "The Iliad and the Odyssey"
+          ],
+          "notes": "The three events falling on one day is an ancient tradition, not certain fact."
+        },
+        {
+          "title": "Chapter 92: The Steed Bucephalus",
+          "steps": [
+            "Read Chapter XCII, \"The Steed Bucephalus,\" aloud together",
+            "Narration: tell how Alexander tamed Bucephalus",
+            "Map work: Find Pella and Macedon; Aristotle taught Alexander nearby at Mieza",
+            "Timeline: Add \"Aristotle becomes Alexander's tutor\" at 343 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XCII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XCII_THE_STEED_BUCEPHALUS"
+            }
+          ],
+          "questions": [
+            "What does \"Bucephalus\" mean?",
+            "What was frightening the horse?",
+            "What did Alexander send Aristotle from his travels?"
+          ],
+          "answers": [
+            "Ox-head",
+            "His own shadow",
+            "Collections of animals and plants"
+          ]
+        },
+        {
+          "title": "Chapter 93: Alexander as King",
+          "steps": [
+            "Read Chapter XCIII, \"Alexander as King,\" aloud together",
+            "Narration: tell what Alexander did when the Greeks rebelled after Philip died",
+            "Map work: Find Thrace, Thebes, and Corinth",
+            "Timeline: Add \"Alexander becomes king\" at 336 BC and \"Thebes destroyed\" at 335 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XCIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XCIII_ALEXANDER_AS_KING"
+            }
+          ],
+          "questions": [
+            "Why were Demosthenes and the Athenians happy when Philip died?",
+            "Which single house did Alexander spare in Thebes?"
+          ],
+          "answers": [
+            "They thought a young boy could not hold onto power and they would be free",
+            "The house of the poet Pindar"
+          ]
+        },
+        {
+          "title": "Chapter 94: Alexander and Diogenes",
+          "steps": [
+            "Read Chapter XCIV, \"Alexander and Diogenes,\" aloud together",
+            "Narration: tell what happened when Alexander visited Diogenes",
+            "Map work: Find Corinth on a map of Greece",
+            "Timeline: Add \"Alexander meets Diogenes\" at c. 336 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XCIV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XCIV_ALEXANDER_AND_DIOGENES"
+            }
+          ],
+          "questions": [
+            "Why did Diogenes throw away his wooden bowl?",
+            "What was Diogenes looking for with his lantern?",
+            "What did Diogenes ask Alexander to do for him?"
+          ],
+          "answers": [
+            "He saw a child drink from its hand and decided he didn't need it",
+            "An honest man",
+            "Stand out of his sunshine"
+          ],
+          "notes": "The story that they died on the same night is an old tradition."
+        }
+      ]
+    },
+    {
+      "title": "Unit 13: Alexander the Great (Chapters 95–103)",
+      "lessons": [
+        {
+          "title": "Chapter 95: Alexander's Brilliant Beginning",
+          "steps": [
+            "Read Chapter XCV, \"Alexander's Brilliant Beginning,\" aloud together",
+            "Narration: tell how Alexander began his war on Persia",
+            "Map work: Find the Hellespont, Troy, the Granicus River, Sardis, Ephesus, and Caria",
+            "Timeline: Add \"Battle of the Granicus\" at 334 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XCV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XCV_ALEXANDERS_BRILLIANT_BEGINNING"
+            }
+          ],
+          "questions": [
+            "What did Alexander say he kept for himself after giving gifts away?",
+            "Who saved Alexander's life at the Granicus?",
+            "What was Aristotle's \"recipe\" for a good appetite?"
+          ],
+          "answers": [
+            "His hopes",
+            "Clytus, son of his old nurse",
+            "A march before daybreak for dinner, and a light dinner for supper"
+          ]
+        },
+        {
+          "title": "Chapter 96: The Gordian Knot",
+          "steps": [
+            "Read Chapter XCVI, \"The Gordian Knot,\" aloud together",
+            "Narration: tell about the Gordian knot and Alexander's trust in his doctor",
+            "Map work: Find Gordium in Phrygia, Tarsus, and the Cydnus River",
+            "Timeline: Add \"Alexander cuts the Gordian knot\" at 333 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XCVI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XCVI_THE_GORDIAN_KNOT"
+            }
+          ],
+          "questions": [
+            "What was promised to whoever untied the Gordian knot?",
+            "What does \"cutting the Gordian knot\" mean today?",
+            "What did Alexander do with the warning letter about his doctor?"
+          ],
+          "answers": [
+            "Rule over all Asia",
+            "Solving a hard problem by a bold, direct action",
+            "Handed it to the doctor while he drank the medicine"
+          ]
+        },
+        {
+          "title": "Chapter 97: Alexander's Royal Captives",
+          "steps": [
+            "Read Chapter XCVII, \"Alexander's Royal Captives,\" aloud together",
+            "Narration: tell how Alexander treated the Persian royal family",
+            "Map work: Find Issus, at the corner of Asia Minor and Syria",
+            "Timeline: Add \"Battle of Issus\" at 333 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XCVII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XCVII_ALEXANDERS_ROYAL_CAPTIVES"
+            }
+          ],
+          "questions": [
+            "Why did the queen mother kneel to the wrong man?",
+            "What did Alexander say about Hephaestion?",
+            "Why did Sisygambis cry when Alexander offered to teach spinning?"
+          ],
+          "answers": [
+            "Hephaestion was taller, and they wore plain armor",
+            "\"He is my other self\"",
+            "Persian royal ladies thought work was for slaves"
+          ]
+        },
+        {
+          "title": "Chapter 98: Alexander at Jerusalem",
+          "steps": [
+            "Read Chapter XCVIII, \"Alexander at Jerusalem,\" aloud together",
+            "Narration: tell about the siege of Tyre and Alexander's visit to Jerusalem",
+            "Map work: Find Damascus, Sidon, Tyre, and Jerusalem",
+            "Timeline: Add \"Siege of Tyre\" at 332 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XCVIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XCVIII_ALEXANDER_AT_JERUSALEM"
+            }
+          ],
+          "questions": [
+            "How did Alexander reach the island city of Tyre without a fleet?",
+            "Who came out to meet Alexander at Jerusalem?"
+          ],
+          "answers": [
+            "He built a causeway out to the island",
+            "The high priest Jaddua with the Levites"
+          ],
+          "notes": "The Jerusalem visit comes from the Jewish historian Josephus; many historians doubt it happened. The book tells it as fact, from a religious viewpoint. Tyre's punishment is grim."
+        },
+        {
+          "title": "Chapter 99: The African Desert",
+          "steps": [
+            "Read Chapter XCIX, \"The African Desert,\" aloud together",
+            "Narration: describe Alexander's march across the desert and the battle at Arbela",
+            "Map work: Find Alexandria in Egypt, the Siwa oasis in the Libyan desert, the Euphrates and Tigris rivers, and Arbela",
+            "Timeline: Add \"Alexandria founded\" at 331 BC and \"Battle of Arbela (Gaugamela)\" at 331 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XCIX",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#XCIX_THE_AFRICAN_DESERT"
+            }
+          ],
+          "questions": [
+            "Which city did Alexander found at the mouth of the Nile?",
+            "What is a mirage?",
+            "How did the soldiers cross the Tigris?"
+          ],
+          "answers": [
+            "Alexandria",
+            "Seeing water and trees in the desert that are not really there",
+            "They swam, holding their shields over their heads"
+          ]
+        },
+        {
+          "title": "Chapter 100: Death of Darius",
+          "steps": [
+            "Read Chapter C, \"Death of Darius,\" aloud together",
+            "Narration: tell how Alexander changed after his victories and how Darius died",
+            "Map work: Find Babylon, Susa, and Persepolis",
+            "Timeline: Add \"Persepolis burned; death of Darius III\" at 330 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter C",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#C_DEATH_OF_DARIUS"
+            }
+          ],
+          "questions": [
+            "What did Alexander find at Susa and send back to Athens?",
+            "Why did Alexander refuse to share Persia with Darius?",
+            "Who killed Darius?"
+          ],
+          "answers": [
+            "A bronze statue that Xerxes had carried off",
+            "He said the world could not have two masters any more than two suns",
+            "Bessus, one of his own followers"
+          ]
+        },
+        {
+          "title": "Chapter 101: Defeat of Porus",
+          "steps": [
+            "Read Chapter CI, \"Defeat of Porus,\" aloud together",
+            "Narration: tell how Alexander treated Porus",
+            "Map work: Find Persia, then northwest India and the Indus River region",
+            "Timeline: Add \"Death of Clytus\" at 328 BC and \"Battle with Porus\" at 326 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter CI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#CI_DEFEAT_OF_PORUS"
+            }
+          ],
+          "questions": [
+            "Why did Alexander kill his friend Clytus?",
+            "What did Porus answer when asked how he wished to be treated?",
+            "What city did Alexander name after his horse?"
+          ],
+          "answers": [
+            "Clytus scolded him for his drinking, and Alexander struck him in a drunken rage",
+            "\"Like a king!\"",
+            "Bucephala"
+          ]
+        },
+        {
+          "title": "Chapter 102: The Return to Babylon",
+          "steps": [
+            "Read Chapter CII, \"The Return to Babylon,\" aloud together",
+            "Narration: tell why Alexander turned back and how his army and fleet returned",
+            "Map work: Find the Hyphasis and Indus rivers, the Indian Ocean coast, and the Persian Gulf",
+            "Timeline: Add \"Army refuses to go on at the Hyphasis\" at 326 BC and \"Nearchus's voyage\" at 325 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter CII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#CII_THE_RETURN_TO_BABYLON"
+            }
+          ],
+          "questions": [
+            "Why did Alexander have to stop his conquests?",
+            "What did Alexander do with the little water his men brought him?",
+            "Why was Nearchus's voyage important?"
+          ],
+          "answers": [
+            "His soldiers refused to go any farther",
+            "Poured it on the sand, since his men could not drink too",
+            "It opened a sea route for trade with the East"
+          ]
+        },
+        {
+          "title": "Chapter 103: Death of Alexander the Great",
+          "steps": [
+            "Read Chapter CIII, \"Death of Alexander the Great,\" aloud together",
+            "Narration: tell about Alexander's last days and what he said about who should rule",
+            "Map work: Find Babylon, where Alexander died, and Alexandria, where he was buried",
+            "Timeline: Add \"Death of Alexander the Great\" at 323 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter CIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#CIII_DEATH_OF_ALEXANDER_THE_GREAT"
+            }
+          ],
+          "questions": [
+            "How old was Alexander when he died?",
+            "Whom did Alexander say should have the throne?",
+            "Why did Ptolemy want Alexander's body in Egypt?"
+          ],
+          "answers": [
+            "Thirty-three",
+            "The strongest",
+            "An oracle said whoever buried Alexander would be master of his kingdom"
+          ],
+          "notes": "The mass weddings actually took place at Susa, and Hephaestion died at Ecbatana; the book moves both to Babylon."
+        }
+      ]
+    },
+    {
+      "title": "Unit 14: After Alexander (Chapters 104–109)",
+      "lessons": [
+        {
+          "title": "Chapter 104: The Division of the Realm",
+          "steps": [
+            "Read Chapter CIV, \"The Division of the Realm,\" aloud together",
+            "Narration: tell how the generals tried to share Alexander's empire",
+            "Map work: Find Macedon, Babylon, and Egypt, and look at how huge the empire was",
+            "Timeline: Add \"Generals divide Alexander's empire\" at 323 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter CIV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#CIV_THE_DIVISION_OF_THE_REALM"
+            }
+          ],
+          "questions": [
+            "Who were named to follow Alexander as king?",
+            "Into how many provinces was the kingdom divided?"
+          ],
+          "answers": [
+            "His half-brother Arridaeus and his baby son",
+            "Thirty-three"
+          ]
+        },
+        {
+          "title": "Chapter 105: Death of Demosthenes",
+          "steps": [
+            "Read Chapter CV, \"Death of Demosthenes,\" aloud together",
+            "Narration: tell how the Greeks revolted and how Demosthenes died",
+            "Map work: Find Lamia near Thermopylae and the island of Calauria (Poros), where Demosthenes died",
+            "Timeline: Add \"Lamian War\" at 323–322 BC and \"Death of Demosthenes\" at 322 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter CV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#CV_DEATH_OF_DEMOSTHENES"
+            }
+          ],
+          "questions": [
+            "What did Phocion say when people rushed to revolt?",
+            "How did Demosthenes escape being taken prisoner?"
+          ],
+          "answers": [
+            "If Alexander is dead today he will still be dead tomorrow, so there is time to think",
+            "He took poison hidden in his writing reed"
+          ],
+          "notes": "Describes a suicide; summarize if needed."
+        },
+        {
+          "title": "Chapter 106: The Last of the Athenians",
+          "steps": [
+            "Read Chapter CVI, \"The Last of the Athenians,\" aloud together",
+            "Narration: tell what happened to Perdiccas, Phocion, and Alexander's family",
+            "Map work: Find the Nile in Egypt, Athens, and Macedon",
+            "Timeline: Add \"Death of Phocion\" at 318 BC and \"Alexander's son killed\" at c. 310 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter CVI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#CVI_THE_LAST_OF_THE_ATHENIANS"
+            }
+          ],
+          "questions": [
+            "How did Perdiccas die?",
+            "Why is Phocion called the \"Last of the Athenians\"?"
+          ],
+          "answers": [
+            "His soldiers turned on him after many were eaten by crocodiles crossing the Nile",
+            "He was the last great Athenian statesman; no one after him tried to win back the city's freedom"
+          ]
+        },
+        {
+          "title": "Chapter 107: The Colossus of Rhodes",
+          "steps": [
+            "Read Chapter CVII, \"The Colossus of Rhodes,\" aloud together",
+            "Narration: tell how the Colossus of Rhodes came to be built",
+            "Map work: Find the island of Rhodes, then mark the Seven Wonders on a map",
+            "Timeline: Add \"Siege of Rhodes\" at 305–304 BC and \"Colossus of Rhodes\" at c. 280–226 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter CVII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#CVII_THE_COLOSSUS_OF_RHODES"
+            }
+          ],
+          "questions": [
+            "What nickname did Demetrius earn at Rhodes, and what does it mean?",
+            "What paid for the Colossus?",
+            "How was the Colossus destroyed?"
+          ],
+          "answers": [
+            "Poliorcetes, \"the city taker\"",
+            "Selling the war machines Demetrius left behind",
+            "An earthquake knocked it down"
+          ],
+          "notes": "The idea that ships sailed between its legs is a later legend. The book's list of wonders differs a little from the usual seven."
+        },
+        {
+          "title": "Chapter 108: The Battle of Ipsus",
+          "steps": [
+            "Read Chapter CVIII, \"The Battle of Ipsus,\" aloud together",
+            "Narration: tell how the Battle of Ipsus decided who got which part of the empire",
+            "Map work: Find Ipsus in Asia Minor, Egypt, Syria and Antioch, Thrace, and Macedon",
+            "Timeline: Add \"Battle of Ipsus\" at 301 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter CVIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#CVIII_THE_BATTLE_OF_IPSUS"
+            }
+          ],
+          "questions": [
+            "Who ruled Egypt after Ipsus, and who was the last of his family?",
+            "How did the Athenians treat Demetrius after his defeat?"
+          ],
+          "answers": [
+            "Ptolemy; Cleopatra",
+            "They turned against him and made it a crime to speak well of him"
+          ]
+        },
+        {
+          "title": "Chapter 109: Demetrius and the Athenians",
+          "steps": [
+            "Read Chapter CIX, \"Demetrius and the Athenians,\" aloud together",
+            "Narration: tell how Demetrius surprised the Athenians, and how the Gauls were driven off",
+            "Map work: Find Athens, Delphi, and Galatia in Asia Minor",
+            "Timeline: Add \"Demetrius takes Athens\" at 295 BC and \"Gauls attack Delphi\" at 279 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter CIX",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#CIX_DEMETRIUS_AND_THE_ATHENIANS"
+            }
+          ],
+          "questions": [
+            "What did Demetrius do instead of punishing the Athenians?",
+            "Where did the defeated Gauls go?"
+          ],
+          "answers": [
+            "He forgave them and sent grain to every house",
+            "To a part of Asia Minor later called Galatia"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 15: The Last Days of Free Greece (Chapters 110–115)",
+      "lessons": [
+        {
+          "title": "Chapter 110: The Achæan League",
+          "steps": [
+            "Read Chapter CX, \"The Achæan League,\" aloud together",
+            "Narration: tell how Aratus freed Sicyon and captured the fortress of Corinth",
+            "Map work: Find Sicyon, Corinth, and Acrocorinth on the Isthmus",
+            "Timeline: Add \"Aratus frees Sicyon\" at 251 BC and \"Acrocorinth captured\" at 243 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter CX",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#CX_THE_ACHAEAN_LEAGUE"
+            }
+          ],
+          "questions": [
+            "Where did young Aratus hide from the tyrant?",
+            "How many years in a row was Aratus chosen leader?",
+            "Why did Aratus pawn his wife's jewels?"
+          ],
+          "answers": [
+            "In the house of the tyrant's own sister",
+            "Thirty-five",
+            "To pay the man who showed the secret path up to Acrocorinth"
+          ]
+        },
+        {
+          "title": "Chapter 111: Division in Sparta",
+          "steps": [
+            "Read Chapter CXI, \"Division in Sparta,\" aloud together",
+            "Narration: tell what Agis tried to change in Sparta and how Chilonis stood by her family",
+            "Map work: Find Sparta in Laconia",
+            "Timeline: Add \"Agis IV tries to reform Sparta\" at c. 244 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter CXI",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#CXI_DIVISION_IN_SPARTA"
+            }
+          ],
+          "questions": [
+            "What did Agis want to do with the land and money?",
+            "How did Chilonis show loyalty?"
+          ],
+          "answers": [
+            "Divide it equally among the Spartans",
+            "She stayed with whichever of her father or husband was in trouble and followed him into exile"
+          ]
+        },
+        {
+          "title": "Chapter 112: Death of Agis",
+          "steps": [
+            "Read Chapter CXII, \"Death of Agis,\" aloud together",
+            "Narration: tell how Agis was betrayed and how Cleomenes carried on his plan",
+            "Map work: Find Sparta and Macedon",
+            "Timeline: Add \"Death of Agis\" at 241 BC and \"Cleomenes' reforms\" at 227 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter CXII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#CXII_DEATH_OF_AGIS"
+            }
+          ],
+          "questions": [
+            "How was Agis caught?",
+            "Who taught Cleomenes about Agis's ideas?",
+            "What does the nickname \"Doson\" mean?"
+          ],
+          "answers": [
+            "Two false friends told the ephors he left the temple each night to bathe",
+            "Agiatis, Agis's widow, who became Cleomenes' wife",
+            "\"Who will give,\" because he promised gifts he never gave"
+          ]
+        },
+        {
+          "title": "Chapter 113: The War of the Two Leagues",
+          "steps": [
+            "Read Chapter CXIII, \"The War of the Two Leagues,\" aloud together",
+            "Narration: tell how Aratus's mistake let Macedon and then Rome into Greece",
+            "Map work: Find Sellasia in Laconia, Aetolia, and Rome in Italy",
+            "Timeline: Add \"Battle of Sellasia\" at 222 BC and \"Death of Aratus\" at 213 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter CXIII",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#CXIII_THE_WAR_OF_THE_TWO_LEAGUES"
+            }
+          ],
+          "questions": [
+            "Whom did Aratus ask for help against Sparta, and why was it a mistake?",
+            "To whom did the Spartans and Aetolians turn for help?"
+          ],
+          "answers": [
+            "The Macedonian king, who really wanted to rule Greece himself",
+            "Rome"
+          ],
+          "notes": "Includes the cruel \"statue\" of Nabis and a murder-suicide; preview. The order of events in this chapter is compressed."
+        },
+        {
+          "title": "Chapter 114: The Last of the Greeks",
+          "steps": [
+            "Read Chapter CXIV, \"The Last of the Greeks,\" aloud together",
+            "Narration: tell about Philopoemen, the \"Last of the Greeks\"",
+            "Map work: Find Megalopolis, Messenia, and Sparta",
+            "Timeline: Add \"Death of Philopoemen\" at 183 BC"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter CXIV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#CXIV_THE_LAST_OF_THE_GREEKS"
+            }
+          ],
+          "questions": [
+            "What happened when a hostess mistook Philopoemen for a servant?",
+            "Why is he called the \"Last of the Greeks\"?",
+            "What were his last words about?"
+          ],
+          "answers": [
+            "He calmly split wood as she asked",
+            "He was the last to try to keep Greece independent",
+            "He was glad the Achaean army had escaped safely"
+          ]
+        },
+        {
+          "title": "Chapter 115: Greece a Roman Province",
+          "steps": [
+            "Read Chapter CXV, \"Greece a Roman Province,\" aloud together",
+            "Narration: tell how Greece went from being \"freed\" by Rome to being ruled by it",
+            "Map work: Find Corinth and the Isthmus, Macedon, and Rome",
+            "Timeline: Add \"Flamininus proclaims Greek freedom\" at 196 BC and \"Corinth destroyed; Greece under Rome\" at 146 BC. Look back over your whole timeline"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter CXV",
+              "url": "https://www.gutenberg.org/cache/epub/23495/pg23495-images.html#CXV_GREECE_A_ROMAN_PROVINCE"
+            }
+          ],
+          "questions": [
+            "What did the Roman consul announce at the Isthmian games?",
+            "What happened to Corinth?",
+            "What name did the Romans give the province of Greece?"
+          ],
+          "answers": [
+            "That Rome had beaten the king of Macedon and the Greek states were free",
+            "It was burned and its art carried off to Rome",
+            "Achaia"
+          ],
+          "notes": "Corinth was destroyed by the Roman general Mummius, not Aemilius Paulus, who had defeated Macedon in 168 BC."
+        }
+      ]
+    }
+  ]
+}

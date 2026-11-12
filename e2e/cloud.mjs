@@ -112,6 +112,12 @@ async function device(name) {
   return d;
 }
 
+/** Runs SQL as the database owner (test fixtures and moderators). */
+const sql = (cmd) => execFileSync('docker', ['exec', '-i', 'supabase_db_freerange', 'psql', '-U', 'postgres', '-qc', cmd]);
+// The catalog is the free Freerange Library; checkout needs a paid listing, so add one for this run.
+const PAID = `l-e2e-${run}`;
+sql(`insert into public.listings (id, seller_name, seller_kind, seller_verified, title, subjects, grade_min, grade_max, format, price, description, lessons, esa_eligible) values ('${PAID}', 'E2E Test Press', 'publisher', true, 'Kitchen Chemistry (test ${run})', '{science}', 3, 7, 'digital', 29, 'Test listing for the checkout scenario.', 30, true)`);
+
 async function signUpOrIn(d, email, mode) {
   await d.goto('/account');
   if (mode === 'up') await d.click('Create account', { exact: true });
@@ -196,7 +202,7 @@ try {
   await A.goto('/market');
   log(!(await A.has('Sample catalog')), 'live catalog (no sample banner)');
   await A.click('All grades', { exact: true });
-  await A.goto('/listing/l-pinecone-chem');
+  await A.goto(`/listing/${PAID}`);
   await A.expect('Kitchen Chemistry');
   await A.click('Buy', { exact: true });
   await A.expect('secure checkout page', 'live checkout copy');
@@ -227,7 +233,7 @@ try {
   log(!!res?.ok && (await res.text()).startsWith('%PDF'), `opens the PDF from family storage (${opened.slice(0, 60)}…)`);
   await A.goto('/market');
   log((await A.store()).expenses?.some((e) => e.description.includes('Kitchen Chemistry') && e.fundingSource === 'tax'), 'expense recorded');
-  await A.goto('/listing/l-pinecone-chem');
+  await A.goto(`/listing/${PAID}`);
   await A.click('Write a review');
   await A.page.evaluate(() => document.querySelector('[aria-label="5 stars"]').click());
   await A.fillLabel('Your review', 'Our kitchen became a lab. Kids loved every experiment.');
@@ -245,7 +251,7 @@ try {
   await signUpOrIn(C, EMAIL_C, 'up');
   await C.expect('☁️ Synced', 'second family uploaded', 20000);
   // The other family sees the review the first family wrote.
-  await C.goto('/listing/l-pinecone-chem');
+  await C.goto(`/listing/${PAID}`);
   await C.expect('Our kitchen became a lab', 'review visible to other families');
   // Both join the community.
   for (const [d, display] of [[A, `Dana ${run}`], [C, `Rosa ${run}`]]) {
@@ -390,7 +396,7 @@ try {
   // Moderators are added in SQL; here the tablet's account becomes one.
   const modId = (await B.account()).userId;
   if (!/^[0-9a-f-]{36}$/.test(modId ?? '')) throw new Error('no user id for the moderator');
-  execFileSync('docker', ['exec', '-i', 'supabase_db_freerange', 'psql', '-U', 'postgres', '-qc', `insert into public.app_admins (user_id) values ('${modId}') on conflict do nothing`]);
+  sql(`insert into public.app_admins (user_id) values ('${modId}') on conflict do nothing`);
   await B.goto('/settings');
   await B.click('🚩 Moderation queue ›');
   await B.expect(`Pond Days, chapters 1–3 ${run}`, 'moderator sees the copyright claim', 15000);
@@ -418,6 +424,8 @@ try {
 } catch (e) {
   failures++;
   console.log(`FAIL [${section}] ${e.message}`);
+} finally {
+  try { sql(`delete from public.listings where id = '${PAID}'`); } catch { /* left for the next db reset */ }
 }
 
 const relevant = errors.filter((e) => !/DevTools|Download the React|ERR_INTERNET_DISCONNECTED|Failed to fetch|net::ERR/.test(e));

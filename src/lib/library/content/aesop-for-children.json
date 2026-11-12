@@ -1,0 +1,1683 @@
+{
+  "key": "aesop-for-children",
+  "title": "The Aesop for Children",
+  "sourceTitle": "The Aesop for Children, with Pictures by Milo Winter",
+  "author": "Aesop (illustrated by Milo Winter)",
+  "year": 1919,
+  "sourceUrl": "https://www.gutenberg.org/ebooks/19994",
+  "readUrl": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Gutenberg #19994: public domain in the USA; first published by Rand McNally & Co., 1919",
+  "subjects": [
+    "reading",
+    "writing"
+  ],
+  "gradeMin": 0,
+  "gradeMax": 3,
+  "philosophies": [
+    "charlotte_mason",
+    "classical",
+    "traditional"
+  ],
+  "lessonsPerWeek": 3,
+  "minutesPerLesson": 20,
+  "parentInvolvement": "high",
+  "familyStyle": true,
+  "cover": "🦊",
+  "color": "#E3A33B",
+  "description": "The classic 1919 Aesop collection with Milo Winter's beloved pictures: 147 short fables, each ending in a moral. Read three fables aloud, let your child tell them back, and copy one moral as handwriting practice. The full illustrated text is free online.",
+  "includes": [
+    "49 lessons in 7 units",
+    "All 147 fables, three per lesson",
+    "Narration and copywork every lesson",
+    "One question per fable with a kid-friendly answer",
+    "Link to the free illustrated text for every fable"
+  ],
+  "units": [
+    {
+      "title": "Unit 1: Fables 1–21",
+      "lessons": [
+        {
+          "title": "Lesson 1: The Wolf and the Kid, The Tortoise and the Ducks, The Young Crab and His Mother",
+          "steps": [
+            "Read aloud: The Wolf and the Kid, The Tortoise and the Ducks, The Young Crab and His Mother",
+            "After each fable, have your child tell it back in their own words",
+            "Copy the moral of \"The Wolf and the Kid\" (younger children can trace it after you write it)",
+            "Look at Milo Winter's picture for one fable and tell what is happening"
+          ],
+          "links": [
+            {
+              "label": "Read “The Wolf and the Kid”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_WOLF_AND_THE_KID"
+            },
+            {
+              "label": "Read “The Tortoise and the Ducks”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_TORTOISE_AND_THE_DUCKS"
+            },
+            {
+              "label": "Read “The Young Crab and His Mother”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_YOUNG_CRAB_AND_HIS_MOTHER"
+            }
+          ],
+          "questions": [
+            "Why was the Wolf sorry he played music for the Kid?",
+            "Why did the Tortoise fall when the Ducks carried him?",
+            "What was wrong with the Mother Crab's advice?"
+          ],
+          "answers": [
+            "He forgot what he came to do. Don't let anything distract you from what you set out to do.",
+            "He opened his mouth to show off. Showing off and being nosy can get you hurt.",
+            "She couldn't walk straight herself. Show a good example before you tell others what to do."
+          ]
+        },
+        {
+          "title": "Lesson 2: The Frogs and the Ox, The Dog, the Cock, and the Fox, Belling the Cat",
+          "steps": [
+            "Read aloud: The Frogs and the Ox, The Dog, the Cock, and the Fox, Belling the Cat",
+            "Pause after each fable and ask your child to narrate it",
+            "Copy the moral of \"The Dog, the Cock, and the Fox\" in your best handwriting",
+            "Act out one fable with toys or puppets"
+          ],
+          "links": [
+            {
+              "label": "Read “The Frogs and the Ox”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FROGS_AND_THE_OX"
+            },
+            {
+              "label": "Read “The Dog, the Cock, and the Fox”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_DOG_THE_COCK_AND_THE_FOX"
+            },
+            {
+              "label": "Read “Belling the Cat”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#BELLING_THE_CAT"
+            }
+          ],
+          "questions": [
+            "What happened when the old Frog tried to puff up as big as the Ox?",
+            "How did the Cock trick the Fox who wanted to eat him?",
+            "Why did no Mouse want to put the bell on the Cat?"
+          ],
+          "answers": [
+            "She burst. Don't try to do something that can't be done.",
+            "He sent the Fox around the tree to his friend the Dog. If you try to trick others, you may get tricked back.",
+            "It was too dangerous. Saying something should be done is easier than doing it."
+          ]
+        },
+        {
+          "title": "Lesson 3: The Eagle and the Jackdaw, The Boy and the Filberts, Hercules and the Wagoner",
+          "steps": [
+            "Read aloud: The Eagle and the Jackdaw, The Boy and the Filberts, Hercules and the Wagoner",
+            "Your child narrates each fable back, then you talk about the moral together",
+            "Write the moral of \"Hercules and the Wagoner\" from dictation, then check it against the book",
+            "Draw a picture of your favorite fable from today"
+          ],
+          "links": [
+            {
+              "label": "Read “The Eagle and the Jackdaw”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_EAGLE_AND_THE_JACKDAW"
+            },
+            {
+              "label": "Read “The Boy and the Filberts”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_BOY_AND_THE_FILBERTS"
+            },
+            {
+              "label": "Read “Hercules and the Wagoner”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#HERCULES_AND_THE_WAGONER"
+            }
+          ],
+          "questions": [
+            "Why couldn't the Jackdaw carry off a ram like the Eagle?",
+            "How could the Boy get his hand out of the pitcher?",
+            "What did Hercules tell the Farmer to do?"
+          ],
+          "answers": [
+            "He wasn't strong enough and got stuck. Don't think you can do more than you really can.",
+            "Let go of some nuts. Don't try to take too much at once.",
+            "Push the wheel himself. Try your best first, then you'll get help."
+          ]
+        },
+        {
+          "title": "Lesson 4: The Kid and the Wolf, The Town Mouse and the Country Mouse, The Fox and the Grapes",
+          "steps": [
+            "Read aloud: The Kid and the Wolf, The Town Mouse and the Country Mouse, The Fox and the Grapes",
+            "Ask your child to retell their favorite of the three to someone else at home",
+            "Copy the moral of \"The Kid and the Wolf\" and underline the most important word",
+            "Talk about a time you saw this lesson happen in real life"
+          ],
+          "links": [
+            {
+              "label": "Read “The Kid and the Wolf”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_KID_AND_THE_WOLF"
+            },
+            {
+              "label": "Read “The Town Mouse and the Country Mouse”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_TOWN_MOUSE_AND_THE_COUNTRY_MOUSE"
+            },
+            {
+              "label": "Read “The Fox and the Grapes”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FOX_AND_THE_GRAPES"
+            }
+          ],
+          "questions": [
+            "Why could the Kid be rude to the Wolf from the roof?",
+            "Why did the Town Mouse's friend go home to the country?",
+            "Why did the Fox say the grapes were sour?"
+          ],
+          "answers": [
+            "He was safe up high. Don't say mean things just because you feel safe.",
+            "The town was full of danger. A safe, simple life is better than fancy food and fear.",
+            "He couldn't reach them. People sometimes pretend they don't want what they can't get."
+          ]
+        },
+        {
+          "title": "Lesson 5: The Bundle of Sticks, The Wolf and the Crane, The Ass and His Driver",
+          "steps": [
+            "Read aloud: The Bundle of Sticks, The Wolf and the Crane, The Ass and His Driver",
+            "After each fable, have your child tell it back in their own words",
+            "Copy the moral of \"The Wolf and the Crane\" (younger children can trace it after you write it)"
+          ],
+          "links": [
+            {
+              "label": "Read “The Bundle of Sticks”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_BUNDLE_OF_STICKS"
+            },
+            {
+              "label": "Read “The Wolf and the Crane”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_WOLF_AND_THE_CRANE"
+            },
+            {
+              "label": "Read “The Ass and His Driver”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_ASS_AND_HIS_DRIVER"
+            }
+          ],
+          "questions": [
+            "Why couldn't the sons break the bundle of sticks?",
+            "What \"reward\" did the Crane get for helping the Wolf?",
+            "What happened when the Ass wouldn't listen to his driver?"
+          ],
+          "answers": [
+            "The sticks were held together. We are strong when we stick together.",
+            "Only her life. Don't expect thanks from someone mean.",
+            "He fell off the cliff. Listen to good advice from people who know better."
+          ]
+        },
+        {
+          "title": "Lesson 6: The Oxen and the Wheels, The Lion and the Mouse, The Shepherd Boy and the Wolf",
+          "steps": [
+            "Read aloud: The Oxen and the Wheels, The Lion and the Mouse, The Shepherd Boy and the Wolf",
+            "Pause after each fable and ask your child to narrate it",
+            "Copy the moral of \"The Shepherd Boy and the Wolf\" in your best handwriting",
+            "Look at Milo Winter's picture for one fable and tell what is happening"
+          ],
+          "links": [
+            {
+              "label": "Read “The Oxen and the Wheels”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_OXEN_AND_THE_WHEELS"
+            },
+            {
+              "label": "Read “The Lion and the Mouse”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_LION_AND_THE_MOUSE"
+            },
+            {
+              "label": "Read “The Shepherd Boy and the Wolf”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_SHEPHERD_BOY_AND_THE_WOLF"
+            }
+          ],
+          "questions": [
+            "Who were working hardest, the Oxen or the creaking Wheels?",
+            "How did the little Mouse help the Lion?",
+            "Why didn't the villagers come when the Boy really saw a wolf?"
+          ],
+          "answers": [
+            "The Oxen. The ones who complain the most often have it easiest.",
+            "She chewed the net and set him free. Being kind is never wasted, even small friends can help.",
+            "He had lied too many times. People won't believe a liar even when he tells the truth."
+          ]
+        },
+        {
+          "title": "Lesson 7: The Gnat and the Bull, The Plane Tree, The Farmer and the Stork",
+          "steps": [
+            "Read aloud: The Gnat and the Bull, The Plane Tree, The Farmer and the Stork",
+            "Your child narrates each fable back, then you talk about the moral together",
+            "Write the moral of \"The Gnat and the Bull\" from dictation, then check it against the book",
+            "Act out one fable with toys or puppets"
+          ],
+          "links": [
+            {
+              "label": "Read “The Gnat and the Bull”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_GNAT_AND_THE_BULL"
+            },
+            {
+              "label": "Read “The Plane Tree”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_PLANE_TREE"
+            },
+            {
+              "label": "Read “The Farmer and the Stork”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FARMER_AND_THE_STORK"
+            }
+          ],
+          "questions": [
+            "Did the Bull even notice the Gnat on his horn?",
+            "What did the travelers call the tree that gave them shade?",
+            "Why did the Farmer punish the Stork too?"
+          ],
+          "answers": [
+            "No. Some think they are very important when others hardly notice them.",
+            "Useless. People often forget to be thankful for the good things they have.",
+            "He was caught with the thieving Cranes. People judge you by the friends you are with."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 2: Fables 22–42",
+      "lessons": [
+        {
+          "title": "Lesson 8: The Sheep and the Pig, The Travelers and the Purse, The Lion and the Ass",
+          "steps": [
+            "Read aloud: The Sheep and the Pig, The Travelers and the Purse, The Lion and the Ass",
+            "Ask your child to retell their favorite of the three to someone else at home",
+            "Copy the moral of \"The Travelers and the Purse\" and underline the most important word",
+            "Draw a picture of your favorite fable from today"
+          ],
+          "links": [
+            {
+              "label": "Read “The Sheep and the Pig”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_SHEEP_AND_THE_PIG"
+            },
+            {
+              "label": "Read “The Travelers and the Purse”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_TRAVELERS_AND_THE_PURSE"
+            },
+            {
+              "label": "Read “The Lion and the Ass”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_LION_AND_THE_ASS"
+            }
+          ],
+          "questions": [
+            "Why did the Pig squeal so much more than the Sheep?",
+            "Why wouldn't the man share the trouble with his friend?",
+            "What did the Lion do when the Ass made fun of him?"
+          ],
+          "answers": [
+            "The Sheep would only lose wool but the Pig would be eaten. It's easy to be brave when nothing bad will happen to you.",
+            "He wouldn't share the purse. If you won't share the good things, don't expect help with the bad.",
+            "He ignored him and walked on. Don't let a silly person's words bother you."
+          ]
+        },
+        {
+          "title": "Lesson 9: The Frogs Who Wished for a King, The Owl and the Grasshopper, The Wolf and His Shadow",
+          "steps": [
+            "Read aloud: The Frogs Who Wished for a King, The Owl and the Grasshopper, The Wolf and His Shadow",
+            "After each fable, have your child tell it back in their own words",
+            "Copy the moral of \"The Wolf and His Shadow\" (younger children can trace it after you write it)",
+            "Talk about a time you saw this lesson happen in real life"
+          ],
+          "links": [
+            {
+              "label": "Read “The Frogs Who Wished for a King”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FROGS_WHO_WISHED_FOR_A_KING"
+            },
+            {
+              "label": "Read “The Owl and the Grasshopper”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_OWL_AND_THE_GRASSHOPPER"
+            },
+            {
+              "label": "Read “The Wolf and His Shadow”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_WOLF_AND_HIS_SHADOW"
+            }
+          ],
+          "questions": [
+            "Were the Frogs happy with the king they asked for?",
+            "How did the Owl catch the Grasshopper?",
+            "Why was the Wolf caught by the Lion?"
+          ],
+          "answers": [
+            "No, the Stork ate them. Make sure a change will really be better before you ask for it.",
+            "She praised his singing and offered him a treat. Watch out when an enemy says nice things.",
+            "He thought he was as big as his shadow. Don't let pretending make you forget what's real."
+          ]
+        },
+        {
+          "title": "Lesson 10: The Oak and the Reeds, The Rat and the Elephant, The Boys and the Frogs",
+          "steps": [
+            "Read aloud: The Oak and the Reeds, The Rat and the Elephant, The Boys and the Frogs",
+            "Pause after each fable and ask your child to narrate it",
+            "Copy the moral of \"The Oak and the Reeds\" in your best handwriting"
+          ],
+          "links": [
+            {
+              "label": "Read “The Oak and the Reeds”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_OAK_AND_THE_REEDS"
+            },
+            {
+              "label": "Read “The Rat and the Elephant”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_RAT_AND_THE_ELEPHANT"
+            },
+            {
+              "label": "Read “The Boys and the Frogs”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_BOYS_AND_THE_FROGS"
+            }
+          ],
+          "questions": [
+            "Why did the Reeds survive the storm but the Oak fell?",
+            "What did the Cat show the proud Rat?",
+            "What did the Frog tell the Boys throwing stones?"
+          ],
+          "answers": [
+            "The Reeds bent with the wind. Sometimes it's wiser to bend than to be stubborn.",
+            "He was not as important as the Elephant. Being a little like someone great doesn't make you great.",
+            "Your fun means death to us. Think about whether your fun hurts someone else."
+          ]
+        },
+        {
+          "title": "Lesson 11: The Crow and the Pitcher, The Ants and the Grasshopper, The Ass Carrying the Image",
+          "steps": [
+            "Read aloud: The Crow and the Pitcher, The Ants and the Grasshopper, The Ass Carrying the Image",
+            "Your child narrates each fable back, then you talk about the moral together",
+            "Write the moral of \"The Ants and the Grasshopper\" from dictation, then check it against the book",
+            "Look at Milo Winter's picture for one fable and tell what is happening"
+          ],
+          "links": [
+            {
+              "label": "Read “The Crow and the Pitcher”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_CROW_AND_THE_PITCHER"
+            },
+            {
+              "label": "Read “The Ants and the Grasshopper”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_ANTS_AND_THE_GRASSHOPPER"
+            },
+            {
+              "label": "Read “The Ass Carrying the Image”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_ASS_CARRYING_THE_IMAGE"
+            }
+          ],
+          "questions": [
+            "How did the Crow get a drink from the pitcher?",
+            "Why did the Ants refuse to feed the Grasshopper?",
+            "Who were the people really bowing to?"
+          ],
+          "answers": [
+            "He dropped in pebbles until the water rose. When you're stuck, think hard and you may find a way.",
+            "He played all summer instead of working. There is a time to work and a time to play.",
+            "The image, not the Ass. Don't take credit for what belongs to someone else."
+          ]
+        },
+        {
+          "title": "Lesson 12: A Raven and a Swan, The Two Goats, The Ass and the Load of Salt",
+          "steps": [
+            "Read aloud: A Raven and a Swan, The Two Goats, The Ass and the Load of Salt",
+            "Ask your child to retell their favorite of the three to someone else at home",
+            "Copy the moral of \"The Ass and the Load of Salt\" and underline the most important word",
+            "Act out one fable with toys or puppets"
+          ],
+          "links": [
+            {
+              "label": "Read “A Raven and a Swan”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#A_RAVEN_AND_A_SWAN"
+            },
+            {
+              "label": "Read “The Two Goats”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_TWO_GOATS"
+            },
+            {
+              "label": "Read “The Ass and the Load of Salt”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_ASS_AND_THE_LOAD_OF_SALT"
+            }
+          ],
+          "questions": [
+            "Did the Raven turn white by living like a Swan?",
+            "Why did both Goats fall into the river?",
+            "Why did the Ass's trick fail the second time?"
+          ],
+          "answers": [
+            "No, he just got thin. Changing what you do won't change who you are.",
+            "Neither would let the other pass. Being stubborn can hurt everyone, so sometimes give way.",
+            "He carried sponges, not salt, so the load got heavier. A trick that worked once won't work every time."
+          ]
+        },
+        {
+          "title": "Lesson 13: The Lion and the Gnat, The Leap at Rhodes, The Cock and the Jewel",
+          "steps": [
+            "Read aloud: The Lion and the Gnat, The Leap at Rhodes, The Cock and the Jewel",
+            "After each fable, have your child tell it back in their own words",
+            "Copy the moral of \"The Lion and the Gnat\" (younger children can trace it after you write it)",
+            "Draw a picture of your favorite fable from today"
+          ],
+          "links": [
+            {
+              "label": "Read “The Lion and the Gnat”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_LION_AND_THE_GNAT"
+            },
+            {
+              "label": "Read “The Leap at Rhodes”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_LEAP_AT_RHODES"
+            },
+            {
+              "label": "Read “The Cock and the Jewel”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_COCK_AND_THE_JEWEL"
+            }
+          ],
+          "questions": [
+            "What happened to the Gnat after he beat the Lion?",
+            "How did the hearers answer the man who bragged about his big jump?",
+            "Why did the Cock not want the jewel?"
+          ],
+          "answers": [
+            "A spider caught him. Don't get so proud of winning that you stop being careful.",
+            "Jump it here and now. What you do counts more than what you brag about.",
+            "He couldn't eat it. Something precious means nothing to someone who doesn't care about it."
+          ]
+        },
+        {
+          "title": "Lesson 14: The Monkey and the Camel, The Wild Boar and the Fox, The Ass, the Fox, and the Lion",
+          "steps": [
+            "Read aloud: The Monkey and the Camel, The Wild Boar and the Fox, The Ass, the Fox, and the Lion",
+            "Pause after each fable and ask your child to narrate it",
+            "Copy the moral of \"The Wild Boar and the Fox\" in your best handwriting",
+            "Talk about a time you saw this lesson happen in real life"
+          ],
+          "links": [
+            {
+              "label": "Read “The Monkey and the Camel”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_MONKEY_AND_THE_CAMEL"
+            },
+            {
+              "label": "Read “The Wild Boar and the Fox”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_WILD_BOAR_AND_THE_FOX"
+            },
+            {
+              "label": "Read “The Ass, the Fox, and the Lion”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_ASS_THE_FOX_AND_THE_LION"
+            }
+          ],
+          "questions": [
+            "Why was the Camel chased away?",
+            "Why did the Boar sharpen his tusks with no enemy around?",
+            "What happened to the Fox after he betrayed the Ass?"
+          ],
+          "answers": [
+            "He tried to dance like the Monkey and looked silly. Don't copy others just to show off.",
+            "There'd be no time when danger came. Get ready before trouble comes.",
+            "The Lion ate him too. If you betray a friend, you may be betrayed."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 3: Fables 43–63",
+      "lessons": [
+        {
+          "title": "Lesson 15: The Birds, the Beasts, and the Bat, The Lion, the Bear, and the Fox, The Wolf and the Lamb",
+          "steps": [
+            "Read aloud: The Birds, the Beasts, and the Bat, The Lion, the Bear, and the Fox, The Wolf and the Lamb",
+            "Your child narrates each fable back, then you talk about the moral together",
+            "Write the moral of \"The Wolf and the Lamb\" from dictation, then check it against the book"
+          ],
+          "links": [
+            {
+              "label": "Read “The Birds, the Beasts, and the Bat”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_BIRDS_THE_BEASTS_AND_THE_BAT"
+            },
+            {
+              "label": "Read “The Lion, the Bear, and the Fox”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_LION_THE_BEAR_AND_THE_FOX"
+            },
+            {
+              "label": "Read “The Wolf and the Lamb”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_WOLF_AND_THE_LAMB"
+            }
+          ],
+          "questions": [
+            "Why did the Bat end up with no friends?",
+            "Who got the kid that the Lion and Bear fought over?",
+            "Why did the Wolf eat the Lamb even though she did nothing wrong?"
+          ],
+          "answers": [
+            "He kept switching sides. People who trick others end up alone.",
+            "The Fox. Sometimes those who do the work don't get the reward.",
+            "He wanted to and made up excuses. A bully won't listen to what's fair."
+          ]
+        },
+        {
+          "title": "Lesson 16: The Wolf and the Sheep, The Hares and the Frogs, The Fox and the Stork",
+          "steps": [
+            "Read aloud: The Wolf and the Sheep, The Hares and the Frogs, The Fox and the Stork",
+            "Ask your child to retell their favorite of the three to someone else at home",
+            "Copy the moral of \"The Wolf and the Sheep\" and underline the most important word",
+            "Look at Milo Winter's picture for one fable and tell what is happening"
+          ],
+          "links": [
+            {
+              "label": "Read “The Wolf and the Sheep”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_WOLF_AND_THE_SHEEP"
+            },
+            {
+              "label": "Read “The Hares and the Frogs”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_HARES_AND_THE_FROGS"
+            },
+            {
+              "label": "Read “The Fox and the Stork”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FOX_AND_THE_STORK"
+            }
+          ],
+          "questions": [
+            "Why wouldn't the Sheep bring the Wolf a drink?",
+            "What made the Hares stop being so scared?",
+            "How did the Stork pay the Fox back?"
+          ],
+          "answers": [
+            "She knew he would eat her. It's easy to see through a sneaky person.",
+            "They saw Frogs afraid of them. Someone always has it worse than you.",
+            "She served food in a tall jar he couldn't reach. Don't play a trick you wouldn't want played on you."
+          ]
+        },
+        {
+          "title": "Lesson 17: The Travelers and the Sea, The Wolf and the Lion, The Stag and His Reflection",
+          "steps": [
+            "Read aloud: The Travelers and the Sea, The Wolf and the Lion, The Stag and His Reflection",
+            "After each fable, have your child tell it back in their own words",
+            "Copy the moral of \"The Wolf and the Lion\" (younger children can trace it after you write it)",
+            "Act out one fable with toys or puppets"
+          ],
+          "links": [
+            {
+              "label": "Read “The Travelers and the Sea”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_TRAVELERS_AND_THE_SEA"
+            },
+            {
+              "label": "Read “The Wolf and the Lion”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_WOLF_AND_THE_LION"
+            },
+            {
+              "label": "Read “The Stag and His Reflection”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_STAG_AND_HIS_REFLECTION"
+            }
+          ],
+          "questions": [
+            "What did the travelers find when the \"ship\" came in?",
+            "Why couldn't the Wolf complain when the Lion took his lamb?",
+            "What did the Stag think of his legs and his antlers?"
+          ],
+          "answers": [
+            "Only some sticks of wood. Don't let wishing make you forget what's real.",
+            "He stole it first. Something taken wrongly can be lost the same way.",
+            "He hated his legs and loved his antlers, but his legs saved him and his antlers trapped him. Useful things matter more than pretty things."
+          ]
+        },
+        {
+          "title": "Lesson 18: The Peacock, The Mice and the Weasels, The Wolf and the Lean Dog",
+          "steps": [
+            "Read aloud: The Peacock, The Mice and the Weasels, The Wolf and the Lean Dog",
+            "Pause after each fable and ask your child to narrate it",
+            "Copy the moral of \"The Wolf and the Lean Dog\" in your best handwriting",
+            "Draw a picture of your favorite fable from today"
+          ],
+          "links": [
+            {
+              "label": "Read “The Peacock”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_PEACOCK"
+            },
+            {
+              "label": "Read “The Mice and the Weasels”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_MICE_AND_THE_WEASELS"
+            },
+            {
+              "label": "Read “The Wolf and the Lean Dog”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_WOLF_AND_THE_LEAN_DOG"
+            }
+          ],
+          "questions": [
+            "Why did the Peacock's beautiful tail make him unhappy?",
+            "Why were the Mouse leaders caught?",
+            "Why did the Wolf go away hungry from the lean Dog?"
+          ],
+          "answers": [
+            "It was too heavy to fly. Don't give up being free just for looking fancy.",
+            "Their fancy headdresses wouldn't fit in the holes. Being important can come with dangers.",
+            "He believed the Dog's promise to get fat first. Don't trust promises from someone who wants to fool you."
+          ]
+        },
+        {
+          "title": "Lesson 19: The Fox and the Lion, The Lion and the Ass, The Dog and His Master's Dinner",
+          "steps": [
+            "Read aloud: The Fox and the Lion, The Lion and the Ass, The Dog and His Master's Dinner",
+            "Your child narrates each fable back, then you talk about the moral together",
+            "Write the moral of \"The Fox and the Lion\" from dictation, then check it against the book",
+            "Talk about a time you saw this lesson happen in real life"
+          ],
+          "links": [
+            {
+              "label": "Read “The Fox and the Lion”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FOX_AND_THE_LION"
+            },
+            {
+              "label": "Read “The Lion and the Ass”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_LION_AND_THE_ASS1"
+            },
+            {
+              "label": "Read “The Dog and His Master's Dinner”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_DOG_AND_HIS_MASTERS_DINNER"
+            }
+          ],
+          "questions": [
+            "Why did the Fox stop being afraid of the Lion?",
+            "Why wasn't the Lion scared of the braying Ass?",
+            "Why did the Dog finally eat his master's dinner?"
+          ],
+          "answers": [
+            "He saw him many times. Getting used to something dangerous can make you forget it's dangerous.",
+            "He knew the Ass was all noise. A loud bragger doesn't scare those who know him.",
+            "He stopped to argue with the other dogs. Don't stop to argue with temptation, just walk away."
+          ]
+        },
+        {
+          "title": "Lesson 20: The Vain Jackdaw and His Borrowed Feathers, The Monkey and the Dolphin, The Wolf and the Ass",
+          "steps": [
+            "Read aloud: The Vain Jackdaw and His Borrowed Feathers, The Monkey and the Dolphin, The Wolf and the Ass",
+            "Ask your child to retell their favorite of the three to someone else at home",
+            "Copy the moral of \"The Monkey and the Dolphin\" and underline the most important word"
+          ],
+          "links": [
+            {
+              "label": "Read “The Vain Jackdaw and His Borrowed Feathers”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_VAIN_JACKDAW_AND_HIS_BORROWED_FEATHERS"
+            },
+            {
+              "label": "Read “The Monkey and the Dolphin”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_MONKEY_AND_THE_DOLPHIN"
+            },
+            {
+              "label": "Read “The Wolf and the Ass”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_WOLF_AND_THE_ASS"
+            }
+          ],
+          "questions": [
+            "What happened when the Jackdaw wore peacock feathers?",
+            "Why did the Dolphin leave the Monkey?",
+            "How did the Ass escape the Wolf?"
+          ],
+          "answers": [
+            "The Peacocks pulled them off and his own flock chased him. Wearing borrowed things doesn't make you better.",
+            "The Monkey kept telling lies. One lie leads to another lie.",
+            "He tricked him into looking at his hoof and kicked him. Stick to what you are good at."
+          ]
+        },
+        {
+          "title": "Lesson 21: The Monkey and the Cat, The Dogs and the Fox, The Dogs and the Hides",
+          "steps": [
+            "Read aloud: The Monkey and the Cat, The Dogs and the Fox, The Dogs and the Hides",
+            "After each fable, have your child tell it back in their own words",
+            "Copy the moral of \"The Dogs and the Hides\" (younger children can trace it after you write it)",
+            "Look at Milo Winter's picture for one fable and tell what is happening"
+          ],
+          "links": [
+            {
+              "label": "Read “The Monkey and the Cat”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_MONKEY_AND_THE_CAT"
+            },
+            {
+              "label": "Read “The Dogs and the Fox”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_DOGS_AND_THE_FOX"
+            },
+            {
+              "label": "Read “The Dogs and the Hides”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_DOGS_AND_THE_HIDES"
+            }
+          ],
+          "questions": [
+            "Who ate the chestnuts the Cat pulled from the fire?",
+            "Why did the Fox laugh at the Dogs tearing the lion skin?",
+            "Why did the Dogs burst?"
+          ],
+          "answers": [
+            "The Monkey. A flatterer says nice things to get something from you.",
+            "They wouldn't dare if the Lion were alive. It's mean and easy to pick on someone who can't fight back.",
+            "They tried to drink the whole stream. Don't try to do impossible things."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 4: Fables 64–84",
+      "lessons": [
+        {
+          "title": "Lesson 22: The Rabbit, the Weasel, and the Cat, The Bear and the Bees, The Fox and the Leopard",
+          "steps": [
+            "Read aloud: The Rabbit, the Weasel, and the Cat, The Bear and the Bees, The Fox and the Leopard",
+            "Pause after each fable and ask your child to narrate it",
+            "Copy the moral of \"The Rabbit, the Weasel, and the Cat\" in your best handwriting",
+            "Act out one fable with toys or puppets"
+          ],
+          "links": [
+            {
+              "label": "Read “The Rabbit, the Weasel, and the Cat”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_RABBIT_THE_WEASEL_AND_THE_CAT"
+            },
+            {
+              "label": "Read “The Bear and the Bees”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_BEAR_AND_THE_BEES"
+            },
+            {
+              "label": "Read “The Fox and the Leopard”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FOX_AND_THE_LEOPARD"
+            }
+          ],
+          "questions": [
+            "Who won when the Rabbit and Weasel asked the Cat to judge?",
+            "Why did the Bear end up hiding in a pool?",
+            "What did the Fox say was real beauty?"
+          ],
+          "answers": [
+            "The Cat, she grabbed them both. Be careful asking a strong bully to settle your fight.",
+            "He got angry at one bee and the whole swarm came. It's better to put up with a small hurt than to make it worse by getting mad.",
+            "A clever mind, not a spotted coat. Looking fine outside doesn't mean you're clever inside."
+          ]
+        },
+        {
+          "title": "Lesson 23: The Heron, The Cock and the Fox, The Dog in the Manger",
+          "steps": [
+            "Read aloud: The Heron, The Cock and the Fox, The Dog in the Manger",
+            "Your child narrates each fable back, then you talk about the moral together",
+            "Write the moral of \"The Cock and the Fox\" from dictation, then check it against the book",
+            "Draw a picture of your favorite fable from today"
+          ],
+          "links": [
+            {
+              "label": "Read “The Heron”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_HERON"
+            },
+            {
+              "label": "Read “The Cock and the Fox”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_COCK_AND_THE_FOX"
+            },
+            {
+              "label": "Read “The Dog in the Manger”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_DOG_IN_THE_MANGER"
+            }
+          ],
+          "questions": [
+            "What did the Heron end up eating?",
+            "How did the Cock trick the Fox?",
+            "Why did the Dog keep the hay from the Cattle?"
+          ],
+          "answers": [
+            "A tiny Snail. If you are too picky, you may end up with little or nothing.",
+            "He said dogs were coming. A trickster can be tricked too.",
+            "He was being mean, even though he couldn't eat it. Don't keep things from others that you can't use yourself."
+          ]
+        },
+        {
+          "title": "Lesson 24: The Wolf and the Goat, The Ass and the Grasshoppers, The Mule",
+          "steps": [
+            "Read aloud: The Wolf and the Goat, The Ass and the Grasshoppers, The Mule",
+            "Ask your child to retell their favorite of the three to someone else at home",
+            "Copy the moral of \"The Mule\" and underline the most important word",
+            "Talk about a time you saw this lesson happen in real life"
+          ],
+          "links": [
+            {
+              "label": "Read “The Wolf and the Goat”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_WOLF_AND_THE_GOAT"
+            },
+            {
+              "label": "Read “The Ass and the Grasshoppers”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_ASS_AND_THE_GRASSHOPPERS"
+            },
+            {
+              "label": "Read “The Mule”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_MULE"
+            }
+          ],
+          "questions": [
+            "Why didn't the Goat come down for the Wolf's grass?",
+            "What happened to the Ass who ate only dew?",
+            "What did the Mule remember when he got tired?"
+          ],
+          "answers": [
+            "She knew he wanted to eat her. Don't trust an invitation from someone who's only thinking of himself.",
+            "He starved. You can't change how nature works.",
+            "His father was a donkey. Don't brag about your family unless you're sure."
+          ]
+        },
+        {
+          "title": "Lesson 25: The Fox and the Goat, The Cat, the Cock, and the Young Mouse, The Wolf and the Shepherd",
+          "steps": [
+            "Read aloud: The Fox and the Goat, The Cat, the Cock, and the Young Mouse, The Wolf and the Shepherd",
+            "After each fable, have your child tell it back in their own words",
+            "Copy the moral of \"The Fox and the Goat\" (younger children can trace it after you write it)"
+          ],
+          "links": [
+            {
+              "label": "Read “The Fox and the Goat”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FOX_AND_THE_GOAT"
+            },
+            {
+              "label": "Read “The Cat, the Cock, and the Young Mouse”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_CAT_THE_COCK_AND_THE_YOUNG_MOUSE"
+            },
+            {
+              "label": "Read “The Wolf and the Shepherd”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_WOLF_AND_THE_SHEPHERD"
+            }
+          ],
+          "questions": [
+            "Why did the Goat end up stuck in the well?",
+            "Which animal was really dangerous to the young Mouse?",
+            "What happened when the Shepherd trusted the Wolf to guard the sheep?"
+          ],
+          "answers": [
+            "He jumped in without thinking. Look before you leap.",
+            "The quiet Cat, not the noisy Cock. Don't judge by how things look.",
+            "The Wolf ate them. A wolf is always a wolf."
+          ]
+        },
+        {
+          "title": "Lesson 26: The Peacock and the Crane, The Farmer and the Cranes, The Farmer and His Sons",
+          "steps": [
+            "Read aloud: The Peacock and the Crane, The Farmer and the Cranes, The Farmer and His Sons",
+            "Pause after each fable and ask your child to narrate it",
+            "Copy the moral of \"The Farmer and the Cranes\" in your best handwriting",
+            "Look at Milo Winter's picture for one fable and tell what is happening"
+          ],
+          "links": [
+            {
+              "label": "Read “The Peacock and the Crane”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_PEACOCK_AND_THE_CRANE"
+            },
+            {
+              "label": "Read “The Farmer and the Cranes”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FARMER_AND_THE_CRANES"
+            },
+            {
+              "label": "Read “The Farmer and His Sons”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FARMER_AND_HIS_SONS"
+            }
+          ],
+          "questions": [
+            "How was the Crane better than the Peacock?",
+            "When did the Cranes really leave the field?",
+            "What treasure did the sons find in the vineyard?"
+          ],
+          "answers": [
+            "He could fly high. Being useful matters more than looking pretty.",
+            "When the Farmer used real stones, not just pretend. Big talk doesn't mean someone can't really act.",
+            "A big harvest from digging. Hard work is a treasure itself."
+          ]
+        },
+        {
+          "title": "Lesson 27: The Two Pots, The Goose and the Golden Egg, The Fighting Bulls and the Frog",
+          "steps": [
+            "Read aloud: The Two Pots, The Goose and the Golden Egg, The Fighting Bulls and the Frog",
+            "Your child narrates each fable back, then you talk about the moral together",
+            "Write the moral of \"The Fighting Bulls and the Frog\" from dictation, then check it against the book",
+            "Act out one fable with toys or puppets"
+          ],
+          "links": [
+            {
+              "label": "Read “The Two Pots”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_TWO_POTS"
+            },
+            {
+              "label": "Read “The Goose and the Golden Egg”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_GOOSE_AND_THE_GOLDEN_EGG"
+            },
+            {
+              "label": "Read “The Fighting Bulls and the Frog”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FIGHTING_BULLS_AND_THE_FROG"
+            }
+          ],
+          "questions": [
+            "What happened when the brass and clay pots traveled together?",
+            "Why did the Countryman lose all his gold?",
+            "Why were the Frogs afraid of the bulls fighting?"
+          ],
+          "answers": [
+            "The clay pot broke. Friends who are alike get along best.",
+            "He killed the goose to get all the eggs at once. Being greedy can make you lose everything.",
+            "The loser would run into the marsh and crush them. When big ones fight, little ones get hurt."
+          ]
+        },
+        {
+          "title": "Lesson 28: The Mouse and the Weasel, The Farmer and the Snake, The Sick Stag",
+          "steps": [
+            "Read aloud: The Mouse and the Weasel, The Farmer and the Snake, The Sick Stag",
+            "Ask your child to retell their favorite of the three to someone else at home",
+            "Copy the moral of \"The Mouse and the Weasel\" and underline the most important word",
+            "Draw a picture of your favorite fable from today"
+          ],
+          "links": [
+            {
+              "label": "Read “The Mouse and the Weasel”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_MOUSE_AND_THE_WEASEL"
+            },
+            {
+              "label": "Read “The Farmer and the Snake”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FARMER_AND_THE_SNAKE"
+            },
+            {
+              "label": "Read “The Sick Stag”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_SICK_STAG"
+            }
+          ],
+          "questions": [
+            "Why couldn't the Mouse get out of the basket?",
+            "What did the frozen Snake do after the Farmer warmed him?",
+            "Why did the Stag starve?"
+          ],
+          "answers": [
+            "He ate too much and got fat. Being greedy gets you into trouble.",
+            "He bit the Farmer. Don't trust someone who is wicked, even when you feel sorry for them.",
+            "His visitors ate all his food. Being a good friend means doing good, not just saying nice things."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 5: Fables 85–105",
+      "lessons": [
+        {
+          "title": "Lesson 29: The Goatherd and the Wild Goats, The Spendthrift and the Swallow, The Cat and the Birds",
+          "steps": [
+            "Read aloud: The Goatherd and the Wild Goats, The Spendthrift and the Swallow, The Cat and the Birds",
+            "After each fable, have your child tell it back in their own words",
+            "Copy the moral of \"The Spendthrift and the Swallow\" (younger children can trace it after you write it)",
+            "Talk about a time you saw this lesson happen in real life"
+          ],
+          "links": [
+            {
+              "label": "Read “The Goatherd and the Wild Goats”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_GOATHERD_AND_THE_WILD_GOATS"
+            },
+            {
+              "label": "Read “The Spendthrift and the Swallow”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_SPENDTHRIFT_AND_THE_SWALLOW"
+            },
+            {
+              "label": "Read “The Cat and the Birds”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_CAT_AND_THE_BIRDS"
+            }
+          ],
+          "questions": [
+            "Why did the Wild Goats run away from the Goatherd?",
+            "Why did the young man sell his cloak?",
+            "Why didn't the Birds let the Cat \"doctor\" in?"
+          ],
+          "answers": [
+            "He treated his own goats badly. Don't treat old friends badly to please new ones.",
+            "He saw one swallow and thought it was summer. One sign doesn't mean something has really happened.",
+            "They knew he wanted to eat them. Don't trust someone who is only pretending to help."
+          ]
+        },
+        {
+          "title": "Lesson 30: The Dog and the Oyster, The Astrologer, Three Bullocks and a Lion",
+          "steps": [
+            "Read aloud: The Dog and the Oyster, The Astrologer, Three Bullocks and a Lion",
+            "Pause after each fable and ask your child to narrate it",
+            "Copy the moral of \"Three Bullocks and a Lion\" in your best handwriting"
+          ],
+          "links": [
+            {
+              "label": "Read “The Dog and the Oyster”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_DOG_AND_THE_OYSTER"
+            },
+            {
+              "label": "Read “The Astrologer”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_ASTROLOGER"
+            },
+            {
+              "label": "Read “Three Bullocks and a Lion”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THREE_BULLOCKS_AND_A_LION"
+            }
+          ],
+          "questions": [
+            "What happened when the Dog swallowed the oyster?",
+            "Why did the Astrologer fall into the ditch?",
+            "How did the Lion finally catch the Bullocks?"
+          ],
+          "answers": [
+            "It hurt his tummy. If you rush, you'll be sorry later.",
+            "He was looking at the stars, not where he walked. Pay attention to little things right in front of you.",
+            "He made them quarrel and split up. We are strong when we stay together."
+          ]
+        },
+        {
+          "title": "Lesson 31: Mercury and the Woodman, The Frog and the Mouse, The Fox and the Crab",
+          "steps": [
+            "Read aloud: Mercury and the Woodman, The Frog and the Mouse, The Fox and the Crab",
+            "Your child narrates each fable back, then you talk about the moral together",
+            "Write the moral of \"Mercury and the Woodman\" from dictation, then check it against the book",
+            "Look at Milo Winter's picture for one fable and tell what is happening"
+          ],
+          "links": [
+            {
+              "label": "Read “Mercury and the Woodman”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#MERCURY_AND_THE_WOODMAN"
+            },
+            {
+              "label": "Read “The Frog and the Mouse”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FROG_AND_THE_MOUSE"
+            },
+            {
+              "label": "Read “The Fox and the Crab”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FOX_AND_THE_CRAB"
+            }
+          ],
+          "questions": [
+            "What did Mercury give the honest Woodman?",
+            "What happened to the Frog who tied the Mouse to him?",
+            "What happened when the Crab left the seashore?"
+          ],
+          "answers": [
+            "All three axes. Telling the truth is always best.",
+            "A Hawk caught them both. If you try to hurt others, you may get hurt yourself.",
+            "A Fox ate him. Be happy with the place you belong."
+          ]
+        },
+        {
+          "title": "Lesson 32: The Serpent and the Eagle, The Wolf in Sheep's Clothing, The Bull and the Goat",
+          "steps": [
+            "Read aloud: The Serpent and the Eagle, The Wolf in Sheep's Clothing, The Bull and the Goat",
+            "Ask your child to retell their favorite of the three to someone else at home",
+            "Copy the moral of \"The Wolf in Sheep's Clothing\" and underline the most important word",
+            "Act out one fable with toys or puppets"
+          ],
+          "links": [
+            {
+              "label": "Read “The Serpent and the Eagle”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_SERPENT_AND_THE_EAGLE"
+            },
+            {
+              "label": "Read “The Wolf in Sheep's Clothing”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_WOLF_IN_SHEEPS_CLOTHING"
+            },
+            {
+              "label": "Read “The Bull and the Goat”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_BULL_AND_THE_GOAT"
+            }
+          ],
+          "questions": [
+            "How did the Eagle repay the man who saved him?",
+            "Why was the Wolf in sheep's clothing caught?",
+            "Why didn't the Bull fight the rude Goat?"
+          ],
+          "answers": [
+            "He knocked away the poisoned horn. A kindness will come back to you.",
+            "The Shepherd chose him for dinner. Tricks can get the trickster hurt.",
+            "He was hiding from the Lion. It's wrong to pick on someone when they are in trouble."
+          ]
+        },
+        {
+          "title": "Lesson 33: The Eagle and the Beetle, The Old Lion and the Fox, The Man and the Lion",
+          "steps": [
+            "Read aloud: The Eagle and the Beetle, The Old Lion and the Fox, The Man and the Lion",
+            "After each fable, have your child tell it back in their own words",
+            "Copy the moral of \"The Man and the Lion\" (younger children can trace it after you write it)",
+            "Draw a picture of your favorite fable from today"
+          ],
+          "links": [
+            {
+              "label": "Read “The Eagle and the Beetle”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_EAGLE_AND_THE_BEETLE"
+            },
+            {
+              "label": "Read “The Old Lion and the Fox”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_OLD_LION_AND_THE_FOX"
+            },
+            {
+              "label": "Read “The Man and the Lion”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_MAN_AND_THE_LION"
+            }
+          ],
+          "questions": [
+            "How did the Beetle get back at the Eagle?",
+            "Why didn't the Fox go into the Lion's cave?",
+            "Why did the Man and Lion disagree about the statue?"
+          ],
+          "answers": [
+            "She kept rolling the Eagle's eggs out of the nest. Even the smallest can stand up to a wrong.",
+            "Footprints went in but none came out. Learn from what happened to others.",
+            "A man made it, so the man won. It depends on who tells the story."
+          ]
+        },
+        {
+          "title": "Lesson 34: The Ass and the Lap Dog, The Milkmaid and Her Pail, The Wolf and the Shepherd",
+          "steps": [
+            "Read aloud: The Ass and the Lap Dog, The Milkmaid and Her Pail, The Wolf and the Shepherd",
+            "Pause after each fable and ask your child to narrate it",
+            "Copy the moral of \"The Ass and the Lap Dog\" in your best handwriting",
+            "Talk about a time you saw this lesson happen in real life"
+          ],
+          "links": [
+            {
+              "label": "Read “The Ass and the Lap Dog”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_ASS_AND_THE_LAP_DOG"
+            },
+            {
+              "label": "Read “The Milkmaid and Her Pail”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_MILKMAID_AND_HER_PAIL"
+            },
+            {
+              "label": "Read “The Wolf and the Shepherd”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_WOLF_AND_THE_SHEPHERD1"
+            }
+          ],
+          "questions": [
+            "What happened when the Ass jumped on his master like the Lap Dog?",
+            "What made the Milkmaid spill her milk?",
+            "What did the Wolf notice about the Shepherd's dinner?"
+          ],
+          "answers": [
+            "He got beaten. Don't act like someone you're not just to be liked.",
+            "She was daydreaming and tossed her head. Don't count your chickens before they hatch.",
+            "They ate a lamb but would chase him for doing the same. People often blame others for things they do themselves."
+          ]
+        },
+        {
+          "title": "Lesson 35: The Goatherd and the Goat, The Miser, The Wolf and the House Dog",
+          "steps": [
+            "Read aloud: The Goatherd and the Goat, The Miser, The Wolf and the House Dog",
+            "Your child narrates each fable back, then you talk about the moral together",
+            "Write the moral of \"The Miser\" from dictation, then check it against the book"
+          ],
+          "links": [
+            {
+              "label": "Read “The Goatherd and the Goat”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_GOATHERD_AND_THE_GOAT"
+            },
+            {
+              "label": "Read “The Miser”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_MISER"
+            },
+            {
+              "label": "Read “The Wolf and the House Dog”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_WOLF_AND_THE_HOUSE_DOG"
+            }
+          ],
+          "questions": [
+            "Why couldn't the Goatherd hide what he did?",
+            "Why was the stone as good as the Miser's gold?",
+            "Why did the Wolf not want to be a house dog?"
+          ],
+          "answers": [
+            "The Goat's broken horn would show it. Bad things you do will come out.",
+            "He never used the gold. Things are only worth what you use them for.",
+            "Dogs wear a collar and chain. Being free is worth more than food."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 6: Fables 106–126",
+      "lessons": [
+        {
+          "title": "Lesson 36: The Fox and the Hedgehog, The Bat and the Weasels, The Quack Toad",
+          "steps": [
+            "Read aloud: The Fox and the Hedgehog, The Bat and the Weasels, The Quack Toad",
+            "Ask your child to retell their favorite of the three to someone else at home",
+            "Copy the moral of \"The Quack Toad\" and underline the most important word",
+            "Look at Milo Winter's picture for one fable and tell what is happening"
+          ],
+          "links": [
+            {
+              "label": "Read “The Fox and the Hedgehog”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FOX_AND_THE_HEDGEHOG"
+            },
+            {
+              "label": "Read “The Bat and the Weasels”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_BAT_AND_THE_WEASELS"
+            },
+            {
+              "label": "Read “The Quack Toad”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_QUACK_TOAD"
+            }
+          ],
+          "questions": [
+            "Why didn't the Fox want the flies chased away?",
+            "How did the Bat escape both Weasels?",
+            "Why didn't the Fox believe the Toad was a doctor?"
+          ],
+          "answers": [
+            "Hungrier ones would come. Sometimes it's better to bear a small problem than risk a bigger one.",
+            "He said he was a mouse to one and a bird to the other. Change your plan to fit what's happening.",
+            "The Toad couldn't fix his own skin. Fix yourself before trying to fix others."
+          ]
+        },
+        {
+          "title": "Lesson 37: The Fox Without a Tail, The Mischievous Dog, The Rose and the Butterfly",
+          "steps": [
+            "Read aloud: The Fox Without a Tail, The Mischievous Dog, The Rose and the Butterfly",
+            "After each fable, have your child tell it back in their own words",
+            "Copy the moral of \"The Fox Without a Tail\" (younger children can trace it after you write it)",
+            "Act out one fable with toys or puppets"
+          ],
+          "links": [
+            {
+              "label": "Read “The Fox Without a Tail”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FOX_WITHOUT_A_TAIL"
+            },
+            {
+              "label": "Read “The Mischievous Dog”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_MISCHIEVOUS_DOG"
+            },
+            {
+              "label": "Read “The Rose and the Butterfly”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_ROSE_AND_THE_BUTTERFLY"
+            }
+          ],
+          "questions": [
+            "Why did the Fox without a tail want the others to cut theirs off?",
+            "Was the Dog's clog something to be proud of?",
+            "Why couldn't the Butterfly blame the Rose?"
+          ],
+          "answers": [
+            "So he wouldn't look silly. Don't listen to someone who wants you to lose what you have.",
+            "No, it showed he was bad. Being known for bad things isn't being famous.",
+            "He flitted to other flowers too. Don't expect others to be loyal if you aren't."
+          ]
+        },
+        {
+          "title": "Lesson 38: The Cat and the Fox, The Boy and the Nettle, The Old Lion",
+          "steps": [
+            "Read aloud: The Cat and the Fox, The Boy and the Nettle, The Old Lion",
+            "Pause after each fable and ask your child to narrate it",
+            "Copy the moral of \"The Boy and the Nettle\" in your best handwriting",
+            "Draw a picture of your favorite fable from today"
+          ],
+          "links": [
+            {
+              "label": "Read “The Cat and the Fox”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_CAT_AND_THE_FOX"
+            },
+            {
+              "label": "Read “The Boy and the Nettle”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_BOY_AND_THE_NETTLE"
+            },
+            {
+              "label": "Read “The Old Lion”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_OLD_LION"
+            }
+          ],
+          "questions": [
+            "What saved the Cat when the dogs came?",
+            "How should the Boy touch a nettle next time?",
+            "How did the animals treat the Lion when he was old and weak?"
+          ],
+          "answers": [
+            "Her one trick of climbing a tree. Plain good sense beats lots of clever tricks.",
+            "Grab it firmly. Whatever you do, do it with all your might.",
+            "They attacked him. It's cowardly to pick on someone who can't fight back."
+          ]
+        },
+        {
+          "title": "Lesson 39: The Fox and the Pheasants, Two Travelers and a Bear, The Porcupine and the Snakes",
+          "steps": [
+            "Read aloud: The Fox and the Pheasants, Two Travelers and a Bear, The Porcupine and the Snakes",
+            "Your child narrates each fable back, then you talk about the moral together",
+            "Write the moral of \"The Porcupine and the Snakes\" from dictation, then check it against the book",
+            "Talk about a time you saw this lesson happen in real life"
+          ],
+          "links": [
+            {
+              "label": "Read “The Fox and the Pheasants”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FOX_AND_THE_PHEASANTS"
+            },
+            {
+              "label": "Read “Two Travelers and a Bear”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#TWO_TRAVELERS_AND_A_BEAR"
+            },
+            {
+              "label": "Read “The Porcupine and the Snakes”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_PORCUPINE_AND_THE_SNAKES"
+            }
+          ],
+          "questions": [
+            "Why did the Pheasants fall to the Fox?",
+            "What did the Bear \"whisper\" to the man on the ground?",
+            "What did the Porcupine do once the Snakes let him in?"
+          ],
+          "answers": [
+            "They watched him so hard they got dizzy. Worrying too much about danger can make you fall into it.",
+            "Don't travel with a friend who leaves you in danger. Hard times show who your true friends are.",
+            "He pushed them out with his quills. If you give a little, someone may take a lot."
+          ]
+        },
+        {
+          "title": "Lesson 40: The Fox and the Monkey, The Mother and the Wolf, The Flies and the Honey",
+          "steps": [
+            "Read aloud: The Fox and the Monkey, The Mother and the Wolf, The Flies and the Honey",
+            "Ask your child to retell their favorite of the three to someone else at home",
+            "Copy the moral of \"The Fox and the Monkey\" and underline the most important word"
+          ],
+          "links": [
+            {
+              "label": "Read “The Fox and the Monkey”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FOX_AND_THE_MONKEY"
+            },
+            {
+              "label": "Read “The Mother and the Wolf”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_MOTHER_AND_THE_WOLF"
+            },
+            {
+              "label": "Read “The Flies and the Honey”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FLIES_AND_THE_HONEY"
+            }
+          ],
+          "questions": [
+            "Why wasn't the Monkey a good king?",
+            "Why didn't the Wolf get the child?",
+            "Why did the flies die?"
+          ],
+          "answers": [
+            "He fell for the Fox's trap. A real leader proves it by being wise.",
+            "The Mother didn't mean what she said. Don't believe everything you hear.",
+            "They got stuck in the honey. Being greedy for a treat can hurt you."
+          ]
+        },
+        {
+          "title": "Lesson 41: The Eagle and the Kite, The Stag, the Sheep, and the Wolf, The Animals and the Plague",
+          "steps": [
+            "Read aloud: The Eagle and the Kite, The Stag, the Sheep, and the Wolf, The Animals and the Plague",
+            "After each fable, have your child tell it back in their own words",
+            "Copy the moral of \"The Stag, the Sheep, and the Wolf\" (younger children can trace it after you write it)",
+            "Look at Milo Winter's picture for one fable and tell what is happening"
+          ],
+          "links": [
+            {
+              "label": "Read “The Eagle and the Kite”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_EAGLE_AND_THE_KITE"
+            },
+            {
+              "label": "Read “The Stag, the Sheep, and the Wolf”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_STAG_THE_SHEEP_AND_THE_WOLF"
+            },
+            {
+              "label": "Read “The Animals and the Plague”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_ANIMALS_AND_THE_PLAGUE"
+            }
+          ],
+          "questions": [
+            "Why did the Kite say he could catch an Ostrich?",
+            "Why wouldn't the Sheep lend wheat to the Stag?",
+            "Who was blamed for the plague?"
+          ],
+          "answers": [
+            "He wanted the Eagle to marry him. People will say anything to win what they want.",
+            "She didn't trust him or his friend the Wolf. Two untrustworthy people don't make one you can trust.",
+            "The Ass, who did the smallest wrong. Sometimes the weak are punished for what the strong did."
+          ]
+        },
+        {
+          "title": "Lesson 42: The Shepherd and the Lion, The Dog and His Reflection, The Hare and the Tortoise",
+          "steps": [
+            "Read aloud: The Shepherd and the Lion, The Dog and His Reflection, The Hare and the Tortoise",
+            "Pause after each fable and ask your child to narrate it",
+            "Copy the moral of \"The Hare and the Tortoise\" in your best handwriting",
+            "Act out one fable with toys or puppets"
+          ],
+          "links": [
+            {
+              "label": "Read “The Shepherd and the Lion”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_SHEPHERD_AND_THE_LION"
+            },
+            {
+              "label": "Read “The Dog and His Reflection”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_DOG_AND_HIS_REFLECTION"
+            },
+            {
+              "label": "Read “The Hare and the Tortoise”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_HARE_AND_THE_TORTOISE"
+            }
+          ],
+          "questions": [
+            "What did the Shepherd do when he really saw the Lion?",
+            "Why did the Dog lose his bone?",
+            "Who won the race?"
+          ],
+          "answers": [
+            "He ran and wished it gone. Be careful what you wish for.",
+            "He snapped at his reflection. Being greedy is foolish.",
+            "The Tortoise, by never stopping. Slow and steady wins the race."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 7: Fables 127–147",
+      "lessons": [
+        {
+          "title": "Lesson 43: The Bees and Wasps, and the Hornet, The Lark and Her Young Ones, The Cat and the Old Rat",
+          "steps": [
+            "Read aloud: The Bees and Wasps, and the Hornet, The Lark and Her Young Ones, The Cat and the Old Rat",
+            "Your child narrates each fable back, then you talk about the moral together",
+            "Write the moral of \"The Bees and Wasps, and the Hornet\" from dictation, then check it against the book",
+            "Draw a picture of your favorite fable from today"
+          ],
+          "links": [
+            {
+              "label": "Read “The Bees and Wasps, and the Hornet”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_BEES_AND_WASPS_AND_THE_HORNET"
+            },
+            {
+              "label": "Read “The Lark and Her Young Ones”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_LARK_AND_HER_YOUNG_ONES"
+            },
+            {
+              "label": "Read “The Cat and the Old Rat”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_CAT_AND_THE_OLD_RAT"
+            }
+          ],
+          "questions": [
+            "How did the Judge know who made the honey?",
+            "When did the Lark finally move her babies?",
+            "Why didn't the old Rat go near the flour-covered lump?"
+          ],
+          "answers": [
+            "The Wasps couldn't make comb. What you can really do proves who you are.",
+            "When the Farmer said he'd cut the wheat himself. Doing it yourself is the best help.",
+            "He'd been tricked by the Cat before. A wise one doesn't get tricked twice."
+          ]
+        },
+        {
+          "title": "Lesson 44: The Fox and the Crow, The Ass and Its Shadow, The Miller, His Son, and the Ass",
+          "steps": [
+            "Read aloud: The Fox and the Crow, The Ass and Its Shadow, The Miller, His Son, and the Ass",
+            "Ask your child to retell their favorite of the three to someone else at home",
+            "Copy the moral of \"The Ass and Its Shadow\" and underline the most important word",
+            "Talk about a time you saw this lesson happen in real life"
+          ],
+          "links": [
+            {
+              "label": "Read “The Fox and the Crow”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FOX_AND_THE_CROW"
+            },
+            {
+              "label": "Read “The Ass and Its Shadow”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_ASS_AND_ITS_SHADOW"
+            },
+            {
+              "label": "Read “The Miller, His Son, and the Ass”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_MILLER_HIS_SON_AND_THE_ASS"
+            }
+          ],
+          "questions": [
+            "How did the Fox get the Crow's cheese?",
+            "What happened while the men fought over the shadow?",
+            "Why did the Miller lose his Ass?"
+          ],
+          "answers": [
+            "He praised her voice so she sang. A flatterer gets things from people who listen.",
+            "The Ass ran away. If you fight over little things, you can lose what matters.",
+            "He tried to do what everyone said. If you try to please everyone, you please no one."
+          ]
+        },
+        {
+          "title": "Lesson 45: The Ant and the Dove, The Man and the Satyr, The Wolf, the Kid, and the Goat",
+          "steps": [
+            "Read aloud: The Ant and the Dove, The Man and the Satyr, The Wolf, the Kid, and the Goat",
+            "After each fable, have your child tell it back in their own words",
+            "Copy the moral of \"The Wolf, the Kid, and the Goat\" (younger children can trace it after you write it)"
+          ],
+          "links": [
+            {
+              "label": "Read “The Ant and the Dove”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_ANT_AND_THE_DOVE"
+            },
+            {
+              "label": "Read “The Man and the Satyr”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_MAN_AND_THE_SATYR"
+            },
+            {
+              "label": "Read “The Wolf, the Kid, and the Goat”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_WOLF_THE_KID_AND_THE_GOAT"
+            }
+          ],
+          "questions": [
+            "How did the Ant save the Dove?",
+            "Why did the Satyr leave the Man?",
+            "Why didn't the Kid open the door to the Wolf?"
+          ],
+          "answers": [
+            "She bit the hunter so he missed. A kindness is never wasted.",
+            "He blew hot and cold. Don't trust someone who says one thing and then the opposite.",
+            "He asked for the password and to see a white paw. It's good to be extra careful."
+          ]
+        },
+        {
+          "title": "Lesson 46: The Swallow and the Crow, Jupiter and the Monkey, The Lion, the Ass, and the Fox",
+          "steps": [
+            "Read aloud: The Swallow and the Crow, Jupiter and the Monkey, The Lion, the Ass, and the Fox",
+            "Pause after each fable and ask your child to narrate it",
+            "Copy the moral of \"The Swallow and the Crow\" in your best handwriting",
+            "Look at Milo Winter's picture for one fable and tell what is happening"
+          ],
+          "links": [
+            {
+              "label": "Read “The Swallow and the Crow”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_SWALLOW_AND_THE_CROW"
+            },
+            {
+              "label": "Read “Jupiter and the Monkey”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#JUPITER_AND_THE_MONKEY"
+            },
+            {
+              "label": "Read “The Lion, the Ass, and the Fox”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_LION_THE_ASS_AND_THE_FOX"
+            }
+          ],
+          "questions": [
+            "When did the Crow say the Swallow wasn't a good friend?",
+            "Why did Mother Monkey love her baby most?",
+            "How did the Fox learn to share with the Lion?"
+          ],
+          "answers": [
+            "In winter when the Swallow left. A friend only in good times isn't much of a friend.",
+            "Mothers love their babies no matter what. Mother love is blind.",
+            "He saw what happened to the Ass. Learn from other people's mistakes."
+          ]
+        },
+        {
+          "title": "Lesson 47: The Lion's Share, The Mole and His Mother, The North Wind and the Sun",
+          "steps": [
+            "Read aloud: The Lion's Share, The Mole and His Mother, The North Wind and the Sun",
+            "Your child narrates each fable back, then you talk about the moral together",
+            "Write the moral of \"The Mole and His Mother\" from dictation, then check it against the book",
+            "Act out one fable with toys or puppets"
+          ],
+          "links": [
+            {
+              "label": "Read “The Lion's Share”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_LIONS_SHARE"
+            },
+            {
+              "label": "Read “The Mole and His Mother”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_MOLE_AND_HIS_MOTHER"
+            },
+            {
+              "label": "Read “The North Wind and the Sun”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_NORTH_WIND_AND_THE_SUN"
+            }
+          ],
+          "questions": [
+            "Why did the Lion keep all the meat?",
+            "How did the Mother Mole show her son he couldn't smell?",
+            "How did the Sun get the traveler to take off his cloak?"
+          ],
+          "answers": [
+            "He was the strongest. Sometimes bullies take everything, and that isn't fair.",
+            "She held up something and he guessed wrong. If you brag, others will find what you can't do.",
+            "By shining warmly. Being gentle and kind works better than being rough."
+          ]
+        },
+        {
+          "title": "Lesson 48: The Hare and His Ears, The Wolves and the Sheep, The Cock and the Fox",
+          "steps": [
+            "Read aloud: The Hare and His Ears, The Wolves and the Sheep, The Cock and the Fox",
+            "Ask your child to retell their favorite of the three to someone else at home",
+            "Copy the moral of \"The Cock and the Fox\" and underline the most important word",
+            "Draw a picture of your favorite fable from today"
+          ],
+          "links": [
+            {
+              "label": "Read “The Hare and His Ears”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_HARE_AND_HIS_EARS"
+            },
+            {
+              "label": "Read “The Wolves and the Sheep”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_WOLVES_AND_THE_SHEEP"
+            },
+            {
+              "label": "Read “The Cock and the Fox”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_COCK_AND_THE_FOX1"
+            }
+          ],
+          "questions": [
+            "Why did the Hare run away from the Lion's kingdom?",
+            "What happened when the Sheep sent the Dogs away?",
+            "Why didn't the Cock help the trapped Fox?"
+          ],
+          "answers": [
+            "He was afraid his ears would be called horns. A bully will find any excuse to pick on you.",
+            "The Wolves ate them. Don't give up your true friends for your enemies.",
+            "He knew the Fox would eat the hens. Don't help someone who will do harm."
+          ]
+        },
+        {
+          "title": "Lesson 49: The Ass in the Lion's Skin, The Fisherman and the Little Fish, The Fighting Cocks and the Eagle",
+          "steps": [
+            "Read aloud: The Ass in the Lion's Skin, The Fisherman and the Little Fish, The Fighting Cocks and the Eagle",
+            "After each fable, have your child tell it back in their own words",
+            "Copy the moral of \"The Ass in the Lion's Skin\" (younger children can trace it after you write it)",
+            "Talk about a time you saw this lesson happen in real life"
+          ],
+          "links": [
+            {
+              "label": "Read “The Ass in the Lion's Skin”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_ASS_IN_THE_LIONS_SKIN"
+            },
+            {
+              "label": "Read “The Fisherman and the Little Fish”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FISHERMAN_AND_THE_LITTLE_FISH"
+            },
+            {
+              "label": "Read “The Fighting Cocks and the Eagle”",
+              "url": "https://www.gutenberg.org/cache/epub/19994/pg19994-images.html#THE_FIGHTING_COCKS_AND_THE_EAGLE"
+            }
+          ],
+          "questions": [
+            "How did the Fox know the \"Lion\" was an Ass?",
+            "Why did the Fisherman keep the little fish?",
+            "What happened to the proud Cock who crowed on the wall?"
+          ],
+          "answers": [
+            "He heard it bray. You can dress up, but your words show who you are.",
+            "A small fish now is better than a big one later. A sure small thing is better than a big promise.",
+            "An Eagle carried him off. Pride comes before a fall."
+          ]
+        }
+      ]
+    }
+  ]
+}

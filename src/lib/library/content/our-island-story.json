@@ -1,0 +1,3155 @@
+{
+  "key": "our-island-story",
+  "title": "Our Island Story",
+  "sourceTitle": "Our Island Story: A Child's History of England (US edition: An Island Story: A History of England for Boys and Girls, 1920)",
+  "author": "H. E. Marshall",
+  "year": 1905,
+  "sourceUrl": "https://digital.library.upenn.edu/women/marshall/england/england.html",
+  "readUrl": "https://digital.library.upenn.edu/women/marshall/england/england.html",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "First published London 1905 (T. C. & E. C. Jack); this US edition published New York 1920 (Frederick A. Stokes) — both before 1930, so public domain in the USA. Author H. E. Marshall died 1941, so also public domain in life+70 countries. Online text: A Celebration of Women Writers (UPenn), transcribed by Ambleside Online volunteers. Not available on Project Gutenberg.",
+  "subjects": [
+    "history"
+  ],
+  "gradeMin": 2,
+  "gradeMax": 6,
+  "philosophies": [
+    "charlotte_mason",
+    "classical"
+  ],
+  "lessonsPerWeek": 4,
+  "minutesPerLesson": 20,
+  "parentInvolvement": "high",
+  "familyStyle": true,
+  "cover": "🏰",
+  "color": "#2F6B5E",
+  "description": "The beloved classic read-aloud history of Britain, told as a chain of stories from the legends of Albion to the early twentieth century. Siblings listen together, narrate the chapter back, find the place on a map, and add a date to the family timeline. The full text of this classic is free online.",
+  "includes": [
+    "114 lessons in 13 units, one chapter each",
+    "Link to the free full text for every chapter",
+    "Narration, map work, and timeline steps for each lesson",
+    "Questions with answers for every chapter",
+    "Parent notes where legend mixes with history or the book shows its imperial-era viewpoint"
+  ],
+  "units": [
+    {
+      "title": "Unit 1: Ancient Britain and the Romans (Chapters 1–8)",
+      "lessons": [
+        {
+          "title": "Chapter 1: The Stories of Albion and Brutus",
+          "steps": [
+            "Read chapter 1 aloud together",
+            "Narrate how the little mermaid won Albion his island and how Brutus came to rename it",
+            "Find Great Britain on a world map, then point to the white cliffs of Dover on its south coast",
+            "Add 'Albion and Brutus (legend)' to the legends strip at the start of your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 1",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#1"
+            }
+          ],
+          "pages": "1–4",
+          "questions": [
+            "Who was Albion's father, and what did he rule?",
+            "What was the island called before Albion took it over?",
+            "Where did Brutus sail from, and what name did he give the islands?"
+          ],
+          "answers": [
+            "Neptune, king of the sea and the waves",
+            "Samothea",
+            "From Troy; he called them Britain (Britannia), after himself"
+          ],
+          "notes": "This chapter is myth and legend, not history; the book itself says it may be only a fairy tale. The closing lines about 'Greater Britain' reflect the book's 1900s imperial outlook and could prompt a short talk."
+        },
+        {
+          "title": "Chapter 2: The Coming of the Romans",
+          "steps": [
+            "Read chapter 2 aloud together",
+            "Narrate how the Roman standard-bearer leaped into the sea and how the British war chariots fought",
+            "Find the Strait of Dover between France and Kent on a map, where Caesar crossed",
+            "Add 'Julius Caesar's first landing in Britain, 55 BC' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 2",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#2"
+            }
+          ],
+          "pages": "5–9",
+          "questions": [
+            "Why did Julius Caesar want to conquer Britain?",
+            "What did the Romans carry instead of a flag?",
+            "What stuck out from the wheels of the British war chariots?"
+          ],
+          "answers": [
+            "He heard it was rich in tin, lead and other metals, with pearls on its shores",
+            "A golden eagle on a pole",
+            "Swords"
+          ]
+        },
+        {
+          "title": "Chapter 3: The Romans Come Again",
+          "steps": [
+            "Read chapter 3 aloud together",
+            "Narrate how Cassivellaunus led the Britons and how Caesar finally left the island",
+            "Locate the Thames valley north of London on a map of England, where Cassivellaunus led the Britons",
+            "Add 'Caesar's second invasion, 54 BC' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 3",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#3"
+            }
+          ],
+          "pages": "10–12",
+          "questions": [
+            "How many ships did Caesar bring the second time?",
+            "Why were British swords weaker than Roman ones?",
+            "What do the letters B.C. and A.D. mean?"
+          ],
+          "answers": [
+            "About eight hundred",
+            "They were made of soft copper, which bent easily",
+            "B.C. means before Christ; A.D. (Anno Domini) means in the year of our Lord"
+          ]
+        },
+        {
+          "title": "Chapter 4: How Caligula Conquered Britain, and How Caractacus Refused to Be Conquered",
+          "steps": [
+            "Read chapter 4 aloud together",
+            "Narrate Caligula's seashell 'conquest' and what Caractacus said to the Emperor Claudius",
+            "Find the Welsh borders near Shropshire on a map, where Caractacus made his last stand",
+            "Add 'Claudius invades Britain, AD 43' and 'Caractacus captured, AD 51' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 4",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#4"
+            }
+          ],
+          "pages": "13–16",
+          "questions": [
+            "What did Caligula order his soldiers to gather on the beach?",
+            "What was a Roman Triumph?",
+            "What did Claudius do after hearing Caractacus speak?"
+          ],
+          "answers": [
+            "Seashells",
+            "A victory parade through Rome with the conqueror, his soldiers, and his captives",
+            "He set Caractacus and his family free"
+          ],
+          "notes": "Caligula's seashell episode comes from Roman writers and may be exaggerated. The site of Caractacus's last battle is not known for certain."
+        },
+        {
+          "title": "Chapter 5: The Story of a Warrior Queen",
+          "steps": [
+            "Read chapter 5 aloud together",
+            "Narrate why Boadicea rose against the Romans and what she said to her people",
+            "Find Norfolk and Suffolk, then London and St Albans, on a map of England",
+            "Add 'Boadicea (Boudica) leads the revolt, AD 60–61' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 5",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#5"
+            }
+          ],
+          "pages": "17–21",
+          "questions": [
+            "Which part of Britain did Boadicea rule?",
+            "What did her husband do with his wealth before he died?",
+            "What was St Albans called in Roman times?"
+          ],
+          "answers": [
+            "The land now called Norfolk and Suffolk",
+            "He gave half to the Emperor and half to his wife and daughters",
+            "Verulamium"
+          ],
+          "notes": "This chapter describes the sacking of towns and ends with Boadicea poisoning herself and her daughters; parents may want to preview it for younger children."
+        },
+        {
+          "title": "Chapter 6: The Last of the Romans",
+          "steps": [
+            "Read chapter 6 aloud together",
+            "Narrate the good things Agricola did in Britain and why Hadrian built his wall",
+            "Trace Hadrian's Wall from the Tyne to the Solway on a map of northern England",
+            "Add 'Hadrian's Wall begun, AD 122' and 'Romans leave Britain, c. 410' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 6",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#6"
+            }
+          ],
+          "pages": "22–25",
+          "questions": [
+            "Name two good things Agricola did for the Britons.",
+            "Who were the British priests, and which tree did they hold sacred?",
+            "About what year did the Romans leave Britain?"
+          ],
+          "answers": [
+            "He lowered taxes, built schools and courts, and taught people to read and write",
+            "The Druids; the oak tree",
+            "About AD 410"
+          ],
+          "notes": "The book's picture of the ancient Britons as 'ignorant and wild' reflects its era; archaeology shows a skilled Iron Age culture. Worth a brief talk."
+        },
+        {
+          "title": "Chapter 7: The Story of St. Alban",
+          "steps": [
+            "Read chapter 7 aloud together",
+            "Narrate how Alban hid Amphibalus and took his place before the governor",
+            "Find St Albans, north of London, on a map of England",
+            "Add 'Martyrdom of St Alban, c. 304' to your timeline (the exact date is uncertain)"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 7",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#7"
+            }
+          ],
+          "pages": "26–30",
+          "questions": [
+            "Why did Amphibalus come to Alban's house?",
+            "How did Alban trick the soldiers?",
+            "What is the hill where Alban died called today?"
+          ],
+          "answers": [
+            "He was a Christian fleeing the Emperor's soldiers and needed a hiding place",
+            "He put on Amphibalus's robe and hood so they took him for the priest",
+            "Holywell Hill"
+          ],
+          "notes": "Alban's execution by beheading is told plainly. The book itself says the miracles at his death need not be believed."
+        },
+        {
+          "title": "Chapter 8: Vortigern and King Constans",
+          "steps": [
+            "Read chapter 8 aloud together",
+            "Narrate how Vortigern made Constans king and then plotted to take the power himself",
+            "Find Hadrian's Wall, then Brittany in north-west France, on a map",
+            "Add 'The Groans of the Britons appeal to Rome, c. 446' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 8",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#8"
+            }
+          ],
+          "pages": "31–35",
+          "questions": [
+            "What was the Britons' sad letter to Rome called?",
+            "What was Constans before he became king?",
+            "Where did Aurelius Ambrosius and Uther Pendragon flee?"
+          ],
+          "answers": [
+            "The Groans of the Britons",
+            "A monk",
+            "To Brittany in France"
+          ],
+          "notes": "Constans, Vortigern's plot, and Uther Pendragon come from Geoffrey of Monmouth's legendary history; the 'Groans' letter is from the early writer Gildas. The murder of Constans is told plainly."
+        }
+      ]
+    },
+    {
+      "title": "Unit 2: Saxons, Arthur, and Alfred (Chapters 9–17)",
+      "lessons": [
+        {
+          "title": "Chapter 9: The Story of the Coming of Hengist and Horsa",
+          "steps": [
+            "Read chapter 9 aloud together",
+            "Narrate how Hengist won land with an ox-hide thong and how Rowena met Vortigern",
+            "Find Kent, then Caistor near Lincoln, on a map of England",
+            "Add 'Hengist and Horsa land in Kent, 449' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 9",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#9"
+            }
+          ],
+          "pages": "36–40",
+          "questions": [
+            "Why did Vortigern invite the Saxons to Britain?",
+            "How did Hengist make one leather thong surround so much land?",
+            "What did Hengist get in return for letting Vortigern marry Rowena?"
+          ],
+          "answers": [
+            "To help fight the Picts and Scots",
+            "He cut a bullock's hide round and round into one long thin strip",
+            "The whole of Kent"
+          ],
+          "notes": "Hengist, Horsa and the date 449 come from early chronicles; the thong trick and Rowena are legend. Try the paper-spiral experiment the book suggests."
+        },
+        {
+          "title": "Chapter 10: Hengist's Treachery",
+          "steps": [
+            "Read chapter 10 aloud together",
+            "Narrate what happened at the May feast on Salisbury Plain and how Vortigern met his end",
+            "Find Salisbury Plain in Wiltshire, then Wales, on a map",
+            "Add 'The treachery of the long knives (legend), 5th century' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 10",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#10"
+            }
+          ],
+          "pages": "41–44",
+          "questions": [
+            "Where did Hengist's men hide their daggers?",
+            "How did Edol, Earl of Gloucester, escape?",
+            "How did Aurelius and Uther capture Vortigern's castle?"
+          ],
+          "answers": [
+            "In their stockings",
+            "He fought with a wooden stake he found on the ground",
+            "They piled wood around it and set it on fire"
+          ],
+          "notes": "This chapter is legend from Geoffrey of Monmouth and includes a massacre and Vortigern burning in his castle; consider previewing for young listeners."
+        },
+        {
+          "title": "Chapter 11: The Story of How the Giant's Dance Was Brought to Britain",
+          "steps": [
+            "Read chapter 11 aloud together",
+            "Narrate how Merlin brought the Giant's Dance from Ireland and where the stones were set up",
+            "Find Stonehenge on Salisbury Plain in Wiltshire on a map of England",
+            "Put 'Merlin and the Giant's Dance (legend)' on your legends strip; Stonehenge itself was built c. 3000–2000 BC"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 11",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#11"
+            }
+          ],
+          "pages": "45–50",
+          "questions": [
+            "Who cut off Hengist's head?",
+            "Where did Merlin say the Giant's Dance stood?",
+            "What did Aurelius rename the Giant's Dance?"
+          ],
+          "answers": [
+            "Edol, Earl of Gloucester",
+            "In Ireland",
+            "Stonehenge"
+          ],
+          "notes": "The book admits this is probably a fairy tale. Stonehenge is real but was built thousands of years before Merlin's supposed time; a picture of it makes a good discussion starter."
+        },
+        {
+          "title": "Chapter 12: The Coming of Arthur",
+          "steps": [
+            "Read chapter 12 aloud together",
+            "Narrate how Merlin brought Arthur to the nobles and what happened with the sword in the stone",
+            "Find Cornwall and Wales, the lands tied to the Arthur stories, on a map of Britain",
+            "Add 'King Arthur (legend), c. 500' to your legends strip"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 12",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#12"
+            }
+          ],
+          "pages": "51–53",
+          "questions": [
+            "Whose son did Merlin say Arthur was?",
+            "What was written beneath the sword in the stone?",
+            "What were the names of Arthur's sword and spear?"
+          ],
+          "answers": [
+            "Uther Pendragon's",
+            "Whoever could draw it out was the rightful king of Britain",
+            "Excalibur and Ron"
+          ],
+          "notes": "Arthur is a figure of legend; a British war leader may lie behind the stories, but nothing is certain. The verse is from Tennyson's 'Idylls of the King.'"
+        },
+        {
+          "title": "Chapter 13: The Founding of the Round Table",
+          "steps": [
+            "Read chapter 13 aloud together",
+            "Narrate the quarrel at the Easter feast and how a round table solved it",
+            "Find Winchester in Hampshire, where a medieval 'Round Table' hangs, on a map of England",
+            "Add 'Knights of the Round Table (legend)' to your legends strip"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 13",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#13"
+            }
+          ],
+          "pages": "54–57",
+          "questions": [
+            "What were the nobles fighting about at the Easter feast?",
+            "Why did a round table stop the quarreling?",
+            "What did Arthur teach about being brave?"
+          ],
+          "answers": [
+            "Who would get the best seats near the top of the table",
+            "It has no top or bottom, so every knight was equal",
+            "That you can be brave yet kind, and strong yet gentle"
+          ],
+          "notes": "Legend, not history. The Winchester Round Table was made around 1290, centuries after Arthur's supposed time."
+        },
+        {
+          "title": "Chapter 14: The Story of Gregory and the Pretty Children",
+          "steps": [
+            "Read chapter 14 aloud together",
+            "Narrate what Gregory said about the children in the Roman market and how Augustine came to England",
+            "Find Rome in Italy, then Canterbury in Kent, on a map of Europe",
+            "Add 'Augustine arrives in Kent, 597' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 14",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#14"
+            }
+          ],
+          "pages": "58–63",
+          "questions": [
+            "What did Gregory say when he heard the children were Angles?",
+            "Which king first listened to Augustine?",
+            "What did the priest Coifi do to the old idol?"
+          ],
+          "answers": [
+            "Not Angles but angels",
+            "Ethelbert, King of Kent",
+            "He rode at it with a spear and knocked it over"
+          ],
+          "notes": "The children were being sold as slaves; a short talk about slavery may help. Coifi's story actually happened in Northumbria, not Kent."
+        },
+        {
+          "title": "Chapter 15: How King Alfred Learned to Read",
+          "steps": [
+            "Read chapter 15 aloud together",
+            "Narrate how Alfred won his mother's book of songs",
+            "Find Wessex in southern England, and Wantage, Alfred's birthplace, on a map",
+            "Add 'Alfred born at Wantage, 849' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 15",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#15"
+            }
+          ],
+          "pages": "64–67",
+          "questions": [
+            "Where did the Danes come from?",
+            "What was Alfred's mother's name?",
+            "How did Alfred win the book?"
+          ],
+          "answers": [
+            "Denmark, Norway and Sweden",
+            "Osburga",
+            "He was the first of the brothers to learn to read it"
+          ]
+        },
+        {
+          "title": "Chapter 16: King Alfred in the Cowherd's Cottage",
+          "steps": [
+            "Read chapter 16 aloud together",
+            "Narrate how Alfred burned the cakes and what the cowherd's wife said",
+            "Find the Somerset Levels (marshes) in south-west England on a map",
+            "Add 'Alfred hides in the Somerset marshes, 878' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 16",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#16"
+            }
+          ],
+          "pages": "68–72",
+          "questions": [
+            "Why did Alfred build ships?",
+            "What was the cowherd's name?",
+            "What was Alfred thinking about while the cakes burned?"
+          ],
+          "answers": [
+            "To stop the Danes at sea before they could land",
+            "Denewulf",
+            "His kingdom, and how to free his people from the Danes"
+          ],
+          "notes": "The cake story is a much later legend, not recorded in Alfred's lifetime. The poem quoted is Thomas Campbell's 'Ye Mariners of England.'"
+        },
+        {
+          "title": "Chapter 17: More About Alfred the Great",
+          "steps": [
+            "Read chapter 17 aloud together",
+            "Narrate how Alfred spied on the Danes as a minstrel and what he did once peace came",
+            "Find Athelney and Wedmore in Somerset on a map of England",
+            "Add 'Alfred defeats the Danes at Edington; Peace of Wedmore, 878' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 17",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#17"
+            }
+          ],
+          "pages": "73–76",
+          "questions": [
+            "What does Athelney mean?",
+            "What was the Danes' magic banner called?",
+            "How did Alfred keep track of the hours?"
+          ],
+          "answers": [
+            "The Isle of Nobles",
+            "The Raven",
+            "With marked candles that each burned for one hour"
+          ],
+          "notes": "The minstrel disguise is a later legend. Trial by jury grew up over centuries rather than being created by Alfred alone."
+        }
+      ]
+    },
+    {
+      "title": "Unit 3: Danes, Saxons, and the Norman Conquest (Chapters 18–26)",
+      "lessons": [
+        {
+          "title": "Chapter 18: Ethelred the Unready",
+          "steps": [
+            "Read chapter 18 aloud together",
+            "Narrate how Ethelred tried to buy off the Danes and what Danegelt was",
+            "Find Mercia in the English Midlands, then Denmark across the North Sea, on a map",
+            "Add 'St Brice's Day massacre of the Danes, 13 November 1002' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 18",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#18"
+            }
+          ],
+          "pages": "77–80",
+          "questions": [
+            "Who was the Lady of Mercia?",
+            "What did 'Unready' mean for Ethelred?",
+            "What was Danegelt?"
+          ],
+          "answers": [
+            "Ethelfleda, Alfred's daughter and Edward the Elder's sister",
+            "He was foolish and slow (it really meant 'badly advised')",
+            "A tax the people paid so the king could pay the Danes to go away"
+          ],
+          "notes": "The massacre of Danish families, including Gunhilda's death, is described in some detail; consider previewing. The book gives Alfred's death as 901, but it was 899."
+        },
+        {
+          "title": "Chapter 19: How Edmund Ironside Fought for the Crown",
+          "steps": [
+            "Read chapter 19 aloud together",
+            "Narrate Edmund Ironside's single combat with Canute and how they agreed to share England",
+            "Find Normandy in northern France on a map, where Ethelred fled",
+            "Add 'Edmund Ironside and Canute divide England, 1016' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 19",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#19"
+            }
+          ],
+          "pages": "81–84",
+          "questions": [
+            "Why did Sweyn of Denmark attack England?",
+            "Why was Edmund called Ironside?",
+            "Which part of England did each king rule after the fight?"
+          ],
+          "answers": [
+            "To avenge the murder of his sister Gunhilda",
+            "Because of his strength and courage",
+            "Edmund ruled the south and Canute the north"
+          ],
+          "notes": "The single combat comes from later chroniclers and may not have happened. In 1016 Edmund actually kept Wessex while Canute took the rest."
+        },
+        {
+          "title": "Chapter 20: Canute and the Waves",
+          "steps": [
+            "Read chapter 20 aloud together",
+            "Narrate how Canute answered his flattering nobles at the seashore",
+            "Find Winchester in Hampshire, and Denmark and Norway across the North Sea, on a map",
+            "Add 'Canute becomes king of all England, 1016' and 'Canute dies, 1035' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 20",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#20"
+            }
+          ],
+          "pages": "85–87",
+          "questions": [
+            "Besides England, which countries did Canute rule?",
+            "What lesson did Canute teach by sitting before the waves?",
+            "Into how many earldoms did Canute divide England?"
+          ],
+          "answers": [
+            "Denmark, Norway and Sweden",
+            "That only God has power over the sea, not any king",
+            "Four"
+          ],
+          "notes": "The waves story was first written down about a century after Canute and is probably legend; note that Canute was showing the limits of a king's power, not trying to command the sea."
+        },
+        {
+          "title": "Chapter 21: Edward the Confessor",
+          "steps": [
+            "Read chapter 21 aloud together",
+            "Narrate the fight at Dover and why Earl Godwin refused to punish the townspeople",
+            "Find Dover in Kent and Normandy across the Channel on a map",
+            "Add 'Edward the Confessor dies; Westminster Abbey consecrated, 1066' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 21",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#21"
+            }
+          ],
+          "pages": "88–93",
+          "questions": [
+            "Why did Edward the Confessor prefer the Normans?",
+            "What did Godwin say when Edward ordered him to punish Dover?",
+            "How did Harold end up in Duke William's power?"
+          ],
+          "answers": [
+            "He had grown up in Normandy",
+            "That the king had heard only one side of the story",
+            "His ship was wrecked on the coast of Normandy"
+          ]
+        },
+        {
+          "title": "Chapter 22: Harold",
+          "steps": [
+            "Read chapter 22 aloud together",
+            "Narrate Harold's crowning and how Duke William took the news",
+            "Find Westminster in London and Rouen in Normandy on a map",
+            "Add 'Harold crowned king, January 1066' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 22",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#22"
+            }
+          ],
+          "pages": "94–100",
+          "questions": [
+            "Who was the real heir to the throne, and why wasn't he chosen?",
+            "What did Harold tell William's messenger about the crown?",
+            "What did William promise his nobles to get them to come?"
+          ],
+          "answers": [
+            "Edgar the Ætheling; he was a little boy raised in Hungary",
+            "That it was not his to give; the people had given it to him in trust",
+            "Land, castles and money taken from the English"
+          ]
+        },
+        {
+          "title": "Chapter 23: The Battle of Stamford Bridge",
+          "steps": [
+            "Read chapter 23 aloud together",
+            "Narrate what Harold offered Tostig before the battle and what Tostig answered",
+            "Find York and Stamford Bridge in Yorkshire on a map of England",
+            "Add 'Battle of Stamford Bridge, 25 September 1066' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 23",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#23"
+            }
+          ],
+          "pages": "101–107",
+          "questions": [
+            "Who invaded the north with Tostig?",
+            "How much English land did Harold say Harold Hardrada would get?",
+            "Why had Harold's army gone home before this news came?"
+          ],
+          "answers": [
+            "Harold Hardrada, King of Norway",
+            "Seven feet for a grave, or a little more since he was so tall",
+            "It was autumn and they went home to bring in the harvest"
+          ]
+        },
+        {
+          "title": "Chapter 24: The Battle of Hastings",
+          "steps": [
+            "Read chapter 24 aloud together",
+            "Narrate how William landed in England and how the battle on Senlac Hill was won and lost",
+            "Find Pevensey and Hastings on the Sussex coast, then the town of Battle, on a map",
+            "Add 'Battle of Hastings, 14 October 1066' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 24",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#24"
+            }
+          ],
+          "pages": "108–114",
+          "questions": [
+            "What did William say when he fell as he landed?",
+            "Why wouldn't Harold let Gurth burn the land between London and the coast?",
+            "Who rode out first for the Normans, singing?"
+          ],
+          "answers": [
+            "That he had already taken hold of his kingdom",
+            "He would never harm English homes or the people he was given to rule",
+            "Taillefer, a minstrel"
+          ],
+          "notes": "The battle was fought on 14 October 1066; the book's date of the 15th is a slip. The Bayeux Tapestry is a wonderful picture source to look at alongside."
+        },
+        {
+          "title": "Chapter 25: William the Conqueror – The Story of Hereward the Wake",
+          "steps": [
+            "Read chapter 25 aloud together",
+            "Narrate how Hereward held out at Ely and how he was finally betrayed",
+            "Find Ely and the Fens in Cambridgeshire on a map of England",
+            "Add 'William crowned, Christmas 1066' and 'Hereward's stand at Ely, 1070–71' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 25",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#25"
+            }
+          ],
+          "pages": "115–120",
+          "questions": [
+            "Who would not crown William, and who crowned Harold?",
+            "How did William try to reach the camp at Ely?",
+            "Who betrayed Hereward, and why?"
+          ],
+          "answers": [
+            "Archbishop Stigand, who had also crowned Harold",
+            "He built a strong road across the marshes",
+            "The monks, who were tired of fighting and plain food"
+          ],
+          "notes": "Includes the Harrying of the North, a burned 'witch,' and mutilation of prisoners; preview for sensitive children. Stigand did not in fact crown Harold or William; the book follows older tradition."
+        },
+        {
+          "title": "Chapter 26: William the Conqueror – Death of the King",
+          "steps": [
+            "Read chapter 26 aloud together",
+            "Narrate what the curfew and the Domesday Book were, and why William made them",
+            "Find the New Forest in Hampshire, then Caen in Normandy where William is buried, on a map",
+            "Add 'Domesday Book, 1086' and 'Death of William the Conqueror, 1087' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 26",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#26"
+            }
+          ],
+          "pages": "121–124",
+          "questions": [
+            "What does 'curfew' come from, and what did it mean?",
+            "What was written in the Domesday Book?",
+            "What did William destroy villages to make?"
+          ],
+          "answers": [
+            "French 'couvre feu,' meaning 'cover fire': put out lights and fires at eight",
+            "All the great houses and lands in the kingdom and who owned them",
+            "The New Forest, a hunting ground"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 4: Normans and the First Plantagenets (Chapters 27–36)",
+      "lessons": [
+        {
+          "title": "Chapter 27: The Story of William the Red",
+          "steps": [
+            "Read chapter 27 aloud together",
+            "Narrate how William Rufus won English support and how he died in the forest",
+            "Find the New Forest in Hampshire and Winchester, where Rufus is buried, on a map",
+            "Add 'William Rufus killed in the New Forest, 1100' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 27",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#27"
+            }
+          ],
+          "pages": "125–128",
+          "questions": [
+            "Why was he called William Rufus?",
+            "What did Rufus promise the English to win their help?",
+            "Who was suspected of shooting the king?"
+          ],
+          "answers": [
+            "Because of his red hair",
+            "Lower taxes, more liberty, and protection from the Norman barons",
+            "Walter Tyrrell"
+          ],
+          "notes": "Whether Rufus's death was an accident or murder is still debated."
+        },
+        {
+          "title": "Chapter 28: Henry I. – The Story of the \"White Ship\"",
+          "steps": [
+            "Read chapter 28 aloud together",
+            "Narrate the sinking of the White Ship and who survived to tell the story",
+            "Find Barfleur on the coast of Normandy and trace the crossing to England on a map",
+            "Add 'Wreck of the White Ship, 1120' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 28",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#28"
+            }
+          ],
+          "pages": "129–136",
+          "questions": [
+            "Why was Henry I called Beauclerc?",
+            "Why did Prince William turn the small boat back?",
+            "Who was the only survivor, and what may have helped save him?"
+          ],
+          "answers": [
+            "It means 'fine scholar'; he could read and write well",
+            "To save his sister Marie",
+            "Berthold, a butcher of Rouen; his warm sheepskin coat"
+          ],
+          "notes": "The shipwreck and drownings are told vividly and could upset a sensitive child."
+        },
+        {
+          "title": "Chapter 29: The Story of King Stephen",
+          "steps": [
+            "Read chapter 29 aloud together",
+            "Narrate how Matilda escaped from Oxford over the snow and how Stephen and Henry made peace",
+            "Find Oxford and Wallingford on the River Thames, then Northallerton in Yorkshire, on a map",
+            "Add 'Matilda escapes Oxford, 1142' and 'Treaty of Wallingford, 1153' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 29",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#29"
+            }
+          ],
+          "pages": "137–140",
+          "questions": [
+            "Where does the name Plantagenet come from?",
+            "Why was it called the Battle of the Standard?",
+            "How did Matilda and her knights slip past Stephen's soldiers?"
+          ],
+          "answers": [
+            "From planta genista, the sprig of broom Geoffrey wore in his helmet",
+            "The English gathered round a pole on a cart hung with four saints' banners",
+            "They dressed in white and crossed the frozen Thames on the ice"
+          ],
+          "notes": "The cruelty in the barons' castles is mentioned briefly; this period is often called 'the Anarchy.'"
+        },
+        {
+          "title": "Chapter 30: Henry Plantagenet – The Story of Gilbert and Rohesia",
+          "steps": [
+            "Read chapter 30 aloud together",
+            "Narrate how Rohesia freed Gilbert and found him again in London",
+            "Find Jerusalem in the Holy Land, then London, on a map, and trace Rohesia's long journey",
+            "Add 'Henry II crowned, 1154' to your timeline (Gilbert and Rohesia are legend)"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 30",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#30"
+            }
+          ],
+          "pages": "141–144",
+          "questions": [
+            "What did Henry II make the barons do with their castles?",
+            "What were the only two English words Rohesia knew?",
+            "What was the name of Gilbert and Rohesia's son?"
+          ],
+          "answers": [
+            "Pull them down",
+            "Gilbert and London",
+            "Thomas (Thomas à Becket)"
+          ],
+          "notes": "The book says this tale may be only a fairy tale; Becket's mother was in fact a Norman woman. Its words for Muslims ('Mohametans,' 'Saracens') are dated."
+        },
+        {
+          "title": "Chapter 31: Henry Plantagenet – The Story of Thomas à Becket",
+          "steps": [
+            "Read chapter 31 aloud together",
+            "Narrate how Henry and Becket went from close friends to bitter enemies",
+            "Find Canterbury in Kent on a map of England",
+            "Add 'Murder of Thomas Becket, 29 December 1170' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 31",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#31"
+            }
+          ],
+          "pages": "145–151",
+          "questions": [
+            "What happened with the beggar and Becket's cloak?",
+            "How did Becket change when he became archbishop?",
+            "What did Henry and Becket disagree about over priests who did wrong?"
+          ],
+          "answers": [
+            "The king pulled off Becket's fine cloak and gave it to the beggar",
+            "He gave up fine clothes, rich food and servants for a plain, hard life",
+            "Henry wanted them tried in the king's courts; Becket wanted bishops' courts"
+          ],
+          "notes": "Becket's killing in the cathedral is described step by step; preview for younger children."
+        },
+        {
+          "title": "Chapter 32: Henry Plantagenet – The Story of the Conquest of Ireland",
+          "steps": [
+            "Read chapter 32 aloud together",
+            "Narrate how Henry showed sorrow for Becket's death and how Ireland came under the English king",
+            "Find Ireland, Dublin, and the four nations of the United Kingdom on a map",
+            "Add 'Henry II goes to Ireland, 1171–72' and 'Henry's penance at Canterbury, 1174' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 32",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#32"
+            }
+          ],
+          "pages": "152–156",
+          "questions": [
+            "How did Henry show he was sorry at Becket's grave?",
+            "Which Irish king asked Henry for help?",
+            "What news broke Henry's heart at the end of his life?"
+          ],
+          "answers": [
+            "He walked barefoot, prayed all night without food, and let monks beat his back",
+            "Dermot",
+            "That his favourite son John had rebelled against him too"
+          ],
+          "notes": "The book presents the Norman takeover of Ireland as a simple 'joining'; it was an invasion with a long, painful legacy, worth a short talk."
+        },
+        {
+          "title": "Chapter 33: The Story of Richard Cœur de Lion",
+          "steps": [
+            "Read chapter 33 aloud together",
+            "Narrate why Richard went on crusade and how he was discovered in Austria",
+            "Find Palestine and Jerusalem, then Austria and Vienna, on a map; then Sherwood Forest near Nottingham",
+            "Add 'Richard I on the Third Crusade, 1190–92' and 'Richard captured in Austria, 1192' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 33",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#33"
+            }
+          ],
+          "pages": "157–161",
+          "questions": [
+            "What does 'crusade' mean, and where does the word come from?",
+            "What is a truce, and how long was Richard's truce with Saladin?",
+            "What gave away the page in the market?"
+          ],
+          "answers": [
+            "War of the cross, from the Latin crux",
+            "A promise not to fight for a set time; three years",
+            "He carried the king's rich embroidered gloves"
+          ],
+          "notes": "The book tells the Crusades only from the Christian side, and Robin Hood is legend. The page is beaten to make him talk."
+        },
+        {
+          "title": "Chapter 34: Richard Cœur de Lion – The Story of How Blondel Found the King",
+          "steps": [
+            "Read chapter 34 aloud together",
+            "Narrate how Blondel found Richard and how the English got their king back",
+            "Find Germany and Trifels Castle, then Châlus in France where Richard died, on a map",
+            "Add 'Richard ransomed and freed, 1194' and 'Richard dies at Châlus, 1199' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 34",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#34"
+            }
+          ],
+          "pages": "162–167",
+          "questions": [
+            "How did Blondel know he had found the king?",
+            "What did the English have to pay to free Richard?",
+            "What did Richard do with the archer who shot him?"
+          ],
+          "answers": [
+            "Richard sang back the next part of their song from a window",
+            "A large ransom",
+            "He forgave him, set him free, and gave him a hundred shillings"
+          ],
+          "notes": "Blondel's search is a well-loved legend, not history. Richard hanging the castle's soldiers is mentioned briefly."
+        },
+        {
+          "title": "Chapter 35: John Lackland – The Story of Prince Arthur",
+          "steps": [
+            "Read chapter 35 aloud together",
+            "Narrate how Arthur begged Hubert to spare his eyes",
+            "Find Brittany, then Rouen on the River Seine in Normandy, on a map",
+            "Add 'Prince Arthur disappears at Rouen, 1203' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 35",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#35"
+            }
+          ],
+          "pages": "168–170",
+          "questions": [
+            "Why was John called Lackland?",
+            "Who was the rightful heir to the throne?",
+            "What did Hubert do after Arthur pleaded with him?"
+          ],
+          "answers": [
+            "He was left no lands when his father died",
+            "Prince Arthur of Brittany, son of John's elder brother Geoffrey",
+            "He sent the men with the hot irons away"
+          ],
+          "notes": "Arthur's death is a dark story (the blinding threat comes from Shakespeare's 'King John'); how he really died is unknown. Preview for sensitive children."
+        },
+        {
+          "title": "Chapter 36: John Lackland – The Story of the Great Charter",
+          "steps": [
+            "Read chapter 36 aloud together",
+            "Narrate how the barons made John seal the Great Charter and what it promised",
+            "Find Runnymede on the Thames near Windsor, then the Wash on the east coast, on a map",
+            "Add 'Magna Carta sealed at Runnymede, 15 June 1215' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 36",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#36"
+            }
+          ],
+          "pages": "171–178",
+          "questions": [
+            "What was an Interdict?",
+            "Who helped the barons write the Great Charter?",
+            "Name one promise in Magna Carta."
+          ],
+          "answers": [
+            "A ban on all church services in the land",
+            "Stephen Langton, Archbishop of Canterbury",
+            "No free man may be imprisoned or ruined without a lawful judgment (or: justice will not be sold, denied, or delayed)"
+          ],
+          "notes": "The book spells it 'Langdon'; the usual spelling is Langton. Surviving copies are now in the British Library and some cathedrals."
+        }
+      ]
+    },
+    {
+      "title": "Unit 5: Plantagenet Kings and the Hundred Years' War (Chapters 37–48)",
+      "lessons": [
+        {
+          "title": "Chapter 37: Henry III. of Winchester – The Story of Hubert de Burgh",
+          "steps": [
+            "Read chapter 37 aloud together",
+            "Narrate how Hubert de Burgh beat the French fleet and how the smith refused to make his chains",
+            "Find Dover and Sandwich on the Kent coast, then the Tower of London, on a map",
+            "Add 'Hubert de Burgh defeats the French at sea, 1217' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 37",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#37"
+            }
+          ],
+          "pages": "179–183",
+          "questions": [
+            "How old was Henry III when he became king?",
+            "What trick did the English sailors use against the French?",
+            "What does 'taking sanctuary' mean?"
+          ],
+          "answers": [
+            "Nine",
+            "They threw quicklime into the wind so it blew into the Frenchmen's eyes",
+            "Fleeing to a church and holding the altar cross so no one dares harm you"
+          ]
+        },
+        {
+          "title": "Chapter 38: Henry III. of Winchester – The Story of Simon de Montfort",
+          "steps": [
+            "Read chapter 38 aloud together",
+            "Narrate what Simon de Montfort did for the people and how his new council worked",
+            "Find Lewes in Sussex and Evesham in Worcestershire on a map of England",
+            "Add 'Battle of Lewes, 1264' and 'Simon de Montfort's Parliament, 1265' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 38",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#38"
+            }
+          ],
+          "pages": "184–188",
+          "questions": [
+            "What did Henry tell Simon he feared more than thunder?",
+            "What was special about the laws made at Oxford?",
+            "What does 'Parliament' mean?"
+          ],
+          "answers": [
+            "Simon himself",
+            "They were written in English",
+            "Talking-place"
+          ],
+          "notes": "The torture of a Jewish man for money is mentioned; the book calls Jews 'despised' without comment, which is worth discussing. Simon was killed at Evesham in 1265."
+        },
+        {
+          "title": "Chapter 39: Henry III. – The Story of the Poisoned Dagger",
+          "steps": [
+            "Read chapter 39 aloud together",
+            "Narrate how the Emir's servant attacked Prince Edward and how Eleanor and the doctor helped him",
+            "Find Acre and Jaffa on a map of modern Israel",
+            "Add 'Prince Edward survives an assassin at Acre, 1272' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 39",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#39"
+            }
+          ],
+          "pages": "189–192",
+          "questions": [
+            "What did Princess Eleanor do as soon as she heard Edward was wounded?",
+            "Why did Edward call the servant who struck the dead slave a coward?",
+            "Why did Edward leave Palestine and sail for home?"
+          ],
+          "answers": [
+            "She sucked the poisoned wound.",
+            "Because the slave was already dead, so hitting him was neither brave nor honorable.",
+            "He heard his father, Henry III, was ill."
+          ],
+          "notes": "The story of Eleanor sucking out the poison is a later legend; chroniclers of the time do not mention it. The attack scene is briefly violent."
+        },
+        {
+          "title": "Chapter 40: Edward I. – The Little War of Chalons",
+          "steps": [
+            "Read chapter 40 aloud together",
+            "Narrate what a tournament was and how the Count of Chalons broke the rules",
+            "Find Chalon-sur-Saône in Burgundy on a map of France",
+            "Add 'The Little War of Chalons, 1273' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 40",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#40"
+            }
+          ],
+          "pages": "193–195",
+          "questions": [
+            "How many knights did the Count bring, and how many had been agreed?",
+            "Why would Edward not take the Count's sword himself?",
+            "What was given to the winner of a tournament?"
+          ],
+          "answers": [
+            "Two thousand, though one thousand had been agreed.",
+            "The Count had behaved unknightly, so Edward let a common soldier take it.",
+            "A crown of bay leaves."
+          ]
+        },
+        {
+          "title": "Chapter 41: Edward I. – The Lawgiver – The Story of the First Prince of Wales",
+          "steps": [
+            "Read chapter 41 aloud together",
+            "Narrate how Edward made money round and how Wales got a Prince who spoke no French or English",
+            "Find Caernarfon Castle and Mount Snowdon in North Wales on a map",
+            "Add 'Edward I conquers Wales; Llewellyn killed, 1282' and 'Edward of Caernarfon born, 1284' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 41",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#41"
+            }
+          ],
+          "pages": "196–199",
+          "questions": [
+            "Why did the people feel Edward I was truly an English king?",
+            "What did people do with coins before Edward made his new law?",
+            "Who was the prince Edward showed to the Welsh barons?"
+          ],
+          "answers": [
+            "He had an English name, was born and lived in England, spoke English, and loved his people.",
+            "They cut them into pieces to make change.",
+            "His baby son, born at Caernarvon Castle."
+          ],
+          "notes": "The baby-prince story and Merlin's prophecy are legends; the real title 'Prince of Wales' was given to young Edward in 1301. Llewellyn's head being paraded on a spear is mentioned briefly."
+        },
+        {
+          "title": "Chapter 42: Edward I. – The Hammer of the Scots",
+          "steps": [
+            "Read chapter 42 aloud together",
+            "Narrate how Edward came to choose John Balliol and what treasures he carried off from Scotland",
+            "Find Scone near Perth in Scotland and Westminster Abbey in London on a map",
+            "Add 'Edward I takes the Stone of Destiny to Westminster, 1296' and 'Edward I dies, 1307' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 42",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#42"
+            }
+          ],
+          "pages": "200–203",
+          "questions": [
+            "Who was the Maid of Norway, and what happened to her?",
+            "What was the Stone of Destiny said to be?",
+            "Name two of Edward I's nicknames."
+          ],
+          "answers": [
+            "The little heir to Scotland's throne; she died on her way from Norway.",
+            "The stone Jacob used as a pillow when he dreamed of the ladder to heaven.",
+            "Any two of Longshanks, Hammer of the Scots, the Lawgiver, Edward of Westminster."
+          ],
+          "notes": "The book says the Stone is still at Westminster; it was returned to Scotland in 1996 and is now shown in Perth, travelling to London only for coronations."
+        },
+        {
+          "title": "Chapter 43: Edward II. of Caernarvon – The Story of King Robert the Bruce and Bohun",
+          "steps": [
+            "Read chapter 43 aloud together",
+            "Narrate how Bruce prepared the ground before battle and what happened when Bohun charged at him",
+            "Find Stirling Castle and the Bannock Burn in central Scotland on a map",
+            "Add 'Robert the Bruce slays Henry de Bohun, 23 June 1314' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 43",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#43"
+            }
+          ],
+          "pages": "204–208",
+          "questions": [
+            "How did Bruce make the firm ground dangerous for English horses?",
+            "What did Bruce mean when he told Randolph a rose had fallen from his crown?",
+            "What did Bruce say after defeating Bohun?"
+          ],
+          "answers": [
+            "He had pits dug, filled with gorse branches, and covered with turf.",
+            "Randolph had missed his chance to win honor by letting English horsemen slip past.",
+            "That he had broken his good ax."
+          ],
+          "notes": "Bohun's death is described briefly but vividly (a split helmet). The chapter also tells of Piers Gaveston's killing."
+        },
+        {
+          "title": "Chapter 44: Edward II. of Caernarvon – The Story of the Battle of Bannockburn",
+          "steps": [
+            "Read chapter 44 aloud together",
+            "Narrate how the camp followers helped win Bannockburn and how Edward II escaped",
+            "Find Stirling, the River Forth, Dunbar, and Berwick-upon-Tweed on a map",
+            "Add 'Battle of Bannockburn, 24 June 1314' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 44",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#44"
+            }
+          ],
+          "pages": "209–211",
+          "questions": [
+            "What did King Edward think the kneeling Scots were doing?",
+            "What was the 'new army' that frightened the English?",
+            "How did Edward II finally get back to England?"
+          ],
+          "answers": [
+            "Asking for mercy (but they were praying to God).",
+            "Servants and camp followers with cloths tied to poles for banners.",
+            "In a little fishing boat from Dunbar to Berwick."
+          ],
+          "notes": "The chapter ends with Edward II being deposed and murdered in prison (1327); a parent may want to preview the last paragraph."
+        },
+        {
+          "title": "Chapter 45: Edward III. of Windsor – The Story of the Battle of Sluys",
+          "steps": [
+            "Read chapter 45 aloud together",
+            "Narrate why the Hundred Years' War began and how the English won at Sluys",
+            "Find Sluis (Sluys) in the Netherlands, Ghent in Belgium, and Southampton in England on a map",
+            "Add 'English victory at sea at Sluys, 1340; Hundred Years' War begins' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 45",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#45"
+            }
+          ],
+          "pages": "212–215",
+          "questions": [
+            "Why did Edward III say he should be King of France?",
+            "What was the Christopher?",
+            "Who finally told King Philip about the defeat, and how?"
+          ],
+          "answers": [
+            "Because his mother Isabella was sister to the French king who died without a son.",
+            "An English ship the French had captured, which the English won back.",
+            "His court fool, with a joke that the English were too cowardly to jump into the sea."
+          ]
+        },
+        {
+          "title": "Chapter 46: Edward III. of Windsor – The Story of the Battle of Crecy",
+          "steps": [
+            "Read chapter 46 aloud together",
+            "Narrate how the English archers won at Crécy and why the King let his son 'win his spurs'",
+            "Find Crécy-en-Ponthieu in northern France on a map",
+            "Add 'Battle of Crécy, 26 August 1346' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 46",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#46"
+            }
+          ],
+          "pages": "216–222",
+          "questions": [
+            "Where did Edward III watch the battle from?",
+            "What does 'Ich dien' mean, and whose motto was it first?",
+            "What did Edward say when he picked up the lady's garter?"
+          ],
+          "answers": [
+            "A windmill.",
+            "'I serve'; the blind King of Bohemia's.",
+            "'Evil be to him who evil thinks' (Honi soit qui mal y pense)."
+          ],
+          "notes": "The Order of the Garter was founded around 1348; the dropped-garter tale and the Bohemian origin of the Prince of Wales feathers are traditions rather than proven history."
+        },
+        {
+          "title": "Chapter 47: Edward III. of Windsor – The Story of the Siege of Calais",
+          "steps": [
+            "Read chapter 47 aloud together",
+            "Narrate how the six burghers offered themselves and how Queen Philippa saved them",
+            "Find Calais on the French coast across the Strait of Dover",
+            "Add 'Siege of Calais ends; the six burghers spared, 1347' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 47",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#47"
+            }
+          ],
+          "pages": "223–229",
+          "questions": [
+            "What did Edward do for the poor and old people sent out of Calais?",
+            "Who was the first man to offer himself?",
+            "How did the six men have to be dressed?"
+          ],
+          "answers": [
+            "Gave them a dinner and money and let them pass safely.",
+            "Eustace de St. Pierre.",
+            "In their shirts, bare-headed and barefoot, with ropes round their necks, carrying the keys."
+          ]
+        },
+        {
+          "title": "Chapter 48: Edward III. of Windsor – The Story of the Battle of Poitiers",
+          "steps": [
+            "Read chapter 48 aloud together",
+            "Narrate how the Black Prince won at Poitiers and how he treated King John afterward",
+            "Find Poitiers in France and Canterbury Cathedral in Kent on a map",
+            "Add 'Battle of Poitiers, 1356' and 'Black Death reaches England, 1348' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 48",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#48"
+            }
+          ],
+          "pages": "230–233",
+          "questions": [
+            "Who was taken prisoner at Poitiers?",
+            "What did the Black Prince do at supper that surprised King John?",
+            "What still hangs over the Black Prince's tomb?"
+          ],
+          "answers": [
+            "King John of France and his son.",
+            "He waited on him at table instead of sitting down.",
+            "His black armor."
+          ],
+          "notes": "The Black Death is mentioned briefly; it killed perhaps a third or more of England's people."
+        }
+      ]
+    },
+    {
+      "title": "Unit 6: Lancaster, York, and the Wars of the Roses (Chapters 49–59)",
+      "lessons": [
+        {
+          "title": "Chapter 49: Richard II. of Bordeaux – The Story of Wat Tyler's Rebellion",
+          "steps": [
+            "Read chapter 49 aloud together",
+            "Narrate what started Wat Tyler's rebellion and what Richard did at Mile End and Smithfield",
+            "Find Blackheath, Mile End, Smithfield, and the Tower on a map of London",
+            "Add 'Peasants' Revolt led by Wat Tyler, 1381' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 49",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#49"
+            }
+          ],
+          "pages": "234–241",
+          "questions": [
+            "What was the poll-tax?",
+            "What did the people at Mile End ask the King for?",
+            "Who struck down Wat Tyler at Smithfield?"
+          ],
+          "answers": [
+            "A tax on every person over fourteen ('poll' means head).",
+            "To make them and their children free forever.",
+            "The Mayor of London."
+          ],
+          "notes": "The book calls the peasants 'slaves'; historians say serfs or villeins, who were bound to the land. Includes riots, burnings, and executions."
+        },
+        {
+          "title": "Chapter 50: How King Richard II. Lost His Throne",
+          "steps": [
+            "Read chapter 50 aloud together",
+            "Narrate how Henry of Bolingbroke came back to England and took Richard's crown",
+            "Find Flint Castle in North Wales and Pontefract in Yorkshire on a map",
+            "Add 'Richard II deposed; Henry IV becomes king, 1399' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 50",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#50"
+            }
+          ],
+          "pages": "242–244",
+          "questions": [
+            "What did Richard take that made Henry come back from exile?",
+            "Where did Richard and Henry meet?",
+            "Which of Richard's companions left him for Henry?"
+          ],
+          "answers": [
+            "The lands and money of Henry's father, John of Gaunt.",
+            "Flint Castle in Wales.",
+            "His favorite dog."
+          ]
+        },
+        {
+          "title": "Chapter 51: Henry IV. of Bolingbroke – The Story of the Battle of Shrewsbury",
+          "steps": [
+            "Read chapter 51 aloud together",
+            "Narrate why the Percies turned against Henry IV and what happened at Shrewsbury",
+            "Find Shrewsbury in Shropshire near the Welsh border on a map",
+            "Add 'Battle of Shrewsbury; Hotspur killed, 1403' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 51",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#51"
+            }
+          ],
+          "pages": "245–248",
+          "questions": [
+            "Why was Harry Percy called Hotspur?",
+            "Why did several knights dress like the King at Shrewsbury?",
+            "How did young Prince James of Scotland become Henry's prisoner?"
+          ],
+          "answers": [
+            "Because he was so quick and brave in battle.",
+            "Rebels had sworn to kill the King, so the knights acted as decoys.",
+            "His ship to France was captured by the English."
+          ]
+        },
+        {
+          "title": "Chapter 52: Henry IV. of Bolingbroke – The Story of How Prince Hal Was Sent to Prison",
+          "steps": [
+            "Read chapter 52 aloud together",
+            "Narrate how Judge Gascoigne sent Prince Hal to prison and what the King said about it",
+            "Find Monmouth in Wales, Hal's birthplace, and Westminster in London on a map",
+            "Add 'Henry IV dies; Prince Hal becomes Henry V, 1413' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 52",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#52"
+            }
+          ],
+          "pages": "249–251",
+          "questions": [
+            "What did Prince Hal do in the courtroom?",
+            "Why was the King pleased when he heard the story?",
+            "What did Hal take from his sleeping father's bedside?"
+          ],
+          "answers": [
+            "He struck the judge in the face.",
+            "He had a judge who dared do justice and a son who obeyed the law.",
+            "The crown."
+          ],
+          "notes": "Both stories are traditional tales, made famous by Shakespeare (the verses are from Henry IV, Part 2), and are not proven history."
+        },
+        {
+          "title": "Chapter 53: Henry V. of Monmouth – The Story of the Battle of Agincourt",
+          "steps": [
+            "Read chapter 53 aloud together",
+            "Narrate the tennis-ball insult and how the tired English army won at Agincourt",
+            "Find Harfleur, Azincourt (Agincourt), and Calais in northern France on a map",
+            "Add 'Battle of Agincourt, 25 October 1415' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 53",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#53"
+            }
+          ],
+          "pages": "252–256",
+          "questions": [
+            "What present did the Dauphin send Henry?",
+            "Why did Henry not wish for more soldiers before the battle?",
+            "How did the battle get its name?"
+          ],
+          "answers": [
+            "Tennis balls.",
+            "If they won, the glory was greater; if they died, England lost less.",
+            "From the nearby castle of Agincourt."
+          ]
+        },
+        {
+          "title": "Chapter 54: Henry VI. of Windsor – The Story of the Maid of Orleans",
+          "steps": [
+            "Read chapter 54 aloud together",
+            "Narrate how Joan of Arc led the French army and what happened to her",
+            "Find Domrémy, Orléans, Reims, and Rouen on a map of France",
+            "Add 'Joan of Arc relieves Orléans, 1429' and 'Hundred Years' War ends, 1453' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 54",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#54"
+            }
+          ],
+          "pages": "257–262",
+          "questions": [
+            "Why was Joan called the Maid of Orleans?",
+            "Where was the Dauphin crowned?",
+            "Why did the English say Joan was a witch?"
+          ],
+          "answers": [
+            "She drove the English away from Orleans.",
+            "At Rheims (Reims).",
+            "They thought no one else could have done such wonderful things."
+          ],
+          "notes": "Joan was burned at Rouen in 1431; consider previewing that sentence. The book dates the war's end to 1451; most historians use 1453."
+        },
+        {
+          "title": "Chapter 55: Henry VI. of Windsor – The Red Rose and the White",
+          "steps": [
+            "Read chapter 55 aloud together",
+            "Narrate how the red and white roses became badges and how Richard of York claimed the throne",
+            "Find St Albans in Hertfordshire and the city of York on a map of England",
+            "Add 'First Battle of St Albans; Wars of the Roses begin, 1455' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 55",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#55"
+            }
+          ],
+          "pages": "263–268",
+          "questions": [
+            "Which rose did the Yorkists wear, and which did the Lancastrians wear?",
+            "What did the Duke of York do in the House of Lords?",
+            "Whom did the London crowd choose as king at the end?"
+          ],
+          "answers": [
+            "York wore white; Lancaster wore red.",
+            "He sat on the throne and claimed it.",
+            "Edward, Duke of York (Edward IV)."
+          ],
+          "notes": "The rose-plucking scene comes from Shakespeare, not from records. The deaths of the Duke and his twelve-year-old son at Wakefield (1460) are told in some detail."
+        },
+        {
+          "title": "Chapter 56: Edward IV. – The Story of Queen Margaret and the Robbers",
+          "steps": [
+            "Read chapter 56 aloud together",
+            "Narrate how Queen Margaret and her son escaped the robbers in the forest",
+            "Find Towton in Yorkshire and Hexham in Northumberland on a map",
+            "Add 'Battle of Towton, 1461' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 56",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#56"
+            }
+          ],
+          "pages": "269–271",
+          "questions": [
+            "What was the weather like at the battle of Towton?",
+            "How did Margaret get away from the first robbers?",
+            "What did the second robber do for the Queen and Prince?"
+          ],
+          "answers": [
+            "A wild storm of wind and snow.",
+            "She ran off with her son while they quarreled over her jewels.",
+            "He hid them in his cave, fed them, and took them to a ship."
+          ],
+          "notes": "The robber story (often set after Hexham, 1464) is a traditional tale, not well documented."
+        },
+        {
+          "title": "Chapter 57: Edward IV. – The Story of the King-Maker",
+          "steps": [
+            "Read chapter 57 aloud together",
+            "Narrate how Warwick the King-maker changed sides and what happened in the mist at Barnet",
+            "Find Barnet north of London and Tewkesbury in Gloucestershire on a map",
+            "Add 'Battles of Barnet and Tewkesbury, 1471' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 57",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#57"
+            }
+          ],
+          "pages": "272–276",
+          "questions": [
+            "Why was the Earl of Warwick called the King-maker?",
+            "Why did some Red Rose soldiers attack their own side at Barnet?",
+            "What badge did Edward's men wear on their coats?"
+          ],
+          "answers": [
+            "He was powerful enough to put Edward on the throne, and later Henry again.",
+            "In the mist they mistook the Earl of Oxford's star badge for Edward's sun.",
+            "A golden sun."
+          ],
+          "notes": "Several killings are told plainly: Prince Edward stabbed, Henry VI's mysterious death, and Clarence drowned in wine (a tradition)."
+        },
+        {
+          "title": "Chapter 58: Edward V. – The Story of the King Who Was Never Crowned",
+          "steps": [
+            "Read chapter 58 aloud together",
+            "Narrate how Richard of Gloucester got both young princes and took the crown",
+            "Find Ludlow Castle in Shropshire and Westminster Abbey in London on a map",
+            "Add 'Edward V reigns but is never crowned, 1483' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 58",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#58"
+            }
+          ],
+          "pages": "277–282",
+          "questions": [
+            "Where did Queen Elizabeth take her younger son for safety?",
+            "Who persuaded her to give up little Richard?",
+            "What did the people do when Dr. Shaw called Richard their true king?"
+          ],
+          "answers": [
+            "Westminster Abbey, as sanctuary.",
+            "A bishop.",
+            "They stood silent and did not cheer."
+          ],
+          "notes": "This picture of Richard III follows Tudor writers who were hostile to him; historians still debate his character. Lord Hastings' sudden execution is described."
+        },
+        {
+          "title": "Chapter 59: Richard III. – The Story of the Two Little Princes in the Tower",
+          "steps": [
+            "Read chapter 59 aloud together",
+            "Narrate what happened to the princes in the Tower and how Richard III died at Bosworth",
+            "Find Bosworth Field near Market Bosworth in Leicestershire on a map",
+            "Add 'Princes in the Tower disappear, 1483' and 'Battle of Bosworth, 1485' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 59",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#59"
+            }
+          ],
+          "pages": "283–285",
+          "questions": [
+            "Who was the one servant left with the princes?",
+            "Where was Richard's crown found after the battle?",
+            "Which lord changed sides in the middle of the battle?"
+          ],
+          "answers": [
+            "Black Bill.",
+            "Under a hawthorn tree.",
+            "Lord Stanley."
+          ],
+          "notes": "The smothering of the princes is told gently but clearly; preview for young children. What happened to them is still unproven. Richard's skeleton was found under a Leicester car park in 2012."
+        }
+      ]
+    },
+    {
+      "title": "Unit 7: The Early Tudors (Chapters 60–68)",
+      "lessons": [
+        {
+          "title": "Chapter 60: Henry VII. – The Story of a Make-Believe Prince",
+          "steps": [
+            "Read chapter 60 aloud together",
+            "Narrate who Lambert Simnel pretended to be and how Henry VII proved him false",
+            "Find Dublin in Ireland and Stoke (East Stoke) in Nottinghamshire on a map",
+            "Add 'Lambert Simnel defeated at the Battle of Stoke, 1487' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 60",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#60"
+            }
+          ],
+          "pages": "286–289",
+          "questions": [
+            "How did Henry VII bring the White and Red Roses together?",
+            "How did Henry show Londoners that Simnel was a fake?",
+            "What jobs did Henry give Lambert Simnel?"
+          ],
+          "answers": [
+            "He married Elizabeth of York, daughter of Edward IV.",
+            "He paraded the real Earl of Warwick through the streets.",
+            "Kitchen scullion, then keeper of the King's falcons."
+          ]
+        },
+        {
+          "title": "Chapter 61: Henry VII. – The Story of Another Make-Believe Prince",
+          "steps": [
+            "Read chapter 61 aloud together",
+            "Narrate Perkin Warbeck's adventures and how his rebellion ended",
+            "Find St Michael's Mount in Cornwall, Exeter, and Taunton on a map",
+            "Add 'Perkin Warbeck surrenders, 1497' and 'Columbus reaches America, 1492' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 61",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#61"
+            }
+          ],
+          "pages": "290–295",
+          "questions": [
+            "Whom did Perkin Warbeck claim to be?",
+            "What were the two great discoveries of this time?",
+            "Who brought printing to England?"
+          ],
+          "answers": [
+            "Richard, Duke of York, the younger prince from the Tower.",
+            "Printing and America.",
+            "Caxton."
+          ]
+        },
+        {
+          "title": "Chapter 62: Henry VIII. – The Story of the Field of the Cloth of Gold",
+          "steps": [
+            "Read chapter 62 aloud together",
+            "Narrate the splendors of the Field of the Cloth of Gold and what happened in the wrestling match",
+            "Find Guînes near Calais in northern France on a map",
+            "Add 'Field of the Cloth of Gold, 1520' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 62",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#62"
+            }
+          ],
+          "pages": "296–302",
+          "questions": [
+            "What was Wolsey's father's trade?",
+            "What happened to King Francis's grand tent?",
+            "Who won the wrestling match between the two kings?"
+          ],
+          "answers": [
+            "He was a butcher.",
+            "A strong wind snapped the ropes and blew it down.",
+            "King Francis."
+          ]
+        },
+        {
+          "title": "Chapter 63: Henry VIII. – How the King Became the Defender of the Faith and How the Great Cardinal Died",
+          "steps": [
+            "Read chapter 63 aloud together",
+            "Narrate how Henry won the title Defender of the Faith and why he later quarreled with the Pope",
+            "Find Wittenberg in Germany and Leicester in England on a map",
+            "Add 'Henry VIII named Defender of the Faith, 1521' and 'Wolsey dies at Leicester, 1530' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 63",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#63"
+            }
+          ],
+          "pages": "303–308",
+          "questions": [
+            "What does 'Fidei Defensor' mean, and where can you still see it?",
+            "Who began the Reformation in Germany?",
+            "Why did Henry turn against Wolsey?"
+          ],
+          "answers": [
+            "Defender of the Faith; as F.D. or Fid. Def. on British coins.",
+            "Martin Luther.",
+            "The Pope would not let Henry put away Katherine, and Anne Boleyn turned Henry against him."
+          ],
+          "notes": "The book is written from a Protestant viewpoint; a short talk about how Catholics and Protestants each saw these events may help."
+        },
+        {
+          "title": "Chapter 64: Henry VIII. – The Story of the King's Six Wives",
+          "steps": [
+            "Read chapter 64 aloud together",
+            "Narrate what happened to each of Henry VIII's six wives",
+            "Find Kleve (Cleves) in Germany, home of Anne of Cleves, on a map",
+            "Add 'Henry VIII breaks with Rome, 1534' and 'Henry VIII dies, 1547' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 64",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#64"
+            }
+          ],
+          "pages": "309–312",
+          "questions": [
+            "Why did Henry dislike Anne of Cleves when he met her?",
+            "Why were the church Bibles chained to desks?",
+            "What did the rebels of the Pilgrimage of Grace say was their leader?"
+          ],
+          "answers": [
+            "She looked nothing like her portrait and could speak no English.",
+            "Books were costly, so they were chained in case someone stole them.",
+            "Poverty."
+          ],
+          "notes": "The chapter lists several beheadings, including two of Henry's wives. The rhyme 'divorced, beheaded, died; divorced, beheaded, survived' can help children remember the wives."
+        },
+        {
+          "title": "Chapter 65: Edward VI. – The Story of a Boy King",
+          "steps": [
+            "Read chapter 65 aloud together",
+            "Narrate why the poor were angry about enclosures and what Ket did under the Oak of Reformation",
+            "Find Norwich in Norfolk and Bodmin in Cornwall on a map",
+            "Add 'Edward VI becomes king, 1547' and 'Kett's Rebellion, 1549' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 65",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#65"
+            }
+          ],
+          "pages": "313–317",
+          "questions": [
+            "How did enclosing the common lands hurt poor people?",
+            "What did Ket call the great tree in his camp?",
+            "Whom did Edward VI name to be queen after him?"
+          ],
+          "answers": [
+            "They could no longer graze their cows and sheep there.",
+            "The Oak of Reformation.",
+            "His cousin, Lady Jane Grey."
+          ],
+          "notes": "The tale of the Mayor of Bodmin being hanged on his own gallows is grim; parents may wish to preview it."
+        },
+        {
+          "title": "Chapter 66: The Story of Lady Jane Grey",
+          "steps": [
+            "Read chapter 66 aloud together",
+            "Narrate how Lady Jane Grey was made queen against her wishes and how Mary took the crown",
+            "Find the Tower of London on a map of London and Spain on a map of Europe",
+            "Add 'Lady Jane Grey reigns nine days; Mary I becomes queen, 1553' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 66",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#66"
+            }
+          ],
+          "pages": "318–321",
+          "questions": [
+            "How did Lady Jane feel when she was offered the crown?",
+            "What did Jane say when her father told her the reign was over?",
+            "Why did the English dislike Mary's plan to marry Philip of Spain?"
+          ],
+          "answers": [
+            "Sad and frightened; she fainted.",
+            "That those were the happiest words she had heard since being made queen.",
+            "They feared Spain and its cruel Inquisition."
+          ],
+          "notes": "Jane's beheading is told briefly. The nickname 'Bloody Mary' reflects a Protestant view; a short discussion of both sides can help."
+        },
+        {
+          "title": "Chapter 67: Mary I. – How the Princess Elizabeth Became a Prisoner",
+          "steps": [
+            "Read chapter 67 aloud together",
+            "Narrate how Princess Elizabeth was taken to the Tower and the story of the little boy with flowers",
+            "Trace the River Thames to the Tower of London, then find Hatfield in Hertfordshire",
+            "Add 'Princess Elizabeth imprisoned in the Tower, 1554' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 67",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#67"
+            }
+          ],
+          "pages": "322–326",
+          "questions": [
+            "Why did Elizabeth refuse at first to land at the Traitors' Gate?",
+            "What did the little boy bring Elizabeth?",
+            "What did Elizabeth say she would rather be when she heard a milkmaid singing?"
+          ],
+          "answers": [
+            "She said she was no traitor.",
+            "Flowers.",
+            "A free milkmaid rather than a princess who was a prisoner."
+          ]
+        },
+        {
+          "title": "Chapter 68: Mary I. – How a Candle Was Lit in England Which Has Never Been Put Out",
+          "steps": [
+            "Read chapter 68 aloud together",
+            "Narrate what Latimer said to Ridley and what he meant by the candle",
+            "Find Oxford, where Latimer and Ridley died, and Calais on a map",
+            "Add 'Latimer and Ridley burned at Oxford, 1555' and 'Calais lost; Mary I dies, 1558' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 68",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#68"
+            }
+          ],
+          "pages": "327–329",
+          "questions": [
+            "What did Latimer say they would light in England?",
+            "Which town did England lose at the end of Mary's reign?",
+            "What did Mary say would be found on her heart?"
+          ],
+          "answers": [
+            "A candle that would never be put out.",
+            "Calais.",
+            "The word 'Calais'."
+          ],
+          "notes": "The chapter speaks of burnings for religion (about 280 people), without graphic detail. It praises the Protestant martyrs; you might note that Catholics were also put to death for their faith under other rulers."
+        }
+      ]
+    },
+    {
+      "title": "Unit 8: Elizabeth I (Chapters 69–73)",
+      "lessons": [
+        {
+          "title": "Chapter 69: Elizabeth – How the Imprisoned Princess Became a Queen",
+          "steps": [
+            "Read chapter 69 aloud together",
+            "Narrate how Elizabeth heard she was queen and what she said entering the Tower",
+            "Find Hatfield House in Hertfordshire and the Tower of London on a map",
+            "Add 'Elizabeth I becomes queen, 17 November 1558' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 69",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#69"
+            }
+          ],
+          "pages": "330–332",
+          "questions": [
+            "Where was Elizabeth sitting when she heard she was queen?",
+            "How did Elizabeth enter the Tower this time compared with before?",
+            "What did the people love to call her?"
+          ],
+          "answers": [
+            "Under an oak tree at Hatfield.",
+            "As a free queen, not a prisoner through the Traitors' Gate.",
+            "Good Queen Bess."
+          ],
+          "notes": "The book says no one was killed for religion under Elizabeth; in fact many Catholic priests and some others were executed during her reign."
+        },
+        {
+          "title": "Chapter 70: Elizabeth – The Story of a Most Unhappy Queen",
+          "steps": [
+            "Read chapter 70 aloud together",
+            "Narrate how the Little Douglas helped Mary escape and what happened to her in England",
+            "Find Loch Leven in Scotland and Fotheringhay in Northamptonshire on a map",
+            "Add 'Mary, Queen of Scots escapes Loch Leven, 1568' and 'Mary executed, 1587' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 70",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#70"
+            }
+          ],
+          "pages": "333–337",
+          "questions": [
+            "How were Elizabeth and Mary, Queen of Scots related?",
+            "What did the Little Douglas do with the castle keys?",
+            "How many years was Mary kept a prisoner in England?"
+          ],
+          "answers": [
+            "They were cousins.",
+            "He dropped them in the loch.",
+            "Nineteen years."
+          ],
+          "notes": "Mary's execution is described with some detail (the block, her little dog); consider previewing the end."
+        },
+        {
+          "title": "Chapter 71: Elizabeth – The Story of How England Was Saved from the Spaniards",
+          "steps": [
+            "Read chapter 71 aloud together",
+            "Narrate Drake's game of bowls and how the Spanish Armada was beaten and scattered",
+            "Find Cádiz in Spain, Plymouth in Devon, and the Armada's route round Scotland and Ireland",
+            "Add 'Defeat of the Spanish Armada, 1588' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 71",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#71"
+            }
+          ],
+          "pages": "338–341",
+          "questions": [
+            "What did Drake call his raid on the Spanish harbor?",
+            "What was Drake doing when the Armada was sighted?",
+            "Why could the English ships fight better than the Spanish ones?"
+          ],
+          "answers": [
+            "Singeing the King of Spain's beard.",
+            "Playing bowls.",
+            "They were smaller and easier to turn, and the wind favored them."
+          ],
+          "notes": "Drake's game of bowls is a much-loved legend that cannot be proven."
+        },
+        {
+          "title": "Chapter 72: Elizabeth – The Story of Sir Walter Raleigh",
+          "steps": [
+            "Read chapter 72 aloud together",
+            "Narrate the story of Raleigh's cloak and the servant who threw water over him",
+            "Find Virginia and Roanoke Island on a map of the eastern United States",
+            "Add 'Raleigh sends colonists to Roanoke, Virginia, 1585' and 'Sir Philip Sidney dies, 1586' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 72",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#72"
+            }
+          ],
+          "pages": "342–345",
+          "questions": [
+            "How did Raleigh first win the Queen's notice?",
+            "Why did Raleigh name the new land Virginia?",
+            "What did Sir Philip Sidney do with his cup of water?"
+          ],
+          "answers": [
+            "He laid his new cloak over a puddle for her.",
+            "To honor Elizabeth, the 'Virgin Queen'.",
+            "Gave it to a dying soldier who needed it more."
+          ],
+          "notes": "The cloak and water-bucket stories are legends. The book overstates Raleigh's role with tobacco and potatoes, which reached Europe through several people."
+        },
+        {
+          "title": "Chapter 73: Elizabeth – The Story of the Queen's Favorite",
+          "steps": [
+            "Read chapter 73 aloud together",
+            "Narrate the quarrels of Elizabeth and Essex and the story of the lost ring",
+            "Find Ireland, where Essex was sent to govern, and the Tower of London on a map",
+            "Add 'Earl of Essex executed, 1601' and 'Elizabeth I dies, 24 March 1603' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 73",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#73"
+            }
+          ],
+          "pages": "346–351",
+          "questions": [
+            "Why did the Queen box Essex's ears?",
+            "What went wrong with the ring Essex sent?",
+            "Who became king after Elizabeth?"
+          ],
+          "answers": [
+            "He rudely turned his back on her.",
+            "The boy gave it to the wrong lady, who kept it hidden.",
+            "Her cousin James, King of Scotland."
+          ],
+          "notes": "The ring story is a legend that appeared long after Essex's death."
+        }
+      ]
+    },
+    {
+      "title": "Unit 9: The Stuarts and the Civil War (Chapters 74–82)",
+      "lessons": [
+        {
+          "title": "Chapter 74: James VI. of Scotland, I. of England – The Story of Guy Fawkes",
+          "steps": [
+            "Read chapter 74 aloud together",
+            "Narrate how the Gunpowder Plot was planned and how Guy Fawkes was caught",
+            "Find the Houses of Parliament at Westminster in London and Edinburgh in Scotland on a map",
+            "Add 'James VI of Scotland becomes James I of England, 1603' and 'Gunpowder Plot, 5 November 1605' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 74",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#74"
+            }
+          ],
+          "pages": "352–357",
+          "questions": [
+            "How many barrels of gunpowder were hidden in the cellar?",
+            "How was the plot discovered?",
+            "How do people in Britain still remember the day?"
+          ],
+          "answers": [
+            "Thirty-six.",
+            "A warning letter sent to a Catholic lord was shown to the King.",
+            "With bonfires and fireworks on 5 November."
+          ],
+          "notes": "Guy Fawkes' torture is mentioned briefly. The book notes Catholics were treated even more harshly afterward, a good point for discussion."
+        },
+        {
+          "title": "Chapter 75: James VI. of Scotland, I. of England – The Story of the \"Mayflower\"",
+          "steps": [
+            "Read chapter 75 aloud together",
+            "Narrate why the Pilgrims left England and how they lived through their first winter",
+            "Find Plymouth in Devon, England, and Plymouth in Massachusetts on a map",
+            "Add 'Mayflower Pilgrims land at Plymouth, December 1620' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 75",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#75"
+            }
+          ],
+          "pages": "358–362",
+          "questions": [
+            "Why did the Pilgrim Fathers leave England?",
+            "What did they name their new town, and why?",
+            "How many Pilgrims went home when the Mayflower sailed back?"
+          ],
+          "answers": [
+            "To be free to worship God in the way they thought right.",
+            "Plymouth, after the English town they sailed from.",
+            "None."
+          ],
+          "notes": "The book calls Native Americans 'wild Red Indians', which is dated and unfair; the Wampanoag people, including Squanto and Massasoit, helped the colony survive. A short discussion is worthwhile."
+        },
+        {
+          "title": "Chapter 76: Charles I. – How a Woman Struck a Blow for Freedom",
+          "steps": [
+            "Read chapter 76 aloud together",
+            "Narrate what Jenny Geddes did in St Giles and how Scotland resisted the new Prayer Book",
+            "Find Edinburgh and St Giles' Cathedral on a map of Scotland",
+            "Add 'Jenny Geddes riot at St Giles, 23 July 1637' and 'National Covenant signed, 1638' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 76",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#76"
+            }
+          ],
+          "pages": "363–366",
+          "questions": [
+            "What did King James mean by 'The King can do no wrong'?",
+            "What did Jenny Geddes throw at the Dean?",
+            "What was the National Covenant?"
+          ],
+          "answers": [
+            "That whatever the king did was right and people must obey without question.",
+            "Her stool.",
+            "A paper signed by thousands of Scots promising to fight for freedom of religion."
+          ],
+          "notes": "Jenny Geddes may be partly legendary, though the 1637 riot was real. The book uses anti-Catholic cries like 'popery'; a short talk on religious freedom for all fits the chapter's ending."
+        },
+        {
+          "title": "Chapter 77: Charles I. – The Story of How the King and the Parliament Quarreled and at Last Fought",
+          "steps": [
+            "Read chapter 77 aloud together",
+            "Narrate how Charles tried to seize the five members and how Cornet Joyce showed his 'commission'",
+            "Find Westminster in London and Naseby in Northamptonshire on a map of England",
+            "Add 'Civil War begins, 1642' and 'Battle of Naseby, 1645' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 77",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#77"
+            }
+          ],
+          "pages": "367–371",
+          "questions": [
+            "What did King Charles say when he found the five members had gone?",
+            "Why were Cromwell's soldiers called Ironsides?",
+            "What did Cornet Joyce point to when the King asked for his commission?"
+          ],
+          "answers": [
+            "'I see the birds are flown.'",
+            "Cromwell drilled them into strong, disciplined, splendid soldiers",
+            "His mounted soldiers behind him"
+          ],
+          "notes": "The book presents the Civil War largely from a Parliamentary/Protestant angle; you might ask children what each side was fighting for."
+        },
+        {
+          "title": "Chapter 78: Charles I. – The Story of How the King Was Brought to His Death",
+          "steps": [
+            "Read chapter 78 aloud together",
+            "Narrate the King's trial in Westminster Hall and how he behaved before his judges",
+            "Find Carisbrooke Castle on the Isle of Wight and Whitehall in London on a map",
+            "Add 'Charles I executed, 30 January 1649' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 78",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#78"
+            }
+          ],
+          "pages": "372–375",
+          "questions": [
+            "Where did Charles flee when he escaped from the army?",
+            "What was Pride's Purge?",
+            "How many times did Charles refuse to plead at his trial?"
+          ],
+          "answers": [
+            "Carisbrooke Castle on the Isle of Wight",
+            "Colonel Pride's soldiers turned away members of Parliament who disagreed with the army",
+            "Three times"
+          ],
+          "notes": "The chapter ends with the King's beheading described briefly; preview if you have sensitive listeners."
+        },
+        {
+          "title": "Chapter 79: The Commonwealth – The Adventures of a Prince",
+          "steps": [
+            "Tell back chapter 79 after reading it aloud together",
+            "Narrate Prince Charles's escape after Worcester: the oak tree, the disguise, and the boat at Brighton",
+            "Find Worcester, Lyme Regis, and Brighton on a map of England",
+            "Add 'Battle of Worcester and the Royal Oak, 1651' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 79",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#79"
+            }
+          ],
+          "pages": "376–380",
+          "questions": [
+            "Where did Charles hide while Cromwell's soldiers rode beneath him?",
+            "Why did the captain at Lyme Regis not sail?",
+            "What did Cromwell call the battle of Worcester?"
+          ],
+          "answers": [
+            "In an oak tree",
+            "His wife locked him in a room",
+            "His 'crowning mercy'"
+          ],
+          "notes": "Cromwell's campaign in Ireland (1649–50) is mentioned with real cruelty, including massacres and people sent as slaves to the West Indies; worth a calm word if children ask."
+        },
+        {
+          "title": "Chapter 80: The Commonwealth – The Lord Protector",
+          "steps": [
+            "Read chapter 80 aloud together",
+            "Narrate how Cromwell broke up the Long Parliament and what he said about the mace",
+            "Find the North Sea between England and Holland (the Netherlands) on a map",
+            "Add 'Cromwell becomes Lord Protector, 1653' and 'Cromwell dies, 1658' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 80",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#80"
+            }
+          ],
+          "pages": "381–384",
+          "questions": [
+            "What did Van Tromp hoist to his masthead?",
+            "What did Cromwell call the mace?",
+            "Why did Cromwell refuse the title of king?"
+          ],
+          "answers": [
+            "A broom",
+            "'That bauble'",
+            "His soldiers hated the name of king and might turn against him"
+          ]
+        },
+        {
+          "title": "Chapter 81: Charles II. – How the King Came to His Own, and How Death Walked in the Streets of London",
+          "steps": [
+            "Read chapter 81 aloud together",
+            "Narrate how Charles II came back to England, then describe London during the plague",
+            "Find Dover and London on a map of England, and the River Thames",
+            "Add 'Restoration of Charles II, 1660' and 'Great Plague of London, 1665' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 81",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#81"
+            }
+          ],
+          "pages": "385–389",
+          "questions": [
+            "On what special day did Charles II land at Dover?",
+            "What was painted on the doors of houses with plague?",
+            "How did the boatman care for his family during the plague?"
+          ],
+          "answers": [
+            "His birthday, 29 May",
+            "A red cross and 'The Lord have mercy on us'",
+            "He left money and food on a stone and called to them from a distance"
+          ],
+          "notes": "The plague scenes (death carts, mass graves) may upset younger children; a short talk about modern sanitation and medicine can help."
+        },
+        {
+          "title": "Chapter 82: Charles II. – The Story of How London Was Burned",
+          "steps": [
+            "Read chapter 82 aloud together",
+            "Narrate how the Great Fire started, spread, and was finally stopped",
+            "Find the Tower of London and the Monument on a map of London",
+            "Add 'Great Fire of London, 1666' and 'Habeas Corpus Act, 1679' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 82",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#82"
+            }
+          ],
+          "pages": "390–393",
+          "questions": [
+            "Where did the Great Fire begin?",
+            "How did people finally stop the fire?",
+            "What does Habeas Corpus mean, and what did the law promise?"
+          ],
+          "answers": [
+            "In a baker's shop",
+            "By blowing up houses with gunpowder to make gaps",
+            "'Have his body'; prisoners must be brought to trial, not kept in prison forever"
+          ],
+          "notes": "The book suggests the King and Catholics in a strongly Protestant way; the fire was an accident, as the chapter itself says."
+        }
+      ]
+    },
+    {
+      "title": "Unit 10: The Later Stuarts and the Union (Chapters 83–89)",
+      "lessons": [
+        {
+          "title": "Chapter 83: James II. of England and VII. of Scotland – The Fiery Cross",
+          "steps": [
+            "Read chapter 83 aloud together",
+            "Narrate how a Highland chief used the Fiery Cross to gather his clan",
+            "Find Edinburgh and the Highlands of Scotland on a map",
+            "Add 'James II becomes king; Argyle's rising fails, 1685' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 83",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#83"
+            }
+          ],
+          "pages": "394–397",
+          "questions": [
+            "How was the Fiery Cross passed from village to village?",
+            "Why did Argyle's army scatter?",
+            "Why couldn't Argyle fire his pistols when he was caught?"
+          ],
+          "answers": [
+            "Swift runners carried it from one village to the next",
+            "His captains were jealous and would not obey him",
+            "The powder got wet when he sprang into the river"
+          ],
+          "notes": "The book's portrayal of James II and Catholics is strongly Protestant-biased; the torture and executions mentioned are real but not detailed."
+        },
+        {
+          "title": "Chapter 84: James II. of England and VII. of Scotland – The Story of King Monmouth",
+          "steps": [
+            "Read chapter 84 aloud together",
+            "Narrate Monmouth's rising: his welcome, the battle at Sedgemoor, and his capture",
+            "Find Taunton and Sedgemoor in Somerset on a map of England",
+            "Add 'Battle of Sedgemoor and the Bloody Assize, 1685' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 84",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#84"
+            }
+          ],
+          "pages": "398–399",
+          "questions": [
+            "What did Monmouth's followers call him?",
+            "Where was the last real battle on English ground fought?",
+            "What was the Bloody Assize?"
+          ],
+          "answers": [
+            "King Monmouth",
+            "Sedgemoor",
+            "Judge Jeffreys's cruel court journey punishing the rebels"
+          ],
+          "notes": "Mentions torture and mass executions after Sedgemoor; the details are brief but you may want to preview."
+        },
+        {
+          "title": "Chapter 85: James II. of England and VII. of Scotland – The Story of the Seven Bishops",
+          "steps": [
+            "Read chapter 85 aloud together",
+            "Narrate why the seven bishops refused the King and how the people treated them",
+            "Find the Tower of London and Cornwall on a map of England",
+            "Add 'Trial of the Seven Bishops, 1688' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 85",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#85"
+            }
+          ],
+          "pages": "400–404",
+          "questions": [
+            "What paper did James order to be read in the churches?",
+            "Which bishop came from Cornwall?",
+            "How did people celebrate when the bishops were set free?"
+          ],
+          "answers": [
+            "The Declaration of Indulgence",
+            "Trelawney",
+            "Bells, bonfires, and seven candles in their windows"
+          ]
+        },
+        {
+          "title": "Chapter 86: James II. of England and VII. of Scotland – William the Deliverer",
+          "steps": [
+            "Read chapter 86 aloud together",
+            "Narrate how William of Orange came to Britain and why it was called the Glorious Revolution",
+            "Find Torbay in Devon on a map of England, and Holland across the North Sea",
+            "Add 'William of Orange lands at Torbay, 5 November 1688' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 86",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#86"
+            }
+          ],
+          "pages": "405–407",
+          "questions": [
+            "What words were written on William's banner?",
+            "What was the 'Protestant East Wind'?",
+            "Who became King and Queen together after James fled?"
+          ],
+          "answers": [
+            "'I will maintain the liberties of England and the Protestant religion'",
+            "The wind that finally blew William's fleet to Britain",
+            "William and Mary"
+          ],
+          "notes": "The book calls James a 'Popish tyrant'; its anti-Catholic tone reflects its time and is worth a brief comment."
+        },
+        {
+          "title": "Chapter 87: William III. and Mary II. – The Story of Brave Londonderry",
+          "steps": [
+            "Read chapter 87 aloud together",
+            "Narrate the siege of Londonderry and how the ships broke the boom",
+            "Find Londonderry (Derry), the River Foyle, and the River Boyne in Ireland",
+            "Add 'Siege of Londonderry, 1689' and 'Battle of the Boyne, 1690' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 87",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#87"
+            }
+          ],
+          "pages": "408–410",
+          "questions": [
+            "Who stirred up the people of Londonderry with a rousing sermon?",
+            "What had the enemy built across the river?",
+            "Which battle ended James's hopes in Ireland?"
+          ],
+          "answers": [
+            "A clergyman called Walker",
+            "A boom (a bar) to stop ships",
+            "The Battle of the Boyne"
+          ],
+          "notes": "These events still carry strong feeling in Ireland today; the book tells them from the Protestant side."
+        },
+        {
+          "title": "Chapter 88: William III. and Mary II. – The Story of a Sad Day in a Highland Glen",
+          "steps": [
+            "Read chapter 88 aloud together",
+            "Narrate why the Macdonald chief was late with his oath and what the Campbells did at Glencoe",
+            "Find Glencoe and Killiecrankie in the Scottish Highlands on a map",
+            "Add 'Massacre of Glencoe, 1692' and 'Death of William III, 1702' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 88",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#88"
+            }
+          ],
+          "pages": "411–414",
+          "questions": [
+            "Why was the Macdonald chief late to swear his oath?",
+            "How did the Campbells deceive the Macdonalds?",
+            "What illness did Queen Mary die of?"
+          ],
+          "answers": [
+            "He went to the wrong town first, in deep winter",
+            "They stayed as guests for nearly two weeks before attacking",
+            "Smallpox"
+          ],
+          "notes": "The Glencoe massacre is described with killing and families dying in the snow; preview for younger children."
+        },
+        {
+          "title": "Chapter 89: Anne – How the Union Jack Was Made",
+          "steps": [
+            "Read chapter 89 aloud together",
+            "Narrate how the English and Scottish flags were combined to make the Union Jack",
+            "Find Gibraltar on a map of Spain, and Blenheim in Bavaria, Germany",
+            "Add 'Act of Union: Great Britain formed, 1707' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 89",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#89"
+            }
+          ],
+          "pages": "415–418",
+          "questions": [
+            "Which fortress did Britain keep after the Peace of Utrecht?",
+            "What two crosses were joined first in the flag?",
+            "Why is the flag called the Union 'Jack'?"
+          ],
+          "answers": [
+            "Gibraltar",
+            "St. George's cross and St. Andrew's cross",
+            "James VI signed his name 'Jacques', which sounds like Jack"
+          ],
+          "notes": "The 'Jacques' explanation for the name 'Jack' is a traditional story; historians aren't sure where the name came from. Drawing the three crosses is a good hands-on activity."
+        }
+      ]
+    },
+    {
+      "title": "Unit 11: Georgian Britain (Chapters 90–100)",
+      "lessons": [
+        {
+          "title": "Chapter 90: George I. – The Story of the Earl of Mar's Hunting Party",
+          "steps": [
+            "Read chapter 90 aloud together",
+            "Narrate the Earl of Mar's 'hunting party' and what happened at Sheriffmuir",
+            "Find Hanover in Germany, and Sheriffmuir near Dunblane in Scotland",
+            "Add 'George I becomes king, 1714' and 'The Fifteen Jacobite rising, 1715' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 90",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#90"
+            }
+          ],
+          "pages": "419–423",
+          "questions": [
+            "What language could George I not speak?",
+            "What fell from the Pretender's standard, worrying the Highlanders?",
+            "Who won at Sheriffmuir?"
+          ],
+          "answers": [
+            "English",
+            "The golden ball from the top of the staff",
+            "Nobody clearly; each side claimed victory"
+          ]
+        },
+        {
+          "title": "Chapter 91: George II. – The Story of Bonnie Prince Charlie",
+          "steps": [
+            "Read chapter 91 aloud together",
+            "Narrate how Bonnie Prince Charlie won the Highlanders and beat Johnnie Cope",
+            "Find Edinburgh, Holyrood, and Prestonpans on a map of Scotland",
+            "Add 'Bonnie Prince Charlie lands; Battle of Prestonpans, 1745' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 91",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#91"
+            }
+          ],
+          "pages": "424–428",
+          "questions": [
+            "Why was Walpole called a 'peace minister'?",
+            "What did Charlie mean by 'I have thrown away the scabbard'?",
+            "How long did the battle of Prestonpans last?"
+          ],
+          "answers": [
+            "He tried to keep Britain out of wars so it could prosper",
+            "There was no turning back; he would win or die",
+            "About five minutes"
+          ]
+        },
+        {
+          "title": "Chapter 92: George II. – The Story of Flora Macdonald",
+          "steps": [
+            "Read chapter 92 aloud together",
+            "Narrate how Flora Macdonald helped the Prince escape disguised as her maid 'Betty'",
+            "Find Derby, Culloden near Inverness, and the Isle of Skye on a map",
+            "Add 'Battle of Culloden, 1746' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 92",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#92"
+            }
+          ],
+          "pages": "429–433",
+          "questions": [
+            "How far south did Charlie's army march before turning back?",
+            "Where was the last Jacobite battle fought?",
+            "What disguise did Flora Macdonald bring for the Prince?"
+          ],
+          "answers": [
+            "Derby",
+            "Culloden, near Inverness",
+            "A woman's dress, as her maid Betty"
+          ],
+          "notes": "Culloden and its aftermath were very bloody; the book mentions it briefly. The Skye escape is real, though some details are romanticized."
+        },
+        {
+          "title": "Chapter 93: George II. – The Story of the Black Hole of Calcutta",
+          "steps": [
+            "Read chapter 93 aloud together",
+            "Narrate who Robert Clive was and how he rose from clerk to general",
+            "Find Calcutta (Kolkata) and Plassey in Bengal on a map of India",
+            "Add 'Black Hole of Calcutta, 1756' and 'Battle of Plassey, 1757' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 93",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#93"
+            }
+          ],
+          "pages": "434–436",
+          "questions": [
+            "What was Clive's job before he became a soldier?",
+            "What company carried on Britain's trade with India?",
+            "What battle did Clive win against the Indian prince?"
+          ],
+          "answers": [
+            "A clerk for the East India Company",
+            "The East India Company",
+            "Plassey"
+          ],
+          "notes": "This chapter tells events strictly from a British-imperial view; historians think the Black Hole death toll was exaggerated. Consider discussing how Indians might see the British takeover of their land."
+        },
+        {
+          "title": "Chapter 94: George II. – The Story of How Canada Was Won",
+          "steps": [
+            "Read chapter 94 aloud together",
+            "Narrate how Wolfe's men climbed the cliff to the Heights of Abraham",
+            "Find Quebec and the St. Lawrence River on a map of Canada",
+            "Add 'Wolfe takes Quebec, 1759' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 94",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#94"
+            }
+          ],
+          "pages": "437–441",
+          "questions": [
+            "What poem did Wolfe recite in the boat?",
+            "How did the soldiers reach the top of the cliff?",
+            "What did Montcalm say when told he was dying?"
+          ],
+          "answers": [
+            "Gray's 'Elegy in a Country Churchyard'",
+            "By a narrow, steep path, climbing quietly in the dark",
+            "He was glad he would not see Quebec surrender"
+          ],
+          "notes": "The book presents the British Empire's growth as a glory; French Canadians and Native peoples saw it differently."
+        },
+        {
+          "title": "Chapter 95: George III. – The Story of How America Was Lost",
+          "steps": [
+            "Read chapter 95 aloud together",
+            "Narrate why the Americans refused the tax and what happened at the Boston Tea Party",
+            "Find Boston on a map of the United States",
+            "Add 'Boston Tea Party, 1773' and 'Declaration of Independence, 4 July 1776' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 95",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#95"
+            }
+          ],
+          "pages": "442–447",
+          "questions": [
+            "Why did the Americans say the taxes were unjust?",
+            "How did the young men dress for the Tea Party?",
+            "Who led the American army?"
+          ],
+          "answers": [
+            "They had no members in Parliament",
+            "As Native Americans, with painted faces and feathers",
+            "George Washington"
+          ],
+          "notes": "The book uses the dated term 'Red Indians' and says they had nearly died out; you may want to correct this and use 'Native Americans'. It tells the Revolution from the British side."
+        },
+        {
+          "title": "Chapter 96: George III. – A Story of the Spinning-Wheel",
+          "steps": [
+            "Read chapter 96 aloud together",
+            "Narrate Richard Arkwright's story from penny barber to inventor of the spinning-frame",
+            "Find Lancashire and Derbyshire, the heart of the early cotton mills, on a map of England",
+            "Add 'Arkwright's water-powered spinning frame, 1769' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 96",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#96"
+            }
+          ],
+          "pages": "448–452",
+          "questions": [
+            "What was Arkwright's first trade?",
+            "Why did Arkwright's wife smash his models?",
+            "What did the two old women think made the noise of his machine?"
+          ],
+          "answers": [
+            "A barber",
+            "She thought they were making the family poor",
+            "Evil spirits"
+          ]
+        },
+        {
+          "title": "Chapter 97: George III. – England Expects That Every Man Will Do His Duty",
+          "steps": [
+            "Read chapter 97 aloud together",
+            "Narrate Nelson's signal before Trafalgar and his last words aboard the Victory",
+            "Find Cape Trafalgar off the south coast of Spain on a map",
+            "Add 'Act of Union with Ireland, 1801' and 'Battle of Trafalgar, 21 October 1805' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 97",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#97"
+            }
+          ],
+          "pages": "453–458",
+          "questions": [
+            "What signal did Nelson send to the whole fleet?",
+            "What was the name of Nelson's ship?",
+            "Why did Nelson cover his face and medals when he was carried below?"
+          ],
+          "answers": [
+            "'England expects that every man will do his duty'",
+            "The Victory",
+            "So his sailors would not see he was hurt and lose heart"
+          ],
+          "notes": "The book calls Napoleon an 'ogre'; children may enjoy hearing that the French saw him very differently."
+        },
+        {
+          "title": "Chapter 98: George III. – The Battle of Waterloo",
+          "steps": [
+            "Read chapter 98 aloud together",
+            "Narrate the Battle of Waterloo and what Wellington meant by 'Night or Blücher'",
+            "Find Waterloo near Brussels in Belgium, the island of Elba, and St. Helena on a map",
+            "Add 'Battle of Waterloo, 18 June 1815' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 98",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#98"
+            }
+          ],
+          "pages": "459–462",
+          "questions": [
+            "Why was the Peninsular War given that name?",
+            "To which small island was Napoleon first sent?",
+            "Where was Napoleon sent after Waterloo?"
+          ],
+          "answers": [
+            "It was fought in Spain and Portugal, which form a peninsula",
+            "Elba",
+            "St. Helena, in the Atlantic Ocean"
+          ]
+        },
+        {
+          "title": "Chapter 99: George IV. – The First Gentleman in Europe",
+          "steps": [
+            "Read chapter 99 aloud together",
+            "Narrate how George IV acted Irish, German, and Scottish on his visits, and what he refused",
+            "Find Dublin, Hanover, and Leith near Edinburgh on a map",
+            "Add 'Catholic Emancipation Act, 1829' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 99",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#99"
+            }
+          ],
+          "pages": "463–465",
+          "questions": [
+            "Why was George III called Farmer George?",
+            "Why was George IV called 'the first gentleman in Europe'?",
+            "What did the Catholic Emancipation Act allow?"
+          ],
+          "answers": [
+            "He loved peaceful country life",
+            "He was handsome with fine manners",
+            "Catholics could sit in Parliament and hold public posts"
+          ]
+        },
+        {
+          "title": "Chapter 100: William IV. – The Story of Two Peaceful Victories",
+          "steps": [
+            "Read chapter 100 aloud together (see parent note first)",
+            "Narrate why the Reform Bill was needed and how slavery in the colonies was ended",
+            "Find the West Indies (Caribbean) and West Africa on a world map",
+            "Add 'Great Reform Act, 1832' and 'Slavery abolished in British colonies, 1834' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 100",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#100"
+            }
+          ],
+          "pages": "466–470",
+          "questions": [
+            "What was unfair about which places sent members to Parliament?",
+            "Who worked for many years to end slavery?",
+            "How much money did Parliament pay the planters?"
+          ],
+          "answers": [
+            "Empty places sent members while big factory towns sent none",
+            "Wilberforce (with Macaulay and others)",
+            "Twenty million pounds"
+          ],
+          "notes": "This chapter contains a racial slur, written to describe how slave-owners thought; consider rewording it when reading aloud. Note the planters, not the enslaved people, were compensated."
+        }
+      ]
+    },
+    {
+      "title": "Unit 12: Queen Victoria's Reign (Chapters 101–107)",
+      "lessons": [
+        {
+          "title": "Chapter 101: Victoria – The Girl Queen",
+          "steps": [
+            "Read chapter 101 aloud together",
+            "Narrate how young Victoria learned she would be Queen, and how she was woken with the news",
+            "Find Kensington Palace and Windsor Castle on a map of London and its surroundings",
+            "Add 'Victoria becomes Queen, 1837' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 101",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#101"
+            }
+          ],
+          "pages": "471–473",
+          "questions": [
+            "What did Victoria promise when she learned she would be Queen?",
+            "How old was Victoria when she became Queen?",
+            "Why couldn't Victoria be Queen of Hanover?"
+          ],
+          "answers": [
+            "'I will be good'",
+            "Eighteen",
+            "Hanover's law did not allow a woman to rule"
+          ]
+        },
+        {
+          "title": "Chapter 102: Victoria – When Bread Was Dear",
+          "steps": [
+            "Read chapter 102 aloud together",
+            "Narrate why bread was so dear and how the Irish potato famine came about",
+            "Find Ireland on a map of the British Isles",
+            "Add 'Irish potato famine begins, 1845' and 'Corn Laws repealed, 1846' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 102",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#102"
+            }
+          ],
+          "pages": "474–476",
+          "questions": [
+            "What did the Corn Laws forbid?",
+            "What food did most poor Irish people live on?",
+            "Which country across the sea sent help to Ireland?"
+          ],
+          "answers": [
+            "Bringing in foreign corn until British corn was very dear",
+            "Potatoes",
+            "The United States"
+          ],
+          "notes": "The famine description includes starving children; about a million died and many more emigrated, which the book only touches on."
+        },
+        {
+          "title": "Chapter 103: Victoria – Peace",
+          "steps": [
+            "Read chapter 103 aloud together",
+            "Narrate Prince Albert's idea for the Great Exhibition and how the Crystal Palace was built",
+            "Find Hyde Park on a map of London",
+            "Add 'Great Exhibition in the Crystal Palace, 1851' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 103",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#103"
+            }
+          ],
+          "pages": "477–479",
+          "questions": [
+            "What did Prince Albert hope the Exhibition would do?",
+            "Who thought of building with glass and iron?",
+            "What did people call the building?"
+          ],
+          "answers": [
+            "Help world trade and make nations friendlier",
+            "Sir Joseph Paxton",
+            "The Crystal Palace"
+          ],
+          "notes": "The book says the Crystal Palace still stands; it burned down in 1936."
+        },
+        {
+          "title": "Chapter 104: Victoria – War",
+          "steps": [
+            "Read chapter 104 aloud together",
+            "Narrate Florence Nightingale's work in the hospitals and the Charge of the Light Brigade",
+            "Find the Crimea, the Black Sea, and Sebastopol (Sevastopol) on a map",
+            "Add 'Crimean War and the Charge of the Light Brigade, 1854' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 104",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#104"
+            }
+          ],
+          "pages": "480–486",
+          "questions": [
+            "What strange mistake was made with a shipload of boots?",
+            "Why was Florence Nightingale called 'the lady with the lamp'?",
+            "Why did the Light Brigade charge the Russian guns?"
+          ],
+          "answers": [
+            "They were all for the left foot",
+            "She walked the wards at night with a lamp, caring for the men",
+            "An order was misunderstood"
+          ],
+          "notes": "The book credits Nightingale with the red cross badge; the Red Cross was actually founded by Henri Dunant in 1863."
+        },
+        {
+          "title": "Chapter 105: Victoria – The Land of Snow",
+          "steps": [
+            "Read chapter 105 aloud together",
+            "Narrate Franklin's voyage and how searchers finally learned what happened to his men",
+            "Find the Arctic Ocean and northern Canada on a globe or world map",
+            "Add 'Franklin's Arctic expedition sets out, 1845' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 105",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#105"
+            }
+          ],
+          "pages": "487–490",
+          "questions": [
+            "What were Franklin's two ships called?",
+            "How did searchers try to send messages using foxes?",
+            "Who kept urging the search for Franklin?"
+          ],
+          "answers": [
+            "The Terror and the Erebus",
+            "They put copper collars with directions on white foxes",
+            "Lady Franklin, his wife"
+          ],
+          "notes": "The book uses the older word 'Eskimos' (Inuit). Both ships' wrecks were finally found in 2014 and 2016, which children may enjoy looking up."
+        },
+        {
+          "title": "Chapter 106: Victoria – The Siege of Delhi",
+          "steps": [
+            "Read chapter 106 aloud together (parent may wish to preview)",
+            "Narrate why the sepoys refused the new cartridges and how the rising began at Meerut",
+            "Find Meerut, Delhi, and Cawnpore (Kanpur) on a map of India",
+            "Add 'Indian Rebellion (the 'Mutiny') begins, 1857' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 106",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#106"
+            }
+          ],
+          "pages": "491–495",
+          "questions": [
+            "Why did the sepoys refuse to use the new cartridges?",
+            "Where did the rising first break out?",
+            "Whom did the sepoys want to make their Emperor again?"
+          ],
+          "answers": [
+            "They believed the grease was cow and pig fat, against their religions",
+            "Meerut",
+            "The old Mughal Emperor at Delhi"
+          ],
+          "notes": "The Cawnpore massacre of women and children is described in grim detail; preview it. The book tells only the British side; Indians remember 1857 as a war of independence, and British reprisals were also brutal."
+        },
+        {
+          "title": "Chapter 107: Victoria – The Pipes at Lucknow",
+          "steps": [
+            "Read chapter 107 aloud together",
+            "Narrate the siege of the Residency and how Jessie heard the pipes",
+            "Find Lucknow and the Gomti (Goomtee) River on a map of India",
+            "Add 'Relief of Lucknow, 1857' and 'Crown takes over rule of India, 1858' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 107",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#107"
+            }
+          ],
+          "pages": "496–499",
+          "questions": [
+            "What did Sir Henry Lawrence tell his men before he died?",
+            "What sound did Jessie hear?",
+            "Who became the first Viceroy of India?"
+          ],
+          "answers": [
+            "Never yield; die at your post rather than yield",
+            "The Highland bagpipes of the relieving army",
+            "Lord Canning"
+          ],
+          "notes": "The story of Jessie's dream is a popular legend of the time and may not be literally true. The poem's 'Indian tiger' language reflects a colonial viewpoint."
+        }
+      ]
+    },
+    {
+      "title": "Unit 13: Empire and the Twentieth Century (Chapters 108–114)",
+      "lessons": [
+        {
+          "title": "Chapter 108: Victoria – Under the Southern Cross",
+          "steps": [
+            "Read chapter 108 aloud together",
+            "Narrate how the first convict colony at Sydney nearly starved and how Governor Phillip shared his food",
+            "Find Botany Bay and Sydney on a map of Australia",
+            "Add 'Cook lands at Botany Bay, 1770' and 'First Fleet founds Sydney, 1788' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 108",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#108"
+            }
+          ],
+          "pages": "500–504",
+          "questions": [
+            "Why did Cook name the place Botany Bay?",
+            "Why were convicts sent to Australia instead of America?",
+            "What did Governor Phillip do with his own flour?"
+          ],
+          "answers": [
+            "There were so many kinds of plants",
+            "America had been lost as a colony",
+            "He gave it up to share with everyone"
+          ],
+          "notes": "The book calls Aboriginal Australians 'savages' and ignores that the land was already their home; a short talk about Aboriginal peoples and the effects of colonization is worthwhile."
+        },
+        {
+          "title": "Chapter 109: Victoria – From Cannibal to Christian",
+          "steps": [
+            "Read chapter 109 aloud together (see parent note)",
+            "Narrate the meeting at Waitangi and what the chiefs said for and against the treaty",
+            "Find North Island, South Island, and Waitangi on a map of New Zealand",
+            "Add 'Treaty of Waitangi, 1840' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 109",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#109"
+            }
+          ],
+          "pages": "505–508",
+          "questions": [
+            "What missionary bought land in New Zealand for twelve axes?",
+            "What did the chief who opposed the treaty fear?",
+            "How did most chiefs sign the treaty?"
+          ],
+          "answers": [
+            "Marsden",
+            "That they would become slaves and lose their land",
+            "With marks like their tattoo patterns"
+          ],
+          "notes": "The chapter title and text describe the Maori in demeaning colonial terms. The Treaty of Waitangi is still debated today, as its English and Maori versions differ and land was later taken."
+        },
+        {
+          "title": "Chapter 110: Victoria – Boer and Briton",
+          "steps": [
+            "Read chapter 110 aloud together",
+            "Narrate the main causes of the Boer War and how peace was made at Vereeniging",
+            "Find Cape Town, Kimberley, Ladysmith, and Mafeking (Mahikeng) on a map of South Africa",
+            "Add 'Boer War, 1899–1902' and 'Death of Queen Victoria, 1901' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 110",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#110"
+            }
+          ],
+          "pages": "509–516",
+          "questions": [
+            "Who were the Uitlanders and what right were they denied?",
+            "Which three besieged towns were relieved?",
+            "How long did Queen Victoria reign?"
+          ],
+          "answers": [
+            "Mostly British newcomers in the Transvaal; the right to vote",
+            "Kimberley, Ladysmith, and Mafeking",
+            "Sixty-three years"
+          ],
+          "notes": "The book tells the war from the British side and leaves out the black African population and the British concentration camps where many Boer and African civilians died."
+        },
+        {
+          "title": "Chapter 111: Edward VII – The Peacemaker",
+          "steps": [
+            "Read chapter 111 aloud together",
+            "Narrate why Edward VII was called the Peacemaker and what happened before his coronation",
+            "Find Paris, Rome, Vienna, and The Hague on a map of Europe",
+            "Add 'Coronation of Edward VII, 1902' and 'Entente Cordiale with France, 1904' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 111",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#111"
+            }
+          ],
+          "pages": "517–523",
+          "questions": [
+            "Why was Edward's coronation delayed?",
+            "What did the French call King Edward?",
+            "What was the Hague Court set up to do?"
+          ],
+          "answers": [
+            "He fell dangerously ill and needed an operation",
+            "The Uncle of Europe",
+            "Settle quarrels between nations by arbitration instead of war"
+          ],
+          "notes": "Written just after World War I, the chapter is strongly anti-German; you might point out how wartime feelings shaped the author's view."
+        },
+        {
+          "title": "Chapter 112: George V. – Armed Peace",
+          "steps": [
+            "Read chapter 112 aloud together",
+            "Narrate the chain of events from the shooting at Sarajevo to Britain declaring war",
+            "Find Sarajevo in Bosnia, Serbia, and Belgium on a map of Europe",
+            "Add 'Archduke Franz Ferdinand shot at Sarajevo, June 1914' and 'Britain enters the war, 4 August 1914' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 112",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#112"
+            }
+          ],
+          "pages": "524–531",
+          "questions": [
+            "Who was shot at Sarajevo?",
+            "Which neutral country did Germany march through?",
+            "What did the German Chancellor call the treaty protecting Belgium?"
+          ],
+          "answers": [
+            "Archduke Franz Ferdinand of Austria and his wife",
+            "Belgium",
+            "'A scrap of paper'"
+          ],
+          "notes": "The causes of WWI are presented one-sidedly, putting all blame on Germany and Austria; historians today give a more shared picture."
+        },
+        {
+          "title": "Chapter 113: World War",
+          "steps": [
+            "Read chapter 113 aloud together",
+            "Narrate how life in Britain changed during the war, including women's work and rationing",
+            "Find Flanders in Belgium, northern France, and Jutland (Denmark) on a map of Europe",
+            "Add 'USA joins the war, April 1917' and 'Armistice, 11 November 1918' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 113",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#113"
+            }
+          ],
+          "pages": "532–540",
+          "questions": [
+            "What kind of fighting happened along the long line in France and Belgium?",
+            "How did women help at home during the war?",
+            "What helped bring the United States into the war?"
+          ],
+          "answers": [
+            "Trench warfare",
+            "They took over jobs in factories, farms, offices, and transport",
+            "Germany's submarines sinking ships, including neutral ones"
+          ],
+          "notes": "Mentions poison gas, air raids, and huge losses; the tone is strongly wartime-British. Older children may want to talk about how ordinary soldiers on both sides suffered."
+        },
+        {
+          "title": "Chapter 114: The Hope of the Future",
+          "steps": [
+            "Read the final chapter aloud together (skip the list of kings at the end)",
+            "Narrate what the League of Nations was meant to do and how the author compares nations to growing children",
+            "Find Geneva in Switzerland and Paris, where the peace conference met, on a map of Europe",
+            "Add 'Treaty of Versailles, 28 June 1919' and 'League of Nations founded, 1920' to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Read chapter 114",
+              "url": "https://digital.library.upenn.edu/women/marshall/england/england.html#114"
+            }
+          ],
+          "pages": "541–548",
+          "questions": [
+            "Which country appeared again as an independent state after the war?",
+            "Where was the League of Nations to have its permanent office?",
+            "What did League members promise to do before going to war?"
+          ],
+          "answers": [
+            "Poland",
+            "Geneva",
+            "Bring their quarrel to the League and give it time to settle it peacefully"
+          ],
+          "notes": "The League failed to prevent World War II; you might close the book by mentioning the United Nations, which replaced it in 1945."
+        }
+      ]
+    }
+  ]
+}

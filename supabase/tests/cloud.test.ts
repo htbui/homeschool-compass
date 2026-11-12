@@ -91,7 +91,7 @@ describe('marketplace', () => {
   });
 
   it('claims free listings server-side and refuses paid ones', async () => {
-    const p = ok(await a.rpc('claim_free_listing', { lid: 'l-free-nature-journal' })) as { status: string; price: number };
+    const p = ok(await a.rpc('claim_free_listing', { lid: 'l-lib-burgess-bird-book' })) as { status: string; price: number };
     expect(p).toMatchObject({ status: 'free' });
     expect((await a.rpc('claim_free_listing', { lid: listingId })).error?.message).toMatch(/not free/);
     // Clients can never write purchases directly.

@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { create } from 'zustand';
 
 import { withReviews, type Listing, type Review } from '@/lib/market';
-import { sampleCatalog } from '@/lib/marketSample';
+import { libraryListings } from '@/lib/library';
 
 import { useStore } from './useStore';
 
@@ -22,7 +22,8 @@ interface MarketState {
 }
 
 export const useMarket = create<MarketState>()((set) => ({
-  ...sampleCatalog(),
+  listings: libraryListings(),
+  reviews: [],
   source: 'sample',
   loading: false,
   setCatalog: (c) => set({ ...c, loading: false, error: undefined }),

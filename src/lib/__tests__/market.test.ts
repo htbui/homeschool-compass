@@ -1,6 +1,5 @@
 import { describe, expect, it } from 'vitest';
 
-import { weekdayOf } from '../dates';
 import {
   defaultLessonDays,
   filterListings,
@@ -18,7 +17,6 @@ import {
   type Listing,
   type Review,
 } from '../market';
-import { sampleCatalog } from '../marketSample';
 import type { Child, RhythmBlock } from '../types';
 
 const base: Listing = {
@@ -125,19 +123,3 @@ describe('planning', () => {
   });
 });
 
-describe('sample catalog', () => {
-  it('is internally consistent and clearly marked', () => {
-    const { listings, reviews } = sampleCatalog();
-    expect(listings.length).toBeGreaterThan(20);
-    expect(new Set(listings.map((l) => l.id)).size).toBe(listings.length);
-    for (const l of listings) {
-      expect(l.sample).toBe(true);
-      const rs = reviews.filter((r) => r.listingId === l.id);
-      expect(l.ratingCount).toBe(rs.length);
-      expect(l.gradeMin).toBeLessThanOrEqual(l.gradeMax);
-      expect(l.lessons).toBeGreaterThan(0);
-    }
-    expect(reviews.every((r) => r.sample && r.rating >= 1 && r.rating <= 5)).toBe(true);
-    expect(weekdayOf('2026-11-09')).toBe(1);
-  });
-});
