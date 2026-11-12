@@ -102,3 +102,4 @@ _New ideas land here, then get a priority._
 - [x] Studio plan updates: creators add a "What's new" note when they publish; families see "Update available", preview new, changed, and removed lessons, and update or skip. Each kid keeps their place. A family's own Studio edits flow into its plan the same way (`001b6a3`)
 - [x] Answer keys and parent-only notes: answers line up with worksheet questions, print on a separate grown-ups' page, and never show in kid mode (`c9ccf18`)
 - [x] Marketplace moderation: report listings and reviews (including copyright claims), auto-hide after 3 reports, moderator queue, takedowns sellers can't undo (`ceceb9a`)
+- [x] Freerange Library: 14 free, openly licensed curricula (1,146 lessons) converted into lesson plans; fictional sample catalog removed (`7ed6856`)
