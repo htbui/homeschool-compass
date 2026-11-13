@@ -1,0 +1,1050 @@
+{
+ "key": "burgess-animal-book",
+ "title": "The Burgess Animal Book for Children",
+ "sourceTitle": "The Burgess Animal Book for Children",
+ "author": "Thornton W. Burgess",
+ "seller": "Thornton W. Burgess",
+ "year": 1920,
+ "sourceUrl": "https://www.gutenberg.org/ebooks/2441",
+ "readUrl": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html",
+ "license": {
+  "kind": "public_domain"
+ },
+ "licenseEvidence": "Project Gutenberg eBook #2441: public domain in the USA; first published 1920 (Little, Brown), before 1930. Lessons link to the Gutenberg text; no text is reproduced.",
+ "subjects": [
+  "science"
+ ],
+ "gradeMin": 1,
+ "gradeMax": 4,
+ "philosophies": [
+  "charlotte_mason",
+  "nature_forest"
+ ],
+ "lessonsPerWeek": 3,
+ "minutesPerLesson": 30,
+ "parentInvolvement": "high",
+ "familyStyle": true,
+ "cover": "🐇",
+ "color": "#3D9970",
+ "description": "The 1920 companion to the Burgess Bird Book: Peter Rabbit goes to Old Mother Nature's school with his forest friends and learns about the real mammals of North America, from squirrels and moles to moose, bears, and seals. Each sitting is one chapter read aloud, a narration, and a nature-study outing or journal page. Siblings can do it together, and the full text of this classic is free online.",
+ "includes": [
+  "40 lessons in 7 units, one per chapter",
+  "Link to the free full text for every chapter",
+  "A nature-study activity for the real animals in each chapter",
+  "Narration prompts and comprehension questions with answers",
+  "Parent notes where 1920 facts or attitudes toward wildlife have changed"
+ ],
+ "units": [
+  {
+   "title": "Unit 1: Peter's Own Family (Chapters I–III)",
+   "lessons": [
+    {
+     "title": "Chapter I: Jenny Wren Gives Peter Rabbit an Idea",
+     "steps": [
+      "Read Chapter I, \"Jenny Wren Gives Peter Rabbit an Idea\", aloud together",
+      "Ask your child to narrate how Peter escaped Reddy Fox and why Jenny Wren laughed at him",
+      "Nature study (Eastern Cottontail): Look at dusk along hedges, lawns, and brushy edges for a rabbit with a white powder-puff tail; start a nature journal page for it"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter I",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0001"
+      }
+     ],
+     "questions": [
+      "Where did Peter hide from Reddy Fox?",
+      "What surprising cousin did Jenny Wren tell Peter about?"
+     ],
+     "answers": [
+      "In an old hole between the roots of the Big Hickory-tree, dug by Johnny Chuck's grandfather",
+      "A rabbit in the Sunny South that loves to swim (the Marsh Rabbit)"
+     ],
+     "notes": "This book is the companion to the Burgess Bird Book; it is about mammals, so begin a fresh 'mammals' section in the nature journal."
+    },
+    {
+     "title": "Chapter II: Peter and Jumper Go to School",
+     "steps": [
+      "Read Chapter II, \"Peter and Jumper Go to School\", aloud together",
+      "Narration: your child tells how Peter and Jumper are alike and how they differ",
+      "Nature study (Cottontail and Snowshoe Hare): Draw Peter's narrow hind foot beside Jumper's broad, furry 'snowshoe' foot; in snow, look for rabbit tracks (two big hind prints ahead of two small front ones)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter II",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0002"
+      }
+     ],
+     "questions": [
+      "Why is Jumper called a Snowshoe Rabbit?",
+      "How are newborn cottontails different from newborn hares?"
+     ],
+     "answers": [
+      "His big, broad hind feet grow long hair in winter so he can run on top of the snow",
+      "Baby cottontails are born blind and without fur; baby hares are born with fur and open eyes"
+     ]
+    },
+    {
+     "title": "Chapter III: More of Peter's Long-Legged Cousins",
+     "steps": [
+      "Read Chapter III, \"More of Peter's Long-Legged Cousins\", aloud together",
+      "Narration: your child names as many of Peter's cousins as they can and tells one thing about each",
+      "Nature study (Jackrabbits and Arctic Hare): Find the Frozen North, the Great Plains, and the Southwest on a map; mark which hare lives in each place"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter III",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0003"
+      }
+     ],
+     "questions": [
+      "Which member of Peter's family is the biggest?",
+      "How does Antelope Jack signal to his friends far away?",
+      "Why do farmers dislike Jack Rabbit?"
+     ],
+     "answers": [
+      "White-tailed Jack (the Prairie Hare)",
+      "He spreads the white hair on his sides so it flashes in the sun",
+      "He eats their crops and the bark of young orchard trees"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 2: The Squirrel Family (Chapters IV–VIII)",
+   "lessons": [
+    {
+     "title": "Chapter IV: Chatterer and Happy Jack Join",
+     "steps": [
+      "Read Chapter IV, \"Chatterer and Happy Jack Join\", aloud together",
+      "Narration: your child explains what an 'order' is and why rabbits and squirrels both belong to the Rodents",
+      "Nature study (Gnawing teeth): Look for nibbled nuts, chewed pine cones, or gnawed bark outdoors; draw the tooth marks"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter IV",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0004"
+      }
+     ],
+     "questions": [
+      "Which surprising animal turned out to be a member of the Squirrel family?",
+      "What do all Rodents have in common?",
+      "Is Striped Chipmunk a Tree, Rock, or Ground Squirrel?"
+     ],
+     "answers": [
+      "Johnny Chuck the Woodchuck",
+      "Big front teeth made for gnawing",
+      "A Rock Squirrel"
+     ]
+    },
+    {
+     "title": "Chapter V: The Squirrels of the Trees",
+     "steps": [
+      "Read Chapter V, \"The Squirrels of the Trees\", aloud together",
+      "Narration: let your child play Happy Jack describing Chatterer, then Chatterer describing Happy Jack",
+      "Nature study (Gray, Red, and Fox Squirrels): Watch a squirrel for ten minutes; note its size, color, and tail, and whether it buries food or carries it up a tree"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter V",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0005"
+      }
+     ],
+     "questions": [
+      "Which is bigger, the Red Squirrel or the Gray Squirrel?",
+      "How do Gray and Fox Squirrels help plant trees?",
+      "Can a Gray Squirrel be black?"
+     ],
+     "answers": [
+      "The Gray Squirrel (more than twice as big)",
+      "They bury more nuts than they dig up, and the forgotten nuts sprout and grow",
+      "Yes; some are born with black coats but are still Gray Squirrels"
+     ]
+    },
+    {
+     "title": "Chapter VI: Striped Chipmunk and His Cousins",
+     "steps": [
+      "Read Chapter VI, \"Striped Chipmunk and his Cousins\", aloud together",
+      "Narration: your child explains how Timmy the Flying Squirrel 'flies' without wings",
+      "Nature study (Eastern Chipmunk): Look along stone walls and woodpiles for a chipmunk; watch whether its cheeks bulge with food, and sketch its stripes"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter VI",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0006"
+      }
+     ],
+     "questions": [
+      "How does Striped Chipmunk keep the entrance to his tunnel a secret?",
+      "Which are the only animals in this land that can really fly?",
+      "When is Timmy the Flying Squirrel out and about?"
+     ],
+     "answers": [
+      "He carried the dirt out through a back door far away and then closed it up, so no sand shows at his doorway",
+      "Bats",
+      "At night, especially early evening"
+     ]
+    },
+    {
+     "title": "Chapter VII: Johnny Chuck Joins the Class",
+     "steps": [
+      "Read Chapter VII, \"Johnny Chuck Joins the Class\", aloud together",
+      "Narration: your child pretends to be Johnny Chuck and gives a 'tour' of his underground home",
+      "Nature study (Woodchuck/Groundhog): Look along field edges and roadsides for a big mound of dirt at a burrow entrance; draw a cutaway picture of a woodchuck tunnel with its bedroom and back doors"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter VII",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0007"
+      }
+     ],
+     "questions": [
+      "Why are there no piles of sand at Johnny Chuck's back doorways?",
+      "What does Johnny do to get ready for winter?",
+      "Why is Johnny so thin in early spring?"
+     ],
+     "answers": [
+      "He pushes all the sand out through the main doorway, so the back doors stay hidden",
+      "He eats and eats until he is very fat, then goes down to his bedroom and sleeps all winter",
+      "He has used up his fat while sleeping and waiting for the first green plants"
+     ],
+     "notes": "Groundhog Day fans: Johnny is the same animal. Ask your child whether a sleeping woodchuck would really check for its shadow."
+    },
+    {
+     "title": "Chapter VIII: Whistler and Yap Yap",
+     "steps": [
+      "Read Chapter VIII, \"Whistler and Yap Yap\", aloud together",
+      "Narration: your child compares Whistler the Marmot and Yap Yap the Prairie Dog: where they live and how they get along with neighbors",
+      "Nature study (Hoary Marmot and Black-tailed Prairie Dog): Draw a prairie dog mound with the doorway in the middle and a little turning room just inside; show the hard rim that keeps rain out"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter VIII",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0008"
+      }
+     ],
+     "questions": [
+      "How did Whistler get his name?",
+      "Why does Yap Yap build a mound around his doorway?",
+      "How does a Prairie Dog get water where it is so dry?"
+     ],
+     "answers": [
+      "He gives a sharp, loud whistle to warn his relatives of danger",
+      "To keep rainwater from running down the hole, and to use as a lookout",
+      "From the green plants he eats; he doesn't need to drink"
+     ],
+     "notes": "Prairie dog 'towns' once covered huge areas of the plains; today the black-footed ferret mentioned here is one of North America's rarest mammals."
+    }
+   ]
+  },
+  {
+   "title": "Unit 3: Pikas, Gophers, Porcupines, Beavers, and Rats (Chapters IX–XIV)",
+   "lessons": [
+    {
+     "title": "Chapter IX: Two Queer Little Haymakers",
+     "steps": [
+      "Read Chapter IX, \"Two Queer Little Haymakers\", aloud together",
+      "Narration: your child explains, step by step, how Little Chief makes hay",
+      "Nature study (American Pika and Mountain Beaver): Make your own 'hay': cut a handful of grass, spread it in the sun for a few days, and compare it with fresh grass kept in a closed jar"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter IX",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0009"
+      }
+     ],
+     "questions": [
+      "Is Little Chief Hare really a hare? What should he be called?",
+      "Why does Little Chief dry his grass before storing it?",
+      "Is Stubtail the Mountain Beaver related to Paddy the Beaver?"
+     ],
+     "answers": [
+      "No; he is a Pika (also called a Cony)",
+      "Fresh green plants would sour and spoil in his storehouse",
+      "No; he is a Sewellel, not a beaver at all"
+     ]
+    },
+    {
+     "title": "Chapter X: Prickly Porky and Grubby Gopher",
+     "steps": [
+      "Read Chapter X, \"Prickly Porky and Grubby Gopher\", aloud together",
+      "Narration: your child explains why Old Mother Nature calls Grubby Gopher her 'little plowman'",
+      "Nature study (Pocket Gopher): Look for fresh mounds of loose soil in a lawn or field; dig gently in garden soil and notice how loosened earth is darker and softer than packed earth"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter X",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0010"
+      }
+     ],
+     "questions": [
+      "Where are Grubby Gopher's pockets, and what does he carry in them?",
+      "How does Grubby's digging help the soil?",
+      "Why do farmers dislike him?"
+     ],
+     "answers": [
+      "On the outside of his cheeks; he carries food, not dirt",
+      "It loosens hard earth and mixes plant matter into it, like plowing",
+      "He eats crops and roots, kills young trees, and his mounds bury plants and get in the way of mowing"
+     ]
+    },
+    {
+     "title": "Chapter XI: A Fellow With a Thousand Spears",
+     "steps": [
+      "Read Chapter XI, \"A Fellow With a Thousand Spears\", aloud together",
+      "Narration: your child acts out what Prickly Porky does when an enemy comes near",
+      "Nature study (North American Porcupine): In a forest, look for trees with bark gnawed off high up, especially hemlocks; draw a porcupine quill with its tiny barbs"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XI",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0011"
+      }
+     ],
+     "questions": [
+      "Can a porcupine throw its quills?",
+      "Why is Prickly Porky afraid of Pekan the Fisher?",
+      "What does Prickly Porky like to eat?"
+     ],
+     "answers": [
+      "No; quills stick in whoever is struck by his quick tail",
+      "Pekan has learned to flip him over, where there are no quills on his underside",
+      "Bark, twigs and leaves (hemlock best), lily pads in summer, and salt"
+     ],
+     "notes": "Never let a dog near a porcupine; quills must be removed by a vet."
+    },
+    {
+     "title": "Chapter XII: A Lumberman and Engineer",
+     "steps": [
+      "Read Chapter XII, \"A Lumberman and Engineer\", aloud together",
+      "Narration: your child explains how Paddy built his dam, step by step",
+      "Nature study (American Beaver): Visit a pond or stream and look for pointed, chewed stumps, a dam, or a stick lodge; or build a mini dam of sticks and mud in a gutter or sandbox and watch the water back up"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XII",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0012"
+      }
+     ],
+     "questions": [
+      "What are three ways Paddy uses his flat tail?",
+      "How does Paddy get food in winter when the pond is frozen?",
+      "Why did Paddy dig a canal?"
+     ],
+     "answers": [
+      "He slaps the water as a warning, steers with it as a rudder, and braces himself with it while cutting trees",
+      "He swims under the ice to the pile of branches he stored near his house",
+      "So he could float logs from the far trees to the pond and stay safe near water"
+     ]
+    },
+    {
+     "title": "Chapter XIII: A Worker and a Robber",
+     "steps": [
+      "Read Chapter XIII, \"A Worker and a Robber\", aloud together",
+      "Narration: your child tells how Jerry Muskrat and Robber the Brown Rat are different, and why Jerry is called a worker",
+      "Nature study (Muskrat and Brown Rat): At a marsh or pond edge, look for a small dome of rushes (a muskrat house) or a swimming head with a V-shaped wake; draw Jerry's side-flattened tail next to Paddy's broad flat one"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XIII",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0013"
+      }
+     ],
+     "questions": [
+      "What does Jerry Muskrat build his house from?",
+      "How does Jerry use his tail in swimming?",
+      "Why is the Brown Rat so dangerous to people?"
+     ],
+     "answers": [
+      "Rushes (cattails and reeds) and mud",
+      "He wiggles it side to side to push himself along, like a propeller",
+      "He steals and spoils food and spreads deadly diseases"
+     ]
+    },
+    {
+     "title": "Chapter XIV: A Trader and a Handsome Fellow",
+     "steps": [
+      "Read Chapter XIV, \"A Trader and a Handsome Fellow\", aloud together",
+      "Narration: your child tells a funny 'trading' story about Trader the Wood Rat visiting a campsite",
+      "Nature study (Woodrat/Pack Rat and Kangaroo Rat): Gather a small 'museum' of shiny or interesting objects from a walk, the way Trader collects; on a map of the US, find the dry Southwest where Longfoot lives"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XIV",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0014"
+      }
+     ],
+     "questions": [
+      "Why is the Wood Rat called Trader?",
+      "What is Longfoot the Kangaroo Rat's long tail for?",
+      "How does Longfoot get water in the desert?"
+     ],
+     "answers": [
+      "He leaves something (a stick, pebble, or chip) in place of what he takes",
+      "It keeps him balanced when he jumps",
+      "From the seeds and plants he eats; he doesn't need to drink"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 4: Mice, Shrews, and Moles (Chapters XV–XX)",
+   "lessons": [
+    {
+     "title": "Chapter XV: Two Unlike Little Cousins",
+     "steps": [
+      "Read Chapter XV, \"Two Unlike Little Cousins\", aloud together",
+      "Narration: your child explains why Whitefoot says being timid keeps him alive, and why Danny started for school a day early",
+      "Nature study (Deer Mouse and Meadow Vole): Draw Whitefoot and Danny side by side and label the differences (eyes, ears, tail, body); in tall grass, part the stems to look for tiny vole runways"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XV",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0015"
+      }
+     ],
+     "questions": [
+      "Why is Whitefoot also called the Deer Mouse?",
+      "How does Danny Meadow Mouse get around in the tall grass?",
+      "Why was Danny glad his tail is short?"
+     ],
+     "answers": [
+      "The top of his coat is a pretty fawn color, like a deer",
+      "He cuts little paths that become like tunnels under the grass",
+      "Reddy Fox once touched its tip; a longer tail would have been caught"
+     ],
+     "notes": "Good discussion: Old Mother Nature says it is not how we look but what we are and do that counts."
+    },
+    {
+     "title": "Chapter XVI: Danny's Northern Cousins and Nimbleheels",
+     "steps": [
+      "Read Chapter XVI, \"Danny's Northern Cousins and Nimbleheels\", aloud together",
+      "Narration: your child retells the funny moment when tiny Nimbleheels scared the whole school",
+      "Nature study (Lemmings and Meadow Jumping Mouse): Measure how far your child can jump, then compare: a jumping mouse can leap many times its own length; mark the Far North on a globe where lemmings live"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XVI",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0016"
+      }
+     ],
+     "questions": [
+      "What is special about Bandy the Banded Lemming's coat?",
+      "What do lemmings do when food runs out?",
+      "What helps Nimbleheels land where he means to?"
+     ],
+     "answers": [
+      "It turns white in winter (the only one in the Mouse family that changes color)",
+      "Huge numbers travel together in search of food, even swimming rivers and lakes",
+      "His very long tail balances him"
+     ]
+    },
+    {
+     "title": "Chapter XVII: Three Little Redcoats and Some Others",
+     "steps": [
+      "Read Chapter XVII, \"Three Little Redcoats and Some Others\", aloud together",
+      "Narration: your child picks one of the new mice (Piney, Red-backed Mouse, Rufous Tree Mouse, Bigear, or Beach Mouse) and tells all about it",
+      "Nature study (Woodland Vole, Red-backed Vole, Red Tree Vole): On a map, find the Far West's giant forests where the Tree Mouse lives; draw its big tree nest with several bedrooms"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XVII",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0017"
+      }
+     ],
+     "questions": [
+      "How is Piney the Pine Mouse's way of traveling different from Danny's?",
+      "What does the Rufous Tree Mouse eat?",
+      "Why is the Beach Mouse's coat sometimes very light?"
+     ],
+     "answers": [
+      "Piney digs little tunnels just under the ground like a mole; Danny cuts paths through the grass",
+      "Fir and spruce needles and the bark of tender twigs",
+      "When it lives on white seashore sand, a pale coat helps it blend in"
+     ]
+    },
+    {
+     "title": "Chapter XVIII: Mice with Pockets, and Others",
+     "steps": [
+      "Read Chapter XVIII, \"Mice with Pockets, and Others\", aloud together",
+      "Narration: your child tells which mouse they liked best and why",
+      "Nature study (Pocket Mice, Grasshopper Mouse, Harvest Mouse, House Mouse): Look in tall weeds or low bushes for a ball-shaped grass nest; on a chart, sort the mice you've met into 'native' and 'brought here by people'"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XVIII",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0018"
+      }
+     ],
+     "questions": [
+      "How did the Grasshopper Mouse get its name?",
+      "What does the Harvest Mouse's nest look like?",
+      "Who brought the House Mouse to this country?"
+     ],
+     "answers": [
+      "It loves to eat grasshoppers (and crickets)",
+      "A little round ball of grass with doorways underneath, lined with soft milkweed or cattail down",
+      "People (it followed man all over the world)"
+     ],
+     "notes": "This chapter finishes the Rodents. A good moment to review: list every rodent from Chapters II to XVIII your child can remember."
+    },
+    {
+     "title": "Chapter XIX: Teeny Weeny and His Cousin",
+     "steps": [
+      "Read Chapter XIX, \"Teeny Weeny and His Cousin\", aloud together",
+      "Narration: your child explains why a shrew is not a mouse at all",
+      "Nature study (Shrews): Find a leaf big enough to hide a shrew (under four inches long, nose to tail tip); turn over a log or poke gently in damp leaf litter and look for tiny runways"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XIX",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0019"
+      }
+     ],
+     "questions": [
+      "What does 'Insectivora' mean, and which two families belong to it?",
+      "How does Teeny Weeny find his food if his eyes are so poor?",
+      "Why do some hunters leave shrews alone?"
+     ],
+     "answers": [
+      "Insect-eaters; the Shrews and the Moles",
+      "With his long, sensitive nose (smell)",
+      "Shrews have a strong, unpleasant scent that makes them a poor meal"
+     ]
+    },
+    {
+     "title": "Chapter XX: Four Busy Little Miners",
+     "steps": [
+      "Read Chapter XX, \"Four Busy Little Miners\", aloud together",
+      "Narration: your child shows with their own hands how Miner digs, with palms turned outward",
+      "Nature study (Eastern Mole and Star-nosed Mole): Look for raised ridges in a lawn after rain; press gently on one to feel the tunnel underneath; draw the star-nosed mole's nose with its 22 fingers"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XX",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0020"
+      }
+     ],
+     "questions": [
+      "What does a mole really eat?",
+      "Why is a mole's fur so thick, and why can it lie either way?",
+      "Who usually eats the seed corn that moles get blamed for?"
+     ],
+     "answers": [
+      "Mostly worms, grubs and insects (not plant roots)",
+      "So dirt can't work into it; and it stays smooth whether the mole goes forward or backward",
+      "Meadow mice using the mole's tunnels"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 5: Bats and the Weasel Family (Chapters XXI–XXVI)",
+   "lessons": [
+    {
+     "title": "Chapter XXI: Flitter the Bat and His Family",
+     "steps": [
+      "Read Chapter XXI, \"Flitter the Bat and His Family\", aloud together",
+      "Narration: your child explains what 'wing-handed' means, spreading their own fingers to show the bat's wing",
+      "Nature study (Eastern Red Bat and Little Brown Bat): On a warm evening, sit outside at dusk near water or a streetlight and count the bats darting after insects"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXI",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0021"
+      }
+     ],
+     "questions": [
+      "Is it true that bats are blind?",
+      "Where does Flitter the Red Bat sleep during the day?",
+      "Why are bats good friends to people?"
+     ],
+     "answers": [
+      "No; Flitter has bright eyes and can see well even in daylight",
+      "Hanging by his toes from a twig in a tree or bush",
+      "They eat huge numbers of insects, including mosquitoes"
+     ],
+     "notes": "Bats also find insects by echolocation (bouncing sounds off them), which scientists discovered after this book was written. Never handle a bat with bare hands."
+    },
+    {
+     "title": "Chapter XXII: An Independent Family",
+     "steps": [
+      "Read Chapter XXII, \"An Independent Family\", aloud together",
+      "Narration: your child explains why Jimmy Skunk can be so independent and what warning he gives before using his scent",
+      "Nature study (Striped Skunk and Spotted Skunk): Look in a lawn for small cone-shaped holes where a skunk dug for grubs; draw Jimmy's stripes and his warning tail-raise"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXII",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0022"
+      }
+     ],
+     "questions": [
+      "What does 'Carnivora' mean?",
+      "How does Jimmy Skunk warn others before he uses his scent?",
+      "Why does Old Mother Nature say skunks do more good than harm?"
+     ],
+     "answers": [
+      "Flesh-eating",
+      "He growls and stamps his front feet, and raises his big bushy tail",
+      "They eat great numbers of insects and grubs and other pests, and only rarely take chickens or eggs"
+     ],
+     "notes": "Remind children to back away quietly from any skunk, especially one stamping its feet."
+    },
+    {
+     "title": "Chapter XXIII: Digger and His Cousin Glutton",
+     "steps": [
+      "Read Chapter XXIII, \"Digger and His Cousin Glutton\", aloud together",
+      "Narration: your child retells Peter's visit to grumpy Digger the Badger",
+      "Nature study (American Badger and Wolverine): Draw Digger's striped face and huge front claws; on a map, color the open plains where badgers live and the far northern forests where wolverines roam"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXIII",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0023"
+      }
+     ],
+     "questions": [
+      "How did Peter almost step on Digger without seeing him?",
+      "Why does Old Mother Nature say Digger is worth more alive than dead?",
+      "Why do trappers dislike Glutton the Wolverine?"
+     ],
+     "answers": [
+      "Digger lay flat and perfectly still in the grass, looking like a stone",
+      "He kills great numbers of crop-destroying rodents",
+      "He follows them, steals bait from their traps without being caught, and breaks into their cabins for food"
+     ],
+     "notes": "Burgess calls the wolverine 'ugly' and hated; today scientists value it as a rare, wild animal of the far north."
+    },
+    {
+     "title": "Chapter XXIV: Shadow and His Family",
+     "steps": [
+      "Read Chapter XXIV, \"Shadow and His Family\", aloud together",
+      "Narration: your child describes Shadow the Weasel in summer and in winter, the way Striped Chipmunk and Jumper each saw him",
+      "Nature study (Short-tailed Weasel / Ermine): Look at a picture of a weasel in its brown summer coat and its white winter coat; draw both and color the black tail tip on each"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXIV",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0024"
+      }
+     ],
+     "questions": [
+      "Why did Striped Chipmunk and Jumper describe Shadow's coat so differently?",
+      "What is a weasel called when it wears its white winter coat?",
+      "What is the one good thing the animals say Shadow does?"
+     ],
+     "answers": [
+      "Chipmunk saw him in his brown summer coat and Jumper saw him in his white winter coat",
+      "An Ermine",
+      "He kills rats"
+     ],
+     "notes": "Burgess calls the weasel cruel. Today we'd say weasels are fast, hungry hunters; it's a good moment to talk about predators and prey without good guys and bad guys."
+    },
+    {
+     "title": "Chapter XXV: Two Famous Swimmers",
+     "steps": [
+      "Read Chapter XXV, \"Two Famous Swimmers\", aloud together",
+      "Narration: your child tells what Billy Mink and Little Joe Otter showed the class at the Smiling Pool",
+      "Nature study (American Mink and River Otter): Visit a stream or pond bank and look for tracks, slides, or fish scraps; draw a webbed otter foot in your journal"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXV",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0025"
+      }
+     ],
+     "questions": [
+      "What helps Little Joe Otter swim so well?",
+      "What do otters use their 'slippery slide' for?",
+      "Does Little Joe sleep through the winter?"
+     ],
+     "answers": [
+      "His webbed toes",
+      "For play: they slide down the bank into the water over and over",
+      "No; his warm coat keeps him active, and he swims under the ice for food"
+     ],
+     "notes": "Mother Nature worried otters would disappear. River otters have since come back to many rivers thanks to protection, which is good news to share."
+    },
+    {
+     "title": "Chapter XXVI: Spite the Marten and Pekan the Fisher",
+     "steps": [
+      "Read Chapter XXVI, \"Spite the Marten and Pekan the Fisher\", aloud together",
+      "Narration: your child compares the Marten and the Fisher: where they live, what they look like, and who can catch whom",
+      "Nature study (American Marten and Fisher): On a map, color the great northern forests where both live; sketch a marten leaping between branches"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXVI",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0026"
+      }
+     ],
+     "questions": [
+      "Where do the Marten and the Fisher live?",
+      "Which animal fears the Fisher most, and why?",
+      "Does the Fisher really go fishing?"
+     ],
+     "answers": [
+      "In the deep, dark evergreen forests of the Far North",
+      "Prickly Porky the Porcupine, because the Fisher knows how to flip him over to reach his unprotected belly",
+      "No; he eats fish if he finds them, but he isn't a water animal"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 6: Foxes, Wolves, Cats, Raccoons, Bears, and the Opossum (Chapters XXVII–XXXIV)",
+   "lessons": [
+    {
+     "title": "Chapter XXVII: Reddy Fox Joins the School",
+     "steps": [
+      "Read Chapter XXVII, \"Reddy Fox Joins the School\", aloud together",
+      "Narration: your child tells how Mr. and Mrs. Reddy fool Bowser the Hound when there are babies at home",
+      "Nature study (Red Fox): Look for fox tracks in snow or mud (a neat straight line of small dog-like prints); draw Reddy with his white-tipped tail and black feet"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXVII",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0027"
+      }
+     ],
+     "questions": [
+      "Which family does Reddy Fox belong to?",
+      "When is a Red Fox not red?",
+      "Why has Reddy grown so clever?"
+     ],
+     "answers": [
+      "The Dog family",
+      "When he is born black or partly black (a Silver or Cross Fox); he is still a Red Fox",
+      "Because he has been hunted so much, he has learned to use his eyes, ears, nose, and wits"
+     ]
+    },
+    {
+     "title": "Chapter XXVIII: Old Man Coyote and Howler the Wolf",
+     "steps": [
+      "Read Chapter XXVIII, \"Old Man Coyote and Howler the Wolf\", aloud together",
+      "Narration: your child explains why Old Man Coyote is not really a coward",
+      "Nature study (Coyote and Gray Wolf): Listen to a recording of coyotes yipping and wolves howling; then draw a dog-family paw print and note how they walk on their toes"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXVIII",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0028"
+      }
+     ],
+     "questions": [
+      "What branch of the Dog family is the Coyote?",
+      "How do wolves hunt in winter?",
+      "How do all members of the Dog family walk?"
+     ],
+     "answers": [
+      "The Wolf branch (he is the Prairie Wolf)",
+      "Together in packs, following a leader",
+      "On their toes, never with the whole foot flat"
+     ],
+     "notes": "Burgess wrote when wolves were being poisoned and nearly wiped out. Wolves are now protected in many places and have returned to areas like Yellowstone."
+    },
+    {
+     "title": "Chapter XXIX: Yowler and His Cousin Tufty",
+     "steps": [
+      "Read Chapter XXIX, \"Yowler and His Cousin Tufty\", aloud together",
+      "Narration: let your child tell Jumper's night adventure as if they were Jumper",
+      "Nature study (Bobcat and Canada Lynx): Watch a house cat stalk a toy and notice the twitching tail; then draw Tufty's huge snowshoe feet and ear tufts next to Yowler's"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXIX",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0029"
+      }
+     ],
+     "questions": [
+      "How could Jumper tell from the tracks that Yowler had been there?",
+      "Why does Yowler yell at night?",
+      "Why does Tufty the Lynx have such huge feet?"
+     ],
+     "answers": [
+      "The footprints were almost round, like a cat's",
+      "To startle sleeping animals into moving so he can hear them",
+      "So he can travel on deep snow without sinking in"
+     ]
+    },
+    {
+     "title": "Chapter XXX: Some Big and Little Cat Cousins",
+     "steps": [
+      "Read Chapter XXX, \"Some Big and Little Cat Cousins\", aloud together",
+      "Narration: your child names the four wild cats in this chapter and one fact about each",
+      "Nature study (Cougar, Jaguar, Ocelot, Jaguarundi): Draw the four cats in a row from biggest to smallest and label where each lives"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXX",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0030"
+      }
+     ],
+     "questions": [
+      "What other names does Puma the Panther have?",
+      "Which is the largest wild cat in this chapter?",
+      "Which cat is shaped most like an otter?"
+     ],
+     "answers": [
+      "Mountain Lion, Cougar, and Painter",
+      "The Jaguar",
+      "The Jaguarundi"
+     ]
+    },
+    {
+     "title": "Chapter XXXI: Bobby Coon Arrives",
+     "steps": [
+      "Read Chapter XXXI, \"Bobby Coon Arrives\", aloud together",
+      "Narration: your child lists everything Bobby Coon ate in the past few nights and explains why Mother Nature scolded him about the corn",
+      "Nature study (Raccoon): Look in mud by a creek for raccoon tracks, which look like tiny hand prints; draw Bobby's ringed tail and black mask"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXI",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0031"
+      }
+     ],
+     "questions": [
+      "Why does Mother Nature say the corn is not Bobby's to take?",
+      "What unusual habit does Bobby have with his food?",
+      "Who is the only other animal here with a ringed tail like Bobby's?"
+     ],
+     "answers": [
+      "Farmer Brown planted it and cared for it, so it is his",
+      "He likes to wash it in water before he eats it",
+      "The Ring-tailed Cat (Cacomixtle)"
+     ],
+     "notes": "Raccoons often dabble their food in water, but scientists now think they are feeling it with their sensitive paws rather than cleaning it."
+    },
+    {
+     "title": "Chapter XXXII: Buster Bear Nearly Breaks Up School",
+     "steps": [
+      "Read Chapter XXXII, \"Buster Bear Nearly Breaks Up School\", aloud together",
+      "Narration: your child tells what Buster Bear eats through the seasons, from spring roots to fall acorns",
+      "Nature study (American Black Bear): Trace your own bare foot on paper and compare it with a bear's track; talk about 'plantigrade' (whole foot down) versus walking on toes"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXII",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0032"
+      }
+     ],
+     "questions": [
+      "Does Buster Bear have a tail?",
+      "Can a black bear be brown?",
+      "How big was Buster when he was born?"
+     ],
+     "answers": [
+      "Yes, but it is very short",
+      "Yes; some black bears, called Cinnamon Bears, are brown",
+      "Tiny, about the size of a rat"
+     ],
+     "notes": "Bear-country safety is a good follow-up conversation if your family hikes where bears live."
+    },
+    {
+     "title": "Chapter XXXIII: Buster Bear's Big Cousins",
+     "steps": [
+      "Read Chapter XXXIII, \"Buster Bear's Big Cousins\", aloud together",
+      "Narration: your child describes how Silvertip catches salmon and how a mother Polar Bear's cubs are born",
+      "Nature study (Grizzly, Kodiak/Alaska Brown Bear, and Polar Bear): Draw the bears side by side by size and color, and mark where each lives on a map"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXIII",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0033"
+      }
+     ],
+     "questions": [
+      "Why is the Grizzly called Silvertip?",
+      "Why can't the Grizzly climb trees?",
+      "Where are Polar Bear cubs born?"
+     ],
+     "answers": [
+      "The tips of his hairs are lighter, so his coat looks frosted",
+      "His claws are too long",
+      "In a den under the snow"
+     ],
+     "notes": "Grizzlies are now protected in the lower 48 states, as Mother Nature hoped."
+    },
+    {
+     "title": "Chapter XXXIV: Unc' Billy and Old Mrs. Possum",
+     "steps": [
+      "Read Chapter XXXIV, \"Unc' Billy and Old Mrs. Possum\", aloud together",
+      "Narration: your child tells the story of how Unc' Billy fooled Farmer Brown's boy",
+      "Nature study (Virginia Opossum): Draw a mother opossum carrying babies on her back, and show how the young hold on to twigs with their tails"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXIV",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0034"
+      }
+     ],
+     "questions": [
+      "Why aren't opossums in the order of flesh eaters?",
+      "How do young opossums use their tails?",
+      "What trick does Unc' Billy use when he can't run away?"
+     ],
+     "answers": [
+      "They are Marsupials, pouched animals whose mothers carry babies in a pocket",
+      "They wrap them around twigs to keep from falling",
+      "He plays dead"
+     ],
+     "notes": "Burgess writes Unc' Billy's speech in an old-fashioned Southern dialect; you may prefer to read it in your own voice."
+    }
+   ]
+  },
+  {
+   "title": "Unit 7: Hoofed Animals and Mammals of the Sea (Chapters XXXV–XL)",
+   "lessons": [
+    {
+     "title": "Chapter XXXV: Lightfoot, Blacktail and Forkhorn",
+     "steps": [
+      "Read Chapter XXXV, \"Lightfoot, Blacktail and Forkhorn\", aloud together",
+      "Narration: your child explains how a deer's antlers grow each year, from knobs to velvet to hard points",
+      "Nature study (White-tailed Deer and Mule Deer): At the edge of woods at dawn or dusk, watch for deer and their white 'flag'; look for heart-shaped hoof prints and draw them"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXV",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0035"
+      }
+     ],
+     "questions": [
+      "What is the difference between horns and antlers?",
+      "Why do fawns have spotted coats?",
+      "What is a deer 'yard' in winter?"
+     ],
+     "answers": [
+      "Horns are hollow and kept for life; antlers are solid and drop off every year",
+      "The spots look like sunlight on the ground, so the fawns are hard to see",
+      "A sheltered place where deer trample paths in the snow and feed together"
+     ],
+     "notes": "White-tailed deer are now very common, far from the disappearing animal Burgess feared for."
+    },
+    {
+     "title": "Chapter XXXVI: Bugler, Flathorns and Wanderhoof",
+     "steps": [
+      "Read Chapter XXXVI, \"Bugler, Flathorns and Wanderhoof\", aloud together",
+      "Narration: your child compares the Elk, Moose, and Caribou: size, antlers, and where they live",
+      "Nature study (Elk, Moose, and Caribou): Listen to a recording of an elk bugling; draw the three antler shapes side by side"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXVI",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0036"
+      }
+     ],
+     "questions": [
+      "Why is the Elk called Bugler?",
+      "Which is the biggest member of the Deer family?",
+      "How is Mrs. Caribou different from the mothers of all the other deer?"
+     ],
+     "answers": [
+      "In fall he stretches out his neck and makes a loud trumpet call, warning he is ready to fight",
+      "The Moose (Flathorns)",
+      "She has antlers too"
+     ]
+    },
+    {
+     "title": "Chapter XXXVII: Thunderfoot, Fleetfoot and Longcoat",
+     "steps": [
+      "Read Chapter XXXVII, \"Thunderfoot, Fleetfoot and Longcoat\", aloud together",
+      "Narration: your child tells what happened to the great herds of Bison",
+      "Nature study (American Bison, Pronghorn, and Musk Ox): Draw a circle of Musk Oxen with horns facing out against wolves; on a map, shade the Great Plains where bison once roamed"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXVII",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0037"
+      }
+     ],
+     "questions": [
+      "Why was the Bison called Thunderfoot?",
+      "Which is the fastest runner in this country?",
+      "How do Musk Oxen protect themselves from wolves?"
+     ],
+     "answers": [
+      "When the great herds galloped, their feet sounded like thunder",
+      "Fleetfoot the Pronghorn (Antelope)",
+      "They stand in a circle with their heads and horns facing out"
+     ],
+     "notes": "Bison and pronghorn have recovered from the few hundred left in 1920, thanks to protection; a hopeful ending to a sad chapter."
+    },
+    {
+     "title": "Chapter XXXVIII: Two Wonderful Mountain Climbers",
+     "steps": [
+      "Read Chapter XXXVIII, \"Two Wonderful Mountain Climbers\", aloud together",
+      "Narration: your child compares Bighorn and Billy the Mountain Goat: looks, horns, and how they live on the peaks",
+      "Nature study (Bighorn Sheep and Mountain Goat): Look at sheep or goats at a farm or petting zoo and examine their hooves; draw a Bighorn's curled horns and a Mountain Goat's slim black ones"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXVIII",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0038"
+      }
+     ],
+     "questions": [
+      "Does Bighorn land on his horns when he leaps?",
+      "Which enemy threatens the lambs high on the mountains?",
+      "Why is a Mountain Goat hard to see in summer?"
+     ],
+     "answers": [
+      "No; he always lands on his feet",
+      "King Eagle (the Golden Eagle)",
+      "His white coat looks like a patch of snow on the rocks"
+     ]
+    },
+    {
+     "title": "Chapter XXXIX: Piggy and Hardshell",
+     "steps": [
+      "Read Chapter XXXIX, \"Piggy and Hardshell\", aloud together",
+      "Narration: your child describes the Peccary and the Armadillo to someone who has never seen either",
+      "Nature study (Collared Peccary and Nine-banded Armadillo): Draw the armadillo's banded shell and count its nine bands; mark the hot Southwest on a map"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXIX",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0039"
+      }
+     ],
+     "questions": [
+      "Why is Piggy called the Collared Peccary?",
+      "How is the Armadillo's shell different from a turtle's?",
+      "How does the Armadillo catch ants?"
+     ],
+     "answers": [
+      "A whitish band across his shoulders looks like a collar",
+      "It is jointed in bands instead of one piece, and the Armadillo is a mammal, not a reptile",
+      "With his long, sticky tongue"
+     ],
+     "notes": "Only a few armadillo kinds can roll into a complete ball; the nine-banded armadillo usually can't, so it digs or runs instead."
+    },
+    {
+     "title": "Chapter XL: The Mammals of the Sea",
+     "steps": [
+      "Read Chapter XL, \"The Mammals of the Sea\", aloud together",
+      "Narration: your child tells how Sea Lions and true Seals differ",
+      "Nature study (Sea Otter, Walrus, Seals, Sea Lions, Manatee): Make a final journal page of sea mammals; then look back through the whole journal and choose a favorite animal to tell the family about"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XL",
+       "url": "https://www.gutenberg.org/cache/epub/2441/pg2441-images.html#link2HCH0040"
+      }
+     ],
+     "questions": [
+      "How does the Sea Otter eat?",
+      "What does the Walrus use its tusks for?",
+      "Is a whale a fish?"
+     ],
+     "answers": [
+      "Floating on its back, with clams and shellfish from the sea bottom",
+      "To dig up shellfish from the sea bottom",
+      "No; it is a mammal that breathes air"
+     ],
+     "notes": "Celebrate finishing Old Mother Nature's school! Peter's last words are a nice thought to end on: the more you learn, the more you see there is to know."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,735 @@
+{
+ "key": "viking-tales",
+ "title": "Viking Tales",
+ "sourceTitle": "Viking Tales",
+ "author": "Jennie Hall",
+ "seller": "Jennie Hall",
+ "year": 1902,
+ "sourceUrl": "https://www.gutenberg.org/ebooks/24811",
+ "readUrl": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html",
+ "license": {
+  "kind": "public_domain"
+ },
+ "licenseEvidence": "Project Gutenberg #24811: \"Public domain in the USA\"; title page reads \"Copyright, 1902, By Jennie Hall\" (Rand, McNally; published 1902)",
+ "subjects": [
+  "history",
+  "reading"
+ ],
+ "gradeMin": 2,
+ "gradeMax": 4,
+ "philosophies": [
+  "charlotte_mason",
+  "classical"
+ ],
+ "lessonsPerWeek": 4,
+ "minutesPerLesson": 20,
+ "parentInvolvement": "high",
+ "familyStyle": true,
+ "cover": "⛵",
+ "color": "#4C7FD9",
+ "description": "Jennie Hall's classic 1902 read-aloud follows the Norse sagas from the boyhood of Harald Fairhair in Norway to the settling of Iceland and Greenland and Leif Ericsson's voyage to Wineland in North America. It is gentle enough for grades 2–4 and great for siblings together: read a short chapter or part, have your child tell it back, find the place on a map, and add it to a Viking timeline. The full text is free online.",
+ "includes": [
+  "25 lessons in 4 units, every chapter in order (long chapters split into parts)",
+  "Link to the exact page of the free full text for every lesson",
+  "Narration prompt, map work or drawing, and timeline date for each lesson",
+  "Comprehension questions with answers",
+  "Parent notes on legend versus history, dated 1902 views, and violent or mature moments"
+ ],
+ "units": [
+  {
+   "title": "Unit 1: The Sagas and Harald's Boyhood",
+   "lessons": [
+    {
+     "title": "What the Sagas Were",
+     "steps": [
+      "Read the opening section, \"What the Sagas Were,\" aloud together",
+      "Narration: tell how Iceland families spent long winter evenings and where the old stories came from",
+      "Map work: Find Iceland and Norway on a map; trace the sea between them with your finger",
+      "Timeline: Start a Viking timeline strip from 800 to 1050 AD; add \"Sagas written down in Iceland\" at c. 1200 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"What the Sagas Were\"",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_9"
+      }
+     ],
+     "pages": "pp. 9–12",
+     "questions": [
+      "What was a skald?",
+      "What did the people of Iceland write the sagas on?",
+      "Why did fathers tell these stories to their children?"
+     ],
+     "answers": [
+      "A man who sang or told the old stories, often with a harp",
+      "Sheepskin (vellum)",
+      "To make them brave and wise and teach them to love their country"
+     ],
+     "notes": "The sagas were written down in Iceland in the 1200s, two or three hundred years after the events in this book, so they mix real history with legend. The old vellum books are kept today in Reykjavik and Copenhagen as well as Norway."
+    },
+    {
+     "title": "The Baby",
+     "steps": [
+      "Read \"The Baby\" aloud together",
+      "Narration: tell the queen's dream and how King Halfdan named his son",
+      "Map work: Find Norway and point to its long, jagged west coast full of fiords",
+      "Timeline: Add \"Harald born\" at c. 850 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"The Baby\"",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_15"
+      }
+     ],
+     "pages": "pp. 15–18",
+     "questions": [
+      "What did the queen see in her dream?",
+      "What name did the king give the baby?",
+      "What was the king's naming gift?"
+     ],
+     "answers": [
+      "A thorn that grew into a huge tree spreading over all Norway",
+      "Harald",
+      "Ten pounds of gold"
+     ],
+     "notes": "Harald Halfdansson is a real king, but stories of his birth, like the queen's dream, come from sagas written centuries later. Treat the dream as legend."
+    },
+    {
+     "title": "The Tooth Thrall",
+     "steps": [
+      "Read \"The Tooth Thrall\" aloud together",
+      "Narration: tell what Harald and Olaf saw from the hill and the story of Aegir's Rock",
+      "Map work: On a map of Norway, find a fiord; draw a quick picture of a fiord with steep rock walls",
+      "Timeline: Add \"Norse people worship Odin and Thor\" across 800–1000 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"The Tooth Thrall\"",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_19"
+      }
+     ],
+     "pages": "pp. 19–26",
+     "questions": [
+      "What is a thrall?",
+      "What did Olaf say made thunder and lightning?",
+      "What was the name of Odin's great feast hall?"
+     ],
+     "answers": [
+      "A servant who is not free (a slave)",
+      "Thor hurling his hammer",
+      "Valhalla"
+     ],
+     "notes": "Thralls were enslaved people; Olaf wears an iron collar. The book treats this lightly, so talk about what it means. Aegir's leap is told as a brave deed in the Norse way of thinking; you may want to discuss it with sensitive children."
+    },
+    {
+     "title": "Olaf's Farm",
+     "steps": [
+      "Read \"Olaf's Farm\" aloud together (it is a longer chapter; take a break halfway)",
+      "Narration: tell how Olaf built his dragon ship and how he spent a winter at the farmer's house",
+      "Map work: Find Denmark, Olaf's home, and trace a route across the water to Norway",
+      "Timeline: Add \"Viking raids along the coasts\" across 793–1066 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"Olaf's Farm\"",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_27"
+      }
+     ],
+     "pages": "pp. 27–39",
+     "questions": [
+      "What did Olaf name his ship?",
+      "How old was Olaf when he built his boat?",
+      "How did Olaf come to be Harald's thrall?"
+     ],
+     "answers": [
+      "Waverunner",
+      "Fifteen",
+      "He was captured, and the queen asked the king to spare him and give him to the baby"
+     ],
+     "notes": "Olaf tells raiding and taking over a family's farm as a merry joke. Ask your child how the farmer might have felt. This is a good chance to talk about how Viking raids looked to the people being raided."
+    },
+    {
+     "title": "Olaf's Fight With Havard",
+     "steps": [
+      "Read \"Olaf's Fight With Havard\" aloud together",
+      "Narration: tell how Olaf's men escaped from the farmhouse",
+      "Draw: a Viking ship with its dragon head, sail, and oars",
+      "Timeline: Add \"Viking ships sail the North Sea\" at c. 800–900 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"Olaf's Fight With Havard\"",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_40"
+      }
+     ],
+     "pages": "pp. 40–46",
+     "questions": [
+      "How did Olaf's men find a way out of the house?",
+      "Why couldn't King Havard follow them by sea?",
+      "What did Olaf do to tease Havard as he sailed off?"
+     ],
+     "answers": [
+      "Thorkel fell against a panel and found a secret passage",
+      "Olaf's men had broken the oars of his ships and thrown the sails in the water",
+      "He sang a mocking song"
+     ],
+     "notes": "This chapter has a fight in which a farmer is killed and men die. It is short and not graphic, but preview it for very young listeners."
+    },
+    {
+     "title": "Foes'-fear",
+     "steps": [
+      "Read \"Foes'-fear\" aloud together",
+      "Narration: tell how Harald made his spear and what happened on the way home",
+      "Map work: Find France, Greece, Rome, and Arabia, places the things in Harald's home came from",
+      "Timeline: Add \"Norse traders reach Constantinople and Baghdad\" at c. 850–950 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"Foes'-fear\"",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_47"
+      }
+     ],
+     "pages": "pp. 47–52",
+     "questions": [
+      "What did the runes on Harald's spear-point say?",
+      "What are skees?",
+      "What attacked Harald after he cut the spear handle?"
+     ],
+     "answers": [
+      "Foes'-fear",
+      "Skis",
+      "A wolf"
+     ],
+     "notes": "The Vikings really did trade far away; Arab silver coins and goods from Constantinople have been dug up in Scandinavia."
+    }
+   ]
+  },
+  {
+   "title": "Unit 2: Harald, King of All Norway",
+   "lessons": [
+    {
+     "title": "Harald is King",
+     "steps": [
+      "Read \"Harald is King\" aloud together",
+      "Narration: describe the funeral feast in the hall: the shields, the food, the mead-horns, the skald",
+      "Draw: a Norse feast hall with the fire down the middle and the high seats",
+      "Timeline: Add \"Harald becomes king at age 10\" at c. 860 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"Harald is King\"",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_53"
+      }
+     ],
+     "pages": "pp. 53–61",
+     "questions": [
+      "How old was Harald when his father died?",
+      "Where did the men hang their shields at the feast?",
+      "Why did the skald get a bracelet?"
+     ],
+     "answers": [
+      "Ten",
+      "On the wall behind them",
+      "As thanks for his song about King Halfdan"
+     ],
+     "notes": "The sagas say Harald became king at ten; the exact year is uncertain (c. 858–860)."
+    },
+    {
+     "title": "Harald's Battle",
+     "steps": [
+      "Read \"Harald's Battle\" aloud together",
+      "Narration: tell how Harald called his men to war and how the battle field was marked",
+      "Map work: Find the inland valleys of southeastern Norway, where Harald's first kingdom lay",
+      "Timeline: Add \"Harald's first battles for his kingdom\" at c. 860s AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"Harald's Battle\"",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_62"
+      }
+     ],
+     "pages": "pp. 62–70",
+     "questions": [
+      "How did Harald call his men to war?",
+      "What did Thorstein raise on his spear to show he came in peace?",
+      "What did Harald do with the things taken from the enemy?"
+     ],
+     "answers": [
+      "He sent arrows from farm to farm",
+      "A white shield",
+      "He divided them into piles for Thor, the king, the chiefs, and the men"
+     ],
+     "notes": "There is battle and burial of the dead here, told simply. The sacrifice to Thor shows Norse religion of the time."
+    },
+    {
+     "title": "Gyda's Saucy Message",
+     "steps": [
+      "Read \"Gyda's Saucy Message\" aloud together",
+      "Narration: tell Gyda's message and the vow Harald made because of it",
+      "Map work: Compare Norway with Denmark and Sweden on a map; which were already one kingdom in the story?",
+      "Timeline: Add \"Harald's vow to rule all Norway\" at c. 865 AD (legend)"
+     ],
+     "links": [
+      {
+       "label": "Read \"Gyda's Saucy Message\"",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_71"
+      }
+     ],
+     "pages": "pp. 71–80",
+     "questions": [
+      "Why wouldn't Gyda marry Harald at first?",
+      "What did Harald vow not to do until he was king of all Norway?",
+      "What new name did his uncle give him?"
+     ],
+     "answers": [
+      "He was king of too small a land; she wanted him to rule all of Norway",
+      "Cut or comb his hair",
+      "Harald Shockhead"
+     ],
+     "notes": "The Gyda story comes from Snorri Sturluson's saga and is probably legend. The book says Harald's army burned houses as it went; a good place to ask how the common people felt."
+    },
+    {
+     "title": "The Sea Fight",
+     "steps": [
+      "Read \"The Sea Fight\" aloud together",
+      "Narration: describe the ships and how the sea battle was fought",
+      "Draw: two lines of ships tied together prow to prow",
+      "Timeline: Add \"Harald's great sea battles\" at c. 870 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"The Sea Fight\"",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_81"
+      }
+     ],
+     "pages": "pp. 81–88",
+     "questions": [
+      "Why did Arnvid's men tie their ships together?",
+      "What did the shield-guard on the high decks throw?",
+      "Who won the sea fight?"
+     ],
+     "answers": [
+      "So they could fight like one big floating battlefield, side by side",
+      "Darts, stones, spears, and arrows",
+      "King Harald"
+     ],
+     "notes": "Some warriors leap into the sea to die rather than surrender; the book presents this as brave. You may want to talk about it. The famous battle that finished Harald's conquest is called Hafrsfjord, traditionally dated 872."
+    },
+    {
+     "title": "King Harald's Wedding",
+     "steps": [
+      "Read \"King Harald's Wedding\" aloud together",
+      "Narration: tell how Harald got his new name and what happened at the wedding",
+      "Map work: Trace Harald's kingdom: the whole coast of Norway from south to far north",
+      "Timeline: Add \"Harald Fairhair king of all Norway\" at c. 872 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"King Harald's Wedding\"",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_89"
+      }
+     ],
+     "pages": "pp. 89–94",
+     "questions": [
+      "How many years did Harald fight before he cut his hair?",
+      "What new name did the earl give him?",
+      "What did Harald tie to Gyda's belt, and what did it mean?"
+     ],
+     "answers": [
+      "Ten years",
+      "Harald Hairfair (Fairhair)",
+      "A bunch of keys; she was mistress of his house"
+     ],
+     "notes": "Historians today think Harald ruled mostly the western coast; \"king of all Norway\" is how the sagas remembered him."
+    },
+    {
+     "title": "King Harald Goes West-Over-Seas",
+     "steps": [
+      "Read \"King Harald Goes West-Over-Seas\" aloud together",
+      "Narration: tell where the unhappy chiefs went and why Harald sailed west",
+      "Map work: Find Normandy in France, Ireland, Scotland, and the Orkney and Shetland Islands",
+      "Timeline: Add \"Rollo (Rolf) gets Normandy\" at 911 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"King Harald Goes West-Over-Seas\"",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_95"
+      }
+     ],
+     "pages": "pp. 95–100",
+     "questions": [
+      "Why did many men leave Norway?",
+      "What did Rolf name his land in France?",
+      "How did people explain the queen's old dream at the end?"
+     ],
+     "answers": [
+      "They would not kneel to Harald or pay him taxes",
+      "Normandy",
+      "Harald was the great tree; his kingdom and sons spread far like its branches"
+     ],
+     "notes": "Rolf (Rollo) got Normandy in 911. His descendant William the Conqueror became king of England in 1066, five generations later, so \"his sons' sons\" means great-great-great-grandsons."
+    }
+   ]
+  },
+  {
+   "title": "Unit 3: Homes in Iceland",
+   "lessons": [
+    {
+     "title": "Homes in Iceland, Part 1: The Vow",
+     "steps": [
+      "Read pp. 103–109 of \"Homes in Iceland\" aloud, stopping after the night of the storm",
+      "Narration: tell why Ingolf and Leif decided to go to Iceland and what they packed",
+      "Map work: Trace a route from Norway to the Shetland Islands",
+      "Timeline: Add \"Ingolf's first voyage to Iceland\" at c. 870 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"Homes in Iceland\" from p. 103",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_103"
+      }
+     ],
+     "pages": "pp. 103–109",
+     "questions": [
+      "Why did Ingolf and Leif need to leave Norway?",
+      "How many men did Ingolf take, and why only that many?",
+      "What happened to one man in the storm?"
+     ],
+     "answers": [
+      "They had killed two men and feared their kinsmen and King Harald",
+      "Thirty, one for each oar, because food and room were short",
+      "He was washed overboard and drowned"
+     ],
+     "notes": "This chapter is long, so it is split over five lessons. The sagas call Leif \"Hjorleif\" (Leif the Sword); he is a different man from Leif Ericsson later in the book."
+    },
+    {
+     "title": "Homes in Iceland, Part 2: Landfall",
+     "steps": [
+      "Read pp. 110–117 aloud, from the rocky islands to the campfire talk under the northern lights",
+      "Narration: tell what strange things Ingolf found in Iceland",
+      "Map work: Find the Faroe Islands and Iceland; notice how the islands are like stepping-stones",
+      "Timeline: Add \"Norse explorers reach Iceland\" at c. 870 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"Homes in Iceland\" from p. 110",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_110"
+      }
+     ],
+     "pages": "pp. 110–117",
+     "questions": [
+      "How long had they been at sea when they reached Iceland?",
+      "What did Ingolf think made the hot springs and rumbling ground?",
+      "What did Ingolf say the northern lights were?"
+     ],
+     "answers": [
+      "Four months",
+      "Giants of fire and frost",
+      "The flash of the Valkyrias' armor"
+     ],
+     "notes": "Iceland really does have volcanoes, geysers, hot springs, and glaciers. A short look at photos of geysers will help."
+    },
+    {
+     "title": "Homes in Iceland, Part 3: The High-Seat Pillars",
+     "steps": [
+      "Read pp. 118–126 aloud, from the return to Norway through the long, gloomy winter",
+      "Narration: tell what Ingolf did with the pillars of his high seat and why",
+      "Hands-on: carve or draw a tall pillar decorated with dragons and Thor's hammer",
+      "Timeline: Add \"Ingolf settles in Iceland\" at 874 AD (traditional date)"
+     ],
+     "links": [
+      {
+       "label": "Read \"Homes in Iceland\" from p. 118",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_118"
+      }
+     ],
+     "pages": "pp. 118–126",
+     "questions": [
+      "What did Ingolf bring from under the old altar?",
+      "Why did Ingolf throw the pillars overboard?",
+      "Why was Ingolf's wife sad at Yule-time?"
+     ],
+     "answers": [
+      "Earth (soil of Norway) in a little bronze chest",
+      "So Thor would guide them to the place where he should build his home",
+      "She missed the merry feasts and friends in Norway"
+     ],
+     "notes": "Ingolf sacrifices horses to Odin; this is how Norse religion worked, and the book describes it plainly. 874 is the date Icelanders traditionally give for the first settlement."
+    },
+    {
+     "title": "Homes in Iceland, Part 4: Reykjavik",
+     "steps": [
+      "Read pp. 127–135 aloud, from the bad news about Leif to the games at the new home",
+      "Narration: tell what happened to Leif and how Ingolf finally found his pillars",
+      "Map work: Find Reykjavik and the Westman Islands off Iceland's south coast",
+      "Timeline: Add \"Reykjavik founded\" at c. 874 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"Homes in Iceland\" from p. 127",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_127"
+      }
+     ],
+     "pages": "pp. 127–135",
+     "questions": [
+      "How long did Ingolf wait before his pillars were found?",
+      "What does Reykjavik mean, and why did Ingolf choose that name?",
+      "How did Ingolf claim the land?"
+     ],
+     "answers": [
+      "Three years",
+      "\"Smoky sea\" (smoky bay), because of the steaming hot springs",
+      "He built fires at the mouth of the rivers"
+     ],
+     "notes": "Leif is killed by the thralls he brought from Ireland, and Ingolf kills them in return. Preview this for sensitive listeners. The islands where the thralls hid are still called the Westman Islands (\"Islands of the Westmen,\" meaning Irishmen)."
+    },
+    {
+     "title": "Homes in Iceland, Part 5: The Father of Iceland",
+     "steps": [
+      "Read pp. 136–142 aloud, to the end of the chapter",
+      "Narration: tell how Iceland changed by the time Ingolf was old and how he was buried",
+      "Draw: Ingolf's ship grave under its mound",
+      "Timeline: Add \"Iceland's Althing (assembly) founded\" at 930 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"Homes in Iceland\" from p. 136",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_136"
+      }
+     ],
+     "pages": "pp. 136–142",
+     "questions": [
+      "Why were Ingolf and his men so happy to see a sail?",
+      "What did ships take from Iceland to Norway to sell?",
+      "What did people call Ingolf after he died?"
+     ],
+     "answers": [
+      "They had lived alone for years and were lonely for new faces and news",
+      "Cloth, wool, fish, oil, and bird feathers",
+      "The father of Iceland"
+     ],
+     "notes": "The burial includes killing horses and dogs to go with Ingolf to Valhalla. Ship burials like this are real; famous ones have been dug up in Norway (Oseberg, Gokstad). The book's note calling Reykjavik \"the only city in Iceland\" was true in 1902."
+    }
+   ]
+  },
+  {
+   "title": "Unit 4: Greenland and Wineland",
+   "lessons": [
+    {
+     "title": "Eric the Red, Part 1: Outlawed",
+     "steps": [
+      "Read pp. 143–150 of \"Eric the Red\" aloud, until they set off",
+      "Narration: tell why Eric had to leave Iceland and what land he wanted to find",
+      "Map work: Find western Iceland and look west across the sea toward Greenland",
+      "Timeline: Add \"Eric the Red outlawed from Iceland\" at c. 982 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"Eric the Red\"",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_143"
+      }
+     ],
+     "pages": "pp. 143–150",
+     "questions": [
+      "Why was Eric outlawed?",
+      "Who first told of the shining white land in the west?",
+      "Where did Eric and his men hide from Thorgest?"
+     ],
+     "answers": [
+      "He had killed men in his quarrels",
+      "Gunnbiorn",
+      "In the woods and a secret cave at Eyjolf's farm"
+     ],
+     "notes": "Being \"outlawed\" meant Eric had to leave Iceland for three years, and anyone could harm him if he stayed."
+    },
+    {
+     "title": "Eric the Red, Part 2: Greenland",
+     "steps": [
+      "Read pp. 151–160 aloud, to the end of the chapter",
+      "Narration: tell what Eric found on his voyage and why he chose the name Greenland",
+      "Map work: Find Greenland; notice the ice sheet in the middle and the green fiords on the southwest coast",
+      "Timeline: Add \"Eric settles Greenland\" at c. 985 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"Eric the Red\" from p. 151",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_151"
+      }
+     ],
+     "pages": "pp. 151–160",
+     "questions": [
+      "What did Eric first think was one of Gunnbiorn's ships?",
+      "What did the men burn for fuel when there was no wood?",
+      "Why did Eric call the land Greenland?"
+     ],
+     "answers": [
+      "An iceberg",
+      "Animal bones and fat",
+      "So people would like the sound of it and want to come"
+     ],
+     "notes": "The sagas say 25 ships set out and 14 arrived; this book says 35 and 15. The \"strong river\" in the sea is a real ocean current along Greenland's east coast. Eric's settlements lasted about 450 years."
+    },
+    {
+     "title": "Leif and His New Land, Part 1: King Olaf and a Strange Shore",
+     "steps": [
+      "Read pp. 161–167 of \"Leif and His New Land\" aloud, until Leif goes to look for Tyrker",
+      "Narration: tell about Leif's visit to King Olaf and the storm that blew him to a new land",
+      "Map work: Trace Leif's path from Greenland to Norway, then follow the storm southwest toward North America",
+      "Timeline: Add \"Leif Ericsson reaches North America\" at c. 1000 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"Leif and His New Land\"",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_161"
+      }
+     ],
+     "pages": "pp. 161–167",
+     "questions": [
+      "Who was King Olaf related to?",
+      "What did King Olaf give Leif when he left?",
+      "What did the men like about the new land?"
+     ],
+     "answers": [
+      "He was the great-grandson of Harald Hairfair",
+      "Two thralls",
+      "The tall trees, soft grass, and rich black soil"
+     ],
+     "notes": "The sagas say King Olaf Tryggvason made Leif a Christian and sent him to bring Christianity to Greenland; this book leaves that out."
+    },
+    {
+     "title": "Leif and His New Land, Part 2: Wineland",
+     "steps": [
+      "Read pp. 168–173 aloud, to the end of the chapter",
+      "Narration: tell what Tyrker found and what Leif brought home",
+      "Map work: Find Newfoundland in Canada, where a real Norse camp has been found",
+      "Timeline: Add \"Leif names Wineland\" at c. 1000 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"Leif and His New Land\" from p. 168",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_168"
+      }
+     ],
+     "pages": "pp. 168–173",
+     "questions": [
+      "What had Tyrker found in the woods?",
+      "Why did Tyrker know what they were?",
+      "Why were the Greenlanders so pleased with the lumber?"
+     ],
+     "answers": [
+      "Wild grapes",
+      "He grew up in Germany, where grapes grow everywhere",
+      "No trees grow in Greenland"
+     ],
+     "notes": "Many experts think the \"grapes\" may have been other wild berries, or that the Norse reached farther south where wild grapes grow, beyond their camp in Newfoundland."
+    },
+    {
+     "title": "Wineland the Good, Part 1: Thorfinn and Gudrid",
+     "steps": [
+      "Read pp. 174–179 of \"Wineland the Good\" aloud, until they decide to go",
+      "Narration: tell how Thorfinn helped Eric at Yule and why he wanted to sail to Wineland",
+      "Map work: Find Greenland again and trace a route south along the coast of Labrador",
+      "Timeline: Add \"Thorfinn and Gudrid sail to Wineland\" at c. 1010 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"Wineland the Good\"",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_174"
+      }
+     ],
+     "pages": "pp. 174–179",
+     "questions": [
+      "Why was Eric gloomy before Yule?",
+      "How did Thorfinn solve Eric's problem?",
+      "Whom did Thorfinn marry?"
+     ],
+     "answers": [
+      "His storehouses were empty and he could not give his guests a good Yule feast",
+      "He gave Eric the flour, grain, and mead from his ship",
+      "Gudrid"
+     ],
+     "notes": "Gudrid (Gudrid Thorbjarnardottir) is one of the most traveled women of the Middle Ages; she later went on pilgrimage to Rome."
+    },
+    {
+     "title": "Wineland the Good, Part 2: The First Winelander",
+     "steps": [
+      "Read pp. 180–184 aloud, until Snorri is born",
+      "Narration: tell how the settlers lived in Wineland and who was born there",
+      "Draw: the settlers' little huts by the lake with cloaks hung in the doorways",
+      "Timeline: Add \"Snorri, first European child born in America\" at c. 1010 AD"
+     ],
+     "links": [
+      {
+       "label": "Read \"Wineland the Good\" from p. 180",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_180"
+      }
+     ],
+     "pages": "pp. 180–184",
+     "questions": [
+      "How many men sailed to Wineland in three ships?",
+      "What did they use for doors on their huts?",
+      "What was the baby's name, and what did the men call him?"
+     ],
+     "answers": [
+      "One hundred and sixty",
+      "Their cloaks",
+      "Snorri; the \"Wineland king\""
+     ],
+     "notes": "Biarni says the land is empty, but people already lived there, as the next lesson shows."
+    },
+    {
+     "title": "Wineland the Good, Part 3: Strangers in Canoes",
+     "steps": [
+      "Read pp. 185–193 aloud, to the end of the story",
+      "Narration: tell about the first meeting, the trading, and why the Norsemen went home",
+      "Map work: Find L'Anse aux Meadows on the northern tip of Newfoundland, Canada",
+      "Timeline: Add \"Norse camp at L'Anse aux Meadows\" at c. 1000–1020 AD; add \"Columbus reaches America\" at 1492 for comparison"
+     ],
+     "links": [
+      {
+       "label": "Read \"Wineland the Good\" from p. 185",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_185"
+      }
+     ],
+     "pages": "pp. 185–193",
+     "questions": [
+      "What did the strangers want to trade for?",
+      "What frightened the strangers away the first time?",
+      "Why did Thorfinn and his people leave Wineland?"
+     ],
+     "answers": [
+      "Red cloth (for their furs)",
+      "Thorfinn's bull came bellowing out of the woods",
+      "They were attacked and feared more people would come back"
+     ],
+     "notes": "The book calls the Native people \"savages,\" \"ugly,\" and \"not men.\" These are prejudiced 1902 words; talk about how the people who already lived there would have seen the strangers. They were probably ancestors of First Nations such as the Beothuk or Mi'kmaq. The book says Wineland was on the eastern shore of the United States, but the only Norse site ever found (in 1960) is at L'Anse aux Meadows in Newfoundland, Canada."
+    },
+    {
+     "title": "Descriptive Notes: Norse Homes, Names, and Gods",
+     "steps": [
+      "Read the Descriptive Notes at the back of the book (pp. 194–199) together",
+      "Narration: explain how names like \"Ericsson\" began and what a foster-brother was",
+      "Hands-on: make your own Norse name from your parent's first name (Annasdottir, Peterson) and a nickname",
+      "Timeline: Add \"Viking Age ends\" at 1066 AD and look back over your whole strip"
+     ],
+     "links": [
+      {
+       "label": "Read the Descriptive Notes",
+       "url": "https://www.gutenberg.org/cache/epub/24811/pg24811-images.html#Page_194"
+      }
+     ],
+     "pages": "pp. 194–199",
+     "questions": [
+      "What does the name \"Thorstein\" mean?",
+      "What were peace-bands for?",
+      "What were the narrow slits high in a feast hall called?"
+     ],
+     "answers": [
+      "Thor's stone",
+      "To tie a sword into its scabbard to show you came in peace",
+      "Wind's-eyes"
+     ],
+     "notes": "The note on Eskimos repeats a 1902 guess that has since been disproved. The Inuit moved east from Alaska into Greenland around 1200, after Eric's settlers arrived; Eric found only ruins of earlier peoples. The \"Suggestions to Teachers\" and reading list that follow are for you, not the child."
+    }
+   ]
+  }
+ ]
+}

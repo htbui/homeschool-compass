@@ -3,7 +3,7 @@ import { useMemo, useState } from 'react';
 import { Platform, View } from 'react-native';
 
 import { normalizeUrl } from '@/lib/curriculum';
-import { parseOutline, parseTable, parseWebPage, type ImportResult, type WebImport } from '@/lib/importers';
+import { linkScanPages, parseOutline, parseScanRecord, parseTable, parseWebPage, sourceAddress, type ImportResult, type WebImport } from '@/lib/importers';
 import { LICENSE_INFO, licenseName, SOURCE_LICENSES, type LicenseKind } from '@/lib/license';
 import { lessonTotal, newLesson, newPackage, newUnit, type CurriculumPackage, type Origin, type PackageUnit } from '@/lib/package';
 import { parseCount } from '@/lib/parse';
@@ -203,8 +203,15 @@ function Web({ onCreate }: { onCreate: Create }) {
   const [outline, setOutline] = useState('');
   const [chosen, setChosen] = useState<LicenseKind | undefined>();
   const [title, setTitle] = useState('');
+  // A scanned book (archive.org): the pasted outline's page numbers link to its pages.
+  const [scan, setScan] = useState<{ id: string; note?: string } | null>(null);
+  const [firstPage, setFirstPage] = useState('');
   const link = normalizeUrl(url);
-  const pasted = useMemo(() => (outline.trim() ? parseOutline(outline) : undefined), [outline]);
+  const pasted = useMemo(() => {
+    if (!outline.trim()) return undefined;
+    const r = parseOutline(outline);
+    return scan ? { ...r, units: linkScanPages(r.units, scan.id, Number(firstPage) || undefined) } : r;
+  }, [outline, scan, firstPage]);
   const result: ImportResult = pasted ?? (manual ? undefined : page) ?? { units: [], warnings: [] };
   const detected = manual ? undefined : page?.license;
   const license = detected ?? (chosen ? { kind: chosen } : undefined);
@@ -223,9 +230,23 @@ function Web({ onCreate }: { onCreate: Create }) {
     setBusy(true);
     setError('');
     try {
-      const res = await fetchPage(link);
+      const source = sourceAddress(link);
+      const res = await fetchPage(source.fetchUrl);
+      if (source.kind === 'scan') {
+        // Scans have no text outline: fill in what archive.org knows, then the creator pastes the contents.
+        const rec = parseScanRecord(res.html);
+        setScan({ id: source.scanId!, note: rec.publicDomain ? `archive.org lists this ${rec.year} scan as not in copyright.` : undefined });
+        setManual(true);
+        setPage(null);
+        setSourceTitle(rec.title ?? '');
+        setAuthor(rec.author ?? '');
+        if (rec.publicDomain) setChosen('public_domain');
+        setTitle((t) => t || (rec.title ? `${rec.title} (lesson plan)`.slice(0, 160) : ''));
+        return;
+      }
       const parsed = parseWebPage(res.html, res.url);
-      setPage({ ...parsed, url: res.url });
+      setPage({ ...parsed, url: source.kind === 'gutenberg' ? link : res.url });
+      setScan(null);
       setManual(false);
       setTitle((t) => t || `${parsed.title} (lesson plan)`.slice(0, 160));
     } catch (e) {
@@ -237,6 +258,7 @@ function Web({ onCreate }: { onCreate: Create }) {
 
   const enterManually = () => {
     setManual(true);
+    setScan(null);
     setPage(null);
     setError('');
   };
@@ -275,6 +297,22 @@ function Web({ onCreate }: { onCreate: Create }) {
           ) : (
             <T>No license found on this page.</T>
           )}
+        </Card>
+      ) : null}
+
+      {scan ? (
+        <Card>
+          <T v="heading">📜 Scanned book</T>
+          <T v="caption">
+            Paste the book’s table of contents below with page numbers (type it from the scan’s contents page). Each lesson links to the page where it starts.{scan.note ? ` ${scan.note}` : ''}
+          </T>
+          <Field
+            label="Scan page that shows printed page 1 (optional)"
+            value={firstPage}
+            onChangeText={(v) => setFirstPage(v.replace(/\D/g, '').slice(0, 4))}
+            keyboardType="number-pad"
+            hint="Open the scan at page 1 and read the number after /page/n in the address. Leave empty to use archive.org’s page numbers."
+          />
         </Card>
       ) : null}
 

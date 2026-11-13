@@ -1,0 +1,3236 @@
+{
+  "key": "mcguffey-fifth-reader",
+  "title": "McGuffey's Fifth Eclectic Reader",
+  "sourceTitle": "McGuffey's Fifth Eclectic Reader, Revised Edition",
+  "author": "William Holmes McGuffey",
+  "seller": "William Holmes McGuffey",
+  "year": 1879,
+  "sourceUrl": "https://www.gutenberg.org/ebooks/15040",
+  "readUrl": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Project Gutenberg eBook #15040: 'Public domain in the USA.' Revised edition first copyrighted 1879 (Van Antwerp, Bragg & Co.); renewals 1896 (American Book Company) and 1907 and 1920 (H. H. Vail), all before 1930.",
+  "subjects": [
+    "reading",
+    "writing"
+  ],
+  "gradeMin": 5,
+  "gradeMax": 7,
+  "philosophies": [
+    "charlotte_mason",
+    "classical",
+    "traditional",
+    "faith_based"
+  ],
+  "lessonsPerWeek": 4,
+  "minutesPerLesson": 30,
+  "parentInvolvement": "low",
+  "familyStyle": false,
+  "cover": "🖋️",
+  "color": "#9B6BD6",
+  "description": "The classic Fifth Reader: 117 selections from Irving, Longfellow, Whittier, Dickens, Shakespeare, Audubon, and many more, from 'The Village Blacksmith' to 'William Tell' and the passenger pigeon. Each day your child learns a few words from the lesson, reads it aloud with expression, and writes a short narration or memorizes a poem; a short course in elocution opens the year. The full text is free online.",
+  "includes": [
+    "123 lessons in 13 units: 6 elocution lessons plus all 117 Fifth Reader selections",
+    "Link to the free full text for every lesson",
+    "Vocabulary from each lesson's own definitions, plus a read-aloud and narration activity each day",
+    "Short written narration prompts for prose and memory work for poems",
+    "Comprehension questions with answers",
+    "Author notes and parent notes on dated content"
+  ],
+  "units": [
+    {
+      "title": "Unit 1: Introduction to Elocution",
+      "lessons": [
+        {
+          "title": "Elocution: Preliminary Remarks and Articulation",
+          "steps": [
+            "Read the Preliminary Remarks together and put Rule 1 in your own words",
+            "Say the vocals, subvocals, and aspirates in the tables aloud; feel the difference between cognate pairs like b/p and v/f",
+            "Read the 'Faults to Be Remedied' examples, saying the incorrect form and then the correct one",
+            "Practice five of the Exercises in Articulation sentences until each is crisp and clear"
+          ],
+          "links": [
+            {
+              "label": "Preliminary Remarks",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00025"
+            },
+            {
+              "label": "Articulation",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00030"
+            },
+            {
+              "label": "Exercises in Articulation",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00080"
+            }
+          ],
+          "questions": [
+            "What is the great object of reading aloud, according to the book?",
+            "What is the difference between a subvocal and an aspirate?",
+            "Name one common fault in articulation the book warns about."
+          ],
+          "answers": [
+            "To give the hearer the writer's ideas and feelings fully and clearly",
+            "A subvocal uses the voice with the breath partly blocked; an aspirate is breath only",
+            "Dropping unaccented vowels (sep'rate for separate), dropping final sounds (an' for and), or running words together"
+          ],
+          "notes": "The Fifth Reader opens with a short course in elocution. Treat these lessons as voice practice, not memorization; come back to them as warm-ups all year."
+        },
+        {
+          "title": "Elocution: Inflections",
+          "steps": [
+            "Read the definitions of rising and falling inflection and practice 'Did you walk or ride?' several ways",
+            "Work through the rules for the falling inflection (complete sense, strong emphasis, commencing and concluding series)",
+            "Practice the rising inflection on yes-or-no questions and on direct address",
+            "Try the circumflex and monotone examples and talk about when each would be used"
+          ],
+          "links": [
+            {
+              "label": "Inflections",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00083"
+            }
+          ],
+          "questions": [
+            "Which inflection usually goes on a question that can be answered yes or no?",
+            "Which inflection is usual when the sense of a sentence is complete?",
+            "What is a monotone, and when does the book say to use it?"
+          ],
+          "answers": [
+            "The rising inflection",
+            "The falling inflection",
+            "Reading on one unchanging note; for solemn or awe-filled passages"
+          ],
+          "notes": "Long section; it is fine to split it over two days. The book marks inflections with accent marks that may look like plain apostrophes in the online text."
+        },
+        {
+          "title": "Elocution: Accent and Emphasis",
+          "steps": [
+            "Read about accent and say the word pairs whose meaning changes with the accent (like CON-duct and con-DUCT)",
+            "Read about emphasis; say one sentence several times, stressing a different word each time, and talk about how the meaning shifts",
+            "Practice the absolute and relative emphasis examples and the emphatic pause"
+          ],
+          "links": [
+            {
+              "label": "Accent",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00216"
+            },
+            {
+              "label": "Emphasis",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00227"
+            }
+          ],
+          "questions": [
+            "What is the difference between accent and emphasis?",
+            "What is 'relative emphasis'?"
+          ],
+          "answers": [
+            "Accent is stress on a syllable within a word; emphasis is stress on a word or phrase within a sentence",
+            "Emphasis that brings out a contrast between two words or ideas"
+          ]
+        },
+        {
+          "title": "Elocution: Modulation and Poetic Pauses",
+          "steps": [
+            "Read about pitch and compass; find your own comfortable keynote and read a paragraph on it",
+            "Practice the voice exercise from Remark 5: the same lines at low, middle, and high pitch, without getting louder",
+            "Read about quantity and quality, then try the examples in a soft, a full, and a harsh tone",
+            "Read about the final and caesural pauses and read the Marmion lines both ways"
+          ],
+          "links": [
+            {
+              "label": "Modulation",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00270"
+            },
+            {
+              "label": "Poetic Pauses",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00302"
+            }
+          ],
+          "questions": [
+            "What is the 'compass' of the voice?",
+            "What two faults of pitch does the book warn about?",
+            "What is a caesural pause?"
+          ],
+          "answers": [
+            "The range of the voice above and below its keynote",
+            "Monotony (staying on one note) and changing pitch or force without regard to the sense, like singsong",
+            "A pause in the middle of a line of poetry"
+          ]
+        },
+        {
+          "title": "Elocution: Exercises I–III",
+          "steps": [
+            "Read 'Death of Franklin' in a solemn tone, watching the marked inflections",
+            "Read 'Bonaparte' aloud, giving the falling inflection to each sharp contrast",
+            "Read Hamlet's lines on Yorick slowly and thoughtfully",
+            "Choose one of the three to read to the family with full expression"
+          ],
+          "links": [
+            {
+              "label": "Exercises",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00312"
+            },
+            {
+              "label": "Bonaparte",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00316"
+            },
+            {
+              "label": "Hamlet on Yorick",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00319"
+            }
+          ],
+          "questions": [
+            "Why does the Franklin passage say nations should mourn him?",
+            "Which writer's character is 'Hamlet on Seeing the Skull of Yorick' taken from?"
+          ],
+          "answers": [
+            "He was a benefactor of humanity, not merely a great man in rank",
+            "Shakespeare's Hamlet"
+          ],
+          "notes": "Short practice pieces with inflection marks. The Bonaparte passage is a harsh political portrait of Napoleon."
+        },
+        {
+          "title": "Elocution: Exercises IV–V",
+          "steps": [
+            "Read the battle lines from Scott's Marmion with energy, letting the pace quicken",
+            "Read 'Lord Ullin's Daughter' aloud, marking your own inflections as the book suggests",
+            "Narrate the story of the chieftain, the lady, and the boatman"
+          ],
+          "links": [
+            {
+              "label": "Description of a Battle",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00321"
+            },
+            {
+              "label": "Lord Ullin's Daughter",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00323"
+            }
+          ],
+          "questions": [
+            "Why are the chieftain and Lord Ullin's daughter fleeing?",
+            "What happens to them on the lake?",
+            "How does Lord Ullin feel at the end?"
+          ],
+          "answers": [
+            "Her father, Lord Ullin, and his men are chasing them",
+            "The boat is swamped by the storm and they drown",
+            "Full of grief and regret; he would forgive them if they came back"
+          ],
+          "notes": "Poems by Sir Walter Scott and Thomas Campbell. A sad ending: the lovers drown."
+        }
+      ]
+    },
+    {
+      "title": "Unit 2: Lessons I–X",
+      "lessons": [
+        {
+          "title": "Lesson I: The Good Reader",
+          "steps": [
+            "New words: petition (a formal request), articulate (to utter sounds clearly), monotony (lack of variety), concise (brief and full of meaning), dictate (to speak so another can write it down)",
+            "Read the story aloud, showing the difference between the two pages' bad reading and Ernestine's good reading",
+            "Written narration: in a paragraph, tell what went wrong with each page's reading and why Ernestine succeeded"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson I",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00343"
+            }
+          ],
+          "questions": [
+            "What was wrong with the first page's reading?",
+            "What was the widow's petition about?",
+            "What reward did the King give Ernestine?"
+          ],
+          "answers": [
+            "He ran his words together in a fast, dull monotone",
+            "Her delicate son had been drafted into the army, though he wanted to be a portrait painter",
+            "She carried the order for the son's discharge; later the King paid for her education and made her father chief gardener"
+          ],
+          "notes": "Frederick the Great ruled Prussia from 1740 to 1786. This story sets the theme of the whole book: read to make your listener understand and feel."
+        },
+        {
+          "title": "Lesson II: The Bluebell",
+          "steps": [
+            "New words: rift (a narrow opening), chalice (a cup), bonny (beautiful)",
+            "Read the poem aloud gently, letting each three-line stanza flow",
+            "Memorize: the last stanza, 'The patient child whose watchful eye...'",
+            "Talk about the lesson the poet draws from the flower"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson II",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00359"
+            }
+          ],
+          "questions": [
+            "What color was the flower at first?",
+            "What did the flower watch every day and night?",
+            "What lesson does the poem give children?"
+          ],
+          "answers": [
+            "White as snow",
+            "The narrow strip of sky and one bright star",
+            "A child who keeps looking toward pure and high things will grow like them"
+          ]
+        },
+        {
+          "title": "Lesson III: The Gentle Hand",
+          "steps": [
+            "New words: vicinity (neighborhood), potent (powerful), peremptory (commanding), ally (one who joins with another), crotchet (a whim)",
+            "Read the story aloud, using a rough voice for the farmer and a soft one for the girl",
+            "Written narration: in a paragraph, describe three times the girl's gentle hand changed things"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson III",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00371"
+            }
+          ],
+          "questions": [
+            "How did the girl quiet the big dog Tiger?",
+            "Why wouldn't the pony Dick move, and what finally made him go?",
+            "What did the farmer say was the secret of his daughter's power?"
+          ],
+          "answers": [
+            "She laid her hand on his neck and spoke a low word",
+            "He was stubborn; whipping and jerking failed, but the girl stroked him and spoke kindly",
+            "She's good; everybody and everything loves her"
+          ],
+          "notes": "By T. S. Arthur, a popular 19th-century writer of moral tales."
+        },
+        {
+          "title": "Lesson IV: The Grandfather",
+          "steps": [
+            "New words: hale (healthy), manteltree (shelf over a fireplace), plodded (went slowly)",
+            "Read the poem aloud quietly, as a peaceful summer afternoon",
+            "Copywork: \"Fast asleep were they both on that summer day.\"",
+            "Narrate: why did the grandfather really cry?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson IV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00404"
+            }
+          ],
+          "questions": [
+            "What did the little girl think made her grandfather cry?",
+            "What was the real reason for his tear?",
+            "What was the grandmother doing?"
+          ],
+          "answers": [
+            "His pipe smoke",
+            "He remembered her dead mother sitting in the same place",
+            "Clearing away dinner and then spinning at the wheel"
+          ],
+          "notes": "Poem by Charles G. Eastman. Gently mentions a mother's death."
+        },
+        {
+          "title": "Lesson V: A Boy on a Farm",
+          "steps": [
+            "New words: factotum (one who does all kinds of work), indispensable (absolutely necessary), economize (to save), dispatch (haste), chores (light household work)",
+            "Read the selection aloud, enjoying its humor",
+            "Written narration: in a paragraph, list the farm boy's jobs and tell which you would like least",
+            "List your own chores and see how they compare"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson V",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00411"
+            }
+          ],
+          "questions": [
+            "Why does the boy turn cartwheels along the road, according to the author?",
+            "Why does the boy take so long getting water from the spring?",
+            "What does the author think chores do for a boy?"
+          ],
+          "answers": [
+            "He's 'inventing a new way to travel' to save his legs",
+            "He stops to poke frogs and play with the water",
+            "They give him a real education and make him useful as a man"
+          ],
+          "notes": "By Charles Dudley Warner, from 'Being a Boy.' Humor and gentle exaggeration; a few period jobs (penstock, grindstone, stoning raisins) may need explaining."
+        },
+        {
+          "title": "Lesson VI: The Singing Lesson",
+          "steps": [
+            "New words: sauntering (strolling), snicker (a half-hidden laugh), crest (a tuft on a bird's head), moral (the lesson a story teaches)",
+            "Read the poem aloud with expression, giving the dove a coaxing voice",
+            "Memorize: the first stanza, 'A nightingale made a mistake...'",
+            "Discuss the moral the poem asks you to find"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson VI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00423"
+            }
+          ],
+          "questions": [
+            "Why did the nightingale hide?",
+            "Who cheered her up?",
+            "When she sang again, where did she fix her eyes?"
+          ],
+          "answers": [
+            "She sang a few notes out of tune and was ashamed",
+            "A dove",
+            "On the sky, not on the people below"
+          ],
+          "notes": "Poem by Jean Ingelow. Nightingales live in Europe, not America."
+        },
+        {
+          "title": "Lesson VII: Do Not Meddle",
+          "steps": [
+            "New words: aversion (dislike), consternation (dismay), principle (a right rule of conduct), integrity (honesty), legacy (a gift left by will)",
+            "Read the story aloud, pausing after each boy to guess what trap comes next",
+            "Written narration: in a paragraph, tell what happened to each of the seven boys",
+            "Discuss the old gentleman's saying about peeping into drawers"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson VII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00433"
+            }
+          ],
+          "questions": [
+            "What trap caught Henry Wilkins?",
+            "What happened when Rufus Wilson touched the drawer knob?",
+            "Why did Harry Gordon get the job?"
+          ],
+          "answers": [
+            "Fake cherries filled with cayenne pepper",
+            "A hidden bell rang loudly",
+            "He sat still for twenty minutes and touched nothing"
+          ],
+          "notes": "A pound was about $4.86 at the time. The 'electrical machine' trap is a 19th-century gadget; don't try it at home."
+        },
+        {
+          "title": "Lesson VIII: Work",
+          "steps": [
+            "New words: mesh (network), rife (abounding), stagnant (inactive), torpor (laziness), lolls (lounges)",
+            "Read the poem aloud briskly and boldly, like a call to action",
+            "Memorize: the first stanza, 'Work, work, my boy, be not afraid...'"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson VIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00459"
+            }
+          ],
+          "questions": [
+            "What does the poet say there is in the shuttle's song and the anvil's stroke?",
+            "Who does the poet doubt enjoys his bread as much as a worker?",
+            "When is a man most blessed, according to the last stanza?"
+          ],
+          "answers": [
+            "Glory and triumph",
+            "The idle man who has plenty without working",
+            "When a busy day ends in a well-earned, contented rest"
+          ],
+          "notes": "Poem by Eliza Cook."
+        },
+        {
+          "title": "Lesson IX: The Maniac",
+          "steps": [
+            "New words: exterior (outward look), revenues (income from taxes), deficit (shortfall), defaulter (one who can't account for money in his care), injunction (a command)",
+            "Read the story aloud in a low, serious voice",
+            "Narrate: how did a small arithmetic mistake ruin Conrad Lange?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson IX",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00468"
+            }
+          ],
+          "questions": [
+            "What phrase did the old man keep repeating?",
+            "What caused the shortage in his accounts?",
+            "What lesson does the last paragraph draw?"
+          ],
+          "answers": [
+            "\"Once one is two\"",
+            "A multiplication mistake: he figured once one is two",
+            "Our minds are easily overthrown if we rely only on this world; we should cast our cares on God"
+          ],
+          "notes": "A sad story about mental illness, told in old-fashioned terms ('maniac'). A ducat was a gold coin worth about $2.00."
+        },
+        {
+          "title": "Lesson X: Robin Redbreast",
+          "steps": [
+            "Read the poem aloud, letting the refrain 'Robin, Robin Redbreast' sing",
+            "Compare the English robin (described in the note) with the American robin you know",
+            "Copywork: \"Robin sings so sweetly / In the falling of the year.\""
+          ],
+          "links": [
+            {
+              "label": "Read Lesson X",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00479"
+            }
+          ],
+          "questions": [
+            "What season is the poem about?",
+            "What does the poet say the trees are like, and what will they turn into?",
+            "What does the last stanza ask us to give Robin?"
+          ],
+          "answers": [
+            "Late autumn, as summer ends",
+            "Indian princes in bright colors who will soon turn to ghosts",
+            "A crumb of bread to cheer him"
+          ],
+          "notes": "Poem by William Allingham. The European robin is a different, smaller bird than the American robin."
+        }
+      ]
+    },
+    {
+      "title": "Unit 3: Lessons XI–XX",
+      "lessons": [
+        {
+          "title": "Lesson XI: The Fish I Didn't Catch",
+          "steps": [
+            "New words: genial (cheerful), haunts (favorite places), propriety (proper behavior), anticipate (to take before the right time), achievement (a deed done)",
+            "Read the story aloud, with the uncle's calm voice and the boy's excitement",
+            "Written narration: in a paragraph, tell the story and explain the uncle's proverb in your own words"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00485"
+            }
+          ],
+          "questions": [
+            "How did the boy lose his first fish?",
+            "What advice did his uncle give him?",
+            "How does the author say a child's sorrow differs from a grown-up's?"
+          ],
+          "answers": [
+            "He shouted to his uncle before landing it, and it slipped off the hook into the stream",
+            "Never brag of your fish before you catch him",
+            "A child's grief is complete and unreasoning; adults hold theirs back with reason"
+          ],
+          "notes": "By John Greenleaf Whittier, the Quaker poet, remembering his boyhood."
+        },
+        {
+          "title": "Lesson XII: It Snows",
+          "steps": [
+            "New words: trow (believe), imbecile (here, a feeble person), intervened (lay between), stifled (choked back)",
+            "Read the poem aloud, giving each speaker (schoolboy, invalid, traveler, belle, widow) a different voice",
+            "Narrate: how does each person feel about the snow, and why?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00497"
+            }
+          ],
+          "questions": [
+            "Who shouts 'Hurrah!' at the snow?",
+            "Why is the traveler glad?",
+            "Why is the snow bitter for the widow?"
+          ],
+          "answers": [
+            "The schoolboy",
+            "He thinks of his warm home and family waiting",
+            "She is poor, with no food for her children and her last wood burning"
+          ],
+          "notes": "Poem by Sarah Josepha Hale, who also wrote 'Mary Had a Little Lamb.' 'Imbecile' here means someone weak and sickly, not an insult."
+        },
+        {
+          "title": "Lesson XIII: Respect for the Sabbath Rewarded",
+          "steps": [
+            "New words: genteel (fashionable), violate (to break), dialect (local speech), identity (being who one claims), extremity (greatest need)",
+            "Read the story aloud, building suspense in the stranger's questions",
+            "Written narration: in a paragraph, tell how William Reed's choice led to his fortune"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00506"
+            }
+          ],
+          "questions": [
+            "Why did the barber lose his fashionable customers?",
+            "Why did he ask the stranger for a half-penny?",
+            "Who was the stranger, and what news did he bring?"
+          ],
+          "answers": [
+            "He stopped working on Sundays",
+            "To buy a candle, since it was too dark to shave safely",
+            "A lawyer searching for him; his uncle had died and left him a fortune"
+          ],
+          "notes": "Set in Bath, England. A moral tale about keeping Sunday; 'half a crown' was a British coin."
+        },
+        {
+          "title": "Lesson XIV: The Sands o' Dee",
+          "steps": [
+            "New words: dank (damp), tress (a lock of hair)",
+            "Read the poem in a low, musical voice, varying the three repeated lines in each stanza as the book suggests",
+            "Memorize: the first stanza"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XIV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00515"
+            }
+          ],
+          "questions": [
+            "What was Mary sent to do?",
+            "What happened to her?",
+            "What do the boatmen still hear?"
+          ],
+          "answers": [
+            "Call the cattle home across the sands",
+            "The tide and mist came in and she drowned",
+            "Her voice calling the cattle home"
+          ],
+          "notes": "Poem by Charles Kingsley. The book calls the Dee a Scottish river; the famous Dee sands Kingsley wrote about are actually on the border of England and Wales. A sad poem about a drowning."
+        },
+        {
+          "title": "Lesson XV: Select Paragraphs",
+          "steps": [
+            "New words: ordained (established), dominion (rule), haven (harbor)",
+            "Read the six Bible passages aloud slowly and reverently",
+            "Memorize: Psalm 23 (paragraph 6), if your child doesn't know it already",
+            "Find which psalm each paragraph comes from"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00523"
+            }
+          ],
+          "questions": [
+            "In paragraph 2, where does the psalmist say God has set man?",
+            "In paragraph 5, what do sailors do when they are at their wit's end?",
+            "In Psalm 23, what is the Lord compared to?"
+          ],
+          "answers": [
+            "A little lower than the angels, crowned with glory and honor",
+            "Cry to the Lord, who calms the storm",
+            "A shepherd"
+          ],
+          "notes": "Passages from the Psalms (King James Version): 105, 8, 91, 95/96, 107, and 23."
+        },
+        {
+          "title": "Lesson XVI: The Corn Song",
+          "steps": [
+            "New words: hoard (a store laid up), lavish (generous), meads (meadows), vapid (dull), samp (boiled crushed corn)",
+            "Read the poem aloud with a hearty, harvest-festival spirit",
+            "Trace the corn through the seasons: April, May, June, autumn",
+            "Memorize: the first stanza"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XVI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00531"
+            }
+          ],
+          "questions": [
+            "Which crops does the poem say other lands may boast of?",
+            "What drove the crows from the sprouting grain?",
+            "What does the farmer thank God for at the end?"
+          ],
+          "answers": [
+            "Apples, oranges, and grapes",
+            "The farmers frightened them away",
+            "The golden corn"
+          ],
+          "notes": "Poem by John Greenleaf Whittier, from his 'Songs of Labor.'"
+        },
+        {
+          "title": "Lesson XVII: The Venomous Worm",
+          "steps": [
+            "New words: reptiles (crawling animals), infested (troubled), delirium (a wandering mind), paroxysm (a fit), still (a vessel for making liquor)",
+            "Read the lesson aloud, keeping the riddle a secret until the last line",
+            "Narrate: what is the 'worm' really, and why did the author describe it as a snake?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XVII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00547"
+            }
+          ],
+          "questions": [
+            "What is the 'worm of the still'?",
+            "Which animals avoid this worm?",
+            "What does the bitten person do as soon as he recovers?"
+          ],
+          "answers": [
+            "The coiled pipe used to distill liquor; it stands for strong drink",
+            "All animals; only people are 'bitten'",
+            "Goes back to be bitten again"
+          ],
+          "notes": "By John Russell. A temperance piece written as a riddle. A good chance to talk about addiction in your own family's terms."
+        },
+        {
+          "title": "Lesson XVIII: The Festal Board",
+          "steps": [
+            "New words: festal (joyous), enhance (increase), sundered (separated), felon (a criminal), lure (to tempt)",
+            "Read the poem aloud: lightly for the party, then slowly and sadly for what came after",
+            "Narrate: what happened to the guests after the feast?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XVIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00557"
+            }
+          ],
+          "questions": [
+            "What became of the beautiful young woman?",
+            "Where is the strong young man now?",
+            "What does the poet blame for all these sorrows?"
+          ],
+          "answers": [
+            "She died of a broken heart",
+            "In prison, on a felon's bed",
+            "Too many feasts and drinking"
+          ],
+          "notes": "Another temperance poem; heavy themes of ruin and death. Golconda was an Indian city famous for diamonds."
+        },
+        {
+          "title": "Lesson XIX: How to Tell Bad News",
+          "steps": [
+            "Read the dialogue aloud with two readers, one as Mr. H. and one as the Steward",
+            "Keep the Steward's voice matter-of-fact to bring out the joke",
+            "Retell the chain of bad news backward, from the bank failure to the magpie"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XIX",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00574"
+            }
+          ],
+          "questions": [
+            "What was the first piece of 'bad news' the steward gave?",
+            "How did the father's house burn down?",
+            "Why is the steward's way of telling the news funny?"
+          ],
+          "answers": [
+            "The magpie was dead",
+            "From the torches at his mother's funeral",
+            "He starts with the smallest thing and works backward to the biggest disasters"
+          ],
+          "notes": "A comic dialogue. There are no definitions for this lesson."
+        },
+        {
+          "title": "Lesson XX: The Battle of Blenheim",
+          "steps": [
+            "Read the poem aloud; give Kaspar a tired voice and the children curious ones",
+            "Find Bavaria on a map",
+            "Written narration: in a paragraph, tell what Kaspar knows about the battle and what he doesn't know",
+            "Discuss the poet's point in the repeated 'famous victory'"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XX",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00606"
+            }
+          ],
+          "questions": [
+            "What did Peterkin find by the stream?",
+            "Who won the battle?",
+            "What can't Kaspar explain?"
+          ],
+          "answers": [
+            "A skull from the battle",
+            "The English (with Prince Eugene) beat the French",
+            "What the war was for and what good came of it"
+          ],
+          "notes": "Poem by Robert Southey about the 1704 battle in the War of the Spanish Succession. Its point is anti-war irony; it mentions dead bodies and suffering civilians."
+        }
+      ]
+    },
+    {
+      "title": "Unit 4: Lessons XXI–XXX",
+      "lessons": [
+        {
+          "title": "Lesson XXI: \"I Pity Them\"",
+          "steps": [
+            "New words: emigrate (to move to a new place to live), predicament (plight), predominate (to prevail), destitute (needy), destination (journey's end)",
+            "Read the story aloud",
+            "Narrate: how did the westerner show that pity must be more than words?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00620"
+            }
+          ],
+          "questions": [
+            "What happened to the family's horse?",
+            "What did the man from the West hold up?",
+            "What became of the emigrant family?"
+          ],
+          "answers": [
+            "It fell through a rotten bridge and drowned",
+            "A ten-dollar bill, 'the amount of my pity'",
+            "They reached Illinois and he became a thriving farmer"
+          ]
+        },
+        {
+          "title": "Lesson XXII: An Elegy on Madam Blaize",
+          "steps": [
+            "New words: accord (agreement), pledge (property left as security for a loan), hangers-on (followers), mortal (deadly)",
+            "Read the poem aloud, pausing at each dash before the twist",
+            "Explain the joke in two of the stanzas"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00628"
+            }
+          ],
+          "questions": [
+            "Who did Madam Blaize lend money to?",
+            "When did she never sleep in church?",
+            "Why is the last stanza funny?"
+          ],
+          "answers": [
+            "To the poor, but only if they left a pledge",
+            "Except when she shut her eyes",
+            "It states the obvious: had she lived longer, she wouldn't have died today"
+          ],
+          "notes": "Poem by Oliver Goldsmith. A mock elegy: each stanza begins with praise and ends by undercutting it."
+        },
+        {
+          "title": "Lesson XXIII: King Charles II and William Penn",
+          "steps": [
+            "New words: regiment (a body of soldiers), aggressors (those who strike first), venison (deer meat), excesses (misdeeds)",
+            "Read the dialogue with two readers, Penn speaking plainly in 'thee' and 'thou'",
+            "Written narration: in a paragraph, explain Penn's argument against the 'right of discovery'"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00638"
+            }
+          ],
+          "questions": [
+            "What did Penn depend on instead of soldiers?",
+            "How did Penn plan to get land from the Indians?",
+            "What imaginary situation did Penn use to change the King's mind?"
+          ],
+          "answers": [
+            "The Indians' own sense of justice",
+            "By buying it from them",
+            "Indians discovering Britain and claiming it for themselves"
+          ],
+          "notes": "By Mason L. Weems (Parson Weems). The King's words call Native Americans 'savages' and 'cannibals'; Penn argues against him. Talk about that dated language and the real history of Penn's treaties."
+        },
+        {
+          "title": "Lesson XXIV: What I Live For",
+          "steps": [
+            "New words: emulate (to try to equal), wake (the track left behind a ship), bard (poet), martyr (one who suffers for a principle), sage (wise man)",
+            "Read the poem aloud with warmth and conviction",
+            "Memorize: the first stanza",
+            "Talk about which line best matches what you live for"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXIV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00669"
+            }
+          ],
+          "questions": [
+            "Whose story does the poet live to learn?",
+            "What kind of season does the poet hope for in stanza 3?",
+            "Which line ends both the first and last stanzas?"
+          ],
+          "answers": [
+            "Those who suffered for us: poets, patriots, martyrs, and sages",
+            "A time when people live by reason, not gold, and every wrong is righted",
+            "And the good that I can do"
+          ],
+          "notes": "Poem by George Linnaeus Banks (not named in the book)."
+        },
+        {
+          "title": "Lesson XXV: The Righteous Never Forsaken",
+          "steps": [
+            "New words: fagots (bundles of sticks), dissipate (to scatter), sustenance (food), fortitude (brave endurance), proffered (offered)",
+            "Read the story aloud, softly at first, then with joy at the surprise",
+            "Written narration: in a paragraph, tell the story from the traveler's point of view"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00675"
+            }
+          ],
+          "questions": [
+            "What was the only food the widow had left?",
+            "Why did she share it with the stranger?",
+            "Who was the stranger?"
+          ],
+          "answers": [
+            "One smoked herring",
+            "She hoped others would treat her own lost son the same way",
+            "Her long-lost eldest son, home rich from the Indies"
+          ],
+          "notes": "Quotes William Cowper's hymn 'God Moves in a Mysterious Way.'"
+        },
+        {
+          "title": "Lesson XXVI: Abou Ben Adhem",
+          "steps": [
+            "Read the poem aloud with quiet dignity",
+            "Memorize: the whole poem (it's only 18 lines)",
+            "Narrate: why did Ben Adhem's name lead all the rest?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXVI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00688"
+            }
+          ],
+          "questions": [
+            "What was the angel writing?",
+            "What did Abou ask the angel to write for him?",
+            "What did the angel show him the next night?"
+          ],
+          "answers": [
+            "The names of those who love the Lord",
+            "Write me as one that loves his fellow men",
+            "The list of names blessed by God's love, with his name first"
+          ],
+          "notes": "Poem by Leigh Hunt, a classic for memorizing."
+        },
+        {
+          "title": "Lesson XXVII: Lucy Forester",
+          "steps": [
+            "New words: brae (a hillside), brake (a thicket), reverberating (echoing), plaid (a Scottish shawl), scour (to search swiftly)",
+            "Read the story aloud in two sittings if needed, building suspense",
+            "Written narration: in a paragraph, tell how Lucy was lost and found"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXVII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00695"
+            }
+          ],
+          "questions": [
+            "Where was Lucy supposed to spend the day?",
+            "Why did Aunt Isabel believe Lucy was still alive?",
+            "Who found Lucy?"
+          ],
+          "answers": [
+            "At Ladyside, with the Mayne children",
+            "There were no signs of violence; the blood seemed put there to deceive, and a murderer would have taken the clothes",
+            "Jacob Mayne"
+          ],
+          "notes": "By John Wilson ('Christopher North'), set in Scotland. The kidnapping is blamed on a 'gypsy' woman; this is an old stereotype about the Romani people and is worth a short talk."
+        },
+        {
+          "title": "Lesson XXVIII: The Reaper and the Flowers",
+          "steps": [
+            "New words: sheaves (bundles of grain), token (keepsake), transplanted (moved and replanted)",
+            "Read the poem aloud slowly and tenderly",
+            "Memorize: the first stanza",
+            "Discuss what the Reaper and the flowers stand for"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00718"
+            }
+          ],
+          "questions": [
+            "Who is the Reaper?",
+            "What do the flowers stand for?",
+            "How does the mother find comfort?"
+          ],
+          "answers": [
+            "Death",
+            "Little children who die",
+            "She knows she will find them again in heaven"
+          ],
+          "notes": "Poem by Henry Wadsworth Longfellow, about the death of children. Read it with care if your family has had a loss."
+        },
+        {
+          "title": "Lesson XXIX: The Town Pump",
+          "steps": [
+            "New words: perpetuity (forever), municipality (a town), unadulterated (pure), rubicund (red-faced), replenish (to fill again)",
+            "Read the speech aloud as the Town Pump, in a booming, self-important voice",
+            "Narrate: who comes to drink at the pump, and what does it say to each?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXIX",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00728"
+            }
+          ],
+          "questions": [
+            "Which town officers does the pump claim to be like?",
+            "What does the pump call its water?",
+            "Which partner will help the pump 'reform the age'?"
+          ],
+          "answers": [
+            "Treasurer, overseer of the poor, fire chief, physician, constable, and town clerk",
+            "The unadulterated ale of father Adam",
+            "The cow (milk and water)"
+          ],
+          "notes": "By Nathaniel Hawthorne, from 'Twice-Told Tales.' A humorous temperance speech; gout was a painful disease linked with rich food and wine."
+        },
+        {
+          "title": "Lesson XXX: Good Night",
+          "steps": [
+            "Read the poem aloud in a hushed voice, slowing on each 'Good night'",
+            "Copywork: one stanza of your choice",
+            "At bedtime, say your own good nights to things in your yard"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXX",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00748"
+            }
+          ],
+          "questions": [
+            "Which birds have gone quiet?",
+            "What creatures are still awake at night?",
+            "Who 'will sleep' at the end?"
+          ],
+          "answers": [
+            "The jay and the robin (and the crow dreams)",
+            "The bat, the fox, and the owl",
+            "Love and innocence"
+          ],
+          "notes": "Poem by Samuel Goodrich ('Peter Parley')."
+        }
+      ]
+    },
+    {
+      "title": "Unit 5: Lessons XXXI–XL",
+      "lessons": [
+        {
+          "title": "Lesson XXXI: An Old-Fashioned Girl",
+          "steps": [
+            "New words: imposing (impressive), meteor (shooting star), blasé (bored with everything), invalid (a sickly person)",
+            "Read the passage aloud, giving Madam Shaw a slow old voice and Polly a fresh young one",
+            "Written narration: in a paragraph, describe Polly's visit to the Shaws",
+            "Discuss Madam Shaw's idea of what childhood should be"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00755"
+            }
+          ],
+          "questions": [
+            "Why was Polly glad when dinner was over?",
+            "How did Polly win over Madam Shaw?",
+            "How did Madam earn her first money?"
+          ],
+          "answers": [
+            "Tom stared at her, Madam peered at her, and Maud fussed; it was uncomfortable",
+            "She sang old songs for her",
+            "By sewing the best darn in her father's silk stockings, for a five-dollar prize"
+          ],
+          "notes": "From 'An Old-Fashioned Girl' by Louisa May Alcott, author of 'Little Women.' A good lead-in to the whole novel."
+        },
+        {
+          "title": "Lesson XXXII: My Mother's Hands",
+          "steps": [
+            "Read the poem aloud with feeling",
+            "Copywork: \"Such beautiful, beautiful hands!\" and the two lines after it",
+            "Narrate: why does the writer find her mother's plain hands beautiful?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00781"
+            }
+          ],
+          "questions": [
+            "Are the mother's hands white and small?",
+            "What did the hands do while the child played?",
+            "What does the writer hope for in the last stanza?"
+          ],
+          "answers": [
+            "No; they are aged and wrinkled",
+            "Kept working for the children",
+            "To hold her mother's hands again in heaven"
+          ]
+        },
+        {
+          "title": "Lesson XXXIII: The Discontented Pendulum",
+          "steps": [
+            "New words: instituted (began), calculating (reckoning), harangue (a long speech), illustrate (to make clear), execute (to carry out)",
+            "Read the fable aloud, giving voices to the dial plate and the pendulum",
+            "Check the minute hand's arithmetic: how many seconds are in a day?",
+            "Narrate: how did the dial plate change the pendulum's mind?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00786"
+            }
+          ],
+          "questions": [
+            "Why did the pendulum stop?",
+            "How many times does it tick in a day?",
+            "What did the farmer think when he saw the clock?"
+          ],
+          "answers": [
+            "It was tired of thinking about how many ticks it had ahead",
+            "86,400",
+            "That his watch had gained half an hour in the night"
+          ],
+          "notes": "By Jane Taylor (who wrote 'Twinkle, Twinkle, Little Star'). The math: 60 × 60 × 24 = 86,400."
+        },
+        {
+          "title": "Lesson XXXIV: The Death of the Flowers",
+          "steps": [
+            "New words: wailing (mourning), sear (withered), glade (an open space in a forest), unmeet (unfitting)",
+            "Read the poem aloud slowly, in a soft autumn voice",
+            "Memorize: the first four lines",
+            "Name the flowers in the poem in the order they die"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXIV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00799"
+            }
+          ],
+          "questions": [
+            "What month is it in the poem?",
+            "Which flowers last into autumn?",
+            "Who does the poet remember in the last stanza?"
+          ],
+          "answers": [
+            "November",
+            "The golden-rod, the aster, and the yellow sunflower",
+            "A beautiful young woman who died young (his sister)"
+          ],
+          "notes": "Poem by William Cullen Bryant, written in memory of his sister."
+        },
+        {
+          "title": "Lesson XXXV: The Thunderstorm",
+          "steps": [
+            "New words: languor (dullness), predecessor (the one before), clamorously (noisily), defile (a narrow pass), rack (flying broken clouds)",
+            "Read the passage aloud, quietly at first, then with growing force as the storm breaks",
+            "Written narration: in a paragraph, describe a storm you remember, using two of Irving's words"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00807"
+            }
+          ],
+          "questions": [
+            "What river is Dolph sailing on?",
+            "What signs showed the storm was coming?",
+            "Why did the thunder seem so loud?"
+          ],
+          "answers": [
+            "The Hudson, through the Highlands",
+            "White clouds piling up, faint thunder, a dark ripple on the water, and birds flying to shelter",
+            "It echoed from mountain to mountain"
+          ],
+          "notes": "By Washington Irving, from 'Bracebridge Hall.' Find the Hudson Highlands on a map."
+        },
+        {
+          "title": "Lesson XXXVI: April Day",
+          "steps": [
+            "New words: garnered (stored up), studs (buds), cleaving (splitting open), amber (golden yellow)",
+            "Read the poem aloud as gently as a spring rain",
+            "Copywork: \"I could have half believed I heard / The leaves and blossoms growing.\"",
+            "Go outside after a rain and notice what has grown"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXVI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00818"
+            }
+          ],
+          "questions": [
+            "What sound did the poet listen to all day?",
+            "What did she half believe she heard?",
+            "What happened at the end of the rain?"
+          ],
+          "answers": [
+            "The steady rain",
+            "The leaves and blossoms growing",
+            "Golden light broke through, then one last shower fell"
+          ],
+          "notes": "Poem by Caroline Southey (Caroline Bowles)."
+        },
+        {
+          "title": "Lesson XXXVII: The Tea Rose",
+          "steps": [
+            "New words: ottoman (a backless padded seat), asylum (a place of refuge), bijou (a jewel), sentimental (overly full of feeling), yearns (longs)",
+            "Read the conversation aloud with two readers as Kate and Florence",
+            "Written narration: in a paragraph, give Florence's reasons for giving the rose to the Stephens family"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXVII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00833"
+            }
+          ],
+          "questions": [
+            "Who did Kate want Florence to give the rose to?",
+            "Who did Florence give it to instead?",
+            "What does Florence say about the beautiful things God makes?"
+          ],
+          "answers": [
+            "Mrs. Marshall, a wealthy friend with a greenhouse",
+            "Little Mary Stephens and her mother, a poor seamstress family",
+            "They are his gifts to everyone alike, rich or poor"
+          ],
+          "notes": "By Harriet Beecher Stowe (not named in the book). Kate's remarks about the poor show old class attitudes that the story itself argues against."
+        },
+        {
+          "title": "Lesson XXXVIII: The Cataract of Lodore",
+          "steps": [
+            "New words: tarn (a small mountain lake), fell (a stony hill), gills (brooks), brawling (roaring), riving (splitting)",
+            "Read the poem aloud, speeding up as the water rushes; it is great practice for crisp '-ing' endings",
+            "Pick your favorite run of rhyming words and say it as fast and clearly as you can",
+            "Copywork: \"Helter-skelter, / Hurry-skurry.\""
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00858"
+            }
+          ],
+          "questions": [
+            "Who asked the poet how the water comes down at Lodore?",
+            "Where does the stream rest before the falls?",
+            "Why does the poet call himself 'Laureate'?"
+          ],
+          "answers": [
+            "His little boy (and then his daughters)",
+            "In its own little lake",
+            "He was the official poet laureate of England"
+          ],
+          "notes": "Poem by Robert Southey, about a waterfall near his home in England's Lake District."
+        },
+        {
+          "title": "Lesson XXXIX: The Bobolink",
+          "steps": [
+            "New words: varlet (a rascal), voluptuary (one who lives for pleasure), gourmand (a glutton), corpulent (fat), eschew (to avoid)",
+            "Read the essay aloud, cheerful in the first half and mock-serious in the second",
+            "Written narration: in a paragraph, tell the bobolink's 'career' from spring meadow to dinner table",
+            "Look up a picture of a bobolink in breeding plumage"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXIX",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00874"
+            }
+          ],
+          "questions": [
+            "When is the bobolink happiest and most in song?",
+            "What two other names does he get as he flies south?",
+            "What moral does Irving draw for 'little birds and little boys'?"
+          ],
+          "answers": [
+            "From mid-May to mid-June, when the clover blooms",
+            "Reedbird and ricebird",
+            "Keep to refined, worthy pursuits and avoid greedy self-indulgence"
+          ],
+          "notes": "By Washington Irving. Shooting bobolinks for food was common then; today they are protected songbirds. Pairs well with the next poem."
+        },
+        {
+          "title": "Lesson XL: Robert of Lincoln",
+          "steps": [
+            "Read the poem aloud, making the 'Bobolink, bobolink, spink, spank, spink' chorus bubble",
+            "Compare Bryant's bobolink with Irving's from the last lesson",
+            "Memorize: the first stanza"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XL",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00889"
+            }
+          ],
+          "questions": [
+            "How is Robert of Lincoln dressed?",
+            "How is his wife different from him?",
+            "Why is Robert 'sober with work' later in the summer?"
+          ],
+          "answers": [
+            "In a black 'wedding coat' with white shoulders and crest",
+            "She is quiet and plain brown, and sits patiently on the nest",
+            "He has six hungry nestlings to feed"
+          ],
+          "notes": "Poem by William Cullen Bryant."
+        }
+      ]
+    },
+    {
+      "title": "Unit 6: Lessons XLI–L",
+      "lessons": [
+        {
+          "title": "Lesson XLI: Rebellion in Massachusetts State Prison",
+          "steps": [
+            "New words: brigands (robbers), demeanor (behavior), parley (a talk with an enemy), expostulated (reasoned earnestly), intrepid (fearless)",
+            "Read the account aloud, letting the tension build toward the three minutes",
+            "Written narration: in a paragraph, compare the courage of the unarmed officer and of Major Wainright"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00899"
+            }
+          ],
+          "questions": [
+            "Why did the prisoners gather in the dining hall?",
+            "What did the mild officer carry into the hall?",
+            "How did Major Wainright end the rebellion without firing a shot?"
+          ],
+          "answers": [
+            "To stop three fellow prisoners from being whipped",
+            "Only his walking stick (a rattan)",
+            "He had the marines load and aim, then gave the prisoners three minutes to leave"
+          ],
+          "notes": "By J. T. Buckingham. Describes prison flogging and a tense armed standoff; the prisoners are described harshly."
+        },
+        {
+          "title": "Lesson XLII: Faithless Nelly Gray",
+          "steps": [
+            "New words: devoirs (respects), scoff (a laughingstock), uniform (both 'consistent' and 'military dress'), blithe (merry)",
+            "Read the poem aloud and hunt for the puns: count them as you go",
+            "Explain three of the puns in your own words"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00923"
+            }
+          ],
+          "questions": [
+            "How did Ben Battle lose his legs?",
+            "What is the double meaning of 'laid down his arms'?",
+            "What is the pun in 'stand upon another footing'?"
+          ],
+          "answers": [
+            "A cannonball took them off",
+            "He put down his weapons, and he lost his limbs",
+            "His situation has changed, and he literally stands on different (wooden) feet"
+          ],
+          "notes": "Comic poem by Thomas Hood, full of puns. It ends with Ben hanging himself, told as a joke. Preview it, and you may want to skip it or discuss it with care."
+        },
+        {
+          "title": "Lesson XLIII: The Generous Russian Peasant",
+          "steps": [
+            "New words: extol (to praise highly), annals (records), granary (a storehouse for grain), succor (help), superfluities (more than is needed)",
+            "Read the story aloud",
+            "Find the Volga River and Simbirsk on a map",
+            "Written narration: in a paragraph, tell how Flor Silin used his full granaries"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00943"
+            }
+          ],
+          "questions": [
+            "What was the 'Famine Year'?",
+            "What did Flor Silin do with his grain?",
+            "What did he tell his neighbors to do with the grain they tried to repay?"
+          ],
+          "answers": [
+            "A year of drought that ruined the harvests on the Lower Volga",
+            "Gave it to his starving neighbors and to anyone who asked",
+            "Share it with poor neighbors who still had nothing"
+          ],
+          "notes": "By Nikolai Karamzin, a Russian writer and historian. Old books use 'corn' for any grain."
+        },
+        {
+          "title": "Lesson XLIV: Forty Years Ago",
+          "steps": [
+            "Read the poem aloud slowly, as an old man talking to his friend Tom",
+            "List what has changed at the old school and what is the same",
+            "Copywork: the last four lines of any stanza"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLIV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00959"
+            }
+          ],
+          "questions": [
+            "Where is the old schoolmaster now?",
+            "What did the speaker cut into the elm tree?",
+            "How many of the old class are still alive?"
+          ],
+          "answers": [
+            "Buried on the hill where they used to slide",
+            "Tom's name and his sweetheart's",
+            "Only the speaker and Tom"
+          ],
+          "notes": "A nostalgic song-poem. Ask a grandparent what has changed since they were in school."
+        },
+        {
+          "title": "Lesson XLV: Mrs. Caudle's Lecture",
+          "steps": [
+            "New words: aggravating (irritating), vindictive (revengeful), paltry (petty)",
+            "Read the monologue aloud in Mrs. Caudle's voice, answering things Mr. Caudle never gets to say",
+            "Narrate: what is the whole quarrel about, and how does it grow?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00967"
+            }
+          ],
+          "questions": [
+            "What started Mrs. Caudle's complaint?",
+            "What does she threaten to stop doing?",
+            "How does the lecture end?"
+          ],
+          "answers": [
+            "Mr. Caudle grumbled that a button was off his shirt",
+            "Sewing on his buttons",
+            "She accuses him of snoring"
+          ],
+          "notes": "By Douglas Jerrold, from 'Mrs. Caudle's Curtain Lectures' in Punch. A comic monologue that pokes fun at a nagging wife; an old-style joke."
+        },
+        {
+          "title": "Lesson XLVI: The Village Blacksmith",
+          "steps": [
+            "Read the poem aloud with a steady, hammering rhythm",
+            "Memorize: the first two stanzas",
+            "Narrate: what lesson does the poet take from the blacksmith?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLVI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00980"
+            }
+          ],
+          "questions": [
+            "Where does the smithy stand?",
+            "Why can the blacksmith 'look the whole world in the face'?",
+            "What makes him think of his wife in church?"
+          ],
+          "answers": [
+            "Under a spreading chestnut tree",
+            "He owes no one anything",
+            "His daughter's voice singing in the choir"
+          ],
+          "notes": "Poem by Henry Wadsworth Longfellow, one of the best-loved American poems."
+        },
+        {
+          "title": "Lesson XLVII: The Relief of Lucknow",
+          "steps": [
+            "New words: siege (an army surrounding a place to force its surrender), slogan (a Highland war cry), pibroch (bagpipe music), sappers (soldiers who dig toward a fort), simultaneous (at the same moment)",
+            "Read the letter aloud, giving Jessie Brown's Scottish words their sound",
+            "Find Lucknow, India, on a map",
+            "Written narration: in a paragraph, tell how Jessie heard help coming before anyone else"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLVII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id00989"
+            }
+          ],
+          "questions": [
+            "What did Jessie Brown hear?",
+            "Why did the others not believe her at first?",
+            "What tune did the pipers play at the banquet?"
+          ],
+          "answers": [
+            "The Highlanders' bagpipes and war cry",
+            "They could hear only the guns; their Lowland ears didn't catch the pipes",
+            "Auld Lang Syne"
+          ],
+          "notes": "From a letter to the London Times about the 1857 siege of Lucknow during the Indian Rebellion. It tells only the British side; historians doubt the Jessie Brown story, and Indians remember the uprising as a fight against British rule."
+        },
+        {
+          "title": "Lesson XLVIII: The Snowstorm",
+          "steps": [
+            "New words: mazy (winding), hoar (grayish white), boon (a gift), askance (sideways), dire (dreadful)",
+            "Read the blank verse aloud, pausing by sense, not at line ends",
+            "Narrate: how does the snow affect the ox, the robin, the hare, and the sheep?",
+            "Copywork: \"The cherished fields / Put on their winter robe of purest white.\""
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLVIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01004"
+            }
+          ],
+          "questions": [
+            "Which bird visits the house?",
+            "What does the robin do once it feels at home?",
+            "What does the poet urge shepherds to do?"
+          ],
+          "answers": [
+            "The redbreast (robin)",
+            "Pecks at the crumbs on the table",
+            "Feed and shelter their flocks, and watch for drifting snow"
+          ],
+          "notes": "From 'The Seasons' by James Thomson, a Scottish poet of the 1700s."
+        },
+        {
+          "title": "Lesson XLIX: Behind Time",
+          "steps": [
+            "New words: collision (a crash), corps (a body of troops), remittances (money sent from a distance), ignominious (shameful), weal (well-being)",
+            "Read the essay aloud, pausing after each example",
+            "Written narration: in a paragraph, retell one of the four examples and add one of your own about being on time"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLIX",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01015"
+            }
+          ],
+          "questions": [
+            "Why did the two trains crash?",
+            "Whose lateness, according to the essay, lost the battle of Waterloo?",
+            "Why was the condemned man hanged?"
+          ],
+          "answers": [
+            "An engineer was behind time",
+            "Marshal Grouchy's",
+            "The rider with his reprieve arrived five minutes too late"
+          ],
+          "notes": "Includes a train wreck and a hanging. The Waterloo claim simplifies history."
+        },
+        {
+          "title": "Lesson L: The Old Sampler",
+          "steps": [
+            "New words: warder (a guard), antique (old), saffron (deep yellow), chapeau (a hat), supine (listless)",
+            "Read the poem aloud tenderly",
+            "Look at pictures of old samplers; if you sew, stitch your name and age",
+            "Narrate: what can we guess about Elizabeth's life from the chest?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson L",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01026"
+            }
+          ],
+          "questions": [
+            "What did Elizabeth stitch on her sampler?",
+            "Which war does the rusty sword come from?",
+            "What sorrow did Elizabeth suffer later?"
+          ],
+          "answers": [
+            "\"Elizabeth, Aged Nine,\" inside a wreath of berry and vine",
+            "The American Revolution (from Lexington to Yorktown)",
+            "The man who wore the plumed hat was killed by a sword thrust"
+          ],
+          "notes": "Poem by Margaret E. Sangster. A sampler is a piece of practice needlework."
+        }
+      ]
+    },
+    {
+      "title": "Unit 7: Lessons LI–LX",
+      "lessons": [
+        {
+          "title": "Lesson LI: The Goodness of God",
+          "steps": [
+            "New words: habitation (dwelling), refuge (shelter), cony (a small rock-dwelling animal)",
+            "Read the passages aloud reverently",
+            "Make a list of all the creatures the psalm names",
+            "Copywork: \"O Lord, how manifold are thy works!\""
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01040"
+            }
+          ],
+          "questions": [
+            "What does the psalm say God uses as his chariot?",
+            "Where does the stork make her home?",
+            "What does man do when the sun rises?"
+          ],
+          "answers": [
+            "The clouds",
+            "In the fir trees",
+            "Goes out to his work until evening"
+          ],
+          "notes": "Mostly from Psalm 104, with lines from Psalms 107 and 105."
+        },
+        {
+          "title": "Lesson LII: My Mother",
+          "steps": [
+            "Read the poem aloud quietly",
+            "Copywork: \"Whispering, 'God will keep my child.'\"",
+            "Narrate: how does the speaker feel about the trouble he caused his mother?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01056"
+            }
+          ],
+          "questions": [
+            "What did the mother whisper after praying?",
+            "What is the mother compared to now?",
+            "What does the speaker promise in the last stanza?"
+          ],
+          "answers": [
+            "\"God will keep my child.\"",
+            "A faded autumn leaf",
+            "To share her troubles, watch beside her, and pray with her"
+          ]
+        },
+        {
+          "title": "Lesson LIII: The Hour of Prayer",
+          "steps": [
+            "Read the poem aloud, pausing on the refrain 'Lift the heart, and bend the knee'",
+            "List everyone the poem calls to prayer",
+            "Memorize: the first stanza"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01060"
+            }
+          ],
+          "questions": [
+            "What time of day is the poem set?",
+            "Name three people far from home whom the poet calls to pray.",
+            "What one thing do the joyful and the sorrowful all see?"
+          ],
+          "answers": [
+            "Sunset, as evening falls",
+            "The traveler, the captive, and the sailor (also the mourner)",
+            "Heaven's first star"
+          ],
+          "notes": "Poem by Felicia Hemans."
+        },
+        {
+          "title": "Lesson LIV: The Will",
+          "steps": [
+            "New words: reprobate (a person gone bad), deceased (dead), convened (gathered), chaise (a light two-wheeled carriage), profligate (a shameless spendthrift)",
+            "Read the play aloud with four readers (or one reader doing voices), letting the Squire pause slowly with his spectacles",
+            "Narrate: how did the two greedy cousins change as the will was read?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LIV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01065"
+            }
+          ],
+          "questions": [
+            "Why did Swipes and Currie expect to inherit?",
+            "What two words in the will changed everything?",
+            "Why were the cousins released from being trustees at the end?"
+          ],
+          "answers": [
+            "They heard the old lady had cut off her nephew Frank",
+            "\"In trust\"",
+            "The will was three years old, so Frank was already twenty-one"
+          ],
+          "notes": "A short comic play. Legal phrases like 'will and testament' pair words of the same meaning, as the book's note explains."
+        },
+        {
+          "title": "Lesson LV: The Nose and the Eyes",
+          "steps": [
+            "New words: argued (reasoned), discerning (telling things apart), behalf (on the side of), decreed (ordered by a judge)",
+            "Read the poem aloud as a pompous courtroom speech",
+            "Narrate: what were the lawyer's arguments for the Nose?",
+            "Discuss what is silly about the judge's decision"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01109"
+            }
+          ],
+          "questions": [
+            "What were the Nose and the Eyes arguing about?",
+            "Who were the lawyer and the judge?",
+            "What did the judge decide?"
+          ],
+          "answers": [
+            "Which of them the spectacles belong to",
+            "Tongue was the lawyer and Ear was the judge",
+            "Whenever the Nose wears the spectacles, the Eyes must be shut"
+          ],
+          "notes": "Comic poem by William Cowper, poking fun at lawyers and courts."
+        },
+        {
+          "title": "Lesson LVI: An Iceberg",
+          "steps": [
+            "New words: serenity (calm), exquisite (very fine), monochromist (one who paints in one color), polychroic (many-colored), obliquely (slantwise)",
+            "Read the passage aloud, building to the great roll of the iceberg",
+            "Written narration: in a paragraph, describe the 'polar bear' piece of ice and how the waves attacked it",
+            "Float an ice cube in a glass and see how much is under water"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LVI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01120"
+            }
+          ],
+          "questions": [
+            "What did the small piece of floating ice look like?",
+            "What happened to the big iceberg while the travelers watched?",
+            "How much of an iceberg is above water, according to the note?"
+          ],
+          "answers": [
+            "A huge polar bear",
+            "It cracked and rolled over in the water",
+            "About one eighth"
+          ],
+          "notes": "By Louis Legrand Noble, from 'After Icebergs with a Painter' (a voyage with the painter Frederic Church). Scientists today usually say about one tenth of an iceberg shows above water."
+        },
+        {
+          "title": "Lesson LVII: About Quail",
+          "steps": [
+            "New words: aquatic (living in or near water), cupidity (greed), tussock (a tuft of grass), cradler (a reaper with a grain cradle), devious (winding)",
+            "Read the essay aloud warmly",
+            "Written narration: in a paragraph, describe how a mother quail protects her chicks",
+            "Listen online to a bobwhite quail's call"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LVII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01131"
+            }
+          ],
+          "questions": [
+            "How is the quail different from the birds that migrate?",
+            "What does the mother quail do when someone startles her family?",
+            "What does the male quail call?"
+          ],
+          "answers": [
+            "He stays home all year, near the farm where he was born",
+            "Pretends to be hurt and leads the intruder away, then flies back to her chicks",
+            "\"Bob White!\""
+          ],
+          "notes": "By William Post Hawes, a sportsman writer. Boreas was the Greek north wind."
+        },
+        {
+          "title": "Lesson LVIII: The Blue and the Gray",
+          "steps": [
+            "Read the poem aloud slowly, varying the last lines of each stanza",
+            "Learn what 'the Blue' and 'the Gray' mean",
+            "Memorize: the last stanza",
+            "Narrate: what generous deed does the poem honor?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LVIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01144"
+            }
+          ],
+          "questions": [
+            "Who are 'the Blue' and 'the Gray'?",
+            "What did the mourners bring to the graves?",
+            "What does the poem hope for in the last stanza?"
+          ],
+          "answers": [
+            "Union and Confederate soldiers of the Civil War",
+            "Flowers, for friend and foe alike",
+            "That anger is banished forever and both sides are mourned with love"
+          ],
+          "notes": "By Francis Miles Finch (1867), honoring women in Columbus, Mississippi, who decorated both Union and Confederate graves. A good place to talk about the Civil War and Memorial Day."
+        },
+        {
+          "title": "Lesson LIX: The Machinist's Return",
+          "steps": [
+            "New words: maneuvers (movements), portmanteau (a traveling bag), confidant (one you tell secrets to), mortgaged (pledged for a debt), pantomime (acting without words)",
+            "Read the story aloud, enjoying the nervous traveler",
+            "Written narration: in a paragraph, tell the machinist's story in his own voice"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LIX",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01153"
+            }
+          ],
+          "questions": [
+            "Why was the stranger so excited?",
+            "Who believed in his invention when no one else did?",
+            "How did his wife support the family while he was away?"
+          ],
+          "answers": [
+            "He was coming home rich after three years in Europe, earlier than expected",
+            "His wife",
+            "By sewing shirts for thirteen cents apiece"
+          ],
+          "notes": "From a newspaper letter. £50,000 was a huge fortune then."
+        },
+        {
+          "title": "Lesson LX: Make Way for Liberty",
+          "steps": [
+            "New words: phalanx (soldiers in close ranks), rampart (a defensive wall), impregnable (unbreakable), annihilates (destroys), breach (a gap)",
+            "Read the poem aloud with rising force, shouting the refrain",
+            "Narrate: how did Arnold Winkelried open the Austrian line?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LX",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01171"
+            }
+          ],
+          "questions": [
+            "What does the poem compare the Austrian army to?",
+            "What did Winkelried do?",
+            "Where and when did this battle happen?"
+          ],
+          "answers": [
+            "A living wall and a human wood",
+            "Gathered the enemy spears into his own body, opening a gap for his comrades",
+            "At Sempach, Switzerland, in 1386"
+          ],
+          "notes": "Poem by James Montgomery about a Swiss hero. Includes a soldier's death in battle."
+        }
+      ]
+    },
+    {
+      "title": "Unit 8: Lessons LXI–LXX",
+      "lessons": [
+        {
+          "title": "Lesson LXI: The English Skylark",
+          "steps": [
+            "New words: ecstasy (great joy), axiom (a self-evident truth), gyrations (circling motions), undulating (rising and falling like waves), hamlet (a small village)",
+            "Read the passage aloud lightly, letting the sentences soar",
+            "Copywork: \"It mounts up like a human aspiration.\"",
+            "Listen to a recording of a skylark"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01186"
+            }
+          ],
+          "questions": [
+            "What does the skylark look like on the ground?",
+            "How is its flight different from an eagle's?",
+            "How far away can its song be heard?"
+          ],
+          "answers": [
+            "Plain, shy, and silent",
+            "It rises straight up, not in circles",
+            "Nearly a mile"
+          ],
+          "notes": "By Elihu Burritt, 'the learned blacksmith,' who taught himself many languages."
+        },
+        {
+          "title": "Lesson LXII: How Sleep the Brave",
+          "steps": [
+            "Read the short poem aloud slowly and reverently",
+            "Memorize: the whole poem (12 lines)",
+            "Talk about who the 'brave' are and how they are honored"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01195"
+            }
+          ],
+          "questions": [
+            "Who are 'the brave' in the poem?",
+            "Who comes as a gray pilgrim to bless their graves?",
+            "Who will dwell there like a weeping hermit?"
+          ],
+          "answers": [
+            "Soldiers who died for their country",
+            "Honor",
+            "Freedom"
+          ],
+          "notes": "Ode by William Collins (1746), a fine poem for Memorial Day or Veterans Day."
+        },
+        {
+          "title": "Lesson LXIII: The Rainbow",
+          "steps": [
+            "Read the poem aloud thoughtfully",
+            "Copywork: the last stanza",
+            "Narrate: what does the rainbow teach about joy and grief?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01199"
+            }
+          ],
+          "questions": [
+            "Where was the storm an hour ago?",
+            "According to the poem, when will grief become joy?"
+          ],
+          "answers": [
+            "Right where the poet was (now the rainbow is there)",
+            "When the 'holiest ray,' the light of heaven, falls on it"
+          ],
+          "notes": "Poem by John Keble, from a book of religious verse."
+        },
+        {
+          "title": "Lesson LXIV: Supposed Speech of John Adams",
+          "steps": [
+            "New words: reconciliation (making peace again), colleague (a fellow officer), proscribed (outlawed), predestined (decided beforehand), clemency (mercy)",
+            "Read the speech aloud as an orator, building to 'Independence forever'",
+            "Written narration: in a paragraph, give three of Adams's reasons for declaring independence now",
+            "Memorize: the opening sentence, 'Sink or swim, live or die...'"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXIV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01204"
+            }
+          ],
+          "questions": [
+            "Who actually wrote this speech?",
+            "Why does Adams say Hancock and Samuel Adams are already outlaws?",
+            "How does he predict future Americans will celebrate the day?"
+          ],
+          "answers": [
+            "Daniel Webster, imagining what Adams might have said",
+            "The British had excluded them from any pardon",
+            "With thanksgiving, festivity, bonfires, and illuminations"
+          ],
+          "notes": "Daniel Webster wrote this in 1826 as part of a eulogy for Adams and Jefferson; it isn't Adams's real speech. Read it near the Fourth of July."
+        },
+        {
+          "title": "Lesson LXV: The Rising",
+          "steps": [
+            "New words: boreal (northern), yeoman (a farmer who owns land), manor (an estate), theme (a subject), guise (appearance)",
+            "Read the poem aloud with growing energy, ringing out the 'WAR! WAR! WAR!'",
+            "Narrate: what happened in the church at Berkley Manor?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01220"
+            }
+          ],
+          "questions": [
+            "What news came 'out of the North'?",
+            "What did the women do to help?",
+            "What did the pastor reveal under his gown?"
+          ],
+          "answers": [
+            "The fighting at Lexington and Concord",
+            "Poured lead into molds to make bullets",
+            "A soldier's uniform; he called for volunteers and a hundred men enlisted"
+          ],
+          "notes": "From 'The Wagoner of the Alleghanies' by Thomas Buchanan Read, about Pastor Peter Muhlenberg, who became a Revolutionary general."
+        },
+        {
+          "title": "Lesson LXVI: Control Your Temper",
+          "steps": [
+            "New words: culture (training), disciplined (trained), deference (respect), reprimanded (scolded), superannuated (weakened by age)",
+            "Read the lesson aloud",
+            "Written narration: in a paragraph, tell the two stories about Roger Sherman and what they show",
+            "Talk about one thing that tries your temper and how you could answer it calmly"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXVI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01237"
+            }
+          ],
+          "questions": [
+            "What did Roger Sherman do when a student flashed sunlight in his eyes?",
+            "Why did Sherman's mother box his ear?",
+            "Who was Roger Sherman?"
+          ],
+          "answers": [
+            "He quietly closed the window blind",
+            "Because he tapped his own child's ear during family prayers",
+            "A shoemaker who became a judge, congressman, and signer of the Declaration of Independence"
+          ],
+          "notes": "By Dr. John Todd. Mentions caring for 'deranged people' (an old term for mental illness)."
+        },
+        {
+          "title": "Lesson LXVII: William Tell (Part 1)",
+          "steps": [
+            "New words: comeliness (gracefulness), avalanche (a mass of snow sliding down a mountain), fledgling (a young bird), caitiff (a mean villain), thralldom (slavery)",
+            "Read the scene aloud as a play, with readers for Tell, Gesler, Sarnem, and Albert",
+            "Narrate: how did Gesler find out that Albert was Tell's son, and what cruel test did he set?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXVII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01249"
+            }
+          ],
+          "questions": [
+            "Why did Albert pretend not to know his father?",
+            "What does Tell say vengeance cannot take away?",
+            "What does Gesler order Tell to do?"
+          ],
+          "answers": [
+            "To keep from sharing his father's death",
+            "His honor, good name, and virtue",
+            "Shoot an apple off his son's head from a hundred paces"
+          ],
+          "notes": "From the play 'William Tell' by James Sheridan Knowles. Tell is a Swiss legend set in 1307. The next lesson finishes the story."
+        },
+        {
+          "title": "Lesson LXVIII: William Tell (Concluded)",
+          "steps": [
+            "New words: accords (grants), issue (outcome), stanch (sound and true), shaft (the stem of an arrow), quiver (a case for arrows)",
+            "Read the scene aloud as a play, slowly building to the shot",
+            "Written narration: in a paragraph, tell how Tell prepared for the shot and why he hid the second arrow"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01398"
+            }
+          ],
+          "questions": [
+            "Why did Tell want the sun at his back?",
+            "Why did he break and throw away the arrows the soldier gave him?",
+            "What was the hidden arrow for?"
+          ],
+          "answers": [
+            "So it would shine on the target, not in his eyes",
+            "They were bent, jagged, or too heavy for such an aim",
+            "To kill Gesler if he had killed his son"
+          ],
+          "notes": "The book's note tells the rest of the legend: Tell escaped and later shot Gesler. Ending a tyrant's life is presented as heroic; worth a short talk."
+        },
+        {
+          "title": "Lesson LXIX: The Crazy Engineer",
+          "steps": [
+            "New words: competent (qualified), juncture (a critical moment), remonstrate (to protest), apprehend (to fear), tender (the fuel car behind a locomotive)",
+            "Read the story aloud, letting the speed and danger grow",
+            "Find Danzig (Gdańsk) and the Vistula River on a map",
+            "Written narration: in a paragraph, tell how the train was saved"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXIX",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01469"
+            }
+          ],
+          "questions": [
+            "Why did the conductor need a new engineer?",
+            "Who was Martin Kroller really?",
+            "How was Kroller stopped?"
+          ],
+          "answers": [
+            "His engineer had been badly hurt",
+            "A madman escaped from the hospital at Stettin, obsessed with an engine to reach the moon",
+            "A German student knocked the pistol from his hand and struck him with a stick of wood"
+          ],
+          "notes": "An exciting story set in old Prussia (now Poland). Uses dated words like 'crazy' and 'maniac' for mental illness, and includes a pistol and a near-crash."
+        },
+        {
+          "title": "Lesson LXX: The Heritage",
+          "steps": [
+            "New words: heritage (what is inherited), sated (overfull), hinds (farm workers), adjudged (decided), benign (wholesome)",
+            "Read the poem aloud, contrasting the rich man's son and the poor man's son",
+            "Memorize: the fourth stanza, 'What doth the poor man's son inherit?'",
+            "Narrate: what does the poet say both sons inherit in the end?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXX",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01504"
+            }
+          ],
+          "questions": [
+            "Name two cares the rich man's son inherits.",
+            "What does the poor man's son inherit?",
+            "What does the poet advise the rich man's son to do?"
+          ],
+          "answers": [
+            "The bank may break, the factory may burn, his shares may fail; he has soft hands that can't earn a living",
+            "Strong muscles, a hardy spirit, contentment in work, patience, and courage",
+            "Do large charity, the best crop from his lands"
+          ],
+          "notes": "Poem by James Russell Lowell. 'To hold in fee' means to own as an inheritance."
+        }
+      ]
+    },
+    {
+      "title": "Unit 9: Lessons LXXI–LXXX",
+      "lessons": [
+        {
+          "title": "Lesson LXXI: No Excellence Without Labor",
+          "steps": [
+            "New words: architects (builders), mediocrity (ordinary ability), absolve (to release), fiat (a decree), prowess (bravery)",
+            "Read the essay aloud like a speech",
+            "Written narration: in a paragraph, explain Wirt's comparison of the genius and the plodder, and say whether you agree"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01517"
+            }
+          ],
+          "questions": [
+            "Who does Wirt say must do most of a person's education?",
+            "What often happens to the lazy genius and the hardworking ordinary student?",
+            "What bird and mountain does he use for true genius?"
+          ],
+          "answers": [
+            "The person himself",
+            "The genius sinks into poverty while the plodder rises to success",
+            "The condor soaring from Chimborazo"
+          ],
+          "notes": "By William Wirt, U.S. Attorney General. Find Chimborazo in Ecuador on a map. Quotes Shakespeare's 'Henry IV, Part 1.'"
+        },
+        {
+          "title": "Lesson LXXII: The Old House Clock",
+          "steps": [
+            "Read the poem aloud, ticking out the rhythm of the refrain",
+            "Compare the three messages the clock gives: at night, at dawn, and at the end of life",
+            "Copywork: the 'Tick! tick!' lines from the first stanza"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01530"
+            }
+          ],
+          "questions": [
+            "What does the clock warn at ten o'clock?",
+            "What does it say at five in the morning?",
+            "What 'morning' does the last stanza mean?"
+          ],
+          "answers": [
+            "Go to bed, or you'll never rise early",
+            "Get up, for no one has health or wealth without rising early",
+            "The heavenly morning after death"
+          ]
+        },
+        {
+          "title": "Lesson LXXIII: The Examination",
+          "steps": [
+            "New words: tempered (hardened), compact (dense), porous (full of tiny holes), evaporated (passed off as vapor), apparatus (equipment for experiments)",
+            "Read the scene aloud, giving Bunker a shrewd country voice",
+            "Try Locke's demonstration: put a heavy object in a cup of water and watch the water rise",
+            "Narrate: how did Locke teach the boy why smoke rises?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01534"
+            }
+          ],
+          "questions": [
+            "Why does breath disappear faster from a good knife, according to Bunker?",
+            "What does Bunker say is half the battle for a teacher?",
+            "Why does smoke go up the chimney?"
+          ],
+          "answers": [
+            "Its steel is more compact, with smaller pores",
+            "Being able to teach others to think",
+            "Heavier cold air settles and pushes the warm air (with the smoke) upward"
+          ],
+          "notes": "From 'Locke Amsden, the Schoolmaster' by Daniel Pierce Thompson. Bunker's theories about the knife and frozen paths are clever but not modern science; the lesson on teaching is the point."
+        },
+        {
+          "title": "Lesson LXXIV: The Isle of Long Ago",
+          "steps": [
+            "New words: realm (region), rhythm (a flowing beat), surge (a great swell of water), mirage (an illusion of things floating in the air), aye (always)",
+            "Read the poem aloud dreamily, feeling its rocking rhythm",
+            "Narrate: what 'treasures' are buried on the Isle of Long Ago?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXIV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01575"
+            }
+          ],
+          "questions": [
+            "What is time compared to in the poem?",
+            "What is the Isle of Long Ago?",
+            "Name two things kept on the isle."
+          ],
+          "answers": [
+            "A river flowing into the ocean of years",
+            "Our memories of the past and of loved ones gone",
+            "Locks of hair, unsung songs, a child's prayer, broken rings, a harp without strings"
+          ],
+          "notes": "Poem by Benjamin Franklin Taylor, about memory and loss."
+        },
+        {
+          "title": "Lesson LXXV: The Boston Massacre",
+          "steps": [
+            "New words: indiscriminately (without distinction), ensued (followed), ensign (a junior officer), brandishing (waving), warrant (an order to arrest)",
+            "Read the account aloud",
+            "Find King Street (now State Street) on a map of Boston",
+            "Written narration: in a paragraph, tell how the trouble began and how it ended"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01587"
+            }
+          ],
+          "questions": [
+            "What date did the Boston Massacre happen?",
+            "Who warned Captain Preston to take his men back?",
+            "How did the townspeople respond the next day?"
+          ],
+          "answers": [
+            "March 5, 1770",
+            "Henry Knox",
+            "They stood calm and demanded justice by law; Preston and his soldiers were arrested"
+          ],
+          "notes": "From George Bancroft's 'History of the United States,' which tells the story strongly from the colonists' side. John Adams later defended the soldiers in court and most were acquitted. Crispus Attucks, killed here, was a man of African and Native American descent."
+        },
+        {
+          "title": "Lesson LXXVI: Death of the Beautiful",
+          "steps": [
+            "Read the short poem aloud gently",
+            "Copywork: the last stanza",
+            "Talk about the comfort the poet offers"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXVI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01611"
+            }
+          ],
+          "questions": [
+            "What does the poet say happens too soon to earth's fairest flowers?",
+            "Why does she say we should dry our tears?"
+          ],
+          "answers": [
+            "They decay",
+            "The lovely ones who die came to raise our hearts to heaven and go to call us there"
+          ],
+          "notes": "Poem by Eliza Lee Follen, about the death of the young. Pair it with the next short poem for one sitting if you like."
+        },
+        {
+          "title": "Lesson LXXVII: Snow Falling",
+          "steps": [
+            "New words: wold (open country), spectral (ghostly), banished (driven away)",
+            "Read the two stanzas aloud softly",
+            "Memorize: the whole poem (8 lines)",
+            "Watch snow (or picture it) and write one sentence comparing it to something"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXVII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01616"
+            }
+          ],
+          "questions": [
+            "What does the snow look like on the trees?",
+            "What does the poet imagine the snowflakes are?"
+          ],
+          "answers": [
+            "Ghostly blossoms",
+            "Flowers banished from a garden in heaven"
+          ],
+          "notes": "Poem by John James Piatt."
+        },
+        {
+          "title": "Lesson LXXVIII: Squeers's Method",
+          "steps": [
+            "New words: fustian (a coarse cotton cloth), grotesque (absurd), corporeal (bodily), temporary (for the time being), disconcerted (flustered)",
+            "Read the scene aloud, giving Squeers a blustering voice",
+            "Written narration: in a paragraph, describe Dotheboys Hall and explain what is wrong with Squeers's 'practical mode of teaching'"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01621"
+            }
+          ],
+          "questions": [
+            "What did Mrs. Squeers give the boys before breakfast?",
+            "Where was the first boy of the spelling class?",
+            "What is Squeers really using his 'system' for?"
+          ],
+          "answers": [
+            "Brimstone and treacle, from a huge wooden spoon",
+            "Cleaning the back parlor window",
+            "To make the boys do his chores"
+          ],
+          "notes": "From 'Nicholas Nickleby' by Charles Dickens, which exposed cruel boarding schools in Yorkshire. Describes mistreated and disabled children."
+        },
+        {
+          "title": "Lesson LXXIX: The Gift of Empty Hands",
+          "steps": [
+            "New words: doomed (condemned), charmed (enchanted), weird (magical), quick (alive), mute (silent)",
+            "Read the poem aloud like a fairy tale",
+            "Narrate: why did the king value the empty, scarred hands more?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXIX",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01653"
+            }
+          ],
+          "questions": [
+            "What did the two princes promise the king?",
+            "How did one prince get his treasures so easily?",
+            "What did the king say about true treasure?"
+          ],
+          "answers": [
+            "To bring him fair gifts if he spared their lives",
+            "They fell or flew to him without any struggle",
+            "It is not lightly won; the scars of honest effort are worth more"
+          ],
+          "notes": "Poem by Sarah Morgan Bryan Piatt."
+        },
+        {
+          "title": "Lesson LXXX: Capturing the Wild Horse",
+          "steps": [
+            "New words: diversified (varied), ruminating (chewing the cud), lariat (a rope with a noose), covert (a hiding place), mercurial (lively, changeable)",
+            "Read the account aloud, quick and lively in the chase",
+            "Draw a diagram of the 'ringing the wild horse' plan",
+            "Written narration: in a paragraph, tell how the plan was supposed to work and how Tonish spoiled it"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXX",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01664"
+            }
+          ],
+          "questions": [
+            "What is 'ringing the wild horse'?",
+            "Who spoiled the plan?",
+            "What horses did the hunters catch?"
+          ],
+          "answers": [
+            "Surrounding a herd with a big ring of riders and running them until they tire",
+            "Tonish, the excitable little Frenchman",
+            "A black mare and a cream-colored colt"
+          ],
+          "notes": "From Washington Irving's 'A Tour on the Prairies' (1835), in what is now Oklahoma. The guides are called 'half-breeds,' a term now considered offensive for people of mixed Native and European descent."
+        }
+      ]
+    },
+    {
+      "title": "Unit 10: Lessons LXXXI–XC",
+      "lessons": [
+        {
+          "title": "Lesson LXXXI: Sowing and Reaping",
+          "steps": [
+            "Read the poem aloud earnestly",
+            "Memorize: the first stanza",
+            "Talk about what kinds of 'seed' a person can sow besides grain"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXXI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01682"
+            }
+          ],
+          "questions": [
+            "When does the poem say to wait for the harvest?",
+            "Should the sower care who reaps the harvest?",
+            "What does the last stanza promise?"
+          ],
+          "answers": [
+            "Till autumn",
+            "No; sow today even if someone else reaps it",
+            "You will reap in joy what you sowed in tears"
+          ],
+          "notes": "Poem by Adelaide Anne Procter. Echoes Psalm 126:5."
+        },
+        {
+          "title": "Lesson LXXXII: Taking Comfort",
+          "steps": [
+            "New words: transient (brief), picturesque (pretty as a picture), panorama (a wide view), reverie (a daydream), malediction (a curse)",
+            "Read the sketch aloud: peaceful in the first half, then sad",
+            "Written narration: in a paragraph, contrast the autumn scene with the man lying in the dirt"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXXII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01689"
+            }
+          ],
+          "questions": [
+            "Where was the writer walking?",
+            "What did the little boy ask the man on the ground?",
+            "What did the man answer?"
+          ],
+          "answers": [
+            "Along the Merrimack River near Lowell, Massachusetts",
+            "What ails you? Why do you lie there?",
+            "\"I'm taking comfort\""
+          ],
+          "notes": "By John Greenleaf Whittier. A temperance sketch about a drunken man; a chance to talk about addiction."
+        },
+        {
+          "title": "Lesson LXXXIII: Calling the Roll",
+          "steps": [
+            "Read the poem aloud slowly; let a second reader call out the names and answer 'Here!'",
+            "Narrate: what happened to each soldier whose name was called?",
+            "Talk about why the poet ends with a number"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXXIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01704"
+            }
+          ],
+          "questions": [
+            "What happened when Cyrus Drew's name was called?",
+            "How did Herbert Cline answer?",
+            "How many men answered 'here' at the end?"
+          ],
+          "answers": [
+            "No one answered; he had fallen",
+            "Two soldiers carried him in, wounded, to answer his name",
+            "Twenty out of a hundred"
+          ],
+          "notes": "Civil War poem by N. G. Shepherd. Vivid images of battle and death."
+        },
+        {
+          "title": "Lesson LXXXIV: Turtle Soup",
+          "steps": [
+            "New words: aft (toward the back of a ship), unctuous (rich and fatty), binnacle (the box holding a ship's compass), galley (a ship's kitchen), tureen (a large soup bowl)",
+            "Read the story aloud, enjoying the narrator's hungry daydream",
+            "Written narration: in a paragraph, tell what happened to the turtle soup and why the narrator laughed"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXXIV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01710"
+            }
+          ],
+          "questions": [
+            "Why was the turtle saved until near the end of the voyage?",
+            "Why did the ship lurch?",
+            "What did the passengers eat for dinner instead?"
+          ],
+          "answers": [
+            "It wouldn't spoil, so the other animals were eaten first",
+            "The narrator was daydreaming about the soup and let the wheel slip",
+            "Cold ham"
+          ],
+          "notes": "By Charles F. Briggs, from 'Working a Passage.' Ships' time: four bells here means 2 o'clock."
+        },
+        {
+          "title": "Lesson LXXXV: The Best Kind of Revenge",
+          "steps": [
+            "New words: scurrilous (insulting and coarse), libeler (one who prints lies about another), audacity (boldness), delinquent (an offender), stint (to cut short)",
+            "Read the story aloud, building to the surprise when Mr. Grant signs",
+            "Written narration: in a paragraph, explain what 'the best kind of revenge' is"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXXV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01722"
+            }
+          ],
+          "questions": [
+            "What had the warehouseman done to the Grant Brothers?",
+            "Why did he need their signature?",
+            "What did William Grant give him besides his signature?"
+          ],
+          "answers": [
+            "Published a pamphlet mocking them",
+            "He was bankrupt and needed all his creditors to sign his certificate to do business again",
+            "A ten-pound note for his family"
+          ],
+          "notes": "The Grant brothers of Manchester were the models for the kind Cheeryble brothers in Dickens's 'Nicholas Nickleby.'"
+        },
+        {
+          "title": "Lesson LXXXVI: The Soldier of the Rhine",
+          "steps": [
+            "New words: legion (a division of an army), dearth (lack), ebbed (flowed away), coquetry (flirting), yore (old times)",
+            "Read the poem aloud with feeling, slowing on each line about Bingen",
+            "Find Bingen on the Rhine River in Germany on a map",
+            "Narrate: what messages did the soldier send home?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXXVI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01730"
+            }
+          ],
+          "questions": [
+            "Where was the soldier dying?",
+            "What did he keep when his father died?",
+            "What did he dream of the night before?"
+          ],
+          "answers": [
+            "In Algiers, far from home",
+            "His father's sword",
+            "Walking with the girl he loved on the vine-clad hills of Bingen"
+          ],
+          "notes": "Poem ('Bingen on the Rhine') by Caroline Norton. A soldier's death in battle."
+        },
+        {
+          "title": "Lesson LXXXVII: The Winged Worshipers",
+          "steps": [
+            "New words: penance (suffering for sin), lays (songs), choir (a group of singers), consecrated (set apart for God), trackless (without a path)",
+            "Read the poem aloud lightly",
+            "Copywork: one stanza of your choice",
+            "Narrate: what does the poet wish the birds could teach him?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXXVII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01741"
+            }
+          ],
+          "questions": [
+            "Who are the 'winged worshipers'?",
+            "Why don't the birds need to pray, according to the poet?",
+            "What does the poet wish he could do?"
+          ],
+          "answers": [
+            "Two swallows that flew into church during the service",
+            "They have no sins to be forgiven",
+            "Fly up with them to soar through the light and praise God"
+          ],
+          "notes": "Poem by Charles Sprague."
+        },
+        {
+          "title": "Lesson LXXXVIII: The Peevish Wife",
+          "steps": [
+            "New words: irony (saying the opposite of what you mean), derision (mocking laughter), incompatible (unable to exist together)",
+            "Read the dialogue with two readers, keeping Mr. Bolingbroke patient and Mrs. Bolingbroke cross",
+            "Narrate: how does Mrs. Bolingbroke twist everything her husband says?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01754"
+            }
+          ],
+          "questions": [
+            "What news was in the paper?",
+            "Why was Mrs. Bolingbroke upset that her husband told her the first marriage?",
+            "Why does she finally decide to visit Mrs. Granby?"
+          ],
+          "answers": [
+            "Two friends had married: Mrs. Nettleby and Mr. Granby",
+            "It spoiled the pleasure of being surprised",
+            "Out of curiosity, to see if she is really Emma Cooke"
+          ],
+          "notes": "By Maria Edgeworth. A comic sketch of a quarrelsome mood; a good chance to talk about being peevish."
+        },
+        {
+          "title": "Lesson LXXXIX: The Rainy Day",
+          "steps": [
+            "Read the poem aloud, gloomy in the first two stanzas and hopeful in the third",
+            "Memorize: the whole poem (15 lines)",
+            "Narrate: how does the poet compare the weather to his life?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXXIX",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01793"
+            }
+          ],
+          "questions": [
+            "What clings to the moldering wall?",
+            "What does the poet tell his sad heart in the last stanza?"
+          ],
+          "answers": [
+            "The vine",
+            "Stop complaining; the sun still shines behind the clouds, and into each life some rain must fall"
+          ],
+          "notes": "Poem by Henry Wadsworth Longfellow. Pairs well with the next poem for one sitting."
+        },
+        {
+          "title": "Lesson XC: Break, Break, Break",
+          "steps": [
+            "Read the poem aloud slowly, letting the 'Break, break, break' sound like waves",
+            "Memorize: the whole poem (16 lines)",
+            "Talk about why the happy people in stanza 2 make the poet sadder"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XC",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01797"
+            }
+          ],
+          "questions": [
+            "Who is playing and singing by the sea?",
+            "What does the poet long for in the third stanza?"
+          ],
+          "answers": [
+            "A fisherman's boy and his sister, and a sailor lad",
+            "The touch of a vanished hand and the sound of a voice that is still"
+          ],
+          "notes": "Poem by Alfred Tennyson, written after his dear friend Arthur Hallam died young."
+        }
+      ]
+    },
+    {
+      "title": "Unit 11: Lessons XCI–C",
+      "lessons": [
+        {
+          "title": "Lesson XCI: Transportation and Planting of Seeds",
+          "steps": [
+            "New words: membrane (a thin tissue), propagation (reproduction), deciduous (losing leaves in fall), germinating (sprouting), disseminating (scattering)",
+            "Read the essay aloud, a section at a time",
+            "Written narration: in a paragraph, explain three ways seeds travel, according to Thoreau",
+            "Nature walk: look for pine seeds, acorn caps, or squirrel diggings"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XCI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01803"
+            }
+          ],
+          "questions": [
+            "How do pine seeds travel?",
+            "What do squirrels do with nuts that helps forests grow?",
+            "What bird does Thoreau say could replant all the cleared lands?"
+          ],
+          "answers": [
+            "On a thin wing the wind carries",
+            "They bury them or drop them in open land, where some sprout",
+            "The jay"
+          ],
+          "notes": "By Henry David Thoreau, from 'The Succession of Forest Trees.' The American chestnut trees he gathered from were later wiped out by blight."
+        },
+        {
+          "title": "Lesson XCII: Spring Again",
+          "steps": [
+            "Read the poem aloud, wintry at first, then growing warm and glad",
+            "Memorize: the seventh stanza, 'Frost-locked, storm-beaten, and lonely...'",
+            "Narrate: what signs of coming spring does the poet notice on her island?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XCII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01821"
+            }
+          ],
+          "questions": [
+            "Where is the poet standing?",
+            "What still lies in the hollows?",
+            "What tidings does the bleak rock hear?"
+          ],
+          "answers": [
+            "On a high point of her rocky island, looking at sea and land",
+            "Snow",
+            "\"There shall be spring again!\""
+          ],
+          "notes": "Poem by Celia Thaxter, who grew up in a lighthouse on the Isles of Shoals off New Hampshire."
+        },
+        {
+          "title": "Lesson XCIII: Religion the Only Basis of Society",
+          "steps": [
+            "New words: community (society), diffusion (spreading), perpetrator (one who commits a crime), extinction (ending), atheism (disbelief in God)",
+            "Read the essay aloud as a sermon",
+            "Written narration: in a paragraph, sum up Channing's argument and say what you think of it"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XCIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01835"
+            }
+          ],
+          "questions": [
+            "Why does Channing say religion is not just a private matter?",
+            "What does he say would happen to society if all belief in God were erased?",
+            "What does he compare trusting human laws alone to?"
+          ],
+          "answers": [
+            "It supports the virtues and principles society rests on",
+            "Selfishness would rule and society would fall into ruin",
+            "Hoping torches could light the world if the sun went out"
+          ],
+          "notes": "By William Ellery Channing, a Boston minister. A persuasive essay; older students can discuss it in light of your family's faith."
+        },
+        {
+          "title": "Lesson XCIV: Rock Me to Sleep",
+          "steps": [
+            "Read the poem aloud softly, with the refrain like a lullaby",
+            "Copywork: the first two lines",
+            "Narrate: why does the speaker wish to be a child again?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XCIV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01843"
+            }
+          ],
+          "questions": [
+            "Whom is the speaker calling to?",
+            "What is she weary of?",
+            "What does she remember about her mother's hair?"
+          ],
+          "answers": [
+            "Her mother, who has died",
+            "Toil and tears, and sowing for others to reap",
+            "It was brown, touched with gold, and fell over her forehead"
+          ],
+          "notes": "By Elizabeth Akers Allen. The book notes that five different people falsely claimed to have written it."
+        },
+        {
+          "title": "Lesson XCV: Man and the Inferior Animals",
+          "steps": [
+            "New words: distinction (a difference), implements (tools), medicinal (healing), endowed (gifted), rectified (corrected)",
+            "Read the essay aloud",
+            "Written narration: in a paragraph, explain the three differences between people and animals given in the essay",
+            "Discuss whether anything you know about animals (tool use, learning) challenges the essay"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XCV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01851"
+            }
+          ],
+          "questions": [
+            "What is the first difference between man and animals?",
+            "Why does the author say animals don't make mistakes?",
+            "How does she show that animals make no improvements?"
+          ],
+          "answers": [
+            "Man needs tools; animals use what nature gave them",
+            "They follow instinct, which is always perfect",
+            "A swallow's nest today is no better than one built in Noah's ark"
+          ],
+          "notes": "By Jane Taylor. Uses 'savage' for early peoples. Modern science has found animals that use tools and learn, a good topic for discussion."
+        },
+        {
+          "title": "Lesson XCVI: The Blind Men and the Elephant",
+          "steps": [
+            "Read the poem aloud with a different voice for each blind man",
+            "Act it out: blindfold family members and let them describe an object by touch",
+            "Memorize: the first and last stanzas",
+            "Narrate: what is the poem's lesson?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XCVI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01862"
+            }
+          ],
+          "questions": [
+            "What did the man who felt the elephant's side think it was like?",
+            "What did the man holding the trunk say?",
+            "Why were all six both right and wrong?"
+          ],
+          "answers": [
+            "A wall",
+            "A snake",
+            "Each knew one part truly, but none understood the whole animal"
+          ],
+          "notes": "Poem by John Godfrey Saxe, retelling an old fable from India."
+        },
+        {
+          "title": "Lesson XCVII: A Home Scene",
+          "steps": [
+            "New words: inexorable (unchangeable), wonted (usual), admonition (gentle warning), ponderous (very heavy), vague (unclear)",
+            "Read the passage aloud slowly, as a remembered evening",
+            "Written narration: in a paragraph, describe your own home on an ordinary evening, the way Mitchell does"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XCVII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01872"
+            }
+          ],
+          "questions": [
+            "What does the boy find in the family Bible?",
+            "Who was Charlie?",
+            "What does the mother tell the boy as twilight deepens?"
+          ],
+          "answers": [
+            "The family record of births, marriages, and deaths",
+            "His little brother, who died at four",
+            "That she cannot be with him long, and he must learn to face the world on his own"
+          ],
+          "notes": "From 'Dream Life' by Donald Grant Mitchell ('Ik Marvel'). Mentions a child's death."
+        },
+        {
+          "title": "Lesson XCVIII: The Light of Other Days",
+          "steps": [
+            "Read the song-poem aloud gently (try listening to it sung)",
+            "Memorize: the first stanza",
+            "Narrate: what is the 'light of other days'?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XCVIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01887"
+            }
+          ],
+          "questions": [
+            "When does memory bring back the light of other days?",
+            "What does the poet compare his lost friends to?",
+            "How does he feel, like someone in a deserted banquet hall?"
+          ],
+          "answers": [
+            "At night, before he falls asleep",
+            "Leaves falling in winter",
+            "Alone, with all the lights and guests gone"
+          ],
+          "notes": "Poem ('Oft in the Stilly Night') by Thomas Moore, from his Irish songs."
+        },
+        {
+          "title": "Lesson XCIX: A Chase in the English Channel",
+          "steps": [
+            "New words: frigate (a warship), equipage (equipment), artifice (a clever trick), broadside (all of one side's guns firing at once), manifest (plain to see)",
+            "Read the passage aloud with energy, shouting Griffith's and the Pilot's orders",
+            "Written narration: in a paragraph, tell how the Pilot saved the American ship"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XCIX",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01891"
+            }
+          ],
+          "questions": [
+            "Why were Griffith and the Pilot worried during the battle?",
+            "What danger did Merry report?",
+            "How did the danger turn into their salvation?"
+          ],
+          "answers": [
+            "The English ship was their equal and the big ninety-gun ship was catching up",
+            "Breakers: they were running onto shoals",
+            "The Pilot steered them through the narrow channels, where the enemy couldn't follow"
+          ],
+          "notes": "From 'The Pilot' by James Fenimore Cooper. The mysterious Pilot is based on John Paul Jones of the Revolutionary navy. Sea battle with men killed."
+        },
+        {
+          "title": "Lesson C: Burial of Sir John Moore",
+          "steps": [
+            "New words: martial (military), upbraid (to scold), reck (to care), random (without aim)",
+            "Read the poem aloud solemnly, at a slow march",
+            "Memorize: the first two stanzas",
+            "Find Corunna (A Coruña), Spain, on a map"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson C",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01920"
+            }
+          ],
+          "questions": [
+            "When and how was Sir John Moore buried?",
+            "What did they wrap him in?",
+            "Why did the soldiers have to hurry?"
+          ],
+          "answers": [
+            "Quickly, at midnight, by lantern light, without drums or a coffin",
+            "His soldier's cloak",
+            "The enemy was near and they had to leave by sea"
+          ],
+          "notes": "Poem by Charles Wolfe about a British general killed at Corunna in 1809 fighting Napoleon's army."
+        }
+      ]
+    },
+    {
+      "title": "Unit 12: Lessons CI–CX",
+      "lessons": [
+        {
+          "title": "Lesson CI: Little Victories",
+          "steps": [
+            "New words: afflicted (deeply troubled), reckoned (counted on), composer (one who writes music), orchestra (a group of musicians), dejected (discouraged)",
+            "Read the story aloud, with two readers for Hugh and his mother",
+            "Written narration: in a paragraph, explain what Hugh's mother means by 'little victories'"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson CI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01932"
+            }
+          ],
+          "questions": [
+            "Why was Hugh so upset?",
+            "Which two famous men did his mother tell him about?",
+            "What good things did his mother say might come from his lameness?"
+          ],
+          "answers": [
+            "He had lost his leg and could never be a soldier or sailor or go round the world",
+            "Huber, the blind naturalist, and Beethoven, the deaf composer",
+            "He would read more, be a better scholar, be more loved, and love God more"
+          ],
+          "notes": "By Harriet Martineau, from 'The Crofton Boys.' Hugh has had a leg amputated; the story describes 'phantom limb' feelings honestly and kindly."
+        },
+        {
+          "title": "Lesson CII: The Character of a Happy Life",
+          "steps": [
+            "Read the poem aloud slowly, one stanza at a time",
+            "Make a list of what the happy man has and what he is free from",
+            "Memorize: the last stanza, 'This man is freed from servile bands...'"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson CII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01980"
+            }
+          ],
+          "questions": [
+            "What is the happy man's armor?",
+            "How does he spend a 'harmless day'?",
+            "What does the last line say he has, though he has nothing?"
+          ],
+          "answers": [
+            "His honest thought",
+            "With a religious book or a friend",
+            "All"
+          ],
+          "notes": "Poem by Sir Henry Wotton (around 1614). Some words are old: 'servile bands' means the chains of a servant."
+        },
+        {
+          "title": "Lesson CIII: The Art of Discouragement",
+          "steps": [
+            "New words: designated (named), yam (a starchy root), impaled (stuck on a stake), dilate (to talk at length), projector (one who plans a project)",
+            "Read the essay aloud, enjoying the imaginary 'cold-water pourer' talking to the inventor of the wheel",
+            "Written narration: in a paragraph, give the reasons Helps says people discourage others",
+            "Talk about a time you were discouraged, or encouraged, about a new idea"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson CIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id01988"
+            }
+          ],
+          "questions": [
+            "What does Helps's friend call people who discourage new ideas?",
+            "Name two arguments the 'friend' gave against the wheel.",
+            "Why is it 'safe' to predict failure?"
+          ],
+          "answers": [
+            "Cold-water pourers",
+            "People got along fine without it; it may be irreligious; it can't go uphill; you'll neglect your yams; it will ruin the burden carriers",
+            "Hardly anything succeeds at first exactly as planned"
+          ],
+          "notes": "By Arthur Helps. Includes a mention of a man being executed for inventing flint and steel, in a joking story."
+        },
+        {
+          "title": "Lesson CIV: The Mariner's Dream",
+          "steps": [
+            "New words: hammock (a hanging bed), transport (great joy), impearled (decked with pearls), 'larums (alarms), dirge (funeral music)",
+            "Read the poem aloud: soft and happy for the dream, loud and fast for the storm",
+            "Narrate: what did the sailor boy dream, and what woke him?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson CIV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id02003"
+            }
+          ],
+          "questions": [
+            "What did the sailor boy dream about?",
+            "What woke him?",
+            "Where does the poem say he will lie?"
+          ],
+          "answers": [
+            "Coming home to his parents and the girl he loved",
+            "Lightning, thunder, and a storm wrecking the ship",
+            "Deep in the sea, with coral growing around his bones"
+          ],
+          "notes": "Poem by William Dimond. Ends with the boy drowning; old ideas about amber being made in the sea are poetic, not scientific."
+        },
+        {
+          "title": "Lesson CV: The Passenger Pigeon",
+          "steps": [
+            "New words: aerial (in the air), anon (soon), mast (nuts and acorns on the forest floor), rendezvous (a meeting place), perambulate (to walk through)",
+            "Read the account aloud",
+            "Written narration: in a paragraph, describe the flocks Audubon saw, then add what happened to the passenger pigeon later",
+            "Look up a painting of passenger pigeons by Audubon"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson CV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id02022"
+            }
+          ],
+          "questions": [
+            "How many flocks did Audubon count in twenty-one minutes?",
+            "What happened to the trees at the roosting place?",
+            "How far away could the noise of the roost be heard?"
+          ],
+          "answers": [
+            "163",
+            "Many large trees and branches broke under the weight of the birds",
+            "Three miles"
+          ],
+          "notes": "By John James Audubon. Passenger pigeons were hunted to extinction; the last one, Martha, died at the Cincinnati Zoo on September 1, 1914. Includes mass killing of birds; a powerful lesson in conservation."
+        },
+        {
+          "title": "Lesson CVI: The Country Life",
+          "steps": [
+            "Read the poem aloud thoughtfully",
+            "Narrate: where does the poet live now, and where would he rather be?",
+            "Copywork: \"Well days, sound nights,—oh, can there be / A life more rational and free?\"",
+            "Look up the Indian pipe plant"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson CVI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id02043"
+            }
+          ],
+          "questions": [
+            "What does the first stanza say makes up 'the sum of living'?",
+            "Where was the poet's cradle?",
+            "Who does the last stanza call happy?"
+          ],
+          "answers": [
+            "Not what we want, but what we must do",
+            "Beside the sea",
+            "The man content to till his own field"
+          ],
+          "notes": "Poem by Richard Henry Stoddard."
+        },
+        {
+          "title": "Lesson CVII: The Virginians",
+          "steps": [
+            "New words: patrimonial (inherited), disaffected (discontented), obsequious (too eager to please), urbanity (polished manners), epitaph (words on a tombstone)",
+            "Read the passage aloud",
+            "Talk together about how the narrator describes slavery, and what is false about it",
+            "Narrate: how were the twins George and Harry alike and different?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson CVII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id02052"
+            }
+          ],
+          "questions": [
+            "Who were George and Harry Esmond?",
+            "How were the twins different in temper?",
+            "What did George do for his young servant that angered his mother?"
+          ],
+          "answers": [
+            "Twin grandsons of Mr. Esmond of Castlewood, Virginia",
+            "George was quiet, studious, and gentle; Harry loved sport and fighting",
+            "He fanned the flies off the sleeping boy instead of punishing him"
+          ],
+          "notes": "From 'The Virginians' by W. M. Thackeray. IMPORTANT: this passage pictures slavery as mild and enslaved people as 'lazy and not unhappy,' and uses racist terms. That is false and offensive. Preview it; you may skip it, or read it with an older child as an example of how slavery was excused and why that view was wrong."
+        },
+        {
+          "title": "Lesson CVIII: Minot's Ledge",
+          "steps": [
+            "Read the poem aloud with rising tension, then quiet at the end",
+            "Find Minot's Ledge near Boston on a map",
+            "Narrate: how did the lighthouse keeper save his son?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson CVIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id02076"
+            }
+          ],
+          "questions": [
+            "What are the clouds compared to?",
+            "Who was the keeper praying for most?",
+            "How did he pull his son from the sea?"
+          ],
+          "answers": [
+            "Ghostly hounds",
+            "His son Charlie, at sea",
+            "He threw a rope with grappling hooks and pulled him onto the rocks"
+          ],
+          "notes": "Poem by Fitz-James O'Brien, who died in the Civil War. The Minot's Ledge lighthouse was famous for being destroyed by a storm in 1851 and rebuilt."
+        },
+        {
+          "title": "Lesson CIX: Hamlet",
+          "steps": [
+            "New words: truant (one who skips duty), attent (attentive), cap-a-pie (head to foot), truncheon (a short staff), beaver (the face guard of a helmet)",
+            "Read the scene aloud as a play with three or four readers; use the book's notes for old phrases",
+            "Narrate: what did Horatio and the guards see, and what will Hamlet do?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson CIX",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id02086"
+            }
+          ],
+          "questions": [
+            "Why does Hamlet joke that Horatio came for his mother's wedding?",
+            "What did the guards see on their watch?",
+            "What does Hamlet decide to do?"
+          ],
+          "answers": [
+            "Because his mother married again very soon after his father's funeral",
+            "A ghost that looked like Hamlet's dead father, in armor",
+            "Keep watch that night and speak to the ghost"
+          ],
+          "notes": "From Shakespeare's 'Hamlet,' Act I, Scene 2. A good first taste of Shakespeare; the play itself is dark and better for older students."
+        },
+        {
+          "title": "Lesson CX: Dissertation on Roast Pig",
+          "steps": [
+            "New words: younkers (youngsters), antediluvian (very ancient), premonitory (giving warning), obnoxious (offensive), culinary (to do with cooking)",
+            "Read the essay aloud, enjoying Lamb's mock-serious tone",
+            "Written narration: in a paragraph, retell how roast pig was 'discovered' and why the jury said 'Not Guilty'"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson CX",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id02158"
+            }
+          ],
+          "questions": [
+            "How did Bo-bo discover roast pig?",
+            "Why did the jury find Ho-ti and Bo-bo not guilty?",
+            "What 'discovery' finally ended the house fires?"
+          ],
+          "answers": [
+            "He burned down the cottage with the piglets inside, burned his fingers on one, and licked them",
+            "They tasted the pig themselves",
+            "That meat could be cooked without burning down a whole house"
+          ],
+          "notes": "By Charles Lamb, from 'Essays of Elia.' A tall tale, not real Chinese history. A good example of humor and exaggeration."
+        }
+      ]
+    },
+    {
+      "title": "Unit 13: Lessons CXI–CXVII",
+      "lessons": [
+        {
+          "title": "Lesson CXI: A Pen Picture",
+          "steps": [
+            "New words: glamour (a magic charm on the eyes), loch (a lake or arm of the sea), peat (turf burned for fuel), curlew (a shore bird), plover (a shore bird)",
+            "Read the description aloud slowly, noticing every color word",
+            "Find the Isle of Lewis in the Outer Hebrides on a map",
+            "Written narration: in a paragraph, write your own 'pen picture' of a sunset you have seen"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson CXI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id02188"
+            }
+          ],
+          "questions": [
+            "What did Lavender imagine Sheila and her father to be?",
+            "Why did Sheila say she could walk to Borvabost alone?",
+            "Name three colors Black uses for the evening sky."
+          ],
+          "answers": [
+            "A princess and the King of Thule",
+            "It wouldn't get darker than the twilight all night in the north",
+            "Gold, violet, crimson, rose, pale yellow"
+          ],
+          "notes": "From 'A Princess of Thule' by William Black, set in the Scottish Hebrides, where summer nights are short and light."
+        },
+        {
+          "title": "Lesson CXII: The Great Voices",
+          "steps": [
+            "Read the poem aloud, letting the sea, torrents, and forests 'call' to each other",
+            "Memorize: the last stanza",
+            "Talk about what nature 'says' to the human heart in the poem"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson CXII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id02210"
+            }
+          ],
+          "questions": [
+            "What does the voice from the sea say?",
+            "What do the torrents add?",
+            "How should the human heart sing, according to the last stanza?"
+          ],
+          "answers": [
+            "\"O spirit! be glad and be free\"",
+            "\"O spirit! be free and be strong\"",
+            "With joy like the fountains, calm as the mountains, and deep as the woods and the sea"
+          ],
+          "notes": "Poem by Charles T. Brooks."
+        },
+        {
+          "title": "Lesson CXIII: A Picture of Human Life",
+          "steps": [
+            "New words: caravansary (an inn for travelers in the East), meanders (windings), deviations (wanderings off course), palliation (excusing), labyrinth (a maze)",
+            "Read the allegory aloud",
+            "Written narration: in a paragraph, explain how each part of Obidah's journey stands for a part of life"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson CXIII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id02217"
+            }
+          ],
+          "questions": [
+            "Why did Obidah leave the main road?",
+            "What happened when he lost his way?",
+            "What hope does the hermit give at the end?"
+          ],
+          "answers": [
+            "The shady path through the grove seemed pleasant and looked as if it went the same way",
+            "A storm came, night fell, and wild beasts howled around him",
+            "It is never too late to turn back; a wanderer who asks God for help can still return"
+          ],
+          "notes": "By Samuel Johnson, from 'The Rambler.' An allegory: a story where each part stands for something else."
+        },
+        {
+          "title": "Lesson CXIV: A Summer Longing",
+          "steps": [
+            "Read the poem aloud with longing, stressing the refrain 'green fields wait for me'",
+            "Memorize: the first stanza",
+            "List the summer sights and sounds the poet dreams of"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson CXIV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id02236"
+            }
+          ],
+          "questions": [
+            "What refrain ends each stanza?",
+            "Name two summer sounds the poet longs to hear."
+          ],
+          "answers": [
+            "(The) green fields wait for me (or thee)",
+            "Birds twittering, lowing herds, the distant sea, breezes in the reeds, insects chirping"
+          ],
+          "notes": "Poem by George Arnold."
+        },
+        {
+          "title": "Lesson CXV: Fate",
+          "steps": [
+            "Read the short poem aloud, letting the surprise land in the last stanza",
+            "Memorize: the whole poem (12 lines)",
+            "Narrate: what is the twist?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson CXV",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id02243"
+            }
+          ],
+          "questions": [
+            "Why did the first speaker refuse to go to sea?",
+            "What happened to the ship and the hunters?",
+            "What happened to the 'safe' town?"
+          ],
+          "answers": [
+            "It looked stormy and dangerous",
+            "They came home safely",
+            "An earthquake swallowed it"
+          ],
+          "notes": "Poem by Bret Harte. A good starting point for talking about trust, risk, and providence."
+        },
+        {
+          "title": "Lesson CXVI: The Bible the Best of Classics",
+          "steps": [
+            "New words: classic (a work of lasting excellence), authenticity (genuineness), sanction (authority), vindicated (defended), seraph (a high angel)",
+            "Read the speech aloud, noticing how many sentences begin 'If we...'",
+            "Written narration: in a paragraph, list the reasons Grimké gives for calling the Bible the best classic"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson CXVI",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id02248"
+            }
+          ],
+          "questions": [
+            "Who does the author say recorded the Bible's truths?",
+            "What blessings does he say the Bible brings on earth?"
+          ],
+          "answers": [
+            "The patriarch and the prophet, the evangelist and the martyr",
+            "Humility, resignation, purity, order, peace, faith, hope, and charity"
+          ],
+          "notes": "By Thomas S. Grimké of South Carolina. Notice the repeated 'If we...' pattern, a speaker's device called anaphora."
+        },
+        {
+          "title": "Lesson CXVII: My Mother's Bible",
+          "steps": [
+            "Read the poem aloud tenderly",
+            "Look at your own family Bible or family records, if you have them",
+            "Memorize: the last stanza",
+            "Narrate: what memories does the Bible bring back to the speaker?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson CXVII",
+              "url": "https://www.gutenberg.org/cache/epub/15040/pg15040-images.html#id02258"
+            }
+          ],
+          "questions": [
+            "Who gave the speaker the Bible?",
+            "What memories does it bring back?",
+            "What does the last line say the Bible taught him?"
+          ],
+          "answers": [
+            "His mother, as she was dying",
+            "The family gathered at the hearth after evening prayer, his father reading aloud",
+            "How to die (as well as how to live)"
+          ],
+          "notes": "Poem by George Pope Morris. The final lesson of the Fifth Reader."
+        }
+      ]
+    }
+  ]
+}

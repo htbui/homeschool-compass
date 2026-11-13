@@ -322,6 +322,7 @@ try {
   const real = process.env.STUDIO_IMPORT_URL;
   const courseUrl = real ?? `http://host.docker.internal:${course.address().port}/pond`;
   const expectLesson = process.env.STUDIO_IMPORT_LESSON ?? 'Frog life cycle';
+  const expectLicense = process.env.STUDIO_IMPORT_LICENSE ?? 'CC BY-SA 4.0';
   const S = await device('creator');
   await signUpOrIn(S, `creator-${run}@example.test`, 'up');
   await S.expect('No family on this account yet', 'creator account without a family');
@@ -332,7 +333,7 @@ try {
   await S.goto('/studio/import?from=web');
   await S.fillLabel('Course page', courseUrl);
   await S.click('Load page');
-  await S.expect('License found: CC BY-SA 4.0', 'server fetched the page and found its license', 20000);
+  await S.expect(`License found: ${expectLicense}`, 'server fetched the page and found its license', 20000);
   await S.expect(real ? 'Preview:' : 'Preview: 3 lessons in 2 units');
   if (real) await S.fillLabel('Your plan’s title', `Chemistry plan ${run}`);
   await S.click('Create lesson plan');
@@ -359,7 +360,7 @@ try {
   await A.click('Add to plan', { exact: true });
   await A.expect('Added to your plan ✓');
   const pond = (await A.store()).curricula.find((k) => k.packageId === pub.id);
-  log((real ? pond?.outline?.flatMap((u) => u.lessons).some((l) => l.title === expectLesson && l.links[0]?.url.startsWith('https://')) : pond?.outline?.[0]?.lessons?.[0]?.links?.[0]?.url?.endsWith('/frogs') && pond.totalLessons === 3) && pond.license?.kind === 'cc_by_sa', 'family plan has every lesson, its link, and the license');
+  log((real ? pond?.outline?.flatMap((u) => u.lessons).some((l) => l.title.includes(expectLesson) && l.links[0]?.url.startsWith('https://')) : pond?.outline?.[0]?.lessons?.[0]?.links?.[0]?.url?.endsWith('/frogs') && pond.totalLessons === 3) && pond.license?.kind === (expectLicense === 'Public domain' ? 'public_domain' : 'cc_by_sa'), 'family plan has every lesson, its link, and the license');
 
   // The creator publishes an update; the family previews it and takes it, keeping their place.
   await S.click('📚 Lessons');

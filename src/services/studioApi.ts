@@ -182,7 +182,7 @@ export async function fetchPage(url: string): Promise<{ url: string; html: strin
   if (Platform.OS === 'web') throw new Error('Loading a website needs a Freerange account (browsers can’t read other sites directly).');
   const res = await fetch(url, { headers: { Accept: 'text/html' } });
   if (!res.ok) throw new Error(`That page answered ${res.status}.`);
-  if (!/text\/html|text\/plain/i.test(res.headers.get('content-type') ?? '')) throw new Error('That address isn’t a web page.');
+  if (!/text\/html|text\/plain|application\/json/i.test(res.headers.get('content-type') ?? '')) throw new Error('That address isn’t a web page.');
   const html = await res.text();
-  return { url: res.url || url, html: html.slice(0, 3 * 1024 * 1024) };
+  return { url: res.url || url, html: html.slice(0, 8 * 1024 * 1024) };
 }

@@ -1,0 +1,2082 @@
+{
+ "key": "story-book-of-science",
+ "title": "The Story-Book of Science",
+ "sourceTitle": "The Story-Book of Science",
+ "author": "Jean-Henri Fabre",
+ "seller": "Jean-Henri Fabre",
+ "year": 1917,
+ "sourceUrl": "https://www.gutenberg.org/ebooks/56795",
+ "readUrl": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html",
+ "license": {
+  "kind": "public_domain"
+ },
+ "licenseEvidence": "Project Gutenberg eBook #56795: public domain in the USA. This English translation by Florence Constable Bicknell was published by The Century Co. in 1917 ('Copyright, 1917'), before 1930; Fabre (1823–1915) wrote the French original in the 19th century. Lessons link to the Gutenberg text; no text is reproduced.",
+ "subjects": [
+  "science"
+ ],
+ "gradeMin": 3,
+ "gradeMax": 6,
+ "philosophies": [
+  "charlotte_mason",
+  "classical"
+ ],
+ "lessonsPerWeek": 3,
+ "minutesPerLesson": 30,
+ "parentInvolvement": "high",
+ "familyStyle": true,
+ "cover": "🐜",
+ "color": "#3D9970",
+ "description": "The great French naturalist Jean-Henri Fabre tells science as a story: Uncle Paul answers his nieces' and nephews' questions about ants, spiders, silk, metals, thunder, volcanoes, the earth and sun, flowers, the sea, and bees. Each sitting is one short chapter read aloud, a narration, and a simple home demonstration or nature-journal entry. It's a classic 1917 family read-aloud for grades 3–6, and the full text is free online.",
+ "includes": [
+  "77 lessons in 12 units covering all 80 chapters",
+  "Link to the free full text for every chapter",
+  "Safe home demonstrations and outdoor observations drawn from the book",
+  "Narration prompts and questions with answers",
+  "Parent notes where 1917 science or safety advice is out of date"
+ ],
+ "units": [
+  {
+   "title": "Unit 1: Ants and Their Cows (Chapters I–VII)",
+   "lessons": [
+    {
+     "title": "Chapters I–II: The Six; The Fairy Tale and the True Story",
+     "steps": [
+      "Read Chapters I and II aloud: meet Uncle Paul, Jacques, Mother Ambroisine, Claire, Jules, and Emile",
+      "Narration: your child describes each of the three children in their own words",
+      "Talk it over: why does Jules want 'true stories,' and why does Uncle Paul say true stories can be more marvelous than fairy tales?",
+      "Nature journal: start a journal with a page titled 'True Stories I Have Seen' and add one small thing noticed outdoors today"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter I",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch01"
+      },
+      {
+       "label": "Read Chapter II",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch02"
+      }
+     ],
+     "questions": [
+      "Who are the six?",
+      "Which of the children is oldest, and which is the youngest?",
+      "What kind of true story does Uncle Paul offer to tell first?"
+     ],
+     "answers": [
+      "Uncle Paul, Jacques, Mother Ambroisine, Claire, Jules, and Emile",
+      "Claire is oldest; Emile is youngest",
+      "A true story about real ants"
+     ]
+    },
+    {
+     "title": "Chapter III: The Building of the City",
+     "steps": [
+      "Read Chapter III, \"The Building of the City\", aloud",
+      "Narration: your child explains the jobs of the 'miners' and the 'carpenters'",
+      "Observation: find an anthill and watch for five minutes; do you see ants carrying grains of earth out or bits of straw in?",
+      "Nature journal: draw the mound and the hole at its top, and sketch the tunnels you imagine underneath"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter III",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch03"
+      }
+     ],
+     "questions": [
+      "Where does the little mound around an anthill come from?",
+      "How did the ants finally get the oat husk down the hole?"
+     ],
+     "answers": [
+      "It is the earth the miner ants dig out and carry up, grain by grain",
+      "They tipped it so one end pointed down, then let it somersault into the hole while holding on"
+     ]
+    },
+    {
+     "title": "Chapter IV: The Cows",
+     "steps": [
+      "Read Chapter IV, \"The Cows\", aloud",
+      "Narration: your child tells what the 'ants' cows' really are and how the ants 'milk' them",
+      "Observation: look under the leaves of roses, beans, or other garden plants for clusters of tiny aphids (plant-lice) and ants visiting them; use a magnifying glass if you have one",
+      "Nature journal: draw an aphid with its two little tubes, and an ant stroking it with its antennae"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter IV",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch04"
+      }
+     ],
+     "questions": [
+      "What are the ants' 'cows'?",
+      "How can you tell an ant going up the elder from one coming down?",
+      "How does an ant get a stingy plant-louse to give its drop?"
+     ],
+     "answers": [
+      "Plant-lice (aphids)",
+      "Ants going up have thin, empty stomachs; ants coming down have full, swollen ones",
+      "It gently pats and tickles it with its antennae"
+     ],
+     "notes": "Today's science says the sweet drop (honeydew) comes out of the aphid's rear end, not the two little tubes; the tubes give off a warning smell. Fabre's picture of ants 'milking' is still a good one."
+    },
+    {
+     "title": "Chapter V: The Sheepfold",
+     "steps": [
+      "Read Chapter V, \"The Sheepfold\", aloud",
+      "Narration: your child explains how the ants share the 'milk' with the workers and the young ants back home",
+      "Observation: look at the base of potted plants or grass tufts in warm weather for little mud shelters built by ants",
+      "Nature journal: draw the life of an ant from egg to little white grub to adult"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter V",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch05"
+      }
+     ],
+     "questions": [
+      "Why do some ants build a little shelter of earth around a tuft of grass?",
+      "How does a milk-carrying ant feed the hungry workers?",
+      "What hatches out of an ant egg?"
+     ],
+     "answers": [
+      "To keep their herd of plant-lice close by, shaded and ready to milk",
+      "It passes drops of food from its own stomach, mouth to mouth",
+      "A little white grub (larva) with no legs"
+     ]
+    },
+    {
+     "title": "Chapter VI: The Wily Dervish",
+     "steps": [
+      "Read Chapter VI, \"The Wily Dervish\", aloud",
+      "Narration: your child retells the story of the dervish, the king, and the chessboard",
+      "Demonstration: put 1 grain of rice on the first square of a chessboard (or a grid drawn on paper), 2 on the next, 4, 8, 16... How far can you get before you run out of rice?",
+      "Math: write the numbers for the first ten squares and add them up"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter VI",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch06"
+      }
+     ],
+     "questions": [
+      "What did the dervish ask for as his reward?",
+      "Why couldn't the king pay him?",
+      "How many grains go on the 10th square?"
+     ],
+     "answers": [
+      "One grain of wheat on the first square, doubled on each square to the 64th",
+      "There wasn't enough wheat in the whole world to fill all 64 squares",
+      "512"
+     ]
+    },
+    {
+     "title": "Chapter VII: A Numerous Family",
+     "steps": [
+      "Read Chapter VII, \"A Numerous Family\", aloud",
+      "Narration: your child explains why there are always plant-lice, even though so many creatures eat them",
+      "Observation: hunt on rosebushes or garden plants for ladybugs and their alligator-shaped larvae among the aphids",
+      "Nature journal: draw a ladybug, a ladybug larva, and a green lacewing ('golden-eyed fly') and label them 'aphid eaters'"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter VII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch07"
+      }
+     ],
+     "questions": [
+      "Name three creatures that eat plant-lice.",
+      "How many eggs can one cod lay?",
+      "Why are weak little creatures like plant-lice so very many?"
+     ],
+     "answers": [
+      "Any three of: young birds, the lacewing larva ('ants' lion'), ladybugs",
+      "About nine million",
+      "So many are eaten that only huge numbers keep the kind alive"
+     ],
+     "notes": "Fabre's 'hemerobius' is the green lacewing; its larva is often called an aphid lion. Gardeners still welcome ladybugs and lacewings today."
+    }
+   ]
+  },
+  {
+   "title": "Unit 2: How Long Things Live (Chapters VIII–X)",
+   "lessons": [
+    {
+     "title": "Chapter VIII: The Old Pear-Tree",
+     "steps": [
+      "Read Chapter VIII, \"The Old Pear-Tree\", aloud",
+      "Narration: your child explains how you can tell a tree's age",
+      "Observation: find a stump or a cut log (or a slice of firewood) and count its rings with a pin to guide you",
+      "Nature journal: draw the rings you counted and write the tree's age beside it"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter VIII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch08"
+      }
+     ],
+     "questions": [
+      "What are the rings in a tree trunk called, and how often does one form?",
+      "How old was the pear-tree?",
+      "How old was the big beech by the road?"
+     ],
+     "answers": [
+      "Annual layers; one forms every year",
+      "Forty-five years old",
+      "One hundred seventy years old"
+     ]
+    },
+    {
+     "title": "Chapter IX: The Age of Trees",
+     "steps": [
+      "Read Chapter IX, \"The Age of Trees\", aloud",
+      "Narration: your child tells about the most amazing tree in the chapter",
+      "Map work: find Sicily and Mount Etna on a map, where the 'Chestnut of a Hundred Horses' grows",
+      "Activity: measure around a big tree near you with a string, then compare it with the giant chestnut that took more than thirty people holding hands to circle"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter IX",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch09"
+      }
+     ],
+     "questions": [
+      "Why is the chestnut on Mount Etna called 'the chestnut of a hundred horses'?",
+      "Which kind of tree in the chapter lived the longest?"
+     ],
+     "answers": [
+      "A queen and her hundred horsemen sheltered under it from a storm",
+      "The yew (some in Scottish churchyards were thought to be thousands of years old)"
+     ],
+     "notes": "Some of the trees Fabre names are still alive, including the Hundred Horse Chestnut. The oldest known trees today are bristlecone pines in California, over 4,800 years old."
+    },
+    {
+     "title": "Chapter X: The Length of Animal Life",
+     "steps": [
+      "Read Chapter X, \"The Length of Animal Life\", aloud",
+      "Narration: your child tells which animals surprised them by living a short or a long time",
+      "Activity: make a bar chart of the lifespans Uncle Paul gives (ox, horse, dog, cat, sheep, rabbit, rat, goose, sparrow)",
+      "Talk it over: what does Uncle Paul mean when he says 'he lives most who works most'?"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter X",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch10"
+      }
+     ],
+     "questions": [
+      "How long does a horse usually live, by Uncle Paul's account?",
+      "Which lives longer, a turkey or a goldfinch?",
+      "Does being big mean an animal lives a long time?"
+     ],
+     "answers": [
+      "About thirty to thirty-five years",
+      "The goldfinch",
+      "No; the big ox is old at twenty or thirty, while little songbirds can live as long"
+     ],
+     "notes": "Some of Fabre's ages are generous: wild sparrows and goldfinches usually live only a few years, though caged ones can live much longer."
+    }
+   ]
+  },
+  {
+   "title": "Unit 3: How Things Are Made: Metals, Cloth, Paper, and Books (Chapters XI–XX)",
+   "lessons": [
+    {
+     "title": "Chapters XI–XII: The Kettle; Metals",
+     "steps": [
+      "Read Chapters XI and XII, \"The Kettle\" and \"Metals\", aloud",
+      "Narration: your child explains how copper gets from a mountain to Mother Ambroisine's kitchen",
+      "Demonstration: gather small objects (a copper penny, a steel spoon, aluminum foil, a brass key, a piece of jewelry); sort them by color and feel their weight",
+      "Nature journal: list the metals Uncle Paul names with their colors"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XI",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch11"
+      },
+      {
+       "label": "Read Chapter XII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch12"
+      }
+     ],
+     "questions": [
+      "What is ore?",
+      "What two metals are melted together to make brass?",
+      "Which common metal is the heaviest, and which melts most easily?"
+     ],
+     "answers": [
+      "Rock from the mine that has metal mixed in it",
+      "Copper and zinc",
+      "Gold is the heaviest; tin and lead melt most easily"
+     ],
+     "notes": "Don't try melting metal at home. Lead toy soldiers like Emile's are no longer made because lead is poisonous."
+    },
+    {
+     "title": "Chapter XIII: Metal Plating",
+     "steps": [
+      "Read Chapter XIII, \"Metal Plating\", aloud",
+      "Narration: your child explains why the inside of copper pans was coated with tin",
+      "Demonstration: put a steel nail (not galvanized) in a damp paper towel inside a jar and check it each day for rust; set a second nail in a dry jar to compare",
+      "Nature journal: draw and color the three 'rusts' Uncle Paul names: iron, copper, and lead"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XIII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch13"
+      }
+     ],
+     "questions": [
+      "What makes iron rust?",
+      "What color is copper rust?",
+      "What is tin-plate?"
+     ],
+     "answers": [
+      "Damp air",
+      "Green",
+      "Thin sheets of iron coated with tin on both sides"
+     ],
+     "notes": "Find something green with 'copper rust' near you: an old penny, a copper roof, or the Statue of Liberty in pictures."
+    },
+    {
+     "title": "Chapter XIV: Gold and Iron",
+     "steps": [
+      "Read Chapter XIV, \"Gold and Iron\", aloud",
+      "Narration: your child tells why people used gold long before iron, yet iron proved far more useful",
+      "Discussion: make a timeline from the Stone Age to the age of copper and on to the age of iron, and draw a tool for each",
+      "Nature journal: look around the house and list five things made of iron or steel"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XIV",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch14"
+      }
+     ],
+     "questions": [
+      "Why do old gold coins found in the ground still shine?",
+      "Why was iron the last metal people learned to use?",
+      "Why would an iron ax be worth more than a gold one to a person living in the wild?"
+     ],
+     "answers": [
+      "Gold never rusts",
+      "It is found as a rusty, earthy ore, and it is very hard to get pure iron out of it",
+      "Iron is hard enough to chop trees, build, and hunt; gold is soft and would bend"
+     ],
+     "notes": "Fabre's description of early peoples as 'savages' and 'wretched' reflects 1917 attitudes; you may want to talk about how much skill Stone Age people really had."
+    },
+    {
+     "title": "Chapter XV: The Fleece",
+     "steps": [
+      "Read Chapter XV, \"The Fleece\", aloud",
+      "Narration: your child traces how wool goes from the sheep to a pair of stockings",
+      "Demonstration: pull a cotton ball or bit of wool roving into a thin strand and twist it between your fingers to spin your own little thread",
+      "Nature journal: list the gifts animals give us (wool, milk, eggs, leather, work) that Jacques names"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XV",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch15"
+      }
+     ],
+     "questions": [
+      "What happens to wool after it is sheared?",
+      "How is wool colored?",
+      "Which animal gives us what, according to Jacques? Name two."
+     ],
+     "answers": [
+      "It is washed, spun into yarn, then knitted or woven",
+      "It is dyed in hot water with coloring matter",
+      "Any two: the sheep gives wool, milk, meat, and skin; the cow gives milk; the hen gives eggs; the ox gives strength; the dog gives help"
+     ]
+    },
+    {
+     "title": "Chapter XVI: Flax and Hemp",
+     "steps": [
+      "Read Chapter XVI, \"Flax and Hemp\", aloud",
+      "Narration: your child lists the steps from flax plant to linen cloth (harvest, retting, brake, heckle, spinning, weaving)",
+      "Demonstration: weave a little paper mat: cut slits in one sheet (the warp) and weave strips of another color over and under (the weft)",
+      "Nature journal: draw a flax plant with its little blue flowers"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XVI",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch16"
+      }
+     ],
+     "questions": [
+      "What part of the flax and hemp plants gives us thread?",
+      "What is 'retting'?",
+      "What were Egyptian mummies wrapped in?"
+     ],
+     "answers": [
+      "The long fibers in the bark (outside of the stem)",
+      "Letting the stems rot in a field or pond so the fibers come loose from the wood",
+      "Linen bands"
+     ]
+    },
+    {
+     "title": "Chapter XVII: Cotton",
+     "steps": [
+      "Read Chapter XVII, \"Cotton\", aloud",
+      "Narration: your child tells about all the people who share in the price of a piece of cotton cloth",
+      "Observation: in late spring, look for fluffy seeds from cottonwood, poplar, willow, thistle, or dandelion, and blow a dandelion clock",
+      "Nature journal: draw a cotton boll and a dandelion seed and write how each travels"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XVII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch17"
+      }
+     ],
+     "questions": [
+      "Where in the cotton plant is the cotton found?",
+      "Which bird lines its nest with willow and poplar fluff?",
+      "How can a piece of cotton cloth that passed through so many hands be so cheap?"
+     ],
+     "answers": [
+      "In the bolls (seed pods), around the seeds",
+      "The goldfinch",
+      "Machines do the spinning and weaving in huge factories very quickly"
+     ],
+     "notes": "Fabre's phrase about who wears the cloth reflects the racial language of his time; consider skipping or discussing it."
+    },
+    {
+     "title": "Chapter XVIII: Paper",
+     "steps": [
+      "Read Chapter XVIII, \"Paper\", aloud",
+      "Narration: your child explains how dirty rags became white paper",
+      "Demonstration: tear scrap paper into small bits, soak it in warm water, blend or mash it into pulp, then press it thin on a screen or old towel and let it dry into homemade paper",
+      "Talk it over: what does Uncle Paul say about having 'humble beginnings'?"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XVIII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch18"
+      }
+     ],
+     "questions": [
+      "What was paper made from in Fabre's time?",
+      "Name two steps that turn rags into paper.",
+      "What does Uncle Paul say is the only true greatness?"
+     ],
+     "answers": [
+      "Old rags of cotton, linen, and hemp",
+      "Any two: washing, cutting and tearing, grinding into a watery pulp, whitening, spreading on sieves, pressing, drying",
+      "Greatness and nobility of the soul"
+     ],
+     "notes": "Most paper today is made from wood pulp, though fine paper is still made from cotton."
+    },
+    {
+     "title": "Chapter XIX: The Book",
+     "steps": [
+      "Read Chapter XIX, \"The Book\", aloud",
+      "Narration: your child tells why Jules thought it was so hard to write, and what Uncle Paul said he really needed",
+      "Writing: like Jules, your child tells you what they know about how paper is made; then writes it down just as they said it",
+      "Copywork: one sentence from your child's own narration"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XIX",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch19"
+      }
+     ],
+     "questions": [
+      "What does Uncle Paul say grammar cannot teach?",
+      "How do we get ideas to write about?",
+      "Whose questions did Uncle Paul promise to put into his book?"
+     ],
+     "answers": [
+      "How to write; it only teaches the rules",
+      "By study, reading, and talking with people who know more than we do",
+      "The children's (Jules's and Emile's)"
+     ],
+     "notes": "Fun fact: the book you are reading is the very book Uncle Paul promises to write here."
+    },
+    {
+     "title": "Chapter XX: Printing",
+     "steps": [
+      "Read Chapter XX, \"Printing\", aloud",
+      "Narration: your child explains how a page is printed with movable type",
+      "Demonstration: carve a letter into a potato half (backward!) or write a word backward on foam, ink it with paint or a stamp pad, and print it; look at the stamp in a mirror",
+      "Map work: find Germany on a map, where Gutenberg lived"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XX",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch20"
+      }
+     ],
+     "questions": [
+      "Why are the metal letters carved backward?",
+      "Who invented printing with movable type?",
+      "Why were books so rare before printing?"
+     ],
+     "answers": [
+      "So the print comes out the right way around on the paper",
+      "Gutenberg",
+      "Each one had to be copied by hand, taking years"
+     ],
+     "notes": "Grown-ups should do any cutting with a knife."
+    }
+   ]
+  },
+  {
+   "title": "Unit 4: Caterpillars, Silk, and Metamorphosis (Chapters XXI–XXIV)",
+   "lessons": [
+    {
+     "title": "Chapter XXI: Butterflies",
+     "steps": [
+      "Read Chapter XXI, \"Butterflies\", aloud",
+      "Narration: your child explains what a larva is and what metamorphosis means",
+      "Observation: on a sunny day, watch butterflies on flowers; look for the coiled proboscis uncurling into a blossom",
+      "Nature journal: draw one butterfly you saw, with its antennae, and the caterpillar it came from if you can find out"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXI",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch21"
+      }
+     ],
+     "questions": [
+      "What does a butterfly drink with, and how?",
+      "Are the round 'eyes' on butterfly wings real eyes?",
+      "What is a caterpillar called in the general language of insects?"
+     ],
+     "answers": [
+      "With its proboscis, a thin tube it uncoils into the flower",
+      "No; they are only decorations, and the real eyes are on the head",
+      "A larva"
+     ],
+     "notes": "Fabre's 'Argus' is a little blue butterfly; North American families can watch for spring azures or other blues."
+    },
+    {
+     "title": "Chapter XXII: The Big Eaters",
+     "steps": [
+      "Read Chapter XXII, \"The Big Eaters\", aloud",
+      "Narration: your child tells why larvae must eat so much",
+      "Observation: find a caterpillar on a garden plant and watch how fast it eats; check the leaf again tomorrow",
+      "Nature journal: make two columns, 'larvae that help us' (clean-up crews) and 'larvae that harm crops', and add examples from the chapter"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch22"
+      }
+     ],
+     "questions": [
+      "Does a butterfly keep growing after it comes out of the chrysalis?",
+      "Why does a larva have to 'eat for two'?",
+      "How do some larvae help keep the earth clean?"
+     ],
+     "answers": [
+      "No; it is as big as it will ever be",
+      "It eats for itself and stores up material for the wings, legs, and other parts the adult will need",
+      "They eat dead animals, rotting matter, and dung, and return it to the soil"
+     ]
+    },
+    {
+     "title": "Chapter XXIII: Silk",
+     "steps": [
+      "Read Chapter XXIII, \"Silk\", aloud",
+      "Narration: your child tells how a silkworm spins its cocoon and how people get silk from it",
+      "Demonstration: if you have a silk scarf or tie, compare its feel and shine with cotton and wool; or watch a short video of silk being reeled from cocoons",
+      "Nature journal: draw a mulberry leaf and a silkworm cocoon"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXIII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch23"
+      }
+     ],
+     "questions": [
+      "What is the only food of the silkworm?",
+      "Where does the silk thread come out of the caterpillar?",
+      "Why is a hot cocoon put in boiling water at the factory?"
+     ],
+     "answers": [
+      "Mulberry leaves",
+      "From a hole in its lower lip called the spinneret",
+      "To dissolve the gum holding the threads together so the silk can be unwound"
+     ],
+     "notes": "Some children are sad to learn the moth inside is killed; this is a fair thing to talk about."
+    },
+    {
+     "title": "Chapter XXIV: The Metamorphosis",
+     "steps": [
+      "Read Chapter XXIV, \"The Metamorphosis\", aloud",
+      "Narration: your child names the four stages of an insect's life",
+      "Activity: raise a caterpillar (or order a butterfly kit) and watch it pupate; or search shrubs and fences for a chrysalis",
+      "Nature journal: draw the four stages of an insect's life in a circle"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXIV",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch24"
+      }
+     ],
+     "questions": [
+      "What are the four stages of a metamorphosing insect's life?",
+      "What is the difference between a chrysalis and a nymph, as Fabre uses the words?",
+      "How does the silkworm moth get out of its tough cocoon, according to Fabre?"
+     ],
+     "answers": [
+      "Egg, larva, chrysalis or nymph, adult (perfect insect)",
+      "They mean the same stage; chrysalis is used for butterflies and moths, nymph for other insects like beetles",
+      "It moistens the silk and rubs through it with its hard, faceted eyes"
+     ],
+     "notes": "Scientists today say the silkworm moth softens the silk with a special liquid and pushes its way out, rather than filing with its eyes. Also, today we call the beetle stage a 'pupa'; 'nymph' now means the young of insects like grasshoppers."
+    }
+   ]
+  },
+  {
+   "title": "Unit 5: Spiders and Venomous Creatures (Chapters XXV–XXXIII)",
+   "lessons": [
+    {
+     "title": "Chapter XXV: Spiders",
+     "steps": [
+      "Read Chapter XXV, \"Spiders\", aloud",
+      "Narration: your child tells about Mother Ambroisine's proverb and what Uncle Paul thinks of it",
+      "Observation: find a spider and watch it let itself down on a thread; look for silk on bushes in the morning",
+      "Nature journal: draw a spider and count its legs and body parts"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXV",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch25"
+      }
+     ],
+     "questions": [
+      "What do spiders use their webs for?",
+      "Where does a spider's silk come out of its body?",
+      "Why should we be glad to have spiders around?"
+     ],
+     "answers": [
+      "To catch flying insects for food",
+      "From the spinnerets at the end of its abdomen",
+      "They eat flies, gnats, and mosquitoes"
+     ],
+     "notes": "Spiders aren't insects: they have eight legs and two body parts. A good point to add even though Fabre calls the spider an 'insect'."
+    },
+    {
+     "title": "Chapter XXVI: The Epeira's Bridge",
+     "steps": [
+      "Read Chapter XXVI, \"The Epeira's Bridge\", aloud",
+      "Narration: before you reveal the answer, let your child guess how the spider could build a bridge over a stream; then retell how it really does it",
+      "Demonstration: tie a long piece of sewing thread to the top of a chair by an open window or in front of a fan and watch the breeze carry the loose end",
+      "Nature journal: draw the spider on its branch and the floating thread crossing the water"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXVI",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch26"
+      }
+     ],
+     "questions": [
+      "How does the epeira get its first thread across the stream?",
+      "What does Uncle Paul say about simple solutions?"
+     ],
+     "answers": [
+      "It lets out a long thread and waits for the wind to blow the free end into the branches on the other side",
+      "Simplicity is a sign of excellence: to simplify is to know"
+     ],
+     "notes": "The epeira is an orb-weaver, like the garden spiders found in late summer."
+    },
+    {
+     "title": "Chapter XXVII: The Spider's Web",
+     "steps": [
+      "Read Chapter XXVII, \"The Spider's Web\", aloud",
+      "Narration: your child explains the order in which the spider builds its web: cables, frame, radiating lines, spiral",
+      "Observation: early on a dewy or misty morning, look for orb webs; mist them lightly with a spray bottle to see the threads",
+      "Nature journal: draw an orb web step by step: frame, spokes, then the spiral"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXVII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch27"
+      }
+     ],
+     "questions": [
+      "What are the 'radiating lines'?",
+      "Where does the spider rest when it isn't sitting in the middle of its web?"
+     ],
+     "answers": [
+      "The threads that go out from the center to the edge like the spokes of a wheel",
+      "In a silk funnel-shaped den hidden among leaves nearby"
+     ]
+    },
+    {
+     "title": "Chapter XXVIII: The Chase",
+     "steps": [
+      "Read Chapter XXVIII, \"The Chase\", aloud",
+      "Narration: your child tells what happened to the damsel-fly, the bumble-bee, and the fly",
+      "Observation: visit a web on a sunny morning and watch quietly; how does the spider know something has landed?",
+      "Nature journal: draw the spider wrapping its prey in silk"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXVIII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch28"
+      }
+     ],
+     "questions": [
+      "How did the epeira know prey was caught while it was in its den?",
+      "Why did it wrap the bumble-bee in silk before biting it?",
+      "What really kills the spider's prey so quickly?"
+     ],
+     "answers": [
+      "The threads leading to its den shook",
+      "The bee was strong and might sting, so the spider tied it up first to be safe",
+      "The venom from its fangs"
+     ],
+     "notes": "Uncle Paul picks up the spider in his fingers; children should watch spiders, not handle them. A few spiders, such as black widows and recluses, have dangerous bites."
+    },
+    {
+     "title": "Chapter XXIX: Venomous Insects",
+     "steps": [
+      "Read Chapter XXIX, \"Venomous Insects\", aloud",
+      "Narration: your child explains why a bee sting hurts much more than a pinprick",
+      "Observation: from a safe distance, watch bees and wasps at flowers; tell bees (fuzzy) from wasps (smooth, narrow waist)",
+      "Nature journal: draw a bee and a wasp side by side"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXIX",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch29"
+      }
+     ],
+     "questions": [
+      "Can any animal shoot poison at you from far away, as Jacques believed?",
+      "What makes a sting so painful: the tiny wound or something else?",
+      "Was the green 'poison' in the crushed caterpillar really poison?"
+     ],
+     "answers": [
+      "No; Uncle Paul says no animal can harm us with venom from a distance",
+      "The drop of venom the sting puts into the wound",
+      "No; it was green from the leaves it had eaten"
+     ],
+     "notes": "A few animals today are known to spit or spray (spitting cobras, bombardier beetles), but none in Uncle Paul's garden. Anyone allergic to stings needs a grown-up's help right away."
+    },
+    {
+     "title": "Chapter XXX: Venom",
+     "steps": [
+      "Read Chapter XXX, \"Venom\", aloud",
+      "Narration: your child tells why venom has to get into the blood to cause harm",
+      "Safety talk: go over today's real snakebite first aid together (see the parent note)",
+      "Map work: look up which venomous snakes live where you do, and draw one in your journal so you'd know it"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXX",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch30"
+      }
+     ],
+     "questions": [
+      "Why can venom on unbroken skin do no harm?",
+      "What does Uncle Paul say is half the battle in any danger?"
+     ],
+     "answers": [
+      "It has to mix with the blood through a wound to act",
+      "Staying calm and keeping your head: a man master of himself is half-master of danger"
+     ],
+     "notes": "IMPORTANT: the snakebite first aid in this 1917 chapter is out of date and can cause harm. Today's advice: do NOT tie a tight band, cut, suck, or burn the bite. Keep the person calm and still, keep the bitten limb at about heart level, remove rings or tight clothing, and call emergency services right away. Also, never taste or touch venom."
+    },
+    {
+     "title": "Chapter XXXI: The Viper and the Scorpion",
+     "steps": [
+      "Read Chapter XXXI, \"The Viper and the Scorpion\", aloud",
+      "Narration: your child sums up Uncle Paul's review: which weapon each venomous creature carries and where",
+      "Activity: make a chart with four columns (spider, bee/wasp, viper, scorpion) and draw where each one's venom weapon is",
+      "Nature journal: draw a snake's forked tongue and explain in a caption that it is harmless"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXI",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch31"
+      }
+     ],
+     "questions": [
+      "Is a snake's darting tongue its sting?",
+      "Where are a viper's venom fangs, and what do they do when not in use?",
+      "Which part of a scorpion is venomous: its pincers or its tail?"
+     ],
+     "answers": [
+      "No; it is a harmless tongue",
+      "In the upper jaw; they fold back into a groove in the gum",
+      "The sting at the end of its tail"
+     ],
+     "notes": "Snakes 'taste' the air with their tongues to smell their surroundings. Teach children to leave all snakes alone rather than catch them like lame Louis."
+    },
+    {
+     "title": "Chapter XXXII: The Nettle",
+     "steps": [
+      "Read Chapter XXXII, \"The Nettle\", aloud",
+      "Narration: your child explains the difference between 'venomous' and 'poisonous'",
+      "Observation (with care): find stinging nettle with a grown-up and look closely, without touching, at the tiny hairs on its stem and leaves; look for caterpillars feeding on it",
+      "Nature journal: draw a nettle leaf and a peacock butterfly (Fabre's Vanessa Io)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch32"
+      }
+     ],
+     "questions": [
+      "How does a nettle sting you?",
+      "What is the difference between venomous and poisonous?",
+      "Why should you be careful with hairy caterpillars?"
+     ],
+     "answers": [
+      "Its hollow bristles break in the skin and spill a stinging liquid into the tiny wound",
+      "Venomous things harm you when they get into the blood through a wound; poisonous things harm you when swallowed",
+      "Their hairs can stick in the skin and cause itching or painful swelling"
+     ],
+     "notes": "Cool water helps a nettle sting. Fabre says venom can be swallowed safely; please don't let children test that idea with anything."
+    },
+    {
+     "title": "Chapter XXXIII: Processionary Caterpillars",
+     "steps": [
+      "Read Chapter XXXIII, \"Processionary Caterpillars\", aloud",
+      "Narration: your child explains how the caterpillars find their way home",
+      "Demonstration: play 'processionary' with the family: everyone walks in a line holding a string or yarn, and the leader lays the trail; then cut the string and see how the line 'repairs' it",
+      "Nature journal: draw a line of caterpillars following a silk thread from their tent nest"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXIII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch33"
+      }
+     ],
+     "questions": [
+      "How do pine processionary caterpillars travel?",
+      "How do they find their way back to the nest?",
+      "What happens if you wipe a finger across their silk road?"
+     ],
+     "answers": [
+      "In a single line, each one touching the one in front",
+      "They lay a silk thread along the road as they go and follow it home",
+      "They stop and search until one bold caterpillar crosses and lays new silk, and the rest follow"
+     ],
+     "notes": "Processionary caterpillars live in Europe. In North America, look for the silk tents of tent caterpillars or webworms in spring and summer; don't touch the hairy ones."
+    }
+   ]
+  },
+  {
+   "title": "Unit 6: Storms, Electricity, Clouds, and Rain (Chapters XXXIV–XLIV)",
+   "lessons": [
+    {
+     "title": "Chapter XXXIV: The Storm",
+     "steps": [
+      "Read Chapter XXXIV, \"The Storm\", aloud",
+      "Narration: your child tells the story of Uncle Paul and Jules caught in the storm",
+      "Observation: the next time a storm is coming, watch (from indoors) for the signs Uncle Paul noticed: gusts of wind, darkening clouds, dusty smell",
+      "Nature journal: draw the storm clouds and the rainbow after the storm"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXIV",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch34"
+      }
+     ],
+     "questions": [
+      "What signs told Uncle Paul a storm was coming?",
+      "Why did he lead Jules away from the big pine tree?",
+      "What did they see after the storm?"
+     ],
+     "answers": [
+      "Louder crickets and frogs, pestering flies, sudden gusts of wind and dust, reddish mist in the south",
+      "A tall tree can be struck by lightning, so it is a dangerous shelter",
+      "A rainbow"
+     ],
+     "notes": "Lightning safety today: 'When thunder roars, go indoors.' A building or a hard-topped car is safest; a rock overhang like Uncle Paul's is not truly safe."
+    },
+    {
+     "title": "Chapter XXXV: Electricity",
+     "steps": [
+      "Read Chapter XXXV, \"Electricity\", aloud",
+      "Narration: your child tells what Emile and Claire once imagined thunder to be, and what is wrong with the idea",
+      "Demonstration: rub a balloon or plastic comb on a wool sweater or your hair, then hold it near tiny bits of tissue paper and watch them jump",
+      "Nature journal: draw the experiment and label 'static electricity'"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXV",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch35"
+      }
+     ],
+     "questions": [
+      "Is the sky a solid blue vault?",
+      "How did Uncle Paul make the sealing-wax pick up paper?",
+      "What is the invisible thing that made the paper jump?"
+     ],
+     "answers": [
+      "No; it is a thick layer of air that looks blue",
+      "He rubbed it quickly on his cloth sleeve",
+      "Electricity"
+     ]
+    },
+    {
+     "title": "Chapters XXXVI–XXXVII: The Experiment with the Cat; The Experiment with Paper",
+     "steps": [
+      "Read Chapters XXXVI and XXXVII aloud",
+      "Narration: your child explains how Uncle Paul made sparks from the cat and from the paper",
+      "Demonstration: in a dark room on a dry day, pull a wool or fleece sweater off over your head, or rub a balloon on a fleece blanket and touch it to a metal doorknob; watch and listen for tiny sparks",
+      "Nature journal: draw the sparks and write why they are the same thing as lightning, only much smaller"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXVI",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch36"
+      },
+      {
+       "label": "Read Chapter XXXVII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch37"
+      }
+     ],
+     "questions": [
+      "Why did Uncle Paul light the stove in summer?",
+      "What do bits of paper and feathers do near the electrified strip of paper?",
+      "Were the sparks from the cat's fur fire?"
+     ],
+     "answers": [
+      "To warm and dry the cat's fur so its electricity would show",
+      "They jump to the strip and away again, back and forth",
+      "No; they were electricity"
+     ],
+     "notes": "Skip scorching paper over a stove; a balloon or fleece gives the same sparks safely. Static works best on cold, dry days."
+    },
+    {
+     "title": "Chapter XXXVIII: Franklin and De Romas",
+     "steps": [
+      "Read Chapter XXXVIII, \"Franklin and De Romas\", aloud",
+      "Narration: your child tells the story of de Romas's kite and what it proved",
+      "Map work: find Philadelphia, where Franklin flew his kite in 1752, and Nérac and Bordeaux in southwestern France",
+      "Nature journal: draw Franklin's kite with its silk string and key"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXVIII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch38"
+      }
+     ],
+     "questions": [
+      "What did the kite experiments prove?",
+      "Why did de Romas use a silk cord and a glass handle?",
+      "What happened to de Romas when he tried the experiment again in Bordeaux?"
+     ],
+     "answers": [
+      "That lightning is electricity",
+      "Silk and glass don't let electricity pass easily, so they protected him",
+      "A frightened crowd threw stones at him and he had to flee"
+     ],
+     "notes": "SAFETY: never fly a kite in a storm or near power lines. These experiments were extremely dangerous; a scientist named Richmann was killed by lightning repeating one in 1753."
+    },
+    {
+     "title": "Chapter XXXIX: Thunder and the Lightning-Rod",
+     "steps": [
+      "Read Chapter XXXIX, \"Thunder and the Lightning-Rod\", aloud",
+      "Narration: your child explains (as Claire did) why lightning likes to strike tall trees",
+      "Observation: look around your town for lightning rods on church steeples, barns, or tall buildings",
+      "Nature journal: draw a house with a lightning rod and show the path the lightning takes down into the ground"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXIX",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch39"
+      }
+     ],
+     "questions": [
+      "What is lightning, according to Uncle Paul?",
+      "Why is it dangerous to stand under a tall, lonely tree in a storm?",
+      "Who invented the lightning-rod, and how does it work?"
+     ],
+     "answers": [
+      "A giant spark that jumps between oppositely charged clouds, or between a cloud and the ground",
+      "Lightning tends to strike the highest points, and the tree is the tallest thing around",
+      "Benjamin Franklin; a pointed metal rod on top of a building carries the lightning safely down into the ground"
+     ],
+     "notes": "Uncle Paul says there are no other precautions; today we know there are: go inside a building or hard-topped car, stay away from water and metal fences, and wait 30 minutes after the last thunder. Lightning does make some ozone and helps fix nitrogen for plants, a little like Fabre's idea that it 'freshens' the air."
+    },
+    {
+     "title": "Chapter XL: Effects of the Thunderbolt",
+     "steps": [
+      "Read Chapter XL, \"Effects of the Thunderbolt\", aloud",
+      "Narration: your child lists the things a thunderbolt can do",
+      "Activity: look at pictures of fulgurites, the glass tubes lightning makes when it melts sand",
+      "Safety talk: make a family plan for what to do in a thunderstorm at home, at the park, and at the pool"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XL",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch40"
+      }
+     ],
+     "questions": [
+      "What does lightning make when it strikes sand?",
+      "What kinds of objects does lightning prefer?",
+      "How does Uncle Paul say to help someone who has stopped breathing after a lightning strike?"
+     ],
+     "answers": [
+      "Glass tubes (fulgurites)",
+      "Metal objects",
+      "The same way as a drowned person: try to start their breathing again"
+     ],
+     "notes": "Today: call emergency services, and if the person isn't breathing, start CPR. It is safe to touch someone struck by lightning; they carry no charge."
+    },
+    {
+     "title": "Chapter XLI: Clouds",
+     "steps": [
+      "Read Chapter XLI aloud: Uncle Paul tells the children what clouds really are",
+      "Narration: your child explains why a cloud that looks like golden cotton from far away is only gloomy fog up close",
+      "Go outside and look at the sky; decide together whether you see cirrus, cumulus, stratus, or nimbus clouds",
+      "Nature journal: draw today's sky and label the cloud type and the weather that followed"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLI",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch41"
+      }
+     ],
+     "questions": [
+      "What are clouds made of?",
+      "Which clouds are the highest, and what do they look like?",
+      "What kind of cloud usually brings steady rain?"
+     ],
+     "answers": [
+      "Damp vapor, the same as fog",
+      "Cirrus clouds, which look like curly wool or thin white threads",
+      "Nimbus clouds (dark, uniform gray)"
+     ]
+    },
+    {
+     "title": "Chapter XLII: The Velocity of Sound",
+     "steps": [
+      "Read Chapter XLII aloud: Uncle Paul explains why the thunder comes after the lightning",
+      "Narration: your child tells how the family worked out how far away the storm was",
+      "Demonstration: stand far across a field or park while someone claps two blocks together or bangs a pot; notice that you see it before you hear it",
+      "Practice the storm count: 'one-one-thousand, two-one-thousand...'; every 3 seconds is about 1 kilometer (5 seconds is about 1 mile)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch42"
+      }
+     ],
+     "questions": [
+      "Why do we see the lightning before we hear the thunder?",
+      "How far does sound travel in one second?",
+      "Claire counted 12 seconds. How far away was the storm?"
+     ],
+     "answers": [
+      "Light travels incredibly fast and reaches us almost instantly; sound travels much more slowly",
+      "About 340 meters",
+      "12 × 340 = 4080 meters (about 4 kilometers)"
+     ],
+     "notes": "Claire's idea that the danger is over once you see the flash is not safe advice. If you can hear thunder, you are close enough to be struck: go indoors and wait 30 minutes after the last thunder."
+    },
+    {
+     "title": "Chapter XLIII: The Experiment with the Bottle of Cold Water",
+     "steps": [
+      "Read Chapter XLIII aloud: Uncle Paul shows where the water in the air comes from",
+      "Narration: your child explains what happens to the water in wet laundry and in the garden after watering",
+      "Demonstration: wipe a bottle or glass dry, fill it with ice water, and set it on a dry plate; watch drops form on the outside and collect in the plate",
+      "Set a saucer of water in a sunny window and one in a shady spot; check each day which dries first"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLIII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch43"
+      }
+     ],
+     "questions": [
+      "Where do the drops on the outside of the cold bottle come from?",
+      "What is evaporation?",
+      "What is condensation?"
+     ],
+     "answers": [
+      "From invisible water vapor in the air, which cools against the bottle",
+      "Water turning into invisible vapor in the air",
+      "Vapor cooling and turning back into fog or drops of water"
+     ]
+    },
+    {
+     "title": "Chapter XLIV: Rain",
+     "steps": [
+      "Read Chapter XLIV aloud: Uncle Paul explains how rain forms, and the so-called rains of blood and sulphur",
+      "Narration: your child tells the true explanation of a 'rain of sulphur'",
+      "Demonstration: shake a lily, pine, or other flower over white paper to see its yellow pollen dust",
+      "Nature journal: draw the water cycle: sea and puddles, vapor rising, a cloud, and rain falling"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLIV",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch44"
+      }
+     ],
+     "questions": [
+      "Why do clouds turn into rain when the vapor rises high?",
+      "What was the yellow 'sulphur rain' really?",
+      "Why is it good that rain falls in small drops?"
+     ],
+     "answers": [
+      "It gets colder higher up, so the vapor condenses into drops",
+      "Pollen from blossoming fir-tree forests carried by the wind",
+      "Huge columns of water would crush plants and harvests and damage roofs"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 7: Volcanoes and the Power of Steam (Chapters XLV–L)",
+   "lessons": [
+    {
+     "title": "Chapter XLV: Volcanoes",
+     "steps": [
+      "Read Chapter XLV aloud: Uncle Paul describes an eruption of Vesuvius",
+      "Narration: your child tells the eruption in order, from the column of smoke to the river of lava",
+      "Map work: find Vesuvius, Etna, and Hecla on a map of Europe, plus one volcano near your own country",
+      "Nature journal: draw a volcano cut in half and label the crater, chimney, and lava"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLV",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch45"
+      }
+     ],
+     "questions": [
+      "What is a volcano's crater?",
+      "What is lava?",
+      "What warning signs come before an eruption?"
+     ],
+     "answers": [
+      "The great funnel-shaped hollow at the top",
+      "Melted rock that flows out of the volcano",
+      "A column of smoke, the earth trembling, and loud rumbling underground"
+     ]
+    },
+    {
+     "title": "Chapter XLVI: Catania",
+     "steps": [
+      "Read Chapter XLVI aloud: Uncle Paul tells how a lava flow from Etna threatened the town of Catania",
+      "Narration: your child tells how the brave workmen turned the lava away from the town",
+      "Map work: find Etna and Catania on the island of Sicily",
+      "Discussion: Uncle Paul says knowledge is a means of helping others; talk about someone your child admires for courage"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLVI",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch46"
+      }
+     ],
+     "questions": [
+      "Why did the people of Catania have time to escape the lava?",
+      "What happened when the lava reached the sea?",
+      "How did the workmen turn the lava stream away from Catania?"
+     ],
+     "answers": [
+      "Lava is sticky and moves slowly, so people could be warned in time",
+      "Huge clouds of hissing steam rose and fell as salty rain, and the lava pushed the shoreline out",
+      "They broke through the hardened crust on the side of the lava stream with iron bars so the lava flowed out a new way"
+     ],
+     "notes": "This eruption happened in 1669. People still try walls and channels to steer lava today."
+    },
+    {
+     "title": "Chapter XLVII: The Story of Pliny",
+     "steps": [
+      "Read Chapter XLVII aloud: Uncle Paul tells the eruption of Vesuvius in A.D. 79 as Pliny the Younger described it",
+      "Narration: your child tells what happened to Pliny the uncle and what Pliny the nephew did for his mother",
+      "Map work: find Vesuvius, Pompeii, and Herculaneum near Naples, Italy",
+      "Look at pictures of Pompeii's uncovered streets together and draw one scene"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLVII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch47"
+      }
+     ],
+     "questions": [
+      "Which two towns were buried by Vesuvius?",
+      "What shape did the cloud over Vesuvius first take?",
+      "Why did the elder Pliny sail toward the volcano?"
+     ],
+     "answers": [
+      "Herculaneum and Pompeii",
+      "Like a tree trunk rising straight up, then spreading out at the top",
+      "To help the people on the coast and to observe the strange cloud"
+     ],
+     "notes": "The translation says the Plinys were at 'Messina'; historically the fleet and the nephew were at Misenum, near Naples."
+    },
+    {
+     "title": "Chapter XLVIII: The Boiling Pot",
+     "steps": [
+      "Read Chapter XLVIII aloud: Uncle Paul explains the power of steam",
+      "Narration: your child explains why the corked vial burst",
+      "Demonstration (adult only): boil water in an open pot with the lid loosely on and watch steam lift and rattle the lid; keep children at a safe distance from the steam",
+      "Nature journal: draw the rattling lid and write one sentence about what pushes it"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLVIII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch48"
+      }
+     ],
+     "questions": [
+      "What happens to water when it is heated a long time in an open pot?",
+      "Why did the tightly corked vial explode?",
+      "What part of every steam engine produces its power?"
+     ],
+     "answers": [
+      "It turns to vapor (steam) and boils away until the pot is dry",
+      "Steam had no way to escape, and its pressure grew until the glass broke",
+      "The boiler, a closed pot of boiling water"
+     ],
+     "notes": "Uncle Paul forbids heating water in a closed container, and so should you: it can explode and cause burns or blinding. Never seal a heated container."
+    },
+    {
+     "title": "Chapter XLIX: The Locomotive",
+     "steps": [
+      "Read Chapter XLIX aloud: Uncle Paul explains, with a picture, how a steam locomotive works",
+      "Narration: your child repeats Jules's chain: steam pushes the piston, the piston pushes the crank...",
+      "Demonstration: act out the piston: one child pushes a toy car's wheel forward and back with a straw or pencil 'rod' to make it turn",
+      "Nature journal: draw a locomotive and label boiler, furnace, smoke-stack, cylinder, and wheels"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLIX",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch49"
+      }
+     ],
+     "questions": [
+      "What does the stoker do?",
+      "Why does the piston move back and forth?",
+      "Why can a locomotive pull such heavy loads on rails?"
+     ],
+     "answers": [
+      "He shovels coal into the furnace to keep the fire hot",
+      "Steam enters first on one side, then the other, while the used steam escapes",
+      "Smooth iron rails have no ruts or stones, so little energy is wasted"
+     ],
+     "notes": "Steam locomotives have mostly been replaced by diesel and electric trains; many heritage railways still run them for visitors."
+    },
+    {
+     "title": "Chapter L: Emile's Observation",
+     "steps": [
+      "Read Chapter L aloud: Emile wonders why the trees seemed to run past the train",
+      "Narration: your child retells the story of the man who turned the fire around the lark",
+      "Observation: on your next car or bus ride, watch whether near things or far things seem to move faster",
+      "Discussion: what in the sky seems to move each day, and what is really moving?"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter L",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch50"
+      }
+     ],
+     "questions": [
+      "Why did the trees seem to be moving when Emile rode the train?",
+      "What does the story of the lark on the spit teach about the sun and the Earth?",
+      "Is it the sun or the Earth that really moves to make day and night?"
+     ],
+     "answers": [
+      "Because he was moving smoothly and did not feel it, so the things outside seemed to move the other way",
+      "That it makes as little sense for the huge sun and stars to circle the small Earth as to turn the whole fire around a little bird",
+      "The Earth turns"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 8: The Earth, the Air, and the Sun (Chapters LI–LVI)",
+   "lessons": [
+    {
+     "title": "Chapter LI: A Journey to the End of the World",
+     "steps": [
+      "Read Chapter LI aloud: Uncle Paul tells of the little boy who set out with his lunch basket to touch the edge of the sky",
+      "Narration: your child explains why the boy could never reach the 'end of the world'",
+      "Demonstration: let an ant, ladybug, or a toy walk around a ball or orange; it never meets an edge and comes back to where it started",
+      "Nature journal: draw the Earth as a ball floating in space with people standing on all sides, feet toward the ground"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LI",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch51"
+      }
+     ],
+     "questions": [
+      "What did the little boy believe the sky was?",
+      "What holds the Earth up?",
+      "Why doesn't the Earth fall?"
+     ],
+     "answers": [
+      "A blue cover or dome resting on the edge of the earth",
+      "Nothing; it floats in space without any support, like the moon and sun",
+      "Falling means moving toward the Earth, and the Earth can't fall toward itself; there is no real 'up' or 'down' in space"
+     ]
+    },
+    {
+     "title": "Chapter LII: The Earth",
+     "steps": [
+      "Read Chapter LII aloud: Uncle Paul gives proofs that the Earth is round and tells how big it is",
+      "Narration: your child explains what a person on shore sees as a ship sails toward them",
+      "Demonstration: move a small toy boat over the top of a large ball toward your child's eye at ball level; the mast appears first, then the hull",
+      "Nature journal: copy Uncle Paul's sketch of the tower hidden by the curve of the Earth"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch52"
+      }
+     ],
+     "questions": [
+      "When a ship comes in from sea, which part do you see first?",
+      "How long would it take a strong walker to go around the Earth at ten leagues a day?",
+      "On a ball two meters across, how big would the highest mountain be?"
+     ],
+     "answers": [
+      "The tops of the masts",
+      "About three years (if it were all land)",
+      "Like a tiny grain of sand, about a millimeter high"
+     ],
+     "notes": "Fabre calls the highest mountain 'Gaurisankar'; today we know it as Mount Everest (8,849 m)."
+    },
+    {
+     "title": "Chapter LIII: The Atmosphere",
+     "steps": [
+      "Read Chapter LIII aloud: Uncle Paul describes the sea of air we live at the bottom of",
+      "Narration: your child tells why air is even more necessary than food or water",
+      "Demonstration: wave a sheet of cardboard to feel the air push back; look at faraway hills and notice how blue they look",
+      "Discussion: Uncle Paul asks the children always to help the hungry; talk about one way your family could do that"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LIII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch53"
+      }
+     ],
+     "questions": [
+      "Why do distant hills and the sky look blue?",
+      "Why does Jules have to stop holding his breath?",
+      "How thick is the air compared with the Earth?"
+     ],
+     "answers": [
+      "A very thick layer of air has a faint blue color",
+      "Every living thing needs air all the time; without it he would suffocate",
+      "Very thin, like the fuzz on a peach compared with the peach"
+     ],
+     "notes": "Do not repeat the breath-holding experiment for long. Uncle Paul mentions a cruel experiment with a bird; you may skip that sentence."
+    },
+    {
+     "title": "Chapter LIV: The Sun",
+     "steps": [
+      "Read Chapter LIV aloud: the family climbs a hill to watch the sunrise, and Uncle Paul tells how far away and how big the sun is",
+      "Narration: your child describes the sunrise the way the children saw it, from the dawn light to the full sun",
+      "Get up early one morning to watch a sunrise together; NEVER look straight at the sun",
+      "Demonstration: put one grain of rice beside a big pile of rice to picture the Earth beside the sun"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LIV",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch54"
+      }
+     ],
+     "questions": [
+      "Why does the sun look so small?",
+      "How long does it take sunlight to reach the Earth?",
+      "What are the stars?"
+     ],
+     "answers": [
+      "Because it is very, very far away",
+      "About eight minutes",
+      "Suns like ours, but much farther away"
+     ],
+     "notes": "Fabre's figures are close to modern ones: about 150 million km to the sun, and the sun's volume is about 1.3 million Earths."
+    },
+    {
+     "title": "Chapter LV: Day and Night",
+     "steps": [
+      "Read Chapter LV aloud: Uncle Paul explains that the Earth turns, making day and night",
+      "Narration: your child explains why we don't feel upside-down at night",
+      "Demonstration: in a dark room, set a lamp on a table as the sun; your child slowly spins while walking around it, noticing when their face is 'in day' and 'in night'",
+      "Spin a top and notice it can spin in place and also travel in a circle, like the Earth"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LV",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch55"
+      }
+     ],
+     "questions": [
+      "How long does the Earth take to turn once on its axis?",
+      "How long does it take to go around the sun?",
+      "Why can't you see the Earth turning from a balloon?"
+     ],
+     "answers": [
+      "Twenty-four hours (one day)",
+      "One year",
+      "The air turns with the Earth and carries the balloon along"
+     ],
+     "notes": "The book describes some peoples with outdated, unkind words; you may want to rephrase that passage as you read."
+    },
+    {
+     "title": "Chapter LVI: The Year and Its Seasons",
+     "steps": [
+      "Read Chapter LVI aloud: Uncle Paul explains the year, the months, leap years, and the seasons",
+      "Narration: your child describes what winter is like in the lands near the North Pole",
+      "Demonstration: use the knuckle calendar: make a fist and count months on the knuckles and the hollows between them to find which months have 31 days",
+      "Nature journal: write today's date and season, and note sunrise and sunset times; compare again in three months"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LVI",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch56"
+      }
+     ],
+     "questions": [
+      "Using the knuckle trick, how many days does September have?",
+      "Why does February get a 29th day every fourth year?",
+      "On which days are day and night about 12 hours each?"
+     ],
+     "answers": [
+      "30",
+      "The Earth takes almost six hours more than 365 days to go around the sun; four of those extra quarter-days add up to one day",
+      "Around March 20 and September 22"
+     ],
+     "notes": "The translator notes that this was written before anyone reached the North Pole (Peary in 1909; Amundsen reached the South Pole in 1911). The real cause of the seasons, which Fabre skips, is the tilt of Earth's axis."
+    }
+   ]
+  },
+  {
+   "title": "Unit 9: Plants: Poison, Flowers, Fruit, and Mushrooms (Chapters LVII–LXV)",
+   "lessons": [
+    {
+     "title": "Chapter LVII: Belladonna Berries",
+     "steps": [
+      "Read Chapter LVII aloud: the sad story of Joseph and Louis and the berries they mistook for cherries",
+      "Narration: your child tells what the boys did wrong and what they should have done",
+      "Safety rule: make a family rule together: never eat any wild berry, leaf, or mushroom unless a grown-up who knows plants says it is safe",
+      "Nature journal: write the rule at the top of a page and decorate it"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LVII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch57"
+      }
+     ],
+     "questions": [
+      "What did Joseph and Louis think the black berries were?",
+      "What was the plant really called?",
+      "What should you do if you find berries outdoors?"
+     ],
+     "answers": [
+      "Cherries",
+      "Belladonna (deadly nightshade)",
+      "Never eat them; ask a grown-up who knows plants"
+     ],
+     "notes": "This chapter ends with a child's death and may upset sensitive children; preview it first. Belladonna is rare in North America, but many other wild berries are poisonous. Save your local Poison Control number (in the US, 1-800-222-1222)."
+    },
+    {
+     "title": "Chapter LVIII: Poisonous Plants",
+     "steps": [
+      "Read Chapter LVIII aloud: Uncle Paul teaches the villagers to know the poisonous plants",
+      "Narration: your child names three poisonous plants and how to recognize each",
+      "Look at photographs (not real plants) of foxglove, hemlock, aconite (monkshood), and arum; draw one in your journal and label its danger signs",
+      "Walk around your yard or a park with a grown-up and look for any plant from the chapter; look, but don't touch or pick"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LVIII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch58"
+      }
+     ],
+     "questions": [
+      "How can you tell poison hemlock from parsley?",
+      "Which beautiful garden plant can slow down and stop the heart?",
+      "What happened to the boy who bit the arum flower?"
+     ],
+     "answers": [
+      "Hemlock has a bad, nauseating smell when crushed (but the safest rule is never to pick and eat wild plants)",
+      "Foxglove (digitalis)",
+      "His tongue burned as if he had bitten a hot coal"
+     ],
+     "notes": "Never let children smell or crush poisonous plants to test them, as the men do in the story; hemlock can even harm through the skin of some people. Learn from pictures instead."
+    },
+    {
+     "title": "Chapter LIX: The Blossom",
+     "steps": [
+      "Read Chapter LIX aloud: under the elder tree, Uncle Paul shows the parts of a flower",
+      "Narration: your child explains the difference between the calyx and the corolla",
+      "Demonstration: gather a few garden flowers; count the petals and sepals and see if the number five (or three, in lilies and tulips) appears",
+      "Nature journal: draw one flower and label the sepals, calyx, petals, and corolla"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LIX",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch59"
+      }
+     ],
+     "questions": [
+      "What is the calyx made of?",
+      "How can you tell that a snapdragon's one-piece corolla is really five petals?",
+      "Do oak and wheat plants have blossoms?"
+     ],
+     "answers": [
+      "Small green leaves called sepals",
+      "Its lips are split into two and three parts, showing five petals joined together",
+      "Yes; every plant blooms, but some flowers are tiny and have no colored corolla"
+     ]
+    },
+    {
+     "title": "Chapter LX: Fruit",
+     "steps": [
+      "Read Chapter LX aloud: Uncle Paul takes apart a flower to show the stamens and pistil",
+      "Narration: your child repeats the six new words: stamen, anther, pollen, pistil, stigma, ovary",
+      "Demonstration: with a grown-up, cut a large flower (lily or tulip) in half lengthwise and find the ovary with its tiny seeds; tap an anther over paper to see pollen",
+      "Cut an apple across its middle and find the star-shaped seed chambers, which were once the flower's ovary"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LX",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch60"
+      }
+     ],
+     "questions": [
+      "Which part of a flower becomes the fruit?",
+      "What is the yellow dust in the anthers called?",
+      "What does a flower of wheat become?"
+     ],
+     "answers": [
+      "The ovary",
+      "Pollen",
+      "A grain of wheat"
+     ]
+    },
+    {
+     "title": "Chapter LXI: Pollen",
+     "steps": [
+      "Read Chapter LXI aloud: Uncle Paul explains why a flower needs pollen to make fruit",
+      "Narration: your child tells how the Arab farmers make sure their date palms bear fruit",
+      "If you have squash, pumpkin, or zucchini plants, find a flower with a tiny fruit (swelling) under it and one without; these are the pistil and stamen flowers",
+      "Nature journal: draw both kinds of squash flower side by side"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXI",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch61"
+      }
+     ],
+     "questions": [
+      "What must land on the stigma before the ovary can grow into fruit?",
+      "Why will a lone date palm with pistils never bear dates?",
+      "How can you tell a pumpkin flower with a pistil from one with only stamens?"
+     ],
+     "answers": [
+      "Pollen",
+      "No pollen reaches its flowers unless a tree with stamens is nearby",
+      "The pistil flower has a little swelling (the baby pumpkin) under the petals"
+     ],
+     "notes": "Fabre calls pollination a mystery; today we know a pollen grain grows a tiny tube down to the ovary and fertilizes the seeds."
+    },
+    {
+     "title": "Chapter LXII: The Bumble-Bee",
+     "steps": [
+      "Read Chapter LXII aloud: the children's pumpkin experiment, and how insects carry pollen",
+      "Narration: your child explains the snapdragon's yellow 'signboard'",
+      "Demonstration: gently squeeze the sides of a snapdragon flower to make it 'open its mouth'",
+      "Observation: watch a flowering bush for ten minutes; count the bees and other insects that visit and look for pollen on their bodies (watch quietly; don't touch)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch62"
+      }
+     ],
+     "questions": [
+      "What happened to the pumpkin flowers that got no pollen?",
+      "What sweet drop draws insects into flowers?",
+      "Why does the vallisneria flower break off and float to the surface?"
+     ],
+     "answers": [
+      "They dried up and made no pumpkins",
+      "Nectar",
+      "So that it can release its pollen in the air, where it can reach the pistil flowers on the surface"
+     ]
+    },
+    {
+     "title": "Chapter LXIII: Mushrooms",
+     "steps": [
+      "Read Chapter LXIII aloud: Uncle Paul warns the villagers about mushrooms",
+      "Narration: your child tells which 'tests' for poisonous mushrooms Uncle Paul shows are false",
+      "Safety rule: add to your journal rule page: 'We never pick or eat wild mushrooms'",
+      "Look at pictures of a few deadly mushrooms (such as the death cap) beside look-alike edible ones and see how similar they are"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXIII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch63"
+      }
+     ],
+     "questions": [
+      "Can you tell a poisonous mushroom by its color, smell, or the tree it grows under?",
+      "Is it true that worms won't eat poisonous mushrooms?",
+      "Does a silver coin in the pot show whether mushrooms are poisonous?"
+     ],
+     "answers": [
+      "No",
+      "No; worms eat poisonous mushrooms too",
+      "No; that is a false old saying"
+     ],
+     "notes": "Important: Uncle Paul's idea that boiling mushrooms in salted water removes their poison is WRONG and dangerous. The deadliest mushroom poisons are not destroyed by boiling. Never eat a wild mushroom unless an expert has identified it."
+    },
+    {
+     "title": "Chapter LXIV: In the Woods",
+     "steps": [
+      "Read Chapter LXIV aloud: in a beech wood, Uncle Paul explains what a mushroom really is",
+      "Narration: your child explains how the hidden mycelium is like a buried rosebush",
+      "Nature walk: look for mushrooms in a park or woods after rain; look underneath without picking to see gills, holes, or spikes (use a mirror, or wear gloves and wash hands after)",
+      "Nature journal: draw a mushroom with its cap, stalk, and the white threads of mycelium underground"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXIV",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch64"
+      }
+     ],
+     "questions": [
+      "What is the mycelium?",
+      "Why do mushrooms sometimes grow in a circle?",
+      "What are mushroom seeds called?"
+     ],
+     "answers": [
+      "The real mushroom plant: white, thread-like strands that grow underground",
+      "The mycelium spreads out evenly in all directions from the center",
+      "Spores"
+     ],
+     "notes": "Today scientists call mushrooms the fruiting bodies of fungi, and fungi are not plants at all but a kingdom of their own."
+    },
+    {
+     "title": "Chapter LXV: The Orange-Agaric",
+     "steps": [
+      "Read Chapter LXV aloud: Uncle Paul shows the spore print and two look-alike orange mushrooms",
+      "Narration: your child tells the differences between the good and the deadly orange-agaric",
+      "Demonstration: buy a store mushroom with open gills, cut off the stem, and set the cap gill-side down on paper under a bowl overnight to make a spore print",
+      "Nature journal: glue in or draw the spore print and label it"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXV",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch65"
+      }
+     ],
+     "questions": [
+      "How can the edible orange-agaric be told from the false one?",
+      "How is the store mushroom (the hotbed mushroom) grown?",
+      "Which animal helps find truffles?"
+     ],
+     "answers": [
+      "The edible one has yellow gills; the false one has white gills and white shreds on its cap",
+      "From mushroom 'spawn' (mycelium) planted in beds of manure and soil",
+      "The pig"
+     ],
+     "notes": "The 'false orange-agaric' is the fly agaric (Amanita muscaria). Its edible look-alike, Caesar's mushroom, is also an Amanita; the two are easy to confuse, which is the whole point of the chapter."
+    }
+   ]
+  },
+  {
+   "title": "Unit 10: Earthquakes and the Heat Underground (Chapters LXVI–LXIX)",
+   "lessons": [
+    {
+     "title": "Chapter LXVI: Earthquakes",
+     "steps": [
+      "Read Chapter LXVI aloud: after a small earthquake in the village, Uncle Paul tells of great earthquakes in Lisbon and southern Italy",
+      "Narration: your child tells what the neighbors noticed during the night's small earthquake",
+      "Map work: find Lisbon, Portugal, and Calabria in southern Italy",
+      "Safety talk: practice 'Drop, Cover, and Hold On' under a sturdy table"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXVI",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch66"
+      }
+     ],
+     "questions": [
+      "What did Mother Ambroisine notice during the earthquake?",
+      "What often comes just before an earthquake, according to Uncle Paul?",
+      "Which city was destroyed by the earthquake on All Saints' Day?"
+     ],
+     "answers": [
+      "Dishes rattling and falling, and her bed shaking twice",
+      "A deep rumbling noise underground",
+      "Lisbon, Portugal"
+     ],
+     "notes": "The Lisbon earthquake was in 1755 (the translation says 1775). Uncle Paul's harsh words about the Calabrian peasants are softened by the next chapter's story."
+    },
+    {
+     "title": "Chapter LXVII: Shall We Kill Them Both?",
+     "steps": [
+      "Read Chapter LXVII aloud: Uncle Paul reads a French soldier's letter about a frightening night in a charcoal-burner's house",
+      "Narration: your child retells the story, saving the surprise ending for last",
+      "Discussion: why did the soldier misjudge the family? Talk about judging people too quickly",
+      "Copywork: copy Uncle Paul's closing idea in your own words: every country has its good and its bad people"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXVII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch67"
+      }
+     ],
+     "questions": [
+      "What mistake did the young companion make at supper?",
+      "What did the charcoal-burner really mean by 'Shall we kill them both?'",
+      "What lesson does Uncle Paul want the children to learn?"
+     ],
+     "answers": [
+      "He told the strangers all about who they were, where they were going, and his valuable bag",
+      "Whether to kill both capons (chickens) for the guests' breakfast",
+      "That every country has good and bad people, and we shouldn't judge a whole people by a few"
+     ],
+     "notes": "This is a story, not a science lesson; it may give younger children a moment of fright before the happy ending."
+    },
+    {
+     "title": "Chapter LXVIII: The Thermometer",
+     "steps": [
+      "Read Chapter LXVIII aloud: Uncle Paul explains the thermometer and degrees",
+      "Narration: your child explains why the steps on a thermometer are called 'degrees'",
+      "Demonstration: use a kitchen or outdoor thermometer to measure ice water, tap water, and the air outside; hold the bulb in your hand and watch it rise",
+      "Nature journal: start a week-long temperature chart, reading the outdoor thermometer at the same time each day"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXVIII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch68"
+      }
+     ],
+     "questions": [
+      "At what Celsius temperature does water freeze, and at what does it boil?",
+      "What is the normal temperature of the human body?",
+      "Why did the red liquid rise when Emile touched the bulb?"
+     ],
+     "answers": [
+      "0 degrees and 100 degrees",
+      "About 37–38 degrees Celsius",
+      "The warmth of his hand heated it"
+     ],
+     "notes": "Fabre uses the Celsius (centigrade) scale. In Fahrenheit, water freezes at 32° and boils at 212°."
+    },
+    {
+     "title": "Chapter LXIX: The Subterranean Furnace",
+     "steps": [
+      "Read Chapter LXIX aloud: Uncle Paul explains that the deeper you go into the earth, the hotter it gets",
+      "Narration: your child describes an eruption of the Great Geyser of Iceland",
+      "Demonstration: draw the Earth as a hard-boiled egg cut in half: a thin shell (crust) around the inside",
+      "Look at pictures or a video of Old Faithful in Yellowstone or the Great Geysir in Iceland"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXIX",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch69"
+      }
+     ],
+     "questions": [
+      "How much warmer does it get for every 30 meters you go down?",
+      "What is a geyser?",
+      "What did Fabre believe caused earthquakes?"
+     ],
+     "answers": [
+      "About one degree",
+      "A hot spring that shoots boiling water and steam high into the air",
+      "Movement of a melted interior under the Earth's thin solid crust"
+     ],
+     "notes": "Outdated science: we now know the Earth's mantle is mostly solid rock that flows very slowly, the crust is broken into moving plates, and most earthquakes happen where plates grind past each other. Volcanoes are not 'safety valves' that prevent earthquakes."
+    }
+   ]
+  },
+  {
+   "title": "Unit 11: Shells, Pearls, and the Sea (Chapters LXX–LXXV)",
+   "lessons": [
+    {
+     "title": "Chapter LXX: Shells",
+     "steps": [
+      "Read Chapter LXX aloud: Uncle Paul opens his drawer of shells from around the world",
+      "Narration: your child explains the difference between a snail and a slug",
+      "Hold a large shell or a cupped hand to your ear and listen to the 'sea'; then talk about Uncle Paul's real explanation",
+      "Nature walk: look for snail shells in a garden or park (or shells at a beach) and sort them into sea, freshwater, and land shells"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXX",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch70"
+      }
+     ],
+     "questions": [
+      "What kind of animal makes a shell?",
+      "Does a slug ever grow a shell?",
+      "Is the roar in a seashell really the sound of the sea?"
+     ],
+     "answers": [
+      "A mollusk, such as a snail",
+      "No; a slug is always a slug",
+      "No; it is the sound of air moving in the curled hollow of the shell"
+     ],
+     "notes": "Today we'd say the roar is surrounding sounds echoing inside the shell. The book's description of where some shells came from uses an outdated word for Africa; you may rephrase it."
+    },
+    {
+     "title": "Chapter LXXI: The Spiral Snail",
+     "steps": [
+      "Read Chapter LXXI aloud: Uncle Paul explains that a snail's 'horns' are really tentacles",
+      "Narration: your child lists all the jobs the snail's tentacles do",
+      "Observation: find a garden snail after rain, set it on a clear plate or a wet leaf, and watch its tentacles stretch and pull in when you bring a leaf near (handle gently and return it where you found it)",
+      "Nature journal: draw the snail and label the long tentacles (eyes and nose) and the short ones (feelers)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXI",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch71"
+      }
+     ],
+     "questions": [
+      "What are a snail's 'horns' really called?",
+      "Where are the snail's eyes?",
+      "What does a snail do when light or a smell bothers it?"
+     ],
+     "answers": [
+      "Tentacles",
+      "At the tips of the long upper tentacles",
+      "It pulls its tentacles back inside, like the finger of a glove"
+     ],
+     "notes": "Emile admits to putting a snail on hot coals, and Uncle Paul tells him to stop; a good moment to talk about kindness to small animals. Wash hands after handling snails."
+    },
+    {
+     "title": "Chapter LXXII: Mother-of-Pearl and Pearls",
+     "steps": [
+      "Read Chapter LXXII aloud: Uncle Paul explains mother-of-pearl and how pearls are made",
+      "Narration: your child tells how an oyster makes a pearl",
+      "Observation: look at the inside of a mussel or oyster shell (from a beach or a seafood meal) and tilt it in the light to see the rainbow colors",
+      "Nature journal: draw how a pearl grows in layers around a tiny grain"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch72"
+      }
+     ],
+     "questions": [
+      "Where does mother-of-pearl come from?",
+      "What makes the pearl oyster start to make a pearl?",
+      "Why were pearls so costly, according to Uncle Paul?"
+     ],
+     "answers": [
+      "The shiny inner layer of certain shells",
+      "Something tiny gets inside and irritates it, and it coats it with mother-of-pearl",
+      "Divers risked their lives holding their breath deep underwater, sometimes meeting sharks"
+     ],
+     "notes": "Today most pearls are cultured: farmers place a tiny bead in the oyster to start the pearl."
+    },
+    {
+     "title": "Chapter LXXIII: The Sea",
+     "steps": [
+      "Read Chapter LXXIII aloud: Uncle Paul describes the size, depth, and color of the sea",
+      "Narration: your child describes what you see from a ship in the middle of the ocean",
+      "Demonstration: color a world map or globe; notice that about three-quarters of the Earth is ocean",
+      "Demonstration: fill a clear glass and a deep white bucket with water; does the deep water look more blue-green?"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXIII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch73"
+      }
+     ],
+     "questions": [
+      "How much of the Earth's surface is covered by sea?",
+      "How do sailors measure how deep the sea is (in Fabre's time)?",
+      "Is the sea bottom flat?"
+     ],
+     "answers": [
+      "About three-quarters",
+      "They lower a weight (plummet) on a long line until it touches bottom",
+      "No; it has deep chasms, mountains, and plains like the land"
+     ],
+     "notes": "Modern figures differ: the average ocean depth is about 3,700 meters, and the deepest spot, the Mariana Trench in the Pacific, is about 11,000 meters. Today depth is measured by sonar."
+    },
+    {
+     "title": "Chapter LXXIV: Waves, Salt, Seaweeds",
+     "steps": [
+      "Read Chapter LXXIV aloud: Uncle Paul explains waves, sea salt, and seaweeds",
+      "Narration: your child explains how all the creatures of the sea are fed by sea plants",
+      "Demonstration: stir salt into warm water, pour a little into a dark plate, and set it in the sun for a few days; the water evaporates and salt crystals remain, like a tiny salt marsh",
+      "Blow across a pan of water to make waves and notice that the water underneath stays calm"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXIV",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch74"
+      }
+     ],
+     "questions": [
+      "What makes waves?",
+      "How is salt collected from the sea?",
+      "How are seaweeds different from land plants?"
+     ],
+     "answers": [
+      "The wind blowing on the surface of the sea",
+      "Sea water is let into shallow basins, the sun evaporates the water, and the salt is raked up",
+      "They have no flowers, leaves, or roots, and they hold onto rocks instead of feeding from soil"
+     ],
+     "notes": "Never drink sea water, even when very thirsty; it makes thirst worse."
+    },
+    {
+     "title": "Chapter LXXV: Running Waters",
+     "steps": [
+      "Read Chapter LXXV aloud: Uncle Paul explains why the sea never overflows",
+      "Narration: your child traces one drop of water from the sea, to a cloud, to rain, to a brook, and back to the sea",
+      "Map work: trace a river near you on a map all the way to the sea",
+      "Nature journal: draw the full water cycle with arrows, adding the salt that stays behind in the sea"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXV",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch75"
+      }
+     ],
+     "questions": [
+      "Why doesn't the sea overflow, even though all rivers pour into it?",
+      "If rivers come from the sea, why isn't brook water salty?",
+      "Where does the water in a dewdrop come from and go to?"
+     ],
+     "answers": [
+      "It loses as much water to evaporation as the rivers bring in",
+      "When sea water evaporates the salt stays behind, so rain and snow are fresh",
+      "From the sea, and back to the sea"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 12: The Honeybees (Chapters LXXVI–LXXX)",
+   "lessons": [
+    {
+     "title": "Chapter LXXVI: The Swarm",
+     "steps": [
+      "Read Chapter LXXVI aloud: a swarm of bees leaves the old hive and settles on the currant bush",
+      "Narration: your child tells how the bees hung together in a bunch and how Jacques gave them a new home",
+      "Look at photos or a video of a bee swarm hanging from a branch",
+      "Nature journal: draw the swarm on the currant bush and the new hive Jacques built"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXVI",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch76"
+      }
+     ],
+     "questions": [
+      "Why did the swarm leave the old hive?",
+      "Who leads the swarm?",
+      "Did banging on pots really make the bees land?"
+     ],
+     "answers": [
+      "The hive was too crowded, so some bees left to start a new colony",
+      "The queen",
+      "Uncle Paul doesn't think so; bees land where they choose, not because of the noise"
+     ],
+     "notes": "If you ever see a swarm, keep your distance and call a local beekeeper, who will often collect it for free. Never disturb bees."
+    },
+    {
+     "title": "Chapter LXXVII: Wax",
+     "steps": [
+      "Read Chapter LXXVII aloud: Uncle Paul describes the queen, the drones, and the workers, and how bees make wax",
+      "Narration: your child explains the jobs of the three kinds of bees",
+      "Demonstration: look closely at a beeswax candle or a piece of beeswax; smell it and warm a small piece in your hands to feel it soften",
+      "Nature journal: draw a queen, a drone, and a worker side by side and label how they differ"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXVII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch77"
+      }
+     ],
+     "questions": [
+      "How many queens live in one hive?",
+      "Where does a bee get its wax?",
+      "What does the word 'insect' mean?"
+     ],
+     "answers": [
+      "One",
+      "It makes the wax itself; it oozes from folds on the underside of its abdomen",
+      "Cut into pieces (its body is made of segments)"
+     ],
+     "notes": "Fabre has the order of jobs backwards: young worker bees stay inside as nurses and wax-builders, and older bees become foragers that fly out to the flowers."
+    },
+    {
+     "title": "Chapter LXXVIII: The Cells",
+     "steps": [
+      "Read Chapter LXXVIII aloud: Uncle Paul explains why honeycomb cells have six sides",
+      "Narration: your child explains why round cells and square cells would not be as good",
+      "Demonstration: draw circles touching each other and notice the gaps; then try fitting paper triangles, squares, and hexagons together with no gaps",
+      "Look at a piece of honeycomb (from a store or farmers' market) and count the sides of a cell"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXVIII",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch78"
+      }
+     ],
+     "questions": [
+      "What shape are honeycomb cells?",
+      "Why don't bees make round cells?",
+      "Which shapes fit together with no space left over?"
+     ],
+     "answers": [
+      "Six-sided (hexagons)",
+      "Circles leave empty gaps between them, wasting space and wax",
+      "Triangles, squares, and hexagons"
+     ]
+    },
+    {
+     "title": "Chapter LXXIX: Honey",
+     "steps": [
+      "Read Chapter LXXIX aloud: Uncle Paul explains how bees gather nectar and pollen and make honey",
+      "Narration: your child follows one bee from the flowers back to the hive and tells what it does with its load",
+      "Observation: on a sunny day, watch bees on flowers from a safe distance and look for yellow pollen balls on their hind legs",
+      "Taste test: compare two kinds of honey (such as clover and wildflower) and talk about how flowers change the flavor"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXIX",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch79"
+      }
+     ],
+     "questions": [
+      "What are the yellow balls on a bee's hind legs?",
+      "Do bees make honey for people?",
+      "How long does a young bee stay a larva before it seals itself in?"
+     ],
+     "answers": [
+      "Pollen loads packed in the 'baskets' on its legs",
+      "No; they make it for themselves and their young; we take some of it",
+      "About six days"
+     ],
+     "notes": "Never give honey to a baby under one year old."
+    },
+    {
+     "title": "Chapter LXXX: The Queen Bee",
+     "steps": [
+      "Read Chapter LXXX aloud: Uncle Paul tells how bees raise a new queen and what happens when there are rivals",
+      "Narration: your child explains how a plain egg can become a queen",
+      "Nature journal: draw a queen cell shaped like a thimble beside ordinary six-sided cells",
+      "Celebrate the end of the book: let each child choose a favorite of Uncle Paul's stories and retell it to the family"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXX",
+       "url": "https://www.gutenberg.org/cache/epub/56795/pg56795-images.html#ch80"
+      }
+     ],
+     "questions": [
+      "What decides whether an egg becomes a queen or a worker?",
+      "What do the bees do when the old queen dies?",
+      "Why does Uncle Paul stop telling stories?"
+     ],
+     "answers": [
+      "The food the larva is given; a queen larva gets the special 'royal' food",
+      "They choose a young larva, enlarge its cell, and feed it royal food to make a new queen",
+      "The grain is ripe and he must work on the harvest"
+     ],
+     "notes": "Today we call the special food royal jelly. Fabre describes the hive as a kingdom with 'civil war'; real bees are not making choices like people, which you may mention as you read."
+    }
+   ]
+  }
+ ]
+}

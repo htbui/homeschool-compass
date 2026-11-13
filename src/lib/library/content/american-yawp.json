@@ -1,0 +1,4368 @@
+{
+ "key": "american-yawp",
+ "title": "The American Yawp: U.S. History",
+ "sourceTitle": "The American Yawp: A Massively Collaborative Open U.S. History Textbook (Updated \"Second Edition\", 2026)",
+ "author": "Joseph L. Locke and Ben Wright (eds.)",
+ "seller": "The American Yawp",
+ "year": 2026,
+ "sourceUrl": "https://www.americanyawp.com/",
+ "license": {
+  "kind": "cc_by_sa",
+  "version": "4.0"
+ },
+ "licenseEvidence": "americanyawp.com/text/about (checked 2026-11-12): \"The American Yawp is an open resource: you are encouraged to use it, download it, distribute it, and modify it as you see fit. The project is formally operated under a Creative Commons Attribution-Share Alike 4.0 International (CC-BY-SA) License and is designed to meet the standards of a 'Free Cultural Work.'\" The home page, the Primary Source Reader index, and the Teaching Materials page all link http://creativecommons.org/licenses/by-sa/4.0/; Teaching Materials adds: \"Like our text, they are licensed openly (CC-BY-SA): you are encouraged to use them, download them, distribute them, and modify them as you see fit.\" The Update Log says the PDFs \"carry the same open license as the rest of the project\" and that the 2026 \"Second Edition\" became the default text on July 1, 2026. Chapter pages themselves carry no license or copyright line. No terms-of-use page and no clause restricting commercial use, derivatives, scraping, or AI use was found (home, about, update log, teaching materials, all 28 chapter pages, and the reader pages checked); robots.txt disallows only image, author, and category paths. Images in the book carry their own licenses and are not used; reader documents are only linked, never copied. This plan uses only chapter and section titles, links, and original steps and questions.",
+ "attribution": "Adapted from \"The American Yawp\" (Updated Edition, 2026), edited by Joseph L. Locke and Ben Wright, with chapters by many contributors, https://www.americanyawp.com/, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Changes: the text is not reproduced; Freerange organized its chapters into daily lessons and added original steps, questions, and answers. This lesson plan is shared under the same CC BY-SA 4.0 license. Not endorsed by The American Yawp, its editors, or its contributors.",
+ "subjects": [
+  "history"
+ ],
+ "gradeMin": 10,
+ "gradeMax": 12,
+ "philosophies": [
+  "classical",
+  "traditional"
+ ],
+ "lessonsPerWeek": 4,
+ "minutesPerLesson": 45,
+ "parentInvolvement": "low",
+ "familyStyle": false,
+ "cover": "🦅",
+ "color": "#E07A5F",
+ "description": "The American Yawp is a free, college-level open textbook of United States history, written by hundreds of historians, that runs from the first peoples of the Americas to the present day. Each day your high schooler reads one or two sections online, narrates or writes about them, and often reads a matching document from the Yawp's free Primary Source Reader. It is openly licensed (CC BY-SA 4.0), so this plan is shared under the same ShareAlike license.",
+ "includes": [
+  "139 lessons in 28 units, one unit per chapter",
+  "Link to the exact chapter section for every lesson",
+  "Matching documents from the free Primary Source Reader",
+  "Narration, timeline, map, and short-writing steps",
+  "Discussion questions with answers"
+ ],
+ "units": [
+  {
+   "title": "Chapter 1: American Origins",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. First Americans",
+     "steps": [
+      "Read sections I and II",
+      "List three ways Indigenous peoples recorded and passed down their histories",
+      "Read the Cherokee origin story in the Reader and narrate it in a few sentences"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/01-american-origins/#I_Introduction"
+      },
+      {
+       "label": "Read II. First Americans",
+       "url": "https://www.americanyawp.com/textbook/01-american-origins/#II_First_Americans"
+      },
+      {
+       "label": "Primary source: Cherokee creation story",
+       "url": "https://www.americanyawp.com/reader/american-origins/cherokee-creation-story/"
+      },
+      {
+       "label": "Chapter 1 primary source reader",
+       "url": "https://www.americanyawp.com/reader/american-origins/"
+      }
+     ],
+     "questions": [
+      "Why were many Europeans puzzled by the existence of the Americas and their peoples?",
+      "Name two forms besides spoken words in which Indigenous origin stories were kept."
+     ],
+     "answers": [
+      "The Bible said nothing about these lands or peoples, so their origins did not fit European assumptions",
+      "Any two of: maps, inscriptions, paintings, wampum belts, weavings, dances, songs"
+     ]
+    },
+    {
+     "title": "III. Beginnings and Arrivals",
+     "steps": [
+      "Read section III",
+      "Map work: sketch Beringia and the Pacific coast route and mark Haida Gwaii",
+      "Write a short paragraph comparing how archaeology and Indigenous oral tradition explain arrival in the Americas"
+     ],
+     "links": [
+      {
+       "label": "Read III. Beginnings and Arrivals",
+       "url": "https://www.americanyawp.com/textbook/01-american-origins/#III_Beginnings_and_Arrivals"
+      },
+      {
+       "label": "Primary source: Paleontologists explore the diet of Native Americans’ ancestors",
+       "url": "https://www.americanyawp.com/reader/american-origins/2292-2/"
+      }
+     ],
+     "questions": [
+      "What was Beringia?",
+      "What change in climate began about 19,000 years ago, and how did it reshape the land?"
+     ],
+     "answers": [
+      "Exposed sea floor linking Asia and North America when sea levels were low, later flooded by the Bering Strait",
+      "Warming melted glaciers, creating new lakes and valleys and raising sea levels"
+     ]
+    },
+    {
+     "title": "IV. Continent-Wide Changes",
+     "steps": [
+      "Read section IV",
+      "Timeline: Watson Brake (about 5,400 years ago), Poverty Point, first maize cultivation, Olmec farming",
+      "Explain in writing how maize was developed from a wild grass"
+     ],
+     "links": [
+      {
+       "label": "Read IV. Continent-Wide Changes",
+       "url": "https://www.americanyawp.com/textbook/01-american-origins/#IV_Continent-Wide_Changes"
+      },
+      {
+       "label": "Primary source: A cultural anthropologist discusses Muskogee mound-building",
+       "url": "https://www.americanyawp.com/reader/american-origins/a-cultural-anthropologist-discusses-muskogee-mound-building/"
+      }
+     ],
+     "questions": [
+      "Which people first cultivated maize from wild grasses, and roughly when?",
+      "What was pemmican and why did it matter on the Great Plains?"
+     ],
+     "answers": [
+      "The Maya, as early as about 8,700 years ago",
+      "A preserved food made from bison; it let people store food through hard seasons"
+     ]
+    },
+    {
+     "title": "V. Political Change",
+     "steps": [
+      "Read section V",
+      "Make a three-column chart: Cahokia, Chaco Canyon, Tenochtitlán or Teotihuacán (location, size, how people fed themselves)",
+      "Discuss why Cahokia rose and then declined"
+     ],
+     "links": [
+      {
+       "label": "Read V. Political Change",
+       "url": "https://www.americanyawp.com/textbook/01-american-origins/#V_Political_Change"
+      }
+     ],
+     "questions": [
+      "Near which modern city was Cahokia, and about how large did it grow?",
+      "How did the Hohokam farm in the desert?",
+      "What was a potlatch?"
+     ],
+     "answers": [
+      "Just east of St. Louis; perhaps as many as 30,000 people",
+      "They dug irrigation canals that carried river water to their fields",
+      "An elaborate feast in the Pacific Northwest that marked events like births and weddings and set social status"
+     ]
+    },
+    {
+     "title": "VI. Continuities & VII. Conclusion",
+     "steps": [
+      "Read sections VI and VII",
+      "Narrate how the Haudenosaunee Great League of Peace came about",
+      "Write a paragraph comparing Native ideas about land and leadership with European ones",
+      "Read the Haudenosaunee origin story in the Reader"
+     ],
+     "links": [
+      {
+       "label": "Read VI. Continuities",
+       "url": "https://www.americanyawp.com/textbook/01-american-origins/#VI_Continuities"
+      },
+      {
+       "label": "Read VII. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/01-american-origins/#VII_Conclusion"
+      },
+      {
+       "label": "Primary source: Haudenosaunee (Iroquois) origin story",
+       "url": "https://www.americanyawp.com/reader/american-origins/haudenosaunee-iroquois-origin-story/"
+      }
+     ],
+     "questions": [
+      "Name the five nations that formed the Haudenosaunee Great League of Peace.",
+      "How did most Native Americans view land differently from Europeans?",
+      "What is the 'Columbian Exchange'?"
+     ],
+     "answers": [
+      "Mohawk, Oneida, Onondaga, Cayuga, and Seneca",
+      "As a resource people had the right to use, not a commodity to own, buy, and sell",
+      "The global exchange of people, animals, plants, and microbes after Europeans reached the Americas"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 2: Making an Atlantic World",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. Europe Enters the Atlantic",
+     "steps": [
+      "Read sections I and II",
+      "Define the astrolabe and the caravel in your own words",
+      "Map work: label Portugal, Spain, the Azores, Madeiras, Canary Islands, and Cape Verde Islands"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/02-making-an-atlantic-world/#I_Introduction"
+      },
+      {
+       "label": "Read II. Europe Enters the Atlantic",
+       "url": "https://www.americanyawp.com/textbook/02-making-an-atlantic-world/#II_Europe_Enters_the_Atlantic"
+      },
+      {
+       "label": "Chapter 2 primary source reader",
+       "url": "https://www.americanyawp.com/reader/making-an-atlantic-world/"
+      }
+     ],
+     "questions": [
+      "Which two monarchs' 1469 marriage joined Aragon and Castile?",
+      "Which Atlantic islands became the first places where enslaved workers grew sugar on large plantations?"
+     ],
+     "answers": [
+      "Fernando of Aragon and Isabel of Castile",
+      "The eastern Atlantic archipelagos such as the Madeiras and Canaries"
+     ]
+    },
+    {
+     "title": "III. North and West Africa to 1500 & IV. Origins of the Slave Trade",
+     "steps": [
+      "Read sections III and IV",
+      "Read Nzinga Mbemba's letter in the Reader and summarize his complaint",
+      "Write a short response: why do historians say Africans both controlled and were victims of the early slave trade?"
+     ],
+     "links": [
+      {
+       "label": "Read III. North and West Africa to 1500",
+       "url": "https://www.americanyawp.com/textbook/02-making-an-atlantic-world/#III_North_and_West_Africa_to_1500"
+      },
+      {
+       "label": "Read IV. Origins of the Slave Trade",
+       "url": "https://www.americanyawp.com/textbook/02-making-an-atlantic-world/#IV_Origins_of_the_Slave_Trade"
+      },
+      {
+       "label": "Primary source: Nzinga Mbemba calls for an end to the slave trade, 1526",
+       "url": "https://www.americanyawp.com/reader/making-an-atlantic-world/nzinga-mbemba-calls-for-an-end-to-the-slave-trade-1526/"
+      }
+     ],
+     "questions": [
+      "About how many Africans were enslaved and carried to the Americas over four centuries?",
+      "What were Portuguese feitorias?"
+     ],
+     "answers": [
+      "Over 12 million",
+      "Small coastal trading posts dealing in gold, slaves, and spices"
+     ]
+    },
+    {
+     "title": "V. Spanish Exploration and Conquests",
+     "steps": [
+      "Read section V",
+      "Read Columbus's journal and the Aztec account of the Spanish attack in the Reader",
+      "Outline how Cortés and Pizarro used alliances and divisions, not just weapons, to conquer"
+     ],
+     "links": [
+      {
+       "label": "Read V. Spanish Exploration and Conquests",
+       "url": "https://www.americanyawp.com/textbook/02-making-an-atlantic-world/#V_Spanish_Exploration_and_Conquests"
+      },
+      {
+       "label": "Primary source: Journal of Christopher Columbus, 1492",
+       "url": "https://www.americanyawp.com/reader/making-an-atlantic-world/journal-of-christopher-columbus/"
+      },
+      {
+       "label": "Primary source: An Aztec account of the Spanish attack",
+       "url": "https://www.americanyawp.com/reader/making-an-atlantic-world/an-aztec-account-of-the-spanish-attack/"
+      }
+     ],
+     "questions": [
+      "Who were the Taínos?",
+      "What was the Aztec capital and where was it built?",
+      "What role did Doña Marina (La Malinche) play?"
+     ],
+     "answers": [
+      "Arawakan-speaking people of the large Caribbean islands such as Hispaniola, Cuba, and Puerto Rico",
+      "Tenochtitlán, on islands in Lake Texcoco",
+      "She was Cortés's Native translator and helped him gather information and allies"
+     ]
+    },
+    {
+     "title": "VI. Spanish America",
+     "steps": [
+      "Read section VI",
+      "Define encomienda, viceroyalty, and sistema de castas",
+      "Read Las Casas in the Reader and discuss what he wanted the crown to do"
+     ],
+     "links": [
+      {
+       "label": "Read VI. Spanish America",
+       "url": "https://www.americanyawp.com/textbook/02-making-an-atlantic-world/#VI_Spanish_America"
+      },
+      {
+       "label": "Primary source: Bartolomé de Las Casas Describes the Exploitation of Indigenous Peoples, 1542",
+       "url": "https://www.americanyawp.com/reader/making-an-atlantic-world/bartolome-de-las-casas-describes-the-exploitation-of-indigenous-peoples-1542/"
+      }
+     ],
+     "questions": [
+      "What did the New Laws of 1542 do?",
+      "Why did European diseases kill so many Native Americans?"
+     ],
+     "answers": [
+      "Revoked many conquistador privileges and banned new encomienda grants",
+      "Long isolation meant they lacked acquired immunity to Old World diseases"
+     ]
+    },
+    {
+     "title": "VII. Spanish North America & VIII. Conclusion",
+     "steps": [
+      "Read sections VII and VIII",
+      "Map work: trace Cabeza de Vaca's route from Florida to Mexico and Coronado's route to Kansas",
+      "Read Cabeza de Vaca's account in the Reader"
+     ],
+     "links": [
+      {
+       "label": "Read VII. Spanish North America",
+       "url": "https://www.americanyawp.com/textbook/02-making-an-atlantic-world/#VII_Spanish_North_America"
+      },
+      {
+       "label": "Read VIII. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/02-making-an-atlantic-world/#VIII_Conclusion"
+      },
+      {
+       "label": "Primary source: Alvar Nuñez Cabeza de Vaca Travels through North America, 1542",
+       "url": "https://www.americanyawp.com/reader/making-an-atlantic-world/alvar-nunez-cabeza-de-vaca-travels-through-north-america-1542/"
+      }
+     ],
+     "questions": [
+      "How did the guide known as the Turk try to protect the Pueblos from Coronado?",
+      "When was Santa Fe founded?",
+      "What was the Requerimiento?"
+     ],
+     "answers": [
+      "He tried to lead the Spaniards so far astray on the plains that they could never return",
+      "1610",
+      "A 1513 Spanish decree read to Native peoples demanding they accept Spanish rule and Christianity"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 3: Colliding Cultures",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. New Worlds: Native and Atlantic",
+     "steps": [
+      "Read sections I and II",
+      "Define the Little Ice Age, chiefdom, and Columbian Exchange",
+      "Write three effects of epidemic disease on Native societies"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/03-colliding-cultures/#I_Introduction"
+      },
+      {
+       "label": "Read II. New Worlds: Native and Atlantic",
+       "url": "https://www.americanyawp.com/textbook/03-colliding-cultures/#II_New_Worlds_Native_and_Atlantic"
+      },
+      {
+       "label": "Chapter 3 primary source reader",
+       "url": "https://www.americanyawp.com/reader/colliding-cultures-2/"
+      }
+     ],
+     "questions": [
+      "What range of population loss do estimates give for disease, infection, and famine in the Americas?",
+      "Name two Native paramount chiefdoms that persisted into the 1600s."
+     ],
+     "answers": [
+      "Between 30 and 90 percent",
+      "Any two of: Apalachee, Cofitachequi, Coosa, Tascaluza, Powhatan, Caddo, Casqui"
+     ]
+    },
+    {
+     "title": "III. Challenging Spain (Part 1: Florida and the French)",
+     "steps": [
+      "Read section III from the start through the French",
+      "Map work: St. Augustine, the St. Lawrence River, Quebec, and the Great Lakes",
+      "Explain the 'middle ground' in your own words"
+     ],
+     "links": [
+      {
+       "label": "Read III. Challenging Spain (Part 1)",
+       "url": "https://www.americanyawp.com/textbook/03-colliding-cultures/#III_Challenging_Spain"
+      }
+     ],
+     "questions": [
+      "What were the French searching for when they explored the St. Lawrence?",
+      "Why were French relations with Native peoples often more cooperative than Spanish or English ones?"
+     ],
+     "answers": [
+      "The Northwest Passage to Asia",
+      "They preferred fur trade to large settlements, so they depended on Native partners"
+     ]
+    },
+    {
+     "title": "III. Challenging Spain (Part 2: The Dutch, the Haudenosaunee, the Portuguese, and New Sweden)",
+     "steps": [
+      "Read the rest of section III, from the Dutch through New Sweden",
+      "Make a chart of the Dutch, Portuguese, and Swedish colonies: where, what they sought, how they treated Native peoples",
+      "Narrate how the Haudenosaunee responded to war and population loss"
+     ],
+     "links": [
+      {
+       "label": "Read III. Challenging Spain (Part 2)",
+       "url": "https://www.americanyawp.com/textbook/03-colliding-cultures/#III_Challenging_Spain"
+      }
+     ],
+     "questions": [
+      "What did Henry Hudson find while searching for a passage to Asia?",
+      "What was wampum used for in Dutch trade?",
+      "What two industries powered early colonial Brazil?"
+     ],
+     "answers": [
+      "The Hudson River, which the Dutch then claimed",
+      "As a currency-like good traded for beaver pelts",
+      "Sugar and the slave trade"
+     ]
+    },
+    {
+     "title": "IV. English Colonization",
+     "steps": [
+      "Read section IV",
+      "Read Richard Hakluyt's case for colonization in the Reader and list his arguments",
+      "Discuss what happened to the Roanoke colony"
+     ],
+     "links": [
+      {
+       "label": "Read IV. English Colonization",
+       "url": "https://www.americanyawp.com/textbook/03-colliding-cultures/#IV_English_Colonization"
+      },
+      {
+       "label": "Primary source: Richard Hakluyt Makes the Case for English Colonization, 1584",
+       "url": "https://www.americanyawp.com/reader/colliding-cultures/richard-hakluyt-makes-the-case-for-english-colonization-1584/"
+      }
+     ],
+     "questions": [
+      "What were English privateers?",
+      "How did England's conquest of Ireland shape its approach to colonization?"
+     ],
+     "answers": [
+      "State-sponsored sailors who plundered Spanish ships and towns",
+      "England tended to seize land and push out inhabitants instead of integrating with them"
+     ]
+    },
+    {
+     "title": "V. Jamestown",
+     "steps": [
+      "Read section V",
+      "Timeline: Jamestown 1607, starving time 1609–1610, tobacco 1616, House of Burgesses and first Africans 1619",
+      "Write a paragraph on how tobacco changed Virginia"
+     ],
+     "links": [
+      {
+       "label": "Read V. Jamestown",
+       "url": "https://www.americanyawp.com/textbook/03-colliding-cultures/#V_Jamestown"
+      }
+     ],
+     "questions": [
+      "Who was Wahunsenacawh?",
+      "What two events of 1619 shaped Virginia's future?",
+      "What did the Virginia Assembly decide in 1662?"
+     ],
+     "answers": [
+      "The paramount chief the English called Powhatan",
+      "The House of Burgesses first met, and Africans were sold to colonists from a slave ship",
+      "That a child's status as enslaved or free followed the mother"
+     ]
+    },
+    {
+     "title": "VI. New England & VII. Conclusion",
+     "steps": [
+      "Read sections VI and VII",
+      "Read John Winthrop's 'city on a hill' in the Reader and summarize his goal",
+      "Compare New England and the Chesapeake in a short chart (people, health, economy)"
+     ],
+     "links": [
+      {
+       "label": "Read VI. New England",
+       "url": "https://www.americanyawp.com/textbook/03-colliding-cultures/#VI_New_England"
+      },
+      {
+       "label": "Read VII. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/03-colliding-cultures/#VII_Conclusion"
+      },
+      {
+       "label": "Primary source: John Winthrop Dreams of a City on a Hill, 1630",
+       "url": "https://www.americanyawp.com/reader/colliding-cultures/john-winthrop-dreams-of-a-city-on-a-hill-1630/"
+      }
+     ],
+     "questions": [
+      "What did Puritans want to do to the Church of England?",
+      "What was the outcome of the Pequot War in 1637?"
+     ],
+     "answers": [
+      "Purify it of practices they saw as Catholic",
+      "The Pequots were devastated, clearing the way for New England to expand"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 4: British North America",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. Slavery and the Making of Race",
+     "steps": [
+      "Read sections I and II",
+      "Read Olaudah Equiano's account of the Middle Passage in the Reader",
+      "Write a paragraph explaining how slavery in the English colonies became permanent, inherited, and tied to race"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/04-british-north-america/#I_Introduction"
+      },
+      {
+       "label": "Read II. Slavery and the Making of Race",
+       "url": "https://www.americanyawp.com/textbook/04-british-north-america/#II_Slavery_and_the_Making_of_Race"
+      },
+      {
+       "label": "Primary source: Olaudah Equiano Describes the Middle Passage, 1789",
+       "url": "https://www.americanyawp.com/reader/british-north-america/olaudah-equiano-describes-the-middle-passage-1789/"
+      },
+      {
+       "label": "Chapter 4 primary source reader",
+       "url": "https://www.americanyawp.com/reader/4-british-north-america/"
+      }
+     ],
+     "questions": [
+      "What were the three legs of a captive African's journey to the Americas?",
+      "Why did Caribbean colonies turn to enslaved labor earlier than Virginia?",
+      "What was 'hiring out'?"
+     ],
+     "answers": [
+      "An overland march to the African coast, the ocean crossing (the Middle Passage), and 'seasoning' and transport to a plantation, mine, or other workplace",
+      "Sugar became England's most profitable crop and demanded huge, skilled, year-round labor",
+      "Enslaved people in cities working for wages from other employers, which gave some a measure of independence"
+     ]
+    },
+    {
+     "title": "III. Turmoil in Britain & IV. New Colonies",
+     "steps": [
+      "Read sections III and IV",
+      "Timeline: English Civil Wars, Restoration 1660, Dominion of New England 1686, Glorious Revolution 1688",
+      "Make a chart of the new colonies: founder, year, and why it was founded (Maryland, Connecticut, Rhode Island, New York, the Jerseys, Carolina, Pennsylvania)"
+     ],
+     "links": [
+      {
+       "label": "Read III. Turmoil in Britain",
+       "url": "https://www.americanyawp.com/textbook/04-british-north-america/#III_Turmoil_in_Britain"
+      },
+      {
+       "label": "Read IV. New Colonies",
+       "url": "https://www.americanyawp.com/textbook/04-british-north-america/#IV_New_Colonies"
+      },
+      {
+       "label": "Primary source: Recruiting Settlers to Carolina, 1666",
+       "url": "https://www.americanyawp.com/reader/british-north-america/recruiting-settlers-to-carolina-1666/"
+      }
+     ],
+     "questions": [
+      "Who founded Rhode Island, and what made its constitution unusual?",
+      "Why did William Penn's Pennsylvania promise religious toleration?",
+      "What was the Dominion of New England?"
+     ],
+     "answers": [
+      "Roger Williams and fellow religious radicals; it established religious and political freedom",
+      "Penn's fellow Quakers had been persecuted in England",
+      "James II's 1686 merger of New York, New Jersey, and the New England colonies into one administrative unit"
+     ]
+    },
+    {
+     "title": "V. Riot, Rebellion, and Revolt & VI. Conclusion",
+     "steps": [
+      "Read sections V and VI",
+      "Make a chart of King Philip's War, the Salem trials, Bacon's Rebellion, the Pueblo Revolt, the Yamasee War, and the Walking Purchase (who, when, cause, result)",
+      "Read the witchcraft accusations in the Reader and discuss what fears they reveal"
+     ],
+     "links": [
+      {
+       "label": "Read V. Riot, Rebellion, and Revolt",
+       "url": "https://www.americanyawp.com/textbook/04-british-north-america/#V_Riot_Rebellion_and_Revolt"
+      },
+      {
+       "label": "Read VI. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/04-british-north-america/#VI_Conclusion"
+      },
+      {
+       "label": "Primary source: Accusations of witchcraft, 1692 and 1706",
+       "url": "https://www.americanyawp.com/reader/4-british-north-america/accusations-of-witchcraft-1692-and-1706/"
+      }
+     ],
+     "questions": [
+      "Who was Metacom?",
+      "What did Popé lead in 1680, and how long were the Spanish kept out?",
+      "How did the Penns cheat the Delawares in the 1737 Walking Purchase?"
+     ],
+     "answers": [
+      "A Wampanoag sachem the English called King Philip, who led the 1675–1676 war against the New England colonies",
+      "The Pueblo Revolt; the Spanish were exiled for twelve years",
+      "They hired skilled runners on a prepared trail so the 'day and a half' walk covered far more land than expected"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 5: Colonial Society",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. Consumption and Trade in the British Atlantic",
+     "steps": [
+      "Read sections I and II",
+      "List five imported goods a colonial family might have bought on credit",
+      "Read Sarah Knight's travel account in the Reader and note what it shows about colonial roads and towns"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/05-colonial-society/#I_Introduction"
+      },
+      {
+       "label": "Read II. Consumption and Trade in the British Atlantic",
+       "url": "https://www.americanyawp.com/textbook/05-colonial-society/#II_Consumption_and_Trade_in_the_British_Atlantic"
+      },
+      {
+       "label": "Primary source: Boston trader Sarah Knight on her travels in Connecticut, 1704",
+       "url": "https://www.americanyawp.com/reader/colonial-society/boston-trader-sarah-knight-on-her-travels-in-connecticut-1704/"
+      },
+      {
+       "label": "Chapter 5 primary source reader",
+       "url": "https://www.americanyawp.com/reader/5-colonial-society/"
+      }
+     ],
+     "questions": [
+      "Why were the Caribbean sugar islands more valuable to Britain than the mainland colonies?",
+      "How did colonists respond to the Sugar, Stamp, and Townshend Acts?",
+      "Which was the largest city in British North America in 1775?"
+     ],
+     "answers": [
+      "Sugar was enormously profitable",
+      "They organized nonimportation agreements and made goods at home",
+      "Philadelphia, about 40,000 people"
+     ]
+    },
+    {
+     "title": "III. Slavery, Antislavery, and Atlantic Exchange",
+     "steps": [
+      "Read section III",
+      "Compare slavery in the Chesapeake, the Lowcountry, the Mid-Atlantic, and New England in a four-column chart",
+      "Narrate the Stono Rebellion"
+     ],
+     "links": [
+      {
+       "label": "Read III. Slavery, Antislavery, and Atlantic Exchange",
+       "url": "https://www.americanyawp.com/textbook/05-colonial-society/#III_Slavery_Antislavery_and_Atlantic_Exchange"
+      }
+     ],
+     "questions": [
+      "What was the task system?",
+      "Where were the Stono rebels heading in 1739?",
+      "Which religious group first turned against slavery?"
+     ],
+     "answers": [
+      "Enslaved people were assigned specific daily tasks and could use leftover time for themselves",
+      "Spanish Florida",
+      "The Quakers"
+     ]
+    },
+    {
+     "title": "IV. Pursuing Political and Religious Freedoms",
+     "steps": [
+      "Read section IV",
+      "Define social contract, coverture, and print culture",
+      "Read Jonathan Edwards in the Reader and compare his preaching with George Whitefield's"
+     ],
+     "links": [
+      {
+       "label": "Read IV. Pursuing Political and Religious Freedoms",
+       "url": "https://www.americanyawp.com/textbook/05-colonial-society/#IV_Pursuing_Political_and_Religious_Freedoms"
+      },
+      {
+       "label": "Primary source: Jonathan Edwards Revives Enfield, Connecticut, 1741",
+       "url": "https://www.americanyawp.com/reader/colonial-society/jonathan-edwards-revives-northampton-massachusetts-1741/"
+      }
+     ],
+     "questions": [
+      "Name the three types of colonial government.",
+      "Which city overtook Boston as the center of colonial printing by 1770?",
+      "What lasting idea did the Great Awakening spread?"
+     ],
+     "answers": [
+      "Provincial (royal), proprietary, and charter",
+      "Philadelphia",
+      "That individuals should question authority and seek faith for themselves, a language of individualism"
+     ]
+    },
+    {
+     "title": "V. Indigenous Nations Respond & VI. Seven Years’ War",
+     "steps": [
+      "Read sections V and VI",
+      "Map work: mark Louisbourg, Quebec, New Orleans, San Antonio, and Santa Fe",
+      "Read Gibson Clough's war journal in the Reader"
+     ],
+     "links": [
+      {
+       "label": "Read V. Indigenous Nations Respond",
+       "url": "https://www.americanyawp.com/textbook/05-colonial-society/#V_Indigenous_Nations_Respond"
+      },
+      {
+       "label": "Read VI. Seven Years’ War",
+       "url": "https://www.americanyawp.com/textbook/05-colonial-society/#VI_Seven_Years_War"
+      },
+      {
+       "label": "Primary source: Extracts from Gibson Clough’s War Journal, 1759",
+       "url": "https://www.americanyawp.com/reader/colonial-society/extracts-from-gibson-cloughs-war-journal-1759/"
+      }
+     ],
+     "questions": [
+      "Which nation joined the Haudenosaunee League as its sixth member?",
+      "What incident in 1754 helped start the Seven Years' War, and who led the British force?",
+      "What did Britain gain at the 1763 Peace of Paris?"
+     ],
+     "answers": [
+      "The Tuscarora",
+      "The Jumonville Affair, led by young George Washington",
+      "Most of Canada and French North America"
+     ]
+    },
+    {
+     "title": "VII. Pontiac’s War & VIII. Conclusion",
+     "steps": [
+      "Read sections VII and VIII",
+      "Read Pontiac's call for war in the Reader",
+      "Write a short paragraph: how did the Seven Years' War both unite the colonies and set up conflict with Britain?"
+     ],
+     "links": [
+      {
+       "label": "Read VII. Pontiac’s War",
+       "url": "https://www.americanyawp.com/textbook/05-colonial-society/#VII_Pontiacs_War"
+      },
+      {
+       "label": "Read VIII. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/05-colonial-society/#VIII_Conclusion"
+      },
+      {
+       "label": "Primary source: Pontiac Calls for War, 1763",
+       "url": "https://www.americanyawp.com/reader/colonial-society/pontiac-calls-for-war-1763/"
+      }
+     ],
+     "questions": [
+      "Who was Neolin, and what was his message?",
+      "What did Benjamin Franklin propose at the 1754 Albany Congress?"
+     ],
+     "answers": [
+      "A prophet whose vision told Native peoples to drive out the British, give up alcohol, return to traditional rituals, and unite",
+      "A plan of union to coordinate the colonies' defense"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 6: The American Revolution",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. The Origins of the American Revolution",
+     "steps": [
+      "Read sections I and II",
+      "Explain the difference between the Revolution's long-term origins and short-term causes",
+      "Write a paragraph on how John Locke's ideas and the Great Awakening both challenged authority"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/06-the-american-revolution/#I_Introduction"
+      },
+      {
+       "label": "Read II. The Origins of the American Revolution",
+       "url": "https://www.americanyawp.com/textbook/06-the-american-revolution/#II_The_Origins_of_the_American_Revolution"
+      },
+      {
+       "label": "Chapter 6 primary source reader",
+       "url": "https://www.americanyawp.com/reader/6-the-american-revolution/"
+      }
+     ],
+     "questions": [
+      "Why did a larger share of colonial men than British men take part in politics?",
+      "What is 'Anglicization'?"
+     ],
+     "answers": [
+      "Land, the key to voting, was easier to get in the colonies",
+      "Colonists becoming more culturally like Britons, especially by buying British goods"
+     ]
+    },
+    {
+     "title": "III. The Causes of the American Revolution",
+     "steps": [
+      "Read section III",
+      "Timeline: Proclamation of 1763, Sugar Act 1764, Stamp Act 1765, Declaratory Act 1766, Townshend Acts, Boston Massacre 1770",
+      "Make a chart of the three kinds of Stamp Act resistance: who took part and what they did"
+     ],
+     "links": [
+      {
+       "label": "Read III. The Causes of the American Revolution",
+       "url": "https://www.americanyawp.com/textbook/06-the-american-revolution/#III_The_Causes_of_the_American_Revolution"
+      }
+     ],
+     "questions": [
+      "What did the Declaratory Act claim?",
+      "Why did homespun cloth become a political symbol?",
+      "When Parliament repealed the Townshend duties in 1770, which one did it keep?"
+     ],
+     "answers": [
+      "That Parliament had full power to make laws binding the colonies in all cases",
+      "Making cloth at home instead of buying British goods showed patriotism and virtue",
+      "The duty on tea"
+     ]
+    },
+    {
+     "title": "IV. Independence",
+     "steps": [
+      "Read section IV",
+      "Read George Hewes's memory of the Boston Tea Party and Thomas Paine's Common Sense in the Reader",
+      "Narrate the chain of events from the Tea Act to the Declaration of Independence"
+     ],
+     "links": [
+      {
+       "label": "Read IV. Independence",
+       "url": "https://www.americanyawp.com/textbook/06-the-american-revolution/#IV_Independence"
+      },
+      {
+       "label": "Primary source: George R. T. Hewes, A Retrospect of the Boston Tea-party, 1834",
+       "url": "https://www.americanyawp.com/reader/the-american-revolution/george-r-t-hewes-a-retrospect-of-the-boston-tea-party-1834/"
+      },
+      {
+       "label": "Primary source: Thomas Paine Calls for American independence, 1776",
+       "url": "https://www.americanyawp.com/reader/the-american-revolution/thomas-paine-calls-for-american-independence-1776/"
+      }
+     ],
+     "questions": [
+      "What were the Coercive Acts, and what did colonists call them?",
+      "What did Lord Dunmore's 1775 proclamation offer?",
+      "On what date did Congress vote for Lee's resolution of independence?"
+     ],
+     "answers": [
+      "Four laws punishing Massachusetts after the Tea Party, such as closing Boston's port; colonists called them the Intolerable Acts",
+      "Freedom to enslaved people and servants who joined the British forces",
+      "July 2, 1776"
+     ]
+    },
+    {
+     "title": "V. The War for Independence",
+     "steps": [
+      "Read section V",
+      "Map work: Boston, New York, Saratoga, Valley Forge, Philadelphia, Charleston, Yorktown",
+      "Read 'Women in South Carolina experience occupation' in the Reader and discuss how war reached people's homes"
+     ],
+     "links": [
+      {
+       "label": "Read V. The War for Independence",
+       "url": "https://www.americanyawp.com/textbook/06-the-american-revolution/#V_The_War_for_Independence"
+      },
+      {
+       "label": "Primary source: Women in South Carolina Experience Occupation, 1780",
+       "url": "https://www.americanyawp.com/reader/the-american-revolution/women-in-south-carolina-experience-occupation-1780/"
+      }
+     ],
+     "questions": [
+      "Why was the American victory at Saratoga so important?",
+      "How did the British southern strategy end?"
+     ],
+     "answers": [
+      "It persuaded France to enter the war as an American ally",
+      "With Cornwallis's surrender at Yorktown in 1781, aided by the French army and navy"
+     ]
+    },
+    {
+     "title": "VI. The Consequences of the American Revolution & VII. Conclusion",
+     "steps": [
+      "Read sections VI and VII",
+      "Read Abigail and John Adams's letters on women's rights in the Reader",
+      "Write a short response: for whom did the Revolution bring the most change, and for whom the least?"
+     ],
+     "links": [
+      {
+       "label": "Read VI. The Consequences of the American Revolution",
+       "url": "https://www.americanyawp.com/textbook/06-the-american-revolution/#VI_The_Consequences_of_the_American_Revolution"
+      },
+      {
+       "label": "Read VII. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/06-the-american-revolution/#VII_Conclusion"
+      },
+      {
+       "label": "Primary source: Abigail and John Adams Converse on Women’s Rights, 1776",
+       "url": "https://www.americanyawp.com/reader/the-american-revolution/abigail-and-john-adams-converse-on-womens-rights-1776/"
+      }
+     ],
+     "questions": [
+      "What were the Articles of Confederation's biggest weaknesses?",
+      "About how many loyalists left America because of the Revolution?",
+      "Why had many Native nations sided with the British?"
+     ],
+     "answers": [
+      "Congress could not levy taxes, regulate commerce, or create a federal judiciary",
+      "About sixty thousand",
+      "They hoped Britain would keep restraining colonists from taking their lands"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 7: A New Nation",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. Shays’s Rebellion & III. The Constitutional Convention",
+     "steps": [
+      "Read sections I, II, and III",
+      "Explain why Shays's Rebellion alarmed national leaders",
+      "Compare the Virginia Plan and the New Jersey Plan, then explain the compromise"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/07-a-new-nation/#I_Introduction"
+      },
+      {
+       "label": "Read II. Shays’s Rebellion",
+       "url": "https://www.americanyawp.com/textbook/07-a-new-nation/#II_Shayss_Rebellion"
+      },
+      {
+       "label": "Read III. The Constitutional Convention",
+       "url": "https://www.americanyawp.com/textbook/07-a-new-nation/#III_The_Constitutional_Convention"
+      },
+      {
+       "label": "Chapter 7 primary source reader",
+       "url": "https://www.americanyawp.com/reader/7-a-new-nation/"
+      }
+     ],
+     "questions": [
+      "What were the Shaysites protesting?",
+      "How did Roger Sherman's compromise shape Congress?"
+     ],
+     "answers": [
+      "Heavy debts and foreclosures on struggling western Massachusetts farmers",
+      "A House based on population and a Senate with equal votes for each state"
+     ]
+    },
+    {
+     "title": "IV. Ratifying the Constitution & V. Rights and Compromises",
+     "steps": [
+      "Read sections IV and V",
+      "Define Federalist and Anti-Federalist",
+      "Write a paragraph explaining the 'dirty compromise' over the slave trade"
+     ],
+     "links": [
+      {
+       "label": "Read IV. Ratifying the Constitution",
+       "url": "https://www.americanyawp.com/textbook/07-a-new-nation/#IV_Ratifying_the_Constitution"
+      },
+      {
+       "label": "Read V. Rights and Compromises",
+       "url": "https://www.americanyawp.com/textbook/07-a-new-nation/#V_Rights_and_Compromises"
+      }
+     ],
+     "questions": [
+      "Why did many Anti-Federalists oppose the Constitution as first written?",
+      "Who wrote the Federalist essays?",
+      "What did the Deep South gain and give up in the 'dirty compromise'?"
+     ],
+     "answers": [
+      "It had no bill of rights",
+      "Alexander Hamilton, James Madison, and John Jay",
+      "The foreign slave trade was protected for twenty years; in return they backed easier passage of commercial laws"
+     ]
+    },
+    {
+     "title": "VI. Hamilton’s Financial System & VII. The Whiskey Rebellion and Jay’s Treaty",
+     "steps": [
+      "Read sections VI and VII",
+      "List the parts of Hamilton's financial plan",
+      "Discuss whether Washington's response to the Whiskey Rebellion was wise"
+     ],
+     "links": [
+      {
+       "label": "Read VI. Hamilton’s Financial System",
+       "url": "https://www.americanyawp.com/textbook/07-a-new-nation/#VI_Hamiltons_Financial_System"
+      },
+      {
+       "label": "Read VII. The Whiskey Rebellion and Jay’s Treaty",
+       "url": "https://www.americanyawp.com/textbook/07-a-new-nation/#VII_The_Whiskey_Rebellion_and_Jays_Treaty"
+      }
+     ],
+     "questions": [
+      "What was 'assumption'?",
+      "Why did Jefferson argue the Bank of the United States was unconstitutional?",
+      "What did Jay's Treaty require Britain to do?"
+     ],
+     "answers": [
+      "The federal government taking over the states' Revolutionary War debts",
+      "The Constitution did not authorize Congress to create a bank",
+      "Abandon its military posts in the Northwest Territory"
+     ]
+    },
+    {
+     "title": "VIII. The French Revolution and the Limits of Liberty",
+     "steps": [
+      "Read section VIII",
+      "Timeline: French Revolution 1789, Citizen Genêt 1793, XYZ Affair 1797, Alien and Sedition Acts 1798",
+      "Read Washington's Farewell Address in the Reader and note his warnings"
+     ],
+     "links": [
+      {
+       "label": "Read VIII. The French Revolution and the Limits of Liberty",
+       "url": "https://www.americanyawp.com/textbook/07-a-new-nation/#VIII_The_French_Revolution_and_the_Limits_of_Liberty"
+      },
+      {
+       "label": "Primary source: George Washington, “Farewell Address,” 1796",
+       "url": "https://www.americanyawp.com/reader/a-new-nation/george-washington-farewell-address-1796/"
+      }
+     ],
+     "questions": [
+      "What did the Sedition Act allow the government to do?",
+      "What did the Kentucky and Virginia Resolutions claim states could do?"
+     ],
+     "answers": [
+      "Prosecute people for speaking or publishing false or malicious criticism of the government",
+      "Declare federal laws unconstitutional"
+     ]
+    },
+    {
+     "title": "IX. Slavery, Regionalism, and Westward Expansion & X. Religious Freedom",
+     "steps": [
+      "Read sections IX and X",
+      "Read Venture Smith's narrative or Madison's Memorial and Remonstrance in the Reader",
+      "Explain how the cotton gin changed slavery in the South"
+     ],
+     "links": [
+      {
+       "label": "Read IX. Slavery, Regionalism, and Westward Expansion",
+       "url": "https://www.americanyawp.com/textbook/07-a-new-nation/#IX_Slavery_Regionalism_and_Westward_Expansion"
+      },
+      {
+       "label": "Read X. Religious Freedom",
+       "url": "https://www.americanyawp.com/textbook/07-a-new-nation/#X_Religious_Freedom"
+      },
+      {
+       "label": "Primary source: Venture Smith, A Narrative of the Life and Adventures of Venture, 1798",
+       "url": "https://www.americanyawp.com/reader/a-new-nation/venture-smith-a-narrative-of-the-life-and-adventures-of-venture-1798/"
+      },
+      {
+       "label": "Primary source: James Madison, Memorial and Remonstrance Against Religious Assessments, 1785",
+       "url": "https://www.americanyawp.com/reader/a-new-nation/james-madison-memorial-and-remonstrance-against-religious-assessments-1785/"
+      }
+     ],
+     "questions": [
+      "How did the enslaved population of the South change between 1790 and 1810?",
+      "What was Jefferson's Statute for Religious Freedom, and who got it passed?"
+     ],
+     "answers": [
+      "It grew from about 650,000 to more than 1.1 million",
+      "A Virginia law separating church and state; Madison won its passage after Jefferson's first attempt failed"
+     ]
+    },
+    {
+     "title": "XI. The Election of 1800 & XII. Conclusion",
+     "steps": [
+      "Read sections XI and XII",
+      "Narrate how the election of 1800 was decided",
+      "Write a paragraph on why Marbury v. Madison mattered"
+     ],
+     "links": [
+      {
+       "label": "Read XI. The Election of 1800",
+       "url": "https://www.americanyawp.com/textbook/07-a-new-nation/#XI_The_Election_of_1800"
+      },
+      {
+       "label": "Read XII. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/07-a-new-nation/#XII_Conclusion"
+      }
+     ],
+     "questions": [
+      "Why did the House have to decide the 1800 election?",
+      "What power did the Supreme Court claim in Marbury v. Madison?"
+     ],
+     "answers": [
+      "Jefferson and Burr tied with seventy-three electoral votes each",
+      "Judicial review: deciding whether an act of Congress violates the Constitution"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 8: The Early Republic",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. Free and Enslaved Black Americans and the Challenge to Slavery",
+     "steps": [
+      "Read sections I and II",
+      "Read Benjamin Banneker's letter to Jefferson in the Reader and summarize his argument",
+      "Narrate Gabriel's planned rebellion and how white Virginians responded"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/08-the-early-republic/#I_Introduction"
+      },
+      {
+       "label": "Read II. Free and Enslaved Black Americans and the Challenge to Slavery",
+       "url": "https://www.americanyawp.com/textbook/08-the-early-republic/#II_Free_and_Enslaved_Black_Americans_and_the_Challenge_to_Slavery"
+      },
+      {
+       "label": "Primary source: Black scientist Benjamin Banneker demonstrates Black intelligence to Thomas Jefferson, 1791",
+       "url": "https://www.americanyawp.com/reader/the-early-republic/black-scientist-benjamin-banneker-demonstrates-black-intelligence-to-thomas-jefferson-1791/"
+      },
+      {
+       "label": "Chapter 8 primary source reader",
+       "url": "https://www.americanyawp.com/reader/8-the-early-republic/"
+      }
+     ],
+     "questions": [
+      "What city did Gabriel's conspirators plan to attack in 1800?",
+      "How did the Haitian Revolution affect Black and white Americans differently?"
+     ],
+     "answers": [
+      "Richmond, Virginia",
+      "It inspired free and enslaved Black Americans and terrified many white Americans"
+     ]
+    },
+    {
+     "title": "III. Jeffersonian Republicanism",
+     "steps": [
+      "Read section III",
+      "Define Republican Motherhood",
+      "Write a paragraph on why Federalists attacked the three-fifths clause after 1800, and what their argument left out"
+     ],
+     "links": [
+      {
+       "label": "Read III. Jeffersonian Republicanism",
+       "url": "https://www.americanyawp.com/textbook/08-the-early-republic/#III_Jeffersonian_Republicanism"
+      }
+     ],
+     "questions": [
+      "Why did Federalists blame the three-fifths clause for Jefferson's victory?",
+      "According to Republican Motherhood, what was women's role in the republic?"
+     ],
+     "answers": [
+      "It counted enslaved people toward Southern representation, giving the South extra electoral votes",
+      "To raise virtuous, independent citizens by teaching their children republican values"
+     ]
+    },
+    {
+     "title": "IV. Jefferson as President",
+     "steps": [
+      "Read section IV",
+      "Map work: outline the Louisiana Purchase on a map of North America",
+      "Make a pros and cons list for the Embargo Act of 1807"
+     ],
+     "links": [
+      {
+       "label": "Read IV. Jefferson as President",
+       "url": "https://www.americanyawp.com/textbook/08-the-early-republic/#IV_Jefferson_as_President"
+      }
+     ],
+     "questions": [
+      "Why did Jefferson hesitate over the Louisiana Purchase?",
+      "What did the Embargo Act of 1807 do?"
+     ],
+     "answers": [
+      "He doubted the Constitution gave the president power to acquire territory",
+      "Closed American ports to all foreign trade to pressure Britain and France without war"
+     ]
+    },
+    {
+     "title": "V. Native American Power and the United States",
+     "steps": [
+      "Read section V",
+      "Read Tecumseh's letter to William Henry Harrison in the Reader",
+      "Explain how Tecumseh and Tenskwatawa built on earlier prophets like Neolin"
+     ],
+     "links": [
+      {
+       "label": "Read V. Native American Power and the United States",
+       "url": "https://www.americanyawp.com/textbook/08-the-early-republic/#V_Native_American_Power_and_the_United_States"
+      },
+      {
+       "label": "Primary source: Tecumseh Calls for Native American Resistance, 1810",
+       "url": "https://www.americanyawp.com/reader/the-early-republic/tecumseh-letter-to-william-henry-harrison-1810/"
+      }
+     ],
+     "questions": [
+      "What did Tecumseh refuse to do?",
+      "Who were the Red Sticks?",
+      "What 1811 battle weakened Tecumseh's confederacy?"
+     ],
+     "answers": [
+      "Give up any more land to the United States",
+      "Creeks in the Southeast who took up the prophetic movement and resisted American expansion",
+      "The Battle of Tippecanoe"
+     ]
+    },
+    {
+     "title": "VI. The War of 1812 & VII. Conclusion",
+     "steps": [
+      "Read sections VI and VII",
+      "Timeline: war declared 1812, Fort McHenry 1814, Hartford Convention 1814, Battle of New Orleans 1815, Monroe Doctrine 1823",
+      "Read the 1811 congressional debate over war in the Reader and list each side's arguments"
+     ],
+     "links": [
+      {
+       "label": "Read VI. The War of 1812",
+       "url": "https://www.americanyawp.com/textbook/08-the-early-republic/#VI_The_War_of_1812"
+      },
+      {
+       "label": "Read VII. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/08-the-early-republic/#VII_Conclusion"
+      },
+      {
+       "label": "Primary source: Congress Debates Going to War, 1811",
+       "url": "https://www.americanyawp.com/reader/the-early-republic/debate-over-the-war-of-1812-1811/"
+      }
+     ],
+     "questions": [
+      "What was impressment?",
+      "Name two proposals of the Hartford Convention.",
+      "What did the Monroe Doctrine tell European powers?"
+     ],
+     "answers": [
+      "Britain forcing American sailors to serve in the British Navy",
+      "Any two of: ending the three-fifths rule, a single presidential term, two-thirds majorities for war or new states",
+      "To stay out of the Western Hemisphere and not create new colonies there"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 9: Getting Forward",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. The Market Revolution",
+     "steps": [
+      "Read sections I and II",
+      "Read the Erie Canal traveler's account or Harriet Robinson's memory of the mill strike in the Reader",
+      "Define the Transportation Revolution, the Waltham-Lowell System, and 'separate spheres'"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/09-getting-forward/#I_Introduction"
+      },
+      {
+       "label": "Read II. The Market Revolution",
+       "url": "https://www.americanyawp.com/textbook/09-getting-forward/#II_The_Market_Revolution"
+      },
+      {
+       "label": "Primary source: A Traveler Describes Life Along the Erie Canal, 1829",
+       "url": "https://www.americanyawp.com/reader/the-market-revolution/a-traveler-describes-life-along-the-erie-canal-1829/"
+      },
+      {
+       "label": "Primary source: Harriet H. Robinson Remembers a Mill Workers’ Strike, 1836",
+       "url": "https://www.americanyawp.com/reader/the-market-revolution/harriet-h-robinson-describes-a-mill-workers-strike-1863/"
+      },
+      {
+       "label": "Chapter 9 primary source reader",
+       "url": "https://www.americanyawp.com/reader/9-getting-forward/"
+      }
+     ],
+     "questions": [
+      "Why was the Erie Canal so important?",
+      "Who were the 'mill girls'?",
+      "What was coverture?"
+     ],
+     "answers": [
+      "It linked the Great Lakes to the Hudson River and New York City, cutting shipping costs",
+      "Young women who worked in the Lowell textile mills",
+      "The legal rule that treated a married couple as one person, erasing a wife's separate legal rights"
+     ]
+    },
+    {
+     "title": "III. The Politics of Jacksonian America",
+     "steps": [
+      "Read section III",
+      "Write a short profile of Andrew Jackson: background, military career, and why voters loved or feared him",
+      "Explain the 'corrupt bargain' of 1824"
+     ],
+     "links": [
+      {
+       "label": "Read III. The Politics of Jacksonian America",
+       "url": "https://www.americanyawp.com/textbook/09-getting-forward/#III_The_Politics_of_Jacksonian_America"
+      }
+     ],
+     "questions": [
+      "Why did the House of Representatives decide the 1824 election?",
+      "Why did many Jacksonians distrust banks and corporations?"
+     ],
+     "answers": [
+      "No candidate won a majority in the Electoral College",
+      "They saw them as privileged 'monied' institutions that caused speculation, panics, and uneven prosperity"
+     ]
+    },
+    {
+     "title": "IV. The Second Great Awakening",
+     "steps": [
+      "Read section IV",
+      "List four reform causes taken up by the 'benevolent empire'",
+      "Discuss why the temperance movement grew so strong"
+     ],
+     "links": [
+      {
+       "label": "Read IV. The Second Great Awakening",
+       "url": "https://www.americanyawp.com/textbook/09-getting-forward/#IV_The_Second_Great_Awakening"
+      }
+     ],
+     "questions": [
+      "What was the American Temperance Society, and when was it founded?",
+      "Why could Methodist preachers spread faster than ministers of older churches?"
+     ],
+     "answers": [
+      "A national evangelical organization against alcohol, founded in 1826",
+      "They did not need formal theological training"
+     ]
+    },
+    {
+     "title": "V. The South, the West, and the Limits of Democracy & VII. Conclusion",
+     "steps": [
+      "Read sections V and VII",
+      "Read the Missouri controversy documents or the Monroe Doctrine in the Reader",
+      "Map work: shade the Missouri Compromise line at 36°30′"
+     ],
+     "links": [
+      {
+       "label": "Read V. The South, the West, and the Limits of Democracy",
+       "url": "https://www.americanyawp.com/textbook/09-getting-forward/#V_The_South_the_West_and_the_Limits_of_Democracy"
+      },
+      {
+       "label": "Read VII. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/09-getting-forward/#VII_Conclusion"
+      },
+      {
+       "label": "Primary source: Missouri Controversy Documents, 1819-1820",
+       "url": "https://www.americanyawp.com/reader/democracy-in-america/missouri-controversy-documents-1819-1920/"
+      },
+      {
+       "label": "Primary source: President Monroe Outlines the Monroe Doctrine, 1823",
+       "url": "https://www.americanyawp.com/reader/manifest-destiny/president-monroe-outlines-the-monroe-doctrine-1823/"
+      }
+     ],
+     "questions": [
+      "What were the three parts of the Missouri Compromise?",
+      "About what share of the South's people were enslaved by 1860?"
+     ],
+     "answers": [
+      "Missouri entered as a slave state, Maine as a free state, and slavery was banned in the rest of the Louisiana Purchase north of 36°30′",
+      "More than 45 percent"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 10: American Democracy",
+   "lessons": [
+    {
+     "title": "I. Introduction & II: Jackson’s Chaotic Cabinet",
+     "steps": [
+      "Read sections I and II",
+      "Define 'rotation in office' and nullification",
+      "Narrate the Eaton Affair and explain why a social quarrel mattered politically"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/10-american-democracy/#I_Introduction"
+      },
+      {
+       "label": "Read II: Jackson’s Chaotic Cabinet",
+       "url": "https://www.americanyawp.com/textbook/10-american-democracy/#II_Jacksons_Chaotic_Cabinet"
+      },
+      {
+       "label": "Chapter 10 primary source reader",
+       "url": "https://www.americanyawp.com/reader/10-american-democracy/"
+      }
+     ],
+     "questions": [
+      "What was the 'Tariff of Abominations' and why did Southerners hate it?",
+      "Who secretly wrote the South Carolina Exposition and Protest?"
+     ],
+     "answers": [
+      "The high 1828 tariff; Southerners felt it raised their costs to protect Northern manufacturers",
+      "John C. Calhoun, Jackson's vice president"
+     ]
+    },
+    {
+     "title": "III. Nullification and the Bank War & IV: The Second Party System",
+     "steps": [
+      "Read sections III and IV",
+      "Read Jackson's veto of the bank recharter in the Reader and list his reasons",
+      "Make a chart comparing Democrats and Whigs: leaders, supporters, beliefs"
+     ],
+     "links": [
+      {
+       "label": "Read III. Nullification and the Bank War",
+       "url": "https://www.americanyawp.com/textbook/10-american-democracy/#III_Nullification_and_the_Bank_War"
+      },
+      {
+       "label": "Read IV: The Second Party System",
+       "url": "https://www.americanyawp.com/textbook/10-american-democracy/#IV_The_Second_Party_System"
+      },
+      {
+       "label": "Primary source: Andrew Jackson’s Veto Message Against Re-chartering the Bank of the United States, 1832",
+       "url": "https://www.americanyawp.com/reader/democracy-in-america/andrew-jacksons-veto-message-against-re-chartering-the-bank-of-the-united-states-1832/"
+      }
+     ],
+     "questions": [
+      "What did the Force Bill allow Jackson to do?",
+      "Which groups came together to form the Whig Party?",
+      "What did nativists oppose?"
+     ],
+     "answers": [
+      "Use the military to enforce the tariff in South Carolina",
+      "Old National Republicans, Anti-Masons, and nativists",
+      "Immigrants, especially Catholics"
+     ]
+    },
+    {
+     "title": "V. The Panic of 1837 & VI: Indigenous Dispossession",
+     "steps": [
+      "Read sections V and VI",
+      "Read the Cherokee petition protesting removal in the Reader",
+      "Timeline: Indian Removal Act 1830, Worcester v. Georgia 1832, Treaty of New Echota 1835, Trail of Tears 1838"
+     ],
+     "links": [
+      {
+       "label": "Read V. The Panic of 1837",
+       "url": "https://www.americanyawp.com/textbook/10-american-democracy/#V_The_Panic_of_1837"
+      },
+      {
+       "label": "Read VI: Indigenous Dispossession",
+       "url": "https://www.americanyawp.com/textbook/10-american-democracy/#VI_Indigenous_Dispossession"
+      },
+      {
+       "label": "Primary source: Cherokee Petition Protesting Removal, 1836",
+       "url": "https://www.americanyawp.com/reader/manifest-destiny/cherokee-petition-protesting-removal-1836/"
+      }
+     ],
+     "questions": [
+      "What was the Specie Circular, and how did it help bring on the Panic of 1837?",
+      "What did the Supreme Court decide in Worcester v. Georgia?",
+      "About how many Cherokee began the forced march in 1838, and how many finished it?"
+     ],
+     "answers": [
+      "A rule requiring gold or silver for federal land purchases; it tightened credit and helped trigger bank runs",
+      "That Georgia's laws did not apply within Cherokee territory",
+      "About sixteen thousand began; only about ten thousand completed it"
+     ]
+    },
+    {
+     "title": "VII. The Cotton Belt & VIII: An Urbanizing South",
+     "steps": [
+      "Read sections VII and VIII",
+      "Graph or chart the growth of cotton exports from 1793 to 1835",
+      "Write a paragraph on how the Cotton Revolution tied the South to slavery"
+     ],
+     "links": [
+      {
+       "label": "Read VII. The Cotton Belt",
+       "url": "https://www.americanyawp.com/textbook/10-american-democracy/#VII_The_Cotton_Belt"
+      },
+      {
+       "label": "Read VIII: An Urbanizing South",
+       "url": "https://www.americanyawp.com/textbook/10-american-democracy/#VIII_An_Urbanizing_South"
+      }
+     ],
+     "questions": [
+      "What was Petit Gulf cotton?",
+      "Which kinds of people made up the Southern urban middle class?"
+     ],
+     "answers": [
+      "A hybrid cotton strain developed in 1833 that went through the gin more easily and yielded more usable cotton",
+      "Skilled craftsmen, merchants, traders, speculators, and store owners"
+     ]
+    },
+    {
+     "title": "IX. Texas, Mexico, and the United States & X: An Age of Reform & XI. Antislavery and Abolition & XII: Conclusion",
+     "steps": [
+      "Read sections IX through XII",
+      "Map work: locate San Antonio (the Alamo), Goliad, and San Jacinto",
+      "Read David Walker's Appeal or Nat Turner's confession in the Reader",
+      "Compare moral suasion with calls for resistance in the abolition movement"
+     ],
+     "links": [
+      {
+       "label": "Read IX. Texas, Mexico, and the United States",
+       "url": "https://www.americanyawp.com/textbook/10-american-democracy/#IX_Texas_Mexico_and_the_United_States"
+      },
+      {
+       "label": "Read X: An Age of Reform",
+       "url": "https://www.americanyawp.com/textbook/10-american-democracy/#X_An_Age_of_Reform"
+      },
+      {
+       "label": "Read XI. Antislavery and Abolition",
+       "url": "https://www.americanyawp.com/textbook/10-american-democracy/#XI_Antislavery_and_Abolition"
+      },
+      {
+       "label": "Read XII: Conclusion",
+       "url": "https://www.americanyawp.com/textbook/10-american-democracy/#XII_Conclusion"
+      },
+      {
+       "label": "Primary source: David Walker’s Appeal to the Colored Citizens of the World, 1829",
+       "url": "https://www.americanyawp.com/reader/religion-and-reform/david-walkers-appeal-to-the-colored-citizens-of-the-world-1829/"
+      },
+      {
+       "label": "Primary source: Nat Turner explains the Southampton rebellion, 1831",
+       "url": "https://www.americanyawp.com/reader/the-cotton-revolution/nat-turner-explains-his-rebellion-1831/"
+      }
+     ],
+     "questions": [
+      "Why did Mexico invite American settlers into Texas?",
+      "Where and when did Texians defeat Santa Anna?",
+      "How did white Southerners react to Nat Turner's rebellion?"
+     ],
+     "answers": [
+      "To create a buffer against the powerful Comanche",
+      "At San Jacinto on April 21, 1836",
+      "They blamed abolitionists and harshly purged antislavery dissent from the region"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 11: Growth and Conflict",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. Connecting Cities and Goods in a Growing Nation",
+     "steps": [
+      "Read sections I and II",
+      "List three ways railroads and the telegraph changed daily life",
+      "Explain how Northern banks and Southern slavery were economically linked"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/11-growth-and-conflict/#I_Introduction"
+      },
+      {
+       "label": "Read II. Connecting Cities and Goods in a Growing Nation",
+       "url": "https://www.americanyawp.com/textbook/11-growth-and-conflict/#II_Connecting_Cities_and_Goods_in_a_Growing_Nation"
+      },
+      {
+       "label": "Chapter 11 primary source reader",
+       "url": "https://www.americanyawp.com/reader/11-growth-and-conflict/"
+      }
+     ],
+     "questions": [
+      "How many American cities had over 100,000 people in 1820, and how many by 1850?",
+      "About how many miles of railroad had Americans built by 1860?"
+     ],
+     "answers": [
+      "One (New York) in 1820; six by 1850",
+      "More than thirty thousand miles"
+     ]
+    },
+    {
+     "title": "III. Industry and Society",
+     "steps": [
+      "Read section III",
+      "Define the 'cult of domesticity' and the code of honor",
+      "Write a paragraph contrasting ideals of womanhood and manhood in the North and South"
+     ],
+     "links": [
+      {
+       "label": "Read III. Industry and Society",
+       "url": "https://www.americanyawp.com/textbook/11-growth-and-conflict/#III_Industry_and_Society"
+      }
+     ],
+     "questions": [
+      "How did women use the ideal of domestic virtue to gain a public role?",
+      "Why did upper-class Southern men fight duels?"
+     ],
+     "answers": [
+      "They argued their moral influence justified reform work outside the home",
+      "To defend their public reputation and prove equal honor status"
+     ]
+    },
+    {
+     "title": "IV. New Faiths",
+     "steps": [
+      "Read section IV",
+      "Make a chart of new faiths and movements: Mormons, Shakers, Unitarians, Transcendentalists",
+      "Explain in your own words what Emerson meant by self-reliance"
+     ],
+     "links": [
+      {
+       "label": "Read IV. New Faiths",
+       "url": "https://www.americanyawp.com/textbook/11-growth-and-conflict/#IV_New_Faiths"
+      }
+     ],
+     "questions": [
+      "Where was Nauvoo, and who founded it?",
+      "What did Transcendentalists believe guided people to truth?"
+     ],
+     "answers": [
+      "In Illinois; founded by the Mormons under Joseph Smith",
+      "A higher spiritual principle within each person, in harmony with nature"
+     ]
+    },
+    {
+     "title": "V. Fighting Sin",
+     "steps": [
+      "Read section V",
+      "Read Sarah Grimké on women's rights or Frederick Douglass's Fourth of July speech in the Reader",
+      "Timeline: abolitionist split 1839, World Anti-Slavery Convention 1840, Seneca Falls 1848"
+     ],
+     "links": [
+      {
+       "label": "Read V. Fighting Sin",
+       "url": "https://www.americanyawp.com/textbook/11-growth-and-conflict/#V_Fighting_Sin"
+      },
+      {
+       "label": "Primary source: Sarah Grimké Calls for Women’s Rights, 1838",
+       "url": "https://www.americanyawp.com/reader/religion-and-reform/sarah-grimke-calls-for-womens-rights-1838/"
+      },
+      {
+       "label": "Primary source: Frederick Douglass, “What to the Slave is the Fourth of July?” 1852",
+       "url": "https://www.americanyawp.com/reader/democracy-in-america/frederick-douglass-what-to-the-slave-is-the-fourth-of-july-1852/"
+      }
+     ],
+     "questions": [
+      "What split the American Anti-Slavery Society in 1839?",
+      "What document did Elizabeth Cady Stanton model the Declaration of Sentiments on?"
+     ],
+     "answers": [
+      "A split between Garrison's moral suasionists and those who wanted political action, sharpened by the question of women in leadership",
+      "The Declaration of Independence"
+     ]
+    },
+    {
+     "title": "VI. Western Expansion & VII. Indigenous People and Settler Pressures in the West",
+     "steps": [
+      "Read sections VI and VII",
+      "Read John O'Sullivan's 'manifest destiny' in the Reader",
+      "Map work: shade Comanchería and mark the Oregon Trail"
+     ],
+     "links": [
+      {
+       "label": "Read VI. Western Expansion",
+       "url": "https://www.americanyawp.com/textbook/11-growth-and-conflict/#VI_Western_Expansion"
+      },
+      {
+       "label": "Read VII. Indigenous People and Settler Pressures in the West",
+       "url": "https://www.americanyawp.com/textbook/11-growth-and-conflict/#VII_Indigenous_People_and_Settler_Pressures_in_the_West"
+      },
+      {
+       "label": "Primary source: Declaring America’s manifest destiny, 1845",
+       "url": "https://www.americanyawp.com/reader/manifest-destiny/john-osullivan-declares-americas-manifest-destiny-1845/"
+      }
+     ],
+     "questions": [
+      "What did 'manifest destiny' claim?",
+      "How did the Comanche build their power on the Southern Plains?"
+     ],
+     "answers": [
+      "That the United States had a God-given right and duty to spread across the continent",
+      "By mastering horses, trading in Texas, and raiding northern Mexico to control the region's commerce"
+     ]
+    },
+    {
+     "title": "VIII. Westward Expansion and the Politics of Slavery",
+     "steps": [
+      "Read section VIII",
+      "Narrate the presidency of 'Tippecanoe and Tyler Too'",
+      "Explain why annexing Texas reopened the slavery debate"
+     ],
+     "links": [
+      {
+       "label": "Read VIII. Westward Expansion and the Politics of Slavery",
+       "url": "https://www.americanyawp.com/textbook/11-growth-and-conflict/#VIII_Westward_Expansion_and_the_Politics_of_Slavery"
+      }
+     ],
+     "questions": [
+      "How long did William Henry Harrison serve as president?",
+      "Why did many politicians fear annexing Texas?"
+     ],
+     "answers": [
+      "Thirty-one days",
+      "It might provoke war with Mexico and upset the balance between slave and free states"
+     ]
+    },
+    {
+     "title": "IX. The US-Mexican War & X. Conclusion",
+     "steps": [
+      "Read sections IX and X",
+      "Map work: shade the Mexican Cession",
+      "Write a paragraph on why the war's victory deepened the conflict over slavery"
+     ],
+     "links": [
+      {
+       "label": "Read IX. The US-Mexican War",
+       "url": "https://www.americanyawp.com/textbook/11-growth-and-conflict/#IX_The_US-Mexican_War"
+      },
+      {
+       "label": "Read X. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/11-growth-and-conflict/#X_Conclusion"
+      }
+     ],
+     "questions": [
+      "Name three future states formed from land gained in the Treaty of Guadalupe Hidalgo.",
+      "What did the Free Soil Party want?"
+     ],
+     "answers": [
+      "Any three of: California, Utah, Nevada, Arizona, New Mexico, Colorado, Wyoming",
+      "To keep slavery out of the western territories"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 12: The National Crisis",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. Gold Rush",
+     "steps": [
+      "Read sections I and II",
+      "Define the Wilmot Proviso and filibustering",
+      "Map work: Sutter's Mill, San Francisco, Cuba, and Nicaragua"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/12-the-national-crisis/#I_Introduction"
+      },
+      {
+       "label": "Read II. Gold Rush",
+       "url": "https://www.americanyawp.com/textbook/12-the-national-crisis/#II_Gold_Rush"
+      },
+      {
+       "label": "Chapter 12 primary source reader",
+       "url": "https://www.americanyawp.com/reader/12-the-national-crisis/"
+      }
+     ],
+     "questions": [
+      "What did the Wilmot Proviso propose?",
+      "Where and when was gold discovered in California?",
+      "What did William Walker do in Nicaragua?"
+     ],
+     "answers": [
+      "Banning slavery in any territory taken from Mexico",
+      "At Sutter's sawmill in the Sacramento Valley, January 24, 1848",
+      "Took power and set up a slaving regime"
+     ]
+    },
+    {
+     "title": "III. “Cotton Is King”",
+     "steps": [
+      "Read section III",
+      "Write a paragraph explaining what Hammond meant by 'Cotton is King' and why the claim hid real weaknesses",
+      "Discuss the case of Celia and what it reveals about the law and enslaved women"
+     ],
+     "links": [
+      {
+       "label": "Read III. “Cotton Is King”",
+       "url": "https://www.americanyawp.com/textbook/12-the-national-crisis/#III_Cotton_Is_King"
+      }
+     ],
+     "questions": [
+      "Why did the internal slave trade grow after the 1808 ban on importing enslaved people?",
+      "How did cotton exports change between 1815 and the late 1850s?"
+     ],
+     "answers": [
+      "Planters in the expanding Cotton South could only buy enslaved people from other states",
+      "They rose from about 150,000 bales to over 4.5 million"
+     ]
+    },
+    {
+     "title": "IV. Free Soil, Free Labor, Free Men",
+     "steps": [
+      "Read section IV",
+      "Make a chart of the Compromise of 1850: what the South got and what the North got",
+      "Read 'Stories from the Underground Railroad' or the excerpt from Uncle Tom's Cabin in the Reader",
+      "Timeline: Compromise of 1850, Uncle Tom's Cabin 1852, Kansas-Nebraska Act 1854, Republican Party founded 1854, caning of Sumner 1856"
+     ],
+     "links": [
+      {
+       "label": "Read IV. Free Soil, Free Labor, Free Men",
+       "url": "https://www.americanyawp.com/textbook/12-the-national-crisis/#IV_Free_Soil_Free_Labor_Free_Men"
+      },
+      {
+       "label": "Primary source: Stories from the Underground Railroad, 1855-56",
+       "url": "https://www.americanyawp.com/reader/the-sectional-crisis/stories-from-the-underground-railroad-1855-56/"
+      },
+      {
+       "label": "Primary source: Harriet Beecher Stowe, Uncle Tom’s Cabin, 1852",
+       "url": "https://www.americanyawp.com/reader/the-sectional-crisis/harriet-beecher-stowe-uncle-toms-cabin-1852/"
+      }
+     ],
+     "questions": [
+      "Why did the Fugitive Slave Act anger so many Northerners?",
+      "What did the Kansas-Nebraska Act let settlers decide?",
+      "Who was the Republicans' first presidential candidate, and how did he do?"
+     ],
+     "answers": [
+      "It forced Northerners to help capture freedom seekers and denied accused people a jury trial",
+      "Whether to allow slavery, by popular sovereignty",
+      "John C. Frémont in 1856; he lost but carried eleven of sixteen free states"
+     ]
+    },
+    {
+     "title": "V. From Sectional Crisis to National Crisis & VI. Conclusion",
+     "steps": [
+      "Read sections V and VI",
+      "Read the South Carolina Declaration of Secession in the Reader and list the reasons it gives",
+      "Narrate John Brown's raid and how Americans reacted"
+     ],
+     "links": [
+      {
+       "label": "Read V. From Sectional Crisis to National Crisis",
+       "url": "https://www.americanyawp.com/textbook/12-the-national-crisis/#V_From_Sectional_Crisis_to_National_Crisis"
+      },
+      {
+       "label": "Read VI. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/12-the-national-crisis/#VI_Conclusion"
+      },
+      {
+       "label": "Primary source: South Carolina Declaration of Secession, 1860",
+       "url": "https://www.americanyawp.com/reader/the-sectional-crisis/south-carolina-declaration-of-secession-1860/"
+      }
+     ],
+     "questions": [
+      "What did the Supreme Court rule in Dred Scott v. Sandford (1857)?",
+      "What did John Brown attack in 1859, and what did he hope to start?",
+      "What share of the popular vote did Lincoln win in 1860?"
+     ],
+     "answers": [
+      "That Black Americans could not be US citizens, so Scott could not sue; the ruling repudiated the Missouri Compromise",
+      "The federal arsenal at Harpers Ferry, Virginia; a revolt of enslaved people",
+      "About 40 percent"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 13: The Civil War",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. The Election of 1860 and Secession",
+     "steps": [
+      "Read sections I and II",
+      "Read Alexander Stephens's 'Cornerstone' remarks in the Reader",
+      "Map work: color the seven first seceding states"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/13-the-civil-war/#I_Introduction"
+      },
+      {
+       "label": "Read II. The Election of 1860 and Secession",
+       "url": "https://www.americanyawp.com/textbook/13-the-civil-war/#II_The_Election_of_1860_and_Secession"
+      },
+      {
+       "label": "Primary source: Alexander Stephens on Slavery and the Confederate Constitution, 1861",
+       "url": "https://www.americanyawp.com/reader/the-civil-war/alexander-stephens-on-slavery-and-the-confederate-constitution-1861/"
+      },
+      {
+       "label": "Chapter 13 primary source reader",
+       "url": "https://www.americanyawp.com/reader/13-the-civil-war/"
+      }
+     ],
+     "questions": [
+      "About how many people died in the Civil War?",
+      "Which state seceded first, and when?",
+      "Who was chosen president of the Confederacy?"
+     ],
+     "answers": [
+      "About 698,000",
+      "South Carolina, December 20, 1860",
+      "Jefferson Davis of Mississippi"
+     ]
+    },
+    {
+     "title": "III. A War for Union, 1861–1863 (Part 1: Fort Sumter, contrabands, and camp life)",
+     "steps": [
+      "Read section III from the start through soldiers' camp life and music",
+      "Read General Butler's report on self-emancipating people in the Reader",
+      "Explain the Anaconda Plan and why the border states mattered"
+     ],
+     "links": [
+      {
+       "label": "Read III. A War for Union, 1861–1863 (Part 1)",
+       "url": "https://www.americanyawp.com/textbook/13-the-civil-war/#III_A_War_for_Union_18611863"
+      },
+      {
+       "label": "Primary source: General Benjamin F. Butler Reacts to Self-Emancipating People, 1861",
+       "url": "https://www.americanyawp.com/reader/the-civil-war/general-benjamin-f-butler-reacts-to-self-emancipating-slaves-1861/"
+      }
+     ],
+     "questions": [
+      "What did General Butler call freedom seekers who reached Fort Monroe, and why?",
+      "Which four border slave states stayed in the Union?",
+      "What laws did Republicans pass once Southern members left Congress?"
+     ],
+     "answers": [
+      "'Contraband of war,' because he could seize enemy property used in the war",
+      "Delaware, Maryland, Missouri, and Kentucky",
+      "The Whig economic program: the Homestead Act, the Morrill Land-Grant College Act, and the Pacific Railroad Act"
+     ]
+    },
+    {
+     "title": "III. A War for Union, 1861–1863 (Part 2: From the Peninsula to Antietam)",
+     "steps": [
+      "Read the rest of section III, from McClellan's Peninsula Campaign through Antietam",
+      "Map work: the Peninsula, Forts Henry and Donelson, Shiloh, Antietam",
+      "Discuss how the Dakota War and Sand Creek fit into the Civil War era"
+     ],
+     "links": [
+      {
+       "label": "Read III. A War for Union, 1861–1863 (Part 2)",
+       "url": "https://www.americanyawp.com/textbook/13-the-civil-war/#III_A_War_for_Union_18611863"
+      },
+      {
+       "label": "Primary source: Ambrose Bierce Recalls his Experience at the Battle of Shiloh, 1881",
+       "url": "https://www.americanyawp.com/reader/the-civil-war/ambrose-bierce-recalls-his-experience-at-the-battle-of-shiloh-1881/"
+      }
+     ],
+     "questions": [
+      "What did the Emancipation Proclamation do, and what did it leave out?",
+      "What happened in the Dakota War of 1862?"
+     ],
+     "answers": [
+      "It freed enslaved people in Confederate-held areas but exempted the loyal border states and Union-occupied areas",
+      "Fighting broke out between the Dakota and settlers in Minnesota; 303 Dakota were sentenced to hang and thirty-eight were executed"
+     ]
+    },
+    {
+     "title": "IV. War for Emancipation, 1863–1865 (Part 1: Black soldiers, Gettysburg, Vicksburg, and the home fronts)",
+     "steps": [
+      "Read section IV through the stories of wartime spies",
+      "Read William Henry Singleton's memories of fighting for the Union in the Reader",
+      "Write a paragraph on why the summer of 1863 was a turning point"
+     ],
+     "links": [
+      {
+       "label": "Read IV. War for Emancipation, 1863–1865 (Part 1)",
+       "url": "https://www.americanyawp.com/textbook/13-the-civil-war/#IV_War_for_Emancipation_18631865"
+      },
+      {
+       "label": "Primary source: William Henry Singleton, a formerly enslaved man, recalls fighting for the Union, 1922",
+       "url": "https://www.americanyawp.com/reader/the-civil-war/william-henry-singleton-a-formerly-enslaved-man-recalls-fighting-for-the-union-1922/"
+      }
+     ],
+     "questions": [
+      "What unfair treatment did Black Union soldiers face?",
+      "Why was Vicksburg so important?"
+     ],
+     "answers": [
+      "Lower pay than white soldiers, and the danger of being killed or enslaved if captured",
+      "It was the last Confederate strongpoint on the Mississippi; its fall on July 4, 1863, split the Confederacy in two"
+     ]
+    },
+    {
+     "title": "IV. War for Emancipation, 1863–1865 (Part 2: Hard war, medicine, the 1864 election, and the end of slavery) & V. Conclusion",
+     "steps": [
+      "Read the rest of section IV, from the shift to hard war, and section V",
+      "Read Lincoln's second inaugural address in the Reader",
+      "Discuss how disease and death changed American families"
+     ],
+     "links": [
+      {
+       "label": "Read IV. War for Emancipation, 1863–1865 (Part 2)",
+       "url": "https://www.americanyawp.com/textbook/13-the-civil-war/#IV_War_for_Emancipation_18631865"
+      },
+      {
+       "label": "Read V. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/13-the-civil-war/#V_Conclusion"
+      },
+      {
+       "label": "Primary source: Abraham Lincoln’s Second Inaugural Address, 1865",
+       "url": "https://www.americanyawp.com/reader/the-civil-war/abraham-lincolns-second-inaugural-address-1865/"
+      }
+     ],
+     "questions": [
+      "What caused more than half of all Civil War deaths?",
+      "What was the electoral vote in the 1864 election?",
+      "Which amendment permanently ended slavery?"
+     ],
+     "answers": [
+      "Disease",
+      "Lincoln 212, McClellan 21",
+      "The Thirteenth Amendment"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 14: Reconstruction",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. Politics of Reconstruction",
+     "steps": [
+      "Read sections I and II",
+      "Read the Mississippi Black Code in the Reader and list the freedoms it restricted",
+      "Make a chart of the Thirteenth, Fourteenth, and Fifteenth Amendments: what each did"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/14-reconstruction/#I_Introduction"
+      },
+      {
+       "label": "Read II. Politics of Reconstruction",
+       "url": "https://www.americanyawp.com/textbook/14-reconstruction/#II_Politics_of_Reconstruction"
+      },
+      {
+       "label": "Primary source: Mississippi Black Code, 1865",
+       "url": "https://www.americanyawp.com/reader/reconstruction/mississippi-black-code-1865/"
+      },
+      {
+       "label": "Chapter 14 primary source reader",
+       "url": "https://www.americanyawp.com/reader/14-reconstruction/"
+      }
+     ],
+     "questions": [
+      "What were Black Codes?",
+      "Who were Hiram Revels and Blanche K. Bruce?",
+      "About how many African American men held public office during Reconstruction?"
+     ],
+     "answers": [
+      "Southern laws passed after the war to control Black people's labor and behavior",
+      "Black US senators from Mississippi",
+      "More than two thousand"
+     ]
+    },
+    {
+     "title": "III. The Meaning of Black Freedom",
+     "steps": [
+      "Read section III",
+      "Read Jourdon Anderson's letter to his former enslaver in the Reader and discuss its tone",
+      "List four ways freedpeople built new lives (land, family, school, church)"
+     ],
+     "links": [
+      {
+       "label": "Read III. The Meaning of Black Freedom",
+       "url": "https://www.americanyawp.com/textbook/14-reconstruction/#III_The_Meaning_of_Black_Freedom"
+      },
+      {
+       "label": "Primary source: Jourdon Anderson Writes His Former Enslaver, 1865",
+       "url": "https://www.americanyawp.com/reader/reconstruction/jourdon-anderson-writes-his-former-master-1865/"
+      }
+     ],
+     "questions": [
+      "What did Sherman's Special Field Order No. 15 set aside, and why did it fail?",
+      "Why did independent Black churches matter so much after emancipation?"
+     ],
+     "answers": [
+      "Land in Georgia and South Carolina for freedpeople; Sherman lacked authority to confiscate and give away land",
+      "They were community centers and schools and produced many political leaders"
+     ]
+    },
+    {
+     "title": "IV. Reconstruction and Women",
+     "steps": [
+      "Read section IV",
+      "Explain why the Fourteenth and Fifteenth Amendments split the women's rights movement",
+      "Write a paragraph comparing how white and Black Southern women tried to redefine their lives"
+     ],
+     "links": [
+      {
+       "label": "Read IV. Reconstruction and Women",
+       "url": "https://www.americanyawp.com/textbook/14-reconstruction/#IV_Reconstruction_and_Women"
+      }
+     ],
+     "questions": [
+      "What two suffrage organizations formed after the split, and how did they differ?",
+      "What was the New Departure?"
+     ],
+     "answers": [
+      "The NWSA (Stanton and Anthony), which opposed the Fifteenth Amendment for leaving out women, and the AWSA, which supported it",
+      "The argument that the Fourteenth and Fifteenth Amendments already gave women the right to vote"
+     ]
+    },
+    {
+     "title": "V. Racial Violence in Reconstruction",
+     "steps": [
+      "Read section V",
+      "Read General Reynolds's report on lawlessness in Texas in the Reader",
+      "Narrate how the federal government tried to stop the Klan"
+     ],
+     "links": [
+      {
+       "label": "Read V. Racial Violence in Reconstruction",
+       "url": "https://www.americanyawp.com/textbook/14-reconstruction/#V_Racial_Violence_in_Reconstruction"
+      },
+      {
+       "label": "Primary source: General Reynolds Describes Lawlessness in Texas, 1868",
+       "url": "https://www.americanyawp.com/reader/reconstruction/general-reynolds-describes-lawlessness-in-texas-1868/"
+      }
+     ],
+     "questions": [
+      "Where and when was the Ku Klux Klan founded?",
+      "What did the Enforcement Acts do?"
+     ],
+     "answers": [
+      "Pulaski, Tennessee, in 1866",
+      "Made depriving African Americans of their civil rights a federal crime and treated Klan violence as rebellion against the United States"
+     ]
+    },
+    {
+     "title": "VI. Economic Development During the Civil War and Reconstruction",
+     "steps": [
+      "Read section VI",
+      "List the wartime laws that changed the economy (greenbacks, income tax, tariffs, Morrill Act)",
+      "Discuss: why was emancipation the most important economic result of the war?"
+     ],
+     "links": [
+      {
+       "label": "Read VI. Economic Development During the Civil War and Reconstruction",
+       "url": "https://www.americanyawp.com/textbook/14-reconstruction/#VI_Economic_Development_During_the_Civil_War_and_Reconstruction"
+      }
+     ],
+     "questions": [
+      "What was the nation's first fiat currency called?",
+      "What did the Morrill Land Grant Act help create?"
+     ],
+     "answers": [
+      "Greenbacks",
+      "Public colleges, such as the University of California"
+     ]
+    },
+    {
+     "title": "VII. Reconstruction and the West & VIII. The End of Reconstruction & VIII. Conclusion",
+     "steps": [
+      "Read sections VII, VIII, and the Conclusion",
+      "Read Frederick Douglass on remembering the Civil War in the Reader",
+      "Narrate the disputed election of 1876 and the Compromise of 1877"
+     ],
+     "links": [
+      {
+       "label": "Read VII. Reconstruction and the West",
+       "url": "https://www.americanyawp.com/textbook/14-reconstruction/#VII_Reconstruction_and_the_West"
+      },
+      {
+       "label": "Read VIII. The End of Reconstruction",
+       "url": "https://www.americanyawp.com/textbook/14-reconstruction/#VIII_The_End_of_Reconstruction"
+      },
+      {
+       "label": "Read VIII. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/14-reconstruction/#VIII_Conclusion"
+      },
+      {
+       "label": "Primary source: Frederick Douglass on Remembering the Civil War, 1877",
+       "url": "https://www.americanyawp.com/reader/reconstruction/frederick-douglass-on-remembering-the-civil-war-1877/"
+      }
+     ],
+     "questions": [
+      "What was the Long Walk?",
+      "What did Democrats get in the Compromise of 1877?"
+     ],
+     "answers": [
+      "The forced removal of the Navajo to Bosque Redondo, beginning in 1863",
+      "The removal of remaining federal troops from the South (and economic favors) in exchange for accepting Hayes as president"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 15: Capital and Labor",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. The March of Capital",
+     "steps": [
+      "Read sections I and II",
+      "Timeline: Great Railroad Strike 1877, Edison's electric light 1879, the great merger movement 1895–1904",
+      "Define incorporation, scientific management (Taylorism), and trust"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/15-capital-and-labor/#I_Introduction"
+      },
+      {
+       "label": "Read II. The March of Capital",
+       "url": "https://www.americanyawp.com/textbook/15-capital-and-labor/#II_The_March_of_Capital"
+      },
+      {
+       "label": "Chapter 15 primary source reader",
+       "url": "https://www.americanyawp.com/reader/15-capital-and-labor/"
+      }
+     ],
+     "questions": [
+      "How was the Great Railroad Strike of 1877 finally defeated?",
+      "By 1900, where did the United States rank among manufacturing nations?",
+      "What was 'the great merger movement'?"
+     ],
+     "answers": [
+      "Federal troops were sent in to break it",
+      "First, the world's leading manufacturer",
+      "A wave of mergers (1895–1904) in which about four thousand companies were absorbed by rivals"
+     ]
+    },
+    {
+     "title": "III. The Rise of Inequality & IV. The Labor Movement",
+     "steps": [
+      "Read sections III and IV",
+      "Read Andrew Carnegie's 'Gospel of Wealth' and Henry George's Progress and Poverty in the Reader and compare them",
+      "Make a chart of the Knights of Labor and the American Federation of Labor"
+     ],
+     "links": [
+      {
+       "label": "Read III. The Rise of Inequality",
+       "url": "https://www.americanyawp.com/textbook/15-capital-and-labor/#III_The_Rise_of_Inequality"
+      },
+      {
+       "label": "Read IV. The Labor Movement",
+       "url": "https://www.americanyawp.com/textbook/15-capital-and-labor/#IV_The_Labor_Movement"
+      },
+      {
+       "label": "Primary source: Andrew Carnegie’s Gospel of Wealth (June 1889)",
+       "url": "https://www.americanyawp.com/reader/16-capital-and-labor/andrew-carnegies-gospel-of-wealth-june-1889/"
+      },
+      {
+       "label": "Primary source: Henry George, Progress and Poverty, Selections (1879)",
+       "url": "https://www.americanyawp.com/reader/16-capital-and-labor/henry-george-progress-and-poverty-selections-1879/"
+      }
+     ],
+     "questions": [
+      "What is social Darwinism?",
+      "What happened at Haymarket Square in 1886?",
+      "Why did Pullman workers strike in 1894?"
+     ],
+     "answers": [
+      "The idea that competition naturally lets the 'fittest' rise, used to justify great wealth and inequality",
+      "A bomb killed police at a labor protest; police fired into the crowd, and anarchists were convicted with little evidence",
+      "Pullman cut wages by a quarter but kept rents in his company town the same"
+     ]
+    },
+    {
+     "title": "V. The Populist Movement",
+     "steps": [
+      "Read section V",
+      "Read the Omaha Platform in the Reader and list its main demands",
+      "Explain how the Farmers' Alliance cooperatives worked"
+     ],
+     "links": [
+      {
+       "label": "Read V. The Populist Movement",
+       "url": "https://www.americanyawp.com/textbook/15-capital-and-labor/#V_The_Populist_Movement"
+      },
+      {
+       "label": "Primary source: The “Omaha Platform” of the People’s Party (1892)",
+       "url": "https://www.americanyawp.com/reader/16-capital-and-labor/the-omaha-platform-of-the-peoples-party-1892/"
+      }
+     ],
+     "questions": [
+      "Why were farmers angry in the late 1800s?",
+      "How well did the Populist candidate James Weaver do in 1892?"
+     ],
+     "answers": [
+      "Falling crop prices, rising debt, and the power of railroads, banks, and monopolies",
+      "Over one million votes and twenty-two electoral votes"
+     ]
+    },
+    {
+     "title": "VI. William Jennings Bryan and the Politics of Gold & VII. American Radicalism & VIII. Conclusion",
+     "steps": [
+      "Read sections VI, VII, and VIII",
+      "Explain free silver and the gold standard in your own words",
+      "Read Lucy Parsons on women and revolutionary socialism in the Reader"
+     ],
+     "links": [
+      {
+       "label": "Read VI. William Jennings Bryan and the Politics of Gold",
+       "url": "https://www.americanyawp.com/textbook/15-capital-and-labor/#VI_William_Jennings_Bryan_and_the_Politics_of_Gold"
+      },
+      {
+       "label": "Read VII. American Radicalism",
+       "url": "https://www.americanyawp.com/textbook/15-capital-and-labor/#VII_American_Radicalism"
+      },
+      {
+       "label": "Read VIII. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/15-capital-and-labor/#VIII_Conclusion"
+      },
+      {
+       "label": "Primary source: Lucy Parsons on Women and Revolutionary Socialism (1905)",
+       "url": "https://www.americanyawp.com/reader/16-capital-and-labor/lucy-parsons-on-women-and-revolutionary-socialism-1905/"
+      }
+     ],
+     "questions": [
+      "Why did Bryan and many farmers want free coinage of silver?",
+      "Which law settled the money debate in 1900?",
+      "When was the Socialist Party of America founded?"
+     ],
+     "answers": [
+      "Inflating the currency would raise prices and ease farmers' debts",
+      "The Gold Standard Act",
+      "1901"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 16: Geographies of Empire",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. Post–Civil War Westward Migration & III. The Indian Wars and Federal Peace Policies",
+     "steps": [
+      "Read sections I, II, and III",
+      "Read Chief Joseph on Indian affairs in the Reader",
+      "Map work: Medicine Lodge Creek, the Black Hills, Little Bighorn, and the Nez Perce route toward Canada"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/16-geographies-of-empire/#I_Introduction"
+      },
+      {
+       "label": "Read II. Post–Civil War Westward Migration",
+       "url": "https://www.americanyawp.com/textbook/16-geographies-of-empire/#II_PostCivil_War_Westward_Migration"
+      },
+      {
+       "label": "Read III. The Indian Wars and Federal Peace Policies",
+       "url": "https://www.americanyawp.com/textbook/16-geographies-of-empire/#III_The_Indian_Wars_and_Federal_Peace_Policies"
+      },
+      {
+       "label": "Primary source: Chief Joseph on Indian Affairs (1877, 1879)",
+       "url": "https://www.americanyawp.com/reader/17-conquering-the-west/chief-joseph-on-indian-affairs-1877-1879/"
+      },
+      {
+       "label": "Chapter 16 primary source reader",
+       "url": "https://www.americanyawp.com/reader/16-geographies-of-empire/"
+      }
+     ],
+     "questions": [
+      "How did the slaughter of the bison herds harm Plains peoples?",
+      "What happened at the Little Bighorn in June 1876?",
+      "What was the Carlisle Indian School?"
+     ],
+     "answers": [
+      "Hunters killed millions for hides, destroying the animals Plains nations depended on",
+      "Lakota and allied bands defeated Custer's 7th Cavalry, killing him and 268 of his men",
+      "The first off-reservation boarding school for Indigenous children, founded in Pennsylvania in 1879"
+     ]
+    },
+    {
+     "title": "IV. Western Economic Expansion: Railroads and Cattle & V. The Allotment Era and Resistance in the Native West",
+     "steps": [
+      "Read sections IV and V",
+      "Read Turning Hawk and American Horse on the Wounded Knee Massacre in the Reader",
+      "Explain in writing how the Dawes Act took land from Native nations"
+     ],
+     "links": [
+      {
+       "label": "Read IV. Western Economic Expansion: Railroads and Cattle",
+       "url": "https://www.americanyawp.com/textbook/16-geographies-of-empire/#IV_Western_Economic_Expansion_Railroads_and_Cattle"
+      },
+      {
+       "label": "Read V. The Allotment Era and Resistance in the Native West",
+       "url": "https://www.americanyawp.com/textbook/16-geographies-of-empire/#V_The_Allotment_Era_and_Resistance_in_the_Native_West"
+      },
+      {
+       "label": "Primary source: Turning Hawk and American Horse on the Wounded Knee Massacre (1890/1891)",
+       "url": "https://www.americanyawp.com/reader/17-conquering-the-west/turning-hawk-and-american-horse-on-the-wounded-knee-massacre-1890-1891/"
+      }
+     ],
+     "questions": [
+      "How many miles of railroad did the United States have in 1850 and in 1900?",
+      "What did the Dawes Act of 1887 do?",
+      "What was the Ghost Dance?"
+     ],
+     "answers": [
+      "About nine thousand in 1850; 190,000 in 1900",
+      "Broke reservations into individual allotments (160 acres per head of family), ending tribal control of the land",
+      "A religious ceremony from the prophet Wovoka's vision, promising renewal for Native peoples who lived peacefully and justly"
+     ]
+    },
+    {
+     "title": "VI. Rodeos, Wild West Shows, and the Mythic American West & VII. The US-Mexico Borderlands",
+     "steps": [
+      "Read sections VI and VII",
+      "Summarize Frederick Jackson Turner's frontier thesis and list two of its blind spots",
+      "Define traqueros and explain their role in the borderlands"
+     ],
+     "links": [
+      {
+       "label": "Read VI. Rodeos, Wild West Shows, and the Mythic American West",
+       "url": "https://www.americanyawp.com/textbook/16-geographies-of-empire/#VI_Rodeos_Wild_West_Shows_and_the_Mythic_American_West"
+      },
+      {
+       "label": "Read VII. The US-Mexico Borderlands",
+       "url": "https://www.americanyawp.com/textbook/16-geographies-of-empire/#VII_The_US-Mexico_Borderlands"
+      }
+     ],
+     "questions": [
+      "Who was Annie Oakley?",
+      "What did the Census Bureau declare in 1890?"
+     ],
+     "answers": [
+      "A sharpshooter, 'Little Sure Shot,' who starred in Buffalo Bill's Wild West show",
+      "That the frontier was closed"
+     ]
+    },
+    {
+     "title": "VIII. Patterns of Foreign Interventions & IX. 1898",
+     "steps": [
+      "Read sections VIII and IX",
+      "Read William McKinley on expansion and William James on the Philippines in the Reader and compare their views",
+      "Timeline: Maine explosion February 1898, Battle of Manila Bay May 1898, annexation of Hawaii July 1898, Philippine-American War 1899–1902"
+     ],
+     "links": [
+      {
+       "label": "Read VIII. Patterns of Foreign Interventions",
+       "url": "https://www.americanyawp.com/textbook/16-geographies-of-empire/#VIII_Patterns_of_Foreign_Interventions"
+      },
+      {
+       "label": "Read IX. 1898",
+       "url": "https://www.americanyawp.com/textbook/16-geographies-of-empire/#IX_1898"
+      },
+      {
+       "label": "Primary source: William McKinley on American Expansionism (1899)",
+       "url": "https://www.americanyawp.com/reader/19-american-empire/william-mckinley-on-american-expanionism-1903/"
+      },
+      {
+       "label": "Primary source: William James on “The Philippine Question” (1903)",
+       "url": "https://www.americanyawp.com/reader/19-american-empire/william-james-on-the-philippine-question-1903/"
+      }
+     ],
+     "questions": [
+      "What was the Guano Islands Act of 1856?",
+      "Why did the explosion of the Maine push the US toward war?",
+      "Why did many Filipinos fight the United States after 1898?"
+     ],
+     "answers": [
+      "The law by which the US first claimed Pacific islands, for their valuable bird-dropping fertilizer",
+      "Yellow journals and many Americans blamed Spain, even before an investigation finished",
+      "The US occupied the islands instead of granting the independence they had fought Spain for"
+     ]
+    },
+    {
+     "title": "X. Theodore Roosevelt and American Imperialism & XI. Women and American Imperialism & XII. Conclusion",
+     "steps": [
+      "Read sections X, XI, and XII",
+      "Define the 'big stick,' dollar diplomacy, and the Roosevelt Corollary",
+      "Write a paragraph on how women both supported and opposed American imperialism"
+     ],
+     "links": [
+      {
+       "label": "Read X. Theodore Roosevelt and American Imperialism",
+       "url": "https://www.americanyawp.com/textbook/16-geographies-of-empire/#X_Theodore_Roosevelt_and_American_Imperialism"
+      },
+      {
+       "label": "Read XI. Women and American Imperialism",
+       "url": "https://www.americanyawp.com/textbook/16-geographies-of-empire/#XI_Women_and_American_Imperialism"
+      },
+      {
+       "label": "Read XII. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/16-geographies-of-empire/#XII_Conclusion"
+      }
+     ],
+     "questions": [
+      "How did the United States acquire the Panama Canal Zone?",
+      "What did the Roosevelt Corollary of 1904 claim?"
+     ],
+     "answers": [
+      "Roosevelt sent naval forces to secure Panama's independence from Colombia in 1903",
+      "A US 'police power' to intervene in Caribbean and Latin American countries"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 17: New Lives",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. A Nation of Immigrants",
+     "steps": [
+      "Read sections I and II",
+      "Read Jacob Riis's How the Other Half Lives or Rose Cohen's memoir in the Reader",
+      "Make a chart of 'push' and 'pull' factors for immigrants"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/17-new-lives/#I_Introduction"
+      },
+      {
+       "label": "Read II. A Nation of Immigrants",
+       "url": "https://www.americanyawp.com/textbook/17-new-lives/#II_A_Nation_of_Immigrants"
+      },
+      {
+       "label": "Primary source: Jacob Riis, How the Other Half Lives (1890)",
+       "url": "https://www.americanyawp.com/reader/18-industrial-america/jacob-riis-how-the-other-half-lives-1890/"
+      },
+      {
+       "label": "Primary source: Rose Cohen on the World Beyond her Immigrant Neighborhood (ca.1897/1918)",
+       "url": "https://www.americanyawp.com/reader/18-industrial-america/rose-cohen-on-the-world-beyond-her-immigrant-neighborhood-ca-1897-1918/"
+      },
+      {
+       "label": "Chapter 17 primary source reader",
+       "url": "https://www.americanyawp.com/reader/17-new-lives/"
+      }
+     ],
+     "questions": [
+      "About how many immigrants arrived in the United States between 1870 and 1920?",
+      "Which immigrants became the first group restricted on the basis of race, and by what law?",
+      "How did the 'new immigrants' differ from earlier ones?"
+     ],
+     "answers": [
+      "Over twenty-five million",
+      "Chinese laborers, by the Chinese Exclusion Act of 1882",
+      "More came from southern and eastern Europe and Asia rather than northern and western Europe"
+     ]
+    },
+    {
+     "title": "III: Urbanization",
+     "steps": [
+      "Read section III",
+      "Read Andrew Carnegie's 'Triumph of America' in the Reader",
+      "Discuss: how did political machines like Tammany Hall both help and exploit immigrants?"
+     ],
+     "links": [
+      {
+       "label": "Read III: Urbanization",
+       "url": "https://www.americanyawp.com/textbook/17-new-lives/#III_Urbanization"
+      },
+      {
+       "label": "Primary source: Andrew Carnegie on “The Triumph of America” (1885)",
+       "url": "https://www.americanyawp.com/reader/18-industrial-america/andrew-carnegie-on-the-triumph-of-america-1885/"
+      }
+     ],
+     "questions": [
+      "What share of Americans lived in towns or cities in 1870, and what about by 1920?",
+      "Why did suburbs grow?"
+     ],
+     "answers": [
+      "About a quarter in 1870; a majority by 1920",
+      "People wanted a middle path between crowded cities and the countryside"
+     ]
+    },
+    {
+     "title": "IV. Black Life and “The New South”",
+     "steps": [
+      "Read section IV",
+      "Read Ida B. Wells-Barnett's 'Lynch Law in America' and Henry Grady's 'New South' speech in the Reader and compare them",
+      "List the legal methods Southern states used to disfranchise Black voters"
+     ],
+     "links": [
+      {
+       "label": "Read IV. Black Life and “The New South”",
+       "url": "https://www.americanyawp.com/textbook/17-new-lives/#IV_Black_Life_and_The_New_South"
+      },
+      {
+       "label": "Primary source: Ida B. Wells-Barnett, “Lynch Law in America” (1900)",
+       "url": "https://www.americanyawp.com/reader/18-industrial-america/ida-b-wells-barnett-lynch-law-in-america-1900/"
+      },
+      {
+       "label": "Primary source: Henry Grady on the New South (1886)",
+       "url": "https://www.americanyawp.com/reader/18-industrial-america/henry-grady-on-the-new-south-1886/"
+      }
+     ],
+     "questions": [
+      "What did Ida B. Wells expose in Southern Horrors (1892)?",
+      "How did Southern states take away Black voting rights between 1890 and 1908?",
+      "What was the Lost Cause?"
+     ],
+     "answers": [
+      "The South's lynching culture and the myth used to justify it",
+      "Literacy tests, poll taxes, and other laws",
+      "A romanticized memory of the Confederacy promoted by groups like the United Daughters of the Confederacy"
+     ]
+    },
+    {
+     "title": "V. Gender, Religion, and Culture & VI. Conclusion",
+     "steps": [
+      "Read sections V and VI",
+      "Read Charlotte Perkins Gilman's 'Why I Wrote The Yellow Wallpaper' in the Reader",
+      "Define muscular Christianity and vaudeville"
+     ],
+     "links": [
+      {
+       "label": "Read V. Gender, Religion, and Culture",
+       "url": "https://www.americanyawp.com/textbook/17-new-lives/#V_Gender_Religion_and_Culture"
+      },
+      {
+       "label": "Read VI. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/17-new-lives/#VI_Conclusion"
+      },
+      {
+       "label": "Primary source: Charlotte Perkins Gilman, “Why I Wrote The Yellow Wallpaper” (1913)",
+       "url": "https://www.americanyawp.com/reader/18-industrial-america/charlotte-perkins-gilman-why-i-wrote-the-yellow-wallpaper-1913/"
+      }
+     ],
+     "questions": [
+      "What did the Comstock Act of 1873 do?",
+      "Which two Edison inventions helped create mass entertainment?"
+     ],
+     "answers": [
+      "Let a postal agent censor 'obscene' material, including birth control information, from the mail",
+      "The phonograph and motion pictures"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 18: The Progressive Era",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. Mobilizing for Reform",
+     "steps": [
+      "Read sections I and II",
+      "Read Walter Rauschenbusch's Christianity and the Social Crisis in the Reader",
+      "Define muckraker and the social gospel, and name one muckraking book"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/18-the-progressive-era/#I_Introduction"
+      },
+      {
+       "label": "Read II. Mobilizing for Reform",
+       "url": "https://www.americanyawp.com/textbook/18-the-progressive-era/#II_Mobilizing_for_Reform"
+      },
+      {
+       "label": "Primary source: Walter Rauschenbusch, Christianity and the Social Crisis (1907)",
+       "url": "https://www.americanyawp.com/reader/20-the-progressive-era/walter-rauschenbusch-christianity-and-the-social-crisis-1907/"
+      },
+      {
+       "label": "Chapter 18 primary source reader",
+       "url": "https://www.americanyawp.com/reader/18-the-progressive-era/"
+      }
+     ],
+     "questions": [
+      "Why did so many workers die in the 1911 Triangle Shirtwaist fire?",
+      "What did Upton Sinclair's The Jungle expose?"
+     ],
+     "answers": [
+      "The doors had been chained shut, and the fire ladder collapsed",
+      "The harsh lives of immigrant workers and the conditions in Chicago's meatpacking industry"
+     ]
+    },
+    {
+     "title": "III. Women’s Movements",
+     "steps": [
+      "Read section III",
+      "Read Jane Addams on social settlements in the Reader and list what Hull House offered its neighbors",
+      "Timeline: NAWSA formed 1890, suffrage parade 1913, Wilson supports suffrage 1918, Nineteenth Amendment ratified 1920"
+     ],
+     "links": [
+      {
+       "label": "Read III. Women’s Movements",
+       "url": "https://www.americanyawp.com/textbook/18-the-progressive-era/#III_Womens_Movements"
+      },
+      {
+       "label": "Primary source: Jane Addams, “The Subjective Necessity for Social Settlements” (1892)",
+       "url": "https://www.americanyawp.com/reader/20-the-progressive-era/jane-addams-the-subjective-necessity-for-social-settlements-1892/"
+      }
+     ],
+     "questions": [
+      "What was Hull House?",
+      "Which two organizations merged in 1890 to form NAWSA, and who led it?",
+      "When was the Nineteenth Amendment ratified?"
+     ],
+     "answers": [
+      "Jane Addams's settlement house in Chicago serving immigrant neighbors",
+      "The two rival suffrage groups (the NWSA and AWSA); led by Susan B. Anthony and Carrie Chapman Catt",
+      "August 1920"
+     ]
+    },
+    {
+     "title": "IV. Targeting the Trusts & V. Progressive Environmentalism",
+     "steps": [
+      "Read sections IV and V",
+      "Read Roosevelt's 'New Nationalism' and Wilson's 'New Freedom' in the Reader and compare their plans for big business",
+      "Explain the difference between preservation and conservation using the Hetch Hetchy debate"
+     ],
+     "links": [
+      {
+       "label": "Read IV. Targeting the Trusts",
+       "url": "https://www.americanyawp.com/textbook/18-the-progressive-era/#IV_Targeting_the_Trusts"
+      },
+      {
+       "label": "Read V. Progressive Environmentalism",
+       "url": "https://www.americanyawp.com/textbook/18-the-progressive-era/#V_Progressive_Environmentalism"
+      },
+      {
+       "label": "Primary source: Theodore Roosevelt on “The New Nationalism” (1910)",
+       "url": "https://www.americanyawp.com/reader/20-the-progressive-era/theodore-roosevelt-on-the-new-nationalism-1910/"
+      },
+      {
+       "label": "Primary source: Woodrow Wilson on the New Freedom (1912)",
+       "url": "https://www.americanyawp.com/reader/20-the-progressive-era/woodrow-wilson-on-the-new-freedom-1912/"
+      }
+     ],
+     "questions": [
+      "What was the Northern Securities Company, and what happened to it?",
+      "Who were the two main sides in the Hetch Hetchy debate?"
+     ],
+     "answers": [
+      "A railroad holding trust controlled by bankers like J. P. Morgan; Roosevelt's administration sued and the courts broke it up in 1904",
+      "John Muir (preservation) against Gifford Pinchot (conservation)"
+     ]
+    },
+    {
+     "title": "VI. Jim Crow and African American Life & VII. Conclusion",
+     "steps": [
+      "Read sections VI and VII",
+      "Read Booker T. Washington and W.E.B. Du Bois on Black progress in the Reader and compare their strategies",
+      "List the tools Southern states used to disfranchise Black voters"
+     ],
+     "links": [
+      {
+       "label": "Read VI. Jim Crow and African American Life",
+       "url": "https://www.americanyawp.com/textbook/18-the-progressive-era/#VI_Jim_Crow_and_African_American_Life"
+      },
+      {
+       "label": "Read VII. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/18-the-progressive-era/#VII_Conclusion"
+      },
+      {
+       "label": "Primary source: Booker T. Washington & W.E.B. DuBois on Black Progress (1895, 1903)",
+       "url": "https://www.americanyawp.com/reader/20-the-progressive-era/booker-t-washington-w-e-b-dubois-on-black-progress-1895-1903/"
+      }
+     ],
+     "questions": [
+      "What was a grandfather clause?",
+      "What did the Supreme Court rule in the Civil Rights Cases of 1883?",
+      "What did Washington's 1895 'Atlanta Compromise' urge?"
+     ],
+     "answers": [
+      "A rule letting anyone vote whose grandfather could vote in 1867, protecting poor white voters from literacy tests and poll taxes",
+      "That the Fourteenth Amendment barred discrimination by states, not by individuals or businesses",
+      "That Black Americans focus on economic self-help and accept segregation for the time being rather than demand political and social rights"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 19: World War I and Its Aftermath",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. Prelude to War & III: The US and Mexico",
+     "steps": [
+      "Read sections I, II, and III",
+      "Map work: label the Triple Alliance and the Triple Entente countries in 1914",
+      "Narrate the US involvement in the Mexican Revolution, from Veracruz to the Punitive Expedition"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/19-world-war-i-and-its-aftermath/#I_Introduction"
+      },
+      {
+       "label": "Read II. Prelude to War",
+       "url": "https://www.americanyawp.com/textbook/19-world-war-i-and-its-aftermath/#II_Prelude_to_War"
+      },
+      {
+       "label": "Read III: The US and Mexico",
+       "url": "https://www.americanyawp.com/textbook/19-world-war-i-and-its-aftermath/#III_The_US_and_Mexico"
+      },
+      {
+       "label": "Chapter 19 primary source reader",
+       "url": "https://www.americanyawp.com/reader/19-world-war-i-its-aftermath/"
+      }
+     ],
+     "questions": [
+      "What event of June 28, 1914, set off the war?",
+      "Why did General Pershing lead the Punitive Expedition into Mexico?"
+     ],
+     "answers": [
+      "Gavrilo Princip assassinated Archduke Franz Ferdinand of Austria-Hungary",
+      "To capture Pancho Villa and break up his rebel forces"
+     ]
+    },
+    {
+     "title": "IV. War Spreads through Europe & V. America Enters the War",
+     "steps": [
+      "Read sections IV and V",
+      "Read Wilson's request for a declaration of war in the Reader and list his reasons",
+      "Discuss how the Army used intelligence tests and what that reveals"
+     ],
+     "links": [
+      {
+       "label": "Read IV. War Spreads through Europe",
+       "url": "https://www.americanyawp.com/textbook/19-world-war-i-and-its-aftermath/#IV_War_Spreads_through_Europe"
+      },
+      {
+       "label": "Read V. America Enters the War",
+       "url": "https://www.americanyawp.com/textbook/19-world-war-i-and-its-aftermath/#V_America_Enters_the_War"
+      },
+      {
+       "label": "Primary source: Woodrow Wilson Requests War (April 2, 1917)",
+       "url": "https://www.americanyawp.com/reader/21-world-war-i/woodrow-wilson-requests-war-april-2-1917/"
+      }
+     ],
+     "questions": [
+      "What was the Zimmermann Telegram?",
+      "What did the Selective Service Act of 1917 do?"
+     ],
+     "answers": [
+      "A German offer to help Mexico regain Texas, New Mexico, and Arizona if it joined the war against the US",
+      "Created a draft requiring men (at first ages twenty-one to thirty) to register for military service"
+     ]
+    },
+    {
+     "title": "VI. On the Homefront & VII. Before the Armistice & VIII. The War and the Influenza Pandemic",
+     "steps": [
+      "Read sections VI, VII, and VIII",
+      "Read the Sedition Act of 1918 and Emma Goldman on patriotism in the Reader",
+      "Read Lutiant Van Wert's description of the 1918 flu in the Reader"
+     ],
+     "links": [
+      {
+       "label": "Read VI. On the Homefront",
+       "url": "https://www.americanyawp.com/textbook/19-world-war-i-and-its-aftermath/#VI_On_the_Homefront"
+      },
+      {
+       "label": "Read VII. Before the Armistice",
+       "url": "https://www.americanyawp.com/textbook/19-world-war-i-and-its-aftermath/#VII_Before_the_Armistice"
+      },
+      {
+       "label": "Read VIII. The War and the Influenza Pandemic",
+       "url": "https://www.americanyawp.com/textbook/19-world-war-i-and-its-aftermath/#VIII_The_War_and_the_Influenza_Pandemic"
+      },
+      {
+       "label": "Primary source: The Sedition Act of 1918 (1918)",
+       "url": "https://www.americanyawp.com/reader/21-world-war-i/the-sedition-act-of-1918-1918/"
+      },
+      {
+       "label": "Primary source: Emma Goldman on Patriotism (July 9, 1917)",
+       "url": "https://www.americanyawp.com/reader/21-world-war-i/emma-goldman-on-patriotism-july-9-1917/"
+      },
+      {
+       "label": "Primary source: Lutiant Van Wert describes the 1918 Flu Pandemic (1918)",
+       "url": "https://www.americanyawp.com/reader/21-world-war-i/lutiant-van-wert-describes-the-1918-flu-pandemic-1918/"
+      }
+     ],
+     "questions": [
+      "How many Americans served in World War I, and how many died?",
+      "Where was the 1918 flu first reported in the US?",
+      "What happened in Russia in November 1917?"
+     ],
+     "answers": [
+      "More than 4.7 million served; over one hundred thousand died",
+      "Haskell County, Kansas, and nearby Camp Funston",
+      "Lenin's Bolsheviks took power, and Russia soon left the war"
+     ]
+    },
+    {
+     "title": "IX. The Fourteen Points and the League of Nations & X. Aftermath of World War I & XI. Conclusion",
+     "steps": [
+      "Read sections IX, X, and XI",
+      "Read W.E.B. Du Bois's 'Returning Soldiers' in the Reader",
+      "Write a paragraph on why the Senate rejected the League of Nations"
+     ],
+     "links": [
+      {
+       "label": "Read IX. The Fourteen Points and the League of Nations",
+       "url": "https://www.americanyawp.com/textbook/19-world-war-i-and-its-aftermath/#IX_The_Fourteen_Points_and_the_League_of_Nations"
+      },
+      {
+       "label": "Read X. Aftermath of World War I",
+       "url": "https://www.americanyawp.com/textbook/19-world-war-i-and-its-aftermath/#X_Aftermath_of_World_War_I"
+      },
+      {
+       "label": "Read XI. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/19-world-war-i-and-its-aftermath/#XI_Conclusion"
+      },
+      {
+       "label": "Primary source: W.E.B DuBois, “Returning Soldiers” (May, 1919)",
+       "url": "https://www.americanyawp.com/reader/21-world-war-i/w-e-b-dubois-returning-soldiers-may-1919/"
+      }
+     ],
+     "questions": [
+      "What were the Fourteen Points?",
+      "Who led the Senate opposition to the League of Nations?",
+      "What was the 'Red Summer' of 1919?"
+     ],
+     "answers": [
+      "Wilson's 1918 plan for peace and a new world order, including a League of Nations",
+      "Senator Henry Cabot Lodge of Massachusetts",
+      "A wave of racial violence against Black Americans in at least twenty-five cities"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 20: The New Era",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. Republican White House, 1921–1933 & III. Culture of Consumption",
+     "steps": [
+      "Read sections I, II, and III",
+      "Read Warren Harding's 'Return to Normalcy' speech in the Reader",
+      "List five consumer products or habits that became common in the 1920s"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/20-the-new-era/#I_Introduction"
+      },
+      {
+       "label": "Read II. Republican White House, 1921–1933",
+       "url": "https://www.americanyawp.com/textbook/20-the-new-era/#II_Republican_White_House_19211933"
+      },
+      {
+       "label": "Read III. Culture of Consumption",
+       "url": "https://www.americanyawp.com/textbook/20-the-new-era/#III_Culture_of_Consumption"
+      },
+      {
+       "label": "Primary source: Warren G. Harding and the “Return to Normalcy” (1920)",
+       "url": "https://www.americanyawp.com/reader/22-the-new-era/warren-g-harding-and-the-return-to-normalcy-1920/"
+      },
+      {
+       "label": "Chapter 20 primary source reader",
+       "url": "https://www.americanyawp.com/reader/20-the-new-era/"
+      }
+     ],
+     "questions": [
+      "What was the Teapot Dome scandal?",
+      "What did Harding promise voters in 1920?"
+     ],
+     "answers": [
+      "Officials leased government oil land in Wyoming to oil companies for cash; Interior Secretary Albert Fall went to jail",
+      "A 'return to normalcy'"
+     ]
+    },
+    {
+     "title": "IV. Culture of Escape",
+     "steps": [
+      "Read section IV",
+      "Make a chart of the new 'culture of escape': cars, movies, radio, jazz, sports heroes",
+      "Write a paragraph on why Americans of the 1920s craved heroes like Babe Ruth and Charles Lindbergh"
+     ],
+     "links": [
+      {
+       "label": "Read IV. Culture of Escape",
+       "url": "https://www.americanyawp.com/textbook/20-the-new-era/#IV_Culture_of_Escape"
+      }
+     ],
+     "questions": [
+      "How much did weekly movie attendance grow between 1912 and the early 1920s?",
+      "Where did jazz first become popular, and how did it spread?"
+     ],
+     "answers": [
+      "From sixteen million to forty million",
+      "In the African American community of New Orleans; it spread mainly by radio and records"
+     ]
+    },
+    {
+     "title": "V. “The New Woman” & VI. “The New Negro”",
+     "steps": [
+      "Read sections V and VI",
+      "Read 'A Flapper's Appeal to Parents' and Alain Locke on the 'New Negro' in the Reader",
+      "Discuss whether the flapper image fits most women of the 1920s"
+     ],
+     "links": [
+      {
+       "label": "Read V. “The New Woman”",
+       "url": "https://www.americanyawp.com/textbook/20-the-new-era/#V_The_New_Woman"
+      },
+      {
+       "label": "Read VI. “The New Negro”",
+       "url": "https://www.americanyawp.com/textbook/20-the-new-era/#VI_The_New_Negro"
+      },
+      {
+       "label": "Primary source: Ellen Welles Page, “A Flapper’s Appeal to Parents” (1922)",
+       "url": "https://www.americanyawp.com/reader/22-the-new-era/ellen-welles-page-a-flappers-appeal-to-parents-1922/"
+      },
+      {
+       "label": "Primary source: Alain Locke on the “New Negro” (1925)",
+       "url": "https://www.americanyawp.com/reader/22-the-new-era/alain-locke-on-the-new-negro-1925/"
+      }
+     ],
+     "questions": [
+      "Where did most young, middle-class, white working women find jobs in the 1920s?",
+      "What was the UNIA, and who led it?"
+     ],
+     "answers": [
+      "In offices, as clerks and secretaries",
+      "The Universal Negro Improvement Association, led by Marcus Garvey"
+     ]
+    },
+    {
+     "title": "VII. Culture War & VIII. Fundamentalist Christianity",
+     "steps": [
+      "Read sections VII and VIII",
+      "Narrate the Scopes trial and explain why it drew national attention",
+      "Explain how the Johnson-Reed Act's quotas worked"
+     ],
+     "links": [
+      {
+       "label": "Read VII. Culture War",
+       "url": "https://www.americanyawp.com/textbook/20-the-new-era/#VII_Culture_War"
+      },
+      {
+       "label": "Read VIII. Fundamentalist Christianity",
+       "url": "https://www.americanyawp.com/textbook/20-the-new-era/#VIII_Fundamentalist_Christianity"
+      }
+     ],
+     "questions": [
+      "How did the Johnson-Reed Act of 1924 set immigration quotas?",
+      "What did the Indian Citizenship Act of 1924 do?",
+      "Which law did John Scopes break?"
+     ],
+     "answers": [
+      "Two percent of each nationality's US population in 1890, which favored northern and western Europeans",
+      "Declared all Native Americans born in the US to be citizens",
+      "Tennessee's Butler Act, which banned teaching evolution in public schools"
+     ]
+    },
+    {
+     "title": "IX. Rebirth of the Ku Klux Klan & X. Conclusion",
+     "steps": [
+      "Read sections IX and X",
+      "Read Hiram Evans on 'The Klan's Fight for Americanism' in the Reader, and note whom he targets",
+      "Write a short response: what weaknesses in the 1920s economy did Hoover fail to see?"
+     ],
+     "links": [
+      {
+       "label": "Read IX. Rebirth of the Ku Klux Klan",
+       "url": "https://www.americanyawp.com/textbook/20-the-new-era/#IX_Rebirth_of_the_Ku_Klux_Klannbsp"
+      },
+      {
+       "label": "Read X. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/20-the-new-era/#X_Conclusion"
+      },
+      {
+       "label": "Primary source: Hiram Evans on the “The Klan’s Fight for Americanism” (1926)",
+       "url": "https://www.americanyawp.com/reader/22-the-new-era/hiram-evans-on-the-the-klans-fight-for-americanism-1926/"
+      }
+     ],
+     "questions": [
+      "Which two events of 1915 helped inspire the second Klan?",
+      "How was the second Klan different from the first?"
+     ],
+     "answers": [
+      "The lynching of Leo Frank and the release of The Birth of a Nation",
+      "It reached far beyond the South and drew many middle-class members, targeting immigrants, Catholics, and Jews as well as Black Americans"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 21: The Great Depression",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. The Origins of the Great Depression",
+     "steps": [
+      "Read sections I and II",
+      "List the structural weaknesses of the 1920s economy that led to the Depression",
+      "Graph or describe unemployment from 1929 to 1933"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/21-the-great-depression/#I_Introduction"
+      },
+      {
+       "label": "Read II. The Origins of the Great Depression",
+       "url": "https://www.americanyawp.com/textbook/21-the-great-depression/#II_The_Origins_of_the_Great_Depression"
+      },
+      {
+       "label": "Chapter 21 primary source reader",
+       "url": "https://www.americanyawp.com/reader/21-the-great-depression/"
+      }
+     ],
+     "questions": [
+      "What happened on October 24, 1929?",
+      "What share of Americans had brokerage accounts in the 1920s?"
+     ],
+     "answers": [
+      "Stock prices suddenly plunged, setting off the crash",
+      "Only 2.5 percent"
+     ]
+    },
+    {
+     "title": "III. Herbert Hoover and the Politics of the Depression & IV. The Lived Experience of the Great Depression",
+     "steps": [
+      "Read sections III and IV",
+      "Read Lester Hunter's 'I'd Rather Not Be on Relief' in the Reader",
+      "Define associationalism and Hooverville"
+     ],
+     "links": [
+      {
+       "label": "Read III. Herbert Hoover and the Politics of the Depression",
+       "url": "https://www.americanyawp.com/textbook/21-the-great-depression/#III_Herbert_Hoover_and_the_Politics_of_the_Depression"
+      },
+      {
+       "label": "Read IV. The Lived Experience of the Great Depression",
+       "url": "https://www.americanyawp.com/textbook/21-the-great-depression/#IV_The_Lived_Experience_of_the_Great_Depression"
+      },
+      {
+       "label": "Primary source: Lester Hunter, “I’d Rather Not Be on Relief” (1938)",
+       "url": "https://www.americanyawp.com/reader/23-the-great-depression/lester-hunter-id-rather-not-be-on-relief-1938/"
+      }
+     ],
+     "questions": [
+      "How did Hoover first try to fight the Depression?",
+      "Why was the Depression especially hard on nonwhite Americans?"
+     ],
+     "answers": [
+      "Through volunteerism: asking business and local charities to act, while resisting direct federal relief",
+      "They already faced discrimination and were usually the last hired and the first fired"
+     ]
+    },
+    {
+     "title": "V. Migration and the Great Depression & VI. The Bonus Army",
+     "steps": [
+      "Read sections V and VI",
+      "Read Bertha McCall on America's 'Moving People' in the Reader",
+      "Narrate the Bonus Army's march and how it ended"
+     ],
+     "links": [
+      {
+       "label": "Read V. Migration and the Great Depression",
+       "url": "https://www.americanyawp.com/textbook/21-the-great-depression/#V_Migration_and_the_Great_Depression"
+      },
+      {
+       "label": "Read VI. The Bonus Army",
+       "url": "https://www.americanyawp.com/textbook/21-the-great-depression/#VI_The_Bonus_Army"
+      },
+      {
+       "label": "Primary source: Bertha McCall on America’s “Moving People” (1940)",
+       "url": "https://www.americanyawp.com/reader/23-the-great-depression/bertha-mccall-on-americas-moving-people-1940/"
+      }
+     ],
+     "questions": [
+      "What caused the Dust Bowl?",
+      "What happened to many Mexican and Mexican American families during the Depression?",
+      "Who led the troops that drove out the Bonus Army?"
+     ],
+     "answers": [
+      "Years of drought from 1932 on, after farmers had plowed up the Plains' natural ground cover",
+      "As many as a million were pushed out of the country, including children born in the United States",
+      "General Douglas MacArthur"
+     ]
+    },
+    {
+     "title": "VII. Franklin Delano Roosevelt and the “First” New Deal",
+     "steps": [
+      "Read section VII",
+      "Make a chart of First New Deal programs and their purpose (banking acts, CCC, AAA, NRA)",
+      "Read Hoover's critique of the New Deal in the Reader and summarize his objection"
+     ],
+     "links": [
+      {
+       "label": "Read VII. Franklin Delano Roosevelt and the “First” New Deal",
+       "url": "https://www.americanyawp.com/textbook/21-the-great-depression/#VII_Franklin_Delano_Roosevelt_and_the_First_New_Deal"
+      },
+      {
+       "label": "Primary source: Herbert Hoover on the New Deal (1932)",
+       "url": "https://www.americanyawp.com/reader/23-the-great-depression/herbert-hoover-on-the-new-deal-1932/"
+      }
+     ],
+     "questions": [
+      "What was unemployment at its 1932 peak?",
+      "What were the AAA and NRA meant to do?"
+     ],
+     "answers": [
+      "25 percent",
+      "Stabilize and coordinate farming (AAA) and industry (NRA), raising prices and wages"
+     ]
+    },
+    {
+     "title": "VIII. The New Deal in the South & IX. Voices of Protest",
+     "steps": [
+      "Read sections VIII and IX",
+      "Read Huey Long's 'Share Our Wealth' speech in the Reader",
+      "Explain what the TVA did for the Tennessee Valley"
+     ],
+     "links": [
+      {
+       "label": "Read VIII. The New Deal in the South",
+       "url": "https://www.americanyawp.com/textbook/21-the-great-depression/#VIII_The_New_Deal_in_the_South"
+      },
+      {
+       "label": "Read IX. Voices of Protest",
+       "url": "https://www.americanyawp.com/textbook/21-the-great-depression/#IX_Voices_of_Protest"
+      },
+      {
+       "label": "Primary source: Huey P. Long, “Every Man a King” and “Share our Wealth” (1934)",
+       "url": "https://www.americanyawp.com/reader/23-the-great-depression/huey-p-long-every-man-a-king-and-share-our-wealth-1934/"
+      }
+     ],
+     "questions": [
+      "What did Huey Long's Share Our Wealth plan propose?",
+      "What did the Supreme Court decide on 'Black Monday,' May 27, 1935?"
+     ],
+     "answers": [
+      "Taking wealth from the very rich and redistributing it through guaranteed minimum incomes",
+      "That the NRA was unconstitutional"
+     ]
+    },
+    {
+     "title": "X. The “Second” New Deal (1935–1936) & XI. Equal Rights and the New Deal & XII. The End of the New Deal (1937–1939) & XIII. The Legacy of the New Deal",
+     "steps": [
+      "Read sections X through XIII",
+      "Read FDR's second inaugural address in the Reader",
+      "Write a paragraph on the New Deal's limits for African Americans and women",
+      "Timeline: Wagner Act and Social Security 1935, landslide 1936, court-packing plan and recession 1937, Fair Labor Standards Act 1938"
+     ],
+     "links": [
+      {
+       "label": "Read X. The “Second” New Deal (1935–1936)",
+       "url": "https://www.americanyawp.com/textbook/21-the-great-depression/#X_The_Second_New_Deal_19351936"
+      },
+      {
+       "label": "Read XI. Equal Rights and the New Deal",
+       "url": "https://www.americanyawp.com/textbook/21-the-great-depression/#XI_Equal_Rights_and_the_New_Deal"
+      },
+      {
+       "label": "Read XII. The End of the New Deal (1937–1939)",
+       "url": "https://www.americanyawp.com/textbook/21-the-great-depression/#XII_The_End_of_the_New_Deal_19371939"
+      },
+      {
+       "label": "Read XIII. The Legacy of the New Deal",
+       "url": "https://www.americanyawp.com/textbook/21-the-great-depression/#XIII_The_Legacy_of_the_New_Deal"
+      },
+      {
+       "label": "Primary source: Second Inaugural Address of Franklin D. Roosevelt (1937)",
+       "url": "https://www.americanyawp.com/reader/23-the-great-depression/second-inaugural-address-of-franklin-d-roosevelt-1937/"
+      }
+     ],
+     "questions": [
+      "What did the Wagner Act guarantee?",
+      "How did Southern politicians shape the Social Security Act?",
+      "What was Roosevelt's 'court-packing' plan?"
+     ],
+     "answers": [
+      "Federal legal protection for workers to organize unions",
+      "They got domestic workers and farm laborers left out, excluding many African Americans",
+      "Adding a new justice for each sitting justice over seventy, up to six"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 22: World War II",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. The Collapse of the Post–World War I Order",
+     "steps": [
+      "Read sections I and II",
+      "Timeline: Manchurian Incident 1931, Stimson Doctrine 1932, Neutrality Acts of the 1930s",
+      "Explain why the Great Depression made the post–World War I order collapse"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/22-world-war-ii/#I_Introduction"
+      },
+      {
+       "label": "Read II. The Collapse of the Post–World War I Order",
+       "url": "https://www.americanyawp.com/textbook/22-world-war-ii/#II_The_Collapse_of_the_PostWorld_War_I_Order"
+      },
+      {
+       "label": "Chapter 22 primary source reader",
+       "url": "https://www.americanyawp.com/reader/22-world-war-ii/"
+      }
+     ],
+     "questions": [
+      "What was the Manchurian (September 18) Incident?",
+      "What was the Stimson Doctrine?"
+     ],
+     "answers": [
+      "A 1931 explosion on a Japanese-run railway that Japan used as a pretext to seize Manchuria",
+      "The US refusal to recognize territory taken by force, in protest of Japan's seizure of Manchuria"
+     ]
+    },
+    {
+     "title": "III. The World at War & IV. The Loosening of American Neutrality",
+     "steps": [
+      "Read sections III and IV",
+      "Read Charles Lindbergh's 'America First' speech and the Atlantic Charter in the Reader and compare them",
+      "Map work: Austria, the Sudetenland, Poland, France, Britain, and the Soviet Union, 1938–1941"
+     ],
+     "links": [
+      {
+       "label": "Read III. The World at War",
+       "url": "https://www.americanyawp.com/textbook/22-world-war-ii/#III_The_World_at_War"
+      },
+      {
+       "label": "Read IV. The Loosening of American Neutrality",
+       "url": "https://www.americanyawp.com/textbook/22-world-war-ii/#IV_The_Loosening_of_American_Neutrality"
+      },
+      {
+       "label": "Primary source: Charles A. Lindbergh, “America First” (1941)",
+       "url": "https://www.americanyawp.com/reader/24-world-war-ii/charles-a-lindbergh-america-first-1941/"
+      },
+      {
+       "label": "Primary source: The Atlantic Charter (1941)",
+       "url": "https://www.americanyawp.com/reader/24-world-war-ii/937-2/"
+      }
+     ],
+     "questions": [
+      "What happened to the refugee ship St. Louis in 1939?",
+      "What did the Lend-Lease Act allow?",
+      "What was the Molotov-Ribbentrop Pact?"
+     ],
+     "answers": [
+      "Over nine hundred Jewish refugees were refused entry to the United States and other countries",
+      "The US to supply the Allies with weapons and equipment as well as food while still officially neutral",
+      "A secret Nazi-Soviet agreement to split Poland and not attack each other"
+     ]
+    },
+    {
+     "title": "V. America at War",
+     "steps": [
+      "Read section V",
+      "Read Truman's announcement of the bombing of Hiroshima in the Reader",
+      "Map work: Pearl Harbor, the Philippines, North Africa, Italy, Normandy, Iwo Jima, Okinawa, Hiroshima, Nagasaki"
+     ],
+     "links": [
+      {
+       "label": "Read V. America at War",
+       "url": "https://www.americanyawp.com/textbook/22-world-war-ii/#V_America_at_War"
+      },
+      {
+       "label": "Primary source: Harry Truman Announcing the Atomic Bombing of Hiroshima (1945)",
+       "url": "https://www.americanyawp.com/reader/24-world-war-ii/harry-truman-announcing-the-atomic-bombing-of-hiroshima-1945/"
+      }
+     ],
+     "questions": [
+      "About how many Americans served in World War II, and how many were drafted?",
+      "What was D-Day?",
+      "What was the Manhattan Project?"
+     ],
+     "answers": [
+      "Almost eighteen million; over ten million were drafted",
+      "The June 1944 Allied invasion of France, the largest amphibious assault in history",
+      "The secret US program to build an atomic bomb"
+     ]
+    },
+    {
+     "title": "VI. The Wartime Economy & VII. Women and World War II",
+     "steps": [
+      "Read sections VI and VII",
+      "List the ways civilians supported the war (rationing, war bonds, factory work, volunteering)",
+      "Write a paragraph on what changed for women during the war and what changed back afterward"
+     ],
+     "links": [
+      {
+       "label": "Read VI. The Wartime Economy",
+       "url": "https://www.americanyawp.com/textbook/22-world-war-ii/#VI_The_Wartime_Economy"
+      },
+      {
+       "label": "Read VII. Women and World War II",
+       "url": "https://www.americanyawp.com/textbook/22-world-war-ii/#VII_Women_and_World_War_II"
+      }
+     ],
+     "questions": [
+      "What was the Bracero Program?",
+      "About how many women served in the military in World War II?"
+     ],
+     "answers": [
+      "A 1942 US-Mexico agreement bringing contracted Mexican farmworkers to the United States",
+      "Over 350,000"
+     ]
+    },
+    {
+     "title": "VIII. Race and World War II",
+     "steps": [
+      "Read section VIII",
+      "Read Executive Order 9066 and Aiko Herzig-Yoshinaga's account in the Reader",
+      "Discuss the 'Double V' idea and what Black Americans gained and still lacked during the war"
+     ],
+     "links": [
+      {
+       "label": "Read VIII. Race and World War II",
+       "url": "https://www.americanyawp.com/textbook/22-world-war-ii/#VIII_Race_and_World_War_II"
+      },
+      {
+       "label": "Primary source: FDR, Executive Order No. 9066 (1942)",
+       "url": "https://www.americanyawp.com/reader/24-world-war-ii/fdr-executive-order-no-9066-1942/"
+      },
+      {
+       "label": "Primary source: Aiko Herzig-Yoshinaga on Japanese Internment (1942/1994)",
+       "url": "https://www.americanyawp.com/reader/24-world-war-ii/aiko-herzig-yoshinaga-on-japanese-internment-1942-1994/"
+      }
+     ],
+     "questions": [
+      "What did A. Philip Randolph's threatened march win?",
+      "What did the 1982 report Personal Justice Denied conclude about Japanese American incarceration?",
+      "Why did US officials refuse to bomb the death camps or the rail lines to them?"
+     ],
+     "answers": [
+      "Executive Order 8802, banning racial and religious discrimination in defense industries",
+      "That it was caused by race prejudice, war hysteria, and a failure of political leadership",
+      "They argued it would do little to stop deportations, would distract from the war effort, and would kill prisoners"
+     ]
+    },
+    {
+     "title": "IX. Toward a Postwar World & X. Conclusion",
+     "steps": [
+      "Read sections IX and X",
+      "Read Ho Chi Minh's Declaration of Independence for Vietnam in the Reader and compare it with the US Declaration",
+      "List what the G.I. Bill offered and who was left out"
+     ],
+     "links": [
+      {
+       "label": "Read IX. Toward a Postwar World",
+       "url": "https://www.americanyawp.com/textbook/22-world-war-ii/#IX_Toward_a_Postwar_World"
+      },
+      {
+       "label": "Read X. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/22-world-war-ii/#X_Conclusion"
+      },
+      {
+       "label": "Primary source: Declaration of Independence of the Democratic Republic of Vietnam (1945)",
+       "url": "https://www.americanyawp.com/reader/24-world-war-ii/declaration-of-independence-of-the-democratic-republic-of-vietnam-1945/"
+      }
+     ],
+     "questions": [
+      "What were Roosevelt's Four Freedoms?",
+      "What did the 1944 Bretton Woods conference create?"
+     ],
+     "answers": [
+      "Freedom of speech, freedom of worship, freedom from want, and freedom from fear",
+      "The International Monetary Fund and the World Bank, with the global economy pegged to the dollar"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 23: The Cold War",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. Political, Economic, and Military Dimensions",
+     "steps": [
+      "Read sections I and II",
+      "Read the Truman Doctrine in the Reader",
+      "Timeline: Long Telegram 1946, Truman Doctrine 1947, Marshall Plan 1948, Berlin Airlift 1948–1949, NATO 1949, Korean War 1950–1953"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/23-the-cold-war/#I_Introduction"
+      },
+      {
+       "label": "Read II. Political, Economic, and Military Dimensions",
+       "url": "https://www.americanyawp.com/textbook/23-the-cold-war/#II_Political_Economic_and_Military_Dimensions"
+      },
+      {
+       "label": "Primary source: The Truman Doctrine (1947)",
+       "url": "https://www.americanyawp.com/reader/25-the-cold-war/the-truman-doctrine-1947/"
+      },
+      {
+       "label": "Chapter 23 primary source reader",
+       "url": "https://www.americanyawp.com/reader/23-the-cold-war/"
+      }
+     ],
+     "questions": [
+      "What was containment?",
+      "How did the United States respond to the Soviet blockade of Berlin?",
+      "When did the Korean War armistice come?"
+     ],
+     "answers": [
+      "The policy of stopping the spread of Soviet communism",
+      "With an airlift that flew supplies into West Berlin for eleven months",
+      "July 27, 1953"
+     ]
+    },
+    {
+     "title": "III. The Arms Buildup, the Space Race, and Technological Advancement",
+     "steps": [
+      "Read section III",
+      "Read Eisenhower's 'Atoms for Peace' in the Reader",
+      "Make a chart of Cold War technology: hydrogen bomb, ICBMs, Sputnik, NASA, computers"
+     ],
+     "links": [
+      {
+       "label": "Read III. The Arms Buildup, the Space Race, and Technological Advancement",
+       "url": "https://www.americanyawp.com/textbook/23-the-cold-war/#III_The_Arms_Buildup_the_Space_Race_and_Technological_Advancement"
+      },
+      {
+       "label": "Primary source: Dwight D. Eisenhower, “Atoms for Peace” (1953)",
+       "url": "https://www.americanyawp.com/reader/25-the-cold-war/dwight-d-eisenhower-atoms-for-peace-1953/"
+      }
+     ],
+     "questions": [
+      "When did the United States test the first hydrogen bomb?",
+      "What was created in 1958 in response to the space race?"
+     ],
+     "answers": [
+      "November 1, 1952",
+      "NASA"
+     ]
+    },
+    {
+     "title": "IV. The Cold War Red Scare, McCarthyism, and Liberal Anti-Communism",
+     "steps": [
+      "Read section IV",
+      "Read Senator Margaret Chase Smith's 'Declaration of Conscience' and Joseph McCarthy's speech in the Reader and compare them",
+      "Explain how the Red Scare pushed Americans toward conformity in religion, family, and politics"
+     ],
+     "links": [
+      {
+       "label": "Read IV. The Cold War Red Scare, McCarthyism, and Liberal Anti-Communism",
+       "url": "https://www.americanyawp.com/textbook/23-the-cold-war/#IV_The_Cold_War_Red_Scare_McCarthyism_and_Liberal_Anti-Communism"
+      },
+      {
+       "label": "Primary source: Senator Margaret Chase Smith’s “Declaration of Conscience” (1950)",
+       "url": "https://www.americanyawp.com/reader/25-the-cold-war/senator-margaret-chase-smiths-declaration-of-conscience-1950/"
+      },
+      {
+       "label": "Primary source: Joseph McCarthy on Communism (1950)",
+       "url": "https://www.americanyawp.com/reader/25-the-cold-war/joseph-mccarthy-on-communism-1950/"
+      }
+     ],
+     "questions": [
+      "What did McCarthy claim in his 1950 Wheeling speech?",
+      "What was HUAC?",
+      "What helped end McCarthy's influence in 1954?"
+     ],
+     "answers": [
+      "That he held a list of 205 known Communist Party members still working in the State Department (he had no real list)",
+      "The House Un-American Activities Committee, which investigated alleged communists",
+      "The televised Army-McCarthy hearings, where Joseph Welch asked 'Have you no sense of decency?'"
+     ]
+    },
+    {
+     "title": "V. Decolonization and the Global Reach of the ‘American Century’ & VII. Conclusion",
+     "steps": [
+      "Read sections V and VII",
+      "Map work: Iran, Guatemala, Cuba, Vietnam",
+      "Write a paragraph on how Cold War thinking shaped the US response to independence movements"
+     ],
+     "links": [
+      {
+       "label": "Read V. Decolonization and the Global Reach of the ‘American Century’",
+       "url": "https://www.americanyawp.com/textbook/23-the-cold-war/#V_Decolonization_and_the_Global_Reach_of_the_American_Century"
+      },
+      {
+       "label": "Read VII. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/23-the-cold-war/#VII_Conclusion"
+      }
+     ],
+     "questions": [
+      "What did Eisenhower warn about with the phrase 'military-industrial complex'?",
+      "Which elected leaders did the CIA help overthrow in Iran and Guatemala?",
+      "What led to the Cuban Missile Crisis?"
+     ],
+     "answers": [
+      "The growing influence of the connections between arms makers, Congress, and the Defense Department",
+      "Mohammad Mosaddegh in Iran and Jacobo Árbenz in Guatemala",
+      "Cuba allied with the Soviet Union, which placed nuclear missiles there in 1962, partly in response to US missiles in Turkey"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 24: The Affluent Society",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. The Rise of the Suburbs",
+     "steps": [
+      "Read sections I and II",
+      "Read Richard Nixon on the American standard of living in the Reader",
+      "Explain redlining in your own words and how federal policy built segregated suburbs"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/24-the-affluent-society/#I_Introduction"
+      },
+      {
+       "label": "Read II. The Rise of the Suburbs",
+       "url": "https://www.americanyawp.com/textbook/24-the-affluent-society/#II_The_Rise_of_the_Suburbs"
+      },
+      {
+       "label": "Primary source: Richard Nixon on the American Standard of Living (1959)",
+       "url": "https://www.americanyawp.com/reader/26-the-affluent-society/richard-nixon-on-the-american-standard-of-living-1959/"
+      },
+      {
+       "label": "Chapter 24 primary source reader",
+       "url": "https://www.americanyawp.com/reader/24-the-affluent-society/"
+      }
+     ],
+     "questions": [
+      "Where and when did William Levitt build the first Levittown?",
+      "What was redlining?",
+      "Why did the Federal Housing Administration matter so much to postwar suburbs?"
+     ],
+     "answers": [
+      "On Long Island, New York, in 1946",
+      "Grading neighborhoods, often by their racial makeup, and shading the 'riskiest' in red so banks limited loans there",
+      "It insured mortgages, making home loans easier to get, but mostly for white buyers in approved areas"
+     ]
+    },
+    {
+     "title": "III. Race and Education",
+     "steps": [
+      "Read section III",
+      "Read the Brown v. Board of Education decision in the Reader",
+      "Write a paragraph on why Brown was a landmark even though integration came slowly"
+     ],
+     "links": [
+      {
+       "label": "Read III. Race and Education",
+       "url": "https://www.americanyawp.com/textbook/24-the-affluent-society/#III_Race_and_Education"
+      },
+      {
+       "label": "Primary source: Brown v. Board of Education of Topeka (1954)",
+       "url": "https://www.americanyawp.com/reader/26-the-affluent-society/brown-v-board-of-education-of-topeka-1954/"
+      }
+     ],
+     "questions": [
+      "What did the Supreme Court decide in Brown v. Board of Education (1954)?",
+      "In Clarendon County, South Carolina, how much was spent per white student and per Black student in 1950?"
+     ],
+     "answers": [
+      "Unanimously, that segregated schools violated the Fourteenth Amendment's equal protection clause; separate schools are inherently unequal",
+      "$179 per white student and $43 per Black student"
+     ]
+    },
+    {
+     "title": "IV. Civil Rights in the Affluent Society",
+     "steps": [
+      "Read section IV",
+      "Read Rosa Parks on life in Montgomery or the Hernandez v. Texas ruling in the Reader",
+      "Timeline: Hernandez and Brown 1954, Emmett Till 1955, Montgomery Bus Boycott 1955–1956, SCLC and Little Rock 1957, Greensboro sit-ins 1960"
+     ],
+     "links": [
+      {
+       "label": "Read IV. Civil Rights in the Affluent Society",
+       "url": "https://www.americanyawp.com/textbook/24-the-affluent-society/#IV_Civil_Rights_in_the_Affluent_Society"
+      },
+      {
+       "label": "Primary source: Rosa Parks on Life in Montgomery, Alabama (1956-1958)",
+       "url": "https://www.americanyawp.com/reader/26-the-affluent-society/rosa-parks-on-life-in-montgomery-alabama-1956-1958/"
+      },
+      {
+       "label": "Primary source: Hernandez v. Texas (1954)",
+       "url": "https://www.americanyawp.com/reader/26-the-affluent-society/hernandez-v-texas-1954/"
+      }
+     ],
+     "questions": [
+      "Who organized the leaflets that launched the Montgomery Bus Boycott?",
+      "What did Hernandez v. Texas (1954) decide?",
+      "What happened at Little Rock Central High School in 1957?"
+     ],
+     "answers": [
+      "Joanne Robinson and the Women's Political Council",
+      "That Mexican Americans were a distinct class entitled to equal protection under the Fourteenth Amendment",
+      "Governor Faubus used the National Guard to block nine Black students from integrating the school"
+     ]
+    },
+    {
+     "title": "V. Gender and Culture in the Affluent Society",
+     "steps": [
+      "Read section V",
+      "List three 1950s TV shows and what ideals of family life they promoted",
+      "Discuss how the Beat Generation and rock 'n' roll challenged conformity"
+     ],
+     "links": [
+      {
+       "label": "Read V. Gender and Culture in the Affluent Society",
+       "url": "https://www.americanyawp.com/textbook/24-the-affluent-society/#V_Gender_and_Culture_in_the_Affluent_Society"
+      }
+     ],
+     "questions": [
+      "When was the baby boom?",
+      "What was the Mattachine Society?"
+     ],
+     "answers": [
+      "From 1946 to 1964",
+      "A support group for gay men founded in Los Angeles in the postwar years, an early step in the gay rights movement"
+     ]
+    },
+    {
+     "title": "VI. Politics and Ideology in the Affluent Society & VII. Conclusion",
+     "steps": [
+      "Read sections VI and VII",
+      "Read John F. Kennedy on the separation of church and state in the Reader",
+      "Make a chart of the postwar conservative movement: libertarians, anticommunists, evangelicals, suburban voters"
+     ],
+     "links": [
+      {
+       "label": "Read VI. Politics and Ideology in the Affluent Society",
+       "url": "https://www.americanyawp.com/textbook/24-the-affluent-society/#VI_Politics_and_Ideology_in_the_Affluent_Society"
+      },
+      {
+       "label": "Read VII. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/24-the-affluent-society/#VII_Conclusion"
+      },
+      {
+       "label": "Primary source: John F. Kennedy on the Separation of Church and State (1960)",
+       "url": "https://www.americanyawp.com/reader/26-the-affluent-society/john-f-kennedy-on-the-separation-of-church-and-state-1960/"
+      }
+     ],
+     "questions": [
+      "Who defeated Robert Taft for the 1952 Republican nomination?",
+      "What was Eisenhower's political approach often called?"
+     ],
+     "answers": [
+      "Dwight D. Eisenhower",
+      "'Middle of the road' moderation"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 25: The Sixties",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. The Civil Rights Movement Accelerates",
+     "steps": [
+      "Read sections I and II",
+      "Read Fannie Lou Hamer's 1964 testimony in the Reader",
+      "Timeline: Greensboro 1960, Freedom Rides 1961, Birmingham and March on Washington 1963, Civil Rights Act 1964, Selma and Voting Rights Act 1965"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/25-the-sixties/#I_Introduction"
+      },
+      {
+       "label": "Read II. The Civil Rights Movement Accelerates",
+       "url": "https://www.americanyawp.com/textbook/25-the-sixties/#II_The_Civil_Rights_Movement_Accelerates"
+      },
+      {
+       "label": "Primary source: Fannie Lou Hamer: Testimony at the Democratic National Convention 1964",
+       "url": "https://www.americanyawp.com/reader/27-the-sixties/fannie-lou-hamer-testimony-at-the-democratic-national-convention-1964/"
+      },
+      {
+       "label": "Chapter 25 primary source reader",
+       "url": "https://www.americanyawp.com/reader/25-the-sixties/"
+      }
+     ],
+     "questions": [
+      "What were the Freedom Rides testing?",
+      "What happened on 'Bloody Sunday,' March 7, 1965?",
+      "Who became the first African American student at the University of Mississippi?"
+     ],
+     "answers": [
+      "Whether southern states would obey Supreme Court rulings outlawing segregation on interstate buses",
+      "Police attacked peaceful voting-rights marchers at Selma with batons and tear gas",
+      "James Meredith, in 1962"
+     ]
+    },
+    {
+     "title": "III. Lyndon Johnson’s Great Society",
+     "steps": [
+      "Read section III",
+      "Read Lyndon Johnson's Howard University address in the Reader",
+      "List four Great Society programs that still exist today"
+     ],
+     "links": [
+      {
+       "label": "Read III. Lyndon Johnson’s Great Society",
+       "url": "https://www.americanyawp.com/textbook/25-the-sixties/#III_Lyndon_Johnsons_Great_Society"
+      },
+      {
+       "label": "Primary source: Lyndon Johnson, Howard University Commencement Address (1965)",
+       "url": "https://www.americanyawp.com/reader/27-the-sixties/lyndon-johnson-howard-university-commencement-address-1965/"
+      }
+     ],
+     "questions": [
+      "Name two health programs created by the Great Society.",
+      "What happened in Watts in 1965?"
+     ],
+     "answers": [
+      "Medicare and Medicaid",
+      "Days after the Voting Rights Act, riots broke out in the Watts neighborhood of Los Angeles"
+     ]
+    },
+    {
+     "title": "IV. The Origins of the Vietnam War & V. Culture and Activism",
+     "steps": [
+      "Read sections IV and V",
+      "Read the Port Huron Statement or George Garcia's Vietnam oral history in the Reader",
+      "Narrate how the Gulf of Tonkin incident led to a ground war"
+     ],
+     "links": [
+      {
+       "label": "Read IV. The Origins of the Vietnam War",
+       "url": "https://www.americanyawp.com/textbook/25-the-sixties/#IV_The_Origins_of_the_Vietnam_War"
+      },
+      {
+       "label": "Read V. Culture and Activism",
+       "url": "https://www.americanyawp.com/textbook/25-the-sixties/#V_Culture_and_Activism"
+      },
+      {
+       "label": "Primary source: The Port Huron Statement (1962)",
+       "url": "https://www.americanyawp.com/reader/27-the-sixties/the-port-huron-statement-1962/"
+      },
+      {
+       "label": "Primary source: George M. Garcia, Vietnam Veteran, Oral Interview (1969/2012)",
+       "url": "https://www.americanyawp.com/reader/27-the-sixties/george-m-garcia-vietnam-veteran-oral-interview-19692012/"
+      }
+     ],
+     "questions": [
+      "What did the Gulf of Tonkin Resolution allow?",
+      "Who led the Viet Minh against the French?"
+     ],
+     "answers": [
+      "President Johnson to deploy the military to defend South Vietnam",
+      "Ho Chi Minh"
+     ]
+    },
+    {
+     "title": "VI. Beyond Civil Rights & VII. Conclusion",
+     "steps": [
+      "Read sections VI and VII",
+      "Read NOW's 'Statement of Purpose' in the Reader",
+      "Make a chart of movements inspired by civil rights: Black Power, the Chicano movement, feminism, environmentalism"
+     ],
+     "links": [
+      {
+       "label": "Read VI. Beyond Civil Rights",
+       "url": "https://www.americanyawp.com/textbook/25-the-sixties/#VI_Beyond_Civil_Rights"
+      },
+      {
+       "label": "Read VII. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/25-the-sixties/#VII_Conclusion"
+      },
+      {
+       "label": "Primary source: National Organization for Women, “Statement of Purpose” (1966)",
+       "url": "https://www.americanyawp.com/reader/27-the-sixties/national-organization-for-women-statement-of-purpose-1966/"
+      }
+     ],
+     "questions": [
+      "Who founded the National Farm Workers Association?",
+      "What 1963 book helped launch modern feminism?",
+      "What did Rachel Carson's Silent Spring warn about?"
+     ],
+     "answers": [
+      "Cesar Chavez and Dolores Huerta",
+      "Betty Friedan's The Feminine Mystique",
+      "The damage pesticides did to the environment and human health"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 26: The Unraveling",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. The Strain of Vietnam",
+     "steps": [
+      "Read sections I and II",
+      "Read John Kerry's statement for Vietnam Veterans Against the War in the Reader",
+      "Define the 'credibility gap' and explain how the Tet Offensive widened it"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/26-the-unraveling/#I_Introduction"
+      },
+      {
+       "label": "Read II. The Strain of Vietnam",
+       "url": "https://www.americanyawp.com/textbook/26-the-unraveling/#II_The_Strain_of_Vietnam"
+      },
+      {
+       "label": "Primary source: Statement by John Kerry of Vietnam Veterans Against the War (1971)",
+       "url": "https://www.americanyawp.com/reader/28-the-unraveling/statement-by-john-kerry-of-vietnam-veterans-against-the-war-1971/"
+      },
+      {
+       "label": "Chapter 26 primary source reader",
+       "url": "https://www.americanyawp.com/reader/26-the-unraveling/"
+      }
+     ],
+     "questions": [
+      "Why is Vietnam called the first 'living room war'?",
+      "What was the Tet Offensive?",
+      "When was the Paris Peace Accords signed, and what did it end?"
+     ],
+     "answers": [
+      "Television brought images of the fighting and its brutality into American homes",
+      "A January 1968 communist attack on more than one hundred sites in South Vietnam, including the US embassy in Saigon",
+      "January 1973; the official US military commitment in Vietnam"
+     ]
+    },
+    {
+     "title": "III. Racial, Social, and Cultural Anxieties",
+     "steps": [
+      "Read section III",
+      "Read the Kerner Commission report excerpt or the account of the Alcatraz occupation in the Reader",
+      "List three ways 1970s popular culture reflected racial and class divisions"
+     ],
+     "links": [
+      {
+       "label": "Read III. Racial, Social, and Cultural Anxieties",
+       "url": "https://www.americanyawp.com/textbook/26-the-unraveling/#III_Racial_Social_and_Cultural_Anxieties"
+      },
+      {
+       "label": "Primary source: Report of the National Advisory Commission on Civil Disorders (1968)",
+       "url": "https://www.americanyawp.com/reader/28-the-unraveling/report-of-the-national-advisory-commission-on-civil-disorders-1968/"
+      },
+      {
+       "label": "Primary source: Native Americans Occupy Alcatraz (1969)",
+       "url": "https://www.americanyawp.com/reader/28-the-unraveling/native-americans-occupy-alcatraz-1969/"
+      }
+     ],
+     "questions": [
+      "What did the Kerner Commission name as the underlying cause of urban riots?",
+      "Name two dramatic protests of the 'Red Power' movement."
+     ],
+     "answers": [
+      "Black frustration with the hopelessness of poverty",
+      "The occupation of Alcatraz Island (1969–1971) and of Wounded Knee (1973)"
+     ]
+    },
+    {
+     "title": "IV. The Crisis of 1968 & V. The Rise and Fall of Richard Nixon",
+     "steps": [
+      "Read sections IV and V",
+      "Timeline: King assassinated April 1968, Chicago convention August 1968, Nixon elected 1968, China visit 1972, Watergate break-in June 1972, oil crisis 1973, resignation 1974",
+      "Read Nixon's announcement of his visit to China in the Reader"
+     ],
+     "links": [
+      {
+       "label": "Read IV. The Crisis of 1968",
+       "url": "https://www.americanyawp.com/textbook/26-the-unraveling/#IV_The_Crisis_of_1968"
+      },
+      {
+       "label": "Read V. The Rise and Fall of Richard Nixon",
+       "url": "https://www.americanyawp.com/textbook/26-the-unraveling/#V_The_Rise_and_Fall_of_Richard_Nixon"
+      },
+      {
+       "label": "Primary source: Nixon Announcement of China Visit (1971)",
+       "url": "https://www.americanyawp.com/reader/28-the-unraveling/nixon-announcement-of-china-visit-1971/"
+      }
+     ],
+     "questions": [
+      "What was détente?",
+      "What happened on June 17, 1972?",
+      "Why did Nixon resign?"
+     ],
+     "answers": [
+      "Easing Cold War tensions by improving relations with rivals and freezing arms levels",
+      "Five men were arrested breaking into Democratic National Committee offices at the Watergate complex",
+      "The Watergate cover-up came to light, and the House Judiciary Committee approved impeachment"
+     ]
+    },
+    {
+     "title": "VI. Deindustrialization and the Rise of the Sunbelt & VII. The Environmental Movement",
+     "steps": [
+      "Read sections VI and VII",
+      "Explain how Detroit illustrates deindustrialization and the urban crisis",
+      "List four environmental laws or agencies created in the early 1970s"
+     ],
+     "links": [
+      {
+       "label": "Read VI. Deindustrialization and the Rise of the Sunbelt",
+       "url": "https://www.americanyawp.com/textbook/26-the-unraveling/#VI_Deindustrialization_and_the_Rise_of_the_Sunbelt"
+      },
+      {
+       "label": "Read VII. The Environmental Movement",
+       "url": "https://www.americanyawp.com/textbook/26-the-unraveling/#VII_The_Environmental_Movement"
+      }
+     ],
+     "questions": [
+      "What is the Sunbelt?",
+      "What happened at Love Canal?",
+      "What did the Environmental Protection Agency do?"
+     ],
+     "answers": [
+      "The southern and western states that grew rapidly after World War II",
+      "Toxic waste seeped into homes in a Niagara Falls neighborhood, causing illness and birth defects",
+      "It brought environmental programs together to study and regulate the environment"
+     ]
+    },
+    {
+     "title": "VIII. The Politics of Love, Sex, and Gender",
+     "steps": [
+      "Read section VIII",
+      "Read Gloria Steinem on equal rights for women in the Reader",
+      "Narrate the Stonewall uprising and explain its importance"
+     ],
+     "links": [
+      {
+       "label": "Read VIII. The Politics of Love, Sex, and Gender",
+       "url": "https://www.americanyawp.com/textbook/26-the-unraveling/#VIII_The_Politics_of_Love_Sex_and_Gender"
+      },
+      {
+       "label": "Primary source: Gloria Steinem on Equal Rights for Women (1970)",
+       "url": "https://www.americanyawp.com/reader/28-the-unraveling/gloria-steinem-on-equal-rights-for-women-1970/"
+      }
+     ],
+     "questions": [
+      "What did the Supreme Court decide in Roe v. Wade (1973)?",
+      "Who was the first Black woman elected to Congress?",
+      "Who led the STOP ERA campaign?"
+     ],
+     "answers": [
+      "By 7–2, it struck down a Texas abortion ban, establishing a constitutional right to abortion",
+      "Shirley Chisholm, in 1968",
+      "Phyllis Schlafly"
+     ]
+    },
+    {
+     "title": "IX. The Misery Index & X. Conclusion",
+     "steps": [
+      "Read sections IX and X",
+      "Read Jimmy Carter's 'Crisis of Confidence' speech in the Reader",
+      "Define stagflation and the misery index"
+     ],
+     "links": [
+      {
+       "label": "Read IX. The Misery Index",
+       "url": "https://www.americanyawp.com/textbook/26-the-unraveling/#IX_The_Misery_Index"
+      },
+      {
+       "label": "Read X. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/26-the-unraveling/#X_Conclusion"
+      },
+      {
+       "label": "Primary source: Jimmy Carter, “Crisis of Confidence” (1979)",
+       "url": "https://www.americanyawp.com/reader/28-the-unraveling/jimmy-carter-crisis-of-confidence-1979/"
+      }
+     ],
+     "questions": [
+      "What was the 'misery index'?",
+      "Why did many American manufacturers move overseas in the 1970s?"
+     ],
+     "answers": [
+      "The unemployment rate added to the inflation rate",
+      "To find cheaper labor and stay profitable as foreign competitors grew and global trade opened"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 27: The Triumph of the Right",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. Conservative Ascendance",
+     "steps": [
+      "Read sections I and II",
+      "Make a chart of the groups that formed the New Right",
+      "Explain why abortion became the issue that united much of the religious right"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/27-the-triumph-of-the-right/#I_Introduction"
+      },
+      {
+       "label": "Read II. Conservative Ascendance",
+       "url": "https://www.americanyawp.com/textbook/27-the-triumph-of-the-right/#II_Conservative_Ascendance"
+      },
+      {
+       "label": "Chapter 27 primary source reader",
+       "url": "https://www.americanyawp.com/reader/27-the-triumph-of-the-right/"
+      }
+     ],
+     "questions": [
+      "What was the Moral Majority, and who founded it?",
+      "Who were the neoconservatives?"
+     ],
+     "answers": [
+      "A political organization of religious conservatives founded by Jerry Falwell in 1979",
+      "Former liberals and leftists, like Irving Kristol, who became conservative Republicans"
+     ]
+    },
+    {
+     "title": "III. The Election of 1980 & IV. The New Right in Power",
+     "steps": [
+      "Read sections III and IV",
+      "Read Reagan's first inaugural address in the Reader",
+      "Explain supply-side economics in your own words"
+     ],
+     "links": [
+      {
+       "label": "Read III. The Election of 1980",
+       "url": "https://www.americanyawp.com/textbook/27-the-triumph-of-the-right/#III_The_Election_of_1980"
+      },
+      {
+       "label": "Read IV. The New Right in Power",
+       "url": "https://www.americanyawp.com/textbook/27-the-triumph-of-the-right/#IV_The_New_Right_in_Power"
+      },
+      {
+       "label": "Primary source: First Inaugural Address of Ronald Reagan (1981)",
+       "url": "https://www.americanyawp.com/reader/29-the-triumph-of-the-right/first-inaugural-address-of-ronald-reagan-1981/"
+      }
+     ],
+     "questions": [
+      "What problems hurt Carter's 1980 reelection campaign?",
+      "How high did unemployment rise in the recession of 1981–1982?"
+     ],
+     "answers": [
+      "Inflation, unemployment, the Soviet invasion of Afghanistan, and the Iran hostage crisis",
+      "To nearly 11 percent, the highest since the Great Depression"
+     ]
+    },
+    {
+     "title": "V. Morning in America & VI. Race in Reagan’s America",
+     "steps": [
+      "Read sections V and VI",
+      "Read Jesse Jackson on the Rainbow Coalition in the Reader",
+      "Write a paragraph on how Reagan reshaped the federal courts"
+     ],
+     "links": [
+      {
+       "label": "Read V. Morning in America",
+       "url": "https://www.americanyawp.com/textbook/27-the-triumph-of-the-right/#V_Morning_in_America"
+      },
+      {
+       "label": "Read VI. Race in Reagan’s America",
+       "url": "https://www.americanyawp.com/textbook/27-the-triumph-of-the-right/#VI_Race_in_Reagans_America"
+      },
+      {
+       "label": "Primary source: Jesse Jackson on the Rainbow Coalition (1984)",
+       "url": "https://www.americanyawp.com/reader/29-the-triumph-of-the-right/jesse-jackson-on-the-rainbow-coalition-1984/"
+      }
+     ],
+     "questions": [
+      "How many federal judges did Reagan appoint?",
+      "What event in Los Angeles in 1991 exposed racial tensions?"
+     ],
+     "answers": [
+      "368 district and appeals court judges",
+      "Police were videotaped beating Rodney King"
+     ]
+    },
+    {
+     "title": "VII. Bad Times and Good Times & VIII. Culture Wars",
+     "steps": [
+      "Read sections VII and VIII",
+      "Read the statements of AIDS patients and the Parents Music Resource Center in the Reader",
+      "List three battles in the 1980s 'culture wars'"
+     ],
+     "links": [
+      {
+       "label": "Read VII. Bad Times and Good Times",
+       "url": "https://www.americanyawp.com/textbook/27-the-triumph-of-the-right/#VII_Bad_Times_and_Good_Times"
+      },
+      {
+       "label": "Read VIII. Culture Wars",
+       "url": "https://www.americanyawp.com/textbook/27-the-triumph-of-the-right/#VIII_Culture_Wars"
+      },
+      {
+       "label": "Primary source: Statements of AIDS Patients (1983)",
+       "url": "https://www.americanyawp.com/reader/29-the-triumph-of-the-right/statements-of-aids-patients-1983/"
+      },
+      {
+       "label": "Primary source: Statements from The Parents Music Resource Center (1985)",
+       "url": "https://www.americanyawp.com/reader/29-the-triumph-of-the-right/statements-from-the-parents-music-resource-center-1985/"
+      }
+     ],
+     "questions": [
+      "By 1984, how did the number of women in the workforce compare with those working at home?",
+      "How did the government's slow response to AIDS affect gay activism?"
+     ],
+     "answers": [
+      "Women in the workforce outnumbered those who worked at home",
+      "It pushed gay Americans to organize their own response, such as Larry Kramer's Gay Men's Health Crisis and confrontational protest"
+     ]
+    },
+    {
+     "title": "IX. The New Right Abroad",
+     "steps": [
+      "Read section IX",
+      "Map work: Grenada, Nicaragua, El Salvador, Iran, Iraq, Afghanistan",
+      "Narrate the Iran-Contra affair"
+     ],
+     "links": [
+      {
+       "label": "Read IX. The New Right Abroad",
+       "url": "https://www.americanyawp.com/textbook/27-the-triumph-of-the-right/#IX_The_New_Right_Abroad"
+      }
+     ],
+     "questions": [
+      "What was the Iran-Contra affair?",
+      "What did Reagan say at the Berlin Wall in 1987?"
+     ],
+     "answers": [
+      "Officials secretly sold American missiles to Iran and sent the money to the Nicaraguan Contras, violating the Boland Amendment",
+      "'Tear down this wall'"
+     ]
+    },
+    {
+     "title": "X. Toward the New Millennium & XI. Conclusion",
+     "steps": [
+      "Read sections X and XI",
+      "Read Pat Buchanan's 'Culture War' speech in the Reader",
+      "Timeline: Soviet collapse 1991, Persian Gulf War, NAFTA, Republican takeover of the House 1994, disputed election 2000"
+     ],
+     "links": [
+      {
+       "label": "Read X. Toward the New Millennium",
+       "url": "https://www.americanyawp.com/textbook/27-the-triumph-of-the-right/#X_Toward_the_New_Millennium"
+      },
+      {
+       "label": "Read XI. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/27-the-triumph-of-the-right/#XI_Conclusion"
+      },
+      {
+       "label": "Primary source: Pat Buchanan on the Culture War (1992)",
+       "url": "https://www.americanyawp.com/reader/29-the-triumph-of-the-right/pat-buchanan-on-the-culture-war-1992/"
+      }
+     ],
+     "questions": [
+      "What did NAFTA do?",
+      "Why were the 1994 midterm elections historic?",
+      "How was the 2000 election decided?"
+     ],
+     "answers": [
+      "Opened free trade between the United States, Canada, and Mexico",
+      "Democrats lost the House for the first time since 1952",
+      "In Bush v. Gore (5–4) the Supreme Court ended the Florida recount, giving Bush Florida by 537 votes and the presidency, though Gore won the popular vote"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 28: American Carnage",
+   "lessons": [
+    {
+     "title": "I. Introduction & II. September 11 and the War on Terror",
+     "steps": [
+      "Read sections I and II",
+      "Read the 9/11 Commission's reflections or George W. Bush on the post-9/11 world in the Reader",
+      "Timeline: September 11 attacks 2001, Afghanistan war begins October 2001, Iraq invasion March 2003, Saddam Hussein captured December 2003"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://www.americanyawp.com/textbook/28-american-carnage/#I_Introduction"
+      },
+      {
+       "label": "Read II. September 11 and the War on Terror",
+       "url": "https://www.americanyawp.com/textbook/28-american-carnage/#II_September_11_and_the_War_on_Terror"
+      },
+      {
+       "label": "Primary source: The 9/11 Commission Report, “Reflecting On A Generational Challenge” (2004)",
+       "url": "https://www.americanyawp.com/reader/30-the-recent-past/the-911-commission-report-reflecting-on-a-generational-challenge-2004/"
+      },
+      {
+       "label": "Primary source: George W. Bush on the Post-9/11 World (2002)",
+       "url": "https://www.americanyawp.com/reader/30-the-recent-past/george-w-bush-on-the-post-911-world-2002/"
+      },
+      {
+       "label": "Chapter 28 primary source reader",
+       "url": "https://www.americanyawp.com/reader/28-american-carnage/"
+      }
+     ],
+     "questions": [
+      "Which group carried out the September 11 attacks, and who led it?",
+      "What reason did the Bush administration give for invading Iraq?",
+      "When did the war in Afghanistan begin?"
+     ],
+     "answers": [
+      "Al-Qaeda, led by Osama bin Laden",
+      "The claim that Saddam Hussein's regime had weapons of mass destruction, and the goal of 'regime change'",
+      "October 2001, with Operation Enduring Freedom"
+     ]
+    },
+    {
+     "title": "III. The End of the Bush Years & IV. The Great Recession",
+     "steps": [
+      "Read sections III and IV",
+      "Read Bill Clinton on free trade and financial deregulation in the Reader",
+      "Explain in your own words how the housing bubble led to the Great Recession"
+     ],
+     "links": [
+      {
+       "label": "Read III. The End of the Bush Years",
+       "url": "https://www.americanyawp.com/textbook/28-american-carnage/#III_The_End_of_the_Bush_Years"
+      },
+      {
+       "label": "Read IV. The Great Recession",
+       "url": "https://www.americanyawp.com/textbook/28-american-carnage/#IV_The_Great_Recession"
+      },
+      {
+       "label": "Primary source: Bill Clinton on Free Trade and Financial Deregulation (1993-2000)",
+       "url": "https://www.americanyawp.com/reader/30-the-recent-past/bill-clinton-on-free-trade-and-financial-deregulation-1993-2000/"
+      }
+     ],
+     "questions": [
+      "Why was the response to Hurricane Katrina so damaging to Bush's presidency?",
+      "What did the Gramm-Leach-Bliley Act repeal?",
+      "Name two major financial firms that collapsed in 2008."
+     ],
+     "answers": [
+      "Aid was slow and disorganized as New Orleans flooded and people suffered at the Superdome",
+      "Parts of the 1933 Glass-Steagall Act separating commercial and investment banking",
+      "Bear Stearns and Lehman Brothers"
+     ]
+    },
+    {
+     "title": "V. The Obama Years & VI. Stagnation",
+     "steps": [
+      "Read sections V and VI",
+      "Make a chart of Obama's main policies and the opposition they met",
+      "Write a paragraph on why climate change became a partisan issue"
+     ],
+     "links": [
+      {
+       "label": "Read V. The Obama Years",
+       "url": "https://www.americanyawp.com/textbook/28-american-carnage/#V_The_Obama_Years"
+      },
+      {
+       "label": "Read VI. Stagnation",
+       "url": "https://www.americanyawp.com/textbook/28-american-carnage/#VI_Stagnation"
+      }
+     ],
+     "questions": [
+      "What was Obama's most important legislative achievement?",
+      "What was the Tea Party?"
+     ],
+     "answers": [
+      "The Patient Protection and Affordable Care Act ('Obamacare')",
+      "A loose movement of strongly conservative voters opposed to the Obama administration"
+     ]
+    },
+    {
+     "title": "VII. American Carnage & VIII. The Pandemic",
+     "steps": [
+      "Read sections VII and VIII",
+      "Read Pedro Lopez on his mother's deportation in the Reader",
+      "List ways the Covid-19 pandemic changed daily life in 2020"
+     ],
+     "links": [
+      {
+       "label": "Read VII. American Carnage",
+       "url": "https://www.americanyawp.com/textbook/28-american-carnage/#VII_American_Carnage"
+      },
+      {
+       "label": "Read VIII. The Pandemic",
+       "url": "https://www.americanyawp.com/textbook/28-american-carnage/#VIII_The_Pandemic"
+      },
+      {
+       "label": "Primary source: Pedro Lopez on His Mother’s Deportation (2008/2015)",
+       "url": "https://www.americanyawp.com/reader/30-the-recent-past/pedro-lopez-on-his-mothers-deportation-2008-2015/"
+      }
+     ],
+     "questions": [
+      "What happened at the US Capitol on January 6, 2021?",
+      "Why were many hourly workers unable to stay home during the pandemic?"
+     ],
+     "answers": [
+      "Rioters stormed the Capitol to try to stop Congress from certifying the 2020 election; Congress certified it that night",
+      "Without paid sick leave, many had to choose between a paycheck and staying safe"
+     ]
+    },
+    {
+     "title": "IX. New Horizons & X. Conclusion",
+     "steps": [
+      "Read sections IX and X",
+      "Read the Obergefell v. Hodges decision in the Reader",
+      "Discuss how smartphones and social media changed politics and protest"
+     ],
+     "links": [
+      {
+       "label": "Read IX. New Horizons",
+       "url": "https://www.americanyawp.com/textbook/28-american-carnage/#IX_New_Horizons"
+      },
+      {
+       "label": "Read X. Conclusion",
+       "url": "https://www.americanyawp.com/textbook/28-american-carnage/#X_Conclusion"
+      },
+      {
+       "label": "Primary source: Obergefell v. Hodges (2015)",
+       "url": "https://www.americanyawp.com/reader/30-the-recent-past/obergefell-v-hodges-2015/"
+      }
+     ],
+     "questions": [
+      "What did the Supreme Court decide in Obergefell v. Hodges (2015)?",
+      "How did a bystander's video of George Floyd's death in 2020 affect the country?"
+     ],
+     "answers": [
+      "By 5–4, that same-sex marriage is a constitutional right",
+      "It sparked racial justice protests across the country, perhaps the largest in American history, with as many as twenty-five million taking part"
+     ]
+    }
+   ]
+  }
+ ]
+}

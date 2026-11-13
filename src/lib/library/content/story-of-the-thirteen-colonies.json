@@ -1,0 +1,2368 @@
+{
+ "key": "story-of-the-thirteen-colonies",
+ "title": "The Story of the Thirteen Colonies",
+ "sourceTitle": "The Story of the Thirteen Colonies",
+ "author": "H. A. Guerber",
+ "seller": "H. A. Guerber",
+ "year": 1898,
+ "sourceUrl": "https://www.gutenberg.org/ebooks/48051",
+ "readUrl": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html",
+ "license": {
+  "kind": "public_domain"
+ },
+ "licenseEvidence": "Project Gutenberg #48051: \"Public domain in the USA\"; title page reads \"Copyright, 1898, by American Book Company\" (published 1898)",
+ "subjects": [
+  "history"
+ ],
+ "gradeMin": 3,
+ "gradeMax": 6,
+ "philosophies": [
+  "classical",
+  "charlotte_mason"
+ ],
+ "lessonsPerWeek": 4,
+ "minutesPerLesson": 20,
+ "parentInvolvement": "high",
+ "familyStyle": true,
+ "cover": "🔔",
+ "color": "#4C7FD9",
+ "description": "H. A. Guerber's classic 1898 read-aloud tells America's early story in short, lively chapters, from the first peoples and the Vikings through Columbus, Jamestown, the Pilgrims, and the French and Indian Wars to the Revolution and Washington's farewell. It suits the whole family in grades 3–6: each day you read one chapter aloud, your child narrates it back, finds the places on a map, and adds the event to a timeline. The full text is free online.",
+ "includes": [
+  "84 lessons in 13 units, one chapter per lesson",
+  "Link to the free full text for every chapter",
+  "Narration prompt, map work, and timeline entry for each lesson",
+  "Comprehension questions with answers",
+  "Parent notes flagging legends told as history, dated views of Native Americans and enslaved Africans, and factual errors"
+ ],
+ "units": [
+  {
+   "title": "Unit 1: The First Americans and the Northmen (Chapters 1–6)",
+   "lessons": [
+    {
+     "title": "Chapter 1: Our Country Long Ago",
+     "steps": [
+      "Read Chapter I, \"Our Country Long Ago,\" aloud together",
+      "Narration: tell how the first peoples of America lived, built wigwams, and made canoes",
+      "Map work: Find the Rocky Mountains, Greenland, Alaska, and Cape Horn; trace the Americas from north to south",
+      "Timeline: Add \"First peoples arrive in the Americas\" at before 13,000 BC (modern estimate; the book gives no date)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter I",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_13"
+      }
+     ],
+     "pages": "pp. 13–17",
+     "questions": [
+      "How did people make a dugout canoe with only stone axes?",
+      "How did families boil water without metal pots?"
+     ],
+     "answers": [
+      "They burned down a tree, then burned and scraped out the log to hollow it",
+      "They dropped stones heated in the fire into clay-lined baskets of water"
+     ],
+     "notes": "The book sorts Native peoples into \"savage,\" \"barbarous,\" and \"half-civilized\" and describes them by skin color. These are 1890s labels that historians no longer use; talk about how Native nations had their own rich ways of life."
+    },
+    {
+     "title": "Chapter 2: The Barbarous Indians",
+     "steps": [
+      "Read Chapter II, \"The Barbarous Indians,\" aloud together",
+      "Narration: describe how the eastern woodland peoples farmed, built long houses, and organized clans",
+      "Map work: Find New York, the St. Lawrence River, and the Missouri River",
+      "Timeline: Add \"Iroquois long-house villages\" at c. AD 1300–1600"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter II",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_17"
+      }
+     ],
+     "pages": "pp. 17–20",
+     "questions": [
+      "Name three crops these peoples grew.",
+      "How many families shared one fireplace in a long house?",
+      "What was a clan's sign, and where was it shown?"
+     ],
+     "answers": [
+      "Any three of corn, beans, pumpkins, squash, tomatoes, tobacco, sunflowers",
+      "Four",
+      "An animal such as a bear, turtle, or beaver, painted on bodies and carved on belongings"
+     ],
+     "notes": "The chapter calls Native religion \"nonsense\" and says men left all work to women. Share that these are outsiders' judgments from the 1890s; women in Iroquois nations, for example, owned the fields and helped choose leaders."
+    },
+    {
+     "title": "Chapter 3: The Mounds",
+     "steps": [
+      "Read Chapter III, \"The Mounds,\" aloud together",
+      "Narration: tell about the pueblos, cliff dwellings, and the mound builders",
+      "Map work: Find New Mexico, Arizona, and Ohio; locate the Serpent Mound in southern Ohio",
+      "Timeline: Add \"Serpent Mound built in Ohio\" at c. AD 1000 (one modern estimate); add \"Cliff Palace at Mesa Verde\" at c. AD 1200"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter III",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_20"
+      }
+     ],
+     "pages": "pp. 20–24",
+     "questions": [
+      "How did cliff dwellers keep enemies out of their homes?",
+      "What shape is the famous Ohio mound?",
+      "What were wampum beads used for?"
+     ],
+     "answers": [
+      "They pulled up the ladders and threw stones and arrows from above",
+      "A snake (a serpent swallowing an egg shape)",
+      "As money and for belts and necklaces"
+     ],
+     "notes": "The book treats the mound builders as a possible \"older race.\" Historians now know the mounds were built by the ancestors of Native Americans."
+    },
+    {
+     "title": "Chapter 4: Where the Northmen Went",
+     "steps": [
+      "Read Chapter IV, \"Where the Northmen Went,\" aloud together",
+      "Narration: tell how the Northmen sailed from Norway to Iceland and Greenland",
+      "Map work: Find Norway, Iceland, Greenland, the Strait of Gibraltar, and Constantinople",
+      "Timeline: Add \"Norse settle Iceland\" at c. AD 874; add \"Eric the Red settles Greenland\" at c. 985"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter IV",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_24"
+      }
+     ],
+     "pages": "pp. 24–27",
+     "questions": [
+      "What does the word \"vik\" mean?",
+      "Why did Eric the Red leave Iceland?",
+      "Why did he choose the name Greenland?"
+     ],
+     "answers": [
+      "A bay",
+      "He was banished for murder",
+      "To attract settlers"
+     ],
+     "notes": "The book calls the Eskimos (Inuit) \"a race of Indians\"; they are a distinct Arctic people, and the Norse in Greenland met them later than the book suggests."
+    },
+    {
+     "title": "Chapter 5: The Northmen in America",
+     "steps": [
+      "Read Chapter V, \"The Northmen in America,\" aloud together",
+      "Narration: tell the story of Biarni, Leif the Lucky, and Vinland",
+      "Map work: Trace a route from Greenland to Labrador and Newfoundland; find Cape Cod",
+      "Timeline: Add \"Leif Ericson reaches Vinland\" at c. AD 1000"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter V",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_27"
+      }
+     ],
+     "pages": "pp. 27–31",
+     "questions": [
+      "What did Leif the Lucky find so much of that he named the land Vinland?",
+      "Who was the first European child born in America?",
+      "How do we know about the Norse voyages today?"
+     ],
+     "answers": [
+      "Wild grapes",
+      "Snorri",
+      "From old Norse stories called sagas (and, today, the ruins at L'Anse aux Meadows)"
+     ],
+     "notes": "The book places Leif in Rhode Island. The only proven Norse site is L'Anse aux Meadows in Newfoundland, found in 1960. The Madoc story is a legend, as the book itself hints."
+    },
+    {
+     "title": "Chapter 6: Queer Ideas",
+     "steps": [
+      "Read Chapter VI, \"Queer Ideas,\" aloud together",
+      "Narration: explain what sailors feared about the \"Sea of Darkness\" and how printing spread new ideas",
+      "Map work: Find the Atlantic Ocean, Greece, and Constantinople (now Istanbul)",
+      "Timeline: Add \"Turks take Constantinople\" at 1453; add \"Gutenberg's printing press\" at c. 1450"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter VI",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_31"
+      }
+     ],
+     "pages": "pp. 31–33",
+     "questions": [
+      "What did sailors believe the Loadstone Mountain would do?",
+      "When did Greek thinkers begin to say the earth was round?"
+     ],
+     "answers": [
+      "Pull the nails out of their ships so they fell apart",
+      "About 300 years before Christ (even earlier, in fact)"
+     ],
+     "notes": "The idea that ordinary medieval people thought the earth was flat is a 19th-century myth; educated Europeans had known it was round for many centuries."
+    }
+   ]
+  },
+  {
+   "title": "Unit 2: Prince Henry and Columbus (Chapters 7–14)",
+   "lessons": [
+    {
+     "title": "Chapter 7: Prince Henry the Navigator",
+     "steps": [
+      "Read Chapter VII, \"Prince Henry the Navigator,\" aloud together",
+      "Narration: tell why Europeans wanted a sea road to the East and what Prince Henry did about it",
+      "Map work: Find Portugal, Venice, Genoa, the Canary Islands, Madeira, the Azores, and Cape Verde",
+      "Timeline: Add \"Prince Henry the Navigator sends ships down Africa\" at c. 1420–1460"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter VII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_33"
+      }
+     ],
+     "pages": "pp. 33–36",
+     "questions": [
+      "What goods did traders bring from the East?",
+      "Why did the trade overland become hard?",
+      "What frightened Henry's sailors at Tenerife?"
+     ],
+     "answers": [
+      "Silk, sugar, and spices",
+      "The Turks treated the traders badly and the trade nearly stopped",
+      "Smoke from the volcano"
+     ],
+     "notes": "Sir John Mandeville's travels are now known to be mostly invented. Henry's voyages also began the Portuguese slave trade from Africa, which the book leaves out; you may mention it gently."
+    },
+    {
+     "title": "Chapter 8: Youth of Columbus",
+     "steps": [
+      "Read Chapter VIII, \"Youth of Columbus,\" aloud together",
+      "Narration: tell about Columbus's boyhood, his escape at sea, and how he came to his big idea",
+      "Map work: Find Genoa, Lisbon, Cape St. Vincent, and Iceland",
+      "Timeline: Add \"Christopher Columbus born in Genoa\" at 1451 (the book says about 1436)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter VIII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_36"
+      }
+     ],
+     "pages": "pp. 36–39",
+     "questions": [
+      "How did Columbus reach shore when his ship burned?",
+      "What did Toscanelli send Columbus?",
+      "Why did Columbus think Asia was not far west?"
+     ],
+     "answers": [
+      "He held on to a floating oar and swam",
+      "A map showing Japan where Cuba really is",
+      "He believed the earth was smaller and Asia stretched farther east than it does"
+     ],
+     "notes": "Most historians now date Columbus's birth to 1451, and doubt he studied at the university of Pavia."
+    },
+    {
+     "title": "Chapter 9: Columbus and the Queen",
+     "steps": [
+      "Read Chapter IX, \"Columbus and the Queen,\" aloud together",
+      "Narration: tell all the people Columbus asked for help, and who finally said yes",
+      "Map work: Find Spain, Córdova, Salamanca, Palos, and the Cape of Good Hope",
+      "Timeline: Add \"Dias rounds the Cape of Good Hope\" at 1488 (the book says 1487); add \"Isabella agrees to back Columbus\" at 1492"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter IX",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_39"
+      }
+     ],
+     "pages": "pp. 39–44",
+     "questions": [
+      "How did King John of Portugal try to steal Columbus's idea?",
+      "Who helped Columbus at the monastery of La Rábida?",
+      "What did Columbus ask for in return for his voyage?"
+     ],
+     "answers": [
+      "He secretly sent his own ship west, but it turned back in a storm",
+      "Prior Perez (and the Pinzon brothers)",
+      "The title of admiral, the right to govern the new lands, and a tenth of the riches"
+     ],
+     "notes": "Most historians say the Salamanca scholars doubted Columbus because they (rightly) thought the ocean was far too wide to cross, not because they believed the earth was flat."
+    },
+    {
+     "title": "Chapter 10: \"Land! Land!\"",
+     "steps": [
+      "Read Chapter X, \"Land! Land!\" aloud together",
+      "Narration: tell the story of the first crossing, from Palos to the landing on San Salvador",
+      "Map work: Trace the route from Palos to the Canary Islands, across the Sargasso Sea, to the Bahamas",
+      "Timeline: Add \"Columbus lands in the Bahamas\" at October 12, 1492"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter X",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_44"
+      }
+     ],
+     "pages": "pp. 44–48",
+     "questions": [
+      "What were the names of Columbus's three ships?",
+      "What signs told the sailors land was near?",
+      "Why did Columbus call the people he met \"Indians\"?"
+     ],
+     "answers": [
+      "The Santa Maria, the Pinta, and the Niña",
+      "A branch with berries, a carved stick, a board, and birds flying south",
+      "He thought he had reached the Indies near Asia"
+     ],
+     "notes": "The island's people were the Taíno, a farming people with villages and chiefs. The book calls them \"savages\"; you might ask your child what the Taíno may have thought of the visitors."
+    },
+    {
+     "title": "Chapter 11: Columbus and the Savages",
+     "steps": [
+      "Read Chapter XI, \"Columbus and the Savages,\" aloud together",
+      "Narration: tell what Columbus found on the islands and why he kept searching",
+      "Map work: Find Cuba and Haiti (Hispaniola)",
+      "Timeline: Add \"La Navidad, first Spanish fort in the Americas\" at December 1492"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XI",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_48"
+      }
+     ],
+     "pages": "pp. 48–51",
+     "questions": [
+      "What made Columbus think he was near rich Asian kingdoms?",
+      "What new plant did the Spaniards learn about in Cuba?",
+      "Why were forty men left behind on Haiti?"
+     ],
+     "answers": [
+      "The people wore gold ornaments and pointed south when asked",
+      "Tobacco",
+      "The Santa Maria was wrecked, so they stayed in a fort"
+     ],
+     "notes": "Columbus took several Taíno people with him by force; the book says they were \"happy.\" Ask how they might have felt."
+    },
+    {
+     "title": "Chapter 12: Home Again",
+     "steps": [
+      "Read Chapter XII, \"Home Again,\" aloud together",
+      "Narration: tell about the stormy trip home and Columbus's welcome in Spain",
+      "Map work: Find the Azores, Lisbon, Palos, and Barcelona",
+      "Timeline: Add \"Columbus returns to Spain\" at March 1493; add \"Second voyage, 17 ships\" at September 1493"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_51"
+      }
+     ],
+     "pages": "pp. 51–54",
+     "questions": [
+      "How did Columbus try to make sure news of his discovery survived the storm?",
+      "What was the lesson of the egg story?",
+      "How big was the second fleet?"
+     ],
+     "answers": [
+      "He sealed written accounts in wax inside casks to float on the sea",
+      "Things are easy once someone shows you how",
+      "Seventeen ships and about 1,500 men"
+     ],
+     "notes": "The egg story is a legend told about others before Columbus. Accounts of Carib cannibalism came from their enemies and Spaniards seeking an excuse to enslave them; historians treat them with care."
+    },
+    {
+     "title": "Chapter 13: Columbus Illtreated",
+     "steps": [
+      "Read Chapter XIII, \"Columbus Illtreated,\" aloud together",
+      "Narration: tell what went wrong in the Haiti colony and why Columbus was sent home in chains",
+      "Map work: Find Jamaica, Trinidad, and the mouth of the Orinoco River",
+      "Timeline: Add \"Third voyage reaches South America\" at 1498; add \"Columbus arrested and sent to Spain\" at 1500"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XIII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_54"
+      }
+     ],
+     "pages": "pp. 54–57",
+     "questions": [
+      "What happened to the men left at the first fort?",
+      "What did Columbus send to Spain besides gold?",
+      "What did Columbus think the Orinoco River might be?"
+     ],
+     "answers": [
+      "Some died of sickness; the rest were killed by the islanders after treating them cruelly",
+      "Native people to be sold as slaves",
+      "One of the four rivers of the Garden of Eden"
+     ],
+     "notes": "This chapter deals with slavery and cruelty to the Taíno, including taking women. Preview it and decide how much to read aloud to younger children."
+    },
+    {
+     "title": "Chapter 14: Death of Columbus",
+     "steps": [
+      "Read Chapter XIV, \"Death of Columbus,\" aloud together",
+      "Narration: tell about Columbus's last voyage and his death",
+      "Map work: Find Central America, Valladolid, and Seville",
+      "Timeline: Add \"Fourth voyage\" at 1502; add \"Columbus dies\" at May 1506"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XIV",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_57"
+      }
+     ],
+     "pages": "pp. 57–60",
+     "questions": [
+      "Why did Columbus keep his chains?",
+      "How did Columbus show he understood the weather better than the governor?",
+      "What qualities does the author praise in Columbus?"
+     ],
+     "answers": [
+      "To remind people how unjustly he had been treated",
+      "He warned of a storm; the governor ignored him and the gold ships were wrecked",
+      "His faith, courage, and perseverance"
+     ],
+     "notes": "The book ends with high praise. Today many people also remember the suffering his rule brought to the Taíno; older children can weigh both sides."
+    }
+   ]
+  },
+  {
+   "title": "Unit 3: Explorers of the New World (Chapters 15–22)",
+   "lessons": [
+    {
+     "title": "Chapter 15: How America Got Its Name",
+     "steps": [
+      "Read Chapter XV, \"How America Got Its Name,\" aloud together",
+      "Narration: tell how John Cabot, Vasco da Gama, and Americus Vespucius each added to the map",
+      "Map work: Find Newfoundland, Labrador, Calicut in India, and Brazil",
+      "Timeline: Add \"John Cabot reaches North America for England\" at 1497; add \"America named on a map\" at 1507"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XV",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_60"
+      }
+     ],
+     "pages": "pp. 60–62",
+     "questions": [
+      "Why did England later claim North America?",
+      "Who first reached India by sailing around Africa?",
+      "Why is our continent called America?"
+     ],
+     "answers": [
+      "Because John Cabot had explored and claimed it",
+      "Vasco da Gama",
+      "A German mapmaker named it after Americus Vespucius, who wrote about it"
+     ],
+     "notes": "The 1497 Vespucius voyage mentioned at the end is doubted by most historians."
+    },
+    {
+     "title": "Chapter 16: The Fountain of Youth",
+     "steps": [
+      "Read Chapter XVI, \"The Fountain of Youth,\" aloud together",
+      "Narration: tell about Balboa, Ponce de Leon, and Magellan",
+      "Map work: Find the Isthmus of Panama, Puerto Rico, Florida, the Strait of Magellan, and the Philippines",
+      "Timeline: Add \"Balboa sees the Pacific\" at 1513; add \"Ponce de Leon names Florida\" at 1513; add \"Magellan's voyage around the world\" at 1519–1522"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XVI",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_62"
+      }
+     ],
+     "pages": "pp. 62–66",
+     "questions": [
+      "How did Balboa sneak onto the ship?",
+      "How did Florida get its name?",
+      "Why did Magellan call the ocean \"Pacific\"?"
+     ],
+     "answers": [
+      "He hid in a cask",
+      "Ponce de Leon landed at Easter time (Pascua florida)",
+      "It seemed so peaceful and calm"
+     ],
+     "notes": "The Fountain of Youth search is a legend attached to Ponce de Leon after his death; he really went seeking land and gold."
+    },
+    {
+     "title": "Chapter 17: \"The Father of Waters\"",
+     "steps": [
+      "Read Chapter XVII, \"The Father of Waters,\" aloud together",
+      "Narration: tell about the Spanish explorers Narvaez, Cabeza de Vaca, Coronado, and De Soto",
+      "Map work: Find Mexico City, Tampa Bay, the Mississippi River, Acoma in New Mexico, and the Grand Canyon",
+      "Timeline: Add \"Cortez conquers Mexico\" at 1519–1521; add \"Coronado's expedition\" at 1540–1542; add \"De Soto reaches the Mississippi\" at 1541"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XVII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_66"
+      }
+     ],
+     "pages": "pp. 66–70",
+     "questions": [
+      "How did Cabeza de Vaca and his friends survive eight years among strangers?",
+      "What were the \"Seven Cities of Cibola\" really?",
+      "Why did De Soto's men bury him in the river at night?"
+     ],
+     "answers": [
+      "They acted as healers (\"magicians\") and wandered across the continent",
+      "Zuñi pueblo villages",
+      "They feared the people they had fought would find and harm his body"
+     ],
+     "notes": "The \"negro servant\" who guided Marcos was Estevanico, an enslaved Moroccan man and one of the first Africans known to explore North America. Narvaez's party was lost near Florida and Texas, not at the Mississippi's mouth."
+    },
+    {
+     "title": "Chapter 18: The French in Canada",
+     "steps": [
+      "Read Chapter XVIII, \"The French in Canada,\" aloud together",
+      "Narration: tell why French fishermen and explorers came to North America and what Cartier found",
+      "Map work: Find Brittany, the Banks of Newfoundland, Cape Breton, the St. Lawrence River, Quebec, Montreal, and Niagara Falls",
+      "Timeline: Add \"Verrazano explores the coast\" at 1524; add \"Cartier claims Canada for France\" at 1534"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XVIII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_70"
+      }
+     ],
+     "pages": "pp. 70–73",
+     "questions": [
+      "Why was fish in such demand in Europe?",
+      "How did the St. Lawrence River get its name?",
+      "What does \"Mont Real\" (Montreal) mean?"
+     ],
+     "answers": [
+      "Catholics ate fish instead of meat on the many fast days",
+      "Cartier arrived on Saint Lawrence's day",
+      "Royal mountain"
+     ],
+     "notes": "Cartier kidnapped several Native people, which explains the later trouble with their relatives. The meaning \"Thunder of Waters\" for Niagara is a popular tradition, not certain."
+    },
+    {
+     "title": "Chapter 19: French and Spanish Quarrels",
+     "steps": [
+      "Read Chapter XIX, \"French and Spanish Quarrels,\" aloud together",
+      "Narration: tell what happened between the French Huguenots and the Spaniards in Florida",
+      "Map work: Find the St. Johns River, St. Augustine, and Santa Fe; color Spanish Florida and New Mexico",
+      "Timeline: Add \"St. Augustine founded\" at 1565; add \"Oñate founds a colony in New Mexico\" at 1598"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XIX",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_73"
+      }
+     ],
+     "pages": "pp. 73–77",
+     "questions": [
+      "Who were the Huguenots?",
+      "What is special about St. Augustine?",
+      "What trap did the people of Acoma set for Oñate?"
+     ],
+     "answers": [
+      "French Protestants",
+      "It is the oldest city founded by Europeans in the mainland United States",
+      "They invited him to step through a trapdoor into a dark room where armed men waited"
+     ],
+     "notes": "This chapter includes a massacre, revenge killings, and starving sailors resorting to cannibalism. Santa Fe was actually founded about 1610; San Diego's mission dates from 1769, not soon after St. Augustine."
+    },
+    {
+     "title": "Chapter 20: The Sky City",
+     "steps": [
+      "Read Chapter XX, \"The Sky City,\" aloud together",
+      "Narration: tell the story of the battle for Acoma and of Fray Ramirez",
+      "Map work: Find Acoma Pueblo west of Albuquerque, New Mexico; draw the mesa from the side",
+      "Timeline: Add \"Spaniards attack Acoma\" at 1599; add \"Fray Ramirez comes to Acoma\" at 1629"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XX",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_77"
+      }
+     ],
+     "pages": "pp. 77–80",
+     "questions": [
+      "How did the Spaniards get a cannon close to the town?",
+      "What made the people of Acoma stop throwing stones at Fray Ramirez?",
+      "What is the stone stairway called?"
+     ],
+     "answers": [
+      "They dragged it up a neighboring rock pinnacle",
+      "He rescued a girl who had fallen onto a ledge, and they believed it a miracle",
+      "The Path of the Father"
+     ],
+     "notes": "The book tells the battle as Spanish heroism. After it, Oñate punished the people of Acoma very harshly, including cutting off men's feet; the Acoma people remember it as a tragedy. Older children may want to hear both sides."
+    },
+    {
+     "title": "Chapter 21: Around the World",
+     "steps": [
+      "Read Chapter XXI, \"Around the World,\" aloud together",
+      "Narration: tell about Hawkins, Frobisher, Davis, and Drake",
+      "Map work: Find Frobisher Bay, Davis Strait, Drake's Bay in California, and the Strait of Magellan",
+      "Timeline: Add \"Frobisher searches for the Northwest Passage\" at 1576; add \"Drake sails around the world\" at 1577–1580"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXI",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_80"
+      }
+     ],
+     "pages": "pp. 80–83",
+     "questions": [
+      "What did Frobisher bring home, thinking it was gold?",
+      "What was the \"Northwest Passage\" explorers hoped to find?",
+      "What did Drake mean by \"singeing the King of Spain's beard\"?"
+     ],
+     "answers": [
+      "Fool's gold (pyrite)",
+      "A sea route through or around northern America to Asia",
+      "Raiding Spanish ports and burning their ships"
+     ],
+     "notes": "Hawkins began England's part in the African slave trade; Africans had already been enslaved by the Spanish and Portuguese for decades. The book repeats the excuse that slavery among Christians was \"better\"; talk about why that was wrong."
+    },
+    {
+     "title": "Chapter 22: Nothing but Smoke",
+     "steps": [
+      "Read Chapter XXII, \"Nothing but Smoke,\" aloud together",
+      "Narration: tell about Sir Walter Raleigh, Roanoke, and the lost colony",
+      "Map work: Find Roanoke Island, North Carolina, Cape Cod, and Cuttyhunk Island",
+      "Timeline: Add \"Virginia Dare born at Roanoke\" at 1587; add \"Roanoke found empty\" at 1590"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_83"
+      }
+     ],
+     "pages": "pp. 83–87",
+     "questions": [
+      "How did Virginia get its name?",
+      "What was the only clue left at Roanoke?",
+      "How did Raleigh measure the weight of smoke?"
+     ],
+     "answers": [
+      "In honor of Queen Elizabeth, the \"virgin queen\"",
+      "The word \"Croatoan\" carved on a tree (the book says Croatan)",
+      "He weighed the tobacco before and the ashes after; the difference was the smoke"
+     ],
+     "notes": "The cloak, the water-on-the-smoker, and the smoke-weighing stories are legends. Potatoes came to Europe from South America through the Spanish, not through Raleigh."
+    }
+   ]
+  },
+  {
+   "title": "Unit 4: Jamestown and New Netherland (Chapters 23–27)",
+   "lessons": [
+    {
+     "title": "Chapter 23: Smith's Adventures",
+     "steps": [
+      "Read Chapter XXIII, \"Smith's Adventures,\" aloud together",
+      "Narration: tell about the founding of Jamestown and John Smith's early adventures",
+      "Map work: Find Chesapeake Bay, Capes Charles and Henry, the James River, and Jamestown",
+      "Timeline: Add \"Jamestown founded\" at 1607"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXIII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_87"
+      }
+     ],
+     "pages": "pp. 87–91",
+     "questions": [
+      "Why were the first Jamestown settlers so short of food?",
+      "What new food did the colonists taste at an abandoned campfire?",
+      "What does the author say about the story of Pocahontas saving Smith?"
+     ],
+     "answers": [
+      "They hunted for gold instead of building and planting",
+      "Roasted oysters",
+      "It is told of other explorers too, so we do not know if it is true"
+     ],
+     "notes": "Smith's tales of his own adventures in Hungary and Turkey come only from his own books and may be exaggerated. Pocahontas was about 11 at this time; there was no romance."
+    },
+    {
+     "title": "Chapter 24: The Jamestown Men",
+     "steps": [
+      "Read Chapter XXIV, \"The Jamestown Men,\" aloud together",
+      "Narration: tell how Smith was freed, how he ran the colony, and how Powhatan was crowned",
+      "Map work: Trace the Chesapeake Bay shoreline, as Smith did for his map",
+      "Timeline: Add \"John Smith leads Jamestown\" at 1608"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXIV",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_91"
+      }
+     ],
+     "pages": "pp. 91–94",
+     "questions": [
+      "Why were the Indians amazed by Smith's letter?",
+      "What was Smith's rule about work?",
+      "How did Smith stop the swearing?"
+     ],
+     "answers": [
+      "It seemed to \"speak\" and tell the colonists exactly what to give",
+      "If you will not work, you shall not eat",
+      "He had cold water poured down the offender's sleeve"
+     ],
+     "notes": "The book makes Powhatan comic. He was the powerful leader of about 30 tribes, and his return gift may have been his way of showing he did not accept being King James's subject."
+    },
+    {
+     "title": "Chapter 25: Smith Wounded",
+     "steps": [
+      "Read Chapter XXV, \"Smith Wounded,\" aloud together",
+      "Narration: tell how Pocahontas warned Smith, how Smith was hurt, and what happened in the Starving Time",
+      "Map work: Trace the James River from Jamestown down to Chesapeake Bay; find New England on a map",
+      "Timeline: Add \"Starving Time at Jamestown\" at winter 1609–1610; add \"Smith names New England\" at 1614"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXV",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_94"
+      }
+     ],
+     "pages": "pp. 94–97",
+     "questions": [
+      "What kind of settlers did Smith beg the company to send?",
+      "How was Smith hurt?",
+      "What saved the Jamestown settlers just as they were leaving?"
+     ],
+     "answers": [
+      "Farmers, carpenters, blacksmiths, masons, and woodcutters",
+      "Gunpowder in his boat exploded and burned him",
+      "Three ships arrived from England with food and new colonists"
+     ],
+     "notes": "About 500 people were at Jamestown before the Starving Time and around 60 survived. Archaeologists have confirmed that some desperate settlers did resort to cannibalism; you may skip that line with young children."
+    },
+    {
+     "title": "Chapter 26: The Visit of Pocahontas to England",
+     "steps": [
+      "Read Chapter XXVI, \"The Visit of Pocahontas to England,\" aloud together",
+      "Narration: tell how Jamestown began to thrive, and what happened to Pocahontas",
+      "Map work: Find Virginia and London; draw a tobacco plantation beside a river",
+      "Timeline: Add \"Pocahontas marries John Rolfe\" at 1614; add \"House of Burgesses meets\" and \"First Africans sold in Virginia\" at 1619"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXVI",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_97"
+      }
+     ],
+     "pages": "pp. 97–102",
+     "questions": [
+      "How did Governor Dale get the lazy colonists to work?",
+      "What crop made Virginia rich?",
+      "What important thing happened at Jamestown in 1619 for self-government?"
+     ],
+     "answers": [
+      "Each man had to work for his own food instead of sharing a common store",
+      "Tobacco",
+      "The House of Burgesses, the first elected assembly, met"
+     ],
+     "notes": "Pocahontas was kidnapped and held as a hostage, which the book tells lightly. The Africans of 1619 were probably first treated as servants for a term; laws making slavery lifelong and inherited came in the following decades. Talk honestly about that 1619 contrast of freedom and slavery."
+    },
+    {
+     "title": "Chapter 27: Hudson and the Indians",
+     "steps": [
+      "Read Chapter XXVII, \"Hudson and the Indians,\" aloud together",
+      "Narration: tell about Henry Hudson's voyage and the beginning of New Netherland",
+      "Map work: Find the Hudson River, Albany, Manhattan Island, Delaware Bay, and Hudson Bay; find Port Royal in Acadia (Nova Scotia)",
+      "Timeline: Add \"Port Royal founded in Acadia\" at 1605 (the book says 1604); add \"Hudson sails up his river\" at 1609"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXVII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_102"
+      }
+     ],
+     "pages": "pp. 102–105",
+     "questions": [
+      "Why did the Indians call Hudson's ship a \"great white bird\"?",
+      "Why did Hudson at first think the river might lead to Asia?",
+      "What happened to Hudson on his last voyage?"
+     ],
+     "answers": [
+      "Because of its spreading white sails",
+      "The water was salty far upstream",
+      "His crew set him adrift in a small boat and he was never seen again"
+     ],
+     "notes": "The \"fire water\" story reflects a real harm that alcohol trade did to Native communities. New Amsterdam was not formally founded until about 1624–1625."
+    }
+   ]
+  },
+  {
+   "title": "Unit 5: Pilgrims and Puritans (Chapters 28–35)",
+   "lessons": [
+    {
+     "title": "Chapter 28: The Mayflower",
+     "steps": [
+      "Read Chapter XXVIII, \"The Mayflower,\" aloud together",
+      "Narration: explain who the Pilgrims were and why they sailed on the Mayflower",
+      "Map work: Find England, Leyden in Holland, Delfshaven, Southampton, Plymouth (England), and Cape Cod",
+      "Timeline: Add \"Pilgrims move to Holland\" at 1608 (the book says 1607); add \"Mayflower sails\" at September 1620"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXVIII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_105"
+      }
+     ],
+     "pages": "pp. 105–109",
+     "questions": [
+      "What happened to Squanto before the Pilgrims came?",
+      "Why did the Separatists want to leave Holland?",
+      "Why did the Mayflower sail alone?"
+     ],
+     "answers": [
+      "He was kidnapped and taken to Spain and England, and when he came home his tribe had died of a plague",
+      "Their children were becoming Dutch, losing English ways",
+      "The Speedwell leaked and had to be left behind"
+     ],
+     "notes": "The Mayflower carried both Separatists and others hired or seeking land; the Pilgrims called the others \"strangers.\""
+    },
+    {
+     "title": "Chapter 29: Plymouth Rock",
+     "steps": [
+      "Read Chapter XXIX, \"Plymouth Rock,\" aloud together",
+      "Narration: tell how the Pilgrims chose a place to settle and survived the first winter",
+      "Map work: Draw Cape Cod's hook and mark Provincetown harbor and Plymouth",
+      "Timeline: Add \"Mayflower Compact signed\" at November 11, 1620; add \"Pilgrims land at Plymouth\" at December 1620"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXIX",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_109"
+      }
+     ],
+     "pages": "pp. 109–113",
+     "questions": [
+      "What did the men promise in the paper they signed on the ship?",
+      "Why did the Pilgrims not mark the graves of those who died?",
+      "About how many Pilgrims died that first winter?"
+     ],
+     "answers": [
+      "To obey laws made for the good of the colony (the Mayflower Compact)",
+      "So the Indians would not learn how few were left",
+      "Nearly half"
+     ],
+     "notes": "The corn the Pilgrims took had been stored by the Wampanoag; they paid for it months later. The book does not name the Mayflower Compact but describes it. The rock landing story was first told over 100 years later."
+    },
+    {
+     "title": "Chapter 30: The First American Thanksgiving",
+     "steps": [
+      "Read Chapter XXX, \"The First American Thanksgiving,\" aloud together",
+      "Narration: tell about Samoset, Squanto, the treaty with Massasoit, and the first Thanksgiving",
+      "Map work: Find Plymouth and the Wampanoag homeland in southeastern Massachusetts and Rhode Island",
+      "Timeline: Add \"Treaty with Massasoit\" at March 1621; add \"Harvest feast (the first Thanksgiving)\" at autumn 1621"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXX",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_113"
+      }
+     ],
+     "pages": "pp. 113–118",
+     "questions": [
+      "What did Samoset say when he walked into the village?",
+      "How did Squanto teach the Pilgrims to plant corn?",
+      "Who came to the harvest feast?"
+     ],
+     "answers": [
+      "\"Welcome, Englishmen\"",
+      "Plant when oak leaves were as big as a mouse's ear, with a fish in each hill",
+      "Massasoit and about ninety of his men"
+     ],
+     "notes": "The pumpkin pies and naming of \"Thanksgiving Day\" are later legend; the 1621 feast was a harvest celebration, and the national holiday dates from 1863. Thanksgiving is now the fourth Thursday in November."
+    },
+    {
+     "title": "Chapter 31: The Snake Skin and the Bullets",
+     "steps": [
+      "Read Chapter XXXI, \"The Snake Skin and the Bullets,\" aloud together",
+      "Narration: tell about Winslow nursing Massasoit, the snake skin, and Sunday meeting in Plymouth",
+      "Map work: Find Narragansett Bay and Salem, Massachusetts",
+      "Timeline: Add \"Massachusetts Bay settlers reach Salem\" at 1628"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXI",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_118"
+      }
+     ],
+     "pages": "pp. 118–122",
+     "questions": [
+      "What did Bradford send back inside the snake skin?",
+      "Why did the boys sit on the pulpit steps?",
+      "Why did the Plymouth colony grow slowly?"
+     ],
+     "answers": [
+      "Powder and bullets",
+      "So everyone could see them and they would behave",
+      "Only church members could vote, and they were very strict"
+     ],
+     "notes": "Squanto's explanation of the snake skin was his own; he sometimes used his position for his own power. The Massachusetts seal's \"Come over and help us\" shows how the English saw themselves, not how Native people did."
+    },
+    {
+     "title": "Chapter 32: The Beginning of Boston",
+     "steps": [
+      "Read Chapter XXXII, \"The Beginning of Boston,\" aloud together",
+      "Narration: tell how Boston began and what kind of governor John Winthrop was",
+      "Map work: Find Boston, Charlestown, Weymouth, and Cambridge",
+      "Timeline: Add \"Boston founded\" at 1630; add \"Harvard College founded\" at 1636"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_122"
+      }
+     ],
+     "pages": "pp. 122–126",
+     "questions": [
+      "Why did Blackstone leave Plymouth?",
+      "How did Winthrop cure a man of stealing his firewood?",
+      "Who gave his books to the new college?"
+     ],
+     "answers": [
+      "He would not let the Pilgrims force him to believe as they did",
+      "He sent him all the wood he needed until spring",
+      "John Harvard"
+     ],
+     "notes": "The story that Boston's crooked streets follow Blackstone's cow paths is a legend."
+    },
+    {
+     "title": "Chapter 33: Stories of Two Ministers",
+     "steps": [
+      "Read Chapter XXXIII, \"Stories of Two Ministers,\" aloud together",
+      "Narration: tell about John Eliot's Indian Bible and Roger Williams's idea of religious freedom",
+      "Map work: Find Roxbury, Salem, and Providence; color Rhode Island",
+      "Timeline: Add \"Roger Williams founds Providence\" at 1636; add \"Eliot's Indian Bible printed\" at 1663"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXIII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_126"
+      }
+     ],
+     "pages": "pp. 126–129",
+     "questions": [
+      "Why did the treasurer tie Eliot's pay in knots?",
+      "How did the Massachusetts colonists earn money from the sea?",
+      "What two big ideas got Roger Williams in trouble?"
+     ],
+     "answers": [
+      "So he would not give it all away before he got home",
+      "They caught fish and sent it to England (and traded lumber in the West Indies)",
+      "That people should be free to worship as they choose, and that the land belonged to the Indians"
+     ],
+     "notes": "The book says no Massachusett speakers are left; today the Wampanoag are reviving their language, partly using Eliot's Bible. The rum trade the chapter mentions was later tied to the slave trade."
+    },
+    {
+     "title": "Chapter 34: Williams and the Indians",
+     "steps": [
+      "Read Chapter XXXIV, \"Williams and the Indians,\" aloud together",
+      "Narration: tell about Anne Hutchinson, the founding of Connecticut, and the Pequot War",
+      "Map work: Find Newport, Portsmouth and Dover in New Hampshire, the Connecticut River, Hartford, Saybrook, and New Haven",
+      "Timeline: Add \"Thomas Hooker founds Hartford\" at 1636; add \"Pequot War\" at 1636–1638; add \"New England Confederation\" at 1643"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXIV",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_129"
+      }
+     ],
+     "pages": "pp. 129–134",
+     "questions": [
+      "Why was Anne Hutchinson banished?",
+      "How did Roger Williams help the colonists who had driven him out?",
+      "What new idea about voting did Hooker's settlers bring to Connecticut?"
+     ],
+     "answers": [
+      "She kept preaching and holding meetings when the Puritan leaders told her to stop",
+      "He paddled through a storm and persuaded the Narragansetts not to join the Pequots",
+      "A man did not have to be a church member to vote"
+     ],
+     "notes": "The attack on the Pequot fort at Mystic burned hundreds of people, mostly women, children, and elders; the book calls it a massacre. Consider summarizing that part for younger children."
+    },
+    {
+     "title": "Chapter 35: The Quakers",
+     "steps": [
+      "Read Chapter XXXV, \"The Quakers,\" aloud together",
+      "Narration: tell who the Quakers were and how they were treated in Massachusetts",
+      "Map work: Find England and Massachusetts; mark Rhode Island as the refuge",
+      "Timeline: Add \"English Civil War and Cromwell's Commonwealth\" at 1642–1660; add \"Quaker martyrs hanged in Boston\" at 1659–1661"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXV",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_134"
+      }
+     ],
+     "pages": "pp. 134–136",
+     "questions": [
+      "Why were Friends called Quakers?",
+      "Why did Quakers number the days instead of naming them?",
+      "How did the Navigation Act hurt the colonists?"
+     ],
+     "answers": [
+      "They said people should quake at the thought of God's wrath",
+      "The names came from old heathen gods",
+      "Goods had to be carried in English ships, which raised their prices"
+     ],
+     "notes": "The first Navigation Act came in 1651, but the ban on colonial shipbuilding the book mentions is not accurate; colonial ships counted as English. The war began in 1642, not 1643."
+    }
+   ]
+  },
+  {
+   "title": "Unit 6: King Philip, New York, Pennsylvania, and Maryland (Chapters 36–40)",
+   "lessons": [
+    {
+     "title": "Chapter 36: The King-Killers",
+     "steps": [
+      "Read Chapter XXXVI, \"The King-Killers,\" aloud together",
+      "Narration: tell about the hidden regicides and why Massasoit's sons grew angry",
+      "Map work: Find New Haven, Hadley, and Mount Hope (Bristol, Rhode Island)",
+      "Timeline: Add \"Charles II restored to the throne\" at 1660; add \"Connecticut charter unites New Haven\" at 1662"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXVI",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_136"
+      }
+     ],
+     "pages": "pp. 136–138",
+     "questions": [
+      "Who were the \"king-killers\"?",
+      "What did the chief show the colonist with the log?",
+      "Why did the Wampanoag feel cramped?"
+     ],
+     "answers": [
+      "Judges who had condemned King Charles I to death",
+      "That his people had moved as far as they could and had no more room",
+      "Colonists had bought nearly all their land and would not let them hunt or fish on it"
+     ],
+     "notes": "The log story is a traditional tale. Native people often understood a land sale as sharing use, not giving up all rights; that misunderstanding is real history."
+    },
+    {
+     "title": "Chapter 37: King Philip's War",
+     "steps": [
+      "Read Chapter XXXVII, \"King Philip's War,\" aloud together",
+      "Narration: tell how King Philip's War began and ended",
+      "Map work: Find Swansea, Boston's Beacon Hill, Deerfield, Hadley, and Mount Hope",
+      "Timeline: Add \"King Philip's War\" at 1675–1676 (the book says to 1678)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXVII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_138"
+      }
+     ],
+     "pages": "pp. 138–142",
+     "questions": [
+      "How did the warning signal reach Boston?",
+      "What happened at Bloody Brook?",
+      "What happened to Philip's wife and son?"
+     ],
+     "answers": [
+      "Signal fires were lit on Beacon Hill",
+      "Soldiers put their guns in a cart to eat grapes and were ambushed",
+      "They were captured, and his son was sold as a slave in the West Indies"
+     ],
+     "notes": "This chapter is violent, describing killings of children and captives. Philip's Wampanoag name was Metacom. The story of Goffe saving Hadley is a legend."
+    },
+    {
+     "title": "Chapter 38: The Beginning of New York",
+     "steps": [
+      "Read Chapter XXXVIII, \"The Beginning of New York,\" aloud together",
+      "Narration: tell how New Amsterdam began and how it became New York",
+      "Map work: Find Manhattan, Wall Street, the Bowery, Long Island, Wilmington, and New Jersey",
+      "Timeline: Add \"Minuit buys Manhattan\" at 1626; add \"English take New Amsterdam; renamed New York\" at 1664"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXVIII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_142"
+      }
+     ],
+     "pages": "pp. 142–147",
+     "questions": [
+      "How did Wall Street get its name?",
+      "What happened to New Sweden?",
+      "Did Stuyvesant want to surrender? What happened?"
+     ],
+     "answers": [
+      "A wooden wall (palisade) once stood there",
+      "Stuyvesant and the Dutch conquered it",
+      "No, he wanted to fight, but the people refused, so the city surrendered"
+     ],
+     "notes": "The \"$24\" price is a 19th-century estimate. Mrs. Hutchinson's surviving daughter Susanna was later returned. The Dutch retook New York in 1673 and gave it back for good in 1674, after the renaming."
+    },
+    {
+     "title": "Chapter 39: Penn and the Indians",
+     "steps": [
+      "Read Chapter XXXIX, \"Penn and the Indians,\" aloud together",
+      "Narration: tell how William Penn founded Pennsylvania and treated the Lenape",
+      "Map work: Find Pennsylvania, Philadelphia, Germantown, and Delaware",
+      "Timeline: Add \"Penn arrives; treaty under the elm\" at 1682"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXIX",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_147"
+      }
+     ],
+     "pages": "pp. 147–152",
+     "questions": [
+      "What does \"Pennsylvania\" mean?",
+      "How were quarrels between a settler and an Indian to be judged?",
+      "What does \"Philadelphia\" mean?"
+     ],
+     "answers": [
+      "Penn's woods (Penn's woodland)",
+      "By a jury of six Indians and six colonists",
+      "City of Brotherly Love"
+     ],
+     "notes": "The great treaty is a cherished tradition with little written record. Later, Penn's sons cheated the Lenape in the 1737 \"Walking Purchase.\" The snake story is a folk tale."
+    },
+    {
+     "title": "Chapter 40: The Catholics in Maryland",
+     "steps": [
+      "Read Chapter XL, \"The Catholics in Maryland,\" aloud together",
+      "Narration: tell how Maryland began and what troubles Virginia had",
+      "Map work: Find the Potomac River, St. Marys, Annapolis, Baltimore; draw the Mason and Dixon line",
+      "Timeline: Add \"Maryland founded\" at 1634; add \"Virginia becomes a royal colony\" at 1624; add \"Mason-Dixon line surveyed\" at 1763–1767"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XL",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_152"
+      }
+     ],
+     "pages": "pp. 152–155",
+     "questions": [
+      "Why did Lord Baltimore want a colony?",
+      "Whom was Maryland named for?",
+      "What did the surveyors put at every mile of the Mason and Dixon line?"
+     ],
+     "answers": [
+      "As a safe home for English Catholics",
+      "Queen Henrietta Maria",
+      "A stone post marked with the initial of each colony"
+     ],
+     "notes": "The 1622 Powhatan attack killed about a quarter of Virginia's colonists. The Mason-Dixon line later became the symbolic border between free and slave states."
+    }
+   ]
+  },
+  {
+   "title": "Unit 7: Southern Colonies and Colonial Troubles (Chapters 41–46)",
+   "lessons": [
+    {
+     "title": "Chapter 41: The Old Dominion",
+     "steps": [
+      "Read Chapter XLI, \"The Old Dominion,\" aloud together",
+      "Narration: tell why Virginia was called the Old Dominion and why the planters disliked the Navigation Act",
+      "Map work: Find Virginia and Jamestown; trace a tobacco ship's route from a plantation dock to England and back",
+      "Timeline: Add \"Charles I beheaded\" at 1649; add \"Monarchy restored under Charles II\" at 1660"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLI",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_155"
+      }
+     ],
+     "pages": "pp. 155–157",
+     "questions": [
+      "What were the king's supporters called, and what were the Puritans called?",
+      "Why did the Navigation Act make the planters poorer?",
+      "How did rich Virginia children get their schooling?"
+     ],
+     "answers": [
+      "Cavaliers and Roundheads",
+      "Goods had to go on English ships, which charged high prices both ways",
+      "From private tutors, and some sons went to English universities"
+     ],
+     "notes": "The governor who hoped for no schools or printing was William Berkeley (1671). Older children can discuss why a ruler might not want people educated."
+    },
+    {
+     "title": "Chapter 42: Bacon's Rebellion",
+     "steps": [
+      "Read Chapter XLII, \"Bacon's Rebellion,\" aloud together",
+      "Narration: tell the story of Bacon's Rebellion",
+      "Map work: Find Jamestown and the frontier along the fall line of Virginia's rivers",
+      "Timeline: Add \"Bacon's Rebellion; Jamestown burned\" at 1676"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_157"
+      }
+     ],
+     "pages": "pp. 157–160",
+     "questions": [
+      "Why did the colonists choose Bacon as their leader?",
+      "What was the \"white-apron brigade\"?",
+      "What did King Charles say about Berkeley's punishments?"
+     ],
+     "answers": [
+      "Governor Berkeley would not defend them from Indian attacks",
+      "The wives of Berkeley's men, whom Bacon placed in front of his troops",
+      "That he had killed more people than the king had for his own father's murder"
+     ],
+     "notes": "Bacon's men attacked friendly as well as hostile tribes. Archaeologists have since found much of Jamestown's original fort, which the book says had vanished."
+    },
+    {
+     "title": "Chapter 43: A Journey Inland",
+     "steps": [
+      "Read Chapter XLIII, \"A Journey Inland,\" aloud together",
+      "Narration: tell about the founding of William and Mary College and Spotswood's ride over the mountains",
+      "Map work: Find Williamsburg, the Blue Ridge Mountains, and the Shenandoah Valley",
+      "Timeline: Add \"College of William and Mary founded\" at 1693; add \"Spotswood's Knights of the Golden Horseshoe\" at 1716"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLIII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_160"
+      }
+     ],
+     "pages": "pp. 160–162",
+     "questions": [
+      "What payment did the king ask for the college charter?",
+      "What happened when a deer saw itself in Spotswood's mirror?",
+      "What did Spotswood's coat of arms show?"
+     ],
+     "answers": [
+      "Two copies of Latin verse each year",
+      "It smashed the mirror with its horns",
+      "A golden horseshoe"
+     ],
+     "notes": "The claim that no white people were ever sold as servants in America after this is wrong; indentured and convict servants kept coming until the Revolution. Spotswood's party crossed the Blue Ridge but not the Alleghenies."
+    },
+    {
+     "title": "Chapter 44: The Carolina Pirates",
+     "steps": [
+      "Read Chapter XLIV, \"The Carolina Pirates,\" aloud together",
+      "Narration: tell how the Carolinas and Georgia were founded and what they grew",
+      "Map work: Find North and South Carolina, Charleston, Savannah, St. Augustine, and Frederica on St. Simons Island",
+      "Timeline: Add \"Carolina granted to the lords proprietors\" at 1663; add \"Oglethorpe founds Georgia\" at 1733"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLIV",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_162"
+      }
+     ],
+     "pages": "pp. 162–166",
+     "questions": [
+      "What crops made Carolina rich?",
+      "Why did Oglethorpe start Georgia?",
+      "What did the Indians say the eagle feathers and buffalo skin meant?"
+     ],
+     "answers": [
+      "Rice, indigo, and tobacco (plus tar and turpentine)",
+      "To give poor debtors a fresh start",
+      "Love and protection"
+     ],
+     "notes": "The planter's daughter was Eliza Lucas Pinckney. Rice growing depended on the skill and labor of enslaved West Africans, who knew rice farming from home; the book mentions only that planters \"bought many negroes.\""
+    },
+    {
+     "title": "Chapter 45: Charter Oak",
+     "steps": [
+      "Read Chapter XLV, \"Charter Oak,\" aloud together",
+      "Narration: tell the story of the Charter Oak and what happened to Governor Andros",
+      "Map work: Find Hartford, Boston, and New Haven",
+      "Timeline: Add \"Charter hidden in the oak\" at 1687; add \"Glorious Revolution; William and Mary\" at 1688–1689"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLV",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_166"
+      }
+     ],
+     "pages": "pp. 166–170",
+     "questions": [
+      "How did Captain Wadsworth save the Connecticut charter?",
+      "Why did King Charles let Massachusetts keep its pine-tree shillings?",
+      "How was Andros caught trying to escape from prison?"
+     ],
+     "answers": [
+      "He threw his cloak over the candles and hid the charter in a hollow oak in the dark",
+      "He was told the tree was the Royal Oak that had hidden him",
+      "His big feet gave him away under his lady's dress"
+     ],
+     "notes": "The Charter Oak and Andros-in-a-dress stories are traditions without firm proof. Leisler was hanged in 1691; his name was cleared in 1695."
+    },
+    {
+     "title": "Chapter 46: Salem Witches",
+     "steps": [
+      "Read Chapter XLVI, \"Salem Witches,\" aloud together",
+      "Narration: tell what happened during the Salem witch trials and how they ended",
+      "Map work: Find Salem and Boston",
+      "Timeline: Add \"Salem witch trials\" at 1692; add \"Boylston inoculates against smallpox\" at 1721"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLVI",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_170"
+      }
+     ],
+     "pages": "pp. 170–174",
+     "questions": [
+      "How many people were put to death in the Salem trials?",
+      "Who was the famous minister who later admitted he was wrong?",
+      "What did Dr. Boylston try, even though people threatened him?"
+     ],
+     "answers": [
+      "Nineteen (by hanging; one more man was pressed to death)",
+      "Cotton Mather",
+      "Inoculation against smallpox"
+     ],
+     "notes": "The accused were not mostly senile old women; many were ordinary adults. Boylston's method was inoculation with smallpox itself; true vaccination came later. Cotton Mather learned of it partly from Onesimus, an enslaved African man."
+    }
+   ]
+  },
+  {
+   "title": "Unit 8: New France and the French and Indian Wars (Chapters 47–56)",
+   "lessons": [
+    {
+     "title": "Chapter 47: Down the Mississippi",
+     "steps": [
+      "Read Chapter XLVII, \"Down the Mississippi,\" aloud together",
+      "Narration: tell how Marquette and Joliet traveled down the Mississippi",
+      "Map work: Trace their route: Green Bay, Fox River, Wisconsin River, down the Mississippi past the Missouri and Ohio to the Arkansas, then back by the Illinois and Chicago rivers",
+      "Timeline: Add \"Champlain founds Quebec\" at 1608; add \"Marquette and Joliet on the Mississippi\" at 1673"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLVII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_174"
+      }
+     ],
+     "pages": "pp. 174–180",
+     "questions": [
+      "Why did the Iroquois hate the French?",
+      "What were the French woodsmen called?",
+      "How did Marquette and Joliet know the river flowed to the Gulf of Mexico?"
+     ],
+     "answers": [
+      "Champlain helped their Algonquin enemies defeat them",
+      "Voyageurs or coureurs de bois",
+      "It kept flowing south, and they met Indians with European goods from the south"
+     ],
+     "notes": "Port Royal was founded in 1605. The dog-feast detail is from Marquette's own journal."
+    },
+    {
+     "title": "Chapter 48: La Salle's Adventures",
+     "steps": [
+      "Read Chapter XLVIII, \"La Salle's Adventures,\" aloud together",
+      "Narration: tell about La Salle's journeys and how New Orleans began",
+      "Map work: Find Peoria, the Falls of St. Anthony (Minneapolis), the mouth of the Mississippi, Matagorda Bay in Texas, Biloxi, and New Orleans",
+      "Timeline: Add \"La Salle claims Louisiana\" at 1682; add \"New Orleans founded\" at 1718"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLVIII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_180"
+      }
+     ],
+     "pages": "pp. 180–183",
+     "questions": [
+      "What is a portage?",
+      "Whom was Louisiana named for?",
+      "Why did the Natchez attack come two days too soon?"
+     ],
+     "answers": [
+      "A place where canoes are carried overland between waters",
+      "King Louis XIV of France",
+      "A boy burned two of his father's counting sticks"
+     ],
+     "notes": "The Natchez attacked in 1729 after a French officer tried to seize their sacred village land; the French then destroyed the Natchez nation."
+    },
+    {
+     "title": "Chapter 49: Indians on the Warpath",
+     "steps": [
+      "Read Chapter XLIX, \"Indians on the Warpath,\" aloud together",
+      "Narration: tell what happened in King William's War, including the raid on Schenectady",
+      "Map work: Find Quebec, Montreal, Schenectady, Albany, Dover, Haverhill, and Port Royal",
+      "Timeline: Add \"King William's War\" at 1689–1697"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLIX",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_183"
+      }
+     ],
+     "pages": "pp. 183–187",
+     "questions": [
+      "Why did the French want the Hudson valley?",
+      "Why was Schenectady caught by surprise?",
+      "How did the colonists try to strike back?"
+     ],
+     "answers": [
+      "To control the river and push the English out; they claimed Verrazano saw it first",
+      "Its gates were left open on a cold night, guarded only by snowmen",
+      "They took Port Royal and attacked Quebec and Montreal (which failed)"
+     ],
+     "notes": "This chapter describes torture, the killing of a baby, and Hannah Dustin scalping her captors for a bounty. Preview it and summarize for younger children; older ones can discuss why her statue is now debated."
+    },
+    {
+     "title": "Chapter 50: Two Wars With the French",
+     "steps": [
+      "Read Chapter L, \"Two Wars With the French,\" aloud together",
+      "Narration: tell about Queen Anne's War, the capture of Louisburg, and why Washington was sent west",
+      "Map work: Find Deerfield, Nova Scotia, Cape Breton Island, Louisburg, and the Ohio River",
+      "Timeline: Add \"Raid on Deerfield\" at 1704; add \"Treaty of Utrecht gives Acadia to Britain\" at 1713; add \"New Englanders take Louisburg\" at 1745"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter L",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_187"
+      }
+     ],
+     "pages": "pp. 187–191",
+     "questions": [
+      "What was Acadia renamed?",
+      "Why were New Englanders so upset by the peace of 1748?",
+      "Why did the colonists want to cross the mountains?"
+     ],
+     "answers": [
+      "Nova Scotia",
+      "Louisburg, which they had captured, was given back to France",
+      "Hunters described rich lands along the Ohio, and the population was growing"
+     ],
+     "notes": "The story of the Deerfield bell is a legend; historians find no proof it happened."
+    },
+    {
+     "title": "Chapter 51: Washington's Boyhood",
+     "steps": [
+      "Read Chapter LI, \"Washington's Boyhood,\" aloud together",
+      "Narration: tell about George Washington's boyhood and his work as a young surveyor",
+      "Map work: Find the Potomac and Rappahannock rivers, Mount Vernon, and Natural Bridge in Virginia",
+      "Timeline: Add \"George Washington born\" at February 22, 1732; add \"Washington surveys for Lord Fairfax\" at 1748"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LI",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_191"
+      }
+     ],
+     "pages": "pp. 191–195",
+     "questions": [
+      "What did Washington copy into his school notebook?",
+      "What did his mother say when he admitted killing her colt?",
+      "What was Washington's first real job?"
+     ],
+     "answers": [
+      "Rules of good behavior (civility)",
+      "She regretted the colt but was glad her son told the truth",
+      "Surveying land for Lord Fairfax"
+     ],
+     "notes": "The cherry-tree story was invented by Parson Weems; the colt and Natural Bridge tales are also legends. The book mentions enslaved children only in passing; Washington's family held many enslaved people."
+    },
+    {
+     "title": "Chapter 52: Washington's Journey",
+     "steps": [
+      "Read Chapter LII, \"Washington's Journey,\" aloud together",
+      "Narration: tell about Washington's winter journey to the French fort",
+      "Map work: Trace a route from Williamsburg to the forks of the Ohio (Pittsburgh), up the Allegheny to Venango and Fort Le Boeuf",
+      "Timeline: Add \"Washington carries the warning to the French\" at 1753–1754"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_195"
+      }
+     ],
+     "pages": "pp. 195–198",
+     "questions": [
+      "Whose estate did Washington inherit?",
+      "What happened when Washington crossed the Allegheny on a raft?",
+      "What did the French do to the fort the Virginians began?"
+     ],
+     "answers": [
+      "His brother Lawrence's estate, Mount Vernon",
+      "He was jerked into the icy river and his clothes froze",
+      "Drove the Virginians off, finished it, and named it Fort Duquesne"
+     ],
+     "notes": "The \"Indian queen\" was Queen Aliquippa, a Seneca leader."
+    },
+    {
+     "title": "Chapter 53: Washington's First Battle",
+     "steps": [
+      "Read Chapter LIII, \"Washington's First Battle,\" aloud together",
+      "Narration: tell about Fort Necessity and the question the Indian chief asked",
+      "Map work: Find Great Meadows (Fort Necessity) in western Pennsylvania and Albany, New York",
+      "Timeline: Add \"Washington surrenders Fort Necessity\" at July 4, 1754"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LIII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_198"
+      }
+     ],
+     "pages": "pp. 198–199",
+     "questions": [
+      "What were Washington's men allowed to take when they surrendered?",
+      "What did older Washington say about loving the sound of bullets?",
+      "What did the chief ask about the land?"
+     ],
+     "answers": [
+      "Their flag and their weapons",
+      "\"If I said so, it was when I was young\"",
+      "If the French own the north and the English the south, where is the land of the Indians?"
+     ],
+     "notes": "The first skirmish, at Jumonville Glen, helped start a world war; the French said it killed an envoy. This short chapter pairs well with an extra map activity."
+    },
+    {
+     "title": "Chapter 54: Stories of Franklin",
+     "steps": [
+      "Read Chapter LIV, \"Stories of Franklin,\" aloud together",
+      "Narration: tell some stories of Benjamin Franklin, from the whistle to the kite",
+      "Map work: Find Boston, New York, and Philadelphia; trace Franklin's trip between them",
+      "Timeline: Add \"Benjamin Franklin born\" at 1706; add \"Franklin's kite experiment\" at 1752"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LIV",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_199"
+      }
+     ],
+     "pages": "pp. 199–206",
+     "questions": [
+      "What does \"paying too much for the whistle\" mean?",
+      "How did Franklin get his first writings into his brother's paper?",
+      "What useful invention came from the kite experiment?"
+     ],
+     "answers": [
+      "Paying more than something is worth",
+      "He disguised his handwriting and slipped them under the shop door",
+      "The lightning rod"
+     ],
+     "notes": "Franklin's own Autobiography tells many of these stories and makes a good follow-up for older children."
+    },
+    {
+     "title": "Chapter 55: Braddock's Defeat",
+     "steps": [
+      "Read Chapter LV, \"Braddock's Defeat,\" aloud together",
+      "Narration: tell why Braddock's army was defeated and what happened to the Acadians",
+      "Map work: Find Fort Duquesne, the Monongahela River, Lake George, Oswego, and Nova Scotia; trace the Acadians to Louisiana",
+      "Timeline: Add \"Albany Congress, 'Join or Die'\" at 1754; add \"Braddock's defeat\" and \"Expulsion of the Acadians\" at 1755"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LV",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_206"
+      }
+     ],
+     "pages": "pp. 206–210",
+     "questions": [
+      "What did Franklin's \"Join or die\" snake stand for?",
+      "Why were Braddock's soldiers easy targets?",
+      "How did Washington show care for the tired men on the retreat?"
+     ],
+     "answers": [
+      "The colonies had to unite or be destroyed",
+      "They wore red and marched in close ranks while the enemy hid behind trees",
+      "He walked and let them load their muskets and baggage on his horse"
+     ],
+     "notes": "The Acadian expulsion broke up families; their descendants in Louisiana are the Cajuns."
+    },
+    {
+     "title": "Chapter 56: Wolfe at Quebec",
+     "steps": [
+      "Read Chapter LVI, \"Wolfe at Quebec,\" aloud together",
+      "Narration: tell how Wolfe took Quebec and what the Treaty of Paris changed",
+      "Map work: Find Pittsburgh, Louisburg, Quebec and the Plains of Abraham, Detroit, and Michilimackinac; shade what France lost in 1763",
+      "Timeline: Add \"Wolfe takes Quebec\" at 1759; add \"Treaty of Paris\" and \"Pontiac's War\" at 1763"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LVI",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_210"
+      }
+     ],
+     "pages": "pp. 210–214",
+     "questions": [
+      "How did Wolfe get his army to the Plains of Abraham?",
+      "How was Pittsburgh named?",
+      "How did the Indians get into the fort at Michilimackinac?"
+     ],
+     "answers": [
+      "He drifted downriver at night, answered the sentries in French, and climbed a steep path",
+      "For William Pitt",
+      "They chased a ball game close to the gates and dashed in"
+     ],
+     "notes": "Pontiac was killed in 1769, six years later. Ponce de Leon reached Florida in 1513."
+    }
+   ]
+  },
+  {
+   "title": "Unit 9: The Road to Revolution (Chapters 57–62)",
+   "lessons": [
+    {
+     "title": "Chapter 57: How England Treated Her Colonies",
+     "steps": [
+      "Read Chapter LVII, \"How England Treated Her Colonies,\" aloud together",
+      "Narration: explain the trade laws England made and why the colonists hated search warrants",
+      "Map work: Find Boston, Narragansett Bay, and Providence; mark Gaspee Point",
+      "Timeline: Add \"James Otis speaks against the writs of assistance\" at 1761; add \"Burning of the Gaspee\" at 1772"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LVII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_214"
+      }
+     ],
+     "pages": "pp. 214–218",
+     "questions": [
+      "Could a colonial farmer sell a hoe he made to a neighbor in another colony?",
+      "Why were the big straight trees saved?",
+      "What was James Otis's main argument?"
+     ],
+     "answers": [
+      "No",
+      "For masts for England's ships",
+      "The colonists had no seats in Parliament, so laws they had no say in did not bind them"
+     ],
+     "notes": "Many of these laws were loosely enforced for decades, which is why smuggling flourished. The book presents only the colonists' side; Britain saw the laws as fair payment for protection."
+    },
+    {
+     "title": "Chapter 58: The Stamp Tax",
+     "steps": [
+      "Read Chapter LVIII, \"The Stamp Tax,\" aloud together",
+      "Narration: explain why Parliament passed the Stamp Act and how Franklin tried to stop it",
+      "Map work: Find London and Philadelphia; trace the month-long Atlantic crossing",
+      "Timeline: Add \"Stamp Act passed\" at 1765"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LVIII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_218"
+      }
+     ],
+     "pages": "pp. 218–220",
+     "questions": [
+      "Why did Britain think the colonists should pay new taxes?",
+      "What had to be printed on stamped paper?",
+      "What was the point of Franklin's red-hot poker story?"
+     ],
+     "answers": [
+      "To pay war debts and the cost of an army to defend the new lands",
+      "Newspapers and legal papers such as deeds",
+      "Britain wanted the colonists to pay even for the trouble of harming them"
+     ],
+     "notes": "The Sugar Act (1764) and Stamp Act (1765) were separate laws."
+    },
+    {
+     "title": "Chapter 59: The Anger of the Colonies",
+     "steps": [
+      "Read Chapter LIX, \"The Anger of the Colonies,\" aloud together",
+      "Narration: tell how the colonists resisted the Stamp Act until it was repealed",
+      "Map work: Find Williamsburg, New York City, and Bowling Green in lower Manhattan",
+      "Timeline: Add \"Patrick Henry's speech; Stamp Act Congress\" at 1765; add \"Stamp Act repealed\" at 1766"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LIX",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_220"
+      }
+     ],
+     "pages": "pp. 220–224",
+     "questions": [
+      "What did the Sons of Liberty do?",
+      "What does \"Taxation without representation is tyranny\" mean?",
+      "Why did British merchants want the Stamp Act repealed?"
+     ],
+     "answers": [
+      "Warned the stamp sellers not to sell the stamped paper",
+      "It is unjust to be taxed by a government in which you have no vote",
+      "The colonists stopped buying British goods and their business suffered"
+     ],
+     "notes": "The book blends two speeches: \"If this be treason\" (1765) and \"Give me liberty, or give me death\" (1775). Both come to us from later memories."
+    },
+    {
+     "title": "Chapter 60: The Boston Tea Party",
+     "steps": [
+      "Read Chapter LX, \"The Boston Tea Party,\" aloud together",
+      "Narration: tell about the Townshend taxes, the Boston Massacre, and the Boston Tea Party",
+      "Map work: Find Boston Harbor, Griffin's Wharf, Faneuil Hall, and the Old South Meeting House",
+      "Timeline: Add \"Boston Massacre\" at March 5, 1770; add \"Boston Tea Party\" at December 16, 1773"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LX",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_224"
+      }
+     ],
+     "pages": "pp. 224–228",
+     "questions": [
+      "Why did the colonists not want the king to pay their governors and judges?",
+      "What did Samuel Adams whisper to his friends?",
+      "Why did the colonists refuse cheap tea?"
+     ],
+     "answers": [
+      "Governors paid by the king would only try to please him",
+      "\"Both regiments or none\"",
+      "They objected to any tax at all, not to the price"
+     ],
+     "notes": "Crispus Attucks, a man of African and Native descent, was among those killed in the Boston Massacre. John Adams defended the soldiers in court. The Tea Party men disguised as Mohawks."
+    },
+    {
+     "title": "Chapter 61: The Minutemen",
+     "steps": [
+      "Read Chapter LXI, \"The Minutemen,\" aloud together",
+      "Narration: tell how the colonies came together after the Intolerable Acts",
+      "Map work: Find Philadelphia and Carpenter's Hall, Marblehead, Salem, and Cambridge",
+      "Timeline: Add \"Intolerable Acts\" at 1774; add \"First Continental Congress\" at September 1774"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXI",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_228"
+      }
+     ],
+     "pages": "pp. 228–233",
+     "questions": [
+      "Why were the minutemen called that?",
+      "How did women help the cause?",
+      "Which colony did not send delegates to the First Congress?"
+     ],
+     "answers": [
+      "They were ready to march at a minute's notice",
+      "They gave up British goods and spun and wove their own cloth",
+      "Georgia"
+     ],
+     "notes": "The \"Olive Branch Petition\" came from the Second Congress in 1775."
+    },
+    {
+     "title": "Chapter 62: The Battle of Lexington",
+     "steps": [
+      "Read Chapter LXII, \"The Battle of Lexington,\" aloud together",
+      "Narration: tell what happened on April 19, 1775",
+      "Map work: Trace the road from Boston through Lexington to Concord and back to Charlestown",
+      "Timeline: Add \"Battles of Lexington and Concord\" at April 19, 1775"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_233"
+      }
+     ],
+     "pages": "pp. 233–237",
+     "questions": [
+      "What did the two lanterns in the Old North Church mean?",
+      "Why were Samuel Adams and John Hancock hiding in Lexington?",
+      "How did the minutemen fight the British on the march back?"
+     ],
+     "answers": [
+      "The British were moving by water",
+      "Gage wanted to arrest them and send them to England for trial",
+      "From behind trees, walls, and barns along the road"
+     ],
+     "notes": "Revere did not shout \"The British are coming!\" (colonists still thought of themselves as British) and was captured before Concord; others carried the news on."
+    }
+   ]
+  },
+  {
+   "title": "Unit 10: The War Begins (Chapters 63–68)",
+   "lessons": [
+    {
+     "title": "Chapter 63: Bunker Hill",
+     "steps": [
+      "Read Chapter LXIII, \"Bunker Hill,\" aloud together",
+      "Narration: tell about Ticonderoga, Washington's choice as general, and the battle of Bunker Hill",
+      "Map work: Find Fort Ticonderoga, Crown Point, Breed's Hill, Bunker Hill, and Charlestown",
+      "Timeline: Add \"Ticonderoga taken\" at May 10, 1775; add \"Washington named commander\" and \"Bunker Hill\" at June 1775"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXIII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_237"
+      }
+     ],
+     "pages": "pp. 237–242",
+     "questions": [
+      "Why was capturing Ticonderoga so useful?",
+      "What pay did Washington accept?",
+      "Why did the Americans finally have to retreat?"
+     ],
+     "answers": [
+      "It gave the patriots cannon and powder",
+      "None, only his expenses",
+      "They ran out of gunpowder"
+     ],
+     "notes": "Ethan Allen's famous words may have been polished later. The battle was mostly fought on Breed's Hill."
+    },
+    {
+     "title": "Chapter 64: The Boston Boys",
+     "steps": [
+      "Read Chapter LXIV, \"The Boston Boys,\" aloud together",
+      "Narration: tell how Washington trained the army at Cambridge and what the Boston boys told General Gage",
+      "Map work: Find Cambridge, Boston Common, and Marblehead",
+      "Timeline: Add \"Washington takes command at Cambridge\" at July 3, 1775"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXIV",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_242"
+      }
+     ],
+     "pages": "pp. 242–245",
+     "questions": [
+      "How did Washington fool spies about his gunpowder?",
+      "How did Washington teach the proud corporal a lesson?",
+      "What did Gage say about the boys?"
+     ],
+     "answers": [
+      "He filled barrels with sand and put a little powder on top",
+      "He got off his horse and helped lift the log himself",
+      "Children breathe in a love of liberty with the air"
+     ],
+     "notes": "The corporal and Boston boys stories are popular traditions."
+    },
+    {
+     "title": "Chapter 65: The British Leave Boston",
+     "steps": [
+      "Read Chapter LXV, \"The British Leave Boston,\" aloud together",
+      "Narration: tell how the British were forced out of Boston and how Fort Moultrie held out",
+      "Map work: Find Montreal, Quebec, Dorchester Heights, Halifax, and Charleston with Fort Moultrie on Sullivan's Island",
+      "Timeline: Add \"Attack on Quebec fails\" at December 31, 1775; add \"British leave Boston\" at March 17, 1776; add \"Fort Moultrie holds\" at June 28, 1776"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXV",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_245"
+      }
+     ],
+     "pages": "pp. 245–248",
+     "questions": [
+      "What did the British see when they woke up and looked at Dorchester Heights?",
+      "Why did British cannon balls do little harm to Fort Moultrie?",
+      "Why did Sergeant Jasper turn down a promotion?"
+     ],
+     "answers": [
+      "American cannon aimed down at them",
+      "They sank into the soft palmetto logs and sand",
+      "He could not read or write and felt unfit to be an officer"
+     ],
+     "notes": "Washington's letter about prisoners went to the British General Gage, not to the American General Gates as the book says. The cannon came from Ticonderoga thanks to Henry Knox."
+    },
+    {
+     "title": "Chapter 66: Declaration of Independence",
+     "steps": [
+      "Read Chapter LXVI, \"Declaration of Independence,\" aloud together",
+      "Narration: tell how the Declaration of Independence was written and signed",
+      "Map work: Find Philadelphia and Independence Hall, Staten Island, and Valcour Island on Lake Champlain",
+      "Timeline: Add \"Common Sense published\" at January 1776; add \"Declaration of Independence adopted\" at July 4, 1776"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXVI",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_248"
+      }
+     ],
+     "pages": "pp. 248–253",
+     "questions": [
+      "Who wrote most of the Declaration?",
+      "What did Franklin mean by \"hang together, or hang separately\"?",
+      "Why did Washington refuse letters addressed to \"George Washington, Esq.\"?"
+     ],
+     "answers": [
+      "Thomas Jefferson",
+      "They must stay united, or the king would hang them one by one as traitors",
+      "Accepting them would treat him as a private man, not the general of a nation"
+     ],
+     "notes": "The boy shouting \"Ring, grandpa!\" is a legend from an 1840s story; most delegates signed on August 2. Notice the bell's words about liberty for \"all the inhabitants\" while slavery continued; older children can discuss it."
+    },
+    {
+     "title": "Chapter 67: A Lady's Way of Helping",
+     "steps": [
+      "Read Chapter LXVII, \"A Lady's Way of Helping,\" aloud together",
+      "Narration: tell about the retreat from New York, Mrs. Murray's dinner, and Nathan Hale",
+      "Map work: Find Long Island, Brooklyn Heights, the East River, Kips Bay, White Plains, Forts Washington and Lee, and Hackensack",
+      "Timeline: Add \"Battle of Long Island\" at August 27, 1776; add \"Nathan Hale hanged\" at September 22, 1776"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXVII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_253"
+      }
+     ],
+     "pages": "pp. 253–258",
+     "questions": [
+      "How did Washington get his army off Brooklyn Heights?",
+      "How did Mrs. Murray help Putnam's men escape?",
+      "What did Nathan Hale say before he died?"
+     ],
+     "answers": [
+      "He moved them across the river at night under cover of fog",
+      "She kept General Howe at her house for hours with food and talk",
+      "\"I regret only that I have but one life to lose for my country\""
+     ],
+     "notes": "Historians doubt that Mrs. Murray's lunch changed much. The prison-ship deaths were real and terrible."
+    },
+    {
+     "title": "Chapter 68: Christmas Eve",
+     "steps": [
+      "Read Chapter LXVIII, \"Christmas Eve,\" aloud together",
+      "Narration: tell how Washington crossed the Delaware and won at Trenton and Princeton",
+      "Map work: Trace the route across the Delaware River to Trenton, then to Princeton and Morristown",
+      "Timeline: Add \"Crossing the Delaware; Battle of Trenton\" at December 25–26, 1776; add \"Battle of Princeton\" at January 3, 1777"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXVIII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_258"
+      }
+     ],
+     "pages": "pp. 258–262",
+     "questions": [
+      "How did Washington keep the British from following him across the Delaware?",
+      "Who rowed the boats across the icy river?",
+      "How did Washington slip away from Cornwallis at Trenton?"
+     ],
+     "answers": [
+      "He took every boat for a hundred miles",
+      "Marblehead fishermen",
+      "He left campfires burning and marched off by back roads in the night"
+     ],
+     "notes": "The Hessians were tired, not mostly drunk; that story is doubtful. Prescott was captured in July 1777."
+    }
+   ]
+  },
+  {
+   "title": "Unit 11: Saratoga to Stony Point (Chapters 69–74)",
+   "lessons": [
+    {
+     "title": "Chapter 69: The Fight at Bennington",
+     "steps": [
+      "Read Chapter LXIX, \"The Fight at Bennington,\" aloud together",
+      "Narration: tell how Lafayette and other foreigners came to help, and about the fight at Bennington",
+      "Map work: Find Paris, Brandywine Creek (Chadds Ford), Germantown, Ticonderoga, Fort Edward, and Bennington, Vermont",
+      "Timeline: Add \"Battle of Bennington\" at August 16, 1777; add \"Battle of Brandywine; British take Philadelphia\" at September 1777"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXIX",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_262"
+      }
+     ],
+     "pages": "pp. 262–267",
+     "questions": [
+      "Why did Lafayette sail secretly?",
+      "What did Franklin mean when he said Philadelphia had taken Howe?",
+      "What did Stark tell his men before the battle?"
+     ],
+     "answers": [
+      "The French king forbade him to leave",
+      "Howe and his officers grew lazy enjoying parties in the city",
+      "\"We beat them today or Molly Stark's a widow\""
+     ],
+     "notes": "The book praises a father glad his son died bravely; you might talk about how families felt such losses. Bennington was actually fought just over the line in New York."
+    },
+    {
+     "title": "Chapter 70: Burgoyne's Surrender",
+     "steps": [
+      "Read Chapter LXX, \"Burgoyne's Surrender,\" aloud together",
+      "Narration: tell how Burgoyne was trapped and surrendered at Saratoga",
+      "Map work: Find Fort Stanwix (Rome, New York), Oriskany, the Mohawk River, Bemis Heights, and Saratoga",
+      "Timeline: Add \"Stars and Stripes adopted\" at June 14, 1777; add \"Burgoyne surrenders at Saratoga\" at October 17, 1777"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXX",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_267"
+      }
+     ],
+     "pages": "pp. 267–271",
+     "questions": [
+      "How did Arnold frighten St. Leger's army away?",
+      "What were the first stars and stripes at Fort Stanwix made from?",
+      "How was Schuyler kind to Burgoyne?"
+     ],
+     "answers": [
+      "He sent a lad who pointed at the leaves to show how many Americans were coming",
+      "An old shirt, a blue jacket, and a red petticoat",
+      "He forgave him for burning his house"
+     ],
+     "notes": "The Betsy Ross story comes from her grandson's 1870 account and is not proven. The battles are now called Freeman's Farm and Bemis Heights. Joseph Brant (Thayendanegea) was a Mohawk leader allied with Britain."
+    },
+    {
+     "title": "Chapter 71: The Winter at Valley Forge",
+     "steps": [
+      "Read Chapter LXXI, \"The Winter at Valley Forge,\" aloud together",
+      "Narration: tell why Saratoga mattered and what the army suffered at Valley Forge",
+      "Map work: Find Valley Forge, northwest of Philadelphia, and Baltimore",
+      "Timeline: Add \"France allies with the United States\" at February 1778; add \"Winter at Valley Forge\" at 1777–1778"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXI",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_271"
+      }
+     ],
+     "pages": "pp. 271–275",
+     "questions": [
+      "How did the victory at Saratoga help the Americans in France?",
+      "How did Martha Washington help the soldiers?",
+      "What was the Conway cabal?"
+     ],
+     "answers": [
+      "It persuaded France to openly help them",
+      "She knitted stockings and visited the soldiers with clothing",
+      "A plot to replace Washington with Gates"
+     ],
+     "notes": "The story of Washington praying in the snow comes from a single later account and is doubted by many historians."
+    },
+    {
+     "title": "Chapter 72: The Quaker Woman",
+     "steps": [
+      "Read Chapter LXXII, \"The Quaker Woman,\" aloud together",
+      "Narration: tell about Lydia Darrah, Baron Steuben, and the battle of Monmouth",
+      "Map work: Find Philadelphia, Valley Forge, and Monmouth, New Jersey",
+      "Timeline: Add \"Steuben drills the army\" at spring 1778; add \"Battle of Monmouth\" at June 28, 1778"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_275"
+      }
+     ],
+     "pages": "pp. 275–279",
+     "questions": [
+      "How did Lydia Darrah get past the British to warn the Americans?",
+      "What did Steuben learn about American soldiers?",
+      "What did Molly Pitcher do at Monmouth?"
+     ],
+     "answers": [
+      "She said she needed flour and got a pass to go buy some",
+      "They wanted to be told the reason before they would obey",
+      "Took her fallen husband's place loading and firing the cannon"
+     ],
+     "notes": "\"Molly Pitcher\" is probably a blend of several women; Mary Ludwig Hays is usually named. Lee was court-martialed for disobedience, but not proven a traitor."
+    },
+    {
+     "title": "Chapter 73: Putnam's Adventures",
+     "steps": [
+      "Read Chapter LXXIII, \"Putnam's Adventures,\" aloud together",
+      "Narration: tell some of Israel Putnam's adventures, from the wolf den to the French and Indian War",
+      "Map work: Find West Point, Newport, Fort Edward, Ticonderoga, and Lake Ontario",
+      "Timeline: Add \"Putnam captured and nearly burned\" at 1758; add \"French fleet fails at Newport\" at August 1778"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXIII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_279"
+      }
+     ],
+     "pages": "pp. 279–283",
+     "questions": [
+      "How did Putnam's friends know when to pull him out of the wolf den?",
+      "How did Putnam discover what was killing the sentries?",
+      "How did Putnam wreck the French ship?"
+     ],
+     "answers": [
+      "He tied a rope to his foot and they pulled when it twitched or they heard a shot",
+      "He shot a \"bear\" that turned out to be an enemy dressed in a bearskin",
+      "He drove wedges behind its rudder so it could not steer"
+     ],
+     "notes": "The wolf-den story is a famous legend from Putnam's early biography. The capture scene includes torture; you may summarize it."
+    },
+    {
+     "title": "Chapter 74: Indian Cruelty",
+     "steps": [
+      "Read Chapter LXXIV, \"Indian Cruelty,\" aloud together",
+      "Narration: tell about Stony Point, the frontier raids, and George Rogers Clark's march",
+      "Map work: Find Horseneck (Greenwich, Connecticut), Stony Point, the Wyoming Valley in Pennsylvania, Cherry Valley in New York, and Vincennes in Indiana",
+      "Timeline: Add \"Wyoming and Cherry Valley raids\" at 1778; add \"Clark takes Vincennes\" at February 1779; add \"Wayne storms Stony Point\" at July 16, 1779"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXIV",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_283"
+      }
+     ],
+     "pages": "pp. 283–288",
+     "questions": [
+      "How did the Americans get close to Stony Point without being seen?",
+      "What was Burke's point about the lions and bears?",
+      "How did the little drummer boy cross the deep water?"
+     ],
+     "answers": [
+      "A man who sold strawberries in the camp gave the password and distracted the sentry",
+      "You cannot let fierce warriors loose and then expect them to be gentle",
+      "He floated on his drum"
+     ],
+     "notes": "The strawberry seller was Pompey Lamb, an enslaved man. Sullivan's expedition destroyed Iroquois towns and crops, causing great hunger among Native families; the book tells only one side. Some details of the Wyoming massacre are exaggerated."
+    }
+   ]
+  },
+  {
+   "title": "Unit 12: The Frontier, the Sea, and the South (Chapters 75–80)",
+   "lessons": [
+    {
+     "title": "Chapter 75: Boone in Kentucky",
+     "steps": [
+      "Read Chapter LXXV, \"Boone in Kentucky,\" aloud together",
+      "Narration: tell about Daniel Boone, the rescue of the girls, and his escape from captivity",
+      "Map work: Find the Cumberland Gap, Boonesborough in Kentucky, the Ohio River, Detroit, and Missouri",
+      "Timeline: Add \"Boonesborough founded\" at 1775; add \"Boone captured and escapes\" at 1778"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXV",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_288"
+      }
+     ],
+     "pages": "pp. 288–293",
+     "questions": [
+      "How did Boone's daughter leave a trail for her rescuers?",
+      "How did Boone save extra ammunition while a captive?",
+      "Why did Boone keep moving farther west?"
+     ],
+     "answers": [
+      "She left footprints, broke twigs, and tied bits of her dress on briers",
+      "He cut bullets in half and used less powder",
+      "He felt crowded when too many settlers came"
+     ],
+     "notes": "Elizabeth Zane's powder run really happened at Fort Henry (Wheeling, West Virginia) in 1782, not Boonesborough. Kentucky's name probably does not mean \"dark and bloody ground\"; that is a legend."
+    },
+    {
+     "title": "Chapter 76: Famous Sea Fights",
+     "steps": [
+      "Read Chapter LXXVI, \"Famous Sea Fights,\" aloud together",
+      "Narration: tell about John Paul Jones and the fight of the Bonhomme Richard",
+      "Map work: Find Whitehaven in England, Kirkcaldy in Scotland, and Flamborough Head",
+      "Timeline: Add \"Bonhomme Richard defeats Serapis\" at September 23, 1779"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXVI",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_293"
+      }
+     ],
+     "pages": "pp. 293–297",
+     "questions": [
+      "Where did the name Bonhomme Richard come from?",
+      "What did Jones answer when asked if he had surrendered?",
+      "What happened to the Bonhomme Richard after the battle?"
+     ],
+     "answers": [
+      "Franklin's \"Poor Richard\"",
+      "\"I have not yet begun to fight\"",
+      "It sank, and Jones moved his crew onto the Serapis"
+     ],
+     "notes": "The famous reply was first written down years later. The Kirkcaldy minister's prayer is a folk tale."
+    },
+    {
+     "title": "Chapter 77: The \"Swamp Fox\"",
+     "steps": [
+      "Read Chapter LXXVII, \"The Swamp Fox,\" aloud together",
+      "Narration: tell how the war moved south, and the story of Marion's sweet-potato dinner",
+      "Map work: Find Savannah, Augusta, Charleston, Camden, and the swamps along the Pee Dee River in South Carolina",
+      "Timeline: Add \"British take Savannah\" at 1778; add \"Charleston surrenders\" at May 1780; add \"Battle of Camden\" at August 1780"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXVII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_297"
+      }
+     ],
+     "pages": "pp. 297–302",
+     "questions": [
+      "What did \"Tarleton's quarter\" come to mean?",
+      "What happened to Gates at Camden?",
+      "What did Marion say his sweetheart's name was?"
+     ],
+     "answers": [
+      "Being killed instead of spared",
+      "He was badly beaten and fled about eighty miles",
+      "Liberty"
+     ],
+     "notes": "The potato dinner is a traditional story. Many enslaved people escaped to the British during the southern campaign after being promised freedom."
+    },
+    {
+     "title": "Chapter 78: The Poor Soldiers",
+     "steps": [
+      "Read Chapter LXXVIII, \"The Poor Soldiers,\" aloud together",
+      "Narration: explain why the soldiers suffered from lack of money and how Robert Morris helped",
+      "Map work: Find Morristown, New Jersey, and Philadelphia",
+      "Timeline: Add \"Hard winter at Morristown\" at 1779–1780"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXVIII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_302"
+      }
+     ],
+     "pages": "pp. 302–304",
+     "questions": [
+      "What does \"not worth a continental\" mean?",
+      "Why did paper money lose its value?",
+      "What did the Philadelphia ladies send the soldiers?"
+     ],
+     "answers": [
+      "Worthless",
+      "Congress had no gold or silver to back it, too much was printed, and the British printed fakes",
+      "Twenty-two thousand shirts"
+     ],
+     "notes": "A short chapter; a good day to look at a picture of continental currency online."
+    },
+    {
+     "title": "Chapter 79: The Spy",
+     "steps": [
+      "Read Chapter LXXIX, \"The Spy,\" aloud together",
+      "Narration: tell how Benedict Arnold turned traitor and how André was caught",
+      "Map work: Find West Point, the Hudson River, Tarrytown, White Plains, and Tappan",
+      "Timeline: Add \"Arnold's treason discovered; André captured\" at September 1780"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXIX",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_304"
+      }
+     ],
+     "pages": "pp. 304–309",
+     "questions": [
+      "What did Arnold plan to give the British?",
+      "Where did André's captors find the secret papers?",
+      "What was the plan to capture Arnold after he fled?"
+     ],
+     "answers": [
+      "The fort at West Point",
+      "In his boots",
+      "A soldier pretended to desert, joined Arnold's regiment, and planned to seize him in his garden"
+     ],
+     "notes": "The pretend deserter was Sergeant John Champe (the book spells it Campe)."
+    },
+    {
+     "title": "Chapter 80: A Traitor's Death",
+     "steps": [
+      "Read Chapter LXXX, \"A Traitor's Death,\" aloud together",
+      "Narration: tell how Arnold lived out his life, and about the victories at Kings Mountain and Cowpens",
+      "Map work: Find New London, Connecticut; Kings Mountain on the North and South Carolina line; and Cowpens, South Carolina",
+      "Timeline: Add \"Battle of Kings Mountain\" at October 7, 1780; add \"Battle of Cowpens\" at January 17, 1781"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXX",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_309"
+      }
+     ],
+     "pages": "pp. 309–312",
+     "questions": [
+      "Why is one niche on the Saratoga monument empty?",
+      "How did the patriots win at Kings Mountain?",
+      "What did the lady mean when she said Colonel Washington could \"make his mark\"?"
+     ],
+     "answers": [
+      "It was meant for Arnold, who became a traitor",
+      "They climbed up by three paths and fired from behind rocks and trees",
+      "He had wounded Tarleton, leaving a mark on him"
+     ],
+     "notes": "Arnold's deathbed words about his old uniform are a legend. The Saratoga monument's empty niche is real; a separate \"Boot Monument\" honors Arnold's wounded leg without naming him."
+    }
+   ]
+  },
+  {
+   "title": "Unit 13: Victory and Farewell (Chapters 81–84)",
+   "lessons": [
+    {
+     "title": "Chapter 81: Two Unselfish Women",
+     "steps": [
+      "Read Chapter LXXXI, \"Two Unselfish Women,\" aloud together",
+      "Narration: tell about the race to the Dan River and how Mrs. Steele and Mrs. Motte helped",
+      "Map work: Trace the race from the Catawba River to the Dan River; find Guilford Courthouse (Greensboro) and Eutaw Springs",
+      "Timeline: Add \"Race to the Dan\" at February 1781; add \"Battle of Guilford Courthouse\" at March 15, 1781"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXXI",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_312"
+      }
+     ],
+     "pages": "pp. 312–315",
+     "questions": [
+      "What did Mrs. Steele give General Greene?",
+      "How did Mrs. Motte help drive the British out of her house?",
+      "How did Greene describe his way of fighting?"
+     ],
+     "answers": [
+      "Warm clothes, food, and all her savings",
+      "She let Lee set it on fire and gave him a bow and arrows to shoot flaming wood onto the roof",
+      "\"We fight, get beat, rise and fight again\""
+     ],
+     "notes": "Fort Motte was taken in May 1781. The book's claim that the British were cruel \"all through\" is one-sided; both patriots and loyalists committed cruelties in the southern backcountry war."
+    },
+    {
+     "title": "Chapter 82: The Surrender of Cornwallis",
+     "steps": [
+      "Read Chapter LXXXII, \"The Surrender of Cornwallis,\" aloud together",
+      "Narration: tell how Washington and the French trapped Cornwallis at Yorktown",
+      "Map work: Find New York, Mount Vernon, Chesapeake Bay, and Yorktown; trace Washington's march south",
+      "Timeline: Add \"New London burned\" at September 1781; add \"Cornwallis surrenders at Yorktown\" at October 19, 1781"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXXII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_315"
+      }
+     ],
+     "pages": "pp. 315–319",
+     "questions": [
+      "How did Washington fool Clinton about his plans?",
+      "Whose fleet blocked Cornwallis by sea?",
+      "Why did Washington have the sword handed to General Lincoln?"
+     ],
+     "answers": [
+      "He let letters saying he would attack New York fall into British hands",
+      "The French fleet under De Grasse",
+      "Cornwallis sent a deputy, and the British had shamed Lincoln at Charleston"
+     ],
+     "notes": "The tune \"The World Turned Upside Down\" is a tradition with little proof. Enslaved people who had fled to the British were often returned to slavery after Yorktown."
+    },
+    {
+     "title": "Chapter 83: The British Flag Hauled Down",
+     "steps": [
+      "Read Chapter LXXXIII, \"The British Flag Hauled Down,\" aloud together",
+      "Narration: tell how the news of Yorktown was received and how Washington kept the army loyal at Newburgh",
+      "Map work: Find Newburgh, New York, and Paris; color the new United States from the Atlantic to the Mississippi as set in 1783",
+      "Timeline: Add \"Newburgh Address\" at March 1783; add \"Treaty of Paris recognizes independence\" at September 3, 1783"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXXIII",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_319"
+      }
+     ],
+     "pages": "pp. 319–323",
+     "questions": [
+      "What did the Philadelphia watchman add to his cry of \"All's well\"?",
+      "What did Washington say as he put on his glasses?",
+      "How did the boy get the British flag down from the greased pole?"
+     ],
+     "answers": [
+      "\"And Cornwallis is taken!\"",
+      "His eyes had grown dim in the service of his country",
+      "He nailed cleats up the pole and climbed them one by one"
+     ],
+     "notes": "The treaty did not include any Native nations, who had lived on and fought for the western lands it handed over."
+    },
+    {
+     "title": "Chapter 84: Washington's Farewell",
+     "steps": [
+      "Read Chapter LXXXIV, \"Washington's Farewell,\" aloud together",
+      "Narration: tell how Washington said goodbye to his officers and gave up his command",
+      "Map work: Find New York City (Fraunces Tavern), Annapolis, Mount Vernon, and Cincinnati, Ohio",
+      "Timeline: Add \"Washington resigns his command\" at December 23, 1783"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXXIV",
+       "url": "https://www.gutenberg.org/cache/epub/48051/pg48051-images.html#Page_323"
+      }
+     ],
+     "pages": "pp. 323–327",
+     "questions": [
+      "Why did the officers name their society after Cincinnatus?",
+      "What did Washington give Congress instead of asking for pay?",
+      "How were many soldiers paid for their service?"
+     ],
+     "answers": [
+      "Like that Roman, Washington left his farm to save his country and went back to it afterward",
+      "An exact account of his expenses",
+      "With grants of land in the Northwest Territory"
+     ],
+     "notes": "Finish by reviewing the whole timeline. Washington's farm work at Mount Vernon was done largely by enslaved people; he arranged in his will for them to be freed after Martha's death."
+    }
+   ]
+  }
+ ]
+}

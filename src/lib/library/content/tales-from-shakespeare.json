@@ -1,0 +1,1167 @@
+{
+  "key": "tales-from-shakespeare",
+  "title": "Tales from Shakespeare",
+  "sourceTitle": "Tales from Shakespeare",
+  "author": "Charles Lamb and Mary Lamb",
+  "seller": "Charles and Mary Lamb",
+  "year": 1807,
+  "sourceUrl": "https://www.gutenberg.org/ebooks/573",
+  "readUrl": "https://www.gutenberg.org/cache/epub/573/pg573-images.html",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Project Gutenberg #573: 'Public domain in the USA'; first published by Thomas Hodgkins (M. J. Godwin's Juvenile Library), London, 1807",
+  "subjects": [
+    "reading",
+    "writing"
+  ],
+  "gradeMin": 3,
+  "gradeMax": 7,
+  "philosophies": [
+    "charlotte_mason",
+    "classical",
+    "traditional"
+  ],
+  "lessonsPerWeek": 3,
+  "minutesPerLesson": 25,
+  "parentInvolvement": "high",
+  "familyStyle": true,
+  "cover": "🎭",
+  "color": "#9B6BD6",
+  "description": "Charles and Mary Lamb's beloved 1807 retellings of twenty Shakespeare plays, written so children could meet the stories before the plays themselves. Each long tale is split into two or three sittings: read a portion aloud, let your child tell it back, then draw a scene or copy a famous line. A classic first step into Shakespeare for ages 8 to 12, and the full text is free online.",
+  "includes": [
+    "45 lessons in 6 units covering all 20 tales",
+    "Every tale split into 2–3 read-aloud sittings with clear start and stop points",
+    "Narration plus a drawing, copywork, or map step in each lesson",
+    "Questions for every lesson, with answers",
+    "Parent notes flagging the tragedies and grown-up themes",
+    "Link to the free full text for every tale"
+  ],
+  "units": [
+    {
+      "title": "Unit 1: The Tempest to Much Ado about Nothing",
+      "lessons": [
+        {
+          "title": "Lesson 1: The Tempest, Part 1 of 2",
+          "steps": [
+            "Read “The Tempest” aloud from the beginning until Prospero leads the spell-bound Ferdinand into his cave",
+            "Have your child tell back how Prospero and Miranda came to the island",
+            "Draw Ariel playing a trick on Caliban, or the ship in the storm"
+          ],
+          "links": [
+            {
+              "label": "Read “The Tempest”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#tempest"
+            }
+          ],
+          "questions": [
+            "Who put Prospero and baby Miranda into a small boat to die at sea?",
+            "Who secretly packed food and books into their boat?",
+            "Why did Prospero pretend to be harsh to Ferdinand?"
+          ],
+          "answers": [
+            "His brother Antonio, with help from the King of Naples",
+            "Gonzalo, a kind lord of the court",
+            "To test whether Ferdinand's love for Miranda was true"
+          ],
+          "notes": "Before you start, tell your child that every story in this book is a play by Shakespeare, retold as a story for young readers."
+        },
+        {
+          "title": "Lesson 2: The Tempest, Part 2 of 2",
+          "steps": [
+            "Read on from where Prospero sets Ferdinand to work piling logs, to the end of the tale",
+            "Narrate the ending: how Prospero treats his enemies, and what becomes of Ariel",
+            "Copy Miranda's words: “O wonder! … It must surely be a brave world that has such people in it.”"
+          ],
+          "links": [
+            {
+              "label": "Read “The Tempest” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#tempest"
+            }
+          ],
+          "questions": [
+            "What hard job did Prospero give Ferdinand?",
+            "What frightening shape did Ariel take to scare the king and Antonio?",
+            "What did Prospero do with his magic books and wand at the end?"
+          ],
+          "answers": [
+            "Piling up heavy logs of wood",
+            "A harpy, a winged monster that made the feast vanish",
+            "He buried them deep in the earth and gave up magic"
+          ]
+        },
+        {
+          "title": "Lesson 3: A Midsummer Night's Dream, Part 1 of 2",
+          "steps": [
+            "Read “A Midsummer Night's Dream” aloud from the start until Lysander runs after Helena and leaves Hermia asleep",
+            "Narrate who loves whom; sketch the four lovers' names with arrows to keep them straight",
+            "Draw Puck playing one of his village pranks"
+          ],
+          "links": [
+            {
+              "label": "Read “A Midsummer Night's Dream”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#dream"
+            }
+          ],
+          "questions": [
+            "Why did Hermia and Lysander run away into the wood?",
+            "What does the juice of the little purple flower do?",
+            "What mistake did Puck make?"
+          ],
+          "answers": [
+            "Hermia's father wanted her to marry Demetrius, and the law said she could be put to death if she refused",
+            "Put on a sleeper's eyelids, it makes them love the first thing they see when they wake",
+            "He put the juice on Lysander's eyes instead of Demetrius's"
+          ]
+        },
+        {
+          "title": "Lesson 4: A Midsummer Night's Dream, Part 2 of 2",
+          "steps": [
+            "Read on from where Hermia wakes alone in the wood, to the end",
+            "Narrate how Oberon and Puck set everything right",
+            "Draw Titania with the ass-headed clown and her fairies Pease-blossom, Cobweb, Moth, and Mustard-seed"
+          ],
+          "links": [
+            {
+              "label": "Read “A Midsummer Night's Dream” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#dream"
+            }
+          ],
+          "questions": [
+            "What did Oberon put on the sleeping clown?",
+            "What did Titania give up to Oberon?",
+            "How does the storyteller say we should think of the whole adventure?"
+          ],
+          "answers": [
+            "An ass's (donkey's) head",
+            "The little changeling boy",
+            "As if it were all a dream"
+          ]
+        },
+        {
+          "title": "Lesson 5: The Winter's Tale, Part 1 of 2",
+          "steps": [
+            "Read “The Winter's Tale” aloud from the start through the oracle and Antigonus leaving the baby in Bohemia",
+            "Narrate what jealousy made King Leontes do",
+            "Draw brave Paulina laying the baby at the king's feet"
+          ],
+          "links": [
+            {
+              "label": "Read “The Winter's Tale”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#tale"
+            }
+          ],
+          "questions": [
+            "What did Leontes order Camillo to do to Polixenes, and what did Camillo do instead?",
+            "What did the oracle of Apollo say about Hermione?",
+            "What name was written on the paper pinned to the baby?"
+          ],
+          "answers": [
+            "Poison him; Camillo warned Polixenes and escaped with him to Bohemia",
+            "That she was innocent (and Leontes was a jealous tyrant)",
+            "Perdita"
+          ],
+          "notes": "This half is sad: young Mamillius dies of grief and Antigonus is killed by a bear. Reassure your child that the second half ends in joy."
+        },
+        {
+          "title": "Lesson 6: The Winter's Tale, Part 2 of 2",
+          "steps": [
+            "Read on from where a shepherd finds the baby Perdita, to the end",
+            "Narrate how Perdita is found to be the king's daughter",
+            "Draw the statue scene, when Paulina draws back the curtain"
+          ],
+          "links": [
+            {
+              "label": "Read “The Winter's Tale” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#tale"
+            }
+          ],
+          "questions": [
+            "Where did Prince Florizel meet Perdita?",
+            "How did the old shepherd prove who Perdita really was?",
+            "What was the “statue” really?"
+          ],
+          "answers": [
+            "At the old shepherd's home (he saw her while hunting nearby)",
+            "He showed her baby mantle, a jewel, and the paper Antigonus had written",
+            "Queen Hermione herself, alive"
+          ]
+        },
+        {
+          "title": "Lesson 7: Much Ado about Nothing, Part 1 of 2",
+          "steps": [
+            "Read “Much Ado about Nothing” aloud from the start until Beatrice overhears Hero in the arbour and decides to love Benedick",
+            "Narrate the prince's merry trick on Benedick and Beatrice",
+            "Act out the scene where Benedick hides in the arbour and listens"
+          ],
+          "links": [
+            {
+              "label": "Read “Much Ado about Nothing”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#nothing"
+            }
+          ],
+          "questions": [
+            "What rude name did Beatrice call Benedick that he hated most?",
+            "How did the friends make Benedick believe Beatrice loved him?",
+            "Who was getting married to Hero?"
+          ],
+          "answers": [
+            "“The prince's jester”",
+            "They talked about it near the arbour where he was sitting, so he would overhear",
+            "Claudio"
+          ]
+        },
+        {
+          "title": "Lesson 8: Much Ado about Nothing, Part 2 of 2",
+          "steps": [
+            "Read on from Don John's wicked plot, to the end",
+            "Narrate how Hero was wronged and how the truth came out",
+            "Draw Hero lifting her mask at the second wedding"
+          ],
+          "links": [
+            {
+              "label": "Read “Much Ado about Nothing” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#nothing"
+            }
+          ],
+          "questions": [
+            "Who dressed in Hero's clothes and talked from her window?",
+            "Whose plan was it to say Hero had died?",
+            "How was Don John's plot found out?"
+          ],
+          "answers": [
+            "Margaret, Hero's attendant",
+            "The wise old friar's",
+            "Borachio was overheard boasting about it and confessed"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 2: As You Like It to The Merchant of Venice",
+      "lessons": [
+        {
+          "title": "Lesson 9: As You Like It, Part 1 of 3",
+          "steps": [
+            "Read “As You Like It” aloud from the start until Rosalind and Celia set out in disguise as Ganymede and Aliena",
+            "Narrate the wrestling match and why Rosalind was banished",
+            "Copy the good duke's saying that he could find “tongues in trees, books in the running brooks, sermons in stones, and good in everything”"
+          ],
+          "links": [
+            {
+              "label": "Read “As You Like It”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#like"
+            }
+          ],
+          "questions": [
+            "Who had taken the good duke's dukedom from him?",
+            "What gift did Rosalind give Orlando after the wrestling?",
+            "Why did Celia leave her father's palace?"
+          ],
+          "answers": [
+            "His younger brother, Duke Frederick",
+            "A chain from her neck",
+            "She would not be parted from Rosalind, so she went with her into banishment"
+          ]
+        },
+        {
+          "title": "Lesson 10: As You Like It, Part 2 of 3",
+          "steps": [
+            "Read on from where the cousins reach the forest of Arden, until Ganymede begins the pretend courtship with Orlando",
+            "Narrate how faithful old Adam helped Orlando",
+            "Draw Orlando carrying old Adam to the duke's dinner under the trees"
+          ],
+          "links": [
+            {
+              "label": "Read “As You Like It” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#like"
+            }
+          ],
+          "questions": [
+            "What did old Adam give Orlando to help him escape?",
+            "Why did Orlando draw his sword on the duke and his friends?",
+            "What did Orlando carve on the trees of the forest?"
+          ],
+          "answers": [
+            "His savings of five hundred crowns",
+            "He and Adam were starving, and he meant to take their food by force",
+            "Rosalind's name"
+          ]
+        },
+        {
+          "title": "Lesson 11: As You Like It, Part 3 of 3",
+          "steps": [
+            "Read on from the pretend courtship to the end of the tale",
+            "Narrate how Orlando saved his brother Oliver, and how everyone's troubles were mended",
+            "Draw Orlando fighting the lioness while the green snake slides away"
+          ],
+          "links": [
+            {
+              "label": "Read “As You Like It” (Part 3)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#like"
+            }
+          ],
+          "questions": [
+            "Which two dangers were threatening the sleeping Oliver?",
+            "Why did Ganymede faint?",
+            "What happened to the wicked Duke Frederick at the end?"
+          ],
+          "answers": [
+            "A green snake around his neck and a hungry lioness",
+            "He heard Orlando had been wounded by the lioness",
+            "A hermit turned his heart; he gave the dukedom back and went to live in a religious house"
+          ]
+        },
+        {
+          "title": "Lesson 12: The Two Gentlemen of Verona, Part 1 of 2",
+          "steps": [
+            "Read “The Two Gentlemen of Verona” aloud from the start until Proteus decides to betray Valentine's secret to the duke",
+            "Narrate how two best friends came to be rivals",
+            "Draw Julia piecing together the torn-up letter"
+          ],
+          "links": [
+            {
+              "label": "Read “The Two Gentlemen of Verona”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#verona"
+            }
+          ],
+          "questions": [
+            "What did Julia do with Proteus's first letter, and then what?",
+            "Why did Proteus's father send him to Milan?",
+            "What was Valentine going to use to help Silvia escape?"
+          ],
+          "answers": [
+            "She tore it up, then pieced the bits together and wrote him a kind letter",
+            "A friend said young men should travel, and Proteus pretended Valentine had invited him",
+            "A ladder of ropes"
+          ]
+        },
+        {
+          "title": "Lesson 13: The Two Gentlemen of Verona, Part 2 of 2",
+          "steps": [
+            "Read on from where Proteus tells the duke Valentine's plan, to the end",
+            "Narrate how Julia, dressed as the page Sebastian, won Proteus back",
+            "Discuss: was Proteus a good friend? What made him change?"
+          ],
+          "links": [
+            {
+              "label": "Read “The Two Gentlemen of Verona” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#verona"
+            }
+          ],
+          "questions": [
+            "How did the duke trick Valentine into showing the rope-ladder?",
+            "What did Valentine become in the forest?",
+            "How did Proteus discover that his page was really Julia?"
+          ],
+          "answers": [
+            "He asked for advice on wooing, then borrowed Valentine's cloak and found the ladder under it",
+            "Captain of a band of robbers (outlaws)",
+            "She showed him the ring he had given her at Verona"
+          ]
+        },
+        {
+          "title": "Lesson 14: The Merchant of Venice, Part 1 of 2",
+          "steps": [
+            "Read “The Merchant of Venice” aloud from the start until Bassanio hurries back to Venice and finds Antonio in prison",
+            "Narrate the strange bargain Antonio made with Shylock",
+            "Draw Antonio's ships at sea, or Portia giving Bassanio her ring"
+          ],
+          "links": [
+            {
+              "label": "Read “The Merchant of Venice”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#venice"
+            }
+          ],
+          "questions": [
+            "Why did Bassanio need three thousand ducats?",
+            "What was the penalty in the bond if Antonio could not repay on time?",
+            "What bad news came in Antonio's letter?"
+          ],
+          "answers": [
+            "To go courting the rich lady Portia at Belmont in fitting style",
+            "A pound of his flesh",
+            "His ships were all lost, so the bond was forfeited"
+          ],
+          "notes": "Shylock is drawn with the prejudice of Shakespeare's day, and the book often calls him simply “the Jew.” Talk with your child about how unfair it is to judge a whole people by one character."
+        },
+        {
+          "title": "Lesson 15: The Merchant of Venice, Part 2 of 2",
+          "steps": [
+            "Read on from the day of the trial to the end of the tale",
+            "Narrate how Portia saved Antonio in the court",
+            "Copy Portia's words: “How far that little candle throws its beams, so shines a good deed in a naughty world.”"
+          ],
+          "links": [
+            {
+              "label": "Read “The Merchant of Venice” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#venice"
+            }
+          ],
+          "questions": [
+            "How did Portia get into the court?",
+            "What clever point about the bond saved Antonio?",
+            "What did Portia ask Bassanio for as her reward?"
+          ],
+          "answers": [
+            "Dressed as a young lawyer (Balthasar), with a letter from her cousin Bellario",
+            "The bond gave Shylock flesh but not one drop of blood",
+            "The ring she had given him"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 3: Cymbeline, King Lear, and Macbeth",
+      "lessons": [
+        {
+          "title": "Lesson 16: Cymbeline, Part 1 of 2",
+          "steps": [
+            "Read “Cymbeline” aloud from the start until Pisanio leaves Imogen with the queen's bottle of “cordial”",
+            "Narrate the wicked wager Iachimo made",
+            "Draw Iachimo creeping out of the trunk to take the bracelet"
+          ],
+          "links": [
+            {
+              "label": "Read “Cymbeline”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#cymbeline"
+            }
+          ],
+          "questions": [
+            "What tokens did Imogen and Posthumus give each other?",
+            "How did Iachimo trick Posthumus?",
+            "What was really in the bottle the queen gave Pisanio?"
+          ],
+          "answers": [
+            "She gave him a diamond ring; he gave her a bracelet",
+            "He hid in a trunk in her room, wrote down what he saw, took the bracelet, and lied that Imogen gave it to him",
+            "A drug that makes a person sleep as if dead for a few hours (not real poison)"
+          ],
+          "notes": "Posthumus orders Imogen killed in a jealous rage. The servant Pisanio refuses, and all ends well."
+        },
+        {
+          "title": "Lesson 17: Cymbeline, Part 2 of 2",
+          "steps": [
+            "Read on from where Imogen finds the cave in the forest, to the end",
+            "Narrate how all the lost people were found again before the king",
+            "Draw the brothers covering “Fidele” with leaves and flowers"
+          ],
+          "links": [
+            {
+              "label": "Read “Cymbeline” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#cymbeline"
+            }
+          ],
+          "questions": [
+            "Who were the young hunters Polydore and Cadwal, really?",
+            "What boon (favor) did Imogen ask from the king?",
+            "How did Posthumus help Britain in the battle?"
+          ],
+          "answers": [
+            "Cymbeline's two stolen sons, Guiderius and Arviragus",
+            "That Iachimo confess where he got the ring on his finger",
+            "He fought bravely and helped save the king's life and win the battle"
+          ]
+        },
+        {
+          "title": "Lesson 18: King Lear, Part 1 of 3",
+          "steps": [
+            "Read “King Lear” aloud from the start until Cordelia leaves for France with a heavy heart",
+            "Narrate what each of the three daughters said to her father, and what Lear did",
+            "Copy one sentence from the book that shows Cordelia's honest answer, then talk about flattery versus true love"
+          ],
+          "links": [
+            {
+              "label": "Read “King Lear”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#lear"
+            }
+          ],
+          "questions": [
+            "Why did Lear give Cordelia's share of the kingdom to her sisters?",
+            "What happened to the Earl of Kent when he spoke up for Cordelia?",
+            "Why did the King of France still want to marry Cordelia?"
+          ],
+          "answers": [
+            "She would not flatter him; she said she loved him according to her duty, no more and no less",
+            "Lear banished him from Britain",
+            "He saw that her only “fault” was refusing to flatter, and said her goodness was worth more than a kingdom"
+          ],
+          "notes": "King Lear is a tragedy. The last part tells of several deaths, including Cordelia's. Preview it first if your child is sensitive."
+        },
+        {
+          "title": "Lesson 19: King Lear, Part 2 of 3",
+          "steps": [
+            "Read on from where Goneril begins to treat her father coldly, until the sisters shut their doors on Lear in the storm",
+            "Narrate how Goneril and Regan broke their promises",
+            "Draw Kent (as Caius) in the stocks when Lear arrives at Regan's castle"
+          ],
+          "links": [
+            {
+              "label": "Read “King Lear” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#lear"
+            }
+          ],
+          "questions": [
+            "What name did Kent use when he came back in disguise to serve Lear?",
+            "How many knights did Goneril and Regan say Lear could keep, in the end?",
+            "Who stayed with Lear and tried to cheer him with jokes and songs?"
+          ],
+          "answers": [
+            "Caius",
+            "They argued him down from a hundred to fifty, twenty-five, ten, five, and finally none",
+            "His fool, or jester"
+          ]
+        },
+        {
+          "title": "Lesson 20: King Lear, Part 3 of 3",
+          "steps": [
+            "Read on from Lear on the stormy heath to the end of the tale",
+            "Narrate the meeting of Lear and Cordelia at Dover",
+            "Talk together: who in this story stayed loyal, and how did they show it?"
+          ],
+          "links": [
+            {
+              "label": "Read “King Lear” (Part 3)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#lear"
+            }
+          ],
+          "questions": [
+            "Where did Kent have Lear carried after the night of the storm?",
+            "What was Lear wearing on his head when Cordelia's people found him?",
+            "Who ruled Britain after Lear died?"
+          ],
+          "answers": [
+            "To the castle of Dover",
+            "A crown he had made of straw, nettles, and weeds",
+            "The Duke of Albany, Goneril's good husband"
+          ]
+        },
+        {
+          "title": "Lesson 21: Macbeth, Part 1 of 2",
+          "steps": [
+            "Read “Macbeth” aloud from the start until Macbeth is crowned king",
+            "Narrate the witches' three greetings and how Macbeth let them change him",
+            "Draw the three weird sisters on the heath"
+          ],
+          "links": [
+            {
+              "label": "Read “Macbeth”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#macbeth"
+            }
+          ],
+          "questions": [
+            "What three titles did the witches give Macbeth?",
+            "What did they promise Banquo?",
+            "How did Lady Macbeth try to put the blame for the murder on others?"
+          ],
+          "answers": [
+            "Thane of Glamis, thane of Cawdor, and king hereafter",
+            "That his sons would be kings, though he would not",
+            "She smeared the sleeping grooms' faces with blood and left the daggers with them"
+          ],
+          "notes": "Macbeth is the darkest tale in the book: murders, a ghost, and a witches' cauldron. For younger children, read it yourself first and soften or skip as you see fit."
+        },
+        {
+          "title": "Lesson 22: Macbeth, Part 2 of 2",
+          "steps": [
+            "Read on from where Macbeth plots against Banquo, to the end",
+            "Narrate how each of the spirits' promises came true in an unexpected way",
+            "Draw Malcolm's soldiers carrying branches from Birnam wood"
+          ],
+          "links": [
+            {
+              "label": "Read “Macbeth” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#macbeth"
+            }
+          ],
+          "questions": [
+            "Who escaped when Banquo was attacked?",
+            "What did the third spirit say had to happen before Macbeth could be beaten?",
+            "How did Birnam wood “come to Dunsinane”?"
+          ],
+          "answers": [
+            "Banquo's son Fleance",
+            "Birnam wood would have to come to Dunsinane Hill",
+            "Malcolm's soldiers each cut a bough and carried it to hide how many they were"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 4: All's Well that Ends Well to Measure for Measure",
+      "lessons": [
+        {
+          "title": "Lesson 23: All's Well that Ends Well, Part 1 of 2",
+          "steps": [
+            "Read “All's Well that Ends Well” aloud from the start until Bertram leaves Helena without even saying goodbye",
+            "Narrate how a poor physician's daughter cured the King of France",
+            "Draw Helena offering her father's medicine to the sick king"
+          ],
+          "links": [
+            {
+              "label": "Read “All's Well that Ends Well”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#allwell"
+            }
+          ],
+          "questions": [
+            "What did Helena's father leave her when he died?",
+            "What reward did the king promise Helena if she cured him?",
+            "How did Bertram treat Helena after they were married?"
+          ],
+          "answers": [
+            "Some rare and tested medicines (prescriptions)",
+            "Her choice of any man in France (except the princes) for a husband",
+            "He refused to stay with her and sent her home to his mother"
+          ]
+        },
+        {
+          "title": "Lesson 24: All's Well that Ends Well, Part 2 of 2",
+          "steps": [
+            "Read on from where Helena returns to the countess, to the end",
+            "Narrate how Helena got the ring from Bertram's finger",
+            "Talk together: was Bertram worthy of Helena? What made him change?"
+          ],
+          "links": [
+            {
+              "label": "Read “All's Well that Ends Well” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#allwell"
+            }
+          ],
+          "questions": [
+            "What did Bertram's letter say Helena must do before he would call her his wife?",
+            "Where did Helena go, dressed as a pilgrim?",
+            "Whose ring did the king notice on Bertram's finger?"
+          ],
+          "answers": [
+            "Get the ring from his finger, which he said would never come off",
+            "To Florence (on her way to the shrine of St. Jaques le Grand)",
+            "The ring the king had given Helena"
+          ],
+          "notes": "Helena wins the ring by secretly taking Diana's place at a night meeting with Bertram. You may want to read this part yourself first and summarize it for younger children."
+        },
+        {
+          "title": "Lesson 25: The Taming of the Shrew, Part 1 of 2",
+          "steps": [
+            "Read “The Taming of the Shrew” aloud from the start until Petruchio carries Katharine away from her own wedding feast",
+            "Narrate Petruchio's strange courtship and wild wedding",
+            "Draw Petruchio arriving at the wedding in his ragged clothes"
+          ],
+          "links": [
+            {
+              "label": "Read “The Taming of the Shrew”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#shrew"
+            }
+          ],
+          "questions": [
+            "Why couldn't Bianca marry until Katharine did?",
+            "What did Katharine do to her music-master?",
+            "How did Petruchio plan to answer Katharine if she railed at him?"
+          ],
+          "answers": [
+            "Their father would not let anyone court Bianca until her older sister was married",
+            "She broke his head with her lute",
+            "By telling her she sang as sweetly as a nightingale"
+          ]
+        },
+        {
+          "title": "Lesson 26: The Taming of the Shrew, Part 2 of 2",
+          "steps": [
+            "Read on from the journey to Petruchio's house, to the end",
+            "Narrate the argument about the sun and the moon",
+            "Talk together: Petruchio wins the wager, but do you think he treated Katharine fairly?"
+          ],
+          "links": [
+            {
+              "label": "Read “The Taming of the Shrew” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#shrew"
+            }
+          ],
+          "questions": [
+            "Why did Petruchio throw the supper on the floor?",
+            "What did Katharine finally agree to call the sun?",
+            "Which wife came when her husband sent for her?"
+          ],
+          "answers": [
+            "He pretended it was not good enough for her, so she would go without",
+            "Whatever Petruchio wanted, even the moon",
+            "Katharine"
+          ],
+          "notes": "The ending praises a wife's obedience in the way of Shakespeare's time. It is a good chance to talk about how people saw marriage then and now."
+        },
+        {
+          "title": "Lesson 27: The Comedy of Errors, Part 1 of 2",
+          "steps": [
+            "Read “The Comedy of Errors” aloud from the start until Antipholus of Syracuse goes home to dine with Adriana, who thinks he is her husband",
+            "Narrate old Ægeon's story of the shipwreck and the two sets of twins",
+            "Draw the family tied to the masts in the storm"
+          ],
+          "links": [
+            {
+              "label": "Read “The Comedy of Errors”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#comedy"
+            }
+          ],
+          "questions": [
+            "Why was Ægeon going to be put to death in Ephesus?",
+            "What were the two masters both named, and what were the two servants both named?",
+            "How long did the duke give Ægeon to find the money?"
+          ],
+          "answers": [
+            "Merchants from Syracuse were not allowed in Ephesus unless they paid a thousand marks",
+            "The masters were both Antipholus; the servants were both Dromio",
+            "One day, until sunset"
+          ],
+          "notes": "Keep a little chart of the twins: Antipholus and Dromio “of Ephesus” and “of Syracuse.” It makes the mix-ups much funnier."
+        },
+        {
+          "title": "Lesson 28: The Comedy of Errors, Part 2 of 2",
+          "steps": [
+            "Read on from where the real husband is locked out of his own house, to the end",
+            "Narrate the mix-up of the gold chain",
+            "Act out one mix-up with two people wearing the same hat"
+          ],
+          "links": [
+            {
+              "label": "Read “The Comedy of Errors” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#comedy"
+            }
+          ],
+          "questions": [
+            "Why wouldn't the servants let Antipholus of Ephesus into his own house?",
+            "Who was the lady abbess of the convent, really?",
+            "Who paid Ægeon's ransom in the end?"
+          ],
+          "answers": [
+            "They thought their master was already inside eating dinner (it was his twin)",
+            "Ægeon's long-lost wife, the twins' mother",
+            "No one; the duke pardoned him for free"
+          ]
+        },
+        {
+          "title": "Lesson 29: Measure for Measure, Part 1 of 2",
+          "steps": [
+            "Read “Measure for Measure” aloud from the start until Angelo tells Isabel to answer him by tomorrow",
+            "Narrate why the duke left Angelo in charge and what Angelo did",
+            "Copy one of Isabel's sentences about mercy from her plea to Angelo"
+          ],
+          "links": [
+            {
+              "label": "Read “Measure for Measure”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#measure"
+            }
+          ],
+          "questions": [
+            "Why did the duke pretend to leave Vienna?",
+            "What disguise did the duke wear when he secretly returned?",
+            "Who was Isabel, and where was she about to live?"
+          ],
+          "answers": [
+            "So someone else could enforce the forgotten laws without his people thinking him a tyrant",
+            "A friar",
+            "Claudio's sister; she was about to enter the convent of Saint Clare as a nun"
+          ],
+          "notes": "This is the most grown-up tale in the book: it turns on a couple living together unmarried, and a ruler who offers to spare Isabel's brother if she will give herself to him. Read it yourself first; it may suit your older children better, or you may choose to skip it."
+        },
+        {
+          "title": "Lesson 30: Measure for Measure, Part 2 of 2",
+          "steps": [
+            "Read on from where Isabel goes to the prison, to the end",
+            "Narrate how the duke, disguised as a friar, set things right",
+            "Talk together: why did Isabel kneel to ask mercy for Angelo?"
+          ],
+          "links": [
+            {
+              "label": "Read “Measure for Measure” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#measure"
+            }
+          ],
+          "questions": [
+            "Who was Mariana?",
+            "How did the provost save Claudio from execution?",
+            "What was the duke's punishment for Angelo in the end?"
+          ],
+          "answers": [
+            "Angelo's wife, whom he had abandoned when her dowry was lost at sea",
+            "He sent Angelo the head of a prisoner who had died that morning instead",
+            "He pardoned him, because Mariana and Isabel begged for him, and told him to love his wife"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 5: Twelfth Night, Timon of Athens, and Romeo and Juliet",
+      "lessons": [
+        {
+          "title": "Lesson 31: Twelfth Night, Part 1 of 2",
+          "steps": [
+            "Read “Twelfth Night” aloud from the start until Viola realizes Olivia has fallen in love with her",
+            "Narrate how Viola became the page Cesario",
+            "Draw Viola, dressed as Cesario, asking to see Olivia's face under the veil"
+          ],
+          "links": [
+            {
+              "label": "Read “Twelfth Night”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#twelfth"
+            }
+          ],
+          "questions": [
+            "Where were Viola and Sebastian shipwrecked?",
+            "Why did Viola dress like her brother?",
+            "What did Olivia send after Cesario as a hint of her love?"
+          ],
+          "answers": [
+            "On the coast of Illyria",
+            "To serve Duke Orsino safely as a page, alone in a strange land",
+            "A diamond ring"
+          ]
+        },
+        {
+          "title": "Lesson 32: Twelfth Night, Part 2 of 2",
+          "steps": [
+            "Read on from Viola's return to Orsino's palace, to the end",
+            "Narrate how the twins were mistaken for each other and finally met",
+            "Copy Viola's line about the sister who “sat like Patience on a monument, smiling at Grief” (from Part 1)"
+          ],
+          "links": [
+            {
+              "label": "Read “Twelfth Night” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#twelfth"
+            }
+          ],
+          "questions": [
+            "Who rescued Viola from the duel, and who did he think she was?",
+            "Who did Olivia marry, thinking he was Cesario?",
+            "Whom did Orsino marry at the end?"
+          ],
+          "answers": [
+            "Antonio the sea-captain; he thought she was Sebastian",
+            "Sebastian",
+            "Viola"
+          ]
+        },
+        {
+          "title": "Lesson 33: Timon of Athens, Part 1 of 2",
+          "steps": [
+            "Read “Timon of Athens” aloud from the start until Timon's house is besieged by people he owes money to",
+            "Narrate how Timon lost his fortune and found out who his true friends were",
+            "Draw Timon's crowded feast, with the honest steward Flavius weeping alone"
+          ],
+          "links": [
+            {
+              "label": "Read “Timon of Athens”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#timon"
+            }
+          ],
+          "questions": [
+            "How did the false friends get rich gifts from Timon?",
+            "Who tried again and again to warn Timon about his money?",
+            "What did Lucullus offer Timon's servant to say?"
+          ],
+          "answers": [
+            "They gave him small presents or praised his things, knowing he would give back something far richer",
+            "His honest steward, Flavius",
+            "A bribe to tell Timon he had not found Lucullus at home"
+          ]
+        },
+        {
+          "title": "Lesson 34: Timon of Athens, Part 2 of 2",
+          "steps": [
+            "Read on from Timon's last feast to the end of the tale",
+            "Narrate the trick Timon played at his final banquet",
+            "Talk together: Flavius was faithful, yet Timon turned against everyone. What could Timon have done instead?"
+          ],
+          "links": [
+            {
+              "label": "Read “Timon of Athens” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#timon"
+            }
+          ],
+          "questions": [
+            "What was under the covers of the dishes at Timon's last feast?",
+            "What did Timon find while digging for roots in the woods?",
+            "Why did the senators of Athens come to beg Timon to return?"
+          ],
+          "answers": [
+            "Only smoke and lukewarm water",
+            "A great heap of buried gold",
+            "Alcibiades was attacking Athens, and they needed Timon to lead its defence"
+          ],
+          "notes": "This is a bitter tale with a grim ending: Timon hates all people and dies alone. Its lesson is about flattery and true friendship."
+        },
+        {
+          "title": "Lesson 35: Romeo and Juliet, Part 1 of 3",
+          "steps": [
+            "Read “Romeo and Juliet” aloud from the start until the two lovers say goodnight at Juliet's window",
+            "Narrate the Capulet feast and the meeting in the orchard",
+            "Copy Juliet's question: “O Romeo, Romeo! wherefore art thou Romeo?” and talk about what “wherefore” means (why)"
+          ],
+          "links": [
+            {
+              "label": "Read “Romeo and Juliet”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#romeo"
+            }
+          ],
+          "questions": [
+            "What were the names of the two quarrelling families?",
+            "Who recognized Romeo at the feast and wanted to fight him?",
+            "Why was it dangerous for Romeo to be in Juliet's orchard?"
+          ],
+          "answers": [
+            "The Capulets and the Montagues",
+            "Tybalt, Lord Capulet's nephew",
+            "If any of her family found him there, a Montague, they would kill him"
+          ],
+          "notes": "Romeo and Juliet ends in tragedy with the deaths of both young people. Preview the last part before reading it aloud to younger children."
+        },
+        {
+          "title": "Lesson 36: Romeo and Juliet, Part 2 of 3",
+          "steps": [
+            "Read on from where Romeo goes to Friar Lawrence at daybreak, until Romeo leaves for Mantua",
+            "Narrate the fight in the street and why Romeo was banished",
+            "Draw Friar Lawrence's cell, or the street fight in Verona"
+          ],
+          "links": [
+            {
+              "label": "Read “Romeo and Juliet” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#romeo"
+            }
+          ],
+          "questions": [
+            "Why did Friar Lawrence agree to marry Romeo and Juliet?",
+            "How did Mercutio die?",
+            "What punishment did the prince give Romeo?"
+          ],
+          "answers": [
+            "He hoped their marriage would end the quarrel between their families",
+            "Tybalt killed him in a sword fight",
+            "He banished him from Verona"
+          ]
+        },
+        {
+          "title": "Lesson 37: Romeo and Juliet, Part 3 of 3",
+          "steps": [
+            "Read on from Lord Capulet's plan for Juliet to marry Paris, to the end",
+            "Narrate the friar's plan and how it went wrong",
+            "Talk together: how did the families' hatred lead to this sad ending?"
+          ],
+          "links": [
+            {
+              "label": "Read “Romeo and Juliet” (Part 3)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#romeo"
+            }
+          ],
+          "questions": [
+            "What would Friar Lawrence's potion do to Juliet?",
+            "Why did Romeo never learn that Juliet was only asleep?",
+            "What did the two fathers do at the end?"
+          ],
+          "answers": [
+            "Make her seem dead for forty-two hours",
+            "The friar's letters to Mantua were delayed and never reached him",
+            "They made peace and promised to raise golden statues of Romeo and Juliet"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 6: Hamlet, Othello, and Pericles",
+      "lessons": [
+        {
+          "title": "Lesson 38: Hamlet, Prince of Denmark, Part 1 of 3",
+          "steps": [
+            "Read “Hamlet” aloud from the start until Hamlet decides to pretend to be mad",
+            "Narrate what the ghost told Hamlet",
+            "Draw the soldiers' platform at midnight as the ghost appears in armour"
+          ],
+          "links": [
+            {
+              "label": "Read “Hamlet, Prince of Denmark”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#hamlet"
+            }
+          ],
+          "questions": [
+            "Why was young Hamlet so sad at the start of the story?",
+            "How did the ghost say King Hamlet had really died?",
+            "Why did Hamlet decide to act as if he were mad?"
+          ],
+          "answers": [
+            "His father had died, and his mother had married his uncle Claudius less than two months later",
+            "Claudius poured poison (henbane) into his ears while he slept in the garden",
+            "So his uncle would not suspect he knew the truth or was planning anything"
+          ],
+          "notes": "Hamlet is a tragedy with a ghost and many deaths. Preview Parts 2 and 3 if your child is sensitive."
+        },
+        {
+          "title": "Lesson 39: Hamlet, Prince of Denmark, Part 2 of 3",
+          "steps": [
+            "Read on from where Hamlet begins to act strangely, until he weeps over Polonius",
+            "Narrate Hamlet's plan with the players and how the king gave himself away",
+            "Draw the players acting out the poisoning in the garden while the king watches"
+          ],
+          "links": [
+            {
+              "label": "Read “Hamlet, Prince of Denmark” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#hamlet"
+            }
+          ],
+          "questions": [
+            "Whose daughter was Ophelia?",
+            "What happened in the play Hamlet had the actors perform?",
+            "Who was hiding behind the hangings in the queen's room?"
+          ],
+          "answers": [
+            "Polonius, the king's chief counsellor",
+            "A man poisoned a duke in his garden to take his place, just as Claudius had done",
+            "Polonius"
+          ]
+        },
+        {
+          "title": "Lesson 40: Hamlet, Prince of Denmark, Part 3 of 3",
+          "steps": [
+            "Read on from where the king sends Hamlet to England, to the end",
+            "Narrate how Hamlet escaped the king's plot at sea",
+            "Talk together: what did Hamlet ask his friend Horatio to do at the end?"
+          ],
+          "links": [
+            {
+              "label": "Read “Hamlet, Prince of Denmark” (Part 3)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#hamlet"
+            }
+          ],
+          "questions": [
+            "What did Hamlet change in the king's secret letters?",
+            "How did Hamlet get back to Denmark?",
+            "What two tricks had the king prepared for the fencing match?"
+          ],
+          "answers": [
+            "He put the two courtiers' names in place of his own, so they would be put to death instead",
+            "Pirates captured him and set him ashore in Denmark",
+            "A sharp, poisoned sword for Laertes and a cup of poisoned drink"
+          ]
+        },
+        {
+          "title": "Lesson 41: Othello, Part 1 of 2",
+          "steps": [
+            "Read “Othello” aloud from the start until Othello takes away Cassio's place as lieutenant",
+            "Narrate how Othello won Desdemona and why her father was angry",
+            "Find Venice and Cyprus on a map of the Mediterranean, and trace Othello's voyage"
+          ],
+          "links": [
+            {
+              "label": "Read “Othello”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#othello"
+            }
+          ],
+          "questions": [
+            "How did Othello win Desdemona's love?",
+            "Why was Othello sent to Cyprus?",
+            "Why did Iago hate Cassio?"
+          ],
+          "answers": [
+            "By telling her the story of his adventures and dangers",
+            "To defend it against a Turkish fleet",
+            "Othello made Cassio his lieutenant instead of Iago"
+          ],
+          "notes": "The book describes Othello's color with the prejudice of its day. Talk about how the story shows Othello as noble and brave, and Iago's lies as the real evil. The tale ends with Desdemona's murder and Othello's death."
+        },
+        {
+          "title": "Lesson 42: Othello, Part 2 of 2",
+          "steps": [
+            "Read on from where Iago advises Cassio to ask Desdemona's help, to the end",
+            "Narrate how Iago used small things, like a handkerchief, to poison Othello's mind",
+            "Talk together: how could Othello have found out the truth before it was too late?"
+          ],
+          "links": [
+            {
+              "label": "Read “Othello” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#othello"
+            }
+          ],
+          "questions": [
+            "Why did Desdemona keep asking Othello to forgive Cassio?",
+            "How did Iago get Desdemona's handkerchief?",
+            "How was Iago's wickedness finally discovered?"
+          ],
+          "answers": [
+            "Cassio had asked for her help, as Iago told him to, and she was kind",
+            "He made his wife Emilia steal it",
+            "Letters proving it were found on the man Iago had sent to kill Cassio"
+          ]
+        },
+        {
+          "title": "Lesson 43: Pericles, Prince of Tyre, Part 1 of 3",
+          "steps": [
+            "Read “Pericles” aloud from the start until Pericles sets the chest with Thaisa into the sea",
+            "Narrate how the sea took things from Pericles and gave them back",
+            "Draw the fishermen pulling Pericles's armour up in their net"
+          ],
+          "links": [
+            {
+              "label": "Read “Pericles, Prince of Tyre”",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#pericles"
+            }
+          ],
+          "questions": [
+            "How did Pericles help the city of Tarsus?",
+            "What did the fishermen catch in their net?",
+            "Why did the sailors want the queen put overboard?"
+          ],
+          "answers": [
+            "He brought food when the city was starving",
+            "His father's suit of armour, lost in the shipwreck",
+            "They believed the storm would not stop while a dead body was on the ship"
+          ]
+        },
+        {
+          "title": "Lesson 44: Pericles, Prince of Tyre, Part 2 of 3",
+          "steps": [
+            "Read on from where Cerimon opens the chest on the shore, until Marina is taken to Mitylene",
+            "Narrate what happened to Thaisa and what happened to baby Marina",
+            "Find Tyre, Tarsus, and Ephesus on a map of the eastern Mediterranean"
+          ],
+          "links": [
+            {
+              "label": "Read “Pericles, Prince of Tyre” (Part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#pericles"
+            }
+          ],
+          "questions": [
+            "How did Cerimon know Thaisa was not really dead?",
+            "Why was Marina given that name?",
+            "Why did Dionysia want Marina killed?"
+          ],
+          "answers": [
+            "Her face looked fresh and not like death, so he warmed her and she revived",
+            "Because she was born at sea",
+            "She was jealous that Marina outshone her own daughter"
+          ]
+        },
+        {
+          "title": "Lesson 45: Pericles, Prince of Tyre, Part 3 of 3",
+          "steps": [
+            "Read on from Dionysia's false funeral for Marina, to the end of the book",
+            "Narrate how the family found each other again",
+            "Draw the reunion at Diana's temple at Ephesus"
+          ],
+          "links": [
+            {
+              "label": "Read “Pericles, Prince of Tyre” (Part 3)",
+              "url": "https://www.gutenberg.org/cache/epub/573/pg573-images.html#pericles"
+            }
+          ],
+          "questions": [
+            "How did Marina get her father to speak again?",
+            "What did Pericles dream?",
+            "How did Thaisa know Pericles at the temple?"
+          ],
+          "answers": [
+            "She told him the sad story of her own life, and he saw she looked like his wife",
+            "That the goddess Diana told him to go to her temple at Ephesus and tell his story",
+            "She knew his face and voice, and saw the ring her father had given him"
+          ],
+          "notes": "Marina is sold as a slave, and the book closes with a grim punishment for Cleon and Dionysia. Celebrate finishing the whole book together!"
+        }
+      ]
+    }
+  ]
+}

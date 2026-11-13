@@ -1,0 +1,516 @@
+{
+  "key": "seven-little-sisters",
+  "title": "The Seven Little Sisters",
+  "sourceTitle": "The Seven Little Sisters Who Live on the Round Ball That Floats in the Air",
+  "author": "Jane Andrews",
+  "seller": "Jane Andrews",
+  "year": 1861,
+  "sourceUrl": "https://www.gutenberg.org/ebooks/12631",
+  "readUrl": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Project Gutenberg eBook #12631: 'Public domain in the USA'; first published in Boston in 1861",
+  "subjects": [
+    "geography",
+    "reading"
+  ],
+  "gradeMin": 1,
+  "gradeMax": 3,
+  "philosophies": [
+    "charlotte_mason",
+    "classical",
+    "traditional"
+  ],
+  "lessonsPerWeek": 3,
+  "minutesPerLesson": 20,
+  "parentInvolvement": "high",
+  "familyStyle": true,
+  "cover": "🌍",
+  "color": "#3D9970",
+  "description": "Jane Andrews's classic 1861 storybook visits seven girls around the world, from an Arctic snow country to the desert, the Alps, a river boat in China, and a log cabin in the American woods. Read a chapter aloud, let your child tell it back, then find that sister's home on a globe or draw her world. Some descriptions of peoples are badly dated, so parent notes suggest how to talk about them; the full text is free online.",
+  "includes": [
+    "18 lessons in 4 units covering every chapter",
+    "Link to the free full text for every lesson",
+    "A globe or map step for each little sister's home",
+    "Narration and a drawing, copywork, or hands-on activity each day",
+    "Questions with answers for every lesson",
+    "Parent notes on dated or stereotyped portrayals and how life there looks today"
+  ],
+  "units": [
+    {
+      "title": "Unit 1: The Round Ball, the Warm Country, and the Cold Country",
+      "lessons": [
+        {
+          "title": "Lesson 1: The Ball Itself",
+          "steps": [
+            "Read “The Ball Itself” aloud together",
+            "Have your child tell back the different kinds of places the author shows on the ball: meadows, forests, mountains, ponds, desert, and ice",
+            "Spin a globe (or a ball) and find one green place, one sandy desert, and the icy top and bottom of the world"
+          ],
+          "links": [
+            {
+              "label": "Read “The Ball Itself”",
+              "url": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html#id00038"
+            }
+          ],
+          "questions": [
+            "What is the big ball the author is really talking about?",
+            "Name the two very different places on the ball that she says you might not like.",
+            "Whose sledge does she promise we will come back to see?"
+          ],
+          "answers": [
+            "The earth, the world we live on",
+            "The great hot plain of sand (the desert) and the cold land of ice and snow",
+            "Agoonack's"
+          ],
+          "notes": "Keep a globe or a world map handy for the whole book. Each sitting ends with finding where that little sister lives."
+        },
+        {
+          "title": "Lesson 2: The Little Brown Baby",
+          "steps": [
+            "Read “The Little Brown Baby” aloud together",
+            "Narrate the baby's night and morning: the swinging bed, the moon and stars, the bath in the brook",
+            "On the globe, run your finger along the warm band around the middle of the earth (near the equator) where she might live",
+            "Draw the little bed swinging in the tree with the moon peeping in"
+          ],
+          "links": [
+            {
+              "label": "Read “The Little Brown Baby”",
+              "url": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html#id00049"
+            }
+          ],
+          "questions": [
+            "Why doesn't the brown baby need warm clothes?",
+            "What is her bed made of, and where does it hang?",
+            "What does she drink from a cup made of a shell?"
+          ],
+          "answers": [
+            "The sun shines so warmly where she lives",
+            "A swinging bed made from a twisting vine, hung in a tree",
+            "Sweet coconut milk"
+          ],
+          "notes": "The book never says which warm country this is, and its picture of a baby who wears only beads is an 1860s storybook idea, not a real portrait. Families in tropical countries today live in towns and villages, wear clothes, and go to school. You might ask: “What did the author get right about warm places, and what might she have left out?”"
+        },
+        {
+          "title": "Lesson 3: Agoonack, the Esquimau Sister",
+          "steps": [
+            "Read “Agoonack, the Esquimau Sister” aloud together",
+            "Have your child narrate, starting with the house that looks like an oven and ending with the feast for Nannook",
+            "Find Greenland and the Arctic at the top of the globe",
+            "Draw Agoonack on her bone sled pulled by two brown puppies under the northern lights"
+          ],
+          "links": [
+            {
+              "label": "Read “Agoonack, the Esquimau Sister”",
+              "url": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html#id00061"
+            }
+          ],
+          "questions": [
+            "What did Agoonack's father make her sled from, and why not wood?",
+            "What keeps the little stone house warm inside?",
+            "What are the bright moving lights in the dark winter sky called?"
+          ],
+          "answers": [
+            "Walrus and whale bones tied with sealskin, because no trees grow in that cold country",
+            "A lamp with moss wicks that burns walrus fat",
+            "The northern lights"
+          ],
+          "notes": "“Esquimau” is an old spelling of “Eskimo,” a word many Arctic peoples today find outdated. Agoonack's people would now be called Inuit (in Greenland, Kalaallit). Today Inuit families live in modern houses with schools, phones, and snowmobiles, and many still hunt and keep old traditions. The reindeer milk detail is the author's mix-up; reindeer herding belongs to other northern peoples."
+        },
+        {
+          "title": "Lesson 4: How Agoonack Lives Through the Long Summer",
+          "steps": [
+            "Read “How Agoonack Lives Through the Long Summer” aloud together",
+            "Narrate how the sun comes back a little more each day, and what the children do in the summer",
+            "With a lamp and a globe (or a flashlight and a ball), tilt the top toward the light and see how the top stays lit all the way around",
+            "Copywork: write one short sentence about the sun that never sets"
+          ],
+          "links": [
+            {
+              "label": "Read “How Agoonack Lives Through the Long Summer”",
+              "url": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html#id00091"
+            }
+          ],
+          "questions": [
+            "What strange thing does the summer sun do in Agoonack's country?",
+            "How do the boys catch the white sea birds?",
+            "Why did no one throw a harpoon at the great white whale?"
+          ],
+          "answers": [
+            "It shines all day and all night and does not set",
+            "They climb out on the rocks and catch them in long-handled nets",
+            "Her visit was thought to be a good sign of a mild winter"
+          ],
+          "notes": "The midnight sun and the long polar night are real and a wonderful science moment. A lamp and a tilted ball show it better than any words."
+        }
+      ]
+    },
+    {
+      "title": "Unit 2: Gemila of the Desert and Jeannette of the Mountains",
+      "lessons": [
+        {
+          "title": "Lesson 5: Gemila, the Child of the Desert (part 1)",
+          "steps": [
+            "Read the first part of “Gemila, the Child of the Desert,” from the start through the loading of the water and milk bags",
+            "Have your child narrate the evening at the tent and how the family packs up to move",
+            "Find the great deserts of North Africa and Arabia on the globe",
+            "Play tents: drape a blanket over two chairs as the author did when she was small"
+          ],
+          "links": [
+            {
+              "label": "Read “Gemila” (part 1)",
+              "url": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html#id00104"
+            }
+          ],
+          "questions": [
+            "What is Gemila's house made of?",
+            "Why does the family have to move?",
+            "What do they carry their drinking water in?"
+          ],
+          "answers": [
+            "A tent of goats'-hair cloth (or sheepskins) held up by poles",
+            "Their spring is drying up and the grass is gone",
+            "Big bags made of camel skin"
+          ],
+          "notes": "Gemila's family are Bedouin, desert herders of Arabia and North Africa. The author judges some of their customs by her own (“we could teach them better manners”), though she also praises their kindness to strangers. Many Bedouin today live in towns or settled villages, and some still keep herds and tents."
+        },
+        {
+          "title": "Lesson 6: Gemila, the Child of the Desert (part 2)",
+          "steps": [
+            "Read the second part of “Gemila,” from Abdel Hassan mounting his black horse through the ostrich eggs",
+            "Narrate one day of the journey: starting under the stars, resting at noon, riding again at night",
+            "Go outside early or late in the day and look at how long your shadow is, the way Gemila watched the camels' shadows",
+            "Draw an ostrich running with its wings spread like little sails"
+          ],
+          "links": [
+            {
+              "label": "Read “Gemila” (part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html#id00121"
+            }
+          ],
+          "questions": [
+            "Why do the travelers rest in the tent in the middle of the day?",
+            "How do the ostrich's small wings help it?",
+            "Why did Gemila clap when she saw the ostrich?"
+          ],
+          "answers": [
+            "It is far too hot to travel then",
+            "It spreads them like little sails to help it run fast",
+            "She hoped the men would find its nest and the family would have big fresh eggs"
+          ],
+          "notes": "The book repeats an old myth that ostriches hide their heads in the sand. They don't! They lie flat and still to hide, which may have started the story. A fun chance to say that even books can be wrong."
+        },
+        {
+          "title": "Lesson 7: Gemila, the Child of the Desert (part 3)",
+          "steps": [
+            "Read the last part of “Gemila,” from meeting Sheik Hassein's caravan to the new home by the palm trees",
+            "Narrate the meeting with the caravan and the arrival at the spring",
+            "Draw the caravan of camels as a row of tiny dots far away, then large and close up"
+          ],
+          "links": [
+            {
+              "label": "Read “Gemila” (part 3)",
+              "url": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html#id00134"
+            }
+          ],
+          "questions": [
+            "What was Sheik Hassein's long caravan of camels carrying?",
+            "How does Abdel Hassan greet the sheik?",
+            "How can a camel go four or five days without a drink?"
+          ],
+          "answers": [
+            "Cloths, shawls, carpets, spices, and colored leather to sell",
+            "He presses the sheik's hand to his lips and forehead and says “Peace be with you”",
+            "It stores enough water inside its body to last that long"
+          ],
+          "notes": "The camel's real secret is not a water bag but how well its body saves water; the hump stores fat. You can share that as a fun correction."
+        },
+        {
+          "title": "Lesson 8: The Little Mountain Maiden (part 1)",
+          "steps": [
+            "Read the first part of “The Little Mountain Maiden,” from the carved chamois through Jeannette listening for her father's cow bells",
+            "Have your child narrate Jeannette's home and her summer days",
+            "Find Switzerland and the Alps on the map",
+            "Draw a chamois standing on a rock, or Jeannette picking strawberries"
+          ],
+          "links": [
+            {
+              "label": "Read “The Little Mountain Maiden” (part 1)",
+              "url": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html#id00153"
+            }
+          ],
+          "questions": [
+            "What is a chamois?",
+            "How did Jeannette's mother first come up the mountain?",
+            "Why do the cows wear little bells?"
+          ],
+          "answers": [
+            "A small, nimble wild goat-antelope of the high mountains",
+            "Riding on a brown donkey led by Jeannette's father",
+            "So her father can hear and find them if they wander too far"
+          ],
+          "notes": "This chapter is mostly gentle and still close to life in the Swiss Alps, where farmers still take cows up to high summer pastures."
+        },
+        {
+          "title": "Lesson 9: The Little Mountain Maiden (part 2)",
+          "steps": [
+            "Read the rest of “The Little Mountain Maiden,” from the travelers' visit to the chestnut gathering",
+            "Narrate what happened to Joseph and how he spent his time while his leg healed",
+            "Copywork: copy a sentence about the chestnut days, or the names Jeannette, Joseph, and Switzerland"
+          ],
+          "links": [
+            {
+              "label": "Read “The Little Mountain Maiden” (part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html#id00173"
+            }
+          ],
+          "questions": [
+            "How was Joseph hurt?",
+            "What did he carve while he got better?",
+            "What opens the prickly chestnut burrs for the family?"
+          ],
+          "answers": [
+            "He fell while guiding travelers over the mountain and broke his leg",
+            "A spoon and bowl for his sister, then knives, forks, plates, and the little chamois",
+            "The autumn frost"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 3: Pen-se of China and Manenko of Africa",
+      "lessons": [
+        {
+          "title": "Lesson 10: The Story of Pen-se (part 1)",
+          "steps": [
+            "Read the first part of “The Story of Pen-se,” from watching the sunset through Lin and his fishing birds",
+            "Narrate a morning on Pen-se's boat, from letting out the ducks to going to work",
+            "With a globe and a flashlight, show that when the sun sets for us it is morning on the other side, then find China",
+            "Practice picking up dry beans or cereal with two chopsticks"
+          ],
+          "links": [
+            {
+              "label": "Read “The Story of Pen-se” (part 1)",
+              "url": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html#id00185"
+            }
+          ],
+          "questions": [
+            "Where does Pen-se's family live?",
+            "How does her father call the ducks home at night?",
+            "What birds catch fish for Lin and his uncle?"
+          ],
+          "answers": [
+            "On a boat on a big river",
+            "He blows a shrill whistle",
+            "Cormorants"
+          ],
+          "notes": "The long braid (queue) that Kang-hy wears was a hairstyle China's rulers required of men in that era; it ended over a hundred years ago. The author calls these customs “funny” and “odd.” You might talk about how our own clothes and food could look funny to someone far away."
+        },
+        {
+          "title": "Lesson 11: The Story of Pen-se (part 2)",
+          "steps": [
+            "Read the rest of “The Story of Pen-se,” from the busy city streets to the end",
+            "Narrate the city sights Pen-se remembers and the hills where she was born",
+            "Draw a tea plant or a silkworm on a mulberry leaf"
+          ],
+          "links": [
+            {
+              "label": "Read “The Story of Pen-se” (part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html#id00203"
+            }
+          ],
+          "questions": [
+            "Why can't the lady in the great house run and play?",
+            "What grew on the hills where Pen-se was born?",
+            "What does the silkworm spin around itself?"
+          ],
+          "answers": [
+            "Her feet were tightly bound when she was little to keep them small",
+            "Tea plants and mulberry trees for silkworms",
+            "A silken shell (cocoon)"
+          ],
+          "notes": "Foot binding was real and painful; it was outlawed in China in the early 1900s and has long since ended. The menu of “fried mice” and puppies and the remark about “slanting” eyes are an outsider's stereotypes, though the author does conclude “it is only custom.” China today is a modern country of big cities, high-speed trains, and schools, and families still live and work on its great rivers."
+        },
+        {
+          "title": "Lesson 12: The Little Dark Girl (part 1)",
+          "steps": [
+            "Read the first part of “The Little Dark Girl,” from the start through the corn hill built by white ants",
+            "Have your child narrate the things Manenko can do to help her family",
+            "Find southern Africa and a great river such as the Zambezi on the map"
+          ],
+          "links": [
+            {
+              "label": "Read “The Little Dark Girl” (part 1)",
+              "url": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html#id00214"
+            }
+          ],
+          "questions": [
+            "What is the roof of Manenko's house made of?",
+            "Name two jobs Manenko can do.",
+            "Who built the hill where the family plants its corn?"
+          ],
+          "answers": [
+            "River rushes tied with bark and covered with smooth grass",
+            "Paddle a canoe, hoe corn, find wild honey, gather fruit, or pound corn (any two)",
+            "Termites (white ants)"
+          ],
+          "notes": "Please preview this chapter. Written in 1861, it describes African people's looks in ways that are hurtful, calls Manenko “wild,” and says “we should not agree” with their idea of beauty. A good way through: read the parts about her family, work, and home, and say plainly that the author was wrong to describe people that way. Every culture has its own idea of beauty. Families across Africa today live in cities and villages, run businesses, and go to school."
+        },
+        {
+          "title": "Lesson 13: The Little Dark Girl (part 2)",
+          "steps": [
+            "Read the rest of “The Little Dark Girl,” from the mother weaving baskets to the end",
+            "Narrate how Manenko followed the honey-bird",
+            "Draw a hippopotamus standing on the river bottom with her baby on her neck"
+          ],
+          "links": [
+            {
+              "label": "Read “The Little Dark Girl” (part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html#id00236"
+            }
+          ],
+          "questions": [
+            "What do the other women call Manenko's mother, and why?",
+            "How does the honey-bird help Manenko?",
+            "Where does the hippopotamus spend the day?"
+          ],
+          "answers": [
+            "Ma-Zungo, meaning Zungo's mother, after her oldest son",
+            "Its call leads her to a tree where wild bees keep their honey",
+            "Standing under the river water, half asleep"
+          ],
+          "notes": "The honey-bird (honeyguide) is real and still leads people to bees' nests. Elephants were hunted for ivory then; now they are protected, and buying ivory is banned in most places. “Dark Continent” was an old outsiders' name for Africa that isn't used today."
+        }
+      ]
+    },
+    {
+      "title": "Unit 4: Louise, from the Rhine to the Western Forest",
+      "lessons": [
+        {
+          "title": "Lesson 14: Louise, the Child of the Beautiful River Rhine (part 1)",
+          "steps": [
+            "Read the first part of “Louise, the Child of the Beautiful River Rhine,” through her knitting, garden, and lessons",
+            "Have your child narrate how Louise and her brother and sister helped the poor people in the valley",
+            "Trace the River Rhine on a map of Europe, from the Alps to the sea, and notice it starts near Jeannette's mountains"
+          ],
+          "links": [
+            {
+              "label": "Read “Louise of the Rhine” (part 1)",
+              "url": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html#id00247"
+            }
+          ],
+          "questions": [
+            "What does Louise's mother send the children to carry each day?",
+            "How did Louise help the old woman who was knitting?",
+            "Where does Christian go to school?"
+          ],
+          "answers": [
+            "Hot dinners for the sick and poor people in the valley",
+            "She found her dropped needle and gave her the dinner",
+            "A music school on the hill"
+          ]
+        },
+        {
+          "title": "Lesson 15: Louise, the Child of the Beautiful River Rhine (part 2)",
+          "steps": [
+            "Read the rest of “Louise of the Rhine,” from the grape harvest to Christmas Eve",
+            "Narrate the grape-picking day or the Christmas surprise",
+            "Draw the little Christmas tree with candles, or the peasant girls carrying grapes on their heads"
+          ],
+          "links": [
+            {
+              "label": "Read “Louise of the Rhine” (part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html#id00260"
+            }
+          ],
+          "questions": [
+            "What grows on the steep hills by the Rhine?",
+            "What was the best Christmas present of all?",
+            "Why was the Christmas tree set up in Mother's room?"
+          ],
+          "answers": [
+            "Grapes, in vineyards",
+            "A new baby brother, Hans",
+            "The new baby was one of the presents and could not be carried to the hall"
+          ],
+          "notes": "The 1860s family gives the children a little new wine at the harvest. You may want to mention that was a custom of the time and place."
+        },
+        {
+          "title": "Lesson 16: Louise, the Child of the Western Forest (part 1)",
+          "steps": [
+            "Read the first part of “Louise, the Child of the Western Forest,” from the stormy night through arriving at the edge of the forest",
+            "Narrate why the family left their home and what the voyage was like",
+            "On the globe, trace their trip from the Rhine across the Atlantic Ocean to North America and inland"
+          ],
+          "links": [
+            {
+              "label": "Read “Louise of the Western Forest” (part 1)",
+              "url": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html#id00276"
+            }
+          ],
+          "questions": [
+            "Why did the family have to leave their house by the Rhine?",
+            "What did they bring besides clothes?",
+            "What did Louise knit on the ship?"
+          ],
+          "answers": [
+            "Their father lost all his money",
+            "Two big wooden chests of linen sheets and tablecloths",
+            "A little stocking for the baby"
+          ],
+          "notes": "Many German families did move to the American Midwest in the 1800s. The “western forest” they settled was land where Native American nations had long lived, which the book does not mention; older children may be ready to talk about that."
+        },
+        {
+          "title": "Lesson 17: Louise, the Child of the Western Forest (part 2)",
+          "steps": [
+            "Read the rest of “Louise of the Western Forest,” from the night in the wagon through the hard first winter",
+            "Narrate how the family made the log house into a home",
+            "Build a tiny log cabin with sticks, pretzel rods, or toy logs, and stuff the cracks with moss or paper"
+          ],
+          "links": [
+            {
+              "label": "Read “Louise of the Western Forest” (part 2)",
+              "url": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html#id00298"
+            }
+          ],
+          "questions": [
+            "Where did the children sleep the first night?",
+            "How did the linen chests help in the new house?",
+            "What gift did the family give each other that first Christmas?"
+          ],
+          "answers": [
+            "In the back of the big wagon, on straw",
+            "They were used as the table and as beds",
+            "Love"
+          ]
+        },
+        {
+          "title": "Lesson 18: The Seven Little Sisters",
+          "steps": [
+            "Read “The Seven Little Sisters” aloud together",
+            "Have your child name all seven sisters and tell one thing about each",
+            "Make a world map with seven stickers or drawings: the brown baby, Agoonack, Gemila, Jeannette, Pen-se, Manenko, and Louise"
+          ],
+          "links": [
+            {
+              "label": "Read “The Seven Little Sisters”",
+              "url": "https://www.gutenberg.org/cache/epub/12631/pg12631-images.html#id00322"
+            }
+          ],
+          "questions": [
+            "Who are the seven little sisters, in order?",
+            "Why does Marnie say they can't be sisters?",
+            "What does the author say makes them all sisters?"
+          ],
+          "answers": [
+            "The brown baby, Agoonack, Gemila, Jeannette, Pen-se, Manenko, and Louise",
+            "They look different and live in different places, warm and cold",
+            "They are all children of the same loving heavenly Father who cares for every one of them"
+          ],
+          "notes": "The book ends with a Christian message that all children are one family under God. The cotton paragraph mentions “a poor black man, and a very sad man” planting seeds: in 1861 that meant an enslaved person in the American South, a chance to talk gently about slavery if your child is ready."
+        }
+      ]
+    }
+  ]
+}

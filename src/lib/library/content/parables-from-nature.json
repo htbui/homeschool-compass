@@ -1,0 +1,1373 @@
+{
+  "key": "parables-from-nature",
+  "title": "Parables from Nature",
+  "sourceTitle": "Parables from Nature (London: George Bell & Sons, 1882, 2 vols.; with the further parables from the G. P. Putnam's Sons edition, New York, 1880)",
+  "author": "Margaret Gatty (Mrs. Alfred Gatty)",
+  "seller": "Margaret Gatty",
+  "year": 1855,
+  "sourceUrl": "https://archive.org/details/parablesfromnatu01gattuoft",
+  "readUrl": "https://archive.org/details/parablesfromnatu01gattuoft/page/n18/mode/1up",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Public domain: Margaret Gatty died in 1873; first published in five series, 1855–1871. Scans used: George Bell & Sons, London, 1882 (University of Toronto copies on archive.org, vols. 1–2) and G. P. Putnam's Sons, New York, 1880 (Google scan on archive.org); all published before 1930. Not available on Project Gutenberg.",
+  "subjects": [
+    "reading",
+    "science",
+    "bible"
+  ],
+  "gradeMin": 2,
+  "gradeMax": 5,
+  "philosophies": [
+    "charlotte_mason",
+    "faith_based",
+    "nature_forest",
+    "classical"
+  ],
+  "lessonsPerWeek": 3,
+  "minutesPerLesson": 20,
+  "parentInvolvement": "high",
+  "familyStyle": true,
+  "cover": "🦋",
+  "color": "#3D9970",
+  "description": "Margaret Gatty's beloved Victorian nature parables, a Charlotte Mason favorite: a caterpillar who learns faith from a lark, a robin who sings through a hard winter, a dragonfly grub wondering what lies above the pond, a spider exploring the 'empty space' of a church. Read a parable (or half of a long one) aloud, have your child tell it back, then draw, observe, or try a small experiment that matches it. Each tale carries a Christian lesson alongside real natural history, and the old illustrated editions are free to read online.",
+  "includes": [
+    "50 lessons in 7 units covering all 37 parables",
+    "Long parables split into 2–4 sittings; two very short ones paired",
+    "A narration prompt and a nature-study drawing, observation, or copywork step every lesson",
+    "2–3 questions per lesson, with answers",
+    "Parent notes on sad moments, Victorian views, and the real science behind the stories",
+    "Links to the page where each reading starts in free scanned editions"
+  ],
+  "units": [
+    {
+      "title": "Unit 1: A Lesson of Faith to A Lesson of Hope",
+      "lessons": [
+        {
+          "title": "Lesson 1: A Lesson of Faith",
+          "steps": [
+            "Read “A Lesson of Faith” aloud together",
+            "Have your child tell the story back: the dying Butterfly, the worried Caterpillar, and the Lark's news",
+            "Draw the life cycle of a butterfly in four boxes: egg, caterpillar, chrysalis, butterfly"
+          ],
+          "links": [
+            {
+              "label": "Read “A Lesson of Faith”",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n18/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 1–8",
+          "questions": [
+            "What did the dying Butterfly ask the Caterpillar to do?",
+            "What food did the Lark say the baby creatures would eat?",
+            "What did the Caterpillar find hatching from the Butterfly's eggs?"
+          ],
+          "answers": [
+            "Take care of her eggs and feed the babies dew and honey",
+            "Cabbage leaves",
+            "Little green caterpillars"
+          ],
+          "notes": "Gatty wrote these parables to teach Christian faith through nature; each opens with a Bible verse. This one pictures the hope of life after death, so be ready for questions."
+        },
+        {
+          "title": "Lesson 2: The Law of Authority and Obedience",
+          "steps": [
+            "Read “The Law of Authority and Obedience” aloud together",
+            "Narrate the Traveller-bee's adventure: the dining room, the speech in the hive, and the quarrelling swarm",
+            "Draw a honeybee and label the queen, the drone, and the worker"
+          ],
+          "links": [
+            {
+              "label": "Read “The Law of Authority and Obedience”",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n26/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 9–20",
+          "questions": [
+            "What did the children say makes a bee grow into a queen instead of a worker?",
+            "Why did the runaway swarm get nothing done?",
+            "What did the old Relation want the Traveller-bee to see when they played at living together?"
+          ],
+          "answers": [
+            "The food the nurse-bees give it and the shape of its cell",
+            "They could not agree on anything because no one led them",
+            "That even two creatures living together need someone to lead and someone to follow"
+          ],
+          "notes": "This story argues for kings and against the idea that everyone should be equal, a common Victorian view. Older children can talk about whether they agree. The bee facts (queens raised by special food and cells) are accurate."
+        },
+        {
+          "title": "Lesson 3: The Unknown Land",
+          "steps": [
+            "Read “The Unknown Land” aloud together",
+            "Ask your child to tell how the Mother Warbler answered her children's worries about leaving",
+            "On a world map, find Britain and Africa and trace the way small warblers fly south each autumn"
+          ],
+          "links": [
+            {
+              "label": "Read “The Unknown Land”",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n38/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 21–33",
+          "questions": [
+            "What is the 'Unknown Land' the Sedge Warblers sing about?",
+            "Who laughed at the young Warbler and told him there might be no such land?",
+            "What did the young birds do after their parents were shot?"
+          ],
+          "answers": [
+            "The faraway country where they will fly for the winter",
+            "A Magpie",
+            "They flew off to the Unknown Land on their own, trusting the call"
+          ],
+          "notes": "The parent birds are killed by a hunter near the end, which may upset sensitive listeners. The 'Unknown Land' is both bird migration and a picture of heaven."
+        },
+        {
+          "title": "Lesson 4: Knowledge Not the Limit of Belief",
+          "steps": [
+            "Read “Knowledge Not the Limit of Belief” aloud together",
+            "Narrate the argument between the Zoophyte, the Seaweed, and the Bookworm",
+            "Draw something seen through a magnifying glass or microscope, next to how it looks to the bare eye"
+          ],
+          "links": [
+            {
+              "label": "Read “Knowledge Not the Limit of Belief”",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n51/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 34–46",
+          "questions": [
+            "What did the Bookworm try to explain that the Seaweed and Zoophyte could not understand?",
+            "How did the Naturalist find out the Seaweed was a plant?",
+            "Why could the Bookworm never visit his two friends again?"
+          ],
+          "answers": [
+            "What seeing is",
+            "He dissolved its limy coat and looked at its fruit under a microscope",
+            "Their books were bound in Russia leather, and he hated the smell"
+          ],
+          "notes": "A good chance to talk about how scientists change their minds when they look more closely. Coralline seaweeds really are red algae, as the Naturalist decides."
+        },
+        {
+          "title": "Lesson 5: Training and Restraining",
+          "steps": [
+            "Read “Training and Restraining” aloud together",
+            "Narrate what the Wind told each flower and what the garden looked like after the storm",
+            "Look at a garden or houseplant that is staked or trained, and draw it with its support"
+          ],
+          "links": [
+            {
+              "label": "Read “Training and Restraining”",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n64/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 47–56",
+          "questions": [
+            "What did the Wind say was wrong with the way the Gardener treated the flowers?",
+            "What happened to the Convolvulus when her pole fell?",
+            "What did the young lady say she finally understood?"
+          ],
+          "answers": [
+            "He kept them tied up, clipped, and trained instead of letting them grow as they liked",
+            "Her flowers lay in the wet soil and were choked with mud",
+            "That people, like flowers, need training and restraint, or the garden turns into a wilderness"
+          ]
+        },
+        {
+          "title": "Lesson 6: The Light of Truth",
+          "steps": [
+            "Read “The Light of Truth” aloud together",
+            "Narrate the four travellers who saw the Will-o'-the-Wisp and what happened to each",
+            "Draw a lighthouse and a Will-o'-the-Wisp side by side, each warning travellers away from danger"
+          ],
+          "links": [
+            {
+              "label": "Read “The Light of Truth”",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n74/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 57–66",
+          "questions": [
+            "What does the Will-o'-the-Wisp say its light is for?",
+            "Who took the light for his mother's lantern?",
+            "What did the Naturalist compare the Will-o'-the-Wisp to?"
+          ],
+          "answers": [
+            "To warn travellers away from the dangerous swamp",
+            "Little Colin, the farmer's son",
+            "A lighthouse that warns sailors away from rocks"
+          ],
+          "notes": "Two travellers (a statesman and a young woman) sink in the bog early in the story. Will-o'-the-wisps are faint lights over marshes, probably from burning marsh gas; scientists still are not completely sure."
+        },
+        {
+          "title": "Lesson 7: Waiting",
+          "steps": [
+            "Read “Waiting” aloud together",
+            "Ask your child to tell the Mole's advice and the story of the young Ox's horns",
+            "Copy the Mole's saying “Everything will fit in at last” in your best handwriting"
+          ],
+          "links": [
+            {
+              "label": "Read “Waiting”",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n84/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 67–77",
+          "questions": [
+            "Why was the House Cricket unhappy before there were houses?",
+            "Why did the young Ox keep butting everything with his head?",
+            "What finally made the Crickets happy?"
+          ],
+          "answers": [
+            "He loved warmth but had only cold, damp holes to live in",
+            "His horns were about to grow",
+            "The first fires on people's hearthstones gave them warm homes"
+          ],
+          "notes": "An Ape briefly suggests the crickets should kill themselves; the Mole talks them out of it. You may want to skip or soften that sentence for young listeners."
+        },
+        {
+          "title": "Lesson 8: A Lesson of Hope",
+          "steps": [
+            "Read “A Lesson of Hope” aloud together",
+            "Narrate the argument between the Owl and the Raven during the storm",
+            "Draw the trees in the moonlight after the storm, with the Owl in his hollow"
+          ],
+          "links": [
+            {
+              "label": "Read “A Lesson of Hope”",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n95/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 78–85",
+          "questions": [
+            "What did the Owl keep calling the moon?",
+            "What did the Raven say was 'the law of life'?",
+            "How did the trees feel when the moon came out after the storm?"
+          ],
+          "answers": [
+            "The moon that shone in Paradise",
+            "Destruction",
+            "They were sorry they had doubted and were full of hope again"
+          ],
+          "notes": "The storyteller has just lost both parents; the story is a picture of hope in grief. The language is poetic, so pause to explain words like 'transitory' and 'revulsion'."
+        }
+      ]
+    },
+    {
+      "title": "Unit 2: The Circle of Blessing, The Law of the Wood, Active and Passive",
+      "lessons": [
+        {
+          "title": "Lesson 9: The Circle of Blessing, part 1",
+          "steps": [
+            "Read “The Circle of Blessing” from the start up to the drought on the mountain (p. 92)",
+            "Narrate the quarrel between the Sea and the Vapours, and where the trade-winds carried the Vapours",
+            "Draw the water cycle: sea, rising vapour, clouds, rain, and rivers running back to the sea, with arrows"
+          ],
+          "links": [
+            {
+              "label": "Read “The Circle of Blessing”",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n103/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 86–92",
+          "questions": [
+            "Why did the young man on the ship complain about the mists?",
+            "What did the Vapours leave behind in the Sea when they rose?",
+            "What happens to the Vapours when they reach cooler air high up?"
+          ],
+          "answers": [
+            "The hot, steamy calm near the equator made everyone miserable",
+            "Their salts",
+            "They cling together into drops, grow heavy, and fall as rain"
+          ]
+        },
+        {
+          "title": "Lesson 10: The Circle of Blessing, part 2",
+          "steps": [
+            "Read “The Circle of Blessing” from the drought on the mountain to the end",
+            "Ask your child to follow the water's journey: rain, the Sundews, the Waterfall, the lake, the corn, the child's pinafore, and back to the sea",
+            "Add these stops to yesterday's water-cycle drawing, and copy the line “Small and great, great and small, we all depend on each other”"
+          ],
+          "links": [
+            {
+              "label": "Read “The Circle of Blessing” from p. 92",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n109/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 92–104",
+          "questions": [
+            "How did the Sundews keep their sparkling drops when the other leaves dried?",
+            "What keeps the lake in the park fresh and pure?",
+            "What did the Vapours leave behind in the caves when the Earth asked for something in return?"
+          ],
+          "answers": [
+            "Their sticky juices held the moisture longer",
+            "It gives out water through a stream at one end as it receives water at the other",
+            "Stalactites and crystals"
+          ],
+          "notes": "A lovely science reading: evaporation, trade-winds, condensation, groundwater, and stalactites are all here. Gatty ends with a line from the Benedicite hymn."
+        },
+        {
+          "title": "Lesson 11: The Law of the Wood, part 1",
+          "steps": [
+            "Read “The Law of the Wood” up to “So things went on in the old way” (p. 111)",
+            "Narrate why the Birch and the Spruce-firs quarrelled",
+            "On a walk, find an evergreen and feel whether its inner branches are green or brown and dry"
+          ],
+          "links": [
+            {
+              "label": "Read “The Law of the Wood”",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n122/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 105–111",
+          "questions": [
+            "What did the Spruce-firs shout when the Birch asked them to give way?",
+            "Why did the Wood-pigeons not want to nest in the fir grove?",
+            "How were the Spruce-firs hurting the Birch?"
+          ],
+          "answers": [
+            "“Never!”",
+            "They wanted more breeze and leafy shade than the thick, close branches gave",
+            "Their branches scratched off pieces of his papery bark"
+          ]
+        },
+        {
+          "title": "Lesson 12: The Law of the Wood, part 2",
+          "steps": [
+            "Read “The Law of the Wood” from “So things went on in the old way” to the end",
+            "Narrate what became of the Spruce-fir grove and the one fir that survived",
+            "Copy the Birch's words “Mutual accommodation is the law of the wood”"
+          ],
+          "links": [
+            {
+              "label": "Read “The Law of the Wood” from p. 111",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n128/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 111–119",
+          "questions": [
+            "Why did the inside branches of the firs turn brown and dry?",
+            "Which tree did the Birch point to as an example of making room for others?",
+            "What happened to the last Spruce-fir?"
+          ],
+          "answers": [
+            "They grew so close that no fresh air could blow through",
+            "The Beech",
+            "It was made into a Christmas tree"
+          ]
+        },
+        {
+          "title": "Lesson 13: Active and Passive, part 1",
+          "steps": [
+            "Read “Active and Passive” up to the sailor saying “Anyhow, boys, we'll watch” (p. 129)",
+            "Narrate what the Weathercock and the Dial each wished for, and what old Bowman noticed in the churchyard",
+            "Make a simple sundial with a stick in the ground and mark where its shadow falls each hour"
+          ],
+          "links": [
+            {
+              "label": "Read “Active and Passive”",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n137/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 120–129",
+          "questions": [
+            "Why did the Weathercock envy the Dial, and why did the Dial envy the Weathercock?",
+            "What did the motto on the Dial's brass plate say?",
+            "Why was Bowman worried about the change of wind at three o'clock?"
+          ],
+          "answers": [
+            "The Weathercock wanted the Dial's rest; the Dial wanted the Weathercock's busy, useful life",
+            "“Watch, for ye know not the hour”",
+            "It came round with the turn of the tide and would blow a gale straight onto the shore all night"
+          ]
+        },
+        {
+          "title": "Lesson 14: Active and Passive, part 2",
+          "steps": [
+            "Read “Active and Passive” from the night of the storm to the end",
+            "Narrate the rescue of the ship: who went out in the boat and how the village found out",
+            "Draw the shining Weathercock and the cleaned Dial, and copy the Captain's lesson: “Everything is useful in its place at the appointed time”"
+          ],
+          "links": [
+            {
+              "label": "Read “Active and Passive” from p. 129",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n146/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 129–144",
+          "questions": [
+            "What did the blue lights in the night mean?",
+            "Who was holding the helm of the ship all morning?",
+            "What reward did the Captain give the Dial and the Weathercock?"
+          ],
+          "answers": [
+            "A ship was in distress and calling for help",
+            "The old Captain from the Hall",
+            "He had the Dial's brass plate cleaned and the Weathercock gilded"
+          ],
+          "notes": "A tense shipwreck story with a happy ending. The title comes from Milton's line “They also serve who only stand and wait.”"
+        }
+      ]
+    },
+    {
+      "title": "Unit 3: Daily Bread, Not Lost but Gone Before, Motes in the Sunbeam",
+      "lessons": [
+        {
+          "title": "Lesson 15: Daily Bread, part 1",
+          "steps": [
+            "Read “Daily Bread” up to the Tortoise disappearing into his winter bed (p. 158)",
+            "Narrate the Robin's talks with the Tortoise, the Blackbird, and the Woodlark",
+            "Draw the Tortoise's winter hole under the big stone, filled with leaves"
+          ],
+          "links": [
+            {
+              "label": "Read “Daily Bread”",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n162/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 145–158",
+          "questions": [
+            "Why was the Tortoise cross with the Robin for singing?",
+            "What had the Woodlark noticed about every past winter?",
+            "Why did the Tortoise think the ground was a good place to sleep through winter?"
+          ],
+          "answers": [
+            "He was trying to go to sleep for the winter, and he thought there was nothing to sing about",
+            "Little bits of food always turned up somehow",
+            "It is much warmer under the ground than on the cold, damp surface"
+          ]
+        },
+        {
+          "title": "Lesson 16: Daily Bread, part 2",
+          "steps": [
+            "Read “Daily Bread” from the snowstorm to the end",
+            "Narrate how the Robin kept singing and how he finally found food",
+            "Put out crumbs or seeds for winter birds this week, and copy the verse at the head of the story"
+          ],
+          "links": [
+            {
+              "label": "Read “Daily Bread” from p. 158",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n175/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 158–167",
+          "questions": [
+            "What happened to the holly berries the Robin had been eating?",
+            "Who heard the Robin's song and put out bread for him?",
+            "What did the Tortoise think of the Robin's story in the spring?"
+          ],
+          "answers": [
+            "Other birds ate them, and the gardener cut the last branches to decorate the house",
+            "The sad father who owned the house",
+            "He did not believe it and thought the Robin was telling travellers' tales"
+          ],
+          "notes": "The father is grieving his wife, who died on this day; the Robin's song comforts him. A good story to read near Christmas."
+        },
+        {
+          "title": "Lesson 17: Not Lost, but Gone Before, part 1",
+          "steps": [
+            "Read “Not Lost, but Gone Before” up to the Frog saying “Go to rest, little fellow, and awake in hope” (p. 179)",
+            "Narrate the Grub's ride on the Frog's back and what the Frog saw on the bulrush",
+            "Look at a picture of a dragonfly nymph and an adult dragonfly, and draw them side by side"
+          ],
+          "links": [
+            {
+              "label": "Read “Not Lost, but Gone Before”",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n185/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 168–179",
+          "questions": [
+            "What did the Dragon-fly Grub want to know?",
+            "What happened when the Grub's face came out of the water?",
+            "What did the Frog see climbing up the bulrush stalk?"
+          ],
+          "answers": [
+            "Where the Frog goes when he leaves the pond",
+            "He felt a terrible shock, fell back into the pond, and nearly died",
+            "A grub that split open and came out as a shining dragonfly"
+          ]
+        },
+        {
+          "title": "Lesson 18: Not Lost, but Gone Before, part 2",
+          "steps": [
+            "Read “Not Lost, but Gone Before” from the Grub's promise to the end",
+            "Narrate the promise each brother made and why none of them came back",
+            "If you can, visit a pond on a sunny day and watch for dragonflies; draw one with its four wings"
+          ],
+          "links": [
+            {
+              "label": "Read “Not Lost, but Gone Before” from p. 179",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n196/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 179–188",
+          "questions": [
+            "What did the Grub promise his friends before he went up?",
+            "Why could the Dragon-fly never go back to tell them?",
+            "Who was waiting to welcome each new Dragon-fly?"
+          ],
+          "answers": [
+            "That he would come back and tell them if the great hopes were true",
+            "Touching the water gave him a deadly shock, so his wings carried him away",
+            "The ones who had gone before"
+          ],
+          "notes": "This is a parable about death and heaven: the ones who have died cannot come back to tell us, but they are “not lost, but gone before.” A gentle story for a child who has lost someone."
+        },
+        {
+          "title": "Lesson 19: Motes in the Sunbeam",
+          "steps": [
+            "Read “Motes in the Sunbeam” aloud together",
+            "Narrate the game Kate and Undine played with the box",
+            "Shine a flashlight or let a sunbeam into a dim room and watch the dust sparkle; then copy “Sunshine is like love: it makes everything shine with its own beauty”"
+          ],
+          "links": [
+            {
+              "label": "Read “Motes in the Sunbeam”",
+              "url": "https://archive.org/details/parablesfromnatu01gattuoft/page/n206/mode/1up"
+            }
+          ],
+          "pages": "vol. 1, pp. 189–195",
+          "questions": [
+            "What did the two girls try to catch in the box?",
+            "What did Undine first think the motes were?",
+            "Why does the dust look like stars, according to Mamma?"
+          ],
+          "answers": [
+            "The bright specks dancing in the sunbeam",
+            "Stars",
+            "Because the sun shines on it"
+          ],
+          "notes": "A short, quiet Christmas story. The hymn mentioned is “Christians, Awake, Salute the Happy Morn”; you might sing or listen to it together."
+        }
+      ]
+    },
+    {
+      "title": "Unit 4: Red Snow to The Deliverer",
+      "lessons": [
+        {
+          "title": "Lesson 20: Red Snow, part 1",
+          "steps": [
+            "Read “Red Snow” up to “But he was interrupted at last” (p. 11)",
+            "Narrate why Siegfried felt so sorry for Mont Blanc",
+            "Find the Alps and Mont Blanc on a map of Europe, and draw the snowy mountain with its rosy patch"
+          ],
+          "links": [
+            {
+              "label": "Read “Red Snow”",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n12/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 1–11",
+          "questions": [
+            "What did Siegfried see on the snow of Mont Blanc that he called a rose?",
+            "Why did Siegfried cry so hard in church?",
+            "What did the farmer's son say the pink snow was?"
+          ],
+          "answers": [
+            "A round, rosy-coloured patch",
+            "The pastor said the mountain was lifeless and God-deserted, like a hard, wicked heart",
+            "Red snow that sometimes falls out of the sky"
+          ],
+          "notes": "The pastor's sermon about people 'appointed to destruction' is harsh, and the story means it to be; the next part corrects it."
+        },
+        {
+          "title": "Lesson 21: Red Snow, part 2",
+          "steps": [
+            "Read “Red Snow” from the stranger's arrival to the end",
+            "Narrate what the stranger showed Siegfried and his mother through the microscope",
+            "Draw the red snow plant as it looked under the microscope: tiny red balls, some splitting into four or eight"
+          ],
+          "links": [
+            {
+              "label": "Read “Red Snow” from p. 11",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n22/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 11–23",
+          "questions": [
+            "What was the red colour on the snow really?",
+            "How does one red snow plant make new ones?",
+            "What did Siegfried grow up to become?"
+          ],
+          "answers": [
+            "Millions of tiny plants growing in the snow",
+            "Its red inside divides into small balls that grow, burst out of the cell, and start new plants",
+            "A pastor who never gave up hope for anyone"
+          ],
+          "notes": "Red or 'watermelon' snow is real: it is caused by tiny algae and can still be seen on high mountains in summer. You could look up photographs together."
+        },
+        {
+          "title": "Lesson 22: Whereunto?",
+          "steps": [
+            "Read “Whereunto?” aloud together",
+            "Narrate what each creature (Star-fish, Limpet, Sea-mat, Coralline, and the Sea) said the tangle was for",
+            "Draw a big oarweed (kelp) plant with some of the creatures living on and around it"
+          ],
+          "links": [
+            {
+              "label": "Read “Whereunto?”",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n35/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 24–37",
+          "questions": [
+            "How did the gloomy visitor accidentally save the Star-fish?",
+            "What does the blue-eyed Limpet use the tangle for?",
+            "What did the great Sea roar that sea-weeds are for?"
+          ],
+          "answers": [
+            "He flicked her with his stick into the shade of the tangle",
+            "As her home and her food",
+            "To keep the sea pure, sweet, and healthy by taking in bad vapours and giving out good ones"
+          ],
+          "notes": "Each creature thinks the seaweed exists just for it, which is the joke. If you live near a rocky shore, visit at low tide to look for kelp, limpets, crabs, and starfish."
+        },
+        {
+          "title": "Lesson 23: Purring When You're Pleased",
+          "steps": [
+            "Read “Purring When You're Pleased” aloud together",
+            "Narrate how the two kittens were different and what happened when the children chose them",
+            "Draw Puss Missy and Puss Master, and copy the title as a reminder to say thank you"
+          ],
+          "links": [
+            {
+              "label": "Read “Purring When You're Pleased”",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n49/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 38–46",
+          "questions": [
+            "Why did the mother cat scold Puss Missy?",
+            "Why did the boy choose Puss Missy?",
+            "Why was the pale little cousin so quiet and unsmiling?"
+          ],
+          "answers": [
+            "For purring and showing thanks so freely, which she thought was beneath her dignity",
+            "Because she purred when she was pleased",
+            "Her parents had died, and her strict guardian had taught her to hide her feelings"
+          ],
+          "notes": "A sweet story about thankfulness and about a grieving child who learns to show her feelings again."
+        },
+        {
+          "title": "Lesson 24: The Voices of the Earth",
+          "steps": [
+            "Read “The Voices of the Earth” aloud, pausing to explain hard words",
+            "Ask your child to tell what made the Wind so unhappy and how the Earth answered each complaint",
+            "Over a day, list the happy and thankful sounds you hear (laughter, birdsong, a thank-you) that the Wind would carry"
+          ],
+          "links": [
+            {
+              "label": "Read “The Voices of the Earth”",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n58/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 47–55",
+          "questions": [
+            "Why did the Wind wish it could stop blowing?",
+            "What happy sounds did the Earth say outnumber the sad ones?",
+            "What did the Earth and the Wind agree to at the end?"
+          ],
+          "answers": [
+            "It had to carry people's curses, cries, and sins as well as their prayers",
+            "Healthy breathing, children's laughter, happy love, and everyday thanks",
+            "The Wind would keep working as long as good outweighs evil in the world"
+          ],
+          "notes": "This is the most abstract parable in the book: a poetic dialogue with no plot. For younger children, read it slowly in two halves or simply talk about the idea of the wind carrying our words."
+        },
+        {
+          "title": "Lesson 25: The Master of the Harvest",
+          "steps": [
+            "Read “The Master of the Harvest” aloud together",
+            "Narrate the year of the wheat: drought, rain, weak plants, storm, too much rain, and harvest",
+            "Draw a stalk of wheat at three stages (green blade, flowering ear, golden ripe ear), or plant a few wheat or grass seeds and watch them sprout"
+          ],
+          "links": [
+            {
+              "label": "Read “The Master of the Harvest”",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n67/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 56–69",
+          "questions": [
+            "What did the Master of the Harvest do every time the weather went wrong?",
+            "What did his wife write in the back of her Bible?",
+            "How did the farmer change after reading her Bible?"
+          ],
+          "answers": [
+            "He grumbled and complained",
+            "A Bible verse, the date, and a short prayer each time",
+            "He stopped complaining and grew patient and hopeful like her"
+          ],
+          "notes": "The farmer's wife is ill throughout and dies before the harvest is gathered. The story is about patience and about God's patience with us."
+        },
+        {
+          "title": "Lesson 26: The Deliverer",
+          "steps": [
+            "Read “The Deliverer” aloud together",
+            "Ask your child where the different people expected the Deliverer to be born, and where He really came",
+            "Copy the names from Isaiah: “Wonderful, Counsellor, The Mighty God, The Everlasting Father, The Prince of Peace”"
+          ],
+          "links": [
+            {
+              "label": "Read “The Deliverer”",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n81/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 70–79",
+          "questions": [
+            "Where did most people expect the Deliverer to be born?",
+            "What did the wise men and philosophers hope He would be?",
+            "Who first heard the news of His birth?"
+          ],
+          "answers": [
+            "In a king's palace",
+            "A great teacher of reason and wisdom",
+            "Shepherds watching their flocks at night"
+          ],
+          "notes": "A Christmas meditation rather than a nature story. Good to read during Advent alongside Luke 2."
+        }
+      ]
+    },
+    {
+      "title": "Unit 5: Inferior Animals to Night and Day",
+      "lessons": [
+        {
+          "title": "Lesson 27: Inferior Animals, part 1",
+          "steps": [
+            "Read “Inferior Animals” up to the heading “What the Rook Says” (p. 88)",
+            "Narrate what the storyteller wonders about as he hides by the hedge and watches the rooks",
+            "Watch a flock of crows, rooks, or other birds for ten minutes and write down everything they do"
+          ],
+          "links": [
+            {
+              "label": "Read “Inferior Animals”",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n91/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 80–88",
+          "questions": [
+            "What are the rooks doing in the field?",
+            "What job does the rook in the tall oak have?",
+            "What can a dog do that its master cannot explain?"
+          ],
+          "answers": [
+            "Meeting in a great crowd, hopping, pecking, and cawing",
+            "He is a sentinel who keeps watch and warns the flock of danger",
+            "Find his way home by a short cut he has never taken, or bring back exactly the stone his master threw"
+          ]
+        },
+        {
+          "title": "Lesson 28: Inferior Animals, part 2",
+          "steps": [
+            "Read “Inferior Animals” from “What the Rook Says” to the question “By what possible means could birds ever degenerate into men?” (p. 97)",
+            "Narrate the Rook's reasons for thinking men are not better than rooks",
+            "Make a two-column chart: things birds can do that people can't, and things people can do that birds can't"
+          ],
+          "links": [
+            {
+              "label": "Read “Inferior Animals” from p. 88",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n99/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 88–97",
+          "questions": [
+            "What did the Rook say proves rooks are better than men?",
+            "What surprising idea did the Rook announce about where men came from?",
+            "What did the Rook imagine had happened to the young rooks that men shot and carried away?"
+          ],
+          "answers": [
+            "Rooks fly, have warm feathers, and are content; men walk lop-sidedly, need clothes, and are always restless",
+            "That men were once rooks who lost their wings",
+            "That they were living with men as their honoured teachers"
+          ]
+        },
+        {
+          "title": "Lesson 29: Inferior Animals, part 3",
+          "steps": [
+            "Read “Inferior Animals” from p. 98 to the end",
+            "Narrate the Rook's 'proofs' from Mr. Raven-wing, Mr. Yellow-beak, and Mr. Grey-legs, and how the dream ended",
+            "Draw one of the Rook's 'proofs' (a chimney, a chimney-sweep, or a balloon) as the Rook saw it"
+          ],
+          "links": [
+            {
+              "label": "Read “Inferior Animals” from p. 98",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n109/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 98–108",
+          "questions": [
+            "How did the Rook explain that men lost their wings?",
+            "What did Mr. Yellow-beak think the tall brick chimneys were for?",
+            "What was the storyteller doing when he woke from his dream?"
+          ],
+          "answers": [
+            "By walking on the ground for ages until their unused wings shrank into arms",
+            "Trees that men would one day roost in",
+            "Lying by the hedge, with the field empty and the rooks gone"
+          ],
+          "notes": "Written in 1861, two years after Darwin's 'Origin of Species', this is Gatty's satire of evolution theories: the Rook builds a grand theory from guesses. One passage refers to dark-skinned people in a way that reflects Victorian attitudes; you may want to skip it or talk about it."
+        },
+        {
+          "title": "Lesson 30: The General Thaw",
+          "steps": [
+            "Read “The General Thaw” aloud together",
+            "Narrate the quarrel between the Ice, the Water, and the Snow, and how it ended",
+            "Put a piece of ice and a spoonful of snow (or frost from the freezer) in a cup and watch them all turn to water; draw before and after"
+          ],
+          "links": [
+            {
+              "label": "Read “The General Thaw”",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n120/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 109–122",
+          "questions": [
+            "Why did the Ice think he was so important?",
+            "How did the skaters get rid of the Snow that covered the Ice?",
+            "What did the Ice, Snow, and Water discover when the thaw came?"
+          ],
+          "answers": [
+            "The skaters and sliders admired him, so he thought it was all in his honour",
+            "They had men sweep and shovel it into heaps at the sides",
+            "That they were all brothers, made of the same water"
+          ],
+          "notes": "The last line says the 'general thaw' that makes brothers of us all is death; you may want to talk about why it is better to make peace sooner."
+        },
+        {
+          "title": "Lesson 31: The Light of Life",
+          "steps": [
+            "Read “The Light of Life” aloud together",
+            "Narrate everything Hans did for his rose-tree, and what he forgot",
+            "Start an experiment: sprout two pots of seeds, one in a dark cupboard and one on a sunny sill, and compare them in a week"
+          ],
+          "links": [
+            {
+              "label": "Read “The Light of Life”",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n134/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 123–134",
+          "questions": [
+            "What did the nursery gardener say makes roses beautiful?",
+            "Why did Hans's rose-tree die?",
+            "What did the gardener say God's grace is for a person?"
+          ],
+          "answers": [
+            "Bones, hair, and soap-suds as manure",
+            "He boarded it in so carefully that it never got any light",
+            "What sunlight is for a plant: the main thing it needs to thrive"
+          ],
+          "notes": "Hans is described with old words for a person with an intellectual disability. The story treats him kindly; you may want to explain that we use different words today."
+        },
+        {
+          "title": "Lesson 32: Gifts",
+          "steps": [
+            "Read “Gifts” aloud together",
+            "Narrate what each vegetable boasted about, and what the Rain-drops told them",
+            "Pull or buy a carrot, radish, onion, and beet; cut each open and draw what you see inside"
+          ],
+          "links": [
+            {
+              "label": "Read “Gifts”",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n146/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 135–147",
+          "questions": [
+            "Why were the Cress and the Mustard so unhappy?",
+            "What did the Rain-drops say about every plant?",
+            "What happened to the Carrot that tried to stop growing down?"
+          ],
+          "answers": [
+            "They grew only little fibres instead of big roots like the others",
+            "Each one is good after its kind and has its own part to play",
+            "It grew into a thick, crooked lump and was only good for soup"
+          ],
+          "notes": "Based on 1 Corinthians 12, “there are diversities of gifts.” A gentle story for a child who compares himself with a sibling."
+        },
+        {
+          "title": "Lesson 33: Night and Day",
+          "steps": [
+            "Read “Night and Day” aloud together",
+            "Narrate the quarrel between Night and Day and what they learned at the Poles",
+            "In a dark room, shine a flashlight on a globe or ball and spin it slowly to show how day and night really happen; find the North and South Poles"
+          ],
+          "links": [
+            {
+              "label": "Read “Night and Day”",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n159/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 148–159",
+          "questions": [
+            "In the old northern tales, what were the names of the horses of Night and Day?",
+            "What did Day wish would happen?",
+            "What did Night and Day find at the Poles, where each rules for six months?"
+          ],
+          "answers": [
+            "Frosty-mane and Shiny-mane",
+            "That he could go on forever with no night at all",
+            "Ice and rock, with almost no life at all"
+          ],
+          "notes": "The horses come from Norse myth. Gatty ends by explaining the real cause of day and night, the spinning earth."
+        }
+      ]
+    },
+    {
+      "title": "Unit 6: Kicking to Birds in the Nest",
+      "lessons": [
+        {
+          "title": "Lesson 34: Kicking, part 1",
+          "steps": [
+            "Read “Kicking” up to Firefly saying he will go on kicking out of spite (p. 170)",
+            "Narrate how Firefly was caught and what the old mare Egeria told him",
+            "Draw a horse's bridle and halter, and label the bit, reins, and headstall"
+          ],
+          "links": [
+            {
+              "label": "Read “Kicking”",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n171/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 160–170",
+          "questions": [
+            "How long had Firefly lived free in the fields before he was caught?",
+            "How did Egeria say colts are raised in the East, where her mother came from?",
+            "What did Firefly decide he would do?"
+          ],
+          "answers": [
+            "Three years",
+            "They live among the tents and are fed and petted by the women from the start, so they are not afraid of people",
+            "Kick, kick, kick"
+          ]
+        },
+        {
+          "title": "Lesson 35: Kicking, part 2",
+          "steps": [
+            "Read “Kicking” from p. 170 to where Whitefoot and Silverstar have gone to good homes (p. 178)",
+            "Narrate the difference between Taffy's advice and Egeria's, and how the three colts took their training",
+            "Copy Egeria's warning: “Those who indulge themselves in kicking at all, will sometimes kick when they would give worlds to forbear”"
+          ],
+          "links": [
+            {
+              "label": "Read “Kicking” from p. 170",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n181/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 170–178",
+          "questions": [
+            "Who gave Whitefoot and Silverstar good advice?",
+            "What hard things did the colts have to learn to bear?",
+            "Why did Egeria warn Firefly about kicking 'with a reason'?"
+          ],
+          "answers": [
+            "Taffy, the old Welsh pony",
+            "The iron bit in their mouths, the bridle, and going round in circles under the whip",
+            "Because kicking would become a habit he could not stop even when he wanted to"
+          ]
+        },
+        {
+          "title": "Lesson 36: Kicking, part 3",
+          "steps": [
+            "Read “Kicking” from p. 178 to the end",
+            "Narrate Firefly's masters one by one, and what finally cured him",
+            "Talk together: when is it hardest to obey? Then draw Firefly standing still beside his young mistress"
+          ],
+          "links": [
+            {
+              "label": "Read “Kicking” from p. 178",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n189/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 178–188",
+          "questions": [
+            "Name two of the masters Firefly had before the clergyman's daughter.",
+            "What terrible thing happened on the Downs?",
+            "What did the young lady ask her father to do with Firefly?"
+          ],
+          "answers": [
+            "A young squire, a country doctor, and a horse-dealer",
+            "Firefly kicked and threw his kind young mistress, and she lay stunned on the ground",
+            "Send him to Rarey to be cured"
+          ],
+          "notes": "John Rarey was a famous American horse-tamer of the 1850s. The closing list of obediences (including 'wives under husbands') reflects Victorian views; you may want to talk about it with older children."
+        },
+        {
+          "title": "Lesson 37: Imperfect Instruments, part 1",
+          "steps": [
+            "Read “Imperfect Instruments” up to Geronimo's idea of a festival for his father's birthday (p. 203)",
+            "Narrate the quarrel over Geronimo's mother's memorial tablet and how the village took it",
+            "Find Wales on a map of Britain, and draw the little church with its tower in the valley"
+          ],
+          "links": [
+            {
+              "label": "Read “Imperfect Instruments”",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n200/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 189–203",
+          "questions": [
+            "What did Geronimo want to move, and why was it so hard for his father?",
+            "Why would Roger the mason not do the job?",
+            "What did Geronimo plan in order to bring the village together again?"
+          ],
+          "answers": [
+            "The marble tablet in memory of his mother, which his father loved to look at every Sunday",
+            "He thought it would break the old man's heart to take down his own wife's stone",
+            "A festival with music and a supper on his father's birthday"
+          ],
+          "notes": "This is a story about a stubborn young clergyman, written mostly for grown-ups. Younger children may enjoy it more if you tell the first half in your own words and read the organ-tuning part aloud."
+        },
+        {
+          "title": "Lesson 38: Imperfect Instruments, part 2",
+          "steps": [
+            "Read “Imperfect Instruments” from p. 203 to the end",
+            "Narrate what went wrong when Geronimo tuned the organ himself, and what the organ-builder explained",
+            "Fill glasses with different amounts of water, tap them, and try to tune two of them to sound sweet together"
+          ],
+          "links": [
+            {
+              "label": "Read “Imperfect Instruments” from p. 203",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n214/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 203–215",
+          "questions": [
+            "Why did Geronimo try to tune the organ himself?",
+            "What happened when he played Haydn's Mass after tuning it?",
+            "Why did the organ sound wrong, according to the organ-builder?"
+          ],
+          "answers": [
+            "The organ-builder was away and he wanted it perfect for the festival",
+            "The chords clashed into horrible discords",
+            "He had tuned it too perfectly; an imperfect instrument needs some notes left a little flat or sharp"
+          ],
+          "notes": "This is real music science: to make every key sound good, organs and pianos are tuned with some intervals slightly 'off' (called temperament)."
+        },
+        {
+          "title": "Lesson 39: Cobwebs",
+          "steps": [
+            "Read “Cobwebs” aloud together",
+            "Narrate Twinette's three trips down her 'family rope' and what she met each time",
+            "Find a spider web outdoors (early morning dew makes them easy to see) and draw it carefully, thread by thread"
+          ],
+          "links": [
+            {
+              "label": "Read “Cobwebs”",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n227/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 216–226",
+          "questions": [
+            "What did Twinette's mother say she should look for before spinning a web?",
+            "What three things surprised Twinette on her trips down?",
+            "How many eyes does Twinette have?"
+          ],
+          "answers": [
+            "Empty space below, for flies to fly in",
+            "A dazzling sunbeam, a gust of wind, and the darkness of night",
+            "Eight"
+          ],
+          "notes": "Gatty's description of the spider's silk (several spinnerets twisting fine strands together) is accurate. The ending pokes gentle fun at people who think they have figured everything out."
+        },
+        {
+          "title": "Lesson 40: Birds in the Nest",
+          "steps": [
+            "Read “Birds in the Nest” aloud together",
+            "Narrate each time the hen-mother thought she was 'perfectly happy', and what came next",
+            "Draw the nest with eight eggs, then the eight young birds flying out into the wood"
+          ],
+          "links": [
+            {
+              "label": "Read “Birds in the Nest”",
+              "url": "https://archive.org/details/parablesfromnatu02gattuoft/page/n238/mode/1up"
+            }
+          ],
+          "pages": "vol. 2, pp. 227–234",
+          "questions": [
+            "How many eggs were in the nest?",
+            "Why did the hen-mother come to like night better than day?",
+            "What did she finally learn about being happy?"
+          ],
+          "answers": [
+            "Eight",
+            "At night all her young ones came back to the nest",
+            "That rejoicing in her children's joy, and loving the whole wood as a larger nest, made her happiest"
+          ],
+          "notes": "A tender story for parents as much as children, about letting children grow up. This is the last parable in the 1882 Bell edition; the remaining eight are read from a different scan (see the next unit)."
+        }
+      ]
+    },
+    {
+      "title": "Unit 7: The Later Parables, Consequences to Unopened Parcels",
+      "lessons": [
+        {
+          "title": "Lesson 41: Consequences, and The Cause and the Causer, part 1",
+          "steps": [
+            "Read the short parable “Consequences”, then “The Cause and the Causer” up to “But the professor was gone too!” (p. 171)",
+            "Narrate where the stone's ripples went, then how the insects began their inquest on the dead moth",
+            "Drop a pebble into still water and watch the rings spread; draw them"
+          ],
+          "links": [
+            {
+              "label": "Read “Consequences”",
+              "url": "https://archive.org/details/parablesfromnat02unkngoog/page/n173/mode/1up"
+            },
+            {
+              "label": "Read “The Cause and the Causer”",
+              "url": "https://archive.org/details/parablesfromnat02unkngoog/page/n177/mode/1up"
+            }
+          ],
+          "pages": "Putnam ed. (Second Series), pp. 159–171",
+          "questions": [
+            "What did the stone shout as it sank to the bottom of the pond?",
+            "What did Dr. Earwig find stuck to the dead moth's proboscis?",
+            "Where had the bumble-bee picked up the same kind of 'foreign body'?"
+          ],
+          "answers": [
+            "“There an end!”",
+            "Several little sticky 'foreign bodies'",
+            "Inside an orchis (orchid) flower"
+          ],
+          "notes": "“Consequences” is only two pages: a small lesson that our words and deeds spread like ripples. “The Cause and the Causer” is set up as a courtroom inquest among insects; enjoy the funny characters."
+        },
+        {
+          "title": "Lesson 42: The Cause and the Causer, part 2",
+          "steps": [
+            "Read “The Cause and the Causer” from Dr. Earwig climbing into the orchid to the end",
+            "Narrate what Dr. Earwig saw inside the orchid, and the three different opinions given at the inquest",
+            "Look closely at a flower (any kind) with a magnifying glass, find the pollen, and draw where it sits"
+          ],
+          "links": [
+            {
+              "label": "Read “The Cause and the Causer” from p. 172",
+              "url": "https://archive.org/details/parablesfromnat02unkngoog/page/n186/mode/1up"
+            }
+          ],
+          "pages": "Putnam ed. (Second Series), pp. 172–185",
+          "questions": [
+            "What were the 'foreign bodies' really?",
+            "Why do orchids need insects to carry their flower-dust?",
+            "What did Sir Helix the Snail decide was behind this clever plan?"
+          ],
+          "answers": [
+            "Little packets of flower-dust (pollen) with a sticky ball at the end",
+            "The flower cannot dust itself, because its pollen sits too far from the sticky spot that needs it",
+            "A great unseen Intelligence who designed it"
+          ],
+          "notes": "The orchid facts come from Darwin's 1862 book on orchid pollination, and they are accurate (even the pollen-packet bending down after it is picked up). Gatty uses them to argue for a Creator; Bumble major and Bumble minor speak for chance and for evolution."
+        },
+        {
+          "title": "Lesson 43: Ghosts",
+          "steps": [
+            "Read “Ghosts” aloud together",
+            "Narrate how the Draught talked the Fire into breaking out, and what became of the Fire",
+            "Talk about fire safety at home: find your smoke alarms, the fire guard or screen, and your family's meeting place outside; draw a map of how you would get out"
+          ],
+          "links": [
+            {
+              "label": "Read “Ghosts”",
+              "url": "https://archive.org/details/parablesfromnat02unkngoog/page/n203/mode/1up"
+            }
+          ],
+          "pages": "Putnam ed. (Second Series), pp. 189–195",
+          "questions": [
+            "What was the brass guard in front of the grate for?",
+            "Who told the people at supper that the ball-room was on fire?",
+            "What finally put the Fire out?"
+          ],
+          "answers": [
+            "To keep sparks and burning coals in, and the ladies' dresses away from the fire",
+            "The Smoke",
+            "Barrels of water from the pond"
+          ],
+          "notes": "The 'ghosts' are Gatty's playful name for the invisible gases in fire and air. One simile compares the flames to 'Indians after their prey', a phrase of its time you may want to skip."
+        },
+        {
+          "title": "Lesson 44: These Three",
+          "steps": [
+            "Read “These Three” aloud together",
+            "Narrate the Moss's journey: the broken flower-pot, the terrace walk, and the tombstone",
+            "Find moss growing on a wall, stone, or tree; look at it closely with a magnifying glass and draw it, then copy “And now abideth faith, hope, charity, these three”"
+          ],
+          "links": [
+            {
+              "label": "Read “These Three”",
+              "url": "https://archive.org/details/parablesfromnat02unkngoog/page/n213/mode/1up"
+            }
+          ],
+          "pages": "Putnam ed. (Second Series), pp. 199–209",
+          "questions": [
+            "What did the Moss always say as it crept onto something new?",
+            "What words did the granddaughter write under her drawing of the moss-covered flower-pot?",
+            "What did the Tombstone keep saying, and what did the Moss answer?"
+          ],
+          "answers": [
+            "“By your leave”",
+            "“Life in death. CHARITY.”",
+            "“I belong to Death”; the Moss answered, “And I to Life”"
+          ],
+          "notes": "The old rector and his wife die and are buried in this story, told very gently. The title and closing text come from 1 Corinthians 13: faith, hope, and charity (love)."
+        },
+        {
+          "title": "Lesson 45: The Universal Language and See-Saw",
+          "steps": [
+            "Read “The Universal Language” and the short parable “See-Saw” aloud together",
+            "Narrate who heard the Nightingale's song and how it comforted each one; then tell what the Snail said to the grumbling Oak",
+            "Make a see-saw with a ruler balanced on a pencil and two coins; find where the middle has to be to balance"
+          ],
+          "links": [
+            {
+              "label": "Read “The Universal Language”",
+              "url": "https://archive.org/details/parablesfromnat02unkngoog/page/n229/mode/1up"
+            },
+            {
+              "label": "Read “See-Saw”",
+              "url": "https://archive.org/details/parablesfromnat02unkngoog/page/n241/mode/1up"
+            }
+          ],
+          "pages": "Putnam ed. (Second Series), pp. 213–228",
+          "questions": [
+            "Which homesick plants in the kitchen-garden listened to the Nightingale?",
+            "What words did the Nightingale's song always end with?",
+            "What did Sir Helix the Snail tell the Oak his job was?"
+          ],
+          "answers": [
+            "Foreign plants such as the Portugal Onion, the Tomato, the French Beans and Marrows, and the Peach",
+            "“The same sun by day, the same moon by night, stars watching above”",
+            "Holding both ends of the see-saw up, steady in the middle, which the children could not do for themselves"
+          ],
+          "notes": "The 'universal language' is sympathy, which everyone understands without words. In this scan the last three words of “The Universal Language” are missing; the sentence ends “...and Love, are one.”"
+        },
+        {
+          "title": "Lesson 46: A Vision",
+          "steps": [
+            "Read “A Vision” aloud together",
+            "Narrate the walk to church on the spring morning, and why the storyteller wanted to leave the old church",
+            "Draw pink almond (or other) blossoms against a blue sky, the sight the storyteller loved"
+          ],
+          "links": [
+            {
+              "label": "Read “A Vision”",
+              "url": "https://archive.org/details/parablesfromnat02unkngoog/page/n247/mode/1up"
+            }
+          ],
+          "pages": "Putnam ed. (Second Series), pp. 231–240",
+          "questions": [
+            "What flowering trees did the storyteller want to see on the way to church?",
+            "Why was the storyteller annoyed when sitting in the old church?",
+            "What words from the service brought comfort?"
+          ],
+          "answers": [
+            "Almond trees",
+            "It was the wrong church, with ugly old box pews and tablets instead of the beautifully restored one",
+            "“When the wicked man turneth away from the wickedness that he hath committed... he shall save his soul alive”"
+          ],
+          "notes": "A reflective story for older children about going to church with the right heart; it quotes the Book of Common Prayer. Younger children may simply enjoy the spring walk."
+        },
+        {
+          "title": "Lesson 47: Unopened Parcels, part 1",
+          "steps": [
+            "Read “Unopened Parcels”, Part I",
+            "Narrate the excitement of the parcel from the old home, and what Honor found inside her walnut",
+            "Copy the motto at the top of the story: “Judge not the play before the play is done”"
+          ],
+          "links": [
+            {
+              "label": "Read “Unopened Parcels”",
+              "url": "https://archive.org/details/parablesfromnat02unkngoog/page/n259/mode/1up"
+            }
+          ],
+          "pages": "Putnam ed. (Second Series), pp. 243–249",
+          "questions": [
+            "Who sent the parcels from the old home?",
+            "Why was Honor disappointed at first?",
+            "What was hidden inside the walnut shell?"
+          ],
+          "answers": [
+            "Grandmamma",
+            "Her little parcel seemed to hold only a common walnut",
+            "A fine, soft kid glove"
+          ]
+        },
+        {
+          "title": "Lesson 48: Unopened Parcels, part 2",
+          "steps": [
+            "Read “Unopened Parcels”, Part II",
+            "Narrate the 'unopened parcels' Honor's father talked about: arithmetic, the Catechism, and the walnut itself",
+            "Crack open a walnut, find the tiny germ between the halves, and draw it; if you can, plant a nut or seed and watch for it to sprout"
+          ],
+          "links": [
+            {
+              "label": "Read “Unopened Parcels” from p. 249",
+              "url": "https://archive.org/details/parablesfromnat02unkngoog/page/n265/mode/1up"
+            }
+          ],
+          "pages": "Putnam ed. (Second Series), pp. 249–258",
+          "questions": [
+            "How did arithmetic help sailors, according to Honor's father?",
+            "What 'parcel' did old John open when he wanted to come to Communion?",
+            "Why did Papa say a plain walnut is more wonderful than the glove?"
+          ],
+          "answers": [
+            "They use calculation to find their way across the pathless ocean",
+            "The answer from the Catechism he had learned as a boy",
+            "Its tiny germ holds a whole walnut tree"
+          ]
+        },
+        {
+          "title": "Lesson 49: Unopened Parcels, part 3",
+          "steps": [
+            "Read “Unopened Parcels” from Part III to “And now comes the kernel of my story” (p. 264)",
+            "Narrate how Honor's father was saved from drowning at school, and what he thought of the boy who saved him",
+            "Talk about water safety: why swimming beyond the safe limits is dangerous"
+          ],
+          "links": [
+            {
+              "label": "Read “Unopened Parcels” from p. 258",
+              "url": "https://archive.org/details/parablesfromnat02unkngoog/page/n274/mode/1up"
+            }
+          ],
+          "pages": "Putnam ed. (Second Series), pp. 258–264",
+          "questions": [
+            "What book did Grandmamma send Honor two years later?",
+            "How did Honor's father nearly drown?",
+            "What did his own father tell him about winning his hero's friendship?"
+          ],
+          "answers": [
+            "Longfellow's poems",
+            "He swam out beyond the safe bounds, a current carried him away, and he got a cramp",
+            "That he would have to deserve it"
+          ]
+        },
+        {
+          "title": "Lesson 50: Unopened Parcels, part 4",
+          "steps": [
+            "Read “Unopened Parcels” from p. 264 to the end",
+            "Narrate the hero's old secret and how his friend helped him",
+            "Copy Tennyson's lines “That men may rise on stepping-stones / Of their dead selves to higher things”"
+          ],
+          "links": [
+            {
+              "label": "Read “Unopened Parcels” from p. 264",
+              "url": "https://archive.org/details/parablesfromnat02unkngoog/page/n280/mode/1up"
+            }
+          ],
+          "pages": "Putnam ed. (Second Series), pp. 264–276",
+          "questions": [
+            "What had the hero done as a little child that troubled him for years?",
+            "Who turned out to be the hero?",
+            "What did his mother say when he finally told her?"
+          ],
+          "answers": [
+            "He let everyone believe he had seen his dead father's ghost",
+            "Honor's Uncle Frederick",
+            "That she had suspected it for years, and to kiss her"
+          ],
+          "notes": "A long story for older children about owning up to a wrong, and how even a fault repented of can make us better. The last of the parables."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,827 @@
+{
+ "key": "fifty-famous-people",
+ "title": "Fifty Famous People",
+ "sourceTitle": "Fifty Famous People: A Book of Short Stories",
+ "author": "James Baldwin",
+ "seller": "James Baldwin",
+ "year": 1912,
+ "sourceUrl": "https://www.gutenberg.org/ebooks/6168",
+ "readUrl": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html",
+ "license": {
+  "kind": "public_domain"
+ },
+ "licenseEvidence": "Project Gutenberg #6168: 'Public domain in the USA'; first published by the American Book Company in 1912",
+ "subjects": [
+  "reading",
+  "history"
+ ],
+ "gradeMin": 1,
+ "gradeMax": 3,
+ "philosophies": [
+  "charlotte_mason",
+  "classical",
+  "traditional"
+ ],
+ "lessonsPerWeek": 3,
+ "minutesPerLesson": 15,
+ "parentInvolvement": "high",
+ "familyStyle": true,
+ "cover": "⭐",
+ "color": "#4C7FD9",
+ "description": "James Baldwin's gentle companion to Fifty Famous Stories: true-to-life short tales about real people, from Lincoln rescuing baby robins to Ben Franklin's whistle and Caedmon singing in the cow shed. Each day you read a story or two aloud, your child tells it back, and then draws or copies something from it. A warm first taste of history for ages 6 to 9, and the full text is free online.",
+ "includes": [
+  "28 lessons in 6 units covering every story in the book",
+  "Link to the free full text for every story",
+  "A narration step and a drawing, copywork, or map step each lesson",
+  "Two or three questions per lesson, with answers",
+  "Parent notes on legends and dated passages"
+ ],
+ "units": [
+  {
+   "title": "Unit 1: Kind Hearts and Clever Words",
+   "lessons": [
+    {
+     "title": "Lesson 1: Saving the Birds and Another Bird Story",
+     "steps": [
+      "Read “Saving the Birds” and “Another Bird Story” aloud together",
+      "Tell back both stories: the lawyer in the muddy grove, then the general on the battlefield",
+      "Draw a nest put safely back in a tree"
+     ],
+     "links": [
+      {
+       "label": "Read “Saving the Birds”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00057"
+      },
+      {
+       "label": "Read “Another Bird Story”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00087"
+      }
+     ],
+     "questions": [
+      "What did Abraham Lincoln do for the baby robins?",
+      "Where did General Lee put the fallen nest?"
+     ],
+     "answers": [
+      "He climbed the tree and put them back in their nest",
+      "In the fork of a tree, where it would be safe"
+     ],
+     "notes": "Robert E. Lee was the leading general of the Confederate army in the Civil War. Baldwin, writing in 1912, praises him without that context; older children can talk about it."
+    },
+    {
+     "title": "Lesson 2: Speaking a Piece and Writing a Composition",
+     "steps": [
+      "Read “Speaking a Piece” and “Writing a Composition” aloud together",
+      "Narrate how each boy got ready for his schoolwork",
+      "Try the teacher's plan: pick one thing you can see, write its name, and say what it is like and what it is good for"
+     ],
+     "links": [
+      {
+       "label": "Read “Speaking a Piece”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00102"
+      },
+      {
+       "label": "Read “Writing a Composition”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00130"
+      }
+     ],
+     "questions": [
+      "Who wrote the little speech for Edward Everett?",
+      "What did Henry Longfellow write his composition about?"
+     ],
+     "answers": [
+      "Mr. Harris, the minister",
+      "A turnip in Mr. Finney's garden"
+     ]
+    },
+    {
+     "title": "Lesson 3: The Whistle and The Ettrick Shepherd",
+     "steps": [
+      "Read “The Whistle” and “The Ettrick Shepherd” aloud together",
+      "Tell back how Benjamin spent his pennies, then how Sirrah saved the lambs",
+      "Copy one line of “A Boy's Song” in your best handwriting"
+     ],
+     "links": [
+      {
+       "label": "Read “The Whistle”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00156"
+      },
+      {
+       "label": "Read “The Ettrick Shepherd”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00185"
+      }
+     ],
+     "questions": [
+      "What did Benjamin Franklin buy with all his pennies?",
+      "How many lambs did Sirrah keep safe in the ravine?",
+      "Why was James Hogg called the Ettrick Shepherd?"
+     ],
+     "answers": [
+      "A whistle",
+      "All seven hundred; not one was missing",
+      "He kept sheep near the Ettrick Water"
+     ]
+    },
+    {
+     "title": "Lesson 4: The Caliph and the Poet, “Becos! Becos! Becos!”, A Lesson in Humility",
+     "steps": [
+      "Read “The Caliph and the Poet”, “Becos! Becos! Becos!”, and “A Lesson in Humility” aloud together",
+      "Narrate one of the three stories, whichever your child liked best",
+      "Find Egypt and Baghdad on a map or globe"
+     ],
+     "links": [
+      {
+       "label": "Read “The Caliph and the Poet”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00216"
+      },
+      {
+       "label": "Read ““Becos! Becos! Becos!””",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00228"
+      },
+      {
+       "label": "Read “A Lesson in Humility”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00255"
+      }
+     ],
+     "questions": [
+      "Why did the poet beg the caliph to keep his third wise saying?",
+      "What did the wise man say “becos” meant?",
+      "Why did Haroun-al-Raschid weep at his feast?"
+     ],
+     "answers": [
+      "Each saying was costing him a hundred gold pieces, and he wanted the gold",
+      "Bread",
+      "The poet reminded him that all his riches would be like a shadow when he died"
+     ],
+     "notes": "Baldwin himself points out that the king's experiment “proved nothing.” Ask your child why."
+    },
+    {
+     "title": "Lesson 5: The Midnight Ride",
+     "steps": [
+      "Read “The Midnight Ride” aloud together",
+      "Have your child tell the story in order, from the secret visit to the ride through the night",
+      "Draw the church tower with its lanterns"
+     ],
+     "links": [
+      {
+       "label": "Read “The Midnight Ride”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00268"
+      }
+     ],
+     "questions": [
+      "What did two lanterns in the church tower mean?",
+      "What were the king's soldiers going to Concord to take?",
+      "What did Paul Revere shout as he rode?"
+     ],
+     "answers": [
+      "The soldiers would cross the river",
+      "The gunpowder stored there",
+      "That the soldiers were coming and people should get up and defend themselves"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 2: Wolves, Horses, and Painters",
+   "lessons": [
+    {
+     "title": "Lesson 6: The Boy and the Wolf and Another Wolf Story",
+     "steps": [
+      "Read “The Boy and the Wolf” and “Another Wolf Story” aloud together",
+      "Tell back both wolf hunts. Which one had a real wolf?",
+      "Draw Israel Putnam crawling into the cave with the rope around his waist"
+     ],
+     "links": [
+      {
+       "label": "Read “The Boy and the Wolf”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00302"
+      },
+      {
+       "label": "Read “Another Wolf Story”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00334"
+      }
+     ],
+     "questions": [
+      "What was Gilbert's “wolf” really?",
+      "How did the farmers know it was always the same wolf?",
+      "Why did Putnam tie a rope around his waist?"
+     ],
+     "answers": [
+      "A pet calf",
+      "Her tracks showed three toes missing from one front foot",
+      "So his friends could pull him out of the cave quickly"
+     ]
+    },
+    {
+     "title": "Lesson 7: The Horseshoe Nails and The Landlord's Mistake",
+     "steps": [
+      "Read “The Horseshoe Nails” and “The Landlord's Mistake” aloud together",
+      "Narrate how one missing nail lost a kingdom",
+      "Copy the first two lines of the “want of a nail” rhyme"
+     ],
+     "links": [
+      {
+       "label": "Read “The Horseshoe Nails”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00362"
+      },
+      {
+       "label": "Read “The Landlord's Mistake”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00383"
+      }
+     ],
+     "questions": [
+      "How many nails did the smith put in the last two shoes?",
+      "Why did the landlord turn Mr. Jefferson away?",
+      "Why wouldn't Jefferson come back to the first hotel?"
+     ],
+     "answers": [
+      "Three in each, six in all",
+      "He was muddy and plain, and the landlord thought he was a poor farmer",
+      "If there was no room there for a farmer, there was no room for him"
+     ]
+    },
+    {
+     "title": "Lesson 8: A Lesson in Manners and Going to Sea",
+     "steps": [
+      "Read “A Lesson in Manners” and “Going to Sea” aloud together",
+      "Act out Dean Swift's lesson: one person knocks rudely, then politely",
+      "Tell back why George Washington stayed home"
+     ],
+     "links": [
+      {
+       "label": "Read “A Lesson in Manners”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00408"
+      },
+      {
+       "label": "Read “Going to Sea”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00424"
+      }
+     ],
+     "questions": [
+      "How did Dean Swift teach the messenger manners?",
+      "Why did George Washington change his mind about going to sea?"
+     ],
+     "answers": [
+      "They traded places, and the Dean showed him how to deliver a gift politely",
+      "He saw his mother crying and could not bear her sadness"
+     ],
+     "notes": "“Tom,” the boy waiting at the door in the Washington story, was almost certainly enslaved; the Washingtons owned slaves. A good moment to say so plainly."
+    },
+    {
+     "title": "Lesson 9: The Shepherd-Boy Painter and Two Great Painters",
+     "steps": [
+      "Read “The Shepherd-Boy Painter” and “Two Great Painters” aloud together",
+      "Narrate the painted fly, then the painted curtain",
+      "Try to draw something so real it could fool someone: a fly, a cherry, or a sheep"
+     ],
+     "links": [
+      {
+       "label": "Read “The Shepherd-Boy Painter”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00438"
+      },
+      {
+       "label": "Read “Two Great Painters”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00460"
+      }
+     ],
+     "questions": [
+      "What was Giotto drawing on the rock when Cimabue found him?",
+      "What trick did Giotto play on his master's painting?",
+      "How did Parrhasius fool Zeuxis?"
+     ],
+     "answers": [
+      "A sheep",
+      "He painted a fly on the man's nose",
+      "He painted a curtain so real that Zeuxis asked to have it pulled aside"
+     ]
+    },
+    {
+     "title": "Lesson 10: The King and the Bees and Our First Great Painter",
+     "steps": [
+      "Read “The King and the Bees” and “Our First Great Painter” aloud together",
+      "Tell back how the bees answered the queen's riddle",
+      "Draw a picture of a sleeping baby or a family member, as Benjamin West did"
+     ],
+     "links": [
+      {
+       "label": "Read “The King and the Bees”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00471"
+      },
+      {
+       "label": "Read “Our First Great Painter”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00494"
+      }
+     ],
+     "questions": [
+      "How did Solomon find out which wreath had real flowers?",
+      "What did Benjamin West use to draw his baby sister?"
+     ],
+     "answers": [
+      "He opened the window, and the bees flew to the real flowers",
+      "A piece of charcoal on a smooth board"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 3: Learning and Telling the Truth",
+   "lessons": [
+    {
+     "title": "Lesson 11: The Young Scout and The Lad Who Rode Sidesaddle",
+     "steps": [
+      "Read “The Young Scout” and “The Lad Who Rode Sidesaddle” aloud together",
+      "Narrate how each boy faced something he did not want to do",
+      "Draw Daniel Webster on the old gray horse"
+     ],
+     "links": [
+      {
+       "label": "Read “The Young Scout”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00520"
+      },
+      {
+       "label": "Read “The Lad Who Rode Sidesaddle”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00543"
+      }
+     ],
+     "questions": [
+      "What did the British captain order Andrew Jackson to do?",
+      "Why did Daniel Webster have to ride a sidesaddle?",
+      "Where was Daniel going?"
+     ],
+     "answers": [
+      "Clean the mud off his boots",
+      "The horse was being taken to Exeter for a lady to ride back on",
+      "To the academy at Exeter"
+     ]
+    },
+    {
+     "title": "Lesson 12: The Whisperers",
+     "steps": [
+      "Read “The Whisperers” aloud together",
+      "Have your child tell the story, slowing down for the last minute before the bell",
+      "Talk together: was Elihu's whisper right or wrong?"
+     ],
+     "links": [
+      {
+       "label": "Read “The Whisperers”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00566"
+      }
+     ],
+     "questions": [
+      "What was the rule of the master's new game?",
+      "Why did Elihu Burritt whisper on purpose?",
+      "What was Elihu later called?"
+     ],
+     "answers": [
+      "Whoever was standing when school ended would be punished for everyone",
+      "To take Lucy's place so she would not be punished",
+      "The Learned Blacksmith"
+     ],
+     "notes": "The schoolmaster threatens a “thrashing.” You may want to talk about how schools have changed."
+    },
+    {
+     "title": "Lesson 13: How a Prince Learned to Read and “Read, and You Will Know”",
+     "steps": [
+      "Read “How a Prince Learned to Read” and “Read, and You Will Know” aloud together",
+      "Tell back how Alfred won the book",
+      "Copy the mother's saying, “Read, and you will know”"
+     ],
+     "links": [
+      {
+       "label": "Read “How a Prince Learned to Read”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00587"
+      },
+      {
+       "label": "Read ““Read, and You Will Know””",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00614"
+      }
+     ],
+     "questions": [
+      "Who taught Alfred to read?",
+      "What did Alfred's mother promise the book to?",
+      "About how many languages could William Jones speak and write?"
+     ],
+     "answers": [
+      "Brother Felix, a monk",
+      "The son who first learned to read it",
+      "Forty"
+     ]
+    },
+    {
+     "title": "Lesson 14: The Young Cupbearer and The Sons of the Caliph",
+     "steps": [
+      "Read “The Young Cupbearer” and “The Sons of the Caliph” aloud together",
+      "Narrate what Cyrus did with the feast and how he served as cupbearer",
+      "Draw the two princes each carrying one of their teacher's shoes"
+     ],
+     "links": [
+      {
+       "label": "Read “The Young Cupbearer”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00633"
+      },
+      {
+       "label": "Read “The Sons of the Caliph”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00667"
+      }
+     ],
+     "questions": [
+      "What did Cyrus do with the food from the feast?",
+      "Why didn't Cyrus taste the wine first?",
+      "How did the two princes settle who would carry the teacher's shoes?"
+     ],
+     "answers": [
+      "He gave it away to people who had been good to him and his mother",
+      "He thought it was poison because it made people act foolishly",
+      "Each carried one shoe"
+     ],
+     "notes": "Cyrus calls wine “poison” because of how it made the guests act. Explain as much as suits your child."
+    },
+    {
+     "title": "Lesson 15: The Boy and the Robbers and A Lesson in Justice",
+     "steps": [
+      "Read “The Boy and the Robbers” and “A Lesson in Justice” aloud together",
+      "Tell back how Otanes kept his gold by telling the truth",
+      "Talk together: whose idea of justice was better, the shah's or Alexander's?"
+     ],
+     "links": [
+      {
+       "label": "Read “The Boy and the Robbers”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00674"
+      },
+      {
+       "label": "Read “A Lesson in Justice”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00699"
+      }
+     ],
+     "questions": [
+      "Where had Otanes hidden his gold?",
+      "Why did the robber chief give the gold back?",
+      "What did the shah decide about the buried treasure?"
+     ],
+     "answers": [
+      "Under the lining of his hat",
+      "He admired the boy for telling the truth when a lie would have been easy",
+      "The first man's son should marry the second man's daughter and have it as a wedding gift"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 4: Brave in Danger",
+   "lessons": [
+    {
+     "title": "Lesson 16: The General and the Fox and The Bomb",
+     "steps": [
+      "Read “The General and the Fox” and “The Bomb” aloud together",
+      "Narrate how Aristomenes found his way out of the chasm",
+      "Draw the fox running through the narrow passage with the general behind"
+     ],
+     "links": [
+      {
+       "label": "Read “The General and the Fox”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00729"
+      },
+      {
+       "label": "Read “The Bomb”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00746"
+      }
+     ],
+     "questions": [
+      "How did Aristomenes find the way out?",
+      "What did King Charles want his officer to keep doing after the bomb fell?"
+     ],
+     "answers": [
+      "He held onto a fox's tail and followed it through a hidden passage",
+      "Keep writing the order"
+     ]
+    },
+    {
+     "title": "Lesson 17: A Story of Old Rome",
+     "steps": [
+      "Read “A Story of Old Rome” aloud together",
+      "Have your child tell the story: who went out to beg Coriolanus, and who finally changed his mind",
+      "Find Rome on a map of Italy"
+     ],
+     "links": [
+      {
+       "label": "Read “A Story of Old Rome”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00753"
+      }
+     ],
+     "questions": [
+      "Why were the Roman people angry at Coriolanus?",
+      "Who finally made Coriolanus turn his army back?"
+     ],
+     "answers": [
+      "He said the starving poor should have to pay for the corn",
+      "His mother and his wife (with his children)"
+     ]
+    },
+    {
+     "title": "Lesson 18: Saved by a Dolphin and “Little Brothers of the Air”",
+     "steps": [
+      "Read “Saved by a Dolphin” and “Little Brothers of the Air” aloud together",
+      "Narrate Arion's story, then tell both ways it might have ended",
+      "Draw Arion riding the dolphin, or St. Francis with the birds"
+     ],
+     "links": [
+      {
+       "label": "Read “Saved by a Dolphin”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00783"
+      },
+      {
+       "label": "Read ““Little Brothers of the Air””",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00816"
+      }
+     ],
+     "questions": [
+      "What favor did Arion ask before he jumped into the sea?",
+      "What did St. Francis call the birds?"
+     ],
+     "answers": [
+      "To sing one last song",
+      "His little brothers (and sisters) of the air"
+     ],
+     "notes": "Baldwin gives two explanations for Arion's rescue, a dolphin or a ship named the Dolphin, and lets the reader choose. Ask which your child believes."
+    },
+    {
+     "title": "Lesson 19: A Clever Slave, One of Aesop's Fables, The Dark Day",
+     "steps": [
+      "Read “A Clever Slave”, “One of Aesop's Fables”, and “The Dark Day” aloud together",
+      "Narrate why Aesop chose the biggest bundle",
+      "Draw the lawmakers working by candlelight on the dark day"
+     ],
+     "links": [
+      {
+       "label": "Read “A Clever Slave”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00831"
+      },
+      {
+       "label": "Read “One of Aesop's Fables”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00846"
+      },
+      {
+       "label": "Read “The Dark Day”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00851"
+      }
+     ],
+     "questions": [
+      "Why was Aesop's big bundle the best one to carry?",
+      "In the fable, what did the Mice plan to hang on the Cat?",
+      "What did Abraham Davenport ask for when the sky went dark?"
+     ],
+     "answers": [
+      "It held the food, so it got lighter at every meal",
+      "A bell",
+      "That the candles be lighted so they could keep working"
+     ],
+     "notes": "Aesop was enslaved. Baldwin tells the story lightly; you can talk about what it meant to be a slave and to be sold."
+    },
+    {
+     "title": "Lesson 20: The Surly Guest and The Story of a Great Story",
+     "steps": [
+      "Read “The Surly Guest” and “The Story of a Great Story” aloud together",
+      "Tell back how Alexander Selkirk ended up alone on an island",
+      "Draw Selkirk's island, with his hut, garden, and goats"
+     ],
+     "links": [
+      {
+       "label": "Read “The Surly Guest”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00871"
+      },
+      {
+       "label": "Read “The Story of a Great Story”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00891"
+      }
+     ],
+     "questions": [
+      "Why did the innkeeper not tell Mr. Randolph which road to take?",
+      "How long did Selkirk live alone on the island?",
+      "What famous book grew out of Selkirk's story?"
+     ],
+     "answers": [
+      "Randolph had been rude when the innkeeper asked which way he was going",
+      "Four years and four months",
+      "Robinson Crusoe, by Daniel Defoe"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 5: Kings, Judges, and Inventors",
+   "lessons": [
+    {
+     "title": "Lesson 21: The King and the Page and The Hunted King",
+     "steps": [
+      "Read “The King and the Page” and “The Hunted King” aloud together",
+      "Narrate what King Frederick found by the sleeping page",
+      "Draw the woman's farmhouse where Robert the Bruce found shelter"
+     ],
+     "links": [
+      {
+       "label": "Read “The King and the Page”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00933"
+      },
+      {
+       "label": "Read “The Hunted King”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00951"
+      }
+     ],
+     "questions": [
+      "What did the king put in Carl's pocket?",
+      "Why did the woman welcome every traveler?",
+      "Whose voice did Bruce hear outside the door?"
+     ],
+     "answers": [
+      "Ten gold pieces wrapped in his mother's letter",
+      "For the sake of one: Robert the Bruce",
+      "His brother Edward's"
+     ]
+    },
+    {
+     "title": "Lesson 22: “Try, Try Again!” and Why He Carried the Turkey",
+     "steps": [
+      "Read “Try, Try Again!” and “Why He Carried the Turkey” aloud together",
+      "Tell back how many times the ant tried before it made it",
+      "Copy “Try, try again” and draw the ant with its grain of wheat"
+     ],
+     "links": [
+      {
+       "label": "Read ““Try, Try Again!””",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00975"
+      },
+      {
+       "label": "Read “Why He Carried the Turkey”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id00987"
+      }
+     ],
+     "questions": [
+      "How many tries did the ant need?",
+      "Who was the old man who carried the turkey?",
+      "Baldwin asks what other story “Try, Try Again!” is like. Which one?"
+     ],
+     "answers": [
+      "Twenty-one",
+      "John Marshall, Chief Justice of the United States",
+      "Robert the Bruce and the spider"
+     ]
+    },
+    {
+     "title": "Lesson 23: The Paddle-Wheel Boat and The Caliph and the Gardener",
+     "steps": [
+      "Read “The Paddle-Wheel Boat” and “The Caliph and the Gardener” aloud together",
+      "Narrate how the merchant's money bag flew away and came back",
+      "Draw the fishing boat with a paddle wheel on each side"
+     ],
+     "links": [
+      {
+       "label": "Read “The Paddle-Wheel Boat”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id01014"
+      },
+      {
+       "label": "Read “The Caliph and the Gardener”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id01034"
+      }
+     ],
+     "questions": [
+      "What did Robert Fulton invent when he grew up?",
+      "What carried off the merchant's bag of gold?",
+      "How many gold pieces had the gardener borrowed?"
+     ],
+     "answers": [
+      "The steamboat",
+      "An eagle",
+      "Ten"
+     ]
+    },
+    {
+     "title": "Lesson 24: The Cowherd Who Became a Poet",
+     "steps": [
+      "Read both parts of “The Cowherd Who Became a Poet” aloud together",
+      "Have your child tell why Caedmon hid in the cow shed and what happened there",
+      "Draw Caedmon singing among the cows"
+     ],
+     "links": [
+      {
+       "label": "Read “The Cowherd Who Became a Poet”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id01065"
+      }
+     ],
+     "questions": [
+      "Why did Caedmon slip away from the kitchen?",
+      "What did the voice in his dream tell him to sing about?",
+      "Who had Caedmon's song written down?"
+     ],
+     "answers": [
+      "He was afraid of being asked to sing",
+      "The creation of the world",
+      "The abbess, who had her clerk write it"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 6: Kings and Wise Men",
+   "lessons": [
+    {
+     "title": "Lesson 25: The Lover of Men",
+     "steps": [
+      "Read “The Lover of Men” aloud together",
+      "Have your child tell the three things Gautama saw outside the palace",
+      "Talk together: why had his parents kept him inside the walls?"
+     ],
+     "links": [
+      {
+       "label": "Read “The Lover of Men”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id01104"
+      }
+     ],
+     "questions": [
+      "What three kinds of people did Gautama see on his ride?",
+      "What did Gautama decide to do with his life?"
+     ],
+     "answers": [
+      "An old man, a sick man, and poor men working on the road",
+      "Give everything to help people and ease their sorrow"
+     ],
+     "notes": "Gautama is the Buddha. Baldwin tells the story without naming the religion that grew from his teaching; you can add as much as suits your family."
+    },
+    {
+     "title": "Lesson 26: The Charcoal Man and the King",
+     "steps": [
+      "Read “The Charcoal Man and the King” aloud together",
+      "Have your child narrate it, saving the surprise for the end",
+      "Draw the little king leaving in Charlot's Sunday suit"
+     ],
+     "links": [
+      {
+       "label": "Read “The Charcoal Man and the King”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id01129"
+      }
+     ],
+     "questions": [
+      "Where did Jacquot find the child?",
+      "Who was the child?",
+      "What did the little king promise the family?"
+     ],
+     "answers": [
+      "In the fountain pool in the park behind the palace",
+      "Louis the Fourteenth, the king of France",
+      "Money for a bigger house and school for the boys"
+     ]
+    },
+    {
+     "title": "Lesson 27: Which Was the King? and The Golden Tripod (Part I)",
+     "steps": [
+      "Read “Which Was the King?” and “The Golden Tripod” aloud together (stop at Part II)",
+      "Narrate the joke the boy made about the hats",
+      "Draw the fishing net coming up with the golden tripod in it"
+     ],
+     "links": [
+      {
+       "label": "Read “Which Was the King?”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id01208"
+      },
+      {
+       "label": "Read “The Golden Tripod”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id01222"
+      }
+     ],
+     "questions": [
+      "How did King Henry say the boy would know the king?",
+      "What was in the fishermen's net?",
+      "Who did the oracle say should get the tripod?"
+     ],
+     "answers": [
+      "The king would be the only one with his hat on",
+      "A golden tripod and no fish",
+      "The wisest of the wise"
+     ]
+    },
+    {
+     "title": "Lesson 28: The Golden Tripod (Parts II–VII)",
+     "steps": [
+      "Read Parts II to VII of “The Golden Tripod” aloud together",
+      "Have your child name, in order, each wise man the tripod was taken to",
+      "Look over the list “Fifty Famous People” at the end of the book and pick a favorite person"
+     ],
+     "links": [
+      {
+       "label": "Read “The Golden Tripod, Part II”",
+       "url": "https://www.gutenberg.org/cache/epub/6168/pg6168-images.html#id01251"
+      }
+     ],
+     "questions": [
+      "Did any of the wise men keep the tripod?",
+      "Where did the tripod end up?",
+      "What are these seven men called?"
+     ],
+     "answers": [
+      "No, every one of them sent it on to someone else",
+      "In the Temple of Apollo at Delphi",
+      "The Seven Wise Men of Greece"
+     ]
+    }
+   ]
+  }
+ ]
+}

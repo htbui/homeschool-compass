@@ -1,7 +1,7 @@
 import { router } from 'expo-router';
 import { Text, View } from 'react-native';
 
-import { CONDITION_LABEL, FORMAT_LABEL, gradeRangeLabel, type Listing } from '@/lib/market';
+import { CONDITION_LABEL, FORMAT_LABEL, gradeRangeLabel, SELLER_NOTE, type Listing } from '@/lib/market';
 import { SUBJECTS } from '@/lib/subjects';
 import { Card, Pill, Row, space, T, useColors } from '@/ui';
 
@@ -35,9 +35,9 @@ export function ListingCard({ listing: l, owned, reasons }: { listing: Listing; 
         <View style={{ flex: 1, gap: 3 }}>
           <T v="heading" numberOfLines={2}>{l.title}</T>
           <T v="caption" muted numberOfLines={1}>
-            {l.seller}
+            {l.sellerKind === 'open' ? `by ${l.seller}` : l.seller}
             {l.sellerVerified ? ' ✓' : ''}
-            {l.sellerKind === 'family' ? ' · family seller' : l.sellerKind === 'creator' ? ' · Studio creator' : ''}
+            {SELLER_NOTE[l.sellerKind]}
           </T>
           <Row gap={6}>
             {l.ratingCount ? (

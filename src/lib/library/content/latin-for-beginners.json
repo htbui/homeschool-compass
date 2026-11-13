@@ -1,0 +1,3400 @@
+{
+  "key": "latin-for-beginners",
+  "title": "Latin for Beginners",
+  "sourceTitle": "Latin for Beginners",
+  "author": "Benjamin L. D'Ooge",
+  "seller": "Benjamin L. D'Ooge",
+  "year": 1909,
+  "sourceUrl": "https://www.gutenberg.org/ebooks/18251",
+  "readUrl": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Project Gutenberg eBook #18251, marked public domain in the USA; title page reads 'Copyright, 1909, 1911 by Benjamin L. D'Ooge', Ginn and Company. Published before 1930, so public domain in the USA.",
+  "subjects": [
+    "foreign_language"
+  ],
+  "gradeMin": 6,
+  "gradeMax": 10,
+  "philosophies": [
+    "classical",
+    "charlotte_mason",
+    "traditional"
+  ],
+  "lessonsPerWeek": 4,
+  "minutesPerLesson": 30,
+  "parentInvolvement": "medium",
+  "familyStyle": false,
+  "cover": "🏛️",
+  "color": "#9B6BD6",
+  "description": "Benjamin D'Ooge's classic 1909 first-year Latin course, a favorite of classical homeschoolers for middle and high school. Each day brings a short grammar point, a vocabulary list, and two sets of sentences to translate, Latin to English and English to Latin, with stories of Perseus, Hercules, and a Roman boy in Caesar's army along the way. The full book is free to read online.",
+  "includes": [
+    "124 lessons in 13 units covering all 79 lessons, the 8 reviews, Part I on pronunciation, and the reading selections",
+    "A link to the exact lesson and its special vocabulary in the free online book",
+    "24 reading lessons: The Labors of Hercules and the story of Publius Cornelius Lentulus",
+    "Short translation and grammar questions with answers every day"
+  ],
+  "units": [
+    {
+      "title": "Getting Started: Introduction and Pronunciation",
+      "lessons": [
+        {
+          "title": "To the Student: What Is Latin?",
+          "steps": [
+            "Read the introduction together and find Latium and Rome on a map",
+            "List five English words you use that come from Latin",
+            "Answer the review questions at the end out loud"
+          ],
+          "links": [
+            {
+              "label": "Read the introduction",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#page1"
+            }
+          ],
+          "pages": "pp. 1–4",
+          "questions": [
+            "Which district of Italy gave Latin its name?",
+            "Name two modern languages that grew out of Latin.",
+            "Which people became Rome's teachers in art and learning?"
+          ],
+          "answers": [
+            "Latium",
+            "Any two of Italian, Spanish, French",
+            "The Greeks"
+          ],
+          "notes": "A gentle first day: no memorizing yet, just why Latin matters."
+        },
+        {
+          "title": "Part I: The Alphabet and the Sounds of the Letters",
+          "steps": [
+            "Read §§ 1–7 and say each example word after the parent",
+            "Practice the long and short vowels, then the six diphthongs",
+            "Drill the tricky consonants: c, g, i consonant, v, and s"
+          ],
+          "links": [
+            {
+              "label": "Read Part I, §§ 1–7",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#latin_text"
+            }
+          ],
+          "pages": "pp. 5–7",
+          "questions": [
+            "How is c always pronounced in Latin?",
+            "How is v pronounced?",
+            "What English sound does the diphthong ae make?"
+          ],
+          "answers": [
+            "Like c in cat (a hard k)",
+            "Like w in wine",
+            "Like ai in aisle"
+          ],
+          "notes": "The book says these sounds are best learned by ear; read them aloud together."
+        },
+        {
+          "title": "Part I: Syllables, Quantity, and Accent",
+          "steps": [
+            "Read §§ 8–16 on dividing syllables, long and short syllables, and accent",
+            "Divide the words of the ant passage (§ 10) into syllables and read it aloud",
+            "Mark the accent on five words using the penult rule"
+          ],
+          "links": [
+            {
+              "label": "Read Part I, §§ 8–16",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec8"
+            }
+          ],
+          "pages": "pp. 8–10",
+          "questions": [
+            "How many syllables does a Latin word have?",
+            "Where is a word of two syllables accented?",
+            "What is the syllable next to the last called?"
+          ],
+          "answers": [
+            "As many as it has vowels and diphthongs",
+            "On the first syllable",
+            "The penult"
+          ]
+        },
+        {
+          "title": "Part I: How to Read Latin — Excelsior",
+          "steps": [
+            "Read § 17 on reading in phrases, not word by word",
+            "Read Longfellow's \"Excelsior\" one stanza at a time, first English, then Latin",
+            "Pick one Latin stanza and practice reading it smoothly"
+          ],
+          "links": [
+            {
+              "label": "Read Part I, §§ 17–18",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec17"
+            }
+          ],
+          "pages": "pp. 10–11",
+          "questions": [
+            "Which syllable must you watch to get the accent right?",
+            "What one Latin word ends every stanza?"
+          ],
+          "answers": [
+            "The penult",
+            "Excelsior"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 1: First Principles and the First Declension (Lessons I–VIII)",
+      "lessons": [
+        {
+          "title": "Lesson I: First Principles — Subject, Predicate, and Object",
+          "steps": [
+            "Read §§ 19–21 on subject, predicate, object, and the copula",
+            "Pronounce the eight Latin sentences in § 22 and name the subject, verb, and object of each",
+            "Notice which English words (the, a, my) Latin leaves out"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson I",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_I"
+            }
+          ],
+          "pages": "pp. 12–14",
+          "questions": [
+            "What does agricola mean?",
+            "Translate: Iūlia aquam portat.",
+            "Does Latin have a word for \"the\"?"
+          ],
+          "answers": [
+            "Farmer",
+            "Julia carries water",
+            "No; Latin has no article"
+          ]
+        },
+        {
+          "title": "Lesson II: Inflection, Number, and Personal Endings",
+          "steps": [
+            "Learn the 13 nouns in § 26 and write the plural of each",
+            "Learn the rule for verb agreement and the endings -t and -nt",
+            "Do Exercises I (English to Latin) and II (Latin to English)"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson II",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_II"
+            }
+          ],
+          "pages": "pp. 14–16",
+          "questions": [
+            "What is the plural of puella?",
+            "Translate: Nautae pugnant.",
+            "Write in Latin: The farmer labors."
+          ],
+          "answers": [
+            "Puellae",
+            "The sailors fight",
+            "Agricola labōrat"
+          ]
+        },
+        {
+          "title": "Lesson III: Declension — Nominative, Genitive, Accusative",
+          "steps": [
+            "Read § 32 and see how endings, not word order, show subject and object",
+            "Memorize the table in § 33 for domina, singular and plural",
+            "Do the exercise in § 34: give number, case, and use of each form"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson III",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_III"
+            }
+          ],
+          "pages": "pp. 16–18",
+          "questions": [
+            "Translate: Fīliam domina amat.",
+            "What case is dominārum, and what does it mean?",
+            "Give the accusative plural of silva."
+          ],
+          "answers": [
+            "The lady loves her daughter",
+            "Genitive plural: of the ladies",
+            "Silvās"
+          ]
+        },
+        {
+          "title": "Lesson IV: Diana and Latona — Subject, Object, Possessor",
+          "steps": [
+            "Learn the three rules in §§ 36–38 and the special vocabulary",
+            "Translate Exercise I about Diana; then put Exercise II into Latin",
+            "Answer the conversation questions (§ 40) in Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson IV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_IV"
+            },
+            {
+              "label": "Special vocabulary for Lesson IV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec39vocab"
+            }
+          ],
+          "pages": "pp. 18–19",
+          "questions": [
+            "Translate: Diāna est fīlia Lātōnae.",
+            "Write in Latin: Latona's daughter carries arrows.",
+            "What question does the genitive answer?"
+          ],
+          "answers": [
+            "Diana is the daughter of Latona",
+            "Fīlia Lātōnae sagittās portat",
+            "Whose?"
+          ]
+        },
+        {
+          "title": "Lesson V: The Dative and the Indirect Object",
+          "steps": [
+            "Read §§ 41–45 and form the dative of the nine nouns in § 42",
+            "Learn the special vocabulary; translate Exercise I and point out the indirect objects",
+            "Put Exercise II into Latin, keeping the book's word order"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson V",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_V"
+            },
+            {
+              "label": "Special vocabulary for Lesson V",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec47vocab"
+            }
+          ],
+          "pages": "pp. 19–22",
+          "questions": [
+            "Give the dative singular and plural of nauta.",
+            "Translate: Puella Diānae corōnam dat.",
+            "Write in Latin: The farmer gives his daughter water."
+          ],
+          "answers": [
+            "Nautae; nautīs",
+            "The girl gives a wreath to Diana",
+            "Agricola fīliae aquam dat"
+          ]
+        },
+        {
+          "title": "Lesson VI: The Ablative, Prepositions, and Adjectives",
+          "steps": [
+            "Read about the ablative (§§ 48–53) and translate the prepositional phrases in § 53",
+            "Read about attributive and predicate adjectives (§§ 54–55)",
+            "Learn the vocabulary and read the dialogue of Julia and Galba as a play"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson VI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_VI"
+            },
+            {
+              "label": "Special vocabulary for Lesson VI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec56vocab"
+            }
+          ],
+          "pages": "pp. 22–25",
+          "questions": [
+            "Write in Latin: out of the forests.",
+            "How do you answer \"yes\" to Pugnatne nauta? in Latin?",
+            "Translate: Fīlia mea nōn est sōla."
+          ],
+          "answers": [
+            "Ē silvīs (ex silvīs)",
+            "Pugnat",
+            "My daughter is not alone"
+          ]
+        },
+        {
+          "title": "Lesson VII: The First (Ā-) Declension and Gender",
+          "steps": [
+            "Study the full table of domina in § 57 and the idea of the base",
+            "Decline pugna, terra, lūna, ancilla, corōna, īnsula, silva",
+            "Translate Exercise I about the farmer's daughter; put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson VII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_VII"
+            },
+            {
+              "label": "Special vocabulary for Lesson VII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec62vocab"
+            }
+          ],
+          "pages": "pp. 25–28",
+          "questions": [
+            "What gender is agricola, and why?",
+            "Translate: Agricola cum fīliā in casā habitat.",
+            "Write in Latin: The farmer praises the good dinner."
+          ],
+          "answers": [
+            "Masculine, because it names a male",
+            "The farmer lives in a cottage with his daughter",
+            "Agricola bonam cēnam laudat"
+          ]
+        },
+        {
+          "title": "Lesson VIII: Adjective Agreement and Latin Word Order",
+          "steps": [
+            "Decline domina bona together, then puella mala and ancilla parva",
+            "Learn the -ābus forms of dea and fīlia",
+            "Read § 68 on word order, then translate the exercise and name the emphatic words"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson VIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_VIII"
+            },
+            {
+              "label": "Special vocabulary for Lesson VIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec69vocab"
+            }
+          ],
+          "pages": "pp. 28–31",
+          "questions": [
+            "Give the dative plural of dea.",
+            "Translate: Longa est Italia, nōn lāta.",
+            "Which place in a Latin sentence is most emphatic?"
+          ],
+          "answers": [
+            "Deābus",
+            "Italy is long, not wide",
+            "The first"
+          ]
+        },
+        {
+          "title": "Review I: Vocabulary and Grammar through Lesson VIII",
+          "steps": [
+            "Give the English for every word in § 502, then the Latin for the list in § 503",
+            "Underline the words you missed and drill only those",
+            "Answer the review questions (§ 504) aloud and fill out the first-declension summary (§ 505)"
+          ],
+          "links": [
+            {
+              "label": "Read Review I",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#review_I"
+            }
+          ],
+          "pages": "pp. 265–267",
+          "questions": [
+            "Give the English of sagitta.",
+            "Give the Latin for \"pleasing.\"",
+            "What is the gender rule for the first declension?"
+          ],
+          "answers": [
+            "Arrow",
+            "Grātus (grāta)",
+            "Feminine, unless the noun names a male"
+          ],
+          "notes": "Do not look anything up until you have gone through the whole list once."
+        }
+      ]
+    },
+    {
+      "title": "Unit 2: The Second Declension, Adjectives, and Pronouns (Lessons IX–XVII)",
+      "lessons": [
+        {
+          "title": "Lesson IX: The Second (O-) Declension — dominus and pīlum",
+          "steps": [
+            "Learn the declension of dominus and pīlum (§ 73) and write them beside domina",
+            "Read the general rules in § 74 and the rule for the predicate noun",
+            "Learn the vocabulary, read the dialogue of Galba and Marcus, and answer § 78 in Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson IX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_IX"
+            },
+            {
+              "label": "Special vocabulary for Lesson IX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec77vocab"
+            }
+          ],
+          "pages": "pp. 31–34",
+          "questions": [
+            "Give the vocative singular of dominus.",
+            "What is the nominative plural of pīlum?",
+            "Translate: Lēgātus est Sextus."
+          ],
+          "answers": [
+            "Domine",
+            "Pīla",
+            "The lieutenant is Sextus"
+          ]
+        },
+        {
+          "title": "Lesson X: Masculine and Neuter Adjectives; Apposition",
+          "steps": [
+            "Decline dominus bonus and pīlum bonum, then bellum longum and equus parvus",
+            "Learn the rule of apposition (§ 81) with the Lesbia examples",
+            "Translate the phrases and sentences of Exercise I; put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson X",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_X"
+            },
+            {
+              "label": "Special vocabulary for Lesson X",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec82vocab"
+            }
+          ],
+          "pages": "pp. 34–36",
+          "questions": [
+            "Translate: Rhēnus est in Germāniā, patriā meā.",
+            "Write in Latin: Mark, where is Lesbia, the maidservant?",
+            "In what case does an appositive stand?"
+          ],
+          "answers": [
+            "The Rhine is in Germany, my fatherland",
+            "Mārce, ubi est Lesbia ancilla?",
+            "The same case as the noun it explains"
+          ]
+        },
+        {
+          "title": "Lesson XI: Adjectives of the First and Second Declensions",
+          "steps": [
+            "Decline bonus, bona, bonum across the page in all three genders",
+            "Learn nauta bonus and see why noun and adjective endings can differ",
+            "Learn the vocabulary; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XI"
+            },
+            {
+              "label": "Special vocabulary for Lesson XI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec86vocab"
+            }
+          ],
+          "pages": "pp. 36–38",
+          "questions": [
+            "How do you say \"a good sailor\" in Latin?",
+            "Translate: Fāma nautārum bonōrum est clāra.",
+            "Write in Latin: Sextus, where is my helmet?"
+          ],
+          "answers": [
+            "Nauta bonus",
+            "The fame of the good sailors is great (famous)",
+            "Sexte, ubi est galea mea?"
+          ]
+        },
+        {
+          "title": "Lesson XII: Nouns in -ius and -ium — Germānia",
+          "steps": [
+            "Learn the genitive and vocative of fīlius and praesidium (§§ 87–89)",
+            "Translate the phrases in Exercise I",
+            "Read and translate the short passage about Germany"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XII"
+            },
+            {
+              "label": "Special vocabulary for Lesson XII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec90vocab"
+            }
+          ],
+          "pages": "pp. 38–39",
+          "questions": [
+            "Give the genitive singular of praesidium.",
+            "Give the vocative of fīlius.",
+            "Translate: Populus Germāniae bellum amat."
+          ],
+          "answers": [
+            "Praesidī",
+            "Fīlī",
+            "The people of Germany love war"
+          ]
+        },
+        {
+          "title": "Lesson XIII: Nouns and Adjectives in -er and -ir — Italia",
+          "steps": [
+            "Decline puer, ager, and vir; note which keep the e",
+            "Decline together vir līber and puella pulchra",
+            "Learn the vocabulary, read the passage on Italy, and read the dialogue of Marcus and Cornelius"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XIII"
+            },
+            {
+              "label": "Special vocabulary for Lesson XIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec95vocab"
+            }
+          ],
+          "pages": "pp. 39–42",
+          "questions": [
+            "Give the genitive singular of ager.",
+            "What is the base of puer?",
+            "Translate: Pulchra est terra Italia."
+          ],
+          "answers": [
+            "Agrī",
+            "Puer-",
+            "Italy is a beautiful land"
+          ]
+        },
+        {
+          "title": "Lesson XIV: The Possessive Adjective Pronouns",
+          "steps": [
+            "Learn meus, tuus, suus, noster, vester and the vocative mī",
+            "Read § 98 on when to use tuus or vester and how suus points back to the subject",
+            "Learn the vocabulary; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XIV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XIV"
+            },
+            {
+              "label": "Special vocabulary for Lesson XIV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec99vocab"
+            }
+          ],
+          "pages": "pp. 42–44",
+          "questions": [
+            "How do you say \"O my son\"?",
+            "Translate: Nostra castra sunt vestra.",
+            "Write in Latin: The camp is mine, but the weapons are yours (one person)."
+          ],
+          "answers": [
+            "Mī fīlī",
+            "Our camp is yours",
+            "Castra sunt mea, sed tēla sunt tua"
+          ]
+        },
+        {
+          "title": "Lesson XV: The Ablative Denoting With — The Romans Prepare for War",
+          "steps": [
+            "Read the four kinds of \"with\" (§ 100) and learn the rules for cause, means, accompaniment, and manner",
+            "Find each ablative use in the English passage of § 106",
+            "Learn the vocabulary; translate \"The Romans Prepare for War\" and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XV"
+            },
+            {
+              "label": "Special vocabulary for Lesson XV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec107vocab"
+            }
+          ],
+          "pages": "pp. 44–46",
+          "questions": [
+            "Which ablatives never take cum?",
+            "Translate: Iūlia est cum Sextō.",
+            "Write in Latin: The legionaries are armed with long spears."
+          ],
+          "answers": [
+            "Cause and means",
+            "Julia is with Sextus",
+            "Legiōnāriī pīlīs longīs armātī sunt"
+          ]
+        },
+        {
+          "title": "Lesson XVI: The Nine Irregular Adjectives",
+          "steps": [
+            "Learn the list of nine (alius, alter, ūnus, ūllus, nūllus, sōlus, tōtus, uter, neuter) and their -īus, -ī endings",
+            "Learn the idioms alter … alter, alius … alius, aliī … aliī",
+            "Translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XVI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XVI"
+            }
+          ],
+          "pages": "pp. 46–48",
+          "questions": [
+            "Give the genitive singular of nūllus.",
+            "Translate: Aliī gladiōs, aliī scūta portant.",
+            "Write in Latin: in neither cottage"
+          ],
+          "answers": [
+            "Nūllīus",
+            "Some carry swords, others shields",
+            "In neutrā casā"
+          ]
+        },
+        {
+          "title": "Lesson XVII: The Demonstrative is, ea, id",
+          "steps": [
+            "Decline is, ea, id and learn its use for he, she, it, they",
+            "Study when to use suus and when to use eius or eōrum (§ 116)",
+            "Learn the vocabulary; put the English exercise into Latin and read the dialogue"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XVII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XVII"
+            },
+            {
+              "label": "Special vocabulary for Lesson XVII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec117vocab"
+            }
+          ],
+          "pages": "pp. 48–51",
+          "questions": [
+            "What is the genitive singular of is?",
+            "Write in Latin: Galba calls his (own) son.",
+            "Write in Latin: Galba calls his son (another man's)."
+          ],
+          "answers": [
+            "Eius",
+            "Galba suum fīlium vocat",
+            "Galba eius fīlium vocat"
+          ]
+        },
+        {
+          "title": "Review II: Lessons IX–XVII",
+          "steps": [
+            "Give the English of the words in § 506, then the Latin of the list in § 507",
+            "Drill the words you missed",
+            "Answer the review questions and fill out the second-declension summary"
+          ],
+          "links": [
+            {
+              "label": "Read Review II",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#review_II"
+            }
+          ],
+          "pages": "pp. 267–269",
+          "questions": [
+            "Give the English of lōrīca.",
+            "Give the Latin for \"son.\"",
+            "How can you tell whether an -er adjective goes like līber or like pulcher?"
+          ],
+          "answers": [
+            "Breastplate (coat of mail)",
+            "Fīlius",
+            "By the feminine and neuter forms (lībera, pulchra)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 3: The Verb in the Active Voice (Lessons XVIII–XXVI)",
+      "lessons": [
+        {
+          "title": "Lesson XVIII: Conjugation — Present, Imperfect, and Future of sum",
+          "steps": [
+            "Read about tense, mood, and person (§§ 119–122) and learn the active personal endings",
+            "Memorize sum, eram, and erō in all persons",
+            "Learn the vocabulary, read the dialogue of Sextus and Marcus, and do the exercise in § 125"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XVIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XVIII"
+            },
+            {
+              "label": "Special vocabulary for Lesson XVIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec124vocab"
+            }
+          ],
+          "pages": "pp. 51–54",
+          "questions": [
+            "What are the six active personal endings?",
+            "Translate: Eritisne mox in lūdō?",
+            "Write in Latin: Lately I was wretched."
+          ],
+          "answers": [
+            "-m (-ō), -s, -t, -mus, -tis, -nt",
+            "Will you soon be in school?",
+            "Nūper miser eram"
+          ]
+        },
+        {
+          "title": "Lesson XIX: The Four Conjugations — Present of amō and moneō",
+          "steps": [
+            "Learn the four present infinitives and how to find the present stem",
+            "Conjugate amō and moneō in the present, then the verbs in § 129",
+            "Parse the forms in Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XIX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XIX"
+            }
+          ],
+          "pages": "pp. 54–56",
+          "questions": [
+            "What is the present stem of monēre?",
+            "Translate: vidēmus",
+            "Write in Latin: they order"
+          ],
+          "answers": [
+            "Monē-",
+            "We see",
+            "Iubent"
+          ]
+        },
+        {
+          "title": "Lesson XX: The Imperfect of amō and moneō — Niobe and Her Children",
+          "steps": [
+            "Learn the tense sign -bā- and conjugate amābam and monēbam",
+            "Translate the forms in Exercise I; put Exercise II into Latin",
+            "Learn the vocabulary and read the first part of the Niobe story"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XX"
+            },
+            {
+              "label": "Special vocabulary for Lesson XX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec136vocab"
+            }
+          ],
+          "pages": "pp. 56–58",
+          "questions": [
+            "What is the tense sign of the imperfect?",
+            "Translate: dēlēbāmus",
+            "How many sons and daughters did Niobe have?"
+          ],
+          "answers": [
+            "-bā-",
+            "We were destroying",
+            "Seven sons and seven daughters"
+          ]
+        },
+        {
+          "title": "Lesson XXI: The Future of amō and moneō — Niobe (Concluded)",
+          "steps": [
+            "Learn the tense sign -bi- and conjugate amābō and monēbō",
+            "Translate Exercise I and put Exercise II into Latin",
+            "Learn the vocabulary and finish the story of Niobe"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXI"
+            },
+            {
+              "label": "Special vocabulary for Lesson XXI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec140vocab"
+            }
+          ],
+          "pages": "pp. 58–59",
+          "questions": [
+            "Translate: vidēbimus",
+            "Write in Latin: they will care for",
+            "Which two children of Latona punished Niobe's children?"
+          ],
+          "answers": [
+            "We shall see",
+            "Cūrābunt",
+            "Apollo and Diana"
+          ]
+        },
+        {
+          "title": "Lesson XXII: Review of Verbs; the Dative with Adjectives — Cornelia",
+          "steps": [
+            "Review the present, imperfect, and future of sum and the verbs in § 129, out loud and in writing",
+            "Learn the rule for the dative with adjectives and the seven adjectives in § 144",
+            "Translate Exercise I, put Exercise II into Latin, and read the first part of Cornelia and her Jewels"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXII"
+            },
+            {
+              "label": "Special vocabulary for Lesson XXII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec146vocab"
+            }
+          ],
+          "pages": "pp. 59–61",
+          "questions": [
+            "Translate: Gallī cōpiīs Rōmānīs inimīcī erant.",
+            "Write in Latin: The sacrifices were pleasing to Latona.",
+            "Who were Cornelia's two sons?"
+          ],
+          "answers": [
+            "The Gauls were hostile to the Roman forces",
+            "Sacra Lātōnae grāta erant",
+            "Tiberius and Gaius Gracchus"
+          ]
+        },
+        {
+          "title": "Lesson XXIII: The Present of regō and audiō — Cornelia (Concluded)",
+          "steps": [
+            "Conjugate regō and audiō in the present and note where -i- and -u- appear",
+            "Inflect agō, dīcō, dūcō, mittō, mūniō, reperiō, veniō",
+            "Translate Exercise I, put Exercise II into Latin, and finish the Cornelia story"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXIII"
+            }
+          ],
+          "pages": "pp. 61–63",
+          "questions": [
+            "Translate: Cuius castra mūniunt?",
+            "Write in Latin: they hear",
+            "What did Cornelia call her jewels?"
+          ],
+          "answers": [
+            "Whose camp are they fortifying?",
+            "Audiunt",
+            "Her sons"
+          ]
+        },
+        {
+          "title": "Lesson XXIV: The Imperfect of regō and audiō; Dative with Special Verbs",
+          "steps": [
+            "Conjugate regēbam and audiēbam and compare them with monēbam",
+            "Learn the seven intransitive verbs that take the dative (crēdō, faveō, noceō, pāreō, persuādeō, resistō, studeō)",
+            "Translate the exercises in §§ 152 and 155"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXIV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXIV"
+            }
+          ],
+          "pages": "pp. 63–65",
+          "questions": [
+            "Translate: mūniēbāmus",
+            "Translate: Tiberius et Gāius Cornēliae pārēbant.",
+            "Which case does resistō take?"
+          ],
+          "answers": [
+            "We were fortifying",
+            "Tiberius and Gaius obeyed Cornelia",
+            "The dative"
+          ]
+        },
+        {
+          "title": "Lesson XXV: The Future of regō and audiō",
+          "steps": [
+            "Learn the future tense sign -ā-/-ē- and conjugate regam and audiam",
+            "Translate Exercise I and notice how dīcet differs from dīcit",
+            "Put the sentences of Exercise II into Latin, using the dative with special verbs"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXV"
+            }
+          ],
+          "pages": "pp. 65–66",
+          "questions": [
+            "Translate: mittēmus",
+            "Write in Latin: I shall come.",
+            "Write in Latin: A good slave obeys his master."
+          ],
+          "answers": [
+            "We shall send",
+            "Veniam",
+            "Servus bonus dominō suō pāret"
+          ]
+        },
+        {
+          "title": "Lesson XXVI: Verbs in -iō; the Imperative Mood",
+          "steps": [
+            "Conjugate capiō in the present, imperfect, and future; then faciō, fugiō, iaciō, rapiō",
+            "Learn the imperative singular and plural, including dīc, dūc, fac",
+            "Translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXVI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXVI"
+            }
+          ],
+          "pages": "pp. 66–68",
+          "questions": [
+            "Give the imperative plural of audiō.",
+            "Translate: Este bonī, puerī.",
+            "Write in Latin: The goddess will seize her arms."
+          ],
+          "answers": [
+            "Audīte",
+            "Be good, boys",
+            "Dea arma sua rapiet"
+          ]
+        },
+        {
+          "title": "Review III: Lessons XVIII–XXVI",
+          "steps": [
+            "Give the English of the words in § 510 and the Latin of the list in § 511, with infinitives",
+            "Drill the words you missed",
+            "Answer the review questions and conjugate one verb of each conjugation in three tenses"
+          ],
+          "links": [
+            {
+              "label": "Read Review III",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#review_III"
+            }
+          ],
+          "pages": "pp. 269–271",
+          "questions": [
+            "Give the English of trīstitia.",
+            "Give the Latin for \"find\" with its infinitive.",
+            "What is the tense sign of the future in the first two conjugations?"
+          ],
+          "answers": [
+            "Sadness",
+            "Reperiō, reperīre",
+            "-bi-"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 4: The Passive Voice and the Perfect System (Lessons XXVII–XXXVI)",
+      "lessons": [
+        {
+          "title": "Lesson XXVII: The Passive Voice of amō and moneō — Perseus and Andromeda",
+          "steps": [
+            "Learn the passive personal endings (-r, -ris, -tur, -mur, -minī, -ntur)",
+            "Conjugate amor and moneor in the present, imperfect, and future; translate Exercise I and put Exercise II into Latin",
+            "Learn the vocabulary and read the first part of Perseus and Andromeda"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXVII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXVII"
+            },
+            {
+              "label": "Special vocabulary for Lesson XXVII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec168vocab"
+            }
+          ],
+          "pages": "pp. 68–72",
+          "questions": [
+            "Translate: vocābātur",
+            "Write in Latin: we are praised",
+            "Which god sent the sea monster to Aethiopia?"
+          ],
+          "answers": [
+            "He was being called",
+            "Laudāmur",
+            "Neptune"
+          ]
+        },
+        {
+          "title": "Lesson XXVIII: The Passive of regō and audiō — Perseus (Continued)",
+          "steps": [
+            "Learn the passive of regō and audiō in three tenses; note regeris, not regiris",
+            "Translate Exercise I and put Exercise II into Latin",
+            "Learn the vocabulary and read what the oracle answered Cepheus"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXVIII"
+            },
+            {
+              "label": "Special vocabulary for Lesson XXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec171vocab"
+            }
+          ],
+          "pages": "pp. 72–73",
+          "questions": [
+            "Translate: mittentur",
+            "Write in Latin: it is said",
+            "What did the oracle tell Cepheus to give the monster?"
+          ],
+          "answers": [
+            "They will be sent",
+            "Dīcitur",
+            "His daughter Andromeda"
+          ]
+        },
+        {
+          "title": "Lesson XXIX: The Passive of -iō Verbs; Infinitive and Imperative",
+          "steps": [
+            "Learn the passive of capiō in three tenses",
+            "Learn the present infinitives, active and passive, and the passive imperative",
+            "Learn the vocabulary; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXIX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXIX"
+            },
+            {
+              "label": "Special vocabulary for Lesson XXIX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec176vocab"
+            }
+          ],
+          "pages": "pp. 73–75",
+          "questions": [
+            "Give the present passive infinitive of mittō.",
+            "Give the present passive infinitive of audiō.",
+            "Translate: Mōnstrum est validum, tamen superābitur."
+          ],
+          "answers": [
+            "Mittī",
+            "Audīrī",
+            "The monster is strong, yet it will be overcome"
+          ]
+        },
+        {
+          "title": "Lesson XXX: Synopses; the Ablative Denoting From",
+          "steps": [
+            "Practice synopses (§ 177) of rapiō, mūniō, doceō, and laudō in several persons",
+            "Learn the rules for place from which, separation, and the personal agent; compare sagittā with ā Diānā",
+            "Learn the vocabulary; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXX"
+            },
+            {
+              "label": "Special vocabulary for Lesson XXX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec182vocab"
+            }
+          ],
+          "pages": "pp. 75–79",
+          "questions": [
+            "Translate: Fera ā Diānā necātur.",
+            "Write in Latin: They were without food.",
+            "Which ablative needs ā or ab: means or personal agent?"
+          ],
+          "answers": [
+            "The wild beast is killed by Diana",
+            "Cibō egēbant",
+            "The personal agent"
+          ]
+        },
+        {
+          "title": "Lesson XXXI: Principal Parts; the Perfect System of sum",
+          "steps": [
+            "Learn what the four principal parts are and how to find the perfect stem",
+            "Memorize the perfect endings and conjugate fuī, fueram, fuerō",
+            "Learn the vocabulary, read the dialogue about Sextus's boat, and do the exercise in § 189"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXXI"
+            },
+            {
+              "label": "Special vocabulary for Lesson XXXI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec188vocab"
+            }
+          ],
+          "pages": "pp. 79–81",
+          "questions": [
+            "What are the principal parts of sum (first three)?",
+            "Translate: Ubi fuistis?",
+            "Write in Latin: They had been in school."
+          ],
+          "answers": [
+            "Sum, esse, fuī",
+            "Where have you been?",
+            "In lūdō fuerant"
+          ]
+        },
+        {
+          "title": "Lesson XXXII: The Perfect Active in All Four Conjugations — Perseus (Continued)",
+          "steps": [
+            "Read § 190 on the two meanings of the perfect and when a story uses perfect or imperfect",
+            "Learn the perfects amāvī, monuī, rēxī, cēpī, audīvī and the principal parts in § 192",
+            "Learn the vocabulary and read how Cepheus chained Andromeda to the rocks"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXXII"
+            },
+            {
+              "label": "Special vocabulary for Lesson XXXII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec193vocab"
+            }
+          ],
+          "pages": "pp. 81–84",
+          "questions": [
+            "Give the perfect (third principal part) of mittō.",
+            "Translate: Perseus ad terram dēscendit.",
+            "What did Cepheus promise Perseus if he killed the monster?"
+          ],
+          "answers": [
+            "Mīsī",
+            "Perseus came down to the earth",
+            "Andromeda as his wife"
+          ]
+        },
+        {
+          "title": "Lesson XXXIII: The Pluperfect and Future Perfect Active; Perfect Infinitive",
+          "steps": [
+            "Inflect the pluperfect (-eram) and future perfect (-erō) of the five model verbs",
+            "Form the perfect active infinitive with -isse",
+            "Translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXXIII"
+            }
+          ],
+          "pages": "pp. 84–86",
+          "questions": [
+            "Translate: discesserāmus",
+            "Give the perfect active infinitive of videō.",
+            "Write in Latin: they have obeyed"
+          ],
+          "answers": [
+            "We had departed",
+            "Vīdisse",
+            "Pāruērunt"
+          ]
+        },
+        {
+          "title": "Lesson XXXIV: Review of the Active Voice — Perseus (Concluded)",
+          "steps": [
+            "Learn the table of how each active tense is formed (§ 197)",
+            "Give quick synopses of five verbs from § 198 and learn the perfects in § 199",
+            "Learn the vocabulary and read the end of Perseus and Andromeda, explaining each perfect and imperfect"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXIV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXXIV"
+            },
+            {
+              "label": "Special vocabulary for Lesson XXXIV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec200vocab"
+            }
+          ],
+          "pages": "pp. 86–88",
+          "questions": [
+            "How is the pluperfect active formed?",
+            "Give the perfect of reperiō.",
+            "Translate: Perseus mōnstrum interfēcit."
+          ],
+          "answers": [
+            "Perfect stem + -eram",
+            "Repperī",
+            "Perseus killed the monster"
+          ]
+        },
+        {
+          "title": "Lesson XXXV: The Passive Perfects; Perfect Passive and Future Active Infinitives",
+          "steps": [
+            "Learn the fourth principal part and the participial stem",
+            "Form the perfect, pluperfect, and future perfect passive with sum, making the participle agree",
+            "Translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXXV"
+            }
+          ],
+          "pages": "pp. 88–90",
+          "questions": [
+            "Translate: Puellae laudātae sunt.",
+            "Give the future active infinitive of amō.",
+            "Write in Latin: the field had been laid waste"
+          ],
+          "answers": [
+            "The girls were (have been) praised",
+            "Amātūrus esse",
+            "Ager vāstātus erat"
+          ]
+        },
+        {
+          "title": "Lesson XXXVI: Review of Principal Parts; Prepositions; Yes-or-No Questions",
+          "steps": [
+            "Learn the full principal parts of every verb so far (§ 208)",
+            "Learn which prepositions take the ablative and which the accusative, and the two meanings of in",
+            "Learn -ne, nōnne, and num; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXVI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXXVI"
+            },
+            {
+              "label": "Special vocabulary for Lesson XXXVI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec211vocab"
+            }
+          ],
+          "pages": "pp. 90–93",
+          "questions": [
+            "Which answer does a question with nōnne expect?",
+            "Give the four principal parts of dūcō.",
+            "Write in Latin: He isn't coming, is he?"
+          ],
+          "answers": [
+            "Yes",
+            "Dūcō, dūcere, dūxī, ductus",
+            "Num venit?"
+          ]
+        },
+        {
+          "title": "Review IV: Lessons XXVII–XXXVI",
+          "steps": [
+            "Give the English of the words in § 513; translate the list in § 514 with genitives, genders, and principal parts",
+            "Drill the words you missed",
+            "Answer the review questions on the passive voice and the perfect system"
+          ],
+          "links": [
+            {
+              "label": "Read Review IV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#review_IV"
+            }
+          ],
+          "pages": "pp. 271–273",
+          "questions": [
+            "Give the English of perīculum.",
+            "Give the Latin for \"suddenly.\"",
+            "What are the passive personal endings?"
+          ],
+          "answers": [
+            "Danger",
+            "Subitō",
+            "-r, -ris (-re), -tur, -mur, -minī, -ntur"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 5: possum, Relatives, and the Third Declension (Lessons XXXVII–XLIV)",
+      "lessons": [
+        {
+          "title": "Lesson XXXVII (Part 1): possum and the Uses of the Infinitive",
+          "steps": [
+            "Learn the principal parts and indicative of possum (§ 495)",
+            "Learn the accusative subject of the infinitive, the complementary infinitive, and the infinitive as a noun",
+            "Learn the vocabulary; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXVII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXXVII"
+            },
+            {
+              "label": "Special vocabulary for Lesson XXXVII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec217vocab"
+            }
+          ],
+          "pages": "pp. 93–96",
+          "questions": [
+            "Translate: Diū sine aquā vīvere nōn potestis.",
+            "Write in Latin: To see is to believe.",
+            "In what case is the subject of an infinitive?"
+          ],
+          "answers": [
+            "You cannot live long without water",
+            "Vidēre est crēdere",
+            "The accusative"
+          ]
+        },
+        {
+          "title": "Lesson XXXVII (Part 2): The Faithless Tarpeia",
+          "steps": [
+            "Read the Tarpeia story aloud in Latin, a sentence at a time",
+            "Translate it, explaining why cōnsilium cēpērunt is perfect while the earlier verbs are imperfect",
+            "Narrate the first half of the story in English"
+          ],
+          "links": [
+            {
+              "label": "Read § 218",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec218"
+            }
+          ],
+          "pages": "p. 96",
+          "questions": [
+            "Where had the Romans fled from the Sabines?",
+            "What did Tarpeia carry to the Roman troops every day?",
+            "What did Tarpeia long for?"
+          ],
+          "answers": [
+            "To the Capitol",
+            "Water",
+            "The Sabines' gold ornaments"
+          ]
+        },
+        {
+          "title": "Lesson XXXVIII (Part 1): The Relative Pronoun quī, quae, quod",
+          "steps": [
+            "Read § 219 on simple, compound, and complex sentences",
+            "Decline quī, quae, quod and compare it with is, ea, id",
+            "Learn the rule for agreement of the relative and explain the two examples in § 223"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXXVIII"
+            }
+          ],
+          "pages": "pp. 97–99",
+          "questions": [
+            "Give the dative plural of quī.",
+            "Translate: Rōmānī interfēcērunt fēminam quae capta est.",
+            "With what must a relative agree in gender and number?"
+          ],
+          "answers": [
+            "Quibus",
+            "The Romans killed the woman who was captured",
+            "Its antecedent"
+          ]
+        },
+        {
+          "title": "Lesson XXXVIII (Part 2): The Interrogative Pronoun — Tarpeia (Concluded)",
+          "steps": [
+            "Learn quis, quid (pronoun) and quī, quae, quod (adjective)",
+            "Translate Exercise I and put Exercise II into Latin",
+            "Read the end of the Tarpeia story"
+          ],
+          "links": [
+            {
+              "label": "Read §§ 225–229",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec225"
+            }
+          ],
+          "pages": "pp. 99–101",
+          "questions": [
+            "Translate: Quī vir eōs dūcit?",
+            "Write in Latin: What victory will you announce?",
+            "How did the Sabines kill Tarpeia?"
+          ],
+          "answers": [
+            "What man is leading them?",
+            "Quam victōriam nūntiābis?",
+            "They threw their shields on her"
+          ]
+        },
+        {
+          "title": "Lesson XXXIX: The Third Declension — Consonant Stems (Class I)",
+          "steps": [
+            "Read about bases and stems (§§ 230–232)",
+            "Decline prīnceps, mīles, lapis, rēx, iūdex, virtūs; then dux, eques, pedes, pēs",
+            "Learn the vocabulary; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXIX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XXXIX"
+            },
+            {
+              "label": "Special vocabulary for Lesson XXXIX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec234vocab"
+            }
+          ],
+          "pages": "pp. 101–104",
+          "questions": [
+            "Give the genitive singular of mīles.",
+            "How do you find the base of a third-declension noun?",
+            "Translate: Pedēs mīlitum lapidibus vulnerābantur."
+          ],
+          "answers": [
+            "Mīlitis",
+            "Drop -is from the genitive singular",
+            "The soldiers' feet were wounded by stones"
+          ]
+        },
+        {
+          "title": "Lesson XL: Consonant Stems (Class II) — cōnsul, legiō, ōrdō, pater",
+          "steps": [
+            "Decline cōnsul, legiō, ōrdō, and pater",
+            "Note how -ōn-, -in-, and -tr- stems change in the nominative",
+            "Learn the vocabulary; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XL",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XL"
+            },
+            {
+              "label": "Special vocabulary for Lesson XL",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec237vocab"
+            }
+          ],
+          "pages": "pp. 104–105",
+          "questions": [
+            "Give the genitive singular of legiō.",
+            "Give the accusative plural of pater.",
+            "Write in Latin: Who has seen my father today?"
+          ],
+          "answers": [
+            "Legiōnis",
+            "Patrēs",
+            "Quis patrem meum hodiē vīdit?"
+          ]
+        },
+        {
+          "title": "Lesson XLI: Neuter Consonant Stems — flūmen, tempus, opus, caput",
+          "steps": [
+            "Decline flūmen, tempus, opus, and caput",
+            "Apply the neuter rules of § 74 (nominative and accusative alike, plural in -a)",
+            "Learn the vocabulary; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XLI"
+            },
+            {
+              "label": "Special vocabulary for Lesson XLI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec239vocab"
+            }
+          ],
+          "pages": "pp. 105–107",
+          "questions": [
+            "Give the nominative plural of tempus.",
+            "Translate: Rōma est in rīpīs flūminis magnī.",
+            "Write in Latin: To save the fatherland was a great task."
+          ],
+          "answers": [
+            "Tempora",
+            "Rome is on the banks of a great river",
+            "Patriam servāre erat magnum opus"
+          ]
+        },
+        {
+          "title": "Lesson XLII: Review Lesson — Terror Cimbricus",
+          "steps": [
+            "Review the paradigms of prīnceps, cōnsul, and flūmen (§§ 233, 236, 238)",
+            "Translate the story of the Cimbri and Teutons and Marius",
+            "Decline every third-declension noun you find in the story"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XLII"
+            }
+          ],
+          "pages": "pp. 107–108",
+          "questions": [
+            "Who was called back from Africa to save Rome?",
+            "What was Marius called after the victory?",
+            "Translate: Servāte patriam!"
+          ],
+          "answers": [
+            "Marius",
+            "Father of his country (pater patriae)",
+            "Save the fatherland!"
+          ]
+        },
+        {
+          "title": "Lesson XLIII: The Third Declension — I-Stems",
+          "steps": [
+            "Learn which nouns are i-stems (§ 241) and how they differ from consonant stems",
+            "Decline caedēs, hostis, urbs, cliēns, then īnsigne, animal, calcar",
+            "Learn the vocabulary; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XLIII"
+            },
+            {
+              "label": "Special vocabulary for Lesson XLIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec245vocab"
+            }
+          ],
+          "pages": "pp. 108–111",
+          "questions": [
+            "Give the genitive plural of urbs.",
+            "Give the nominative plural of animal.",
+            "Translate: Alia animālia terram, alia mare amant."
+          ],
+          "answers": [
+            "Urbium",
+            "Animālia",
+            "Some animals love the land, others the sea"
+          ]
+        },
+        {
+          "title": "Lesson XLIV: Irregular Nouns and Gender in the Third Declension — The First Bridge over the Rhine",
+          "steps": [
+            "Decline vīs and iter",
+            "Learn the gender rules in § 247 and give the gender of the nouns in § 248",
+            "Learn the vocabulary; translate the Rhine bridge story and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLIV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XLIV"
+            },
+            {
+              "label": "Special vocabulary for Lesson XLIV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec249vocab"
+            }
+          ],
+          "pages": "pp. 111–113",
+          "questions": [
+            "What gender is mōns?",
+            "Give the genitive singular of iter.",
+            "Why did the Germans flee when they saw the bridge?"
+          ],
+          "answers": [
+            "Masculine",
+            "Itineris",
+            "They were struck with terror, for no bridge had been seen on the Rhine before"
+          ]
+        },
+        {
+          "title": "Review V: Lessons XXXVII–XLIV",
+          "steps": [
+            "Give the English of the words in § 517; translate the list in § 518 with genitives, genders, and principal parts",
+            "Drill the words you missed",
+            "Answer the review questions on possum, the infinitive, the relative, and the third declension"
+          ],
+          "links": [
+            {
+              "label": "Read Review V",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#review_V"
+            }
+          ],
+          "pages": "pp. 273–275",
+          "questions": [
+            "Give the English of flūmen.",
+            "Give the Latin for \"never.\"",
+            "What gender is a third-declension noun ending in -or?"
+          ],
+          "answers": [
+            "River",
+            "Numquam",
+            "Masculine"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 6: Fourth and Fifth Declensions; Pronouns (Lessons XLV–LII)",
+      "lessons": [
+        {
+          "title": "Lesson XLV: Adjectives of the Third Declension — The Romans Invade the Enemy's Country",
+          "steps": [
+            "Learn the three classes: ācer, ācris, ācre; omnis, omne; pār",
+            "Decline vir ācer, ager omnis, and proelium pār; note the ablative in -ī",
+            "Learn the vocabulary; translate the invasion story and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XLV"
+            },
+            {
+              "label": "Special vocabulary for Lesson XLV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec258vocab"
+            }
+          ],
+          "pages": "pp. 113–116",
+          "questions": [
+            "Give the ablative singular of omnis.",
+            "Translate: Fortūna fortibus semper favet.",
+            "Who was among the captives?"
+          ],
+          "answers": [
+            "Omnī",
+            "Fortune always favors the brave",
+            "The king's mother and sister"
+          ]
+        },
+        {
+          "title": "Lesson XLVI: The Fourth (U-) Declension",
+          "steps": [
+            "Decline adventus and cornū; note the feminines domus and manus",
+            "Learn the vocabulary; translate Exercise I",
+            "Put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLVI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XLVI"
+            },
+            {
+              "label": "Special vocabulary for Lesson XLVI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec261vocab"
+            }
+          ],
+          "pages": "pp. 116–117",
+          "questions": [
+            "Give the genitive singular of adventus.",
+            "Translate: Ante adventum Caesaris",
+            "Write in Latin: I trained my horse with my own hands."
+          ],
+          "answers": [
+            "Adventūs",
+            "Before Caesar's arrival",
+            "Equum meum manibus meīs exercuī"
+          ]
+        },
+        {
+          "title": "Lesson XLVII: Expressions of Place; the Locative; domus — Daedalus and Icarus",
+          "steps": [
+            "Learn the rules for place to which, from which, and where, and the exceptions for towns, domus, and rūs",
+            "Learn the locative (Rōmae, Corinthī, domī) and the declension of domus (§ 468)",
+            "Learn the vocabulary; translate Exercise I and read the start of Daedalus and Icarus"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLVII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XLVII"
+            },
+            {
+              "label": "Special vocabulary for Lesson XLVII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec270vocab"
+            }
+          ],
+          "pages": "pp. 117–121",
+          "questions": [
+            "Write in Latin: Galba lives at Rome.",
+            "Write in Latin: Galba hastens home.",
+            "Why could Daedalus not escape from Crete at first?"
+          ],
+          "answers": [
+            "Galba Rōmae habitat",
+            "Galba domum properat",
+            "The king would not let him go and the sea blocked his flight"
+          ],
+          "notes": "Exercise II (English to Latin) can be done the next day if time runs short."
+        },
+        {
+          "title": "Lesson XLVIII: The Fifth (Ē-) Declension; the Ablative of Time",
+          "steps": [
+            "Decline diēs and rēs",
+            "Learn the rule for the ablative of time (prīmā lūce, merīdiē, hieme)",
+            "Learn the vocabulary; translate Galba the Farmer, put Exercise II into Latin, and continue Daedalus"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLVIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XLVIII"
+            },
+            {
+              "label": "Special vocabulary for Lesson XLVIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec276vocab"
+            }
+          ],
+          "pages": "pp. 121–123",
+          "questions": [
+            "Give the genitive singular of rēs.",
+            "Translate: Hieme agricola eōs in lūdum mittit.",
+            "What did Daedalus make out of feathers?"
+          ],
+          "answers": [
+            "Reī",
+            "In winter the farmer sends them to school",
+            "Real wings"
+          ]
+        },
+        {
+          "title": "Lesson XLIX: Personal and Reflexive Pronouns — Daedalus and Icarus (Concluded)",
+          "steps": [
+            "Learn the eight classes of pronouns, then decline ego, tū, nōs, vōs, and suī",
+            "Practice reflexives (videō mē, sē videt) and forms like mēcum, nōbīscum",
+            "Learn the vocabulary; translate the exercises and finish the Daedalus story"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLIX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_XLIX"
+            },
+            {
+              "label": "Special vocabulary for Lesson XLIX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec283vocab"
+            }
+          ],
+          "pages": "pp. 123–126",
+          "questions": [
+            "Give the dative of ego.",
+            "Write in Latin: The boy sees himself.",
+            "Why did Icarus fall into the sea?"
+          ],
+          "answers": [
+            "Mihi",
+            "Puer sē videt",
+            "He flew too near the sun and his wings were burned"
+          ]
+        },
+        {
+          "title": "Lesson L: ipse and īdem — How Horatius Held the Bridge",
+          "steps": [
+            "Learn ipse (-self, very) and how it differs from the reflexive suī",
+            "Decline īdem, eadem, idem and note how m becomes n before d",
+            "Learn the vocabulary; translate the exercises and the start of the Horatius story"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson L",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_L"
+            },
+            {
+              "label": "Special vocabulary for Lesson L",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec288vocab"
+            }
+          ],
+          "pages": "pp. 126–128",
+          "questions": [
+            "Translate: Caesar ipse scūtum ēripuit.",
+            "Write in Latin: in the same city",
+            "Who came with an army to help Tarquin the Proud?"
+          ],
+          "answers": [
+            "Caesar himself snatched a shield",
+            "In eādem urbe",
+            "Porsena, king of the Etruscans"
+          ]
+        },
+        {
+          "title": "Lesson LI: The Demonstratives hic, iste, ille — Horatius (Continued)",
+          "steps": [
+            "Learn hic, haec, hoc and the forms of iste and ille",
+            "Study the model sentences (§ 293): this near me, that near you, that over there",
+            "Learn the vocabulary; translate the German chieftain's speech, Exercise II, and the next part of Horatius"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LI"
+            },
+            {
+              "label": "Special vocabulary for Lesson LI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec294vocab"
+            }
+          ],
+          "pages": "pp. 128–130",
+          "questions": [
+            "Give the genitive singular of hic.",
+            "Translate: Iste equus est validus, sed ille est īnfīrmus.",
+            "How many comrades stood with Horatius at the bridge?"
+          ],
+          "answers": [
+            "Huius",
+            "That horse of yours is strong, but that one yonder is weak",
+            "Two"
+          ]
+        },
+        {
+          "title": "Lesson LII: The Indefinite Pronouns — Horatius (Concluded)",
+          "steps": [
+            "Learn quis, aliquis, quīdam, quisquam, and quisque and when each is used",
+            "Learn the vocabulary; translate Exercise I and put Exercise II into Latin",
+            "Read how Horatius held the bridge alone and swam to safety"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LII"
+            },
+            {
+              "label": "Special vocabulary for Lesson LII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec298vocab"
+            }
+          ],
+          "pages": "pp. 130–133",
+          "questions": [
+            "Translate: sī quis",
+            "Write in Latin: Each one was praising his own work.",
+            "What did the Roman people set up in honor of Horatius?"
+          ],
+          "answers": [
+            "If any one",
+            "Quisque suum opus laudābat",
+            "A statue in a public place"
+          ]
+        },
+        {
+          "title": "Review VI: Lessons XLV–LII",
+          "steps": [
+            "Give the English of the words in § 521 and translate the list in § 522",
+            "Drill the words you missed",
+            "Answer the review questions on the fourth and fifth declensions, place, time, and pronouns"
+          ],
+          "links": [
+            {
+              "label": "Read Review VI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#review_VI"
+            }
+          ],
+          "pages": "pp. 275–278",
+          "questions": [
+            "Give the English of exercitus.",
+            "Give the Latin for \"hope.\"",
+            "How do you say \"at home\" in Latin?"
+          ],
+          "answers": [
+            "Army",
+            "Spēs",
+            "Domī"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 7: Comparison — The Labors of Hercules (Lessons LIII–LVI)",
+      "lessons": [
+        {
+          "title": "Lesson LIII: Regular Comparison of Adjectives",
+          "steps": [
+            "Learn the endings -ior, -ius and -issimus, and decline clārior",
+            "Compare longus, fortis, recēns, and the -er adjectives ācer, pulcher, miser",
+            "Learn the vocabulary; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LIII"
+            },
+            {
+              "label": "Special vocabulary for Lesson LIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec306vocab"
+            }
+          ],
+          "pages": "pp. 133–135",
+          "questions": [
+            "Compare clārus (all three degrees).",
+            "Give the superlative of pulcher.",
+            "Write in Latin: Of all birds the eagle is the swiftest."
+          ],
+          "answers": [
+            "Clārus, clārior, clārissimus",
+            "Pulcherrimus",
+            "Omnium avium aquila est vēlōcissima"
+          ]
+        },
+        {
+          "title": "Reading Matter: How to Translate; The Labors of Hercules",
+          "steps": [
+            "Read the six suggestions for translating and the section on the parts of a sentence",
+            "Read the English summary of the life of Hercules",
+            "Practice the method on one sentence from an earlier story: find subject, verb, and object first"
+          ],
+          "links": [
+            {
+              "label": "Read the introductory suggestions",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#readings"
+            }
+          ],
+          "pages": "pp. 194–196",
+          "questions": [
+            "What gives you the \"backbone\" of a Latin sentence?",
+            "For how many years did Hercules serve Eurystheus?",
+            "Which goddess hated Hercules all his life?"
+          ],
+          "answers": [
+            "The nominatives and accusatives with the verb (subject, verb, object)",
+            "Twelve",
+            "Juno"
+          ]
+        },
+        {
+          "title": "Reading LIII: The Infant Hercules and the Serpents",
+          "steps": [
+            "Translate the selection, using the six-step method",
+            "Find the comparatives and superlatives in it",
+            "Tell the story back in English"
+          ],
+          "links": [
+            {
+              "label": "Read selection LIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LIII"
+            }
+          ],
+          "pages": "pp. 197–198",
+          "questions": [
+            "Who sent the serpents?",
+            "On what were Hercules and his brother sleeping?",
+            "What did the frightened brother do?"
+          ],
+          "answers": [
+            "Juno",
+            "A huge shield",
+            "He called loudly for his mother"
+          ]
+        },
+        {
+          "title": "Lesson LIV: Irregular Comparison (-lis Adjectives); Ablative with Comparatives",
+          "steps": [
+            "Learn the six -lis adjectives with superlatives in -limus (facillimus, simillimus …)",
+            "Learn the ablative with comparatives without quam (Nihil est clārius sōle)",
+            "Learn the vocabulary; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LIV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LIV"
+            },
+            {
+              "label": "Special vocabulary for Lesson LIV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec310vocab"
+            }
+          ],
+          "pages": "pp. 135–137",
+          "questions": [
+            "Give the superlative of facilis.",
+            "Translate: Nihil pulchrius urbe Rōmā vīdī.",
+            "Write in Latin (without quam): The eagle is not slower than the horse."
+          ],
+          "answers": [
+            "Facillimus",
+            "I have seen nothing more beautiful than the city of Rome",
+            "Aquila nōn est tardior equō"
+          ]
+        },
+        {
+          "title": "Reading LIV: Hercules Conquers the Minyae; the Delphic Oracle",
+          "steps": [
+            "Translate the two short sections",
+            "List every superlative you find",
+            "Narrate why Hercules went to Delphi"
+          ],
+          "links": [
+            {
+              "label": "Read selection LIV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LIV"
+            }
+          ],
+          "pages": "pp. 198–199",
+          "questions": [
+            "What did the Minyae demand from Thebes every year?",
+            "What did King Creon give Hercules after the victory?",
+            "Who gave advice at the oracle of Delphi?"
+          ],
+          "answers": [
+            "Tribute",
+            "His daughter in marriage",
+            "A woman called the Pythia"
+          ]
+        },
+        {
+          "title": "Lesson LV: Irregular Comparison (Continued); plūs",
+          "steps": [
+            "Learn bonus–melior–optimus, magnus–maior–maximus, malus–peior–pessimus, multus–plūs–plūrimus, parvus–minor–minimus",
+            "Learn the double superlatives (extrēmus, īnfimus/īmus, postrēmus, suprēmus/summus) and decline plūs",
+            "Learn the vocabulary; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LV"
+            },
+            {
+              "label": "Special vocabulary for Lesson LV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec314vocab"
+            }
+          ],
+          "pages": "pp. 137–138",
+          "questions": [
+            "Compare malus.",
+            "Give the comparative and superlative of parvus.",
+            "Write in Latin: Slavery is worse than death."
+          ],
+          "answers": [
+            "Malus, peior, pessimus",
+            "Minor, minimus",
+            "Servitūs est peior quam mors (morte)"
+          ]
+        },
+        {
+          "title": "Reading LV: Hercules Serves Eurystheus; the Nemean Lion",
+          "steps": [
+            "Translate the selection",
+            "Find the connecting relative (Quae ubi audīvit) and explain it",
+            "Tell how Hercules killed the lion"
+          ],
+          "links": [
+            {
+              "label": "Read selection LV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LV"
+            }
+          ],
+          "pages": "pp. 199–200",
+          "questions": [
+            "To which king did Hercules give himself as a slave?",
+            "Why could arrows not stop the lion?",
+            "What did Hercules wear afterward?"
+          ],
+          "answers": [
+            "Eurystheus, king of Tiryns",
+            "No weapon could wound it",
+            "The lion's skin"
+          ]
+        },
+        {
+          "title": "Lesson LVI: Irregular Comparison (Concluded); Ablative of Measure of Difference",
+          "steps": [
+            "Learn citerior, interior, prior, propior, ulterior and their superlatives",
+            "Learn the ablative of the measure of difference (multō, paulō, nihilō)",
+            "Learn the vocabulary; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LVI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LVI"
+            },
+            {
+              "label": "Special vocabulary for Lesson LVI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec318vocab"
+            }
+          ],
+          "pages": "pp. 138–140",
+          "questions": [
+            "Translate: Haec via est multō lātior quam illa.",
+            "Give the superlative of prior.",
+            "Write in Latin: Your horse is a little swifter than mine."
+          ],
+          "answers": [
+            "This road is much wider than that one",
+            "Prīmus",
+            "Tuus equus est paulō celerior quam meus"
+          ]
+        },
+        {
+          "title": "Reading LVI: Slaying the Lernaean Hydra",
+          "steps": [
+            "Translate the selection",
+            "Notice the second connecting relative (Quod ubi vīdit)",
+            "Draw or describe the Hydra from the Latin"
+          ],
+          "links": [
+            {
+              "label": "Read selection LVI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LVI"
+            }
+          ],
+          "pages": "p. 200",
+          "questions": [
+            "How many heads did the Hydra have?",
+            "How did Hercules stop new heads from growing?",
+            "What did he do with the last head?"
+          ],
+          "answers": [
+            "Nine",
+            "He burned the necks with fire",
+            "He put it under a huge rock, because it was immortal"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 8: Adverbs, Numerals, Deponents — Hercules Concluded (Lessons LVII–LX)",
+      "lessons": [
+        {
+          "title": "Lesson LVII: Formation and Comparison of Adverbs",
+          "steps": [
+            "Learn how adverbs are made with -ē, -iter, and -ter, and compared",
+            "Memorize the irregular adverbs (bene, melius, optimē; diū; magnopere; parum; prope; saepe)",
+            "Learn the vocabulary; form the adverbs in § 324, translate Exercise I, and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LVII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LVII"
+            },
+            {
+              "label": "Special vocabulary for Lesson LVII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec326vocab"
+            }
+          ],
+          "pages": "pp. 140–142",
+          "questions": [
+            "Form the adverb from fortis.",
+            "Compare the adverb bene.",
+            "Translate: Rōmānī saepius quam hostēs vīcērunt."
+          ],
+          "answers": [
+            "Fortiter",
+            "Bene, melius, optimē",
+            "The Romans won more often than the enemy"
+          ]
+        },
+        {
+          "title": "Reading LVII: The Arcadian Stag and the Erymanthian Boar",
+          "steps": [
+            "Translate the selection",
+            "Find the adverbs and say which adjective each comes from",
+            "Narrate both labors"
+          ],
+          "links": [
+            {
+              "label": "Read selection LVII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LVII"
+            }
+          ],
+          "pages": "pp. 200–201",
+          "questions": [
+            "What was special about the stag?",
+            "How long did Hercules chase the stag?",
+            "Where did the boar hide?"
+          ],
+          "answers": [
+            "It had golden horns and feet swifter than the wind",
+            "A whole year",
+            "In a deep ditch"
+          ]
+        },
+        {
+          "title": "Lesson LVIII: Numerals; the Partitive Genitive",
+          "steps": [
+            "Learn the cardinals 1–20, centum, ducentī, mīlle, and decline duo, trēs, mīlle (§ 479)",
+            "Learn the partitive genitive and why cardinals take ex or dē",
+            "Learn the vocabulary; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LVIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LVIII"
+            },
+            {
+              "label": "Special vocabulary for Lesson LVIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec332vocab"
+            }
+          ],
+          "pages": "pp. 142–144",
+          "questions": [
+            "What is the Latin for 12?",
+            "Translate: decem mīlia mīlitum",
+            "Write in Latin: one of my brothers"
+          ],
+          "answers": [
+            "Duodecim",
+            "Ten thousand soldiers",
+            "Ūnus ex frātribus meīs"
+          ]
+        },
+        {
+          "title": "Reading LVIII: The Augean Stables and the Stymphalian Birds",
+          "steps": [
+            "Translate the selection",
+            "Find the numerals in it",
+            "Tell how Hercules cleaned the stables in one day"
+          ],
+          "links": [
+            {
+              "label": "Read selection LVIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LVIII"
+            }
+          ],
+          "pages": "pp. 201–202",
+          "questions": [
+            "How many cattle did Augeas have?",
+            "How long had the stable gone uncleaned?",
+            "What did the Stymphalian birds have?"
+          ],
+          "answers": [
+            "Three thousand",
+            "Thirty years",
+            "Iron beaks"
+          ]
+        },
+        {
+          "title": "Lesson LIX: Ordinals and Distributives; the Accusative of Extent — Caesar in Gaul",
+          "steps": [
+            "Learn the ordinals 1st–20th (§ 478) and singulī, bīnī, ternī",
+            "Learn the accusative of extent (how long? how far?) and sort the examples in § 336",
+            "Learn the vocabulary; translate Caesar in Gaul and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LIX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LIX"
+            },
+            {
+              "label": "Special vocabulary for Lesson LIX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec337vocab"
+            }
+          ],
+          "pages": "pp. 144–146",
+          "questions": [
+            "Translate: Vir tōtum diem cucurrit.",
+            "How many years did Caesar wage war in Gaul?",
+            "Write in Latin: the third legion"
+          ],
+          "answers": [
+            "The man ran for a whole day",
+            "Seven",
+            "Legiō tertia"
+          ]
+        },
+        {
+          "title": "Reading LIX: The Cretan Bull and the Horses of Diomedes",
+          "steps": [
+            "Translate the two sections",
+            "Find an accusative of extent and an ablative of time",
+            "Narrate how Diomedes was punished"
+          ],
+          "links": [
+            {
+              "label": "Read selection LIX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LIX"
+            }
+          ],
+          "pages": "pp. 202–203",
+          "questions": [
+            "How many days did Hercules sail to reach Crete?",
+            "How did Hercules seize the bull?",
+            "What did the horses eat?"
+          ],
+          "answers": [
+            "Three days",
+            "By the horns",
+            "Men"
+          ]
+        },
+        {
+          "title": "Lesson LX: Deponent Verbs; Prepositions with the Accusative",
+          "steps": [
+            "Learn the principal parts and synopses of hortor, vereor, sequor, patior, partior (§ 493)",
+            "Learn the prepositions with the accusative in § 340 and review those with the ablative",
+            "Learn the vocabulary; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LX"
+            },
+            {
+              "label": "Special vocabulary for Lesson LX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec341vocab"
+            }
+          ],
+          "pages": "pp. 146–149",
+          "questions": [
+            "Give the principal parts of sequor.",
+            "Translate: Imperātor eōs hortātus est.",
+            "What does deponent mean?"
+          ],
+          "answers": [
+            "Sequor, sequī, secūtus sum",
+            "The general encouraged them",
+            "Passive in form but active in meaning (it has laid aside its active forms)"
+          ]
+        },
+        {
+          "title": "Reading LX: The Belt of Hippolyte; Cerberus",
+          "steps": [
+            "Translate the selection",
+            "Find the deponent verbs",
+            "Narrate the last labor and the end of Hercules"
+          ],
+          "links": [
+            {
+              "label": "Read selection LX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LX"
+            }
+          ],
+          "pages": "pp. 203–204",
+          "questions": [
+            "Who wanted Hippolyte's belt?",
+            "How many heads did Cerberus have?",
+            "What did Jupiter finally give Hercules?"
+          ],
+          "answers": [
+            "The daughter of Eurystheus",
+            "Three",
+            "Immortality"
+          ]
+        },
+        {
+          "title": "Review VII: Lessons LIII–LX",
+          "steps": [
+            "Give the English of the words in § 524 and translate the list in § 525",
+            "Drill the words you missed",
+            "Answer the review questions on comparison, adverbs, numerals, and deponents"
+          ],
+          "links": [
+            {
+              "label": "Read Review VII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#review_VII"
+            }
+          ],
+          "pages": "pp. 278–281",
+          "questions": [
+            "Give the English of celeritās.",
+            "Give the Latin for \"best.\"",
+            "Compare the adjective magnus."
+          ],
+          "answers": [
+            "Speed, swiftness",
+            "Optimus",
+            "Magnus, maior, maximus"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 9: The Subjunctive — The Story of Publius (Lessons LXI–LXV)",
+      "lessons": [
+        {
+          "title": "Lesson LXI: The Subjunctive Mood — the Present Subjunctive",
+          "steps": [
+            "Read the introduction to Part III and § 342–343 on the four subjunctive tenses",
+            "Inflect the present subjunctive, active and passive, of all four conjugations and of sum (sim, sīs, sit)",
+            "Compare the indicative and subjunctive ideas in § 346 and do the exercise in § 347"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXI"
+            }
+          ],
+          "pages": "pp. 149–151",
+          "questions": [
+            "What is the mood sign of the present subjunctive in the first conjugation?",
+            "Translate: Statim proficīscāmur.",
+            "Give the present subjunctive, 3rd singular, of regō."
+          ],
+          "answers": [
+            "-ē-",
+            "Let us set out at once",
+            "Regat"
+          ],
+          "notes": "Part III begins here; the special vocabularies end, and review of the first 600 words takes their place."
+        },
+        {
+          "title": "Reading LXI: Publius Is Born near Pompeii",
+          "steps": [
+            "Read the note on Roman names, then translate the selection",
+            "Find Vesuvius and Pompeii on a map",
+            "Describe the villa in English from the Latin"
+          ],
+          "links": [
+            {
+              "label": "Read selection LXI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LXI"
+            }
+          ],
+          "pages": "pp. 204–205",
+          "questions": [
+            "What was the name of Publius's father?",
+            "Which mountain stood behind the villa?",
+            "How far away was Pompeii?"
+          ],
+          "answers": [
+            "Marcus",
+            "Vesuvius",
+            "Eight miles"
+          ]
+        },
+        {
+          "title": "Lesson LXII: The Subjunctive of Purpose",
+          "steps": [
+            "Learn the rule for purpose clauses and the words that introduce them: quī, ut, quō, nē",
+            "Study the four examples in § 351 and remember that Latin prose never uses the infinitive for purpose",
+            "Translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXII"
+            }
+          ],
+          "pages": "pp. 151–153",
+          "questions": [
+            "Translate: Fugiunt nē vulnerentur.",
+            "When is quō used to introduce a purpose clause?",
+            "Write in Latin: The Helvetii send ambassadors to seek peace."
+          ],
+          "answers": [
+            "They flee so that they may not be wounded",
+            "When the clause contains a comparative",
+            "Helvētiī lēgātōs mittunt quī (ut) pācem petant"
+          ]
+        },
+        {
+          "title": "Reading LXII: His Life on the Farm",
+          "steps": [
+            "Translate the selection",
+            "Find the purpose clauses (ut … gerant, nē tardī sint, quō … spectet)",
+            "Narrate a day of Publius and Lydia"
+          ],
+          "links": [
+            {
+              "label": "Read selection LXII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LXII"
+            }
+          ],
+          "pages": "pp. 205–206",
+          "questions": [
+            "Who was the vīlicus of the farm?",
+            "Who was Publius's playmate?",
+            "Why could Publius's father not come home?"
+          ],
+          "answers": [
+            "Davus, the slave overseer",
+            "Lydia, Davus's daughter",
+            "He was waging wars for the state in faraway lands"
+          ]
+        },
+        {
+          "title": "Lesson LXIII: The Imperfect Subjunctive; Sequence of Tenses",
+          "steps": [
+            "Form the imperfect subjunctive from the present infinitive, active and passive, and of sum (essem)",
+            "Learn the table of primary and secondary tenses (§ 357)",
+            "Translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXIII"
+            }
+          ],
+          "pages": "pp. 153–156",
+          "questions": [
+            "Give the imperfect subjunctive, 3rd singular active, of audiō.",
+            "Which tenses of the indicative are secondary?",
+            "Write in Latin: He sent messengers to announce the victory."
+          ],
+          "answers": [
+            "Audīret",
+            "Imperfect, perfect, pluperfect",
+            "Nūntiōs mīsit quī victōriam nūntiārent"
+          ]
+        },
+        {
+          "title": "Reading LXIII: Marcus Is Shipwrecked; Julia's Letter",
+          "steps": [
+            "Read note 9 on how a Roman letter begins, then translate the letter",
+            "Find the purpose clauses and say why their verbs are imperfect",
+            "Write a three-line letter home using Sī valēs, bene est; ego valeō"
+          ],
+          "links": [
+            {
+              "label": "Read selection LXIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LXIII"
+            }
+          ],
+          "pages": "pp. 206–207",
+          "questions": [
+            "Where had Marcus been fighting?",
+            "For how many days was the ship driven by the storm?",
+            "From which city did Marcus write?"
+          ],
+          "answers": [
+            "Asia",
+            "Three days and three nights",
+            "Athens"
+          ]
+        },
+        {
+          "title": "Lesson LXIV (Part 1): The Perfect and Pluperfect Subjunctive",
+          "steps": [
+            "Inflect the perfect (-erim) and pluperfect (-issem) subjunctive active of the model verbs",
+            "Form the passives with sim and essem (amātus sim, amātus essem)",
+            "Inflect fuerim and fuissem, then the same tenses of cūrō, iubeō, sūmō"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXIV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXIV"
+            }
+          ],
+          "pages": "pp. 156–157",
+          "questions": [
+            "How does the perfect subjunctive active differ from the future perfect indicative?",
+            "Give the pluperfect subjunctive, 3rd singular active, of regō.",
+            "Give the perfect subjunctive passive, 1st singular, of audiō."
+          ],
+          "answers": [
+            "Only in the 1st singular: -erim instead of -erō",
+            "Rēxisset",
+            "Audītus sim"
+          ]
+        },
+        {
+          "title": "Lesson LXIV (Part 2): Substantive Clauses of Purpose",
+          "steps": [
+            "Learn the rule: verbs of commanding, urging, asking, persuading, advising take ut/nē with the subjunctive",
+            "Learn the verb list in § 367 and the difference between iubeō (infinitive) and imperō (ut clause)",
+            "Translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read §§ 365–368",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec365"
+            }
+          ],
+          "pages": "pp. 157–159",
+          "questions": [
+            "Translate: Caesar Helvētiīs imperāvit nē per prōvinciam iter facerent.",
+            "Write in Latin with imperō: I order him to come.",
+            "Which verb of ordering takes the infinitive?"
+          ],
+          "answers": [
+            "Caesar ordered the Helvetii not to march through the province",
+            "Imperō eī ut veniat",
+            "Iubeō"
+          ]
+        },
+        {
+          "title": "Reading LXIV: Lentulus Reaches Home; a Trip to Pompeii",
+          "steps": [
+            "Translate the selection",
+            "Find the clauses after suādet and hortātur",
+            "Describe what Publius saw in the streets of Pompeii"
+          ],
+          "links": [
+            {
+              "label": "Read selection LXIV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LXIV"
+            }
+          ],
+          "pages": "pp. 207–208",
+          "questions": [
+            "At which harbor did Lentulus's ship land?",
+            "Why did Lentulus go to Pompeii?",
+            "By which gate did they enter the city?"
+          ],
+          "answers": [
+            "Misenum",
+            "To buy fruit and food for a dinner with friends",
+            "The Stabian Gate"
+          ]
+        },
+        {
+          "title": "Lesson LXV: The Subjunctive of possum; Verbs of Fearing",
+          "steps": [
+            "Learn the subjunctive of possum (§ 495) and its accents",
+            "Learn why ut after a verb of fearing means \"that not\" and nē means \"that\" or \"lest\"",
+            "Translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXV"
+            }
+          ],
+          "pages": "pp. 160–161",
+          "questions": [
+            "Translate: Vereor ut hostium impetum sustinēre possim.",
+            "Write in Latin: We fear lest they are coming.",
+            "Give the present subjunctive, 3rd plural, of possum."
+          ],
+          "answers": [
+            "I fear that I cannot withstand the enemy's attack",
+            "Timēmus nē veniant",
+            "Possint"
+          ]
+        },
+        {
+          "title": "Reading LXV: A Day at Pompeii",
+          "steps": [
+            "Translate the selection",
+            "Find the verb of fearing and the clauses after imperāvit",
+            "Read note 5 and explain how Romans counted the hours"
+          ],
+          "links": [
+            {
+              "label": "Read selection LXV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LXV"
+            }
+          ],
+          "pages": "pp. 208–209",
+          "questions": [
+            "Where did they plan to buy cakes?",
+            "What did Publius want to stay and see?",
+            "What later destroyed the buildings of Pompeii?"
+          ],
+          "answers": [
+            "At the baker's shop by the lion-head fountain",
+            "The gladiator shows in the amphitheater",
+            "The fire and earthquake of Vesuvius"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 10: Participles, Irregular Verbs, and Result (Lessons LXVI–LXVIII)",
+      "lessons": [
+        {
+          "title": "Lesson LXVI (Part 1): The Participles — Forms",
+          "steps": [
+            "Learn the four participles of each conjugation: present (-ns), future active (-ūrus), perfect passive, gerundive (-ndus)",
+            "Decline amāns and note -ī (adjective) versus -e (participle) in the ablative",
+            "Give the four participles of a deponent verb (hortāns, hortātūrus, hortātus, hortandus)"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXVI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXVI"
+            }
+          ],
+          "pages": "pp. 161–163",
+          "questions": [
+            "Give the present active participle of capiō.",
+            "Give the future active participle of regō.",
+            "Which verbs have a perfect participle with active meaning?"
+          ],
+          "answers": [
+            "Capiēns",
+            "Rēctūrus",
+            "Deponent verbs"
+          ]
+        },
+        {
+          "title": "Lesson LXVI (Part 2): Translating Participles",
+          "steps": [
+            "Study the five model sentences in § 377 and say which conjunction (when, since, though) fits each",
+            "Translate Exercise I without translating the participles word for word",
+            "Put Exercise II into Latin, using participles for the clauses"
+          ],
+          "links": [
+            {
+              "label": "Read §§ 377–378",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec377"
+            }
+          ],
+          "pages": "pp. 163–164",
+          "questions": [
+            "Translate: Oppidum captum vīdimus.",
+            "Translate: Sōl oriēns multōs interfectōs vīdit.",
+            "Write in Latin with a participle: frightened by the length of the way"
+          ],
+          "answers": [
+            "We saw the town which had been captured",
+            "The rising sun saw many slain",
+            "Longitūdine viae perterritī"
+          ]
+        },
+        {
+          "title": "Reading LXVI: Lentulus Engages a Tutor for His Son",
+          "steps": [
+            "Translate the selection",
+            "Find the relative clause of purpose (quī … docēret)",
+            "Read notes 9–10 and explain the bulla and the toga praetexta"
+          ],
+          "links": [
+            {
+              "label": "Read selection LXVI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LXVI"
+            }
+          ],
+          "pages": "pp. 209–211",
+          "questions": [
+            "Who had taught Publius before the tutor came?",
+            "What language did the tutor teach besides music?",
+            "Where did the boys sit for lessons?"
+          ],
+          "answers": [
+            "His mother Julia",
+            "Greek",
+            "In the peristyle of Marcus's house"
+          ]
+        },
+        {
+          "title": "Lesson LXVII (Part 1): The Irregular Verbs volō, nōlō, mālō",
+          "steps": [
+            "Learn the principal parts and conjugation of volō, nōlō, mālō (§ 497)",
+            "Note the irregular present indicative, subjunctive, infinitive, and imperfect subjunctive",
+            "Do Exercise I, 1–4, and Exercise II, 1–3"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXVII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXVII"
+            }
+          ],
+          "pages": "pp. 164–165",
+          "questions": [
+            "Translate: māvīs",
+            "Give the present infinitive of mālō.",
+            "Translate: Nōlīte!"
+          ],
+          "answers": [
+            "You prefer",
+            "Mālle",
+            "Do not! (Be unwilling!) — plural"
+          ]
+        },
+        {
+          "title": "Lesson LXVII (Part 2): The Ablative Absolute",
+          "steps": [
+            "Study the four model sentences in § 380 and the rule in § 381",
+            "Read Notes 1–3 (tē duce; when not to use the construction; changing the voice)",
+            "Translate Exercise I, 5–13, and put Exercise II, 4–8, into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read §§ 380–382",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec380"
+            }
+          ],
+          "pages": "pp. 165–166",
+          "questions": [
+            "Translate: Hīs rēbus cognitīs, mīlitēs fūgērunt.",
+            "Translate: tē duce",
+            "Write in Latin: the Gauls having been conquered by Caesar (ablative absolute)"
+          ],
+          "answers": [
+            "When these things were learned, the soldiers fled",
+            "With you as leader",
+            "Gallīs ā Caesare victīs"
+          ]
+        },
+        {
+          "title": "Reading LXVII: Publius Goes to Rome to Finish His Education",
+          "steps": [
+            "Translate the selection, tracing the route on a map of Italy",
+            "Find each ablative absolute",
+            "List the towns Publius passed through on the Appian Way"
+          ],
+          "links": [
+            {
+              "label": "Read selection LXVII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LXVII"
+            }
+          ],
+          "pages": "pp. 211–212",
+          "questions": [
+            "How old was Publius when he went to Rome?",
+            "Which famous orator welcomed them at Formiae?",
+            "How did travelers cross the great marshes?"
+          ],
+          "answers": [
+            "Fifteen",
+            "Cicero",
+            "By boat"
+          ]
+        },
+        {
+          "title": "Lesson LXVIII: The Irregular Verb fīō; the Subjunctive of Result",
+          "steps": [
+            "Learn the principal parts and conjugation of fīō (§ 500), the passive of faciō",
+            "Learn result clauses with ut and ut nōn, and compare them with purpose clauses (§ 387)",
+            "Translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXVIII"
+            }
+          ],
+          "pages": "pp. 167–169",
+          "questions": [
+            "Translate: Terror erat tantus ut omnēs fugerent.",
+            "How does a negative result clause differ from a negative purpose clause?",
+            "Translate: fīet"
+          ],
+          "answers": [
+            "The terror was so great that all fled",
+            "Result uses ut nōn; purpose uses nē",
+            "It will happen (it will be made)"
+          ]
+        },
+        {
+          "title": "Reading LXVIII: Publius Puts On the Toga Virilis",
+          "steps": [
+            "Translate the selection and Marcus's letter",
+            "Find the result clauses (ut … praebēret, ut … audīret)",
+            "Explain the difference between the toga praetexta and the toga virilis"
+          ],
+          "links": [
+            {
+              "label": "Read selection LXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LXVIII"
+            }
+          ],
+          "pages": "pp. 212–213",
+          "questions": [
+            "At what age did Publius put on the toga virilis?",
+            "What did Marcus dedicate to the household gods?",
+            "Where was Publius led after he put on the toga?"
+          ],
+          "answers": [
+            "Sixteen",
+            "The golden bulla",
+            "To the forum"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 11: Characteristic, cum, Gerunds, Indirect Statement (Lessons LXIX–LXXII)",
+      "lessons": [
+        {
+          "title": "Lesson LXIX: The Subjunctive of Characteristic; the Predicate Accusative",
+          "steps": [
+            "Study the four examples in § 389 and the difference between is quī dūcit and is quī dūcat",
+            "Learn the predicate accusative with verbs of making, choosing, and calling (creō, appellō, nōminō, vocō, faciō)",
+            "Translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXIX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXIX"
+            }
+          ],
+          "pages": "pp. 169–171",
+          "questions": [
+            "Translate: Nihil videō quod timeam.",
+            "Write in Latin: The Romans made Caesar consul.",
+            "Write in Latin: These are not the men to betray their friends."
+          ],
+          "answers": [
+            "I see nothing to fear",
+            "Rōmānī Caesarem cōnsulem fēcērunt",
+            "Hī nōn sunt iī quī amīcōs suōs trādant"
+          ]
+        },
+        {
+          "title": "Reading LXIX: Publius Joins Caesar's Army in Gaul",
+          "steps": [
+            "Translate the selection",
+            "Find the clause of characteristic (quī … praedīcerent) and the purpose clause with nē",
+            "Narrate how Publius got through the Gallic lines"
+          ],
+          "links": [
+            {
+              "label": "Read selection LXIX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LXIX"
+            }
+          ],
+          "pages": "pp. 213–215",
+          "questions": [
+            "Which mountains did Publius cross?",
+            "How did he get past the Gauls?",
+            "What rank did Caesar give him?"
+          ],
+          "answers": [
+            "The Alps",
+            "He put on Gallic clothing",
+            "Military tribune"
+          ]
+        },
+        {
+          "title": "Review VIII: Lessons LXI–LXIX",
+          "steps": [
+            "Review the vocabularies of the first seventeen lessons (§§ 502, 503, 506, 507)",
+            "Answer the review questions in § 528 on the subjunctive, participles, and irregular verbs",
+            "Inflect the subjunctive of one verb of each conjugation, active and passive"
+          ],
+          "links": [
+            {
+              "label": "Read Review VIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#review_VIII"
+            }
+          ],
+          "pages": "pp. 281–282",
+          "questions": [
+            "Name the four tenses of the subjunctive.",
+            "Which tenses are primary?",
+            "Give the participles of vereor."
+          ],
+          "answers": [
+            "Present, imperfect, perfect, pluperfect",
+            "Present, future, future perfect (and perfect definite)",
+            "Verēns, veritūrus, veritus, verendus"
+          ]
+        },
+        {
+          "title": "Lesson LXX: Constructions with cum; the Ablative of Specification",
+          "steps": [
+            "Learn cum temporal, causal, and concessive, and when cum takes the indicative",
+            "Learn the ablative of specification and the idioms certiōrem facere, iter dare, obsidēs dare",
+            "Translate Exercise I, explaining each mood after cum, and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXX"
+            }
+          ],
+          "pages": "pp. 171–173",
+          "questions": [
+            "Translate: Homō erat corpore īnfīrmus sed validus animō.",
+            "What does cum mean with a concessive subjunctive?",
+            "Write in Latin: We shall inform Caesar."
+          ],
+          "answers": [
+            "The man was weak in body but strong in courage",
+            "Although",
+            "Caesarem certiōrem faciēmus"
+          ]
+        },
+        {
+          "title": "Reading LXX: The Rival Centurions",
+          "steps": [
+            "Translate the story of Pullo and Vorenus",
+            "Find the cum clauses and say whether each is temporal, causal, or concessive",
+            "Narrate how the quarrel ended"
+          ],
+          "links": [
+            {
+              "label": "Read selection LXX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LXX"
+            }
+          ],
+          "pages": "pp. 215–216",
+          "questions": [
+            "What were the two centurions' names?",
+            "What stopped Pullo from drawing his sword?",
+            "Which of them was judged braver?"
+          ],
+          "answers": [
+            "Titus Pullo and Lucius Vorenus",
+            "A weapon stuck in his belt pushed the scabbard aside",
+            "Neither; no one could judge between them"
+          ]
+        },
+        {
+          "title": "Lesson LXXI (Part 1): Vocabulary Review; the Gerund and Gerundive",
+          "steps": [
+            "Review the word lists in §§ 510–511",
+            "Learn the gerund (amandī, amandō, amandum) and how it supplies the cases the infinitive lacks",
+            "Compare gerund and gerundive in § 405 and learn the purpose forms ad + accusative and genitive + causā"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXXI"
+            }
+          ],
+          "pages": "pp. 173–175",
+          "questions": [
+            "Translate: Superandō Gallōs Caesar magnam glōriam reportāvit.",
+            "Write in Latin with the gerundive: the hope of making peace",
+            "Write in Latin with causā: They came to see the city."
+          ],
+          "answers": [
+            "By overcoming the Gauls Caesar won great glory",
+            "Spēs faciendae pācis",
+            "Urbis videndae causā vēnērunt"
+          ]
+        },
+        {
+          "title": "Lesson LXXI (Part 2): The Predicate Genitive",
+          "steps": [
+            "Learn the predicate genitive (equus est Galbae) and the idioms in § 410",
+            "Translate Exercise I, saying which forms are gerunds and which gerundives",
+            "Put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read §§ 408–411",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec408"
+            }
+          ],
+          "pages": "pp. 175–177",
+          "questions": [
+            "Translate: Iubēre est rēgīnae.",
+            "What does novīs rēbus studēre mean?",
+            "Write in Latin: These ornaments belong to Cornelia."
+          ],
+          "answers": [
+            "To command is the queen's part (belongs to the queen)",
+            "To be eager for a revolution",
+            "Haec ōrnāmenta sunt Cornēliae"
+          ]
+        },
+        {
+          "title": "Reading LXXI: The Enemy Besieging the Camp Are Repulsed",
+          "steps": [
+            "Translate the selection",
+            "Find the gerund and the result clause in the same sentence",
+            "Narrate Publius's part in the battle"
+          ],
+          "links": [
+            {
+              "label": "Read selection LXXI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LXXI"
+            }
+          ],
+          "pages": "pp. 216–217",
+          "questions": [
+            "How long had the battle lasted before Caesar ordered the sally?",
+            "Why could the soldiers not throw their spears?",
+            "How far did Publius chase the enemy?"
+          ],
+          "answers": [
+            "Six hours",
+            "The enemy were too close; there was no room",
+            "To the Rhine, five miles away"
+          ]
+        },
+        {
+          "title": "Lesson LXXII (Part 1): The Irregular Verb eō and Its Compounds",
+          "steps": [
+            "Learn the principal parts and conjugation of eō (§ 499)",
+            "Learn the compounds adeō, exeō, ineō, redeō, trānseō",
+            "Do Exercise I, 1–4"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXXII"
+            }
+          ],
+          "pages": "pp. 177–178",
+          "questions": [
+            "Give the principal parts of eō.",
+            "Translate: ībunt",
+            "What does redeō mean?"
+          ],
+          "answers": [
+            "Eō, īre, iī (īvī), itum",
+            "They will go",
+            "Return"
+          ]
+        },
+        {
+          "title": "Lesson LXXII (Part 2): Indirect Statements",
+          "steps": [
+            "Compare English and Latin indirect statements (§§ 414–415)",
+            "Learn the rules for the accusative with infinitive and the tense of the infinitive",
+            "Learn the verbs of saying, knowing, thinking, perceiving; translate Exercise I, 5–14, and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read §§ 414–422",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec414"
+            }
+          ],
+          "pages": "pp. 178–181",
+          "questions": [
+            "Translate: Dīxit Gallōs fuisse fortīs.",
+            "Write in Latin: He says that the boy will be slow.",
+            "A future indicative in a direct statement becomes what in the indirect?"
+          ],
+          "answers": [
+            "He said that the Gauls had been brave",
+            "Dīcit puerum tardum futūrum esse",
+            "A future infinitive"
+          ]
+        },
+        {
+          "title": "Reading LXXII: Publius Goes to Germany; Its Forests and Strange Animals",
+          "steps": [
+            "Translate the selection",
+            "Find each indirect statement and turn one back into a direct statement",
+            "Describe the strange animals of the German forest"
+          ],
+          "links": [
+            {
+              "label": "Read selection LXXII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LXXII"
+            }
+          ],
+          "pages": "pp. 217–218",
+          "questions": [
+            "Which lieutenant led the legions against the Germans?",
+            "What was said about the size of the great forest?",
+            "Why could the elk not get up if it fell?"
+          ],
+          "answers": [
+            "Labienus",
+            "No one could cross it or knew its beginning or end",
+            "Its legs had no joints"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 12: Final Constructions and Review (Lessons LXXIII–LXXIX)",
+      "lessons": [
+        {
+          "title": "Lesson LXXIII: Vocabulary Review; ferō; the Dative with Compounds",
+          "steps": [
+            "Review the word lists in §§ 513–514",
+            "Learn the principal parts and conjugation of ferō (§ 498) and its compounds adferō, cōnferō, dēferō, īnferō, referō",
+            "Learn the dative with compound verbs and the idioms; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXXIII"
+            }
+          ],
+          "pages": "pp. 181–183",
+          "questions": [
+            "Give the principal parts of ferō.",
+            "Translate: Germānī Gallīs bellum īnferunt.",
+            "What does pedem referre mean?"
+          ],
+          "answers": [
+            "Ferō, ferre, tulī, lātus",
+            "The Germans make war upon the Gauls",
+            "To retreat"
+          ]
+        },
+        {
+          "title": "Reading LXXIII: The Storming of a City",
+          "steps": [
+            "Translate the selection",
+            "List the Roman siege machines and say what each did",
+            "Draw a simple sketch of an agger with a tower and vineae"
+          ],
+          "links": [
+            {
+              "label": "Read selection LXXIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LXXIII"
+            }
+          ],
+          "pages": "pp. 218–220",
+          "questions": [
+            "How high was the wall of the town?",
+            "What were the vīneae for?",
+            "What did the battering rams do?"
+          ],
+          "answers": [
+            "Twenty-five feet",
+            "To shelter soldiers as they came up to the wall",
+            "Broke down the wall and gates"
+          ]
+        },
+        {
+          "title": "Lesson LXXIV: Vocabulary Review; Indirect Questions",
+          "steps": [
+            "Review the word lists in §§ 517–518",
+            "Compare direct and indirect questions (§ 431) and the use of num for whether",
+            "Learn the idioms; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXIV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXXIV"
+            }
+          ],
+          "pages": "pp. 183–185",
+          "questions": [
+            "Translate: Rogāvit ubi esset Rōma.",
+            "Write in Latin: He asks who is conquering the Gauls.",
+            "What does dē tertiā vigiliā mean?"
+          ],
+          "answers": [
+            "He asked where Rome was",
+            "Rogat quis Gallōs vincat",
+            "About the third watch"
+          ]
+        },
+        {
+          "title": "Reading LXXIV: The City Is Taken; the Captives Are Questioned",
+          "steps": [
+            "Translate the selection",
+            "Find the indirect questions",
+            "Narrate how the town fell"
+          ],
+          "links": [
+            {
+              "label": "Read selection LXXIV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LXXIV"
+            }
+          ],
+          "pages": "pp. 220–222",
+          "questions": [
+            "Who gave the plan of attack in the council?",
+            "Whom had Caesar put in charge of the siege work?",
+            "At what time was the wall broken?"
+          ],
+          "answers": [
+            "One of the centurions",
+            "Publius",
+            "About the third watch"
+          ]
+        },
+        {
+          "title": "Lesson LXXV: Vocabulary Review; the Dative of Purpose",
+          "steps": [
+            "Review the word lists in §§ 521–522",
+            "Learn the dative of purpose, often with a second dative (praesidiō castrīs)",
+            "Learn the idioms; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXXV"
+            }
+          ],
+          "pages": "pp. 185–186",
+          "questions": [
+            "Translate: Duās legiōnēs praesidiō castrīs relīquit.",
+            "Write in Latin: to choose a place for a camp",
+            "Translate: Hoc erat magnō impedīmentō Gallīs."
+          ],
+          "answers": [
+            "He left two legions as a guard for the camp",
+            "Locum castrīs dēligere",
+            "This was a great hindrance to the Gauls"
+          ]
+        },
+        {
+          "title": "Reading LXXV: Civil War between Caesar and Pompey; the Battle of Pharsalia",
+          "steps": [
+            "Translate the selection",
+            "Read the notes on the Rubicon and on Labienus",
+            "Find the dative of purpose (praesidiō castrīs) and narrate the battle"
+          ],
+          "links": [
+            {
+              "label": "Read selection LXXV",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LXXV"
+            }
+          ],
+          "pages": "pp. 222–224",
+          "questions": [
+            "Which river did Caesar cross to begin the civil war?",
+            "How large was Pompey's army compared with Caesar's?",
+            "Which line did Caesar send in to win the battle?"
+          ],
+          "answers": [
+            "The Rubicon",
+            "Twice as large",
+            "His third line, kept fresh until then"
+          ]
+        },
+        {
+          "title": "Lesson LXXVI: Vocabulary Review; Genitive and Ablative of Description",
+          "steps": [
+            "Review the word lists in §§ 524–525",
+            "Learn when description uses the genitive (measure) and when the ablative (physical traits)",
+            "Learn the idioms; translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXVI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXXVI"
+            }
+          ],
+          "pages": "pp. 186–189",
+          "questions": [
+            "Translate: fossa duodecim pedum",
+            "Write in Latin: a man with big feet and a small head",
+            "Translate: Helvētiīs in animō est."
+          ],
+          "answers": [
+            "A ditch of twelve feet",
+            "Homō magnīs pedibus et parvō capite",
+            "The Helvetii intend"
+          ]
+        },
+        {
+          "title": "Reading LXXVI: The Triumph of Caesar",
+          "steps": [
+            "Translate the end of the story of Publius",
+            "Read the notes on the Sacred Way, the toga picta, and the lictors",
+            "Describe Caesar's triumphal procession in order"
+          ],
+          "links": [
+            {
+              "label": "Read selection LXXVI",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#reading_LXXVI"
+            }
+          ],
+          "pages": "pp. 224–225",
+          "questions": [
+            "What office was Caesar given?",
+            "How many horses drew his chariot?",
+            "Where did Publius go after the triumph?"
+          ],
+          "answers": [
+            "Dictator",
+            "Four white horses",
+            "Home to the villa to greet his father and mother"
+          ]
+        },
+        {
+          "title": "Lesson LXXVII: Review of Agreement and of the Genitive, Dative, and Accusative",
+          "steps": [
+            "Name the four kinds of agreement (§ 448)",
+            "List the uses of the genitive, dative, and accusative with an example of each",
+            "Translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXVII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXXVII"
+            }
+          ],
+          "pages": "pp. 189–191",
+          "questions": [
+            "Name three uses of the accusative.",
+            "Translate: Tōtīus Galliae Helvētiī plūrimum valuērunt.",
+            "Write in Latin: We marched for three hours."
+          ],
+          "answers": [
+            "Any three: direct object, predicate accusative, subject of the infinitive, object of a preposition, extent of time or space, place to which",
+            "The Helvetii were the most powerful of all Gaul",
+            "Trēs hōrās iter fēcimus"
+          ]
+        },
+        {
+          "title": "Lesson LXXVIII: Review of the Ablative",
+          "steps": [
+            "Sort the ablative uses into with/by, from/by, and in/at (§ 453)",
+            "Give a Latin example of each use from earlier lessons",
+            "Translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXXVIII"
+            }
+          ],
+          "pages": "pp. 191–192",
+          "questions": [
+            "Which kind of ablative is ā Caesare in Bellum ā Caesare gestum est?",
+            "Write in Latin: This road is ten miles shorter than that.",
+            "Write in Latin: At midnight the general set out."
+          ],
+          "answers": [
+            "Personal agent",
+            "Haec via est decem mīlibus passuum brevior quam illa",
+            "Mediā nocte imperātor profectus est"
+          ]
+        },
+        {
+          "title": "Lesson LXXIX: Review of the Gerund and Gerundive, the Infinitive, and the Subjunctive",
+          "steps": [
+            "Review the uses of the gerund, gerundive, and infinitive (§§ 455–457)",
+            "List the five uses of the subjunctive and give an example of each",
+            "Translate Exercise I and put Exercise II into Latin"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXIX",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#lesson_LXXIX"
+            }
+          ],
+          "pages": "pp. 192–194",
+          "questions": [
+            "Name the five uses of the subjunctive in § 458.",
+            "Translate: Nēmō relinquēbātur quī arma ferre posset.",
+            "Write in Latin with ad: to choose a place for a camp"
+          ],
+          "answers": [
+            "Purpose, result, characteristic, cum clauses, indirect questions",
+            "No one was left who could bear arms",
+            "Ad locum castrīs dēligendum"
+          ]
+        },
+        {
+          "title": "Appendixes: Tables of Forms and Rules of Syntax",
+          "steps": [
+            "Use Appendix I to recite one full declension and one full conjugation without the book",
+            "Read through the Rules of Syntax in Appendix II (§ 501) and mark any you need to review",
+            "Translate one favorite passage from the reading selections again, naming every construction"
+          ],
+          "links": [
+            {
+              "label": "Open Appendix I",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec460"
+            },
+            {
+              "label": "Open Appendix II: Rules of Syntax",
+              "url": "https://www.gutenberg.org/cache/epub/18251/pg18251-images.html#sec501"
+            }
+          ],
+          "pages": "pp. 226–264",
+          "questions": [
+            "What does the genitive singular end in for the fourth declension?",
+            "Give the terminations of the fifth-declension genitive singular.",
+            "How many declensions are there?"
+          ],
+          "answers": [
+            "-ūs",
+            "-ēī (-eī)",
+            "Five"
+          ],
+          "notes": "A wrap-up sitting; repeat it as needed for review."
+        }
+      ]
+    }
+  ]
+}

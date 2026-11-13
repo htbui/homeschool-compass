@@ -4,10 +4,11 @@ import { lessonTotal, outlinePreview, type PackageUnit } from '../package';
 import type { Philosophy, Subject } from '../types';
 
 /**
- * The Freerange Library: free curricula converted into lesson-by-lesson
- * plans. Only works anyone may adapt and share, even commercially (public
- * domain, CC0, CC BY, CC BY-SA), each credited to its source. It's the
- * catalog in local-only mode and is loaded into the live Marketplace too.
+ * Free & open curricula: classic and openly licensed curricula that Freerange
+ * converted into lesson-by-lesson plans. Only works anyone may adapt and
+ * share, even commercially (public domain, CC0, CC BY, CC BY-SA). Each is
+ * listed under its original author and credits its source. They're the
+ * catalog in local-only mode and are loaded into the live Marketplace too.
  */
 
 export interface LibraryLesson {
@@ -24,6 +25,8 @@ export interface LibraryEntry {
   key: string;
   /** Bump after changing the lessons, so families who have it get an update. */
   version?: number;
+  /** Who it's by, as families know them: the original author or publisher. */
+  seller: string;
   title: string;
   sourceTitle: string;
   author: string;
@@ -52,7 +55,8 @@ export interface LibraryEntry {
   units: { title: string; lessons: LibraryLesson[] }[];
 }
 
-export const LIBRARY_SELLER = 'Freerange Library';
+/** Who organized the lessons (credited in every plan). */
+export const CONVERTED_BY = 'Freerange';
 /** Library listings keep a fixed date so the seed and the app agree. */
 const LISTED_AT = '2026-11-11T12:00:00.000Z';
 
@@ -71,8 +75,8 @@ export function libraryAttribution(e: Omit<LibraryEntry, 'units'>): string {
   if (e.attribution) return e.attribution;
   const source = `“${e.sourceTitle}” by ${e.author} (${e.year})`;
   return e.license.kind === 'public_domain'
-    ? `Lesson plan by ${LIBRARY_SELLER} for ${source}, in the public domain. Free full text: ${e.sourceUrl}`
-    : `Adapted from ${source}, ${e.sourceUrl}. Organized into lessons by ${LIBRARY_SELLER}.`;
+    ? `${source}, in the public domain. Free full text: ${e.sourceUrl}. Lesson plan by ${CONVERTED_BY}.`
+    : `Adapted from ${source}, ${e.sourceUrl}. Organized into lessons by ${CONVERTED_BY}.`;
 }
 
 /** What the app bundles for each entry: everything but the lessons themselves. */
@@ -88,9 +92,9 @@ export function libraryListing(e: CatalogEntry): Listing {
   return {
     id: libraryId(e.key),
     title: e.title,
-    seller: LIBRARY_SELLER,
-    sellerKind: 'publisher',
-    sellerVerified: true,
+    seller: e.seller,
+    sellerKind: 'open',
+    sellerVerified: false,
     subjects: e.subjects,
     gradeMin: e.gradeMin,
     gradeMax: e.gradeMax,

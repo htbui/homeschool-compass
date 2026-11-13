@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { parseOutline, parseTable, parseWebPage, splitRows } from '../importers';
+import { linkScanPages, parseOutline, parseScanRecord, parseTable, parseWebPage, sourceAddress, splitRows } from '../importers';
 import { detectLicense, licenseUrl } from '../license';
 import { allLessons, attributionFor, lessonAt, newLesson, newPackage, newUnit, packageToListing, publishIssues, publishRules } from '../package';
 
@@ -174,5 +174,59 @@ describe('web page import', () => {
     expect(r.units).toEqual([]);
     expect(r.warnings.join(' ')).toMatch(/Couldn’t find a list of lessons/);
     expect(r.warnings.join(' ')).toMatch(/No license found/);
+  });
+});
+
+describe('books and scans', () => {
+  const GUTENBERG = `<html><head><title>The Project Gutenberg eBook of Bird Book</title></head><body>
+    <header><p><strong>Title</strong>: The Bird Book</p><p><strong>Author</strong>: T. W. Burgess</p>
+    <p>This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost.</p></header>
+    <h2>CONTENTS</h2>
+    <p><a href="#ch1" class="pginternal">CHAPTER I.</a> Jenny Wren Arrives.<br><a href="#ch2">CHAPTER II.</a> The Old Orchard Bully.<br><a href="#ch3">CHAPTER III.</a> Sparrows.</p>
+    <h2><a id="ch1"></a>CHAPTER I. Jenny Wren Arrives</h2><p>Text</p>
+    <h2><a id="ch2"></a>CHAPTER II. The Old Orchard Bully</h2><p>Text</p>
+    <h2><a id="ch3"></a>CHAPTER III. Sparrows</h2><p>Text</p></body></html>`;
+  const url = 'https://www.gutenberg.org/cache/epub/1/pg1-images.html';
+
+  it('reads a whole book on one page: chapters, author, and public-domain status', () => {
+    const r = parseWebPage(GUTENBERG, url);
+    expect(r).toMatchObject({ title: 'The Bird Book', author: 'T. W. Burgess', license: { kind: 'public_domain' } });
+    const lessons = r.units.flatMap((u) => u.lessons);
+    expect(lessons.map((l) => l.title)).toEqual(['CHAPTER I. Jenny Wren Arrives.', 'CHAPTER II. The Old Orchard Bully.', 'CHAPTER III. Sparrows.']);
+    expect(lessons[1].links[0].url).toBe(`${url}#ch2`);
+  });
+
+  it('falls back to chapter headings when there are no contents links', () => {
+    const r = parseWebPage(GUTENBERG.replace(/<p><a href="#ch1[\s\S]*?<\/p>/, ''), url);
+    expect(r.units.flatMap((u) => u.lessons).map((l) => l.links[0].url.split('#')[1])).toEqual(['ch1', 'ch2', 'ch3']);
+  });
+
+  it('marks copyrighted Gutenberg books as unknown', () => {
+    expect(parseWebPage(GUTENBERG.replace('This eBook', 'Copyrighted Project Gutenberg eBook. This eBook'), url).license).toBeUndefined();
+  });
+
+  it('explains script-built sites instead of finding nothing', () => {
+    const r = parseWebPage(`<html><body><div id="root"></div>${'<script src="a.js"></script>'.repeat(5)}</body></html>`, 'https://www.khanacademy.org/math/cc-third-grade-math');
+    expect(r.units).toHaveLength(0);
+    expect(r.warnings[0]).toMatch(/builds its pages with scripts/);
+  });
+
+  it('turns Gutenberg and archive.org addresses into what to read', () => {
+    expect(sourceAddress('https://www.gutenberg.org/ebooks/3074')).toEqual({ kind: 'gutenberg', fetchUrl: 'https://www.gutenberg.org/cache/epub/3074/pg3074-images.html' });
+    expect(sourceAddress('https://archive.org/details/raysnewprimarya00raygoog/page/n5')).toMatchObject({ kind: 'scan', scanId: 'raysnewprimarya00raygoog' });
+    expect(sourceAddress('https://example.org/course').kind).toBe('page');
+  });
+
+  it('reads archive.org records and links pasted contents to scan pages', () => {
+    const rec = { metadata: { title: "Ray's new primary arithmetic", creator: 'Ray, Joseph', date: '1877', 'possible-copyright-status': 'NOT_IN_COPYRIGHT' } };
+    expect(parseScanRecord(JSON.stringify(rec))).toEqual({ title: "Ray's new primary arithmetic", author: 'Ray, Joseph', year: 1877, publicDomain: true });
+    expect(parseScanRecord(JSON.stringify({ metadata: { ...rec.metadata, date: '1955' } })).publicDomain).toBe(false);
+    const units = parseOutline('Lesson I .... 5\nLesson II .... 7\nLesson III .... 9').units;
+    expect(linkScanPages(units, 'rays', 7)[0].lessons.map((l) => l.links[0].url)).toEqual([
+      'https://archive.org/details/rays/page/n11/mode/1up',
+      'https://archive.org/details/rays/page/n13/mode/1up',
+      'https://archive.org/details/rays/page/n15/mode/1up',
+    ]);
+    expect(linkScanPages(units, 'rays')[0].lessons[0].links[0].url).toBe('https://archive.org/details/rays/page/5/mode/1up');
   });
 });

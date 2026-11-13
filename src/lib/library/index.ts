@@ -4,7 +4,7 @@ import { libraryContent, libraryId, libraryListing, type CatalogEntry, type Libr
 import catalog from './catalog.json';
 import { LOADERS } from './loaders';
 
-export { LIBRARY_SELLER, libraryId } from './build';
+export { CONVERTED_BY, libraryId } from './build';
 
 /** Every Library curriculum, ready to show in the Marketplace. */
 export function libraryListings(): Listing[] {

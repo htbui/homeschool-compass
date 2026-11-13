@@ -264,7 +264,8 @@ async function run() {
   const beforeBump = (await store()).tasks.filter((t) => t.status === 'todo').length;
   await click('Bump remaining');
   await expect('Gentle bump');
-  await click('Next school day');
+  // When tomorrow is the flex day (Thursdays here), the one choice is labelled as the flex day.
+  await click((await bodyText()).includes('Next school day') ? 'Next school day' : 'Flex / catch-up day');
   await expect('Bumped', 'bump toast');
   const afterBump = await store();
   log(afterBump.tasks.some((t) => t.bumpedFrom), `tasks carry bumpedFrom (${beforeBump} todo before)`);
@@ -457,7 +458,7 @@ async function run() {
   scenario('Marketplace');
   await goTab('Marketplace');
   await click('🛍️ Browse');
-  await expect('Freerange Library: classic and openly licensed', 'local catalog is the Freerange Library');
+  await expect('Free & open curricula: classics and openly licensed', 'local catalog is the free & open curricula');
   await click('All grades', { exact: true });
   await fill('Search curricula, publishers, subjects…', 'phonics');
   await expect('McGuffey', 'search finds phonics');

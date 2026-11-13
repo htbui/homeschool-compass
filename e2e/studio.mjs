@@ -337,7 +337,7 @@ async function run() {
   await expect("What's inside");
   await expect('Counting to 10');
   await expect('License: Public domain');
-  await expect('Freerange Library');
+  await expect('by Joseph Ray', 'listed under its original author');
   await click('Get it free', { exact: true });
   await click('Get it free', { exact: true });
   await sleep(800);
@@ -374,7 +374,7 @@ async function run() {
   if (found) {
     await expect('Lesson 1 of 89: Lesson I: Counting to 10', 'mission shows the lesson title');
     await expect('Count out 1 to 10 buttons', 'mission steps come from the lesson');
-    await expect('Lesson plan by Freerange Library', 'credit shown on the lesson');
+    await expect('Lesson plan by Freerange', 'credit shown on the lesson');
     await click('Print worksheet');
     await click('Save & print').catch(() => {});
     await sleep(800);

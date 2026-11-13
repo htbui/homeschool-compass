@@ -1,0 +1,709 @@
+{
+  "key": "tanglewood-tales",
+  "title": "Tanglewood Tales",
+  "sourceTitle": "Tanglewood Tales for Girls and Boys; Being a Second Wonder-Book",
+  "author": "Nathaniel Hawthorne",
+  "seller": "Nathaniel Hawthorne",
+  "year": 1853,
+  "sourceUrl": "https://www.gutenberg.org/ebooks/976",
+  "readUrl": "https://www.gutenberg.org/cache/epub/976/pg976-images.html",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Project Gutenberg #976: 'Public domain in the USA'; first published in Boston by Ticknor, Reed, and Fields in 1853",
+  "subjects": [
+    "reading",
+    "history",
+    "geography"
+  ],
+  "gradeMin": 3,
+  "gradeMax": 6,
+  "philosophies": [
+    "charlotte_mason",
+    "classical",
+    "traditional"
+  ],
+  "lessonsPerWeek": 3,
+  "minutesPerLesson": 25,
+  "parentInvolvement": "high",
+  "familyStyle": true,
+  "cover": "🐏",
+  "color": "#9B6BD6",
+  "description": "Nathaniel Hawthorne's classic retelling of six Greek myths for children: Theseus and the Minotaur, Hercules and the Pygmies, Cadmus, Circe, Proserpina, and Jason and the Golden Fleece. Each long tale is split into sittings: you read a section aloud, your child narrates, and you finish with map work, a drawing, or copywork. A rich first taste of mythology for ages 8 to 12, and the full text is free online.",
+  "includes": [
+    "26 lessons in 6 units covering the introduction and all six tales",
+    "Clear start and stop points so each long tale fits 3 to 5 sittings",
+    "Narration every lesson, plus map work, drawing, or copywork",
+    "2 to 3 questions per lesson, with answers",
+    "Parent notes on Hawthorne's changes to the old myths and on sad scenes",
+    "Link to the free full text for every lesson"
+  ],
+  "units": [
+    {
+      "title": "Unit 1: The Wayside and The Minotaur",
+      "lessons": [
+        {
+          "title": "Lesson 1: The Wayside",
+          "steps": [
+            "Read “The Wayside” aloud: the narrator shows Eustace Bright his snowy hillside and reads the new stories",
+            "Narrate: who is Eustace Bright, and who are the children he tells his stories to?",
+            "Look ahead: read the six story titles together and guess what each one might be about"
+          ],
+          "links": [
+            {
+              "label": "Read “The Wayside”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0001"
+            }
+          ],
+          "questions": [
+            "Where did the narrator take Eustace to sit in the snow?",
+            "What earlier book of stories had Eustace already written?",
+            "Name two of the Tanglewood children."
+          ],
+          "answers": [
+            "To a ruined little summer house of branches halfway up his hillside",
+            "The “Wonder-Book”",
+            "Any two, e.g. Primrose, Periwinkle, Sweet Fern, Clover, Dandelion, Buttercup"
+          ],
+          "notes": "This short frame story is a sequel to Hawthorne's “A Wonder-Book.” It is wordy for young listeners; you may summarize it instead of reading every line."
+        },
+        {
+          "title": "Lesson 2: The Minotaur, part 1: The Stone and the Sword",
+          "steps": [
+            "Read from the start of “The Minotaur” to the point where Theseus enters Athens and hears people praising him",
+            "Narrate how Theseus finally got his father's sword and sandals",
+            "Map work: find Troezen and Athens on a map of ancient Greece and trace his road by land around the Saronic Gulf, through the Isthmus of Corinth"
+          ],
+          "links": [
+            {
+              "label": "Read “The Minotaur”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0002"
+            }
+          ],
+          "questions": [
+            "What did Theseus find under the great rock?",
+            "Why did Theseus choose to go to Athens by land instead of by sea?",
+            "What did the robber Procrustes do to travelers?"
+          ],
+          "answers": [
+            "A gold-hilted sword and a pair of sandals that belonged to his father",
+            "He wanted to meet the robbers and monsters on the road and fight them",
+            "Made them fit his bed by stretching them or cutting them shorter"
+          ]
+        },
+        {
+          "title": "Lesson 3: The Minotaur, part 2: Medea's Cup",
+          "steps": [
+            "Continue from where Theseus's jealous cousins meet him at the palace door; stop after Theseus catches the mad bull and the trouble with the Minotaur is about to begin",
+            "Narrate the scene in the throne room, step by step",
+            "Draw Medea flying away in her chariot pulled by winged serpents, with jewels falling on the crowd"
+          ],
+          "links": [
+            {
+              "label": "Read “The Minotaur”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0002"
+            }
+          ],
+          "questions": [
+            "What did Medea put in the goblet of wine?",
+            "What made King Aegeus stop and pull back the cup?",
+            "What happened to the jewels Medea stole?"
+          ],
+          "answers": [
+            "Poison",
+            "He saw the gold-hilted sword at Theseus's side and knew it was his own",
+            "She dropped them over the city, and the king let the people keep them"
+          ]
+        },
+        {
+          "title": "Lesson 4: The Minotaur, part 3: Black Sails to Crete",
+          "steps": [
+            "Continue from the morning Theseus wakes to the sound of the whole city weeping; stop when the captives are locked in the dungeon for the night",
+            "Narrate why Athens had to send young people to Crete, and what Theseus offered to do",
+            "Map work: trace the voyage from Athens across the Aegean Sea to the island of Crete"
+          ],
+          "links": [
+            {
+              "label": "Read “The Minotaur”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0002"
+            }
+          ],
+          "questions": [
+            "How many young men and maidens did Athens send to the Minotaur each year?",
+            "What did Aegeus ask Theseus to do with the sails if he won?",
+            "Who was Talus?"
+          ],
+          "answers": [
+            "Seven young men and seven maidens",
+            "Take down the black sails and raise bright, sunny ones",
+            "A giant man of brass who walked around Crete three times a day guarding it"
+          ]
+        },
+        {
+          "title": "Lesson 5: The Minotaur, part 4: The Labyrinth",
+          "steps": [
+            "Read from Ariadne coming to the dungeon with her torch to the end of the story",
+            "Narrate the fight in the labyrinth and how Theseus found his way out",
+            "Draw a maze with the Minotaur at the center, then trace Theseus's silken string through it"
+          ],
+          "links": [
+            {
+              "label": "Read “The Minotaur”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0002"
+            }
+          ],
+          "questions": [
+            "How did Theseus find his way back out of the labyrinth?",
+            "Why did Ariadne refuse to sail away with Theseus?",
+            "Why did King Aegeus throw himself into the sea?"
+          ],
+          "answers": [
+            "He followed the silk string that Ariadne held at the entrance",
+            "Her father was old and had no one else to love him",
+            "He saw black sails and thought Theseus had been eaten"
+          ],
+          "notes": "Hawthorne changes the ending: in the older myth Ariadne sails away with Theseus and he leaves her on an island. The sea where Aegeus fell is still called the Aegean. The king's death is sad, so preview it for sensitive listeners."
+        }
+      ]
+    },
+    {
+      "title": "Unit 2: The Pygmies",
+      "lessons": [
+        {
+          "title": "Lesson 6: The Pygmies, part 1: The Giant and the Little People",
+          "steps": [
+            "Read from the start of “The Pygmies” to the promise of a far more astonishing battle than any with the cranes",
+            "Narrate how the Pygmies and the Giant Antaeus lived together as brothers",
+            "Draw a Pygmy city of straw, feathers, and eggshells with Antaeus towering over it"
+          ],
+          "links": [
+            {
+              "label": "Read “The Pygmies”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_pyg"
+            }
+          ],
+          "questions": [
+            "What were the Pygmies' houses made of?",
+            "Who were the Pygmies always at war with?",
+            "How did Antaeus help the Pygmies when the sun was too hot?"
+          ],
+          "answers": [
+            "Straw, feathers, eggshells, and bits of stuff stuck together with clay, like birds' nests",
+            "The cranes",
+            "He sat down so his shadow covered their whole kingdom"
+          ],
+          "notes": "These Pygmies are tiny made-up people from Greek legend, not the real peoples of central Africa sometimes called by that name. Hawthorne also gives Antaeus one eye, which is his own invention."
+        },
+        {
+          "title": "Lesson 7: The Pygmies, part 2: Hercules and Antaeus",
+          "steps": [
+            "Continue from the Pygmy who climbs the sleeping Giant's shoulder and spots a moving mountain; stop when Hercules lies down on his lion's skin and falls asleep",
+            "Narrate the fight and explain the trick Hercules used to win",
+            "Act it out: one child is Antaeus, who gets stronger every time he touches the floor"
+          ],
+          "links": [
+            {
+              "label": "Read “The Pygmies”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_pyg"
+            }
+          ],
+          "questions": [
+            "What happened to Antaeus every time he touched the ground?",
+            "How did Hercules finally beat him?",
+            "Where was Hercules going?"
+          ],
+          "answers": [
+            "He grew much stronger, because the Earth was his mother",
+            "He lifted Antaeus up into the air until his strength and breath were gone",
+            "To the garden of the Hesperides to get three golden apples"
+          ]
+        },
+        {
+          "title": "Lesson 8: The Pygmies, part 3: The Pygmies' War",
+          "steps": [
+            "Read from the Pygmy orator climbing onto a toadstool to the end of the story",
+            "Narrate the Pygmies' plan to defeat Hercules and what happened",
+            "Copywork: copy Hercules's question about how big the Pygmy's soul is, and the Pygmy's answer; talk about what it means"
+          ],
+          "links": [
+            {
+              "label": "Read “The Pygmies”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_pyg"
+            }
+          ],
+          "questions": [
+            "What did the Pygmies pile around Hercules's head?",
+            "Which Pygmy did Hercules happen to pick up and hold on his palm?",
+            "Why did Hercules leave the kingdom in peace?"
+          ],
+          "answers": [
+            "Sticks, straw, and dry weeds, which they set on fire",
+            "The orator who had offered to fight Hercules alone",
+            "He admired the Pygmies' courage and did not want to hurt such brave people"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 3: The Dragon's Teeth",
+      "lessons": [
+        {
+          "title": "Lesson 9: The Dragon's Teeth, part 1: Europa and the White Bull",
+          "steps": [
+            "Read from the start of “The Dragon's Teeth” to the place where we must leave King Agenor on his throne and follow the queen",
+            "Narrate how Europa was carried away",
+            "Map work: find Phoenicia on the eastern shore of the Mediterranean (today's Lebanon)"
+          ],
+          "links": [
+            {
+              "label": "Read “The Dragon's Teeth”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_dragon"
+            }
+          ],
+          "questions": [
+            "What were Europa's brothers chasing when the bull came?",
+            "Where did the white bull carry Europa?",
+            "What did King Agenor tell his sons?"
+          ],
+          "answers": [
+            "A butterfly",
+            "Into the sea and far away across the water",
+            "Never to come home unless they brought Europa back with them"
+          ]
+        },
+        {
+          "title": "Lesson 10: The Dragon's Teeth, part 2: The Long Search",
+          "steps": [
+            "Continue from the searchers crossing mountains, rivers, and seas; stop after Cadmus plants flowers on his mother's grave",
+            "Narrate what happened to each searcher: Phoenix, Cilix, Thasus, and Queen Telephassa",
+            "Make a chart with four columns, one for each searcher who stopped, and tell why each stopped"
+          ],
+          "links": [
+            {
+              "label": "Read “The Dragon's Teeth”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_dragon"
+            }
+          ],
+          "questions": [
+            "What happened at each place where a searcher stopped and built a hut?",
+            "Why did the people make Thasus king, even though he had no royal blood?",
+            "Where did Telephassa tell Cadmus to go next?"
+          ],
+          "answers": [
+            "Other people came, a city grew up, and he was made its king",
+            "Because he was upright, true-hearted, and brave",
+            "To the oracle at Delphi"
+          ],
+          "notes": "Queen Telephassa dies peacefully in this part. It is told gently, but preview it if your child is sensitive."
+        },
+        {
+          "title": "Lesson 11: The Dragon's Teeth, part 3: Follow the Cow",
+          "steps": [
+            "Continue from Cadmus setting off alone for Delphi; stop when he says the plain where the cow lay down will be their home",
+            "Narrate what the oracle said and how Cadmus found his new home",
+            "Map work: find Mount Parnassus and Delphi, then find Thebes, the city tradition says Cadmus built"
+          ],
+          "links": [
+            {
+              "label": "Read “The Dragon's Teeth”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_dragon"
+            }
+          ],
+          "questions": [
+            "What did the voice at Delphi tell Cadmus?",
+            "What kind of cow did Cadmus follow?",
+            "Why did other people start following the cow too?"
+          ],
+          "answers": [
+            "Seek her no more; follow the cow; where the cow lies down is your home",
+            "A brindled cow",
+            "She was enchanted, and anyone who followed her a few steps could not help going on"
+          ]
+        },
+        {
+          "title": "Lesson 12: The Dragon's Teeth, part 4: The Armed Men",
+          "steps": [
+            "Read from Cadmus's friends going to fetch water at the tuft of trees to the end of the story",
+            "Narrate what grew from the dragon's teeth and how Cadmus made peace",
+            "Draw helmets and spears sprouting from the field like a crop"
+          ],
+          "links": [
+            {
+              "label": "Read “The Dragon's Teeth”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_dragon"
+            }
+          ],
+          "questions": [
+            "How did Cadmus defeat the dragon?",
+            "What made the armed men fight one another?",
+            "Who was waiting in Cadmus's new palace?"
+          ],
+          "answers": [
+            "He jumped into its mouth, past its teeth, and fought it from inside",
+            "Cadmus threw a stone into the middle of them",
+            "Harmonia, a daughter of the sky, not his sister Europa"
+          ],
+          "notes": "Hawthorne ends by saying Cadmus invented the ABC. The old Greeks believed Cadmus brought the alphabet from Phoenicia, and our alphabet really does descend from the Phoenician one."
+        }
+      ]
+    },
+    {
+      "title": "Unit 4: Circe's Palace",
+      "lessons": [
+        {
+          "title": "Lesson 13: Circe's Palace, part 1: The Green Island",
+          "steps": [
+            "Read from the start of “Circe's Palace” to Eurylochus and his twenty-two men setting off for the palace",
+            "Narrate the troubles Ulysses had already met, and how he decided who would go to the palace",
+            "Map work: find Troy and Ithaca, and talk about how far Ulysses had to sail to get home"
+          ],
+          "links": [
+            {
+              "label": "Read “Circe's Palace”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0003"
+            }
+          ],
+          "questions": [
+            "What was inside the leather bags the sailors opened?",
+            "What did the little purple bird try to do?",
+            "How did Ulysses decide which half of the crew would go?"
+          ],
+          "answers": [
+            "Winds and storms that King Aeolus had tied up",
+            "Keep Ulysses from going toward the palace",
+            "By drawing lots: two shells marked “Go” and “Stay” in his helmet"
+          ],
+          "notes": "Ulysses is the Roman name for the Greek hero Odysseus. This tale retells part of Homer's Odyssey."
+        },
+        {
+          "title": "Lesson 14: Circe's Palace, part 2: The Marble Palace",
+          "steps": [
+            "Continue from the men climbing the cliff and smelling the kitchen smoke; stop when Eurylochus, hidden behind a pillar, sees the fountain take the shape of a hog",
+            "Narrate everything strange the men met on the way to the palace",
+            "Draw the magic fountain changing shapes: a man, a lion, a wolf, a hog"
+          ],
+          "links": [
+            {
+              "label": "Read “Circe's Palace”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0003"
+            }
+          ],
+          "questions": [
+            "How did the lions, tigers, and wolves behave toward the sailors?",
+            "Why did Eurylochus stay behind a pillar?",
+            "What did the fountain look like at the end of this part?"
+          ],
+          "answers": [
+            "They fawned on them like friendly house dogs",
+            "He was wary and thought something bad would happen",
+            "A hog wallowing in the basin"
+          ]
+        },
+        {
+          "title": "Lesson 15: Circe's Palace, part 3: The Feast",
+          "steps": [
+            "Continue from the beautiful woman showing the sailors her tapestry; stop after Quicksilver explains what became of the sailors",
+            "Narrate the feast and what Circe did when it was over",
+            "Discuss: why do you think Circe turned these men into pigs and not some other animal?"
+          ],
+          "links": [
+            {
+              "label": "Read “Circe's Palace”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0003"
+            }
+          ],
+          "questions": [
+            "What pictures were woven into Circe's tapestry?",
+            "What happened when Circe waved her wand at the end of the feast?",
+            "Who was the purple bird, according to Quicksilver?"
+          ],
+          "answers": [
+            "The sailors' own adventures, like the Cyclops's cave and the bags of wind",
+            "The sailors turned into hogs",
+            "A king named Picus who had been too proud of his fine clothes and crown"
+          ]
+        },
+        {
+          "title": "Lesson 16: Circe's Palace, part 4: The Snow-White Flower",
+          "steps": [
+            "Read from Ulysses asking whether he can still help his men to the end of the story",
+            "Narrate how Ulysses beat Circe's magic",
+            "Copywork: copy the sentence where Ulysses tells his men their future behavior will decide whether they end up back in the sty"
+          ],
+          "links": [
+            {
+              "label": "Read “Circe's Palace”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0003"
+            }
+          ],
+          "questions": [
+            "What did Quicksilver give Ulysses?",
+            "Why did Ulysses leave the lions, tigers, and wolves as beasts?",
+            "How did King Picus change after he was a man again?"
+          ],
+          "answers": [
+            "A rare snow-white flower to smell so the magic could not change him",
+            "So they would warn people of their cruel natures instead of pretending to be kind men",
+            "He stopped being proud and saw himself as a servant of his people"
+          ],
+          "notes": "Quicksilver is Hawthorne's playful name for Mercury (the Greek Hermes). In Homer the magic plant is called moly."
+        }
+      ]
+    },
+    {
+      "title": "Unit 5: The Pomegranate Seeds",
+      "lessons": [
+        {
+          "title": "Lesson 17: The Pomegranate Seeds, part 1: The Wonderful Shrub",
+          "steps": [
+            "Read from the start of “The Pomegranate Seeds” until Proserpina's last scream as she passes her mother in the grain field",
+            "Narrate how Proserpina was carried off",
+            "Map work: find Sicily, Mount Etna (Aetna), and the town of Enna in the middle of the island"
+          ],
+          "links": [
+            {
+              "label": "Read “The Pomegranate Seeds”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0004"
+            }
+          ],
+          "questions": [
+            "What did the sea nymphs make for Proserpina?",
+            "What happened when Proserpina pulled up the shrub?",
+            "What did Pluto offer Proserpina?"
+          ],
+          "answers": [
+            "A necklace of shells",
+            "The hole grew deeper and deeper, and Pluto's chariot burst out of it",
+            "His palace, his crown, and all the gems and gold under the earth"
+          ],
+          "notes": "Hawthorne uses the Roman names: Ceres, Proserpina, and Pluto are the Greek Demeter, Persephone, and Hades."
+        },
+        {
+          "title": "Lesson 18: The Pomegranate Seeds, part 2: Pluto's Kingdom",
+          "steps": [
+            "Continue from the road growing gloomy between rocks and precipices; stop when Ceres puts the strange flower in her bosom and goes on searching",
+            "Narrate Proserpina's arrival in Pluto's kingdom, then what Ceres did when she found her daughter gone",
+            "Draw Cerberus with his three heads and his dragon tail"
+          ],
+          "links": [
+            {
+              "label": "Read “The Pomegranate Seeds”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0004"
+            }
+          ],
+          "questions": [
+            "What does the water of the River Lethe do?",
+            "Why would Proserpina not drink it?",
+            "What is the rule about eating food in the land of magic?"
+          ],
+          "answers": [
+            "It makes people forget all their cares and sorrows",
+            "She would rather be sad and remember her mother than forget her",
+            "If you taste any food there, you can never go back home"
+          ]
+        },
+        {
+          "title": "Lesson 19: The Pomegranate Seeds, part 3: The Torch That Never Went Out",
+          "steps": [
+            "Continue from Ceres knocking at cottage doors all night; stop when Ceres tells Phoebus he has a harp instead of a heart",
+            "Narrate whom Ceres asked for help and what each one said",
+            "Discuss: how were Hecate and Phoebus different from each other, and was either one a good friend?"
+          ],
+          "links": [
+            {
+              "label": "Read “The Pomegranate Seeds”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0004"
+            }
+          ],
+          "questions": [
+            "What was strange about Ceres's torch?",
+            "What had Hecate heard nine days earlier?",
+            "Who finally told Ceres where Proserpina was?"
+          ],
+          "answers": [
+            "It never went out, in rain or wind, day or night",
+            "A girl screaming, and wheels rumbling toward the east",
+            "Phoebus"
+          ]
+        },
+        {
+          "title": "Lesson 20: The Pomegranate Seeds, part 4: The Baby Prince and the Barren Earth",
+          "steps": [
+            "Continue from Hecate going back to her cave and Ceres wandering on alone; stop when Quicksilver goes up the stairs to see King Pluto",
+            "Narrate what happened at the palace in Eleusis, and why nothing would grow",
+            "Map work: find Eleusis, near Athens"
+          ],
+          "links": [
+            {
+              "label": "Read “The Pomegranate Seeds”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0004"
+            }
+          ],
+          "questions": [
+            "Why did Ceres lay baby Demophoon in the hot embers?",
+            "What did Queen Metanira's interruption cost her son?",
+            "What did Ceres forbid until Proserpina came back?"
+          ],
+          "answers": [
+            "To make him immortal",
+            "He would grow old and die like other people instead of living forever",
+            "Every crop, fruit, blade of grass, and flower from growing"
+          ]
+        },
+        {
+          "title": "Lesson 21: The Pomegranate Seeds, part 5: Six Seeds",
+          "steps": [
+            "Read from Proserpina's six months in Pluto's palace to the end of the story",
+            "Narrate how Proserpina came home and why she must go back each year",
+            "Science link: connect the six months above and six below to the seasons, and draw the year as a circle half green, half bare"
+          ],
+          "links": [
+            {
+              "label": "Read “The Pomegranate Seeds”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0004"
+            }
+          ],
+          "questions": [
+            "Why was there only one dried-up pomegranate to bring her?",
+            "What told Ceres something had changed before she saw Proserpina?",
+            "How many months a year must Proserpina spend with Pluto, and why?"
+          ],
+          "answers": [
+            "Ceres had stopped all fruit from growing on the earth",
+            "Her torch went out and the fields turned green",
+            "Six, one for each pomegranate seed left in her mouth"
+          ],
+          "notes": "The old Greeks used this story to explain winter: the earth is bare while Persephone is away."
+        }
+      ]
+    },
+    {
+      "title": "Unit 6: The Golden Fleece",
+      "lessons": [
+        {
+          "title": "Lesson 22: The Golden Fleece, part 1: The Old Woman at the River",
+          "steps": [
+            "Read from the start of “The Golden Fleece” until the old woman hobbles away with her peacock",
+            "Narrate what Jason learned from Chiron, and what happened at the river",
+            "Map work: find Mount Olympus and Iolcus (Iolchos) in Thessaly"
+          ],
+          "links": [
+            {
+              "label": "Read “The Golden Fleece”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0005"
+            }
+          ],
+          "questions": [
+            "What kind of creature was Jason's teacher Chiron?",
+            "What did Jason lose crossing the river?",
+            "What reason did the old woman give for why Jason should help her?"
+          ],
+          "answers": [
+            "A centaur: half man, half horse",
+            "One of his father's golden-stringed sandals",
+            "Kings are meant to help the weak and needy"
+          ]
+        },
+        {
+          "title": "Lesson 23: The Golden Fleece, part 2: The Man with One Sandal",
+          "steps": [
+            "Continue from Jason arriving at a crowd gathered by the sea; stop when the oaken figurehead speaks to Jason for the first time",
+            "Narrate how Jason ended up promising to fetch the Golden Fleece",
+            "Draw the Argo with its fifty oars and the carved woman on its prow"
+          ],
+          "links": [
+            {
+              "label": "Read “The Golden Fleece”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0005"
+            }
+          ],
+          "questions": [
+            "Why was King Pelias afraid of a man with one sandal?",
+            "What did the Talking Oak tell Jason to do first?",
+            "What was special about the figurehead?"
+          ],
+          "answers": [
+            "The Speaking Oak had said such a man would take his throne",
+            "Go to Argus and have him build a ship with fifty oars",
+            "It was carved from a branch of the Talking Oak and could speak and give advice"
+          ]
+        },
+        {
+          "title": "Lesson 24: The Golden Fleece, part 3: The Voyage of the Argo",
+          "steps": [
+            "Continue from Jason asking the figurehead where to find fifty bold rowers; stop after the steel-feathered birds fly off and Orpheus is asked to stop singing",
+            "Narrate the voyage, one adventure at a time",
+            "Make a list of the Argonauts named in the story and one special gift each one had"
+          ],
+          "links": [
+            {
+              "label": "Read “The Golden Fleece”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0005"
+            }
+          ],
+          "questions": [
+            "How did the Argonauts launch the heavy ship?",
+            "How did the Argo's crew stop the Harpies from stealing King Phineus's food?",
+            "How did they drive off the birds shooting steel feathers?"
+          ],
+          "answers": [
+            "Orpheus played his harp while they sat with oars raised, and the ship slid into the sea",
+            "They set out a feast as bait, and the winged sons of the North Wind chased the Harpies off",
+            "By banging their swords on their shields"
+          ],
+          "notes": "Hawthorne pokes fun at Atalanta for talking about \"the rights of women\", a dated 1853 joke worth a quick conversation."
+        },
+        {
+          "title": "Lesson 25: The Golden Fleece, part 4: The Brazen Bulls",
+          "steps": [
+            "Continue from two young princes sailing up to the island; stop when Jason has plowed the field and sown the dragon's teeth",
+            "Narrate King Aetes's tasks and how Medea helped Jason",
+            "Map work: trace the Argo's route through the Black Sea to Colchis (today's country of Georgia)"
+          ],
+          "links": [
+            {
+              "label": "Read “The Golden Fleece”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0005"
+            }
+          ],
+          "questions": [
+            "What two things did King Aetes say Jason must do before facing the dragon?",
+            "What protected Jason from the bulls' fiery breath?",
+            "What saying comes from the way Jason tamed the bulls?"
+          ],
+          "answers": [
+            "Tame and yoke the fire-breathing brass bulls, then plow a field and sow dragon's teeth",
+            "Medea's magic ointment",
+            "“Taking the bull by the horns”"
+          ],
+          "notes": "This Medea is the same enchantress who tried to poison Theseus in “The Minotaur.” Hawthorne also calls Circe her aunt."
+        },
+        {
+          "title": "Lesson 26: The Golden Fleece, part 5: The Grove of Mars",
+          "steps": [
+            "Read from Jason asking Medea how long he must wait for harvest to the end of the book",
+            "Narrate how Jason won the Golden Fleece and escaped",
+            "Draw the Golden Fleece glowing on its tree in the dark grove, with the dragon coiled around the trunk"
+          ],
+          "links": [
+            {
+              "label": "Read “The Golden Fleece”",
+              "url": "https://www.gutenberg.org/cache/epub/976/pg976-images.html#link2H_4_0005"
+            }
+          ],
+          "questions": [
+            "How did Jason defeat the army that grew from the dragon's teeth?",
+            "How did Jason feel after the battle, and what did he say?",
+            "How did Medea get past the dragon?"
+          ],
+          "answers": [
+            "Medea told him to throw a stone among them, and they fought each other",
+            "Sad; he said the Fleece no longer seemed so worth winning",
+            "She threw a sleeping potion down its throat"
+          ],
+          "notes": "Medea hints that the old woman with the peacock was a goddess: in the old myths she is Juno (Hera). Hawthorne stops the story as the Argo sails home; the older myth goes on to darker events not suited to young children."
+        }
+      ]
+    }
+  ]
+}

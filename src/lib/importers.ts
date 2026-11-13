@@ -339,12 +339,20 @@ export function parseWebPage(html: string, pageUrl: string): WebImport {
       }
     } else {
       const href = m[4].match(/href=["']([^"']+)["']/i)?.[1];
-      if (href) tokens.push({ kind: 'link', text: textOf(m[5]), href });
+      let text = textOf(m[5]);
+      // Contents lines like "<a>CHAPTER I.</a> Jenny Wren Arrives": keep the name that follows the label.
+      if (href?.startsWith('#') && /^((chapter|lesson|part|book|section|story|lecture)\s+)?[ivxlcdm\d]+\.?$/i.test(text)) {
+        const tail = textOf(body.slice(re.lastIndex, re.lastIndex + 300).split(/<(?:br|a\b|\/?p\b|\/td|\/tr|\/li|\/div|\/?h\d)/i)[0]);
+        if (tail) text = `${text} ${tail}`;
+      }
+      if (href) tokens.push({ kind: 'link', text, href });
     }
   }
 
   const units: PackageUnit[] = [];
   const seen = new Set<string>();
+  // Links to places on this same page: the table of contents of a book on one page (Project Gutenberg).
+  const anchors: PackageLesson[] = [];
   let current: PackageUnit | undefined;
   for (const t of tokens) {
     if (t.kind === 'heading') {
@@ -362,7 +370,13 @@ export function parseWebPage(html: string, pageUrl: string): WebImport {
         continue;
       }
       if (!/^https?:$/.test(url.protocol) || SOCIAL.test(url.hostname) || /creativecommons\.org/.test(url.hostname) || HOUSEKEEPING.test(url.href)) continue;
-      if (url.href.split('#')[0] === base.href.split('#')[0]) continue;
+      if (url.href.split('#')[0] === base.href.split('#')[0]) {
+        if (url.hash.length > 1 && !seen.has(url.href)) {
+          seen.add(url.href);
+          anchors.push(newLesson(t.text, { links: [{ label: 'Read', url: url.href }] }));
+        }
+        continue;
+      }
       if (seen.has(url.href)) continue;
       seen.add(url.href);
       lesson = newLesson(t.text, { links: [{ label: 'Open lesson', url: url.href }] });
@@ -375,9 +389,116 @@ export function parseWebPage(html: string, pageUrl: string): WebImport {
     }
     current.lessons.push(lesson);
   }
-  const kept = units.filter((u) => u.lessons.length);
-  if (!kept.length) warnings.push('Couldn’t find a list of lessons on that page. Paste the course outline instead — the source and license are still recorded.');
+  let kept = units.filter((u) => u.lessons.length);
+  const linked = kept.reduce((n, u) => n + u.lessons.filter((l) => l.links.length).length, 0);
+  // A whole book on one page: its contents links (or, without them, its chapter headings) are the lessons.
+  const onPage = anchors.length >= 3 ? anchors : headingAnchors(body, base);
+  if (onPage.length >= 3 && linked < onPage.length / 2) {
+    kept = chunkUnits(onPage);
+    warnings.length = 0;
+    warnings.push('This looks like a whole book on one page, so each chapter became a lesson. Group them into units in the editor if you like.');
+  }
+  if (!kept.length && scriptBuilt(html)) warnings.push('This site builds its pages with scripts, so its outline can’t be read automatically. Open the course in your browser, select its list of units and lessons, copy it, and paste it below. Lesson links you paste with it are kept.');
+  else if (!kept.length) warnings.push('Couldn’t find a list of lessons on that page. Paste the course outline instead — the source and license are still recorded.');
   else if (kept.length < units.length) warnings.push('Some sections without lessons were left out.');
   if (!license) warnings.push('No license found on that page. Check the source’s terms and choose its license before publishing.');
-  return { units: kept.slice(0, 60).map((u) => ({ ...u, lessons: u.lessons.slice(0, 200) })), warnings, title, author, license };
+  const gutenberg = gutenbergInfo(html);
+  return {
+    units: kept.slice(0, 60).map((u) => ({ ...u, lessons: u.lessons.slice(0, 200) })),
+    warnings: license || !gutenberg ? warnings : warnings.filter((w) => !w.startsWith('No license')),
+    title: gutenberg?.title ?? title,
+    author: gutenberg?.author ?? author,
+    license: license ?? gutenberg?.license,
+  };
+}
+
+/** Headings that carry an id (chapters of a one-page book with no contents links). */
+function headingAnchors(body: string, base: URL): PackageLesson[] {
+  const out: PackageLesson[] = [];
+  const re = /<(h[1-3])\b([^>]*)>([\s\S]*?)<\/\1>/gi;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(body))) {
+    const id = m[2].match(/\bid=["']([^"']+)["']/i)?.[1] ?? m[3].match(/<a\b[^>]*\b(?:id|name)=["']([^"']+)["']/i)?.[1];
+    const text = textOf(m[3]);
+    if (!id || !text || text.length > 160 || /^(contents|table of contents|preface|index|footnotes?|transcriber.*)$/i.test(text)) continue;
+    out.push(newLesson(text, { links: [{ label: 'Read', url: new URL(`#${id}`, base).href }] }));
+  }
+  return out;
+}
+
+/** Long lists of chapters → units of about ten. */
+function chunkUnits(lessons: PackageLesson[], size = 10): PackageUnit[] {
+  const units: PackageUnit[] = [];
+  for (let i = 0; i < lessons.length; i += size) units.push(newUnit(lessons.length > size ? `Lessons ${i + 1}–${Math.min(lessons.length, i + size)}` : 'Lessons', lessons.slice(i, i + size)));
+  return units;
+}
+
+/** Pages whose content arrives by script: almost no text, lots of script. */
+function scriptBuilt(html: string): boolean {
+  const scripts = (html.match(/<script\b/gi) ?? []).length;
+  const text = textOf(html.replace(/<(script|style|noscript)\b[\s\S]*?<\/\1>/gi, ' '));
+  return scripts >= 3 && text.length < 1500;
+}
+
+/** Project Gutenberg's header: title, author, and whether it's public domain in the US. */
+export function gutenbergInfo(html: string): { title?: string; author?: string; license?: License } | undefined {
+  if (!/Project Gutenberg/i.test(html)) return undefined;
+  const text = textOf(html.slice(0, 60000));
+  const field = (name: string) => {
+    const v = html.match(new RegExp(`<strong>${name}</strong>\\s*:\\s*([^<]+)`, 'i'))?.[1] ?? text.match(new RegExp(`^${name}:\\s*(.+)$`, 'im'))?.[1];
+    return v ? decode(v).replace(/\s+/g, ' ').trim() : undefined;
+  };
+  const free = /for the use of anyone anywhere in the United States/i.test(text) && !/Copyrighted Project Gutenberg/i.test(text);
+  return { title: field('Title'), author: field('Author'), license: free ? { kind: 'public_domain' } : undefined };
+}
+
+// ───────────────────────────── Where the course lives
+
+export type SourceKind = 'gutenberg' | 'scan' | 'page';
+
+/**
+ * The page to read for a course address. Project Gutenberg book pages point
+ * to the book itself (one HTML page with every chapter); archive.org scans
+ * have no text outline, so their outline is pasted and linked page by page.
+ */
+export function sourceAddress(url: string): { kind: SourceKind; fetchUrl: string; scanId?: string } {
+  const u = new URL(url);
+  const host = u.hostname.replace(/^www\./, '');
+  const gb = host.endsWith('gutenberg.org') ? u.pathname.match(/^\/ebooks\/(\d+)/) : null;
+  if (gb) return { kind: 'gutenberg', fetchUrl: `https://www.gutenberg.org/cache/epub/${gb[1]}/pg${gb[1]}-images.html` };
+  if (host.endsWith('gutenberg.org')) return { kind: 'gutenberg', fetchUrl: u.href };
+  const scan = host === 'archive.org' ? u.pathname.match(/^\/details\/([^/]+)/) : null;
+  if (scan) return { kind: 'scan', fetchUrl: `https://archive.org/metadata/${scan[1]}`, scanId: scan[1] };
+  return { kind: 'page', fetchUrl: u.href };
+}
+
+/** archive.org's record for a scanned book. "Not in copyright" scans published before 1930 are public domain in the US. */
+export function parseScanRecord(json: string): { title?: string; author?: string; year?: number; publicDomain: boolean } {
+  let m: Record<string, unknown> = {};
+  try {
+    m = (JSON.parse(json) as { metadata?: Record<string, unknown> }).metadata ?? {};
+  } catch {
+    // Not a record; leave it to the creator.
+  }
+  const one = (v: unknown) => (Array.isArray(v) ? v[0] : v) as string | undefined;
+  const year = Number(String(one(m.date) ?? one(m.year) ?? '').match(/\d{4}/)?.[0]) || undefined;
+  const status = String(one(m['possible-copyright-status']) ?? '');
+  return { title: one(m.title), author: one(m.creator), year, publicDomain: /NOT_IN_COPYRIGHT/i.test(status) && !!year && year < 1930 };
+}
+
+/**
+ * Link each lesson to the page of an online scan where it starts. `firstPage`
+ * is the scan page showing printed page 1 (from the viewer's /page/nN address);
+ * without it, archive.org's own page numbers are used.
+ */
+export function linkScanPages(units: PackageUnit[], scanId: string, firstPage?: number): PackageUnit[] {
+  return units.map((u) => ({
+    ...u,
+    lessons: u.lessons.map((l) => {
+      const start = Number(l.pages?.match(/\d+/)?.[0]);
+      if (!start || l.links.length) return l;
+      const page = firstPage !== undefined ? `n${start + firstPage - 1}` : String(start);
+      return { ...l, links: [{ label: `Read p. ${start}`, url: `https://archive.org/details/${scanId}/page/${page}/mode/1up` }] };
+    }),
+  }));
 }

@@ -14,8 +14,8 @@ import type { AttentionMode, Child, ClockTime, Curriculum, DateKey, FamilyProfil
  */
 
 export type ListingFormat = 'print' | 'digital' | 'online' | 'bundle';
-/** Publishers, Studio creators, and families selling used books. */
-export type SellerKind = 'publisher' | 'creator' | 'family';
+/** Publishers, Studio creators, families selling used books, and free & open curricula (listed under their original author). */
+export type SellerKind = 'publisher' | 'creator' | 'family' | 'open';
 export type Involvement = 'high' | 'medium' | 'low';
 export type Condition = 'new' | 'like_new' | 'good' | 'fair';
 
@@ -101,6 +101,8 @@ export interface Purchase {
 
 export const FORMAT_LABEL: Record<ListingFormat, string> = { print: '📦 Print', digital: '📄 Digital PDF', online: '💻 Online course', bundle: '🎁 Bundle' };
 export const INVOLVEMENT_LABEL: Record<Involvement, string> = { high: 'Parent-led', medium: 'Some parent time', low: 'Mostly independent' };
+/** Shown after the seller's name. */
+export const SELLER_NOTE: Record<SellerKind, string> = { publisher: '', creator: ' · Studio creator', family: ' · family seller', open: ' · free & open' };
 export const CONDITION_LABEL: Record<Condition, string> = { new: 'New', like_new: 'Like new', good: 'Good', fair: 'Fair' };
 
 // ───────────────────────────── Grades

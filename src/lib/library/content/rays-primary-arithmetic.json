@@ -1,2333 +1,2334 @@
 {
- "key": "rays-primary-arithmetic",
- "title": "Ray's New Primary Arithmetic",
- "sourceTitle": "Ray's New Primary Arithmetic for Young Learners (Eclectic Educational Series)",
- "author": "Joseph Ray",
- "year": 1877,
- "sourceUrl": "https://archive.org/details/raysnewprimarya00raygoog",
- "readUrl": "https://archive.org/details/raysnewprimarya00raygoog",
- "license": {
-  "kind": "public_domain"
- },
- "licenseEvidence": "Internet Archive scan (raysnewprimarya00raygoog) of the 1877 Van Antwerp, Bragg & Co. / American Book Co. edition; title page reads 'Copyright 1877'; archive.org marks it NOT_IN_COPYRIGHT. Published before 1930, so public domain in the USA. Not on Project Gutenberg.",
- "subjects": [
-  "math"
- ],
- "gradeMin": 1,
- "gradeMax": 2,
- "philosophies": [
-  "charlotte_mason",
-  "classical",
-  "traditional"
- ],
- "lessonsPerWeek": 4,
- "minutesPerLesson": 20,
- "parentInvolvement": "high",
- "familyStyle": false,
- "cover": "🧮",
- "color": "#E3A33B",
- "description": "A classic 1877 primer that builds number sense one small step at a time: counting and writing numbers, then addition, subtraction, multiplication and division tables, then money and measures. Each day starts with real objects like beans, buttons or coins, moves to the short oral exercise in the book, and ends with three practice problems. The full scanned book is free online.",
- "includes": [
-  "89 lessons in 13 units",
-  "Link to the exact page of the free scanned book for every lesson",
-  "Hands-on practice with real objects every day",
-  "3 practice problems with answers per lesson"
- ],
- "units": [
-  {
-   "title": "Unit 1: Numbers and Figures (Lessons I–VI)",
-   "lessons": [
-    {
-     "title": "Lesson I: Counting to 10",
-     "steps": [
-      "Count out 1 to 10 buttons, touching each one as you say its number",
-      "Point to each row of balls in the book and say the number; write the figures 1–9",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson I (p. 5)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n11/mode/1up"
-      }
-     ],
-     "pages": "p. 5",
-     "questions": [
-      "Count these: ● ● ● ● ●. How many?",
-      "Write the figure for seven.",
-      "Which is more, 6 or 9?"
-     ],
-     "answers": [
-      "5",
-      "7",
-      "9"
-     ],
-     "notes": "Movable objects beat pictures; keep a jar of beans handy all year."
-    },
-    {
-     "title": "Lesson II: Numbers 11 to 40",
-     "steps": [
-      "Bundle straws into tens with a rubber band; show 23 as 2 bundles and 3 loose",
-      "Read the number words and figures from eleven to forty, one column at a time",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson II (p. 6)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n12/mode/1up"
-      }
-     ],
-     "pages": "p. 6",
-     "questions": [
-      "How many tens and ones in 34?",
-      "Write twenty-seven in figures.",
-      "What number comes right after 29?"
-     ],
-     "answers": [
-      "3 tens and 4 ones",
-      "27",
-      "30"
-     ]
-    },
-    {
-     "title": "Lesson III: Numbers 41 to 70",
-     "steps": [
-      "Make 56 with ten-bundles and loose straws",
-      "Read forty-one to seventy aloud, then review the earlier columns",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson III (p. 6)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n12/mode/1up"
-      }
-     ],
-     "pages": "p. 6",
-     "questions": [
-      "Write fifty-eight in figures.",
-      "What number is 6 tens and 1 one?",
-      "What number comes just before 50?"
-     ],
-     "answers": [
-      "58",
-      "61",
-      "49"
-     ]
-    },
-    {
-     "title": "Lesson IV: Numbers 71 to 100",
-     "steps": [
-      "Count by tens to 100 with your straw bundles",
-      "Read seventy-one to one hundred from the table",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson IV (p. 7)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n13/mode/1up"
-      }
-     ],
-     "pages": "p. 7",
-     "questions": [
-      "Write ninety-four in figures.",
-      "How many tens make 100?",
-      "What number comes after 89?"
-     ],
-     "answers": [
-      "94",
-      "10",
-      "90"
-     ]
-    },
-    {
-     "title": "Lesson V: Reading Numbers to 100",
-     "steps": [
-      "Write ten numbers on cards, shuffle, and read them aloud",
-      "Read the mixed numbers in the book's table, left to right",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson V (p. 7)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n13/mode/1up"
-      }
-     ],
-     "pages": "p. 7",
-     "questions": [
-      "Read this number aloud: 63",
-      "Read this number aloud: 18",
-      "Which is greater, 71 or 17?"
-     ],
-     "answers": [
-      "Sixty-three",
-      "Eighteen",
-      "71"
-     ]
-    },
-    {
-     "title": "Lesson VI: Writing Numbers to 100",
-     "steps": [
-      "Parent says a number; child builds it with bundles, then writes it",
-      "Write the book's number lists on a slate or paper",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson VI (p. 8)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n14/mode/1up"
-      }
-     ],
-     "pages": "p. 8",
-     "questions": [
-      "Write forty-five.",
-      "Write ninety.",
-      "Write sixty-two."
-     ],
-     "answers": [
-      "45",
-      "90",
-      "62"
-     ]
-    }
-   ]
+  "key": "rays-primary-arithmetic",
+  "seller": "Joseph Ray",
+  "title": "Ray's New Primary Arithmetic",
+  "sourceTitle": "Ray's New Primary Arithmetic for Young Learners (Eclectic Educational Series)",
+  "author": "Joseph Ray",
+  "year": 1877,
+  "sourceUrl": "https://archive.org/details/raysnewprimarya00raygoog",
+  "readUrl": "https://archive.org/details/raysnewprimarya00raygoog",
+  "license": {
+    "kind": "public_domain"
   },
-  {
-   "title": "Unit 2: Oral Exercises to 10 (Lessons VII–X)",
-   "lessons": [
+  "licenseEvidence": "Internet Archive scan (raysnewprimarya00raygoog) of the 1877 Van Antwerp, Bragg & Co. / American Book Co. edition; title page reads 'Copyright 1877'; archive.org marks it NOT_IN_COPYRIGHT. Published before 1930, so public domain in the USA. Not on Project Gutenberg.",
+  "subjects": [
+    "math"
+  ],
+  "gradeMin": 1,
+  "gradeMax": 2,
+  "philosophies": [
+    "charlotte_mason",
+    "classical",
+    "traditional"
+  ],
+  "lessonsPerWeek": 4,
+  "minutesPerLesson": 20,
+  "parentInvolvement": "high",
+  "familyStyle": false,
+  "cover": "🧮",
+  "color": "#E3A33B",
+  "description": "A classic 1877 primer that builds number sense one small step at a time: counting and writing numbers, then addition, subtraction, multiplication and division tables, then money and measures. Each day starts with real objects like beans, buttons or coins, moves to the short oral exercise in the book, and ends with three practice problems. The full scanned book is free online.",
+  "includes": [
+    "89 lessons in 13 units",
+    "Link to the exact page of the free scanned book for every lesson",
+    "Hands-on practice with real objects every day",
+    "3 practice problems with answers per lesson"
+  ],
+  "units": [
     {
-     "title": "Lesson VII: Oral Exercises: Numbers to 5",
-     "steps": [
-      "Use 5 counters in small groups to act out each question",
-      "Answer the book's oral questions about 1 through 5",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson VII (p. 9)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n15/mode/1up"
-      }
-     ],
-     "pages": "p. 9",
-     "questions": [
-      "How many are 3 and 2?",
-      "Two taken from 4 leaves how many?",
-      "How many twos in 4?"
-     ],
-     "answers": [
-      "5",
-      "2",
-      "2"
-     ]
+      "title": "Unit 1: Numbers and Figures (Lessons I–VI)",
+      "lessons": [
+        {
+          "title": "Lesson I: Counting to 10",
+          "steps": [
+            "Count out 1 to 10 buttons, touching each one as you say its number",
+            "Point to each row of balls in the book and say the number; write the figures 1–9",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson I (p. 5)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n11/mode/1up"
+            }
+          ],
+          "pages": "p. 5",
+          "questions": [
+            "Count these: ● ● ● ● ●. How many?",
+            "Write the figure for seven.",
+            "Which is more, 6 or 9?"
+          ],
+          "answers": [
+            "5",
+            "7",
+            "9"
+          ],
+          "notes": "Movable objects beat pictures; keep a jar of beans handy all year."
+        },
+        {
+          "title": "Lesson II: Numbers 11 to 40",
+          "steps": [
+            "Bundle straws into tens with a rubber band; show 23 as 2 bundles and 3 loose",
+            "Read the number words and figures from eleven to forty, one column at a time",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson II (p. 6)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n12/mode/1up"
+            }
+          ],
+          "pages": "p. 6",
+          "questions": [
+            "How many tens and ones in 34?",
+            "Write twenty-seven in figures.",
+            "What number comes right after 29?"
+          ],
+          "answers": [
+            "3 tens and 4 ones",
+            "27",
+            "30"
+          ]
+        },
+        {
+          "title": "Lesson III: Numbers 41 to 70",
+          "steps": [
+            "Make 56 with ten-bundles and loose straws",
+            "Read forty-one to seventy aloud, then review the earlier columns",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson III (p. 6)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n12/mode/1up"
+            }
+          ],
+          "pages": "p. 6",
+          "questions": [
+            "Write fifty-eight in figures.",
+            "What number is 6 tens and 1 one?",
+            "What number comes just before 50?"
+          ],
+          "answers": [
+            "58",
+            "61",
+            "49"
+          ]
+        },
+        {
+          "title": "Lesson IV: Numbers 71 to 100",
+          "steps": [
+            "Count by tens to 100 with your straw bundles",
+            "Read seventy-one to one hundred from the table",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson IV (p. 7)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n13/mode/1up"
+            }
+          ],
+          "pages": "p. 7",
+          "questions": [
+            "Write ninety-four in figures.",
+            "How many tens make 100?",
+            "What number comes after 89?"
+          ],
+          "answers": [
+            "94",
+            "10",
+            "90"
+          ]
+        },
+        {
+          "title": "Lesson V: Reading Numbers to 100",
+          "steps": [
+            "Write ten numbers on cards, shuffle, and read them aloud",
+            "Read the mixed numbers in the book's table, left to right",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson V (p. 7)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n13/mode/1up"
+            }
+          ],
+          "pages": "p. 7",
+          "questions": [
+            "Read this number aloud: 63",
+            "Read this number aloud: 18",
+            "Which is greater, 71 or 17?"
+          ],
+          "answers": [
+            "Sixty-three",
+            "Eighteen",
+            "71"
+          ]
+        },
+        {
+          "title": "Lesson VI: Writing Numbers to 100",
+          "steps": [
+            "Parent says a number; child builds it with bundles, then writes it",
+            "Write the book's number lists on a slate or paper",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson VI (p. 8)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n14/mode/1up"
+            }
+          ],
+          "pages": "p. 8",
+          "questions": [
+            "Write forty-five.",
+            "Write ninety.",
+            "Write sixty-two."
+          ],
+          "answers": [
+            "45",
+            "90",
+            "62"
+          ]
+        }
+      ]
     },
     {
-     "title": "Lesson VIII: Oral Exercises: Numbers to 8",
-     "steps": [
-      "Use 8 beans; split them into piles to answer each question",
-      "Work the oral exercises on 6, 7 and 8 aloud",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson VIII (p. 10)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n16/mode/1up"
-      }
-     ],
-     "pages": "p. 10",
-     "questions": [
-      "How many are 4 and 3?",
-      "Five from 8 leaves how many?",
-      "How many are two times 4?"
-     ],
-     "answers": [
-      "7",
-      "3",
-      "8"
-     ]
+      "title": "Unit 2: Oral Exercises to 10 (Lessons VII–X)",
+      "lessons": [
+        {
+          "title": "Lesson VII: Oral Exercises: Numbers to 5",
+          "steps": [
+            "Use 5 counters in small groups to act out each question",
+            "Answer the book's oral questions about 1 through 5",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson VII (p. 9)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n15/mode/1up"
+            }
+          ],
+          "pages": "p. 9",
+          "questions": [
+            "How many are 3 and 2?",
+            "Two taken from 4 leaves how many?",
+            "How many twos in 4?"
+          ],
+          "answers": [
+            "5",
+            "2",
+            "2"
+          ]
+        },
+        {
+          "title": "Lesson VIII: Oral Exercises: Numbers to 8",
+          "steps": [
+            "Use 8 beans; split them into piles to answer each question",
+            "Work the oral exercises on 6, 7 and 8 aloud",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson VIII (p. 10)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n16/mode/1up"
+            }
+          ],
+          "pages": "p. 10",
+          "questions": [
+            "How many are 4 and 3?",
+            "Five from 8 leaves how many?",
+            "How many are two times 4?"
+          ],
+          "answers": [
+            "7",
+            "3",
+            "8"
+          ]
+        },
+        {
+          "title": "Lesson IX: Oral Exercises: Numbers to 10",
+          "steps": [
+            "Lay out 10 pebbles and make every pair that makes 10",
+            "Answer the oral exercises on 9 and 10",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson IX (p. 11)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n17/mode/1up"
+            }
+          ],
+          "pages": "p. 11",
+          "questions": [
+            "How many are 6 and 4?",
+            "Seven from 10 leaves how many?",
+            "How many fives in 10?"
+          ],
+          "answers": [
+            "10",
+            "3",
+            "2"
+          ]
+        },
+        {
+          "title": "Lesson X: Counting Birds in a Picture",
+          "steps": [
+            "Line up toy animals in two groups and count each group",
+            "Look at the bird picture, count the flocks, and answer the questions",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson X (p. 12)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n18/mode/1up"
+            }
+          ],
+          "pages": "p. 12",
+          "questions": [
+            "There are 3 birds on a fence and 4 more fly down. How many birds now?",
+            "How many are 5 and 6?",
+            "Two branches each hold 4 flowers. How many flowers in all?"
+          ],
+          "answers": [
+            "7",
+            "11",
+            "8"
+          ]
+        }
+      ]
     },
     {
-     "title": "Lesson IX: Oral Exercises: Numbers to 10",
-     "steps": [
-      "Lay out 10 pebbles and make every pair that makes 10",
-      "Answer the oral exercises on 9 and 10",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson IX (p. 11)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n17/mode/1up"
-      }
-     ],
-     "pages": "p. 11",
-     "questions": [
-      "How many are 6 and 4?",
-      "Seven from 10 leaves how many?",
-      "How many fives in 10?"
-     ],
-     "answers": [
-      "10",
-      "3",
-      "2"
-     ]
+      "title": "Unit 3: Addition, Adding 1 to 5 (Lessons XI–XV)",
+      "lessons": [
+        {
+          "title": "Lesson XI: Addition: Adding 1",
+          "steps": [
+            "Add one bean at a time to a pile and say the new total",
+            "Say the table '1 and 1 are 2…' then answer the book's problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XI (p. 13)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n19/mode/1up"
+            }
+          ],
+          "pages": "p. 13",
+          "questions": [
+            "How many are 1 and 8?",
+            "Tom has 6 marbles and finds 1 more. How many now?",
+            "How many are 10 and 1?"
+          ],
+          "answers": [
+            "9",
+            "7",
+            "11"
+          ]
+        },
+        {
+          "title": "Lesson XII: Addition: Adding 2",
+          "steps": [
+            "Add pairs of buttons to a pile and count on",
+            "Recite the 2s addition table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XII (p. 14)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n20/mode/1up"
+            }
+          ],
+          "pages": "p. 14",
+          "questions": [
+            "How many are 2 and 7?",
+            "Mary has 5 cents; her mother gives her 2 more. How many now?",
+            "How many are 8 and 2?"
+          ],
+          "answers": [
+            "9",
+            "7 cents",
+            "10"
+          ]
+        },
+        {
+          "title": "Lesson XIII: Addition: Adding 3",
+          "steps": [
+            "Make groups of 3 blocks and add them to other groups",
+            "Recite the 3s table and solve the book's problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XIII (p. 15)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n21/mode/1up"
+            }
+          ],
+          "pages": "p. 15",
+          "questions": [
+            "How many are 3 and 6?",
+            "A hen has 3 chicks in the yard and 5 in the barn. How many chicks?",
+            "How many are 3 and 9?"
+          ],
+          "answers": [
+            "9",
+            "8",
+            "12"
+          ]
+        },
+        {
+          "title": "Lesson XIV: Addition: Adding 4",
+          "steps": [
+            "Use 4-cup muffin tins or egg cartons to show 4 and more",
+            "Recite the 4s table and solve the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XIV (p. 16)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n22/mode/1up"
+            }
+          ],
+          "pages": "p. 16",
+          "questions": [
+            "How many are 4 and 7?",
+            "Jane picked 4 apples and Ann picked 6. How many apples?",
+            "How many are 9 and 4?"
+          ],
+          "answers": [
+            "11",
+            "10",
+            "13"
+          ]
+        },
+        {
+          "title": "Lesson XV: Addition: Adding 5",
+          "steps": [
+            "Show 5 with one hand of fingers, then add more counters",
+            "Recite the 5s table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XV (p. 17)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n23/mode/1up"
+            }
+          ],
+          "pages": "p. 17",
+          "questions": [
+            "How many are 5 and 8?",
+            "A boy has 5 tops and buys 4 more. How many tops?",
+            "How many are 6 and 5?"
+          ],
+          "answers": [
+            "13",
+            "9",
+            "11"
+          ]
+        }
+      ]
     },
     {
-     "title": "Lesson X: Counting Birds in a Picture",
-     "steps": [
-      "Line up toy animals in two groups and count each group",
-      "Look at the bird picture, count the flocks, and answer the questions",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson X (p. 12)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n18/mode/1up"
-      }
-     ],
-     "pages": "p. 12",
-     "questions": [
-      "There are 3 birds on a fence and 4 more fly down. How many birds now?",
-      "How many are 5 and 6?",
-      "Two branches each hold 4 flowers. How many flowers in all?"
-     ],
-     "answers": [
-      "7",
-      "11",
-      "8"
-     ]
+      "title": "Unit 4: Addition, Adding 6 to 10 and Review (Lessons XVI–XXIII)",
+      "lessons": [
+        {
+          "title": "Lesson XVI: Addition: Adding 6",
+          "steps": [
+            "Lay out 6 spoons and add other groups",
+            "Recite the 6s table and solve the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XVI (p. 18)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n24/mode/1up"
+            }
+          ],
+          "pages": "p. 18",
+          "questions": [
+            "How many are 6 and 7?",
+            "Six ducks swim and 6 more join them. How many ducks?",
+            "How many are 6 and 9?"
+          ],
+          "answers": [
+            "13",
+            "12",
+            "15"
+          ]
+        },
+        {
+          "title": "Lesson XVII: Addition: Adding 7",
+          "steps": [
+            "Count 7 days on a calendar and add more days",
+            "Recite the 7s table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XVII (p. 19)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n25/mode/1up"
+            }
+          ],
+          "pages": "p. 19",
+          "questions": [
+            "How many are 7 and 8?",
+            "Sam reads 7 pages one day and 5 the next. How many pages?",
+            "How many are 7 and 7?"
+          ],
+          "answers": [
+            "15",
+            "12",
+            "14"
+          ]
+        },
+        {
+          "title": "Lesson XVIII: Addition: Adding 8",
+          "steps": [
+            "Add groups of 8 crayons to smaller groups",
+            "Recite the 8s table and solve the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XVIII (p. 20)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n26/mode/1up"
+            }
+          ],
+          "pages": "p. 20",
+          "questions": [
+            "How many are 8 and 6?",
+            "A cat has 8 kittens and a dog has 3 puppies. How many babies?",
+            "How many are 8 and 9?"
+          ],
+          "answers": [
+            "14",
+            "11",
+            "17"
+          ]
+        },
+        {
+          "title": "Lesson XIX: Addition: Adding 9",
+          "steps": [
+            "Make 9 with beans, then add more; notice 9 and 4 is one less than 10 and 4",
+            "Recite the 9s table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XIX (p. 21)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n27/mode/1up"
+            }
+          ],
+          "pages": "p. 21",
+          "questions": [
+            "How many are 9 and 5?",
+            "Lucy had 9 cents and earned 9 more. How many cents?",
+            "How many are 9 and 8?"
+          ],
+          "answers": [
+            "14",
+            "18",
+            "17"
+          ]
+        },
+        {
+          "title": "Lesson XX: Addition: Adding 10",
+          "steps": [
+            "Use a ten-bundle of straws plus loose straws",
+            "Recite the 10s table and solve the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XX (p. 22)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n28/mode/1up"
+            }
+          ],
+          "pages": "p. 22",
+          "questions": [
+            "How many are 10 and 7?",
+            "A farmer has 10 cows and buys 6. How many cows?",
+            "How many are 4 and 10?"
+          ],
+          "answers": [
+            "17",
+            "16",
+            "14"
+          ]
+        },
+        {
+          "title": "Lesson XXI: Review of Addition",
+          "steps": [
+            "Roll two dice and add the dots aloud",
+            "Work the review questions, including adding three numbers",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXI (p. 23)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n29/mode/1up"
+            }
+          ],
+          "pages": "p. 23",
+          "questions": [
+            "How many are 5 and 7?",
+            "How many are 3 and 4 and 6?",
+            "How many are 2 and 8 and 9?"
+          ],
+          "answers": [
+            "12",
+            "13",
+            "19"
+          ]
+        },
+        {
+          "title": "Lesson XXII: Review of Addition (continued)",
+          "steps": [
+            "Add three small piles of beans together",
+            "Finish the second review set aloud",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXII (p. 24)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n30/mode/1up"
+            }
+          ],
+          "pages": "p. 24",
+          "questions": [
+            "How many are 6 and 6 and 3?",
+            "How many are 4 and 9?",
+            "How many are 7 and 2 and 8?"
+          ],
+          "answers": [
+            "15",
+            "13",
+            "17"
+          ]
+        },
+        {
+          "title": "Lesson XXIII: Addition Problems",
+          "steps": [
+            "Act out a shopping story with pennies",
+            "Read each word problem and answer with a full sentence",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXIII (p. 26)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n32/mode/1up"
+            }
+          ],
+          "pages": "p. 26",
+          "questions": [
+            "Ann paid 4 cents for a pencil, 3 for paper, and 5 for a ribbon. How much in all?",
+            "Three boys caught 2, 6, and 5 fish. How many fish?",
+            "A girl has 7 dolls and gets 8 more. How many dolls?"
+          ],
+          "answers": [
+            "12 cents",
+            "13",
+            "15"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 5: Subtraction, Taking 1 to 5 (Lessons XXIV–XXIX)",
+      "lessons": [
+        {
+          "title": "Lesson XXIV: Subtraction: Owls and Bats",
+          "steps": [
+            "Set out 7 toys; take some away and count what is left",
+            "Look at the owls-and-bats picture and answer the questions",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXIV (p. 27)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n33/mode/1up"
+            }
+          ],
+          "pages": "p. 27",
+          "questions": [
+            "Five owls sat on a branch; 3 flew away. How many were left?",
+            "Eight bats were flying; 6 went into a barn. How many still flying?",
+            "Six less 4 are how many?"
+          ],
+          "answers": [
+            "2",
+            "2",
+            "2"
+          ]
+        },
+        {
+          "title": "Lesson XXV: Subtraction: Taking 1",
+          "steps": [
+            "Take one bean at a time from a pile",
+            "Recite '1 from 1 leaves 0…' and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXV (p. 28)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n34/mode/1up"
+            }
+          ],
+          "pages": "p. 28",
+          "questions": [
+            "1 from 9 leaves how many?",
+            "Jim had 7 apples and ate 1. How many left?",
+            "1 from 11 leaves how many?"
+          ],
+          "answers": [
+            "8",
+            "6",
+            "10"
+          ]
+        },
+        {
+          "title": "Lesson XXVI: Subtraction: Taking 2",
+          "steps": [
+            "Take pairs of buttons away from a pile",
+            "Recite the 2s subtraction table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXVI (p. 29)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n35/mode/1up"
+            }
+          ],
+          "pages": "p. 29",
+          "questions": [
+            "2 from 9 leaves how many?",
+            "Kate had 8 cents and spent 2. How many left?",
+            "2 from 12 leaves how many?"
+          ],
+          "answers": [
+            "7",
+            "6 cents",
+            "10"
+          ]
+        },
+        {
+          "title": "Lesson XXVII: Subtraction: Taking 3",
+          "steps": [
+            "Remove 3 blocks from towers of different sizes",
+            "Recite the 3s subtraction table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXVII (p. 30)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n36/mode/1up"
+            }
+          ],
+          "pages": "p. 30",
+          "questions": [
+            "3 from 10 leaves how many?",
+            "A nest had 6 eggs; 3 hatched. How many have not hatched?",
+            "3 from 12 leaves how many?"
+          ],
+          "answers": [
+            "7",
+            "3",
+            "9"
+          ]
+        },
+        {
+          "title": "Lesson XXVIII: Subtraction: Taking 4",
+          "steps": [
+            "Take 4 spoons from a drawer pile",
+            "Recite the 4s subtraction table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXVIII (p. 31)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n37/mode/1up"
+            }
+          ],
+          "pages": "p. 31",
+          "questions": [
+            "4 from 11 leaves how many?",
+            "There were 9 pears; 4 were eaten. How many left?",
+            "4 from 13 leaves how many?"
+          ],
+          "answers": [
+            "7",
+            "5",
+            "9"
+          ]
+        },
+        {
+          "title": "Lesson XXIX: Subtraction: Taking 5",
+          "steps": [
+            "Hide one hand of 5 fingers to show taking 5",
+            "Recite the 5s subtraction table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXIX (p. 32)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n38/mode/1up"
+            }
+          ],
+          "pages": "p. 32",
+          "questions": [
+            "5 from 12 leaves how many?",
+            "Ned had 14 marbles and lost 5. How many now?",
+            "5 from 9 leaves how many?"
+          ],
+          "answers": [
+            "7",
+            "9",
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 6: Subtraction, Taking 6 to 10 and Review (Lessons XXX–XXXVII)",
+      "lessons": [
+        {
+          "title": "Lesson XXX: Subtraction: Taking 6",
+          "steps": [
+            "Take 6 eggs from a carton of 12 and count what remains",
+            "Recite the 6s subtraction table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXX (p. 33)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n39/mode/1up"
+            }
+          ],
+          "pages": "p. 33",
+          "questions": [
+            "6 from 13 leaves how many?",
+            "A baker had 15 rolls and sold 6. How many left?",
+            "6 from 10 leaves how many?"
+          ],
+          "answers": [
+            "7",
+            "9",
+            "4"
+          ]
+        },
+        {
+          "title": "Lesson XXXI: Subtraction: Taking 7",
+          "steps": [
+            "Use 7 days of the week; cross off days",
+            "Recite the 7s subtraction table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXXI (p. 34)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n40/mode/1up"
+            }
+          ],
+          "pages": "p. 34",
+          "questions": [
+            "7 from 15 leaves how many?",
+            "Sue had 12 ribbons and gave away 7. How many left?",
+            "7 from 11 leaves how many?"
+          ],
+          "answers": [
+            "8",
+            "5",
+            "4"
+          ]
+        },
+        {
+          "title": "Lesson XXXII: Subtraction: Taking 8",
+          "steps": [
+            "Remove 8 crayons from a box of 16",
+            "Recite the 8s subtraction table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXXII (p. 35)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n41/mode/1up"
+            }
+          ],
+          "pages": "p. 35",
+          "questions": [
+            "8 from 14 leaves how many?",
+            "There were 17 sheep; 8 went into the barn. How many outside?",
+            "8 from 12 leaves how many?"
+          ],
+          "answers": [
+            "6",
+            "9",
+            "4"
+          ]
+        },
+        {
+          "title": "Lesson XXXIII: Subtraction: Taking 9",
+          "steps": [
+            "Take 9 from a pile by taking 10 and putting 1 back",
+            "Recite the 9s subtraction table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXXIII (p. 36)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n42/mode/1up"
+            }
+          ],
+          "pages": "p. 36",
+          "questions": [
+            "9 from 16 leaves how many?",
+            "Tom had 13 cents and spent 9. How many left?",
+            "9 from 18 leaves how many?"
+          ],
+          "answers": [
+            "7",
+            "4 cents",
+            "9"
+          ]
+        },
+        {
+          "title": "Lesson XXXIV: Subtraction: Taking 10",
+          "steps": [
+            "Remove a ten-bundle from bundles and loose straws",
+            "Recite the 10s subtraction table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXXIV (p. 37)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n43/mode/1up"
+            }
+          ],
+          "pages": "p. 37",
+          "questions": [
+            "10 from 17 leaves how many?",
+            "A tree had 19 apples; 10 fell. How many still on the tree?",
+            "10 from 20 leaves how many?"
+          ],
+          "answers": [
+            "7",
+            "9",
+            "10"
+          ]
+        },
+        {
+          "title": "Lesson XXXV: Review of Subtraction",
+          "steps": [
+            "Play 'how many left?' by hiding beans under a cup",
+            "Work the review questions using the word 'less'",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXXV (p. 38)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n44/mode/1up"
+            }
+          ],
+          "pages": "p. 38",
+          "questions": [
+            "How many are 11 less 5?",
+            "How many are 14 less 8?",
+            "How many are 9 less 6?"
+          ],
+          "answers": [
+            "6",
+            "6",
+            "3"
+          ]
+        },
+        {
+          "title": "Lesson XXXVI: Addition and Subtraction Together",
+          "steps": [
+            "Add two piles of beans, then take some away",
+            "Solve each 'and … less' question in two steps",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXXVI (p. 39)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n45/mode/1up"
+            }
+          ],
+          "pages": "p. 39",
+          "questions": [
+            "How many are 4 and 6, less 3?",
+            "How many are 8 and 5, less 7?",
+            "How many are 9 and 9, less 10?"
+          ],
+          "answers": [
+            "7",
+            "6",
+            "8"
+          ]
+        },
+        {
+          "title": "Lesson XXXVII: Counting Backward by 2s, 3s, 4s, 5s",
+          "steps": [
+            "Hop backward along a number line taped on the floor",
+            "Count down from 20 by 2s, 3s, 4s and 5s as the book directs",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXXVII (p. 40)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n46/mode/1up"
+            }
+          ],
+          "pages": "p. 40",
+          "questions": [
+            "Count down from 12 by 3s.",
+            "Count down from 20 by 5s.",
+            "Count down from 16 by 4s."
+          ],
+          "answers": [
+            "12, 9, 6, 3, 0",
+            "20, 15, 10, 5, 0",
+            "16, 12, 8, 4, 0"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 7: Multiplication, Times 1 to 5 (Lessons XXXVIII–XLIII)",
+      "lessons": [
+        {
+          "title": "Lesson XXXVIII: Multiplication: Swallows in a Picture",
+          "steps": [
+            "Set out 3 cups with 4 beans in each and count all",
+            "Count the swallows in the picture and answer the times questions",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXXVIII (p. 41)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n47/mode/1up"
+            }
+          ],
+          "pages": "p. 41",
+          "questions": [
+            "There are 2 nests with 5 eggs in each. How many eggs?",
+            "How many are 3 times 3?",
+            "Four birds each have 2 wings. How many wings?"
+          ],
+          "answers": [
+            "10",
+            "9",
+            "8"
+          ]
+        },
+        {
+          "title": "Lesson XXXIX: Multiplication: Times 1",
+          "steps": [
+            "Show 1 bean in each of 6 cups",
+            "Recite '1 time 2 is 2…' and work the cost problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXXIX (p. 42)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n48/mode/1up"
+            }
+          ],
+          "pages": "p. 42",
+          "questions": [
+            "How many are 7 times 1?",
+            "Figs cost 1 cent each. What do 9 figs cost?",
+            "How many are 1 time 5?"
+          ],
+          "answers": [
+            "7",
+            "9 cents",
+            "5"
+          ]
+        },
+        {
+          "title": "Lesson XL: Multiplication: Times 2",
+          "steps": [
+            "Pair socks and count by 2s",
+            "Recite the 2s times table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XL (p. 43)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n49/mode/1up"
+            }
+          ],
+          "pages": "p. 43",
+          "questions": [
+            "How many are 2 times 6?",
+            "Each child has 2 shoes. How many shoes do 7 children have?",
+            "How many are 9 times 2?"
+          ],
+          "answers": [
+            "12",
+            "14",
+            "18"
+          ]
+        },
+        {
+          "title": "Lesson XLI: Multiplication: Times 3",
+          "steps": [
+            "Make 3-leaf clovers from paper and count leaves",
+            "Recite the 3s times table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLI (p. 44)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n50/mode/1up"
+            }
+          ],
+          "pages": "p. 44",
+          "questions": [
+            "How many are 3 times 5?",
+            "Pencils are 3 cents each. What do 6 cost?",
+            "How many are 3 times 8?"
+          ],
+          "answers": [
+            "15",
+            "18 cents",
+            "24"
+          ]
+        },
+        {
+          "title": "Lesson XLII: Multiplication: Times 4",
+          "steps": [
+            "Count the legs on 4-legged toys or chairs",
+            "Recite the 4s times table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLII (p. 45)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n51/mode/1up"
+            }
+          ],
+          "pages": "p. 45",
+          "questions": [
+            "How many are 4 times 6?",
+            "Each wagon has 4 wheels. How many wheels on 5 wagons?",
+            "How many are 4 times 9?"
+          ],
+          "answers": [
+            "24",
+            "20",
+            "36"
+          ]
+        },
+        {
+          "title": "Lesson XLIII: Multiplication: Times 5",
+          "steps": [
+            "Count nickels by 5s",
+            "Recite the 5s times table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLIII (p. 46)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n52/mode/1up"
+            }
+          ],
+          "pages": "p. 46",
+          "questions": [
+            "How many are 5 times 7?",
+            "Tops cost 5 cents each. What do 4 tops cost?",
+            "How many are 5 times 10?"
+          ],
+          "answers": [
+            "35",
+            "20 cents",
+            "50"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 8: Multiplication, Times 6 to 10 and Review (Lessons XLIV–LI)",
+      "lessons": [
+        {
+          "title": "Lesson XLIV: Multiplication: Times 6",
+          "steps": [
+            "Count eggs in half-dozen cartons",
+            "Recite the 6s times table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLIV (p. 47)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n53/mode/1up"
+            }
+          ],
+          "pages": "p. 47",
+          "questions": [
+            "How many are 6 times 4?",
+            "Each box holds 6 eggs. How many eggs in 7 boxes?",
+            "How many are 6 times 6?"
+          ],
+          "answers": [
+            "24",
+            "42",
+            "36"
+          ]
+        },
+        {
+          "title": "Lesson XLV: Multiplication: Times 7",
+          "steps": [
+            "Count days in several weeks on a calendar",
+            "Recite the 7s times table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLV (p. 48)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n54/mode/1up"
+            }
+          ],
+          "pages": "p. 48",
+          "questions": [
+            "How many are 7 times 3?",
+            "How many days are in 5 weeks?",
+            "How many are 7 times 8?"
+          ],
+          "answers": [
+            "21",
+            "35",
+            "56"
+          ]
+        },
+        {
+          "title": "Lesson XLVI: Multiplication: Times 8",
+          "steps": [
+            "Count the legs on paper spiders (8 each)",
+            "Recite the 8s times table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLVI (p. 49)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n55/mode/1up"
+            }
+          ],
+          "pages": "p. 49",
+          "questions": [
+            "How many are 8 times 5?",
+            "A spider has 8 legs. How many legs do 3 spiders have?",
+            "How many are 8 times 7?"
+          ],
+          "answers": [
+            "40",
+            "24",
+            "56"
+          ]
+        },
+        {
+          "title": "Lesson XLVII: Multiplication: Times 9",
+          "steps": [
+            "Use the finger trick or bean groups for 9s",
+            "Recite the 9s times table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLVII (p. 50)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n56/mode/1up"
+            }
+          ],
+          "pages": "p. 50",
+          "questions": [
+            "How many are 9 times 4?",
+            "Melons cost 9 cents each. What do 6 cost?",
+            "How many are 9 times 9?"
+          ],
+          "answers": [
+            "36",
+            "54 cents",
+            "81"
+          ]
+        },
+        {
+          "title": "Lesson XLVIII: Multiplication: Times 10",
+          "steps": [
+            "Count dimes by 10s",
+            "Recite the 10s times table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLVIII (p. 51)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n57/mode/1up"
+            }
+          ],
+          "pages": "p. 51",
+          "questions": [
+            "How many are 10 times 6?",
+            "Each bundle has 10 sticks. How many sticks in 8 bundles?",
+            "How many are 3 times 10?"
+          ],
+          "answers": [
+            "60",
+            "80",
+            "30"
+          ]
+        },
+        {
+          "title": "Lesson XLIX: Review of Multiplication",
+          "steps": [
+            "Build arrays with beans for any two numbers",
+            "Work the review, including three numbers multiplied together",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLIX (p. 52)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n58/mode/1up"
+            }
+          ],
+          "pages": "p. 52",
+          "questions": [
+            "How many are 4 times 7?",
+            "How many are 2 times 3 times 4?",
+            "How many are 6 times 9?"
+          ],
+          "answers": [
+            "28",
+            "24",
+            "54"
+          ]
+        },
+        {
+          "title": "Lesson L: Review: Mixed Operations",
+          "steps": [
+            "Add, take away, and then make groups with counters",
+            "Solve each question step by step, saying each result",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson L (p. 54)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n60/mode/1up"
+            }
+          ],
+          "pages": "p. 54",
+          "questions": [
+            "How many are 3 and 5, less 2, multiplied by 4?",
+            "How many are 6 and 4, less 5, multiplied by 3?",
+            "How many are 9 less 7, multiplied by 8?"
+          ],
+          "answers": [
+            "24",
+            "15",
+            "16"
+          ]
+        },
+        {
+          "title": "Lesson LI: Promiscuous (Mixed) Questions",
+          "steps": [
+            "Play store with pennies and price tags",
+            "Read each mixed word problem and explain your steps",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LI (p. 55)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n61/mode/1up"
+            }
+          ],
+          "pages": "p. 55",
+          "questions": [
+            "Ben had 15 cents and bought 2 apples at 4 cents each. How much did he have left?",
+            "A girl bought 3 ribbons at 5 cents each. What did she pay?",
+            "Two boys had 9 marbles each; one lost 3. How many marbles do they have together now?"
+          ],
+          "answers": [
+            "7 cents",
+            "15 cents",
+            "15"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 9: Division, 2 In to 6 In (Lessons LII–LVII)",
+      "lessons": [
+        {
+          "title": "Lesson LII: Division: Ducks and Geese",
+          "steps": [
+            "Share 12 crackers fairly among 3 plates",
+            "Look at the ducks-and-geese picture and answer the sharing questions",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LII (p. 56)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n62/mode/1up"
+            }
+          ],
+          "pages": "p. 56",
+          "questions": [
+            "Twelve ducks split into 3 equal flocks. How many in each flock?",
+            "How many times is 4 contained in 16?",
+            "Six geese have 12 feet. How many feet does each goose have?"
+          ],
+          "answers": [
+            "4",
+            "4",
+            "2"
+          ]
+        },
+        {
+          "title": "Lesson LIII: Division: 2 In",
+          "steps": [
+            "Split beans into groups of 2",
+            "Recite '2 in 2, 1 time…' and work the buying problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LIII (p. 57)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n63/mode/1up"
+            }
+          ],
+          "pages": "p. 57",
+          "questions": [
+            "How many times is 2 contained in 14?",
+            "Apples are 2 cents each. How many can you buy for 10 cents?",
+            "How many times is 2 contained in 18?"
+          ],
+          "answers": [
+            "7",
+            "5",
+            "9"
+          ]
+        },
+        {
+          "title": "Lesson LIV: Division: 3 In",
+          "steps": [
+            "Make groups of 3 buttons from a pile of 21",
+            "Recite the 3s division table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LIV (p. 58)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n64/mode/1up"
+            }
+          ],
+          "pages": "p. 58",
+          "questions": [
+            "How many times is 3 contained in 24?",
+            "Share 15 cherries among 3 children. How many each?",
+            "How many times is 3 contained in 9?"
+          ],
+          "answers": [
+            "8",
+            "5",
+            "3"
+          ]
+        },
+        {
+          "title": "Lesson LV: Division: 4 In",
+          "steps": [
+            "Put 4 beans in each cup until 28 are used",
+            "Recite the 4s division table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LV (p. 59)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n65/mode/1up"
+            }
+          ],
+          "pages": "p. 59",
+          "questions": [
+            "How many times is 4 contained in 32?",
+            "Lemons are 4 cents each. How many for 20 cents?",
+            "How many times is 4 contained in 36?"
+          ],
+          "answers": [
+            "8",
+            "5",
+            "9"
+          ]
+        },
+        {
+          "title": "Lesson LVI: Division: 5 In",
+          "steps": [
+            "Group pennies into nickels' worth (5s)",
+            "Recite the 5s division table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LVI (p. 60)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n66/mode/1up"
+            }
+          ],
+          "pages": "p. 60",
+          "questions": [
+            "How many times is 5 contained in 35?",
+            "Kites are 5 cents each. How many for 30 cents?",
+            "How many times is 5 contained in 45?"
+          ],
+          "answers": [
+            "7",
+            "6",
+            "9"
+          ]
+        },
+        {
+          "title": "Lesson LVII: Division: 6 In",
+          "steps": [
+            "Pack 6 eggs per carton from a pile",
+            "Recite the 6s division table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LVII (p. 61)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n67/mode/1up"
+            }
+          ],
+          "pages": "p. 61",
+          "questions": [
+            "How many times is 6 contained in 42?",
+            "Share 24 nuts among 6 boys. How many each?",
+            "How many times is 6 contained in 54?"
+          ],
+          "answers": [
+            "7",
+            "4",
+            "9"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 10: Division, 7 In to 10 In and Review (Lessons LVIII–LXIII)",
+      "lessons": [
+        {
+          "title": "Lesson LVIII: Division: 7 In",
+          "steps": [
+            "Arrange 28 counters into rows of 7",
+            "Recite the 7s division table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LVIII (p. 62)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n68/mode/1up"
+            }
+          ],
+          "pages": "p. 62",
+          "questions": [
+            "How many times is 7 contained in 56?",
+            "A man walked 21 miles in 7 hours. How far in 1 hour?",
+            "How many times is 7 contained in 49?"
+          ],
+          "answers": [
+            "8",
+            "3 miles",
+            "7"
+          ]
+        },
+        {
+          "title": "Lesson LIX: Division: 8 In",
+          "steps": [
+            "Make 8-legged paper spiders from 40 'legs'",
+            "Recite the 8s division table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LIX (p. 63)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n69/mode/1up"
+            }
+          ],
+          "pages": "p. 63",
+          "questions": [
+            "How many times is 8 contained in 48?",
+            "Eight boys share 64 marbles. How many each?",
+            "How many times is 8 contained in 72?"
+          ],
+          "answers": [
+            "6",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "title": "Lesson LX: Division: 9 In",
+          "steps": [
+            "Make groups of 9 from 45 beans",
+            "Recite the 9s division table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LX (p. 64)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n70/mode/1up"
+            }
+          ],
+          "pages": "p. 64",
+          "questions": [
+            "How many times is 9 contained in 63?",
+            "Pears cost 9 cents each. How many for 36 cents?",
+            "How many times is 9 contained in 90?"
+          ],
+          "answers": [
+            "7",
+            "4",
+            "10"
+          ]
+        },
+        {
+          "title": "Lesson LXI: Division: 10 In",
+          "steps": [
+            "Change pennies into dimes (10 each)",
+            "Recite the 10s division table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXI (p. 65)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n71/mode/1up"
+            }
+          ],
+          "pages": "p. 65",
+          "questions": [
+            "How many times is 10 contained in 70?",
+            "How many dimes are in 50 cents?",
+            "How many times is 10 contained in 100?"
+          ],
+          "answers": [
+            "7",
+            "5",
+            "10"
+          ]
+        },
+        {
+          "title": "Lesson LXII: Review of Division",
+          "steps": [
+            "Share a pile of counters different ways",
+            "Work the review table and the 'and … divided by' questions",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXII (p. 66)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n72/mode/1up"
+            }
+          ],
+          "pages": "p. 66",
+          "questions": [
+            "How many times is 6 contained in 30?",
+            "How many are 7 and 9, divided by 4?",
+            "How many are 10 and 8, divided by 3?"
+          ],
+          "answers": [
+            "5",
+            "4",
+            "6"
+          ]
+        },
+        {
+          "title": "Lesson LXIII: Finding the Cost of One",
+          "steps": [
+            "Price a few items in play money, then find the price of one",
+            "Work the 'if 4 pens cost…' problems in two steps",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXIII (p. 68)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n74/mode/1up"
+            }
+          ],
+          "pages": "p. 68",
+          "questions": [
+            "If 3 pencils cost 12 cents, what does 1 cost?",
+            "If 1 orange costs 5 cents, what do 6 cost?",
+            "If 5 tops cost 20 cents, what will 3 tops cost?"
+          ],
+          "answers": [
+            "4 cents",
+            "30 cents",
+            "12 cents"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 11: Signs and Larger Numbers (Lessons LXIV–LXXI)",
+      "lessons": [
+        {
+          "title": "Lesson LXIV: Signs: + − × ÷ =",
+          "steps": [
+            "Make cards for the five signs and build number sentences with counters",
+            "Read about the signs, then solve the + problems with numbers past 10",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXIV (p. 69)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n75/mode/1up"
+            }
+          ],
+          "pages": "p. 69",
+          "questions": [
+            "11 + 6 = ?",
+            "What does the sign × mean?",
+            "12 + 7 = ?"
+          ],
+          "answers": [
+            "17",
+            "Multiplied by",
+            "19"
+          ]
+        },
+        {
+          "title": "Lesson LXV: Adding to Numbers 16–20",
+          "steps": [
+            "Use a ten-bundle plus loose straws to add",
+            "Work the rows of + problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXV (p. 70)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n76/mode/1up"
+            }
+          ],
+          "pages": "p. 70",
+          "questions": [
+            "17 + 5 = ?",
+            "8 + 18 = ?",
+            "19 + 9 = ?"
+          ],
+          "answers": [
+            "22",
+            "26",
+            "28"
+          ]
+        },
+        {
+          "title": "Lesson LXVI: Adding to Larger Numbers",
+          "steps": [
+            "Add to 2-digit numbers on a hundred chart",
+            "Work the rows, noticing the ones digits repeat",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXVI (p. 71)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n77/mode/1up"
+            }
+          ],
+          "pages": "p. 71",
+          "questions": [
+            "34 + 5 = ?",
+            "46 + 7 = ?",
+            "68 + 9 = ?"
+          ],
+          "answers": [
+            "39",
+            "53",
+            "77"
+          ]
+        },
+        {
+          "title": "Lesson LXVII: Addition Word Problems",
+          "steps": [
+            "Act out each story with coins",
+            "Read each problem and answer in a full sentence",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXVII (p. 72)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n78/mode/1up"
+            }
+          ],
+          "pages": "p. 72",
+          "questions": [
+            "I had 18 cents and was given 6 more. How many cents now?",
+            "A slate cost 15 cents and a book 12 cents. What did both cost?",
+            "Ann has 23 beads and buys 7. How many beads?"
+          ],
+          "answers": [
+            "24 cents",
+            "27 cents",
+            "30"
+          ]
+        },
+        {
+          "title": "Lesson LXVIII: Subtraction Word Problems",
+          "steps": [
+            "Act out losing and spending with real coins",
+            "Read each problem and answer in a full sentence",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXVIII (p. 73)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n79/mode/1up"
+            }
+          ],
+          "pages": "p. 73",
+          "questions": [
+            "Tom had 17 marbles and lost 5. How many now?",
+            "A girl had 20 cents and spent 6. How many left?",
+            "There were 19 plums; 7 were given away. How many left?"
+          ],
+          "answers": [
+            "12",
+            "14 cents",
+            "12"
+          ]
+        },
+        {
+          "title": "Lesson LXIX: Using Several Signs",
+          "steps": [
+            "Line up sign cards and number cards and work left to right",
+            "Solve each + and − string, saying each step",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXIX (p. 74)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n80/mode/1up"
+            }
+          ],
+          "pages": "p. 74",
+          "questions": [
+            "6 + 8 + 3 − 5 = ?",
+            "10 + 4 + 7 − 6 = ?",
+            "9 + 9 − 8 = ?"
+          ],
+          "answers": [
+            "12",
+            "15",
+            "10"
+          ]
+        },
+        {
+          "title": "Lesson LXX: Money Word Problems",
+          "steps": [
+            "Use real coins to spend and make change",
+            "Work each problem, saying what was spent and what is left",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXX (p. 75)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n81/mode/1up"
+            }
+          ],
+          "pages": "p. 75",
+          "questions": [
+            "Fred had 20 cents and spent 7. How many cents left?",
+            "Nell had 25 cents; she spent 5 for a top and 8 for a ball. How much left?",
+            "Mother gave me 10 cents and father enough more to make 18. How much did father give?"
+          ],
+          "answers": [
+            "13 cents",
+            "12 cents",
+            "8 cents"
+          ]
+        },
+        {
+          "title": "Lesson LXXI: Multiplying, Then Subtracting",
+          "steps": [
+            "Make an array, then take some counters away",
+            "Solve each × and − problem",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXI (p. 76)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n82/mode/1up"
+            }
+          ],
+          "pages": "p. 76",
+          "questions": [
+            "4 × 5 − 6 = ?",
+            "7 × 3 − 9 = ?",
+            "6 × 6 − 10 = ?"
+          ],
+          "answers": [
+            "14",
+            "12",
+            "26"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 12: Review Problems (Lessons LXXII–LXXVIII)",
+      "lessons": [
+        {
+          "title": "Lesson LXXII: How Many Times? (to 20)",
+          "steps": [
+            "Group counters to see how many 3s make 12",
+            "Answer 'Six are how many times 2?' style questions",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXII (p. 77)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n83/mode/1up"
+            }
+          ],
+          "pages": "p. 77",
+          "questions": [
+            "Twelve are how many times 4?",
+            "Fifteen are how many times 5?",
+            "Eighteen are how many times 6?"
+          ],
+          "answers": [
+            "3",
+            "3",
+            "3"
+          ]
+        },
+        {
+          "title": "Lesson LXXIII: How Many Times? (larger numbers)",
+          "steps": [
+            "Use arrays of beans to check each answer",
+            "Answer the larger 'how many times' questions",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXIII (p. 78)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n84/mode/1up"
+            }
+          ],
+          "pages": "p. 78",
+          "questions": [
+            "Thirty-two are how many times 8?",
+            "Forty-two are how many times 7?",
+            "Forty-five are how many times 9?"
+          ],
+          "answers": [
+            "4",
+            "6",
+            "5"
+          ]
+        },
+        {
+          "title": "Lesson LXXIV: Promiscuous (Mixed) Questions",
+          "steps": [
+            "Play store with several items and prices",
+            "Work each mixed problem, telling which operation you used",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXIV (p. 79)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n85/mode/1up"
+            }
+          ],
+          "pages": "p. 79",
+          "questions": [
+            "Kate bought 3 peaches at 2 cents and 1 orange at 5 cents. What did she pay?",
+            "Ed has 3 kites and Ted has 4 times as many. How many kites do both have?",
+            "A man had 30 dollars and spent 4 dollars a day for 5 days. How much was left?"
+          ],
+          "answers": [
+            "11 cents",
+            "15",
+            "10 dollars"
+          ]
+        },
+        {
+          "title": "Lesson LXXV: Review Problems",
+          "steps": [
+            "Trade marbles between two piles to act out the first problem",
+            "Read each problem and solve it in steps",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXV (p. 80)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n86/mode/1up"
+            }
+          ],
+          "pages": "p. 80",
+          "questions": [
+            "Ann and Bea each had 8 shells; Ann gave Bea 3. How many does each have now?",
+            "Jim owed me 15 cents and gave me 2 apples worth 4 cents each. How much does he still owe?",
+            "I bought 2 lemons at 3 cents and 2 pears at 4 cents. What did I spend?"
+          ],
+          "answers": [
+            "Ann 5, Bea 11",
+            "7 cents",
+            "14 cents"
+          ]
+        },
+        {
+          "title": "Lesson LXXVI: Trading Goods",
+          "steps": [
+            "Trade 'apples' for 'oranges' using price tags",
+            "Work each trading problem: find the cost first, then the number of things",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXVI (p. 81)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n87/mode/1up"
+            }
+          ],
+          "pages": "p. 81",
+          "questions": [
+            "Max bought 4 pears at 3 cents each and paid with apples at 2 cents each. How many apples?",
+            "Ribbon is 5 cents a yard. What do 4 yards cost, and how many 10-cent coins pay for it?",
+            "How many 4-cent tops pay for 2 books at 6 cents each?"
+          ],
+          "answers": [
+            "6",
+            "20 cents; 2 coins",
+            "3"
+          ]
+        },
+        {
+          "title": "Lesson LXXVII: Paying in Other Goods",
+          "steps": [
+            "Use play money to compare prices",
+            "Solve the 'how many … will pay for …' problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXVII (p. 82)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n88/mode/1up"
+            }
+          ],
+          "pages": "p. 82",
+          "questions": [
+            "How many pencils at 2 cents each will pay for 3 erasers at 4 cents each?",
+            "How many kites at 5 cents each will pay for 2 balls at 10 cents each?",
+            "How many apples at 3 cents each will pay for 6 plums at 2 cents each?"
+          ],
+          "answers": [
+            "6",
+            "4",
+            "4"
+          ]
+        },
+        {
+          "title": "Lesson LXXVIII: Counting by 2s, 3s, 4s to 100",
+          "steps": [
+            "Skip-count aloud while bouncing a ball",
+            "Count up and back down by the steps the book gives",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXVIII (p. 83)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n89/mode/1up"
+            }
+          ],
+          "pages": "p. 83",
+          "questions": [
+            "Count by 4s from 4 to 24.",
+            "Count back by 3s from 30 to 15.",
+            "Count by 2s from 86 to 100."
+          ],
+          "answers": [
+            "4, 8, 12, 16, 20, 24",
+            "30, 27, 24, 21, 18, 15",
+            "86, 88, 90, 92, 94, 96, 98, 100"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 13: Tables of Money and Measures (Lessons LXXIX–LXXXIX)",
+      "lessons": [
+        {
+          "title": "Lesson LXXIX: Tables: United States Money",
+          "steps": [
+            "Sort real pennies and dimes; trade 10 pennies for a dime",
+            "Learn the money table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXIX (p. 84)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n90/mode/1up"
+            }
+          ],
+          "pages": "p. 84",
+          "questions": [
+            "How many cents in 4 dimes?",
+            "How many dimes in 70 cents?",
+            "How many dimes in 2 dollars?"
+          ],
+          "answers": [
+            "40 cents",
+            "7 dimes",
+            "20 dimes"
+          ],
+          "notes": "The book also lists the 'eagle' (a $10 gold coin); just explain it as old money."
+        },
+        {
+          "title": "Lesson LXXX: Tables: English Money",
+          "steps": [
+            "Use buttons as 'pence' and bundle 12 into a 'shilling'",
+            "Read the English money table and work a few problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXX (p. 85)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n91/mode/1up"
+            }
+          ],
+          "pages": "p. 85",
+          "questions": [
+            "How many farthings in 2 pence?",
+            "How many pence in 1 shilling?",
+            "How many shillings in 2 pounds?"
+          ],
+          "answers": [
+            "8",
+            "12",
+            "40"
+          ],
+          "notes": "Historical units; treat this lesson as a fun look at old British money."
+        },
+        {
+          "title": "Lesson LXXXI: Tables: Troy Weight",
+          "steps": [
+            "Weigh small things on a kitchen scale and talk about ounces",
+            "Read the Troy weight table and work a few problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXXI (p. 86)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n92/mode/1up"
+            }
+          ],
+          "pages": "p. 86",
+          "questions": [
+            "How many ounces in 2 pounds Troy?",
+            "How many pennyweights in 3 ounces?",
+            "How many grains in 1 pennyweight?"
+          ],
+          "answers": [
+            "24",
+            "60",
+            "24"
+          ],
+          "notes": "Troy weight was used for gold and silver; keep it light."
+        },
+        {
+          "title": "Lesson LXXXII: Tables: Avoirdupois Weight",
+          "steps": [
+            "Weigh flour or apples on a scale in pounds and ounces",
+            "Learn the table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXXII (p. 87)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n93/mode/1up"
+            }
+          ],
+          "pages": "p. 87",
+          "questions": [
+            "How many ounces in 3 pounds?",
+            "How many pounds in 2 hundred-weight?",
+            "How many pounds in 1 ton?"
+          ],
+          "answers": [
+            "48",
+            "200",
+            "2000"
+          ]
+        },
+        {
+          "title": "Lesson LXXXIII: Tables: Dry Measure",
+          "steps": [
+            "Measure dry beans with pint and quart containers",
+            "Learn the dry measure table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXXIII (p. 88)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n94/mode/1up"
+            }
+          ],
+          "pages": "p. 88",
+          "questions": [
+            "How many pints in 4 quarts?",
+            "How many quarts in 2 pecks?",
+            "How many pecks in 3 bushels?"
+          ],
+          "answers": [
+            "8",
+            "16",
+            "12"
+          ]
+        },
+        {
+          "title": "Lesson LXXXIV: Tables: Liquid Measure",
+          "steps": [
+            "Pour water between cup, pint, quart and gallon containers",
+            "Learn the liquid measure table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXXIV (p. 89)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n95/mode/1up"
+            }
+          ],
+          "pages": "p. 89",
+          "questions": [
+            "How many pints in 3 quarts?",
+            "How many quarts in 2 gallons?",
+            "How many gills in 2 pints?"
+          ],
+          "answers": [
+            "6",
+            "8",
+            "8"
+          ]
+        },
+        {
+          "title": "Lesson LXXXV: Tables: Long Measure",
+          "steps": [
+            "Measure the table with a ruler and a yardstick",
+            "Learn the long measure table and work the problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXXV (p. 90)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n96/mode/1up"
+            }
+          ],
+          "pages": "p. 90",
+          "questions": [
+            "How many inches in 2 feet?",
+            "How many feet in 5 yards?",
+            "How many yards in 12 feet?"
+          ],
+          "answers": [
+            "24",
+            "15",
+            "4"
+          ]
+        },
+        {
+          "title": "Lesson LXXXVI: Tables: Square Measure",
+          "steps": [
+            "Cover a 3-by-3 square of floor tiles or paper squares",
+            "Learn the square measure table and work the area problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXXVI (p. 91)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n97/mode/1up"
+            }
+          ],
+          "pages": "p. 91",
+          "questions": [
+            "How many square feet in 2 square yards?",
+            "A rug is 4 feet long and 3 feet wide. How many square feet?",
+            "How many square yards in 27 square feet?"
+          ],
+          "answers": [
+            "18",
+            "12",
+            "3"
+          ]
+        },
+        {
+          "title": "Lesson LXXXVII: Tables: Apothecaries' Weight",
+          "steps": [
+            "Look at a medicine cup and talk about small measures",
+            "Read the apothecaries' table and work a few problems",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXXVII (p. 92)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n98/mode/1up"
+            }
+          ],
+          "pages": "p. 92",
+          "questions": [
+            "How many scruples in 2 drams?",
+            "How many drams in 1 ounce?",
+            "How many grains in 1 scruple?"
+          ],
+          "answers": [
+            "6",
+            "8",
+            "20"
+          ],
+          "notes": "An old druggist's table; enjoy it as history."
+        },
+        {
+          "title": "Lesson LXXXVIII: Tables: Circles, Paper, Books, and Counting",
+          "steps": [
+            "Count a dozen eggs, then talk about a 'score' and a 'gross'",
+            "Read the circular measure, paper, and miscellaneous tables",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXXVIII (p. 93)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n99/mode/1up"
+            }
+          ],
+          "pages": "p. 93",
+          "questions": [
+            "How many things in 2 dozen?",
+            "How many things in a score?",
+            "How many sheets of paper in 2 quires?"
+          ],
+          "answers": [
+            "24",
+            "20",
+            "48"
+          ]
+        },
+        {
+          "title": "Lesson LXXXIX: Review of Tables",
+          "steps": [
+            "Play a quick quiz game with money and measuring tools",
+            "Work the review of all the tables",
+            "Solve the 3 practice problems below, using objects if needed"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXXIX (p. 94)",
+              "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n100/mode/1up"
+            }
+          ],
+          "pages": "p. 94",
+          "questions": [
+            "How many cents in 6 dimes?",
+            "How many inches in 3 feet?",
+            "How many quarts in 3 gallons?"
+          ],
+          "answers": [
+            "60",
+            "36",
+            "12"
+          ]
+        }
+      ]
     }
-   ]
-  },
-  {
-   "title": "Unit 3: Addition, Adding 1 to 5 (Lessons XI–XV)",
-   "lessons": [
-    {
-     "title": "Lesson XI: Addition: Adding 1",
-     "steps": [
-      "Add one bean at a time to a pile and say the new total",
-      "Say the table '1 and 1 are 2…' then answer the book's problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XI (p. 13)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n19/mode/1up"
-      }
-     ],
-     "pages": "p. 13",
-     "questions": [
-      "How many are 1 and 8?",
-      "Tom has 6 marbles and finds 1 more. How many now?",
-      "How many are 10 and 1?"
-     ],
-     "answers": [
-      "9",
-      "7",
-      "11"
-     ]
-    },
-    {
-     "title": "Lesson XII: Addition: Adding 2",
-     "steps": [
-      "Add pairs of buttons to a pile and count on",
-      "Recite the 2s addition table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XII (p. 14)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n20/mode/1up"
-      }
-     ],
-     "pages": "p. 14",
-     "questions": [
-      "How many are 2 and 7?",
-      "Mary has 5 cents; her mother gives her 2 more. How many now?",
-      "How many are 8 and 2?"
-     ],
-     "answers": [
-      "9",
-      "7 cents",
-      "10"
-     ]
-    },
-    {
-     "title": "Lesson XIII: Addition: Adding 3",
-     "steps": [
-      "Make groups of 3 blocks and add them to other groups",
-      "Recite the 3s table and solve the book's problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XIII (p. 15)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n21/mode/1up"
-      }
-     ],
-     "pages": "p. 15",
-     "questions": [
-      "How many are 3 and 6?",
-      "A hen has 3 chicks in the yard and 5 in the barn. How many chicks?",
-      "How many are 3 and 9?"
-     ],
-     "answers": [
-      "9",
-      "8",
-      "12"
-     ]
-    },
-    {
-     "title": "Lesson XIV: Addition: Adding 4",
-     "steps": [
-      "Use 4-cup muffin tins or egg cartons to show 4 and more",
-      "Recite the 4s table and solve the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XIV (p. 16)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n22/mode/1up"
-      }
-     ],
-     "pages": "p. 16",
-     "questions": [
-      "How many are 4 and 7?",
-      "Jane picked 4 apples and Ann picked 6. How many apples?",
-      "How many are 9 and 4?"
-     ],
-     "answers": [
-      "11",
-      "10",
-      "13"
-     ]
-    },
-    {
-     "title": "Lesson XV: Addition: Adding 5",
-     "steps": [
-      "Show 5 with one hand of fingers, then add more counters",
-      "Recite the 5s table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XV (p. 17)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n23/mode/1up"
-      }
-     ],
-     "pages": "p. 17",
-     "questions": [
-      "How many are 5 and 8?",
-      "A boy has 5 tops and buys 4 more. How many tops?",
-      "How many are 6 and 5?"
-     ],
-     "answers": [
-      "13",
-      "9",
-      "11"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Unit 4: Addition, Adding 6 to 10 and Review (Lessons XVI–XXIII)",
-   "lessons": [
-    {
-     "title": "Lesson XVI: Addition: Adding 6",
-     "steps": [
-      "Lay out 6 spoons and add other groups",
-      "Recite the 6s table and solve the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XVI (p. 18)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n24/mode/1up"
-      }
-     ],
-     "pages": "p. 18",
-     "questions": [
-      "How many are 6 and 7?",
-      "Six ducks swim and 6 more join them. How many ducks?",
-      "How many are 6 and 9?"
-     ],
-     "answers": [
-      "13",
-      "12",
-      "15"
-     ]
-    },
-    {
-     "title": "Lesson XVII: Addition: Adding 7",
-     "steps": [
-      "Count 7 days on a calendar and add more days",
-      "Recite the 7s table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XVII (p. 19)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n25/mode/1up"
-      }
-     ],
-     "pages": "p. 19",
-     "questions": [
-      "How many are 7 and 8?",
-      "Sam reads 7 pages one day and 5 the next. How many pages?",
-      "How many are 7 and 7?"
-     ],
-     "answers": [
-      "15",
-      "12",
-      "14"
-     ]
-    },
-    {
-     "title": "Lesson XVIII: Addition: Adding 8",
-     "steps": [
-      "Add groups of 8 crayons to smaller groups",
-      "Recite the 8s table and solve the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XVIII (p. 20)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n26/mode/1up"
-      }
-     ],
-     "pages": "p. 20",
-     "questions": [
-      "How many are 8 and 6?",
-      "A cat has 8 kittens and a dog has 3 puppies. How many babies?",
-      "How many are 8 and 9?"
-     ],
-     "answers": [
-      "14",
-      "11",
-      "17"
-     ]
-    },
-    {
-     "title": "Lesson XIX: Addition: Adding 9",
-     "steps": [
-      "Make 9 with beans, then add more; notice 9 and 4 is one less than 10 and 4",
-      "Recite the 9s table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XIX (p. 21)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n27/mode/1up"
-      }
-     ],
-     "pages": "p. 21",
-     "questions": [
-      "How many are 9 and 5?",
-      "Lucy had 9 cents and earned 9 more. How many cents?",
-      "How many are 9 and 8?"
-     ],
-     "answers": [
-      "14",
-      "18",
-      "17"
-     ]
-    },
-    {
-     "title": "Lesson XX: Addition: Adding 10",
-     "steps": [
-      "Use a ten-bundle of straws plus loose straws",
-      "Recite the 10s table and solve the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XX (p. 22)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n28/mode/1up"
-      }
-     ],
-     "pages": "p. 22",
-     "questions": [
-      "How many are 10 and 7?",
-      "A farmer has 10 cows and buys 6. How many cows?",
-      "How many are 4 and 10?"
-     ],
-     "answers": [
-      "17",
-      "16",
-      "14"
-     ]
-    },
-    {
-     "title": "Lesson XXI: Review of Addition",
-     "steps": [
-      "Roll two dice and add the dots aloud",
-      "Work the review questions, including adding three numbers",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXI (p. 23)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n29/mode/1up"
-      }
-     ],
-     "pages": "p. 23",
-     "questions": [
-      "How many are 5 and 7?",
-      "How many are 3 and 4 and 6?",
-      "How many are 2 and 8 and 9?"
-     ],
-     "answers": [
-      "12",
-      "13",
-      "19"
-     ]
-    },
-    {
-     "title": "Lesson XXII: Review of Addition (continued)",
-     "steps": [
-      "Add three small piles of beans together",
-      "Finish the second review set aloud",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXII (p. 24)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n30/mode/1up"
-      }
-     ],
-     "pages": "p. 24",
-     "questions": [
-      "How many are 6 and 6 and 3?",
-      "How many are 4 and 9?",
-      "How many are 7 and 2 and 8?"
-     ],
-     "answers": [
-      "15",
-      "13",
-      "17"
-     ]
-    },
-    {
-     "title": "Lesson XXIII: Addition Problems",
-     "steps": [
-      "Act out a shopping story with pennies",
-      "Read each word problem and answer with a full sentence",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXIII (p. 26)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n32/mode/1up"
-      }
-     ],
-     "pages": "p. 26",
-     "questions": [
-      "Ann paid 4 cents for a pencil, 3 for paper, and 5 for a ribbon. How much in all?",
-      "Three boys caught 2, 6, and 5 fish. How many fish?",
-      "A girl has 7 dolls and gets 8 more. How many dolls?"
-     ],
-     "answers": [
-      "12 cents",
-      "13",
-      "15"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Unit 5: Subtraction, Taking 1 to 5 (Lessons XXIV–XXIX)",
-   "lessons": [
-    {
-     "title": "Lesson XXIV: Subtraction: Owls and Bats",
-     "steps": [
-      "Set out 7 toys; take some away and count what is left",
-      "Look at the owls-and-bats picture and answer the questions",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXIV (p. 27)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n33/mode/1up"
-      }
-     ],
-     "pages": "p. 27",
-     "questions": [
-      "Five owls sat on a branch; 3 flew away. How many were left?",
-      "Eight bats were flying; 6 went into a barn. How many still flying?",
-      "Six less 4 are how many?"
-     ],
-     "answers": [
-      "2",
-      "2",
-      "2"
-     ]
-    },
-    {
-     "title": "Lesson XXV: Subtraction: Taking 1",
-     "steps": [
-      "Take one bean at a time from a pile",
-      "Recite '1 from 1 leaves 0…' and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXV (p. 28)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n34/mode/1up"
-      }
-     ],
-     "pages": "p. 28",
-     "questions": [
-      "1 from 9 leaves how many?",
-      "Jim had 7 apples and ate 1. How many left?",
-      "1 from 11 leaves how many?"
-     ],
-     "answers": [
-      "8",
-      "6",
-      "10"
-     ]
-    },
-    {
-     "title": "Lesson XXVI: Subtraction: Taking 2",
-     "steps": [
-      "Take pairs of buttons away from a pile",
-      "Recite the 2s subtraction table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXVI (p. 29)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n35/mode/1up"
-      }
-     ],
-     "pages": "p. 29",
-     "questions": [
-      "2 from 9 leaves how many?",
-      "Kate had 8 cents and spent 2. How many left?",
-      "2 from 12 leaves how many?"
-     ],
-     "answers": [
-      "7",
-      "6 cents",
-      "10"
-     ]
-    },
-    {
-     "title": "Lesson XXVII: Subtraction: Taking 3",
-     "steps": [
-      "Remove 3 blocks from towers of different sizes",
-      "Recite the 3s subtraction table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXVII (p. 30)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n36/mode/1up"
-      }
-     ],
-     "pages": "p. 30",
-     "questions": [
-      "3 from 10 leaves how many?",
-      "A nest had 6 eggs; 3 hatched. How many have not hatched?",
-      "3 from 12 leaves how many?"
-     ],
-     "answers": [
-      "7",
-      "3",
-      "9"
-     ]
-    },
-    {
-     "title": "Lesson XXVIII: Subtraction: Taking 4",
-     "steps": [
-      "Take 4 spoons from a drawer pile",
-      "Recite the 4s subtraction table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXVIII (p. 31)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n37/mode/1up"
-      }
-     ],
-     "pages": "p. 31",
-     "questions": [
-      "4 from 11 leaves how many?",
-      "There were 9 pears; 4 were eaten. How many left?",
-      "4 from 13 leaves how many?"
-     ],
-     "answers": [
-      "7",
-      "5",
-      "9"
-     ]
-    },
-    {
-     "title": "Lesson XXIX: Subtraction: Taking 5",
-     "steps": [
-      "Hide one hand of 5 fingers to show taking 5",
-      "Recite the 5s subtraction table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXIX (p. 32)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n38/mode/1up"
-      }
-     ],
-     "pages": "p. 32",
-     "questions": [
-      "5 from 12 leaves how many?",
-      "Ned had 14 marbles and lost 5. How many now?",
-      "5 from 9 leaves how many?"
-     ],
-     "answers": [
-      "7",
-      "9",
-      "4"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Unit 6: Subtraction, Taking 6 to 10 and Review (Lessons XXX–XXXVII)",
-   "lessons": [
-    {
-     "title": "Lesson XXX: Subtraction: Taking 6",
-     "steps": [
-      "Take 6 eggs from a carton of 12 and count what remains",
-      "Recite the 6s subtraction table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXX (p. 33)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n39/mode/1up"
-      }
-     ],
-     "pages": "p. 33",
-     "questions": [
-      "6 from 13 leaves how many?",
-      "A baker had 15 rolls and sold 6. How many left?",
-      "6 from 10 leaves how many?"
-     ],
-     "answers": [
-      "7",
-      "9",
-      "4"
-     ]
-    },
-    {
-     "title": "Lesson XXXI: Subtraction: Taking 7",
-     "steps": [
-      "Use 7 days of the week; cross off days",
-      "Recite the 7s subtraction table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXXI (p. 34)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n40/mode/1up"
-      }
-     ],
-     "pages": "p. 34",
-     "questions": [
-      "7 from 15 leaves how many?",
-      "Sue had 12 ribbons and gave away 7. How many left?",
-      "7 from 11 leaves how many?"
-     ],
-     "answers": [
-      "8",
-      "5",
-      "4"
-     ]
-    },
-    {
-     "title": "Lesson XXXII: Subtraction: Taking 8",
-     "steps": [
-      "Remove 8 crayons from a box of 16",
-      "Recite the 8s subtraction table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXXII (p. 35)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n41/mode/1up"
-      }
-     ],
-     "pages": "p. 35",
-     "questions": [
-      "8 from 14 leaves how many?",
-      "There were 17 sheep; 8 went into the barn. How many outside?",
-      "8 from 12 leaves how many?"
-     ],
-     "answers": [
-      "6",
-      "9",
-      "4"
-     ]
-    },
-    {
-     "title": "Lesson XXXIII: Subtraction: Taking 9",
-     "steps": [
-      "Take 9 from a pile by taking 10 and putting 1 back",
-      "Recite the 9s subtraction table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXXIII (p. 36)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n42/mode/1up"
-      }
-     ],
-     "pages": "p. 36",
-     "questions": [
-      "9 from 16 leaves how many?",
-      "Tom had 13 cents and spent 9. How many left?",
-      "9 from 18 leaves how many?"
-     ],
-     "answers": [
-      "7",
-      "4 cents",
-      "9"
-     ]
-    },
-    {
-     "title": "Lesson XXXIV: Subtraction: Taking 10",
-     "steps": [
-      "Remove a ten-bundle from bundles and loose straws",
-      "Recite the 10s subtraction table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXXIV (p. 37)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n43/mode/1up"
-      }
-     ],
-     "pages": "p. 37",
-     "questions": [
-      "10 from 17 leaves how many?",
-      "A tree had 19 apples; 10 fell. How many still on the tree?",
-      "10 from 20 leaves how many?"
-     ],
-     "answers": [
-      "7",
-      "9",
-      "10"
-     ]
-    },
-    {
-     "title": "Lesson XXXV: Review of Subtraction",
-     "steps": [
-      "Play 'how many left?' by hiding beans under a cup",
-      "Work the review questions using the word 'less'",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXXV (p. 38)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n44/mode/1up"
-      }
-     ],
-     "pages": "p. 38",
-     "questions": [
-      "How many are 11 less 5?",
-      "How many are 14 less 8?",
-      "How many are 9 less 6?"
-     ],
-     "answers": [
-      "6",
-      "6",
-      "3"
-     ]
-    },
-    {
-     "title": "Lesson XXXVI: Addition and Subtraction Together",
-     "steps": [
-      "Add two piles of beans, then take some away",
-      "Solve each 'and … less' question in two steps",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXXVI (p. 39)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n45/mode/1up"
-      }
-     ],
-     "pages": "p. 39",
-     "questions": [
-      "How many are 4 and 6, less 3?",
-      "How many are 8 and 5, less 7?",
-      "How many are 9 and 9, less 10?"
-     ],
-     "answers": [
-      "7",
-      "6",
-      "8"
-     ]
-    },
-    {
-     "title": "Lesson XXXVII: Counting Backward by 2s, 3s, 4s, 5s",
-     "steps": [
-      "Hop backward along a number line taped on the floor",
-      "Count down from 20 by 2s, 3s, 4s and 5s as the book directs",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXXVII (p. 40)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n46/mode/1up"
-      }
-     ],
-     "pages": "p. 40",
-     "questions": [
-      "Count down from 12 by 3s.",
-      "Count down from 20 by 5s.",
-      "Count down from 16 by 4s."
-     ],
-     "answers": [
-      "12, 9, 6, 3, 0",
-      "20, 15, 10, 5, 0",
-      "16, 12, 8, 4, 0"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Unit 7: Multiplication, Times 1 to 5 (Lessons XXXVIII–XLIII)",
-   "lessons": [
-    {
-     "title": "Lesson XXXVIII: Multiplication: Swallows in a Picture",
-     "steps": [
-      "Set out 3 cups with 4 beans in each and count all",
-      "Count the swallows in the picture and answer the times questions",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXXVIII (p. 41)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n47/mode/1up"
-      }
-     ],
-     "pages": "p. 41",
-     "questions": [
-      "There are 2 nests with 5 eggs in each. How many eggs?",
-      "How many are 3 times 3?",
-      "Four birds each have 2 wings. How many wings?"
-     ],
-     "answers": [
-      "10",
-      "9",
-      "8"
-     ]
-    },
-    {
-     "title": "Lesson XXXIX: Multiplication: Times 1",
-     "steps": [
-      "Show 1 bean in each of 6 cups",
-      "Recite '1 time 2 is 2…' and work the cost problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XXXIX (p. 42)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n48/mode/1up"
-      }
-     ],
-     "pages": "p. 42",
-     "questions": [
-      "How many are 7 times 1?",
-      "Figs cost 1 cent each. What do 9 figs cost?",
-      "How many are 1 time 5?"
-     ],
-     "answers": [
-      "7",
-      "9 cents",
-      "5"
-     ]
-    },
-    {
-     "title": "Lesson XL: Multiplication: Times 2",
-     "steps": [
-      "Pair socks and count by 2s",
-      "Recite the 2s times table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XL (p. 43)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n49/mode/1up"
-      }
-     ],
-     "pages": "p. 43",
-     "questions": [
-      "How many are 2 times 6?",
-      "Each child has 2 shoes. How many shoes do 7 children have?",
-      "How many are 9 times 2?"
-     ],
-     "answers": [
-      "12",
-      "14",
-      "18"
-     ]
-    },
-    {
-     "title": "Lesson XLI: Multiplication: Times 3",
-     "steps": [
-      "Make 3-leaf clovers from paper and count leaves",
-      "Recite the 3s times table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XLI (p. 44)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n50/mode/1up"
-      }
-     ],
-     "pages": "p. 44",
-     "questions": [
-      "How many are 3 times 5?",
-      "Pencils are 3 cents each. What do 6 cost?",
-      "How many are 3 times 8?"
-     ],
-     "answers": [
-      "15",
-      "18 cents",
-      "24"
-     ]
-    },
-    {
-     "title": "Lesson XLII: Multiplication: Times 4",
-     "steps": [
-      "Count the legs on 4-legged toys or chairs",
-      "Recite the 4s times table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XLII (p. 45)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n51/mode/1up"
-      }
-     ],
-     "pages": "p. 45",
-     "questions": [
-      "How many are 4 times 6?",
-      "Each wagon has 4 wheels. How many wheels on 5 wagons?",
-      "How many are 4 times 9?"
-     ],
-     "answers": [
-      "24",
-      "20",
-      "36"
-     ]
-    },
-    {
-     "title": "Lesson XLIII: Multiplication: Times 5",
-     "steps": [
-      "Count nickels by 5s",
-      "Recite the 5s times table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XLIII (p. 46)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n52/mode/1up"
-      }
-     ],
-     "pages": "p. 46",
-     "questions": [
-      "How many are 5 times 7?",
-      "Tops cost 5 cents each. What do 4 tops cost?",
-      "How many are 5 times 10?"
-     ],
-     "answers": [
-      "35",
-      "20 cents",
-      "50"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Unit 8: Multiplication, Times 6 to 10 and Review (Lessons XLIV–LI)",
-   "lessons": [
-    {
-     "title": "Lesson XLIV: Multiplication: Times 6",
-     "steps": [
-      "Count eggs in half-dozen cartons",
-      "Recite the 6s times table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XLIV (p. 47)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n53/mode/1up"
-      }
-     ],
-     "pages": "p. 47",
-     "questions": [
-      "How many are 6 times 4?",
-      "Each box holds 6 eggs. How many eggs in 7 boxes?",
-      "How many are 6 times 6?"
-     ],
-     "answers": [
-      "24",
-      "42",
-      "36"
-     ]
-    },
-    {
-     "title": "Lesson XLV: Multiplication: Times 7",
-     "steps": [
-      "Count days in several weeks on a calendar",
-      "Recite the 7s times table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XLV (p. 48)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n54/mode/1up"
-      }
-     ],
-     "pages": "p. 48",
-     "questions": [
-      "How many are 7 times 3?",
-      "How many days are in 5 weeks?",
-      "How many are 7 times 8?"
-     ],
-     "answers": [
-      "21",
-      "35",
-      "56"
-     ]
-    },
-    {
-     "title": "Lesson XLVI: Multiplication: Times 8",
-     "steps": [
-      "Count the legs on paper spiders (8 each)",
-      "Recite the 8s times table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XLVI (p. 49)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n55/mode/1up"
-      }
-     ],
-     "pages": "p. 49",
-     "questions": [
-      "How many are 8 times 5?",
-      "A spider has 8 legs. How many legs do 3 spiders have?",
-      "How many are 8 times 7?"
-     ],
-     "answers": [
-      "40",
-      "24",
-      "56"
-     ]
-    },
-    {
-     "title": "Lesson XLVII: Multiplication: Times 9",
-     "steps": [
-      "Use the finger trick or bean groups for 9s",
-      "Recite the 9s times table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XLVII (p. 50)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n56/mode/1up"
-      }
-     ],
-     "pages": "p. 50",
-     "questions": [
-      "How many are 9 times 4?",
-      "Melons cost 9 cents each. What do 6 cost?",
-      "How many are 9 times 9?"
-     ],
-     "answers": [
-      "36",
-      "54 cents",
-      "81"
-     ]
-    },
-    {
-     "title": "Lesson XLVIII: Multiplication: Times 10",
-     "steps": [
-      "Count dimes by 10s",
-      "Recite the 10s times table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XLVIII (p. 51)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n57/mode/1up"
-      }
-     ],
-     "pages": "p. 51",
-     "questions": [
-      "How many are 10 times 6?",
-      "Each bundle has 10 sticks. How many sticks in 8 bundles?",
-      "How many are 3 times 10?"
-     ],
-     "answers": [
-      "60",
-      "80",
-      "30"
-     ]
-    },
-    {
-     "title": "Lesson XLIX: Review of Multiplication",
-     "steps": [
-      "Build arrays with beans for any two numbers",
-      "Work the review, including three numbers multiplied together",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson XLIX (p. 52)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n58/mode/1up"
-      }
-     ],
-     "pages": "p. 52",
-     "questions": [
-      "How many are 4 times 7?",
-      "How many are 2 times 3 times 4?",
-      "How many are 6 times 9?"
-     ],
-     "answers": [
-      "28",
-      "24",
-      "54"
-     ]
-    },
-    {
-     "title": "Lesson L: Review: Mixed Operations",
-     "steps": [
-      "Add, take away, and then make groups with counters",
-      "Solve each question step by step, saying each result",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson L (p. 54)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n60/mode/1up"
-      }
-     ],
-     "pages": "p. 54",
-     "questions": [
-      "How many are 3 and 5, less 2, multiplied by 4?",
-      "How many are 6 and 4, less 5, multiplied by 3?",
-      "How many are 9 less 7, multiplied by 8?"
-     ],
-     "answers": [
-      "24",
-      "15",
-      "16"
-     ]
-    },
-    {
-     "title": "Lesson LI: Promiscuous (Mixed) Questions",
-     "steps": [
-      "Play store with pennies and price tags",
-      "Read each mixed word problem and explain your steps",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LI (p. 55)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n61/mode/1up"
-      }
-     ],
-     "pages": "p. 55",
-     "questions": [
-      "Ben had 15 cents and bought 2 apples at 4 cents each. How much did he have left?",
-      "A girl bought 3 ribbons at 5 cents each. What did she pay?",
-      "Two boys had 9 marbles each; one lost 3. How many marbles do they have together now?"
-     ],
-     "answers": [
-      "7 cents",
-      "15 cents",
-      "15"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Unit 9: Division, 2 In to 6 In (Lessons LII–LVII)",
-   "lessons": [
-    {
-     "title": "Lesson LII: Division: Ducks and Geese",
-     "steps": [
-      "Share 12 crackers fairly among 3 plates",
-      "Look at the ducks-and-geese picture and answer the sharing questions",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LII (p. 56)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n62/mode/1up"
-      }
-     ],
-     "pages": "p. 56",
-     "questions": [
-      "Twelve ducks split into 3 equal flocks. How many in each flock?",
-      "How many times is 4 contained in 16?",
-      "Six geese have 12 feet. How many feet does each goose have?"
-     ],
-     "answers": [
-      "4",
-      "4",
-      "2"
-     ]
-    },
-    {
-     "title": "Lesson LIII: Division: 2 In",
-     "steps": [
-      "Split beans into groups of 2",
-      "Recite '2 in 2, 1 time…' and work the buying problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LIII (p. 57)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n63/mode/1up"
-      }
-     ],
-     "pages": "p. 57",
-     "questions": [
-      "How many times is 2 contained in 14?",
-      "Apples are 2 cents each. How many can you buy for 10 cents?",
-      "How many times is 2 contained in 18?"
-     ],
-     "answers": [
-      "7",
-      "5",
-      "9"
-     ]
-    },
-    {
-     "title": "Lesson LIV: Division: 3 In",
-     "steps": [
-      "Make groups of 3 buttons from a pile of 21",
-      "Recite the 3s division table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LIV (p. 58)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n64/mode/1up"
-      }
-     ],
-     "pages": "p. 58",
-     "questions": [
-      "How many times is 3 contained in 24?",
-      "Share 15 cherries among 3 children. How many each?",
-      "How many times is 3 contained in 9?"
-     ],
-     "answers": [
-      "8",
-      "5",
-      "3"
-     ]
-    },
-    {
-     "title": "Lesson LV: Division: 4 In",
-     "steps": [
-      "Put 4 beans in each cup until 28 are used",
-      "Recite the 4s division table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LV (p. 59)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n65/mode/1up"
-      }
-     ],
-     "pages": "p. 59",
-     "questions": [
-      "How many times is 4 contained in 32?",
-      "Lemons are 4 cents each. How many for 20 cents?",
-      "How many times is 4 contained in 36?"
-     ],
-     "answers": [
-      "8",
-      "5",
-      "9"
-     ]
-    },
-    {
-     "title": "Lesson LVI: Division: 5 In",
-     "steps": [
-      "Group pennies into nickels' worth (5s)",
-      "Recite the 5s division table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LVI (p. 60)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n66/mode/1up"
-      }
-     ],
-     "pages": "p. 60",
-     "questions": [
-      "How many times is 5 contained in 35?",
-      "Kites are 5 cents each. How many for 30 cents?",
-      "How many times is 5 contained in 45?"
-     ],
-     "answers": [
-      "7",
-      "6",
-      "9"
-     ]
-    },
-    {
-     "title": "Lesson LVII: Division: 6 In",
-     "steps": [
-      "Pack 6 eggs per carton from a pile",
-      "Recite the 6s division table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LVII (p. 61)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n67/mode/1up"
-      }
-     ],
-     "pages": "p. 61",
-     "questions": [
-      "How many times is 6 contained in 42?",
-      "Share 24 nuts among 6 boys. How many each?",
-      "How many times is 6 contained in 54?"
-     ],
-     "answers": [
-      "7",
-      "4",
-      "9"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Unit 10: Division, 7 In to 10 In and Review (Lessons LVIII–LXIII)",
-   "lessons": [
-    {
-     "title": "Lesson LVIII: Division: 7 In",
-     "steps": [
-      "Arrange 28 counters into rows of 7",
-      "Recite the 7s division table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LVIII (p. 62)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n68/mode/1up"
-      }
-     ],
-     "pages": "p. 62",
-     "questions": [
-      "How many times is 7 contained in 56?",
-      "A man walked 21 miles in 7 hours. How far in 1 hour?",
-      "How many times is 7 contained in 49?"
-     ],
-     "answers": [
-      "8",
-      "3 miles",
-      "7"
-     ]
-    },
-    {
-     "title": "Lesson LIX: Division: 8 In",
-     "steps": [
-      "Make 8-legged paper spiders from 40 'legs'",
-      "Recite the 8s division table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LIX (p. 63)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n69/mode/1up"
-      }
-     ],
-     "pages": "p. 63",
-     "questions": [
-      "How many times is 8 contained in 48?",
-      "Eight boys share 64 marbles. How many each?",
-      "How many times is 8 contained in 72?"
-     ],
-     "answers": [
-      "6",
-      "8",
-      "9"
-     ]
-    },
-    {
-     "title": "Lesson LX: Division: 9 In",
-     "steps": [
-      "Make groups of 9 from 45 beans",
-      "Recite the 9s division table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LX (p. 64)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n70/mode/1up"
-      }
-     ],
-     "pages": "p. 64",
-     "questions": [
-      "How many times is 9 contained in 63?",
-      "Pears cost 9 cents each. How many for 36 cents?",
-      "How many times is 9 contained in 90?"
-     ],
-     "answers": [
-      "7",
-      "4",
-      "10"
-     ]
-    },
-    {
-     "title": "Lesson LXI: Division: 10 In",
-     "steps": [
-      "Change pennies into dimes (10 each)",
-      "Recite the 10s division table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXI (p. 65)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n71/mode/1up"
-      }
-     ],
-     "pages": "p. 65",
-     "questions": [
-      "How many times is 10 contained in 70?",
-      "How many dimes are in 50 cents?",
-      "How many times is 10 contained in 100?"
-     ],
-     "answers": [
-      "7",
-      "5",
-      "10"
-     ]
-    },
-    {
-     "title": "Lesson LXII: Review of Division",
-     "steps": [
-      "Share a pile of counters different ways",
-      "Work the review table and the 'and … divided by' questions",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXII (p. 66)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n72/mode/1up"
-      }
-     ],
-     "pages": "p. 66",
-     "questions": [
-      "How many times is 6 contained in 30?",
-      "How many are 7 and 9, divided by 4?",
-      "How many are 10 and 8, divided by 3?"
-     ],
-     "answers": [
-      "5",
-      "4",
-      "6"
-     ]
-    },
-    {
-     "title": "Lesson LXIII: Finding the Cost of One",
-     "steps": [
-      "Price a few items in play money, then find the price of one",
-      "Work the 'if 4 pens cost…' problems in two steps",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXIII (p. 68)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n74/mode/1up"
-      }
-     ],
-     "pages": "p. 68",
-     "questions": [
-      "If 3 pencils cost 12 cents, what does 1 cost?",
-      "If 1 orange costs 5 cents, what do 6 cost?",
-      "If 5 tops cost 20 cents, what will 3 tops cost?"
-     ],
-     "answers": [
-      "4 cents",
-      "30 cents",
-      "12 cents"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Unit 11: Signs and Larger Numbers (Lessons LXIV–LXXI)",
-   "lessons": [
-    {
-     "title": "Lesson LXIV: Signs: + − × ÷ =",
-     "steps": [
-      "Make cards for the five signs and build number sentences with counters",
-      "Read about the signs, then solve the + problems with numbers past 10",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXIV (p. 69)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n75/mode/1up"
-      }
-     ],
-     "pages": "p. 69",
-     "questions": [
-      "11 + 6 = ?",
-      "What does the sign × mean?",
-      "12 + 7 = ?"
-     ],
-     "answers": [
-      "17",
-      "Multiplied by",
-      "19"
-     ]
-    },
-    {
-     "title": "Lesson LXV: Adding to Numbers 16–20",
-     "steps": [
-      "Use a ten-bundle plus loose straws to add",
-      "Work the rows of + problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXV (p. 70)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n76/mode/1up"
-      }
-     ],
-     "pages": "p. 70",
-     "questions": [
-      "17 + 5 = ?",
-      "8 + 18 = ?",
-      "19 + 9 = ?"
-     ],
-     "answers": [
-      "22",
-      "26",
-      "28"
-     ]
-    },
-    {
-     "title": "Lesson LXVI: Adding to Larger Numbers",
-     "steps": [
-      "Add to 2-digit numbers on a hundred chart",
-      "Work the rows, noticing the ones digits repeat",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXVI (p. 71)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n77/mode/1up"
-      }
-     ],
-     "pages": "p. 71",
-     "questions": [
-      "34 + 5 = ?",
-      "46 + 7 = ?",
-      "68 + 9 = ?"
-     ],
-     "answers": [
-      "39",
-      "53",
-      "77"
-     ]
-    },
-    {
-     "title": "Lesson LXVII: Addition Word Problems",
-     "steps": [
-      "Act out each story with coins",
-      "Read each problem and answer in a full sentence",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXVII (p. 72)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n78/mode/1up"
-      }
-     ],
-     "pages": "p. 72",
-     "questions": [
-      "I had 18 cents and was given 6 more. How many cents now?",
-      "A slate cost 15 cents and a book 12 cents. What did both cost?",
-      "Ann has 23 beads and buys 7. How many beads?"
-     ],
-     "answers": [
-      "24 cents",
-      "27 cents",
-      "30"
-     ]
-    },
-    {
-     "title": "Lesson LXVIII: Subtraction Word Problems",
-     "steps": [
-      "Act out losing and spending with real coins",
-      "Read each problem and answer in a full sentence",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXVIII (p. 73)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n79/mode/1up"
-      }
-     ],
-     "pages": "p. 73",
-     "questions": [
-      "Tom had 17 marbles and lost 5. How many now?",
-      "A girl had 20 cents and spent 6. How many left?",
-      "There were 19 plums; 7 were given away. How many left?"
-     ],
-     "answers": [
-      "12",
-      "14 cents",
-      "12"
-     ]
-    },
-    {
-     "title": "Lesson LXIX: Using Several Signs",
-     "steps": [
-      "Line up sign cards and number cards and work left to right",
-      "Solve each + and − string, saying each step",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXIX (p. 74)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n80/mode/1up"
-      }
-     ],
-     "pages": "p. 74",
-     "questions": [
-      "6 + 8 + 3 − 5 = ?",
-      "10 + 4 + 7 − 6 = ?",
-      "9 + 9 − 8 = ?"
-     ],
-     "answers": [
-      "12",
-      "15",
-      "10"
-     ]
-    },
-    {
-     "title": "Lesson LXX: Money Word Problems",
-     "steps": [
-      "Use real coins to spend and make change",
-      "Work each problem, saying what was spent and what is left",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXX (p. 75)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n81/mode/1up"
-      }
-     ],
-     "pages": "p. 75",
-     "questions": [
-      "Fred had 20 cents and spent 7. How many cents left?",
-      "Nell had 25 cents; she spent 5 for a top and 8 for a ball. How much left?",
-      "Mother gave me 10 cents and father enough more to make 18. How much did father give?"
-     ],
-     "answers": [
-      "13 cents",
-      "12 cents",
-      "8 cents"
-     ]
-    },
-    {
-     "title": "Lesson LXXI: Multiplying, Then Subtracting",
-     "steps": [
-      "Make an array, then take some counters away",
-      "Solve each × and − problem",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXI (p. 76)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n82/mode/1up"
-      }
-     ],
-     "pages": "p. 76",
-     "questions": [
-      "4 × 5 − 6 = ?",
-      "7 × 3 − 9 = ?",
-      "6 × 6 − 10 = ?"
-     ],
-     "answers": [
-      "14",
-      "12",
-      "26"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Unit 12: Review Problems (Lessons LXXII–LXXVIII)",
-   "lessons": [
-    {
-     "title": "Lesson LXXII: How Many Times? (to 20)",
-     "steps": [
-      "Group counters to see how many 3s make 12",
-      "Answer 'Six are how many times 2?' style questions",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXII (p. 77)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n83/mode/1up"
-      }
-     ],
-     "pages": "p. 77",
-     "questions": [
-      "Twelve are how many times 4?",
-      "Fifteen are how many times 5?",
-      "Eighteen are how many times 6?"
-     ],
-     "answers": [
-      "3",
-      "3",
-      "3"
-     ]
-    },
-    {
-     "title": "Lesson LXXIII: How Many Times? (larger numbers)",
-     "steps": [
-      "Use arrays of beans to check each answer",
-      "Answer the larger 'how many times' questions",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXIII (p. 78)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n84/mode/1up"
-      }
-     ],
-     "pages": "p. 78",
-     "questions": [
-      "Thirty-two are how many times 8?",
-      "Forty-two are how many times 7?",
-      "Forty-five are how many times 9?"
-     ],
-     "answers": [
-      "4",
-      "6",
-      "5"
-     ]
-    },
-    {
-     "title": "Lesson LXXIV: Promiscuous (Mixed) Questions",
-     "steps": [
-      "Play store with several items and prices",
-      "Work each mixed problem, telling which operation you used",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXIV (p. 79)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n85/mode/1up"
-      }
-     ],
-     "pages": "p. 79",
-     "questions": [
-      "Kate bought 3 peaches at 2 cents and 1 orange at 5 cents. What did she pay?",
-      "Ed has 3 kites and Ted has 4 times as many. How many kites do both have?",
-      "A man had 30 dollars and spent 4 dollars a day for 5 days. How much was left?"
-     ],
-     "answers": [
-      "11 cents",
-      "15",
-      "10 dollars"
-     ]
-    },
-    {
-     "title": "Lesson LXXV: Review Problems",
-     "steps": [
-      "Trade marbles between two piles to act out the first problem",
-      "Read each problem and solve it in steps",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXV (p. 80)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n86/mode/1up"
-      }
-     ],
-     "pages": "p. 80",
-     "questions": [
-      "Ann and Bea each had 8 shells; Ann gave Bea 3. How many does each have now?",
-      "Jim owed me 15 cents and gave me 2 apples worth 4 cents each. How much does he still owe?",
-      "I bought 2 lemons at 3 cents and 2 pears at 4 cents. What did I spend?"
-     ],
-     "answers": [
-      "Ann 5, Bea 11",
-      "7 cents",
-      "14 cents"
-     ]
-    },
-    {
-     "title": "Lesson LXXVI: Trading Goods",
-     "steps": [
-      "Trade 'apples' for 'oranges' using price tags",
-      "Work each trading problem: find the cost first, then the number of things",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXVI (p. 81)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n87/mode/1up"
-      }
-     ],
-     "pages": "p. 81",
-     "questions": [
-      "Max bought 4 pears at 3 cents each and paid with apples at 2 cents each. How many apples?",
-      "Ribbon is 5 cents a yard. What do 4 yards cost, and how many 10-cent coins pay for it?",
-      "How many 4-cent tops pay for 2 books at 6 cents each?"
-     ],
-     "answers": [
-      "6",
-      "20 cents; 2 coins",
-      "3"
-     ]
-    },
-    {
-     "title": "Lesson LXXVII: Paying in Other Goods",
-     "steps": [
-      "Use play money to compare prices",
-      "Solve the 'how many … will pay for …' problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXVII (p. 82)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n88/mode/1up"
-      }
-     ],
-     "pages": "p. 82",
-     "questions": [
-      "How many pencils at 2 cents each will pay for 3 erasers at 4 cents each?",
-      "How many kites at 5 cents each will pay for 2 balls at 10 cents each?",
-      "How many apples at 3 cents each will pay for 6 plums at 2 cents each?"
-     ],
-     "answers": [
-      "6",
-      "4",
-      "4"
-     ]
-    },
-    {
-     "title": "Lesson LXXVIII: Counting by 2s, 3s, 4s to 100",
-     "steps": [
-      "Skip-count aloud while bouncing a ball",
-      "Count up and back down by the steps the book gives",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXVIII (p. 83)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n89/mode/1up"
-      }
-     ],
-     "pages": "p. 83",
-     "questions": [
-      "Count by 4s from 4 to 24.",
-      "Count back by 3s from 30 to 15.",
-      "Count by 2s from 86 to 100."
-     ],
-     "answers": [
-      "4, 8, 12, 16, 20, 24",
-      "30, 27, 24, 21, 18, 15",
-      "86, 88, 90, 92, 94, 96, 98, 100"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Unit 13: Tables of Money and Measures (Lessons LXXIX–LXXXIX)",
-   "lessons": [
-    {
-     "title": "Lesson LXXIX: Tables: United States Money",
-     "steps": [
-      "Sort real pennies and dimes; trade 10 pennies for a dime",
-      "Learn the money table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXIX (p. 84)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n90/mode/1up"
-      }
-     ],
-     "pages": "p. 84",
-     "questions": [
-      "How many cents in 4 dimes?",
-      "How many dimes in 70 cents?",
-      "How many dimes in 2 dollars?"
-     ],
-     "answers": [
-      "40 cents",
-      "7 dimes",
-      "20 dimes"
-     ],
-     "notes": "The book also lists the 'eagle' (a $10 gold coin); just explain it as old money."
-    },
-    {
-     "title": "Lesson LXXX: Tables: English Money",
-     "steps": [
-      "Use buttons as 'pence' and bundle 12 into a 'shilling'",
-      "Read the English money table and work a few problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXX (p. 85)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n91/mode/1up"
-      }
-     ],
-     "pages": "p. 85",
-     "questions": [
-      "How many farthings in 2 pence?",
-      "How many pence in 1 shilling?",
-      "How many shillings in 2 pounds?"
-     ],
-     "answers": [
-      "8",
-      "12",
-      "40"
-     ],
-     "notes": "Historical units; treat this lesson as a fun look at old British money."
-    },
-    {
-     "title": "Lesson LXXXI: Tables: Troy Weight",
-     "steps": [
-      "Weigh small things on a kitchen scale and talk about ounces",
-      "Read the Troy weight table and work a few problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXXI (p. 86)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n92/mode/1up"
-      }
-     ],
-     "pages": "p. 86",
-     "questions": [
-      "How many ounces in 2 pounds Troy?",
-      "How many pennyweights in 3 ounces?",
-      "How many grains in 1 pennyweight?"
-     ],
-     "answers": [
-      "24",
-      "60",
-      "24"
-     ],
-     "notes": "Troy weight was used for gold and silver; keep it light."
-    },
-    {
-     "title": "Lesson LXXXII: Tables: Avoirdupois Weight",
-     "steps": [
-      "Weigh flour or apples on a scale in pounds and ounces",
-      "Learn the table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXXII (p. 87)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n93/mode/1up"
-      }
-     ],
-     "pages": "p. 87",
-     "questions": [
-      "How many ounces in 3 pounds?",
-      "How many pounds in 2 hundred-weight?",
-      "How many pounds in 1 ton?"
-     ],
-     "answers": [
-      "48",
-      "200",
-      "2000"
-     ]
-    },
-    {
-     "title": "Lesson LXXXIII: Tables: Dry Measure",
-     "steps": [
-      "Measure dry beans with pint and quart containers",
-      "Learn the dry measure table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXXIII (p. 88)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n94/mode/1up"
-      }
-     ],
-     "pages": "p. 88",
-     "questions": [
-      "How many pints in 4 quarts?",
-      "How many quarts in 2 pecks?",
-      "How many pecks in 3 bushels?"
-     ],
-     "answers": [
-      "8",
-      "16",
-      "12"
-     ]
-    },
-    {
-     "title": "Lesson LXXXIV: Tables: Liquid Measure",
-     "steps": [
-      "Pour water between cup, pint, quart and gallon containers",
-      "Learn the liquid measure table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXXIV (p. 89)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n95/mode/1up"
-      }
-     ],
-     "pages": "p. 89",
-     "questions": [
-      "How many pints in 3 quarts?",
-      "How many quarts in 2 gallons?",
-      "How many gills in 2 pints?"
-     ],
-     "answers": [
-      "6",
-      "8",
-      "8"
-     ]
-    },
-    {
-     "title": "Lesson LXXXV: Tables: Long Measure",
-     "steps": [
-      "Measure the table with a ruler and a yardstick",
-      "Learn the long measure table and work the problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXXV (p. 90)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n96/mode/1up"
-      }
-     ],
-     "pages": "p. 90",
-     "questions": [
-      "How many inches in 2 feet?",
-      "How many feet in 5 yards?",
-      "How many yards in 12 feet?"
-     ],
-     "answers": [
-      "24",
-      "15",
-      "4"
-     ]
-    },
-    {
-     "title": "Lesson LXXXVI: Tables: Square Measure",
-     "steps": [
-      "Cover a 3-by-3 square of floor tiles or paper squares",
-      "Learn the square measure table and work the area problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXXVI (p. 91)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n97/mode/1up"
-      }
-     ],
-     "pages": "p. 91",
-     "questions": [
-      "How many square feet in 2 square yards?",
-      "A rug is 4 feet long and 3 feet wide. How many square feet?",
-      "How many square yards in 27 square feet?"
-     ],
-     "answers": [
-      "18",
-      "12",
-      "3"
-     ]
-    },
-    {
-     "title": "Lesson LXXXVII: Tables: Apothecaries' Weight",
-     "steps": [
-      "Look at a medicine cup and talk about small measures",
-      "Read the apothecaries' table and work a few problems",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXXVII (p. 92)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n98/mode/1up"
-      }
-     ],
-     "pages": "p. 92",
-     "questions": [
-      "How many scruples in 2 drams?",
-      "How many drams in 1 ounce?",
-      "How many grains in 1 scruple?"
-     ],
-     "answers": [
-      "6",
-      "8",
-      "20"
-     ],
-     "notes": "An old druggist's table; enjoy it as history."
-    },
-    {
-     "title": "Lesson LXXXVIII: Tables: Circles, Paper, Books, and Counting",
-     "steps": [
-      "Count a dozen eggs, then talk about a 'score' and a 'gross'",
-      "Read the circular measure, paper, and miscellaneous tables",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXXVIII (p. 93)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n99/mode/1up"
-      }
-     ],
-     "pages": "p. 93",
-     "questions": [
-      "How many things in 2 dozen?",
-      "How many things in a score?",
-      "How many sheets of paper in 2 quires?"
-     ],
-     "answers": [
-      "24",
-      "20",
-      "48"
-     ]
-    },
-    {
-     "title": "Lesson LXXXIX: Review of Tables",
-     "steps": [
-      "Play a quick quiz game with money and measuring tools",
-      "Work the review of all the tables",
-      "Solve the 3 practice problems below, using objects if needed"
-     ],
-     "links": [
-      {
-       "label": "Lesson LXXXIX (p. 94)",
-       "url": "https://archive.org/details/raysnewprimarya00raygoog/page/n100/mode/1up"
-      }
-     ],
-     "pages": "p. 94",
-     "questions": [
-      "How many cents in 6 dimes?",
-      "How many inches in 3 feet?",
-      "How many quarts in 3 gallons?"
-     ],
-     "answers": [
-      "60",
-      "36",
-      "12"
-     ]
-    }
-   ]
-  }
- ]
+  ]
 }

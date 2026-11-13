@@ -1,0 +1,2244 @@
+{
+  "key": "rays-intellectual-arithmetic",
+  "title": "Ray's New Intellectual Arithmetic",
+  "sourceTitle": "Ray's New Intellectual Arithmetic (Eclectic Educational Series)",
+  "author": "Joseph Ray",
+  "seller": "Joseph Ray",
+  "year": 1877,
+  "sourceUrl": "https://archive.org/details/raysnewintellec00raygoog",
+  "readUrl": "https://archive.org/details/raysnewintellec00raygoog",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Internet Archive scan (raysnewintellec00raygoog) of the American Book Co. printing from Harvard College Library; the copyright page reads 'Copyright, 1877, by Van Antwerp, Bragg & Co.' and the preface is dated May 1877. Published before 1930, so public domain in the USA; archive.org marks it NOT_IN_COPYRIGHT. Not on Project Gutenberg.",
+  "subjects": [
+    "math"
+  ],
+  "gradeMin": 2,
+  "gradeMax": 5,
+  "philosophies": [
+    "charlotte_mason",
+    "classical",
+    "traditional"
+  ],
+  "lessonsPerWeek": 4,
+  "minutesPerLesson": 20,
+  "parentInvolvement": "high",
+  "familyStyle": false,
+  "cover": "🧠",
+  "color": "#9B6BD6",
+  "description": "Joseph Ray's classic 1877 book of mental arithmetic, the next step after Ray's New Primary Arithmetic. Children reason through short spoken word problems with no paper, moving from the four operations through fractions, measures, ratio and percentage to interest. Each day you read the model solution together, work the book's oral problems aloud, and finish with three practice problems. The full scanned book is free online.",
+  "includes": [
+    "85 lessons covering all 80 of the book's lessons in 15 units",
+    "Link to the exact page of the free scanned book for every lesson",
+    "Oral problems with model solutions to say back in full sentences",
+    "3 practice problems with answers per lesson"
+  ],
+  "units": [
+    {
+      "title": "Unit 1: Addition (Lessons I–V)",
+      "lessons": [
+        {
+          "title": "Lesson I: Adding Small Numbers",
+          "steps": [
+            "Act out the first problems with real apples, pennies or marbles",
+            "Answer each oral problem and tell why, e.g. \"because 4 and 2 are 6\"",
+            "Learn the words sum and amount and the signs + and ="
+          ],
+          "links": [
+            {
+              "label": "Lesson I (p. 6)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n12/mode/1up"
+            }
+          ],
+          "pages": "pp. 6–7",
+          "questions": [
+            "Sam has 4 marbles and finds 3 more. How many does he have now?",
+            "How many are 5 cakes and 2 cakes and 2 cakes?",
+            "What is the answer to an addition problem called?"
+          ],
+          "answers": [
+            "7",
+            "9",
+            "The sum, or amount"
+          ],
+          "notes": "This is mental arithmetic: problems are worked in the head and answered aloud in full sentences, with a slate only for checking."
+        },
+        {
+          "title": "Lesson II: Adding Numbers Up to 20",
+          "steps": [
+            "Say each sum the way the model solution does: \"Two and four are six; six and one are seven\"",
+            "Count up by 2s from 4 to 16 and by 3s from 1 to 13",
+            "Work the story problems about eggs, tape and apples"
+          ],
+          "links": [
+            {
+              "label": "Lesson II (p. 8)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n14/mode/1up"
+            }
+          ],
+          "pages": "pp. 8–9",
+          "questions": [
+            "What are 7 and 5 and 2?",
+            "A girl spent 4 cents for pins and 6 cents for thread, and has 3 cents left. How many cents had she at first?",
+            "Name two numbers that make 12 when added."
+          ],
+          "answers": [
+            "14",
+            "13",
+            "Any pair, such as 5 and 7"
+          ]
+        },
+        {
+          "title": "Lesson III: The Addition Table",
+          "steps": [
+            "Read the addition table aloud, a column at a time",
+            "Cover the answers and quiz each other on the 7s, 8s and 9s",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson III (p. 10)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n16/mode/1up"
+            }
+          ],
+          "pages": "pp. 10–11",
+          "questions": [
+            "What is 8 + 7?",
+            "What is 9 + 12?",
+            "What is 6 + 6?"
+          ],
+          "answers": [
+            "15",
+            "21",
+            "12"
+          ]
+        },
+        {
+          "title": "Lesson IV: Adding to Larger Numbers",
+          "steps": [
+            "Add 2 to 29, 49, 69 and 99 and notice how the ones spill over into the next ten",
+            "Run through the book's drills briskly, answer only",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson IV (p. 11)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n17/mode/1up"
+            }
+          ],
+          "pages": "pp. 11–13",
+          "questions": [
+            "What is 49 + 3?",
+            "What is 68 + 7?",
+            "What is 9 + 86?"
+          ],
+          "answers": [
+            "52",
+            "75",
+            "95"
+          ],
+          "notes": "Children who finished Ray's New Primary Arithmetic may begin here, as the book itself suggests."
+        },
+        {
+          "title": "Lesson V (part 1): Adding Several Numbers",
+          "steps": [
+            "Add long strings of numbers aloud, keeping a running total as in the model solution",
+            "Work problems 1–25",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson V (p. 13)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n19/mode/1up"
+            }
+          ],
+          "pages": "pp. 13–15",
+          "questions": [
+            "What are 4 and 8 and 3 and 5?",
+            "What are 7 and 9 and 5 and 4?",
+            "What are 12 and 11 and 7?"
+          ],
+          "answers": [
+            "20",
+            "25",
+            "30"
+          ]
+        },
+        {
+          "title": "Lesson V (part 2): Story Problems and Counting By",
+          "steps": [
+            "Work the story problems 26–38 aloud",
+            "Count by 2s, 3s, 4s and up to 9s, as far as 100 (problems 39–53)",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson V, problems 26–53 (p. 15)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n21/mode/1up"
+            }
+          ],
+          "pages": "pp. 15–16",
+          "questions": [
+            "A farmer buys 12 hens, then 9 more, then 6 more. How many hens did he buy?",
+            "Counting by 7s from 7, what number comes after 49?",
+            "Ben is 9 and Ann is 6. Their father is 20 years older than both their ages put together. How old is he?"
+          ],
+          "answers": [
+            "27",
+            "56",
+            "35"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 2: Subtraction (Lessons VI–XI)",
+      "lessons": [
+        {
+          "title": "Lesson VI: Taking Away",
+          "steps": [
+            "Act out taking away with pennies or apples",
+            "Answer the oral problems and tell why (\"because 2 from 5 leaves 3\")",
+            "Learn minuend, subtrahend, difference and the minus sign"
+          ],
+          "links": [
+            {
+              "label": "Lesson VI (p. 17)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n23/mode/1up"
+            }
+          ],
+          "pages": "pp. 17–18",
+          "questions": [
+            "Lucy has 11 cents and spends 4. How many are left?",
+            "Seven from 15 leaves how many?",
+            "In 14 − 6 = 8, which number is the subtrahend?"
+          ],
+          "answers": [
+            "7",
+            "8",
+            "6"
+          ]
+        },
+        {
+          "title": "Lesson VII: The Subtraction Table",
+          "steps": [
+            "Read the subtraction table aloud, a column at a time",
+            "Check a few lines backward with addition (9 − 4 = 5, so 5 + 4 = 9)",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson VII (p. 19)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n25/mode/1up"
+            }
+          ],
+          "pages": "pp. 19–20",
+          "questions": [
+            "What is 13 − 5?",
+            "What is 16 − 7?",
+            "What is 20 − 8?"
+          ],
+          "answers": [
+            "8",
+            "9",
+            "12"
+          ]
+        },
+        {
+          "title": "Lesson VIII: Subtraction Problems",
+          "steps": [
+            "Read the model solution about the slate and say it back",
+            "Work problems 1–25, answering each in a full sentence",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson VIII (p. 20)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n26/mode/1up"
+            }
+          ],
+          "pages": "pp. 20–22",
+          "questions": [
+            "A man has 30 miles to walk and has gone 17. How far is left?",
+            "A boy bought a book for 25 cents and sold it for 18 cents. How much did he lose?",
+            "The greater of two numbers is 15 and their difference is 6. What is the smaller?"
+          ],
+          "answers": [
+            "13 miles",
+            "7 cents",
+            "9"
+          ]
+        },
+        {
+          "title": "Lesson IX: Review of Adding and Subtracting",
+          "steps": [
+            "Read the two model solutions (the marbles given away, and the marble game)",
+            "Work review problems 1–15",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson IX (p. 22)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n28/mode/1up"
+            }
+          ],
+          "pages": "pp. 22–23",
+          "questions": [
+            "Jim had 20 marbles. He gave 4 to Al and 7 to Ben. How many had he left?",
+            "Two boys each start a game with 15 marbles. At the end one has 21. How many has the other?",
+            "A grocer pays $8, $6 and $5 for goods and sells them all for $25. What does he gain?"
+          ],
+          "answers": [
+            "9",
+            "9",
+            "$6"
+          ]
+        },
+        {
+          "title": "Lesson X: Adding and Subtracting in a Chain",
+          "steps": [
+            "Work each chain left to right, saying the running answer: \"3 minus 2 is 1, plus 1 is 2\"",
+            "Do problems 1–27 aloud; go back to any you missed",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson X (p. 24)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n30/mode/1up"
+            }
+          ],
+          "pages": "p. 24",
+          "questions": [
+            "9 − 4 + 6 = ?",
+            "8 − 3 + 5 − 6 = ?",
+            "7 + 2 − 5 + 4 − 3 = ?"
+          ],
+          "answers": [
+            "11",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "title": "Lesson XI: Harder Subtraction Problems",
+          "steps": [
+            "Read the model solution for problem 4 and copy its three steps",
+            "Work problems 1–22",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XI (p. 25)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n31/mode/1up"
+            }
+          ],
+          "pages": "pp. 25–26",
+          "questions": [
+            "From the sum of 16 and 9, take the difference between 15 and 8.",
+            "What number must be added to 20 to make a sum 10 less than 50?",
+            "A man buys a cow for $30, pays $8 for her keep, and sells her for $45. What does he gain?"
+          ],
+          "answers": [
+            "18",
+            "20",
+            "$7"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 3: Multiplication (Lessons XII–XV)",
+      "lessons": [
+        {
+          "title": "Lesson XII: Equal Groups",
+          "steps": [
+            "Lay out groups of beans (2 groups of 3, 4 groups of 5) and count the totals",
+            "Work the oral price problems 1–22",
+            "Learn multiplicand, multiplier, product and the sign ×"
+          ],
+          "links": [
+            {
+              "label": "Lesson XII (p. 27)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n33/mode/1up"
+            }
+          ],
+          "pages": "pp. 27–28",
+          "questions": [
+            "At 5 cents each, what do 4 pears cost?",
+            "If one peach is worth 6 apples, how many apples are 3 peaches worth?",
+            "In 4 × 7 = 28, what is 28 called?"
+          ],
+          "answers": [
+            "20 cents",
+            "18",
+            "The product"
+          ]
+        },
+        {
+          "title": "Lesson XIII: The Multiplication Table",
+          "steps": [
+            "Read the multiplication table aloud a few rows at a time",
+            "Drill the \"Exercises on the Table\" (4 times 7, 8 times 6, and so on)",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XIII (p. 28)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n34/mode/1up"
+            }
+          ],
+          "pages": "pp. 28–31",
+          "questions": [
+            "What are 7 times 8?",
+            "What are 9 times 6?",
+            "What are 12 times 11?"
+          ],
+          "answers": [
+            "56",
+            "54",
+            "132"
+          ],
+          "notes": "Spread the table over several days if needed; it is the base for everything that follows."
+        },
+        {
+          "title": "Lesson XIV: Multiplication Problems",
+          "steps": [
+            "Read the model solution: \"7 oranges will cost 7 times 2 cents\"",
+            "Work problems 1–25, including the travelers going opposite ways and the \"one man does it\" problems",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XIV (p. 31)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n37/mode/1up"
+            }
+          ],
+          "pages": "pp. 31–32",
+          "questions": [
+            "At $6 a barrel, what do 7 barrels of flour cost?",
+            "Two boys walk away from each other, one 3 miles an hour and the other 4. How far apart are they after 5 hours?",
+            "If 3 men can do a job in 5 days, how long would 1 man take?"
+          ],
+          "answers": [
+            "$42",
+            "35 miles",
+            "15 days"
+          ]
+        },
+        {
+          "title": "Lesson XV: Mixed Problems with Multiplication",
+          "steps": [
+            "Work problems 1–19, saying each step of the solution",
+            "Work problems 20–38 and the chained products like 2 times 3 times 4",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XV (p. 33)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n39/mode/1up"
+            }
+          ],
+          "pages": "pp. 33–35",
+          "questions": [
+            "Buy 3 pencils at 4 cents and 2 erasers at 5 cents. What is the cost?",
+            "Two men walk the same way, one 6 miles an hour and the other 4. How far apart are they after 8 hours?",
+            "How many are 2 times 3 times 5?"
+          ],
+          "answers": [
+            "22 cents",
+            "16 miles",
+            "30"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 4: Division (Lessons XVI–XIX)",
+      "lessons": [
+        {
+          "title": "Lesson XVI: How Many Times?",
+          "steps": [
+            "Share 12 beans into piles of 3 and count the piles",
+            "Answer the oral problems 1–26 and tell why",
+            "Learn divisor, dividend, quotient and the sign ÷"
+          ],
+          "links": [
+            {
+              "label": "Lesson XVI (p. 36)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n42/mode/1up"
+            }
+          ],
+          "pages": "pp. 36–37",
+          "questions": [
+            "At 4 cents each, how many apples can you buy for 28 cents?",
+            "36 trees stand in 4 equal rows. How many are in each row?",
+            "In 20 ÷ 5 = 4, which number is the divisor?"
+          ],
+          "answers": [
+            "7",
+            "9",
+            "5"
+          ]
+        },
+        {
+          "title": "Lesson XVII: The Division Table",
+          "steps": [
+            "Read the division table aloud, a column at a time",
+            "Say each line backward as multiplication (56 ÷ 8 = 7 because 7 × 8 = 56)",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XVII (p. 38)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n44/mode/1up"
+            }
+          ],
+          "pages": "pp. 38–39",
+          "questions": [
+            "What is 56 ÷ 8?",
+            "What is 72 ÷ 9?",
+            "What is 84 ÷ 12?"
+          ],
+          "answers": [
+            "7",
+            "8",
+            "7"
+          ]
+        },
+        {
+          "title": "Lesson XVIII: Sharing and Dividing",
+          "steps": [
+            "Read the model solutions for problems 7, 11 and 23",
+            "Work problems 1–25",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XVIII (p. 40)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n46/mode/1up"
+            }
+          ],
+          "pages": "pp. 40–41",
+          "questions": [
+            "Five children share 40 cents equally. How much does each get?",
+            "If 1 man takes 48 days to do a job, how long would 6 men take?",
+            "If 4 men earn $48 in 3 days, how much does each man earn in 1 day?"
+          ],
+          "answers": [
+            "8 cents",
+            "8 days",
+            "$4"
+          ]
+        },
+        {
+          "title": "Lesson XIX: Times As Many",
+          "steps": [
+            "Read the model solutions for problems 4, 8 and 22",
+            "Work problems 1–35",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XIX (p. 42)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n48/mode/1up"
+            }
+          ],
+          "pages": "pp. 42–44",
+          "questions": [
+            "Sixty is how many times 12?",
+            "How many oranges at 6 cents each must be given for 9 lemons at 4 cents each?",
+            "A man goes 9 miles while a boy goes 4. When the man has gone 54 miles, how far has the boy gone?"
+          ],
+          "answers": [
+            "5",
+            "6",
+            "24 miles"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 5: What Fractions Are (Lessons XX–XXV)",
+      "lessons": [
+        {
+          "title": "Lesson XX: Halves, Thirds, Fourths and More",
+          "steps": [
+            "Cut an apple or paper circles into halves, thirds and fourths",
+            "Answer how many halves, thirds and so on up to ninths are in 2 to 10 apples",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XX (p. 45)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n51/mode/1up"
+            }
+          ],
+          "pages": "pp. 45–46",
+          "questions": [
+            "How many thirds in 4 apples?",
+            "How many fifths in 6 apples?",
+            "How many halves in 9 apples?"
+          ],
+          "answers": [
+            "12",
+            "30",
+            "18"
+          ]
+        },
+        {
+          "title": "Lesson XXI: Writing Fractions",
+          "steps": [
+            "Learn numerator, denominator, proper fraction, improper fraction and mixed number",
+            "Write on the slate the fractions the book gives in words, then read the printed ones aloud",
+            "Sort the book's list into proper and improper fractions"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXI (p. 47)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n53/mode/1up"
+            }
+          ],
+          "pages": "pp. 47–48",
+          "questions": [
+            "In 3/8, which number is the denominator?",
+            "Is 7/5 a proper or an improper fraction?",
+            "Write two and three-fourths in figures."
+          ],
+          "answers": [
+            "8",
+            "Improper",
+            "2 3/4"
+          ]
+        },
+        {
+          "title": "Lesson XXII: Finding a Part of a Number",
+          "steps": [
+            "Read the model solution: 1/3 of $6 is $2, so 2/3 is $4",
+            "Work problems 1–23",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXII (p. 48)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n54/mode/1up"
+            }
+          ],
+          "pages": "pp. 48–50",
+          "questions": [
+            "What are 2/3 of 12?",
+            "If a yard of ribbon costs 10 cents, what do 3/5 of a yard cost?",
+            "If 4 pounds of rice cost 20 cents, what do 3 pounds cost?"
+          ],
+          "answers": [
+            "8",
+            "6 cents",
+            "15 cents"
+          ]
+        },
+        {
+          "title": "Lesson XXIII: What Part Is It?",
+          "steps": [
+            "Read the model solution: if $1 buys 1/3 of a yard, $2 buys 2/3",
+            "Work problems 1–24",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXIII (p. 50)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n56/mode/1up"
+            }
+          ],
+          "pages": "pp. 50–51",
+          "questions": [
+            "3 is what part of 8?",
+            "A melon costs 7 cents. What part of it costs 4 cents?",
+            "2/3 of 9 is what part of 10?"
+          ],
+          "answers": [
+            "3/8",
+            "4/7",
+            "6/10, or 3/5"
+          ]
+        },
+        {
+          "title": "Lesson XXIV: Finding the Whole from a Part",
+          "steps": [
+            "Read the model solution about the lemon: 1/3 is 3 cents, so the whole is 9 cents",
+            "Work problems 1–25",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXIV (p. 51)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n57/mode/1up"
+            }
+          ],
+          "pages": "pp. 51–53",
+          "questions": [
+            "If 1/4 of a pie costs 5 cents, what does the whole pie cost?",
+            "If 2/3 of a yard costs 8 cents, what does a yard cost?",
+            "12 is 3/4 of what number?"
+          ],
+          "answers": [
+            "20 cents",
+            "12 cents",
+            "16"
+          ]
+        },
+        {
+          "title": "Lesson XXV: Sharing That Leaves Fractions",
+          "steps": [
+            "Share 3 apples between 2 people with a knife and name each share",
+            "Work problems 1–29",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXV (p. 53)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n59/mode/1up"
+            }
+          ],
+          "pages": "pp. 53–54",
+          "questions": [
+            "Share 7 apples equally between 2 boys. How much does each get?",
+            "What is 1/4 of 9?",
+            "How many times 3 is 14?"
+          ],
+          "answers": [
+            "3 1/2 apples",
+            "2 1/4",
+            "4 2/3"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 6: Changing the Form of Fractions (Lessons XXVI–XXIX)",
+      "lessons": [
+        {
+          "title": "Lesson XXVI: Mixed Numbers to Improper Fractions",
+          "steps": [
+            "Show 2 1/2 with paper circles and count the halves",
+            "Work problems 1–12",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXVI (p. 54)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n60/mode/1up"
+            }
+          ],
+          "pages": "pp. 54–55",
+          "questions": [
+            "How many halves in 3 1/2?",
+            "How many fourths in 2 3/4?",
+            "How many sixths in 5 1/6?"
+          ],
+          "answers": [
+            "7",
+            "11",
+            "31"
+          ]
+        },
+        {
+          "title": "Lesson XXVII: Lowest Terms",
+          "steps": [
+            "Read the note: a fraction is in lowest terms when no number greater than 1 divides both terms",
+            "Reduce the book's fractions, dividing both terms by the same number",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXVII (p. 55)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n61/mode/1up"
+            }
+          ],
+          "pages": "p. 55",
+          "questions": [
+            "Reduce 6/8 to lowest terms.",
+            "Reduce 10/15 to lowest terms.",
+            "Reduce 8/20 to lowest terms."
+          ],
+          "answers": [
+            "3/4",
+            "2/3",
+            "2/5"
+          ]
+        },
+        {
+          "title": "Lesson XXVIII: Higher Terms",
+          "steps": [
+            "Fold a paper strip in halves, then fourths, and see that 1/2 = 2/4",
+            "Work problems 1–23",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXVIII (p. 56)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n62/mode/1up"
+            }
+          ],
+          "pages": "p. 56",
+          "questions": [
+            "Change 1/2 to eighths.",
+            "Change 2/3 to twelfths.",
+            "Change 3/5 to twentieths."
+          ],
+          "answers": [
+            "4/8",
+            "8/12",
+            "12/20"
+          ]
+        },
+        {
+          "title": "Lesson XXIX: Common Denominators",
+          "steps": [
+            "Read the note on common and least common denominators",
+            "Work problems 1–25",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXIX (p. 57)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n63/mode/1up"
+            }
+          ],
+          "pages": "pp. 57–58",
+          "questions": [
+            "Change 1/2 and 1/3 to sixths.",
+            "What is the least common denominator of 3/4 and 5/6?",
+            "Change 1/4 and 2/3 to twelfths."
+          ],
+          "answers": [
+            "3/6 and 2/6",
+            "12",
+            "3/12 and 8/12"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 7: Adding, Subtracting and Multiplying Fractions (Lessons XXX–XXXVI)",
+      "lessons": [
+        {
+          "title": "Lesson XXX: Adding Fractions",
+          "steps": [
+            "Read the model solution: change to a common denominator, then add",
+            "Work problems 1–17, including mixed numbers",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXX (p. 58)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n64/mode/1up"
+            }
+          ],
+          "pages": "pp. 58–59",
+          "questions": [
+            "Add 1/2 and 1/3.",
+            "Add 2/3 and 3/4.",
+            "Add 2 1/2 and 3 1/4."
+          ],
+          "answers": [
+            "5/6",
+            "1 5/12",
+            "5 3/4"
+          ]
+        },
+        {
+          "title": "Lesson XXXI: Subtracting Fractions",
+          "steps": [
+            "Read the model solution for taking 2 3/4 from 5 1/4 (borrowing 1)",
+            "Work problems 1–15",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXXI (p. 59)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n65/mode/1up"
+            }
+          ],
+          "pages": "pp. 59–60",
+          "questions": [
+            "Take 1/3 from 3/4.",
+            "Tom ate 1/2 of a pie and Sue ate 1/3. How much more did Tom eat?",
+            "Take 2 3/4 from 5 1/2."
+          ],
+          "answers": [
+            "5/12",
+            "1/6 of a pie",
+            "2 3/4"
+          ]
+        },
+        {
+          "title": "Lesson XXXII: What Is Left?",
+          "steps": [
+            "Read the model solution about the quart of pecans",
+            "Work problems 1–16",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXXII (p. 60)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n66/mode/1up"
+            }
+          ],
+          "pages": "pp. 60–61",
+          "questions": [
+            "After taking 1/3 and 1/4 of an orange, what part is left?",
+            "A farmer plants 1/2 of a field in corn, 1/3 in oats and the rest in hay. What part is hay?",
+            "A man has 60 miles to go. He travels 1/3 of it the first day, 1/4 the second, and the rest the third. How far does he go the third day?"
+          ],
+          "answers": [
+            "5/12",
+            "1/6",
+            "25 miles"
+          ]
+        },
+        {
+          "title": "Lesson XXXIII: Multiplying a Fraction",
+          "steps": [
+            "Give each of 3 people half an apple and count the apples used",
+            "Work problems 1–18",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXXIII (p. 62)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n68/mode/1up"
+            }
+          ],
+          "pages": "p. 62",
+          "questions": [
+            "What are 4 times 2/3?",
+            "Give 3/4 of an apple to each of 5 children. How many apples does it take?",
+            "What are 7 times 3/5?"
+          ],
+          "answers": [
+            "2 2/3",
+            "3 3/4",
+            "4 1/5"
+          ]
+        },
+        {
+          "title": "Lesson XXXIV: Fractions in Buying and Working",
+          "steps": [
+            "Read the model solutions for problems 1, 9 and 18",
+            "Work problems 1–32",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXXIV (p. 63)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n69/mode/1up"
+            }
+          ],
+          "pages": "pp. 63–64",
+          "questions": [
+            "If 3 pounds of tea cost $2, what do 2 pounds cost?",
+            "What are 3/4 of 7?",
+            "If 3 men build a fence in 8 days, how long would 4 men take?"
+          ],
+          "answers": [
+            "$1 1/3",
+            "5 1/4",
+            "6 days"
+          ]
+        },
+        {
+          "title": "Lesson XXXV: Multiplying Mixed Numbers",
+          "steps": [
+            "Read the two model solutions (change to an improper fraction, or multiply the whole and the fraction separately)",
+            "Work problems 1–48",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXXV (p. 65)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n71/mode/1up"
+            }
+          ],
+          "pages": "pp. 65–66",
+          "questions": [
+            "How many are 3 times 2 1/2?",
+            "How many are 4 times 3 1/3?",
+            "A family uses 2 3/4 barrels of flour a month. How much do they use in 4 months?"
+          ],
+          "answers": [
+            "7 1/2",
+            "13 1/3",
+            "11 barrels"
+          ]
+        },
+        {
+          "title": "Lesson XXXVI: Trading One Thing for Another",
+          "steps": [
+            "Read the model solution about raisins paid for with flour",
+            "Work problems 1–23",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXXVI (p. 67)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n73/mode/1up"
+            }
+          ],
+          "pages": "pp. 67–68",
+          "questions": [
+            "Buy 4 boxes of raisins at $2 1/2 a box and pay with flour at $5 a barrel. How many barrels?",
+            "Three times 4 2/3 are how many times 7?",
+            "How many dozen eggs at 10 cents a dozen will pay for 5 pounds of sugar at 8 cents a pound?"
+          ],
+          "answers": [
+            "2",
+            "2",
+            "4 dozen"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 8: Fractions of Fractions and Dividing Fractions (Lessons XXXVII–XLIV)",
+      "lessons": [
+        {
+          "title": "Lesson XXXVII: A Fraction of a Fraction",
+          "steps": [
+            "Cut half an apple into 2 pieces and name one piece",
+            "Work problems 1–28",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXXVII (p. 69)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n75/mode/1up"
+            }
+          ],
+          "pages": "pp. 69–70",
+          "questions": [
+            "What is 1/2 of 1/3?",
+            "What are 2/3 of 3/4?",
+            "A man owns 3/4 of a boat and sells 1/3 of his share. What part of the boat does he sell?"
+          ],
+          "answers": [
+            "1/6",
+            "6/12, or 1/2",
+            "1/4"
+          ]
+        },
+        {
+          "title": "Lesson XXXVIII: A Fraction of a Mixed Number",
+          "steps": [
+            "Read the model solution about cloth worth 2 1/2 bushels of wheat",
+            "Work problems 1–15",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXXVIII (p. 71)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n77/mode/1up"
+            }
+          ],
+          "pages": "p. 71",
+          "questions": [
+            "What is 1/2 of 3 1/2?",
+            "If 2 yards cost $3 1/2, what do 3 yards cost?",
+            "What are 2/3 of 4 1/2?"
+          ],
+          "answers": [
+            "1 3/4",
+            "$5 1/4",
+            "3"
+          ]
+        },
+        {
+          "title": "Lesson XXXIX: Finding the Whole from a Part, Again",
+          "steps": [
+            "Read the model solution about the horse sold at a gain",
+            "Work problems 1–28",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XXXIX (p. 72)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n78/mode/1up"
+            }
+          ],
+          "pages": "pp. 72–73",
+          "questions": [
+            "A boy gave away 6 marbles, which were 2/5 of all he had. How many had he?",
+            "A man sold a horse for $60 and gained 1/5 of its cost. What did it cost?",
+            "3/4 of a pole is in the ground and 5 feet are above it. How long is the pole?"
+          ],
+          "answers": [
+            "15",
+            "$50",
+            "20 feet"
+          ]
+        },
+        {
+          "title": "Lesson XL: Comparing Parts",
+          "steps": [
+            "Read the model solutions for problems 1, 12 and 14",
+            "Work problems 1–32",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XL (p. 74)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n80/mode/1up"
+            }
+          ],
+          "pages": "pp. 74–75",
+          "questions": [
+            "12 is 3/4 of how many times 4?",
+            "2/3 of 18 are how many times 4?",
+            "A boy keeps 1/4 of 24 apples and shares the rest equally among 3 friends. How many does each friend get?"
+          ],
+          "answers": [
+            "4",
+            "3",
+            "6"
+          ]
+        },
+        {
+          "title": "Lesson XLI: Dividing by a Fraction",
+          "steps": [
+            "Read the model solutions for problems 1, 5 and 19",
+            "Work problems 1–28",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLI (p. 75)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n81/mode/1up"
+            }
+          ],
+          "pages": "pp. 75–76",
+          "questions": [
+            "At $1/2 a yard, how much cloth can you buy for $3?",
+            "Divide 3/4 by 3/8.",
+            "Divide 2/3 by 3/4."
+          ],
+          "answers": [
+            "6 yards",
+            "2",
+            "8/9"
+          ]
+        },
+        {
+          "title": "Lesson XLII: Dividing Mixed Numbers",
+          "steps": [
+            "Read the model solution about 10 1/2 acres shared among 6 children",
+            "Work problems 1–17",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLII (p. 77)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n83/mode/1up"
+            }
+          ],
+          "pages": "p. 77",
+          "questions": [
+            "Divide 7 1/2 acres equally among 5 children. How much does each get?",
+            "If 1 1/2 yards of ribbon cost 9 cents, what does 1 yard cost?",
+            "How many are 10 divided by 2 1/2?"
+          ],
+          "answers": [
+            "1 1/2 acres",
+            "6 cents",
+            "4"
+          ]
+        },
+        {
+          "title": "Lesson XLIII: How Often Is One Contained in Another?",
+          "steps": [
+            "Read the model solution: change both to improper fractions, then divide",
+            "Work problems 1–22",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLIII (p. 78)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n84/mode/1up"
+            }
+          ],
+          "pages": "pp. 78–79",
+          "questions": [
+            "At $3/4 a yard, how many yards can you buy for $6?",
+            "How often is 1 1/2 contained in 4 1/2?",
+            "6 2/3 is 2/3 of what number?"
+          ],
+          "answers": [
+            "8 yards",
+            "3",
+            "10"
+          ]
+        },
+        {
+          "title": "Lesson XLIV: Handy Parts of a Dozen and a Dollar",
+          "steps": [
+            "Learn the two tables: parts of 12, and parts of 100 (12 1/2 cents = 1/8 of a dollar, 33 1/3 = 1/3, and so on)",
+            "Work problems 1–31 with dozens and with prices like 25 or 37 1/2 cents",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLIV (p. 79)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n85/mode/1up"
+            }
+          ],
+          "pages": "pp. 79–81",
+          "questions": [
+            "What do 2/3 of a dozen shirts cost at $18 a dozen?",
+            "What do 24 pounds of soap cost at 12 1/2 cents a pound?",
+            "Multiply 36 by 33 1/3."
+          ],
+          "answers": [
+            "$12",
+            "$3",
+            "1200"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 9: General Review (Lessons XLV–XLVI)",
+      "lessons": [
+        {
+          "title": "Lesson XLV: Review of the Four Rules",
+          "steps": [
+            "Work problems 1–12 (adding and subtracting money)",
+            "Work problems 13–28 (\"if 2 cost so much, what will 7 cost\")",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLV (p. 82)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n88/mode/1up"
+            }
+          ],
+          "pages": "pp. 82–84",
+          "questions": [
+            "Tom has 15 cents, is given 6 more and then 9 more, and spends 12. How many has he left?",
+            "If 3 tons of hay cost $27, what do 5 tons cost?",
+            "If 4 horses eat 12 bushels of oats in a week, how many bushels will 7 horses eat?"
+          ],
+          "answers": [
+            "18 cents",
+            "$45",
+            "21"
+          ]
+        },
+        {
+          "title": "Lesson XLVI (part 1): Review of Fractions",
+          "steps": [
+            "Work review problems 1–18",
+            "Work review problems 19–36",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLVI (p. 84)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n90/mode/1up"
+            }
+          ],
+          "pages": "pp. 84–85",
+          "questions": [
+            "What are 5/8 of 40?",
+            "From 7 1/2 take 3 2/3.",
+            "If 3 kegs cost $1 1/2, what do 5 kegs cost?"
+          ],
+          "answers": [
+            "25",
+            "3 5/6",
+            "$2 1/2"
+          ]
+        },
+        {
+          "title": "Lesson XLVI (part 2): Review of Fractions",
+          "steps": [
+            "Work review problems 37–52",
+            "Work review problems 53–68",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLVI, problems 37–68 (p. 85)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n91/mode/1up"
+            }
+          ],
+          "pages": "pp. 85–87",
+          "questions": [
+            "A girl had 30 cents and spent 2/5 of them on 3 pencils. What did each pencil cost?",
+            "If 4 men can do a job in 9 days, in how many days can 6 men do it?",
+            "6 is what part of 3/4 of 32?"
+          ],
+          "answers": [
+            "4 cents",
+            "6 days",
+            "1/4"
+          ]
+        },
+        {
+          "title": "Lesson XLVI (part 3): Review — Overtaking, Cisterns and Shares",
+          "steps": [
+            "Work review problems 69–79",
+            "Work review problems 80–93 (overtaking, cisterns, working together)",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLVI, problems 69–93 (p. 87)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n93/mode/1up"
+            }
+          ],
+          "pages": "pp. 87–89",
+          "questions": [
+            "A is 20 miles ahead of B. B goes 9 miles a day and A goes 5. In how many days will B catch A?",
+            "A tank holding 30 gallons fills at 8 gallons an hour and drains at 3 gallons an hour. How long does it take to fill?",
+            "A can do a job in 3 days and B in 6 days. How long will they take together?"
+          ],
+          "answers": [
+            "5 days",
+            "6 hours",
+            "2 days"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 10: Money, Measures and Time (Lessons XLVII–LIII)",
+      "lessons": [
+        {
+          "title": "Lesson XLVII: United States Money",
+          "steps": [
+            "Learn the table: mills, cents, dimes, dollars, eagles",
+            "Handle real coins: 10 pennies for a dime, 10 dimes for a dollar",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLVII (p. 90)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n96/mode/1up"
+            }
+          ],
+          "pages": "pp. 90–91",
+          "questions": [
+            "How many mills in 5 cents?",
+            "How many cents in 4 dollars?",
+            "70 cents are how many dimes?"
+          ],
+          "answers": [
+            "50",
+            "400",
+            "7"
+          ]
+        },
+        {
+          "title": "Lesson XLVIII: Dry Measure",
+          "steps": [
+            "Learn the table: 2 pints = 1 quart, 8 quarts = 1 peck, 4 pecks = 1 bushel",
+            "Measure dry beans or rice with a pint and a quart cup",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLVIII (p. 91)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n97/mode/1up"
+            }
+          ],
+          "pages": "pp. 91–92",
+          "questions": [
+            "How many quarts in 3 pecks?",
+            "Change 2 pk. 3 qt. to quarts.",
+            "Change 19 pints to quarts."
+          ],
+          "answers": [
+            "24",
+            "19 quarts",
+            "9 qt. 1 pt."
+          ]
+        },
+        {
+          "title": "Lesson XLIX: Liquid Measure",
+          "steps": [
+            "Learn the table: 4 gills = 1 pint, 2 pints = 1 quart, 4 quarts = 1 gallon",
+            "Pour water between a pint jar, a quart jar and a gallon jug",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson XLIX (p. 93)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n99/mode/1up"
+            }
+          ],
+          "pages": "p. 93",
+          "questions": [
+            "How many pints in 3 gallons?",
+            "How many gills in 2 quarts?",
+            "Change 2 gal. 3 qt. to quarts."
+          ],
+          "answers": [
+            "24",
+            "16",
+            "11 quarts"
+          ]
+        },
+        {
+          "title": "Lesson L: Avoirdupois Weight",
+          "steps": [
+            "Learn the table: 16 drams = 1 ounce, 16 ounces = 1 pound, 100 pounds = 1 hundred-weight, 20 hundred-weights = 1 ton",
+            "Weigh a few things on a kitchen scale in pounds and ounces",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson L (p. 94)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n100/mode/1up"
+            }
+          ],
+          "pages": "pp. 94–95",
+          "questions": [
+            "How many ounces in 3 pounds?",
+            "How many pounds in 3/4 of a hundred-weight?",
+            "8 ounces are what part of a pound?"
+          ],
+          "answers": [
+            "48",
+            "75",
+            "1/2"
+          ],
+          "notes": "The scan misprints the pound as \"10 ounces\" in places; it is 16 ounces."
+        },
+        {
+          "title": "Lesson LI: Long Measure",
+          "steps": [
+            "Learn the table: inches, feet, yards, rods, furlongs, miles",
+            "Measure a room in feet and yards with a tape",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LI (p. 95)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n101/mode/1up"
+            }
+          ],
+          "pages": "pp. 95–96",
+          "questions": [
+            "How many feet in 4 yards?",
+            "How many rods in a mile?",
+            "How many inches in 2/3 of a yard?"
+          ],
+          "answers": [
+            "12",
+            "320",
+            "24"
+          ]
+        },
+        {
+          "title": "Lesson LII: Time and the Calendar",
+          "steps": [
+            "Learn the time table and the rhyme \"Thirty days have September\"",
+            "Work the problems on parts of a minute, hour, day and week",
+            "Count days between dates on a real calendar (problems 15–21)"
+          ],
+          "links": [
+            {
+              "label": "Lesson LII (p. 96)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n102/mode/1up"
+            }
+          ],
+          "pages": "pp. 96–98",
+          "questions": [
+            "How many minutes in 3/4 of an hour?",
+            "6 hours are what part of a day?",
+            "How many days in June, July and August together?"
+          ],
+          "answers": [
+            "45",
+            "1/4",
+            "92"
+          ]
+        },
+        {
+          "title": "Lesson LIII: Problems with Measures",
+          "steps": [
+            "Work problems 1–11 (pricing goods by measure)",
+            "Work problems 12–21 (wheels, trains and fences)",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LIII (p. 98)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n104/mode/1up"
+            }
+          ],
+          "pages": "pp. 98–99",
+          "questions": [
+            "At 40 cents a bushel, what do 2 bu. 2 pk. of corn cost?",
+            "When milk is 4 cents a pint, what do 2 gallons cost?",
+            "A wheel goes 2 yd. 1 ft. in one turn. How far does it go in 6 turns?"
+          ],
+          "answers": [
+            "$1",
+            "64 cents",
+            "14 yards"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 11: General Review: Harder Problems (Lessons LIV–LIX)",
+      "lessons": [
+        {
+          "title": "Lesson LIV: Review Problems in Money",
+          "steps": [
+            "Work problems 1–9",
+            "Work problems 10–17",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LIV (p. 100)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n106/mode/1up"
+            }
+          ],
+          "pages": "pp. 100–101",
+          "questions": [
+            "A man buys a horse for $95 and sells him for $130. What does he gain?",
+            "What do 4 yards cost at $1 and 25 cents a yard?",
+            "If a boat sails 45 miles in 9 hours, how far will it sail in 4 hours?"
+          ],
+          "answers": [
+            "$35",
+            "$5",
+            "20 miles"
+          ]
+        },
+        {
+          "title": "Lesson LV: Review Problems in Fractions",
+          "steps": [
+            "Read the model solution for problem 2 and say each step",
+            "Work problems 1–34",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LV (p. 101)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n107/mode/1up"
+            }
+          ],
+          "pages": "pp. 101–103",
+          "questions": [
+            "If 1/3 of a yard costs $2, what will 3/4 of a yard cost?",
+            "If 2/3 of a ton of hay cost $12, what will 1/2 a ton cost?",
+            "John has 12 marbles, and 1/2 of John's marbles equal 2/3 of James's. How many has James?"
+          ],
+          "answers": [
+            "$4 1/2",
+            "$9",
+            "9"
+          ]
+        },
+        {
+          "title": "Lesson LVI: Sums and Differences",
+          "steps": [
+            "Read the model solution: twice the greater number is the sum plus the difference",
+            "Work problems 1–31",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LVI (p. 103)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n109/mode/1up"
+            }
+          ],
+          "pages": "pp. 103–105",
+          "questions": [
+            "The sum of two numbers is 20 and their difference is 6. What are the numbers?",
+            "Divide 24 into two parts so that the second is 3 times the first.",
+            "If 4 is added to 3 times a number, the sum is 25. What is the number?"
+          ],
+          "answers": [
+            "13 and 7",
+            "6 and 18",
+            "7"
+          ]
+        },
+        {
+          "title": "Lesson LVII: Dividing into Parts by Fractions",
+          "steps": [
+            "Read the model solutions for problems 1, 6 and 21",
+            "Work problems 1–26, including the clock puzzles",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LVII (p. 106)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n112/mode/1up"
+            }
+          ],
+          "pages": "pp. 106–108",
+          "questions": [
+            "Divide 20 into two parts so that the smaller is 2/3 of the larger.",
+            "The time past noon equals the time still to go until midnight. What time is it?",
+            "Divide 21 into two parts so that the smaller is 3/4 of the larger."
+          ],
+          "answers": [
+            "12 and 8",
+            "6 o'clock",
+            "12 and 9"
+          ]
+        },
+        {
+          "title": "Lesson LVIII: A Number and Its Parts",
+          "steps": [
+            "Read the model solution: a number plus its half is 3/2 of the number",
+            "Work problems 1–15",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LVIII (p. 108)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n114/mode/1up"
+            }
+          ],
+          "pages": "pp. 108–109",
+          "questions": [
+            "A number plus its half is 18. What is the number?",
+            "Ann spent 2/5 of her money and had 30 cents left. How much had she at first?",
+            "A number doubled and increased by its half makes 25. What is the number?"
+          ],
+          "answers": [
+            "12",
+            "50 cents",
+            "10"
+          ]
+        },
+        {
+          "title": "Lesson LIX: Working Together",
+          "steps": [
+            "Read the model solutions for problems 10 and 14",
+            "Work problems 1–19",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LIX (p. 109)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n115/mode/1up"
+            }
+          ],
+          "pages": "pp. 109–110",
+          "questions": [
+            "A can do a job in 4 days. What part of it can he do in 1 day?",
+            "A can paint a fence in 4 days and B in 12 days. How long will they take together?",
+            "A and B together mow a field in 3 days; A alone takes 4 days. How long would B take alone?"
+          ],
+          "answers": [
+            "1/4",
+            "3 days",
+            "12 days"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 12: Ratio and Proportion (Lessons LX–LXIII)",
+      "lessons": [
+        {
+          "title": "Lesson LX: Ratio",
+          "steps": [
+            "Learn the definition: ratio is the relation of one quantity to another of the same kind",
+            "Work problems 1–24, including dividing in a ratio",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LX (p. 111)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n117/mode/1up"
+            }
+          ],
+          "pages": "pp. 111–112",
+          "questions": [
+            "What is the ratio of 35 to 7?",
+            "Divide 30 cents between two boys in the ratio of 3 to 2.",
+            "A class of 28 has 3 boys for every 4 girls. How many boys are there?"
+          ],
+          "answers": [
+            "5",
+            "18 cents and 12 cents",
+            "12"
+          ]
+        },
+        {
+          "title": "Lesson LXI: Dividing in a Given Ratio",
+          "steps": [
+            "Read the model solution for dividing 60 in the ratio 3, 4 and 5",
+            "Work problems 1–18",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXI (p. 113)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n119/mode/1up"
+            }
+          ],
+          "pages": "pp. 113–114",
+          "questions": [
+            "Divide 36 into three parts in the ratio 2, 3 and 4.",
+            "Divide 20 into two parts so that one is 1 1/2 times the other.",
+            "Divide 30 plums so that B gets twice and C three times as many as A."
+          ],
+          "answers": [
+            "8, 12 and 16",
+            "8 and 12",
+            "A 5, B 10, C 15"
+          ]
+        },
+        {
+          "title": "Lesson LXII: Men, Days and Loaves",
+          "steps": [
+            "Read the model solutions for problems 1, 5, 8 and 17",
+            "Work problems 1–23",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXII (p. 114)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n120/mode/1up"
+            }
+          ],
+          "pages": "pp. 114–116",
+          "questions": [
+            "If 6 men do a job in 10 days, how many men can do it in 4 days?",
+            "A merchant who fails pays 40 cents on the dollar. What does a creditor he owes $50 receive?",
+            "If the wages of 2 men for 3 days are $18, what are the wages of 5 men for 4 days?"
+          ],
+          "answers": [
+            "15 men",
+            "$20",
+            "$60"
+          ]
+        },
+        {
+          "title": "Lesson LXIII: Partnership",
+          "steps": [
+            "Read the model solutions about the pasture (oxen and sheep, horses for weeks)",
+            "Work problems 1–15",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXIII (p. 116)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n122/mode/1up"
+            }
+          ],
+          "pages": "pp. 116–118",
+          "questions": [
+            "A and B rent a pasture for $30. A puts in 2 cows and B 4 cows. What should each pay?",
+            "C puts in $40 for 3 months and D $30 for 6 months. They gain $50. What is each one's share?",
+            "A puts 3 horses in a pasture for 2 weeks and B puts in 2 horses for 6 weeks. The rent is $36. What should each pay?"
+          ],
+          "answers": [
+            "A $10, B $20",
+            "C $20, D $30",
+            "A $12, B $24"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 13: Percentage (Lessons LXIV–LXIX)",
+      "lessons": [
+        {
+          "title": "Lesson LXIV: Per Cent as a Fraction",
+          "steps": [
+            "Learn that per cent means hundredths: 1 per cent is 1/100",
+            "Work problems 1–20, giving each per cent as a fraction in lowest terms",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXIV (p. 119)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n125/mode/1up"
+            }
+          ],
+          "pages": "pp. 119–120",
+          "questions": [
+            "What part is 20 per cent?",
+            "What part is 12 1/2 per cent?",
+            "What part is 75 per cent?"
+          ],
+          "answers": [
+            "1/5",
+            "1/8",
+            "3/4"
+          ]
+        },
+        {
+          "title": "Lesson LXV: Finding a Per Cent of a Number",
+          "steps": [
+            "Read the model solutions for problems 1, 8 and 13",
+            "Work problems 1–16",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXV (p. 120)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n126/mode/1up"
+            }
+          ],
+          "pages": "pp. 120–121",
+          "questions": [
+            "What is 10 per cent of 70?",
+            "What is 25 per cent of $48?",
+            "Cloth costs 40 cents a yard. At what price must it be sold to gain 25 per cent?"
+          ],
+          "answers": [
+            "7",
+            "$12",
+            "50 cents"
+          ]
+        },
+        {
+          "title": "Lesson LXVI: Fractions as Per Cents",
+          "steps": [
+            "Read the model solution: 1/2 is 1/2 of 100, or 50 per cent",
+            "Work problems 1–22",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXVI (p. 121)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n127/mode/1up"
+            }
+          ],
+          "pages": "p. 121",
+          "questions": [
+            "How many per cent is 1/4?",
+            "How many per cent is 3/5?",
+            "How many per cent is 1/3?"
+          ],
+          "answers": [
+            "25 per cent",
+            "60 per cent",
+            "33 1/3 per cent"
+          ]
+        },
+        {
+          "title": "Lesson LXVII: What Per Cent?",
+          "steps": [
+            "Read the model solutions for problems 1 and 10",
+            "Work problems 1–19",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXVII (p. 122)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n128/mode/1up"
+            }
+          ],
+          "pages": "pp. 122–123",
+          "questions": [
+            "3 is what per cent of 12?",
+            "Of 40 pupils, 30 are present. What per cent are present?",
+            "A hat bought for $5 is sold for $6. What per cent is gained?"
+          ],
+          "answers": [
+            "25 per cent",
+            "75 per cent",
+            "20 per cent"
+          ]
+        },
+        {
+          "title": "Lesson LXVIII: Finding the Cost from the Selling Price",
+          "steps": [
+            "Read the model solution: a 20 per cent gain makes the price 6/5 of the cost",
+            "Work problems 1–20",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXVIII (p. 123)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n129/mode/1up"
+            }
+          ],
+          "pages": "pp. 123–124",
+          "questions": [
+            "A watch sold for $18 brought a gain of 20 per cent. What did it cost?",
+            "A horse sold for $27 brought a loss of 10 per cent. What did it cost?",
+            "Goods sold for $35 brought a gain of 25 per cent. What did they cost?"
+          ],
+          "answers": [
+            "$15",
+            "$30",
+            "$28"
+          ]
+        },
+        {
+          "title": "Lesson LXIX: Discounts Off the List Price",
+          "steps": [
+            "Learn what \"10 per cent off\" and \"20 and 5 off\" mean",
+            "Work problems 1–10",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXIX (p. 125)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n131/mode/1up"
+            }
+          ],
+          "pages": "p. 125",
+          "questions": [
+            "A $5 book is sold at 20 per cent off. What is paid?",
+            "A $200 bill of goods is sold at 1/4 off. What is paid?",
+            "A $100 bill is sold at \"20 and 5 off\". What is paid?"
+          ],
+          "answers": [
+            "$4",
+            "$150",
+            "$76"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 14: Commission, Insurance and Interest (Lessons LXX–LXXIX)",
+      "lessons": [
+        {
+          "title": "Lesson LXX: Commission",
+          "steps": [
+            "Learn what commission is: pay to an agent for buying or selling",
+            "Work problems 1–8",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXX (p. 126)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n132/mode/1up"
+            }
+          ],
+          "pages": "p. 126",
+          "questions": [
+            "An agent sells a house for $2000 at 3 per cent commission. What is his commission?",
+            "An agent sells $400 of goods at 5 per cent. How much does the owner receive?",
+            "A collector's 10 per cent commission came to $30. How much did he collect?"
+          ],
+          "answers": [
+            "$60",
+            "$380",
+            "$300"
+          ]
+        },
+        {
+          "title": "Lesson LXXI: Insurance",
+          "steps": [
+            "Learn the words policy and premium",
+            "Work problems 1–6",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXI (p. 126)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n132/mode/1up"
+            }
+          ],
+          "pages": "pp. 126–127",
+          "questions": [
+            "What is the premium on a $1000 policy at 2 per cent?",
+            "A $4000 house is insured for 3/4 of its value at 1 per cent. What is the premium?",
+            "What is the premium on $600 at 1/2 per cent?"
+          ],
+          "answers": [
+            "$20",
+            "$30",
+            "$3"
+          ]
+        },
+        {
+          "title": "Lesson LXXII: Interest by Years",
+          "steps": [
+            "Learn interest, principal and amount",
+            "Work problems 1–10: find the per cent for all the years, then take that part of the principal",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXII (p. 127)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n133/mode/1up"
+            }
+          ],
+          "pages": "pp. 127–128",
+          "questions": [
+            "Find the interest of $10 for 2 years at 5 per cent.",
+            "Find the interest of $50 for 3 years at 6 per cent.",
+            "Find the interest of $40 for 4 years at 5 per cent."
+          ],
+          "answers": [
+            "$1",
+            "$9",
+            "$8"
+          ]
+        },
+        {
+          "title": "Lesson LXXIII: Interest for Months and Days",
+          "steps": [
+            "Read the model solutions; count a year as 12 months of 30 days",
+            "Work problems 1–21, including the amount (principal plus interest)",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXIII (p. 128)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n134/mode/1up"
+            }
+          ],
+          "pages": "pp. 128–129",
+          "questions": [
+            "Find the interest of $60 for 6 months at 6 per cent.",
+            "Find the interest of $100 for 3 months at 8 per cent.",
+            "What is the amount of $50 for 2 years at 6 per cent?"
+          ],
+          "answers": [
+            "$1.80",
+            "$2",
+            "$56"
+          ]
+        },
+        {
+          "title": "Lesson LXXIV: Finding the Principal",
+          "steps": [
+            "Read the model solution: if 12/100 of the principal is $3, the principal is $25",
+            "Work problems 1–8",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXIV (p. 129)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n135/mode/1up"
+            }
+          ],
+          "pages": "p. 129",
+          "questions": [
+            "The interest for 2 years at 5 per cent is $4. What is the principal?",
+            "What principal at 6 per cent gives $12 interest a year?",
+            "What principal at 4 per cent for 5 years gives $10 interest?"
+          ],
+          "answers": [
+            "$40",
+            "$200",
+            "$50"
+          ]
+        },
+        {
+          "title": "Lesson LXXV: Principal from the Amount",
+          "steps": [
+            "Read the model solution: at 10 per cent the amount is 11/10 of the principal",
+            "Work problems 1–7",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXV (p. 130)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n136/mode/1up"
+            }
+          ],
+          "pages": "p. 130",
+          "questions": [
+            "What principal at 5 per cent for 2 years amounts to $66?",
+            "What principal at 10 per cent for 3 years amounts to $130?",
+            "What principal at 4 per cent for 5 years amounts to $60?"
+          ],
+          "answers": [
+            "$60",
+            "$100",
+            "$50"
+          ]
+        },
+        {
+          "title": "Lesson LXXVI: Finding the Time",
+          "steps": [
+            "Read the model solutions, including how long money takes to double",
+            "Work problems 1–10",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXVI (p. 130)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n136/mode/1up"
+            }
+          ],
+          "pages": "pp. 130–131",
+          "questions": [
+            "In what time, at 5 per cent, will $40 give $6 interest?",
+            "In what time does money double at 10 per cent?",
+            "In what time, at 4 per cent, will $50 give $3 interest?"
+          ],
+          "answers": [
+            "3 years",
+            "10 years",
+            "1 1/2 years"
+          ]
+        },
+        {
+          "title": "Lesson LXXVII: Finding the Rate",
+          "steps": [
+            "Read the model solution: find one year's interest, then what part of the principal it is",
+            "Work problems 1–10",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXVII (p. 131)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n137/mode/1up"
+            }
+          ],
+          "pages": "p. 131",
+          "questions": [
+            "At what per cent will $100 give $12 interest in 2 years?",
+            "At what per cent will $50 give $8 interest in 4 years?",
+            "At what per cent will money double itself in 20 years?"
+          ],
+          "answers": [
+            "6 per cent",
+            "4 per cent",
+            "5 per cent"
+          ]
+        },
+        {
+          "title": "Lesson LXXVIII: Present Worth and Discount",
+          "steps": [
+            "Learn present worth and discount: interest paid in advance",
+            "Work problems 1–12",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXVIII (p. 132)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n138/mode/1up"
+            }
+          ],
+          "pages": "p. 132",
+          "questions": [
+            "What is the present worth, at 5 per cent, of $60 due in 4 years?",
+            "What is the discount on that same note?",
+            "What is the present worth, at 10 per cent, of $90 due in 5 years?"
+          ],
+          "answers": [
+            "$50",
+            "$10",
+            "$60"
+          ]
+        },
+        {
+          "title": "Lesson LXXIX: Interest Puzzles",
+          "steps": [
+            "Work problems 1–8 (what part of the principal the interest is)",
+            "Work problems 9–14",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXIX (p. 133)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n139/mode/1up"
+            }
+          ],
+          "pages": "p. 133",
+          "questions": [
+            "At 5 per cent for 4 years, the interest is what part of the principal?",
+            "When the interest for 2 years is 1/10 of the principal, what is the rate?",
+            "In what time at 5 per cent will a principal give the same interest as in 2 years at 10 per cent?"
+          ],
+          "answers": [
+            "1/5",
+            "5 per cent",
+            "4 years"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 15: Miscellaneous Problems (Lesson LXXX)",
+      "lessons": [
+        {
+          "title": "Lesson LXXX (part 1): Miscellaneous Problems",
+          "steps": [
+            "Work problems 1–10",
+            "Work problems 11–20, using the model solutions for the beggars and the hare and hound",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXX (p. 134)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n140/mode/1up"
+            }
+          ],
+          "pages": "pp. 134–136",
+          "questions": [
+            "If 3 pears are worth 6 apples, and 2 apples are worth 8 plums, how many plums should be given for 4 pears?",
+            "Five times a number is 12 more than 3 times the number. What is the number?",
+            "If a father gives each child 2 peaches he has 6 left; if he gives each 4 he has none left. How many children has he?"
+          ],
+          "answers": [
+            "32",
+            "6",
+            "3"
+          ]
+        },
+        {
+          "title": "Lesson LXXX (part 2): Miscellaneous Problems",
+          "steps": [
+            "Work problems 21–30",
+            "Work problems 31–40",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXX, problems 21–40 (p. 136)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n142/mode/1up"
+            }
+          ],
+          "pages": "pp. 136–138",
+          "questions": [
+            "A chain cost 1/2 as much as a watch, and both cost $30. What did the watch cost?",
+            "Mary gives each playmate 4 cherries and has 10 left; to give each 6 she would need all of them. How many playmates?",
+            "Tom is 4 times as old as James, and the difference of their ages is 12 years. How old is each?"
+          ],
+          "answers": [
+            "$20",
+            "5",
+            "Tom 16, James 4"
+          ]
+        },
+        {
+          "title": "Lesson LXXX (part 3): Miscellaneous Problems",
+          "steps": [
+            "Work problems 41–50, using the model solution about the idle laborer",
+            "Work problems 51–61",
+            "Solve the 3 practice problems below aloud, then check"
+          ],
+          "links": [
+            {
+              "label": "Lesson LXXX, problems 41–61 (p. 138)",
+              "url": "https://archive.org/details/raysnewintellec00raygoog/page/n144/mode/1up"
+            }
+          ],
+          "pages": "pp. 138–140",
+          "questions": [
+            "A worker earns $2 for each day he works and pays $1 for each idle day. After 10 days he has $14. How many days was he idle?",
+            "A is 3 times as old as B, and B is twice as old as C. A is 25 years older than C. How old is each?",
+            "Selling sugar at 8 cents a pound loses 20 cents; selling at 10 cents a pound gains 20 cents. How many pounds are there?"
+          ],
+          "answers": [
+            "2",
+            "A 30, B 10, C 5",
+            "20 pounds"
+          ],
+          "notes": "The book's last pages are puzzle problems; it is fine to spread this lesson over extra days."
+        }
+      ]
+    }
+  ]
+}

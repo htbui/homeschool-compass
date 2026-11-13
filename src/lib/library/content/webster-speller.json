@@ -1,0 +1,3594 @@
+{
+ "key": "webster-speller",
+ "title": "Webster's Blue-Backed Speller",
+ "sourceTitle": "The Elementary Spelling Book: Being an Improvement on the American Spelling Book (revised edition)",
+ "author": "Noah Webster",
+ "seller": "Noah Webster",
+ "year": 1829,
+ "sourceUrl": "https://archive.org/details/elementaryspelli00web",
+ "readUrl": "https://archive.org/details/elementaryspelli00web/page/n7/mode/1up",
+ "license": {
+  "kind": "public_domain"
+ },
+ "licenseEvidence": "Internet Archive scan elementaryspelli00web (American Book Company printing, University of North Carolina at Chapel Hill copy, full public view). Its copyright page lists entries of 1837, 1857, 1866 and 'Copyright, 1880, by George and Charles Merriam'; the Elementary Spelling Book first appeared in 1829. Published before 1930, so public domain in the USA. Not on Project Gutenberg.",
+ "subjects": [
+  "phonics",
+  "writing"
+ ],
+ "gradeMin": 1,
+ "gradeMax": 4,
+ "philosophies": [
+  "classical",
+  "traditional"
+ ],
+ "lessonsPerWeek": 4,
+ "minutesPerLesson": 20,
+ "parentInvolvement": "high",
+ "familyStyle": false,
+ "cover": "📘",
+ "color": "#4C7FD9",
+ "description": "Noah Webster's famous \"Blue-Backed Speller,\" the book that taught generations of American children to read and spell. It climbs from two-letter syllables like ba and ab up to six-syllable words, with short reading sentences and seven fables along the way. Each day you review a sound, read a table aloud, spell words from dictation, and copy a sentence. The full scanned book is free online.",
+ "includes": [
+  "136 lessons in 17 units, covering all 152 numbered tables",
+  "The sound key, alphabet, seven fables, and the reference tables on sound-alike words, plurals, numbers, and punctuation",
+  "Daily read-aloud, dictation, and copywork",
+  "Spelling and phonics questions with answers",
+  "A link to the exact page of the free scanned book for every lesson"
+ ],
+ "units": [
+  {
+   "title": "Unit 1: Sounds, Marks, and Letters",
+   "lessons": [
+    {
+     "title": "Analysis of Sounds: Vowels, Consonants, and Diphthongs",
+     "steps": [
+      "Parent: read pp. 8–10 first; then explain that vowels are open sounds and consonants are closed or stopped sounds",
+      "Say the long and short sound of each vowel: a (fame, fat), e (mete, met), i (fine, fin), o (note, not), u (mute, but)",
+      "Find the straight line (long) and curve (short) marks over vowels on p. 8"
+     ],
+     "links": [
+      {
+       "label": "Analysis of Sounds (p. 8)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n7/mode/1up"
+      }
+     ],
+     "pages": "pp. 8–10",
+     "questions": [
+      "Is the sound of b a vowel or a consonant?",
+      "What do we call two vowel sounds joined together, like ou in \"out\"?",
+      "Which mark shows a long vowel: a straight line or a curve?"
+     ],
+     "answers": [
+      "A consonant",
+      "A diphthong",
+      "A straight line"
+     ],
+     "notes": "These pages are mostly for the parent. Teach only the long/short marks now; the rest will come up table by table."
+    },
+    {
+     "title": "Analysis of Sounds: The Consonant Letters",
+     "steps": [
+      "Read together what the book says about one consonant a day, starting with B, C, and G",
+      "Hunt for silent letters: say dumb, gnaw, knave, wring, and listen for the letter you cannot hear",
+      "Sort these by the sound of c: cat, cell, cup, city"
+     ],
+     "links": [
+      {
+       "label": "Consonants (p. 10)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n9/mode/1up"
+      }
+     ],
+     "pages": "pp. 10–13",
+     "questions": [
+      "In \"knave,\" which letter is silent?",
+      "Does c sound like k or s in \"cell\"?",
+      "How is \"when\" said: with the h sound first or the w sound first?"
+     ],
+     "answers": [
+      "k",
+      "s",
+      "The h sound comes first (hwen)"
+     ]
+    },
+    {
+     "title": "Accent and the Key to Pronunciation",
+     "steps": [
+      "Say a two-syllable word like ba-ker and clap on the syllable you say loudest; that is the accent",
+      "Read the Key to the Pronunciation on pp. 13–14 and find one example word for each vowel mark",
+      "Make a small card of the key to keep in the book for the year"
+     ],
+     "links": [
+      {
+       "label": "Accent and Key (p. 13)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n12/mode/1up"
+      }
+     ],
+     "pages": "pp. 13–14",
+     "questions": [
+      "Which syllable is accented in \"baker\"?",
+      "What mark shows the accented syllable in this book?",
+      "Does the o in \"son\" sound like short o or short u?"
+     ],
+     "answers": [
+      "The first (ba')",
+      "The accent mark ( ' )",
+      "Short u"
+     ]
+    },
+    {
+     "title": "The Alphabet: Roman, Italic, Old English, and Script",
+     "steps": [
+      "Say the names of the letters from the table on p. 15, pointing to each capital and small letter",
+      "Compare the Roman and italic forms of a, g, and k",
+      "Copy the small script letters a through g on p. 16"
+     ],
+     "links": [
+      {
+       "label": "The Alphabet (p. 15)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n14/mode/1up"
+      }
+     ],
+     "pages": "pp. 15–16",
+     "questions": [
+      "How many letters are in the English alphabet?",
+      "What does the character & stand for?",
+      "What is the name of the letter h?"
+     ],
+     "answers": [
+      "Twenty-six",
+      "and",
+      "aitch"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 2: First Syllables (Nos. 1–11)",
+   "lessons": [
+    {
+     "title": "Nos. 1–2: ba, be, bi, bo, bu",
+     "steps": [
+      "Read each row of two-letter syllables aloud: ba be bi bo bu, ca ce ci co cu",
+      "Read the tiny sentences in No. 1, like \"go on\" and \"is he?\"",
+      "Write five syllables from the table on a slate or paper"
+     ],
+     "links": [
+      {
+       "label": "No. 1 (p. 16)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n15/mode/1up"
+      },
+      {
+       "label": "No. 2 (p. 17)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n16/mode/1up"
+      }
+     ],
+     "pages": "pp. 16–17",
+     "questions": [
+      "Read and spell: g-o",
+      "Spell the syllable that sounds like the word \"be.\"",
+      "Does ce in No. 1 sound like \"see\" or \"key\"?"
+     ],
+     "answers": [
+      "go",
+      "be",
+      "\"see\" (soft c)"
+     ]
+    },
+    {
+     "title": "Nos. 3–4: pa, ra, sa and ab, eb, ib",
+     "steps": [
+      "Read pa pe pi po pu py and ra re ri ro ru ry across the rows",
+      "Now read the reversed syllables in No. 4: ab eb ib ob ub, ad ed id od ud",
+      "Read the sentence \"I am to go in\" and copy it"
+     ],
+     "links": [
+      {
+       "label": "Nos. 3–4 (p. 17)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n16/mode/1up"
+      }
+     ],
+     "pages": "pp. 17–18",
+     "questions": [
+      "Spell the syllable that starts with r and ends with o.",
+      "Which is the reversed form of \"ba\"?",
+      "How many letters are in \"ud\"?"
+     ],
+     "answers": [
+      "ro",
+      "ab",
+      "Two"
+     ]
+    },
+    {
+     "title": "Nos. 5–7: aj, ak, al and ok, ul, op",
+     "steps": [
+      "Read Nos. 5–7 down the columns: ak ek ik, al el il, am em im",
+      "Read the short sentences in No. 6, such as \"he is to go up by it\"",
+      "Copy one sentence from No. 6 with a capital letter at the start"
+     ],
+     "links": [
+      {
+       "label": "Nos. 5–7 (p. 18)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n17/mode/1up"
+      }
+     ],
+     "pages": "p. 18",
+     "questions": [
+      "Spell the word made of u and p.",
+      "Spell the little word made of o and n.",
+      "Read and spell the word in \"he is to go up by it\" that starts with b."
+     ],
+     "answers": [
+      "up",
+      "on",
+      "by"
+     ]
+    },
+    {
+     "title": "Nos. 8–9: bra, cra, dra and pra, tra, wra",
+     "steps": [
+      "Blend the two consonants first, then add the vowel: b-r-a, bra",
+      "Read the first little sentences in No. 9, like \"She fed the old hen\"",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 8 (p. 18)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n17/mode/1up"
+      },
+      {
+       "label": "No. 9 (p. 19)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n18/mode/1up"
+      }
+     ],
+     "pages": "pp. 18–19",
+     "questions": [
+      "Spell the syllable made of t, r, and y.",
+      "In \"wra,\" which letter is silent?",
+      "Who did she feed in the sentence from No. 9?"
+     ],
+     "answers": [
+      "try",
+      "w",
+      "The old hen"
+     ]
+    },
+    {
+     "title": "Nos. 10–11: pha, qua, spa and spla, spra",
+     "steps": [
+      "Review: ph sounds like f, and qu sounds like kw",
+      "Read the three-letter blends spla, sple, spli, then spra, spre, spri",
+      "Write pha, qua, spa, and spra and read them back"
+     ],
+     "links": [
+      {
+       "label": "Nos. 10–11 (p. 19)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n18/mode/1up"
+      }
+     ],
+     "pages": "pp. 19–20",
+     "questions": [
+      "What sound does ph make in \"pha\"?",
+      "What letter always follows q?",
+      "How many consonants come before the vowel in \"spla\"?"
+     ],
+     "answers": [
+      "f",
+      "u",
+      "Three (s, p, l)"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 3: Words of Three and Four Letters (Nos. 12–25)",
+   "lessons": [
+    {
+     "title": "No. 12: cab, lad, bid, rod",
+     "steps": [
+      "Read each column of short words aloud, then read \"A new cap\" and the little sentences",
+      "Spell 6–8 words from the columns from dictation, then check them against the book",
+      "Copy \"He has got a new tub.\""
+     ],
+     "links": [
+      {
+       "label": "No. 12 (p. 20)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n19/mode/1up"
+      }
+     ],
+     "pages": "p. 20",
+     "questions": [
+      "Spell the word for a boy that rhymes with \"bad.\"",
+      "What did he get, in the first sentence?",
+      "Spell the opposite of \"good\" from the table."
+     ],
+     "answers": [
+      "lad",
+      "A new tub",
+      "bad"
+     ]
+    },
+    {
+     "title": "No. 13: log, dog, bag, pig",
+     "steps": [
+      "Read the columns: log dog bog, bag rag wag, pig fig wig, jug mug hug",
+      "Read the sentences and point to each word from the table",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 13 (p. 20)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n19/mode/1up"
+      }
+     ],
+     "pages": "pp. 20–21",
+     "questions": [
+      "Spell the word that rhymes with \"pig\" and is a fruit.",
+      "Which animal has been fed in the sentences?",
+      "Spell the farm animal in the table that rhymes with \"wig.\""
+     ],
+     "answers": [
+      "fig",
+      "The pig",
+      "pig"
+     ]
+    },
+    {
+     "title": "Nos. 14–15: hem, fan, pen; fun, map, top",
+     "steps": [
+      "Read Nos. 14 and 15 aloud, listening for the short vowel in the middle of each word",
+      "Sort five words by their middle vowel: a, e, i, o, u",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "Nos. 14–15 (p. 21)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n20/mode/1up"
+      }
+     ],
+     "pages": "p. 21",
+     "questions": [
+      "Spell the word that rhymes with \"top\" and is used to clean floors.",
+      "What vowel is in the middle of \"pen\"?",
+      "Spell the word that rhymes with \"sun\" and means a good time."
+     ],
+     "answers": [
+      "mop",
+      "e",
+      "fun"
+     ]
+    },
+    {
+     "title": "No. 16: bat, met, fox, fix",
+     "steps": [
+      "Read the words ending in t and x",
+      "Read the sentences, such as \"I met six men to-day\"",
+      "Copy two sentences and underline the words from the table"
+     ],
+     "links": [
+      {
+       "label": "No. 16 (p. 21)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n20/mode/1up"
+      }
+     ],
+     "pages": "pp. 21–22",
+     "questions": [
+      "How many men did I meet?",
+      "Spell the animal in No. 16 that ends with x.",
+      "What does she have that is new in the first sentence?"
+     ],
+     "answers": [
+      "Six",
+      "fox",
+      "A fan"
+     ]
+    },
+    {
+     "title": "Nos. 17–18: babe, cage, lake; bake, mile, yoke",
+     "steps": [
+      "Teach the rule: a final e makes the vowel before it say its name (lak → lake)",
+      "Read the long-vowel words in Nos. 17 and 18",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "Nos. 17–18 (p. 22)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n21/mode/1up"
+      }
+     ],
+     "pages": "p. 22",
+     "questions": [
+      "Is the a in \"lake\" long or short?",
+      "Spell the word: a body of water, rhymes with \"cake.\"",
+      "Which letter in \"bake\" makes no sound?"
+     ],
+     "answers": [
+      "Long",
+      "lake",
+      "The final e"
+     ]
+    },
+    {
+     "title": "Nos. 19–20: rule, ripe, hope; nine, bone, pure",
+     "steps": [
+      "Review the silent-e rule with u and o: rule, mope, hope, bone",
+      "Read every column in Nos. 19 and 20 aloud",
+      "Write pairs that change with a final e: rip/ripe, hop/hope, not/note"
+     ],
+     "links": [
+      {
+       "label": "Nos. 19–20 (p. 22)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n21/mode/1up"
+      }
+     ],
+     "pages": "pp. 22–23",
+     "questions": [
+      "Add e to \"hop.\" What word do you get?",
+      "Spell the number after eight.",
+      "Is the i in \"ripe\" long or short?"
+     ],
+     "answers": [
+      "hope",
+      "nine",
+      "Long"
+     ]
+    },
+    {
+     "title": "Nos. 21–22: camp, lamp, scalp; romp, sharp, act",
+     "steps": [
+      "Read the words that end with two consonants: mp, lp, sp, ct",
+      "Clap each word: they are all one syllable",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "Nos. 21–22 (p. 23)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n22/mode/1up"
+      }
+     ],
+     "pages": "p. 23",
+     "questions": [
+      "Spell the word for a light that rhymes with \"camp.\"",
+      "Which two letters end \"crisp\"?",
+      "How many syllables in \"sharp\"?"
+     ],
+     "answers": [
+      "lamp",
+      "sp",
+      "One"
+     ]
+    },
+    {
+     "title": "Nos. 23–24: shaft, left, colt; went, wept, last",
+     "steps": [
+      "Read the words ending in ft, lt, nt, pt, and st",
+      "Make a list of three words from No. 24 that end in st",
+      "Spell 6 words from dictation"
+     ],
+     "links": [
+      {
+       "label": "Nos. 23–24 (p. 23)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n22/mode/1up"
+      }
+     ],
+     "pages": "pp. 23–24",
+     "questions": [
+      "Spell the word for a young horse.",
+      "Spell the past of \"weep\" from No. 24.",
+      "Which word means the opposite of \"first\"?"
+     ],
+     "answers": [
+      "colt",
+      "wept",
+      "last"
+     ]
+    },
+    {
+     "title": "No. 25: fast, best, mist, first",
+     "steps": [
+      "Read the st words: fast, best, rest, west, first, thirst",
+      "Read the sentences on p. 25 aloud, such as \"Coal and wood will make a fire\"",
+      "Copy two sentences carefully, with capitals and periods"
+     ],
+     "links": [
+      {
+       "label": "No. 25 (p. 24)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n23/mode/1up"
+      }
+     ],
+     "pages": "pp. 24–25",
+     "questions": [
+      "What will fire burn, according to the first sentence?",
+      "Spell the direction where the sun sets.",
+      "How long does it take the world to turn round?"
+     ],
+     "answers": [
+      "Wood and coal",
+      "west",
+      "A day"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 4: Two Syllables and Blends (Nos. 26–35)",
+   "lessons": [
+    {
+     "title": "No. 26: baker, lady, pony (Two Syllables, Accent on the First)",
+     "steps": [
+      "Read each word in parts, then whole: ba-ker, la-dy, po-ny",
+      "Clap the syllables and stress the first one",
+      "Read the sentences, such as \"A pony is a very little horse,\" and copy one"
+     ],
+     "links": [
+      {
+       "label": "No. 26 (p. 25)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n24/mode/1up"
+      }
+     ],
+     "pages": "pp. 25–26",
+     "questions": [
+      "Who bakes bread and cakes?",
+      "What is a pony, says the book?",
+      "Which syllable is accented in \"lady\"?"
+     ],
+     "answers": [
+      "Bakers",
+      "A very little horse",
+      "The first"
+     ]
+    },
+    {
+     "title": "Nos. 27–28: scab, crib, grub; clam, trim, swim",
+     "steps": [
+      "Read words that begin with two consonants: sc, cr, gr, cl, tr, sw",
+      "Make new words by changing the first blend: trim → grim, slim",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "Nos. 27–28 (p. 26)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n25/mode/1up"
+      }
+     ],
+     "pages": "p. 26",
+     "questions": [
+      "Spell the bed for a baby.",
+      "Spell the word that rhymes with \"trim\" and means to move in water.",
+      "What blend begins \"clam\"?"
+     ],
+     "answers": [
+      "crib",
+      "swim",
+      "cl"
+     ]
+    },
+    {
+     "title": "No. 29: snap, flip, chop, shop",
+     "steps": [
+      "Review the sounds of ch and sh",
+      "Read the columns of No. 29 and the sentences below them",
+      "Spell 6 words from dictation and copy one sentence"
+     ],
+     "links": [
+      {
+       "label": "No. 29 (p. 26)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n25/mode/1up"
+      }
+     ],
+     "pages": "pp. 26–27",
+     "questions": [
+      "Spell the place where things are sold, rhymes with \"chop.\"",
+      "What two letters make the sound at the start of \"chop\"?",
+      "How many letters are in \"flip\"?"
+     ],
+     "answers": [
+      "shop",
+      "ch",
+      "Four"
+     ]
+    },
+    {
+     "title": "Nos. 30–31: bold, gold, hand; bird, herd, latch",
+     "steps": [
+      "Read the words ending in ld, nd, rd, and tch",
+      "Read \"A bird sits on a branch to sing\" and copy it",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "Nos. 30–31 (p. 27)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n26/mode/1up"
+      }
+     ],
+     "pages": "pp. 27–28",
+     "questions": [
+      "Where does the bird sit to sing?",
+      "Spell the metal that rhymes with \"bold.\"",
+      "What does \"to filch\" mean, from No. 31?"
+     ],
+     "answers": [
+      "On a branch",
+      "gold",
+      "To steal (something small)"
+     ]
+    },
+    {
+     "title": "No. 32: abase, reclaim, away (Accent on the Second)",
+     "steps": [
+      "Read each word with the stress on the second part: a-way', re-claim'",
+      "Compare with No. 26, where the first part was stressed",
+      "Read three sentences from p. 29 and copy one"
+     ],
+     "links": [
+      {
+       "label": "No. 32 (p. 28)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n27/mode/1up"
+      }
+     ],
+     "pages": "pp. 28–29",
+     "questions": [
+      "Which syllable is accented in \"away\"?",
+      "What do men fill balloons with, says the book?",
+      "What do teachers like to see their pupils be?"
+     ],
+     "answers": [
+      "The second",
+      "Gas",
+      "Polite"
+     ]
+    },
+    {
+     "title": "Nos. 33–34: deed, seed, bee; steer, steel, keen",
+     "steps": [
+      "Read all the ee words; ee says long e",
+      "Find three ee words that rhyme with \"feed\"",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "Nos. 33–34 (p. 29)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n28/mode/1up"
+      }
+     ],
+     "pages": "pp. 29–30",
+     "questions": [
+      "Spell the word that rhymes with \"see\" and makes honey.",
+      "What two letters say long e in these tables?",
+      "Spell the strong metal word in No. 34 that rhymes with \"feel.\""
+     ],
+     "answers": [
+      "bee",
+      "ee",
+      "steel"
+     ]
+    },
+    {
+     "title": "No. 35: coo, loop, boot, troop",
+     "steps": [
+      "Read the oo words: coo, loop, boot, troop, stoop",
+      "Read the sentences, such as \"Eels swim in the brook\"",
+      "Copy two sentences and circle every oo"
+     ],
+     "links": [
+      {
+       "label": "No. 35 (p. 30)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n29/mode/1up"
+      }
+     ],
+     "pages": "pp. 30–31",
+     "questions": [
+      "What do plants grow from?",
+      "What are sharp tools made of?",
+      "What does a man cut trees down with?"
+     ],
+     "answers": [
+      "Seeds",
+      "Steel",
+      "His ax"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 5: Endings and Plurals (Nos. 36–49)",
+   "lessons": [
+    {
+     "title": "Nos. 36–37: back, quick, brick; rock, luck, tank",
+     "steps": [
+      "Read the ck words in No. 36 and the nk and lk words in No. 37",
+      "Explain that ck comes right after a short vowel",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "Nos. 36–37 (p. 31)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n30/mode/1up"
+      }
+     ],
+     "pages": "p. 31",
+     "questions": [
+      "Spell the word for a baby hen.",
+      "Which two letters end \"brick\"?",
+      "Spell the word that rhymes with \"duck\" and means good fortune."
+     ],
+     "answers": [
+      "chick",
+      "ck",
+      "luck"
+     ]
+    },
+    {
+     "title": "Nos. 38–39: shrink, mark, ask; snarl, barn, corn",
+     "steps": [
+      "Read the nk, rk, and sk words, then the rl, rn, and rm words",
+      "Read \"I can play when my task is done\" and copy it",
+      "Spell 6 words from dictation"
+     ],
+     "links": [
+      {
+       "label": "No. 38 (p. 31)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n30/mode/1up"
+      },
+      {
+       "label": "No. 39 (p. 32)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n31/mode/1up"
+      }
+     ],
+     "pages": "pp. 31–32",
+     "questions": [
+      "When can I play?",
+      "Spell where a farmer keeps his hay and animals.",
+      "Spell the grain that rhymes with \"born.\""
+     ],
+     "answers": [
+      "When my task is done",
+      "barn",
+      "corn"
+     ]
+    },
+    {
+     "title": "Nos. 40–42: staff, call, well; push, brass, cross",
+     "steps": [
+      "Read the words ending in double letters: ff, ll, ss",
+      "Tell the rule: after a short vowel at the end of a short word, f, l, and s are often doubled",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "Nos. 40–42 (p. 32)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n31/mode/1up"
+      }
+     ],
+     "pages": "pp. 32–33",
+     "questions": [
+      "Spell \"kiss.\"",
+      "What double letter ends \"well\"?",
+      "Spell the word that rhymes with \"moss\" and means angry."
+     ],
+     "answers": [
+      "kiss",
+      "ll",
+      "cross"
+     ]
+    },
+    {
+     "title": "No. 43: egg, eggs; cliff, cliffs (Singular and Plural)",
+     "steps": [
+      "Read the pairs across: one egg, two eggs; one bell, two bells",
+      "Read the sentences, such as \"A cliff is a high steep rock\"",
+      "Write the plural of five words from the table"
+     ],
+     "links": [
+      {
+       "label": "No. 43 (p. 33)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n32/mode/1up"
+      }
+     ],
+     "pages": "pp. 33–34",
+     "questions": [
+      "What is the plural of \"bell\"?",
+      "What is a skiff?",
+      "What is a tarn?"
+     ],
+     "answers": [
+      "bells",
+      "A small rowboat",
+      "A small lake among the mountains"
+     ]
+    },
+    {
+     "title": "No. 44, Part 1: banquet, pitcher, candy",
+     "steps": [
+      "Read the first columns in syllables: ban-quet, pitch-er, can-dy",
+      "Stress the first syllable of each word",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 44 (p. 34)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n33/mode/1up"
+      }
+     ],
+     "pages": "pp. 34–35",
+     "questions": [
+      "How many syllables in \"candy\"?",
+      "Spell the word: pitch + er.",
+      "Which syllable is accented in \"banquet\"?"
+     ],
+     "answers": [
+      "Two",
+      "pitcher",
+      "The first"
+     ]
+    },
+    {
+     "title": "No. 44, Part 2: The Reading Sentences",
+     "steps": [
+      "Finish the columns of No. 44",
+      "Read the sentences, such as \"Silver spoons are not apt to rust\"",
+      "Copy two sentences from memory, then check"
+     ],
+     "links": [
+      {
+       "label": "No. 44 (p. 35)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n34/mode/1up"
+      }
+     ],
+     "pages": "pp. 35–36",
+     "questions": [
+      "What is cotton velvet like to the touch?",
+      "What are not apt to rust?",
+      "What should visitors not make too long?"
+     ],
+     "answers": [
+      "Very soft",
+      "Silver spoons",
+      "Their visits"
+     ]
+    },
+    {
+     "title": "Nos. 45–46: judge, hinge, fringe; bench, catch",
+     "steps": [
+      "Read the dge and nge words, then the ch and tch words",
+      "Read the sentences, such as \"Doors are hung on hinges\"",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 45 (p. 36)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n35/mode/1up"
+      }
+     ],
+     "pages": "pp. 36–37",
+     "questions": [
+      "What are doors hung on?",
+      "What does a farmer split rails with?",
+      "How long is the first joint of a man's thumb?"
+     ],
+     "answers": [
+      "Hinges",
+      "A wedge",
+      "One inch"
+     ]
+    },
+    {
+     "title": "Nos. 47–48: rise, nose, guide; spoil, point, loud",
+     "steps": [
+      "Notice that s in rise, wise, and nose sounds like z",
+      "Read the oi and ou words in No. 48: spoil, point, coin, loud, round",
+      "Read and copy \"A sphere is a round body or globe\""
+     ],
+     "links": [
+      {
+       "label": "Nos. 47–48 (p. 37)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n36/mode/1up"
+      }
+     ],
+     "pages": "pp. 37–38",
+     "questions": [
+      "Does the s in \"nose\" sound like s or z?",
+      "What is a sphere?",
+      "Spell the word that rhymes with \"join\" and is money."
+     ],
+     "answers": [
+      "z",
+      "A round body or globe",
+      "coin"
+     ]
+    },
+    {
+     "title": "No. 49: poach, owl, brown, flour",
+     "steps": [
+      "Read the ow and ou words: owl, cowl, brown, gown, flour, sour",
+      "Read the sentences, such as \"The owl has large eyes and can see in the night\"",
+      "Copy two sentences and spell 6 words from dictation"
+     ],
+     "links": [
+      {
+       "label": "No. 49 (p. 38)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n37/mode/1up"
+      }
+     ],
+     "pages": "pp. 38–39",
+     "questions": [
+      "When can the owl see?",
+      "Where do the cat and mouse live?",
+      "Spell the color word that rhymes with \"town.\""
+     ],
+     "answers": [
+      "In the night",
+      "In the house",
+      "brown"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 6: Vowel Pairs and Longer Words (Nos. 50–59)",
+   "lessons": [
+    {
+     "title": "Nos. 50–51: sea, bead, maid; loaf, chief, teach",
+     "steps": [
+      "Read ea, ai, oa, and ie words; most say the long sound of the first vowel",
+      "Read \"Few men can afford to keep a coach\"",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "Nos. 50–51 (p. 39)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n38/mode/1up"
+      }
+     ],
+     "pages": "pp. 39–40",
+     "questions": [
+      "Spell the word for the ocean that sounds like the letter c.",
+      "Spell a loaf of bread.",
+      "What two letters make the long e in \"chief\"?"
+     ],
+     "answers": [
+      "sea",
+      "loaf",
+      "ie"
+     ]
+    },
+    {
+     "title": "Nos. 52–53: break, oak, nail; dream, grain, moan",
+     "steps": [
+      "Read the columns in Nos. 52–53; notice \"break\" and \"steak\" sound like long a",
+      "Read the sentences, such as \"We have green peas in the month of June\"",
+      "Copy two sentences"
+     ],
+     "links": [
+      {
+       "label": "Nos. 52–53 (p. 40)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n39/mode/1up"
+      }
+     ],
+     "pages": "pp. 40–41",
+     "questions": [
+      "In what month do we have green peas?",
+      "Which tree grows acorns: oak or pine?",
+      "What must girls and boys learn to do?"
+     ],
+     "answers": [
+      "June",
+      "oak",
+      "Read and spell"
+     ]
+    },
+    {
+     "title": "No. 54: botany, colony, harmony (Three Syllables)",
+     "steps": [
+      "Read each word in three parts: bot-a-ny, col-o-ny",
+      "These words are left unmarked: say where the accent falls (always the first syllable here)",
+      "Read the definitions, like \"Botany is the science of plants\""
+     ],
+     "links": [
+      {
+       "label": "No. 54 (p. 41)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n40/mode/1up"
+      }
+     ],
+     "pages": "pp. 41–42",
+     "questions": [
+      "What is botany?",
+      "How many syllables in \"harmony\"?",
+      "What is an elegy?"
+     ],
+     "answers": [
+      "The science of plants",
+      "Three",
+      "A funeral song"
+     ]
+    },
+    {
+     "title": "No. 55: globe, bribe, place, slice",
+     "steps": [
+      "Read the long-vowel words with a silent e: globe, tribe, grace, slice",
+      "Read \"A glade is an opening among trees\" and the other sentences",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 55 (p. 42)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n41/mode/1up"
+      }
+     ],
+     "pages": "pp. 42–43",
+     "questions": [
+      "What is a glade?",
+      "Spell the round model of the earth.",
+      "Does the c in \"place\" sound like k or s?"
+     ],
+     "answers": [
+      "An opening among trees",
+      "globe",
+      "s"
+     ]
+    },
+    {
+     "title": "No. 56: banter, letter, doctor, dinner",
+     "steps": [
+      "Read the er and or words, stressing the first syllable",
+      "Read the sentences, such as \"Never pester the little boys\"",
+      "Spell 6 words and copy one sentence"
+     ],
+     "links": [
+      {
+       "label": "No. 56 (p. 43)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n42/mode/1up"
+      }
+     ],
+     "pages": "pp. 43–45",
+     "questions": [
+      "When do we have snow and ice?",
+      "What do hatters make hats of?",
+      "Spell the word: doc + tor."
+     ],
+     "answers": [
+      "In the cold winter",
+      "Fur and lambs' wool",
+      "doctor"
+     ]
+    },
+    {
+     "title": "Nos. 57–58: heap, year, spear; near, air, wait",
+     "steps": [
+      "Read the ea, ai, and oa words in Nos. 57–58",
+      "Find three words that rhyme with \"near\"",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "Nos. 57–58 (p. 45)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n44/mode/1up"
+      }
+     ],
+     "pages": "p. 45",
+     "questions": [
+      "Spell the word that rhymes with \"fear\" and means 12 months.",
+      "Spell \"wait.\"",
+      "What vowel pair is in \"heap\"?"
+     ],
+     "answers": [
+      "year",
+      "wait",
+      "ea"
+     ]
+    },
+    {
+     "title": "No. 59: float, saint, dew, crew",
+     "steps": [
+      "Read the oa, ai, and ew words",
+      "Read the sentences, such as \"A dog can leap over a fence\"",
+      "Copy two sentences and spell 6 words from dictation"
+     ],
+     "links": [
+      {
+       "label": "No. 59 (p. 45)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n44/mode/1up"
+      }
+     ],
+     "pages": "pp. 45–47",
+     "questions": [
+      "What can a dog leap over?",
+      "Spell the drops on grass in the morning that rhyme with \"new.\"",
+      "What kind of rose do we like to see?"
+     ],
+     "answers": [
+      "A fence",
+      "dew",
+      "A full blown rose"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 7: Broad a and Three Syllables (Nos. 60–68)",
+   "lessons": [
+    {
+     "title": "Nos. 60–61: fraud, awl, dawn; brine, shave, drive",
+     "steps": [
+      "Read the broad a words (au, aw, wa): fraud, yawn, wash, dwarf",
+      "Read the long-vowel words in No. 61 and the sentences",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "Nos. 60–61 (p. 47)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n46/mode/1up"
+      }
+     ],
+     "pages": "pp. 47–48",
+     "questions": [
+      "What do we keep salt meat in?",
+      "How do grapes grow?",
+      "Spell the early morning word that rhymes with \"lawn.\""
+     ],
+     "answers": [
+      "Brine",
+      "On vines, in clusters",
+      "dawn"
+     ]
+    },
+    {
+     "title": "Nos. 62–63: dignity, vanity; amazement, excitement",
+     "steps": [
+      "Read No. 62 with stress on the first syllable: van'-i-ty",
+      "Read No. 63 with stress on the second: a-maze'-ment",
+      "Spell 6 words, saying the syllables as you write"
+     ],
+     "links": [
+      {
+       "label": "No. 62 (p. 48)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n47/mode/1up"
+      },
+      {
+       "label": "No. 63 (p. 49)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n48/mode/1up"
+      }
+     ],
+     "pages": "pp. 48–49",
+     "questions": [
+      "How many syllables in \"dignity\"?",
+      "Which syllable is accented in \"amazement\"?",
+      "What ending do amazement and excitement share?"
+     ],
+     "answers": [
+      "Three",
+      "The second",
+      "-ment"
+     ]
+    },
+    {
+     "title": "Nos. 64–65: selfish, varnish; horseback, padlock",
+     "steps": [
+      "Read the -ish words in No. 64 and the compound words in No. 65",
+      "Read the sentences, such as \"Riding on horseback is good exercise\"",
+      "Split three compound words into their two small words"
+     ],
+     "links": [
+      {
+       "label": "No. 64 (p. 49)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n48/mode/1up"
+      },
+      {
+       "label": "No. 65 (p. 50)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n49/mode/1up"
+      }
+     ],
+     "pages": "pp. 49–50",
+     "questions": [
+      "Split \"padlock\" into two words.",
+      "Was Washington a selfish man?",
+      "What is good exercise, says the book?"
+     ],
+     "answers": [
+      "pad + lock",
+      "No; he labored for the good of his country",
+      "Riding on horseback"
+     ]
+    },
+    {
+     "title": "No. 66: senate, private, pirate (Words in -ate)",
+     "steps": [
+      "Read the -ate words; the a here is not a full long a",
+      "Read the columns aloud, then the sentences",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 66 (p. 50)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n49/mode/1up"
+      }
+     ],
+     "pages": "pp. 50–51",
+     "questions": [
+      "How many syllables in \"private\"?",
+      "What ending do senate and pirate share?",
+      "Spell \"senate.\""
+     ],
+     "answers": [
+      "Two",
+      "-ate",
+      "senate"
+     ]
+    },
+    {
+     "title": "No. 67: luminary, delicacy (Four Syllables)",
+     "steps": [
+      "Read the four-syllable words slowly: lu-mi-na-ry, del-i-ca-cy",
+      "Read the sentences about the sun, the moon, and culinary roots",
+      "Copy one sentence and mark its four-syllable word"
+     ],
+     "links": [
+      {
+       "label": "No. 67 (p. 51)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n50/mode/1up"
+      }
+     ],
+     "pages": "pp. 51–53",
+     "questions": [
+      "What is the brightest luminary?",
+      "Which luminary rules the night?",
+      "Name a culinary root from the sentences."
+     ],
+     "answers": [
+      "The sun",
+      "The moon",
+      "Potatoes or turnips"
+     ]
+    },
+    {
+     "title": "No. 68: immortal, maternal, December",
+     "steps": [
+      "Read the three-syllable words with the accent on the second: im-mor'-tal",
+      "Say the month names in the table: September, October, November, December",
+      "Read and copy \"The soul is immortal; it will never die\""
+     ],
+     "links": [
+      {
+       "label": "No. 68 (p. 53)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n52/mode/1up"
+      }
+     ],
+     "pages": "pp. 53–55",
+     "questions": [
+      "What does \"immortal\" mean?",
+      "Which syllable is accented in \"December\"?",
+      "Name two utensils from the sentences."
+     ],
+     "answers": [
+      "It will never die",
+      "The second (cem)",
+      "Plows, axes, or hoes"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 8: Plain and Tricky Vowels (Nos. 69–79)",
+   "lessons": [
+    {
+     "title": "Nos. 69–72: play, boy, claw, salt, shirt",
+     "steps": [
+      "Read the ay, oy, and aw words, then the words where a sounds like o (swamp, wasp)",
+      "Read the sentences, such as \"The farmer cuts his grass to make hay\"",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "Nos. 69–72 (p. 55)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n54/mode/1up"
+      }
+     ],
+     "pages": "pp. 55–56",
+     "questions": [
+      "What is a dray?",
+      "What are bricks made of?",
+      "Spell the word that rhymes with \"toy.\""
+     ],
+     "answers": [
+      "A kind of low cart",
+      "Clay baked in a kiln",
+      "boy (or joy)"
+     ]
+    },
+    {
+     "title": "No. 73: ladder, udder, gander",
+     "steps": [
+      "Read the double-letter words: lad-der, blad-der, rud-der",
+      "Read the sentences, such as \"Four quarts make a gallon\"",
+      "Spell 6 words and copy one sentence"
+     ],
+     "links": [
+      {
+       "label": "No. 73 (p. 56)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n55/mode/1up"
+      }
+     ],
+     "pages": "pp. 56–57",
+     "questions": [
+      "How many quarts make a gallon?",
+      "Where do lemons grow?",
+      "What do little boys and girls love to ride in?"
+     ],
+     "answers": [
+      "Four",
+      "On trees in warm climates",
+      "A wagon"
+     ]
+    },
+    {
+     "title": "No. 74: bracelet, poet, labor, major",
+     "steps": [
+      "Read the words with a long vowel in the first syllable: bra'-ce-let, po'-et, la'-bor",
+      "Read the sentences, such as \"Men in old age love a quiet life\"",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 74 (p. 57)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n56/mode/1up"
+      }
+     ],
+     "pages": "pp. 57–59",
+     "questions": [
+      "Who was a good poet who wrote good songs?",
+      "Where do rabbits hide?",
+      "What do ladies wear on their arms?"
+     ],
+     "answers": [
+      "Watts",
+      "In secret places",
+      "Bracelets"
+     ]
+    },
+    {
+     "title": "No. 75: arrival, approval, renewal",
+     "steps": [
+      "Read the -al words with the accent on the second syllable",
+      "Read the sentences, such as \"We often wait for the arrival of the mail\"",
+      "Spell 6 words"
+     ],
+     "links": [
+      {
+       "label": "No. 75 (p. 59)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n58/mode/1up"
+      }
+     ],
+     "pages": "pp. 59–60",
+     "questions": [
+      "What does \"coeval\" mean?",
+      "What is an incisor?",
+      "What do we often wait for the arrival of?"
+     ],
+     "answers": [
+      "Of the same age",
+      "A fore tooth",
+      "The mail"
+     ]
+    },
+    {
+     "title": "No. 76: overlook, disapprove, intervene",
+     "steps": [
+      "Read the three-syllable words accented on the last part: o-ver-look'",
+      "Find small words hidden inside: over, look, approve",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 76 (p. 60)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n59/mode/1up"
+      }
+     ],
+     "pages": "pp. 60–61",
+     "questions": [
+      "Which syllable is accented in \"overlook\"?",
+      "Split \"overlook\" into two words.",
+      "How many syllables in \"disapprove\"?"
+     ],
+     "answers": [
+      "The last",
+      "over + look",
+      "Three"
+     ]
+    },
+    {
+     "title": "No. 77: atlas, copy, hurry, poppy",
+     "steps": [
+      "Read the two-syllable words: at-las, cop-y, hur-ry, pop-py",
+      "Read the sentences, such as \"We cross the ferry in a boat\"",
+      "Copy two sentences"
+     ],
+     "links": [
+      {
+       "label": "No. 77 (p. 61)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n60/mode/1up"
+      }
+     ],
+     "pages": "pp. 61–62",
+     "questions": [
+      "What is the poppy?",
+      "How do we cross the ferry?",
+      "Is the cherry a sweet or an acid fruit, says the book?"
+     ],
+     "answers": [
+      "A large flower",
+      "In a boat",
+      "An acid fruit"
+     ]
+    },
+    {
+     "title": "No. 78: banishment, tendency, interest",
+     "steps": [
+      "Read three-syllable words accented on the first: ban'-ish-ment",
+      "Find the -ment and -cy endings",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 78 (p. 62)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n61/mode/1up"
+      }
+     ],
+     "pages": "pp. 62–63",
+     "questions": [
+      "How many syllables in \"banishment\"?",
+      "Which ending is in \"tendency\": -ment or -cy?",
+      "Spell \"interest.\""
+     ],
+     "answers": [
+      "Three",
+      "-cy",
+      "interest"
+     ]
+    },
+    {
+     "title": "No. 79: aerial, memorial, material",
+     "steps": [
+      "Read four-syllable words with the accent on the second: me-mo'-ri-al",
+      "Read the sentences, such as \"All clouds float in the aerial regions\"",
+      "Copy one sentence"
+     ],
+     "links": [
+      {
+       "label": "No. 79 (p. 63)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n62/mode/1up"
+      }
+     ],
+     "pages": "pp. 63–64",
+     "questions": [
+      "Where do clouds float?",
+      "Why are gravestones placed by graves?",
+      "How many syllables in \"material\"?"
+     ],
+     "answers": [
+      "In the aerial regions (the air)",
+      "As memorials of the dead",
+      "Four"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 9: More Two- and Three-Syllable Words (Nos. 80–89)",
+   "lessons": [
+    {
+     "title": "No. 80: muslin, linen, chicken, kitchen",
+     "steps": [
+      "Read the -in, -en, and -ct words: mus-lin, chick-en, sub-ject",
+      "Read the sentences, such as \"Satin is a rich glossy silk\"",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 80 (p. 64)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n63/mode/1up"
+      }
+     ],
+     "pages": "pp. 64–66",
+     "questions": [
+      "What language did the old Romans write in?",
+      "What is satin?",
+      "Spell the room where food is cooked."
+     ],
+     "answers": [
+      "Latin",
+      "A rich glossy silk",
+      "kitchen"
+     ]
+    },
+    {
+     "title": "No. 81: inventive, forgetful, successful",
+     "steps": [
+      "Read the -ive and -ful words accented on the second syllable",
+      "The last column is left unmarked: say each word and decide where the accent goes",
+      "Read and copy \"Washington was a successful general\""
+     ],
+     "links": [
+      {
+       "label": "No. 81 (p. 66)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n65/mode/1up"
+      }
+     ],
+     "pages": "pp. 66–67",
+     "questions": [
+      "Who was a successful general?",
+      "What ending do forgetful and eventful share?",
+      "Which syllable is accented in \"forgetful\"?"
+     ],
+     "answers": [
+      "Washington",
+      "-ful",
+      "The second"
+     ]
+    },
+    {
+     "title": "Nos. 82–83: missionary; relative, marvelous",
+     "steps": [
+      "Read the four-syllable words in No. 82, then the -ive and -ous words in No. 83",
+      "Sort five words by ending: -ive or -ous",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "Nos. 82–83 (p. 67)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n66/mode/1up"
+      }
+     ],
+     "pages": "pp. 67–68",
+     "questions": [
+      "What ending is in \"fabulous\"?",
+      "How many syllables in \"missionary\"?",
+      "Which syllable is accented in \"relative\"?"
+     ],
+     "answers": [
+      "-ous",
+      "Four",
+      "The first"
+     ]
+    },
+    {
+     "title": "No. 84: bonfire, empire, umpire, brimstone",
+     "steps": [
+      "Read the two-syllable words accented on the first part",
+      "Read the sentences, such as \"Children should answer questions politely\"",
+      "Spell 6 words and copy one sentence"
+     ],
+     "links": [
+      {
+       "label": "No. 84 (p. 68)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n67/mode/1up"
+      }
+     ],
+     "pages": "pp. 68–69",
+     "questions": [
+      "How should children answer questions?",
+      "Where is brimstone found?",
+      "What are potashes made from?"
+     ],
+     "answers": [
+      "Politely",
+      "It is dug from the earth",
+      "Common ashes"
+     ]
+    },
+    {
+     "title": "No. 85: heroism, porcupine, origin",
+     "steps": [
+      "Read the three-syllable words: her-o-ism, por-cu-pine, or-i-gin",
+      "Read the sentences about the porcupine and heroism",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 85 (p. 69)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n68/mode/1up"
+      }
+     ],
+     "pages": "pp. 69–71",
+     "questions": [
+      "What can the porcupine raise?",
+      "From whom do all mankind have their origin, says the book?",
+      "How many syllables in \"porcupine\"?"
+     ],
+     "answers": [
+      "His sharp quills",
+      "Adam",
+      "Three"
+     ]
+    },
+    {
+     "title": "No. 86: compel, forget, regret, elect",
+     "steps": [
+      "Read the two-syllable words accented on the second part: com-pel', for-get'",
+      "Read the sentences, such as \"We elect men to make our laws for us\"",
+      "Copy two sentences"
+     ],
+     "links": [
+      {
+       "label": "No. 86 (p. 71)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n70/mode/1up"
+      }
+     ],
+     "pages": "pp. 71–72",
+     "questions": [
+      "What do heavy clouds foretell?",
+      "Why do we elect men?",
+      "Where does the rattan grow?"
+     ],
+     "answers": [
+      "A shower of rain",
+      "To make our laws for us",
+      "In Java"
+     ]
+    },
+    {
+     "title": "No. 87: formal, charcoal, quarrel, squirrel",
+     "steps": [
+      "Read the -al and -el words accented on the first syllable",
+      "Read the sentences, such as \"Never quarrel with your playmates\"",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 87 (p. 72)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n71/mode/1up"
+      }
+     ],
+     "pages": "pp. 72–74",
+     "questions": [
+      "What is charcoal?",
+      "Who climbs a tree quicker: a squirrel or a boy?",
+      "What should you never do with your playmates?"
+     ],
+     "answers": [
+      "Wood charred, or burned to a coal",
+      "A squirrel",
+      "Quarrel"
+     ]
+    },
+    {
+     "title": "Nos. 88–89: beaver, weaver, mayor; address, distress",
+     "steps": [
+      "Read No. 88 (accent first) and No. 89 (accent second): ad-dress', dis-tress'",
+      "Read the sentences, such as \"The weaver weaves yarn into cloth\"",
+      "Spell 6 words"
+     ],
+     "links": [
+      {
+       "label": "No. 88 (p. 74)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n73/mode/1up"
+      },
+      {
+       "label": "No. 89 (p. 75)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n74/mode/1up"
+      }
+     ],
+     "pages": "pp. 74–76",
+     "questions": [
+      "What does the weaver do?",
+      "What is pewter made of?",
+      "What will you not do unless you study?"
+     ],
+     "answers": [
+      "Weaves yarn into cloth",
+      "Chiefly tin and lead",
+      "Learn"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 10: Longer Words and the th Sound (Nos. 90–99)",
+   "lessons": [
+    {
+     "title": "No. 90: perennial, terrestrial, evaporate",
+     "steps": [
+      "Read the four-syllable words in parts: per-en'-ni-al",
+      "Read the sentences, such as \"The sun will evaporate water on the ground\"",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 90 (p. 76)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n75/mode/1up"
+      }
+     ],
+     "pages": "pp. 76–77",
+     "questions": [
+      "What will the sun do to water on the ground?",
+      "What is difficult to eradicate?",
+      "How long does a triennial assembly last?"
+     ],
+     "answers": [
+      "Evaporate it",
+      "Vicious (bad) habits",
+      "Three years"
+     ]
+    },
+    {
+     "title": "No. 91: acquire, admire, adore, before",
+     "steps": [
+      "Read the -ire and -ore words with the accent on the second syllable",
+      "Read the sentences, such as \"People admire the beautiful flowers of spring\"",
+      "Copy two sentences"
+     ],
+     "links": [
+      {
+       "label": "No. 91 (p. 77)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n76/mode/1up"
+      }
+     ],
+     "pages": "pp. 77–79",
+     "questions": [
+      "What do people admire in spring?",
+      "What does a field require to secure the crops?",
+      "Which syllable is accented in \"admire\"?"
+     ],
+     "answers": [
+      "The beautiful flowers",
+      "A good fence",
+      "The second"
+     ]
+    },
+    {
+     "title": "No. 92: between, ordain, complain, explain",
+     "steps": [
+      "Read the -ain and -een words accented on the last syllable",
+      "Read the sentences about the moon, the earth, and astronomy",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 92 (p. 79)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n78/mode/1up"
+      }
+     ],
+     "pages": "pp. 79–81",
+     "questions": [
+      "What passes between the earth and the sun in an eclipse of the sun?",
+      "What science explains the causes of day and night?",
+      "Spell \"explain.\""
+     ],
+     "answers": [
+      "The moon",
+      "Astronomy",
+      "explain"
+     ]
+    },
+    {
+     "title": "Nos. 93–94: entertainment, desperado; cinnamon, skeleton",
+     "steps": [
+      "Read No. 93 (full accent on the third syllable), then No. 94 (left unmarked for practice)",
+      "Read the sentences about \"engage\" and \"preengage\"",
+      "Spell 6 words"
+     ],
+     "links": [
+      {
+       "label": "No. 93 (p. 81)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n80/mode/1up"
+      },
+      {
+       "label": "No. 94 (p. 82)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n81/mode/1up"
+      }
+     ],
+     "pages": "pp. 81–83",
+     "questions": [
+      "What does \"to preengage\" mean?",
+      "From what language does \"gage\" come?",
+      "How many syllables in \"cinnamon\"?"
+     ],
+     "answers": [
+      "To engage beforehand",
+      "French",
+      "Three"
+     ]
+    },
+    {
+     "title": "No. 95: numerous, humorous, treacherous",
+     "steps": [
+      "Read the -ous words: nu-mer-ous, hu-mor-ous, treach-er-ous",
+      "Make a list of five -ous words",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 95 (p. 83)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n82/mode/1up"
+      }
+     ],
+     "pages": "pp. 83–84",
+     "questions": [
+      "What ending do these words share?",
+      "How many syllables in \"numerous\"?",
+      "Spell \"humorous.\""
+     ],
+     "answers": [
+      "-ous",
+      "Three",
+      "humorous"
+     ]
+    },
+    {
+     "title": "No. 96: theme, three, north, truth",
+     "steps": [
+      "Practice the breathy th (thin, three) and the voiced th (this, then)",
+      "Read the th words in No. 96 and the sentences",
+      "Copy \"A manly youth will speak the truth\""
+     ],
+     "links": [
+      {
+       "label": "No. 96 (p. 84)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n83/mode/1up"
+      }
+     ],
+     "pages": "pp. 84–85",
+     "questions": [
+      "What does a manly youth speak?",
+      "Where was the fire burning?",
+      "What is cambric?"
+     ],
+     "answers": [
+      "The truth",
+      "On the hearth",
+      "A kind of thin muslin"
+     ]
+    },
+    {
+     "title": "No. 97: Tuesday, Wednesday, Thursday, filbert",
+     "steps": [
+      "Read the days of the week in the table and spell each one",
+      "Read the other two-syllable words accented on the first",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 97 (p. 85)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n84/mode/1up"
+      }
+     ],
+     "pages": "pp. 85–86",
+     "questions": [
+      "Spell the day after Tuesday.",
+      "Which letter in \"Wednesday\" is not sounded?",
+      "What are filberts?"
+     ],
+     "answers": [
+      "Wednesday",
+      "The first d",
+      "Small nuts growing in hedges"
+     ]
+    },
+    {
+     "title": "No. 98: borrow, elbow, shadow, narrow",
+     "steps": [
+      "Read the -ow words; the ow has its long o sound here",
+      "Read the sentences, such as \"A ship or boat must have ballast\"",
+      "Spell 6 words and copy one sentence"
+     ],
+     "links": [
+      {
+       "label": "No. 98 (p. 86)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n85/mode/1up"
+      }
+     ],
+     "pages": "pp. 86–87",
+     "questions": [
+      "What sound does ow have in \"shadow\"?",
+      "Why must a ship have ballast?",
+      "Spell the joint in the middle of your arm."
+     ],
+     "answers": [
+      "Long o",
+      "To keep it from oversetting",
+      "elbow"
+     ]
+    },
+    {
+     "title": "No. 99: treatise, oatmeal, floral, plural",
+     "steps": [
+      "Read the two-syllable words accented on the first part",
+      "Read the sentences, such as \"An egg is nearly oval in shape\"",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 99 (p. 87)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n86/mode/1up"
+      }
+     ],
+     "pages": "pp. 87–88",
+     "questions": [
+      "What shape is an egg?",
+      "What is oatmeal?",
+      "What is a newel?"
+     ],
+     "answers": [
+      "Nearly oval",
+      "The meal of oats",
+      "The post round which winding stairs are formed"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 11: Five and Six Syllables (Nos. 100–110)",
+   "lessons": [
+    {
+     "title": "No. 100: anonymous, amphibious, miraculous",
+     "steps": [
+      "Read the four-syllable -ous words: a-non'-y-mous",
+      "Read the sentences explaining each hard word",
+      "Copy one sentence"
+     ],
+     "links": [
+      {
+       "label": "No. 100 (p. 88)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n87/mode/1up"
+      }
+     ],
+     "pages": "pp. 88–90",
+     "questions": [
+      "What does an anonymous author not do?",
+      "What can an amphibious animal do?",
+      "What does \"precipitous\" mean?"
+     ],
+     "answers": [
+      "Sign his name",
+      "Live in different elements (on land and in water)",
+      "Steep"
+     ]
+    },
+    {
+     "title": "No. 101: majority, dexterity, humility",
+     "steps": [
+      "Read the -ity words; this table is left unmarked, so say the accent yourself",
+      "Read the sentences, such as \"A majority is more than half\"",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 101 (p. 90)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n89/mode/1up"
+      }
+     ],
+     "pages": "pp. 90–91",
+     "questions": [
+      "What is a majority?",
+      "What does \"minor\" mean?",
+      "How many syllables in \"majority\"?"
+     ],
+     "answers": [
+      "More than half",
+      "Less",
+      "Four"
+     ]
+    },
+    {
+     "title": "Nos. 102–103: imaginary; compatibility",
+     "steps": [
+      "Read the five-syllable words of No. 102, then the six-syllable words of No. 103",
+      "Clap every syllable of \"compatibility\"",
+      "Read and copy \"Epistolary correspondence is carried on by letters\""
+     ],
+     "links": [
+      {
+       "label": "No. 102 (p. 91)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n90/mode/1up"
+      },
+      {
+       "label": "No. 103 (p. 93)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n92/mode/1up"
+      }
+     ],
+     "pages": "pp. 91–93",
+     "questions": [
+      "How many syllables in \"compatibility\"?",
+      "How is epistolary correspondence carried on?",
+      "Who were cotemporary authors, says the book?"
+     ],
+     "answers": [
+      "Six",
+      "By letters",
+      "Addison and Pope"
+     ]
+    },
+    {
+     "title": "No. 104: benefit, alphabet, elephant",
+     "steps": [
+      "Read the three-syllable words accented on the first: ben'-e-fit, al'-pha-bet",
+      "Find the -ant words: elephant, elegant, ignorant",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 104 (p. 93)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n92/mode/1up"
+      }
+     ],
+     "pages": "pp. 93–94",
+     "questions": [
+      "How many syllables in \"elephant\"?",
+      "What sound does ph make in \"alphabet\"?",
+      "Spell \"benefit.\""
+     ],
+     "answers": [
+      "Three",
+      "f",
+      "benefit"
+     ]
+    },
+    {
+     "title": "No. 105: opportunity, punctuality",
+     "steps": [
+      "Read the five-syllable words accented on the third: op-por-tu'-ni-ty",
+      "Say each word slowly, then fast",
+      "Spell 4–6 words, one syllable at a time"
+     ],
+     "links": [
+      {
+       "label": "No. 105 (p. 94)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n93/mode/1up"
+      }
+     ],
+     "pages": "pp. 94–96",
+     "questions": [
+      "How many syllables in \"opportunity\"?",
+      "Which syllable is accented in \"opportunity\"?",
+      "Spell \"punctuality.\""
+     ],
+     "answers": [
+      "Five",
+      "The third (tu)",
+      "punctuality"
+     ]
+    },
+    {
+     "title": "No. 106, Part 1: plantation, vacation, quotation",
+     "steps": [
+      "Learn that -tion says \"shun\"",
+      "Read the first half of the -tion words",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 106 (p. 96)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n95/mode/1up"
+      }
+     ],
+     "pages": "pp. 96–97",
+     "questions": [
+      "What does -tion sound like?",
+      "Spell \"vacation.\"",
+      "Which syllable is accented in \"plantation\"?"
+     ],
+     "answers": [
+      "shun",
+      "vacation",
+      "The second"
+     ]
+    },
+    {
+     "title": "No. 106, Part 2: temptation, location, and more",
+     "steps": [
+      "Finish the -tion words of No. 106",
+      "Make a list of five -tion words you use at home",
+      "Spell 6 words"
+     ],
+     "links": [
+      {
+       "label": "No. 106 (p. 97)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n96/mode/1up"
+      }
+     ],
+     "pages": "pp. 97–98",
+     "questions": [
+      "Spell \"temptation.\"",
+      "How many syllables in \"location\"?",
+      "What word in -tion means a place?"
+     ],
+     "answers": [
+      "temptation",
+      "Three",
+      "location"
+     ]
+    },
+    {
+     "title": "No. 107: publication, navigation, legislation",
+     "steps": [
+      "Read the four-syllable -tion words accented on the third",
+      "Read the sentences about legislators",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 107 (p. 98)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n97/mode/1up"
+      }
+     ],
+     "pages": "pp. 98–99",
+     "questions": [
+      "What is legislation?",
+      "Who chooses legislators in free governments?",
+      "How many syllables in \"navigation\"?"
+     ],
+     "answers": [
+      "The enacting of laws",
+      "The people",
+      "Four"
+     ]
+    },
+    {
+     "title": "No. 108: definite, opposite, appetite, anecdote",
+     "steps": [
+      "Read the -ite and -ote words accented on the first",
+      "Read and copy \"An anecdote is a short story\"",
+      "Spell 6 words"
+     ],
+     "links": [
+      {
+       "label": "No. 108 (p. 99)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n98/mode/1up"
+      }
+     ],
+     "pages": "pp. 99–100",
+     "questions": [
+      "What is an anecdote?",
+      "Spell \"opposite.\"",
+      "How many syllables in \"appetite\"?"
+     ],
+     "answers": [
+      "A short story",
+      "opposite",
+      "Three"
+     ]
+    },
+    {
+     "title": "No. 109: condense, resolve, embark",
+     "steps": [
+      "Read the two-syllable words accented on the second",
+      "Read the sentences, such as the one about the brave sailors",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 109 (p. 100)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n99/mode/1up"
+      }
+     ],
+     "pages": "pp. 100–101",
+     "questions": [
+      "What do the brave sailors do?",
+      "Who outlived all the people who lived before them?",
+      "Which syllable is accented in \"resolve\"?"
+     ],
+     "answers": [
+      "Embark on board of ships and sail away",
+      "Noah and his family",
+      "The second"
+     ]
+    },
+    {
+     "title": "No. 110: agreement, engagement, opponent",
+     "steps": [
+      "Read the three-syllable -ment and -ent words accented on the second",
+      "Read the sentences explaining \"remainder\" and \"retirement\"",
+      "Spell 6 words"
+     ],
+     "links": [
+      {
+       "label": "No. 110 (p. 101)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n100/mode/1up"
+      }
+     ],
+     "pages": "pp. 101–103",
+     "questions": [
+      "What is a remainder?",
+      "What is retirement?",
+      "Spell \"agreement.\""
+     ],
+     "answers": [
+      "That which remains or is left",
+      "A withdrawing (from company or work)",
+      "agreement"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 12: Endings and Seven Syllables (Nos. 111–121)",
+   "lessons": [
+    {
+     "title": "No. 111: estimate, celebrate, separate",
+     "steps": [
+      "Read the -ate words accented on the first syllable",
+      "Read the sentences, such as the one about emulating good people",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 111 (p. 103)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n102/mode/1up"
+      }
+     ],
+     "pages": "pp. 103–104",
+     "questions": [
+      "What is an advocate?",
+      "Whose actions should we emulate?",
+      "How many syllables in \"celebrate\"?"
+     ],
+     "answers": [
+      "One who defends the cause of another",
+      "Those of great and good men",
+      "Three"
+     ]
+    },
+    {
+     "title": "No. 112: villain, curtain, dolphin, mittens",
+     "steps": [
+      "Read the words where ai or i is unclear: cur-tain, vil-lain",
+      "Read the sentences, such as \"A curtain is used to hide something from the view\"",
+      "Copy two sentences"
+     ],
+     "links": [
+      {
+       "label": "No. 112 (p. 104)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n103/mode/1up"
+      }
+     ],
+     "pages": "pp. 104–105",
+     "questions": [
+      "What are chilblains?",
+      "What is a curtain used for?",
+      "Spell the sea animal with beautiful colors."
+     ],
+     "answers": [
+      "Sores caused by cold",
+      "To hide something from view",
+      "dolphin"
+     ]
+    },
+    {
+     "title": "No. 113: sentinel, furniture, handkerchief",
+     "steps": [
+      "Read the three-syllable words accented on the first",
+      "Notice the note on how \"handkerchief\" is said",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 113 (p. 105)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n104/mode/1up"
+      }
+     ],
+     "pages": "pp. 105–107",
+     "questions": [
+      "What is a citadel?",
+      "What is a codicil?",
+      "Spell \"furniture.\""
+     ],
+     "answers": [
+      "A fortress to defend a city or town",
+      "A supplement or addition to a will",
+      "furniture"
+     ]
+    },
+    {
+     "title": "Nos. 114–115: author, saucy, tawny; captive, stocking",
+     "steps": [
+      "Read the au and aw words in No. 114 (a as in all)",
+      "Read No. 115 and its sentences",
+      "Spell 6 words"
+     ],
+     "links": [
+      {
+       "label": "Nos. 114–115 (p. 107)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n106/mode/1up"
+      }
+     ],
+     "pages": "pp. 107–108",
+     "questions": [
+      "What color is the skin of the Indian, says the book?",
+      "How many cents equal one quarter of a dollar?",
+      "What kind of fowl is the peacock?"
+     ],
+     "answers": [
+      "Tawny",
+      "Twenty-five",
+      "A gaudy, vain, and noisy fowl"
+     ]
+    },
+    {
+     "title": "No. 116: motion, nation, lotion, mansion",
+     "steps": [
+      "Read the two-syllable -tion and -sion words",
+      "Read the sentences, such as \"A mansion is a place of residence\"",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 116 (p. 108)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n107/mode/1up"
+      }
+     ],
+     "pages": "pp. 108–109",
+     "questions": [
+      "What is a ration?",
+      "What is a mansion?",
+      "Spell \"nation.\""
+     ],
+     "answers": [
+      "A daily allowance for a soldier",
+      "A place of residence, or dwelling",
+      "nation"
+     ]
+    },
+    {
+     "title": "No. 117: democracy, geography, biography",
+     "steps": [
+      "Read the four-syllable words accented on the second",
+      "Read the sentences explaining each \"-graphy\" word",
+      "Copy two definitions"
+     ],
+     "links": [
+      {
+       "label": "No. 117 (p. 109)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n108/mode/1up"
+      }
+     ],
+     "pages": "pp. 109–110",
+     "questions": [
+      "What is geography?",
+      "What is biography?",
+      "What is democracy?"
+     ],
+     "answers": [
+      "A description of the earth",
+      "A history of a person's life",
+      "Government by the people"
+     ]
+    },
+    {
+     "title": "No. 118: diagonal, millennium, republican",
+     "steps": [
+      "Read the four-syllable words accented on the second",
+      "Clap and spell \"di-ag-o-nal\"",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 118 (p. 110)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n109/mode/1up"
+      }
+     ],
+     "pages": "pp. 110–111",
+     "questions": [
+      "How many syllables in \"diagonal\"?",
+      "Which syllable is accented in \"millennium\"?",
+      "Spell \"meridian.\""
+     ],
+     "answers": [
+      "Four",
+      "The second",
+      "meridian"
+     ]
+    },
+    {
+     "title": "Nos. 119–120: congratulate; librarian, victorious",
+     "steps": [
+      "Read the -ate words of No. 119 and the -ian and -ious words of No. 120",
+      "Read the sentences, such as \"A library is a collection of books\"",
+      "Spell 6 words"
+     ],
+     "links": [
+      {
+       "label": "No. 119 (p. 111)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n110/mode/1up"
+      },
+      {
+       "label": "No. 120 (p. 112)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n111/mode/1up"
+      }
+     ],
+     "pages": "pp. 111–113",
+     "questions": [
+      "What is a library?",
+      "What is a librarian?",
+      "Which insect is a pattern of industry?"
+     ],
+     "answers": [
+      "A collection of books",
+      "A person who has charge of a library",
+      "The bee"
+     ]
+    },
+    {
+     "title": "No. 121: individuality, incompressibility",
+     "steps": [
+      "Read the seven- and eight-syllable words very slowly",
+      "Count the syllables of \"in-di-vid-u-al-i-ty\" on your fingers",
+      "Pick one long word and spell it syllable by syllable"
+     ],
+     "links": [
+      {
+       "label": "No. 121 (p. 113)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n112/mode/1up"
+      }
+     ],
+     "pages": "pp. 113–114",
+     "questions": [
+      "How many syllables in \"individuality\"?",
+      "What is asbestus noted for?",
+      "What is a valetudinarian?"
+     ],
+     "answers": [
+      "Seven",
+      "Its incombustibility (it will not burn)",
+      "A sickly person"
+     ],
+     "notes": "A fun challenge table for older children; younger ones can just clap the syllables."
+    }
+   ]
+  },
+  {
+   "title": "Unit 13: Special Sounds (Nos. 122–133)",
+   "lessons": [
+    {
+     "title": "Nos. 122–123: thirteen, theory; mother, weather",
+     "steps": [
+      "No. 122 has the breathy th (thir-teen); No. 123 has the voiced th (moth-er)",
+      "Read both tables, feeling the throat buzz on the voiced th",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 122 (p. 114)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n113/mode/1up"
+      },
+      {
+       "label": "No. 123 (p. 115)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n114/mode/1up"
+      }
+     ],
+     "pages": "pp. 114–115",
+     "questions": [
+      "Is the th in \"mother\" voiced or breathy?",
+      "Is the th in \"thirteen\" voiced or breathy?",
+      "Who are the heathen, says the book?"
+     ],
+     "answers": [
+      "Voiced",
+      "Breathy (aspirated)",
+      "People who worship idols"
+     ]
+    },
+    {
+     "title": "No. 124: accomplish, establish, astonish",
+     "steps": [
+      "Read the -ish words accented on the second syllable",
+      "Read the sentences, such as \"Laws are abolished by the same power that made them\"",
+      "Spell 6 words"
+     ],
+     "links": [
+      {
+       "label": "No. 124 (p. 115)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n114/mode/1up"
+      }
+     ],
+     "pages": "pp. 115–116",
+     "questions": [
+      "Who can accomplish a great deal?",
+      "What do wars generally prove to all parties?",
+      "Spell \"astonish.\""
+     ],
+     "answers": [
+      "A man who saves the fragments of time",
+      "Disastrous",
+      "astonish"
+     ]
+    },
+    {
+     "title": "No. 125: ceremonial, testimonial, equatorial",
+     "steps": [
+      "Read the five-syllable words accented on the third",
+      "Read the sentences, such as \"old men for counsel, young men for war\"",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 125 (p. 116)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n115/mode/1up"
+      }
+     ],
+     "pages": "pp. 116–117",
+     "questions": [
+      "What did \"senate\" first mean?",
+      "What are simultaneous acts?",
+      "Which animal is the link between quadrupeds and fowls?"
+     ],
+     "answers": [
+      "A council of elders",
+      "Acts that happen at the same time",
+      "The bat"
+     ]
+    },
+    {
+     "title": "No. 126: twelve, shelf, fresh; this, path, paths",
+     "steps": [
+      "Read the one-syllable words in the first columns",
+      "Read the voiced th words (the, this, them) and the plurals path/paths, mouth/mouths",
+      "Copy \"Great haste often makes waste\""
+     ],
+     "links": [
+      {
+       "label": "No. 126 (p. 117)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n116/mode/1up"
+      }
+     ],
+     "pages": "pp. 117–119",
+     "questions": [
+      "How many things make a dozen?",
+      "What is a grange?",
+      "What does great haste often make?"
+     ],
+     "answers": [
+      "Twelve",
+      "A farm and farmhouse",
+      "Waste"
+     ]
+    },
+    {
+     "title": "No. 127: whale, wheat, which; who, whole",
+     "steps": [
+      "Say wh words with a puff of breath first: whale (hwale), when (hwen)",
+      "Then read the words where w is silent: who, whom, whose, whole",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 127 (p. 119)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n118/mode/1up"
+      }
+     ],
+     "pages": "pp. 119–120",
+     "questions": [
+      "In \"whole,\" which letter is silent?",
+      "What is whey?",
+      "What are the largest of marine animals?"
+     ],
+     "answers": [
+      "w",
+      "The thin watery part of milk",
+      "Whales"
+     ]
+    },
+    {
+     "title": "No. 128: exact, exist, example (x like gz)",
+     "steps": [
+      "Read the words where x sounds like gz: ex-act' (eg-zact)",
+      "Read the sentences, such as \"It is useful to keep very exact accounts\"",
+      "Spell 6 words"
+     ],
+     "links": [
+      {
+       "label": "No. 128 (p. 120)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n119/mode/1up"
+      }
+     ],
+     "pages": "pp. 120–121",
+     "questions": [
+      "What sound does x make in \"exact\"?",
+      "What is an exordium?",
+      "What is it useful to keep, says the book?"
+     ],
+     "answers": [
+      "gz",
+      "A preface or preamble",
+      "Very exact accounts"
+     ]
+    },
+    {
+     "title": "Nos. 129–130: question, Christian; alien, savior; glazier, illusion",
+     "steps": [
+      "Read the -tion words said like \"chun\" (ques-tion), then the words where i sounds like y (al-ien)",
+      "Read the -sier, -zier, and -sion words in No. 130 (zh sound)",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 129 (p. 121)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n120/mode/1up"
+      },
+      {
+       "label": "No. 130 (p. 122)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n121/mode/1up"
+      }
+     ],
+     "pages": "pp. 121–123",
+     "questions": [
+      "How is \"alien\" said?",
+      "What sound does si make in \"illusion\"?",
+      "Spell \"question.\""
+     ],
+     "answers": [
+      "AL-yen",
+      "zh",
+      "question"
+     ]
+    },
+    {
+     "title": "No. 131: Christ, scheme, ache, chorus, school",
+     "steps": [
+      "Read the words where ch sounds like k",
+      "Read the sentences, such as \"An epoch is a fixed point of time\"",
+      "Spell 6 words"
+     ],
+     "links": [
+      {
+       "label": "No. 131 (p. 123)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n122/mode/1up"
+      }
+     ],
+     "pages": "pp. 123–124",
+     "questions": [
+      "What sound does ch make in \"school\"?",
+      "What is a patriarch?",
+      "What is chyle?"
+     ],
+     "answers": [
+      "k",
+      "The father of a family",
+      "The milky fluid separated from food by digestion"
+     ]
+    },
+    {
+     "title": "Nos. 132–133: gift, tiger, dagger; tragic, agile, legible",
+     "steps": [
+      "No. 132: g is hard (as in go) even before e, i, y: gear, gift, girl",
+      "No. 133: c and g ending an accented syllable are soft: trag-ic, ag-ile, leg-i-ble",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 132 (p. 124)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n123/mode/1up"
+      },
+      {
+       "label": "No. 133 (p. 125)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n124/mode/1up"
+      }
+     ],
+     "pages": "pp. 124–126",
+     "questions": [
+      "Is the g in \"gift\" hard or soft?",
+      "Is the g in \"agile\" hard or soft?",
+      "Spell \"tiger.\""
+     ],
+     "answers": [
+      "Hard",
+      "Soft (like j)",
+      "tiger"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 14: Silent Letters and Word Endings (Nos. 134–146)",
+   "lessons": [
+    {
+     "title": "Nos. 134–135: conscious, partial; precious, ambition",
+     "steps": [
+      "ci, ti, and si can say \"sh\": con-scious, par-tial, pre-cious",
+      "Read both tables aloud",
+      "Spell 6 words"
+     ],
+     "links": [
+      {
+       "label": "No. 134 (p. 126)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n125/mode/1up"
+      },
+      {
+       "label": "No. 135 (p. 127)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n126/mode/1up"
+      }
+     ],
+     "pages": "pp. 126–128",
+     "questions": [
+      "What sound does ti make in \"partial\"?",
+      "Spell \"precious.\"",
+      "How many syllables in \"ambition\"?"
+     ],
+     "answers": [
+      "sh",
+      "precious",
+      "Three"
+     ]
+    },
+    {
+     "title": "Nos. 136–137, Part 1: associate, appreciate; critic, logic",
+     "steps": [
+      "Read No. 136: ci and ti say \"shi\" (as-so-shi-ate)",
+      "Begin No. 137: words in -ic and -ical, such as critic, critical",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "Nos. 136–137 (p. 128)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n127/mode/1up"
+      }
+     ],
+     "pages": "pp. 128–130",
+     "questions": [
+      "Add -al to \"comic.\"",
+      "How many syllables in \"appreciate\"?",
+      "Spell \"logic.\""
+     ],
+     "answers": [
+      "comical",
+      "Four",
+      "logic"
+     ]
+    },
+    {
+     "title": "No. 137, Part 2: Words in -ical and -istic",
+     "steps": [
+      "Finish the columns of No. 137",
+      "Read the sentences, such as the one about thermometrical observations",
+      "Spell 6 words"
+     ],
+     "links": [
+      {
+       "label": "No. 137 (p. 130)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n129/mode/1up"
+      }
+     ],
+     "pages": "pp. 130–132",
+     "questions": [
+      "What do thermometrical observations show?",
+      "What ending turns \"critic\" into a word that describes?",
+      "Spell \"classic.\""
+     ],
+     "answers": [
+      "The temperature of the air",
+      "-al (critical)",
+      "classic"
+     ]
+    },
+    {
+     "title": "Nos. 138–139: civilize, organize; characterize",
+     "steps": [
+      "Read the -ize words: au-thor-ize, civ-il-ize, or-gan-ize",
+      "Find the root word in each: author, civil, organ",
+      "Read the sentence about tyrannizing over the weak and copy it"
+     ],
+     "links": [
+      {
+       "label": "No. 138 (p. 132)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n131/mode/1up"
+      },
+      {
+       "label": "No. 139 (p. 133)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n132/mode/1up"
+      }
+     ],
+     "pages": "pp. 132–133",
+     "questions": [
+      "What is the root word in \"realize\"?",
+      "Over whom should we never tyrannize?",
+      "What ending do these words share?"
+     ],
+     "answers": [
+      "real",
+      "Those weaker than ourselves",
+      "-ize"
+     ]
+    },
+    {
+     "title": "No. 140: song, string; finger, anger",
+     "steps": [
+      "Read the ng words with the plain sound: sing, song, bring",
+      "Then read the words where ng is followed by a hard g: fin-ger, an-ger, hun-ger",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 140 (p. 133)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n132/mode/1up"
+      }
+     ],
+     "pages": "pp. 133–135",
+     "questions": [
+      "In \"finger,\" do you hear a hard g after the ng?",
+      "In \"singer,\" do you hear a hard g?",
+      "Spell \"tongue.\""
+     ],
+     "answers": [
+      "Yes",
+      "No",
+      "tongue"
+     ]
+    },
+    {
+     "title": "No. 141: capture, culture, feature",
+     "steps": [
+      "Read the -ture words: cap-ture, cul-ture, fea-ture",
+      "Read the sentences, such as the one about the lungs",
+      "Spell 6 words"
+     ],
+     "links": [
+      {
+       "label": "No. 141 (p. 135)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n134/mode/1up"
+      }
+     ],
+     "pages": "pp. 135–136",
+     "questions": [
+      "What are the lungs the organs of?",
+      "What is a pang?",
+      "Spell \"culture.\""
+     ],
+     "answers": [
+      "Respiration (breathing)",
+      "A severe pain",
+      "culture"
+     ]
+    },
+    {
+     "title": "Nos. 142–143: gnat, knack, knead; machine, magazine",
+     "steps": [
+      "Read the words where g and k before n are silent",
+      "Then read the words where ch says sh (machine, chaise)",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 142 (p. 136)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n135/mode/1up"
+      },
+      {
+       "label": "No. 143 (p. 137)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n136/mode/1up"
+      }
+     ],
+     "pages": "pp. 136–137",
+     "questions": [
+      "In \"gnat,\" which letter is silent?",
+      "What sound does ch make in \"machine\"?",
+      "What should you do to the dough to have good bread?"
+     ],
+     "answers": [
+      "g",
+      "sh",
+      "Knead it thoroughly"
+     ]
+    },
+    {
+     "title": "Nos. 144–146: bread, health; sign, assign; bacon, bitten",
+     "steps": [
+      "No. 144: ea says short e (bread, dead, health)",
+      "No. 145: g is silent in sign and assign, but heard in signify",
+      "No. 146: the vowel before n is silent in bacon and bitten"
+     ],
+     "links": [
+      {
+       "label": "No. 144 (p. 137)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n136/mode/1up"
+      },
+      {
+       "label": "Nos. 145–146 (p. 138)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n137/mode/1up"
+      }
+     ],
+     "pages": "pp. 137–139",
+     "questions": [
+      "Which letter is silent in \"sign\"?",
+      "Is the g heard in \"signify\"?",
+      "What vowel sound does ea make in \"bread\"?"
+     ],
+     "answers": [
+      "g",
+      "Yes",
+      "Short e"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 15: Reading Lessons and Fables (No. 147)",
+   "lessons": [
+    {
+     "title": "The Dog, The Stag, and The Squirrel",
+     "steps": [
+      "Read the three short animal pieces aloud, taking turns",
+      "Tell back one of them in your own words",
+      "Copy two hard words and their meaning: mastiff, pricket"
+     ],
+     "links": [
+      {
+       "label": "No. 147 (p. 139)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n138/mode/1up"
+      }
+     ],
+     "pages": "pp. 139–140",
+     "questions": [
+      "What kind of dog is the mastiff used as?",
+      "What is the female of the red deer called?",
+      "Where do gray squirrels make their nests?"
+     ],
+     "answers": [
+      "A watchdog",
+      "A hind",
+      "On the high branches of trees"
+     ]
+    },
+    {
+     "title": "Fable I: Of the Boy That Stole Apples",
+     "steps": [
+      "Read the fable together",
+      "Tell it back: the boy, the old man, the grass, the stones",
+      "Copy the moral in your own words"
+     ],
+     "links": [
+      {
+       "label": "Fable I (p. 140)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n139/mode/1up"
+      }
+     ],
+     "pages": "pp. 140–141",
+     "questions": [
+      "What did the old man first throw at the boy?",
+      "What finally made the boy come down?",
+      "What is the lesson of the fable?"
+     ],
+     "answers": [
+      "Turf, or grass",
+      "Stones",
+      "If kind words fail, the wicked must be dealt with more severely"
+     ]
+    },
+    {
+     "title": "Fable II: The Country Maid and Her Milk Pail",
+     "steps": [
+      "Read the fable aloud",
+      "List the maid's dreams in order: eggs, chickens, a new gown",
+      "Tell what went wrong and why"
+     ],
+     "links": [
+      {
+       "label": "Fable II (p. 141)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n140/mode/1up"
+      }
+     ],
+     "pages": "pp. 141–142",
+     "questions": [
+      "What was the maid carrying on her head?",
+      "What color gown did she want?",
+      "What happened to the milk?"
+     ],
+     "answers": [
+      "A pail of milk",
+      "Green",
+      "It fell and spilled when she tossed her head"
+     ]
+    },
+    {
+     "title": "Fable III: The Two Dogs",
+     "steps": [
+      "Read the fable aloud",
+      "Tell it back, naming Tray and Tiger",
+      "Talk about choosing friends wisely"
+     ],
+     "links": [
+      {
+       "label": "Fable III (p. 142)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n141/mode/1up"
+      }
+     ],
+     "pages": "p. 142",
+     "questions": [
+      "Which dog was the good-natured spaniel?",
+      "What did Tiger do in the village?",
+      "Why was Tray beaten?"
+     ],
+     "answers": [
+      "Tray",
+      "Attacked every dog he met",
+      "Because he was found in bad company"
+     ]
+    },
+    {
+     "title": "Fable IV: The Partial Judge",
+     "steps": [
+      "Read the fable aloud",
+      "Act out the farmer and the lawyer",
+      "Discuss what \"partial\" means here"
+     ],
+     "links": [
+      {
+       "label": "Fable IV (p. 143)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n142/mode/1up"
+      }
+     ],
+     "pages": "p. 143",
+     "questions": [
+      "Whose bull gored the ox at first, in the farmer's story?",
+      "How did the lawyer change when he learned it was his own bull?",
+      "What is the lesson?"
+     ],
+     "answers": [
+      "The farmer's",
+      "He wanted to look into the case instead of paying",
+      "Be as ready to do justice to others as to demand it from them"
+     ]
+    },
+    {
+     "title": "Fable V: The Cat and the Rat",
+     "steps": [
+      "Read the fable aloud",
+      "Tell the cat's two tricks in order",
+      "Copy the old rat's saying about caution in your own words"
+     ],
+     "links": [
+      {
+       "label": "Fable V (p. 143)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n142/mode/1up"
+      }
+     ],
+     "pages": "pp. 143–144",
+     "questions": [
+      "What was the cat's first trick?",
+      "Where did she hide the second time?",
+      "What did the old rat say caution is the parent of?"
+     ],
+     "answers": [
+      "Hanging by her feet from a hook, pretending to be dead",
+      "In the bottom of a meal tub, covered in flour",
+      "Safety"
+     ]
+    },
+    {
+     "title": "Fable VI: The Fox and the Bramble",
+     "steps": [
+      "Read the fable aloud",
+      "Tell why the fox stopped complaining about the thorns",
+      "Talk about a time something hard also kept you safe"
+     ],
+     "links": [
+      {
+       "label": "Fable VI (p. 144)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n143/mode/1up"
+      }
+     ],
+     "pages": "pp. 144–145",
+     "questions": [
+      "What was chasing the fox?",
+      "Where did he hide?",
+      "What good did the brambles do?"
+     ],
+     "answers": [
+      "A pack of dogs",
+      "Under a bramble",
+      "They kept off the dogs and saved his life"
+     ]
+    },
+    {
+     "title": "Fable VII: The Bear and the Two Friends",
+     "steps": [
+      "Read the fable aloud",
+      "Tell what each friend did when the bear came",
+      "Discuss what a true friend does in danger"
+     ],
+     "links": [
+      {
+       "label": "Fable VII (p. 145)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n144/mode/1up"
+      }
+     ],
+     "pages": "p. 145",
+     "questions": [
+      "What did the first friend do?",
+      "What did the other friend do?",
+      "What \"advice\" did the bear whisper?"
+     ],
+     "answers": [
+      "Climbed a tree",
+      "Lay flat and pretended to be dead",
+      "Never to go with a friend who deserts you in danger"
+     ]
+    },
+    {
+     "title": "Days, Weeks, and Hours",
+     "steps": [
+      "Read the questions and answers about time aloud, one person asking and one answering",
+      "Say the days of the week in order and spell two of them",
+      "Tell what makes day and night"
+     ],
+     "links": [
+      {
+       "label": "Time (p. 146)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n145/mode/1up"
+      }
+     ],
+     "pages": "p. 146",
+     "questions": [
+      "How many days are in a year?",
+      "How many hours in a day and night?",
+      "What makes the night?"
+     ],
+     "answers": [
+      "365",
+      "Twenty-four",
+      "The shade (shadow) of the earth"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 16: Words Alike and Not Alike (No. 148)",
+   "lessons": [
+    {
+     "title": "Words Nearly Alike: accept and except",
+     "steps": [
+      "Read each pair and its meaning: accept / except, affect / effect",
+      "Say both words of each pair carefully so they sound different",
+      "Write three pairs with their meanings"
+     ],
+     "links": [
+      {
+       "label": "No. 148 (p. 146)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n145/mode/1up"
+      }
+     ],
+     "pages": "pp. 146–147",
+     "questions": [
+      "Which means \"to take\": accept or except?",
+      "Which means \"with a great voice\": aloud or allowed?",
+      "What is an errand?"
+     ],
+     "answers": [
+      "accept",
+      "aloud",
+      "A message"
+     ]
+    },
+    {
+     "title": "Words Spelled Alike but Said Differently; Sound-Alikes (ail to climb)",
+     "steps": [
+      "Read the words spelled the same but said differently",
+      "Begin the sound-alike words: aunt / ant, ark / arc, climb / clime",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "Words Spelled Alike (p. 147)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n146/mode/1up"
+      }
+     ],
+     "pages": "pp. 147–148",
+     "questions": [
+      "Which is a vessel: ark or arc?",
+      "Which means \"to ascend\": climb or clime?",
+      "Who is an aunt?"
+     ],
+     "answers": [
+      "ark",
+      "climb",
+      "A sister to a parent"
+     ]
+    },
+    {
+     "title": "Sound-Alike Words: council to wreak",
+     "steps": [
+      "Read the pairs and their meanings: hale / hail, lesson / lessen",
+      "Choose the right word in spoken sentences",
+      "Write three pairs with meanings"
+     ],
+     "links": [
+      {
+       "label": "Sound-Alikes (p. 149)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n148/mode/1up"
+      }
+     ],
+     "pages": "pp. 149–150",
+     "questions": [
+      "Which means \"healthy\": hale or hail?",
+      "Which means \"to diminish\": lesson or lessen?",
+      "Which means \"to revenge\": reek or wreak?"
+     ],
+     "answers": [
+      "hale",
+      "lessen",
+      "wreak"
+     ]
+    },
+    {
+     "title": "Sound-Alike Words: rest to the end of the list",
+     "steps": [
+      "Finish the list of pairs: vain / vein, vice / vise, weigh / way",
+      "Read the first sentences that use the pairs, such as \"An oak bears acorns\"",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "Sound-Alikes (p. 151)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n150/mode/1up"
+      }
+     ],
+     "pages": "pp. 151–152",
+     "questions": [
+      "Which carries blood: vain or vein?",
+      "Which means \"to find the weight\": weigh or way?",
+      "What does an oak bear?"
+     ],
+     "answers": [
+      "vein",
+      "weigh",
+      "Acorns"
+     ]
+    },
+    {
+     "title": "Sound-Alike Sentences, Part 1",
+     "steps": [
+      "Read the sentences aloud and find the sound-alike word in each",
+      "Take dictation of three sentences; the child must choose the right spelling",
+      "Check against the book"
+     ],
+     "links": [
+      {
+       "label": "Sentences (p. 152)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n151/mode/1up"
+      }
+     ],
+     "pages": "pp. 152–153",
+     "questions": [
+      "What does the Niagara River pour down?",
+      "Which is a large gun: cannon or canon?",
+      "Spell the word in \"Bears live in the woods\" that sounds like \"bares.\""
+     ],
+     "answers": [
+      "A precipice",
+      "cannon",
+      "Bears"
+     ]
+    },
+    {
+     "title": "Sound-Alike Sentences, Part 2",
+     "steps": [
+      "Read the rest of the sentences",
+      "Make up your own sentence for two pairs, such as sleigh / slay",
+      "Spell 6 words"
+     ],
+     "links": [
+      {
+       "label": "Sentences (p. 154)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n153/mode/1up"
+      }
+     ],
+     "pages": "pp. 154–155",
+     "questions": [
+      "What do we sweat through?",
+      "What does a sleigh run on?",
+      "Who should children never slight?"
+     ],
+     "answers": [
+      "The pores of the skin",
+      "Snow and ice",
+      "Their parents"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 17: Spelling Rules and Reference Tables (Nos. 149–152)",
+   "lessons": [
+    {
+     "title": "No. 149: Words of Irregular Spelling",
+     "steps": [
+      "Read the words that are not said the way they are spelled, with the book's way of saying them",
+      "Pick five and practice: one, once, done, gone, half",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 149 (p. 156)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n155/mode/1up"
+      }
+     ],
+     "pages": "pp. 156–157",
+     "questions": [
+      "Which letter is silent in \"half\"?",
+      "How is \"one\" said?",
+      "Spell \"once.\""
+     ],
+     "answers": [
+      "l",
+      "wun",
+      "once"
+     ]
+    },
+    {
+     "title": "No. 149: Silent Letters",
+     "steps": [
+      "Read the lists of silent letters: l in calf and walk, h after r, g before n",
+      "Find the silent letter in each word you read",
+      "Spell 6 words"
+     ],
+     "links": [
+      {
+       "label": "No. 149 (p. 157)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n156/mode/1up"
+      }
+     ],
+     "pages": "pp. 157–159",
+     "questions": [
+      "Which letter is silent in \"calf\"?",
+      "Which letter is silent in \"rhyme\"?",
+      "Which letter is silent in \"gnaw\"?"
+     ],
+     "answers": [
+      "l",
+      "h",
+      "g"
+     ]
+    },
+    {
+     "title": "No. 150: Rules for Verbs (-ed and -ing)",
+     "steps": [
+      "Read rules 1–5: add ed and ing; double the last consonant after a single short vowel",
+      "Read rules 6–12 about the agent (-er) and verbs ending in e, y, and ie",
+      "Write the -ed and -ing forms of hop, play, and carry"
+     ],
+     "links": [
+      {
+       "label": "No. 150 (p. 159)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n158/mode/1up"
+      }
+     ],
+     "pages": "pp. 159–161",
+     "questions": [
+      "Write the past tense of \"hop.\"",
+      "Write the -ing form of \"die.\"",
+      "Write the past tense of \"carry.\""
+     ],
+     "answers": [
+      "hopped",
+      "dying",
+      "carried"
+     ]
+    },
+    {
+     "title": "Plurals of Nouns",
+     "steps": [
+      "Read rules 13–18 for making plurals",
+      "Make plurals: box, lady, day, leaf, church",
+      "Check each one by its rule"
+     ],
+     "links": [
+      {
+       "label": "Plurals (p. 161)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n160/mode/1up"
+      }
+     ],
+     "pages": "pp. 161–162",
+     "questions": [
+      "What is the plural of \"box\"?",
+      "What is the plural of \"lady\"?",
+      "What is the plural of \"leaf\"?"
+     ],
+     "answers": [
+      "boxes",
+      "ladies",
+      "leaves"
+     ]
+    },
+    {
+     "title": "Making New Words: -y, -ly, -ness, -less, -ful",
+     "steps": [
+      "Read the tables of words made by adding endings",
+      "Build words: hand + y, kind + ness, care + less, joy + ful",
+      "Write five new words and use one in a sentence"
+     ],
+     "links": [
+      {
+       "label": "Derivatives (p. 162)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n161/mode/1up"
+      }
+     ],
+     "pages": "pp. 162–164",
+     "questions": [
+      "Add -ness to \"kind.\"",
+      "Add -ful to \"joy.\"",
+      "Add -less to \"care.\""
+     ],
+     "answers": [
+      "kindness",
+      "joyful",
+      "careless"
+     ]
+    },
+    {
+     "title": "Of Numbers: Figures, Roman Numerals, and Number Words",
+     "steps": [
+      "Read the table of figures, letters (Roman numerals), and names",
+      "Write 1–20 in Roman numerals",
+      "Spell the ordinal words first through tenth"
+     ],
+     "links": [
+      {
+       "label": "Of Numbers (p. 165)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n164/mode/1up"
+      }
+     ],
+     "pages": "p. 165",
+     "questions": [
+      "What Roman numeral is 10?",
+      "What number is XIII?",
+      "Spell the number word for 12."
+     ],
+     "answers": [
+      "X",
+      "13",
+      "twelve"
+     ]
+    },
+    {
+     "title": "Words and Phrases from Foreign Languages",
+     "steps": [
+      "Read a handful of the phrases and their English meanings",
+      "Pick three you have heard before and say what they mean",
+      "Copy one phrase and its meaning"
+     ],
+     "links": [
+      {
+       "label": "Foreign Phrases (p. 166)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n165/mode/1up"
+      }
+     ],
+     "pages": "pp. 166–167",
+     "questions": [
+      "What does \"Veni, vidi, vici\" mean?",
+      "What does \"vice versa\" mean?"
+     ],
+     "answers": [
+      "I came, I saw, I conquered",
+      "The terms being turned around (the other way round)"
+     ],
+     "notes": "Choose phrases suited to your child's age; this table is mostly for older students."
+    },
+    {
+     "title": "Abbreviations Explained",
+     "steps": [
+      "Read the list of abbreviations with their meanings",
+      "Find abbreviations you see in daily life: Mr., Mrs., No., P.O.",
+      "Write five abbreviations and what they stand for"
+     ],
+     "links": [
+      {
+       "label": "Abbreviations (p. 167)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n166/mode/1up"
+      }
+     ],
+     "pages": "pp. 167–168",
+     "questions": [
+      "What does \"No.\" stand for?",
+      "What does \"Mrs.\" stand for?",
+      "What does \"P.S.\" stand for?"
+     ],
+     "answers": [
+      "Number",
+      "Mistress",
+      "Postscript"
+     ]
+    },
+    {
+     "title": "Punctuation and Capital Letters",
+     "steps": [
+      "Read about each mark: comma, semicolon, colon, period, question, exclamation, dash, apostrophe",
+      "Read the rules for capital letters",
+      "Copy a sentence from the fables and name every mark in it"
+     ],
+     "links": [
+      {
+       "label": "Punctuation (p. 168)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n167/mode/1up"
+      }
+     ],
+     "pages": "pp. 168–169",
+     "questions": [
+      "What does an apostrophe show?",
+      "What does a dash show?",
+      "Does a person's name begin with a capital letter?"
+     ],
+     "answers": [
+      "That a letter or letters are left out",
+      "A sudden stop or change of subject",
+      "Yes"
+     ]
+    },
+    {
+     "title": "No. 151: qu Words, Silent t, and ei / ie",
+     "steps": [
+      "Read the qu words (liquid, equity) and the words with silent t (glisten, chasten)",
+      "Learn the two ei and ie tables; memorize a few of each",
+      "Spell 6–8 words from the columns from dictation, then check them against the book"
+     ],
+     "links": [
+      {
+       "label": "No. 151 (p. 169)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n168/mode/1up"
+      },
+      {
+       "label": "ei and ie (p. 170)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n169/mode/1up"
+      }
+     ],
+     "pages": "pp. 169–171",
+     "questions": [
+      "Spell \"receive.\"",
+      "Spell \"achieve.\"",
+      "Which letter is silent in \"glisten\"?"
+     ],
+     "answers": [
+      "receive",
+      "achieve",
+      "t"
+     ]
+    },
+    {
+     "title": "No. 152, Part 1: Words Difficult to Spell (abeyance to journal)",
+     "steps": [
+      "Read the first groups of hard words with their sayings in parentheses",
+      "Choose 6 words suited to your child and practice them",
+      "Spell them from dictation"
+     ],
+     "links": [
+      {
+       "label": "No. 152 (p. 171)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n170/mode/1up"
+      }
+     ],
+     "pages": "pp. 171–172",
+     "questions": [
+      "Spell \"answer.\"",
+      "Which letter is silent in \"answer\"?",
+      "Spell \"ghost.\""
+     ],
+     "answers": [
+      "answer",
+      "w",
+      "ghost"
+     ]
+    },
+    {
+     "title": "No. 152, Part 2: Words Difficult to Spell (to the end)",
+     "steps": [
+      "Read the rest of the hard words, including the French words at the end",
+      "Choose 6 words and practice them",
+      "Spell them from dictation, then review any from Part 1 you missed"
+     ],
+     "links": [
+      {
+       "label": "No. 152 (p. 173)",
+       "url": "https://archive.org/details/elementaryspelli00web/page/n172/mode/1up"
+      }
+     ],
+     "pages": "pp. 173–174",
+     "questions": [
+      "Spell \"people.\"",
+      "How is \"yacht\" said?",
+      "Spell \"orphan.\""
+     ],
+     "answers": [
+      "people",
+      "yot",
+      "orphan"
+     ]
+    }
+   ]
+  }
+ ]
+}

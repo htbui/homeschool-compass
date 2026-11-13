@@ -7,7 +7,8 @@ import { createClient } from 'npm:@supabase/supabase-js@2';
 
 import { cors, json } from '../_shared/http.ts';
 
-const MAX_BYTES = 3 * 1024 * 1024;
+// Whole books on one page (Project Gutenberg) run to several megabytes.
+const MAX_BYTES = 8 * 1024 * 1024;
 const MAX_REDIRECTS = 4;
 const TIMEOUT_MS = 12000;
 const allowPrivate = () => Deno.env.get('STUDIO_FETCH_ALLOW_PRIVATE') === '1';
@@ -36,7 +37,7 @@ Deno.serve(async (req) => {
       const res = await fetch(target, {
         redirect: 'manual',
         signal: AbortSignal.timeout(TIMEOUT_MS),
-        headers: { 'User-Agent': 'FreerangeStudio/1.0 (curriculum import)', Accept: 'text/html,application/xhtml+xml,text/plain;q=0.8' },
+        headers: { 'User-Agent': 'FreerangeStudio/1.0 (curriculum import)', Accept: 'text/html,application/xhtml+xml,application/json;q=0.9,text/plain;q=0.8' },
       });
       if (res.status >= 300 && res.status < 400) {
         const next = res.headers.get('location');
@@ -50,7 +51,8 @@ Deno.serve(async (req) => {
         return json({ error: `That page answered ${res.status}.` }, 502);
       }
       const type = res.headers.get('content-type') ?? '';
-      if (!/text\/html|application\/xhtml|text\/plain/i.test(type)) {
+      // JSON is for records like archive.org's book metadata.
+      if (!/text\/html|application\/xhtml|text\/plain|application\/json/i.test(type)) {
         await res.body?.cancel();
         return json({ error: 'That address isn’t a web page (PDFs and files can be added to lessons as links instead).' }, 415);
       }

@@ -45,18 +45,23 @@ _Last updated: 2026-11-11_
   - each site's own outline format
 - [ ] **Marketplace: creator verification badge,** plus onboarding as an ESA vendor.
 - [ ] **Community:** messaging between families, and identity verification for meetups.
-- [ ] **Freerange Library: more conversions.** Only works anyone may adapt and sell (public domain, CC0, CC BY, CC BY-SA). Next candidates:
-  - more McGuffey readers (Third through Sixth)
-  - Ray's Intellectual Arithmetic
-  - the rest of the Open Up Resources 6–8 math (grades 7–8)
-  - Handbook of Nature Study
-  - The Story of the Romans
+- [ ] **Free & open curricula: keep converting.** Only works anyone may adapt and sell (public domain, CC0, CC BY, CC BY-SA), and only from sites whose terms allow it. Each is listed under its original author. Next candidates, from the survey of 41 sources:
+  - NASA, National Park Service, and NOAA lesson units (US government works)
+  - Library of Congress primary-source sets
+  - Mathematics Vision Project Secondary Math, 2016 edition (verify CC BY on MVP's site)
+  - Wikijunior and Wikibooks K–12 books (CC BY-SA)
+  - Oak National Academy (UK, Open Government Licence)
 
-  Can't convert without permission:
-  - Easy Peasy and Ambleside Online (all rights reserved)
-  - Khan Academy, Core Knowledge, CK-12 and EngageNY (non-commercial licenses)
-  - OpenStax: now non-commercial, and its book pages ban AI use without written permission
-  - Primary Language Lessons: no public-domain scan readable online
+  **Decided, 2026-11-12:** non-commercial or restricted sources stay out of the Marketplace. Families can still build private plans from them in Studio. The list:
+  - Khan Academy, Core Knowledge, EngageNY / Eureka Math, CK-12, IM v.360, and OER Project
+  - Open Up Resources, whose site terms ban scraping, AI, and derivatives (we use IM's own site instead)
+  - OpenStax, which is now non-commercial and bans AI use
+  - Easy Peasy, Ambleside Online, Mater Amabilis, and Blossom and Root
+
+  Revisit with a lawyer, or ask the publishers for permission.
+- [ ] **Ask Illustrative Mathematics for permission to link** (you send the request). IM K–8 Math is CC BY 4.0 and IM's terms allow commercial adaptation. But IM's terms (§8.2) require organizations to ask in writing before linking to IM's sites, and every lesson links there. Ready-made plans are waiting (K–8, about 1,290 lessons); they ship once IM says yes.
+- [ ] **Ask OpenSciEd for an agreement** (licensing@openscied.org). Its middle-school science is CC BY 4.0, but OpenSciEd's terms say its name can't be used with commercial distribution without an agreement. Plans for grades 6–8 (269 lessons) are ready.
+- [ ] **Studio: should creators be able to list free adaptations of non-commercial (NC) sources?** Today they can. To match the decision above, it may be safer to make those plans private-only.
 - [ ] **Accurate distances:** load the Census ZIP-area (ZCTA) data. This needs your OK to download it; today distances use a ZIP-prefix fallback.
 
 ## P2: Soon

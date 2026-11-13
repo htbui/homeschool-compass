@@ -16,6 +16,7 @@ import {
   matchListing,
   PHILOSOPHY_SHORT,
   ratingSummary,
+  SELLER_NOTE,
   sortReviews,
   type Purchase,
   type ReviewSort,
@@ -100,7 +101,7 @@ export default function ListingDetail() {
       )}
       <T v="caption" muted>
         {l.esaEligible ? '🏛️ Approved ESA vendor. ' : ''}
-        {l.sellerKind === 'family' ? 'Sold by a family: arrange pickup in a public place or shipping.' : `Sold by ${l.seller}${l.sellerVerified ? ' (verified publisher)' : l.sellerKind === 'creator' ? ', an independent creator' : ''}.`}
+        {l.sellerKind === 'open' ? `A free curriculum by ${l.seller}, organized into a lesson plan by Freerange (not affiliated with or endorsed by its author or publisher).` : l.sellerKind === 'family' ? 'Sold by a family: arrange pickup in a public place or shipping.' : `Sold by ${l.seller}${l.sellerVerified ? ' (verified publisher)' : l.sellerKind === 'creator' ? ', an independent creator' : ''}.`}
         {l.packageId ? ' Comes with a lesson-by-lesson plan: each day shows that lesson’s steps, pages, and links.' : ''}
       </T>
       {!l.mine && !l.sample ? (
@@ -121,9 +122,9 @@ export default function ListingDetail() {
             <Stack gap={4} style={{ flex: 1 }}>
               <T v="title">{l.title}</T>
               <T muted>
-                {l.seller}
+                {l.sellerKind === 'open' ? `by ${l.seller}` : l.seller}
                 {l.sellerVerified ? ' ✓ verified' : ''}
-                {l.sellerKind === 'family' ? ' · family seller' : l.sellerKind === 'creator' ? ' · Studio creator' : ''}
+                {SELLER_NOTE[l.sellerKind]}
               </T>
               <Row gap={6}>
                 {summary.count ? (

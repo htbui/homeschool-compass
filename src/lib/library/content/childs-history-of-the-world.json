@@ -1,0 +1,2243 @@
+{
+ "key": "childs-history-of-the-world",
+ "title": "A Child's History of the World",
+ "sourceTitle": "A Child's History of the World",
+ "author": "V. M. Hillyer",
+ "seller": "V. M. Hillyer",
+ "year": 1924,
+ "sourceUrl": "https://www.gutenberg.org/ebooks/67149",
+ "readUrl": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html",
+ "license": {
+  "kind": "public_domain"
+ },
+ "licenseEvidence": "Project Gutenberg #67149: \"Public domain in the USA\"; transcribed from a 1934 D. Appleton-Century printing whose only copyright notice reads \"Copyright, 1924, by The Century Co.\" This is the original 1924 text (79 stories), not the 1951 revised edition. Published 1924, so public domain in the US since January 1, 2020.",
+ "subjects": [
+  "history",
+  "geography"
+ ],
+ "gradeMin": 1,
+ "gradeMax": 5,
+ "philosophies": [
+  "charlotte_mason",
+  "classical"
+ ],
+ "lessonsPerWeek": 3,
+ "minutesPerLesson": 20,
+ "parentInvolvement": "high",
+ "familyStyle": true,
+ "cover": "🌍",
+ "color": "#3D9970",
+ "description": "V. M. Hillyer's beloved 1924 read-aloud tells young children the story of the whole world, from cave people and the pyramids through Greece, Rome, castles, explorers, and revolutions to the airplane and the Great War, in 79 short, chatty stories. It suits the whole family in grades 1–5: each day you read one story aloud, your child tells it back, finds the places on a map, and adds a date to a timeline. Written a century ago, it has some dated views, which the parent notes point out. The full text is free online.",
+ "includes": [
+  "79 lessons in 14 units, one story per lesson",
+  "Link to the free full text for every story",
+  "Narration prompt, map work, and timeline entry for each lesson",
+  "Comprehension questions with answers",
+  "Parent notes flagging legends told as history, outdated science, dated racial and cultural views, and facts the book got wrong"
+ ],
+ "units": [
+  {
+   "title": "Unit 1: Before History (Stories 1–4)",
+   "lessons": [
+    {
+     "title": "Story 1: How Things Started",
+     "steps": [
+      "Read Story 1, \"How Things Started,\" aloud together",
+      "Narration: tell the steps the book gives, from stars to people",
+      "Map work: Look at a globe: find the oceans and the land, and point to where you live",
+      "Timeline: Start your timeline with \"The Earth forms\" at about 4.5 billion years ago (today's scientific estimate; the book gives no date)"
+     ],
+     "links": [
+      {
+       "label": "Read Story 1",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c1"
+      }
+     ],
+     "pages": "pp. 3–10",
+     "questions": [
+      "In the book's story, what was our World before it cooled off?",
+      "What came last of all, after the animals?",
+      "Where did the first tiny plants grow?"
+     ],
+     "answers": [
+      "A spark thrown off by the Sun",
+      "People",
+      "In the water"
+     ],
+     "notes": "Hillyer's 'spark from the Sun' was a popular 1920s idea; scientists now think the Earth formed from a disk of dust and gas around the young Sun. His order of living things follows evolution, and his claim that giant lizards died because they grew too big to move is not today's explanation. Families of faith may want to set this beside their own account of creation."
+    },
+    {
+     "title": "Story 2: Umfa-Umfa and Itchy-Scratchy",
+     "steps": [
+      "Read Story 2, \"Umfa-Umfa and Itchy-Scratchy,\" aloud together",
+      "Narration: tell what a day would have been like for Itchy-Scratchy in the Stone Age",
+      "Map work: Find France and Spain, where real Stone Age cave paintings (Lascaux and Altamira) can still be seen",
+      "Timeline: Add \"Cave paintings at Lascaux\" at about 17,000 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 2",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c2"
+      }
+     ],
+     "pages": "pp. 10–16",
+     "questions": [
+      "How do we know about people who lived before anyone could write?",
+      "Why is this time called the Stone Age?",
+      "What did cave people draw on their cave walls?"
+     ],
+     "answers": [
+      "We dig up their stone tools, arrow-heads, and bones",
+      "Tools and weapons were made of stone, not metal",
+      "The animals they hunted"
+     ],
+     "notes": "The book's cave people (hairy all over, grunting, dragging wives by the hair) are 1920s cartoons, not science. Early humans made art, buried their dead, and cared for one another. It is a good chance to talk about how historians guess from evidence."
+    },
+    {
+     "title": "Story 3: Fire! Fire!! Fire!!!",
+     "steps": [
+      "Read Story 3, \"Fire! Fire!! Fire!!!,\" aloud together",
+      "Narration: explain how people went from stone tools to copper, bronze, and iron",
+      "Map work: Find the island of Cyprus, famous for its copper in ancient times (the word copper comes from its name)",
+      "Timeline: Add \"Bronze Age begins\" at about 3300 BC and \"Iron Age begins\" at about 1200 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 3",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c3"
+      }
+     ],
+     "pages": "pp. 16–20",
+     "questions": [
+      "Which metal did people discover first: iron or copper?",
+      "What two metals are mixed to make bronze?",
+      "Which age does the book say we are still living in?"
+     ],
+     "answers": [
+      "Copper",
+      "Copper and tin",
+      "The Iron Age"
+     ],
+     "notes": "Try rubbing your hands together fast to feel the heat the book describes. People were using fire hundreds of thousands of years before the Stone Age the book describes ended."
+    },
+    {
+     "title": "Story 4: From an Airplane",
+     "steps": [
+      "Read Story 4, \"From an Airplane,\" aloud together",
+      "Narration: \"fly\" over the map as the book does and name the rivers and seas you see",
+      "Map work: Find the Tigris and Euphrates Rivers, the Persian Gulf, Egypt, the Nile, and the Mediterranean Sea; trace the two rivers with your finger",
+      "Timeline: Add \"First cities in Mesopotamia (Sumer)\" at about 3500 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 4",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c4"
+      }
+     ],
+     "pages": "pp. 20–24",
+     "questions": [
+      "What does the name Mediterranean mean?",
+      "What did people of long ago think would happen if you went too far?",
+      "Into what body of water do the Tigris and Euphrates flow?"
+     ],
+     "answers": [
+      "\"Between the land\"",
+      "You would fall off the edge of the world",
+      "The Persian Gulf"
+     ],
+     "notes": "The section on three \"white families\" (Aryans, Semites, Hamites) and \"colored people\" reflects 1920s race theories that are now rejected. These were really names for language groups, and the word \"Aryan\" was later misused by the Nazis. You may wish to skip or discuss that passage."
+    }
+   ]
+  },
+  {
+   "title": "Unit 2: Egypt, Babylon, and the Wandering Jews (Stories 5–9)",
+   "lessons": [
+    {
+     "title": "Story 5: Real History Begins",
+     "steps": [
+      "Read Story 5, \"Real History Begins,\" aloud together",
+      "Narration: tell why the Egyptians settled by the Nile and what B.C. and A.D. mean",
+      "Map work: Find the Nile, follow it north to the Mediterranean, and find the Sahara Desert beside it",
+      "Timeline: Add \"Menes, first king of Egypt\" at 3400 BC (the book's date; historians now say about 3100 BC)"
+     ],
+     "links": [
+      {
+       "label": "Read Story 5",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c5"
+      }
+     ],
+     "pages": "pp. 24–30",
+     "questions": [
+      "What do the letters B.C. and A.D. stand for?",
+      "Why was the Nile's yearly flood a good thing for Egypt?",
+      "Who was the first Egyptian king whose name we know?"
+     ],
+     "answers": [
+      "Before Christ, and Anno Domini (\"in the year of the Lord\")",
+      "It watered the land and left rich soil for growing food",
+      "Menes"
+     ],
+     "notes": "The word Gipsy does come from \"Egyptian,\" but the Romani people actually came from India, not Egypt. The Nile floods came from summer rains far upriver in Ethiopia. The book was written in 1924, so \"how old would Christ be today\" will give a different answer now."
+    },
+    {
+     "title": "Story 6: The Puzzle-Writers",
+     "steps": [
+      "Read Story 6, \"The Puzzle-Writers,\" aloud together",
+      "Narration: tell how the Rosetta Stone helped people read hieroglyphics again",
+      "Map work: Find the mouths of the Nile (the delta) and the town of Rosetta; then find London, where the stone is kept",
+      "Timeline: Add \"Rosetta Stone found\" at AD 1799 and \"Champollion reads hieroglyphics\" at AD 1822"
+     ],
+     "links": [
+      {
+       "label": "Read Story 6",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c6"
+      }
+     ],
+     "pages": "pp. 30–36",
+     "questions": [
+      "What did the Egyptians write on, and what English word comes from it?",
+      "Why could the Rosetta Stone be used as a key?",
+      "Who was the chief Egyptian god, and who was his wife?"
+     ],
+     "answers": [
+      "Papyrus; it gives us the word paper",
+      "It had the same message in hieroglyphics and in Greek, which people could read",
+      "Osiris; Isis"
+     ],
+     "notes": "Let your child try writing their name in picture-signs inside a cartouche, like the Cleopatra example."
+    },
+    {
+     "title": "Story 7: The Tomb-Builders",
+     "steps": [
+      "Read Story 7, \"The Tomb-Builders,\" aloud together",
+      "Narration: tell why the Egyptians made mummies and built pyramids",
+      "Map work: Find Cairo on the Nile and the pyramids of Giza just outside it",
+      "Timeline: Add \"Great Pyramid of Cheops (Khufu)\" at 2900 BC (the book's date; historians now say about 2560 BC)"
+     ],
+     "links": [
+      {
+       "label": "Read Story 7",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c7"
+      }
+     ],
+     "pages": "pp. 36–42",
+     "questions": [
+      "Why did the Egyptians want to keep dead bodies from decaying?",
+      "What is the Sphinx shaped like?",
+      "How did Egyptian artists show that a man was the king?"
+     ],
+     "answers": [
+      "They believed the soul would come back to its body on judgment day",
+      "A lion with a man's head",
+      "They drew him much bigger than the other people"
+     ],
+     "notes": "Mummies were dried with a salt called natron and wrapped with resin-soaked linen, not soaked in tar. The pyramid workers are now thought to have been paid laborers and farmers, not slaves. Hillyer really did visit the pyramids."
+    },
+    {
+     "title": "Story 8: A Rich Land Where There Was No Money",
+     "steps": [
+      "Read Story 8, \"A Rich Land Where There Was No Money,\" aloud together",
+      "Narration: tell how the Babylonians lived, built, and wrote",
+      "Map work: Find Mesopotamia between the two rivers, then Assyria (north), Babylonia (middle), and Chaldea (south), and Mount Ararat",
+      "Timeline: Add \"Hammurabi's laws\" at 2100 BC (the book's date; historians now say about 1750 BC)"
+     ],
+     "links": [
+      {
+       "label": "Read Story 8",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c8"
+      }
+     ],
+     "pages": "pp. 42–49",
+     "questions": [
+      "What does Mesopotamia mean?",
+      "What was cuneiform writing made with, and on what?",
+      "Why did the Babylonian buildings turn into hills of clay?"
+     ],
+     "answers": [
+      "\"Between the rivers\"",
+      "Wedge-shaped marks pressed with a stick into soft clay bricks",
+      "They were built of sun-dried mud bricks that crumbled back to dust"
+     ],
+     "notes": "Babylonian astronomers were famous, but historians doubt they could predict eclipses as early as 2300 BC; that came much later. Try pressing wedge marks into play-dough with a craft stick."
+    },
+    {
+     "title": "Story 9: The Wandering Jews",
+     "steps": [
+      "Read Story 9, \"The Wandering Jews,\" aloud together",
+      "Narration: tell the travels of Abraham, Joseph, and Moses",
+      "Map work: Trace the wanderings: Ur, to Canaan, down to Egypt (Goshen), across the Red Sea to Mount Sinai, and back to Canaan",
+      "Timeline: Add \"Abraham leaves Ur\" at 1900 BC, \"Israelites settle in Goshen\" at 1700 BC, and \"The Exodus\" at 1300 BC (all the book's dates)"
+     ],
+     "links": [
+      {
+       "label": "Read Story 9",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c9"
+      }
+     ],
+     "pages": "pp. 49–56",
+     "questions": [
+      "How did Joseph get from Canaan to Egypt?",
+      "What did Moses bring down from Mount Sinai?",
+      "Who was the first king of the Jews?"
+     ],
+     "answers": [
+      "His jealous brothers sold him as a slave",
+      "The Ten Commandments",
+      "Saul"
+     ],
+     "notes": "This chapter retells Bible stories as history, with dates that historians debate. The Bible does not name the Pharaoh of the Exodus; Rameses is a traditional guess. The line that others 'have always treated the Jews badly' can open a gentle talk about prejudice."
+    }
+   ]
+  },
+  {
+   "title": "Unit 3: Greek Gods, Jewish Kings, and Phoenician Sailors (Stories 10–15)",
+   "lessons": [
+    {
+     "title": "Story 10: Fairy-Tale Gods",
+     "steps": [
+      "Read Story 10, \"Fairy-Tale Gods,\" aloud together",
+      "Narration: introduce three of the Greek gods: what each ruled and what each carried",
+      "Map work: Find Greece, Mount Olympus, Athens, Mount Parnassus, and Delphi",
+      "Timeline: Add \"First stories of the Hellenes (Greeks)\" at about 1300 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 10",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c10"
+      }
+     ],
+     "pages": "pp. 56–64",
+     "questions": [
+      "Where did the Greek gods live?",
+      "How was Minerva (Athene) born?",
+      "What was the Delphic Oracle?"
+     ],
+     "answers": [
+      "On Mount Olympus",
+      "She sprang out of Jupiter's head when Vulcan struck it with a hammer",
+      "A place where a priestess gave riddling answers people believed came from Apollo"
+     ],
+     "notes": "Hellen is a legendary ancestor, not a real man. Make a chart of the gods with both their Roman and Greek names and their symbols, and spot the planets named after them."
+    },
+    {
+     "title": "Story 11: A Fairy-Tale War",
+     "steps": [
+      "Read Story 11, \"A Fairy-Tale War,\" aloud together",
+      "Narration: tell the story of the golden apple and the wooden horse",
+      "Map work: Find Sparta in Greece and the site of Troy across the Aegean Sea in Turkey",
+      "Timeline: Add \"Trojan War\" at about 1200 BC and \"Homer\" at about 1000 BC (the book's dates; many now place Homer nearer 750 BC)"
+     ],
+     "links": [
+      {
+       "label": "Read Story 11",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c11"
+      }
+     ],
+     "pages": "pp. 64–70",
+     "questions": [
+      "To whom did Paris give the golden apple, and why?",
+      "How did the Greeks finally get inside Troy?",
+      "What are the names of Homer's two great poems?"
+     ],
+     "answers": [
+      "To Venus, because she promised him the most beautiful girl in the world",
+      "Soldiers hid inside a huge wooden horse the Trojans pulled into the city",
+      "The Iliad and the Odyssey"
+     ],
+     "notes": "Hillyer rightly calls this a 'fairy-tale war.' A real city was found at Troy, but the gods, the apple, and Helen belong to legend."
+    },
+    {
+     "title": "Story 12: The Kings of the Jews",
+     "steps": [
+      "Read Story 12, \"The Kings of the Jews,\" aloud together",
+      "Narration: tell one thing about David and one about Solomon",
+      "Map work: Find Jerusalem, the forests of Lebanon to the north, and Arabia (where the Queen of Sheba came from)",
+      "Timeline: Add \"David makes Jerusalem his capital\" at about 1000 BC and \"Solomon builds the Temple\" at about 960 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 12",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c12"
+      }
+     ],
+     "pages": "pp. 70–74",
+     "questions": [
+      "What songs did King David write?",
+      "When God asked Solomon what he wanted most, what did he choose?",
+      "How did Solomon find out which woman was the baby's real mother?"
+     ],
+     "answers": [
+      "The Psalms",
+      "To be wise",
+      "He ordered the baby cut in two; the real mother begged him to give it away instead"
+     ],
+     "notes": "Talk over one of the proverbs at the end, as the book invites. The closing line that the Jewish people have 'no country of their own' was true in 1924; the modern State of Israel was founded in 1948."
+    },
+    {
+     "title": "Story 13: The People Who Made Our A B C's",
+     "steps": [
+      "Read Story 13, \"The People Who Made Our A B C's,\" aloud together",
+      "Narration: tell what the Phoenicians invented and where they sailed",
+      "Map work: Find Phoenicia (today's Lebanon), the cities of Tyre and Sidon, the Strait of Gibraltar, the British Isles, and Carthage in North Africa",
+      "Timeline: Add \"Phoenician alphabet\" at about 1050 BC and \"Carthage founded\" at about 814 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 13",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c13"
+      }
+     ],
+     "pages": "pp. 74–79",
+     "questions": [
+      "Where does the word alphabet come from?",
+      "What famous color did the people of Tyre make, and from what?",
+      "What did the ancients call the Strait of Gibraltar?"
+     ],
+     "answers": [
+      "The first two Greek letters, alpha and beta",
+      "Tyrian purple, from a little shellfish",
+      "The Pillars of Hercules"
+     ],
+     "notes": "Hillyer paints the Phoenicians as greedy cheats and other peoples as 'savages'; that is a dated stereotype about a whole people. The mention of child sacrifice may upset sensitive listeners."
+    },
+    {
+     "title": "Story 14: Hard as Nails",
+     "steps": [
+      "Read Story 14, \"Hard as Nails,\" aloud together",
+      "Narration: compare life in Sparta with life in Athens",
+      "Map work: Find Sparta (in Laconia) and Athens on a map of Greece",
+      "Timeline: Add \"Lycurgus gives Sparta its laws\" at about 900 BC (the book's date; Lycurgus may be partly legend)"
+     ],
+     "links": [
+      {
+       "label": "Read Story 14",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c14"
+      }
+     ],
+     "pages": "pp. 79–84",
+     "questions": [
+      "At what age were Spartan boys taken from their mothers?",
+      "What does a \"laconic\" answer mean? Give the Spartans' famous one-word reply.",
+      "What did the Athenians love besides sports?"
+     ],
+     "answers": [
+      "Seven",
+      "A short, blunt answer; \"IF!\"",
+      "Music, poetry, statues, paintings, and buildings (the arts)"
+     ],
+     "notes": "The chapter mentions weak babies being left to die on the mountainside; you may want to preview it. Historians are not sure Lycurgus was a real person."
+    },
+    {
+     "title": "Story 15: The Crown of Leaves",
+     "steps": [
+      "Read Story 15, \"The Crown of Leaves,\" aloud together",
+      "Narration: describe a day at the ancient Olympic Games",
+      "Map work: Find Olympia in southern Greece and Athens, where the modern games began",
+      "Timeline: Add \"First Olympic Games\" at 776 BC and \"Modern Olympics begin in Athens\" at AD 1896"
+     ],
+     "links": [
+      {
+       "label": "Read Story 15",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c15"
+      }
+     ],
+     "pages": "pp. 84–89",
+     "questions": [
+      "What prize did an Olympic winner receive?",
+      "Why is 776 BC an important date in Greek history?",
+      "What happened to wars when the games came?"
+     ],
+     "answers": [
+      "A crown (wreath) of leaves, not money",
+      "It is the first event in Greek history we can be sure is true; the Greeks counted their years from it",
+      "A truce was declared so everyone could go to the games"
+     ],
+     "notes": "Ancient Olympic winners usually got olive wreaths; laurel was the prize at Delphi. The 1924 book could not know that the modern games were also stopped in 1940 and 1944 by war."
+    }
+   ]
+  },
+  {
+   "title": "Unit 4: The Rise and Fall of Empires (Stories 16–22)",
+   "lessons": [
+    {
+     "title": "Story 16: A Bad Beginning",
+     "steps": [
+      "Read Story 16, \"A Bad Beginning,\" aloud together",
+      "Narration: tell the legend of Romulus and Remus",
+      "Map work: Find Italy (the boot), the Tiber River, and Rome",
+      "Timeline: Add \"Rome founded (legend)\" at 753 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 16",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c16"
+      }
+     ],
+     "pages": "pp. 89–94",
+     "questions": [
+      "Who nursed the twins Romulus and Remus?",
+      "What Trojan hero did the Romans say was their ancestor?",
+      "Why does the book call this \"a bad beginning\"?"
+     ],
+     "answers": [
+      "A mother wolf (and a woodpecker brought berries)",
+      "Aeneas",
+      "Romulus killed his brother, invited escaped criminals, and the Romans stole the Sabine women"
+     ],
+     "notes": "Hillyer says plainly that this is legend. The capture of the Sabine women is a violent story; the book's excuse that early people 'did not know right and wrong' reflects his own views."
+    },
+    {
+     "title": "Story 17: Kings with Corkscrew Curls",
+     "steps": [
+      "Read Story 17, \"Kings with Corkscrew Curls,\" aloud together",
+      "Narration: tell how Assyria became powerful and how Nineveh fell",
+      "Map work: Find Nineveh on the Tigris River, Assyria, Babylon, and the land of the Medes to the east",
+      "Timeline: Add \"Ashurbanipal's library\" at about 650 BC and \"Fall of Nineveh\" at 612 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 17",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c17"
+      }
+     ],
+     "pages": "pp. 94–99",
+     "questions": [
+      "What stood beside the road to the Assyrian palaces?",
+      "What was unusual about the books in Assurbanipal's library?",
+      "Which two neighbors destroyed Nineveh?"
+     ],
+     "answers": [
+      "Huge winged bulls and lions with men's heads",
+      "They were clay tablets with cuneiform writing, kept in numbered piles",
+      "The king of Babylon and the Medes"
+     ],
+     "notes": "The book lists Assyrian tortures in plain words; preview for young children. The Bible says an angel of the Lord struck Sennacherib's army; Hillyer guesses at poison. Read Byron's poem 'The Destruction of Sennacherib' together if you like."
+    },
+    {
+     "title": "Story 18: A City of Wonder and Wickedness",
+     "steps": [
+      "Read Story 18, \"A City of Wonder and Wickedness,\" aloud together",
+      "Narration: describe Nebuchadnezzar's Babylon and what he did to Jerusalem",
+      "Map work: Find Babylon on the Euphrates, Media in the mountains to the east, and Jerusalem",
+      "Timeline: Add \"Nebuchadnezzar destroys Jerusalem; the Babylonian Captivity begins\" at 586 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 18",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c18"
+      }
+     ],
+     "pages": "pp. 99–103",
+     "questions": [
+      "Why did Nebuchadnezzar build the Hanging Gardens?",
+      "Name the three Wonders of the World mentioned so far.",
+      "What happened to the Jews of Jerusalem?"
+     ],
+     "answers": [
+      "To please his homesick queen from mountainous Media",
+      "The Pyramids, the Hanging Gardens (and walls) of Babylon, and the statue of Jupiter at Olympia",
+      "Their city and Temple were destroyed and they were carried off as prisoners to Babylon"
+     ],
+     "notes": "No trace of the Hanging Gardens has been found, so some historians doubt they stood in Babylon, and the book's size for the city is exaggerated. Nebuchadnezzar's madness comes from the Book of Daniel."
+    },
+    {
+     "title": "Story 19: A Surprise Party",
+     "steps": [
+      "Read Story 19, \"A Surprise Party,\" aloud together",
+      "Narration: tell how Croesus lost his kingdom and how Cyrus took Babylon",
+      "Map work: Find Persia, Lydia (in today's Turkey), Babylon, and Delphi",
+      "Timeline: Add \"Cyrus captures Babylon\" at 538 BC (the book's date; usually given as 539 BC) and \"Jews return to Jerusalem\" at about 536 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 19",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c19"
+      }
+     ],
+     "pages": "pp. 103–109",
+     "questions": [
+      "What does \"as rich as Croesus\" mean, and why?",
+      "What did Croesus invent to make trading easier?",
+      "How did Cyrus's army get into Babylon?"
+     ],
+     "answers": [
+      "Very rich; Croesus was the richest king, owning gold mines in Lydia",
+      "Money: stamped lumps of gold and silver (the first coins)",
+      "He dammed the Euphrates and marched in along the dry river-bed"
+     ],
+     "notes": "Lydia did make the first coins, though probably a little before Croesus. The words magic and magician really do come from the Persian Magi."
+    },
+    {
+     "title": "Story 20: The Other Side of the World",
+     "steps": [
+      "Read Story 20, \"The Other Side of the World,\" aloud together",
+      "Narration: tell about Gautama the Buddha and Confucius and what each taught",
+      "Map work: Find India, China, and Japan; trace how Buddhism spread from India toward Japan",
+      "Timeline: Add \"Buddha (Gautama)\" and \"Confucius\" at about 500 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 20",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c20"
+      }
+     ],
+     "pages": "pp. 109–114",
+     "questions": [
+      "What were castes in India?",
+      "What did Prince Gautama give up, and why?",
+      "How did Confucius say the golden rule?"
+     ],
+     "answers": [
+      "Classes of people who would not eat, marry, or play with people of another class",
+      "His rich, easy life, to help people who were suffering",
+      "Do not do to others what you would not want them to do to you"
+     ],
+     "notes": "This chapter has some of the book's most dated language: 'heathen Chinee,' 'red' and 'white' Indians, and 'hideous idols.' Hindu worship is described with scorn, and widow-burning (sati) was not required of every wife. Use it to talk about respecting other faiths and how people wrote a hundred years ago."
+    },
+    {
+     "title": "Story 21: Rich Man, Poor Man",
+     "steps": [
+      "Read Story 21, \"Rich Man, Poor Man,\" aloud together",
+      "Narration: tell how Athens tried to settle the quarrel between the rich and the poor",
+      "Map work: Find Athens and the region of Attica around it",
+      "Timeline: Add \"Draco's laws\" at about 621 BC, \"Solon's laws\" at about 594 BC, and \"Clisthenes gives every citizen a vote\" at about 508 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 21",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c21"
+      }
+     ],
+     "pages": "pp. 114–119",
+     "questions": [
+      "What happened under Draco's laws to someone who stole a loaf of bread?",
+      "What did the word tyrant mean to the Greeks?",
+      "How did ostracism work?"
+     ],
+     "answers": [
+      "He was put to death",
+      "A ruler who took power without being chosen (not always a cruel one)",
+      "People scratched a man's name on a piece of broken pottery; with enough votes he had to leave the city for ten years"
+     ],
+     "notes": "Today we say a very harsh rule is 'draconian.' Only free men were citizens in Athens; women and slaves could not vote."
+    },
+    {
+     "title": "Story 22: Rome Kicks Out Her Kings",
+     "steps": [
+      "Read Story 22, \"Rome Kicks Out Her Kings,\" aloud together",
+      "Narration: tell the stories of Brutus, Horatius, and Cincinnatus",
+      "Map work: Find Rome, the Tiber River, and the land of the Etruscans to the north; then find Cincinnati, Ohio",
+      "Timeline: Add \"Rome becomes a republic\" at 509 BC and \"Cincinnatus saves Rome\" at about 458 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 22",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c22"
+      }
+     ],
+     "pages": "pp. 119–124",
+     "questions": [
+      "What were the two rulers of the Roman republic called, and how long did they rule?",
+      "What were the fasces?",
+      "What did Cincinnatus do after he saved Rome?"
+     ],
+     "answers": [
+      "Consuls; one year",
+      "A bundle of sticks with an ax, carried by the lictors as a sign of the consuls' power",
+      "He went back to his plow and his farm instead of becoming king"
+     ],
+     "notes": "Horatius at the bridge is a heroic legend; read part of Macaulay's poem 'Horatius' if your child enjoys it. Brutus's sons being put to death may trouble younger children."
+    }
+   ]
+  },
+  {
+   "title": "Unit 5: Greece against Persia and the Golden Age (Stories 23–28)",
+   "lessons": [
+    {
+     "title": "Story 23: Greece vs. Persia",
+     "steps": [
+      "Read Story 23, \"Greece vs. Persia,\" aloud together",
+      "Narration: tell the story of the battle of Marathon and Pheidippides' run",
+      "Map work: Find Persia, Athens, Sparta, and the plain of Marathon; measure the 26 miles from Marathon to Athens",
+      "Timeline: Add \"Battle of Marathon\" at 490 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 23",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c23"
+      }
+     ],
+     "pages": "pp. 124–132",
+     "questions": [
+      "What did Darius ask the Greek cities to send as a sign they would obey him?",
+      "What is a trireme?",
+      "How many soldiers were on 600 ships carrying 200 each?"
+     ],
+     "answers": [
+      "Earth and water",
+      "A ship with three rows of oars on each side",
+      "120,000"
+     ],
+     "notes": "The ancient historian Herodotus tells of the run to Sparta; the run back to Athens and dying with the news was added by later writers. Calling the Persian soldiers 'hirelings or slaves' reflects the Greek side of the story."
+    },
+    {
+     "title": "Story 24: Fighting Mad",
+     "steps": [
+      "Read Story 24, \"Fighting Mad,\" aloud together",
+      "Narration: tell how Athens got ready for the second Persian war and how Xerxes crossed into Europe",
+      "Map work: Find the Hellespont (today's Dardanelles) between Asia and Europe; trace Xerxes' march around the top of the Aegean Sea into Greece",
+      "Timeline: Add \"Aristides ostracized\" at about 482 BC and \"Xerxes invades Greece\" at 480 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 24",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c24"
+      }
+     ],
+     "pages": "pp. 132–137",
+     "questions": [
+      "What did Themistocles want Athens to build?",
+      "Why did the voter want to ostracize Aristides?",
+      "How did Xerxes get his army across the Hellespont?"
+     ],
+     "answers": [
+      "A fleet of ships (triremes)",
+      "He was tired of hearing him called \"the Just\"",
+      "He tied boats together and built a bridge across them"
+     ],
+     "notes": "The 'two million soldiers' comes from the Greek historian Herodotus; modern historians think the army was far smaller, perhaps a few hundred thousand at most."
+    },
+    {
+     "title": "Story 25: One against a Thousand",
+     "steps": [
+      "Read Story 25, \"One against a Thousand,\" aloud together",
+      "Narration: tell what happened at Thermopylae and at Salamis",
+      "Map work: Find the pass of Thermopylae, Athens, and the island and bay of Salamis",
+      "Timeline: Add \"Battles of Thermopylae and Salamis\" at 480 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 25",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c25"
+      }
+     ],
+     "pages": "pp. 137–143",
+     "questions": [
+      "What did Leonidas answer when Xerxes told him to surrender?",
+      "How did the Persians get around Leonidas?",
+      "What did Themistocles say the oracle's \"wooden walls\" meant?"
+     ],
+     "answers": [
+      "\"Come and take us\"",
+      "A Greek traitor showed them a secret path over the mountains",
+      "The Athenian ships"
+     ],
+     "notes": "The Greeks won one more great battle the next year, at Plataea (479 BC), before the Persians gave up invading Greece."
+    },
+    {
+     "title": "Story 26: The Golden Age",
+     "steps": [
+      "Read Story 26, \"The Golden Age,\" aloud together",
+      "Narration: tell what made the Age of Pericles a Golden Age",
+      "Map work: Find Athens and the Acropolis hill; then look for a picture of the Parthenon",
+      "Timeline: Add \"Golden Age of Athens\" from 480 to 430 BC and \"Parthenon built\" at about 447–432 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 26",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c26"
+      }
+     ],
+     "pages": "pp. 143–151",
+     "questions": [
+      "What was the temple on the Acropolis called, and to whom was it built?",
+      "Name the three kinds of Greek columns.",
+      "Why is Herodotus called the Father of History?"
+     ],
+     "answers": [
+      "The Parthenon, to the goddess Athene",
+      "Doric, Ionic, and Corinthian",
+      "He wrote the first history of the world (mostly about the wars with Persia)"
+     ],
+     "notes": "Go on a column hunt around your town, as the boys in the chapter did. The story of Phidias dying in prison comes from an ancient writer and is uncertain."
+    },
+    {
+     "title": "Story 27: When Greek Meets Greek",
+     "steps": [
+      "Read Story 27, \"When Greek Meets Greek,\" aloud together",
+      "Narration: tell why Sparta and Athens fought, and tell the story of Socrates",
+      "Map work: Find the Peloponnesus (the southern part of Greece), Sparta, and Athens",
+      "Timeline: Add \"Peloponnesian War\" from 431 to 404 BC and \"Death of Socrates\" at 399 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 27",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c27"
+      }
+     ],
+     "pages": "pp. 151–156",
+     "questions": [
+      "How long did the Peloponnesian War last?",
+      "How did Socrates teach?",
+      "Why was Socrates put to death?"
+     ],
+     "answers": [
+      "Twenty-seven years",
+      "By asking questions that led people to find the answer themselves",
+      "He was charged with not believing in the Greek gods and teaching young men not to"
+     ],
+     "notes": "Try a little Socratic teaching: ask questions to lead your child to an answer. The book's remarks about Socrates being ugly and his wife a 'crosspatch' come from old stories."
+    },
+    {
+     "title": "Story 28: Wise Men and Otherwise",
+     "steps": [
+      "Read Story 28, \"Wise Men and Otherwise,\" aloud together",
+      "Narration: tell about Demosthenes, about Alexander and his horse, and about the three wise men of Greece",
+      "Map work: Find Macedonia, north of Greece, and Athens",
+      "Timeline: Add \"Philip of Macedon rules Greece\" at 338 BC; add Plato (about 427–347 BC) and Aristotle (384–322 BC)"
+     ],
+     "links": [
+      {
+       "label": "Read Story 28",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c28"
+      }
+     ],
+     "pages": "pp. 156–162",
+     "questions": [
+      "How did Demosthenes overcome his weak voice and stammer?",
+      "How did young Alexander tame Bucephalus?",
+      "Name the three wise men of Greece in order, teacher to pupil."
+     ],
+     "answers": [
+      "He practised, speaking with pebbles in his mouth to the roaring waves",
+      "He turned the horse to face the sun so it could not see its own shadow",
+      "Socrates, Plato, Aristotle"
+     ],
+     "notes": "Philip did not become king of Greece peaceably; he defeated Athens and Thebes at the battle of Chaeronea in 338 BC. Philip was killed in 336 BC."
+    }
+   ]
+  },
+  {
+   "title": "Unit 6: Alexander and the Rise of Rome (Stories 29–33)",
+   "lessons": [
+    {
+     "title": "Story 29: A Boy King",
+     "steps": [
+      "Read Story 29, \"A Boy King,\" aloud together",
+      "Narration: tell the story of Alexander's conquests from the Gordian Knot to his death",
+      "Map work: Trace Alexander's route: across the Hellespont, through Persia, to Egypt (Alexandria), on to India, and back to Babylon",
+      "Timeline: Add \"Alexandria founded\" at 331 BC and \"Death of Alexander the Great\" at 323 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 29",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c29"
+      }
+     ],
+     "pages": "pp. 162–168",
+     "questions": [
+      "How did Alexander undo the Gordian Knot?",
+      "What two famous things were built at Alexandria?",
+      "Why does the book say Alexander was also a great teacher?"
+     ],
+     "answers": [
+      "He cut it in two with his sword",
+      "The great library and the Pharos lighthouse",
+      "He spread the Greek language, art, sports, and ideas to the peoples he conquered"
+     ],
+     "notes": "The story of Alexander weeping because there were no more worlds to conquer is an old legend. He conquered by bloody war; talk about whether 'Great' means 'good.'"
+    },
+    {
+     "title": "Story 30: Picking a Fight",
+     "steps": [
+      "Read Story 30, \"Picking a Fight,\" aloud together",
+      "Narration: tell why Rome and Carthage fought and how Rome won at sea",
+      "Map work: Find Italy (the boot), Sicily (the football), and Carthage across the sea in North Africa",
+      "Timeline: Add \"First Punic War\" from 264 to 241 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 30",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c30"
+      }
+     ],
+     "pages": "pp. 168–173",
+     "questions": [
+      "Why was the war called the Punic War?",
+      "How did Rome learn to build ships?",
+      "What was the Roman \"crow\" for?"
+     ],
+     "answers": [
+      "\"Punic\" was the Roman word for Phoenician, and Carthage was a Phoenician city",
+      "By copying a wrecked Carthaginian ship",
+      "Hooking an enemy ship so soldiers could climb aboard and fight as on land"
+     ],
+     "notes": "Compare the countries-as-champions idea with real reasons for wars, such as trade and land."
+    },
+    {
+     "title": "Story 31: The Boot Kicks and Stamps",
+     "steps": [
+      "Read Story 31, \"The Boot Kicks and Stamps,\" aloud together",
+      "Narration: tell how Hannibal surprised Rome and how Scipio beat him",
+      "Map work: Trace Hannibal's route from Carthage through Spain, over the Alps, and into Italy; then find Zama near Carthage",
+      "Timeline: Add \"Hannibal crosses the Alps\" at 218 BC, \"Battle of Zama\" at 202 BC, and \"Carthage destroyed\" at 146 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 31",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c31"
+      }
+     ],
+     "pages": "pp. 173–177",
+     "questions": [
+      "How did Hannibal get into Italy by the \"back door\"?",
+      "How did Rome get Hannibal to leave Italy?",
+      "What did the Romans do to Carthage in the third war?"
+     ],
+     "answers": [
+      "He marched through Spain and crossed the Alps",
+      "Scipio attacked Carthage itself, so Carthage called Hannibal home",
+      "Burned it to the ground"
+     ],
+     "notes": "Hannibal famously brought war elephants over the Alps, which the book leaves out. The story of sowing Carthage's land with salt was invented much later."
+    },
+    {
+     "title": "Story 32: The New Champion of the World",
+     "steps": [
+      "Read Story 32, \"The New Champion of the World,\" aloud together",
+      "Narration: tell what useful things the Romans built and the story of Cornelia's jewels",
+      "Map work: Find a map of Roman roads; look up a picture of a Roman aqueduct such as the Pont du Gard in France",
+      "Timeline: Add \"Rome rules the Mediterranean\" at about 100 BC and \"The Gracchi try to help the poor\" at 133–121 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 32",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c32"
+      }
+     ],
+     "pages": "pp. 177–184",
+     "questions": [
+      "What is an aqueduct?",
+      "What did Cornelia call her jewels?",
+      "Who were the gladiators?"
+     ],
+     "answers": [
+      "A stone channel or pipe that carried clean water to a city (\"water-carrier\")",
+      "Her two sons",
+      "Strong men, often captured in war, made to fight to the death for crowds"
+     ],
+     "notes": "The gladiator description is gory for young listeners. Historians are not sure thumbs up meant 'spare him'; it may have been the other way around."
+    },
+    {
+     "title": "Story 33: The Noblest Roman of Them All",
+     "steps": [
+      "Read Story 33, \"The Noblest Roman of Them All,\" aloud together",
+      "Narration: tell the life of Julius Caesar from the pirates to the Ides of March",
+      "Map work: Find Gaul (France), Britain, the Rubicon in northern Italy, Rome, and Egypt",
+      "Timeline: Add \"Caesar crosses the Rubicon\" at 49 BC and \"Caesar killed\" at 44 BC (born 100 BC)"
+     ],
+     "links": [
+      {
+       "label": "Read Story 33",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c33"
+      }
+     ],
+     "pages": "pp. 184–191",
+     "questions": [
+      "Why could no coin really be stamped \"100 B.C.\"?",
+      "What does \"crossing the Rubicon\" mean?",
+      "What did Caesar's three-word message say?"
+     ],
+     "answers": [
+      "No one then knew when Christ would be born",
+      "Taking a step you can't turn back from",
+      "\"Veni, vidi, vici\": I came, I saw, I conquered"
+     ],
+     "notes": "Caesar raided Britain in 55 and 54 BC but did not conquer it; Rome took Britain under Claudius in AD 43. 'Et tu, Brute!' comes from Shakespeare's play, not from ancient writers."
+    }
+   ]
+  },
+  {
+   "title": "Unit 7: Emperors and Christians (Stories 34–38)",
+   "lessons": [
+    {
+     "title": "Story 34: An Emperor Who was Made a God!",
+     "steps": [
+      "Read Story 34, \"An Emperor Who was Made a God!,\" aloud together",
+      "Narration: tell how Octavius became Augustus Caesar and how he changed Rome",
+      "Map work: Find Rome and Alexandria; then look at a picture of the Pantheon's dome and the Colosseum",
+      "Timeline: Add \"Augustus becomes the first Roman emperor\" at 27 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Story 34",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c34"
+      }
+     ],
+     "pages": "pp. 191–197",
+     "questions": [
+      "What did Augustus brag that he did to Rome?",
+      "What does Pantheon mean?",
+      "Which month is named for Augustus?"
+     ],
+     "answers": [
+      "Found it brick and left it marble",
+      "Temple of all the gods",
+      "August"
+     ],
+     "notes": "Cleopatra's death by snakebite is told plainly. The Pantheon standing today, with its concrete dome, was rebuilt by the emperor Hadrian about AD 125. The Circus Maximus was a chariot racetrack, not an amphitheater."
+    },
+    {
+     "title": "Story 35: Thine is the Kingdom, the Power, and the Glory",
+     "steps": [
+      "Read Story 35, \"Thine is the Kingdom, the Power, and the Glory,\" aloud together",
+      "Narration: tell what Jesus taught and what happened to Stephen, Paul, and Peter",
+      "Map work: Find Bethlehem, Jerusalem, and Rome; trace one of Paul's journeys across the Mediterranean",
+      "Timeline: Add \"Birth of Jesus\" at about 4 BC and \"Stephen, the first martyr\" at about AD 33"
+     ],
+     "links": [
+      {
+       "label": "Read Story 35",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c35"
+      }
+     ],
+     "pages": "pp. 197–203",
+     "questions": [
+      "Name two things Jesus taught.",
+      "Why didn't the year count start right at Christ's birth?",
+      "Who was Saul, and what was he called later?"
+     ],
+     "answers": [
+      "Any two: one God; love your neighbor as yourself; the golden rule; life after death",
+      "People began dating from his birth about 500 years later and made a mistake of about four years",
+      "A man who persecuted Christians and then became an apostle; Paul"
+     ],
+     "notes": "Hillyer writes as a believing Christian. His account blames 'the Jews' as a group for the crucifixion, a way of speaking that later fed prejudice; it was a small group of leaders together with the Roman governor Pilate."
+    },
+    {
+     "title": "Story 36: Blood and Thunder",
+     "steps": [
+      "Read Story 36, \"Blood and Thunder,\" aloud together",
+      "Narration: tell the three parts of the story: Nero, the fall of Jerusalem, and Pompeii",
+      "Map work: Find Rome, Jerusalem, Mount Vesuvius, and Pompeii near Naples",
+      "Timeline: Add \"Great Fire of Rome\" at AD 64, \"Titus destroys Jerusalem\" at AD 70, and \"Vesuvius buries Pompeii\" at AD 79"
+     ],
+     "links": [
+      {
+       "label": "Read Story 36",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c36"
+      }
+     ],
+     "pages": "pp. 203–210",
+     "questions": [
+      "Why couldn't Nero really have \"fiddled\" while Rome burned?",
+      "What was carved on the Arch of Titus?",
+      "What do the Latin words \"Cave canem\" mean?"
+     ],
+     "answers": [
+      "There were no fiddles then (it would have been a harp or lyre)",
+      "Soldiers carrying treasures from the Jerusalem temple, including the seven-branched candlestick",
+      "Beware of the dog"
+     ],
+     "notes": "Nero's cruelties are described in detail; preview for young children. Ancient writers say Nero was away from Rome when the fire started, so the story of him playing music while watching it may not be true. The 'million' killed in Jerusalem is the ancient writer Josephus's figure."
+    },
+    {
+     "title": "Story 37: A Good Emperor and a Bad Son",
+     "steps": [
+      "Read Story 37, \"A Good Emperor and a Bad Son,\" aloud together",
+      "Narration: compare the Stoics and the Epicureans, and Marcus Aurelius and his son Commodus",
+      "Map work: Find Athens, where Zeno and Epicurus taught, and Rome",
+      "Timeline: Add \"Marcus Aurelius, emperor\" at AD 161–180"
+     ],
+     "links": [
+      {
+       "label": "Read Story 37",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c37"
+      }
+     ],
+     "pages": "pp. 210–215",
+     "questions": [
+      "What did the Stoics believe was the way to be good?",
+      "What book did Marcus Aurelius write?",
+      "How was Commodus different from his father?"
+     ],
+     "answers": [
+      "Not to care about pleasure or pain, but bear everything calmly",
+      "His Meditations",
+      "He cared only for pleasure, showed off, and killed his critics"
+     ],
+     "notes": "Read Marcus Aurelius's 'getting up in the morning' passage together; it's a fun one for late risers. Epicurus actually taught simple, quiet pleasures, not wild living."
+    },
+    {
+     "title": "Story 38: I— H— S— V— (In Hoc Signo Vinces)",
+     "steps": [
+      "Read Story 38, \"I— H— S— V— (In Hoc Signo Vinces),\" aloud together",
+      "Narration: tell how Constantine became a Christian and what changed afterward",
+      "Map work: Find Rome, Byzantium (Constantinople, today's Istanbul), Nicaea, and Bethlehem",
+      "Timeline: Add \"Constantine's vision and victory\" at AD 312, \"Council of Nicaea\" at AD 325, and \"Constantinople becomes the capital\" at AD 330"
+     ],
+     "links": [
+      {
+       "label": "Read Story 38",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c38"
+      }
+     ],
+     "pages": "pp. 215–219",
+     "questions": [
+      "What do the words \"In hoc signo vinces\" mean?",
+      "What new name was given to Byzantium?",
+      "Where does the word pope come from?"
+     ],
+     "answers": [
+      "In this sign thou shalt conquer",
+      "Constantinople (Constantine's city)",
+      "\"Papa,\" Latin for father"
+     ],
+     "notes": "Constantine ended the persecution of Christians (AD 313) but was baptized only near his death; Christianity became the official religion of the empire later, in 380. The finding of the true cross by Helena is a tradition."
+    }
+   ]
+  },
+  {
+   "title": "Unit 8: The Fall of Rome and the Dark Ages (Stories 39–44)",
+   "lessons": [
+    {
+     "title": "Story 39: Our Tough Ancestors",
+     "steps": [
+      "Read Story 39, \"Our Tough Ancestors,\" aloud together",
+      "Narration: tell who the Teutons were and where the Angles, Saxons, Vandals, Franks, and Goths went",
+      "Map work: Find the Rhine and Danube rivers (Rome's northern border); trace the Angles and Saxons to Britain, the Vandals through Gaul and Spain to Africa, and the Goths into Italy",
+      "Timeline: Add \"Alaric and the Goths sack Rome\" at AD 410 and \"Angles and Saxons settle in Britain\" at about AD 450"
+     ],
+     "links": [
+      {
+       "label": "Read Story 39",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c39"
+      }
+     ],
+     "pages": "pp. 219–225",
+     "questions": [
+      "Which four days of the week are named after Teuton gods?",
+      "How did England get its name?",
+      "What does it mean to call someone a vandal, and why?"
+     ],
+     "answers": [
+      "Tuesday (Tiu), Wednesday (Woden), Thursday (Thor), Friday (Freya)",
+      "From \"Angle-land,\" the land of the Angles",
+      "Someone who wrecks property; the Vandals smashed and burned everything as they went"
+     ],
+     "notes": "The claims that blond people are Teutons and that 'most of us' descend from them reflect 1920s ideas about race that are now rejected. The 'tough gang' comparison is a lively image but makes the Germanic peoples sound simpler than they were."
+    },
+    {
+     "title": "Story 40: White Toughs and Yellow Toughs Meet the Champions of the World",
+     "steps": [
+      "Read Story 40, \"White Toughs and Yellow Toughs Meet the Champions of the World,\" aloud together",
+      "Narration: tell how Attila was stopped and how Rome finally fell",
+      "Map work: Find Chalons near Paris, Rome, and the Vandal kingdom in North Africa (around old Carthage)",
+      "Timeline: Add \"Battle of Chalons\" at AD 451 and \"Fall of Rome; end of Ancient History\" at AD 476"
+     ],
+     "links": [
+      {
+       "label": "Read Story 40",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c40"
+      }
+     ],
+     "pages": "pp. 225–231",
+     "questions": [
+      "Who stopped Attila from entering Rome?",
+      "Who was the last emperor of Rome?",
+      "Which languages grew out of Latin mixed with the Teutons' speech?"
+     ],
+     "answers": [
+      "Pope Leo I, who went out to meet him",
+      "Romulus Augustulus",
+      "Italian, Spanish, and French"
+     ],
+     "notes": "This chapter's title and its talk of 'yellow toughs' and 'white toughs' is racist language from 1924; historians do not know the Huns' origins for certain. You may wish to read it aloud with changes or discuss it. Many historians today avoid the term 'Dark Ages.'"
+    },
+    {
+     "title": "Story 41: Nightfall",
+     "steps": [
+      "Read Story 41, \"Nightfall,\" aloud together",
+      "Narration: tell what Justinian did and how Clovis became a Christian",
+      "Map work: Find Constantinople (Istanbul), Paris, and China, where silk came from",
+      "Timeline: Add \"Justinian's laws and Santa Sophia\" at about AD 530 and \"Clovis, king of the Franks\" at about AD 500"
+     ],
+     "links": [
+      {
+       "label": "Read Story 41",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c41"
+      }
+     ],
+     "pages": "pp. 231–236",
+     "questions": [
+      "Name the three things Justinian did that the book tells about.",
+      "Why did Clovis become a Christian?",
+      "What was King Arthur's sword called?"
+     ],
+     "answers": [
+      "Made a just set of laws, built the church of Santa Sophia, and brought silkworms to Europe",
+      "He promised his wife Clotilda he would if he won his battle, and he did",
+      "Excalibur"
+     ],
+     "notes": "Hillyer says the King Arthur stories are fairy-tales, not history. Santa Sophia (Hagia Sophia) was a mosque in 1924, a museum from 1934, and a mosque again since 2020."
+    },
+    {
+     "title": "Story 42: Being Good",
+     "steps": [
+      "Read Story 42, \"Being Good,\" aloud together",
+      "Narration: tell what monks did and why the book calls them \"good for something\"",
+      "Map work: Find Monte Cassino in Italy, where St. Benedict founded his monastery, and Syria, where Simeon Stylites lived",
+      "Timeline: Add \"St. Benedict founds his order\" at about AD 529"
+     ],
+     "links": [
+      {
+       "label": "Read Story 42",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c42"
+      }
+     ],
+     "pages": "pp. 236–242",
+     "questions": [
+      "What three promises did Benedictine monks make?",
+      "What does the word manuscript mean?",
+      "Why do we owe the monks thanks for old books?"
+     ],
+     "answers": [
+      "To have no money, to obey, and not to marry",
+      "Written by hand",
+      "They copied old Latin and Greek books by hand, so they were not lost"
+     ],
+     "notes": "Try making an illuminated first letter of your name with gold and red, like a monk's manuscript."
+    },
+    {
+     "title": "Story 43: A Camel-Driver",
+     "steps": [
+      "Read Story 43, \"A Camel-Driver,\" aloud together",
+      "Narration: tell the story of Mohammed and how Islam spread",
+      "Map work: Find Mecca and Medina in Arabia, Jerusalem, Constantinople, the Strait of Gibraltar, Spain, and Tours in France",
+      "Timeline: Add \"The Hegira\" at AD 622 and \"Battle of Tours\" at AD 732"
+     ],
+     "links": [
+      {
+       "label": "Read Story 43",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c43"
+      }
+     ],
+     "pages": "pp. 242–250",
+     "questions": [
+      "What was the Hegira?",
+      "What is the holy book of Islam called?",
+      "Toward which city do Muslims face when they pray?"
+     ],
+     "answers": [
+      "Mohammed's flight from Mecca to Medina in 622",
+      "The Koran (Quran)",
+      "Mecca"
+     ],
+     "notes": "Muslims today call themselves Muslims, not 'Mohammedans.' Hillyer says conquered people had to convert or die; in fact many Christians and Jews kept their faith under Muslim rule by paying a tax. The Dome of the Rock in Jerusalem was built about 691, after Omar's time, though it is often called the Mosque of Omar."
+    },
+    {
+     "title": "Story 44: Arabian Days",
+     "steps": [
+      "Read Story 44, \"Arabian Days,\" aloud together",
+      "Narration: list the things the book says we learned from the Arabs",
+      "Map work: Find Baghdad, Damascus, Cordova (Cordoba) and Toledo in Spain",
+      "Timeline: Add \"Baghdad founded\" at AD 762"
+     ],
+     "links": [
+      {
+       "label": "Read Story 44",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c44"
+      }
+     ],
+     "pages": "pp. 250–257",
+     "questions": [
+      "What are the figures 1, 2, 3 that we use called?",
+      "What are arabesques?",
+      "Which two cities were famous for fine sword blades?"
+     ],
+     "answers": [
+      "Arabic figures (numerals)",
+      "Designs of lines and curves that don't copy anything in nature",
+      "Damascus and Toledo"
+     ],
+     "notes": "Several claims here are mistaken: our numerals came to the Arabs from India; chess came from India and Persia; coffee was first used in Ethiopia; calico is named for Calicut in India; and the pendulum clock was invented in Europe in 1656. Damascus is in Syria. The remarks about Muslim women are sweeping and dated, and the mention of US Prohibition (1920–1933) shows when the book was written."
+    }
+   ]
+  },
+  {
+   "title": "Unit 9: Charlemagne, Kings, and Castles (Stories 45–50)",
+   "lessons": [
+    {
+     "title": "Story 45: A Light in the Dark Ages",
+     "steps": [
+      "Read Story 45, \"A Light in the Dark Ages,\" aloud together",
+      "Narration: tell what made Charlemagne a \"light in the Dark Ages\"",
+      "Map work: Find Paris, Aix-la-Chapelle (Aachen, Germany), Rome, and Baghdad",
+      "Timeline: Add \"Charlemagne crowned emperor\" at AD 800 and \"Harun al-Rashid rules in Baghdad\" at AD 786–809"
+     ],
+     "links": [
+      {
+       "label": "Read Story 45",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c45"
+      }
+     ],
+     "pages": "pp. 257–264",
+     "questions": [
+      "What happened to Charlemagne on Christmas Day in the year 800?",
+      "What could Charlemagne never learn to do well?",
+      "What was trial by ordeal?"
+     ],
+     "answers": [
+      "The pope crowned him emperor in St. Peter's Church",
+      "Write",
+      "Testing guilt by making someone carry hot iron or put a hand in boiling water"
+     ],
+     "notes": "Ask your child whether trial by ordeal was fair and why we use judges and juries instead."
+    },
+    {
+     "title": "Story 46: Getting a Start",
+     "steps": [
+      "Read Story 46, \"Getting a Start,\" aloud together",
+      "Narration: tell the story of the burnt cakes and what Alfred did for England",
+      "Map work: Find England and Denmark across the North Sea; then find Oxford",
+      "Timeline: Add \"Alfred the Great, king of England\" at AD 871–899"
+     ],
+     "links": [
+      {
+       "label": "Read Story 46",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c46"
+      }
+     ],
+     "pages": "pp. 264–269",
+     "questions": [
+      "How did young Alfred learn to read?",
+      "Why did the shepherd's wife scold Alfred?",
+      "How did Alfred's time-candles work?"
+     ],
+     "answers": [
+      "His mother promised a beautiful book to the child who could read it first",
+      "He let her cakes burn while he was thinking about the Danes",
+      "Lines marked on the candle showed how much burned down in one hour"
+     ],
+     "notes": "The burnt cakes is a much-loved legend, and Alfred did not really found Oxford University (it began about 200 years later). The line that England is 'the most important island in the world' reflects 1924, when the British Empire was at its height."
+    },
+    {
+     "title": "Story 47: The End of the World",
+     "steps": [
+      "Read Story 47, \"The End of the World,\" aloud together",
+      "Narration: tell what people expected in the year 1000 and what the Vikings found",
+      "Map work: Trace the Viking voyages from Norway to Iceland, Greenland, and Newfoundland in North America",
+      "Timeline: Add \"Leif Ericson reaches America (Vinland)\" at about AD 1000"
+     ],
+     "links": [
+      {
+       "label": "Read Story 47",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c47"
+      }
+     ],
+     "pages": "pp. 269–272",
+     "questions": [
+      "What did many people think would happen in the year 1000?",
+      "What did the Vikings name the new land, and why?",
+      "Why didn't the Vikings stay?"
+     ],
+     "answers": [
+      "The world would come to an end",
+      "Vineland (Wineland), because they found grapes growing there",
+      "It was too far from home and the people living there made it hard for them"
+     ],
+     "notes": "Proof of the Vikings in America was found in 1960 at L'Anse aux Meadows in Newfoundland, long after this book. The 'wild savages' were Native peoples defending their home. Historians now debate how many people truly feared the year 1000."
+    },
+    {
+     "title": "Story 48: Real Castles",
+     "steps": [
+      "Read Story 48, \"Real Castles,\" aloud together",
+      "Narration: describe a castle and tell how the feudal system worked",
+      "Map work: Look at a picture or plan of a medieval castle and label the moat, drawbridge, portcullis, and keep",
+      "Timeline: Add \"Age of castles in Europe\" at about AD 1000–1400"
+     ],
+     "links": [
+      {
+       "label": "Read Story 48",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c48"
+      }
+     ],
+     "pages": "pp. 272–278",
+     "questions": [
+      "What was a vassal, and how did he do homage?",
+      "Name two ways enemies attacked a castle.",
+      "What was a serf?"
+     ],
+     "answers": [
+      "A man given land by a lord; he knelt, put his hands between his lord's, and promised to fight for him",
+      "Any two: wooden towers on wheels, tunnels under the walls, battering-rams, stone-throwing machines",
+      "A worker bound to the lord's land who gave him labor and crops"
+     ],
+     "notes": "Building a castle from blocks or cardboard is a fine follow-up. The punishments of runaway serfs are described briefly."
+    },
+    {
+     "title": "Story 49: Knights and Days of Chivalry",
+     "steps": [
+      "Read Story 49, \"Knights and Days of Chivalry,\" aloud together",
+      "Narration: tell the steps a lord's son took to become a knight, and what a knight promised",
+      "Map work: Find France and England, home of many knights; design your own coat of arms",
+      "Timeline: Add \"Age of knights and chivalry\" at about AD 1000–1400"
+     ],
+     "links": [
+      {
+       "label": "Read Story 49",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c49"
+      }
+     ],
+     "pages": "pp. 278–284",
+     "questions": [
+      "At what ages did a boy become a page, a squire, and a knight?",
+      "Why did knights wear a coat of arms?",
+      "What was a tournament?"
+     ],
+     "answers": [
+      "Seven, fourteen, and twenty-one",
+      "So friends and enemies could tell one another apart when covered in armor",
+      "A sham battle in which knights on horseback tried to knock each other off with covered lances"
+     ],
+     "notes": "The idea that men raise their hats because knights lifted their helmets is a popular old explanation, not proven history."
+    },
+    {
+     "title": "Story 50: A Pirate's Great Grandson",
+     "steps": [
+      "Read Story 50, \"A Pirate's Great Grandson,\" aloud together",
+      "Narration: tell how William of Normandy became William the Conqueror",
+      "Map work: Find Normandy in France, the English Channel, Hastings, and London (the Tower of London)",
+      "Timeline: Add \"Rollo gets Normandy\" at AD 911 and \"Battle of Hastings; the Norman Conquest\" at AD 1066"
+     ],
+     "links": [
+      {
+       "label": "Read Story 50",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c50"
+      }
+     ],
+     "pages": "pp. 284–292",
+     "questions": [
+      "What trick did William use to win the battle of Hastings?",
+      "What was the Domesday Book?",
+      "What was the curfew?"
+     ],
+     "answers": [
+      "His men pretended to run away, then turned on the scattered English",
+      "A list of all the land, people, and property in England, like a census",
+      "A bell at night when everyone had to put out lights and go indoors"
+     ],
+     "notes": "Harold had just beaten an invasion in the north led by his brother Tostig and the Norwegian king. The arrow in the eye comes from the Bayeux Tapestry and is uncertain. The phrase 'low-bred immigrants' is a dated, unkind remark."
+    }
+   ]
+  },
+  {
+   "title": "Unit 10: Crusaders, Kings, and the End of the Middle Ages (Stories 51–58)",
+   "lessons": [
+    {
+     "title": "Story 51: A Great Adventure",
+     "steps": [
+      "Read Story 51, \"A Great Adventure,\" aloud together",
+      "Narration: tell why the First Crusade began and how it ended",
+      "Map work: Trace the crusaders' route from France across Europe to Constantinople and on to Jerusalem",
+      "Timeline: Add \"First Crusade begins\" at AD 1096 and \"Crusaders take Jerusalem\" at AD 1099"
+     ],
+     "links": [
+      {
+       "label": "Read Story 51",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c51"
+      }
+     ],
+     "pages": "pp. 292–297",
+     "questions": [
+      "What were pilgrims?",
+      "Why were they called Crusaders?",
+      "What did the Crusaders do after they captured Jerusalem?"
+     ],
+     "answers": [
+      "Travelers who journeyed to a holy place, such as Jerusalem",
+      "They wore a red cloth cross; the word means cross-bearer",
+      "Killed thousands of people in the city and made Godfrey its ruler"
+     ],
+     "notes": "Hillyer himself points out that the bloody capture of Jerusalem did not fit Christ's teaching. Muslims and Jews in the city suffered greatly; it is worth talking about how both sides saw the Crusades."
+    },
+    {
+     "title": "Story 52: Tit-Tat-To; Three Kings in a Row",
+     "steps": [
+      "Read Story 52, \"Tit-Tat-To; Three Kings in a Row,\" aloud together",
+      "Narration: tell what happened to each of the three kings, and about the Children's Crusade",
+      "Map work: Find England, France, Germany, Jerusalem, and Marseilles on the Mediterranean",
+      "Timeline: Add \"Third Crusade\" at AD 1189–1192 and \"Children's Crusade\" at AD 1212"
+     ],
+     "links": [
+      {
+       "label": "Read Story 52",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c52"
+      }
+     ],
+     "pages": "pp. 297–304",
+     "questions": [
+      "What does Barbarossa mean, and what happened to him?",
+      "How did Blondel find Richard in prison?",
+      "Who was the Muslim king of Jerusalem who became Richard's friend?"
+     ],
+     "answers": [
+      "Red Beard; he drowned crossing a stream",
+      "He sang Richard's favorite song beneath castle towers until Richard sang back",
+      "Saladin"
+     ],
+     "notes": "Blondel's song and Richard meeting Robin Hood are legends. The Children's Crusade is real but mixed with legend. Christians held Jerusalem again from 1229 to 1244, and the 1918 British capture was not truly a crusade; the city's later history (1948, 1967) came after this book."
+    },
+    {
+     "title": "Story 53: Bibles Made of Stone and Glass",
+     "steps": [
+      "Read Story 53, \"Bibles Made of Stone and Glass,\" aloud together",
+      "Narration: tell how Gothic churches were built and why they were called \"Bibles of stone and glass\"",
+      "Map work: Find Paris (Notre Dame), Canterbury in England, Cologne in Germany, and Rheims in France",
+      "Timeline: Add \"Notre Dame de Paris begun\" at AD 1163 and \"Cologne Cathedral begun\" at AD 1248 (finished 1880)"
+     ],
+     "links": [
+      {
+       "label": "Read Story 53",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c53"
+      }
+     ],
+     "pages": "pp. 304–311",
+     "questions": [
+      "What is a cathedral named after?",
+      "What are flying buttresses?",
+      "What are gargoyles?"
+     ],
+     "answers": [
+      "The bishop's chair, the cathedra",
+      "Stone props that hold up the walls and arches",
+      "Carved stone monsters, often used as waterspouts, meant to scare off evil spirits"
+     ],
+     "notes": "Look at pictures of Notre Dame's stained glass and flying buttresses; its roof and spire burned in 2019 and were rebuilt by 2024. Not everyone was in one church: the Eastern Orthodox Church had split from Rome in 1054."
+    },
+    {
+     "title": "Story 54: John, Whom Nobody Loved",
+     "steps": [
+      "Read Story 54, \"John, Whom Nobody Loved,\" aloud together",
+      "Narration: tell why nobody loved King John and what Magna Carta promised",
+      "Map work: Find London, the Thames River, and Runnymede just upstream; then find Rome",
+      "Timeline: Add \"Magna Carta\" at AD 1215"
+     ],
+     "links": [
+      {
+       "label": "Read Story 54",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c54"
+      }
+     ],
+     "pages": "pp. 311–316",
+     "questions": [
+      "What did the pope do when John would not accept his bishop?",
+      "How did John \"sign\" Magna Carta?",
+      "Name one right promised in Magna Carta."
+     ],
+     "answers": [
+      "Closed all the churches in England",
+      "He pressed his seal into hot wax",
+      "Not to have your money taken unlawfully, or not to be punished without a fair trial"
+     ],
+     "notes": "Runnymede is a meadow beside the Thames, not an island. Magna Carta mostly protected the barons at first, but its ideas later grew into rights for everyone and helped shape the U.S. Constitution."
+    },
+    {
+     "title": "Story 55: A Great Story-Teller",
+     "steps": [
+      "Read Story 55, \"A Great Story-Teller,\" aloud together",
+      "Narration: tell about Genghis Khan, Kublai Khan, and Marco Polo's journey",
+      "Map work: Trace the Polos' route from Venice across Asia to Peking (Beijing) in Cathay (China)",
+      "Timeline: Add \"Genghis Khan's conquests\" at about AD 1206–1227 and \"Marco Polo returns to Venice\" at AD 1295"
+     ],
+     "links": [
+      {
+       "label": "Read Story 55",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c55"
+      }
+     ],
+     "pages": "pp. 316–322",
+     "questions": [
+      "What did people of Europe call China?",
+      "Why did Kublai Khan want the Polos to stay?",
+      "How did the Polos prove their stories to the people of Venice?"
+     ],
+     "answers": [
+      "Cathay",
+      "He liked their stories and found them useful helpers in ruling",
+      "They ripped open their ragged clothes and jewels fell out"
+     ],
+     "notes": "The book calls the Chinese and Mongols the 'yellow race,' a dated and hurtful term. The Mongols were terribly destructive, yet their empire also opened trade routes such as the Silk Road. The hidden-jewels scene is a legend."
+    },
+    {
+     "title": "Story 56: Thing-a-ma-jigger and What-cher-ma-call-it; or, A Magic Needle and a Magic Powder",
+     "steps": [
+      "Read Story 56, \"Thing-a-ma-jigger and What-cher-ma-call-it; or, A Magic Needle and a Magic Powder,\" aloud together",
+      "Narration: tell what the compass and gunpowder were, and how each changed the world",
+      "Map work: Find China, where both the compass and gunpowder were first invented, and England and Germany, where the book says they came from",
+      "Timeline: Add \"Compass and gunpowder in use in Europe\" at about AD 1300"
+     ],
+     "links": [
+      {
+       "label": "Read Story 56",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c56"
+      }
+     ],
+     "pages": "pp. 322–327",
+     "questions": [
+      "Why was the compass so important to sailors?",
+      "Why did people put Roger Bacon in prison?",
+      "How did gunpowder change fighting?"
+     ],
+     "answers": [
+      "It showed north even in cloudy weather, so they could sail far from land",
+      "They thought he knew so much he must be in league with the devil",
+      "Armor and castle walls could no longer protect people; enemies could be killed from far away"
+     ],
+     "notes": "Both the magnetic compass and gunpowder were invented in China centuries earlier; Bacon wrote about gunpowder but did not invent it, and the Schwarz story is a legend. Let your child float a magnetized needle on a cork in water to make a compass."
+    },
+    {
+     "title": "Story 57: Thelon Gest Wart Hate Verwas",
+     "steps": [
+      "Read Story 57, \"Thelon Gest Wart Hate Verwas,\" aloud together",
+      "Narration: tell about the battle of Crecy, the Black Death, and Joan of Arc",
+      "Map work: Find England, France, Crecy, and Orleans; find Domremy, Joan's village",
+      "Timeline: Add \"Battle of Crecy\" at AD 1346, \"Black Death\" at AD 1347–1351, and \"Joan of Arc burned\" at AD 1431"
+     ],
+     "links": [
+      {
+       "label": "Read Story 57",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c57"
+      }
+     ],
+     "pages": "pp. 327–333",
+     "questions": [
+      "What weapon helped the English beat the French knights at Crecy?",
+      "How did Joan of Arc pick out the real prince?",
+      "What did the English do to Joan?"
+     ],
+     "answers": [
+      "The longbow",
+      "She walked past the man dressed as the prince and knelt to the real one",
+      "Tried her as a witch and burned her at the stake"
+     ],
+     "notes": "The Black Death killed about a third to a half of Europe's people. The descriptions of suicide and bodies in the streets may disturb young children. Joan was made a saint in 1920. The chapter title is 'The longest war that ever was' written with the spaces in the wrong places."
+    },
+    {
+     "title": "Story 58: Off with the Old, On with the New",
+     "steps": [
+      "Read Story 58, \"Off with the Old, On with the New,\" aloud together",
+      "Narration: tell what printing did for people and what happened to Constantinople",
+      "Map work: Find Mainz in Germany (Gutenberg's home), England, and Constantinople (Istanbul)",
+      "Timeline: Add \"Gutenberg's printing press\" at about AD 1440 and \"Turks capture Constantinople; end of the Middle Ages\" at AD 1453"
+     ],
+     "links": [
+      {
+       "label": "Read Story 58",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c58"
+      }
+     ],
+     "pages": "pp. 333–337",
+     "questions": [
+      "What was the first book Gutenberg printed?",
+      "Why were Bibles chained in churches before printing?",
+      "How did the Turks break the walls of Constantinople?"
+     ],
+     "answers": [
+      "The Bible (in Latin)",
+      "Hand-written books cost almost as much as a house",
+      "With gunpowder and cannon"
+     ],
+     "notes": "Gutenberg used metal type, not wooden letters, and the Chinese had printed books long before him. Caxton's first English book was a story of Troy; the chess book came next. The text misprints 1458 once; the right year is 1453."
+    }
+   ]
+  },
+  {
+   "title": "Unit 11: Discoverers and the Renaissance (Stories 59–63)",
+   "lessons": [
+    {
+     "title": "Story 59: A Sailor Who Found a New World",
+     "steps": [
+      "Read Story 59, \"A Sailor Who Found a New World,\" aloud together",
+      "Narration: tell the story of Columbus's first voyage from start to finish",
+      "Map work: Find Genoa, Portugal, Palos in Spain, the Canary Islands, and the Bahamas (San Salvador); trace the route across the Atlantic",
+      "Timeline: Add \"Columbus reaches the New World\" at AD 1492 (October 12)"
+     ],
+     "links": [
+      {
+       "label": "Read Story 59",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c59"
+      }
+     ],
+     "pages": "pp. 337–346",
+     "questions": [
+      "Why did Columbus think he could reach India by sailing west?",
+      "Name Columbus's three ships.",
+      "Why did Columbus call the people he met \"Indians\"?"
+     ],
+     "answers": [
+      "He believed the world was round",
+      "The Nina, the Pinta, and the Santa Maria",
+      "He thought he had reached India"
+     ],
+     "notes": "Educated people in Columbus's day already knew the Earth was round; the real argument was about how big it was, and Columbus guessed far too small. The egg story is a legend. Hillyer praises Columbus as a giver, but Columbus also enslaved and mistreated the Taino people he met; older children can weigh both sides."
+    },
+    {
+     "title": "Story 60: Fortune-Hunters",
+     "steps": [
+      "Read Story 60, \"Fortune-Hunters,\" aloud together",
+      "Narration: tell how America got its name and how Magellan's ship sailed around the world",
+      "Map work: Trace Vasco da Gama around the Cape of Good Hope to India, Cabot to Canada, Balboa across Panama, and Magellan around South America, across the Pacific to the Philippines, and home",
+      "Timeline: Add \"Da Gama reaches India\" at AD 1498, \"Balboa sees the Pacific\" at AD 1513, and \"Magellan's ship sails around the world\" at AD 1519–1522"
+     ],
+     "links": [
+      {
+       "label": "Read Story 60",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c60"
+      }
+     ],
+     "pages": "pp. 346–354",
+     "questions": [
+      "Who was America named after?",
+      "Why did Europeans want spices so badly?",
+      "What does Pacific mean, and who named it?"
+     ],
+     "answers": [
+      "Americus (Amerigo Vespucci), who wrote about his voyage",
+      "To cover the taste of spoiled food, since there was no refrigeration",
+      "Calm; Magellan"
+     ],
+     "notes": "Only 18 of about 270 men came home on the Victoria. The Philippine people Magellan fought, led by Lapulapu, were defending their island, not simply 'savages.'"
+    },
+    {
+     "title": "Story 61: The Land of Enchantment; or, The Search for Gold and Adventure",
+     "steps": [
+      "Read Story 61, \"The Land of Enchantment; or, The Search for Gold and Adventure,\" aloud together",
+      "Narration: tell what the Spanish explorers were searching for and what they found",
+      "Map work: Find Florida, the Mississippi River, Mexico City (on its lake), and Peru",
+      "Timeline: Add \"Cortes conquers the Aztecs\" at AD 1519–1521 and \"Pizarro conquers the Incas\" at AD 1532"
+     ],
+     "links": [
+      {
+       "label": "Read Story 61",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c61"
+      }
+     ],
+     "pages": "pp. 354–359",
+     "questions": [
+      "What was Ponce de Leon looking for, and what did he find?",
+      "What was El Dorado?",
+      "Why does the book compare many explorers to pirates?"
+     ],
+     "answers": [
+      "The fountain of youth; Florida",
+      "A legendary city of solid gold",
+      "They killed and robbed people who had no equal weapons, using religion as an excuse"
+     ],
+     "notes": "The Mississippi is not the longest river in the world; the Nile and Amazon are longer. Historians now doubt that the Aztecs thought the Spaniards were gods. European diseases such as smallpox killed far more native people than battles did. Hillyer is frank about the cruelty of the conquest."
+    },
+    {
+     "title": "Story 62: Born Again",
+     "steps": [
+      "Read Story 62, \"Born Again,\" aloud together",
+      "Narration: tell about Michelangelo, Raphael, and Leonardo da Vinci and one famous work by each",
+      "Map work: Find Italy, Florence, Rome (the Sistine Chapel), and Milan (The Last Supper)",
+      "Timeline: Add \"Michelangelo paints the Sistine Chapel ceiling\" at AD 1508–1512 and \"Leonardo paints the Mona Lisa\" at about AD 1503"
+     ],
+     "links": [
+      {
+       "label": "Read Story 62",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c62"
+      }
+     ],
+     "pages": "pp. 359–365",
+     "questions": [
+      "What does Renaissance mean?",
+      "How did Michelangelo carve his statues?",
+      "What are Raphael's paintings of Mary and the baby Jesus called?"
+     ],
+     "answers": [
+      "Born again",
+      "Straight from the stone, without a clay model first",
+      "Madonnas"
+     ],
+     "notes": "Look at pictures of the David, the Sistine ceiling, and the Mona Lisa together. The 'Stand up!' story is a guide's legend, and the claim that Leonardo drew the first map naming America is doubtful."
+    },
+    {
+     "title": "Story 63: Christians Quarrel",
+     "steps": [
+      "Read Story 63, \"Christians Quarrel,\" aloud together",
+      "Narration: tell how the Protestants came to break away from the pope",
+      "Map work: Find Rome, Wittenberg and Worms in Germany, Spain, and England",
+      "Timeline: Add \"Luther posts his 95 theses\" at AD 1517, \"Diet of Worms\" at AD 1521, and \"Henry VIII breaks with the pope\" at AD 1534"
+     ],
+     "links": [
+      {
+       "label": "Read Story 63",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c63"
+      }
+     ],
+     "pages": "pp. 365–372",
+     "questions": [
+      "How did Luther make his complaints public?",
+      "What did Luther do while he was kept hidden?",
+      "Why did Henry VIII make himself head of the church in England?"
+     ],
+     "answers": [
+      "He nailed a list of ninety-five points to a church door",
+      "Translated the Bible into German",
+      "The pope would not give him a divorce"
+     ],
+     "notes": "The rhyme 'divorced, beheaded, died; divorced, beheaded, survived' helps remember Henry's six wives. The book overlooks the Eastern Orthodox churches, which had split from Rome long before. Families of every tradition may want to add their own view of the Reformation."
+    }
+   ]
+  },
+  {
+   "title": "Unit 12: Queens, Kings, and Parliaments (Stories 64–68)",
+   "lessons": [
+    {
+     "title": "Story 64: King Elizabeth",
+     "steps": [
+      "Read Story 64, \"King Elizabeth,\" aloud together",
+      "Narration: tell about Bloody Mary, Elizabeth, and the defeat of the Spanish Armada",
+      "Map work: Find England, Scotland, Spain, Holland, and the English Channel; trace the Armada's path around the north of Scotland",
+      "Timeline: Add \"Elizabeth I becomes queen\" at AD 1558 and \"Defeat of the Spanish Armada\" at AD 1588"
+     ],
+     "links": [
+      {
+       "label": "Read Story 64",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c64"
+      }
+     ],
+     "pages": "pp. 372–378",
+     "questions": [
+      "Why was Queen Mary called Bloody Mary?",
+      "Who freed the Dutch from Philip II?",
+      "How did the small English ships beat the Armada?"
+     ],
+     "answers": [
+      "She had many Protestants put to death",
+      "William the Silent",
+      "They attacked one ship at a time, sent burning ships among them, and a storm wrecked the rest"
+     ],
+     "notes": "Mary's victims were mostly burned at the stake, not beheaded, and the Inquisition began in Spain before Philip's time. Torture is described in detail; preview for young listeners. The idea that Elizabeth ruled well because she was 'more man than woman' reflects 1924 views."
+    },
+    {
+     "title": "Story 65: The Age of Elizabeth",
+     "steps": [
+      "Read Story 65, \"The Age of Elizabeth,\" aloud together",
+      "Narration: tell about Sir Walter Raleigh and about William Shakespeare",
+      "Map work: Find London, Stratford-upon-Avon, and Roanoke Island off North Carolina",
+      "Timeline: Add \"Virginia Dare born at Roanoke\" at AD 1587 and \"Shakespeare\" at AD 1564–1616"
+     ],
+     "links": [
+      {
+       "label": "Read Story 65",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c65"
+      }
+     ],
+     "pages": "pp. 378–384",
+     "questions": [
+      "How did Raleigh win the queen's favor?",
+      "Who was Virginia Dare?",
+      "Name two of Shakespeare's plays."
+     ],
+     "answers": [
+      "He threw his velvet cape over a puddle for her to walk on",
+      "The first English child born in America",
+      "Any two: Hamlet, The Merchant of Venice, Romeo and Juliet, Julius Caesar"
+     ],
+     "notes": "The cape story and Shakespeare's deer-poaching are old legends. People once thought tobacco was healthful; we now know smoking causes serious disease, which King James already suspected."
+    },
+    {
+     "title": "Story 66: James the Servant; or, What's in a Name?",
+     "steps": [
+      "Read Story 66, \"James the Servant; or, What's in a Name?,\" aloud together",
+      "Narration: tell about King James and the first English settlements in America",
+      "Map work: Find Scotland and England, Jamestown in Virginia, and Plymouth in Massachusetts",
+      "Timeline: Add \"Jamestown founded\" at AD 1607, \"King James Bible\" at AD 1611, \"First enslaved Africans brought to Virginia\" at AD 1619, and \"Mayflower lands at Plymouth\" at AD 1620"
+     ],
+     "links": [
+      {
+       "label": "Read Story 66",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c66"
+      }
+     ],
+     "pages": "pp. 384–390",
+     "questions": [
+      "What does the name Stuart (Steward) mean?",
+      "What was the Divine Right of Kings?",
+      "Why did the Pilgrims come to America?"
+     ],
+     "answers": [
+      "A chief servant",
+      "The idea that God gave kings the right to do whatever they pleased",
+      "To worship God as they pleased"
+     ],
+     "notes": "The book's word 'negroes' was usual in 1924; today we say enslaved Africans. Africans were brought to Virginia in 1619; slavery is a sad, important part of the story your child will meet again. India later became independent (1947)."
+    },
+    {
+     "title": "Story 67: A King Who Lost His Head",
+     "steps": [
+      "Read Story 67, \"A King Who Lost His Head,\" aloud together",
+      "Narration: tell how Charles I lost his head and what came after",
+      "Map work: Find London and its Whitehall Palace, where Charles I was executed",
+      "Timeline: Add \"Charles I beheaded\" at AD 1649, \"Charles II restored\" at AD 1660, \"Great Fire of London\" at AD 1666, and \"William and Mary accept the Declaration of Right\" at AD 1688–1689"
+     ],
+     "links": [
+      {
+       "label": "Read Story 67",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c67"
+      }
+     ],
+     "pages": "pp. 390–395",
+     "questions": [
+      "What were Cromwell's soldiers called?",
+      "What did Cromwell tell the painter?",
+      "Why does the book call the Great Fire of London a blessing?"
+     ],
+     "answers": [
+      "Ironsides",
+      "\"Paint me as I am, wart and all\"",
+      "It burned away the dirt and disease, and London was rebuilt in brick and stone"
+     ],
+     "notes": "The Great Plague of 1665 was already fading before the fire, so historians doubt the fire ended it. The punishment of Cromwell's body is described plainly."
+    },
+    {
+     "title": "Story 68: Red Cap and Red Heels",
+     "steps": [
+      "Read Story 68, \"Red Cap and Red Heels,\" aloud together",
+      "Narration: tell about the Thirty Years' War and about Louis XIV, the Grand Monarch",
+      "Map work: Find France, Paris, Versailles, Germany, Austria, Sweden, and Oberammergau in Bavaria",
+      "Timeline: Add \"Thirty Years' War\" at AD 1618–1648 and \"Louis XIV reigns\" at AD 1643–1715"
+     ],
+     "links": [
+      {
+       "label": "Read Story 68",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c68"
+      }
+     ],
+     "pages": "pp. 395–402",
+     "questions": [
+      "Who wore the red cap, and who wore the red heels?",
+      "What did the Treaty of Westphalia decide about religion?",
+      "What did the people of Oberammergau promise?"
+     ],
+     "answers": [
+      "Cardinal Richelieu wore the red cap; Louis XIV wore the red heels",
+      "Each country would have its ruler's religion, Protestant or Catholic",
+      "To perform a play of Christ's life every ten years"
+     ],
+     "notes": "Gustavus Adolphus was killed at Lutzen in 1632. Louis XIV's 72-year reign is the longest of any European king, though not of every ruler in history. 'I am the state' may never actually have been said by him."
+    }
+   ]
+  },
+  {
+   "title": "Unit 13: Revolutions and Napoleon (Stories 69–73)",
+   "lessons": [
+    {
+     "title": "Story 69: A Self-Made Man",
+     "steps": [
+      "Read Story 69, \"A Self-Made Man,\" aloud together",
+      "Narration: tell how Peter the Great learned and how he changed Russia",
+      "Map work: Find Russia, Moscow, St. Petersburg on the Baltic Sea, Sweden, and Holland",
+      "Timeline: Add \"Peter the Great founds St. Petersburg\" at AD 1703"
+     ],
+     "links": [
+      {
+       "label": "Read Story 69",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c69"
+      }
+     ],
+     "pages": "pp. 402–407",
+     "questions": [
+      "How did Peter learn to build ships?",
+      "Why did Peter want land on the sea?",
+      "What did Peter make Russian men do to look European?"
+     ],
+     "answers": [
+      "He disguised himself as a laborer and worked in a Dutch shipyard",
+      "So Russia could have a fleet of ships",
+      "Cut off their long beards (and dress like other Europeans)"
+     ],
+     "notes": "Calling the Russians 'half civilized' and linking them to 'yellow people' reflects 1924 prejudice. St. Petersburg was called Leningrad when the book was written; it took back its old name in 1991. Peter forced thousands of laborers to build the city, and many died."
+    },
+    {
+     "title": "Story 70: A Prince Who Ran Away",
+     "steps": [
+      "Read Story 70, \"A Prince Who Ran Away,\" aloud together",
+      "Narration: tell how Fritz grew up to be Frederick the Great and what he fought for",
+      "Map work: Find Prussia (in today's Germany and Poland), Berlin, and Austria",
+      "Timeline: Add \"Frederick the Great becomes king of Prussia\" at AD 1740 and \"Seven Years' War\" at AD 1756–1763"
+     ],
+     "links": [
+      {
+       "label": "Read Story 70",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c70"
+      }
+     ],
+     "pages": "pp. 407–412",
+     "questions": [
+      "What did Frederick's father collect?",
+      "Who was the queen of Austria that Frederick fought?",
+      "What did Frederick do when the miller refused to sell his mill?"
+     ],
+     "answers": [
+      "Giants (very tall men) for a company of soldiers",
+      "Maria Theresa",
+      "He let him keep it"
+     ],
+     "notes": "The Seven Years' War in America is usually called the French and Indian War; the British won Canada mainly through their own battles, such as Quebec in 1759, not simply because Frederick won in Europe."
+    },
+    {
+     "title": "Story 71: America Gets Rid of Her King",
+     "steps": [
+      "Read Story 71, \"America Gets Rid of Her King,\" aloud together",
+      "Narration: tell why the colonies broke away from England and how they won",
+      "Map work: Find the thirteen colonies, Philadelphia, Saratoga in New York, and Yorktown in Virginia; then find France",
+      "Timeline: Add \"Declaration of Independence\" at AD 1776, \"Battle of Saratoga\" at AD 1777, \"Yorktown\" at AD 1781, and \"Treaty of peace\" at AD 1783"
+     ],
+     "links": [
+      {
+       "label": "Read Story 71",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c71"
+      }
+     ],
+     "pages": "pp. 412–420",
+     "questions": [
+      "Why did the colonists object to the king's taxes?",
+      "Who wrote the Declaration of Independence?",
+      "Why are there thirteen stripes on the flag?"
+     ],
+     "answers": [
+      "They had no vote in how the money was spent",
+      "Thomas Jefferson",
+      "For the thirteen original colonies"
+     ],
+     "notes": "The cherry-tree story was invented by Washington's early biographer Parson Weems; Hillyer tells it as fact. The Stuarts ended with Queen Anne in 1714, not 1700."
+    },
+    {
+     "title": "Story 72: Upside Down",
+     "steps": [
+      "Read Story 72, \"Upside Down,\" aloud together",
+      "Narration: tell how the French Revolution began and what the Reign of Terror was",
+      "Map work: Find Paris, the Bastille, and the palace of Versailles",
+      "Timeline: Add \"Storming of the Bastille\" at AD 1789 (July 14) and \"Reign of Terror\" at AD 1793–1794"
+     ],
+     "links": [
+      {
+       "label": "Read Story 72",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c72"
+      }
+     ],
+     "pages": "pp. 420–428",
+     "questions": [
+      "What is the chapter title, and why is it printed that way?",
+      "What happened on July 14, 1789?",
+      "What are France's colors and national song?"
+     ],
+     "answers": [
+      "\"Upside Down\"; it is printed upside down because France was turned upside down",
+      "A mob stormed the Bastille prison in Paris",
+      "Red, white, and blue; the Marseillaise"
+     ],
+     "notes": "This chapter is very bloody (heads on poles, the guillotine, cannon fire on prisoners); consider reading it yourself first. Marie Antoinette probably never said 'Let them eat cake.' Charlotte Corday killed Marat, one of the Terror's leaders."
+    },
+    {
+     "title": "Story 73: A Little Giant",
+     "steps": [
+      "Read Story 73, \"A Little Giant,\" aloud together",
+      "Narration: tell the rise and fall of Napoleon",
+      "Map work: Find Corsica, Paris, the Alps, Egypt, Trafalgar off Spain, Moscow, Elba, Waterloo in Belgium, and St. Helena in the South Atlantic",
+      "Timeline: Add \"Napoleon crowned emperor\" at AD 1804, \"Battle of Trafalgar\" at AD 1805, \"Retreat from Moscow\" at AD 1812, and \"Waterloo\" at AD 1815"
+     ],
+     "links": [
+      {
+       "label": "Read Story 73",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c73"
+      }
+     ],
+     "pages": "pp. 428–435",
+     "questions": [
+      "What did Napoleon say about the word \"impossible\"?",
+      "Who beat Napoleon's fleets at the Nile and at Trafalgar?",
+      "Read \"ABLE WAS I ERE I SAW ELBA\" backward. What do you notice?"
+     ],
+     "answers": [
+      "It is found only in the dictionary of fools",
+      "Lord Nelson",
+      "It reads the same backward and forward (a palindrome)"
+     ],
+     "notes": "Napoleon was not unusually short; he was about average height for his day, and the 'little' legend came partly from British cartoons. Hillyer fairly points out that being a great general is not the same as being a great man."
+    }
+   ]
+  },
+  {
+   "title": "Unit 14: The Modern World (Stories 74–79)",
+   "lessons": [
+    {
+     "title": "Story 74: From Pan and His Pipes to the Phonograph",
+     "steps": [
+      "Read Story 74, \"From Pan and His Pipes to the Phonograph,\" aloud together",
+      "Narration: tell about two of the great musicians in this chapter",
+      "Map work: Find Germany, Austria (Salzburg and Vienna), and London, where Handel lived",
+      "Timeline: Add Handel and Bach (both born AD 1685), Mozart (AD 1756–1791), and Beethoven (AD 1770–1827)"
+     ],
+     "links": [
+      {
+       "label": "Read Story 74",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c74"
+      }
+     ],
+     "pages": "pp. 435–443",
+     "questions": [
+      "What were the two earliest musical instruments, and what kind was each?",
+      "Who first wrote down notes and named them do, re, mi?",
+      "What great difficulty did Beethoven face?"
+     ],
+     "answers": [
+      "The lyre (a string instrument) and Pan's pipes (a wind instrument)",
+      "Guido, a Benedictine monk",
+      "He became deaf, but kept on composing"
+     ],
+     "notes": "Listen to a piece by each composer: the 'Hallelujah' chorus from Handel's Messiah, a Bach organ piece, Mozart's 'Eine kleine Nachtmusik,' and the opening of Beethoven's Fifth. The story of little Handel in the attic is a well-loved legend."
+    },
+    {
+     "title": "Story 75: The Daily Papers of 1854-1865",
+     "steps": [
+      "Read Story 75, \"The Daily Papers of 1854-1865,\" aloud together",
+      "Narration: tell about Florence Nightingale and about Abraham Lincoln",
+      "Map work: Find the Crimea on the Black Sea, Japan, and the United States (North and South)",
+      "Timeline: Add \"Crimean War; Florence Nightingale\" at AD 1854–1856, \"Perry opens Japan\" at AD 1854, and \"American Civil War\" at AD 1861–1865"
+     ],
+     "links": [
+      {
+       "label": "Read Story 75",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c75"
+      }
+     ],
+     "pages": "pp. 443–449",
+     "questions": [
+      "Why did the soldiers call Florence Nightingale the Lady of the Lamp?",
+      "What did Florence Nightingale do with the money she was given?",
+      "How did Lincoln earn the name Honest Abe?"
+     ],
+     "answers": [
+      "She carried a lamp at night looking for the wounded",
+      "She started a school to train nurses",
+      "He walked miles to return the right amount to a woman he had shortchanged"
+     ],
+     "notes": "Slavery was the main cause of the Civil War; the book's 'each side fought for what it believed was right' was a common way of speaking in 1924. Lincoln's killer, John Wilkes Booth, was an actor but not in the play that night. Calling Japan 'a thousand years' behind is a dated view."
+    },
+    {
+     "title": "Story 76: Three New Postage Stamps",
+     "steps": [
+      "Read Story 76, \"Three New Postage Stamps,\" aloud together",
+      "Narration: tell how Germany and Italy each became one country",
+      "Map work: Find France, Prussia and the German states, Versailles, and Italy with Rome",
+      "Timeline: Add \"Franco-Prussian War\" at AD 1870–1871, \"German Empire founded\" at AD 1871, and \"Italy united with Rome as capital\" at AD 1870"
+     ],
+     "links": [
+      {
+       "label": "Read Story 76",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c76"
+      }
+     ],
+     "pages": "pp. 449–454",
+     "questions": [
+      "Who was Napoleon III?",
+      "Where was William of Prussia crowned emperor of Germany?",
+      "Name the three men who united Italy."
+     ],
+     "answers": [
+      "The nephew of Napoleon, who became president and then emperor of France",
+      "In the palace of Versailles in France",
+      "Victor Emmanuel, Cavour, and Garibaldi"
+     ],
+     "notes": "If you have stamps or coins, look for old French, German, and Italian ones. The 'Napoleon!!!' story in the footnote is a joke; there really was a Napoleon II, his son, who never ruled."
+    },
+    {
+     "title": "Story 77: The Age of Miracles",
+     "steps": [
+      "Read Story 77, \"The Age of Miracles,\" aloud together",
+      "Narration: tell about three inventions in this chapter and who made them",
+      "Map work: Find Scotland (Watt), Baltimore and Washington (the first telegraph line), and Kitty Hawk, North Carolina (the Wright brothers)",
+      "Timeline: Add \"Fulton's steamboat\" at AD 1807, \"Morse's telegraph\" at AD 1844, \"Bell's telephone\" at AD 1876, \"Edison's electric light\" at AD 1879, and \"Wright brothers fly\" at AD 1903"
+     ],
+     "links": [
+      {
+       "label": "Read Story 77",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c77"
+      }
+     ],
+     "pages": "pp. 454–460",
+     "questions": [
+      "What gave James Watt his idea, according to the book?",
+      "What was the first message sent on Morse's telegraph?",
+      "What was Bell trying to do when he invented the telephone?"
+     ],
+     "answers": [
+      "Steam lifting the lid of a boiling kettle",
+      "\"What hath God wrought!\"",
+      "Find a way to help deaf children hear"
+     ],
+     "notes": "Watt improved an earlier steam engine rather than inventing the first one, and the kettle story is a legend. Talk over the book's debate question: are we happier with all these inventions? Tap out your name in Morse code."
+    },
+    {
+     "title": "Story 78: Germany Fights the World",
+     "steps": [
+      "Read Story 78, \"Germany Fights the World,\" aloud together",
+      "Narration: tell how the Great War (World War I) began and how it ended",
+      "Map work: Find Serbia, Austria, Germany, Russia, France, Belgium, the Marne River near Paris, and Britain",
+      "Timeline: Add \"World War I\" at AD 1914–1918, \"Battle of the Marne\" at AD 1914, \"United States enters the war\" at AD 1917, and \"Armistice Day\" at AD 1918 (November 11)"
+     ],
+     "links": [
+      {
+       "label": "Read Story 78",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c78"
+      }
+     ],
+     "pages": "pp. 460–465",
+     "questions": [
+      "What event started the war?",
+      "How did the Germans get into France?",
+      "When did the fighting end?"
+     ],
+     "answers": [
+      "A young man from Serbia shot an Austrian prince",
+      "They marched through Belgium, breaking their promise",
+      "On Armistice Day, November 11, 1918"
+     ],
+     "notes": "Hillyer wrote just a few years after the war and tells it from the Allied side; historians now share the blame among several nations. He could not know that a second, even larger world war would come in 1939. The war is often called World War I today."
+    },
+    {
+     "title": "Story 79: Yesterday, To-day, and To-morrow",
+     "steps": [
+      "Read Story 79, \"Yesterday, To-day, and To-morrow,\" aloud together",
+      "Narration: tell what the book says about wars, and what history might be like in the year 10,000",
+      "Map work: Find Ireland, the Azores, Portugal, and Versailles in France",
+      "Timeline: Add \"Treaty of Versailles\" at AD 1919, \"First flight across the Atlantic\" at AD 1919, \"Women win the vote in the US\" at AD 1920, and \"Irish Free State\" at AD 1922; then add today's date at the end of your timeline"
+     ],
+     "links": [
+      {
+       "label": "Read Story 79",
+       "url": "https://www.gutenberg.org/cache/epub/67149/pg67149-images.html#c79"
+      }
+     ],
+     "pages": "pp. 465–470",
+     "questions": [
+      "Name two of the newspaper headlines in this chapter.",
+      "Which kind of war heroes does Hillyer admire, and which does he call no better than burglars?",
+      "Where does the book say you must read history from now on?"
+     ],
+     "answers": [
+      "Any two: Treaty of Versailles, Irish Free State, first flight across the Atlantic, women can vote, strong drink prohibited",
+      "He admires those who defend their country; he condemns those who attack only for power, wealth, or glory",
+      "In the daily papers"
+     ],
+     "notes": "Prohibition was repealed in 1933, so that headline did not last. Hillyer's warning about a weapon 'a million times more powerful than gunpowder' came true with the atomic bomb in 1945. Ask your child what headlines they would add since 1924."
+    }
+   ]
+  }
+ ]
+}

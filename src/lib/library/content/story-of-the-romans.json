@@ -1,0 +1,2802 @@
+{
+ "key": "story-of-the-romans",
+ "title": "The Story of the Romans",
+ "sourceTitle": "The Story of the Romans (Eclectic School Readings)",
+ "author": "H. A. Guerber",
+ "seller": "H. A. Guerber",
+ "year": 1896,
+ "sourceUrl": "https://archive.org/details/storyromans02guergoog",
+ "readUrl": "https://archive.org/details/storyromans02guergoog/page/n17/mode/1up",
+ "license": {
+  "kind": "public_domain"
+ },
+ "licenseEvidence": "Internet Archive scan storyromans02guergoog (Harvard copy digitized by Google) of the 1896 American Book Company edition; archive.org metadata: date 1896, possible-copyright-status NOT_IN_COPYRIGHT, copyright-region US. Published before 1930, so public domain in the USA. Not on Project Gutenberg.",
+ "subjects": [
+  "history"
+ ],
+ "gradeMin": 3,
+ "gradeMax": 6,
+ "philosophies": [
+  "classical",
+  "charlotte_mason"
+ ],
+ "lessonsPerWeek": 4,
+ "minutesPerLesson": 20,
+ "parentInvolvement": "high",
+ "familyStyle": true,
+ "cover": "🦅",
+ "color": "#E07A5F",
+ "description": "H. A. Guerber's classic 1896 read-aloud tells the story of Rome in short, lively chapters, from Aeneas and Romulus through Hannibal, Caesar, and the emperors to the fall of the West in 476. It suits the whole family in grades 3–6: each day you read one chapter aloud, your child narrates it back, finds the place on a map, and adds it to a timeline. The full scanned book is free online.",
+ "includes": [
+  "102 lessons in 12 units, one chapter per lesson",
+  "Link to the exact page of the free scanned book for every chapter",
+  "Narration prompt, map work, and timeline entry for each lesson",
+  "Comprehension questions with answers",
+  "Parent notes flagging legend told as history, dated viewpoints, factual errors, and mature content"
+ ],
+ "units": [
+  {
+   "title": "Unit 1: Legends of Aeneas and Romulus (Chapters 1–9)",
+   "lessons": [
+    {
+     "title": "Chapter 1: The First Settlers",
+     "steps": [
+      "Read Chapter I, \"The First Settlers,\" aloud together (pp. 11–13)",
+      "Narration: tell where Italy is, what its land is like, and how its first people came there",
+      "Map work: Find Italy (the boot), the Mediterranean and Adriatic seas, the Alps, and the Apennines",
+      "Timeline: Begin a Rome timeline: tribes settle in Italy (long ago, no exact date)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter I (p. 11)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n17/mode/1up"
+      }
+     ],
+     "pages": "pp. 11–13",
+     "questions": [
+      "What shape does Italy look like on a map?",
+      "Why did people want to live in Italy?",
+      "Where did the oldest stories about Rome come from?"
+     ],
+     "answers": [
+      "A boot",
+      "It had a mild climate, rich soil, and beautiful country",
+      "Tales told by parents to children for many generations, written down centuries later"
+     ],
+     "notes": "Guerber says plainly that the early stories are partly made up. Keep a 'legend' strip on your timeline for the next chapters."
+    },
+    {
+     "title": "Chapter 2: The Escape from the Burning City",
+     "steps": [
+      "Read Chapter II, \"The Escape from the Burning City,\" aloud together (pp. 14–16)",
+      "Narration: tell how Aeneas escaped from burning Troy and whom he carried with him",
+      "Map work: Find Troy in Asia Minor (modern Turkey) and trace a path west across the Aegean toward Italy; find Etruria and Latium",
+      "Timeline: Add \"Fall of Troy\" at c. 1200 BC (the traditional date) on the legend strip"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter II (p. 14)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n20/mode/1up"
+      }
+     ],
+     "pages": "pp. 14–16",
+     "questions": [
+      "How did Aeneas carry his old father out of Troy?",
+      "What strange thing were the Trojans told they must do before they could settle?"
+     ],
+     "answers": [
+      "On his back",
+      "Eat the boards their food was served on"
+     ],
+     "notes": "Aeneas's story comes from Virgil's Aeneid, a poem; Romans treated it as their family history, but it is legend."
+    },
+    {
+     "title": "Chapter 3: The Clever Trick",
+     "steps": [
+      "Read Chapter III, \"The Clever Trick,\" aloud together (pp. 17–20)",
+      "Narration: tell how Dido got land for her city with an oxhide",
+      "Map work: Find Sicily and the coast of Tunisia in North Africa where Carthage stood",
+      "Timeline: Add \"Dido founds Carthage\" on the legend strip (Carthage was really founded c. 814 BC)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter III (p. 17)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n23/mode/1up"
+      }
+     ],
+     "pages": "pp. 17–20",
+     "questions": [
+      "Who was the woman Aeneas met near Carthage?",
+      "How did Dido trick the people into giving her a large piece of land?"
+     ],
+     "answers": [
+      "His mother, the goddess Venus, in disguise",
+      "She cut an oxhide into thin strips and stretched them around a large area"
+     ],
+     "notes": "Carthage was a real Phoenician city, but Dido and Aeneas could not have met: Troy fell centuries before Carthage was built."
+    },
+    {
+     "title": "Chapter 4: The Boards are Eaten",
+     "steps": [
+      "Read Chapter IV, \"The Boards are Eaten,\" aloud together (pp. 20–22)",
+      "Narration: tell how Aeneas left Carthage and how the prophecy of the boards came true",
+      "Map work: Find the Tiber River and Latium on a map of Italy",
+      "Timeline: Add \"Aeneas lands in Latium\" on the legend strip"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter IV (p. 20)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n26/mode/1up"
+      }
+     ],
+     "pages": "pp. 20–22",
+     "questions": [
+      "What did Iulus eat that made Aeneas shout for joy?",
+      "Which king welcomed Aeneas in Latium?"
+     ],
+     "answers": [
+      "The flat cake he had used as a plate",
+      "King Latinus"
+     ],
+     "notes": "Dido takes her own life in this chapter. The book says such a deed is wrong; preview with sensitive children."
+    },
+    {
+     "title": "Chapter 5: The Wolf and the Twins",
+     "steps": [
+      "Read Chapter V, \"The Wolf and the Twins,\" aloud together (pp. 22–25)",
+      "Narration: tell the story of Romulus and Remus from their birth to the shepherd's hut",
+      "Map work: Find Alba Longa (south-east of Rome) and the Tiber River",
+      "Timeline: Add \"Romulus and Remus\" on the legend strip"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter V (p. 22)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n28/mode/1up"
+      }
+     ],
+     "pages": "pp. 22–25",
+     "questions": [
+      "Who saved the twin babies after their cradle drifted ashore?",
+      "What was the duty of the Vestal Virgins?"
+     ],
+     "answers": [
+      "A she-wolf (and a woodpecker brought berries), then a shepherd",
+      "To keep the sacred fire of Vesta burning"
+     ],
+     "notes": "The wolf and twins are legend. The chapter mentions punishment by burial alive, which may upset young listeners."
+    },
+    {
+     "title": "Chapter 6: Romulus builds Rome",
+     "steps": [
+      "Read Chapter VI, \"Romulus builds Rome,\" aloud together (pp. 25–27)",
+      "Narration: tell how the twins chose a name for their city and what happened to Remus",
+      "Map work: Find the Palatine Hill on a map of the seven hills of Rome",
+      "Timeline: Add \"Rome founded\" at 753 BC (the date the Romans themselves used)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter VI (p. 25)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n31/mode/1up"
+      }
+     ],
+     "pages": "pp. 25–27",
+     "questions": [
+      "How many vultures did Romulus see?",
+      "On which hill did Romulus plow the first wall?",
+      "What kind of people first came to live in Rome?"
+     ],
+     "answers": [
+      "Twelve",
+      "The Palatine",
+      "Hot-headed and lawless men from neighboring lands"
+     ],
+     "notes": "753 BC is the Romans' traditional date. Archaeology shows huts on the Palatine around then, but Romulus himself is legend."
+    },
+    {
+     "title": "Chapter 7: The Maidens Carried off",
+     "steps": [
+      "Read Chapter VII, \"The Maidens Carried off,\" aloud together (pp. 28–31)",
+      "Narration: tell how the Romans got wives and what happened to Tarpeia",
+      "Map work: Find the land of the Sabines, north-east of Rome, and the Capitoline Hill",
+      "Timeline: Add \"Sabine women taken\" on the legend strip"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter VII (p. 28)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n34/mode/1up"
+      }
+     ],
+     "pages": "pp. 28–31",
+     "questions": [
+      "What did Tarpeia ask the Sabines to give her?",
+      "What did the Tarpeian Rock later become used for?"
+     ],
+     "answers": [
+      "What they wore on their left arms (she meant gold armlets)",
+      "Throwing criminals off to their deaths"
+     ],
+     "notes": "The 'carrying off' of the Sabine women was a kidnapping; you may want to talk about why it was wrong, even in a legend."
+    },
+    {
+     "title": "Chapter 8: Union of Sabines and Romans",
+     "steps": [
+      "Read Chapter VIII, \"Union of Sabines and Romans,\" aloud together (pp. 31–32)",
+      "Narration: tell how the women stopped the battle and how Rome's government began",
+      "Map work: Find the Palatine and Capitoline hills and the low ground between them (the later Forum)",
+      "Timeline: Add \"Romans and Sabines unite\" on the legend strip"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter VIII (p. 31)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n37/mode/1up"
+      }
+     ],
+     "pages": "pp. 31–32",
+     "questions": [
+      "Who stopped the battle between the Romans and Sabines?",
+      "What did Romulus call his council of old men?",
+      "What were the two main classes of Roman people called?"
+     ],
+     "answers": [
+      "The Sabine women, who ran between the armies",
+      "Senators (the senate)",
+      "Patricians (nobles) and plebeians (ordinary people)"
+     ]
+    },
+    {
+     "title": "Chapter 9: Death of Romulus",
+     "steps": [
+      "Read Chapter IX, \"Death of Romulus,\" aloud together (pp. 32–33)",
+      "Narration: tell the two stories of how Romulus disappeared",
+      "Map work: Find the Quirinal Hill",
+      "Timeline: Add \"Romulus disappears\" (legend says 716 BC)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter IX (p. 32)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n38/mode/1up"
+      }
+     ],
+     "pages": "pp. 32–33",
+     "questions": [
+      "How long did Romulus reign, according to the story?",
+      "What name did the Romans give Romulus when they worshiped him?"
+     ],
+     "answers": [
+      "Thirty-seven years",
+      "Quirinus"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 2: The Kings of Rome (Chapters 10–21)",
+   "lessons": [
+    {
+     "title": "Chapter 10: The Strange Signs of the Romans",
+     "steps": [
+      "Read Chapter X, \"The Strange Signs of the Romans,\" aloud together (pp. 34–36)",
+      "Narration: tell what kind of king Numa was and what priests he set up",
+      "Map work: Find the Forum, where the round Temple of Vesta and the Temple of Janus stood",
+      "Timeline: Add \"Numa Pompilius, second king\" at c. 715 BC (traditional)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter X (p. 34)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n40/mode/1up"
+      }
+     ],
+     "pages": "pp. 34–36",
+     "questions": [
+      "Why were the doors of the Temple of Janus closed in Numa's time?",
+      "Which month is named after Janus?",
+      "What did the augurs watch to tell the future?"
+     ],
+     "answers": [
+      "Because Rome was at peace",
+      "January",
+      "The weather, the flight of birds, and the sacred geese"
+     ],
+     "notes": "Guerber calls Roman religion 'nonsense' and 'humbug' and scolds superstitious readers; this reflects her 1890s schoolbook tone."
+    },
+    {
+     "title": "Chapter 11: The Quarrel with Alba",
+     "steps": [
+      "Read Chapter XI, \"The Quarrel with Alba,\" aloud together (pp. 37–39)",
+      "Narration: tell what happened to Numa's books and why Rome and Alba chose champions",
+      "Map work: Find Alba Longa again and measure how close it was to Rome",
+      "Timeline: Add \"Tullus Hostilius, third king\" at c. 673 BC (traditional)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XI (p. 37)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n43/mode/1up"
+      }
+     ],
+     "pages": "pp. 37–39",
+     "questions": [
+      "What happened to the books found in Numa's tomb?",
+      "Why was Camilla so unhappy about the fight?"
+     ],
+     "answers": [
+      "A farmer burned them",
+      "Her brothers would fight the man she was going to marry"
+     ]
+    },
+    {
+     "title": "Chapter 12: The Fight between the Horatii and the Curiatii",
+     "steps": [
+      "Read Chapter XII, \"The Fight between the Horatii and the Curiatii,\" aloud together (pp. 39–42)",
+      "Narration: tell how the last Horatius won the fight",
+      "Map work: Find the Caelian Hill, where the Albans were settled",
+      "Timeline: Add \"Horatii and Curiatii; Alba destroyed\" at c. 650 BC (legend)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XII (p. 39)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n45/mode/1up"
+      }
+     ],
+     "pages": "pp. 39–42",
+     "questions": [
+      "What trick did the last Horatius use against the three Curiatii?",
+      "Why did Camilla weep when her brother came home?",
+      "What disease killed many Romans, including King Tullus?"
+     ],
+     "answers": [
+      "He pretended to run away so they would spread out, then fought them one by one",
+      "He wore the cloak she had made for her dead betrothed",
+      "A plague"
+     ],
+     "notes": "Horatius kills his own sister in this chapter. The story is legend; it was told to praise duty to Rome."
+    },
+    {
+     "title": "Chapter 13: Tarquin and the Eagle",
+     "steps": [
+      "Read Chapter XIII, \"Tarquin and the Eagle,\" aloud together (pp. 42–45)",
+      "Narration: tell about King Ancus Martius and the strange sign that came to Tarquin",
+      "Map work: Find the Etruscan town of Tarquinii, north of Rome",
+      "Timeline: Add \"Ancus Martius, fourth king\" at c. 640 BC (traditional)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XIII (p. 42)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n48/mode/1up"
+      }
+     ],
+     "pages": "pp. 42–45",
+     "questions": [
+      "What did King Ancus build because Rome had so many wrongdoers?",
+      "What did the eagle do to Tarquin's cap?",
+      "What did Tanaquil say the eagle meant?"
+     ],
+     "answers": [
+      "A strong stone prison",
+      "It snatched it off his head and then put it back",
+      "That Tarquin would one day be king of Rome"
+     ],
+     "notes": "The book calls Tarquin a Greek; Roman tradition says his father was a Greek from Corinth who settled in Etruria, so he is usually called Etruscan."
+    },
+    {
+     "title": "Chapter 14: The Roman Youths",
+     "steps": [
+      "Read Chapter XIV, \"The Roman Youths,\" aloud together (pp. 45–46)",
+      "Narration: describe how Roman boys trained and how Romans built their roads",
+      "Map work: Find Ostia at the mouth of the Tiber, then trace the Appian Way from Rome to Brundisium (Brindisi)",
+      "Timeline: Add \"Appian Way begun\" at 312 BC (the book mentions it early, but it was built later)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XIV (p. 45)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n51/mode/1up"
+      }
+     ],
+     "pages": "pp. 45–46",
+     "questions": [
+      "What was the training ground of the Roman youths called?",
+      "How did the Romans make their roads last so long?",
+      "Finish the saying: \"All roads lead to ___.\""
+     ],
+     "answers": [
+      "The Field of Mars",
+      "They dug a deep trench, packed it with stones, and topped it with big paving blocks",
+      "Rome"
+     ],
+     "notes": "Activity idea: layer gravel, pebbles, and flat stones in a box to build a model Roman road."
+    },
+    {
+     "title": "Chapter 15: The King Outwitted",
+     "steps": [
+      "Read Chapter XV, \"The King Outwitted,\" aloud together (pp. 47–49)",
+      "Narration: tell what Tarquin the Elder built in Rome and how the augur tested him",
+      "Map work: Find the Forum, the Capitoline Hill, and all seven hills of Rome",
+      "Timeline: Add \"Tarquin the Elder, fifth king\" at c. 616 BC; add \"Cloaca Maxima (great drain)\""
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XV (p. 47)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n53/mode/1up"
+      }
+     ],
+     "pages": "pp. 47–49",
+     "questions": [
+      "What was the Cloaca Maxima?",
+      "Name three of the seven hills of Rome.",
+      "What did the lictors carry?"
+     ],
+     "answers": [
+      "A great drain or sewer across Rome",
+      "Any three of: Palatine, Capitoline, Quirinal, Caelian, Aventine, Viminal, Esquiline",
+      "Bundles of rods with an ax in the middle"
+     ],
+     "notes": "The razor-and-pebble tale is legend. The Cloaca Maxima is real and still carries water today."
+    },
+    {
+     "title": "Chapter 16: The Murder of Tarquin",
+     "steps": [
+      "Read Chapter XVI, \"The Murder of Tarquin,\" aloud together (pp. 50–51)",
+      "Narration: tell how Servius Tullius was chosen and how Tanaquil kept the throne for him",
+      "Map work: Point to the royal palace area near the Forum on a map of ancient Rome",
+      "Timeline: Add \"Servius Tullius, sixth king\" at c. 578 BC (traditional)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XVI (p. 50)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n56/mode/1up"
+      }
+     ],
+     "pages": "pp. 50–51",
+     "questions": [
+      "What strange sign did Tanaquil see over the baby Servius?",
+      "How did Tanaquil hide Tarquin's death?"
+     ],
+     "answers": [
+      "A flame hovering over his head without hurting him",
+      "She said he was only badly hurt and wanted Servius to rule until he was better"
+     ]
+    },
+    {
+     "title": "Chapter 17: The Ungrateful Children",
+     "steps": [
+      "Read Chapter XVII, \"The Ungrateful Children,\" aloud together (pp. 51–54)",
+      "Narration: tell the good things Servius did and how he lost his throne",
+      "Map work: Find the Field of Mars, where the census was taken",
+      "Timeline: Add \"First census\" at c. 570 BC (traditional)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XVII (p. 51)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n57/mode/1up"
+      }
+     ],
+     "pages": "pp. 51–54",
+     "questions": [
+      "What was a freedman?",
+      "How often did Servius count the people?",
+      "What was this counting called?"
+     ],
+     "answers": [
+      "A slave who had been set free",
+      "Every five years",
+      "Taking a census"
+     ],
+     "notes": "This chapter has two murders and the violent death of the king; you may want to summarize those parts for young children."
+    },
+    {
+     "title": "Chapter 18: The Mysterious Books",
+     "steps": [
+      "Read Chapter XVIII, \"The Mysterious Books,\" aloud together (pp. 54–58)",
+      "Narration: tell how the Sibyl sold her books to Tarquin the Proud",
+      "Map work: Find Cumae on the coast near Naples, where the Sibyl lived",
+      "Timeline: Add \"Tarquin the Proud, seventh king\" at c. 534 BC; add \"Temple of Jupiter on the Capitol\""
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XVIII (p. 54)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n60/mode/1up"
+      }
+     ],
+     "pages": "pp. 54–58",
+     "questions": [
+      "How many books did the Sibyl first bring, and how many did Tarquin finally buy?",
+      "Did the price go up or down as the books were burned?",
+      "Where were the books kept?"
+     ],
+     "answers": [
+      "Nine; three",
+      "It stayed the same for fewer books",
+      "In a stone chest in the Capitol"
+     ],
+     "notes": "Tullia driving over her father's body is a grim scene; skim it if needed. The Sibylline Books were real and kept by priests."
+    },
+    {
+     "title": "Chapter 19: Tarquin's Poppies",
+     "steps": [
+      "Read Chapter XIX, \"Tarquin's Poppies,\" aloud together (pp. 58–60)",
+      "Narration: tell how Sextus took the city of Gabii and what the poppies meant",
+      "Map work: Find Gabii, east of Rome",
+      "Timeline: Add \"Gabii taken by trickery\" (legend)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XIX (p. 58)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n64/mode/1up"
+      }
+     ],
+     "pages": "pp. 58–60",
+     "questions": [
+      "What lie did Sextus tell the people of Gabii?",
+      "What did Tarquin do instead of sending a spoken answer?",
+      "What did that action mean?"
+     ],
+     "answers": [
+      "That his father had treated him badly and he needed protection",
+      "He knocked the heads off the tallest poppies",
+      "Get rid of the leading men of Gabii"
+     ],
+     "notes": "This story is almost the same as one Herodotus told about a Greek tyrant, a clue that it is borrowed legend."
+    },
+    {
+     "title": "Chapter 20: The Oracle of Delphi",
+     "steps": [
+      "Read Chapter XX, \"The Oracle of Delphi,\" aloud together (pp. 60–62)",
+      "Narration: tell how Brutus understood the oracle better than the princes",
+      "Map work: Find Delphi in Greece and draw the journey from Rome",
+      "Timeline: Add \"Brutus at Delphi\" on the legend strip"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XX (p. 60)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n66/mode/1up"
+      }
+     ],
+     "pages": "pp. 60–62",
+     "questions": [
+      "Why did people think Brutus was stupid?",
+      "What was hidden in Brutus's staff?",
+      "Whom did Brutus kiss as \"mother\"?"
+     ],
+     "answers": [
+      "He pretended to be, so the king would not kill him",
+      "Gold",
+      "The earth"
+     ]
+    },
+    {
+     "title": "Chapter 21: The Death of Lucretia",
+     "steps": [
+      "Read Chapter XXI, \"The Death of Lucretia,\" aloud together (pp. 62–66)",
+      "Narration: tell how the Romans came to drive out their kings",
+      "Map work: Find Ardea, south of Rome, and Etruria, where Tarquin fled",
+      "Timeline: Add \"Kings driven out of Rome\" at 509 BC (traditional)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXI (p. 62)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n68/mode/1up"
+      }
+     ],
+     "pages": "pp. 62–66",
+     "questions": [
+      "What was Lucretia doing when the princes visited?",
+      "What did Brutus swear over Lucretia's body?",
+      "How many kings did Rome have?"
+     ],
+     "answers": [
+      "Spinning and teaching her maids",
+      "That he would drive the Tarquins out of Rome",
+      "Seven"
+     ],
+     "notes": "Sextus 'insulted' Lucretia (the old story says he assaulted her), and she takes her own life. Preview and summarize as needed."
+    }
+   ]
+  },
+  {
+   "title": "Unit 3: The Young Republic (Chapters 22–31)",
+   "lessons": [
+    {
+     "title": "Chapter 22: The Stern Father",
+     "steps": [
+      "Read Chapter XXII, \"The Stern Father,\" aloud together (pp. 66–69)",
+      "Narration: tell how the Republic began and how Brutus judged his own sons",
+      "Map work: Find Veii, the Etruscan city north of Rome",
+      "Timeline: Add \"Roman Republic begins; first consuls\" at 509 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXII (p. 66)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n72/mode/1up"
+      }
+     ],
+     "pages": "pp. 66–69",
+     "questions": [
+      "What were the two yearly rulers of the Republic called?",
+      "Who told the consuls about the plot to bring back Tarquin?",
+      "How did Brutus die?"
+     ],
+     "answers": [
+      "Consuls",
+      "A slave who overheard them while sharpening knives",
+      "Fighting one of Tarquin's sons; they killed each other"
+     ],
+     "notes": "Brutus watching his sons' execution was praised as duty; children may find it harsh. Worth a talk about justice and mercy."
+    },
+    {
+     "title": "Chapter 23: A Roman Triumph",
+     "steps": [
+      "Read Chapter XXIII, \"A Roman Triumph,\" aloud together (pp. 69–71)",
+      "Narration: describe a Roman triumph from start to finish",
+      "Map work: Trace the triumph's route through the Forum and up to the Capitol",
+      "Timeline: Add \"Valerius's triumph\" at c. 509 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXIII (p. 69)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n75/mode/1up"
+      }
+     ],
+     "pages": "pp. 69–71",
+     "questions": [
+      "What pulled the victorious general's chariot?",
+      "What crown did the general wear?",
+      "Where did the procession end?"
+     ],
+     "answers": [
+      "Four white horses",
+      "A crown of laurel",
+      "At the Capitol (Temple of Jupiter), with a sacrifice"
+     ],
+     "notes": "Activity idea: draw or act out a triumph procession."
+    },
+    {
+     "title": "Chapter 24: A Roman Triumph (Continued)",
+     "steps": [
+      "Read Chapter XXIV, \"A Roman Triumph (Continued),\" aloud together (pp. 71–72)",
+      "Narration: tell how the Romans kept a winner humble and how they rewarded soldiers",
+      "Map work: No new place today; review the seven hills and the Capitol",
+      "Timeline: No new date; note that triumphs went on for about 1,000 years"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXIV (p. 71)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n77/mode/1up"
+      }
+     ],
+     "pages": "pp. 71–72",
+     "questions": [
+      "What did the slave whisper to the general?",
+      "What was a civic crown made of, and who earned it?",
+      "How was an ovation different from a triumph?"
+     ],
+     "answers": [
+      "Remember you are nothing but a man",
+      "Oak leaves; a man who saved a fellow citizen's life",
+      "The general walked, wore myrtle, and a sheep was sacrificed instead of a bull"
+     ]
+    },
+    {
+     "title": "Chapter 25: The Defense of the Bridge",
+     "steps": [
+      "Read Chapter XXV, \"The Defense of the Bridge,\" aloud together (pp. 73–75)",
+      "Narration: tell how Horatius held the bridge",
+      "Map work: Find Clusium in Etruria and the Tiber crossing into Rome",
+      "Timeline: Add \"Horatius at the bridge; Porsena attacks Rome\" at c. 508 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXV (p. 73)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n79/mode/1up"
+      }
+     ],
+     "pages": "pp. 73–75",
+     "questions": [
+      "Why did the Romans cut down the bridge?",
+      "What did Horatius do once the bridge fell?",
+      "Why were the people worried about Valerius's new house?"
+     ],
+     "answers": [
+      "So Porsena's army could not cross the Tiber into Rome",
+      "He jumped into the Tiber and swam back to Rome",
+      "They feared he wanted to make himself king"
+     ],
+     "notes": "Horatius may have been a real hero, but the details are legend. Macaulay's poem \"Horatius\" (in Lays of Ancient Rome) makes a good companion read."
+    },
+    {
+     "title": "Chapter 26: The Burnt Hand",
+     "steps": [
+      "Read Chapter XXVI, \"The Burnt Hand,\" aloud together (pp. 76–78)",
+      "Narration: tell the stories of Mucius Scaevola and of Cloelia",
+      "Map work: Trace the Tiber where Cloelia swam across",
+      "Timeline: Add \"Mucius Scaevola; Porsena makes peace\" at c. 508 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXVI (p. 76)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n82/mode/1up"
+      }
+     ],
+     "pages": "pp. 76–78",
+     "questions": [
+      "What did Mucius do to show he was not afraid of Porsena?",
+      "What does the nickname Scaevola mean?",
+      "Why did the Romans send Cloelia back to Porsena?"
+     ],
+     "answers": [
+      "He held his right hand in the fire until it was burned",
+      "Left-handed",
+      "Because they had promised to keep the hostages there, and breaking a promise would be dishonorable"
+     ],
+     "notes": "Mucius tries to assassinate Porsena and kills the wrong man; the book praises his courage, which is worth discussing."
+    },
+    {
+     "title": "Chapter 27: The Twin Gods",
+     "steps": [
+      "Read Chapter XXVII, \"The Twin Gods,\" aloud together (pp. 78–81)",
+      "Narration: tell about the first dictator and the battle at Lake Regillus",
+      "Map work: Find Lake Regillus, south-east of Rome, and the Temple of Castor and Pollux in the Forum",
+      "Timeline: Add \"Battle of Lake Regillus\" at c. 496 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXVII (p. 78)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n84/mode/1up"
+      }
+     ],
+     "pages": "pp. 78–81",
+     "questions": [
+      "What was a dictator, and how long did he rule?",
+      "Who did the Romans say helped them win at Lake Regillus?",
+      "Why did the state have to pay for Valerius's funeral?"
+     ],
+     "answers": [
+      "One man given full power while the city was in danger",
+      "The twin gods Castor and Pollux on white horses",
+      "He had spent all his money on Rome and died poor"
+     ],
+     "notes": "The battle was real; the twin gods are legend. The temple's three columns still stand in the Forum."
+    },
+    {
+     "title": "Chapter 28: The Wrongs of the Poor",
+     "steps": [
+      "Read Chapter XXVIII, \"The Wrongs of the Poor,\" aloud together (pp. 81–83)",
+      "Narration: tell why the plebeians were unhappy and what they did about it",
+      "Map work: Find the Sacred Mountain (Mons Sacer), just north-east of Rome",
+      "Timeline: Add \"Plebeians leave Rome (first secession)\" at 494 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXVIII (p. 81)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n87/mode/1up"
+      }
+     ],
+     "pages": "pp. 81–83",
+     "questions": [
+      "Why could plebeians end up as slaves?",
+      "Who were not allowed to marry each other?",
+      "What happened in Rome when the plebeians left?"
+     ],
+     "answers": [
+      "If they could not pay their debts, the lender could sell them",
+      "Patricians and plebeians",
+      "There was no one to farm, sell food, or trade"
+     ]
+    },
+    {
+     "title": "Chapter 29: The Fable of the Stomach",
+     "steps": [
+      "Read Chapter XXIX, \"The Fable of the Stomach,\" aloud together (pp. 84–86)",
+      "Narration: retell Menenius's fable of the stomach in your own words",
+      "Map work: No new place today; point to the Sacred Mountain again",
+      "Timeline: Add \"First tribunes of the people\" at 494 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXIX (p. 84)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n90/mode/1up"
+      }
+     ],
+     "pages": "pp. 84–86",
+     "questions": [
+      "In the fable, who were the stomach and who were the limbs?",
+      "What Latin word could the tribunes say to stop a law?",
+      "What did the aediles look after?"
+     ],
+     "answers": [
+      "The patricians were the stomach; the plebeians were the limbs",
+      "Veto (\"I forbid\")",
+      "Public buildings, clean houses, good food, and the welfare of the poor"
+     ],
+     "notes": "Connect this to the U.S. President's veto, as the book does."
+    },
+    {
+     "title": "Chapter 30: The Story of Coriolanus",
+     "steps": [
+      "Read Chapter XXX, \"The Story of Coriolanus,\" aloud together (pp. 87–91)",
+      "Narration: tell how Coriolanus turned against Rome and why he spared it",
+      "Map work: Find the land of the Volscians, south-east of Rome",
+      "Timeline: Add \"Coriolanus marches on Rome\" at c. 491 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXX (p. 87)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n93/mode/1up"
+      }
+     ],
+     "pages": "pp. 87–91",
+     "questions": [
+      "Why did the plebeians hate Coriolanus?",
+      "Who finally persuaded Coriolanus to spare Rome?",
+      "What temple did the Romans build where the women knelt?"
+     ],
+     "answers": [
+      "He wanted to give them wheat only if they gave up their tribunes",
+      "His mother, Veturia",
+      "A temple to the Fortune of Women"
+     ],
+     "notes": "Coriolanus is half history, half legend. Shakespeare wrote a play about him."
+    },
+    {
+     "title": "Chapter 31: The Farmer Hero",
+     "steps": [
+      "Read Chapter XXXI, \"The Farmer Hero,\" aloud together (pp. 91–94)",
+      "Narration: tell about the 306 Fabii and about Cincinnatus the farmer",
+      "Map work: Find the Aequians' hill country east of Rome; on a U.S. map find Cincinnati, Ohio",
+      "Timeline: Add \"Fabii fall\" at 477 BC and \"Cincinnatus dictator\" at 458 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXI (p. 91)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n97/mode/1up"
+      }
+     ],
+     "pages": "pp. 91–94",
+     "questions": [
+      "What was Cincinnatus doing when the senators found him?",
+      "What was 'passing under the yoke'?",
+      "How long did Cincinnatus keep the power of dictator?"
+     ],
+     "answers": [
+      "Plowing his field",
+      "Making the beaten enemy walk under three spears while the Romans jeered",
+      "Only a few days (sixteen in the old story)"
+     ],
+     "notes": "George Washington was often called the American Cincinnatus because he gave up power and went home to his farm."
+    }
+   ]
+  },
+  {
+   "title": "Unit 4: Written Laws, the Gauls, and the Samnites (Chapters 32–39)",
+   "lessons": [
+    {
+     "title": "Chapter 32: The New Laws",
+     "steps": [
+      "Read Chapter XXXII, \"The New Laws,\" aloud together (pp. 94–97)",
+      "Narration: tell how the Romans got written laws and how Appius Claudius misused his power",
+      "Map work: Find Athens in Greece, where the Romans went to study laws",
+      "Timeline: Add \"Twelve Tables (written laws)\" at 451–450 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXII (p. 94)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n100/mode/1up"
+      }
+     ],
+     "pages": "pp. 94–97",
+     "questions": [
+      "Why did the Romans send three men to Athens?",
+      "Where were the new laws set up for all to read?",
+      "What did Appius Claudius plan to do to Virginia?"
+     ],
+     "answers": [
+      "To study the government and bring back Solon's laws",
+      "On bronze tablets in the Forum",
+      "Have his client claim her as a slave so he could take her"
+     ],
+     "notes": "Modern historians doubt the trip to Athens, but the Twelve Tables were real Roman laws."
+    },
+    {
+     "title": "Chapter 33: The Death of Virginia",
+     "steps": [
+      "Read Chapter XXXIII, \"The Death of Virginia,\" aloud together (pp. 97–98)",
+      "Narration: tell how the rule of the decemvirs ended",
+      "Map work: No new place today; find the Forum where the trial took place",
+      "Timeline: Add \"Decemvirs overthrown\" at 449 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXIII (p. 97)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n103/mode/1up"
+      }
+     ],
+     "pages": "pp. 97–98",
+     "questions": [
+      "What false thing did the client say about Virginia?",
+      "What happened to the laws on the bronze tablets after the decemvirs fell?"
+     ],
+     "answers": [
+      "That her mother had been his slave",
+      "They stayed in force because they were mostly good and fair"
+     ],
+     "notes": "Virginius kills his daughter to keep her from slavery. This is very upsetting; consider summarizing it for young children."
+    },
+    {
+     "title": "Chapter 34: The Plans of a Traitor",
+     "steps": [
+      "Read Chapter XXXIV, \"The Plans of a Traitor,\" aloud together (pp. 98–101)",
+      "Narration: tell what new rights the plebeians won and how Veii was finally taken",
+      "Map work: Find Veii and measure its distance from Rome (about 10 miles)",
+      "Timeline: Add \"Spurius Maelius killed\" at 439 BC and \"Veii captured by Camillus\" at 396 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXIV (p. 98)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n104/mode/1up"
+      }
+     ],
+     "pages": "pp. 98–101",
+     "questions": [
+      "What did censors do?",
+      "Why was Spurius Maelius giving away free grain?",
+      "How did Camillus get inside Veii?"
+     ],
+     "answers": [
+      "Counted the people, shared out public land, chose senators, and punished wrongdoing",
+      "He wanted the people to help him become king",
+      "His men dug a tunnel into the citadel"
+     ]
+    },
+    {
+     "title": "Chapter 35: The School-Teacher Punished",
+     "steps": [
+      "Read Chapter XXXV, \"The School-Teacher Punished,\" aloud together (pp. 101–104)",
+      "Narration: tell what Camillus did with the dishonest schoolteacher",
+      "Map work: Find Falerii north of Rome; then find the land of the Gauls north of the Alps and Clusium",
+      "Timeline: Add \"Camillus goes into exile\" at c. 391 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXV (p. 101)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n107/mode/1up"
+      }
+     ],
+     "pages": "pp. 101–104",
+     "questions": [
+      "What did the schoolteacher offer to give Camillus?",
+      "How did Camillus punish him?",
+      "Why was Brennus angry at the Roman ambassadors?"
+     ],
+     "answers": [
+      "His pupils, the sons of the city's leading men, as prisoners",
+      "He had the boys whip the teacher back into the city",
+      "They were supposed to stay neutral but joined the fight against the Gauls"
+     ]
+    },
+    {
+     "title": "Chapter 36: The Invasion of the Gauls",
+     "steps": [
+      "Read Chapter XXXVI, \"The Invasion of the Gauls,\" aloud together (pp. 104–106)",
+      "Narration: tell what happened when the Gauls entered Rome",
+      "Map work: Find the Allia River just north of Rome",
+      "Timeline: Add \"Gauls sack Rome\" at 390 BC (modern date often 387 BC)"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXVI (p. 104)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n110/mode/1up"
+      }
+     ],
+     "pages": "pp. 104–106",
+     "questions": [
+      "Where were the old senators and priests sitting when the Gauls came?",
+      "What did one Gaul do that started the killing?",
+      "Why do we know so little for certain about Rome's early history?"
+     ],
+     "answers": [
+      "In their ivory chairs in the Forum",
+      "He stroked a priest's beard",
+      "Many records burned when the Gauls set fire to the city"
+     ],
+     "notes": "Guerber says here that the earlier stories are mostly not true. Good moment to review the legend strip of your timeline."
+    },
+    {
+     "title": "Chapter 37: The Sacred Geese",
+     "steps": [
+      "Read Chapter XXXVII, \"The Sacred Geese,\" aloud together (pp. 106–109)",
+      "Narration: tell how the geese saved the Capitol and how the Gauls left",
+      "Map work: Find the Capitoline Hill and the steep cliff side the Gauls climbed",
+      "Timeline: Add \"Geese save the Capitol\" at 390 BC; add \"Manlius executed\" at 384 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXVII (p. 106)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n112/mode/1up"
+      }
+     ],
+     "pages": "pp. 106–109",
+     "questions": [
+      "What woke the Romans when the Gauls climbed the cliff?",
+      "What did Brennus throw into the scales?",
+      "What did Camillus say about paying with gold?"
+     ],
+     "answers": [
+      "The sacred geese cackling",
+      "His sword",
+      "Rome pays its ransom with the sword, not with gold"
+     ],
+     "notes": "Roman writers added Camillus's rescue to soften the shame; most historians think the Gauls left with the gold."
+    },
+    {
+     "title": "Chapter 38: Two Heroes of Rome",
+     "steps": [
+      "Read Chapter XXXVIII, \"Two Heroes of Rome,\" aloud together (pp. 109–112)",
+      "Narration: tell about Curtius and the chasm, and how Valerius got the name Corvus",
+      "Map work: Find the spot of the Curtian Lake (Lacus Curtius) in the middle of the Forum",
+      "Timeline: Add \"Death of Camillus\" at c. 365 BC; add \"Valerius Corvus fights the Gaul\" at c. 349 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXVIII (p. 109)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n115/mode/1up"
+      }
+     ],
+     "pages": "pp. 109–112",
+     "questions": [
+      "What did Curtius say was Rome's most precious thing?",
+      "What does the Latin word corvus mean?",
+      "Why was Camillus called the second founder of Rome?"
+     ],
+     "answers": [
+      "Its brave men",
+      "Raven",
+      "He encouraged the people to rebuild Rome after the Gauls burned it"
+     ],
+     "notes": "Guerber herself says the Curtius story is probably not true. The raven story is legend too."
+    },
+    {
+     "title": "Chapter 39: The Disaster at the Caudine Forks",
+     "steps": [
+      "Read Chapter XXXIX, \"The Disaster at the Caudine Forks,\" aloud together (pp. 112–115)",
+      "Narration: tell about Torquatus, the Caudine Forks, and Decius",
+      "Map work: Find Samnium in the mountains east and south-east of Latium, and the Caudine Forks pass",
+      "Timeline: Add \"Torquatus executes his son\" at 340 BC and \"Caudine Forks\" at 321 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XXXIX (p. 112)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n118/mode/1up"
+      }
+     ],
+     "pages": "pp. 112–115",
+     "questions": [
+      "How did Torquatus get his name?",
+      "What happened to the Roman army at the Caudine Forks?",
+      "Who were the Samnites?"
+     ],
+     "answers": [
+      "He took a gold neck ring (torque) from a Gaul he killed",
+      "It was trapped in a mountain pass and had to surrender and pass under the yoke",
+      "A brave mountain people east and south-east of Latium who fought Rome three times"
+     ],
+     "notes": "Another father executes his son for disobeying; the Romans admired this, but it is worth talking about."
+    }
+   ]
+  },
+  {
+   "title": "Unit 5: Pyrrhus and the Punic Wars (Chapters 40–48)",
+   "lessons": [
+    {
+     "title": "Chapter 40: Pyrrhus and his Elephants",
+     "steps": [
+      "Read Chapter XL, \"Pyrrhus and his Elephants,\" aloud together (pp. 115–118)",
+      "Narration: tell why Pyrrhus came to Italy and what happened at Heraclea",
+      "Map work: Find Tarentum (Taranto) in the heel of Italy and Epirus across the Adriatic in Greece",
+      "Timeline: Add \"Pyrrhus wins at Heraclea\" at 280 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XL (p. 115)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n121/mode/1up"
+      }
+     ],
+     "pages": "pp. 115–118",
+     "questions": [
+      "Why were the Romans so frightened at Heraclea?",
+      "What did Pyrrhus say about his costly victory?",
+      "What did Pyrrhus notice about the dead Roman soldiers?"
+     ],
+     "answers": [
+      "They had never seen fighting elephants before",
+      "One more victory like that and he would go home without an army",
+      "They all had their wounds in front, so none had run away"
+     ],
+     "notes": "A \"Pyrrhic victory\" means a win that costs so much it is almost a loss."
+    },
+    {
+     "title": "Chapter 41: The Elephants Routed",
+     "steps": [
+      "Read Chapter XLI, \"The Elephants Routed,\" aloud together (pp. 119–121)",
+      "Narration: tell how Fabricius showed his honesty and how the Romans beat the elephants",
+      "Map work: Find Asculum in southern Italy and Sicily across the strait",
+      "Timeline: Add \"Pyrrhus leaves Italy\" at 275 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLI (p. 119)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n125/mode/1up"
+      }
+     ],
+     "pages": "pp. 119–121",
+     "questions": [
+      "What did Pyrrhus try to scare Fabricius with?",
+      "What did Fabricius do with the doctor's letter?",
+      "How did the Romans turn the elephants back?"
+     ],
+     "answers": [
+      "An elephant hidden behind a curtain that suddenly trumpeted",
+      "He sent it to Pyrrhus to warn him",
+      "They threw burning balls of rosin and flax at them"
+     ]
+    },
+    {
+     "title": "Chapter 42: Ancient Ships",
+     "steps": [
+      "Read Chapter XLII, \"Ancient Ships,\" aloud together (pp. 121–124)",
+      "Narration: describe ancient warships and tell how Rome built its first navy",
+      "Map work: Find Mylae on the north coast of Sicily, and Syracuse",
+      "Timeline: Add \"First Punic War begins\" at 264 BC and \"Victory at Mylae\" at 260 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLII (p. 121)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n127/mode/1up"
+      }
+     ],
+     "pages": "pp. 121–124",
+     "questions": [
+      "What was a trireme?",
+      "What did the Romans use as a model for their ships?",
+      "What were the 'rostra'?"
+     ],
+     "answers": [
+      "A galley with three rows of rowers on each side",
+      "A wrecked Carthaginian quinquereme",
+      "The bronze beaks of captured ships, put up in the Forum"
+     ],
+     "notes": "The speakers' platform in the Forum was called the Rostra after these beaks; that is where our word 'rostrum' comes from."
+    },
+    {
+     "title": "Chapter 43: Regulus and the Snake",
+     "steps": [
+      "Read Chapter XLIII, \"Regulus and the Snake,\" aloud together (pp. 124–128)",
+      "Narration: tell about Regulus in Africa, the giant snake, and his promise",
+      "Map work: Find Carthage in North Africa and the short sea crossing from Sicily",
+      "Timeline: Add \"Regulus captured\" at 255 BC; add \"First Punic War ends\" at 241 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLIII (p. 124)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n130/mode/1up"
+      }
+     ],
+     "pages": "pp. 124–128",
+     "questions": [
+      "What did 'Punic faith' come to mean?",
+      "How did the Romans kill the great snake?",
+      "Why did Regulus go back to Carthage?"
+     ],
+     "answers": [
+      "Treachery, broken promises",
+      "They threw stones at it with a catapult (ballista)",
+      "He had promised to return if peace was not made, and he kept his word"
+     ],
+     "notes": "Guerber jokes that the 120-foot snake is a 'snake story.' The story of Regulus's return may also be a later legend."
+    },
+    {
+     "title": "Chapter 44: Hannibal crosses the Alps",
+     "steps": [
+      "Read Chapter XLIV, \"Hannibal crosses the Alps,\" aloud together (pp. 128–130)",
+      "Narration: tell how the Second Punic War began and how Hannibal crossed the Alps",
+      "Map work: Trace Hannibal's route from Spain over the Pyrenees, across Gaul (France), and over the Alps into Italy",
+      "Timeline: Add \"Hannibal crosses the Alps\" at 218 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLIV (p. 128)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n134/mode/1up"
+      }
+     ],
+     "pages": "pp. 128–130",
+     "questions": [
+      "What promise had Hannibal made as a boy?",
+      "Which Spanish city did Hannibal attack?",
+      "How long did it take to cross the Alps?"
+     ],
+     "answers": [
+      "To fight Rome as long as he lived",
+      "Saguntum",
+      "About two weeks"
+     ],
+     "notes": "The book does not mention it, but Hannibal brought war elephants over the Alps; children love to know that."
+    },
+    {
+     "title": "Chapter 45: The Romans Defeated",
+     "steps": [
+      "Read Chapter XLV, \"The Romans Defeated,\" aloud together (pp. 130–132)",
+      "Narration: tell about Hannibal's victories and how Fabius fought him",
+      "Map work: Find the Trebia River, Lake Trasimene, Cannae, and Capua",
+      "Timeline: Add \"Lake Trasimene\" at 217 BC and \"Battle of Cannae\" at 216 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLV (p. 130)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n136/mode/1up"
+      }
+     ],
+     "pages": "pp. 130–132",
+     "questions": [
+      "What was the 'Fabian policy'?",
+      "How did Hannibal escape from the mountain pass?",
+      "Why did Hannibal's army get weak at Capua?"
+     ],
+     "answers": [
+      "Avoiding big battles and wearing the enemy down by cutting off supplies",
+      "He tied torches to oxen's horns and stampeded them through the Romans",
+      "Easy living made the soldiers fat and lazy"
+     ]
+    },
+    {
+     "title": "Chapter 46: The Inventor Archimedes",
+     "steps": [
+      "Read Chapter XLVI, \"The Inventor Archimedes,\" aloud together (pp. 133–137)",
+      "Narration: tell about Archimedes and how the Second Punic War ended",
+      "Map work: Find Syracuse in Sicily, Numidia west of Carthage, and Zama",
+      "Timeline: Add \"Syracuse falls; Archimedes killed\" at 212 BC and \"Battle of Zama\" at 202 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLVI (p. 133)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n139/mode/1up"
+      }
+     ],
+     "pages": "pp. 133–137",
+     "questions": [
+      "Name one invention of Archimedes.",
+      "How did Archimedes die?",
+      "What name was Scipio given after his victory?"
+     ],
+     "answers": [
+      "Any one: war catapults, giant grappling hooks, burning mirrors, the water screw",
+      "A Roman soldier killed him while he was working on a problem",
+      "Africanus"
+     ],
+     "notes": "The burning mirrors are probably legend. Hasdrubal's head being thrown into the camp is a gruesome detail."
+    },
+    {
+     "title": "Chapter 47: The Roman Conquests",
+     "steps": [
+      "Read Chapter XLVII, \"The Roman Conquests,\" aloud together (pp. 137–139)",
+      "Narration: tell how Rome defeated Macedon and Syria, and what Hannibal said about great generals",
+      "Map work: Find Macedonia, Greece, Syria, Asia Minor, and Pydna",
+      "Timeline: Add \"Greeks declared free\" at 196 BC and \"Battle of Pydna\" at 168 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLVII (p. 137)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n143/mode/1up"
+      }
+     ],
+     "pages": "pp. 137–139",
+     "questions": [
+      "Whom did Hannibal name as the greatest general?",
+      "How did Hannibal die?",
+      "What happened to Macedonia in the end?"
+     ],
+     "answers": [
+      "Alexander the Great",
+      "He took poison he kept in a ring",
+      "It became a Roman province"
+     ],
+     "notes": "The conversation between Hannibal and Scipio is a famous story but may never have happened. Hannibal's suicide is mentioned."
+    },
+    {
+     "title": "Chapter 48: Destruction of Carthage",
+     "steps": [
+      "Read Chapter XLVIII, \"Destruction of Carthage,\" aloud together (pp. 139–142)",
+      "Narration: tell how Carthage defended itself and how it was destroyed",
+      "Map work: Find Carthage, Corinth in Greece, and Numantia in Spain",
+      "Timeline: Add \"Carthage and Corinth destroyed\" at 146 BC and \"Numantia falls\" at 133 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLVIII (p. 139)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n145/mode/1up"
+      }
+     ],
+     "pages": "pp. 139–142",
+     "questions": [
+      "What did Cato say at the end of every speech?",
+      "How did the women of Carthage help defend the city?",
+      "Which two other cities were also destroyed?"
+     ],
+     "answers": [
+      "Carthage must be destroyed!",
+      "They gave their jewelry and cut off their hair for ropes and bowstrings",
+      "Corinth and Numantia"
+     ],
+     "notes": "The tale that the Romans sowed salt on Carthage is a modern invention; it is not in this book."
+    }
+   ]
+  },
+  {
+   "title": "Unit 6: Rich and Poor: The Gracchi, Marius, and Sulla (Chapters 49–57)",
+   "lessons": [
+    {
+     "title": "Chapter 49: Roman Amusements",
+     "steps": [
+      "Read Chapter XLIX, \"Roman Amusements,\" aloud together (pp. 142–145)",
+      "Narration: tell how Roman life changed and describe the gladiator shows",
+      "Map work: Mark on a map all the Roman provinces named: Spain, Africa, Asia Minor, Greece, Macedonia, northern Italy",
+      "Timeline: Add \"Rome rules the Mediterranean\" at c. 146 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XLIX (p. 142)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n148/mode/1up"
+      }
+     ],
+     "pages": "pp. 142–145",
+     "questions": [
+      "Who taught the Roman children to read Greek?",
+      "Where did the word 'gladiator' come from?",
+      "Why did the lion not attack Androclus?"
+     ],
+     "answers": [
+      "Greek slaves",
+      "From gladius, the Latin word for a short sword",
+      "Androclus had once pulled a thorn from its paw"
+     ],
+     "notes": "The Pantheon was built much later (27 BC, rebuilt about AD 125), and the Androclus tale is set in the time of the emperors. Gladiator fights are described plainly."
+    },
+    {
+     "title": "Chapter 50: The Jewels of Cornelia",
+     "steps": [
+      "Read Chapter L, \"The Jewels of Cornelia,\" aloud together (pp. 146–148)",
+      "Narration: tell how the gap between rich and poor grew, and what Cornelia called her jewels",
+      "Map work: No new place today; review Rome and the provinces",
+      "Timeline: Add \"Tiberius Gracchus elected tribune\" at 133 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter L (p. 146)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n152/mode/1up"
+      }
+     ],
+     "pages": "pp. 146–148",
+     "questions": [
+      "Why did so many poor people crowd into Rome?",
+      "What did the Licinian Law say?",
+      "Whom did Cornelia call her jewels?"
+     ],
+     "answers": [
+      "Rich men owned the land and worked it with slaves, so the poor had no land or work",
+      "No citizen could own more than a certain amount of land",
+      "Her sons, Tiberius and Caius Gracchus"
+     ]
+    },
+    {
+     "title": "Chapter 51: The Death of Tiberius Gracchus",
+     "steps": [
+      "Read Chapter LI, \"The Death of Tiberius Gracchus,\" aloud together (pp. 148–150)",
+      "Narration: tell what Tiberius Gracchus tried to do for the poor and what happened to him",
+      "Map work: Find Pergamum in Asia Minor, whose king left his wealth to Rome",
+      "Timeline: Add \"Tiberius Gracchus killed\" at 133 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LI (p. 148)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n154/mode/1up"
+      }
+     ],
+     "pages": "pp. 148–150",
+     "questions": [
+      "What did Tiberius want to do with the extra public land?",
+      "What signal did Tiberius give, and how did the senators twist its meaning?"
+     ],
+     "answers": [
+      "Divide it among the poor citizens",
+      "He raised his hands to his head to warn his friends; they said he was asking for a crown"
+     ],
+     "notes": "This chapter marks the start of a century of political violence in Rome."
+    },
+    {
+     "title": "Chapter 52: Caius Gracchus",
+     "steps": [
+      "Read Chapter LII, \"Caius Gracchus,\" aloud together (pp. 151–152)",
+      "Narration: tell about Caius Gracchus and his mother Cornelia",
+      "Map work: Find the Aventine Hill, where Caius's followers gathered",
+      "Timeline: Add \"Caius Gracchus killed\" at 121 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LII (p. 151)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n157/mode/1up"
+      }
+     ],
+     "pages": "pp. 151–152",
+     "questions": [
+      "What did Caius do to help hungry people?",
+      "What was written on Cornelia's statue?"
+     ],
+     "answers": [
+      "Got the price of grain lowered",
+      "Cornelia, the mother of the Gracchi"
+     ],
+     "notes": "There are very gory details about Caius's head; you may wish to skip that paragraph when reading aloud."
+    },
+    {
+     "title": "Chapter 53: Jugurtha, King of Numidia",
+     "steps": [
+      "Read Chapter LIII, \"Jugurtha, King of Numidia,\" aloud together (pp. 153–155)",
+      "Narration: tell how Jugurtha bribed the Romans and how he was finally caught",
+      "Map work: Find Numidia (modern Algeria) in North Africa",
+      "Timeline: Add \"War with Jugurtha\" at 112–105 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LIII (p. 153)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n159/mode/1up"
+      }
+     ],
+     "pages": "pp. 153–155",
+     "questions": [
+      "How did Jugurtha keep the Roman senators from punishing him?",
+      "What did Jugurtha call Rome as he left?",
+      "How did the Roman soldier climb the steep fortress rock?"
+     ],
+     "answers": [
+      "He bribed them with rich presents",
+      "A city for sale to anyone rich enough to buy it",
+      "He stuck his bare toes in snail holes and cracks"
+     ]
+    },
+    {
+     "title": "Chapter 54: The Barbarians",
+     "steps": [
+      "Read Chapter LIV, \"The Barbarians,\" aloud together (pp. 155–158)",
+      "Narration: tell how Marius stopped the Cimbri and Teutons",
+      "Map work: Find the Alps, southern Gaul (France), and Lombardy in northern Italy",
+      "Timeline: Add \"Marius defeats the Teutons and Cimbri\" at 102–101 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LIV (p. 155)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n161/mode/1up"
+      }
+     ],
+     "pages": "pp. 155–158",
+     "questions": [
+      "Who were Marius and Sulla?",
+      "Why did the Cimbri tie themselves together?",
+      "How many times had Marius been consul after this victory?"
+     ],
+     "answers": [
+      "Two ambitious Roman generals and rivals; Marius was poor-born, Sulla a patrician",
+      "To hold each other up in battle",
+      "Six times"
+     ],
+     "notes": "The book calls these peoples 'barbarians' and describes the women killing their children; consider skipping that sentence."
+    },
+    {
+     "title": "Chapter 55: The Social War",
+     "steps": [
+      "Read Chapter LV, \"The Social War,\" aloud together (pp. 158–160)",
+      "Narration: tell why the Italian allies went to war with Rome",
+      "Map work: Shade the parts of Italy held by Rome's Italian allies",
+      "Timeline: Add \"Social War\" at 91–88 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LV (p. 158)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n164/mode/1up"
+      }
+     ],
+     "pages": "pp. 158–160",
+     "questions": [
+      "What did the Italian allies want?",
+      "Why is it called the Social War?",
+      "How did the war end?"
+     ],
+     "answers": [
+      "The rights of Roman citizens",
+      "The allies were called socii in Latin",
+      "The Italians were given most of the rights they asked for"
+     ]
+    },
+    {
+     "title": "Chapter 56: The Flight of Marius",
+     "steps": [
+      "Read Chapter LVI, \"The Flight of Marius,\" aloud together (pp. 160–162)",
+      "Narration: tell how Marius had to flee and how he escaped death",
+      "Map work: Find Minturnae on the coast south of Rome, then the ruins of Carthage",
+      "Timeline: Add \"Sulla marches on Rome\" at 88 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LVI (p. 160)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n166/mode/1up"
+      }
+     ],
+     "pages": "pp. 160–162",
+     "questions": [
+      "What did Sulla do instead of giving up his army?",
+      "Where did old Marius hide?",
+      "Why did the slave run away from Marius's cell?"
+     ],
+     "answers": [
+      "He marched his army into Rome",
+      "In a marsh, up to his chin in mud",
+      "Marius's fierce look and words frightened him"
+     ],
+     "notes": "Sulla's march on Rome was the first time a Roman army took the city; Caesar would later follow his example."
+    },
+    {
+     "title": "Chapter 57: The Proscription Lists",
+     "steps": [
+      "Read Chapter LVII, \"The Proscription Lists,\" aloud together (pp. 162–164)",
+      "Narration: tell what Marius and Sulla did when each came back to power",
+      "Map work: Find Pontus in Asia Minor, where Sulla fought Mithridates",
+      "Timeline: Add \"Death of Marius\" at 86 BC and \"Sulla dictator; proscriptions\" at 82 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LVII (p. 162)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n168/mode/1up"
+      }
+     ],
+     "pages": "pp. 162–164",
+     "questions": [
+      "What were the proscription lists?",
+      "What title did Sulla force the Romans to give him?",
+      "What did Sulla call himself on his tomb?"
+     ],
+     "answers": [
+      "Posted lists of people Sulla wanted killed, with rewards for killing them",
+      "Dictator for life",
+      "Sulla the Fortunate"
+     ],
+     "notes": "This chapter describes mass killings; summarize as needed."
+    }
+   ]
+  },
+  {
+   "title": "Unit 7: Pompey and Caesar (Chapters 58–65)",
+   "lessons": [
+    {
+     "title": "Chapter 58: Sertorius and his Doe",
+     "steps": [
+      "Read Chapter LVIII, \"Sertorius and his Doe,\" aloud together (pp. 165–167)",
+      "Narration: tell about Sertorius and his white doe, and how Pompey ended the war in Spain",
+      "Map work: Find Spain's mountains and Sardinia",
+      "Timeline: Add \"Sertorius killed; war in Spain ends\" at 72 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LVIII (p. 165)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n171/mode/1up"
+      }
+     ],
+     "pages": "pp. 165–167",
+     "questions": [
+      "Why did the Spaniards think the gods favored Sertorius?",
+      "What did Pompey do with Sertorius's secret papers?"
+     ],
+     "answers": [
+      "A white doe, sacred to Diana, followed him everywhere",
+      "He burned them without reading them"
+     ],
+     "notes": "The book calls the Spaniards 'credulous'; Sertorius likely used the doe on purpose to win their trust."
+    },
+    {
+     "title": "Chapter 59: The Revolt of the Slaves",
+     "steps": [
+      "Read Chapter LIX, \"The Revolt of the Slaves,\" aloud together (pp. 167–170)",
+      "Narration: tell the story of Spartacus and the slave revolt",
+      "Map work: Find Capua and Mount Vesuvius, then the road from Capua to Rome",
+      "Timeline: Add \"Revolt of Spartacus\" at 73–71 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LIX (p. 167)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n173/mode/1up"
+      }
+     ],
+     "pages": "pp. 167–170",
+     "questions": [
+      "Who was Spartacus?",
+      "Why did Spartacus kill his horse before the battle?",
+      "Who won the battle, and who claimed the credit?"
+     ],
+     "answers": [
+      "A Thracian gladiator who led the slave revolt",
+      "If he won he would have better horses; if he lost he would need none",
+      "Crassus won; Pompey claimed the credit"
+     ],
+     "notes": "The crucifixion of 6,000 rebels is mentioned in the last line."
+    },
+    {
+     "title": "Chapter 60: Pompey's Conquests",
+     "steps": [
+      "Read Chapter LX, \"Pompey's Conquests,\" aloud together (pp. 170–172)",
+      "Narration: tell how Pompey cleared the sea of pirates and conquered the East",
+      "Map work: Find Pontus, Syria, Phoenicia, Judea, and Jerusalem",
+      "Timeline: Add \"Pompey clears the pirates\" at 67 BC and \"Pompey takes Jerusalem\" at 63 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LX (p. 170)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n176/mode/1up"
+      }
+     ],
+     "pages": "pp. 170–172",
+     "questions": [
+      "How long did it take Pompey to clear the pirates?",
+      "What did Pompey advise doing with the captured pirates?",
+      "How did moonlight help Pompey win?"
+     ],
+     "answers": [
+      "About four months",
+      "Send them out to start new colonies",
+      "His soldiers' long shadows made the enemy think giants were coming"
+     ],
+     "notes": "The book's comment that Pompey's power fell as a punishment for entering the Holy of Holies is a view, not history."
+    },
+    {
+     "title": "Chapter 61: The Conspiracy of Catiline",
+     "steps": [
+      "Read Chapter LXI, \"The Conspiracy of Catiline,\" aloud together (pp. 172–175)",
+      "Narration: tell about Catiline's plot and how the First Triumvirate began",
+      "Map work: Find Gaul, the province Caesar asked to govern",
+      "Timeline: Add \"Catiline's conspiracy\" at 63 BC and \"First Triumvirate\" at 60 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXI (p. 172)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n178/mode/1up"
+      }
+     ],
+     "pages": "pp. 172–175",
+     "questions": [
+      "Who discovered Catiline's plot?",
+      "Who were the three men of the Triumvirate?",
+      "What did Caesar say he would rather be?"
+     ],
+     "answers": [
+      "Cicero, the consul",
+      "Julius Caesar, Pompey, and Crassus",
+      "First in a village than second in Rome"
+     ]
+    },
+    {
+     "title": "Chapter 62: Caesar's Conquests",
+     "steps": [
+      "Read Chapter LXII, \"Caesar's Conquests,\" aloud together (pp. 176–178)",
+      "Narration: tell about Caesar's wars in Gaul and Britain and what happened to Crassus",
+      "Map work: Find Gaul (France), Belgium, Switzerland, Britain, and the Channel crossing from Calais to Deal",
+      "Timeline: Add \"Caesar lands in Britain\" at 55 BC and \"Crassus killed by the Parthians\" at 53 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXII (p. 176)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n182/mode/1up"
+      }
+     ],
+     "pages": "pp. 176–178",
+     "questions": [
+      "What did Caesar write about his wars?",
+      "How did the Britons look when Caesar landed?",
+      "Why did Caesar's soldiers love him?"
+     ],
+     "answers": [
+      "An account of the Gallic Wars, still read by Latin students",
+      "Dressed in animal skins with their skin painted blue",
+      "He spoke kindly, knew them by name, and led by example"
+     ]
+    },
+    {
+     "title": "Chapter 63: The Crossing of the Rubicon",
+     "steps": [
+      "Read Chapter LXIII, \"The Crossing of the Rubicon,\" aloud together (pp. 179–181)",
+      "Narration: tell why Caesar crossed the Rubicon and what it meant",
+      "Map work: Find the Rubicon River in northern Italy and Brundisium in the heel",
+      "Timeline: Add \"Caesar crosses the Rubicon\" at 49 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXIII (p. 179)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n185/mode/1up"
+      }
+     ],
+     "pages": "pp. 179–181",
+     "questions": [
+      "Why was it against the law for Caesar to cross the Rubicon with his army?",
+      "What did Caesar cry as he crossed?",
+      "What does 'crossing the Rubicon' mean today?"
+     ],
+     "answers": [
+      "A governor had to leave his army behind before entering Roman territory",
+      "The die is cast!",
+      "Making a bold decision that cannot be undone"
+     ]
+    },
+    {
+     "title": "Chapter 64: The Battle of Pharsalia",
+     "steps": [
+      "Read Chapter LXIV, \"The Battle of Pharsalia,\" aloud together (pp. 181–184)",
+      "Narration: tell how Caesar beat Pompey at Pharsalia and what happened to Pompey",
+      "Map work: Find Dyrrachium (on the Adriatic coast of modern Albania), Thessaly, Pharsalus, and Egypt",
+      "Timeline: Add \"Battle of Pharsalus\" and \"Pompey killed in Egypt\" at 48 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXIV (p. 181)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n187/mode/1up"
+      }
+     ],
+     "pages": "pp. 181–184",
+     "questions": [
+      "What did Caesar tell the frightened fishermen in the storm?",
+      "What did Caesar do with Pompey's papers?",
+      "Where was Pompey killed?"
+     ],
+     "answers": [
+      "Go on boldly, for you carry Caesar and his fortunes",
+      "He burned them without reading them",
+      "On the shore of Egypt, as he landed"
+     ],
+     "notes": "The king who had Pompey killed is usually numbered Ptolemy XIII today (the book says XII)."
+    },
+    {
+     "title": "Chapter 65: The Death of Caesar",
+     "steps": [
+      "Read Chapter LXV, \"The Death of Caesar,\" aloud together (pp. 184–187)",
+      "Narration: tell what Caesar did after Pharsalia and how he died",
+      "Map work: Find Alexandria in Egypt and Pontus in Asia Minor",
+      "Timeline: Add \"Caesar killed (the Ides of March)\" at 44 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXV (p. 184)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n190/mode/1up"
+      }
+     ],
+     "pages": "pp. 184–187",
+     "questions": [
+      "What three Latin words did Caesar send after his quick victory?",
+      "Which month is named after Julius Caesar?",
+      "Who were the two leaders of the plot against Caesar?"
+     ],
+     "answers": [
+      "Veni, vidi, vici (I came, I saw, I conquered)",
+      "July",
+      "Brutus and Cassius"
+     ],
+     "notes": "Historians still debate how much of the Library of Alexandria burned in Caesar's war; it was not all lost at once. \"And you, too, Brutus\" is the famous line from Shakespeare's play."
+    }
+   ]
+  },
+  {
+   "title": "Unit 8: From Republic to Empire (Chapters 66–72)",
+   "lessons": [
+    {
+     "title": "Chapter 66: The Second Triumvirate",
+     "steps": [
+      "Read Chapter LXVI, \"The Second Triumvirate,\" aloud together (pp. 188–189)",
+      "Narration: tell what happened in Rome right after Caesar's death",
+      "Map work: Find Macedonia and Syria, where Brutus and Cassius went",
+      "Timeline: Add \"Second Triumvirate\" at 43 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXVI (p. 188)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n194/mode/1up"
+      }
+     ],
+     "pages": "pp. 188–189",
+     "questions": [
+      "Why did the senators slip away while Brutus was speaking?",
+      "What did Caesar's will give to the people?",
+      "Who were the three men of the Second Triumvirate?"
+     ],
+     "answers": [
+      "They were not sure how the people would take Caesar's death",
+      "His gardens for public use and a sum of money to every poor man",
+      "Mark Antony, Octavius, and Lepidus"
+     ],
+     "notes": "Shakespeare's Julius Caesar (Antony's speech, 'Friends, Romans, countrymen') pairs well with this chapter for older children."
+    },
+    {
+     "title": "Chapter 67: The Vision of Brutus",
+     "steps": [
+      "Read Chapter LXVII, \"The Vision of Brutus,\" aloud together (pp. 189–192)",
+      "Narration: tell about the new proscriptions and the battle of Philippi",
+      "Map work: Find Philippi in northern Greece and Athens",
+      "Timeline: Add \"Cicero killed\" at 43 BC and \"Battle of Philippi\" at 42 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXVII (p. 189)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n195/mode/1up"
+      }
+     ],
+     "pages": "pp. 189–192",
+     "questions": [
+      "Which famous orator was killed in the proscriptions?",
+      "What did the specter tell Brutus?",
+      "How did Lucilius help Brutus?"
+     ],
+     "answers": [
+      "Cicero",
+      "That it was his evil spirit and Brutus would see it again at Philippi",
+      "He pretended to be Brutus so the real Brutus could escape"
+     ],
+     "notes": "Cicero's death is described in grisly detail, and Brutus and Cassius take their own lives. The ghost is a legend from Plutarch."
+    },
+    {
+     "title": "Chapter 68: Antony and Cleopatra",
+     "steps": [
+      "Read Chapter LXVIII, \"Antony and Cleopatra,\" aloud together (pp. 192–195)",
+      "Narration: tell how Antony came under Cleopatra's spell and what happened at Actium",
+      "Map work: Find Egypt, Sicily, and Actium on the west coast of Greece",
+      "Timeline: Add \"Battle of Actium\" at 31 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXVIII (p. 192)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n198/mode/1up"
+      }
+     ],
+     "pages": "pp. 192–195",
+     "questions": [
+      "What happened to Lepidus?",
+      "What did Cleopatra do with a priceless pearl?",
+      "What did Antony do when Cleopatra's ship fled?"
+     ],
+     "answers": [
+      "His power was taken away, and he was made chief priest",
+      "Dissolved it in vinegar and drank it",
+      "He left his fleet and followed her"
+     ],
+     "notes": "The book's picture of Cleopatra comes from her enemies' writings; she was also a clever ruler who spoke many languages."
+    },
+    {
+     "title": "Chapter 69: The Poisonous Snake",
+     "steps": [
+      "Read Chapter LXIX, \"The Poisonous Snake,\" aloud together (pp. 195–197)",
+      "Narration: tell how Antony and Cleopatra died and what this meant for Rome",
+      "Map work: Find Alexandria in Egypt again",
+      "Timeline: Add \"Deaths of Antony and Cleopatra; Egypt becomes Roman\" at 30 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXIX (p. 195)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n201/mode/1up"
+      }
+     ],
+     "pages": "pp. 195–197",
+     "questions": [
+      "Why did Cleopatra not want to go to Rome?",
+      "What kind of snake bit Cleopatra?",
+      "What ended and what began with Antony's death?"
+     ],
+     "answers": [
+      "She would have to walk in Octavius's triumph",
+      "An asp",
+      "The Roman Republic ended and the Roman Empire began"
+     ],
+     "notes": "This whole chapter is about suicide. Preview it, or summarize for younger children."
+    },
+    {
+     "title": "Chapter 70: The Augustan Age",
+     "steps": [
+      "Read Chapter LXX, \"The Augustan Age,\" aloud together (pp. 197–200)",
+      "Narration: tell how Octavius became Augustus and what the Augustan Age was famous for",
+      "Map work: Find Bethlehem in Judea on a map of the Roman Empire",
+      "Timeline: Add \"Augustus, first emperor\" at 27 BC; add \"Birth of Jesus\" at c. 4 BC"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXX (p. 197)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n203/mode/1up"
+      }
+     ],
+     "pages": "pp. 197–200",
+     "questions": [
+      "Name one great writer of the Augustan Age.",
+      "What did people say Augustus did to the city of Rome?",
+      "What did Augustus do when Cinna plotted to kill him?"
+     ],
+     "answers": [
+      "Any of: Virgil, Ovid, Horace, Livy, Cornelius Nepos",
+      "He found it brick and left it marble",
+      "He forgave him"
+     ],
+     "notes": "Scholars date Jesus's birth to about 6–4 BC, a little before the year 1 used in our calendar. The book is written from a Christian viewpoint."
+    },
+    {
+     "title": "Chapter 71: Death of Augustus",
+     "steps": [
+      "Read Chapter LXXI, \"Death of Augustus,\" aloud together (pp. 201–203)",
+      "Narration: tell about the lost legions of Varus and the last days of Augustus",
+      "Map work: Find the Rhine River and the Teutoburg Forest in Germany, and the island of Rhodes",
+      "Timeline: Add \"Varus's legions lost\" at AD 9 and \"Death of Augustus; Tiberius emperor\" at AD 14"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXI (p. 201)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n207/mode/1up"
+      }
+     ],
+     "pages": "pp. 201–203",
+     "questions": [
+      "Which month is named after Augustus?",
+      "What did Augustus cry out at night?",
+      "How did the astrologer Thrasyllus save his life?"
+     ],
+     "answers": [
+      "August",
+      "Varus, Varus, give me back my legions!",
+      "He told Tiberius he would be emperor and said he himself was in danger"
+     ]
+    },
+    {
+     "title": "Chapter 72: Varus Avenged",
+     "steps": [
+      "Read Chapter LXXII, \"Varus Avenged,\" aloud together (pp. 203–206)",
+      "Narration: tell about Germanicus and how he avenged Varus",
+      "Map work: Find the Rhine frontier and Fidenae, just north of Rome",
+      "Timeline: Add \"Germanicus defeats Arminius\" at AD 16"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXII (p. 203)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n209/mode/1up"
+      }
+     ],
+     "pages": "pp. 203–206",
+     "questions": [
+      "How did Caligula get his name?",
+      "What did Germanicus do at the place where Varus's army died?",
+      "What did the coin made for Germanicus's triumph say?"
+     ],
+     "answers": [
+      "From the little soldier's boots he wore (caligae)",
+      "He gathered and buried the bones of the dead soldiers",
+      "The return of good luck"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 9: Tiberius to Nero (Chapters 73–80)",
+   "lessons": [
+    {
+     "title": "Chapter 73: Death of Germanicus",
+     "steps": [
+      "Read Chapter LXXIII, \"Death of Germanicus,\" aloud together (pp. 206–208)",
+      "Narration: tell how Germanicus died and how Sejanus gained power",
+      "Map work: Find Antioch in Syria and the island of Capri",
+      "Timeline: Add \"Death of Germanicus\" at AD 19"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXIII (p. 206)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n212/mode/1up"
+      }
+     ],
+     "pages": "pp. 206–208",
+     "questions": [
+      "How did Germanicus die?",
+      "What was the Praetorian Guard?",
+      "Where did Tiberius go to live?"
+     ],
+     "answers": [
+      "He drank poison given by Piso",
+      "The emperor's bodyguard",
+      "The island of Capri"
+     ],
+     "notes": "Ancient writers blamed Tiberius for Germanicus's death, but it was never proved; the book states it as rumor."
+    },
+    {
+     "title": "Chapter 74: Tiberius Smothered",
+     "steps": [
+      "Read Chapter LXXIV, \"Tiberius Smothered,\" aloud together (pp. 208–211)",
+      "Narration: tell how Sejanus fell and how Tiberius died",
+      "Map work: Find Jerusalem in Judea",
+      "Timeline: Add \"Fall of Sejanus\" at AD 31; add \"Crucifixion of Jesus\" at c. AD 30–33; add \"Death of Tiberius\" at AD 37"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXIV (p. 208)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n214/mode/1up"
+      }
+     ],
+     "pages": "pp. 208–211",
+     "questions": [
+      "How did Tiberius trick Sejanus?",
+      "Who was the Roman governor in Jerusalem when Jesus was crucified?",
+      "How did Tiberius die?"
+     ],
+     "answers": [
+      "He sent Sejanus a friendly letter but sent the senate an order to arrest him",
+      "Pontius Pilate",
+      "He was smothered under mattresses and pillows"
+     ],
+     "notes": "The story of Pilate's report and Tiberius asking to make Jesus a Roman god comes from early Christian writers, not from Roman records."
+    },
+    {
+     "title": "Chapter 75: The Wild Caligula",
+     "steps": [
+      "Read Chapter LXXV, \"The Wild Caligula,\" aloud together (pp. 211–215)",
+      "Narration: tell some of the crazy and cruel things Caligula did",
+      "Map work: Find the Rhine and the coast facing Britain where Caligula collected shells",
+      "Timeline: Add \"Caligula emperor\" at AD 37–41"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXV (p. 211)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n217/mode/1up"
+      }
+     ],
+     "pages": "pp. 211–215",
+     "questions": [
+      "What was the name of Caligula's favorite horse?",
+      "What did Caligula bring back as 'spoils of the ocean'?",
+      "How long did Caligula rule?"
+     ],
+     "answers": [
+      "Incitatus",
+      "Seashells",
+      "About three years (nearly four)"
+     ],
+     "notes": "Many of these stories come from writers who hated Caligula and may be exaggerated."
+    },
+    {
+     "title": "Chapter 76: The Wicked Wives of Claudius",
+     "steps": [
+      "Read Chapter LXXVI, \"The Wicked Wives of Claudius,\" aloud together (pp. 215–218)",
+      "Narration: tell how Claudius became emperor and what his wives did",
+      "Map work: Find Britain and Dalmatia (on the east coast of the Adriatic)",
+      "Timeline: Add \"Claudius emperor\" at AD 41 and \"Romans conquer southern Britain\" at AD 43"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXVI (p. 215)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n221/mode/1up"
+      }
+     ],
+     "pages": "pp. 215–218",
+     "questions": [
+      "Where did the soldiers find Claudius?",
+      "Which land partly became a Roman province under Claudius?",
+      "How did Agrippina get rid of Claudius?"
+     ],
+     "answers": [
+      "Hiding behind a curtain in the palace",
+      "Britain",
+      "She had him eat poisoned mushrooms"
+     ],
+     "notes": "The book calls Claudius half-witted; modern historians see him as a capable scholar and ruler with a disability. Arria's suicide is described."
+    },
+    {
+     "title": "Chapter 77: Nero's First Crimes",
+     "steps": [
+      "Read Chapter LXXVII, \"Nero's First Crimes,\" aloud together (pp. 218–221)",
+      "Narration: tell how Nero began his reign and how he treated his own family",
+      "Map work: Find the Bay of Naples, where Agrippina's ship fell apart",
+      "Timeline: Add \"Nero emperor\" at AD 54; add \"Agrippina killed\" at AD 59"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXVII (p. 218)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n224/mode/1up"
+      }
+     ],
+     "pages": "pp. 218–221",
+     "questions": [
+      "Who were Nero's two wise advisers?",
+      "What did Nero say when he first had to sign a death warrant?",
+      "How did Nero first try to get rid of his mother?"
+     ],
+     "answers": [
+      "Seneca and Burrhus",
+      "I wish I did not know how to write!",
+      "He put her on a ship built to fall apart at sea"
+     ],
+     "notes": "Poisoning and murder within the family; preview if you have sensitive listeners."
+    },
+    {
+     "title": "Chapter 78: The Christians Persecuted",
+     "steps": [
+      "Read Chapter LXXVIII, \"The Christians Persecuted,\" aloud together (pp. 221–225)",
+      "Narration: tell about Nero's follies, the great fire, and the persecution of the Christians",
+      "Map work: Find Rome and trace Peter's and Paul's journeys there from Judea",
+      "Timeline: Add \"Great Fire of Rome\" at AD 64; add \"Peter and Paul martyred\" at c. AD 64–67"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXVIII (p. 221)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n227/mode/1up"
+      }
+     ],
+     "pages": "pp. 221–225",
+     "questions": [
+      "What did Nero like to do on the stage?",
+      "Whom did Nero blame for the fire?",
+      "What does the word 'martyr' mean here?"
+     ],
+     "answers": [
+      "Sing and act, though his voice was poor",
+      "The Christians",
+      "Someone who dies for their faith"
+     ],
+     "notes": "Nero singing while Rome burned is a legend; the historian Tacitus says Nero was away at Antium and came back to help. The tortures of Christians are described plainly."
+    },
+    {
+     "title": "Chapter 79: Nero's Cruelty",
+     "steps": [
+      "Read Chapter LXXIX, \"Nero's Cruelty,\" aloud together (pp. 225–227)",
+      "Narration: tell about Nero's Golden Palace and how his reign ended",
+      "Map work: Find Spain, where the legions chose Galba",
+      "Timeline: Add \"Death of Nero\" at AD 68"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXIX (p. 225)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n231/mode/1up"
+      }
+     ],
+     "pages": "pp. 225–227",
+     "questions": [
+      "Why was Nero's palace called the Golden Palace?",
+      "How did Epicharis keep the secret of the plot?",
+      "What did Nero say just before he died?"
+     ],
+     "answers": [
+      "It glittered with gold inside and out",
+      "She refused to speak under torture and then took her own life",
+      "What a pity that such a fine musician should perish!"
+     ],
+     "notes": "Several forced suicides are described, including Seneca's."
+    },
+    {
+     "title": "Chapter 80: Two Short Reigns",
+     "steps": [
+      "Read Chapter LXXX, \"Two Short Reigns,\" aloud together (pp. 227–228)",
+      "Narration: tell about the short reigns of Galba and Otho",
+      "Map work: Find Bedriacum in northern Italy and the Rhine frontier",
+      "Timeline: Add \"Year of the Four Emperors\" at AD 69"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXX (p. 227)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n233/mode/1up"
+      }
+     ],
+     "pages": "pp. 227–228",
+     "questions": [
+      "Why could old Galba not do what he wished?",
+      "Where did Otho get the money to bribe the soldiers?",
+      "Which army chose Vitellius?"
+     ],
+     "answers": [
+      "He was not firm, and his favorites pushed him to be too harsh or too soft",
+      "He stole it from Galba's treasury",
+      "The legions on the Rhine"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 10: Vespasian to Antoninus Pius (Chapters 81–89)",
+   "lessons": [
+    {
+     "title": "Chapter 81: The Siege of Jerusalem",
+     "steps": [
+      "Read Chapter LXXXI, \"The Siege of Jerusalem,\" aloud together (pp. 228–231)",
+      "Narration: tell about Vitellius, Vespasian, and the siege of Jerusalem",
+      "Map work: Find Jerusalem; then find the Colosseum and the Arch of Titus on a map of Rome",
+      "Timeline: Add \"Vespasian emperor\" at AD 69; add \"Jerusalem and the Temple destroyed\" at AD 70"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXXI (p. 228)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n234/mode/1up"
+      }
+     ],
+     "pages": "pp. 228–231",
+     "questions": [
+      "What was Vitellius's great fault?",
+      "What huge building did Vespasian begin?",
+      "What treasure from the Temple is carved on the Arch of Titus?"
+     ],
+     "answers": [
+      "Gluttony (greedy eating)",
+      "The Colosseum",
+      "The seven-branched golden candlestick (menorah)"
+     ],
+     "notes": "The book connects the fall of Jerusalem with Christ's prophecy, a faith viewpoint. Casualty numbers come from Josephus and are probably too high."
+    },
+    {
+     "title": "Chapter 82: The Buried Cities",
+     "steps": [
+      "Read Chapter LXXXII, \"The Buried Cities,\" aloud together (pp. 231–234)",
+      "Narration: tell about good Emperor Titus and what happened to Pompeii",
+      "Map work: Find Mount Vesuvius, Pompeii, and Herculaneum on the Bay of Naples",
+      "Timeline: Add \"Vesuvius buries Pompeii\" at AD 79"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXXII (p. 231)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n237/mode/1up"
+      }
+     ],
+     "pages": "pp. 231–234",
+     "questions": [
+      "What did Titus say when a day passed without helping anyone?",
+      "Who died trying to see the eruption up close?",
+      "How were the buried cities found again?"
+     ],
+     "answers": [
+      "Alas, I have lost a day!",
+      "Pliny the Elder, the naturalist",
+      "A man digging a well struck an old house"
+     ],
+     "notes": "Pompeii was buried mostly by ash and hot volcanic flows, not lava. A picture book or photos of Pompeii make a great follow-up."
+    },
+    {
+     "title": "Chapter 83: The Terrible Banquet",
+     "steps": [
+      "Read Chapter LXXXIII, \"The Terrible Banquet,\" aloud together (pp. 235–237)",
+      "Narration: tell about Domitian's cruelty and his strange black banquet",
+      "Map work: Find Dacia (modern Romania), north of the Danube River",
+      "Timeline: Add \"Domitian emperor\" at AD 81"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXXIII (p. 235)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n241/mode/1up"
+      }
+     ],
+     "pages": "pp. 235–237",
+     "questions": [
+      "How did Domitian show off his archery?",
+      "Why did Domitian keep Agricola at home?",
+      "What were the little black columns really made of?"
+     ],
+     "answers": [
+      "He shot arrows between the spread fingers of a slave's hand",
+      "He was jealous of his success",
+      "Pure gold"
+     ]
+    },
+    {
+     "title": "Chapter 84: The Emperor's Tablets",
+     "steps": [
+      "Read Chapter LXXXIV, \"The Emperor's Tablets,\" aloud together (pp. 237–238)",
+      "Narration: tell how Domitian's own list led to his death",
+      "Map work: Find the island of Patmos in the Aegean Sea and Ephesus",
+      "Timeline: Add \"Death of Domitian\" at AD 96; add \"John writes Revelation on Patmos\" at c. AD 95"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXXIV (p. 237)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n243/mode/1up"
+      }
+     ],
+     "pages": "pp. 237–238",
+     "questions": [
+      "How did Domitia learn she was going to be killed?",
+      "Where was John sent, and what did he write there?"
+     ],
+     "answers": [
+      "She found her name on the emperor's tablets of people to be killed",
+      "The island of Patmos; the Book of Revelation"
+     ],
+     "notes": "The boiling-oil story about John is a church tradition; the book itself says some stories have him living to old age."
+    },
+    {
+     "title": "Chapter 85: The Good Trajan",
+     "steps": [
+      "Read Chapter LXXXV, \"The Good Trajan,\" aloud together (pp. 239–240)",
+      "Narration: tell about the good emperors Nerva and Trajan",
+      "Map work: Find Germany's Rhine frontier, where Trajan was when he became emperor",
+      "Timeline: Add \"Nerva\" at AD 96 and \"Trajan emperor\" at AD 98"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXXV (p. 239)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n245/mode/1up"
+      }
+     ],
+     "pages": "pp. 239–240",
+     "questions": [
+      "Why did Trajan not hurry back to Rome?",
+      "What did Trajan say when he handed a sword to the guard captain?",
+      "How did Trajan help the poor get bread?"
+     ],
+     "answers": [
+      "He finished his duty on the frontier first",
+      "Use this for me if I do my duty, against me if I do not",
+      "He built granaries and sold grain cheaply in honest measures"
+     ]
+    },
+    {
+     "title": "Chapter 86: Trajan's Column",
+     "steps": [
+      "Read Chapter LXXXVI, \"Trajan's Column,\" aloud together (pp. 240–242)",
+      "Narration: tell about Trajan's conquests and his column",
+      "Map work: Find Dacia, Mesopotamia, and Babylon",
+      "Timeline: Add \"Dacia conquered\" at AD 106; add \"Empire at its largest\" at AD 117"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXXVI (p. 240)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n246/mode/1up"
+      }
+     ],
+     "pages": "pp. 240–242",
+     "questions": [
+      "What surname did Trajan earn?",
+      "What still stands in Rome to honor his victories?",
+      "What did later senators say to every new emperor?"
+     ],
+     "answers": [
+      "The Dacian",
+      "Trajan's Column",
+      "Reign as fortunately as Augustus, as virtuously as Trajan!"
+     ],
+     "notes": "Plutarch's Lives, mentioned here, is the source for many stories in this book."
+    },
+    {
+     "title": "Chapter 87: The Great Wall",
+     "steps": [
+      "Read Chapter LXXXVII, \"The Great Wall,\" aloud together (pp. 243–244)",
+      "Narration: tell about Hadrian's travels and his wall",
+      "Map work: Find Hadrian's Wall across northern England, then trace Hadrian's journeys to Gaul, Spain, Africa, and Athens",
+      "Timeline: Add \"Hadrian emperor\" at AD 117 and \"Hadrian's Wall begun\" at AD 122"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXXVII (p. 243)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n249/mode/1up"
+      }
+     ],
+     "pages": "pp. 243–244",
+     "questions": [
+      "What did Hadrian say to an old enemy?",
+      "How did Hadrian share his soldiers' hardships?",
+      "How long was Hadrian's Wall, and whom did it keep out?"
+     ],
+     "answers": [
+      "My good friend, you have escaped, for I am made emperor",
+      "He marched with them and ate their plain food",
+      "About 73 miles; tribes from Scotland"
+     ],
+     "notes": "The idea that Hadrian wanted to make Christ a Roman god is a late legend."
+    },
+    {
+     "title": "Chapter 88: Hadrian's Death",
+     "steps": [
+      "Read Chapter LXXXVIII, \"Hadrian's Death,\" aloud together (pp. 244–246)",
+      "Narration: tell what Hadrian built and how his life ended",
+      "Map work: Find Tivoli (Tibur) near Rome and the Castle of Sant'Angelo by the Tiber",
+      "Timeline: Add \"Jewish revolt crushed\" at AD 132–135; add \"Death of Hadrian\" at AD 138"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXXVIII (p. 244)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n250/mode/1up"
+      }
+     ],
+     "pages": "pp. 244–246",
+     "questions": [
+      "What is Hadrian's tomb called today?",
+      "Why did Hadrian become cruel near the end?",
+      "Whom did Hadrian choose to rule after him?"
+     ],
+     "answers": [
+      "The Castle of Sant'Angelo (St. Angelo)",
+      "He became ill, which made him cross and suspicious",
+      "Antoninus"
+     ]
+    },
+    {
+     "title": "Chapter 89: Antoninus Pius",
+     "steps": [
+      "Read Chapter LXXXIX, \"Antoninus Pius,\" aloud together (pp. 246–248)",
+      "Narration: tell why Antoninus was called Pius and what kind of ruler he was",
+      "Map work: Find Nîmes and the Pont du Gard in southern France",
+      "Timeline: Add \"Antoninus Pius emperor\" at AD 138–161"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter LXXXIX (p. 246)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n252/mode/1up"
+      }
+     ],
+     "pages": "pp. 246–248",
+     "questions": [
+      "What did Antoninus do when hungry people threw stones at him?",
+      "Whose writings changed his mind about the Christians?",
+      "What was his favorite saying?"
+     ],
+     "answers": [
+      "He forgave them and gave them the food from his palace",
+      "Justin, a Christian philosopher",
+      "I would rather save one citizen than kill a thousand enemies"
+     ],
+     "notes": "The Pont du Gard was actually built about a century earlier. The catacombs were mainly Christian burial places, not hiding places."
+    }
+   ]
+  },
+  {
+   "title": "Unit 11: Marcus Aurelius to Zenobia (Chapters 90–96)",
+   "lessons": [
+    {
+     "title": "Chapter 90: The Model Pagan",
+     "steps": [
+      "Read Chapter XC, \"The Model Pagan,\" aloud together (pp. 248–251)",
+      "Narration: tell what kind of man Marcus Aurelius was and what troubles came in his reign",
+      "Map work: Find the Danube frontier and Vienna (Vindobona), where Marcus Aurelius died",
+      "Timeline: Add \"Marcus Aurelius emperor\" at AD 161–180"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XC (p. 248)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n254/mode/1up"
+      }
+     ],
+     "pages": "pp. 248–251",
+     "questions": [
+      "Who were the Stoics?",
+      "What is the name of the book Marcus Aurelius wrote?",
+      "Who was the lame slave whose teaching he admired?"
+     ],
+     "answers": [
+      "Philosophers who taught people to bear troubles nobly and seek to be good rather than happy",
+      "The Meditations",
+      "Epictetus"
+     ],
+     "notes": "The 'rain miracle' was claimed by both pagans and Christians. The plague brought home from the East was real (the Antonine Plague)."
+    },
+    {
+     "title": "Chapter 91: Another Cruel Emperor",
+     "steps": [
+      "Read Chapter XCI, \"Another Cruel Emperor,\" aloud together (pp. 251–254)",
+      "Narration: tell how Commodus was different from his father",
+      "Map work: Point to the Colosseum, where Commodus fought as a gladiator",
+      "Timeline: Add \"Commodus emperor\" at AD 180–192"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XCI (p. 251)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n257/mode/1up"
+      }
+     ],
+     "pages": "pp. 251–254",
+     "questions": [
+      "What happened when Commodus ordered a slave thrown into the fire?",
+      "Why were Commodus's fights in the arena not fair?",
+      "What did Commodus like to call himself?"
+     ],
+     "answers": [
+      "The servants burned a sheepskin instead and saved the slave",
+      "His opponents had lead swords that could not hurt him",
+      "The Roman Hercules"
+     ]
+    },
+    {
+     "title": "Chapter 92: An Unnatural Son",
+     "steps": [
+      "Read Chapter XCII, \"An Unnatural Son,\" aloud together (pp. 254–256)",
+      "Narration: tell how Septimius Severus became emperor and what his son Caracalla did",
+      "Map work: Find Byzantium on the Bosporus, Lyons in Gaul, and York in Britain",
+      "Timeline: Add \"Septimius Severus emperor\" at AD 193; add \"Severus dies at York\" at AD 211"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XCII (p. 254)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n260/mode/1up"
+      }
+     ],
+     "pages": "pp. 254–256",
+     "questions": [
+      "What was an apotheosis?",
+      "What did Severus offer Caracalla when Caracalla tried to kill him?",
+      "What did Severus say to his funeral urn?"
+     ],
+     "answers": [
+      "A ceremony to make a dead emperor a god",
+      "A sword, daring him to kill him openly",
+      "Little urn, you will soon hold one for whom the world seemed too small"
+     ],
+     "notes": "Septimius Severus was born in Leptis Magna in North Africa, a sign of how wide the empire had grown."
+    },
+    {
+     "title": "Chapter 93: The Senate of Women",
+     "steps": [
+      "Read Chapter XCIII, \"The Senate of Women,\" aloud together (pp. 256–259)",
+      "Narration: tell about Caracalla, Heliogabalus, and Alexander Severus",
+      "Map work: Find Alexandria in Egypt and the Rhine frontier",
+      "Timeline: Add \"Baths of Caracalla\" at c. AD 216; add \"Alexander Severus\" at AD 222–235"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XCIII (p. 256)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n262/mode/1up"
+      }
+     ],
+     "pages": "pp. 256–259",
+     "questions": [
+      "What famous buildings did Caracalla build in Rome?",
+      "What was unusual about the senate Heliogabalus made?",
+      "What was Alexander good at, and what was he not good at?"
+     ],
+     "answers": [
+      "Public baths",
+      "It was a senate of women, led by his mother",
+      "Painting, sculpture, poetry, math, and music; he had no skill as a soldier"
+     ],
+     "notes": "Writers who hated Heliogabalus made up or exaggerated many stories about him; treat them as gossip."
+    },
+    {
+     "title": "Chapter 94: The Gigantic Emperor",
+     "steps": [
+      "Read Chapter XCIV, \"The Gigantic Emperor,\" aloud together (pp. 259–262)",
+      "Narration: tell about giant Maximinus and Rome's thousandth birthday",
+      "Map work: Find Thrace (where Maximinus came from) and the Danube",
+      "Timeline: Add \"Rome's 1,000th birthday games\" at AD 248"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XCIV (p. 259)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n265/mode/1up"
+      }
+     ],
+     "pages": "pp. 259–262",
+     "questions": [
+      "How did Maximinus become a soldier and then emperor?",
+      "What did Philip celebrate with great games?",
+      "What happened to the army that Decius was sent to calm?"
+     ],
+     "answers": [
+      "He was a herdsman who joined the army and impressed everyone with his strength",
+      "Rome's one thousandth anniversary",
+      "They made him emperor and forced him to fight Philip"
+     ],
+     "notes": "Maximinus's eight-foot height and huge meals come from an unreliable ancient book and are surely exaggerated."
+    },
+    {
+     "title": "Chapter 95: Invasion of the Goths",
+     "steps": [
+      "Read Chapter XCV, \"Invasion of the Goths,\" aloud together (pp. 262–264)",
+      "Narration: tell about the coming of the Goths and what happened to Emperor Valerian",
+      "Map work: Find the Danube, Thrace, and Persia; find Antioch in Syria",
+      "Timeline: Add \"Goths kill Emperor Decius\" at AD 251; add \"Valerian captured by Persians\" at AD 260"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XCV (p. 262)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n268/mode/1up"
+      }
+     ],
+     "pages": "pp. 262–264",
+     "questions": [
+      "What were the three groups of Goths?",
+      "Which god did the Goths worship?",
+      "What did the Persian king Sapor use Valerian for?"
+     ],
+     "answers": [
+      "Ostrogoths (East Goths), Visigoths (West Goths), and Gepidae",
+      "Odin",
+      "A mounting block to climb onto his horse"
+     ],
+     "notes": "The story of Valerian's skin is told by Christian writers and may be exaggerated."
+    },
+    {
+     "title": "Chapter 96: Zenobia, Queen of Palmyra",
+     "steps": [
+      "Read Chapter XCVI, \"Zenobia, Queen of Palmyra,\" aloud together (pp. 264–266)",
+      "Narration: tell the story of Queen Zenobia of Palmyra",
+      "Map work: Find Palmyra in the Syrian desert, Egypt, and Tivoli near Rome",
+      "Timeline: Add \"Aurelian defeats Zenobia\" at AD 272"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XCVI (p. 264)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n270/mode/1up"
+      }
+     ],
+     "pages": "pp. 264–266",
+     "questions": [
+      "What title did Zenobia take?",
+      "Which land did Zenobia conquer?",
+      "How did Zenobia spend the rest of her life?"
+     ],
+     "answers": [
+      "Empress of the East",
+      "Egypt",
+      "Quietly in a palace near Tibur (Tivoli), raising her children"
+     ],
+     "notes": "The book says France is named after the Franks, which is true. Palmyra's ruins still stand, though some were damaged in 2015."
+    }
+   ]
+  },
+  {
+   "title": "Unit 12: Christian Emperors and the Fall of the West (Chapters 97–102)",
+   "lessons": [
+    {
+     "title": "Chapter 97: A Prophecy Fulfilled",
+     "steps": [
+      "Read Chapter XCVII, \"A Prophecy Fulfilled,\" aloud together (pp. 266–269)",
+      "Narration: tell how Diocletian divided the rule and how Constantine won at the Milvian Bridge",
+      "Map work: Find Nicomedia, Milan, Sirmium, and Trier (Treves); find the Arch of Constantine in Rome",
+      "Timeline: Add \"Diocletian emperor\" at AD 284; add \"Battle of the Milvian Bridge\" at AD 312"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XCVII (p. 266)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n272/mode/1up"
+      }
+     ],
+     "pages": "pp. 266–269",
+     "questions": [
+      "What did 'Aper' mean, and why did it matter?",
+      "How many rulers did Diocletian share the empire among?",
+      "What words did Constantine see with the cross?"
+     ],
+     "answers": [
+      "Boar; Diocletian killed Aper, fulfilling the prophecy",
+      "Four",
+      "By this sign conquer"
+     ],
+     "notes": "Diocletian's persecution of Christians was the worst of all; the book mentions it briefly."
+    },
+    {
+     "title": "Chapter 98: The First Christian Emperor",
+     "steps": [
+      "Read Chapter XCVIII, \"The First Christian Emperor,\" aloud together (pp. 269–271)",
+      "Narration: tell what Constantine did as the first Christian emperor and who Julian was",
+      "Map work: Find Nicaea and Byzantium/Constantinople (modern Istanbul); find Paris (Lutetia)",
+      "Timeline: Add \"Christians free to worship\" at AD 313; \"Council of Nicaea\" at AD 325; \"Constantinople founded\" at AD 330"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XCVIII (p. 269)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n275/mode/1up"
+      }
+     ],
+     "pages": "pp. 269–271",
+     "questions": [
+      "Who was Constantine's devout Christian mother?",
+      "What new name did Byzantium get?",
+      "Why was Julian called the Apostate?"
+     ],
+     "answers": [
+      "Helena",
+      "Constantinople, the city of Constantine",
+      "He gave up Christianity and went back to the old gods"
+     ],
+     "notes": "Constantine was baptized only on his deathbed, and gladiator games went on for some years after him."
+    },
+    {
+     "title": "Chapter 99: The Roman Empire Divided",
+     "steps": [
+      "Read Chapter XCIX, \"The Roman Empire Divided,\" aloud together (pp. 271–273)",
+      "Narration: tell how the empire was split between East and West",
+      "Map work: Find Tarsus, Thrace, and Adrianople; color the Eastern and Western halves of the empire",
+      "Timeline: Add \"Battle of Adrianople\" at AD 378; add \"Empire divided for good\" at AD 395"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter XCIX (p. 271)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n277/mode/1up"
+      }
+     ],
+     "pages": "pp. 271–273",
+     "questions": [
+      "What did Julian try to rebuild, and what stopped it?",
+      "Who translated the Bible into the Gothic language?",
+      "Which emperor was the last to rule the whole empire?"
+     ],
+     "answers": [
+      "The Temple at Jerusalem; an earthquake and a war with Persia",
+      "Ulfilas",
+      "Theodosius the Great"
+     ],
+     "notes": "The book calls one group the 'true Christians'; this is the author's viewpoint on the Arian debate."
+    },
+    {
+     "title": "Chapter 100: An Emperor's Penance",
+     "steps": [
+      "Read Chapter C, \"An Emperor's Penance,\" aloud together (pp. 273–275)",
+      "Narration: tell about Theodosius's penance and how the Goths came into Italy",
+      "Map work: Find Thessalonica in Greece, Milan, and Ravenna",
+      "Timeline: Add \"Theodosius's penance\" at AD 390; add \"Honorius moves to Ravenna\" at AD 402"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter C (p. 273)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n279/mode/1up"
+      }
+     ],
+     "pages": "pp. 273–275",
+     "questions": [
+      "What did Theodosius do that he later repented of?",
+      "Who made him do public penance?",
+      "Why did Honorius move to Ravenna?"
+     ],
+     "answers": [
+      "He ordered a massacre of the people of Thessalonica",
+      "St. Ambrose",
+      "He was frightened and thought it would be easier to defend"
+     ]
+    },
+    {
+     "title": "Chapter 101: Sieges of Rome",
+     "steps": [
+      "Read Chapter CI, \"Sieges of Rome,\" aloud together (pp. 275–277)",
+      "Narration: tell how Alaric took Rome and how Attila was turned back",
+      "Map work: Trace the Goths from Italy to Spain; find Châlons in France and the route of the Huns into Italy",
+      "Timeline: Add \"Alaric sacks Rome\" at AD 410; add \"Battle of Châlons\" at AD 451"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter CI (p. 275)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n281/mode/1up"
+      }
+     ],
+     "pages": "pp. 275–277",
+     "questions": [
+      "How long had it been since an enemy army had entered Rome?",
+      "What was Attila called?",
+      "Who persuaded Attila to spare Rome?"
+     ],
+     "answers": [
+      "About 800 years, since the Gauls",
+      "The Scourge of God",
+      "Pope Leo"
+     ],
+     "notes": "The book's marriage condition for Attila is a simplified version of the story of Honoria, Valentinian's sister."
+    },
+    {
+     "title": "Chapter 102: End of the Empire of the West",
+     "steps": [
+      "Read Chapter CII, \"End of the Empire of the West,\" aloud together (pp. 277–278)",
+      "Narration: tell how the Western Empire came to an end",
+      "Map work: Find Carthage again (the Vandals sailed from there) and Constantinople",
+      "Timeline: Add \"Vandals sack Rome\" at AD 455; add \"End of the Western Empire\" at AD 476; add \"Constantinople falls to the Turks\" at 1453"
+     ],
+     "links": [
+      {
+       "label": "Read Chapter CII (p. 277)",
+       "url": "https://archive.org/details/storyromans02guergoog/page/n283/mode/1up"
+      }
+     ],
+     "pages": "pp. 277–278",
+     "questions": [
+      "What did people decide Romulus's twelve vultures meant?",
+      "Who was the last emperor of the West?",
+      "Where did the Eastern Empire go on, and until when?"
+     ],
+     "answers": [
+      "Twelve centuries of Roman rule",
+      "Romulus Augustulus",
+      "At Constantinople, until 1453"
+     ],
+     "notes": "A good closing activity: review your whole timeline from the legend of Aeneas to AD 476."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2416 @@
+{
+  "key": "harveys-elementary-grammar",
+  "title": "Harvey's Elementary Grammar and Composition",
+  "sourceTitle": "Harvey's Language Course: Elementary Grammar and Composition, Revised Edition",
+  "author": "Thomas W. Harvey",
+  "seller": "Thomas W. Harvey",
+  "year": 1880,
+  "sourceUrl": "https://archive.org/details/elementarygramma00harv",
+  "readUrl": "https://archive.org/details/elementarygramma00harv/page/n12/mode/1up",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Title page of the Internet Archive scan of the Library of Congress copy (elementarygramma00harv): 'Copyright, 1880, by Van Antwerp, Bragg & Co.' (first edition entered 1869). Published before 1930, so public domain in the USA; Library of Congress notes no known copyright restrictions.",
+  "subjects": [
+    "writing"
+  ],
+  "gradeMin": 4,
+  "gradeMax": 7,
+  "philosophies": [
+    "classical",
+    "traditional",
+    "charlotte_mason"
+  ],
+  "lessonsPerWeek": 4,
+  "minutesPerLesson": 30,
+  "parentInvolvement": "medium",
+  "familyStyle": false,
+  "cover": "📝",
+  "color": "#9B6BD6",
+  "description": "Thomas Harvey's classic 1880 grammar, a favorite of 19th-century schoolrooms, for grades 4–7. Each day introduces one idea through a short question-and-answer talk, then the child makes sentences, corrects common mistakes, analyzes and diagrams, and writes compositions from pictures and plans. The full scanned book is free online.",
+  "includes": [
+    "97 lessons covering all 134 sections and the appendix in 14 units",
+    "Part I: the parts of speech, sentence-making, and picture compositions",
+    "Part II: parsing, sentence diagrams, rules of syntax, and letter writing",
+    "Part III: punctuation rules",
+    "Answers for grammar and usage questions",
+    "A link to the exact page of the free scanned book for every lesson"
+  ],
+  "units": [
+    {
+      "title": "Part I: Words and Sentences (Sections 1–6)",
+      "lessons": [
+        {
+          "title": "Sections 1–2: Objects and Definitions",
+          "steps": [
+            "Name the five senses and something you perceive with each",
+            "Read the definitions of object, word, language, and grammar",
+            "Answer the book's questions aloud, then copy the definition of grammar"
+          ],
+          "links": [
+            {
+              "label": "Read sections 1–2",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n12/mode/1up"
+            }
+          ],
+          "pages": "pp. 7–8",
+          "questions": [
+            "How many senses do we have?",
+            "Is joy something we perceive or something we are conscious of?",
+            "What does English grammar teach?"
+          ],
+          "answers": [
+            "Five",
+            "Something we are conscious of",
+            "How to speak and write the English language correctly"
+          ]
+        },
+        {
+          "title": "Sections 3–4: The Sentence; Declarative and Interrogative Sentences",
+          "steps": [
+            "Make three sentences about a piece of chalk (or another object) the way the book does",
+            "Learn the five directions for writing sentences",
+            "Unscramble the word groups into telling sentences and asking sentences"
+          ],
+          "links": [
+            {
+              "label": "Read sections 3–4",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n13/mode/1up"
+            }
+          ],
+          "pages": "pp. 8–10",
+          "questions": [
+            "What is a group of words making complete sense called?",
+            "What mark ends a question?",
+            "Which kind of sentence states a fact?"
+          ],
+          "answers": [
+            "A sentence",
+            "An interrogation point (question mark)",
+            "A declarative sentence"
+          ],
+          "notes": "Keep making new scrambled sentences until fifteen-word sentences come easily, as the book suggests."
+        },
+        {
+          "title": "Section 4 (II): Imperative and Exclamatory Sentences",
+          "steps": [
+            "Read how commands, entreaties, and exclamations are made",
+            "Unscramble the imperative and exclamatory word groups",
+            "Name the kind of each sentence in the book's list, then find each kind in your reader"
+          ],
+          "links": [
+            {
+              "label": "Read section 4 (ii)",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n15/mode/1up"
+            }
+          ],
+          "pages": "pp. 10–11",
+          "questions": [
+            "What kind of sentence is \"Go to your seats, boys.\"?",
+            "What kind of sentence is \"Oh, how pretty she is!\"?",
+            "What mark usually follows an exclamatory sentence?"
+          ],
+          "answers": [
+            "Imperative",
+            "Exclamatory",
+            "An exclamation point"
+          ]
+        },
+        {
+          "title": "Sections 5–6: Quotation Marks; Parts of Speech",
+          "steps": [
+            "Read when quotation marks are used and when they are not",
+            "Copy the four practice sentences, adding quotation marks and capitals",
+            "Talk through \"Good scholars study diligently\": which word names, tells what is done, describes, tells how"
+          ],
+          "links": [
+            {
+              "label": "Read sections 5–6",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n16/mode/1up"
+            }
+          ],
+          "pages": "pp. 11–13",
+          "questions": [
+            "Should quotation marks be used when we give someone's exact words?",
+            "What are the classes of words called?",
+            "How do we decide which class a word belongs to?"
+          ],
+          "answers": [
+            "Yes",
+            "Parts of speech",
+            "By its meaning and use"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part I: The Noun and the Simple Sentence (Sections 7–14)",
+      "lessons": [
+        {
+          "title": "Section 7: The Noun — Common and Proper",
+          "steps": [
+            "Read the oral lesson on nouns, answering the questions aloud",
+            "Write five kinds of fruit, five rivers, five schoolmates, and so on from the book's list",
+            "Sort the word list into common and proper nouns, then parse two nouns using the model"
+          ],
+          "links": [
+            {
+              "label": "Read section 7",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n18/mode/1up"
+            }
+          ],
+          "pages": "pp. 13–15",
+          "questions": [
+            "Is \"volcano\" a common or a proper noun?",
+            "Is \"Lake Erie\" a common or a proper noun?",
+            "What kind of letter begins a proper noun?"
+          ],
+          "answers": [
+            "Common",
+            "Proper",
+            "A capital letter"
+          ]
+        },
+        {
+          "title": "Section 8: Number",
+          "steps": [
+            "Read how singular and plural nouns differ",
+            "Go over the ways of forming plurals (s, es, ves, ies, and words alike in both numbers)",
+            "Write the plurals of the thirty nouns in the list"
+          ],
+          "links": [
+            {
+              "label": "Read section 8",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n20/mode/1up"
+            }
+          ],
+          "pages": "pp. 15–16",
+          "questions": [
+            "What is the plural of \"knife\"?",
+            "What is the plural of \"folly\"?",
+            "What is the plural of \"sheep\"?"
+          ],
+          "answers": [
+            "knives",
+            "follies",
+            "sheep"
+          ],
+          "notes": "The book says plurals are learned by writing them, not by memorizing many rules; help with the hard ones."
+        },
+        {
+          "title": "Section 9: Abbreviations",
+          "steps": [
+            "Read how abbreviations are made and punctuated",
+            "Copy the tables of abbreviations with what they stand for",
+            "Rewrite the practice sentences using abbreviations, and write the abbreviations for the days of the week"
+          ],
+          "links": [
+            {
+              "label": "Read section 9",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n21/mode/1up"
+            }
+          ],
+          "pages": "pp. 16–18",
+          "questions": [
+            "What does \"P. S.\" stand for?",
+            "What mark follows an abbreviation?",
+            "What is the abbreviation for Captain?"
+          ],
+          "answers": [
+            "Postscript",
+            "A period",
+            "Capt."
+          ]
+        },
+        {
+          "title": "Sections 10–11: Contractions; Elements of a Sentence",
+          "steps": [
+            "Tell which letters are left out in each contraction in the exercise",
+            "Learn the meanings of subject, predicate, and copula",
+            "Point out the subject, predicate, and copula in each practice sentence"
+          ],
+          "links": [
+            {
+              "label": "Read sections 10–11",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n23/mode/1up"
+            }
+          ],
+          "pages": "pp. 18–20",
+          "questions": [
+            "What mark shows that letters are left out of a word?",
+            "In \"Iron is heavy,\" what is the subject?",
+            "In \"Iron is heavy,\" what is the copula?"
+          ],
+          "answers": [
+            "An apostrophe",
+            "Iron",
+            "is"
+          ]
+        },
+        {
+          "title": "Section 12: The Predicate",
+          "steps": [
+            "Read how quality-words and nouns can be predicates",
+            "Affirm a quality of each subject in the first list (e.g. \"Oranges are yellow\")",
+            "Give each listed quality a fitting subject, and state the class of each noun in the last list"
+          ],
+          "links": [
+            {
+              "label": "Read section 12",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n25/mode/1up"
+            }
+          ],
+          "pages": "pp. 20–21",
+          "questions": [
+            "In \"Horses are animals,\" what does the predicate tell?",
+            "Give a quality you could affirm of lead.",
+            "Is \"animals\" in \"Horses are animals\" a noun or a quality-word?"
+          ],
+          "answers": [
+            "The kind or class horses belong to",
+            "Any fitting quality, e.g. \"Lead is heavy\"",
+            "A noun"
+          ]
+        },
+        {
+          "title": "Section 13: Elements and Analysis",
+          "steps": [
+            "Learn what elements, principal elements, and analysis are",
+            "Analyze \"Iron is heavy\" aloud following the model, and look at its line diagram",
+            "Analyze the nine practice sentences and diagram three of them"
+          ],
+          "links": [
+            {
+              "label": "Read section 13",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n26/mode/1up"
+            }
+          ],
+          "pages": "pp. 21–22",
+          "questions": [
+            "What are the two principal elements of a sentence?",
+            "Is the copula called an element?",
+            "What is analysis?"
+          ],
+          "answers": [
+            "The subject and the predicate",
+            "No",
+            "Separating a sentence into its elements"
+          ]
+        },
+        {
+          "title": "Section 14: Composition — Picture Lessons",
+          "steps": [
+            "Look at the bird's-nest picture and answer its questions aloud, beginning \"I see\"",
+            "Write the answers as a short composition and read it back",
+            "Do the same with the dog-and-rats picture"
+          ],
+          "links": [
+            {
+              "label": "Read section 14",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n27/mode/1up"
+            }
+          ],
+          "pages": "pp. 22–24",
+          "questions": [
+            "How should the first answer in a picture lesson begin?",
+            "Name one harm that rats do."
+          ],
+          "answers": [
+            "With the words \"I see\"",
+            "Any fair answer, e.g. they eat or spoil grain and food"
+          ],
+          "notes": "Use other pictures too; the book recommends this exercise for several years."
+        }
+      ]
+    },
+    {
+      "title": "Part I: The Verb (Sections 15–19)",
+      "lessons": [
+        {
+          "title": "Section 15: The Verb",
+          "steps": [
+            "Read the oral lesson and learn the definition of a verb",
+            "Write a sentence using each verb in the list as a predicate (\"Birds sing\")",
+            "Point out the verbs in a page of your reader"
+          ],
+          "links": [
+            {
+              "label": "Read section 15",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n29/mode/1up"
+            }
+          ],
+          "pages": "pp. 24–25",
+          "questions": [
+            "What does a verb usually express?",
+            "In \"Fishes swim,\" which word is the verb?",
+            "Does \"stand\" in \"Houses stand\" show action or state?"
+          ],
+          "answers": [
+            "Action, being, or state",
+            "swim",
+            "State"
+          ]
+        },
+        {
+          "title": "Section 16: Classes of Verbs",
+          "steps": [
+            "Learn transitive, intransitive, and copulative verbs and the objective element",
+            "Write seven sentences of each kind, and sentences using the listed nouns as objects",
+            "Analyze and diagram the ten practice sentences, then classify the verbs in the second list"
+          ],
+          "links": [
+            {
+              "label": "Read section 16",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n30/mode/1up"
+            }
+          ],
+          "pages": "pp. 25–27",
+          "questions": [
+            "In \"Cats catch mice,\" what is the objective element?",
+            "Is \"grows\" in \"Corn grows\" transitive or intransitive?",
+            "What kind of verb is \"are\" in \"Lambs are playful\"?"
+          ],
+          "answers": [
+            "mice",
+            "Intransitive",
+            "Copulative"
+          ]
+        },
+        {
+          "title": "Section 17: Incorrect Language",
+          "steps": [
+            "Read the five cautions about saw/seen, went/gone, did/done, came/come, was/were",
+            "Say each faulty example correctly aloud",
+            "Write the corrected sentences"
+          ],
+          "links": [
+            {
+              "label": "Read section 17",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n32/mode/1up"
+            }
+          ],
+          "pages": "pp. 27–28",
+          "questions": [
+            "Correct: \"I have saw a fine horse.\"",
+            "Correct: \"He done his work well.\"",
+            "Correct: \"You was there.\""
+          ],
+          "answers": [
+            "I have seen a fine horse.",
+            "He did his work well.",
+            "You were there."
+          ]
+        },
+        {
+          "title": "Section 18: Sentence-Making — Words in a Series",
+          "steps": [
+            "Learn the two comma rules for words of the same kind used together",
+            "Arrange the word groups into sentences with correct commas",
+            "Fill the blanks in the nine exercises"
+          ],
+          "links": [
+            {
+              "label": "Read section 18",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n33/mode/1up"
+            }
+          ],
+          "pages": "pp. 28–30",
+          "questions": [
+            "How many words of the same kind in a row need commas between them?",
+            "Punctuate: \"Mary Susan and Ada are cousins.\""
+          ],
+          "answers": [
+            "Three or more",
+            "Mary, Susan, and Ada are cousins."
+          ]
+        },
+        {
+          "title": "Section 19: Composition — Picture Lesson",
+          "steps": [
+            "Talk about the picture of the children: names, ages, where they are",
+            "Choose one of the story ideas (playing shop, a day in the country, an afternoon alone)",
+            "Write the story and read it aloud"
+          ],
+          "links": [
+            {
+              "label": "Read section 19",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n35/mode/1up"
+            }
+          ],
+          "pages": "pp. 30–31",
+          "questions": [
+            "What should every sentence of your story begin with?"
+          ],
+          "answers": [
+            "A capital letter"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part I: Adjective, Article, and Participle (Sections 20–27)",
+      "lessons": [
+        {
+          "title": "Section 20: The Adjective",
+          "steps": [
+            "Learn the difference between descriptive and definitive adjectives",
+            "Place each listed adjective before a noun and say which kind it is",
+            "Point out the adjectives in the nine sentences using the model"
+          ],
+          "links": [
+            {
+              "label": "Read section 20",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n36/mode/1up"
+            }
+          ],
+          "pages": "pp. 31–33",
+          "questions": [
+            "Is \"fearful\" in \"fearful storms\" descriptive or definitive?",
+            "Is \"these\" descriptive or definitive?",
+            "Should \"Spanish\" begin with a capital?"
+          ],
+          "answers": [
+            "Descriptive",
+            "Definitive",
+            "Yes"
+          ]
+        },
+        {
+          "title": "Section 21: The Article",
+          "steps": [
+            "Learn the definite and indefinite articles and when to use a or an",
+            "Put a or an before each word in the list and say why",
+            "Fill in the articles in the practice sentences"
+          ],
+          "links": [
+            {
+              "label": "Read section 21",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n38/mode/1up"
+            }
+          ],
+          "pages": "pp. 33–34",
+          "questions": [
+            "Which article goes before \"hour\"?",
+            "Which article goes before \"eagle\"?",
+            "Which is the definite article?"
+          ],
+          "answers": [
+            "an",
+            "an",
+            "the"
+          ]
+        },
+        {
+          "title": "Section 22: Sentence-Making with Adjectives",
+          "steps": [
+            "Build sentences from the word groups, adding words where needed",
+            "Fill the blanks thoughtfully",
+            "Punctuate the sentences in Part II, noticing when two adjectives need no comma"
+          ],
+          "links": [
+            {
+              "label": "Read section 22",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n39/mode/1up"
+            }
+          ],
+          "pages": "pp. 34–35",
+          "questions": [
+            "Does \"a little old man\" need a comma between \"little\" and \"old\"?",
+            "Punctuate: \"Mary is a gentle sensible and well-behaved girl.\""
+          ],
+          "answers": [
+            "No",
+            "Mary is a gentle, sensible, and well-behaved girl."
+          ]
+        },
+        {
+          "title": "Sections 23–24: Incorrect Language; Composition — What I See",
+          "steps": [
+            "Read the three cautions about a/an, these/those, and them/this here",
+            "Correct the faulty examples aloud",
+            "Describe what can be seen from your doorway or window and something that happens while you watch"
+          ],
+          "links": [
+            {
+              "label": "Read sections 23–24",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n40/mode/1up"
+            }
+          ],
+          "pages": "pp. 35–37",
+          "questions": [
+            "Correct: \"I don't like these kind of apples.\"",
+            "Correct: \"Henry is a honest lad.\"",
+            "Correct: \"Look at them tramps.\""
+          ],
+          "answers": [
+            "I don't like this kind of apples.",
+            "Henry is an honest lad.",
+            "Look at those tramps."
+          ]
+        },
+        {
+          "title": "Section 25: The Participle",
+          "steps": [
+            "Read the oral lesson on \"James saw the man plowing\"",
+            "Learn the present, perfect, and compound participles",
+            "Point out the participles in the exercises using the models"
+          ],
+          "links": [
+            {
+              "label": "Read section 25",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n42/mode/1up"
+            }
+          ],
+          "pages": "pp. 37–39",
+          "questions": [
+            "What does every present participle end in?",
+            "Which participle is \"having written\"?",
+            "Name the participle in \"The boy, laughing, ran away.\""
+          ],
+          "answers": [
+            "ing",
+            "The compound participle",
+            "laughing"
+          ]
+        },
+        {
+          "title": "Section 26: The Participial Noun",
+          "steps": [
+            "Read how a word like \"skating\" can be the name of an action",
+            "Point out the participial nouns using the model",
+            "Sort the words in the last exercise into participles and participial nouns"
+          ],
+          "links": [
+            {
+              "label": "Read section 26",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n44/mode/1up"
+            }
+          ],
+          "pages": "pp. 39–41",
+          "questions": [
+            "In \"I like skating,\" what part of speech is \"skating\"?",
+            "In \"Miss Gray teaches writing,\" is \"writing\" a participle or a participial noun?"
+          ],
+          "answers": [
+            "A noun (a participial noun)",
+            "A participial noun"
+          ]
+        },
+        {
+          "title": "Section 27: Composition — An Outing",
+          "steps": [
+            "Talk about the picture: where have the children been?",
+            "Write about a drive, a picnic, or a fishing trip",
+            "Underline two participles in your composition"
+          ],
+          "links": [
+            {
+              "label": "Read section 27",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n46/mode/1up"
+            }
+          ],
+          "pages": "pp. 41–42",
+          "questions": [
+            "Name a participle you used in your story."
+          ],
+          "notes": "Any correct -ing or -ed participle used as a modifier counts."
+        }
+      ]
+    },
+    {
+      "title": "Part I: The Pronoun and Its Elements (Sections 28–35)",
+      "lessons": [
+        {
+          "title": "Sections 28–29 (I): The Pronoun; the Adjective Element",
+          "steps": [
+            "Read why \"John put John's hat on John's head\" sounds wrong",
+            "Point out the pronouns in the practice sentences",
+            "Write five sentences with descriptive and five with definitive adjective elements"
+          ],
+          "links": [
+            {
+              "label": "Read sections 28–29 (i)",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n47/mode/1up"
+            }
+          ],
+          "pages": "pp. 42–43",
+          "questions": [
+            "What is a pronoun?",
+            "In \"Small lakes are abundant,\" what is the adjective element?"
+          ],
+          "answers": [
+            "A word used instead of a noun",
+            "Small"
+          ]
+        },
+        {
+          "title": "Section 29 (II): Possessives",
+          "steps": [
+            "Learn what a possessive is and how the apostrophe is used",
+            "Write five sentences whose subjects are modified by possessives",
+            "Correct the faulty possessives in the last exercise"
+          ],
+          "links": [
+            {
+              "label": "Read section 29 (ii)",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n48/mode/1up"
+            }
+          ],
+          "pages": "pp. 43–45",
+          "questions": [
+            "Write the possessive of \"children\".",
+            "Correct: \"The canary is not in it's cage.\"",
+            "What mark shows that a noun is a possessive?"
+          ],
+          "answers": [
+            "children's",
+            "The canary is not in its cage.",
+            "The apostrophe"
+          ]
+        },
+        {
+          "title": "Section 29 (III): Appositives",
+          "steps": [
+            "Learn what an appositive is and when it is set off by commas",
+            "Write five sentences using appositives",
+            "Point out the appositives, then analyze the model sentences"
+          ],
+          "links": [
+            {
+              "label": "Read section 29 (iii)",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n50/mode/1up"
+            }
+          ],
+          "pages": "pp. 45–47",
+          "questions": [
+            "Find the appositive: \"Whang, the Chinese miller, acted foolishly.\"",
+            "Does an unmodified appositive like \"Milton the poet\" need a comma?"
+          ],
+          "answers": [
+            "the Chinese miller (miller)",
+            "No"
+          ]
+        },
+        {
+          "title": "Section 30: Personal Pronouns",
+          "steps": [
+            "Learn first, second, and third person",
+            "Point out the personal pronouns in the practice sentences",
+            "Write five sentences each with personal pronouns as subjects, objects, and possessives"
+          ],
+          "links": [
+            {
+              "label": "Read section 30",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n52/mode/1up"
+            }
+          ],
+          "pages": "pp. 47–50",
+          "questions": [
+            "What person denotes the speaker?",
+            "What person is \"they\"?",
+            "In \"Henry admires them,\" how is \"them\" used?"
+          ],
+          "answers": [
+            "The first person",
+            "The third person",
+            "As the object"
+          ]
+        },
+        {
+          "title": "Section 31: Possessive Pronouns",
+          "steps": [
+            "Read how \"ours\" stands for both owner and thing owned",
+            "Write five sentences using possessive pronouns as subjects and five as predicates",
+            "Point out the possessive pronouns using the model"
+          ],
+          "links": [
+            {
+              "label": "Read section 31",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n55/mode/1up"
+            }
+          ],
+          "pages": "pp. 50–52",
+          "questions": [
+            "Name the possessive pronoun in \"That desk is mine.\"",
+            "Name three other possessive pronouns."
+          ],
+          "answers": [
+            "mine",
+            "Any three of: thine, his, hers, ours, yours, theirs"
+          ]
+        },
+        {
+          "title": "Section 32: Relative Pronouns and Clauses",
+          "steps": [
+            "Learn what a clause, a relative pronoun, and an antecedent are",
+            "Point out the relative pronouns and their antecedents using the model",
+            "Say the compound forms made with -ever and -soever"
+          ],
+          "links": [
+            {
+              "label": "Read section 32",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n57/mode/1up"
+            }
+          ],
+          "pages": "pp. 52–53",
+          "questions": [
+            "In \"A man who is industrious will prosper,\" what is the relative pronoun?",
+            "What is its antecedent?",
+            "Make a compound relative from \"who.\""
+          ],
+          "answers": [
+            "who",
+            "man",
+            "whoever (or whoso, whosoever)"
+          ]
+        },
+        {
+          "title": "Section 33: The Relative Clause",
+          "steps": [
+            "Write five sentences with relative clauses modifying subjects and five modifying objects",
+            "Analyze the model sentences",
+            "Change relative clauses to adjectives and adjectives to relative clauses"
+          ],
+          "links": [
+            {
+              "label": "Read section 33",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n58/mode/1up"
+            }
+          ],
+          "pages": "pp. 53–55",
+          "questions": [
+            "Change to an adjective: \"I have an apple that is rotten.\"",
+            "Change to a relative clause: \"Industrious people always prosper.\""
+          ],
+          "answers": [
+            "I have a rotten apple.",
+            "People who are industrious always prosper."
+          ]
+        },
+        {
+          "title": "Section 34: Interrogative Pronouns",
+          "steps": [
+            "Learn the interrogative pronouns and interrogative adjectives",
+            "Point out the interrogative pronouns using the model",
+            "Analyze the sentences, finding all the other parts of speech too"
+          ],
+          "links": [
+            {
+              "label": "Read section 34",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n60/mode/1up"
+            }
+          ],
+          "pages": "pp. 55–56",
+          "questions": [
+            "Name the three interrogative pronouns.",
+            "In \"Which book is yours?\" is \"which\" a pronoun or an interrogative adjective?"
+          ],
+          "answers": [
+            "who, which, what",
+            "An interrogative adjective"
+          ]
+        },
+        {
+          "title": "Section 35: Incorrect Language — Pronouns",
+          "steps": [
+            "Read the four cautions on pronouns",
+            "Correct each faulty example aloud",
+            "Write three corrected sentences from memory"
+          ],
+          "links": [
+            {
+              "label": "Read section 35",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n61/mode/1up"
+            }
+          ],
+          "pages": "pp. 56–57",
+          "questions": [
+            "Correct: \"Him and me were in the boat.\"",
+            "Correct: \"Is that book your'n?\"",
+            "Should \"which\" be used for persons?"
+          ],
+          "answers": [
+            "He and I were in the boat.",
+            "Is that book yours?",
+            "No"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part I: Adverb, Preposition, and Phrase (Sections 36–42)",
+      "lessons": [
+        {
+          "title": "Section 36: The Adverb",
+          "steps": [
+            "Read the oral lesson on \"Birds sing sweetly\"",
+            "Point out the adverbs in the practice sentences using the model",
+            "Write sentences with adverbs modifying verbs, adjectives, and other adverbs"
+          ],
+          "links": [
+            {
+              "label": "Read section 36",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n62/mode/1up"
+            }
+          ],
+          "pages": "pp. 57–58",
+          "questions": [
+            "In \"The wind blew furiously,\" which word is the adverb?",
+            "What does \"very\" modify in \"Very loud reports were heard\"?"
+          ],
+          "answers": [
+            "furiously",
+            "loud"
+          ]
+        },
+        {
+          "title": "Sections 37–38: The Adverbial Element; the Adverbial Clause",
+          "steps": [
+            "Learn what an adverbial element and an adverbial clause are",
+            "Point out the adverbial clauses in the practice sentences",
+            "Analyze \"He trembles when it thunders\" and three more sentences"
+          ],
+          "links": [
+            {
+              "label": "Read sections 37–38",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n63/mode/1up"
+            }
+          ],
+          "pages": "pp. 58–60",
+          "questions": [
+            "In \"Flowers bloom when spring comes,\" what is the adverbial clause?",
+            "What question does that clause answer?"
+          ],
+          "answers": [
+            "when spring comes",
+            "When?"
+          ]
+        },
+        {
+          "title": "Section 39: Incorrect Language — Adverbs",
+          "steps": [
+            "Read the three cautions on double negatives and adjectives/adverbs",
+            "Correct the faulty examples aloud",
+            "Write the corrected sentences"
+          ],
+          "links": [
+            {
+              "label": "Read section 39",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n65/mode/1up"
+            }
+          ],
+          "pages": "pp. 60–61",
+          "questions": [
+            "Correct: \"I don't want nothing today.\"",
+            "Correct: \"Samuel speaks very distinct.\"",
+            "Correct: \"This flower smells sweetly.\""
+          ],
+          "answers": [
+            "I don't want anything today.",
+            "Samuel speaks very distinctly.",
+            "This flower smells sweet."
+          ]
+        },
+        {
+          "title": "Section 40: Composition — The Lion",
+          "steps": [
+            "Read the description of the lion three or four times",
+            "Close the book and write it from memory",
+            "Compare with the book and fix any spelling or punctuation"
+          ],
+          "links": [
+            {
+              "label": "Read section 40",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n66/mode/1up"
+            }
+          ],
+          "pages": "pp. 61–62",
+          "questions": [
+            "Does the lioness have a mane?",
+            "Where does the lion most often hide to catch his prey?",
+            "Does a lion often attack people?"
+          ],
+          "answers": [
+            "No",
+            "Near a spring or a river",
+            "Rarely, unless wounded or very hungry"
+          ]
+        },
+        {
+          "title": "Section 41: The Preposition",
+          "steps": [
+            "Read the oral lesson on \"A man of wealth rode by our house\"",
+            "Learn what a preposition and its object are, and say the list of common prepositions",
+            "Point out the prepositions in the practice sentences using the model"
+          ],
+          "links": [
+            {
+              "label": "Read section 41",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n67/mode/1up"
+            }
+          ],
+          "pages": "pp. 62–63",
+          "questions": [
+            "In \"He came from France to America,\" name the prepositions.",
+            "What is the object of \"to\"?"
+          ],
+          "answers": [
+            "from, to",
+            "America"
+          ]
+        },
+        {
+          "title": "Section 42 (I): The Phrase",
+          "steps": [
+            "Learn what a phrase is and how phrases act as adjectives or adverbs",
+            "Analyze \"Habits of industry will lead to prosperity\" using the model",
+            "Change phrases to single words and clauses, as in \"with care\" = \"carefully\""
+          ],
+          "links": [
+            {
+              "label": "Read section 42 (i)",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n68/mode/1up"
+            }
+          ],
+          "pages": "pp. 63–65",
+          "questions": [
+            "Change the phrase to one word: \"Henry studies with care.\"",
+            "Is \"of industry\" an adjective or an adverbial phrase?"
+          ],
+          "answers": [
+            "Henry studies carefully.",
+            "An adjective phrase (it modifies \"habits\")"
+          ]
+        },
+        {
+          "title": "Section 42 (II): The Infinitive; Position of Modifiers",
+          "steps": [
+            "Learn what an infinitive is and its sign \"to\"",
+            "Analyze \"To love is to obey\" and the other models",
+            "Learn the rule for placing modifiers, then fix the badly placed modifiers in the exercise"
+          ],
+          "links": [
+            {
+              "label": "Read section 42 (ii)",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n70/mode/1up"
+            }
+          ],
+          "pages": "pp. 65–67",
+          "questions": [
+            "What is the sign of the infinitive?",
+            "Where should a modifying word, phrase, or clause be placed?"
+          ],
+          "answers": [
+            "to",
+            "As near the word it modifies as possible"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part I: Conjunction, Interjection, and Kinds of Sentences (Sections 43–48)",
+      "lessons": [
+        {
+          "title": "Section 43: The Conjunction",
+          "steps": [
+            "Read the oral lesson on \"Ellen and Mary study botany\"",
+            "Learn the definition of a conjunction and how it differs from a preposition",
+            "Point out the conjunctions in the practice sentences"
+          ],
+          "links": [
+            {
+              "label": "Read section 43",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n72/mode/1up"
+            }
+          ],
+          "pages": "pp. 67–68",
+          "questions": [
+            "In \"Eli and Silas will improve, if they study,\" name the conjunctions.",
+            "Does a conjunction have an object as a preposition does?"
+          ],
+          "answers": [
+            "and, if",
+            "No"
+          ]
+        },
+        {
+          "title": "Section 44: Compound Elements",
+          "steps": [
+            "Learn what a compound element is and how to punctuate it",
+            "Write five sentences each with a compound subject, predicate, object, adjective, and adverb",
+            "Analyze the model sentences"
+          ],
+          "links": [
+            {
+              "label": "Read section 44",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n73/mode/1up"
+            }
+          ],
+          "pages": "pp. 68–70",
+          "questions": [
+            "What is the compound subject in \"Ellen and Lucy are my sisters\"?",
+            "Punctuate: \"We run jump and talk at recess.\""
+          ],
+          "answers": [
+            "Ellen and Lucy",
+            "We run, jump, and talk at recess."
+          ]
+        },
+        {
+          "title": "Sections 45–46: Simple and Compound Sentences",
+          "steps": [
+            "Learn the simple sentence and the compound sentence and its members",
+            "Combine short sentences into one, and change compound sentences to simple ones",
+            "Analyze \"The heavens declare the glory of God, and the firmament showeth his handiwork\""
+          ],
+          "links": [
+            {
+              "label": "Read sections 45–46",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n75/mode/1up"
+            }
+          ],
+          "pages": "pp. 70–73",
+          "questions": [
+            "How many propositions does a simple sentence have?",
+            "What are the parts of a compound sentence called?",
+            "Is \"Wheat grows in the field, and men reap it\" simple or compound?"
+          ],
+          "answers": [
+            "One",
+            "Members",
+            "Compound"
+          ]
+        },
+        {
+          "title": "Section 47 (I): Complex Sentences",
+          "steps": [
+            "Learn complex sentence, principal clause, and subordinate clause",
+            "Study the models for complete analysis",
+            "Write five sentences each with clauses as subjects, objects, adjectives, and adverbs"
+          ],
+          "links": [
+            {
+              "label": "Read section 47 (i)",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n78/mode/1up"
+            }
+          ],
+          "pages": "pp. 73–76",
+          "questions": [
+            "In \"I know where gold is found,\" which is the principal clause?",
+            "Which is the subordinate clause?"
+          ],
+          "answers": [
+            "I know",
+            "where gold is found"
+          ]
+        },
+        {
+          "title": "Section 47 (II): Reducing Complex Sentences",
+          "steps": [
+            "Read how a clause can be shortened to a phrase or a word",
+            "Reduce the complex sentences to simple ones",
+            "Expand the simple sentences into complex ones"
+          ],
+          "links": [
+            {
+              "label": "Read section 47 (ii)",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n81/mode/1up"
+            }
+          ],
+          "pages": "pp. 76–77",
+          "questions": [
+            "Reduce: \"A man who is wealthy lives there.\"",
+            "Reduce: \"We started when the sun rose.\""
+          ],
+          "answers": [
+            "A wealthy man (or a man of wealth) lives there.",
+            "We started at sunrise."
+          ]
+        },
+        {
+          "title": "Section 48: The Interjection",
+          "steps": [
+            "Read the oral lesson on \"Hurra! we have found him\"",
+            "Point out the interjections using the model",
+            "Name every part of speech in two of the sentences"
+          ],
+          "links": [
+            {
+              "label": "Read section 48",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n82/mode/1up"
+            }
+          ],
+          "pages": "pp. 77–79",
+          "questions": [
+            "In \"Hush! they are coming,\" what is the interjection?",
+            "What mark usually follows an interjection?"
+          ],
+          "answers": [
+            "Hush",
+            "An exclamation point"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part II: The Noun in Full (Sections 49–59)",
+      "lessons": [
+        {
+          "title": "Sections 49–51: Properties of the Noun; Gender; Person",
+          "steps": [
+            "Learn the four properties of the noun and the four genders",
+            "Tell the gender of each noun in the list",
+            "Write sentences using nouns of the first, second, and third person"
+          ],
+          "links": [
+            {
+              "label": "Read sections 49–51",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n84/mode/1up"
+            }
+          ],
+          "pages": "pp. 79–82",
+          "questions": [
+            "What gender is \"parent\"?",
+            "What gender is \"cart\"?",
+            "What is the feminine of \"duke\"?"
+          ],
+          "answers": [
+            "Common",
+            "Neuter",
+            "duchess"
+          ]
+        },
+        {
+          "title": "Sections 52–53: Number; Formation of the Plural",
+          "steps": [
+            "Review the rules for forming plurals",
+            "Write the plurals of the words, letters, and signs in the list",
+            "Write the singulars of the plural list"
+          ],
+          "links": [
+            {
+              "label": "Read sections 52–53",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n87/mode/1up"
+            }
+          ],
+          "pages": "pp. 82–83",
+          "questions": [
+            "What is the plural of \"calf\"?",
+            "What is the plural of \"brother-in-law\"?",
+            "What is the singular of \"phenomena\"?"
+          ],
+          "answers": [
+            "calves",
+            "brothers-in-law",
+            "phenomenon"
+          ]
+        },
+        {
+          "title": "Sections 54–55: Case; Declension",
+          "steps": [
+            "Learn the four cases: nominative, possessive, objective, absolute",
+            "Decline two nouns in both numbers following the book's table",
+            "Tell the case of each noun in a few sentences of your reader"
+          ],
+          "links": [
+            {
+              "label": "Read sections 54–55",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n88/mode/1up"
+            }
+          ],
+          "pages": "pp. 83–85",
+          "questions": [
+            "What case is \"James\" in \"James, bring me a book\"?",
+            "What case is \"buffaloes\" in \"Indians hunt buffaloes\"?",
+            "What case is \"Ray's\" in \"Ray's Algebra\"?"
+          ],
+          "answers": [
+            "Absolute (nominative absolute)",
+            "Objective",
+            "Possessive"
+          ]
+        },
+        {
+          "title": "Sections 56–58: Parsing Nouns",
+          "steps": [
+            "Learn what parsing is and the order of parsing a noun",
+            "Parse the nouns in the models aloud",
+            "Analyze the practice sentences, parse the nouns, and correct the faulty plurals"
+          ],
+          "links": [
+            {
+              "label": "Read sections 56–58",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n90/mode/1up"
+            }
+          ],
+          "pages": "pp. 85–88",
+          "questions": [
+            "Correct: \"Three chimnies were on fire.\"",
+            "In \"Borneo is a large island,\" what case is \"island\"?"
+          ],
+          "answers": [
+            "Three chimneys were on fire.",
+            "Nominative (predicate nominative)"
+          ]
+        },
+        {
+          "title": "Section 59: Composition — Animals",
+          "steps": [
+            "Read the plan for describing a squirrel (size, form, color, food, habits)",
+            "Write a description of the squirrel following the plan",
+            "Describe another animal with the general plan, then parse its nouns"
+          ],
+          "links": [
+            {
+              "label": "Read section 59",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n93/mode/1up"
+            }
+          ],
+          "pages": "p. 88",
+          "questions": [
+            "Name three topics from the general plan for describing an animal."
+          ],
+          "answers": [
+            "Any three of: size, form, color, food, habits, disposition, where found, uses"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part II: The Pronoun in Full (Sections 60–76)",
+      "lessons": [
+        {
+          "title": "Sections 60–62: Personal Pronouns and Their Declension",
+          "steps": [
+            "Learn the simple and compound personal pronouns",
+            "Read the remarks on \"you,\" \"we,\" and \"it\"",
+            "Decline I, thou, he, she, and it in both numbers"
+          ],
+          "links": [
+            {
+              "label": "Read sections 60–62",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n93/mode/1up"
+            }
+          ],
+          "pages": "pp. 88–90",
+          "questions": [
+            "What is the objective case of \"she\"?",
+            "What is the possessive plural of \"I\"?",
+            "How is a compound personal pronoun formed?"
+          ],
+          "answers": [
+            "her",
+            "our (or ours)",
+            "By adding self or selves"
+          ]
+        },
+        {
+          "title": "Sections 63–64: Parsing Personal Pronouns",
+          "steps": [
+            "Learn the order of parsing a personal pronoun",
+            "Parse the pronouns in \"I see them on their winding way\"",
+            "Analyze the practice sentences, then write two sentences about the eagle and parse their pronouns"
+          ],
+          "links": [
+            {
+              "label": "Read sections 63–64",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n95/mode/1up"
+            }
+          ],
+          "pages": "pp. 90–91",
+          "questions": [
+            "In \"You and he are my friends,\" what case is \"he\"?",
+            "What case is \"my\"?"
+          ],
+          "answers": [
+            "Nominative",
+            "Possessive"
+          ],
+          "notes": "Finish the eagle composition as a second sitting if time runs short."
+        },
+        {
+          "title": "Sections 65–67: Possessive Pronouns",
+          "steps": [
+            "Learn the possessive pronouns and the emphatic \"my own\"",
+            "Study both methods of parsing \"That house is mine, not yours\"",
+            "Analyze the practice sentences and parse the possessive pronouns"
+          ],
+          "links": [
+            {
+              "label": "Read sections 65–67",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n96/mode/1up"
+            }
+          ],
+          "pages": "pp. 91–93",
+          "questions": [
+            "Name the possessive pronouns.",
+            "Find the possessive pronoun: \"This sled is not yours.\""
+          ],
+          "answers": [
+            "mine, thine, his, hers, ours, yours, theirs",
+            "yours"
+          ]
+        },
+        {
+          "title": "Sections 68–71: Relative Pronouns",
+          "steps": [
+            "Learn the simple and compound relatives, and when \"that\" and \"as\" are relatives",
+            "Decline who, which, and what",
+            "Parse the relatives in the models, then write about the quail and parse its pronouns"
+          ],
+          "links": [
+            {
+              "label": "Read sections 68–71",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n98/mode/1up"
+            }
+          ],
+          "pages": "pp. 93–95",
+          "questions": [
+            "Name the four simple relative pronouns.",
+            "What is the possessive form of \"who\"?",
+            "What is the objective form of \"who\"?"
+          ],
+          "answers": [
+            "who, which, what, that",
+            "whose",
+            "whom"
+          ]
+        },
+        {
+          "title": "Sections 72–74: Interrogative Pronouns",
+          "steps": [
+            "Learn the interrogative pronouns and the meaning of \"subsequent\"",
+            "Parse \"Who invented gunpowder?\" following the model",
+            "Parse the interrogatives in the practice sentences"
+          ],
+          "links": [
+            {
+              "label": "Read sections 72–74",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n100/mode/1up"
+            }
+          ],
+          "pages": "pp. 95–97",
+          "questions": [
+            "What is the subsequent of an interrogative pronoun?",
+            "With what must an interrogative agree in gender, person, and number?"
+          ],
+          "answers": [
+            "The part of the answer it stands for",
+            "Its subsequent"
+          ]
+        },
+        {
+          "title": "Sections 75–76: False Syntax — Pronoun Cautions",
+          "steps": [
+            "Learn what false syntax means",
+            "Read the five cautions on pronouns",
+            "Correct the faulty sentences aloud and in writing"
+          ],
+          "links": [
+            {
+              "label": "Read sections 75–76",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n102/mode/1up"
+            }
+          ],
+          "pages": "pp. 97–98",
+          "questions": [
+            "Correct: \"Who did you see?\"",
+            "Which comes first, the second person or the first?",
+            "Correct: \"John he went home.\""
+          ],
+          "answers": [
+            "Whom did you see?",
+            "The second person",
+            "John went home."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part II: The Adjective in Full (Sections 77–82)",
+      "lessons": [
+        {
+          "title": "Section 77: Descriptive Adjectives and Comparison",
+          "steps": [
+            "Learn the positive, comparative, and superlative degrees",
+            "Compare adjectives with -er/-est and with more/most",
+            "Compare the irregular adjectives (good, bad, little, many)"
+          ],
+          "links": [
+            {
+              "label": "Read section 77",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n103/mode/1up"
+            }
+          ],
+          "pages": "pp. 98–100",
+          "questions": [
+            "Compare \"good.\"",
+            "Which degree is used when comparing two things?",
+            "Compare \"beautiful.\""
+          ],
+          "answers": [
+            "good, better, best",
+            "The comparative",
+            "beautiful, more beautiful, most beautiful"
+          ]
+        },
+        {
+          "title": "Section 78: Definitive Adjectives",
+          "steps": [
+            "Learn pronominal adjectives: demonstratives, distributives, indefinites",
+            "Learn the numeral adjectives: cardinal, ordinal, and multiplicative",
+            "Find a definitive adjective of each kind in your reader"
+          ],
+          "links": [
+            {
+              "label": "Read section 78",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n105/mode/1up"
+            }
+          ],
+          "pages": "p. 100",
+          "questions": [
+            "Is \"each\" a demonstrative or a distributive?",
+            "Is \"third\" a cardinal or an ordinal?",
+            "Name two demonstratives."
+          ],
+          "answers": [
+            "A distributive",
+            "An ordinal",
+            "Any two of: this, that, these, those, former, latter, both, same, yon, yonder"
+          ]
+        },
+        {
+          "title": "Sections 79–80: Parsing Adjectives",
+          "steps": [
+            "Learn the order of parsing an adjective and Rule XII",
+            "Parse the adjectives in the models",
+            "Analyze the practice sentences and parse every adjective"
+          ],
+          "links": [
+            {
+              "label": "Read sections 79–80",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n105/mode/1up"
+            }
+          ],
+          "pages": "pp. 100–102",
+          "questions": [
+            "To what does an adjective belong, according to Rule XII?",
+            "Parse \"fearful\" in \"Fearful storms sweep over these islands\" briefly."
+          ],
+          "answers": [
+            "To some noun or pronoun",
+            "An adjective; descriptive; positive degree; belongs to \"storms\""
+          ]
+        },
+        {
+          "title": "Sections 81–82: Adjective Cautions; Composition — Plants",
+          "steps": [
+            "Read the four cautions and correct the examples",
+            "Follow the plan to write about the peach tree",
+            "Choose another plant and describe it with the general plan"
+          ],
+          "links": [
+            {
+              "label": "Read sections 81–82",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n107/mode/1up"
+            }
+          ],
+          "pages": "pp. 102–103",
+          "questions": [
+            "Correct: \"This is the most wisest plan.\"",
+            "Correct: \"the two first chapters.\""
+          ],
+          "answers": [
+            "This is the wisest plan.",
+            "the first two chapters"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part II: The Verb in Full (Sections 83–100)",
+      "lessons": [
+        {
+          "title": "Sections 83–84: Properties of the Verb; Voice",
+          "steps": [
+            "Learn the five properties of the verb",
+            "Learn active and passive voice and how the passive is formed",
+            "Change active sentences to passive and back"
+          ],
+          "links": [
+            {
+              "label": "Read sections 83–84",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n108/mode/1up"
+            }
+          ],
+          "pages": "pp. 103–105",
+          "questions": [
+            "Change to the passive: \"The boy wrote a letter.\"",
+            "Which voice shows the subject acting?"
+          ],
+          "answers": [
+            "The letter was written by the boy.",
+            "The active voice"
+          ]
+        },
+        {
+          "title": "Section 85: Mode",
+          "steps": [
+            "Learn the five modes with an example of each",
+            "Tell the mode of each verb in the practice sentences",
+            "Write a description of the oak and name the modes of its verbs"
+          ],
+          "links": [
+            {
+              "label": "Read section 85",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n110/mode/1up"
+            }
+          ],
+          "pages": "pp. 105–106",
+          "questions": [
+            "How many modes are there?",
+            "What mode is \"Go\"?",
+            "What mode is \"If he were here\"?"
+          ],
+          "answers": [
+            "Five",
+            "Imperative",
+            "Subjunctive"
+          ]
+        },
+        {
+          "title": "Section 86: Tense",
+          "steps": [
+            "Learn the six tenses with an example of each",
+            "Make a sentence in each tense with the verb \"write\"",
+            "Tell the tense of each verb in the exercise"
+          ],
+          "links": [
+            {
+              "label": "Read section 86",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n111/mode/1up"
+            }
+          ],
+          "pages": "pp. 106–107",
+          "questions": [
+            "How many tenses are there?",
+            "What tense is \"I had written\"?",
+            "What tense is \"I shall have written\"?"
+          ],
+          "answers": [
+            "Six",
+            "Past perfect",
+            "Future perfect"
+          ]
+        },
+        {
+          "title": "Section 87: Signs of the Tenses",
+          "steps": [
+            "Study the table of tense signs in the active voice",
+            "Write the verb \"walk\" in every tense of the indicative",
+            "Write a description of the pine, then name the modes and tenses of its verbs"
+          ],
+          "links": [
+            {
+              "label": "Read section 87",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n112/mode/1up"
+            }
+          ],
+          "pages": "pp. 107–108",
+          "questions": [
+            "What is the sign of the present perfect tense?",
+            "What is the sign of the future tense?"
+          ],
+          "answers": [
+            "have (has)",
+            "shall or will"
+          ]
+        },
+        {
+          "title": "Sections 88–89: Person and Number of Verbs; Auxiliaries",
+          "steps": [
+            "Learn how a verb agrees with its subject in person and number",
+            "Learn the auxiliary verbs",
+            "Say the present tense of \"to write\" in all persons and numbers"
+          ],
+          "links": [
+            {
+              "label": "Read sections 88–89",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n113/mode/1up"
+            }
+          ],
+          "pages": "pp. 108–109",
+          "questions": [
+            "Correct: \"He write well.\"",
+            "Name three auxiliary verbs."
+          ],
+          "answers": [
+            "He writes well.",
+            "Any three of: do, be, have, shall, will, may, can, must, might, could, would, should"
+          ]
+        },
+        {
+          "title": "Sections 90–91: Conjugation; the Verb \"To Be\"",
+          "steps": [
+            "Learn what conjugation and principal parts are",
+            "Read through the conjugation of \"to be\"",
+            "Write a synopsis of \"to be\" in the first person singular"
+          ],
+          "links": [
+            {
+              "label": "Read sections 90–91",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n114/mode/1up"
+            }
+          ],
+          "pages": "pp. 109–112",
+          "questions": [
+            "Give the principal parts of \"be.\"",
+            "What is the past indicative of \"be\" with \"we\"?"
+          ],
+          "answers": [
+            "am (be), was, been",
+            "were"
+          ]
+        },
+        {
+          "title": "Section 92: Conjugation of \"To Love\" (Active Voice)",
+          "steps": [
+            "Read the active conjugation of \"to love\" in all modes",
+            "Recite the indicative mode aloud",
+            "Write a synopsis of \"to love\" in the first person singular, active voice"
+          ],
+          "links": [
+            {
+              "label": "Read section 92",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n117/mode/1up"
+            }
+          ],
+          "pages": "pp. 112–115",
+          "questions": [
+            "Give the principal parts of \"love.\"",
+            "Give the present perfect, first person singular."
+          ],
+          "answers": [
+            "love, loved, loved",
+            "I have loved"
+          ]
+        },
+        {
+          "title": "Section 93: Synopsis of \"To Love\" (Passive Voice)",
+          "steps": [
+            "Read the passive synopsis of \"to love\"",
+            "Write the passive synopsis in the third person singular",
+            "Compare the active and passive forms side by side"
+          ],
+          "links": [
+            {
+              "label": "Read section 93",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n120/mode/1up"
+            }
+          ],
+          "pages": "pp. 115–116",
+          "questions": [
+            "Give the past tense passive, first person singular.",
+            "Give the future tense passive, first person singular."
+          ],
+          "answers": [
+            "I was loved",
+            "I shall be loved"
+          ]
+        },
+        {
+          "title": "Section 94: Coordinate Forms of Conjugation",
+          "steps": [
+            "Learn the progressive, emphatic, and interrogative forms",
+            "Write a synopsis of some of the listed verbs (think, teach, see)",
+            "Describe a currant bush and parse its verbs"
+          ],
+          "links": [
+            {
+              "label": "Read section 94",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n121/mode/1up"
+            }
+          ],
+          "pages": "pp. 116–118",
+          "questions": [
+            "Which form is \"He was writing\"?",
+            "Which form is \"I do write\"?",
+            "Which form is \"Did he write?\""
+          ],
+          "answers": [
+            "Progressive",
+            "Emphatic",
+            "Interrogative"
+          ]
+        },
+        {
+          "title": "Sections 95–96: Regular, Irregular, Defective, and Redundant Verbs",
+          "steps": [
+            "Learn regular and irregular verbs",
+            "Learn defective and redundant verbs",
+            "Give the principal parts of ten verbs and say which are irregular"
+          ],
+          "links": [
+            {
+              "label": "Read sections 95–96",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n123/mode/1up"
+            }
+          ],
+          "pages": "pp. 118–120",
+          "questions": [
+            "Is \"go\" regular or irregular?",
+            "Give the principal parts of \"write.\"",
+            "Is \"must\" a defective verb?"
+          ],
+          "answers": [
+            "Irregular",
+            "write, wrote, written",
+            "Yes"
+          ]
+        },
+        {
+          "title": "Sections 97–98: Parsing Verbs",
+          "steps": [
+            "Learn the order of parsing a verb",
+            "Parse \"Liberty is sweet\" and the other models aloud",
+            "Analyze the practice sentences and parse the verbs"
+          ],
+          "links": [
+            {
+              "label": "Read sections 97–98",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n125/mode/1up"
+            }
+          ],
+          "pages": "pp. 120–121",
+          "questions": [
+            "Parse \"is\" in \"Liberty is sweet\" briefly."
+          ],
+          "answers": [
+            "A verb; irregular (be, was, been); copulative; indicative mode, present tense; third person singular, agreeing with \"liberty\""
+          ]
+        },
+        {
+          "title": "Section 99: Composition — Sugar",
+          "steps": [
+            "Read the description of sugar several times and write it from memory",
+            "Describe tapping maple trees and making maple sugar",
+            "Write two sentences on \"Lazy Boys\" and parse the verbs"
+          ],
+          "links": [
+            {
+              "label": "Read section 99",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n126/mode/1up"
+            }
+          ],
+          "pages": "pp. 121–122",
+          "questions": [
+            "From what plant is most sugar made?",
+            "What is the part of the syrup that will not crystallize called?",
+            "From what root is sugar made in France?"
+          ],
+          "answers": [
+            "The sugar cane",
+            "Molasses",
+            "The beet"
+          ]
+        },
+        {
+          "title": "Section 100: False Syntax — Verb Cautions",
+          "steps": [
+            "Read the six cautions on verbs",
+            "Correct the faulty examples aloud",
+            "Write the corrected sentences"
+          ],
+          "links": [
+            {
+              "label": "Read section 100",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n127/mode/1up"
+            }
+          ],
+          "pages": "pp. 122–124",
+          "questions": [
+            "Correct: \"He said that the earth was round.\" (general truth)",
+            "Correct: \"I seen him yesterday.\"",
+            "Correct: \"It ain't mine.\""
+          ],
+          "answers": [
+            "He said that the earth is round.",
+            "I saw him yesterday.",
+            "It is not mine."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part II: Adverb, Preposition, Conjunction, Interjection (Sections 101–116)",
+      "lessons": [
+        {
+          "title": "Sections 101–102: Classes and Comparison of Adverbs",
+          "steps": [
+            "Learn the five classes of adverbs and the questions they answer",
+            "Learn adverbial phrases and conjunctive adverbs",
+            "Compare adverbs such as soon, well, and wisely"
+          ],
+          "links": [
+            {
+              "label": "Read sections 101–102",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n129/mode/1up"
+            }
+          ],
+          "pages": "pp. 124–125",
+          "questions": [
+            "What class of adverb answers \"How?\"",
+            "What class is \"seldom\"?",
+            "Compare \"well.\""
+          ],
+          "answers": [
+            "Manner",
+            "Time",
+            "well, better, best"
+          ]
+        },
+        {
+          "title": "Sections 103–105: Parsing Adverbs; Composition — The Apple",
+          "steps": [
+            "Parse \"bravely\" in \"The soldiers fought bravely\" by the order of parsing",
+            "Write a description of an apple following the plan",
+            "Describe another product with the general plan"
+          ],
+          "links": [
+            {
+              "label": "Read sections 103–105",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n130/mode/1up"
+            }
+          ],
+          "pages": "pp. 125–127",
+          "questions": [
+            "What does an adverb modify, according to Rule XVII?"
+          ],
+          "answers": [
+            "Verbs, adjectives, participles, and adverbs"
+          ]
+        },
+        {
+          "title": "Sections 106–108: The Preposition in Full",
+          "steps": [
+            "Read about relations between objects and how prepositions show them",
+            "Parse the prepositions in the models",
+            "Write two sentences describing spruce gum and parse the prepositions"
+          ],
+          "links": [
+            {
+              "label": "Read sections 106–108",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n132/mode/1up"
+            }
+          ],
+          "pages": "pp. 127–129",
+          "questions": [
+            "In \"They went aboard the ship,\" what is the object of the preposition?",
+            "What case is the object of a preposition in?"
+          ],
+          "answers": [
+            "ship",
+            "Objective"
+          ]
+        },
+        {
+          "title": "Sections 109–111: The Conjunction in Full",
+          "steps": [
+            "Learn coordinate and subordinate conjunctions and correlatives",
+            "Parse the conjunctions in the models",
+            "Find and classify the conjunctions in the practice sentences"
+          ],
+          "links": [
+            {
+              "label": "Read sections 109–111",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n134/mode/1up"
+            }
+          ],
+          "pages": "pp. 129–130",
+          "questions": [
+            "Into what two classes are conjunctions divided?",
+            "Is \"and\" coordinate or subordinate?",
+            "Is \"if\" coordinate or subordinate?"
+          ],
+          "answers": [
+            "Coordinate and subordinate",
+            "Coordinate",
+            "Subordinate"
+          ]
+        },
+        {
+          "title": "Section 112: Composition — Iron",
+          "steps": [
+            "Read the description of iron several times",
+            "Write it from memory",
+            "Underline the conjunctions in your composition"
+          ],
+          "links": [
+            {
+              "label": "Read section 112",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n135/mode/1up"
+            }
+          ],
+          "pages": "pp. 130–131",
+          "questions": [
+            "What is iron made into that is next in hardness to the diamond?",
+            "What is iron called after it is drawn off from the blast furnace?",
+            "What is melting ore in a blast furnace called?"
+          ],
+          "answers": [
+            "Steel",
+            "Pig iron",
+            "Smelting"
+          ]
+        },
+        {
+          "title": "Sections 113–115: The Interjection in Full",
+          "steps": [
+            "Learn the definition of an interjection and its rule",
+            "Parse \"Eh! are you sure of it?\" following the model",
+            "Write five sentences with interjections and punctuate them"
+          ],
+          "links": [
+            {
+              "label": "Read sections 113–115",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n136/mode/1up"
+            }
+          ],
+          "pages": "pp. 131–132",
+          "questions": [
+            "Do interjections depend on other words in the sentence?"
+          ],
+          "answers": [
+            "No"
+          ]
+        },
+        {
+          "title": "Section 116: Composition — Lead",
+          "steps": [
+            "Follow the plan to write a description of lead",
+            "Describe another substance (salt, coal, copper...) with the general plan",
+            "Read your description aloud and fix the punctuation"
+          ],
+          "links": [
+            {
+              "label": "Read section 116",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n137/mode/1up"
+            }
+          ],
+          "pages": "pp. 132–133",
+          "questions": [
+            "Name three topics from the general plan for describing a substance."
+          ],
+          "answers": [
+            "Any three of: properties, where found, what it is found with, how obtained, uses"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part II: Ellipsis, Syntax, and Letter Writing (Sections 117–123)",
+      "lessons": [
+        {
+          "title": "Section 117: Ellipsis",
+          "steps": [
+            "Learn what ellipsis is and what \"understood\" means",
+            "Go through the ten kinds of words that may be left out",
+            "Supply the missing words in the practice sentences"
+          ],
+          "links": [
+            {
+              "label": "Read section 117",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n138/mode/1up"
+            }
+          ],
+          "pages": "pp. 133–134",
+          "questions": [
+            "What is understood in \"Come\"?",
+            "Supply the missing word: \"He gave me an orange.\""
+          ],
+          "answers": [
+            "thou (you)",
+            "to (\"He gave to me an orange\")"
+          ]
+        },
+        {
+          "title": "Section 118: Abridgment",
+          "steps": [
+            "Learn how a clause is abridged to an infinitive, participial noun, or participle",
+            "Analyze the models",
+            "Abridge the complex sentences in the exercise"
+          ],
+          "links": [
+            {
+              "label": "Read section 118",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n139/mode/1up"
+            }
+          ],
+          "pages": "pp. 134–136",
+          "questions": [
+            "Abridge: \"I knew that it was he.\"",
+            "Abridge: \"The fair was not held, because the weather was unfavorable.\""
+          ],
+          "answers": [
+            "I knew it to be him.",
+            "The weather being unfavorable, the fair was not held."
+          ]
+        },
+        {
+          "title": "Section 119: Modified Subject and Predicate",
+          "steps": [
+            "Learn grammatical and logical subject and predicate",
+            "Point them out in the practice sentences",
+            "Analyze three sentences fully"
+          ],
+          "links": [
+            {
+              "label": "Read section 119",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n141/mode/1up"
+            }
+          ],
+          "pages": "pp. 136–137",
+          "questions": [
+            "In \"The tall old tree fell,\" what is the grammatical subject?",
+            "What is the logical subject?"
+          ],
+          "answers": [
+            "tree",
+            "The tall old tree"
+          ]
+        },
+        {
+          "title": "Section 120: Composition — A Hurricane",
+          "steps": [
+            "Read the description of a West Indies hurricane several times and write it from memory",
+            "Follow the plan to describe an earthquake",
+            "Describe another event of nature (a thunderstorm, a flood) with the general plan"
+          ],
+          "links": [
+            {
+              "label": "Read section 120",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n142/mode/1up"
+            }
+          ],
+          "pages": "pp. 137–138",
+          "questions": [
+            "What happens to the barometer before the hurricane?",
+            "Where do sea-birds fly during the storm?"
+          ],
+          "answers": [
+            "It falls rapidly",
+            "Into the forests"
+          ]
+        },
+        {
+          "title": "Section 121 (I): Rules of Syntax I–X",
+          "steps": [
+            "Learn what syntax and a rule of syntax are",
+            "Read Rules I–X on cases and pronoun agreement",
+            "Find an example of each rule in your reader"
+          ],
+          "links": [
+            {
+              "label": "Read section 121 (i)",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n143/mode/1up"
+            }
+          ],
+          "pages": "pp. 138–141",
+          "questions": [
+            "In what case is the subject of a proposition?",
+            "In what case is the object of a preposition?",
+            "Must a pronoun agree with its antecedent?"
+          ],
+          "answers": [
+            "Nominative",
+            "Objective",
+            "Yes, in gender, person, and number"
+          ]
+        },
+        {
+          "title": "Section 121 (II): Rules of Syntax XI–XX",
+          "steps": [
+            "Read Rules XI–XX on verbs, modifiers, and connectives",
+            "Correct sentences that break the agreement rules",
+            "Parse a sentence from your reader, giving a rule for every word"
+          ],
+          "links": [
+            {
+              "label": "Read section 121 (ii)",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n146/mode/1up"
+            }
+          ],
+          "pages": "pp. 141–142",
+          "questions": [
+            "Correct: \"John and James was there.\"",
+            "Correct: \"Either John or James are to blame.\""
+          ],
+          "answers": [
+            "John and James were there.",
+            "Either John or James is to blame."
+          ]
+        },
+        {
+          "title": "Section 122 (I): Letter Writing — The Parts of a Letter",
+          "steps": [
+            "Read the oral lesson about the envelope and the letter",
+            "Label the date, address, body, and signature on the model letter",
+            "Address an envelope correctly"
+          ],
+          "links": [
+            {
+              "label": "Read section 122 (i)",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n147/mode/1up"
+            }
+          ],
+          "pages": "pp. 142–144",
+          "questions": [
+            "Where does the stamp go on the envelope?",
+            "What is the part of a letter giving the place and day called?"
+          ],
+          "answers": [
+            "The upper right-hand corner",
+            "The date"
+          ]
+        },
+        {
+          "title": "Section 122 (II): Writing a Letter",
+          "steps": [
+            "Review the model letter",
+            "Write a letter telling what you plan to do next Saturday afternoon",
+            "Fold it and address an envelope for it"
+          ],
+          "links": [
+            {
+              "label": "Read section 122 (ii)",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n149/mode/1up"
+            }
+          ],
+          "pages": "pp. 144–145",
+          "questions": [
+            "Name two closing words you could use before your signature."
+          ],
+          "answers": [
+            "Any two, e.g. Yours truly, Yours faithfully, Very respectfully"
+          ]
+        },
+        {
+          "title": "Section 123 (I): Miscellaneous Exercises 1–14",
+          "steps": [
+            "Analyze sentences 1–7 aloud",
+            "Parse the words of sentences 8–14",
+            "Copy one sentence you like"
+          ],
+          "links": [
+            {
+              "label": "Read section 123 (i)",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n150/mode/1up"
+            }
+          ],
+          "pages": "p. 145",
+          "questions": [
+            "In \"Still waters are commonly deepest,\" what degree is \"deepest\"?",
+            "In \"She saw a glory in each cloud,\" what is the object of \"saw\"?"
+          ],
+          "answers": [
+            "Superlative",
+            "glory"
+          ]
+        },
+        {
+          "title": "Section 123 (II): Miscellaneous Exercises 15–31",
+          "steps": [
+            "Read the poetry extracts aloud",
+            "Analyze three of them",
+            "Memorize one short extract"
+          ],
+          "links": [
+            {
+              "label": "Read section 123 (ii)",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n150/mode/1up"
+            }
+          ],
+          "pages": "pp. 145–148",
+          "questions": [
+            "In \"Labor is life!\" what kind of sentence is it?"
+          ],
+          "answers": [
+            "Exclamatory"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Part III: Punctuation; Appendix (Sections 124–134)",
+      "lessons": [
+        {
+          "title": "Sections 124–125 (I): Punctuation; the Comma, Rules I–VI",
+          "steps": [
+            "Learn what punctuation is",
+            "Read comma Rules I–VI with their examples",
+            "Copy and punctuate a few sentences that use these rules"
+          ],
+          "links": [
+            {
+              "label": "Read sections 124–125 (i)",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n153/mode/1up"
+            }
+          ],
+          "pages": "pp. 148–149",
+          "questions": [
+            "What does a comma denote?",
+            "Punctuate: \"Reading writing and arithmetic are taught here.\""
+          ],
+          "answers": [
+            "The slightest degree of separation",
+            "Reading, writing, and arithmetic are taught here."
+          ]
+        },
+        {
+          "title": "Section 125 (II): The Comma, Rules VII–XII",
+          "steps": [
+            "Read comma Rules VII–XII",
+            "Punctuate sentences with direct address, appositives, and quotations",
+            "Write one sentence for each rule"
+          ],
+          "links": [
+            {
+              "label": "Read section 125 (ii)",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n154/mode/1up"
+            }
+          ],
+          "pages": "pp. 149–150",
+          "questions": [
+            "Punctuate: \"James bring me a book.\"",
+            "Punctuate: Quoth the raven \"Nevermore.\""
+          ],
+          "answers": [
+            "James, bring me a book.",
+            "Quoth the raven, \"Nevermore.\""
+          ]
+        },
+        {
+          "title": "Sections 126–128: The Semicolon, the Colon, and the Period",
+          "steps": [
+            "Read the rules for the semicolon, the colon, and the period",
+            "Find each mark in your reader and say which rule it follows",
+            "Write a sentence that needs a semicolon"
+          ],
+          "links": [
+            {
+              "label": "Read sections 126–128",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n155/mode/1up"
+            }
+          ],
+          "pages": "pp. 150–152",
+          "questions": [
+            "Which shows greater separation, a semicolon or a comma?",
+            "Which mark shows the greatest degree of separation?",
+            "What mark goes after every abbreviated word?"
+          ],
+          "answers": [
+            "A semicolon",
+            "The period",
+            "A period"
+          ]
+        },
+        {
+          "title": "Sections 129–131: Interrogation Point, Exclamation Point, and Dash",
+          "steps": [
+            "Read the rules for the question mark, the exclamation point, and the dash",
+            "Punctuate the practice sentences",
+            "Write a sentence that breaks off suddenly, using a dash"
+          ],
+          "links": [
+            {
+              "label": "Read sections 129–131",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n157/mode/1up"
+            }
+          ],
+          "pages": "pp. 152–153",
+          "questions": [
+            "What does the exclamation point show?",
+            "When is a dash used?"
+          ],
+          "answers": [
+            "Passion or emotion",
+            "Where a sentence breaks off abruptly or changes its meaning suddenly"
+          ]
+        },
+        {
+          "title": "Sections 132–134: Curves, Brackets, and Other Marks",
+          "steps": [
+            "Read about curves (parentheses) and brackets",
+            "Learn the other marks: apostrophe, hyphen, quotation marks, and the rest",
+            "Answer the closing questions on punctuation aloud"
+          ],
+          "links": [
+            {
+              "label": "Read sections 132–134",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n158/mode/1up"
+            }
+          ],
+          "pages": "pp. 153–156",
+          "questions": [
+            "What do curves enclose?",
+            "What does an apostrophe show?"
+          ],
+          "answers": [
+            "Words that could be left out without hurting the sense",
+            "That letters are left out, or possession"
+          ]
+        },
+        {
+          "title": "Appendix: Irregular Verbs",
+          "steps": [
+            "Read down the table of irregular verbs, saying the three principal parts",
+            "Quiz each other on twenty of them",
+            "Write sentences using the past and perfect participle of five verbs"
+          ],
+          "links": [
+            {
+              "label": "Read the appendix",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n161/mode/1up"
+            }
+          ],
+          "pages": "pp. 156–159",
+          "questions": [
+            "Give the principal parts of \"begin.\"",
+            "Give the principal parts of \"freeze.\"",
+            "Give the principal parts of \"swim.\""
+          ],
+          "answers": [
+            "begin, began, begun",
+            "freeze, froze, frozen",
+            "swim, swam, swum"
+          ]
+        },
+        {
+          "title": "Appendix: Unipersonal Verbs; Capital Letters, Italics",
+          "steps": [
+            "Read about unipersonal verbs (\"It rains\")",
+            "Learn the rules for capital letters",
+            "Copy a paragraph and check every capital by the rules"
+          ],
+          "links": [
+            {
+              "label": "Read the appendix",
+              "url": "https://archive.org/details/elementarygramma00harv/page/n164/mode/1up"
+            }
+          ],
+          "pages": "pp. 159–160",
+          "questions": [
+            "Should the first word of every line of poetry begin with a capital?",
+            "Is \"It snows\" an example of a unipersonal verb?",
+            "In handwriting, how do you show that a word should be in italics?"
+          ],
+          "answers": [
+            "Yes",
+            "Yes",
+            "Draw one line under it"
+          ]
+        }
+      ]
+    }
+  ]
+}

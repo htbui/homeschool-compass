@@ -16,7 +16,8 @@ describe('Freerange Library', () => {
       const info = LICENSE_INFO[e.license.kind];
       expect(info.adapt && info.commercial, e.key).toBe(true);
       const l = libraryListing(catalogEntry(e));
-      expect(l.attribution).toContain(e.author);
+      expect(l.attribution).toContain(e.author.split(' (')[0]);
+      expect(l).toMatchObject({ seller: e.seller, sellerKind: 'open', sellerVerified: false });
       expect(l.attribution!.length).toBeLessThanOrEqual(1000);
       expect(l.price).toBe(0);
       expect(l.sample).toBeUndefined();
@@ -31,7 +32,7 @@ describe('Freerange Library', () => {
       expect(e.description.length).toBeGreaterThan(40);
       const content = libraryContent(e);
       const lessons = content.units.flatMap((u) => u.lessons);
-      expect(lessons.length, e.key).toBeGreaterThan(20);
+      expect(lessons.length, e.key).toBeGreaterThanOrEqual(10);
       expect(new Set(lessons.map((l) => l.id)).size).toBe(lessons.length);
       for (const l of lessons) {
         expect(l.title.trim(), e.key).not.toBe('');

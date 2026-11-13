@@ -1,0 +1,2030 @@
+{
+  "key": "mcguffey-third-reader",
+  "title": "McGuffey's Third Eclectic Reader",
+  "sourceTitle": "McGuffey's Third Eclectic Reader, Revised Edition",
+  "author": "William Holmes McGuffey",
+  "seller": "William Holmes McGuffey",
+  "year": 1879,
+  "sourceUrl": "https://www.gutenberg.org/ebooks/14766",
+  "readUrl": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Project Gutenberg eBook #14766: 'Public domain in the USA.' Revised edition first copyrighted 1879 (Van Antwerp, Bragg & Co.); renewals 1896 (American Book Company) and 1907 and 1920 (H. H. Vail), all before 1930.",
+  "subjects": [
+    "reading"
+  ],
+  "gradeMin": 2,
+  "gradeMax": 3,
+  "philosophies": [
+    "charlotte_mason",
+    "classical",
+    "traditional",
+    "faith_based"
+  ],
+  "lessonsPerWeek": 4,
+  "minutesPerLesson": 20,
+  "parentInvolvement": "medium",
+  "familyStyle": false,
+  "cover": "🦉",
+  "color": "#E07A5F",
+  "description": "The classic Third Reader: 79 stories, fables, poems, and nature lessons, from the boy who cried wolf and the clever way to weigh an elephant to beavers, bats, hummingbirds, and Wordsworth's “We Are Seven.” Each day your child learns a few new words, reads the lesson aloud, and narrates it back or learns a few lines of a poem by heart. The full text is free online.",
+  "includes": [
+    "80 lessons in 10 units: the introduction plus all 79 Third Reader lessons",
+    "Link to the free full text for every lesson",
+    "Key new words, a reading activity, and narration, copywork, or memory work each day",
+    "Comprehension questions with answers",
+    "Poem authors, dated content, and the two untranscribed script lessons flagged in the notes"
+  ],
+  "units": [
+    {
+      "title": "Unit 1: Introduction and Lessons I–VIII",
+      "lessons": [
+        {
+          "title": "Getting Started: Sounds, Emphasis, and Punctuation",
+          "steps": [
+            "Say the long and short vowel sounds from the tables together, then a few subvocals and aspirates",
+            "Read the emphasis questions aloud, stressing the word that answers each one (“Did you ride to town? No, I walked.”)",
+            "Find a hyphen, comma, dash, quotation marks, and an apostrophe on the Punctuation page and say what each one does"
+          ],
+          "links": [
+            {
+              "label": "Articulation",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00024"
+            },
+            {
+              "label": "Emphasis",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00042"
+            },
+            {
+              "label": "Punctuation",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00047"
+            }
+          ],
+          "questions": [
+            "What is emphasis?",
+            "What does an apostrophe show?"
+          ],
+          "answers": [
+            "Saying some words with more force than others because the meaning depends on them",
+            "That letters are left out (o'er, 't is), or who owns something (Helen's book)"
+          ],
+          "notes": "The book's introductory pages. Return to the sound tables for a minute or two of drill before lessons all year."
+        },
+        {
+          "title": "Lesson I: The Shepherd Boy",
+          "steps": [
+            "New words: pasture, brooklet, crook, glossy, horse-chestnuts, jackstones",
+            "Read the poem aloud to your child, then take turns reading a stanza each",
+            "Narrate: what were Roy's 'sheep,' 'cows,' and 'pasture' really made of?",
+            "Copywork: “And the sparkle was all in his eyes.”"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson I",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00061"
+            }
+          ],
+          "questions": [
+            "Where was Roy really playing?",
+            "What were Roy's sheep?",
+            "What did big brother Walter do while Roy slept?"
+          ],
+          "answers": [
+            "Indoors, at a table in a house in town, on a rainy day",
+            "Snowy-white pebbles from the seashore",
+            "Cut the cows (horse-chestnuts) into baskets and turned the sheep (pebbles) into jackstones"
+          ],
+          "notes": "Poem by Emily S. Oakey. Jackstones is an old name for jacks. Let your child set up a pretend farm from things in the house afterward."
+        },
+        {
+          "title": "Lesson II: Johnny's First Snowstorm",
+          "steps": [
+            "New words: snowstorm, orange groves, joyfully, feathery, several",
+            "Let your child read the lesson aloud; you read Johnny's mother's lines",
+            "Narrate: what did Johnny think the snow was before his mother explained?",
+            "If it's snowing, catch a flake on dark cloth and look with a magnifying glass"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson II",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00079"
+            }
+          ],
+          "questions": [
+            "Why had Johnny never seen snow?",
+            "What did the snowflake look like under the glass?",
+            "Which did Johnny decide he liked better, snowballs or oranges?"
+          ],
+          "answers": [
+            "He had lived in a warm country",
+            "A pretty little star",
+            "Snowballs"
+          ]
+        },
+        {
+          "title": "Lesson III: Let It Rain",
+          "steps": [
+            "New words: quench, thirst, shocking, wreaths, ground (as in a mill)",
+            "Read it as a play: you are Father, your child is Rose",
+            "Narrate: list all the good things the rain does that Father helped Rose see",
+            "Copywork: “I am truly very glad to see the rain falling.”"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson III",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00087"
+            }
+          ],
+          "questions": [
+            "Why was Rose unhappy at the start?",
+            "How does rain help make bread?"
+          ],
+          "answers": [
+            "It was raining and she had to stay indoors",
+            "It makes the wheat grow, and water turns the mill that grinds the wheat into flour"
+          ],
+          "notes": "A dialogue: point out how the speaker's name comes before each speech."
+        },
+        {
+          "title": "Lesson IV: Castle-Building",
+          "steps": [
+            "New words: dismay, mimic, fiercely, passion, foundation",
+            "Read the lesson aloud together, a paragraph each",
+            "Narrate: what happened to Herbert's castle, and what did he do next?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson IV",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00092"
+            }
+          ],
+          "questions": [
+            "What knocked down Herbert's castle?",
+            "Who protected the cat?",
+            "What did Papa do to help?"
+          ],
+          "answers": [
+            "The cat rubbed against it",
+            "His little sister Hetty",
+            "Sat on the floor and began building a new castle with him"
+          ],
+          "notes": "Part 1 of 2; the story finishes in the next lesson."
+        },
+        {
+          "title": "Lesson V: Castle-Building (Concluded)",
+          "steps": [
+            "New words: retorted, heedlessly, guard, forehead",
+            "Let your child read the lesson aloud; help with the conversation parts",
+            "Narrate: what does 'crying over spilled milk' mean, and how did Papa say to handle trouble?",
+            "Copywork: “If your castles get knocked down, build them up again.”"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson V",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00097"
+            }
+          ],
+          "questions": [
+            "What had made Joe cry once?",
+            "What should Herbert do if the cat knocks the castle down again?"
+          ],
+          "answers": [
+            "His kite string broke and he lost his kite",
+            "Build it up again"
+          ]
+        },
+        {
+          "title": "Lesson VI: Lend a Hand",
+          "steps": [
+            "Look at the Lesson VI heading in the online text; the script page itself is not included",
+            "If you have a print or scanned copy, read the script poem together and copy two lines",
+            "Otherwise, talk about one way your child can 'lend a hand' at home today and do it"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson VI",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00104"
+            }
+          ],
+          "questions": [
+            "What does it mean to 'lend a hand'?"
+          ],
+          "answers": [
+            "To help someone"
+          ],
+          "notes": "Script lesson: the Gutenberg edition has only the title (the cursive page is not transcribed). Use a print copy or treat this as a short helping-day lesson."
+        },
+        {
+          "title": "Lesson VII: The Truant",
+          "steps": [
+            "New words: truant, falsely, haste, ignorant, conduct",
+            "Read it once aloud for your child, then have them read it to you",
+            "Narrate: tell what happened to James on the day he went to the boats"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson VII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00108"
+            }
+          ],
+          "questions": [
+            "What does it mean to 'play truant'?",
+            "Where did James get his money?",
+            "Who saved the boys?"
+          ],
+          "answers": [
+            "To stay away from school without permission",
+            "From his aunt",
+            "Some men who rowed out to them in a boat"
+          ]
+        },
+        {
+          "title": "Lesson VIII: The White Kitten",
+          "steps": [
+            "New words: frolic, counsel, needful, beggar-like",
+            "Read the poem aloud with expression; let your child read it back",
+            "Memorize: the last two lines, “It is needful that they / Should this counsel obey, / And be careful in choosing their places to play.”"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson VIII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00113"
+            }
+          ],
+          "questions": [
+            "How did the kitten look when she came home at night?",
+            "What lesson does the poem give children?"
+          ],
+          "answers": [
+            "Dirty, with gray streaks and a black nose",
+            "Be careful where you choose to play (and keep yourself good)"
+          ],
+          "notes": "Poem: read it twice, the second time with feeling."
+        }
+      ]
+    },
+    {
+      "title": "Unit 2: Lessons IX–XVI",
+      "lessons": [
+        {
+          "title": "Lesson IX: The Beaver",
+          "steps": [
+            "New words: chiefly, material, commence, gnawing, trappers, inhuman",
+            "Your child reads the lesson aloud; stop after each paragraph to picture it",
+            "Narrate: how does a beaver build its dam and hut?",
+            "Look at a picture of a beaver lodge online or in a book"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson IX",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00122"
+            }
+          ],
+          "questions": [
+            "Why do beavers build near water?",
+            "What do beavers eat in winter?",
+            "Why didn't the gentleman shoot the young beavers?"
+          ],
+          "answers": [
+            "They swim more easily than they walk",
+            "The bark they peel and store",
+            "Their play reminded him of children he knew, and it seemed cruel"
+          ],
+          "notes": "Fur trapping was ordinary in 1879; talk about how we protect wild animals today."
+        },
+        {
+          "title": "Lesson X: The Young Teacher",
+          "steps": [
+            "New words: amuse, inquire, venture, confused, parcels, copybook",
+            "Read the lesson together, taking turns by paragraph",
+            "Narrate: how did Charles use his free hour, and what did his father find?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson X",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00130"
+            }
+          ],
+          "questions": [
+            "Why couldn't Joe go to school?",
+            "What did Charles's father think he was doing at first?",
+            "What did Charles's father give the boys?"
+          ],
+          "answers": [
+            "His parents were too poor",
+            "Going out on the river in the fisherman's boat",
+            "Books, writing paper, pens, and ink"
+          ],
+          "notes": "Joe's mother 'kept her wheel going': she spun thread on a spinning wheel to earn money."
+        },
+        {
+          "title": "Lesson XI: The Blacksmith",
+          "steps": [
+            "New words: forge, aweary, shrink, intense",
+            "Read the poem aloud, tapping a 'hammer' on the table for each “Clink, clink”",
+            "Memorize: the first stanza",
+            "Copywork: “We'll work each form / While the iron is warm”"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XI",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00138"
+            }
+          ],
+          "questions": [
+            "Why is a blacksmith's face black?",
+            "What does the blacksmith make with many links?"
+          ],
+          "answers": [
+            "From the soot and smoke of the forge fire",
+            "A chain"
+          ],
+          "notes": "Poem. 'Strike while the iron is hot' comes from blacksmith work: talk about what it means."
+        },
+        {
+          "title": "Lesson XII: A Walk in the Garden",
+          "steps": [
+            "New words: gravel, meddle, borders, admiring, rare",
+            "Let your child read the lesson aloud slowly; help only with hard words",
+            "Narrate: compare Frank with the boy at the gate"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00145"
+            }
+          ],
+          "questions": [
+            "What did Frank's mother ask him to promise?",
+            "Why wouldn't the gardener let the other boy in?",
+            "What did the gardener give Frank and his mother?"
+          ],
+          "answers": [
+            "Not to meddle with anything in the garden",
+            "He had meddled with the flowers and picked rare fruit the day before",
+            "Some pretty flowers"
+          ]
+        },
+        {
+          "title": "Lesson XIII: The Wolf",
+          "steps": [
+            "New words: forest, village, earnest, dismay, deceived",
+            "Read the lesson aloud together",
+            "Narrate: tell the story of the boy who cried wolf in your own words",
+            "Copywork: “The truth itself is not believed, / From one who often has deceived.”"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XIII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00152"
+            }
+          ],
+          "questions": [
+            "Why did John cry 'Wolf!' the first time?",
+            "What happened when the wolf really came?"
+          ],
+          "answers": [
+            "To have some fun",
+            "No one came to help, and the wolf killed many sheep, including John's lamb"
+          ],
+          "notes": "This is the old fable of the boy who cried wolf."
+        },
+        {
+          "title": "Lesson XIV: The Little Bird's Song",
+          "steps": [
+            "New words: melody, modest, unnoticed, Maker",
+            "Read the poem aloud; let your child read Gracie's words and you read Father's",
+            "Memorize: the last stanza, “So live, my child, all through your life …”"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XIV",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00158"
+            }
+          ],
+          "questions": [
+            "Why couldn't the people see the bird?",
+            "What lesson did Father want Gracie to learn?"
+          ],
+          "answers": [
+            "It was small and plain brown, so it didn't show",
+            "To do good without trying to be seen or praised"
+          ],
+          "notes": "Poem."
+        },
+        {
+          "title": "Lesson XV: Harry and Annie",
+          "steps": [
+            "New words: exploring, pretend, thaw, good-naturedly, disobedient",
+            "Read the lesson aloud, a paragraph each",
+            "Narrate: what did Harry say to excuse himself, and was he right?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XV",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00165"
+            }
+          ],
+          "questions": [
+            "What did mother ask the children not to do?",
+            "Who saved Annie?",
+            "What did Harry do when he got home?"
+          ],
+          "answers": [
+            "Not to cross the pond, because the ice was thawing",
+            "A man working near the shore",
+            "Told his mother how disobedient he had been"
+          ],
+          "notes": "A good time to go over ice safety rules for your family."
+        },
+        {
+          "title": "Lesson XVI: Bird Friends",
+          "steps": [
+            "New words: grove, rod (a measure), faith, crumbs, bedpost",
+            "Read it aloud to your child, then let them read their favorite part back",
+            "Narrate: how did the old man win the birds' trust?",
+            "Put out crumbs or seed and watch who comes"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XVI",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00169"
+            }
+          ],
+          "questions": [
+            "Why did the birds follow the old man's rake?",
+            "How did the birds wake him in the morning?",
+            "What made the birds trust him?"
+          ],
+          "answers": [
+            "To catch the worms in the fresh dirt",
+            "They sat on his bedpost and chirped",
+            "His kind eyes and voice"
+          ],
+          "notes": "Adapted from Elihu Burritt. A rod is about 16½ feet."
+        }
+      ]
+    },
+    {
+      "title": "Unit 3: Lessons XVII–XXIV",
+      "lessons": [
+        {
+          "title": "Lesson XVII: What the Minutes Say",
+          "steps": [
+            "New words: furnished, unseen, track",
+            "Read the short poem aloud twice",
+            "Memorize: the whole poem (eight lines)",
+            "Set a one-minute timer and see how much you can tidy in it"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XVII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00176"
+            }
+          ],
+          "questions": [
+            "How many 'wings' does each minute have?",
+            "What happens to someone who loses minutes?"
+          ],
+          "answers": [
+            "Sixty (seconds)",
+            "They lose whole years"
+          ],
+          "notes": "Poem."
+        },
+        {
+          "title": "Lesson XVIII: The Widow and the Merchant",
+          "steps": [
+            "New words: merchant, widow, assistance, hesitation, convinced, check",
+            "Let your child read the lesson aloud; you read the banker's lines",
+            "Narrate: tell what happened at the bank, step by step"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XVIII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00181"
+            }
+          ],
+          "questions": [
+            "How much did the widow ask for?",
+            "Why did the widow go back instead of keeping the money?",
+            "How much did she get in the end?"
+          ],
+          "answers": [
+            "Five dollars",
+            "She was honest and thought it was a mistake",
+            "Five hundred dollars"
+          ],
+          "notes": "Dollar amounts are from 1879; five dollars was then several days' wages."
+        },
+        {
+          "title": "Lesson XIX: The Birds Set Free",
+          "steps": [
+            "New words: prisoners, apiece, bargain, resolved",
+            "Read the lesson together",
+            "Narrate: why did the man let the birds go?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XIX",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00185"
+            }
+          ],
+          "questions": [
+            "How much did each bird cost?",
+            "How much did the man pay for them all?",
+            "Where had the man been a prisoner?"
+          ],
+          "answers": [
+            "Fifty cents",
+            "Five dollars",
+            "In a French prison, as a prisoner of war"
+          ]
+        },
+        {
+          "title": "Lesson XX: A Moment Too Late",
+          "steps": [
+            "New words: downy, disturbed, petals, sped",
+            "Read the poem aloud; your child reads stanzas 5 and 6",
+            "Copywork: “Better be an hour early, and stand and wait”"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XX",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00189"
+            }
+          ],
+          "questions": [
+            "What happened to the bird's nest?",
+            "What did the bee miss?"
+          ],
+          "answers": [
+            "The wind blew it away",
+            "The honey had already dropped from the flower"
+          ],
+          "notes": "Poem. 'Staid' is an old spelling of 'stayed.'"
+        },
+        {
+          "title": "Lesson XXI: Humming Birds",
+          "steps": [
+            "New words: crest, brilliant, adorn, fibers, instinct, approach",
+            "Your child reads the lesson aloud",
+            "Narrate: describe the hummingbird's nest and eggs",
+            "Watch a short slow-motion video of hummingbird wings"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXI",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00198"
+            }
+          ],
+          "questions": [
+            "Why are they called humming birds?",
+            "How big were the eggs?",
+            "How does the mother bird protect her nest?"
+          ],
+          "answers": [
+            "Their fast-moving wings make a humming sound",
+            "About as large as a small sugarplum",
+            "She darts at you and pecks at your eyes"
+          ]
+        },
+        {
+          "title": "Lesson XXII: The Wind and the Sun",
+          "steps": [
+            "New words: dispute, blast, mantle, sultry, forcibly, fable",
+            "Read the fable aloud, then act it out with a blanket as the cloak",
+            "Narrate: tell the fable in three sentences"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00202"
+            }
+          ],
+          "questions": [
+            "What contest did the Wind and the Sun agree on?",
+            "Who won?",
+            "What is the lesson?"
+          ],
+          "answers": [
+            "To see who could make a traveler take off his cloak",
+            "The Sun",
+            "Gentleness often succeeds where force fails"
+          ],
+          "notes": "An Aesop fable."
+        },
+        {
+          "title": "Lesson XXIII: Sunset",
+          "steps": [
+            "Look at the Lesson XXIII heading in the online text; the script page is not transcribed",
+            "If you have a print copy, read the script lines and copy one",
+            "Otherwise, watch tonight's sunset together and name its colors"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXIII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00206"
+            }
+          ],
+          "questions": [
+            "What colors do you see in a sunset?"
+          ],
+          "notes": "Script lesson: the Gutenberg edition has only the title. Use a print copy, or make it a sunset-watching day."
+        },
+        {
+          "title": "Lesson XXIV: Beautiful Hands",
+          "steps": [
+            "New words: coarse, opinion, deeds, cheerfully, ashamed",
+            "Read it as a conversation: you are Miss Roberts, your child is Daisy",
+            "Narrate: list the things Mary's hands do",
+            "Copywork: “The good alone are really beautiful.”"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXIV",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00209"
+            }
+          ],
+          "questions": [
+            "Why did Daisy think Mary's hands were ugly?",
+            "Why did Miss Roberts call them beautiful?"
+          ],
+          "answers": [
+            "They were red and hard",
+            "They are always busy doing kind, helpful work, and do it gladly"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 4: Lessons XXV–XXXII",
+      "lessons": [
+        {
+          "title": "Lesson XXV: Things to Remember",
+          "steps": [
+            "New words: protection, peevish, pout, manners, secret",
+            "Read the lesson aloud, one numbered rule each",
+            "Narrate: choose three rules and say them in your own words",
+            "Pick one rule to practice all week"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXV",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00215"
+            }
+          ],
+          "questions": [
+            "How should you ask for food at the table?",
+            "What should you think about at night before sleep?"
+          ],
+          "answers": [
+            "Ask someone to pass it instead of reaching",
+            "Whether you did anything wrong that day, ask forgiveness, and forgive others"
+          ],
+          "notes": "A list of manners and devotional rules; trim or discuss to suit your family."
+        },
+        {
+          "title": "Lesson XXVI: Three Little Mice",
+          "steps": [
+            "New words: cunning, lattice, protruded, perplexed, comical",
+            "Read the poem aloud for your child; then let them read a stanza",
+            "Narrate: what happened when the narrator caught a mouse's tail?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXVI",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00219"
+            }
+          ],
+          "questions": [
+            "What color were the mice?",
+            "How did the mice ask for food?",
+            "What did the other mice do to 'help'?"
+          ],
+          "answers": [
+            "White, with red eyes",
+            "They stood up in a row, folding their paws and rattling the bars",
+            "Began to gnaw off the tail"
+          ],
+          "notes": "Poem by Julia C. R. Dorr. Long lines: read slowly."
+        },
+        {
+          "title": "Lesson XXVII: The New Year",
+          "steps": [
+            "New words: gayly, distress, gratitude, doubtless, wretched",
+            "Let your child read the lesson aloud",
+            "Narrate: what did Edward plan to do with his money, and what did he do instead?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXVII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00226"
+            }
+          ],
+          "questions": [
+            "What did Edward's father give him?",
+            "Why couldn't the man answer Edward?",
+            "What reward did Edward get?"
+          ],
+          "answers": [
+            "Two silver dollars",
+            "He spoke only German, not English",
+            "A whole bundle of books"
+          ]
+        },
+        {
+          "title": "Lesson XXVIII: The Clock and the Sundial",
+          "steps": [
+            "New words: steeple, stock (a post), boasting, folly, modesty, moral",
+            "Read the fable aloud, giving the clock a proud voice",
+            "Narrate: why was the clock wrong to boast?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00231"
+            }
+          ],
+          "questions": [
+            "Why did the clock call the sundial stupid?",
+            "What did the sun show when it came out?"
+          ],
+          "answers": [
+            "The sundial can only tell time when the sun shines",
+            "That the clock was half an hour behind"
+          ],
+          "notes": "Make a simple sundial with a stick in the yard on a sunny day."
+        },
+        {
+          "title": "Lesson XXIX: Remember",
+          "steps": [
+            "New words: ever-wakeful, falsehood, forgiveness, delight",
+            "Read the poem aloud together, slowly",
+            "Memorize: the first stanza"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXIX",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00234"
+            }
+          ],
+          "questions": [
+            "Who does the poem say sees all we do?",
+            "What should you do if you have done wrong?"
+          ],
+          "answers": [
+            "God",
+            "Be sorry and pray to be forgiven"
+          ],
+          "notes": "A devotional poem."
+        },
+        {
+          "title": "Lesson XXX: Courage and Cowardice",
+          "steps": [
+            "New words: quarrel, mischief, reproach, deserved, schoolmates",
+            "Read the lesson aloud, taking turns",
+            "Narrate: who really showed courage, and how?",
+            "Copywork: “Never be afraid to do good, but always fear to do evil.”"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXX",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00246"
+            }
+          ],
+          "questions": [
+            "Why wouldn't Henry go see the fight?",
+            "What happened to Robert while bathing?"
+          ],
+          "answers": [
+            "He did not want to meddle or get into trouble",
+            "He went out of his depth and Henry saved him from drowning"
+          ],
+          "notes": "Today we teach children to call an adult or throw something that floats rather than swim out to rescue someone."
+        },
+        {
+          "title": "Lesson XXXI: Weighing an Elephant",
+          "steps": [
+            "New words: gratitude, deliverance, vowed, enormous, expense",
+            "Read the lesson aloud; stop at paragraph 8 and let your child guess the answer first",
+            "Narrate: explain the sailor's trick step by step",
+            "Try it: float a bowl in water, mark the waterline with a toy in it, then match the mark with coins"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXI",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00250"
+            }
+          ],
+          "questions": [
+            "What did the king promise to give the poor?",
+            "Where did Teddy put the elephant?",
+            "What did Teddy win?"
+          ],
+          "answers": [
+            "The elephant's weight in silver",
+            "In a boat",
+            "An orange"
+          ],
+          "notes": "Adapted from A. L. O. E."
+        },
+        {
+          "title": "Lesson XXXII: The Soldier",
+          "steps": [
+            "New words: arrayed, contest, warrior, enlist, mustered",
+            "Read the poem aloud with a marching beat",
+            "Narrate: what kind of soldier does the speaker want to be?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00257"
+            }
+          ],
+          "questions": [
+            "Does the soldier in the poem want to shed blood?",
+            "What does he fight for?"
+          ],
+          "answers": [
+            "No",
+            "Truth (and love)"
+          ],
+          "notes": "Poem by J. G. Adams."
+        }
+      ]
+    },
+    {
+      "title": "Unit 5: Lessons XXXIII–XL",
+      "lessons": [
+        {
+          "title": "Lesson XXXIII: The Echo",
+          "steps": [
+            "New words: rambling, mocking, thicket, offended, peevish",
+            "Read the lesson together; you read Mother's part",
+            "Narrate: what is an echo, and what did Robert's mother teach with it?",
+            "Copywork: “A soft answer turneth away wrath.”"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXIII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00264"
+            }
+          ],
+          "questions": [
+            "Who did Robert think was mocking him?",
+            "How did his mother explain an echo?"
+          ],
+          "answers": [
+            "A boy hiding in the woods",
+            "Like a ball bouncing back off a wall, your voice comes back from a hill"
+          ]
+        },
+        {
+          "title": "Lesson XXXIV: George's Feast",
+          "steps": [
+            "New words: blazing, collect, scarlet, refresh, longing",
+            "Your child reads the lesson aloud",
+            "Narrate: tell how George decided what to do with the strawberries"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXIV",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00270"
+            }
+          ],
+          "questions": [
+            "Why did George go to the woods?",
+            "Who were the strawberries for in the end?"
+          ],
+          "answers": [
+            "To gather sticks for the fire",
+            "His sick mother"
+          ]
+        },
+        {
+          "title": "Lesson XXXV: The Lord's Prayer",
+          "steps": [
+            "New words: hallow, bounty, transgressions, compassion, temptation",
+            "Read the verse version aloud, then compare it with Matthew 6:9–13",
+            "Memorize: the first stanza (or the prayer in your family's version)"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXV",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00277"
+            }
+          ],
+          "questions": [
+            "What does 'our portion of bread' ask for?",
+            "What does the poem ask God to keep us from?"
+          ],
+          "answers": [
+            "Food for each day",
+            "Temptation, weakness, and sin"
+          ],
+          "notes": "A verse paraphrase. The script page that follows (An Evening Prayer) is not transcribed in the Gutenberg text; use a print copy if you have one."
+        },
+        {
+          "title": "Lesson XXXVI: Finding the Owner",
+          "steps": [
+            "New words: evident, satisfaction, critical, conscious, anxiety",
+            "Read the lesson aloud, taking turns",
+            "Narrate: why didn't Fred enjoy the knife at first?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXVI",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00283"
+            }
+          ],
+          "questions": [
+            "Whose knife was it?",
+            "How did Fred feel while he kept it?",
+            "What did the doctor do?"
+          ],
+          "answers": [
+            "Dr. Perry's",
+            "Like a thief; worried all week",
+            "Let Fred keep it"
+          ]
+        },
+        {
+          "title": "Lesson XXXVII: Bats",
+          "steps": [
+            "New words: crevices, quadruped, prowling, devour, policy",
+            "Your child reads the lesson aloud",
+            "Narrate: how did the bat trick the owl and then the cat?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXVII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00289"
+            }
+          ],
+          "questions": [
+            "What are a bat's wings made of?",
+            "What did the bat tell the owl?",
+            "What did the bat tell the cat?"
+          ],
+          "answers": [
+            "Thin skin stretched over bones",
+            "That he was not a bird but like a mouse",
+            "That he was a bird, not a mouse"
+          ],
+          "notes": "Adapted from S. G. Goodrich. Bats are mammals; the fable's harsh ending is about being two-faced, not about real bats, which are helpful insect-eaters."
+        },
+        {
+          "title": "Lesson XXXVIII: A Summer Day",
+          "steps": [
+            "New words: tints, sheaves, lance, lowing",
+            "Read the poem aloud, one stanza each",
+            "Copywork: “This is the way the morning dawns”",
+            "Draw one stanza's picture"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00295"
+            }
+          ],
+          "questions": [
+            "What are the cows doing at evening?",
+            "What do fireflies do in the poem?"
+          ],
+          "answers": [
+            "Lowing (mooing) in the lane",
+            "Wink on hill and plain"
+          ],
+          "notes": "Poem by George Cooper."
+        },
+        {
+          "title": "Lesson XXXIX: I Will Think of It",
+          "steps": [
+            "New words: chandelier, pendulum, mainspring, whalebone, lectures, motto",
+            "Your child reads the lesson aloud; pause after each inventor",
+            "Narrate: name the four thinkers and what set each one thinking"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XXXIX",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00308"
+            }
+          ],
+          "questions": [
+            "What did Newton see fall?",
+            "What did James Watt watch move?",
+            "What was James Ferguson's motto?"
+          ],
+          "answers": [
+            "An apple",
+            "The lid of a teakettle, pushed by steam",
+            "“I will think of it”"
+          ],
+          "notes": "The Newton apple story is a well-loved legend. Find Pisa and Scotland on a map."
+        },
+        {
+          "title": "Lesson XL: Charlie and Rob",
+          "steps": [
+            "New words: hinder, kindling, conquer, splendid, accounts, chores",
+            "Read it as a dialogue: you are Charlie, your child is Rob",
+            "Narrate: how are Charlie's and Rob's ideas about work different?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XL",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00313"
+            }
+          ],
+          "questions": [
+            "How does Rob make splitting wood fun?",
+            "How is Rob 'working toward' being a bank clerk?",
+            "Which boy do you think did well, and why?"
+          ],
+          "answers": [
+            "He pretends the tough stick is a hard lesson to conquer",
+            "By keeping his father's account books",
+            "Rob, who worked steadily and honestly; the story hints that Charlie ended up a tramp"
+          ],
+          "notes": "The ending asks a question; let your child answer it. 'Tramps' meant homeless wanderers."
+        }
+      ]
+    },
+    {
+      "title": "Unit 6: Lessons XLI–XLVIII",
+      "lessons": [
+        {
+          "title": "Lesson XLI: Ray and His Kite",
+          "steps": [
+            "New words: companions, daydreams, lantern, comet, hobgoblin, approached",
+            "Read the lesson aloud together, a paragraph each",
+            "Narrate: what did the villagers guess the light was?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLI",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00318"
+            }
+          ],
+          "questions": [
+            "What did Ray tie to his kite?",
+            "Where was Ray while the men looked at the light?",
+            "What did the men decide to do?"
+          ],
+          "answers": [
+            "A tin lantern",
+            "Sitting in a fence corner behind a tree",
+            "Keep the secret and enjoy the joke"
+          ],
+          "notes": "Never fly a kite with a flame or near power lines; this one is just a story."
+        },
+        {
+          "title": "Lesson XLII: Beware of the First Drink",
+          "steps": [
+            "New words: ramble, decent, debts, resist, sot",
+            "Read the lesson aloud with your child",
+            "Narrate: tell how Tom Smith's life went wrong, step by step"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00324"
+            }
+          ],
+          "questions": [
+            "What kind of boy was Tom Smith at school?",
+            "What did Tom himself say to beware of?",
+            "Where was Tom sent at the end?"
+          ],
+          "answers": [
+            "Decent and well-behaved",
+            "The first drink",
+            "To state prison for ten years"
+          ],
+          "notes": "A temperance lesson, common in 1870s readers. Preview it and discuss in a way that fits your family."
+        },
+        {
+          "title": "Lesson XLIII: Speak Gently",
+          "steps": [
+            "New words: mar, accents, aged, careworn, erring, eternity",
+            "Read the poem aloud softly, as the title says",
+            "Memorize: the first stanza"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLIII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00330"
+            }
+          ],
+          "questions": [
+            "Name two kinds of people the poem says to speak gently to.",
+            "Why is it better to rule by love than by fear?"
+          ],
+          "answers": [
+            "Any two: little children, the aged, the poor, those who do wrong",
+            "Kind words win love and do lasting good; harsh words spoil it"
+          ],
+          "notes": "Poem by George Washington Langford."
+        },
+        {
+          "title": "Lesson XLIV: The Seven Sticks",
+          "steps": [
+            "New words: quarreling, property, strained, vain, union, prosper",
+            "Read the lesson aloud",
+            "Try it: tie several pencils or sticks together and try to bend them, then one alone",
+            "Copywork: “Home, city, country, all are prosperous found, / When by the powerful link of union bound.”"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLIV",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00339"
+            }
+          ],
+          "questions": [
+            "Why did bad men hope the brothers would quarrel?",
+            "How did the father break the bundle?",
+            "What did the sticks stand for?"
+          ],
+          "answers": [
+            "So they could cheat them out of their property",
+            "He untied it and broke the sticks one at a time",
+            "The sons: together they are strong, apart they are weak"
+          ],
+          "notes": "An Aesop fable."
+        },
+        {
+          "title": "Lesson XLV: The Mountain Sister",
+          "steps": [
+            "New words: autumn, tassels, prickly, burs, donkey",
+            "Your child reads the lesson aloud",
+            "Narrate: describe a nut-gathering day with Jeannette",
+            "If you can, find chestnuts or another nut in its shell and look inside"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLV",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00345"
+            }
+          ],
+          "questions": [
+            "What does the frost do for the nut gatherers?",
+            "What carries the bags of nuts?",
+            "How many nuts can be in one bur?"
+          ],
+          "answers": [
+            "It cracks open the prickly burs",
+            "A donkey",
+            "One to four"
+          ]
+        },
+        {
+          "title": "Lesson XLVI: Harry and the Guidepost",
+          "steps": [
+            "New words: heath, owlet, benighted, groped, dismal, betide",
+            "Read the poem aloud in a spooky voice, then a cheerful one for the ending",
+            "Narrate: what did Harry think he saw, and what was it really?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLVI",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00351"
+            }
+          ],
+          "questions": [
+            "What was the 'ghost'?",
+            "What did Harry decide to do the next time something frightened him?"
+          ],
+          "answers": [
+            "A white guidepost (signpost)",
+            "March straight up to it"
+          ],
+          "notes": "Poem. A guidepost is a road sign with arms pointing the way."
+        },
+        {
+          "title": "Lesson XLVII: The Money Amy Didn't Earn",
+          "steps": [
+            "New words: tasks, season, quart, immediately, figuring",
+            "Read the lesson aloud together",
+            "Check Amy's math: 5 quarts at 13 cents, and 12 quarts at 13 cents",
+            "Copywork: “One doer is worth a hundred dreamers.”"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLVII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00365"
+            }
+          ],
+          "questions": [
+            "How much would Amy be paid for each quart?",
+            "How much for five quarts?",
+            "Why didn't Amy earn any money?"
+          ],
+          "answers": [
+            "Thirteen cents",
+            "Sixty-five cents",
+            "She spent the morning figuring, and boys picked the berries first"
+          ],
+          "notes": "Prices are from 1879."
+        },
+        {
+          "title": "Lesson XLVIII: Who Made the Stars?",
+          "steps": [
+            "New words: formed, brilliant, prattling, fragrant, homage, clime",
+            "Read the poem aloud; your child asks the first stanza and you answer",
+            "Memorize: the first two stanzas"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLVIII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00372"
+            }
+          ],
+          "questions": [
+            "What question does the child ask?",
+            "Name two things the poem says God made."
+          ],
+          "answers": [
+            "Who made the stars and the moon",
+            "Any two: the sun, stars, moon, leaves, flowers, feet, eyes, tongue"
+          ],
+          "notes": "A devotional poem written as a question and answer."
+        }
+      ]
+    },
+    {
+      "title": "Unit 7: Lessons XLIX–LVI",
+      "lessons": [
+        {
+          "title": "Lesson XLIX: Deeds of Kindness",
+          "steps": [
+            "New words: overtook, widow, cottage, trudged, gutter, occasions",
+            "Your child reads the lesson aloud",
+            "Narrate: tell the two little stories of kindness",
+            "Plan one small kind deed for today"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson XLIX",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00382"
+            }
+          ],
+          "questions": [
+            "Why was the woman taking apples to market?",
+            "Did the boys take apples as pay?",
+            "Why did the girl pick up the orange peel?"
+          ],
+          "answers": [
+            "To pay her rent",
+            "No",
+            "So no one would slip on it and fall"
+          ]
+        },
+        {
+          "title": "Lesson L: The Alarm Clock",
+          "steps": [
+            "New words: roused, faithfully, ceased, conscience, trifling",
+            "Read the lesson aloud",
+            "Narrate: how is a conscience like the alarm clock?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson L",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00386"
+            }
+          ],
+          "questions": [
+            "Why did the lady stop hearing the clock?",
+            "What is the clock compared to?"
+          ],
+          "answers": [
+            "She got in the habit of not obeying it",
+            "Our conscience"
+          ]
+        },
+        {
+          "title": "Lesson LI: Spring",
+          "steps": [
+            "New words: alder, powdery, columbine, clover",
+            "Read the poem aloud, one stanza each",
+            "Memorize: the first stanza",
+            "Go outside and look for any of the plants named in the poem"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LI",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00389"
+            }
+          ],
+          "questions": [
+            "Name three flowers in the poem.",
+            "What sound do the frogs make?"
+          ],
+          "answers": [
+            "Any three: buttercups, columbine, dandelions, daisies, clover, violet",
+            "A clear, sweet music (they 'ripple')"
+          ],
+          "notes": "Poem by Celia Thaxter."
+        },
+        {
+          "title": "Lesson LII: True Courage",
+          "steps": [
+            "New words: scholars, credit, folly, heartily, fearless",
+            "Read it as a play: assign Henry, James, and George, with you as narrator",
+            "Narrate: why does the lesson call George a coward even though he threw the snowball?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00399"
+            }
+          ],
+          "questions": [
+            "Who talked George into throwing the snowball?",
+            "What would real courage have looked like?"
+          ],
+          "answers": [
+            "Henry",
+            "Saying no and not caring if he was laughed at"
+          ],
+          "notes": "Mentions whipping as a school punishment, normal in 1879. Good springboard for talking about peer pressure."
+        },
+        {
+          "title": "Lesson LIII: The Old Clock",
+          "steps": [
+            "New words: steady, course, ere, wrinkled",
+            "Read the poem aloud slowly, ticking with your tongue at each “tick, tick, tick”",
+            "Copywork: “Tick, tick, tick! Time passes away.”"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LIII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00404"
+            }
+          ],
+          "questions": [
+            "What does Nell not understand about the clock?",
+            "Who is telling the poem?"
+          ],
+          "answers": [
+            "That it marks the silent passing of time",
+            "Someone older who heard the same clock as a child"
+          ],
+          "notes": "Poem. A short one; pair it with practice reading an analog clock."
+        },
+        {
+          "title": "Lesson LIV: The Waves",
+          "steps": [
+            "New words: earnest, glorious, timid, fretful, moaning",
+            "Let your child read the lesson aloud; you read the sea's lines",
+            "Narrate: what job did each little wave do on the shore?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LIV",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00412"
+            }
+          ],
+          "questions": [
+            "What did the pebbles say they wanted?",
+            "Why did the big wave think he had done nothing?",
+            "What did the child on the shore notice?"
+          ],
+          "answers": [
+            "Washing",
+            "He only broke on a rock and splashed into a pool",
+            "The sand was clean and the water in the pool was clear"
+          ]
+        },
+        {
+          "title": "Lesson LV: Don't Kill the Birds",
+          "steps": [
+            "New words: joyous, cheerless, warble, innocent, tuneful",
+            "Read the poem aloud together",
+            "Memorize: the first stanza",
+            "Make a list of the birds you see near your home this week"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LV",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00417"
+            }
+          ],
+          "questions": [
+            "What does the poem say about the life of a bird?",
+            "What would the earth be like without birds?"
+          ],
+          "answers": [
+            "We should not take a life we can never give",
+            "A cheerless place"
+          ],
+          "notes": "Poem."
+        },
+        {
+          "title": "Lesson LVI: When to Say No",
+          "steps": [
+            "New words: idleness, loiter, interrupt, tempted, conceal",
+            "Read the lesson aloud, one numbered paragraph each",
+            "Narrate: list the times the lesson says to say “No”",
+            "Practice saying a polite but firm “No” to a pretend dare"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LVI",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00427"
+            }
+          ],
+          "questions": [
+            "Why is 'No' sometimes hard to say?",
+            "What should we say when tempted to hide a wrong with a lie?"
+          ],
+          "answers": [
+            "Because we fear what others will think, though it is a little word",
+            "No; lying is wicked and cowardly"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 8: Lessons LVII–LXIV",
+      "lessons": [
+        {
+          "title": "Lesson LVII: Which Loved Best?",
+          "steps": [
+            "New words: pouted, rejoiced, softly",
+            "Read the poem aloud with expression",
+            "Narrate: what did John, Nell, and Fan each do after saying “I love you”?",
+            "Memorize: the last stanza"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LVII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00432"
+            }
+          ],
+          "questions": [
+            "Which child really loved mother best?",
+            "How did Fan show her love?"
+          ],
+          "answers": [
+            "Fan",
+            "She rocked the baby, swept, dusted, and helped cheerfully all day"
+          ],
+          "notes": "Poem by Joy Allison."
+        },
+        {
+          "title": "Lesson LVIII: John Carpenter",
+          "steps": [
+            "New words: satisfaction, bridle, turner, shavings, ingenious, compliment",
+            "Your child reads the lesson aloud",
+            "Narrate: tell how John built his horse, step by step",
+            "Make a simple toy from things around the house"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LVIII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00440"
+            }
+          ],
+          "questions": [
+            "How much did Tom's horse cost?",
+            "Where did John get the wheels?",
+            "What did John become when he grew up?"
+          ],
+          "answers": [
+            "A dollar",
+            "From a turner, a man who shapes wood on a lathe",
+            "A master workman in a machine shop"
+          ]
+        },
+        {
+          "title": "Lesson LIX: Persevere",
+          "steps": [
+            "New words: persevere, patient",
+            "Read the two stanzas aloud",
+            "Memorize: the whole poem",
+            "Copywork: “The man who travels a mile each day, / May get round the world at last.”"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LIX",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00447"
+            }
+          ],
+          "questions": [
+            "What happens to a fisher who pulls in his net too soon?",
+            "What does 'persevere' mean?"
+          ],
+          "answers": [
+            "He has no fish to sell",
+            "To keep on trying and not give up"
+          ],
+          "notes": "Poem. Very short; pair it with review of an earlier lesson."
+        },
+        {
+          "title": "Lesson LX: The Contented Boy",
+          "steps": [
+            "New words: contented, tending, errands, ninepins, obliging, Testament",
+            "Read it as a dialogue: you are Mr. Lenox, your child is Peter",
+            "Narrate: what did Mr. Lenox offer, and how did Peter answer?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LX",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00451"
+            }
+          ],
+          "questions": [
+            "How did Peter help Mr. Lenox?",
+            "What did Peter do if he got hungry in the field?",
+            "What gift did Mr. Lenox promise?"
+          ],
+          "answers": [
+            "He caught his runaway horse",
+            "Ate a raw turnip, or went without",
+            "The books he would need for school"
+          ],
+          "notes": "By Dr. John Aikin (spelled Aiken in this text). An eight-year-old working in the fields was ordinary then; a dime was a lot of money."
+        },
+        {
+          "title": "Lesson LXI: Little Gustava",
+          "steps": [
+            "New words: quaint, eaves, marigolds, terrier, bashful, biddy",
+            "Read the poem aloud; your child joins in on each “little Gustava” line",
+            "Narrate: list all the animals that came to Gustava's breakfast, in order"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXI",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00460"
+            }
+          ],
+          "questions": [
+            "What was in Gustava's bowl?",
+            "Who drank up her milk?",
+            "Which birds stayed outside?"
+          ],
+          "answers": [
+            "Bread and milk",
+            "Rags, the little Scotch terrier",
+            "The sparrow and the crow"
+          ],
+          "notes": "Poem by Celia Thaxter. 'Biddy' is an old pet name for a hen."
+        },
+        {
+          "title": "Lesson LXII: The Insolent Boy",
+          "steps": [
+            "New words: insolent, abuse, dandy, skulked, tavern, injury",
+            "Read the lesson aloud, taking turns",
+            "Narrate: tell what James did to the stranger and how he found out who it was"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00475"
+            }
+          ],
+          "questions": [
+            "Who was the stranger?",
+            "Why had he walked into the village?",
+            "What did James lose because of his behavior?"
+          ],
+          "answers": [
+            "James's own uncle",
+            "To surprise his brother (James's father)",
+            "The gold watch and books his uncle had brought him"
+          ]
+        },
+        {
+          "title": "Lesson LXIII: We Are Seven",
+          "steps": [
+            "New words: rustic, clad, porringer, kerchief, released",
+            "Read the poem aloud: you read the traveler, your child reads the little girl",
+            "Narrate: why does the girl keep saying “we are seven”?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXIII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00484"
+            }
+          ],
+          "questions": [
+            "How old was the girl?",
+            "Where were two of her brothers and sisters?",
+            "What did the girl do near the graves?"
+          ],
+          "answers": [
+            "Eight",
+            "In the churchyard; they had died",
+            "Knitted, hemmed, sang, and ate her supper there"
+          ],
+          "notes": "Poem by William Wordsworth. It is about the death of two children; preview it and talk gently about loss."
+        },
+        {
+          "title": "Lesson LXIV: Mary's Dime",
+          "steps": [
+            "New words: sugar apples, faded, earnestly, sorrowfully, resist",
+            "Your child reads the lesson aloud as if they were Mary",
+            "Narrate: what did Mary give up, and how did she feel about it?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXIV",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00507"
+            }
+          ],
+          "questions": [
+            "Who gave Mary the dime?",
+            "What was Mary going to buy?",
+            "What did the beggar girl want?"
+          ],
+          "answers": [
+            "Her grandpa",
+            "A candy sugar apple",
+            "A gingerbread roll; she had not eaten all day"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 9: Lessons LXV–LXXII",
+      "lessons": [
+        {
+          "title": "Lesson LXV: Mary Dow",
+          "steps": [
+            "New words: innocence, delicate, forsake, rejoice",
+            "Read the poem aloud together",
+            "Narrate: tell Mary Dow's story in your own words"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXV",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00512"
+            }
+          ],
+          "questions": [
+            "What was Mary Dow selling?",
+            "What happened to her father?",
+            "How many matches did the speaker buy?"
+          ],
+          "answers": [
+            "Matches, a penny a bunch",
+            "He was lost at sea when his ship sank",
+            "All of them"
+          ],
+          "notes": "Poem. Children selling matches in the street was common then."
+        },
+        {
+          "title": "Lesson LXVI: The Little Loaf",
+          "steps": [
+            "New words: famine, eagerly, quarreled, modestly, peaceable",
+            "Read the lesson aloud",
+            "Narrate: how was Gretchen different from the other children?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXVI",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00527"
+            }
+          ],
+          "questions": [
+            "Why did the children quarrel?",
+            "What did Gretchen find in her small loaf?",
+            "Was the silver a mistake?"
+          ],
+          "answers": [
+            "Each wanted the biggest loaf",
+            "Shining silver coins",
+            "No, the baker put it there to reward her"
+          ]
+        },
+        {
+          "title": "Lesson LXVII: Susie and Rover",
+          "steps": [
+            "New words: Newfoundland, tripped, mood, plentiful, underbrush, capered",
+            "Read the lesson together, taking turns by paragraph",
+            "Narrate: what did Susie do wrong, and how did Rover show his loyalty?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXVII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00531"
+            }
+          ],
+          "questions": [
+            "What did Rover carry?",
+            "Why didn't Susie enjoy the afternoon?",
+            "What did Rover do to the snake?"
+          ],
+          "answers": [
+            "A tin pail for the berries",
+            "She felt bad about not sharing her lunch with Rover",
+            "Seized it by the neck and killed it"
+          ],
+          "notes": "Adapted from Mrs. M. O. Johnson."
+        },
+        {
+          "title": "Lesson LXVIII: The Violet",
+          "steps": [
+            "New words: bower, graced, humility",
+            "Read the poem aloud softly",
+            "Memorize: the first stanza",
+            "Find or draw a violet"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00538"
+            }
+          ],
+          "questions": [
+            "Where did the violet grow?",
+            "What does the speaker want to learn from the violet?"
+          ],
+          "answers": [
+            "In a green and shady bed, hidden from view",
+            "To grow in sweet humility"
+          ],
+          "notes": "Poem by Jane Taylor (who also wrote “Twinkle, Twinkle, Little Star”)."
+        },
+        {
+          "title": "Lesson LXIX: No Crown for Me",
+          "steps": [
+            "New words: tiresome, stress, tauntingly, confessing, dignified",
+            "Read the lesson aloud, taking turns",
+            "Narrate: why did Susan throw the crown on the ground?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXIX",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00544"
+            }
+          ],
+          "questions": [
+            "What was Susan's task?",
+            "How did she cheat?",
+            "Did her grandmother know?"
+          ],
+          "answers": [
+            "Knitting twenty turns on a stocking",
+            "She moved the mark her grandmother had put in the stocking",
+            "Yes, all along"
+          ]
+        },
+        {
+          "title": "Lesson LXX: Young Soldiers",
+          "steps": [
+            "New words: plumes, kettledrum, muskets, ramrods, gander, mullein, fray",
+            "Read the poem aloud with a marching beat",
+            "Narrate: what did the schoolboys 'fight,' and what were their weapons made of?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXX",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00550"
+            }
+          ],
+          "questions": [
+            "What were the boys' muskets made of?",
+            "Which goose stood up to them?",
+            "What called them home at the end of the day?"
+          ],
+          "answers": [
+            "Cedar wood",
+            "One sturdy gander",
+            "The supper bell"
+          ],
+          "notes": "Poem about boys playing soldier. Mullein is a tall roadside weed."
+        },
+        {
+          "title": "Lesson LXXI: How Willie Got Out of the Shaft",
+          "steps": [
+            "New words: shaft, neighborhood, bounding, balance, sod, scampered",
+            "Your child reads the lesson aloud",
+            "Narrate: how did Willie's birthday present save him?",
+            "Talk about staying away from holes, wells, and edges"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXI",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00565"
+            }
+          ],
+          "questions": [
+            "What was Willie's birthday present?",
+            "Why couldn't anyone hear Willie call?",
+            "How did the letter get home?"
+          ],
+          "answers": [
+            "A little writing book with a pencil",
+            "He was too far from the house",
+            "Willie tied it to Caper's neck and lifted him out"
+          ],
+          "notes": "A shaft is a deep hole dug for a mine or well."
+        },
+        {
+          "title": "Lesson LXXII: The Pert Chicken",
+          "steps": [
+            "New words: pert, forward, goslings, paddling, chilled",
+            "Read the poem aloud; give the chicken a bossy voice and Mrs. Dorking a wise one",
+            "Memorize: the last stanza, “To be very wise, and show it …”"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00572"
+            }
+          ],
+          "questions": [
+            "Why did the chicken have so few friends?",
+            "What did he tell Mrs. Goose?",
+            "How did Mrs. Dorking put him in his place?"
+          ],
+          "answers": [
+            "He thought he knew everything and bossed everyone",
+            "That getting wet would kill her goslings",
+            "She reminded him he was in an eggshell a month ago"
+          ],
+          "notes": "Poem by Marian Douglas. A Dorking is a breed of hen."
+        }
+      ]
+    },
+    {
+      "title": "Unit 10: Lessons LXXIII–LXXIX",
+      "lessons": [
+        {
+          "title": "Lesson LXXIII: Indian Corn",
+          "steps": [
+            "New words: maize, cultivated, furrows, fodder, hominy, succotash",
+            "Read the lesson aloud in two parts, stopping after paragraph 9",
+            "Narrate: how does a farmer plant 'hills' of corn, and how does the corn grow?",
+            "Look at an ear of corn: find the husk, silk, and kernels"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXIII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00580"
+            }
+          ],
+          "questions": [
+            "Why is it called Indian corn?",
+            "Which part of the corn plant has the male flowers?",
+            "Name three foods or products made from corn."
+          ],
+          "answers": [
+            "American Indians were the first to grow it",
+            "The tassel",
+            "Any three: popcorn, hominy, succotash, cornstarch, syrup, oil, hasty pudding"
+          ],
+          "notes": "Uses the 1879 word 'Indians' and calls native stone bowls 'rude.' Mention that Native peoples developed corn over thousands of years."
+        },
+        {
+          "title": "Lesson LXXIV: The Snowbird's Song",
+          "steps": [
+            "New words: merrily, sleet, glee, frock, occasion, hobble",
+            "Read the poem aloud; your child reads the bird's answer",
+            "Narrate: what did Emily want to give the bird, and why did he say no thanks?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXIV",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00588"
+            }
+          ],
+          "questions": [
+            "What song did the bird sing?",
+            "What did Emily want to give the bird?",
+            "Why didn't the bird need clothes?"
+          ],
+          "answers": [
+            "Chick-a-de-dee",
+            "Stockings, shoes, a frock, and a hat",
+            "God had already clothed him warmly (with feathers)"
+          ],
+          "notes": "Poem by F. C. Woodworth."
+        },
+        {
+          "title": "Lesson LXXV: Mountains",
+          "steps": [
+            "New words: ascend, retreat, rugged, torrents, chasm, precipice",
+            "Your child reads the lesson aloud",
+            "Find the Himalayas and the Andes on a map or globe",
+            "Narrate: describe a trip up the Himalayas or across an Andes pass"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXV",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00600"
+            }
+          ],
+          "questions": [
+            "Which mountains are the highest on earth?",
+            "What makes a bridge over a Himalayan river?",
+            "What animal carries travelers in the Andes?"
+          ],
+          "answers": [
+            "The Himalayas",
+            "Three ropes",
+            "The mule"
+          ],
+          "notes": "'Thibet' is an old spelling of Tibet. Travel in these mountains is much easier today."
+        },
+        {
+          "title": "Lesson LXXVI: A Child's Hymn",
+          "steps": [
+            "New words: glow, native, comforteth, waxeth",
+            "Read the hymn aloud slowly",
+            "Memorize: one stanza of your child's choosing",
+            "Copywork: “God make my life a little light”"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXVI",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00605"
+            }
+          ],
+          "questions": [
+            "Name the four things the child asks God to make his life like.",
+            "What does a 'little song' do in the poem?"
+          ],
+          "answers": [
+            "A light, a flower, a song, a hymn",
+            "Comforts the sad and helps others be strong"
+          ],
+          "notes": "A devotional poem."
+        },
+        {
+          "title": "Lesson LXXVII: Holding the Fort",
+          "steps": [
+            "New words: hobbling, sprained, lecturer, furloughs, Commandments",
+            "Read it as a dialogue: you are Genie, your child is Rob",
+            "Narrate: how did Rob sprain his ankle?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXVII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00612"
+            }
+          ],
+          "questions": [
+            "What did Jack Lee do to Rob's books?",
+            "Why did Rob stop chasing Jack?",
+            "Why did Genie call Rob a 'wounded soldier'?"
+          ],
+          "answers": [
+            "Threw them in the mud",
+            "He remembered to return good for evil",
+            "He was hurt while doing the right thing"
+          ]
+        },
+        {
+          "title": "Lesson LXXVIII: The Little People",
+          "steps": [
+            "New words: dreary, mirth, sterner, doleful",
+            "Read the poem aloud",
+            "Narrate: what would the world be like with no children, according to the poem?"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXVIII",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00617"
+            }
+          ],
+          "questions": [
+            "Who are the 'little people'?",
+            "What would the song of life lose without them?"
+          ],
+          "answers": [
+            "Children and babies",
+            "Its mirth (joy) and charm"
+          ],
+          "notes": "Poem by John Greenleaf Whittier."
+        },
+        {
+          "title": "Lesson LXXIX: Good Night",
+          "steps": [
+            "New words: hidden, watches, weary",
+            "Read the poem aloud at bedtime",
+            "Memorize: the first stanza",
+            "Celebrate finishing the Third Reader!"
+          ],
+          "links": [
+            {
+              "label": "Read Lesson LXXIX",
+              "url": "https://www.gutenberg.org/cache/epub/14766/pg14766-images.html#id00625"
+            }
+          ],
+          "questions": [
+            "Name three things the child says good night to.",
+            "What is lighting up the sky?"
+          ],
+          "answers": [
+            "Any three: father, mother, friends, birds, flowers, stars",
+            "The moon"
+          ],
+          "notes": "Poem by Eliza Lee Follen (Mrs. Follen). The last lesson of the book."
+        }
+      ]
+    }
+  ]
+}

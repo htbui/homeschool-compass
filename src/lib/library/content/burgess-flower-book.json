@@ -1,0 +1,1137 @@
+{
+  "key": "burgess-flower-book",
+  "title": "The Burgess Flower Book for Children",
+  "sourceTitle": "The Burgess Flower Book for Children",
+  "author": "Thornton W. Burgess",
+  "seller": "Thornton W. Burgess",
+  "year": 1923,
+  "sourceUrl": "https://archive.org/details/burgessflowerboo00burg",
+  "readUrl": "https://archive.org/details/burgessflowerboo00burg",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Published 1923 by Little, Brown (title-page verso: 'Copyright, 1923, by Thornton W. Burgess'), so public domain in the USA (published before 1930). Not on Project Gutenberg; lessons link to the Internet Archive scan burgessflowerboo00burg (UConn Libraries), freely viewable and marked 'Copyright either not claimed or not renewed; item is in the public domain.' No text is reproduced.",
+  "subjects": [
+    "science"
+  ],
+  "gradeMin": 1,
+  "gradeMax": 4,
+  "philosophies": [
+    "charlotte_mason",
+    "nature_forest"
+  ],
+  "lessonsPerWeek": 3,
+  "minutesPerLesson": 30,
+  "parentInvolvement": "high",
+  "familyStyle": true,
+  "cover": "🌸",
+  "color": "#D9578B",
+  "description": "A classic 1923 read-aloud in which Peter Rabbit spends a whole year hunting wildflowers, from the Skunk Cabbage blooming in March snow to the Fringed Gentian in September, with help from Tommy Tit, Lady Bumblebee and Grandfather Frog. Each sitting is one chapter read aloud, a narration, and a nature-study walk or flower-journal page about that chapter's real flowers. Siblings can do it together, and the full illustrated book is free online.",
+  "includes": [
+    "42 lessons in 7 units, one per chapter",
+    "Link to the exact page where each chapter starts in the free scanned book (with its color plates)",
+    "A nature-study activity for the real wildflowers in each chapter",
+    "Narration prompts and comprehension questions with answers",
+    "Follows the wildflowers through the seasons; start in early spring to bloom along with the book",
+    "Parent notes on poisonous plants and why to leave wildflowers unpicked"
+  ],
+  "units": [
+    {
+      "title": "Unit 1: The First Flowers of Spring (Chapters I–VI)",
+      "lessons": [
+        {
+          "title": "Chapter I: Peter Rabbit Finds Signs of Spring",
+          "steps": [
+            "Read Chapter I, \"Peter Rabbit Finds Signs of Spring\" (Skunk Cabbage), aloud together",
+            "Ask your child to narrate (tell back) the chapter in their own words",
+            "Nature study (Skunk Cabbage): In late winter or early spring, visit a wet, swampy spot and look for purple-and-green hoods poking up through the mud or snow; gently sniff near one, but leave it be"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter I (scan, p. 3)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n28/mode/1up"
+            }
+          ],
+          "pages": "pp. 3–9",
+          "questions": [
+            "What did the Merry Little Breezes say they had seen, which Peter didn't believe?",
+            "Where were the tiny Skunk Cabbage flowers hidden?"
+          ],
+          "answers": [
+            "Flowers already in bloom, even though snow still covered the ground",
+            "Inside a thick brown-and-green hood, on a thick stem at the bottom"
+          ],
+          "notes": "Start a flower journal today with the date and the first flower you find. The book's Appendix (from p. 295) has fuller botanical notes for parents and older children."
+        },
+        {
+          "title": "Chapter II: Two Surprises in the Green Forest",
+          "steps": [
+            "Read Chapter II, \"Two Surprises in the Green Forest\" (Hepatica and Early Saxifrage), aloud together",
+            "Have your child tell the story back, including the two flowers Peter found",
+            "Nature study (Hepatica and Early Saxifrage): On a wooded hillside in early spring, look for Hepatica's three-lobed leathery leaves and its lavender, pink or white flowers; on rocky ledges look for Saxifrage's little white stars. Check whether the Hepatica is closed on a cloudy day"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter II (scan, p. 10)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n37/mode/1up"
+            }
+          ],
+          "pages": "pp. 10–19",
+          "questions": [
+            "How did the fine hairs on the Hepatica help it?",
+            "Where does the Early Saxifrage love to grow?"
+          ],
+          "answers": [
+            "They kept it warm like a little fur coat, and they kept ants from climbing up to steal its nectar",
+            "In little cracks in rocks that are filled with earth"
+          ],
+          "notes": "Tommy Tit says Hepaticas close at night and on dark days; it's a fun thing to test."
+        },
+        {
+          "title": "Chapter III: Peter Makes More Discoveries",
+          "steps": [
+            "Read Chapter III, \"Peter Makes More Discoveries\" (Spring Beauty, Dandelion, Common and Mouse-ear Chickweeds), aloud together",
+            "Narration: your child retells the chapter; younger ones can act out Peter's narrow escape from Reddy Fox",
+            "Nature study (Dandelion and Chickweed): Pick one dandelion head and gently pull it apart to count the tiny flowers inside; find chickweed in a lawn edge and look closely at its notched white petals (five petals that look like ten)"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter III (scan, p. 20)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n49/mode/1up"
+            }
+          ],
+          "pages": "pp. 20–29",
+          "questions": [
+            "How could Peter tell the Spring Beauty was not a pink Hepatica?",
+            "What did the Merry Little Breeze teach Peter about a Dandelion blossom?",
+            "Why is it called a Dandelion?"
+          ],
+          "answers": [
+            "Its stem was smooth and slender with no hairs, and it had two long, narrow, grass-like leaves",
+            "It isn't one flower; it is dozens of tiny flowers growing together",
+            "Someone thought its notched leaves looked like a lion's teeth"
+          ],
+          "notes": "Dandelions are one flower children may pick freely. Blow a seed head and talk about how the 'balloons' spread new plants."
+        },
+        {
+          "title": "Chapter IV: Shy Blossoms and Fairy Bells",
+          "steps": [
+            "Read Chapter IV, \"Shy Blossoms and Fairy Bells\" (Trailing Arbutus and Yellow Adder's-tongue), aloud together",
+            "Ask your child to tell what Peter found and why he got so angry",
+            "Nature study (Trout Lily / Yellow Adder's-tongue): In moist spring woods, look for pairs of grayish-green leaves spotted with brown and nodding yellow bells; sketch the spotted leaf. If you find Trailing Arbutus under dead leaves, smell it, but never pick it"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter IV (scan, p. 30)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n61/mode/1up"
+            }
+          ],
+          "pages": "pp. 30–36",
+          "questions": [
+            "Why was Peter angry with the boy and girl?",
+            "What happened to the Adder's-tongue leaves a few weeks after the flowers bloomed?",
+            "Why is 'Trout Lily' a better name than 'Dog's-tooth Violet'?"
+          ],
+          "answers": [
+            "They tore the Arbutus plants up by the roots, so none would grow there next year",
+            "They withered and disappeared until the next spring",
+            "Because the plant is a Lily, not a Violet"
+          ],
+          "notes": "Trailing Arbutus is protected by law in several states. This chapter is a good time to set your family's rule: look, smell, sketch, but leave wildflowers growing."
+        },
+        {
+          "title": "Chapter V: Tommy Tit Drops a Hint",
+          "steps": [
+            "Read Chapter V, \"Tommy Tit Drops a Hint\" (Bloodroot, California Poppy, Wood and Rue Anemones), aloud together",
+            "Have your child narrate how Peter found the Bloodroot under the chestnut tree",
+            "Nature study (Bloodroot and Anemones): In early-spring woods, look for a single white Bloodroot flower wrapped in one big lobed leaf, and for Wood Anemones nodding in the wind. Count the flowers on each anemone stem to tell Wood from Rue"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter V (scan, p. 37)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n72/mode/1up"
+            }
+          ],
+          "pages": "pp. 37–44",
+          "questions": [
+            "How did the Bloodroot get its name?",
+            "How can you tell a Wood Anemone from a Rue Anemone?",
+            "Why don't the Windflowers get torn up by the wind?"
+          ],
+          "answers": [
+            "Its stem and root are full of red juice",
+            "The Wood Anemone has one flower on each stem; the Rue Anemone has two or three",
+            "Their stems are slender and wiry, and their roots run along under the ground and anchor them"
+          ],
+          "notes": "Bloodroot sap can irritate skin, so don't break the plant. The book's frontispiece is the California Poppy, a cousin of the Bloodroot."
+        },
+        {
+          "title": "Chapter VI: Gold and Other Treasures",
+          "steps": [
+            "Read Chapter VI, \"Gold and Other Treasures\" (Bluets, Wild Geranium and Marsh Marigold), aloud together",
+            "Ask your child to tell the chapter back, including Peter's search for 'gold'",
+            "Nature study (Bluets and Marsh Marigold): Look in damp grassy places for tiny pale-blue four-petaled Bluets; along a spring stream, look for shiny yellow Marsh Marigolds growing with their feet in the water. Count the petals of each"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter VI (scan, p. 45)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n82/mode/1up"
+            }
+          ],
+          "pages": "pp. 45–51",
+          "questions": [
+            "How does the little Bee pay the Bluets for their nectar?",
+            "What was the 'gold' Peter found beside the Laughing Brook?",
+            "What family does the Marsh Marigold really belong to?"
+          ],
+          "answers": [
+            "She carries pollen from one flower to another so they can make seeds",
+            "Marsh Marigolds (also called Cowslips)",
+            "The Crowfoot (Buttercup) family"
+          ],
+          "notes": "Winsome Bluebird thinks Peter is silly for hunting gold. Ask your child what treasure they'd hunt for outdoors this week."
+        }
+      ]
+    },
+    {
+      "title": "Unit 2: Spring in the Green Forest (Chapters VII–XII)",
+      "lessons": [
+        {
+          "title": "Chapter VII: Two Dainty Little Neighbors",
+          "steps": [
+            "Read Chapter VII, \"Two Dainty Little Neighbors\" (Foamflower and Dutchman's-breeches), aloud together",
+            "Narration: your child tells the chapter back, including Peter's escape from Redtail the Hawk",
+            "Nature study (Dutchman's-breeches): In rich, rocky spring woods, look for white flowers hanging like tiny upside-down pantaloons above lacy leaves; draw one flower large in your journal"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter VII (scan, p. 52)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n91/mode/1up"
+            }
+          ],
+          "pages": "pp. 52–58",
+          "questions": [
+            "What makes the Foamflower look so soft and foamy?",
+            "Who could reach the nectar inside the Dutchman's-breeches, and how?",
+            "Why couldn't the Whitehearts make seeds that year?"
+          ],
+          "answers": [
+            "Its many long stamens, each tipped with pollen",
+            "Lady Bumblebee, with her very long tongue",
+            "The boy and girl picked every blossom"
+          ]
+        },
+        {
+          "title": "Chapter VIII: Redwing and Mrs. Grouse Help",
+          "steps": [
+            "Read Chapter VIII, \"Redwing and Mrs. Grouse Help\" (Sweet White and Lance-leaved Violets and the White Baneberry), aloud together",
+            "Have your child retell what Redwing and Mrs. Grouse each showed Peter",
+            "Nature study (White Violets): In low, wet grassy spots, look for tiny sweet-scented white violets with purple lines on the lower petals; compare the leaf shapes of any violets you find (round and heart-shaped, or long and narrow)"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter VIII (scan, p. 59)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n100/mode/1up"
+            }
+          ],
+          "pages": "pp. 59–65",
+          "questions": [
+            "How could Peter tell the Lance-leaved Violet from the Sweet White Violet?",
+            "What did Mrs. Grouse warn Peter about the 'Eyeberries'?"
+          ],
+          "answers": [
+            "Its leaves were long and narrow instead of nearly round",
+            "They are poisonous; never eat them"
+          ],
+          "notes": "Safety: White Baneberry (Doll's-eyes) berries are truly poisonous. Use this chapter to teach the rule never to taste any wild berry without a grown-up who knows it."
+        },
+        {
+          "title": "Chapter IX: A Preacher and Nodding Beauties",
+          "steps": [
+            "Read Chapter IX, \"A Preacher and Nodding Beauties\" (Jack-in-the-pulpit and the Columbine), aloud together",
+            "Ask your child to tell the funny part when Peter tasted Buster Bear's root",
+            "Nature study (Jack-in-the-pulpit and Columbine): In damp woods, look for Jack standing under his striped hood; on sunny rocky slopes, look for red-and-yellow Columbine nodding on wiry stems. Sketch a Columbine and count its five spurs"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter IX (scan, p. 66)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n109/mode/1up"
+            }
+          ],
+          "pages": "pp. 66–74",
+          "questions": [
+            "What happened when Peter bit the Jack-in-the-pulpit root?",
+            "What relative of Jack-in-the-pulpit protects its flowers the same way?",
+            "Why does Hummer the Hummingbird need such a long bill?"
+          ],
+          "answers": [
+            "It stung and burned his mouth so badly that he danced about with tears running down",
+            "The Skunk Cabbage",
+            "To reach the nectar in the tips of the Columbine's cone-shaped petals"
+          ],
+          "notes": "Never taste Jack-in-the-pulpit; raw, it burns the mouth just as it did Peter's."
+        },
+        {
+          "title": "Chapter X: Snow and Gold and Heaven's Blue",
+          "steps": [
+            "Read Chapter X, \"Snow and Gold and Heaven's Blue\" (Flowering Dogwood, Common and Shrubby Cinquefoils, Bird's-foot and Meadow Violets), aloud together",
+            "Narration: your child retells the chapter in order: the 'snowy' tree, the little yellow flower, then the violets",
+            "Nature study (Dogwood and Violets): Look for a Flowering Dogwood in bloom and find the tiny real flowers in the middle of the four white 'petals'; on a dry sandy slope look for Cinquefoil's five-fingered leaves; compare violet leaves you find to a bird's foot or a heart"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter X (scan, p. 75)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n120/mode/1up"
+            }
+          ],
+          "pages": "pp. 75–83",
+          "questions": [
+            "What did Peter think was snow on a tree at the edge of the forest?",
+            "Why is the Common Cinquefoil also called Five-finger?",
+            "How did the Bird's-foot Violet get its name?"
+          ],
+          "answers": [
+            "The blossoms of a Flowering Dogwood",
+            "Each leaf has five leaflets spreading like the fingers of a hand",
+            "Its leaves are cut into narrow parts that look like a bird's foot"
+          ]
+        },
+        {
+          "title": "Chapter XI: A Day to be Remembered",
+          "steps": [
+            "Read Chapter XI, \"A Day to be Remembered\" (Wild Strawberry, Purple Trillium, Wild Azalea and Large Yellow Pond Lily), aloud together",
+            "Have your child tell the chapter back, naming each place Peter visited",
+            "Nature study (Wild Strawberry and Trillium): Look in sunny grassy spots for white five-petaled strawberry flowers with a little green cone in the middle (the future berry); in damp woods, look for a Trillium and count its leaves and petals"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XI (scan, p. 84)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n131/mode/1up"
+            }
+          ],
+          "pages": "pp. 84–90",
+          "questions": [
+            "How did Welcome Robin know there would be lots of strawberries?",
+            "What number is every part of a Trillium arranged in?",
+            "Why didn't Peter stay long by the Purple Trillium?"
+          ],
+          "answers": [
+            "There were more strawberry blossoms than ever, and plenty of blossoms means plenty of berries",
+            "Threes: three leaves and three petals",
+            "It has an unpleasant smell"
+          ],
+          "notes": "If you find ripe wild strawberries later, notice how the seeds sit on the outside of the berry."
+        },
+        {
+          "title": "Chapter XII: The Joy of Bees and Hummer's Delight",
+          "steps": [
+            "Read Chapter XII, \"The Joy of Bees and Hummer's Delight\" (Red Clover, Robin's Plantain and Coral Honeysuckle), aloud together",
+            "Ask your child to narrate how Peter followed Lady Bumblebee to the clover",
+            "Nature study (Red Clover): Pick one clover head and pull out a single tiny floret; look at the tube and gently taste the drop of sweetness at the bottom. Watch which insects visit clover and which visit honeysuckle"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XII (scan, p. 91)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n142/mode/1up"
+            }
+          ],
+          "pages": "pp. 91–97",
+          "questions": [
+            "What is a 'composite' flower?",
+            "Why don't the Bees visit the Coral Honeysuckle?",
+            "Was the Honeysuckle growing on a tree?"
+          ],
+          "answers": [
+            "A flower made of many tiny flowers growing together so they look like one",
+            "Their tongues are too short to reach its nectar",
+            "No, it was a vine climbing all over the tree"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 3: Swamps, Orchids and Lady's-slippers (Chapters XIII–XVIII)",
+      "lessons": [
+        {
+          "title": "Chapter XIII: Beauties of the Swamp",
+          "steps": [
+            "Read Chapter XIII, \"Beauties of the Swamp\" (Larger Blue Flag and the Arethusa), aloud together",
+            "Have your child retell the chapter, including the flower Longbill showed Peter",
+            "Nature study (Blue Flag): At a marsh or pond edge in late spring, look for the tall violet-blue Iris with sword-like leaves; count its parts in threes and draw the veined 'landing pads' that guide bees inside"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XIII (scan, p. 98)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n151/mode/1up"
+            }
+          ],
+          "pages": "pp. 98–104",
+          "questions": [
+            "Who led Peter into the swamp to see the Arethusa?",
+            "What family does the Arethusa belong to?",
+            "How is a Blue Flag flower built to make bees carry pollen?"
+          ],
+          "answers": [
+            "Longbill the Woodcock",
+            "The Orchid family",
+            "They can't reach the nectar without being dusted with pollen, which they carry to the next flower"
+          ],
+          "notes": "The Arethusa is a rare orchid; if you're ever lucky enough to see one, enjoy it and leave it."
+        },
+        {
+          "title": "Chapter XIV: Umbrella Plants and Flower Butterflies",
+          "steps": [
+            "Read Chapter XIV, \"Umbrella Plants and Flower Butterflies\" (May Apple, Fringed Polygala, White and Tree Clovers), aloud together",
+            "Narration: your child tells the chapter back, including Mrs. Peter's opinion of flowers",
+            "Nature study (May Apple and White Clover): In spring woods look for colonies of May Apple 'umbrellas' and peek under a two-leaved plant for its single white flower; in a lawn, hunt for a four-leaved White Clover"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XIV (scan, p. 105)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n160/mode/1up"
+            }
+          ],
+          "pages": "pp. 105–111",
+          "questions": [
+            "Why are May Apples sometimes called Umbrella Plants?",
+            "Which clover most often has four-parted leaves?",
+            "What did Peter say to Mrs. Peter about his 'foolish trips'?"
+          ],
+          "answers": [
+            "Their big leaves push up folded like closed umbrellas and open out like umbrellas",
+            "White Clover",
+            "He learns something on every one, and nothing that adds to one's knowledge is foolish"
+          ],
+          "notes": "Safety: May Apple leaves, roots and unripe fruit are poisonous."
+        },
+        {
+          "title": "Chapter XV: Buttercups and Lily Cousins",
+          "steps": [
+            "Read Chapter XV, \"Buttercups and Lily Cousins\" (Bulbous Buttercup, Large-flowered Wake-robin, Painted and Nodding Trilliums and Blue-eyed Grass), aloud together",
+            "Ask your child to tell how Peter found the first Buttercup all by himself",
+            "Nature study (Buttercup and Blue-eyed Grass): Hold a buttercup under a chin and see the shine; on a sunny morning in a damp meadow, look for tiny blue six-pointed stars on grass-like stems (they close by afternoon)"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XV (scan, p. 112)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n167/mode/1up"
+            }
+          ],
+          "pages": "pp. 112–119",
+          "questions": [
+            "What did Carol the Meadow Lark say is half the pleasure of finding things?",
+            "How are the Painted Trillium's petals different from the White Trillium's?",
+            "Is Blue-eyed Grass really a grass?"
+          ],
+          "answers": [
+            "Hunting for them and finding them yourself, without help",
+            "They have wavy edges and are striped with pink at the base",
+            "No, it belongs to the Iris family, like the Blue Flag"
+          ]
+        },
+        {
+          "title": "Chapter XVI: A Trap for Living Insects",
+          "steps": [
+            "Read Chapter XVI, \"A Trap for Living Insects\" (The Pitcher Plant), aloud together",
+            "Have your child explain, in their own words, how the pitcher-shaped leaf catches a fly",
+            "Nature study (Pitcher Plant): If there's a bog near you (or a nature center or garden center), look at a pitcher plant's hollow leaves. At home, draw a cut-away pitcher leaf showing the water and the downward-pointing hairs"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XVI (scan, p. 120)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n179/mode/1up"
+            }
+          ],
+          "pages": "pp. 120–126",
+          "questions": [
+            "What did Peter find inside the pitcher-shaped leaves?",
+            "What kept the little Fly from climbing out?",
+            "Who told Peter about the plant before he found it?"
+          ],
+          "answers": [
+            "Water, with many drowned flies and insects",
+            "Tiny hairs on the inside that point downward",
+            "Tommy Tit the Chickadee"
+          ]
+        },
+        {
+          "title": "Chapter XVII: How the Lady's-slippers Were Saved",
+          "steps": [
+            "Read Chapter XVII, \"How the Lady's-slippers Were Saved\" (Pink, Large Yellow and Small Yellow Lady's-slippers), aloud together",
+            "Narration: your child retells how Mr. Blacksnake saved the flowers",
+            "Nature study (Pink Lady's-slipper): In late spring pine or oak woods, look for two big ribbed leaves on the ground and a pink pouch on a single stalk. Sketch the pouch and show where the bee goes in and where it comes out"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XVII (scan, p. 127)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n188/mode/1up"
+            }
+          ],
+          "pages": "pp. 127–133",
+          "questions": [
+            "Who scared the boy and girl away from the Lady's-slippers?",
+            "How did Lady Bumblebee get out of the Lady's-slipper flower?"
+          ],
+          "answers": [
+            "Mr. Blacksnake",
+            "Not the way she came in; she squeezed out of a small opening near the top of the pouch, getting pollen on her back"
+          ],
+          "notes": "Lady's-slippers almost never survive being dug up or picked, and several are protected. Peter's joy that 'none had been picked' is the lesson."
+        },
+        {
+          "title": "Chapter XVIII: The Delightful Reward of Curiosity",
+          "steps": [
+            "Read Chapter XVIII, \"The Delightful Reward of Curiosity\" (New Jersey Tea, Pasture Rose, Swamp Rose and Meadow Rose), aloud together",
+            "Ask your child to tell the chapter back, including the name Peter made up for the bush",
+            "Nature study (Wild Roses): Find a wild rose in a pasture edge or roadside; count its petals, sepals and leaflets (the Rose 'goes in fives'). Notice whether the prickles are straight or hooked"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XVIII (scan, p. 134)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n199/mode/1up"
+            }
+          ],
+          "pages": "pp. 134–140",
+          "questions": [
+            "Why is the bush called New Jersey Tea?",
+            "Why didn't Busy Bee bother with the Pasture Rose?",
+            "What name did Peter make up for the New Jersey Tea plant?"
+          ],
+          "answers": [
+            "Early settlers dried its leaves to make tea when real tea was scarce",
+            "It has no nectar to make honey from",
+            "Red-root, because its root is deep red"
+          ],
+          "notes": "The chapter reminds us that strawberries, cinquefoil and most fruit trees are all in the Rose family."
+        }
+      ]
+    },
+    {
+      "title": "Unit 4: June, the Month of Flowers (Chapters XIX–XXV)",
+      "lessons": [
+        {
+          "title": "Chapter XIX: White and Yellow Cousins",
+          "steps": [
+            "Read Chapter XIX, \"White and Yellow Cousins\" (White Daisy and Black-eyed Susan), aloud together",
+            "Have your child narrate the chapter, including Peter's argument with Johnny Chuck",
+            "Nature study (Daisy and Black-eyed Susan): Pick one of each (these may be picked freely) and look at the center with a magnifying glass; find the tiny tube flowers in the middle and the 'petal' flowers around the edge"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XIX (scan, p. 141)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n208/mode/1up"
+            }
+          ],
+          "pages": "pp. 141–147",
+          "questions": [
+            "What did Peter tell Johnny Chuck that flowers are good for?",
+            "What two kinds of tiny flowers make up a daisy head?",
+            "Why don't farmers like these flowers?"
+          ],
+          "answers": [
+            "To look at, and to feed many insects",
+            "The white petal-like flowers around the edge and the tube-shaped flowers in the yellow center",
+            "Their cattle won't eat them, and they spread everywhere"
+          ],
+          "notes": "Burgess says these two may be picked as freely as you like. Make a daisy bouquet or chain."
+        },
+        {
+          "title": "Chapter XX: Peter Finds Three Old Friends",
+          "steps": [
+            "Read Chapter XX, \"Peter Finds Three Old Friends\" (True Solomon's Seal, Wild Spikenard and Wild Lupine), aloud together",
+            "Ask your child to tell the chapter back and describe the 'sleeping' Lupine leaves",
+            "Nature study (Solomon's Seals): In woods, look for arching stems with leaves in two rows; check underneath for little hanging bells (True Solomon's Seal) or at the tip for a feathery plume (False Solomon's Seal / Wild Spikenard)"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XX (scan, p. 148)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n217/mode/1up"
+            }
+          ],
+          "pages": "pp. 148–153",
+          "questions": [
+            "How can you tell True Solomon's Seal from Wild Spikenard?",
+            "What do the Lupine's leaves do at night?",
+            "Why can the Lupine grow in such dry, sandy ground?"
+          ],
+          "answers": [
+            "True Solomon's Seal has little bells hanging in pairs under the leaves; Wild Spikenard has a feathery plume of flowers at the tip",
+            "Their leaflets fold down around the stem like a closed umbrella",
+            "Its roots go far down to find moisture"
+          ]
+        },
+        {
+          "title": "Chapter XXI: Beautiful, Mischievous Cousins",
+          "steps": [
+            "Read Chapter XXI, \"Beautiful, Mischievous Cousins\" (Mountain Laurel, Sheep Laurel and Great Rhododendron), aloud together",
+            "Narration: your child explains the Laurel's 'spring guns' in their own words",
+            "Nature study (Mountain Laurel): If Mountain Laurel blooms near you in June, gently touch a bent stamen with a grass stem and watch it spring up and throw pollen; draw one bowl-shaped flower with its ten little pockets"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXI (scan, p. 154)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n225/mode/1up"
+            }
+          ],
+          "pages": "pp. 154–160",
+          "questions": [
+            "What happens when a Bee touches a Mountain Laurel stamen?",
+            "Why is the Sheep Laurel called Lambkill?",
+            "How was the Great Rhododendron different from the Laurels?"
+          ],
+          "answers": [
+            "It springs up and throws a shower of pollen on the Bee",
+            "Its leaves are poisonous, and sheep and young cattle that eat them die",
+            "Its stamens stood straight up; it had no spring guns"
+          ],
+          "notes": "Safety: Laurel and Rhododendron leaves are poisonous; look and touch only."
+        },
+        {
+          "title": "Chapter XXII: Peter Finds Stars in the Grass",
+          "steps": [
+            "Read Chapter XXII, \"Peter Finds Stars in the Grass\" (Yellow Star Grass and the Calopogon), aloud together",
+            "Ask your child to tell what Johnny Chuck's 'stars in the grass' turned out to be",
+            "Nature study (Yellow Star Grass): In early summer, walk slowly along a grassy path and look low for little yellow six-pointed stars; note that usually only one flower in each cluster is open at a time"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXII (scan, p. 161)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n234/mode/1up"
+            }
+          ],
+          "pages": "pp. 161–167",
+          "questions": [
+            "What were Johnny Chuck's 'stars in the grass'?",
+            "What is unusual about the Grass Pink's lip?"
+          ],
+          "answers": [
+            "The flowers of the Yellow Star Grass",
+            "It is on top, so the flower looks upside down, and it drops down like a hinge when a bee lands"
+          ],
+          "notes": "Like all orchids, the Grass Pink is 'to be hunted for, admired, and then left untouched.'"
+        },
+        {
+          "title": "Chapter XXIII: Lilies of Meadow and Wood",
+          "steps": [
+            "Read Chapter XXIII, \"Lilies of Meadow and Wood\" (The Meadow Lily and the Wood Lily), aloud together",
+            "Have your child narrate the chapter, including Peter's talk with Mrs. Peter",
+            "Nature study (Wild Lilies): Look in summer meadows for tall nodding yellow-orange lily bells, and at dry woods' edges for upright orange-red cups; count the six petal-like parts and six stamens of any lily (a garden lily works too)"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXIII (scan, p. 168)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n243/mode/1up"
+            }
+          ],
+          "pages": "pp. 168–174",
+          "questions": [
+            "How are the Wood Lily's flowers different from the Meadow Lily's?",
+            "What color was the Meadow Lily's pollen?",
+            "Why did Peter feel ashamed at the end of the chapter?"
+          ],
+          "answers": [
+            "They stand up like orange-red cups instead of hanging down like yellow bells",
+            "Brown",
+            "He had run off after deciding to stay home and please Mrs. Peter"
+          ]
+        },
+        {
+          "title": "Chapter XXIV: Bells of Blue and Others",
+          "steps": [
+            "Read Chapter XXIV, \"Bells of Blue and Others\" (Harebell, Showy Lady's-slipper and Sweet-scented White Water Lily), aloud together",
+            "Ask your child to tell the chapter back, naming the three friends who helped Peter",
+            "Nature study (Water Lily): Visit a pond and watch the White Water Lilies; notice if they are open or closed at different times of day. Look for Harebells nodding on thin, wiry stems on rocky ledges"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXIV (scan, p. 175)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n252/mode/1up"
+            }
+          ],
+          "pages": "pp. 175–182",
+          "questions": [
+            "Who showed Peter the Harebells and the Showy Lady's-slipper?",
+            "How do the Water Lilies stay anchored if they seem to float?",
+            "How many days does each White Water Lily bloom?"
+          ],
+          "answers": [
+            "Jumper the Hare",
+            "Long, hollow, rubbery stems run down to roots in the mud",
+            "Three days"
+          ]
+        },
+        {
+          "title": "Chapter XXV: The Merry Little Breezes Help Peter",
+          "steps": [
+            "Read Chapter XXV, \"The Merry Little Breezes Help Peter\" (Meadowsweet and the Common Milkweed), aloud together",
+            "Have your child retell how the Merry Little Breezes helped Peter",
+            "Nature study (Common Milkweed): Find milkweed along a roadside or meadow; smell the pink flower clusters, look under the leaves for Monarch caterpillars or eggs, and come back in late summer to see the pods"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXV (scan, p. 183)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n262/mode/1up"
+            }
+          ],
+          "pages": "pp. 183–189",
+          "questions": [
+            "Why is the Milkweed called that?",
+            "How do Milkweed seeds travel?"
+          ],
+          "answers": [
+            "Its hollow stalk is filled with a milky white juice",
+            "Each seed has a tuft of silky white fluff, and the wind carries it far away"
+          ],
+          "notes": "Milkweed is the only food of Monarch caterpillars; a milkweed patch is a wonderful place to watch all summer."
+        }
+      ]
+    },
+    {
+      "title": "Unit 5: Midsummer Treasures (Chapters XXVI–XXXI)",
+      "lessons": [
+        {
+          "title": "Chapter XXVI: Treasures of the Old Pasture",
+          "steps": [
+            "Read Chapter XXVI, \"Treasures of the Old Pasture\" (Wild Morning-glory, Fireweed and Spotted Wintergreen), aloud together",
+            "Narration: your child tells about Sammy Jay's two pink flowers and where Peter found them",
+            "Nature study (Bindweed and Fireweed): Look on fences and stone walls for a twining vine with arrowhead leaves and pink-and-white trumpets; if you see Fireweed's tall pink spikes, notice the open flowers at the bottom and buds at the top"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXVI (scan, p. 190)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n271/mode/1up"
+            }
+          ],
+          "pages": "pp. 190–198",
+          "questions": [
+            "Why is it called Fireweed?",
+            "Why is the Wild Morning-glory also called Bindweed?",
+            "What surprised Peter about the Spotted Wintergreen?"
+          ],
+          "answers": [
+            "It is the first plant to spring up where fire has burned",
+            "Its vine twists around other plants so tightly that it can choke them",
+            "He had known its leaves all winter but didn't know it had flowers"
+          ]
+        },
+        {
+          "title": "Chapter XXVII: Honeyballs and Leafless Plants",
+          "steps": [
+            "Read Chapter XXVII, \"Honeyballs and Leafless Plants\" (Buttonbush, Culver's Root and the Indian Pipe), aloud together",
+            "Ask your child to narrate how Peter found the Honeyballs by listening",
+            "Nature study (Indian Pipe): In shady summer woods, look on the forest floor for waxy white stems with nodding white heads; look but don't touch. Near water, look for the round 'pincushion' flower balls of Buttonbush"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXVII (scan, p. 199)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n284/mode/1up"
+            }
+          ],
+          "pages": "pp. 199–205",
+          "questions": [
+            "What are 'Honeyballs'?",
+            "How did Peter finally find the Buttonbush?",
+            "What color is the Indian Pipe, stalk and flower?"
+          ],
+          "answers": [
+            "The round flower heads of the Buttonbush",
+            "He heard the Bees humming and saw a Butterfly",
+            "Waxy white"
+          ],
+          "notes": "Modern botany: Indian Pipe has no green because it gets its food from fungi in the soil, which in turn connect to tree roots; it's a flowering plant, not a 'low' one as the 1923 text says."
+        },
+        {
+          "title": "Chapter XXVIII: A Lesson in Beauty",
+          "steps": [
+            "Read Chapter XXVIII, \"A Lesson in Beauty\" (Wild Carrot, Great Mullein and Moth Mullein), aloud together",
+            "Have your child retell the lesson Carol the Meadowlark taught Peter",
+            "Nature study (Queen Anne's Lace and Mullein): Look at a Queen Anne's Lace head and find the single dark purple floret in the center; feel a Mullein leaf's velvet (but don't pick or taste any carrot-family plant)"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXVIII (scan, p. 206)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n293/mode/1up"
+            }
+          ],
+          "pages": "pp. 206–212",
+          "questions": [
+            "What tiny surprise is in the very center of a Wild Carrot flower head?",
+            "How long does each Great Mullein flower stay open?",
+            "What lesson did Carol teach Peter?"
+          ],
+          "answers": [
+            "A single dark purple flower",
+            "Just one day",
+            "Common things can be very beautiful if you really look at them"
+          ],
+          "notes": "Safety: Queen Anne's Lace has deadly look-alikes (Poison Hemlock, Water Hemlock). Never pick or taste wild carrot-family plants."
+        },
+        {
+          "title": "Chapter XXIX: Two Water Lovers",
+          "steps": [
+            "Read Chapter XXIX, \"Two Water Lovers\" (Pickerel Weed and the Broad-leaved Arrowhead), aloud together",
+            "Ask your child to tell the chapter back, including the talk with Grandfather Frog",
+            "Nature study (Pickerel Weed and Arrowhead): At a pond or slow stream, look for spikes of blue flowers above heart-shaped leaves, and for arrow-shaped leaves with white three-petaled flowers. Draw an arrowhead leaf"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXIX (scan, p. 213)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n302/mode/1up"
+            }
+          ],
+          "pages": "pp. 213–219",
+          "questions": [
+            "What surprising thing did Peter notice about Arrowhead plants growing in the water?",
+            "How long does each Pickerel Weed flower last?",
+            "Who told Peter the name of the Arrowhead?"
+          ],
+          "answers": [
+            "They had two kinds of leaves: arrow-shaped above the water and grass-like underneath",
+            "One day",
+            "Longlegs the Great Blue Heron"
+          ]
+        },
+        {
+          "title": "Chapter XXX: Friends by the Wayside",
+          "steps": [
+            "Read Chapter XXX, \"Friends by the Wayside\" (Evening Primrose, Butter and Eggs and Yarrow), aloud together",
+            "Narration: your child describes what Peter saw at dusk",
+            "Nature study (Evening Primrose): Find an Evening Primrose plant and visit it at dusk to watch a flower slowly open; during the day, find Butter-and-Eggs and gently squeeze the sides of a flower to open its 'mouth'"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXX (scan, p. 220)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n311/mode/1up"
+            }
+          ],
+          "pages": "pp. 220–226",
+          "questions": [
+            "When do Evening Primrose flowers open, and who visits them?",
+            "How does Lady Bumblebee get into a Butter-and-Eggs flower?",
+            "How can you tell Yarrow from Wild Carrot?"
+          ],
+          "answers": [
+            "In the evening; night-flying Moths with long tongues",
+            "Her weight presses down the lower lip and opens the flower's throat",
+            "Wild Carrot looks like fine lace; Yarrow has fern-like leaves and grayish-white flower heads"
+          ],
+          "notes": "An evening flower watch makes a memorable family outing."
+        },
+        {
+          "title": "Chapter XXXI: Pests That Are Beautiful",
+          "steps": [
+            "Read Chapter XXXI, \"Pests That Are Beautiful\" (Upland White Aster, Corn Cockle and Common Burdock), aloud together",
+            "Have your child retell the chapter, naming each 'pest' and why farmers dislike it",
+            "Nature study (Burdock): Find a burdock plant along a fence or field edge; in late summer, test how its burs cling to wool or felt, and look at a bur's tiny hooks with a magnifying glass"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXI (scan, p. 227)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n320/mode/1up"
+            }
+          ],
+          "pages": "pp. 227–232",
+          "questions": [
+            "Where did Peter find the Corn Cockle?",
+            "How do Burdock burs spread the plant's seeds?",
+            "What did Peter think of the taste of a Burdock leaf?"
+          ],
+          "answers": [
+            "In Farmer Brown's wheatfield",
+            "Their hooks catch on fur and clothing and get carried away",
+            "Bitter and sour"
+          ],
+          "notes": "Fun fact: burdock burs inspired the invention of hook-and-loop fasteners (Velcro)."
+        }
+      ]
+    },
+    {
+      "title": "Unit 6: High Summer by Brook and Swamp (Chapters XXXII–XXXVII)",
+      "lessons": [
+        {
+          "title": "Chapter XXXII: Peter Finds the Steeplebush",
+          "steps": [
+            "Read Chapter XXXII, \"Peter Finds the Steeplebush\" (Elecampane and the Hardhack), aloud together",
+            "Ask your child to narrate how Peter finally found the Steeplebush",
+            "Nature study (Steeplebush): In a wet pasture or ditch edge in summer, look for pointed pink flower spires; check which end of the spire opened first and which still has buds"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXII (scan, p. 233)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n328/mode/1up"
+            }
+          ],
+          "pages": "pp. 233–238",
+          "questions": [
+            "How did the Steeplebush get its name?",
+            "Which flowers on the Steeplebush open first?",
+            "Why is Elecampane also called Horseheal?"
+          ],
+          "answers": [
+            "Its pink flower cluster is wide at the bottom and comes to a point at the top like a steeple",
+            "The ones at the tip",
+            "Its roots were once used to make medicine for horses"
+          ]
+        },
+        {
+          "title": "Chapter XXXIII: Lady Bumblebee's Friends",
+          "steps": [
+            "Read Chapter XXXIII, \"Lady Bumblebee's Friends\" (Meadow Beauty, Swamp Milkweed and Bee Balm), aloud together",
+            "Have your child tell the chapter back, including the help Lady Bumblebee gave",
+            "Nature study (Square stems): Roll stems of different plants between your fingers to find square ones (mints like Bee Balm have them). Smell a Bee Balm or garden mint leaf"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXIII (scan, p. 239)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n336/mode/1up"
+            }
+          ],
+          "pages": "pp. 239–244",
+          "questions": [
+            "What was unusual about the stalks of the Meadow Beauty and the Bee Balm?",
+            "What did people make from Bee Balm leaves?",
+            "How could Peter tell the Swamp Milkweed from the Common Milkweed?"
+          ],
+          "answers": [
+            "They were square instead of round",
+            "Tea (it is sometimes called Oswego Tea)",
+            "Its leaves were narrower and more pointed, it was branched, and its flowers were a deeper purple"
+          ]
+        },
+        {
+          "title": "Chapter XXXIV: Surprises Along the Laughing Brook",
+          "steps": [
+            "Read Chapter XXXIV, \"Surprises Along the Laughing Brook\" (Larger Skullcap and the Turtlehead), aloud together",
+            "Ask your child to act out how the Turtlehead seemed to 'chew' Lady Bumblebee",
+            "Nature study (Turtlehead): Along a summer stream bank, look for white flowers shaped like a turtle's head; gently press the lower lip to see it open. Look for little helmet bumps on Skullcap flowers"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXIV (scan, p. 245)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n346/mode/1up"
+            }
+          ],
+          "pages": "pp. 245–249",
+          "questions": [
+            "How did the Skullcap get its name?",
+            "Why did it look as if the Turtlehead was chewing Lady Bumblebee?",
+            "What name did Peter invent for the flower?"
+          ],
+          "answers": [
+            "A little bump on the flower's calyx looks like a knight's helmet",
+            "Its springy lower lip bounced up and down as she pushed her way in and out",
+            "Turtlehead, which is what many people call it"
+          ]
+        },
+        {
+          "title": "Chapter XXXV: Wool, Spears and Goldenrod",
+          "steps": [
+            "Read Chapter XXXV, \"Wool, Spears and Goldenrod\" (Pearly Everlasting, Common Thistle and Wrinkled-leaved Goldenrod), aloud together",
+            "Narration: your child tells how each of the three plants is protected or special",
+            "Nature study (Thistle family): Look at a thistle head from a safe distance, a Goldenrod plume, and (if you find it) Pearly Everlasting's papery white heads; note that all three belong to the same big family"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXV (scan, p. 250)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n351/mode/1up"
+            }
+          ],
+          "pages": "pp. 250–255",
+          "questions": [
+            "How does the woolly coat help the Pearly Everlasting in dry weather?",
+            "Why is it called 'Everlasting'?",
+            "What family do all three plants in this chapter belong to?"
+          ],
+          "answers": [
+            "It keeps the moisture inside the plant from being drawn out",
+            "Its stiff, pearly bracts don't wilt, so it looks the same for months after picking",
+            "The Thistle family"
+          ],
+          "notes": "Goldenrod is often blamed for hay fever, but its pollen is carried by insects; Ragweed, blooming at the same time, is the real culprit."
+        },
+        {
+          "title": "Chapter XXXVI: Along the Edge of the Swamp",
+          "steps": [
+            "Read Chapter XXXVI, \"Along the Edge of the Swamp\" (Virgin's-bower, Wild Mint and Hyssop-leaved Thoroughwort), aloud together",
+            "Have your child retell the chapter, including why Peter was so tired",
+            "Nature study (Wild Mint): In wet ground near a meadow or stream, crush one mint leaf and smell it; look for little flower bunches where the leaves join the stalk. Look for Virgin's-bower vines climbing walls and fences"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXVI (scan, p. 256)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n359/mode/1up"
+            }
+          ],
+          "pages": "pp. 256–261",
+          "questions": [
+            "What did Peter discover about the two Virgin's-bower vines?",
+            "How did Peter know he had found Wild Mint?",
+            "Why is Virgin's-bower also called Old-man's-beard?"
+          ],
+          "answers": [
+            "One had only flowers with stamens and the other only flowers with pistils, so only the second one made seeds",
+            "Its leaves had a peppermint smell",
+            "In fall it is covered with soft, silky, feathery seed plumes"
+          ]
+        },
+        {
+          "title": "Chapter XXXVII: Cousins in Red and Blue",
+          "steps": [
+            "Read Chapter XXXVII, \"Cousins in Red and Blue\" (Cardinal Flower and the Great Lobelia), aloud together",
+            "Ask your child to narrate the chapter and describe Hummer's favorite color",
+            "Nature study (Cardinal Flower): In August, walk a stream bank and look for brilliant red spikes; sit quietly nearby and watch for a hummingbird. Look also for the blue Great Lobelia"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXVII (scan, p. 262)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n369/mode/1up"
+            }
+          ],
+          "pages": "pp. 262–266",
+          "questions": [
+            "Who visits the Cardinal Flower, and why does he have it almost to himself?",
+            "Why are Cardinal Flowers disappearing from places where they once grew?",
+            "Who visited the Great Lobelia instead of Hummer?"
+          ],
+          "answers": [
+            "Hummer the Hummingbird; only his long tongue can reach the nectar",
+            "People pick them",
+            "Long-tongued Bees"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 7: The Last Flowers of the Year (Chapters XXXVIII–XLII)",
+      "lessons": [
+        {
+          "title": "Chapter XXXVIII: The Last of the Orchids",
+          "steps": [
+            "Read Chapter XXXVIII, \"The Last of the Orchids\" (Yellow-fringed Orchis and Nodding Ladies'-tresses), aloud together",
+            "Have your child tell the chapter back and how Peter felt afterward",
+            "Nature study (Ladies'-tresses): In late-summer damp grass, look for small white spikes whose flowers spiral up the stem; draw the 'braid'"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXVIII (scan, p. 267)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n376/mode/1up"
+            }
+          ],
+          "pages": "pp. 267–271",
+          "questions": [
+            "What happened to the Yellow-fringed Orchis?",
+            "Why are the little white orchids called Ladies'-tresses?",
+            "Why did Peter think picking rare flowers was so harmful?"
+          ],
+          "answers": [
+            "The boy and girl picked every one",
+            "Their flowers grow in a spiral so the spike looks braided like hair",
+            "Without flowers there are no seeds, so the flowers become rarer still"
+          ],
+          "notes": "Talk about Peter's sadness: what could the children have done instead of picking? (A sketch or photo.)"
+        },
+        {
+          "title": "Chapter XXXIX: Two Who Come in August",
+          "steps": [
+            "Read Chapter XXXIX, \"Two Who Come in August\" (Fern-leaved False Foxglove and the New England Aster), aloud together",
+            "Narration: your child retells Sammy Jay's 'fern with flowers' puzzle",
+            "Nature study (New England Aster): Look in late summer and fall for purple asters with many rays and yellow centers; visit at sunset to see whether they close. Count the rays on one flower head"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XXXIX (scan, p. 272)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n381/mode/1up"
+            }
+          ],
+          "pages": "pp. 272–276",
+          "questions": [
+            "What did Sammy Jay say he had seen that Peter didn't believe?",
+            "Was the plant really a fern?",
+            "Why didn't Peter like the name 'Foxglove'?"
+          ],
+          "answers": [
+            "Flowers growing on a fern",
+            "No, it only had fern-like leaves",
+            "It reminded him of Reddy Fox"
+          ]
+        },
+        {
+          "title": "Chapter XL: The Gold of Late Summer",
+          "steps": [
+            "Read Chapter XL, \"The Gold of Late Summer\" (The Giant Sunflower and the Sneezeweed), aloud together",
+            "Ask your child to tell the chapter back and how Sneezeweed got its name",
+            "Nature study (Sunflowers): Find a wild or garden sunflower; look closely at the center and find the tiny tube flowers; count the 'ray' petals"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XL (scan, p. 277)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n388/mode/1up"
+            }
+          ],
+          "pages": "pp. 277–281",
+          "questions": [
+            "How tall were some of the Giant Sunflowers?",
+            "What happened when Peter chewed a Sneezeweed leaf?",
+            "Why don't farmers like Sneezeweed near their cows?"
+          ],
+          "answers": [
+            "About ten feet tall",
+            "It was bitter, and he spat it out",
+            "If the cows eat it, their milk tastes bitter"
+          ]
+        },
+        {
+          "title": "Chapter XLI: A Day Rich in Beauty",
+          "steps": [
+            "Read Chapter XLI, \"A Day Rich in Beauty\" (Swamp Rose Mallow and Joe-pye Weed), aloud together",
+            "Have your child retell the chapter, including Grandfather Frog's teasing",
+            "Nature study (Joe-pye Weed): In late summer, find tall dusty-pink Joe-pye Weed in a wet meadow and count how many different butterflies visit in five minutes"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XLI (scan, p. 282)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n395/mode/1up"
+            }
+          ],
+          "pages": "pp. 282–286",
+          "questions": [
+            "What garden flower did the Rose Mallow remind Peter of?",
+            "Which visitors seemed to love the Joe-pye Weed best?",
+            "Why was Grandfather Frog getting stout?"
+          ],
+          "answers": [
+            "Hollyhocks",
+            "Butterflies",
+            "To be ready for his long winter sleep"
+          ]
+        },
+        {
+          "title": "Chapter XLII: The End of Peter's Search",
+          "steps": [
+            "Read Chapter XLII, \"The End of Peter's Search\" (Closed and Fringed Gentians), aloud together",
+            "Ask your child to narrate how Peter saved the Fringed Gentians",
+            "Nature study (Gentians): In September, look in damp meadows and woods' edges for deep-blue 'bottle' gentians and sky-blue fringed ones. Make a last journal page of the year: draw your favorite flower from the whole book"
+          ],
+          "links": [
+            {
+              "label": "Read Chapter XLII (scan, p. 287)",
+              "url": "https://archive.org/details/burgessflowerboo00burg/page/n402/mode/1up"
+            }
+          ],
+          "pages": "pp. 287–294",
+          "questions": [
+            "How does Lady Bumblebee get the nectar from a Closed Gentian?",
+            "How did Peter save the Fringed Gentians from being picked?",
+            "Why was saving them so important?"
+          ],
+          "answers": [
+            "She pushes her way in through the tiny opening at the tip",
+            "He ran toward the boy and led him on a chase far away",
+            "The Fringed Gentian dies every year, so new plants come only from seeds"
+          ],
+          "notes": "Review your flower journal together and plan which flowers to look for first next spring."
+        }
+      ]
+    }
+  ]
+}
