@@ -108,3 +108,4 @@ _New ideas land here, then get a priority._
 - [x] Answer keys and parent-only notes: answers line up with worksheet questions, print on a separate grown-ups' page, and never show in kid mode (`c9ccf18`)
 - [x] Marketplace moderation: report listings and reviews (including copyright claims), auto-hide after 3 reports, moderator queue, takedowns sellers can't undo (`ceceb9a`)
 - [x] Freerange Library: 14 free, openly licensed curricula (1,146 lessons) converted into lesson plans; fictional sample catalog removed (`7ed6856`)
+- [x] Free & open curricula listed under their original authors: 35 curricula and 2,887 lessons. Studio now imports Project Gutenberg books and archive.org scans, and explains script-built sites (`b71338a`)
