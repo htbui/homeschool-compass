@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { View } from 'react-native';
 
-import { lessonNumber, normalizeUrl } from '@/lib/curriculum';
-import { lessonAt } from '@/lib/package';
+import { lessonForChild, lessonNumber, normalizeUrl } from '@/lib/curriculum';
+import { versionLabel } from '@/lib/package';
 import { uid } from '@/lib/id';
 import type { LessonMaterial, Task } from '@/lib/types';
 import { deleteMaterialFile, MAX_FILE_MB, openMaterial, pickMaterialFile } from '@/services/materials';
@@ -38,7 +38,9 @@ export function LessonCard({ task, kid }: { task: Task; kid?: boolean }) {
   const [showKey, setShowKey] = useState(false);
   if (!cur) return null;
   const n = lessonNumber(task, cur, tasks);
-  const lesson = lessonAt(cur.outline, n);
+  // The level/theme this kid uses.
+  const lesson = lessonForChild(cur, n, task.childId);
+  const version = versionLabel(lesson?.applied);
   // Lesson-specific links first, then the curriculum's general materials.
   const lessonLinks: LessonMaterial[] = (lesson?.links ?? []).map((l, i) => ({ id: `${lesson!.id}-${i}`, label: l.label, url: l.url }));
   const materials = [...lessonLinks, ...(cur.materials ?? [])];
@@ -46,7 +48,7 @@ export function LessonCard({ task, kid }: { task: Task; kid?: boolean }) {
   return (
     <Card tint={c.primarySoft} style={kid ? { marginTop: space.md } : undefined}>
       <T v={kid ? 'title' : 'heading'}>📖 Lesson {n} of {cur.totalLessons}{lesson ? `: ${lesson.title}` : ''}</T>
-      <T v="caption" muted>{cur.name}{lesson?.unit ? ` · ${lesson.unit}` : ''}</T>
+      <T v="caption" muted>{cur.name}{lesson?.unit ? ` · ${lesson.unit}` : ''}{version ? ` · ${version}` : ''}</T>
       {lesson?.pages ? <T v={kid ? 'heading' : 'body'}>📄 Pages {lesson.pages}</T> : null}
       {lesson?.questions.length ? <T v="caption">✏️ {lesson.questions.length} worksheet question{lesson.questions.length === 1 ? '' : 's'} — print the worksheet to answer on paper.</T> : null}
       {!kid && lesson?.notes ? <T v="caption">📝 {lesson.notes}</T> : null}

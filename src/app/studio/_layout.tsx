@@ -15,6 +15,7 @@ export default function StudioLayout() {
       <Stack.Screen name="promotions" options={{ title: 'Sales, bundles & coupons' }} />
       <Stack.Screen name="classes" options={{ title: 'Co-op classes' }} />
       <Stack.Screen name="class/[id]" options={{ title: 'Co-op class' }} />
+      <Stack.Screen name="badge" options={{ title: 'Badges' }} />
     </Stack>
   );
 }

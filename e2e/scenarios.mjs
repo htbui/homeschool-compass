@@ -431,6 +431,7 @@ async function run() {
   await click('8–11', { exact: true });
   await click('Request to connect');
   await expect('Request sent');
+  await expect('✓ Verified family', 'verified badge in the family finder');
   await click('🏫 Co-ops');
   await click('Request to join');
   await expect('Rotating duties', 'joined co-op shows duties');
@@ -440,6 +441,9 @@ async function run() {
   await expect('Hill Country Explorers');
   await click('🚌 Field trips');
   await click('RSVP', { exact: true });
+  await expect('Before you meet up', 'safety tips before the first meetup');
+  await expect('Meet somewhere public');
+  await click('Got it, RSVP');
   await click('Join carpool matching');
   await expect('In carpool pool ✓');
   await click('Organize');
@@ -453,6 +457,13 @@ async function run() {
   await expect('Swaps now live in the Marketplace');
   await click('Sell something');
   await expect('Your listings', 'swap → marketplace selling view');
+
+  scenario('Messages (local-only)');
+  await page.goto(`${BASE}/messages`, { waitUntil: 'networkidle0' });
+  await sleep(1000);
+  await expect('Messages need an account', 'messages explain they need the Freerange service');
+  await page.goto(BASE, { waitUntil: 'networkidle0' });
+  await sleep(1000);
 
   // ───────────────────────────── Marketplace
   scenario('Marketplace');
@@ -504,10 +515,18 @@ async function run() {
   log(await isDisabled('Post review'), 'review needs stars + text');
   await clickLabel('4 stars');
   await fill("What worked, what didn't, and who it's best for.", 'Lovely gentle start to bird study for all ages.');
+  await expect('Show “On lesson 1 of 45”', 'review offers to show progress from the plan');
   await click('Post review', { exact: true });
   await expect('Edit review (4★)', 'review saved');
   await click('View listing');
   await expect('Verified purchase', 'own review shows verified');
+  await expect('On lesson 1 of 45', 'review shows the family’s progress');
+  await click('Most progress', { exact: true });
+  await expect('On lesson 1 of 45', 'sorting by progress keeps the review');
+  await click('Edit yours');
+  await click('Don’t show it');
+  await click('Save review', { exact: true });
+  await expectNot('On lesson 1 of 45', 'progress can be hidden');
   await page.goBack(); await sleep(600);
   // Sell something.
   await click('🏷️ Selling');
@@ -676,6 +695,14 @@ async function run() {
   await expect('Help is on the way');
   await click('OK', { exact: true });
   await expect('is coming', 'help button shows pending');
+  // Kid mode never shows messages or the parent's notifications.
+  for (const path of ['/messages', '/notifications']) {
+    await page.goto(`${BASE}${path}`, { waitUntil: 'networkidle0' });
+    await sleep(1200);
+    await expectNot('Messages need an account', `kid mode: ${path} stays closed`);
+    await expectNot('Mark all read', `kid mode: no notifications at ${path}`);
+    await expect('Switch kid', `kid mode: ${path} goes back to the kid's day`);
+  }
   await click('Switch kid');
   await click('Mateo R.');
   await expect('How are you feeling today?', 'second kid gets own mood check');
@@ -687,6 +714,22 @@ async function run() {
   for (const d of '1357') await click(d, { exact: true });
   await expect('Family Flight Deck', 'parent unlocked');
   await expect('Help queue (1 waiting)');
+
+  scenario('Notifications');
+  const bell = () => page.evaluate(() => [...document.querySelectorAll('[aria-label^="Notifications"]')].find((e) => e.offsetParent)?.getAttribute('aria-label'));
+  const unread = Number((await bell())?.match(/(\d+) unread/)?.[1] ?? 0);
+  log(unread >= 2, `bell shows unread notifications (${await bell()})`);
+  await clickLabel(await bell());
+  await expect('Lucia needs help', 'help request from kid mode');
+  await expect('Coming up: Capitol tour', 'field trip the family is going to');
+  await expect(`${unread} unread`);
+  await click('Mark read', { exact: true });
+  await expect(`${unread - 1} unread`, 'mark one read');
+  await click('Mark all read', { exact: true });
+  await expect('You’re all caught up', 'mark all read');
+  await click('Lucia needs help');
+  await expect('Family Flight Deck', 'tapping a help notification opens Today');
+  log((await bell()) === 'Notifications', 'bell cleared after reading');
   await click('On my way ✓');
   await expect('No one needs you right now.', 'help resolved');
 

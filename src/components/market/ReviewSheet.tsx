@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Pressable, Text } from 'react-native';
 
 import { uid } from '@/lib/id';
-import type { Listing, Review } from '@/lib/market';
+import { progressLabel, reviewProgress, type Listing, type Review } from '@/lib/market';
 import { useStore } from '@/store/useStore';
 import { submitReview } from '@/services/marketApi';
 import { Button, Chip, Field, Row, Sheet, Stack, T, useColors } from '@/ui';
@@ -19,6 +19,10 @@ function ReviewForm({ listing, existing, onClose }: { listing: Listing; existing
   const family = useStore((s) => s.family)!;
   const kids = useStore((s) => s.children);
   const owned = useStore((s) => s.purchases.some((p) => p.listingId === listing.id));
+  const curricula = useStore((s) => s.curricula);
+  // How far this family got, from their plan (the server works it out again when signed in).
+  const progress = reviewProgress(curricula, listing.id);
+  const [showProgress, setShowProgress] = useState(existing?.showProgress !== false);
   const [rating, setRating] = useState<number>(existing?.rating ?? 0);
   const [title, setTitle] = useState(existing?.title ?? '');
   const [body, setBody] = useState(existing?.body ?? '');
@@ -44,6 +48,8 @@ function ReviewForm({ listing, existing, onClose }: { listing: Listing; existing
       verified: owned,
       helpful: existing?.helpful ?? 0,
       mine: true,
+      showProgress,
+      progress: showProgress ? progress : undefined,
     };
     try {
       await submitReview(review);
@@ -78,6 +84,16 @@ function ReviewForm({ listing, existing, onClose }: { listing: Listing; existing
               <Chip key={g} label={g} selected={grade === g} onPress={() => setGrade(grade === g ? undefined : g)} />
             ))}
           </Row>
+        </Stack>
+      ) : null}
+      {progress ? (
+        <Stack gap={6}>
+          <T v="label">Your progress</T>
+          <Row wrap gap={6}>
+            <Chip label={`📈 Show “${progressLabel(progress)}”`} selected={showProgress} onPress={() => setShowProgress(true)} />
+            <Chip label="Don’t show it" selected={!showProgress} onPress={() => setShowProgress(false)} />
+          </Row>
+          <T v="caption" muted>From your plan, and it updates as you go. It helps other families see how far you got.</T>
         </Stack>
       ) : null}
       <T v="caption" muted>{owned ? '✓ Shown as a verified purchase.' : 'You haven’t bought this through Freerange, so it won’t carry a verified-purchase badge.'} Reviews show your first name and last initial only.</T>

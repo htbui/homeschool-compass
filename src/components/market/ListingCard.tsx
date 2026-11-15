@@ -6,6 +6,7 @@ import { SUBJECTS } from '@/lib/subjects';
 import { Card, Pill, Row, space, T, useColors } from '@/ui';
 
 import { PriceTag } from './PriceTag';
+import { VerifiedBadge } from './SellerBadges';
 
 export { money } from './PriceTag';
 
@@ -38,7 +39,6 @@ export function ListingCard({ listing: l, owned, reasons }: { listing: Listing; 
           <T v="heading" numberOfLines={2}>{l.title}</T>
           <T v="caption" muted numberOfLines={1}>
             {l.sellerKind === 'open' ? `by ${l.seller}` : l.seller}
-            {l.sellerVerified ? ' ✓' : ''}
             {SELLER_NOTE[l.sellerKind]}
           </T>
           <Row gap={6}>
@@ -56,13 +56,14 @@ export function ListingCard({ listing: l, owned, reasons }: { listing: Listing; 
       </Row>
       <Row wrap gap={6}>
         {owned ? <Pill text="✓ Owned" bg={c.successSoft} fg={c.success} /> : null}
+        {l.sellerVerified ? <VerifiedBadge plain /> : null}
         <Pill text={gradeRangeLabel(l.gradeMin, l.gradeMax)} />
         {l.subjects.slice(0, 2).map((s) => (
           <Pill key={s} text={`${SUBJECTS[s].icon} ${SUBJECTS[s].label}`} />
         ))}
         <Pill text={FORMAT_LABEL[l.format]} />
         {l.condition ? <Pill text={`Used · ${CONDITION_LABEL[l.condition]}`} bg={c.accentSoft} /> : null}
-        {l.esaEligible ? <Pill text="ESA ✓" bg={c.primarySoft} /> : null}
+        {l.esaEligible ? <Pill text={`ESA ✓${l.esaStates?.length && l.esaStates.length <= 3 ? ` ${l.esaStates.join(' ')}` : ''}`} bg={c.primarySoft} /> : null}
         {l.sample ? <Pill text="Sample" /> : null}
       </Row>
       {reasons?.length ? <T v="caption" color={c.primary}>✨ {reasons.join(' · ')}</T> : null}

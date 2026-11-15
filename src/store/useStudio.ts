@@ -19,6 +19,10 @@ export interface CreatorProfile {
   name: string;
   bio: string;
   website?: string;
+  /** Freerange checked who's behind this shop (set by moderators, read from the account). */
+  verified?: boolean;
+  /** States whose ESA programs list this creator as an approved vendor. */
+  esaStates?: string[];
   createdAt: string;
 }
 
@@ -60,7 +64,7 @@ export const useStudio = create<StudioState>()(
       classes: [],
       hydrated: false,
       setActive: (active) => set({ active }),
-      saveProfile: (p) => set((s) => ({ profile: { ...p, createdAt: s.profile?.createdAt ?? new Date().toISOString() } })),
+      saveProfile: (p) => set((s) => ({ profile: { ...s.profile, ...p, createdAt: s.profile?.createdAt ?? new Date().toISOString() } })),
       upsertPackage: (p) =>
         set((s) => {
           const next = { ...p, updatedAt: new Date().toISOString() };

@@ -47,11 +47,15 @@ export interface Listing {
   cover: string;
   color: string;
   esaEligible: boolean;
+  /** States whose ESA programs approved this seller as a vendor. */
+  esaStates?: string[];
   ratingAvg: number;
   ratingCount: number;
   createdAt: string;
   /** Demo catalog entry (shown with a "Sample" badge). */
   sample?: boolean;
+  /** The Studio creator selling it: their storefront is /creator/<creatorId>. */
+  creatorId?: ID;
   /** Listed by this family (or this Studio creator). */
   mine?: boolean;
   /** Taken down by moderators (only its seller still sees it). */
@@ -85,6 +89,38 @@ export interface Review {
   sample?: boolean;
   /** Hidden by moderators (only its author still sees it). */
   hidden?: boolean;
+  /** How far the reviewer's family got, from their own plan (worked out on the server when signed in). */
+  progress?: ReviewProgress;
+  /** The family chose to show their progress (the default). */
+  showProgress?: boolean;
+}
+
+export interface ReviewProgress {
+  done: number;
+  total: number;
+}
+
+/**
+ * How far a family's plan is through the curriculum it got from a listing:
+ * the furthest kid's lessons done, out of the curriculum's lessons
+ * (mirrors listing_progress() on the server).
+ */
+export function reviewProgress(curricula: Pick<Curriculum, 'listingId' | 'totalLessons' | 'lessonsDone' | 'progress' | 'childIds'>[], listingId: ID): ReviewProgress | undefined {
+  let best: ReviewProgress | undefined;
+  for (const c of curricula) {
+    if (c.listingId !== listingId || !(c.totalLessons >= 1)) continue;
+    const total = Math.floor(c.totalLessons);
+    const counts = c.childIds.length ? c.childIds.map((k) => c.progress?.[k] ?? c.lessonsDone) : [c.lessonsDone];
+    const done = Math.min(total, Math.max(0, Math.floor(Math.max(...counts.map((n) => (Number.isFinite(n) ? n : 0))))));
+    if (!best || done / total > best.done / best.total || (done / total === best.done / best.total && total > best.total)) best = { done, total };
+  }
+  return best;
+}
+
+/** "Finished 120/120 lessons" or "On lesson 35 of 120" (the lesson they're on now). */
+export function progressLabel(p: ReviewProgress): string {
+  if (p.done >= p.total) return `Finished ${p.total}/${p.total} lessons`;
+  return `On lesson ${p.done + 1} of ${p.total}`;
 }
 
 export interface Purchase {
@@ -271,7 +307,7 @@ export function sortListings(listings: Listing[], sort: SortKey, ctx: MatchConte
   return out.sort((a, b) => by(a) - by(b) || a.title.localeCompare(b.title));
 }
 
-export type ReviewSort = 'helpful' | 'newest' | 'high' | 'low';
+export type ReviewSort = 'helpful' | 'newest' | 'high' | 'low' | 'progress';
 export function sortReviews(reviews: Review[], sort: ReviewSort): Review[] {
   const out = [...reviews];
   const by = {
@@ -279,6 +315,8 @@ export function sortReviews(reviews: Review[], sort: ReviewSort): Review[] {
     newest: (r: Review) => -Date.parse(r.createdAt),
     high: (r: Review) => -r.rating,
     low: (r: Review) => r.rating,
+    // Furthest through the curriculum first (finished ones on top); reviews without progress last.
+    progress: (r: Review) => (r.progress ? -r.progress.done / r.progress.total - r.progress.done / 1e6 : 1),
   }[sort];
   return out.sort((a, b) => by(a) - by(b) || b.createdAt.localeCompare(a.createdAt));
 }

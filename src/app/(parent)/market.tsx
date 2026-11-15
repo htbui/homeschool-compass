@@ -8,6 +8,7 @@ import { GiftsPanel } from '@/components/market/GiftsPanel';
 import { ListingCard, money } from '@/components/market/ListingCard';
 import { ReviewSheet } from '@/components/market/ReviewSheet';
 import { SellSheet } from '@/components/market/SellSheet';
+import { followedCreators } from '@/lib/creators';
 import { formatDate } from '@/lib/dates';
 import {
   FORMAT_LABEL,
@@ -183,7 +184,12 @@ export default function Marketplace() {
         </>
       ) : null}
 
-      {view === 'library' ? <Library purchases={purchases} listings={listings} onBrowse={() => setView('browse')} /> : null}
+      {view === 'library' ? (
+        <>
+          <Following listings={listings} />
+          <Library purchases={purchases} listings={listings} onBrowse={() => setView('browse')} />
+        </>
+      ) : null}
 
       {view === 'selling' ? (
         <>
@@ -260,6 +266,22 @@ function FilterGroup({ label, children }: { label: string; children: React.React
       <T v="label">{label}</T>
       <Row wrap gap={6}>{children}</Row>
     </Stack>
+  );
+}
+
+/** Storefronts this family follows. */
+function Following({ listings }: { listings: Listing[] }) {
+  const following = useStore((s) => s.followedCreators);
+  const creators = followedCreators(listings, following ?? []);
+  if (!creators.length) return null;
+  return (
+    <Section title="Creators you follow">
+      <Row wrap gap={space.sm}>
+        {creators.map((cr) => (
+          <Chip key={cr.id} label={`🏪 ${cr.name}${cr.verified ? ' ✓' : ''} · ${cr.listings}`} onPress={() => router.push({ pathname: '/creator/[id]', params: { id: cr.id } })} />
+        ))}
+      </Row>
+    </Section>
   );
 }
 

@@ -2,7 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 
-import { doneFor, setDoneFor, withLessons } from '@/lib/curriculum';
+import { doneFor, setDoneFor, setVersionPick, withLessons } from '@/lib/curriculum';
 import { fromMinutes, schoolYearLabel, todayKey } from '@/lib/dates';
 import type { SentGift } from '@/lib/gifts';
 import { uid } from '@/lib/id';
@@ -27,6 +27,7 @@ import type {
   Task,
 } from '@/lib/types';
 import { planFromListing, type Listing, type PackageContent, type PlanOptions, type Purchase, type Review } from '@/lib/market';
+import type { VersionPick } from '@/lib/package';
 
 import { seedCommunity } from './seed';
 
@@ -54,6 +55,10 @@ interface Data {
   helpfulVotes: ID[];
   /** Gifts sent without an account (kept on this device; with one, the server keeps them). */
   localGifts: SentGift[];
+  /** When a parent read the meetup safety tips (shown before the first meetup). */
+  meetupTipsSeenAt?: string;
+  /** Creators whose storefronts this family follows (mirrors the account's when signed in). */
+  followedCreators: ID[];
   mode: AppMode;
 }
 
@@ -99,6 +104,8 @@ interface Actions {
   updatePlan: (id: ID, content: PackageContent) => void;
   /** Hide a newer version until the next one (key: release number or Studio save time). */
   skipPlanUpdate: (id: ID, key: string) => void;
+  /** Which level/theme of a lesson-by-lesson plan one student uses. */
+  setVersion: (id: ID, childId: ID, pick: VersionPick) => void;
 
   upsertExpense: (e: Expense) => void;
   removeExpense: (id: ID) => void;
@@ -110,6 +117,7 @@ interface Actions {
   addCoop: (c: Omit<CoOp, 'id' | 'joined' | 'members'>) => void;
   toggleEvent: (id: ID, field: 'going' | 'carpool') => void;
   addEvent: (e: Omit<CommunityEvent, 'id' | 'rsvps' | 'going' | 'carpool'>) => void;
+  markMeetupTipsSeen: () => void;
 
   recordPurchase: (p: Purchase) => void;
   /** `content` is the full lesson plan for Studio packages; `extra` adds to the curriculum (e.g. its co-op class). */
@@ -120,6 +128,7 @@ interface Actions {
   upsertMyReview: (r: Review) => void;
   removeMyReview: (id: ID) => void;
   toggleHelpful: (reviewId: ID) => void;
+  setFollowing: (creatorId: ID, on: boolean) => void;
 
   setMode: (m: AppMode) => void;
   importData: (json: string) => void;
@@ -158,6 +167,7 @@ const initialData = (): Data => ({
   myReviews: [],
   helpfulVotes: [],
   localGifts: [],
+  followedCreators: [],
   mode: { kind: 'parent' },
 });
 
@@ -306,6 +316,14 @@ export const useStore = create<Store>()(
           const { curriculum, tasks } = applyPlanUpdate(cur, s.tasks, content);
           return { curricula: s.curricula.map((c) => (c.id === id ? curriculum : c)), tasks: withLessons(tasks, s.curricula.map((c) => (c.id === id ? curriculum : c)), todayKey()) };
         }),
+      setVersion: (id, childId, pick) =>
+        set((s) => {
+          const cur = s.curricula.find((c) => c.id === id);
+          if (!cur) return {};
+          const { curriculum, tasks } = setVersionPick(cur, s.tasks, childId, pick);
+          const curricula = s.curricula.map((c) => (c.id === id ? curriculum : c));
+          return { curricula, tasks: withLessons(tasks, curricula, todayKey()) };
+        }),
       skipPlanUpdate: (id, key) => set((s) => ({ curricula: s.curricula.map((c) => (c.id === id ? { ...c, skippedUpdate: key } : c)) })),
       adjustLessons: (id, delta, childId) =>
         set((s) => ({
@@ -331,6 +349,7 @@ export const useStore = create<Store>()(
           }),
         })),
       addEvent: (e) => set((s) => ({ events: [...s.events, { ...e, id: uid('e'), rsvps: 1, going: true, carpool: false }] })),
+      markMeetupTipsSeen: () => set({ meetupTipsSeenAt: new Date().toISOString() }),
 
       recordPurchase: (p) =>
         set((s) => {
@@ -358,6 +377,7 @@ export const useStore = create<Store>()(
       upsertMyReview: (r) => set((s) => ({ myReviews: [{ ...r, mine: true }, ...s.myReviews.filter((x) => x.id !== r.id && x.listingId !== r.listingId)] })),
       removeMyReview: (id) => set((s) => ({ myReviews: s.myReviews.filter((x) => x.id !== id) })),
       toggleHelpful: (reviewId) => set((s) => ({ helpfulVotes: s.helpfulVotes.includes(reviewId) ? s.helpfulVotes.filter((x) => x !== reviewId) : [...s.helpfulVotes, reviewId] })),
+      setFollowing: (creatorId, on) => set((s) => ({ followedCreators: [...(s.followedCreators ?? []).filter((x) => x !== creatorId), ...(on ? [creatorId] : [])] })),
 
       setMode: (mode) => set({ mode }),
       exportData: () => {

@@ -1,0 +1,552 @@
+{
+ "key": "wikijunior-big-cats",
+ "seller": "Wikijunior (Wikibooks contributors)",
+ "title": "Wikijunior Big Cats",
+ "sourceTitle": "Wikijunior Big Cats",
+ "author": "Wikibooks contributors",
+ "year": 2005,
+ "sourceUrl": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats",
+ "license": {
+  "kind": "cc_by_sa",
+  "version": "4.0"
+ },
+ "licenseEvidence": "Wikibooks:Copyrights (en.wikibooks.org/wiki/Wikibooks:Copyrights, checked 2026-11-14): 'Most of Wikibooks' text is dual licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (\"CC BY-SA 4.0\") and the GNU Free Documentation License (GFDL)' and 'Wikibooks content can be copied, modified, and redistributed if and only if the copied version is made available on the same terms to others and acknowledgment of the authors of the work used is included (a link back to the book or module is generally thought to satisfy the attribution requirement)'. Wikimedia Foundation Terms of Use (foundation.wikimedia.org/wiki/Policy:Terms_of_Use, checked 2026-11-14), §7: 'these licenses do allow commercial uses of your contributions'; 'Reuse of content that we host is welcome'; reusers attribute 'Through hyperlink (where possible) or URL to the page or pages that you are reusing'; modified text must be licensed 'under CC BY-SA 4.0 or later' with an indication 'that the original work has been modified'. The only automated-use limit is on uses that 'are abusive or disruptive of the services'; API use follows the User-Agent Policy and API:Etiquette (pages were read through the MediaWiki API with a descriptive User-Agent). No clause bars AI use, derivatives, commercial use, or linking. Wikimedia Trademark Policy §3.6 (nominative use) allows the word marks to describe 'A derivative work of Wikimedia content in a way that is not misleading' and to link to Wikimedia sites; 'Wikijunior' is not on the Wikimedia trademarks list, 'Wikibooks' is, so no logos are used and no endorsement is implied. This plan uses only page titles, links, and our own steps and questions; no images (Commons images carry their own licenses).",
+ "attribution": "Wikijunior Big Cats is adapted from “Wikijunior Big Cats” (https://en.wikibooks.org/wiki/Wikijunior:Big_Cats) by Wikibooks contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Each lesson links to the page it uses; the full list of authors is in each page's history. Changes: pages grouped into daily lessons, with new steps and questions, by Freerange. This adapted lesson plan is also released under CC BY-SA 4.0 (ShareAlike). Not endorsed by or affiliated with the Wikimedia Foundation or the Wikibooks community.",
+ "subjects": [
+  "science"
+ ],
+ "gradeMin": 2,
+ "gradeMax": 5,
+ "philosophies": [
+  "charlotte_mason",
+  "unit_study",
+  "nature_forest"
+ ],
+ "lessonsPerWeek": 3,
+ "minutesPerLesson": 25,
+ "parentInvolvement": "medium",
+ "familyStyle": true,
+ "cover": "🐆",
+ "color": "#E3A33B",
+ "description": "Meet the wild cats of the world, from lions and tigers to the tiny rusty-spotted cat, in a short children's book written by Wikijunior volunteers for ages 8–12. Each day you read one page together, then build a homemade field guide with a card for every cat, find its home on a map, and talk about how people can help cats survive. It's a free, openly licensed book; every page is free to read on Wikibooks.",
+ "includes": [
+  "20 lessons in 4 units",
+  "Link to the free Wikibooks page for every lesson",
+  "A homemade cat field guide, one card per species",
+  "Map work for each cat's home range",
+  "Questions with answers for every lesson"
+ ],
+ "units": [
+  {
+   "title": "Unit 1: Meet the Cats and the Roaring Cats",
+   "lessons": [
+    {
+     "title": "Lesson 1: A Note to Parents and Meet the Cats",
+     "steps": [
+      "Parent: read the short foreword",
+      "Read Meet the Cats together",
+      "Start a field guide: a folder or notebook with one page per cat"
+     ],
+     "links": [
+      {
+       "label": "Read: Foreword",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Foreword"
+      },
+      {
+       "label": "Read: Meet the Cats",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Meet_The_Cats"
+      }
+     ],
+     "questions": [
+      "Which cat rules Africa, and which rules Asia?",
+      "On which two continents are there no native wild cats?"
+     ],
+     "answers": [
+      "The lion rules Africa; the tiger rules Asia",
+      "Australia and Antarctica"
+     ]
+    },
+    {
+     "title": "Lesson 2: The Lion",
+     "steps": [
+      "Read the page together",
+      "Add a cat card to your field guide: where it lives, what it looks like, what it eats",
+      "On a map, find the savannas of Africa and the Gir forest of India"
+     ],
+     "links": [
+      {
+       "label": "Read: Lion",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Lion"
+      }
+     ],
+     "questions": [
+      "What is a group of lions called?",
+      "Who does most of the hunting in a pride?",
+      "Do lions really live in the jungle?"
+     ],
+     "answers": [
+      "A pride",
+      "The females (lionesses)",
+      "No, they live on grassy savannas"
+     ]
+    },
+    {
+     "title": "Lesson 3: The Tiger",
+     "steps": [
+      "Read the page together",
+      "Add a cat card to your field guide: where it lives, what it looks like, what it eats",
+      "Draw a tiger and give it your own stripe pattern"
+     ],
+     "links": [
+      {
+       "label": "Read: Tiger",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Tiger"
+      }
+     ],
+     "questions": [
+      "What is the largest cat living today?",
+      "Do any two tigers have the same stripes?",
+      "Why might people near tigers wear a mask on the back of the head?"
+     ],
+     "answers": [
+      "The tiger",
+      "No",
+      "Tigers like to attack from behind"
+     ]
+    },
+    {
+     "title": "Lesson 4: The Leopard",
+     "steps": [
+      "Read the page together",
+      "Add a cat card to your field guide: where it lives, what it looks like, what it eats",
+      "Narrate why leopards drag their food up into trees"
+     ],
+     "links": [
+      {
+       "label": "Read: Leopard",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Leopard"
+      }
+     ],
+     "questions": [
+      "Which big cat lives in more places than any other?",
+      "What two Greek words make up the name 'leopard'?"
+     ],
+     "answers": [
+      "The leopard",
+      "Leon (lion) and pard (panther)"
+     ]
+    },
+    {
+     "title": "Lesson 5: The Jaguar",
+     "steps": [
+      "Read the page together",
+      "Add a cat card to your field guide: where it lives, what it looks like, what it eats",
+      "Compare a jaguar and a leopard picture side by side"
+     ],
+     "links": [
+      {
+       "label": "Read: Jaguar",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Jaguar"
+      }
+     ],
+     "questions": [
+      "What is the largest cat in the Americas (the New World)?",
+      "Where do jaguars like to live?"
+     ],
+     "answers": [
+      "The jaguar",
+      "Rain forests, by rivers and swamps, in South and Central America"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 2: Mountain, Forest and Speedy Cats",
+   "lessons": [
+    {
+     "title": "Lesson 6: The Snow Leopard",
+     "steps": [
+      "Read the page together",
+      "Add a cat card to your field guide: where it lives, what it looks like, what it eats",
+      "Find the Himalayas on a map"
+     ],
+     "links": [
+      {
+       "label": "Read: Snow leopard",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Snow_leopard"
+      }
+     ],
+     "questions": [
+      "In which mountains do many snow leopards live?",
+      "How does a snow leopard's fur help it hide?"
+     ],
+     "answers": [
+      "The Himalayas",
+      "Its gray and black swirls match the rocks"
+     ]
+    },
+    {
+     "title": "Lesson 7: The Clouded Leopard and the Marbled Cat",
+     "steps": [
+      "Read both pages",
+      "Make a card for each cat",
+      "Narrate how these two cats are alike"
+     ],
+     "links": [
+      {
+       "label": "Read: Clouded leopard",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Clouded_leopard"
+      },
+      {
+       "label": "Read: Marbled cat",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Marbled_cat"
+      }
+     ],
+     "questions": [
+      "Is the clouded leopard a true leopard?",
+      "How big is the marbled cat?"
+     ],
+     "answers": [
+      "No",
+      "Only a little bigger than a pet cat"
+     ]
+    },
+    {
+     "title": "Lesson 8: The Cheetah",
+     "steps": [
+      "Read the page together",
+      "Add a cat card to your field guide: where it lives, what it looks like, what it eats",
+      "Measure 100 meters outdoors and talk about how fast a cheetah covers it"
+     ],
+     "links": [
+      {
+       "label": "Read: Cheetah",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Cheetah"
+      }
+     ],
+     "questions": [
+      "What is the fastest land animal?",
+      "About how fast can a cheetah run?"
+     ],
+     "answers": [
+      "The cheetah",
+      "About 100 km (62 miles) per hour"
+     ]
+    },
+    {
+     "title": "Lesson 9: The Puma",
+     "steps": [
+      "Read the page together",
+      "Add a cat card to your field guide: where it lives, what it looks like, what it eats",
+      "Act out what to do if you meet a puma: stand tall, don't run"
+     ],
+     "links": [
+      {
+       "label": "Read: Puma",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Puma"
+      }
+     ],
+     "questions": [
+      "What are some other names for the puma?",
+      "Can a puma roar?",
+      "Should you run if you see a puma?"
+     ],
+     "answers": [
+      "Mountain lion, cougar, catamount, panther",
+      "No",
+      "No; stand tall and face it"
+     ]
+    },
+    {
+     "title": "Lesson 10: Lynx and Bobcats",
+     "steps": [
+      "Read the page together",
+      "Add a cat card to your field guide: where it lives, what it looks like, what it eats",
+      "Find Spain on a map: home of the endangered Iberian lynx"
+     ],
+     "links": [
+      {
+       "label": "Read: Lynx and bobcats",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Lynx_and_bobcats"
+      }
+     ],
+     "questions": [
+      "What job do lynx do especially well?",
+      "Which is the smallest kind of lynx?"
+     ],
+     "answers": [
+      "Keeping the rabbit population under control",
+      "The bobcat"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 3: Smaller Wild Cats and Hybrids",
+   "lessons": [
+    {
+     "title": "Lesson 11: The Ocelot and the Margay",
+     "steps": [
+      "Read both pages",
+      "Make a card for each cat",
+      "Narrate how the margay gets around in the trees"
+     ],
+     "links": [
+      {
+       "label": "Read: Ocelot",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Ocelot"
+      },
+      {
+       "label": "Read: Margay",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Margay"
+      }
+     ],
+     "questions": [
+      "What once brought ocelots close to extinction?",
+      "How can a margay nap in a tree?"
+     ],
+     "answers": [
+      "People hunting them for their beautiful fur",
+      "Hanging upside down by its back feet"
+     ]
+    },
+    {
+     "title": "Lesson 12: The Jaguarundi and the Rusty-Spotted Cat",
+     "steps": [
+      "Read both pages",
+      "Make a card for each cat",
+      "Find India and Sri Lanka on a map"
+     ],
+     "links": [
+      {
+       "label": "Read: Jaguarundi",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Jaguarundi"
+      },
+      {
+       "label": "Read: Rusty-spotted cat",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Rusty_spotted_cat"
+      }
+     ],
+     "questions": [
+      "What animal is a jaguarundi often mistaken for?",
+      "What is the smallest member of the cat family?"
+     ],
+     "answers": [
+      "An otter",
+      "The rusty-spotted cat"
+     ]
+    },
+    {
+     "title": "Lesson 13: The Caracal and the Serval",
+     "steps": [
+      "Read both pages",
+      "Make a card for each cat",
+      "Jump straight up and see how high you go; a serval leaps to catch birds"
+     ],
+     "links": [
+      {
+       "label": "Read: Caracal",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Caracal"
+      },
+      {
+       "label": "Read: Serval",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Serval"
+      }
+     ],
+     "questions": [
+      "What does the name 'caracal' mean?",
+      "Where do servals live?"
+     ],
+     "answers": [
+      "Black ears (from Turkish)",
+      "The grasslands (savannas) of Africa"
+     ]
+    },
+    {
+     "title": "Lesson 14: The Manul, the Wild Cat and the Sand Cat",
+     "steps": [
+      "Read the three short pages",
+      "Make a card for each cat",
+      "Narrate how the sand cat's furry feet help it in the desert"
+     ],
+     "links": [
+      {
+       "label": "Read: Manul",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Manul"
+      },
+      {
+       "label": "Read: Wild cat",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Wildcat"
+      },
+      {
+       "label": "Read: Sand cat",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Sand_cat"
+      }
+     ],
+     "questions": [
+      "Which wild cat is the ancestor of our pet cats?",
+      "Which is the oldest living species of cat?"
+     ],
+     "answers": [
+      "The wildcat (African wild cat)",
+      "The manul (Pallas' cat)"
+     ]
+    },
+    {
+     "title": "Lesson 15: Tigons, Ligers and Other Hybrids",
+     "steps": [
+      "Read the four short pages",
+      "Draw a chart: which parents make a liger, a tigon, a pumapard",
+      "Talk about the marozi: what is a cryptid, and how do we know what's real?"
+     ],
+     "links": [
+      {
+       "label": "Read: Tigons and Ligers",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Tigons_and_Ligers"
+      },
+      {
+       "label": "Read: Pumapards",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Pumapards"
+      },
+      {
+       "label": "Read: Marozi",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Marozi"
+      },
+      {
+       "label": "Read: Tigards",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Tigards"
+      }
+     ],
+     "questions": [
+      "What are a liger's parents?",
+      "What is a cryptid?"
+     ],
+     "answers": [
+      "A lion father and a tiger mother",
+      "An animal known only from stories, not studied by scientists"
+     ],
+     "notes": "The Marozi page is mostly about a legend; treat it as a lesson in telling stories from science."
+    }
+   ]
+  },
+  {
+   "title": "Unit 4: How Cats Live, Then and Now",
+   "lessons": [
+    {
+     "title": "Lesson 16: Raising Young",
+     "steps": [
+      "Read the page together",
+      "Watch a pet cat or a video of kittens playing, and spot hunting moves",
+      "Narrate how play helps cubs"
+     ],
+     "links": [
+      {
+       "label": "Read: How do cats raise their young?",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Raising_young"
+      }
+     ],
+     "questions": [
+      "What are young big cats called?",
+      "About when do cubs open their eyes?"
+     ],
+     "answers": [
+      "Cubs",
+      "About 10 to 14 days after birth"
+     ]
+    },
+    {
+     "title": "Lesson 17: Fossil History",
+     "steps": [
+      "Read the page together",
+      "Draw a sabre-toothed Smilodon",
+      "Narrate one fossil cat you'd like to have seen"
+     ],
+     "links": [
+      {
+       "label": "Read: Fossil History",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Fossil_History"
+      }
+     ],
+     "questions": [
+      "What was the small animal that all carnivores came from?",
+      "What was the largest cat that ever lived?"
+     ],
+     "answers": [
+      "Miacis",
+      "The Eurasian cave lion"
+     ]
+    },
+    {
+     "title": "Lesson 18: In Danger of Extinction",
+     "steps": [
+      "Read the page together",
+      "List the dangers big cats face",
+      "Talk about one thing your family could do to help"
+     ],
+     "links": [
+      {
+       "label": "Read: In Danger of Extinction",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/In_danger_of_extinction"
+      }
+     ],
+     "questions": [
+      "What does the book call 'the silent killer' of big cats?",
+      "What do we call people who break the law to kill animals?"
+     ],
+     "answers": [
+      "Habitat loss",
+      "Poachers"
+     ]
+    },
+    {
+     "title": "Lesson 19: Keeping Cats in Zoos",
+     "steps": [
+      "Read the page together",
+      "Visit a zoo or a zoo website and look for enrichment toys",
+      "Narrate how keepers keep big cats healthy and happy"
+     ],
+     "links": [
+      {
+       "label": "Read: Keeping Cats",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Keeping_cats"
+      }
+     ],
+     "questions": [
+      "How many types of fitness does the zoo keeper describe?",
+      "Why do zoos run Species Survival Plans?"
+     ],
+     "answers": [
+      "Four",
+      "To help endangered cats breed and stay healthy"
+     ]
+    },
+    {
+     "title": "Lesson 20: Cat Classification and Review",
+     "steps": [
+      "Read the classification page together",
+      "Sort your field guide cards into groups by genus",
+      "Look up any new words in the Glossary"
+     ],
+     "links": [
+      {
+       "label": "Read: Cat Classification",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Classification"
+      },
+      {
+       "label": "Read: Glossary",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Big_Cats/Glossary"
+      }
+     ],
+     "questions": [
+      "What family do all cats belong to?",
+      "Why do scientists give each animal one Latin name?"
+     ],
+     "answers": [
+      "Felidae",
+      "So people speaking different languages don't get confused"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,236 @@
+{
+ "err": false,
+ "found": true,
+ "msg": "Found Content Licensing Report for math-4969.",
+ "data": {
+  "coverID": "math-4969",
+  "id": "4969",
+  "library": "math",
+  "timestamp": "2026-05-19T14:59:07.080Z",
+  "runtime": "2624.649742126465 ms",
+  "meta": {
+   "mostRestrictiveLicense": {
+    "label": "CC BY",
+    "link": "https://creativecommons.org/licenses/by/4.0/",
+    "raw": "ccby",
+    "version": "4.0"
+   },
+   "specialRestrictions": [],
+   "licenses": [
+    {
+     "label": "CC BY",
+     "link": "https://creativecommons.org/licenses/by/4.0/",
+     "raw": "ccby",
+     "version": "4.0",
+     "count": 150,
+     "percent": 99.3
+    },
+    {
+     "label": "Undeclared",
+     "link": "#",
+     "raw": "notset",
+     "count": 1,
+     "percent": 0.7
+    }
+   ]
+  },
+  "text": {
+   "license": {
+    "label": "CC BY",
+    "link": "https://creativecommons.org/licenses/by/4.0/",
+    "raw": "ccby",
+    "version": "4.0"
+   },
+   "id": "4969",
+   "url": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_1e_(OpenStax)",
+   "title": "Prealgebra 1e (OpenStax)",
+   "children": [
+    {
+     "license": {
+      "label": "CC BY",
+      "link": "https://creativecommons.org/licenses/by/4.0/",
+      "raw": "ccby",
+      "version": "4.0"
+     },
+     "id": "23800",
+     "url": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_1e_(OpenStax)/00%3A_Front_Matter",
+     "title": "Front Matter",
+     "children": [
+      {
+       "license": {
+        "label": "CC BY",
+        "link": "https://creativecommons.org/licenses/by/4.0/",
+        "raw": "ccby",
+        "version": "4.0"
+       },
+       "id": "24372",
+       "url": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_1e_(OpenStax)/00%3A_Front_Matter/01%3A_TitlePage",
+       "title": "TitlePage",
+       "children": []
+      },
+      {
+       "license": {
+        "label": "CC BY",
+        "link": "https://creativecommons.org/licenses/by/4.0/",
+        "raw": "ccby",
+        "version": "4.0"
+       },
+       "id": "24373",
+       "url": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_1e_(OpenStax)/00%3A_Front_Matter/02%3A_InfoPage",
+       "title": "InfoPage",
+       "children": []
+      }
+     ]
+    },
+    {
+     "license": {
+      "label": "CC BY",
+      "link": "https://creativecommons.org/licenses/by/4.0/",
+      "raw": "ccby",
+      "version": "4.0"
+     },
+     "id": "4976",
+     "url": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_1e_(OpenStax)/01%3A_Whole_Numbers",
+     "title": "1: Whole Numbers",
+     "children": [
+      {
+       "license": {
+        "label": "CC BY",
+        "link": "https://creativecommons.org/licenses/by/4.0/",
+        "raw": "ccby",
+        "version": "4.0"
+       },
+       "id": "5266",
+       "url": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_1e_(OpenStax)/01%3A_Whole_Numbers/1.0E%3A_1.E%3A_Whole_Numbers_(Exercises)",
+       "title": "1.E: Whole Numbers (Exercises)",
+       "children": []
+      },
+      {
+       "license": {
+        "label": "CC BY",
+        "link": "https://creativecommons.org/licenses/by/4.0/",
+        "raw": "ccby",
+        "version": "4.0"
+       },
+       "id": "5269",
+       "url": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_1e_(OpenStax)/01%3A_Whole_Numbers/1.0S%3A_1.S%3A_Whole_Numbers_(Summary)",
+       "title": "1.S: Whole Numbers (Summary)",
+       "children": []
+      },
+      {
+       "license": {
+        "label": "CC BY",
+        "link": "https://creativecommons.org/licenses/by/4.0/",
+        "raw": "ccby",
+        "version": "4.0"
+       },
+       "id": "4970",
+       "url": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_1e_(OpenStax)/01%3A_Whole_Numbers/1.01%3A_Introduction_to_Whole_Numbers_(Part_1)",
+       "title": "1.1: Introduction to Whole Numbers (Part 1)",
+       "children": []
+      },
+      {
+       "license": {
+        "label": "CC BY",
+        "link": "https://creativecommons.org/licenses/by/4.0/",
+        "raw": "ccby",
+        "version": "4.0"
+       },
+       "id": "5260",
+       "url": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_1e_(OpenStax)/01%3A_Whole_Numbers/1.02%3A_Introduction_to_Whole_Numbers_(Part_2)",
+       "title": "1.2: Introduction to Whole Numbers (Part 2)",
+       "children": []
+      }
+     ]
+    },
+    {
+     "license": {
+      "label": "CC BY",
+      "link": "https://creativecommons.org/licenses/by/4.0/",
+      "raw": "ccby",
+      "version": "4.0"
+     },
+     "id": "4983",
+     "url": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_1e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra",
+     "title": "2: Introduction to the Language of Algebra",
+     "children": [
+      {
+       "license": {
+        "label": "CC BY",
+        "link": "https://creativecommons.org/licenses/by/4.0/",
+        "raw": "ccby",
+        "version": "4.0"
+       },
+       "id": "4982",
+       "url": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_1e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.0E%3A_2.E%3A_Introduction_to_the_Language_of_Algebra_(Exercises)",
+       "title": "2.E: Introduction to the Language of Algebra (Exercises)",
+       "children": []
+      },
+      {
+       "license": {
+        "label": "CC BY",
+        "link": "https://creativecommons.org/licenses/by/4.0/",
+        "raw": "ccby",
+        "version": "4.0"
+       },
+       "id": "5965",
+       "url": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_1e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.0S%3A_2.S%3A_Introduction_to_the_Language_of_Algebra_(Summary)",
+       "title": "2.S: Introduction to the Language of Algebra (Summary)",
+       "children": []
+      },
+      {
+       "license": {
+        "label": "CC BY",
+        "link": "https://creativecommons.org/licenses/by/4.0/",
+        "raw": "ccby",
+        "version": "4.0"
+       },
+       "id": "4977",
+       "url": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_1e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.01%3A_Use_the_Language_of_Algebra_(Part_1)",
+       "title": "2.1: Use the Language of Algebra (Part 1)",
+       "children": []
+      },
+      {
+       "license": {
+        "label": "CC BY",
+        "link": "https://creativecommons.org/licenses/by/4.0/",
+        "raw": "ccby",
+        "version": "4.0"
+       },
+       "id": "5779",
+       "url": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_1e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.02%3A_Use_the_Language_of_Algebra_(Part_2)",
+       "title": "2.2: Use the Language of Algebra (Part 2)",
+       "children": []
+      }
+     ]
+    },
+    {
+     "license": {
+      "label": "CC BY",
+      "link": "https://creativecommons.org/licenses/by/4.0/",
+      "raw": "ccby",
+      "version": "4.0"
+     },
+     "id": "23803",
+     "url": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_1e_(OpenStax)/zz%3A_Back_Matter",
+     "title": "Back Matter",
+     "children": [
+      {
+       "license": {
+        "label": "CC BY",
+        "link": "https://creativecommons.org/licenses/by/4.0/",
+        "raw": "ccby",
+        "version": "4.0"
+       },
+       "id": "38041",
+       "url": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_1e_(OpenStax)/zz%3A_Back_Matter/10%3A_Index",
+       "title": "Index",
+       "children": []
+      }
+     ]
+    }
+   ],
+   "totalPages": 151
+  }
+ }
+}

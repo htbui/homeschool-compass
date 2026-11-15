@@ -27,8 +27,9 @@ export type ListingRow = {
   rating_avg: number | string; rating_count: number; sample: boolean; status: string; created_at: string;
   creator_user?: string | null; package_id?: string | null; package_version?: number | null; license?: Listing['license'] | null; attribution?: string | null; outline?: Listing['outline'] | null;
   sale_percent?: number | null; sale_ends_at?: string | null;
+  esa_states?: string[] | null;
 };
-type ReviewRow = { id: string; listing_id: string; family_id: string | null; author_name: string; rating: number; title: string; body: string; child_grade: string | null; verified: boolean; helpful: number; sample: boolean; hidden?: boolean; created_at: string };
+type ReviewRow = { id: string; listing_id: string; family_id: string | null; author_name: string; rating: number; title: string; body: string; child_grade: string | null; verified: boolean; helpful: number; sample: boolean; hidden?: boolean; show_progress?: boolean; progress_done?: number | null; progress_total?: number | null; created_at: string };
 export type PurchaseRow = {
   id: string; listing_id: string | null; title: string; seller: string; price: number | string; funding_source: FundingSource; status: Purchase['status'] | 'cancelled'; demo: boolean; esa_eligible: boolean; created_at: string;
   list_price?: number | string | null; bundle_id?: string | null; gift_id?: string | null; gift_from?: string | null;
@@ -58,10 +59,12 @@ export const toListing = (r: ListingRow, fid?: string): Listing => ({
   cover: r.cover,
   color: r.color,
   esaEligible: r.esa_eligible,
+  esaStates: r.esa_states?.length ? r.esa_states : undefined,
   ratingAvg: Number(r.rating_avg),
   ratingCount: r.rating_count,
   createdAt: r.created_at,
   sample: r.sample || undefined,
+  creatorId: r.creator_user ?? undefined,
   mine: (!!fid && r.seller_family === fid) || (!!r.creator_user && r.creator_user === useAccount.getState().userId) ? true : undefined,
   packageId: r.package_id ?? undefined,
   packageVersion: r.package_version ?? undefined,
@@ -112,6 +115,8 @@ const toReview = (r: ReviewRow, fid?: string): Review => ({
   sample: r.sample || undefined,
   mine: !!fid && r.family_id === fid ? true : undefined,
   hidden: r.hidden || undefined,
+  progress: r.progress_done != null && r.progress_total ? { done: r.progress_done, total: r.progress_total } : undefined,
+  showProgress: r.show_progress ?? true,
 });
 
 export const toPurchase = (r: PurchaseRow): Purchase => {
@@ -182,6 +187,7 @@ export async function refreshMarketplace(): Promise<void> {
     market.setCatalog({ listings, reviews: kept.source === 'cloud' ? kept.reviews : [], source: 'cloud' });
     await refreshBundles();
     if (signedIn() && fid) await refreshMine(fid);
+    if (signedIn()) await refreshFollows();
   } catch (e) {
     market.setStatus({ loading: false, error: friendlyError(e) });
   }
@@ -200,6 +206,14 @@ async function refreshMine(fid: string) {
     helpfulVotes: ((votes.data ?? []) as { review_id: string }[]).map((v) => v.review_id),
   });
   await refreshPurchases();
+}
+
+/** Bring down the account's followed creators (they replace this device's). */
+export async function refreshFollows(): Promise<void> {
+  if (!signedIn()) return;
+  const { data, error } = await supabase!.from('creator_follows').select('creator_user');
+  if (error) return;
+  useStore.setState({ followedCreators: ((data ?? []) as { creator_user: string }[]).map((r) => r.creator_user) });
 }
 
 /** Reviews for one listing (loaded when its page opens). */
@@ -257,7 +271,7 @@ export async function submitReview(r: Review): Promise<void> {
   const fid = requireCloud();
   const { data, error } = await supabase!
     .from('reviews')
-    .upsert({ listing_id: r.listingId, family_id: fid, author_name: r.author, rating: r.rating, title: r.title, body: r.body, child_grade: r.childGrade ?? null }, { onConflict: 'listing_id,family_id' })
+    .upsert({ listing_id: r.listingId, family_id: fid, author_name: r.author, rating: r.rating, title: r.title, body: r.body, child_grade: r.childGrade ?? null, show_progress: r.showProgress !== false }, { onConflict: 'listing_id,family_id' })
     .select()
     .single();
   if (error) throw new Error(friendlyError(error));
@@ -331,7 +345,7 @@ export const refreshCatalog = refreshMarketplace;
 // ───────────────────────────── Reports and moderation
 
 export type ReportReason = 'copyright' | 'inappropriate' | 'spam' | 'misleading' | 'personal_info' | 'other';
-export type ReportTarget = { kind: 'listing' | 'review'; id: ID };
+export type ReportTarget = { kind: 'listing' | 'review' | 'message'; id: ID };
 
 /** Send a report to the moderators. Returns whether it's now hidden (several people reported it). */
 export async function reportContent(target: ReportTarget, reason: ReportReason, details: string, contact?: string): Promise<{ hidden: boolean }> {
@@ -348,7 +362,7 @@ export async function isModerator(): Promise<boolean> {
 }
 
 export interface QueueItem {
-  kind: 'listing' | 'review';
+  kind: ReportTarget['kind'];
   id: ID;
   listingId?: ID;
   title: string;

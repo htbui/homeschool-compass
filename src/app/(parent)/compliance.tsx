@@ -6,6 +6,8 @@ import { useCompliance } from '@/hooks/useCompliance';
 import { todayKey } from '@/lib/dates';
 import { evaluatorPacketHtml } from '@/lib/documents';
 import { toHours } from '@/lib/hours';
+import { missingSentence, standardLabel } from '@/lib/standards';
+import { SUBJECTS } from '@/lib/subjects';
 import { useStore } from '@/store/useStore';
 import { exportHtml } from '@/services/exportDoc';
 import { toDataUri } from '@/services/media';
@@ -20,7 +22,9 @@ const TOOLS = [
 
 export default function Compass() {
   const c = useColors();
-  const { law, perChild, items, family: fam } = useCompliance();
+  const { law, perChild, items, family: fam, coverage, missing } = useCompliance();
+  const [showStandards, setShowStandards] = useState(false);
+  const tagged = coverage.reduce((n, cv) => n + cv.standards.length, 0);
   const state = useStore.getState();
   const [busy, setBusy] = useState(false);
 
@@ -51,6 +55,32 @@ export default function Compass() {
             </Row>
           ))}
           {items.length === 0 ? <T muted>Choose your state in Settings to see requirements.</T> : null}
+        </Card>
+      </Section>
+
+      <Section title="Subject coverage" subtitle="From your curricula, your weekly rhythm, and the standards tagged in lesson plans.">
+        <Card>
+          {coverage.length === 0 ? <T muted>Add curricula or rhythm blocks to see which subjects your plan covers.</T> : null}
+          {coverage.map((cv) => (
+            <Stack key={cv.subject} gap={2}>
+              <T>
+                {SUBJECTS[cv.subject].icon} <T style={{ fontWeight: '700' }}>{SUBJECTS[cv.subject].label}</T>
+                <T v="caption" muted> · {cv.sources.slice(0, 3).join(', ')}{cv.sources.length > 3 ? ` +${cv.sources.length - 3} more` : ''}{cv.standards.length ? ` · ${cv.standards.length} standard${cv.standards.length === 1 ? '' : 's'} tagged` : ''}</T>
+              </T>
+              {showStandards && cv.standards.length ? <T v="caption" muted>{cv.standards.map(standardLabel).join(' · ')}</T> : null}
+            </Stack>
+          ))}
+          {tagged ? (
+            <Row>
+              <Button size="sm" kind="ghost" title={showStandards ? 'Hide standards' : `Show ${tagged} tagged standard${tagged === 1 ? '' : 's'}`} onPress={() => setShowStandards(!showStandards)} />
+            </Row>
+          ) : null}
+          {missing.length ? (
+            <Card tint={c.accentSoft}>
+              <T>⚠️ {missingSentence(state.family?.stateCode, missing)}</T>
+              <T v="caption" muted>Add a curriculum or a rhythm block for {missing.length === 1 ? 'it' : 'them'}, or check your state’s rules if you already teach {missing.length === 1 ? 'it' : 'them'} another way.</T>
+            </Card>
+          ) : null}
         </Card>
       </Section>
 

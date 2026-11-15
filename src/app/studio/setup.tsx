@@ -45,7 +45,7 @@ export default function CreatorSetup() {
         </Stack>
       ) : null}
       <Section title="Your creator profile" subtitle="Shown as the seller on your curricula.">
-        <Field label="Creator or shop name" value={name} onChangeText={setName} placeholder="Maple Room Studio" maxLength={60} />
+        <Field label="Creator or shop name" value={name} onChangeText={setName} placeholder="Maple Room Studio" maxLength={60} hint={profile?.verified && name.trim() !== profile.name ? 'You’re a verified creator. A new name removes the badge until Freerange checks again.' : undefined} />
         <Field label="About you (optional)" value={bio} onChangeText={setBio} multiline placeholder="Former 3rd-grade teacher making hands-on math for homeschoolers." maxLength={1000} />
         <Field label="Website (optional)" value={website} onChangeText={setWebsite} placeholder="example.com" autoCapitalize="none" keyboardType="url" hint={site === undefined ? 'Enter a web address, like example.com' : undefined} />
       </Section>

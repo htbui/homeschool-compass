@@ -3,7 +3,7 @@ import { useMemo, useState } from 'react';
 import { Platform, View } from 'react-native';
 
 import { normalizeUrl } from '@/lib/curriculum';
-import { linkScanPages, parseOutline, parseScanRecord, parseTable, parseWebPage, sourceAddress, type ImportResult, type WebImport } from '@/lib/importers';
+import { followNext, linkScanPages, parseOutline, parseScanRecord, parseTable, parseWebPage, sourceAddress, type ImportResult, type WebImport } from '@/lib/importers';
 import { LICENSE_INFO, licenseName, SOURCE_LICENSES, type LicenseKind } from '@/lib/license';
 import { lessonTotal, newLesson, newPackage, newUnit, type CurriculumPackage, type Origin, type PackageUnit } from '@/lib/package';
 import { parseCount } from '@/lib/parse';
@@ -225,12 +225,12 @@ function Web({ onCreate }: { onCreate: Create }) {
     ready && !license && 'the source’s license (or “Not sure”)',
   ].filter(Boolean);
 
-  const load = async () => {
-    if (!link) return;
+  const load = async (address = link) => {
+    if (!address) return;
     setBusy(true);
     setError('');
     try {
-      const source = sourceAddress(link);
+      const source = sourceAddress(address);
       const res = await fetchPage(source.fetchUrl);
       if (source.kind === 'scan') {
         // Scans have no text outline: fill in what archive.org knows, then the creator pastes the contents.
@@ -244,8 +244,9 @@ function Web({ onCreate }: { onCreate: Create }) {
         setTitle((t) => t || (rec.title ? `${rec.title} (lesson plan)`.slice(0, 160) : ''));
         return;
       }
-      const parsed = parseWebPage(res.html, res.url);
-      setPage({ ...parsed, url: source.kind === 'gutenberg' ? link : res.url });
+      // Some pages point to a better one: a LibreTexts book's outline, a Pressbooks chapter's book.
+      const parsed = await followNext({ ...parseWebPage(res.html, res.url), url: source.kind === 'gutenberg' || source.kind === 'playlist' ? address : res.url }, fetchPage);
+      setPage(parsed);
       setScan(null);
       setManual(false);
       setTitle((t) => t || `${parsed.title} (lesson plan)`.slice(0, 160));
@@ -265,12 +266,12 @@ function Web({ onCreate }: { onCreate: Create }) {
 
   return (
     <>
-      <Section title="Adapt a free online curriculum" subtitle="Paste the address of the course’s overview or table of contents page. We read its sections and lesson links, and look for its license so your plan can keep it and credit the source.">
+      <Section title="Adapt a free online curriculum" subtitle="Paste the address of the course’s overview or table of contents page, a YouTube playlist, or an open textbook (Pressbooks, LibreTexts, Wikibooks, Wikiversity). We read its sections and lesson links, and look for its license so your plan can keep it and credit the source.">
         <Row gap={space.sm} align="flex-end">
           <View style={{ flex: 1 }}>
             <Field label="Course page" value={url} onChangeText={setUrl} placeholder="https://…" autoCapitalize="none" autoCorrect={false} keyboardType="url" hint={url.trim() && !link ? 'Enter a web address' : undefined} />
           </View>
-          <Button title="Load page" disabled={!link} loading={busy} onPress={load} />
+          <Button title="Load page" disabled={!link} loading={busy} onPress={() => load()} />
         </Row>
         {error ? (
           <Card tint={c.accentSoft}>
@@ -287,8 +288,16 @@ function Web({ onCreate }: { onCreate: Create }) {
 
       {page && !manual ? (
         <Card>
-          <T v="heading">🌐 {page.title}</T>
+          <T v="heading">{page.format === 'playlist' ? '▶️' : page.format === 'textbook' ? '📖' : '🌐'} {page.title}</T>
           <T v="caption" muted>{page.url}{page.author ? ` · by ${page.author}` : ''}</T>
+          {page.next && !page.next.auto ? (
+            <Row>
+              <Button size="sm" kind="secondary" title={page.next.label} loading={busy} onPress={() => {
+                setUrl(page.next!.url);
+                load(page.next!.url);
+              }} />
+            </Row>
+          ) : null}
           {page.license ? (
             <T>
               License found: <T style={{ fontWeight: '700' }}>{licenseName(page.license)}</T> — {LICENSE_INFO[page.license.kind].label}. Your plan keeps this license.

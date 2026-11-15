@@ -1,0 +1,2191 @@
+{
+ "key": "mvp-secondary-math-1",
+ "seller": "Mathematics Vision Project",
+ "title": "Secondary Math I: Integrated Algebra & Geometry",
+ "sourceTitle": "Secondary Mathematics One: An Integrated Approach (Mathematics Vision Project, 2016 edition), student edition, Modules 1–9",
+ "author": "Mathematics Vision Project (Scott Hendrickson, Joleigh Honey, Barbara Kuehl, Travis Lemon, Janet Sutorius)",
+ "year": 2016,
+ "sourceUrl": "https://www.mathematicsvisionproject.org/secondary-mathematics-i.html",
+ "license": {
+  "kind": "cc_by",
+  "version": "4.0"
+ },
+ "licenseEvidence": "Mathematics Vision Project student-edition PDFs, downloaded from mathematicsvisionproject.org (checked 2026-11-14): the title page of every module reads '© 2016 Mathematics Vision Project / Original work © 2013 in partnership with the Utah State Office of Education / This work is licensed under the Creative Commons Attribution CC BY 4.0', and every page footer reads 'Licensed under the Creative Commons Attribution CC BY 4.0'. Course page (mathematicsvisionproject.org/secondary-mathematics-i.html, checked 2026-11-14): 'Secondary Mathematics One: An Integrated Approach by Mathematics Vision Project is licensed under a Creative Commons Attribution 4.0 International License. This work is based upon a previous work authored by Mathematics Vision Project in cooperation with the Utah State Office of Education (c) 2012. The License of the prior work has been updated and is the same as the license for this latest revised edition.' Terms: the MVP site (a Weebly site) has no terms-of-use, legal or trademark page (checked home, about, curriculum, resources, store, FAQ and the sitemap); robots.txt disallows only /ajax/ and /apps/. No clause bans copying, linking, derivatives, commercial use or AI use. The FAQ says the basic student book and teacher notes are 'available for any teacher ... to use free of charge on this website.' Not to be confused with the later Open Up Resources edition ('Open Up HS Math'), which is CC BY-NC and is not used here. The name Mathematics Vision Project is used only to credit authorship. This plan uses only module and task titles, page links and our own steps and questions; nothing is copied from the PDFs.",
+ "attribution": "Secondary Math I: Integrated Algebra & Geometry is based on “Secondary Mathematics One: An Integrated Approach” by Mathematics Vision Project (© 2016 Mathematics Vision Project; original work © 2013 in partnership with the Utah State Office of Education), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Free student PDFs: https://www.mathematicsvisionproject.org/secondary-mathematics-i.html. Changes: organized into daily lessons, with added steps and practice questions, by Freerange; not endorsed by Mathematics Vision Project.",
+ "subjects": [
+  "math"
+ ],
+ "gradeMin": 9,
+ "gradeMax": 9,
+ "philosophies": [
+  "traditional"
+ ],
+ "lessonsPerWeek": 4,
+ "minutesPerLesson": 60,
+ "parentInvolvement": "medium",
+ "familyStyle": false,
+ "cover": "🧮",
+ "color": "#2F6B5E",
+ "description": "A full first year of integrated high-school math from the open (CC BY) Mathematics Vision Project: sequences, linear and exponential functions, features of functions, equations and inequalities, systems, transformations and symmetry, congruence and constructions, coordinate geometry, and data. Each day your student works one problem-solving task from the free student PDF, talks through the thinking with you, then does that task’s Ready, Set, Go! homework.",
+ "includes": [
+  "68 lessons in 9 modules (every task in the student edition)",
+  "Links to the exact page of each task and its Ready, Set, Go! homework in the free student PDFs",
+  "Link to the free teacher notes for each module",
+  "Our own check questions with answers for every lesson"
+ ],
+ "units": [
+  {
+   "title": "Module 1: Sequences",
+   "lessons": [
+    {
+     "title": "Task 1.1: Checkerboard Borders",
+     "steps": [
+      "Read and work the task: count the colored tiles in a two-row checkerboard border, then find a rule for any N x N center",
+      "Explore first: let your student try their own strategy before you explain anything",
+      "Homework: Ready, Set, Go! 1.1 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 1.1 (student PDF, page 4)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=4"
+      },
+      {
+       "label": "Ready, Set, Go! 1.1 homework (page 6)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=6"
+      },
+      {
+       "label": "Teacher notes, Module 1 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 4–8 of the Module 1 student edition",
+     "questions": [
+      "A square center of tiles is 3 x 3. A border one tile wide goes around it. How many border tiles are there?",
+      "Why is counting the whole big square and subtracting the center a valid strategy?"
+     ],
+     "answers": [
+      "16",
+      "Border = big square minus the inside square"
+     ]
+    },
+    {
+     "title": "Task 1.2: Growing Dots",
+     "steps": [
+      "Read and work the task: describe the growing-dots pattern and predict the dots at 3, 100 and t minutes",
+      "Explore first: let your student try their own strategy before you explain anything",
+      "Homework: Ready, Set, Go! 1.2 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 1.2 (student PDF, page 9)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=9"
+      },
+      {
+       "label": "Ready, Set, Go! 1.2 homework (page 11)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=11"
+      },
+      {
+       "label": "Teacher notes, Module 1 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 9–13 of the Module 1 student edition",
+     "questions": [
+      "A pattern starts with 1 dot and adds 4 dots each minute. How many dots at 5 minutes?",
+      "Is a pattern that adds the same amount each step arithmetic or geometric?"
+     ],
+     "answers": [
+      "21",
+      "Arithmetic"
+     ]
+    },
+    {
+     "title": "Task 1.3: Growing, Growing Dots",
+     "steps": [
+      "Read and work the task: model a pattern whose dots triple each minute with recursive and explicit formulas",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 1.3 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 1.3 (student PDF, page 14)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=14"
+      },
+      {
+       "label": "Ready, Set, Go! 1.3 homework (page 16)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=16"
+      },
+      {
+       "label": "Teacher notes, Module 1 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 14–17 of the Module 1 student edition",
+     "questions": [
+      "A pattern starts with 2 dots and triples each minute. How many dots at 3 minutes?",
+      "Write an explicit formula for that pattern."
+     ],
+     "answers": [
+      "54",
+      "f(t) = 2(3)^t"
+     ]
+    },
+    {
+     "title": "Task 1.4: Scott’s Workout",
+     "steps": [
+      "Read and work the task: predict Scott's push-ups on day 10 and day n, then write explicit and recursive rules",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 1.4 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 1.4 (student PDF, page 18)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=18"
+      },
+      {
+       "label": "Ready, Set, Go! 1.4 homework (page 20)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=20"
+      },
+      {
+       "label": "Teacher notes, Module 1 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 18–21 of the Module 1 student edition",
+     "questions": [
+      "Day 1: 3 push-ups, and 2 more each day. How many on day 10?",
+      "Write a recursive rule for that workout."
+     ],
+     "answers": [
+      "21",
+      "f(1) = 3, f(n) = f(n-1) + 2"
+     ]
+    },
+    {
+     "title": "Task 1.5: Don’t Break the Chain",
+     "steps": [
+      "Read and work the task: track how many people receive a chain email each day and model it",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 1.5 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 1.5 (student PDF, page 22)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=22"
+      },
+      {
+       "label": "Ready, Set, Go! 1.5 homework (page 24)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=24"
+      },
+      {
+       "label": "Teacher notes, Module 1 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 22–27 of the Module 1 student edition",
+     "questions": [
+      "Day 1: 8 people get the email, and each forwards it to 8 new people. How many get it on day 3?",
+      "What is the common ratio in that sequence?"
+     ],
+     "answers": [
+      "512",
+      "8"
+     ]
+    },
+    {
+     "title": "Task 1.6: Something to Chew On",
+     "steps": [
+      "Read and work the task: model the candies and the money in a candy machine as customers buy",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 1.6 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 1.6 (student PDF, page 28)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=28"
+      },
+      {
+       "label": "Ready, Set, Go! 1.6 homework (page 30)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=30"
+      },
+      {
+       "label": "Teacher notes, Module 1 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 28–31 of the Module 1 student edition",
+     "questions": [
+      "A machine holds 2,700 candies and gives 7 per customer. About how many full purchases can it serve?",
+      "If each purchase costs $0.25, how much money is in the machine after 100 customers?"
+     ],
+     "answers": [
+      "385 (2,700 / 7 is about 385.7)",
+      "$25"
+     ]
+    },
+    {
+     "title": "Task 1.7: Chew on This!",
+     "steps": [
+      "Read and work the task: compare Augustus's add-10 candy plan with his doubling plan",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 1.7 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 1.7 (student PDF, page 32)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=32"
+      },
+      {
+       "label": "Ready, Set, Go! 1.7 homework (page 35)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=35"
+      },
+      {
+       "label": "Teacher notes, Module 1 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 32–37 of the Module 1 student edition",
+     "questions": [
+      "Plan A gives 10, 20, 30, ... candies. How many on day 30?",
+      "Plan B gives 1, 2, 4, 8, ... candies. How many on day 10?"
+     ],
+     "answers": [
+      "300",
+      "512"
+     ]
+    },
+    {
+     "title": "Task 1.8: What Comes Next? What Comes Later?",
+     "steps": [
+      "Read and work the task: for each table, find the next term, recursive rule, explicit rule, and type of sequence",
+      "Build fluency: work the problems independently, then check and correct together",
+      "Homework: Ready, Set, Go! 1.8 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 1.8 (student PDF, page 38)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=38"
+      },
+      {
+       "label": "Ready, Set, Go! 1.8 homework (page 42)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=42"
+      },
+      {
+       "label": "Teacher notes, Module 1 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 38–43 of the Module 1 student edition",
+     "questions": [
+      "y-values 5, 10, 20, 40 for x = 1, 2, 3, 4. What is y at x = 5?",
+      "Is the sequence 7, 4, 1, -2 arithmetic, geometric, or neither?"
+     ],
+     "answers": [
+      "80",
+      "Arithmetic (difference -3)"
+     ]
+    },
+    {
+     "title": "Task 1.9: What Does it Mean?",
+     "steps": [
+      "Read and work the task: find missing terms (arithmetic means) between two known terms",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 1.9 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 1.9 (student PDF, page 44)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=44"
+      },
+      {
+       "label": "Ready, Set, Go! 1.9 homework (page 46)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=46"
+      },
+      {
+       "label": "Teacher notes, Module 1 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 44–47 of the Module 1 student edition",
+     "questions": [
+      "Fill in the missing term: 5, __, 11",
+      "Find the two arithmetic means between 50 and 86."
+     ],
+     "answers": [
+      "8",
+      "62 and 74"
+     ]
+    },
+    {
+     "title": "Task 1.10: Geometric Meanies",
+     "steps": [
+      "Read and work the task: find missing terms (geometric means) in geometric sequences and decide if there is more than one answer",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 1.10 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 1.10 (student PDF, page 48)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=48"
+      },
+      {
+       "label": "Ready, Set, Go! 1.10 homework (page 50)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=50"
+      },
+      {
+       "label": "Teacher notes, Module 1 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 48–52 of the Module 1 student edition",
+     "questions": [
+      "Find the missing term: 3, __, 12 (positive answer).",
+      "Why can 3, __, 12 have two answers?"
+     ],
+     "answers": [
+      "6",
+      "The ratio can be 2 or -2, so the middle term is 6 or -6"
+     ]
+    },
+    {
+     "title": "Task 1.11: I Know… What Do You Know?",
+     "steps": [
+      "Read and work the task: given one fact about a sequence, find as many other facts as you can (table, graph, rules, type)",
+      "Build fluency: work the problems independently, then check and correct together",
+      "Homework: Ready, Set, Go! 1.11 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 1.11 (student PDF, page 53)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=53"
+      },
+      {
+       "label": "Ready, Set, Go! 1.11 homework (page 57)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_se_52016f.pdf#page=57"
+      },
+      {
+       "label": "Teacher notes, Module 1 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod1_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 53–59 of the Module 1 student edition",
+     "questions": [
+      "f(1) = -12 and f(n) = f(n-1) + 4. What is f(4)?",
+      "An arithmetic sequence has f(3) = 10 and f(7) = 26. What is the common difference?"
+     ],
+     "answers": [
+      "0",
+      "4"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Module 2: Linear & Exponential Functions",
+   "lessons": [
+    {
+     "title": "Task 2.1: Piggies and Pools",
+     "steps": [
+      "Read and work the task: model the piggy bank, the filling pool, and a savings account with tables, graphs and equations",
+      "Explore first: let your student try their own strategy before you explain anything",
+      "Homework: Ready, Set, Go! 2.1 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 2.1 (student PDF, page 3)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod2_se_5_2015f.pdf#page=3"
+      },
+      {
+       "label": "Ready, Set, Go! 2.1 homework (page 6)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod2_se_5_2015f.pdf#page=6"
+      },
+      {
+       "label": "Teacher notes, Module 2 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod2_te_5_2015.pdf"
+      }
+     ],
+     "pages": "PDF pages 3–7 of the Module 2 student edition",
+     "questions": [
+      "A piggy bank starts with 5 pennies and gains 3 a day. How many pennies on day 10?",
+      "A pool has 5 gallons and fills at 2 gallons a minute. How many gallons after 30 minutes?"
+     ],
+     "answers": [
+      "35",
+      "65"
+     ]
+    },
+    {
+     "title": "Task 2.2: Shh! Please Be Discreet (Discrete!)",
+     "steps": [
+      "Read and work the task: decide whether each library situation is discrete or continuous and give its domain",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 2.2 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 2.2 (student PDF, page 8)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod2_se_5_2015f.pdf#page=8"
+      },
+      {
+       "label": "Ready, Set, Go! 2.2 homework (page 13)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod2_se_5_2015f.pdf#page=13"
+      },
+      {
+       "label": "Teacher notes, Module 2 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod2_te_5_2015.pdf"
+      }
+     ],
+     "pages": "PDF pages 8–14 of the Module 2 student edition",
+     "questions": [
+      "Books come 8 to a box. Is 'books received vs. number of boxes' discrete or continuous?",
+      "Water flowing into a tank over time: discrete or continuous?"
+     ],
+     "answers": [
+      "Discrete (whole boxes only)",
+      "Continuous"
+     ]
+    },
+    {
+     "title": "Task 2.3: Linear Exponential or Neither",
+     "steps": [
+      "Read and work the task: sort each representation into linear, exponential, or neither, with two reasons",
+      "Build fluency: work the problems independently, then check and correct together",
+      "Homework: Ready, Set, Go! 2.3 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 2.3 (student PDF, page 15)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod2_se_5_2015f.pdf#page=15"
+      },
+      {
+       "label": "Ready, Set, Go! 2.3 homework (page 21)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod2_se_5_2015f.pdf#page=21"
+      },
+      {
+       "label": "Teacher notes, Module 2 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod2_te_5_2015.pdf"
+      }
+     ],
+     "pages": "PDF pages 15–23 of the Module 2 student edition",
+     "questions": [
+      "Players left in a tournament: 64, 32, 16, 8. Linear, exponential, or neither?",
+      "A person's height from age 0 to 100: linear, exponential, or neither?"
+     ],
+     "answers": [
+      "Exponential (halves each round)",
+      "Neither"
+     ]
+    },
+    {
+     "title": "Task 2.4: Getting Down to Business",
+     "steps": [
+      "Read and work the task: compare two companies' income: one grows by $0.5 million a year, the other by 15% a year",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 2.4 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 2.4 (student PDF, page 24)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod2_se_5_2015f.pdf#page=24"
+      },
+      {
+       "label": "Ready, Set, Go! 2.4 homework (page 26)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod2_se_5_2015f.pdf#page=26"
+      },
+      {
+       "label": "Teacher notes, Module 2 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod2_te_5_2015.pdf"
+      }
+     ],
+     "pages": "PDF pages 24–28 of the Module 2 student edition",
+     "questions": [
+      "Company A earns $5 million and adds $0.5 million a year. What does it earn after 4 years?",
+      "Which kind of growth eventually wins: adding a fixed amount or growing by a fixed percent?"
+     ],
+     "answers": [
+      "$7 million",
+      "Growing by a fixed percent (exponential)"
+     ]
+    },
+    {
+     "title": "Task 2.5: Making My Point",
+     "steps": [
+      "Read and work the task: judge Zac's and Sione's equations for the quilt pattern and check that different forms are equal",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 2.5 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 2.5 (student PDF, page 29)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod2_se_5_2015f.pdf#page=29"
+      },
+      {
+       "label": "Ready, Set, Go! 2.5 homework (page 34)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod2_se_5_2015f.pdf#page=34"
+      },
+      {
+       "label": "Teacher notes, Module 2 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod2_te_5_2015.pdf"
+      }
+     ],
+     "pages": "PDF pages 29–36 of the Module 2 student edition",
+     "questions": [
+      "Are y = 6n + 1 and y = 6(n - 1) + 7 equivalent?",
+      "In y = 6n + 1, what does the 6 tell you about the pattern?"
+     ],
+     "answers": [
+      "Yes (both simplify to 6n + 1)",
+      "6 blocks are added each step"
+     ]
+    },
+    {
+     "title": "Task 2.6: Form Follows Function",
+     "steps": [
+      "Read and work the task: practice moving between slope-intercept, point-slope, recursive and explicit forms",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 2.6 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 2.6 (student PDF, page 37)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod2_se_5_2015f.pdf#page=37"
+      },
+      {
+       "label": "Ready, Set, Go! 2.6 homework (page 42)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod2_se_5_2015f.pdf#page=42"
+      },
+      {
+       "label": "Teacher notes, Module 2 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod2_te_5_2015.pdf"
+      }
+     ],
+     "pages": "PDF pages 37–45 of the Module 2 student edition",
+     "questions": [
+      "Write y = 2(x - 4) + 3 in slope-intercept form.",
+      "Write an explicit rule for f(0) = 10, f(n+1) = 3f(n)."
+     ],
+     "answers": [
+      "y = 2x - 5",
+      "f(n) = 10(3)^n"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Module 3: Features of Functions",
+   "lessons": [
+    {
+     "title": "Task 3.1: Getting Ready for a Pool Party",
+     "steps": [
+      "Read and work the task: sketch a graph of the pool's water level through each of Sylvia's activities and tell its story",
+      "Explore first: let your student try their own strategy before you explain anything",
+      "Homework: Ready, Set, Go! 3.1 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 3.1 (student PDF, page 4)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_se_52016f.pdf#page=4"
+      },
+      {
+       "label": "Ready, Set, Go! 3.1 homework (page 5)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_se_52016f.pdf#page=5"
+      },
+      {
+       "label": "Teacher notes, Module 3 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 4–8 of the Module 3 student edition",
+     "questions": [
+      "On a water-level graph, what does a flat section mean?",
+      "Draining with a hose is faster than one bucket. Which section of the graph is steeper?"
+     ],
+     "answers": [
+      "The water level is not changing (a break or cleaning)",
+      "The hose-draining section"
+     ]
+    },
+    {
+     "title": "Task 3.2: Floating Down the River",
+     "steps": [
+      "Read and work the task: interpret river depth and distance data: increasing, decreasing, maximum, minimum, domain and range",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 3.2 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 3.2 (student PDF, page 9)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_se_52016f.pdf#page=9"
+      },
+      {
+       "label": "Ready, Set, Go! 3.2 homework (page 11)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_se_52016f.pdf#page=11"
+      },
+      {
+       "label": "Teacher notes, Module 3 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 9–13 of the Module 3 student edition",
+     "questions": [
+      "If distance traveled always goes up, can the function ever be decreasing?",
+      "A trip lasts 120 minutes. What is the domain of time?"
+     ],
+     "answers": [
+      "No",
+      "0 to 120 minutes"
+     ]
+    },
+    {
+     "title": "Task 3.3: Features of Functions",
+     "steps": [
+      "Read and work the task: name the key features of functions from graphs, tables and stories",
+      "Build fluency: work the problems independently, then check and correct together",
+      "Homework: Ready, Set, Go! 3.3 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 3.3 (student PDF, page 14)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_se_52016f.pdf#page=14"
+      },
+      {
+       "label": "Ready, Set, Go! 3.3 homework (page 17)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_se_52016f.pdf#page=17"
+      },
+      {
+       "label": "Teacher notes, Module 3 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 14–18 of the Module 3 student edition",
+     "questions": [
+      "A sequence starts at 36 and each term is half the one before. What is the 4th term?",
+      "What do we call the point where a graph crosses the y-axis?"
+     ],
+     "answers": [
+      "4.5",
+      "The y-intercept"
+     ]
+    },
+    {
+     "title": "Task 3.4: The Water Park",
+     "steps": [
+      "Read and work the task: write equations for draining two pools and give each domain and range",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 3.4 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 3.4 (student PDF, page 19)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_se_52016f.pdf#page=19"
+      },
+      {
+       "label": "Ready, Set, Go! 3.4 homework (page 21)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_se_52016f.pdf#page=21"
+      },
+      {
+       "label": "Teacher notes, Module 3 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 19–23 of the Module 3 student edition",
+     "questions": [
+      "A pool drains at 1,000 gallons a minute and takes 24 minutes. How many gallons did it start with?",
+      "Write the equation for that pool's water over time."
+     ],
+     "answers": [
+      "24,000",
+      "d(x) = 24,000 - 1,000x"
+     ]
+    },
+    {
+     "title": "Task 3.5: Pooling it Together",
+     "steps": [
+      "Read and work the task: add two draining-pool functions to model draining them together",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 3.5 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 3.5 (student PDF, page 24)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_se_52016f.pdf#page=24"
+      },
+      {
+       "label": "Ready, Set, Go! 3.5 homework (page 26)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_se_52016f.pdf#page=26"
+      },
+      {
+       "label": "Teacher notes, Module 3 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 24–29 of the Module 3 student edition",
+     "questions": [
+      "If a(2) = 5,000 and d(2) = 22,000, what is (a + d)(2)?",
+      "Adding two decreasing linear functions gives what kind of function?"
+     ],
+     "answers": [
+      "27,000",
+      "A decreasing linear function"
+     ]
+    },
+    {
+     "title": "Task 3.6: Interpreting Functions",
+     "steps": [
+      "Read and work the task: read values, intercepts and intervals from graphs and tables using function notation",
+      "Build fluency: work the problems independently, then check and correct together",
+      "Homework: Ready, Set, Go! 3.6 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 3.6 (student PDF, page 30)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_se_52016f.pdf#page=30"
+      },
+      {
+       "label": "Ready, Set, Go! 3.6 homework (page 33)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_se_52016f.pdf#page=33"
+      },
+      {
+       "label": "Teacher notes, Module 3 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 30–36 of the Module 3 student edition",
+     "questions": [
+      "Using g(x) = 4x + 7, find g(-3).",
+      "If f(x) = 0 at x = 1 and x = 2, what are those x-values called?"
+     ],
+     "answers": [
+      "-5",
+      "The x-intercepts (zeros)"
+     ]
+    },
+    {
+     "title": "Task 3.7: To Function or Not to Function",
+     "steps": [
+      "Read and work the task: decide which relationships are functions and name the independent and dependent variables",
+      "Build fluency: work the problems independently, then check and correct together",
+      "Homework: Ready, Set, Go! 3.7 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 3.7 (student PDF, page 37)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_se_52016f.pdf#page=37"
+      },
+      {
+       "label": "Ready, Set, Go! 3.7 homework (page 39)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_se_52016f.pdf#page=39"
+      },
+      {
+       "label": "Teacher notes, Module 3 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod3_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 37–41 of the Module 3 student edition",
+     "questions": [
+      "Is {(3,6), (4,10), (8,12)} a function?",
+      "Is a circle's area a function of its radius?"
+     ],
+     "answers": [
+      "Yes (each input has one output)",
+      "Yes"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Module 4: Equations & Inequalities",
+   "lessons": [
+    {
+     "title": "Task 4.1: Cafeteria Actions and Reactions",
+     "steps": [
+      "Read and work the task: undo Elvira's tray actions to find how many trays were in each carton, explaining each step",
+      "Explore first: let your student try their own strategy before you explain anything",
+      "Homework: Ready, Set, Go! 4.1 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 4.1 (student PDF, page 3)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_se_52016f.pdf#page=3"
+      },
+      {
+       "label": "Ready, Set, Go! 4.1 homework (page 5)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_se_52016f.pdf#page=5"
+      },
+      {
+       "label": "Teacher notes, Module 4 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 3–6 of the Module 4 student edition",
+     "questions": [
+      "Solve 4x - 24 = 36.",
+      "What operation undoes dividing into 3 equal groups?"
+     ],
+     "answers": [
+      "x = 15",
+      "Multiplying by 3"
+     ]
+    },
+    {
+     "title": "Task 4.2: Elvira’s Equations",
+     "steps": [
+      "Read and work the task: interpret Elvira's cafeteria formulas and solve them for different variables",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 4.2 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 4.2 (student PDF, page 7)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_se_52016f.pdf#page=7"
+      },
+      {
+       "label": "Ready, Set, Go! 4.2 homework (page 10)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_se_52016f.pdf#page=10"
+      },
+      {
+       "label": "Teacher notes, Module 4 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 7–11 of the Module 4 student edition",
+     "questions": [
+      "Solve A = (S + W + P)/C for C.",
+      "If 600 students eat and there are 24 classes, what is the average per class?"
+     ],
+     "answers": [
+      "C = (S + W + P)/A",
+      "25"
+     ]
+    },
+    {
+     "title": "Task 4.3: Solving Equations Literally",
+     "steps": [
+      "Read and work the task: solve equations for x, then solve the matching literal equations the same way",
+      "Build fluency: work the problems independently, then check and correct together",
+      "Homework: Ready, Set, Go! 4.3 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 4.3 (student PDF, page 12)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_se_52016f.pdf#page=12"
+      },
+      {
+       "label": "Ready, Set, Go! 4.3 homework (page 13)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_se_52016f.pdf#page=13"
+      },
+      {
+       "label": "Teacher notes, Module 4 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 12–15 of the Module 4 student edition",
+     "questions": [
+      "Solve 3x + 2y = 7 for x.",
+      "Solve 2(x + 3) = 6 for x."
+     ],
+     "answers": [
+      "x = (7 - 2y)/3",
+      "x = 0"
+     ]
+    },
+    {
+     "title": "Task 4.4: Greater Than",
+     "steps": [
+      "Read and work the task: decide which expression is greater under each condition, watching for negative numbers",
+      "Explore first: let your student try their own strategy before you explain anything",
+      "Homework: Ready, Set, Go! 4.4 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 4.4 (student PDF, page 16)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_se_52016f.pdf#page=16"
+      },
+      {
+       "label": "Ready, Set, Go! 4.4 homework (page 18)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_se_52016f.pdf#page=18"
+      },
+      {
+       "label": "Teacher notes, Module 4 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 16–20 of the Module 4 student edition",
+     "questions": [
+      "If x > y, is x - a greater than, less than, or equal to y - a?",
+      "If 5 > 4, is 5x always greater than 4x?"
+     ],
+     "answers": [
+      "Greater than",
+      "No (not when x is 0 or negative)"
+     ]
+    },
+    {
+     "title": "Task 4.5: May I Have More, Please?",
+     "steps": [
+      "Read and work the task: write and solve inequalities for Elvira's milk and ranch budgets",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 4.5 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 4.5 (student PDF, page 21)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_se_52016f.pdf#page=21"
+      },
+      {
+       "label": "Ready, Set, Go! 4.5 homework (page 24)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_se_52016f.pdf#page=24"
+      },
+      {
+       "label": "Teacher notes, Module 4 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 21–25 of the Module 4 student edition",
+     "questions": [
+      "Milk is $0.35 a carton plus a $75 delivery fee, budget $500. What is the most cartons she can buy?",
+      "130 gallons of ranch, using 2.25 a day, keep at least 20. For at most how many whole days?"
+     ],
+     "answers": [
+      "1,214",
+      "48 days"
+     ]
+    },
+    {
+     "title": "Task 4.6: Taking Sides",
+     "steps": [
+      "Read and work the task: settle Joaquin and Serena's disagreements about writing, solving and graphing inequalities",
+      "Build fluency: work the problems independently, then check and correct together",
+      "Homework: Ready, Set, Go! 4.6 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 4.6 (student PDF, page 26)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_se_52016f.pdf#page=26"
+      },
+      {
+       "label": "Ready, Set, Go! 4.6 homework (page 29)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_se_52016f.pdf#page=29"
+      },
+      {
+       "label": "Teacher notes, Module 4 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod4_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 26–32 of the Module 4 student edition",
+     "questions": [
+      "Write '6 less than a number is greater than 4' as an inequality.",
+      "Should the graph of x ≥ -7 have an open or a closed dot at -7?"
+     ],
+     "answers": [
+      "n - 6 > 4",
+      "Closed"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Module 5: Systems of Equations & Inequalities",
+   "lessons": [
+    {
+     "title": "Task 5.1: Pet Sitters",
+     "steps": [
+      "Read and work the task: list the pet-sitting constraints and look for combinations of cats and dogs that make the most money",
+      "Explore first: let your student try their own strategy before you explain anything",
+      "Homework: Ready, Set, Go! 5.1 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 5.1 (student PDF, page 4)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=4"
+      },
+      {
+       "label": "Ready, Set, Go! 5.1 homework (page 5)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=5"
+      },
+      {
+       "label": "Teacher notes, Module 5 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 4–8 of the Module 5 student edition",
+     "questions": [
+      "Cat pens use 6 sq ft, dog runs 24 sq ft, 360 sq ft available. How many dogs fit if there are no cats?",
+      "Pens cost $32 and runs $80, budget $1,280. How many cats with no dogs?"
+     ],
+     "answers": [
+      "15",
+      "40"
+     ]
+    },
+    {
+     "title": "Task 5.2: Too Big or Not Too Big, That is the Question",
+     "steps": [
+      "Read and work the task: plot 'too big', 'not too big' and 'just right' combinations for the start-up cost constraint",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 5.2 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 5.2 (student PDF, page 9)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=9"
+      },
+      {
+       "label": "Ready, Set, Go! 5.2 homework (page 11)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=11"
+      },
+      {
+       "label": "Teacher notes, Module 5 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 9–12 of the Module 5 student edition",
+     "questions": [
+      "Does 12 cats and 12 dogs fit a $1,280 budget at $32 and $80?",
+      "Write the start-up cost inequality."
+     ],
+     "answers": [
+      "No ($1,344)",
+      "32x + 80y ≤ 1280"
+     ]
+    },
+    {
+     "title": "Task 5.3: Some of One, None of the Other",
+     "steps": [
+      "Read and work the task: compare Carlos's table method and Clarita's equation for a boundary line, and convert between forms",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 5.3 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 5.3 (student PDF, page 13)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=13"
+      },
+      {
+       "label": "Ready, Set, Go! 5.3 homework (page 15)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=15"
+      },
+      {
+       "label": "Teacher notes, Module 5 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 13–16 of the Module 5 student edition",
+     "questions": [
+      "Rewrite 6x + 24y = 360 in slope-intercept form.",
+      "What are the x- and y-intercepts of 6x + 24y = 360?"
+     ],
+     "answers": [
+      "y = -1/4 x + 15",
+      "(60, 0) and (0, 15)"
+     ]
+    },
+    {
+     "title": "Task 5.4: Pampering and Feeding Time",
+     "steps": [
+      "Read and work the task: write and graph inequalities for feeding time and pampering time",
+      "Build fluency: work the problems independently, then check and correct together",
+      "Homework: Ready, Set, Go! 5.4 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 5.4 (student PDF, page 17)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=17"
+      },
+      {
+       "label": "Ready, Set, Go! 5.4 homework (page 18)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=18"
+      },
+      {
+       "label": "Teacher notes, Module 5 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 17–19 of the Module 5 student edition",
+     "questions": [
+      "Cats need 12 minutes and dogs 20 minutes a day; Carlos has 480 minutes. Write the inequality.",
+      "Is (10 cats, 15 dogs) within that feeding-time limit?"
+     ],
+     "answers": [
+      "12x + 20y ≤ 480",
+      "Yes (420 minutes)"
+     ]
+    },
+    {
+     "title": "Task 5.5: All for One, One for All",
+     "steps": [
+      "Read and work the task: shade the region that satisfies all the pet-sitter constraints at once",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 5.5 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 5.5 (student PDF, page 20)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=20"
+      },
+      {
+       "label": "Ready, Set, Go! 5.5 homework (page 22)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=22"
+      },
+      {
+       "label": "Teacher notes, Module 5 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 20–25 of the Module 5 student edition",
+     "questions": [
+      "What do we call the region where all the inequalities are true together?",
+      "Is (20, 5) a solution to 32x + 80y ≤ 1280 and 6x + 24y ≤ 360?"
+     ],
+     "answers": [
+      "The solution set (feasible region) of the system",
+      "Yes (1,040 and 240)"
+     ]
+    },
+    {
+     "title": "Task 5.6: More or Less",
+     "steps": [
+      "Read and work the task: solve systems of inequalities and write the cat-food protein and fat constraints",
+      "Build fluency: work the problems independently, then check and correct together",
+      "Homework: Ready, Set, Go! 5.6 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 5.6 (student PDF, page 26)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=26"
+      },
+      {
+       "label": "Ready, Set, Go! 5.6 homework (page 28)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=28"
+      },
+      {
+       "label": "Teacher notes, Module 5 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 26–29 of the Module 5 student edition",
+     "questions": [
+      "Is (-3, 10) a solution to -5x + 3y ≤ 45 and 2x + 3y > 24?",
+      "What does a dashed boundary line mean?"
+     ],
+     "answers": [
+      "No (it fails 2x + 3y > 24, because 24 is not greater than 24)",
+      "Points on the line are not included (< or >)"
+     ]
+    },
+    {
+     "title": "Task 5.7: Get to the Point",
+     "steps": [
+      "Read and work the task: compare two window-cleaning companies and find where the pet-sitter boundary lines cross",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 5.7 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 5.7 (student PDF, page 30)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=30"
+      },
+      {
+       "label": "Ready, Set, Go! 5.7 homework (page 31)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=31"
+      },
+      {
+       "label": "Teacher notes, Module 5 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 30–32 of the Module 5 student edition",
+     "questions": [
+      "Company A: $50 plus $10 a window. Company B: $25 plus $15 a window. At how many windows do they cost the same?",
+      "Which company is cheaper for 10 windows?"
+     ],
+     "answers": [
+      "5",
+      "Company A ($150 vs $175)"
+     ]
+    },
+    {
+     "title": "Task 5.8: Shopping for Cats and Dogs",
+     "steps": [
+      "Read and work the task: figure out single prices from two purchases by reasoning about what changed",
+      "Explore first: let your student try their own strategy before you explain anything",
+      "Homework: Ready, Set, Go! 5.8 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 5.8 (student PDF, page 33)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=33"
+      },
+      {
+       "label": "Ready, Set, Go! 5.8 homework (page 35)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=35"
+      },
+      {
+       "label": "Teacher notes, Module 5 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 33–36 of the Module 5 student edition",
+     "questions": [
+      "3 bags of A + 4 bags of B = $43, and 3A + 6B = $54. What does one bag of B cost?",
+      "Using that, what does one bag of A cost?"
+     ],
+     "answers": [
+      "$5.50",
+      "$7"
+     ]
+    },
+    {
+     "title": "Task 5.9: Can You Get to the Point, Too?",
+     "steps": [
+      "Read and work the task: write the shopping problems as systems and solve them by elimination and by graphing",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 5.9 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 5.9 (student PDF, page 37)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=37"
+      },
+      {
+       "label": "Ready, Set, Go! 5.9 homework (page 38)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=38"
+      },
+      {
+       "label": "Teacher notes, Module 5 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 37–39 of the Module 5 student edition",
+     "questions": [
+      "Solve: 6x + 6y = 45 and 3x + 2y = 18.",
+      "In elimination, why can you multiply a whole equation by a number?"
+     ],
+     "answers": [
+      "x = 3, y = 4.5",
+      "It gives an equivalent equation with the same solutions"
+     ]
+    },
+    {
+     "title": "Task 5.10: Taken Out of Context",
+     "steps": [
+      "Read and work the task: write shopping stories for systems and solve them, including systems with no or many solutions",
+      "Build fluency: work the problems independently, then check and correct together",
+      "Homework: Ready, Set, Go! 5.10 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 5.10 (student PDF, page 40)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=40"
+      },
+      {
+       "label": "Ready, Set, Go! 5.10 homework (page 41)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_se_52016f.pdf#page=41"
+      },
+      {
+       "label": "Teacher notes, Module 5 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod5_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 40–43 of the Module 5 student edition",
+     "questions": [
+      "How many solutions does 2x + 3y = 14 and 4x + 6y = 28 have?",
+      "How many solutions does 3x + 2y = 20 and 9x + 6y = 35 have?"
+     ],
+     "answers": [
+      "Infinitely many (same line)",
+      "None (parallel lines)"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Module 6: Transformations & Symmetry",
+   "lessons": [
+    {
+     "title": "Task 6.1: Leaping Lizards!",
+     "steps": [
+      "Read and work the task: move the lizard by translations, reflections and rotations on the grid",
+      "Explore first: let your student try their own strategy before you explain anything",
+      "Homework: Ready, Set, Go! 6.1 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 6.1 (student PDF, page 4)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_se_52016f.pdf#page=4"
+      },
+      {
+       "label": "Ready, Set, Go! 6.1 homework (page 7)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_se_52016f.pdf#page=7"
+      },
+      {
+       "label": "Teacher notes, Module 6 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 4–9 of the Module 6 student edition",
+     "questions": [
+      "Translate (12, 12) right 3 and down 4. Where does it land?",
+      "Reflect (3, 5) across the x-axis."
+     ],
+     "answers": [
+      "(15, 8)",
+      "(3, -5)"
+     ]
+    },
+    {
+     "title": "Task 6.2: Is It Right?",
+     "steps": [
+      "Read and work the task: build right angles on the grid and discover how slopes of perpendicular lines are related",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 6.2 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 6.2 (student PDF, page 10)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_se_52016f.pdf#page=10"
+      },
+      {
+       "label": "Ready, Set, Go! 6.2 homework (page 13)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_se_52016f.pdf#page=13"
+      },
+      {
+       "label": "Teacher notes, Module 6 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 10–15 of the Module 6 student edition",
+     "questions": [
+      "A segment has slope 2. What slope is perpendicular to it?",
+      "What is the slope of the segment from (2, 3) to (4, 7)?"
+     ],
+     "answers": [
+      "-1/2",
+      "2"
+     ]
+    },
+    {
+     "title": "Task 6.3: Leap Frog",
+     "steps": [
+      "Read and work the task: describe the transformation (or sequence of them) that carries each frog image to the next",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 6.3 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 6.3 (student PDF, page 16)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_se_52016f.pdf#page=16"
+      },
+      {
+       "label": "Ready, Set, Go! 6.3 homework (page 18)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_se_52016f.pdf#page=18"
+      },
+      {
+       "label": "Teacher notes, Module 6 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 16–20 of the Module 6 student edition",
+     "questions": [
+      "Rotate (4, 1) 90° counterclockwise about the origin.",
+      "To describe a rotation, what three things must you give?"
+     ],
+     "answers": [
+      "(-1, 4)",
+      "The center, the direction, and the angle"
+     ]
+    },
+    {
+     "title": "Task 6.4: Leap Year",
+     "steps": [
+      "Read and work the task: write precise definitions of translations, reflections and rotations while designing the leap-day page",
+      "Build fluency: work the problems independently, then check and correct together",
+      "Homework: Ready, Set, Go! 6.4 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 6.4 (student PDF, page 21)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_se_52016f.pdf#page=21"
+      },
+      {
+       "label": "Ready, Set, Go! 6.4 homework (page 25)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_se_52016f.pdf#page=25"
+      },
+      {
+       "label": "Teacher notes, Module 6 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 21–27 of the Module 6 student edition",
+     "questions": [
+      "Reflect (2, 5) across the line y = x.",
+      "Two reflections across lines that cross make what single transformation?"
+     ],
+     "answers": [
+      "(5, 2)",
+      "A rotation"
+     ]
+    },
+    {
+     "title": "Task 6.5: Symmetries of Quadrilaterals",
+     "steps": [
+      "Read and work the task: find the lines of symmetry and rotational symmetry of rectangles, parallelograms, rhombuses and squares",
+      "Explore first: let your student try their own strategy before you explain anything",
+      "Homework: Ready, Set, Go! 6.5 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 6.5 (student PDF, page 28)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_se_52016f.pdf#page=28"
+      },
+      {
+       "label": "Ready, Set, Go! 6.5 homework (page 30)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_se_52016f.pdf#page=30"
+      },
+      {
+       "label": "Teacher notes, Module 6 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 28–32 of the Module 6 student edition",
+     "questions": [
+      "How many lines of symmetry does a square have?",
+      "What is the smallest rotation that carries a non-square rectangle onto itself?"
+     ],
+     "answers": [
+      "4",
+      "180°"
+     ]
+    },
+    {
+     "title": "Task 6.6: Symmetries of Regular Polygons",
+     "steps": [
+      "Read and work the task: find the rotations and reflections that carry regular polygons onto themselves",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 6.6 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 6.6 (student PDF, page 33)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_se_52016f.pdf#page=33"
+      },
+      {
+       "label": "Ready, Set, Go! 6.6 homework (page 35)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_se_52016f.pdf#page=35"
+      },
+      {
+       "label": "Teacher notes, Module 6 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 33–38 of the Module 6 student edition",
+     "questions": [
+      "How many lines of symmetry does a regular hexagon have?",
+      "What is the smallest rotation that carries a regular pentagon onto itself?"
+     ],
+     "answers": [
+      "6",
+      "72°"
+     ]
+    },
+    {
+     "title": "Task 6.7: Quadrilaterals—Beyond Definition",
+     "steps": [
+      "Read and work the task: name quadrilaterals by their symmetries and justify their other properties",
+      "Build fluency: work the problems independently, then check and correct together",
+      "Homework: Ready, Set, Go! 6.7 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 6.7 (student PDF, page 39)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_se_52016f.pdf#page=39"
+      },
+      {
+       "label": "Ready, Set, Go! 6.7 homework (page 43)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_se_52016f.pdf#page=43"
+      },
+      {
+       "label": "Teacher notes, Module 6 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod6_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 39–44 of the Module 6 student edition",
+     "questions": [
+      "Which quadrilateral has 2 lines of symmetry through its vertices (its diagonals) but is not a square?",
+      "Using symmetry, what is true about the diagonals of a rectangle?"
+     ],
+     "answers": [
+      "A rhombus",
+      "They are the same length (and bisect each other)"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Module 7: Congruence, Construction & Proof",
+   "lessons": [
+    {
+     "title": "Task 7.1: Under Construction",
+     "steps": [
+      "Read and work the task: use a compass and straightedge to construct a rhombus and a square",
+      "Explore first: let your student try their own strategy before you explain anything",
+      "Homework: Ready, Set, Go! 7.1 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 7.1 (student PDF, page 3)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod7_se_62016r.pdf#page=3"
+      },
+      {
+       "label": "Ready, Set, Go! 7.1 homework (page 6)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod7_se_62016r.pdf#page=6"
+      },
+      {
+       "label": "Teacher notes, Module 7 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod7_te_62016r.pdf"
+      }
+     ],
+     "pages": "PDF pages 3–8 of the Module 7 student edition",
+     "questions": [
+      "What two tools are used for classical constructions?",
+      "Why does the compass guarantee all four rhombus sides are equal?"
+     ],
+     "answers": [
+      "A compass and an unmarked straightedge",
+      "Every point on a circle is the same distance from the center"
+     ]
+    },
+    {
+     "title": "Task 7.2: More Things Under Construction",
+     "steps": [
+      "Read and work the task: construct an equilateral triangle, a parallel line, and a hexagon inscribed in a circle",
+      "Explore first: let your student try their own strategy before you explain anything",
+      "Homework: Ready, Set, Go! 7.2 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 7.2 (student PDF, page 9)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod7_se_62016r.pdf#page=9"
+      },
+      {
+       "label": "Ready, Set, Go! 7.2 homework (page 12)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod7_se_62016r.pdf#page=12"
+      },
+      {
+       "label": "Teacher notes, Module 7 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod7_te_62016r.pdf"
+      }
+     ],
+     "pages": "PDF pages 9–14 of the Module 7 student edition",
+     "questions": [
+      "In a hexagon inscribed in a circle, how does the side length compare to the radius?",
+      "What angle construction makes a line through C parallel to AB?"
+     ],
+     "answers": [
+      "They are equal",
+      "Copying the angle (corresponding angles congruent)"
+     ]
+    },
+    {
+     "title": "Task 7.3: Can You Get There From Here?",
+     "steps": [
+      "Read and work the task: describe a sequence of rigid motions that carries one congruent quadrilateral onto another",
+      "Explore first: let your student try their own strategy before you explain anything",
+      "Homework: Ready, Set, Go! 7.3 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 7.3 (student PDF, page 15)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod7_se_62016r.pdf#page=15"
+      },
+      {
+       "label": "Ready, Set, Go! 7.3 homework (page 16)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod7_se_62016r.pdf#page=16"
+      },
+      {
+       "label": "Teacher notes, Module 7 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod7_te_62016r.pdf"
+      }
+     ],
+     "pages": "PDF pages 15–18 of the Module 7 student edition",
+     "questions": [
+      "Do rigid motions change side lengths or angle measures?",
+      "Translate (1, 2) by (x + 3, y - 1), then reflect across the y-axis. Where does it end?"
+     ],
+     "answers": [
+      "No",
+      "(-4, 1)"
+     ]
+    },
+    {
+     "title": "Task 7.4: Congruent Triangles",
+     "steps": [
+      "Read and work the task: use transformations to justify the ASA, SAS and SSS triangle congruence criteria",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 7.4 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 7.4 (student PDF, page 19)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod7_se_62016r.pdf#page=19"
+      },
+      {
+       "label": "Ready, Set, Go! 7.4 homework (page 23)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod7_se_62016r.pdf#page=23"
+      },
+      {
+       "label": "Teacher notes, Module 7 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod7_te_62016r.pdf"
+      }
+     ],
+     "pages": "PDF pages 19–25 of the Module 7 student edition",
+     "questions": [
+      "What does SAS stand for?",
+      "Is AAA enough to prove two triangles congruent?"
+     ],
+     "answers": [
+      "Side-Angle-Side (the angle is between the two sides)",
+      "No (they could be different sizes)"
+     ]
+    },
+    {
+     "title": "Task 7.5: Congruent Triangles to the Rescue",
+     "steps": [
+      "Read and work the task: use congruent triangles to prove claims about isosceles triangles and other figures",
+      "Build fluency: work the problems independently, then check and correct together",
+      "Homework: Ready, Set, Go! 7.5 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 7.5 (student PDF, page 26)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod7_se_62016r.pdf#page=26"
+      },
+      {
+       "label": "Ready, Set, Go! 7.5 homework (page 29)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod7_se_62016r.pdf#page=29"
+      },
+      {
+       "label": "Teacher notes, Module 7 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod7_te_62016r.pdf"
+      }
+     ],
+     "pages": "PDF pages 26–32 of the Module 7 student edition",
+     "questions": [
+      "Folding an isosceles triangle along its line of symmetry makes two triangles congruent by which criterion?",
+      "What is true about the base angles of an isosceles triangle?"
+     ],
+     "answers": [
+      "SSS (or SAS)",
+      "They are congruent"
+     ]
+    },
+    {
+     "title": "Task 7.6: Justifying Constructions",
+     "steps": [
+      "Read and work the task: explain why the angle-bisector and other constructions work",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 7.6 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 7.6 (student PDF, page 33)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod7_se_62016r.pdf#page=33"
+      },
+      {
+       "label": "Ready, Set, Go! 7.6 homework (page 36)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod7_se_62016r.pdf#page=36"
+      },
+      {
+       "label": "Teacher notes, Module 7 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod7_te_62016r.pdf"
+      }
+     ],
+     "pages": "PDF pages 33–38 of the Module 7 student edition",
+     "questions": [
+      "In the angle-bisector construction, which shape appears that proves the angle is cut in half?",
+      "What congruence criterion justifies the angle-bisector construction?"
+     ],
+     "answers": [
+      "A rhombus (or two congruent triangles)",
+      "SSS"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Module 8: Connecting Algebra & Geometry",
+   "lessons": [
+    {
+     "title": "Task 8.1: Go the Distance",
+     "steps": [
+      "Read and work the task: find ribbon lengths between dancers on a grid and build the distance formula",
+      "Explore first: let your student try their own strategy before you explain anything",
+      "Homework: Ready, Set, Go! 8.1 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 8.1 (student PDF, page 3)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod8_se_52016f.pdf#page=3"
+      },
+      {
+       "label": "Ready, Set, Go! 8.1 homework (page 6)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod8_se_52016f.pdf#page=6"
+      },
+      {
+       "label": "Teacher notes, Module 8 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod8_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 3–8 of the Module 8 student edition",
+     "questions": [
+      "Find the distance from (0, 0) to (3, 4).",
+      "Find the distance from (1, 2) to (7, 10)."
+     ],
+     "answers": [
+      "5",
+      "10"
+     ]
+    },
+    {
+     "title": "Task 8.2: Slippery Slopes",
+     "steps": [
+      "Read and work the task: prove that perpendicular lines have slopes that are negative reciprocals, and parallel lines equal slopes",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 8.2 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 8.2 (student PDF, page 9)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod8_se_52016f.pdf#page=9"
+      },
+      {
+       "label": "Ready, Set, Go! 8.2 homework (page 14)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod8_se_52016f.pdf#page=14"
+      },
+      {
+       "label": "Teacher notes, Module 8 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod8_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 9–16 of the Module 8 student edition",
+     "questions": [
+      "A line has slope 3/4. What is the slope of a line perpendicular to it?",
+      "Do the lines y = 2x + 1 and y = 2x - 5 intersect?"
+     ],
+     "answers": [
+      "-4/3",
+      "No (same slope, they are parallel)"
+     ]
+    },
+    {
+     "title": "Task 8.3: Prove It!",
+     "steps": [
+      "Read and work the task: use distance and slope to prove whether quadrilaterals are parallelograms, rectangles, rhombi or squares",
+      "Build fluency: work the problems independently, then check and correct together",
+      "Homework: Ready, Set, Go! 8.3 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 8.3 (student PDF, page 17)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod8_se_52016f.pdf#page=17"
+      },
+      {
+       "label": "Ready, Set, Go! 8.3 homework (page 21)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod8_se_52016f.pdf#page=21"
+      },
+      {
+       "label": "Teacher notes, Module 8 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod8_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 17–22 of the Module 8 student edition",
+     "questions": [
+      "What must be true of the slopes of opposite sides of a parallelogram?",
+      "A parallelogram with one right angle is what?"
+     ],
+     "answers": [
+      "They are equal",
+      "A rectangle"
+     ]
+    },
+    {
+     "title": "Task 8.4: Training Day",
+     "steps": [
+      "Read and work the task: compare Fernando's and Mariah's laps and write f(t) = m(t) + k",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 8.4 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 8.4 (student PDF, page 23)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod8_se_52016f.pdf#page=23"
+      },
+      {
+       "label": "Ready, Set, Go! 8.4 homework (page 25)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod8_se_52016f.pdf#page=25"
+      },
+      {
+       "label": "Teacher notes, Module 8 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod8_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 23–27 of the Module 8 student edition",
+     "questions": [
+      "If f(t) = m(t) + 10, how does Fernando's graph compare to Mariah's?",
+      "If m(t) = 0.6t + 30, what is f(t) = m(t) + 15?"
+     ],
+     "answers": [
+      "It is 10 units higher",
+      "f(t) = 0.6t + 45"
+     ]
+    },
+    {
+     "title": "Task 8.5: Training Day Part II",
+     "steps": [
+      "Read and work the task: write one runner's function as a vertical shift of the other's from tables and graphs",
+      "Build fluency: work the problems independently, then check and correct together",
+      "Homework: Ready, Set, Go! 8.5 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 8.5 (student PDF, page 28)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod8_se_52016f.pdf#page=28"
+      },
+      {
+       "label": "Ready, Set, Go! 8.5 homework (page 31)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod8_se_52016f.pdf#page=31"
+      },
+      {
+       "label": "Teacher notes, Module 8 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod8_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 28–32 of the Module 8 student edition",
+     "questions": [
+      "If Mariah ran 15 more laps than Fernando, write m(t) in terms of f(t).",
+      "If f(t) = m(t) + 30 and m(20) = 40, what is f(20)?"
+     ],
+     "answers": [
+      "m(t) = f(t) + 15",
+      "70"
+     ]
+    },
+    {
+     "title": "Task 8.6: Shifting Functions",
+     "steps": [
+      "Read and work the task: translate linear and exponential functions, including Rebekah's and Jeremy's house values",
+      "Build fluency: work the problems independently, then check and correct together",
+      "Homework: Ready, Set, Go! 8.6 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 8.6 (student PDF, page 33)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod8_se_52016f.pdf#page=33"
+      },
+      {
+       "label": "Ready, Set, Go! 8.6 homework (page 36)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod8_se_52016f.pdf#page=36"
+      },
+      {
+       "label": "Teacher notes, Module 8 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod8_te_52016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 33–37 of the Module 8 student edition",
+     "questions": [
+      "Rebekah's house: 150,000(1.06)^t. Jeremy's is always $20,000 more. Write his function.",
+      "What is the common ratio in 150,000(1.06)^t?"
+     ],
+     "answers": [
+      "J(t) = 150,000(1.06)^t + 20,000",
+      "1.06"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Module 9: Modeling Data",
+   "lessons": [
+    {
+     "title": "Task 9.1: Texting by the Numbers",
+     "steps": [
+      "Read and work the task: describe the texting data with a histogram and a box plot and compare what each shows",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 9.1 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 9.1 (student PDF, page 4)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_se_62016f.pdf#page=4"
+      },
+      {
+       "label": "Ready, Set, Go! 9.1 homework (page 6)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_se_62016f.pdf#page=6"
+      },
+      {
+       "label": "Teacher notes, Module 9 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_te_62016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 4–7 of the Module 9 student edition",
+     "questions": [
+      "What is the median of 3, 5, 6, 10, 12?",
+      "Which display shows the five-number summary: histogram or box plot?"
+     ],
+     "answers": [
+      "6",
+      "Box plot"
+     ]
+    },
+    {
+     "title": "Task 9.2: Data Distribution",
+     "steps": [
+      "Read and work the task: describe shape, center and spread of data sets and compare them",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 9.2 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 9.2 (student PDF, page 8)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_se_62016f.pdf#page=8"
+      },
+      {
+       "label": "Ready, Set, Go! 9.2 homework (page 11)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_se_62016f.pdf#page=11"
+      },
+      {
+       "label": "Teacher notes, Module 9 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_te_62016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 8–13 of the Module 9 student edition",
+     "questions": [
+      "If a distribution's tail is on the left, what is it called?",
+      "Q1 = 10 and Q3 = 20. Is 40 an outlier by the 1.5 x IQR rule?"
+     ],
+     "answers": [
+      "Skewed left",
+      "Yes (above 35)"
+     ]
+    },
+    {
+     "title": "Task 9.3: After School Activity",
+     "steps": [
+      "Read and work the task: use a two-way frequency table to help Rashid pick an after-school activity",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 9.3 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 9.3 (student PDF, page 14)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_se_62016f.pdf#page=14"
+      },
+      {
+       "label": "Ready, Set, Go! 9.3 homework (page 16)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_se_62016f.pdf#page=16"
+      },
+      {
+       "label": "Teacher notes, Module 9 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_te_62016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 14–18 of the Module 9 student edition",
+     "questions": [
+      "In the table, 54 of 106 students chose soccer. About what percent is that?",
+      "What are the totals in the margins of a two-way table called?"
+     ],
+     "answers": [
+      "About 51%",
+      "Marginal frequencies"
+     ]
+    },
+    {
+     "title": "Task 9.4: Relative Frequency",
+     "steps": [
+      "Read and work the task: make relative frequency tables and write conditional statements about Rachel's texting data",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 9.4 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 9.4 (student PDF, page 19)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_se_62016f.pdf#page=19"
+      },
+      {
+       "label": "Ready, Set, Go! 9.4 homework (page 22)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_se_62016f.pdf#page=22"
+      },
+      {
+       "label": "Teacher notes, Module 9 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_te_62016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 19–24 of the Module 9 student edition",
+     "questions": [
+      "20 of 24 teenagers send more than 100 texts a day. What percent is that?",
+      "2 of 24 adults send more than 100. What fraction is that?"
+     ],
+     "answers": [
+      "About 83%",
+      "1/12 (about 8%)"
+     ]
+    },
+    {
+     "title": "Task 9.5: Connect the Dots",
+     "steps": [
+      "Read and work the task: graph data sets on scatter plots and connect each to its correlation coefficient",
+      "Explore first: let your student try their own strategy before you explain anything",
+      "Homework: Ready, Set, Go! 9.5 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 9.5 (student PDF, page 25)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_se_62016f.pdf#page=25"
+      },
+      {
+       "label": "Ready, Set, Go! 9.5 homework (page 28)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_se_62016f.pdf#page=28"
+      },
+      {
+       "label": "Teacher notes, Module 9 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_te_62016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 25–30 of the Module 9 student edition",
+     "questions": [
+      "What correlation coefficient means a perfect negative linear relationship?",
+      "Is r = 0.9 or r = 0.3 a stronger linear relationship?"
+     ],
+     "answers": [
+      "-1",
+      "r = 0.9"
+     ]
+    },
+    {
+     "title": "Task 9.6: Making More $",
+     "steps": [
+      "Read and work the task: estimate lines of best fit for census income data and compare to the calculator's regression",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 9.6 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 9.6 (student PDF, page 31)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_se_62016f.pdf#page=31"
+      },
+      {
+       "label": "Ready, Set, Go! 9.6 homework (page 35)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_se_62016f.pdf#page=35"
+      },
+      {
+       "label": "Teacher notes, Module 9 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_te_62016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 31–37 of the Module 9 student edition",
+     "questions": [
+      "If year 1 = 1991, what is year 2005?",
+      "A line of best fit has slope 300 dollars per year. What does that mean?"
+     ],
+     "answers": [
+      "15",
+      "Income rises about $300 each year"
+     ]
+    },
+    {
+     "title": "Task 9.7: Getting Schooled",
+     "steps": [
+      "Read and work the task: interpret the slope and intercept of a regression line comparing men's and women's incomes",
+      "Talk it through: have your student explain why their method works and compare it with another way",
+      "Homework: Ready, Set, Go! 9.7 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 9.7 (student PDF, page 38)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_se_62016f.pdf#page=38"
+      },
+      {
+       "label": "Ready, Set, Go! 9.7 homework (page 43)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_se_62016f.pdf#page=43"
+      },
+      {
+       "label": "Teacher notes, Module 9 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_te_62016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 38–45 of the Module 9 student edition",
+     "questions": [
+      "A line is y = 1.5x + 4,000. If x = 20,000, what is the predicted y?",
+      "Does a strong correlation prove that one variable causes the other?"
+     ],
+     "answers": [
+      "34,000",
+      "No"
+     ]
+    },
+    {
+     "title": "Task 9.8: Rocking the Residuals",
+     "steps": [
+      "Read and work the task: calculate residuals and use a residual plot to judge a linear model",
+      "Explore first: let your student try their own strategy before you explain anything",
+      "Homework: Ready, Set, Go! 9.8 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 9.8 (student PDF, page 46)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_se_62016f.pdf#page=46"
+      },
+      {
+       "label": "Ready, Set, Go! 9.8 homework (page 51)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_se_62016f.pdf#page=51"
+      },
+      {
+       "label": "Teacher notes, Module 9 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_te_62016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 46–54 of the Module 9 student edition",
+     "questions": [
+      "The line is y = 3x + 6. The point (4, 22) has what residual?",
+      "Is the residual positive or negative when a point is below the line?"
+     ],
+     "answers": [
+      "4",
+      "Negative"
+     ]
+    },
+    {
+     "title": "Task 9.9: Lies and Statistics",
+     "steps": [
+      "Read and work the task: decide if statements about correlation, residuals and regression are always, sometimes or never true",
+      "Build fluency: work the problems independently, then check and correct together",
+      "Homework: Ready, Set, Go! 9.9 (Ready reviews earlier skills, Set practices today’s idea, Go keeps older skills fresh)"
+     ],
+     "links": [
+      {
+       "label": "Task 9.9 (student PDF, page 55)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_se_62016f.pdf#page=55"
+      },
+      {
+       "label": "Ready, Set, Go! 9.9 homework (page 57)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_se_62016f.pdf#page=57"
+      },
+      {
+       "label": "Teacher notes, Module 9 (PDF)",
+       "url": "https://www.mathematicsvisionproject.org/uploads/1/1/6/3/11636986/m1_mod9_te_62016f.pdf"
+      }
+     ],
+     "pages": "PDF pages 55–58 of the Module 9 student edition",
+     "questions": [
+      "For a least-squares line, what is the sum of the residuals?",
+      "Does a correlation coefficient of 0 mean there is no relationship of any kind?"
+     ],
+     "answers": [
+      "0",
+      "No (there could be a non-linear one)"
+     ]
+    }
+   ]
+  }
+ ]
+}
