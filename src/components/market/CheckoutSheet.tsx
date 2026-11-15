@@ -68,7 +68,8 @@ function CheckoutForm({ item: given, asGift, onClose, onPurchased }: { item: Che
       .then((r) => {
         if (!alive) return;
         setQ(r);
-        setCouponError('');
+        // A refused code falls back to the price without it; keep saying why until a code works.
+        if (applied) setCouponError('');
       })
       .catch((e: Error) => {
         if (!alive) return;

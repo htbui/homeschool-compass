@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { View } from 'react-native';
 
 import { uid } from '@/lib/id';
-import { CONDITION_LABEL, FORMAT_LABEL, GRADE_LABELS, INVOLVEMENT_LABEL, type Condition, type Involvement, type Listing, type ListingFormat } from '@/lib/market';
+import { CONDITION_LABEL, FORMAT_LABEL, GRADE_LABELS, INVOLVEMENT_LABEL, listingIssues, type Condition, type Involvement, type Listing, type ListingFormat } from '@/lib/market';
 import { parseCount } from '@/lib/parse';
 import { PHILOSOPHY_INFO } from '@/lib/quiz';
 import { SUBJECT_LIST, SUBJECTS } from '@/lib/subjects';
@@ -36,17 +36,11 @@ function SellForm({ existing, onClose }: { existing?: Listing; onClose: () => vo
   const [description, setDescription] = useState(existing?.description ?? '');
   const [includes, setIncludes] = useState(existing?.includes.join('\n') ?? '');
   const [busy, setBusy] = useState(false);
+  const [error, setError] = useState('');
 
   const nLessons = parseCount(lessons);
   const nMinutes = parseCount(minutes);
-  const missing = [
-    !title.trim() && 'a title',
-    subjects.length === 0 && 'a subject',
-    price === undefined && 'a price (0 for free)',
-    !nLessons && 'number of lessons',
-    !nMinutes && 'minutes per lesson',
-    description.trim().length < 10 && 'a short description',
-  ].filter(Boolean);
+  const missing = listingIssues({ title, subjects, price, lessons: nLessons, minutesPerLesson: nMinutes, description });
 
   const toggle = <V,>(list: V[], v: V) => (list.includes(v) ? list.filter((x) => x !== v) : [...list, v]);
   const pickGrade = (g: number) => {
@@ -63,39 +57,46 @@ function SellForm({ existing, onClose }: { existing?: Listing; onClose: () => vo
   const save = async () => {
     if (price === undefined || !nLessons || !nMinutes) return;
     setBusy(true);
+    setError('');
     const parts = family.parentName.trim().split(/\s+/);
     const first = subjects[0];
-    await saveListing({
-      id: existing?.id ?? uid('l'),
-      title: title.trim(),
-      seller: parts.length > 1 ? `${parts[0]} ${parts.at(-1)![0]}.` : parts[0],
-      sellerKind: 'family',
-      sellerVerified: false,
-      subjects,
-      gradeMin,
-      gradeMax,
-      philosophies,
-      format,
-      price,
-      condition,
-      description: description.trim(),
-      includes: includes.split(/\n|,/).map((s) => s.trim()).filter(Boolean),
-      lessons: nLessons,
-      lessonsPerWeek: perWeek,
-      minutesPerLesson: nMinutes,
-      parentInvolvement: involvement,
-      familyStyle: existing?.familyStyle ?? false,
-      lessonSteps: existing?.lessonSteps ?? [],
-      cover: SUBJECTS[first].icon,
-      color: c.primary,
-      esaEligible: false,
-      ratingAvg: existing?.ratingAvg ?? 0,
-      ratingCount: existing?.ratingCount ?? 0,
-      createdAt: existing?.createdAt ?? new Date().toISOString(),
-      mine: true,
-    });
-    setBusy(false);
-    onClose();
+    try {
+      await saveListing({
+        id: existing?.id ?? uid('l'),
+        title: title.trim(),
+        seller: parts.length > 1 ? `${parts[0]} ${parts.at(-1)![0]}.` : parts[0],
+        sellerKind: 'family',
+        sellerVerified: false,
+        subjects,
+        gradeMin,
+        gradeMax,
+        philosophies,
+        format,
+        price,
+        condition,
+        description: description.trim(),
+        includes: includes.split(/\n|,/).map((s) => s.trim()).filter(Boolean),
+        lessons: nLessons,
+        lessonsPerWeek: perWeek,
+        minutesPerLesson: nMinutes,
+        parentInvolvement: involvement,
+        familyStyle: existing?.familyStyle ?? false,
+        lessonSteps: existing?.lessonSteps ?? [],
+        cover: SUBJECTS[first].icon,
+        color: c.primary,
+        esaEligible: false,
+        ratingAvg: existing?.ratingAvg ?? 0,
+        ratingCount: existing?.ratingCount ?? 0,
+        createdAt: existing?.createdAt ?? new Date().toISOString(),
+        mine: true,
+      });
+      onClose();
+    } catch (e) {
+      // The live marketplace refused it (or the network is down): keep the form so nothing is lost.
+      setError(e instanceof Error ? e.message : String(e));
+    } finally {
+      setBusy(false);
+    }
   };
 
   return (
@@ -167,6 +168,7 @@ function SellForm({ existing, onClose }: { existing?: Listing; onClose: () => vo
       <Field label="Description" multiline value={description} onChangeText={setDescription} placeholder="Condition details, what's included, pickup or shipping." style={{ minHeight: 90 }} />
       <Field label="What's included (one per line)" multiline value={includes} onChangeText={setIncludes} placeholder={'Teacher guide\nStudent workbook'} />
       <T v="caption" muted>Your listing shows your first name and last initial. Arrange pickup in a public place — never share your home address.</T>
+      {error ? <T color={c.danger}>{error}</T> : null}
       <Row style={{ justifyContent: 'flex-end' }}>
         <Button kind="secondary" title="Cancel" onPress={onClose} />
         <Button title={existing ? 'Save listing' : 'Publish listing'} loading={busy} disabled={missing.length > 0} reason={`Still needed: ${missing.join(', ')}`} onPress={save} />

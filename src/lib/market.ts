@@ -151,6 +151,27 @@ export const INVOLVEMENT_LABEL: Record<Involvement, string> = { high: 'Parent-le
 export const SELLER_NOTE: Record<SellerKind, string> = { publisher: '', creator: ' · Studio creator', family: ' · family seller', open: ' · free & open' };
 export const CONDITION_LABEL: Record<Condition, string> = { new: 'New', like_new: 'Like new', good: 'Good', fair: 'Fair' };
 
+// ───────────────────────────── Selling
+
+/** What's still missing or out of range on a listing a family sells (mirrors the listings table's checks). */
+export function listingIssues(l: { title: string; subjects: Subject[]; price?: number; lessons?: number; minutesPerLesson?: number; description: string }): string[] {
+  const title = l.title.trim();
+  const description = l.description.trim();
+  return [
+    !title && 'a title',
+    title.length > 160 && 'a shorter title (160 characters at most)',
+    l.subjects.length === 0 && 'a subject',
+    l.price === undefined && 'a price (0 for free)',
+    l.price !== undefined && l.price > 10000 && 'a price of $10,000 or less',
+    !l.lessons && 'number of lessons',
+    !!l.lessons && l.lessons > 2000 && 'at most 2,000 lessons',
+    !l.minutesPerLesson && 'minutes per lesson',
+    !!l.minutesPerLesson && l.minutesPerLesson > 480 && 'at most 480 minutes per lesson',
+    description.length < 10 && 'a short description',
+    description.length > 4000 && 'a shorter description (4,000 characters at most)',
+  ].filter((x): x is string => !!x);
+}
+
 // ───────────────────────────── Grades
 
 export const GRADE_LABELS = ['Pre-K', 'Kindergarten', '1st Grade', '2nd Grade', '3rd Grade', '4th Grade', '5th Grade', '6th Grade', '7th Grade', '8th Grade', '9th Grade', '10th Grade', '11th Grade', '12th Grade'];

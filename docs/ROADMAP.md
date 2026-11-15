@@ -76,7 +76,11 @@ _Last updated: 2026-11-11_
 
 _New ideas land here, then get a priority._
 
-- _(empty)_
+- **Marketplace (from the test suite):**
+  - Handle Stripe's `checkout.session.async_payment_succeeded` / `_failed` before turning on delayed payment methods (bank debits); today such an order would stay pending.
+  - A coupon typed in on an order that's already free (a free listing, or a bundle you already own most of) still uses up one of its uses.
+  - Reviews written before a purchase keep "not verified" until the family edits the review; re-derive the badge when the purchase lands.
+  - Purchases sync with the workspace and are also pulled from the server; check that a second device can't record a duplicate expense if it refreshes purchases before the workspace sync arrives.
 
 ---
 

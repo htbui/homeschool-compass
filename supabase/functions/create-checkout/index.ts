@@ -11,6 +11,7 @@
 import { createClient } from 'npm:@supabase/supabase-js@2';
 
 import { cors, json } from '../_shared/http.ts';
+import { allowedReturn, DEFAULT_RETURN_ORIGINS } from './returnUrl.ts';
 
 const FUNDING = new Set(['esa', 'tax', 'out_of_pocket']);
 
@@ -36,7 +37,7 @@ Deno.serve(async (req) => {
         ? { email: typeof body.gift.email === 'string' ? body.gift.email : null, family_id: typeof body.gift.familyId === 'string' ? body.gift.familyId : null, note: typeof body.gift.note === 'string' ? body.gift.note : '' }
         : null;
     if (typeof targetId !== 'string' || !FUNDING.has(fundingSource) || (coupon != null && typeof coupon !== 'string')) return json({ error: 'Bad request' }, 400);
-    if (typeof returnUrl !== 'string' || !allowedReturn(returnUrl)) return json({ error: 'Return address not allowed' }, 400);
+    if (typeof returnUrl !== 'string' || !allowedReturn(returnUrl, Deno.env.get('CHECKOUT_RETURN_ORIGINS') ?? DEFAULT_RETURN_ORIGINS)) return json({ error: 'Return address not allowed' }, 400);
 
     const { data: member } = await admin.from('family_members').select('family_id').eq('user_id', user.id).maybeSingle();
     if (!member) return json({ error: 'Finish setting up your family first.' }, 400);
@@ -103,9 +104,3 @@ Deno.serve(async (req) => {
 
 /** A reason the database refused the order (unavailable, your own, a bad coupon…), shown to the buyer. */
 class CheckoutError extends Error {}
-
-/** Only send buyers back to the app itself. */
-function allowedReturn(url: string): boolean {
-  const allowed = (Deno.env.get('CHECKOUT_RETURN_ORIGINS') ?? 'http://localhost:8081,freerange://').split(',').map((s) => s.trim()).filter(Boolean);
-  return allowed.some((origin) => url === origin || url.startsWith(origin.endsWith('/') || origin.endsWith('://') ? origin : `${origin}/`));
-}
