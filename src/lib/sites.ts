@@ -35,7 +35,8 @@ export const SKIP_LINK =
 /** Wiki/CMS housekeeping links (edit, history, special pages) that are never lessons. */
 export const HOUSEKEEPING =
   /[?&](action|veaction|oldid|diff|printable)=|\/(Special|Talk|User|User_talk|Help|Template|Category|File|Portal|Draft|MediaWiki|Module|Wikibooks|Wikiversity|Wikipedia|Wikijunior_talk):|\/w\/index\.php|\/(login|signin|signup|register|cart|account)\b/i;
-export const SOCIAL = /(facebook|twitter|x|instagram|pinterest|linkedin|tiktok)\.com$/i;
+/** Social sites (the whole host name, so dropbox.com isn't x.com). */
+export const SOCIAL = /(^|\.)(facebook|twitter|x|instagram|pinterest|linkedin|tiktok)\.com$/i;
 /** Sections that point elsewhere rather than holding the course's lessons. */
 export const SKIP_SECTION = /^(see also|references|external links|further reading|notes|footnotes|sources|bibliography|related( pages| courses| resources)?|prerequisites|navigation|front|front matter|back matter)$/i;
 
@@ -81,10 +82,15 @@ export function licenseFrom(value: unknown): License | undefined {
   if (typeof value === 'string') return detectLicense(value.includes('creativecommons.org') ? value : `<a href="${value}">${value}</a>`) ?? detectLicense(value);
   if (typeof value === 'object') {
     const o = value as Record<string, unknown>;
-    return licenseFrom(o.url ?? o['@id']) ?? (typeof o.name === 'string' ? detectLicense(o.name.replace(/\bCC BY\b/i, 'Creative Commons Attribution')) : undefined);
+    return licenseFrom(o.url ?? o['@id']) ?? (typeof o.name === 'string' ? detectLicense(spellOutCc(o.name)) : undefined);
   }
   return undefined;
 }
+
+const CC_PARTS: Record<string, string> = { NC: 'NonCommercial', SA: 'ShareAlike', ND: 'NoDerivatives' };
+/** "CC BY-NC-SA 4.0" → "Creative Commons Attribution-NonCommercial-ShareAlike 4.0", which detectLicense() reads. */
+const spellOutCc = (name: string) =>
+  name.replace(/\bCC[\s-]?BY((?:[\s-](?:NC|SA|ND)\b)*)/i, (_, parts: string) => `Creative Commons Attribution${parts.replace(/[\s-](NC|SA|ND)/gi, (_m: string, p: string) => `-${CC_PARTS[p.toUpperCase()]}`)}`);
 
 const names = (v: unknown): string | undefined => {
   const list = (Array.isArray(v) ? v : [v]).map((x) => (typeof x === 'string' ? x : x && typeof x === 'object' ? (x as { name?: unknown }).name : undefined)).filter((x): x is string => typeof x === 'string' && !!x.trim());

@@ -6,7 +6,6 @@
 export const decode = (s: string) =>
   s
     .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"')
@@ -18,8 +17,13 @@ export const decode = (s: string) =>
     .replace(/&ldquo;/g, '“')
     .replace(/&rdquo;/g, '”')
     .replace(/&hellip;/g, '…')
-    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
-    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCharCode(parseInt(n, 16)));
+    .replace(/&#(\d+);/g, (_, n) => codePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => codePoint(parseInt(n, 16)))
+    // Last, so "&amp;lt;" reads as the text "&lt;" rather than "<".
+    .replace(/&amp;/g, '&');
+
+/** A numeric entity's character (emoji included); out-of-range numbers become U+FFFD. */
+const codePoint = (n: number) => (n > 0 && n <= 0x10ffff ? String.fromCodePoint(n) : '\ufffd');
 
 export const textOf = (html: string) => decode(html.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
 

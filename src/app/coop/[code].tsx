@@ -1,4 +1,4 @@
-import { Stack as RouterStack, router, useLocalSearchParams } from 'expo-router';
+import { Redirect, Stack as RouterStack, router, useLocalSearchParams } from 'expo-router';
 import { useEffect, useState } from 'react';
 
 import { AddToPlanSheet } from '@/components/market/AddToPlanSheet';
@@ -17,6 +17,7 @@ export default function JoinCoopClass() {
   const { code: raw } = useLocalSearchParams<{ code: string }>();
   const code = normalizeClassCode(raw ?? '');
   const family = useStore((s) => s.family);
+  const mode = useStore((s) => s.mode);
   const userId = useAccount((s) => s.userId);
   const [cls, setCls] = useState<CoopClass | null | undefined>(undefined);
   const already = useStore((s) => s.curricula.find((k) => !!k.coopClassId && k.coopClassId === cls?.id));
@@ -27,12 +28,14 @@ export default function JoinCoopClass() {
   const [joined, setJoined] = useState<{ cls: CoopClass; content: PackageContent } | null>(null);
   const needsAccount = cloudEnabled && !userId;
 
+  const kid = !!family && mode.kind === 'kid';
+
   useEffect(() => {
-    if (needsAccount) return;
+    if (needsAccount || kid) return;
     previewClass(code)
       .then((x) => setCls(x ?? null))
       .catch((e) => setError(e instanceof Error ? e.message : String(e)));
-  }, [code, needsAccount]);
+  }, [code, needsAccount, kid]);
 
   const join = async () => {
     setBusy(true);
@@ -45,6 +48,9 @@ export default function JoinCoopClass() {
       setBusy(false);
     }
   };
+
+  // Joining a class is for grown-ups: an invite link opened in kid mode goes back to the kid's day.
+  if (family && mode.kind === 'kid') return <Redirect href={{ pathname: '/kid/[id]', params: { id: mode.childId } }} />;
 
   return (
     <Screen edges={[]}>

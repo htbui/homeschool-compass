@@ -77,7 +77,8 @@ export function checkUrl(u: URL, allowPrivate = false): string | undefined {
   if (u.username || u.password) return 'Addresses with passwords can’t be imported.';
   if (allowPrivate) return undefined;
   if (u.port && u.port !== '80' && u.port !== '443') return 'Only standard web ports can be imported.';
-  const host = u.hostname.replace(/^\[|\]$/g, '').toLowerCase();
+  // "localhost." is "localhost": a name's trailing dot doesn't change what it means.
+  const host = u.hostname.replace(/^\[|\]$/g, '').toLowerCase().replace(/\.+$/, '');
   // Names that only mean something inside a network ("intranet", "printer.local").
   if (host === 'localhost' || /\.(localhost|internal|local|lan|home\.arpa)$/.test(host) || (!host.includes('.') && !host.includes(':'))) return 'That address isn’t public.';
   if (isIpLiteral(host) && isPrivateAddress(host)) return 'That address isn’t public.';

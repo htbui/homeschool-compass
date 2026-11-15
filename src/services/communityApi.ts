@@ -149,7 +149,10 @@ export async function myConnections(): Promise<Connection[]> {
 }
 
 export async function requestConnection(to: string, message: string) {
-  check(await db().from('connections').insert({ from_family: fid(), to_family: to, message }));
+  const r = await db().from('connections').insert({ from_family: fid(), to_family: to, message });
+  // One request per pair and direction: asking again after a "no" finds the old one.
+  if (r.error && /duplicate key|connections_pkey/i.test(r.error.message)) throw new Error('You already asked this family to connect. They can still send you a request.');
+  check(r);
 }
 
 export async function respondToConnection(from: string, accept: boolean) {
