@@ -8,7 +8,7 @@ import type { Child, Curriculum, DateKey, HelpRequest, ID, Task } from './types'
  * own; only which notifications were read (by id) is remembered.
  */
 
-export type NoticeKind = 'message' | 'help' | 'event' | 'plan' | 'moderation';
+export type NoticeKind = 'message' | 'help' | 'event' | 'plan' | 'moderation' | 'early';
 
 /** Where tapping a notification goes. */
 export type NoticeLink =
@@ -80,6 +80,25 @@ export function helpNotices(help: HelpRequest[], kids: Child[], tasks: Task[]): 
         body: [task ? task.title : 'General help', h.note ? `“${h.note}”` : ''].filter(Boolean).join(' · '),
         at: h.createdAt,
         link: { to: 'today' },
+      };
+    });
+}
+
+/** A kid started an upcoming mission early (today's only): it moved out of its planned day. */
+export function earlyStartNotices(tasks: Task[], kids: Child[], today: DateKey): Notice[] {
+  return tasks
+    .filter((t) => t.startedEarlyAt && t.date === today && t.bumpedFrom && t.bumpedFrom > today)
+    .map((t) => {
+      const kid = kids.find((k) => k.id === t.childId);
+      const tomorrow = relativeDayLabel(t.bumpedFrom!, today) === 'Tomorrow';
+      return {
+        id: `early:${t.id}`,
+        kind: 'early' as const,
+        icon: '🚀',
+        title: `${kid ? `${kid.avatar} ${kid.name}` : 'A student'} started ${tomorrow ? `tomorrow’s ${t.title}` : `${t.title} early`}`,
+        body: `It was planned for ${tomorrow ? 'tomorrow' : relativeDayLabel(t.bumpedFrom!, today)}. It moved to today, so its time counts today.`,
+        at: t.startedEarlyAt,
+        link: { to: 'today' as const },
       };
     });
 }

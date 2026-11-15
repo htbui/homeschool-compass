@@ -1,4 +1,4 @@
-import { Children, cloneElement, Fragment, isValidElement, type ReactElement, type ReactNode, useId, useState } from 'react';
+import { Children, cloneElement, Fragment, isValidElement, type ReactElement, type ReactNode, type Ref, useId, useState } from 'react';
 import {
   ActivityIndicator,
   Modal,
@@ -9,6 +9,7 @@ import {
   TextInput,
   View,
   type PressableProps,
+  type ScrollViewInstance,
   type StyleProp,
   type TextInputProps,
   type TextProps,
@@ -40,14 +41,18 @@ export function T({ v = 'body', muted, color, style, ...rest }: TextProps & { v?
   return <Text style={[{ color: color ?? (muted ? c.textMuted : c.text), fontFamily: fonts.body }, variantStyle[v], style]} {...rest} />;
 }
 
-/** Page wrapper: safe area, scroll, centered max-width column. */
-export function Screen({ children, scroll = true, padded = true, edges = ['top'] }: { children: ReactNode; scroll?: boolean; padded?: boolean; edges?: ('top' | 'bottom')[] }) {
+/**
+ * Page wrapper: safe area, scroll, centered max-width column. `top` stays pinned above the
+ * scrolling content (e.g. an urgent banner); `scrollRef` lets a screen scroll something into view.
+ */
+export function Screen({ children, scroll = true, padded = true, edges = ['top'], top, scrollRef }: { children: ReactNode; scroll?: boolean; padded?: boolean; edges?: ('top' | 'bottom')[]; top?: ReactNode; scrollRef?: Ref<ScrollViewInstance> }) {
   const c = useColors();
   const inner = <View style={[styles.column, padded && { padding: space.lg, paddingBottom: space.xxl * 2 }]}>{children}</View>;
   return (
     <SafeAreaView edges={edges} style={{ flex: 1, backgroundColor: c.bg }}>
+      {top ? <View style={[styles.column, { flexGrow: 0, paddingHorizontal: padded ? space.lg : 0, paddingTop: space.sm }]}>{top}</View> : null}
       {scroll ? (
-        <ScrollView contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled">
+        <ScrollView ref={scrollRef} contentContainerStyle={{ flexGrow: 1 }} keyboardShouldPersistTaps="handled">
           {inner}
         </ScrollView>
       ) : (
@@ -408,14 +413,21 @@ export function useConfirm() {
   return { ask, element };
 }
 
-export function Stat({ label, value, sub, color }: { label: string; value: string; sub?: string; color?: string }) {
+/** A number with a label. With `onPress` it's a button (e.g. "Help waiting" jumps to the queue). */
+export function Stat({ label, value, sub, color, onPress, hint }: { label: string; value: string; sub?: string; color?: string; onPress?: () => void; hint?: string }) {
   const c = useColors();
-  return (
-    <View style={[styles.stat, { backgroundColor: c.surface, borderColor: c.border }]}>
-      <T v="caption" muted>{label}</T>
+  const body = (
+    <>
+      <T v="caption" muted>{label}{onPress ? ' ›' : ''}</T>
       <T v="title" color={color}>{value}</T>
       {sub ? <T v="caption" muted>{sub}</T> : null}
-    </View>
+    </>
+  );
+  if (!onPress) return <View style={[styles.stat, { backgroundColor: c.surface, borderColor: c.border }]}>{body}</View>;
+  return (
+    <Pressable onPress={onPress} accessibilityRole="button" accessibilityLabel={`${label}: ${value}${sub ? `, ${sub}` : ''}`} accessibilityHint={hint} style={({ pressed }) => [styles.stat, { backgroundColor: c.surface, borderColor: c.border, opacity: pressed ? 0.85 : 1 }]}>
+      {body}
+    </Pressable>
   );
 }
 
