@@ -212,7 +212,8 @@ async function run() {
   log(await waitGone('Unit 7:'), 'outline collapses again');
   log(!(await has('More from')), 'no storefront for free & open curricula');
   await click('🚩 Report this listing');
-  await expect('Reports go to the Freerange moderators, so they need an account', 'reports need an account');
+  await expect('Reports go to the Freerange moderators, so they only work in the connected app', 'reports need the connected app');
+  log(!/sign in/i.test(await bodyText()), 'local build never says “Sign in” about reports');
   await click('OK', { exact: true });
   log(await fitsWidth(), 'listing page fits the screen');
   await shot('market-listing');

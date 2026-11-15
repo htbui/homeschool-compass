@@ -75,7 +75,7 @@ async function journeys() {
   scenario('NOI: sign, mail, unsign');
   await click('Notice of Intent');
   await expect('Colorado requires notice');
-  await fill('123 Maple St\nDenver, CO 80202', '12 Oak Lane\nDenver, CO 80202');
+  await fill('e.g. 123 Maple St, Denver, CO 80202', '12 Oak Lane\nDenver, CO 80202');
   await fillLabel('Type your full legal name to sign', 'Pat Lee');
   await click('Sign letter ✍️');
   await expect('Unsign');

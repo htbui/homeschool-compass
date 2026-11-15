@@ -50,8 +50,8 @@ await check('kids step', 'Your learners');
 for (const [name, dob] of [['Ava', '2020-04-02'], ['Ben', '2016-09-15']]) {
   await sleep(300);
   if (name !== 'Ava') await clickText('Add a child');
-  await typeInto('Maya', name);
-  await typeInto('05/21/2017', dob);
+  await typeInto('e.g. Maya', name);
+  await typeInto('e.g. 05/21/2017', dob);
   await clickText('Add child', true);
 }
 await check('two kids added', 'Ben');

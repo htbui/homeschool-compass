@@ -244,7 +244,7 @@ async function main() {
   scenario('Insights without an account');
   await click('📈 Insights');
   await expect('Anonymous and added up across families', 'explains insights are anonymous');
-  await expect('Sign in to see insights from every family', 'local-only: below the family minimum');
+  await expect('Only this device’s family counts, which is below the', 'local-only: below the family minimum');
   await noSideScroll('Insights tab');
 
   scenario('Export');
