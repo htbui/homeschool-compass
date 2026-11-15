@@ -1,6 +1,6 @@
 import { todayKey, toMinutes } from './dates';
 import { uid } from './id';
-import { lessonAt, type FlatLesson, type PackageLesson } from './package';
+import { lessonAt, lessonVersion, type FlatLesson, type PackageLesson, type VersionPick } from './package';
 import type { Curriculum, ID, Task } from './types';
 
 /**
@@ -46,11 +46,25 @@ export function lessonLabel(task: Task, curricula: Curriculum[], tasks?: Task[])
   return `${cur.name} · Lesson ${n} of ${cur.totalLessons}${lesson ? `: ${lesson.title}` : ''}`;
 }
 
-/** The outline lesson a task covers (curricula with a lesson-by-lesson plan). */
+/** Lesson `n` of a plan in the version (level and theme) this student uses. */
+export function lessonForChild(c: Curriculum, n: number, childId: ID): FlatLesson | undefined {
+  const lesson = lessonAt(c.outline, n);
+  return lesson && lessonVersion(lesson, c.versionPicks?.[childId]);
+}
+
+/** The outline lesson a task covers (curricula with a lesson-by-lesson plan), in the kid's version. */
 export function lessonFor(task: Task, curricula: Curriculum[], tasks?: Task[]): FlatLesson | undefined {
   const cur = task.curriculumId ? curricula.find((c) => c.id === task.curriculumId) : undefined;
   if (!cur?.outline) return undefined;
-  return lessonAt(cur.outline, lessonNumber(task, cur, tasks));
+  return lessonForChild(cur, lessonNumber(task, cur, tasks), task.childId);
+}
+
+/** Pick a student's version. Their not-started lessons are refilled to match. */
+export function setVersionPick(c: Curriculum, tasks: Task[], childId: ID, pick: VersionPick): { curriculum: Curriculum; tasks: Task[] } {
+  const clean: VersionPick = { ...(pick.level ? { level: pick.level } : {}), ...(pick.theme ? { theme: pick.theme } : {}) };
+  const curriculum = { ...c, versionPicks: { ...c.versionPicks, [childId]: clean } };
+  const out = tasks.map((t) => (t.curriculumId === c.id && t.childId === childId && t.status === 'todo' && t.lessonId && !t.steps.some((s) => s.done) ? { ...t, lessonId: undefined } : t));
+  return { curriculum, tasks: out };
 }
 
 /** A lesson's checklist: its own steps, or ones made from its pages, links, and questions. */

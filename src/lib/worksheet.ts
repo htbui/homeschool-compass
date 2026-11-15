@@ -1,6 +1,7 @@
 import { lessonFor, lessonLabel } from './curriculum';
 import { ageOn, formatClock, formatDate, toMinutes } from './dates';
 import { esc } from './documents';
+import { versionLabel } from './package';
 import { subjectLabel } from './subjects';
 import type { Child, Curriculum, Subject, Task } from './types';
 
@@ -51,6 +52,7 @@ function sheet(task: Task, ctx: WorksheetContext): string {
   const lesson = lessonLabel(task, ctx.curricula, ctx.tasks);
   const plan = lessonFor(task, ctx.curricula, ctx.tasks);
   const credit = ctx.curricula.find((c) => c.id === task.curriculumId)?.attribution;
+  const version = versionLabel(plan?.applied);
   const questions = plan?.questions.length
     ? `<h2>Questions</h2><ol class="questions">${plan.questions.map((q) => `<li>${esc(q)}<div class="line"></div><div class="line"></div></li>`).join('')}</ol>`
     : '';
@@ -63,7 +65,7 @@ function sheet(task: Task, ctx: WorksheetContext): string {
   <section class="sheet${young ? ' young' : ''}">
     <div class="namebar"><span>Name: <b>${esc(kid?.name ?? '')}</b></span><span>Date: <b>${esc(formatDate(task.date, { weekday: 'long', month: 'long', day: 'numeric' }))}</b></span></div>
     <h1><span class="icon">${esc(task.icon)}</span> ${esc(task.title)}</h1>
-    <p class="meta">${esc(subjectLabel(task.subject))} · ${esc(formatClock(task.start))} · ${task.durationMin} minutes · ${esc(withWho)}${lesson ? `<br/>${esc(lesson)}` : ''}</p>
+    <p class="meta">${esc(subjectLabel(task.subject))} · ${esc(formatClock(task.start))} · ${task.durationMin} minutes · ${esc(withWho)}${lesson ? `<br/>${esc(lesson)}` : ''}${version ? ` · ${esc(version)}` : ''}</p>
     ${reading}
     ${steps}
     ${questions}
@@ -158,7 +160,7 @@ export function answerKeyHtml(tasks: Task[], ctx: WorksheetContext, title = 'Ans
         .join('');
       return `<div class="lesson">
         <h2>${esc(lessonLabel(t, ctx.curricula, ctx.tasks) ?? t.title)}</h2>
-        <p class="meta">${esc(kid?.name ?? '')} · ${esc(formatDate(t.date, { weekday: 'long', month: 'long', day: 'numeric' }))}</p>
+        <p class="meta">${esc(kid?.name ?? '')} · ${esc(formatDate(t.date, { weekday: 'long', month: 'long', day: 'numeric' }))}${versionLabel(plan.applied) ? ` · ${esc(versionLabel(plan.applied)!)}` : ''}</p>
         ${rows ? `<table><tr><th></th><th>Question</th><th>Answer</th></tr>${rows}</table>` : ''}
         ${plan.notes ? `<p class="notes"><b>Notes:</b> ${esc(plan.notes)}</p>` : ''}
       </div>`;

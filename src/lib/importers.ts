@@ -1,5 +1,6 @@
 import { detectLicense, type License } from './license';
-import { newLesson, newUnit, type LessonLink, type PackageLesson, type PackageUnit } from './package';
+import { newLesson, newUnit, type LessonLevel, type LessonLink, type LessonVersion, type PackageLesson, type PackageUnit } from './package';
+import { parseStandardList } from './standards';
 
 /**
  * Turn what people already have into lesson plans:
@@ -174,7 +175,7 @@ export function parseOutline(text: string, opts: OutlineOptions = {}): ImportRes
 
 // ───────────────────────────── Spreadsheets
 
-type Column = 'unit' | 'title' | 'pages' | 'minutes' | 'link' | 'steps' | 'questions' | 'answers' | 'notes';
+type Column = 'unit' | 'title' | 'pages' | 'minutes' | 'link' | 'steps' | 'questions' | 'answers' | 'notes' | 'standards';
 const HEADERS: Record<Column, RegExp> = {
   unit: /^(unit|chapter|module|week|section|part|topic group)$/i,
   title: /^(lesson|lesson title|title|topic|name|lesson name|activity)$/i,
@@ -185,7 +186,13 @@ const HEADERS: Record<Column, RegExp> = {
   questions: /^(questions|worksheet|exercises|problems|review questions)$/i,
   answers: /^(answers?|answer key|key|solutions?)$/i,
   notes: /^(notes?|teacher notes|parent notes|comments)$/i,
+  standards: /^(standards?|standard codes?|standards? tags?)$/i,
 };
+
+/** "Easier steps", "Harder questions", "Dinosaurs answers" — a lesson's other versions. */
+const VERSION_COL = /^(.+?)\s+(steps|questions|answers)$/i;
+const LEVEL_WORD: Record<string, LessonLevel> = { easier: 'easier', easy: 'easier', simpler: 'easier', harder: 'harder', hard: 'harder', challenge: 'harder' };
+type VersionField = 'steps' | 'questions' | 'answers';
 
 /** Split CSV/TSV text into rows, honoring quoted cells. */
 export function splitRows(text: string): string[][] {
@@ -221,7 +228,24 @@ export function splitRows(text: string): string[][] {
   return rows.map((r) => r.map((c) => c.trim())).filter((r) => r.some(Boolean));
 }
 
-const listCell = (v?: string) => (v ? v.split(/\s*[;|\n]\s*/).map((s) => s.trim()).filter(Boolean) : []);
+/** One item per line; or, in a single-line cell, split on ";" or "|". */
+const splitCell = (v: string) => (v.includes('\n') ? v.split('\n') : v.split(/[;|]/)).map((s) => s.trim());
+const listCell = (v?: string) => (v ? splitCell(v).filter(Boolean) : []);
+/** Answers line up with questions by position, so blanks ("-" in a spreadsheet) stay. */
+const answerCell = (v?: string): string[] | undefined => {
+  if (!v) return undefined;
+  const key = splitCell(v).map((s) => (/^[-–—]$/.test(s) ? '' : s));
+  while (key.length && !key.at(-1)) key.pop();
+  return key.length ? key : undefined;
+};
+/** "Label: https://…" per line (or just the address). */
+const linkCell = (v?: string): LessonLink[] =>
+  listCell(v).flatMap((part) => {
+    const m = part.match(URL_RE);
+    if (!m) return [];
+    const label = part.slice(0, m.index).replace(/[\s:–—-]+$/, '').trim();
+    return [{ label: label || 'Open lesson', url: m[0].replace(/[.,;]+$/, '') }];
+  });
 
 /** A spreadsheet of lessons → units and lessons. Recognizes common column names. */
 export function parseTable(text: string): ImportResult {
@@ -229,9 +253,23 @@ export function parseTable(text: string): ImportResult {
   if (!rows.length) return { units: [], warnings: ['Nothing to import — paste rows from a spreadsheet, or a CSV.'] };
   const header = rows[0];
   const cols = new Map<Column, number>();
+  // Other versions: a level ("Easier steps") or a theme ("Dinosaurs steps").
+  const versionCols: { level?: LessonLevel; theme?: string; field: VersionField; i: number }[] = [];
   header.forEach((h, i) => {
     const key = (Object.keys(HEADERS) as Column[]).find((k) => HEADERS[k].test(h.trim()));
     if (key && !cols.has(key)) cols.set(key, i);
+    else if (!key) {
+      const v = h.trim().match(VERSION_COL);
+      if (!v) return;
+      // "Lesson steps", "Student questions": the main lesson's, not a theme.
+      if (/^(lesson|kids?|students?|main|daily|worksheet|review)$/i.test(v[1])) {
+        const field = v[2].toLowerCase() as VersionField;
+        if (!cols.has(field)) cols.set(field, i);
+        return;
+      }
+      const level = LEVEL_WORD[v[1].toLowerCase()];
+      versionCols.push({ level, theme: level ? undefined : v[1].replace(/^theme:?\s*/i, '').trim(), field: v[2].toLowerCase() as VersionField, i });
+    }
   });
   const warnings: string[] = [];
   let body = rows;
@@ -254,18 +292,31 @@ export function parseTable(text: string): ImportResult {
       units.push(unit);
     }
     const minutes = Number(get(r, 'minutes'));
-    const link = get(r, 'link');
-    unit.lessons.push(
-      newLesson(title, {
-        pages: get(r, 'pages')?.replace(/^pp?\.?\s*/i, '').replace('-', '–') || undefined,
-        minutes: Number.isFinite(minutes) && minutes > 0 && minutes <= 480 ? Math.round(minutes) : undefined,
-        links: link && URL_RE.test(link) ? [{ label: 'Open lesson', url: link.match(URL_RE)![0] }] : [],
-        steps: listCell(get(r, 'steps')),
-        questions: listCell(get(r, 'questions')),
-        answers: listCell(get(r, 'answers')).length ? listCell(get(r, 'answers')) : undefined,
-        notes: get(r, 'notes') || undefined,
-      }),
-    );
+    const lesson = newLesson(title, {
+      pages: get(r, 'pages')?.replace(/^pp?\.?\s*/i, '').replace('-', '–') || undefined,
+      minutes: Number.isFinite(minutes) && minutes > 0 && minutes <= 480 ? Math.round(minutes) : undefined,
+      links: linkCell(get(r, 'link')),
+      steps: listCell(get(r, 'steps')),
+      questions: listCell(get(r, 'questions')),
+      answers: answerCell(get(r, 'answers')),
+      notes: get(r, 'notes') || undefined,
+    });
+    const standards = parseStandardList(get(r, 'standards') ?? '');
+    if (standards.length) lesson.standards = standards;
+    for (const vc of versionCols) {
+      const cell = r[vc.i];
+      if (!cell?.trim()) continue;
+      let v: LessonVersion;
+      if (vc.level) v = (lesson.versions ??= {})[vc.level] ??= { steps: [], questions: [] };
+      else {
+        const themes = (lesson.themes ??= []);
+        const found = themes.find((t) => t.theme.toLowerCase() === vc.theme!.toLowerCase());
+        v = found ?? themes[themes.push({ theme: vc.theme!, steps: [], questions: [] }) - 1];
+      }
+      if (vc.field === 'answers') v.answers = answerCell(cell);
+      else v[vc.field] = listCell(cell);
+    }
+    unit.lessons.push(lesson);
   }
   if (!units.length) warnings.push('No lessons found in those rows.');
   return { units, warnings };

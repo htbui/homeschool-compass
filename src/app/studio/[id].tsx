@@ -1,5 +1,5 @@
 import { router, Stack as RouterStack, useLocalSearchParams } from 'expo-router';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Pressable, View } from 'react-native';
 
 import { AddToPlanSheet } from '@/components/market/AddToPlanSheet';
@@ -7,18 +7,42 @@ import { money } from '@/components/market/ListingCard';
 import { normalizeUrl } from '@/lib/curriculum';
 import { formatDate } from '@/lib/dates';
 import { parseOutline } from '@/lib/importers';
+import { insightSentences, MIN_FAMILIES, type Insight } from '@/lib/insights';
 import { LICENSE_INFO, licenseName, ORIGINAL_LICENSES, SOURCE_LICENSES, type LicenseKind } from '@/lib/license';
 import { FORMAT_LABEL, GRADE_LABELS, INVOLVEMENT_LABEL, PHILOSOPHY_SHORT, type Involvement, type ListingFormat } from '@/lib/market';
-import { allLessons, attributionFor, lessonTotal, newLesson, newUnit, ORIGIN_LABEL, packageToListing, publishIssues, publishRules, type CurriculumPackage, type PackageLesson, type PackageUnit } from '@/lib/package';
+import {
+  allLessons,
+  attributionFor,
+  LEVEL_LABEL,
+  lessonTotal,
+  newLesson,
+  newUnit,
+  ORIGIN_LABEL,
+  packageToListing,
+  planThemes,
+  publishIssues,
+  publishRules,
+  THEME_IDEAS,
+  type CurriculumPackage,
+  type LessonLevel,
+  type LessonVersion,
+  type PackageLesson,
+  type PackageUnit,
+  type ThemedVersion,
+} from '@/lib/package';
 import { parseCount, parseMoney } from '@/lib/parse';
+import { planCsv, planFileName, planHtml } from '@/lib/planExport';
+import { parseStandardList, standardCode, standardLabel, strandsFor } from '@/lib/standards';
 import { SUBJECT_LIST, SUBJECTS } from '@/lib/subjects';
 import type { Philosophy } from '@/lib/types';
+import { exportHtml, shareText } from '@/services/exportDoc';
+import { lessonInsights, type InsightsResult } from '@/services/insights';
 import { deletePackage, publishPackage, savePackage, unpublishPackage } from '@/services/studioApi';
 import { useStore } from '@/store/useStore';
 import { useStudio } from '@/store/useStudio';
 import { Button, Card, Chip, Empty, Field, Pill, Row, Screen, Section, Segmented, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
 
-type Tab = 'details' | 'lessons' | 'publish';
+type Tab = 'details' | 'lessons' | 'publish' | 'insights';
 const COVERS = ['📘', '🧮', '🔤', '📚', '✏️', '🌱', '🔬', '🏛️', '🌎', '🎨', '🎵', '🧩', '🍕', '🌻', '🐋', '🚀', '🕊️', '🧺'];
 const PHILOSOPHIES = Object.keys(PHILOSOPHY_SHORT) as Philosophy[];
 const move = <T,>(list: T[], from: number, to: number): T[] => {
@@ -34,7 +58,7 @@ export default function PackageEditor() {
   const { id, tab: initialTab } = useLocalSearchParams<{ id: string; tab?: string }>();
   const c = useColors();
   const pkg = useStudio((s) => s.packages.find((p) => p.id === id));
-  const [tab, setTab] = useState<Tab>(initialTab === 'lessons' || initialTab === 'publish' ? initialTab : 'details');
+  const [tab, setTab] = useState<Tab>(initialTab === 'lessons' || initialTab === 'publish' || initialTab === 'insights' ? initialTab : 'details');
 
   if (!pkg) {
     return (
@@ -45,6 +69,8 @@ export default function PackageEditor() {
   }
   const update = (patch: Partial<CurriculumPackage>) => savePackage({ ...pkg, ...patch });
   const changed = pkg.status === 'published' && !!pkg.publishedAt && pkg.updatedAt > pkg.publishedAt;
+  // Insights need a published listing for families to report on.
+  const insights = pkg.status === 'published' && !!pkg.listingId;
 
   return (
     <Screen edges={[]}>
@@ -63,10 +89,19 @@ export default function PackageEditor() {
             { value: 'details', label: '📝 Details' },
             { value: 'lessons', label: `📚 Lessons (${lessonTotal(pkg.units)})` },
             { value: 'publish', label: pkg.origin.kind === 'owned_book' ? '🏠 Use' : '🚀 Publish' },
+            ...(insights ? [{ value: 'insights' as const, label: '📈 Insights' }] : []),
           ]}
         />
       </View>
-      {tab === 'details' ? <Details pkg={pkg} update={update} /> : tab === 'lessons' ? <Lessons pkg={pkg} update={update} /> : <Publish pkg={pkg} update={update} />}
+      {tab === 'details' ? (
+        <Details pkg={pkg} update={update} />
+      ) : tab === 'lessons' ? (
+        <Lessons pkg={pkg} update={update} />
+      ) : tab === 'insights' && insights ? (
+        <Insights pkg={pkg} />
+      ) : (
+        <Publish pkg={pkg} update={update} />
+      )}
     </Screen>
   );
 }
@@ -195,7 +230,18 @@ function Lessons({ pkg, update }: { pkg: CurriculumPackage; update: Update }) {
                     {l.title || <T color={c.danger}>Untitled lesson</T>}
                   </T>
                   <T v="caption" muted>
-                    {[l.pages && `pp. ${l.pages}`, l.minutes && `${l.minutes} min`, l.steps.length && `${l.steps.length} steps`, l.links.length && `🔗 ${l.links.length}`, l.questions.length && `✏️ ${l.questions.length}`].filter(Boolean).join(' · ') || 'Tap to add steps, pages, links, questions'}
+                    {[
+                      l.pages && `pp. ${l.pages}`,
+                      l.minutes && `${l.minutes} min`,
+                      l.steps.length && `${l.steps.length} steps`,
+                      l.links.length && `🔗 ${l.links.length}`,
+                      l.questions.length && `✏️ ${l.questions.length}`,
+                      (l.versions?.easier || l.versions?.harder) && `🌗 ${[l.versions?.easier && 'easier', l.versions?.harder && 'harder'].filter(Boolean).join(' & ')}`,
+                      l.themes?.length && `🎨 ${l.themes.map((t) => t.theme).join(', ')}`,
+                      l.standards?.length && `🎯 ${l.standards.length} standard${l.standards.length === 1 ? '' : 's'}`,
+                    ]
+                      .filter(Boolean)
+                      .join(' · ') || 'Tap to add steps, pages, links, questions'}
                   </T>
                 </Pressable>
                 <Button size="sm" kind="ghost" title="↑" accessibilityLabel={`Move lesson ${num} up`} disabled={li === 0} onPress={() => setUnit(ui, { ...u, lessons: move(u.lessons, li, li - 1) })} />
@@ -224,6 +270,7 @@ function Lessons({ pkg, update }: { pkg: CurriculumPackage; update: Update }) {
         <LessonSheet
           key={pkg.units[editing.unit].lessons[editing.lesson].id}
           lesson={pkg.units[editing.unit].lessons[editing.lesson]}
+          pkg={pkg}
           units={pkg.units}
           unitIndex={editing.unit}
           onClose={() => setEditing(null)}
@@ -254,7 +301,22 @@ const answerKey = (questions: string, answers: string): string[] | undefined => 
   return key.length ? key : undefined;
 };
 
-function LessonSheet({ lesson, units, unitIndex, onClose, onSave, onDelete }: { lesson: PackageLesson; units: PackageUnit[]; unitIndex: number; onClose: () => void; onSave: (l: PackageLesson, unit: number) => void; onDelete: () => void }) {
+/** An alternate version being edited: one text box per list. */
+interface VersionDraft {
+  theme?: string;
+  steps: string;
+  questions: string;
+  answers: string;
+}
+const toDraft = (v?: LessonVersion, theme?: string): VersionDraft => ({ theme, steps: (v?.steps ?? []).join('\n'), questions: (v?.questions ?? []).join('\n'), answers: (v?.answers ?? []).join('\n') });
+const fromDraft = (d: VersionDraft): LessonVersion | undefined => {
+  const v: LessonVersion = { steps: lines(d.steps), questions: lines(d.questions) };
+  const key = answerKey(d.questions, d.answers);
+  if (key) v.answers = key;
+  return v.steps.length || v.questions.length ? v : undefined;
+};
+
+function LessonSheet({ lesson, pkg, units, unitIndex, onClose, onSave, onDelete }: { lesson: PackageLesson; pkg: CurriculumPackage; units: PackageUnit[]; unitIndex: number; onClose: () => void; onSave: (l: PackageLesson, unit: number) => void; onDelete: () => void }) {
   const c = useColors();
   const [title, setTitle] = useState(lesson.title);
   const [pages, setPages] = useState(lesson.pages ?? '');
@@ -267,9 +329,59 @@ function LessonSheet({ lesson, units, unitIndex, onClose, onSave, onDelete }: { 
   const [linkUrl, setLinkUrl] = useState('');
   const [linkLabel, setLinkLabel] = useState('');
   const [unit, setUnit] = useState(unitIndex);
+  const [standards, setStandards] = useState((lesson.standards ?? []).join(', '));
+  const [grade, setGrade] = useState(Math.max(0, pkg.gradeMin));
+  const [levels, setLevels] = useState<Record<LessonLevel, VersionDraft>>({ easier: toDraft(lesson.versions?.easier), harder: toDraft(lesson.versions?.harder) });
+  const [themes, setThemes] = useState<VersionDraft[]>((lesson.themes ?? []).map((t) => toDraft(t, t.theme)));
+  /** Which version is open: 'easier', 'harder', or a theme's index. */
+  const [openVersion, setOpenVersion] = useState<LessonLevel | number | null>(null);
   const mins = minutes.trim() ? parseCount(minutes) : undefined;
   const link = normalizeUrl(linkUrl);
-  const missing = [!title.trim() && 'a title', minutes.trim() && !(mins && mins <= 480) && 'minutes between 1 and 480'].filter(Boolean);
+  const themeNames = themes.map((t) => (t.theme ?? '').trim().toLowerCase());
+  const missing = [
+    !title.trim() && 'a title',
+    minutes.trim() && !(mins && mins <= 480) && 'minutes between 1 and 480',
+    themes.some((t) => fromDraft(t) && !t.theme?.trim()) && 'a name for each theme',
+    themeNames.some((n, i) => n && themeNames.indexOf(n) !== i) && 'a different name for each theme',
+  ].filter(Boolean);
+  const tagList = parseStandardList(standards);
+  const strands = strandsFor(pkg.subjects, pkg.gradeMin, pkg.gradeMax);
+  const grades = Array.from({ length: Math.max(0, pkg.gradeMax) - Math.max(0, pkg.gradeMin) + 1 }, (_, i) => Math.max(0, pkg.gradeMin) + i);
+  const toggleTag = (code: string) => setStandards((tagList.some((t) => t.toUpperCase() === code.toUpperCase()) ? tagList.filter((t) => t.toUpperCase() !== code.toUpperCase()) : [...tagList, code]).join(', '));
+  const ideas = [...new Set([...planThemes(units), ...THEME_IDEAS])].filter((t) => !themeNames.includes(t.toLowerCase())).slice(0, 8);
+  const draft = openVersion === null ? undefined : typeof openVersion === 'number' ? themes[openVersion] : levels[openVersion];
+  const setDraft = (patch: Partial<VersionDraft>) => {
+    if (typeof openVersion === 'number') setThemes(themes.map((t, i) => (i === openVersion ? { ...t, ...patch } : t)));
+    else if (openVersion) setLevels({ ...levels, [openVersion]: { ...levels[openVersion], ...patch } });
+  };
+  const versionName = typeof openVersion === 'number' ? `“${themes[openVersion]?.theme?.trim() || 'New theme'}”` : openVersion ? LEVEL_LABEL[openVersion].replace(/^\S+ /, '') : '';
+
+  const build = (): PackageLesson => {
+    const versions: Partial<Record<LessonLevel, LessonVersion>> = {};
+    for (const lv of ['easier', 'harder'] as const) {
+      const v = fromDraft(levels[lv]);
+      if (v) versions[lv] = v;
+    }
+    const themed = themes.flatMap((d): ThemedVersion[] => {
+      const v = fromDraft(d);
+      return v && d.theme?.trim() ? [{ theme: d.theme.trim(), ...v }] : [];
+    });
+    const { versions: _v, themes: _t, standards: _s, ...rest } = lesson;
+    return {
+      ...rest,
+      title: title.trim(),
+      pages: pages.trim() || undefined,
+      minutes: mins,
+      steps: lines(steps),
+      questions: lines(questions),
+      answers: answerKey(questions, answers),
+      notes: notes.trim() || undefined,
+      links,
+      ...(Object.keys(versions).length ? { versions } : {}),
+      ...(themed.length ? { themes: themed } : {}),
+      ...(tagList.length ? { standards: tagList } : {}),
+    };
+  };
 
   return (
     <Sheet visible onClose={onClose} title="Lesson">
@@ -306,6 +418,73 @@ function LessonSheet({ lesson, units, unitIndex, onClose, onSave, onDelete }: { 
         {linkUrl.trim() && !link ? <T v="caption" color={c.danger}>Enter a web address</T> : null}
       </Stack>
       <Field label="Notes for the parent (optional)" value={notes} onChangeText={setNotes} multiline hint="Never shown to kids." />
+      <Stack gap={6}>
+        <T v="label">Other versions (optional)</T>
+        <T v="caption" muted>An easier or harder take, or the same lesson dressed in an interest. Families pick one per child; anything you leave blank uses the main lesson.</T>
+        <Row wrap gap={6}>
+          {(['easier', 'harder'] as const).map((lv) => (
+            <Chip key={lv} label={`${LEVEL_LABEL[lv]}${fromDraft(levels[lv]) ? ' ✓' : ''}`} selected={openVersion === lv} onPress={() => setOpenVersion(openVersion === lv ? null : lv)} />
+          ))}
+          {themes.map((t, i) => (
+            <Chip key={i} label={`🎨 ${t.theme?.trim() || 'New theme'}${fromDraft(t) ? ' ✓' : ''}`} selected={openVersion === i} onPress={() => setOpenVersion(openVersion === i ? null : i)} />
+          ))}
+          <Chip label="＋ Theme" onPress={() => { setThemes([...themes, { theme: '', steps: '', questions: '', answers: '' }]); setOpenVersion(themes.length); }} />
+        </Row>
+        {draft ? (
+          <Card tint={c.surfaceAlt}>
+            {typeof openVersion === 'number' ? (
+              <>
+                <Field label="Theme" value={draft.theme ?? ''} onChangeText={(theme) => setDraft({ theme })} placeholder="Dinosaurs" maxLength={40} />
+                {ideas.length ? (
+                  <Row wrap gap={6}>
+                    {ideas.map((t) => (
+                      <Chip key={t} label={t} onPress={() => setDraft({ theme: t })} />
+                    ))}
+                  </Row>
+                ) : null}
+              </>
+            ) : null}
+            <Field label={`${versionName} steps (one per line)`} value={draft.steps} onChangeText={(v) => setDraft({ steps: v })} multiline placeholder={lines(steps).length ? 'Blank = the main steps' : 'Count the dinosaurs'} />
+            <Field label={`${versionName} questions (one per line)`} value={draft.questions} onChangeText={(v) => setDraft({ questions: v })} multiline placeholder="Blank = the main questions" />
+            {lines(draft.questions).length ? <Field label={`${versionName} answers (same order)`} value={draft.answers} onChangeText={(v) => setDraft({ answers: v })} multiline hint="Only grown-ups see these." /> : null}
+            <Row style={{ justifyContent: 'flex-end' }}>
+              <Button
+                size="sm"
+                kind="ghost"
+                title={typeof openVersion === 'number' ? 'Remove theme' : 'Clear this version'}
+                onPress={() => {
+                  if (typeof openVersion === 'number') setThemes(themes.filter((_, i) => i !== openVersion));
+                  else if (openVersion) setLevels({ ...levels, [openVersion]: toDraft() });
+                  setOpenVersion(null);
+                }}
+              />
+            </Row>
+          </Card>
+        ) : null}
+      </Stack>
+      <Stack gap={6}>
+        <Field label="Standards (optional)" value={standards} onChangeText={setStandards} placeholder="CCSS.MATH.CONTENT.3.NF, TEKS 3.4A" hint="Any codes, separated by commas. Families see which subjects their plan covers." />
+        {strands.length ? (
+          <>
+            {grades.length > 1 ? (
+              <Row wrap gap={6}>
+                <T v="caption" muted>Common Core, grade</T>
+                {grades.map((g) => (
+                  <Chip key={g} label={g === 0 ? 'K' : String(g)} selected={grade === g} onPress={() => setGrade(g)} />
+                ))}
+              </Row>
+            ) : null}
+            <Row wrap gap={6}>
+              {strands.map((st) => {
+                const code = standardCode(st, grade);
+                const on = tagList.some((t) => t.toUpperCase() === code.toUpperCase());
+                return <Chip key={st.code} label={`${on ? '✓ ' : ''}${st.code} ${st.label}`} selected={on} onPress={() => toggleTag(code)} />;
+              })}
+            </Row>
+          </>
+        ) : null}
+        {tagList.length ? <T v="caption" muted>🎯 {tagList.map(standardLabel).join(' · ')}</T> : null}
+      </Stack>
       {units.length > 1 ? (
         <Stack gap={6}>
           <T v="label">Unit</T>
@@ -322,7 +501,7 @@ function LessonSheet({ lesson, units, unitIndex, onClose, onSave, onDelete }: { 
           title="Save lesson"
           disabled={missing.length > 0}
           reason={`Still needed: ${missing.join(', ')}`}
-          onPress={() => onSave({ ...lesson, title: title.trim(), pages: pages.trim() || undefined, minutes: mins, steps: lines(steps), questions: lines(questions), answers: answerKey(questions, answers), notes: notes.trim() || undefined, links }, unit)}
+          onPress={() => onSave(build(), unit)}
         />
       </Row>
     </Sheet>
@@ -439,6 +618,13 @@ function Publish({ pkg, update }: { pkg: CurriculumPackage; update: Update }) {
         ) : null}
       </Section>
 
+      <Section title="Export" subtitle="A teacher’s guide to print or save as a PDF, or a spreadsheet you can edit and import again.">
+        <Row wrap>
+          <Button kind="secondary" icon="📄" title="PDF teacher’s guide" disabled={!lessons.length} reason="Add lessons first" loading={busy === 'pdf'} onPress={() => run('pdf', () => exportHtml(planHtml({ ...pkg, attribution: credit }, profile?.name), planFileName(pkg, 'pdf').replace(/\.pdf$/, '')))} />
+          <Button kind="secondary" icon="📊" title="Spreadsheet (CSV)" disabled={!lessons.length} reason="Add lessons first" loading={busy === 'csv'} onPress={() => run('csv', () => shareText(planCsv(pkg), planFileName(pkg, 'csv'), 'text/csv'))} />
+        </Row>
+      </Section>
+
       {family ? (
         <Section title="Use it in your family" subtitle="Schedule it for your kids now — no publishing needed.">
           <Button kind="secondary" icon="🏠" title="Add to my family’s plan" disabled={!lessons.length} reason="Add lessons first" onPress={() => setPlanning(true)} />
@@ -523,6 +709,86 @@ function Publish({ pkg, update }: { pkg: CurriculumPackage; update: Update }) {
       ) : null}
       {confirm.element}
       <T v="caption" muted>{lessons.length} lessons · {pkg.price && !rules.mustBeFree ? money(pkg.price) : 'Free'}</T>
+    </Stack>
+  );
+}
+
+// ───────────────────────────── Insights
+
+const INSIGHT_ICON: Record<Insight['kind'], string> = { dropoff: '🚪', time: '⏱️', tricky: '🧗', skipped: '⏭️', quick: '⚡️', good: '🌟' };
+
+/** Anonymous totals from families using the published plan, as plain sentences. */
+function Insights({ pkg }: { pkg: CurriculumPackage }) {
+  const c = useColors();
+  const [result, setResult] = useState<InsightsResult | undefined>();
+  const [error, setError] = useState('');
+  useEffect(() => {
+    let alive = true;
+    lessonInsights(pkg.listingId!)
+      .then((r) => alive && setResult(r))
+      .catch((e) => alive && setError(e instanceof Error ? e.message : String(e)));
+    return () => {
+      alive = false;
+    };
+  }, [pkg.listingId]);
+  const lessons = new Map(allLessons(pkg.units).map((l) => [l.id, l]));
+  const stats = (result?.stats ?? []).filter((s) => lessons.has(s.lessonId)).sort((a, b) => lessons.get(a.lessonId)!.n - lessons.get(b.lessonId)!.n);
+  const sentences = insightSentences(pkg.units, stats);
+  const pct = (a: number, b: number) => `${Math.round((a / b) * 100)}%`;
+
+  return (
+    <Stack gap={space.lg} style={{ marginTop: space.lg }}>
+      <Card tint={c.surfaceAlt}>
+        <T>📈 How your lessons go in real families: finished or skipped, time taken vs. planned, and how often kids mark them tricky.</T>
+        <T v="caption" muted>Anonymous and added up across families: no names or details about any child. A lesson only shows here once {MIN_FAMILIES} or more families have used it; families can turn sharing off in Settings.</T>
+      </Card>
+      {error ? <T color={c.danger}>{error}</T> : null}
+      {!result && !error ? <T muted>Loading…</T> : null}
+      {result?.source === 'device' ? (
+        <Card tint={c.accentSoft}>
+          <T>Sign in to see insights from every family using this plan. Without an account, only this device’s family counts, which is below the {MIN_FAMILIES}-family minimum.</T>
+        </Card>
+      ) : null}
+      {result && !stats.length ? <Empty icon="🌱" title={`No lesson has ${MIN_FAMILIES} families yet`} body="Check back as more families use it. Numbers appear lesson by lesson as each one reaches the minimum." /> : null}
+      {sentences.length ? (
+        <Section title="What families’ days tell you">
+          <Stack gap={space.sm}>
+            {sentences.map((s) => (
+              <Card key={`${s.kind}-${s.lessonId ?? ''}`}>
+                <T>{INSIGHT_ICON[s.kind]} {s.text}</T>
+              </Card>
+            ))}
+          </Stack>
+        </Section>
+      ) : null}
+      {stats.length ? (
+        <Section title="Lesson by lesson" subtitle={`${stats[0].totalFamilies} families using it · lessons with ${MIN_FAMILIES}+ families`}>
+          <Card>
+            {stats.map((s) => {
+              const l = lessons.get(s.lessonId)!;
+              return (
+                <Stack key={s.lessonId} gap={2} style={{ borderTopWidth: 1, borderColor: c.border, paddingTop: 6 }}>
+                  <T>
+                    <T muted>{l.n}. </T>
+                    {l.title}
+                  </T>
+                  <T v="caption" muted>
+                    {[
+                      `${s.families} families`,
+                      `${pct(s.done, s.families)} finished`,
+                      s.avgMinutes && s.avgPlanned ? `${Math.round(s.avgMinutes)} min vs. ${Math.round(s.avgPlanned)} planned` : undefined,
+                      s.done ? `${pct(s.tricky, s.done)} tricky` : undefined,
+                      s.stoppedHere ? `${s.stoppedHere} stopped here` : undefined,
+                    ]
+                      .filter(Boolean)
+                      .join(' · ')}
+                  </T>
+                </Stack>
+              );
+            })}
+          </Card>
+        </Section>
+      ) : null}
     </Stack>
   );
 }
