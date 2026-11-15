@@ -1,5 +1,27 @@
+import { decode, meta, textOf } from './html';
 import { detectLicense, type License } from './license';
-import { newLesson, newUnit, type LessonLink, type PackageLesson, type PackageUnit } from './package';
+import { lessonTotal, newLesson, newUnit, type LessonLink, type PackageLesson, type PackageUnit } from './package';
+import {
+  chunkUnits,
+  isWiki,
+  jsonLdInfo,
+  lessonHref,
+  lessonLink,
+  nestSubpages,
+  nextPage,
+  parseJsonLdOutline,
+  parseLibreTexts,
+  parseNestedLists,
+  parsePressbooks,
+  parseWikiPrint,
+  parseYouTubePlaylist,
+  playlistId,
+  SKIP_LINK,
+  SKIP_SECTION,
+  type NextPage,
+} from './sites';
+
+export { parseLibreTexts, type NextPage };
 
 /**
  * Turn what people already have into lesson plans:
@@ -277,47 +299,104 @@ export interface WebImport extends ImportResult {
   title: string;
   author?: string;
   license?: License;
+  /** A better page to read for this course: its table of contents, outline, or print version. */
+  next?: NextPage;
+  /** Read as a video playlist, an open textbook, or an ordinary page. */
+  format: 'playlist' | 'textbook' | 'page';
 }
 
-const decode = (s: string) =>
-  s
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;|&apos;|&#x27;/g, "'")
-    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
-    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCharCode(parseInt(n, 16)));
-const textOf = (html: string) => decode(html.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
-const meta = (html: string, name: string) =>
-  html.match(new RegExp(`<meta[^>]+(?:name|property)=["']${name}["'][^>]*content=["']([^"']*)["']`, 'i'))?.[1] ??
-  html.match(new RegExp(`<meta[^>]+content=["']([^"']*)["'][^>]*(?:name|property)=["']${name}["']`, 'i'))?.[1];
-
-const SKIP_LINK =
-  /^(home|about|about us|contact|contact us|login|log in|sign in|sign up|register|search|menu|privacy|privacy policy|terms|terms of use|cookie|cookies|donate|share|tweet|facebook|twitter|instagram|pinterest|youtube|subscribe|next|previous|prev|back|top|back to top|skip to content|read more|more|edit|edit source|view source|edit this page|printable version|print|print this page|download|download pdf|pdf|pdf version|history|view history|talk|discussion|permanent link|permalink|cite|cite this page|help|faq|feedback|report|log out|\[?\d+\]?|\^|↑)$/i;
-/** Wiki/CMS housekeeping links (edit, history, special pages) that are never lessons. */
-const HOUSEKEEPING = /[?&](action|veaction|oldid|diff|printable)=|\/(Special|Talk|User|Help|Template|Category|File|Wikibooks|Wikiversity|Wikipedia):|\/w\/index\.php|\/(login|signin|signup|register|cart|account)\b/i;
-const SOCIAL = /(facebook|twitter|x|instagram|pinterest|linkedin|tiktok)\.com$/i;
-
 /**
- * A free curriculum's page → units (its section headings) and lessons (the
- * links or list items under each). Navigation, footers, and social links are
- * ignored; the source's license and author are picked up for attribution.
+ * A free curriculum's page → units and lessons. Known sources are read in
+ * their own outline format (YouTube playlists, Pressbooks, Wikibooks print
+ * versions, schema.org data); other pages by their section headings and the
+ * links or list items under each (or a nested list outline). Navigation,
+ * footers, and social links are ignored; the source's license and author
+ * are picked up for attribution.
  */
 export function parseWebPage(html: string, pageUrl: string): WebImport {
-  const warnings: string[] = [];
-  const license = detectLicense(html);
-  const title = decode(meta(html, 'og:title') ?? html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1] ?? '').replace(/\s+/g, ' ').trim() || new URL(pageUrl).hostname;
+  const base = new URL(pageUrl);
+  const ld = jsonLdInfo(html);
+  const title = decode(meta(html, 'og:title') ?? html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1] ?? '').replace(/\s+/g, ' ').trim() || base.hostname;
   const author = meta(html, 'author') ?? meta(html, 'article:author') ?? undefined;
 
-  const main =
+  // A playlist is the creator's videos: lessons link to them; their license is per video.
+  if (playlistId(base)) {
+    const yt = parseYouTubePlaylist(html, pageUrl);
+    return { units: yt.units, warnings: yt.warnings, title: yt.title ?? title.replace(/\s+-\s+YouTube$/, ''), author: yt.author, format: 'playlist' };
+  }
+
+  const next = nextPage(html, pageUrl);
+  const book = parsePressbooks(html, pageUrl) ?? parseWikiPrint(html, pageUrl);
+  const site = book ?? parseJsonLdOutline(html, pageUrl);
+  const { units, warnings } = site ? { units: site.units, warnings: [...site.warnings] } : readPage(html, base);
+  const license = site?.license ?? ld.license ?? detectLicense(html);
+  if (!units.length && next?.auto) warnings.length = 0;
+  else if (!license) warnings.push('No license found on that page. Check the source’s terms and choose its license before publishing.');
+  const gutenberg = gutenbergInfo(html);
+  return {
+    units: units.slice(0, 60).map((u) => ({ ...u, lessons: u.lessons.slice(0, 200) })),
+    warnings: license || !gutenberg ? warnings : warnings.filter((w) => !w.startsWith('No license')),
+    title: gutenberg?.title ?? site?.title ?? siteTitle(title),
+    author: gutenberg?.author ?? site?.author ?? ld.author ?? author,
+    license: license ?? gutenberg?.license,
+    next,
+    format: book || isWiki(base) || next?.kind === 'libretexts' ? 'textbook' : 'page',
+  };
+}
+
+/**
+ * Read the better page a course points to (`next`) when the first one has
+ * no outline of its own: a LibreTexts book's outline, or a Pressbooks
+ * chapter's book. Keeps the first page's result if that page can't be read.
+ */
+export async function followNext(
+  first: WebImport & { url: string },
+  load: (url: string) => Promise<{ url: string; html: string }>,
+): Promise<WebImport & { url: string }> {
+  const next = first.next;
+  if (!next?.auto) return first;
+  const fallback = lessonTotal(first.units) ? first : { ...first, warnings: [`Couldn’t load ${next.label}. Paste the course outline below instead — the source and license are still recorded.`] };
+  try {
+    const res = await load(next.url);
+    if (next.kind === 'libretexts') {
+      const book = parseLibreTexts(res.html);
+      if (!lessonTotal(book.units)) return fallback;
+      const license = book.license ?? first.license;
+      const warnings = license ? book.warnings : [...book.warnings, 'No license found for this book. Check the source’s terms and choose its license before publishing.'];
+      // The creator's address stays the source (the outline is only how it was read).
+      return { ...first, units: book.units, warnings, title: book.title ?? first.title, license, next: undefined };
+    }
+    const page = parseWebPage(res.html, res.url);
+    return lessonTotal(page.units) ? { ...page, url: res.url, next: undefined } : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+/** A page title without the site's name ("Arithmetic - Wikibooks, open books…", "Prealgebra - Mathematics LibreTexts"). */
+const siteTitle = (t: string) =>
+  t
+    .replace(/\s+[-–|]\s+(Wikibooks|Wikiversity)\b.*$/, '')
+    .replace(/\s+[-–|]\s+[\w ]*LibreTexts$/, '')
+    .replace(/\/(Print|Printable) version$/i, '')
+    .trim() || t;
+
+/** Any other page: its headings become units and the links (or list items) under each become lessons. */
+function readPage(html: string, base: URL): ImportResult {
+  const warnings: string[] = [];
+  const wiki = isWiki(base);
+  let main =
     html.match(/<main[\s\S]*?<\/main>/i)?.[0] ??
     html.match(/<article[\s\S]*?<\/article>/i)?.[0] ??
     html.match(/<body[\s\S]*?<\/body>/i)?.[0] ??
     html;
+  if (wiki) {
+    // MediaWiki: just the page's text, without its info boxes, navigation boxes, and category links.
+    const at = main.indexOf('mw-parser-output');
+    main = (at >= 0 ? main.slice(at) : main).split(/<div[^>]+(?:class=["']printfooter|id=["']catlinks)/i)[0];
+    main = main.replace(/<table\b[^>]*class=["'][^"']*(infobox|navbox|metadata|mbox|toccolours|sister)[^"']*["'][\s\S]*?<\/table>/gi, ' ');
+  }
   const body = main.replace(/<(script|style|nav|header|footer|aside|form|noscript|svg)\b[\s\S]*?<\/\1>/gi, ' ').replace(/<!--[\s\S]*?-->/g, ' ');
-  const base = new URL(pageUrl);
 
   type Token = { kind: 'heading'; text: string } | { kind: 'link'; text: string; href: string } | { kind: 'item'; text: string };
   const tokens: Token[] = [];
@@ -325,15 +404,22 @@ export function parseWebPage(html: string, pageUrl: string): WebImport {
   let m: RegExpExecArray | null;
   while ((m = re.exec(body))) {
     if (m[1]) {
-      const t = textOf(m[2]).replace(/\s*\[\s*edit( source)?\s*\]\s*$/i, '');
+      const t = textOf(m[2]).replace(/\s*\[\s*edit( \| edit source)?( source)?\s*\]\s*$/i, '');
       if (t) tokens.push({ kind: 'heading', text: t });
     } else if (m[3] !== undefined) {
-      const inner = m[3];
-      const a = inner.match(/<a\b([^>]*)>([\s\S]*?)<\/a>/i);
-      if (a) {
-        const href = a[1].match(/href=["']([^"']+)["']/i)?.[1];
-        if (href) tokens.push({ kind: 'link', text: textOf(inner), href });
-      } else {
+      let inner = m[3];
+      // An item holding a list of its own: read the item, then go on into the list.
+      const sub = inner.search(/<(ul|ol)\b/i);
+      if (sub >= 0) {
+        re.lastIndex = m.index + m[0].indexOf(inner) + sub;
+        inner = inner.slice(0, sub);
+      }
+      const a = lessonLink(inner, base);
+      if (a) tokens.push({ kind: 'link', text: textOf(inner), href: a.url.href });
+      // Items whose only links are navigation or housekeeping aren't lessons.
+      // (Neither are labels over a list of their own.)
+      else if (/<a\b/i.test(inner) || sub >= 0) continue;
+      else {
         const t = textOf(inner);
         if (t) tokens.push({ kind: 'item', text: t });
       }
@@ -354,22 +440,20 @@ export function parseWebPage(html: string, pageUrl: string): WebImport {
   // Links to places on this same page: the table of contents of a book on one page (Project Gutenberg).
   const anchors: PackageLesson[] = [];
   let current: PackageUnit | undefined;
+  let skipping = false;
   for (const t of tokens) {
     if (t.kind === 'heading') {
-      current = newUnit(t.text);
-      units.push(current);
+      // "See also", "References", "Prerequisites"…: links that lead elsewhere.
+      skipping = SKIP_SECTION.test(t.text);
+      current = skipping ? undefined : newUnit(t.text);
+      if (current) units.push(current);
       continue;
     }
-    if (!t.text || t.text.length < 3 || t.text.length > 200 || SKIP_LINK.test(t.text)) continue;
+    if (skipping || !t.text || t.text.length < 3 || t.text.length > 200 || SKIP_LINK.test(t.text)) continue;
     let lesson: PackageLesson;
     if (t.kind === 'link') {
-      let url: URL;
-      try {
-        url = new URL(decode(t.href), base);
-      } catch {
-        continue;
-      }
-      if (!/^https?:$/.test(url.protocol) || SOCIAL.test(url.hostname) || /creativecommons\.org/.test(url.hostname) || HOUSEKEEPING.test(url.href)) continue;
+      const url = lessonHref(t.href, base);
+      if (!url) continue;
       if (url.href.split('#')[0] === base.href.split('#')[0]) {
         if (url.hash.length > 1 && !seen.has(url.href)) {
           seen.add(url.href);
@@ -390,26 +474,46 @@ export function parseWebPage(html: string, pageUrl: string): WebImport {
     current.lessons.push(lesson);
   }
   let kept = units.filter((u) => u.lessons.length);
+  if (wiki) kept = tidyWiki(kept, base);
+  // No sections to go by: an outline written as nested lists has the units.
+  if (kept.length <= 1) {
+    const nested = parseNestedLists(body, base.href);
+    if (nested.length >= 2 && lessonTotal(nested) * 2 >= lessonTotal(kept)) kept = nested;
+  }
   const linked = kept.reduce((n, u) => n + u.lessons.filter((l) => l.links.length).length, 0);
   // A whole book on one page: its contents links (or, without them, its chapter headings) are the lessons.
-  const onPage = anchors.length >= 3 ? anchors : headingAnchors(body, base);
+  // (Not wikis: every wiki heading has an id; their whole books are print versions.)
+  const onPage = wiki ? [] : anchors.length >= 3 ? anchors : headingAnchors(body, base);
   if (onPage.length >= 3 && linked < onPage.length / 2) {
     kept = chunkUnits(onPage);
-    warnings.length = 0;
     warnings.push('This looks like a whole book on one page, so each chapter became a lesson. Group them into units in the editor if you like.');
   }
   if (!kept.length && scriptBuilt(html)) warnings.push('This site builds its pages with scripts, so its outline can’t be read automatically. Open the course in your browser, select its list of units and lessons, copy it, and paste it below. Lesson links you paste with it are kept.');
   else if (!kept.length) warnings.push('Couldn’t find a list of lessons on that page. Paste the course outline instead — the source and license are still recorded.');
-  else if (kept.length < units.length) warnings.push('Some sections without lessons were left out.');
-  if (!license) warnings.push('No license found on that page. Check the source’s terms and choose its license before publishing.');
-  const gutenberg = gutenbergInfo(html);
-  return {
-    units: kept.slice(0, 60).map((u) => ({ ...u, lessons: u.lessons.slice(0, 200) })),
-    warnings: license || !gutenberg ? warnings : warnings.filter((w) => !w.startsWith('No license')),
-    title: gutenberg?.title ?? title,
-    author: gutenberg?.author ?? author,
-    license: license ?? gutenberg?.license,
+  else if (kept.length < units.length && !wiki) warnings.push('Some sections without lessons were left out.');
+  return { units: kept, warnings };
+}
+
+/**
+ * Wikibooks and Wikiversity pages: links before the first heading are
+ * banners and "see also" boxes; when most lessons are the page's own
+ * subpages, other links are left out; and subpages of a chapter become
+ * that chapter's lessons.
+ */
+function tidyWiki(units: PackageUnit[], base: URL): PackageUnit[] {
+  let out = units.length > 1 && units[0].title === 'Lessons' ? units.slice(1) : units;
+  const root = decodeURIComponent(base.pathname).replace(/\/$/, '');
+  const sub = (l: PackageLesson) => {
+    try {
+      return decodeURIComponent(new URL(l.links[0]?.url ?? '').pathname).startsWith(`${root}/`);
+    } catch {
+      return false;
+    }
   };
+  if (out.reduce((n, u) => n + u.lessons.filter(sub).length, 0) >= 3) out = out.map((u) => ({ ...u, lessons: u.lessons.filter(sub) })).filter((u) => u.lessons.length);
+  // Subpage titles are written as paths ("Fractions/Adding"); keep the last part.
+  out = nestSubpages(out);
+  return out.map((u) => ({ ...u, lessons: u.lessons.map((l) => (l.title.includes('/') && sub(l) ? { ...l, title: l.title.split('/').filter(Boolean).at(-1)!.trim() } : l)) }));
 }
 
 /** Headings that carry an id (chapters of a one-page book with no contents links). */
@@ -425,14 +529,6 @@ function headingAnchors(body: string, base: URL): PackageLesson[] {
   }
   return out;
 }
-
-/** Long lists of chapters → units of about ten. */
-function chunkUnits(lessons: PackageLesson[], size = 10): PackageUnit[] {
-  const units: PackageUnit[] = [];
-  for (let i = 0; i < lessons.length; i += size) units.push(newUnit(lessons.length > size ? `Lessons ${i + 1}–${Math.min(lessons.length, i + size)}` : 'Lessons', lessons.slice(i, i + size)));
-  return units;
-}
-
 /** Pages whose content arrives by script: almost no text, lots of script. */
 function scriptBuilt(html: string): boolean {
   const scripts = (html.match(/<script\b/gi) ?? []).length;
@@ -454,16 +550,19 @@ export function gutenbergInfo(html: string): { title?: string; author?: string; 
 
 // ───────────────────────────── Where the course lives
 
-export type SourceKind = 'gutenberg' | 'scan' | 'page';
+export type SourceKind = 'gutenberg' | 'scan' | 'playlist' | 'page';
 
 /**
  * The page to read for a course address. Project Gutenberg book pages point
  * to the book itself (one HTML page with every chapter); archive.org scans
- * have no text outline, so their outline is pasted and linked page by page.
+ * have no text outline, so their outline is pasted and linked page by page;
+ * a video watched from a YouTube playlist points to the whole playlist.
  */
 export function sourceAddress(url: string): { kind: SourceKind; fetchUrl: string; scanId?: string } {
   const u = new URL(url);
   const host = u.hostname.replace(/^www\./, '');
+  const list = playlistId(u);
+  if (list) return { kind: 'playlist', fetchUrl: `https://www.youtube.com/playlist?list=${list}` };
   const gb = host.endsWith('gutenberg.org') ? u.pathname.match(/^\/ebooks\/(\d+)/) : null;
   if (gb) return { kind: 'gutenberg', fetchUrl: `https://www.gutenberg.org/cache/epub/${gb[1]}/pg${gb[1]}-images.html` };
   if (host.endsWith('gutenberg.org')) return { kind: 'gutenberg', fetchUrl: u.href };
