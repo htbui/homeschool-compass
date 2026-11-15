@@ -225,7 +225,8 @@ export function splitRows(text: string): string[][] {
     row.push(cell);
     rows.push(row);
   }
-  return rows.map((r) => r.map((c) => c.trim())).filter((r) => r.some(Boolean));
+  // A leading ' marks text a spreadsheet must not treat as a formula (see csvCell).
+  return rows.map((r) => r.map((c) => c.trim().replace(/^'(?=[=+@])/, ''))).filter((r) => r.some(Boolean));
 }
 
 /** One item per line; or, in a single-line cell, split on ";" or "|". */

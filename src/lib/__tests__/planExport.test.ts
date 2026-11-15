@@ -45,6 +45,13 @@ describe('plan export', () => {
     expect(csv.split('\n')[1]).toBe('Review,Pizza day,,,,Cut the pizza,,,');
   });
 
+  it('keeps formulas from running in spreadsheets, and imports them back as text', () => {
+    expect(csvCell('=HYPERLINK("x")')).toBe(`"'=HYPERLINK(""x"")"`);
+    expect(csvCell('+1 more')).toBe("'+1 more");
+    expect(csvCell(-3)).toBe('-3');
+    expect(splitRows(`Unit,Lesson\nA,"'=2+2 practice"`)[1][1]).toBe('=2+2 practice');
+  });
+
   it('quotes cells safely', () => {
     expect(csvCell('a,b')).toBe('"a,b"');
     expect(csvCell('say "hi"')).toBe('"say ""hi"""');

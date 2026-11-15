@@ -14,9 +14,13 @@ const lines = (list?: string[]) => (list ?? []).join('\n');
 /** Blank answers keep their place as "-" (the importer reads that as blank). */
 const answerLines = (list?: string[]) => (list ?? []).map((a) => a || '-').join('\n');
 
-/** One CSV cell: quoted when it has a comma, quote, or line break. Tabs become spaces (the importer treats a tab as TSV). */
+/**
+ * One CSV cell: quoted when it has a comma, quote, or line break. Tabs become spaces (the importer treats a tab as TSV).
+ * Text starting with = + @ gets a leading ' so spreadsheets don't run it as a formula (the importer drops it again).
+ */
 export function csvCell(v: string | number | undefined): string {
-  const s = v === undefined ? '' : String(v).replace(/\t/g, ' ').replace(/\r\n?/g, '\n');
+  const raw = v === undefined ? '' : String(v).replace(/\t/g, ' ').replace(/\r\n?/g, '\n');
+  const s = typeof v === 'string' && /^[=+@]/.test(raw) ? `'${raw}` : raw;
   return /[",\n]|^\s|\s$/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
 }
 
