@@ -1,10 +1,12 @@
 import { Redirect, Stack } from 'expo-router';
 
+import { useHeaderOptions } from '@/components/HeaderBack';
 import { useStore } from '@/store/useStore';
 import { useColors } from '@/ui';
 
 export default function RecordsLayout() {
   const c = useColors();
+  const header = useHeaderOptions();
   const family = useStore((s) => s.family);
   const mode = useStore((s) => s.mode);
   if (!family) return <Redirect href="/onboarding" />;
@@ -13,10 +15,8 @@ export default function RecordsLayout() {
     <Stack
       screenOptions={{
         headerShown: true,
-        headerStyle: { backgroundColor: c.surface },
-        headerTintColor: c.text,
         contentStyle: { backgroundColor: c.bg },
-        headerBackTitle: 'Compass',
+        ...header,
       }}>
       <Stack.Screen name="noi" options={{ title: 'Notice of Intent' }} />
       <Stack.Screen name="hours" options={{ title: 'Hours & Attendance' }} />

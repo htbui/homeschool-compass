@@ -9,7 +9,7 @@ import { claimGift, previewGift, type GiftPreview } from '@/services/giftApi';
 import { useAccount } from '@/store/useAccount';
 import { useCatalog } from '@/store/useMarket';
 import { useStore } from '@/store/useStore';
-import { Button, Card, Empty, Screen, space, Stack, T, useColors } from '@/ui';
+import { Button, Card, Empty, Row, Screen, space, Stack, T, useColors } from '@/ui';
 
 /** A gift link: see what it is and claim it into this family's library. */
 export default function GiftLink() {
@@ -69,12 +69,20 @@ export default function GiftLink() {
               <Button title="Add it to your plan" disabled={!listing} reason="Open it from Marketplace → My library" onPress={() => setPlanning(true)} />
               <Button kind="secondary" title="Go to my library" onPress={() => router.replace({ pathname: '/market', params: { view: 'library' } })} />
             </Stack>
-          ) : gift.status === 'claimed' ? (
-            <T muted>This gift has already been claimed.</T>
           ) : gift.status !== 'ready' ? (
-            <T muted>This gift isn’t available any more.</T>
+            <Stack>
+              <T muted>{gift.status === 'claimed' ? 'This gift has already been claimed. If you claimed it, it’s in your library.' : 'This gift isn’t available any more.'}</T>
+              {/* Gift links are often the first thing a family opens: never leave them on a dead end. */}
+              <Row wrap>
+                {family ? <Button title="Go to my library" onPress={() => router.replace({ pathname: '/market', params: { view: 'library' } })} /> : null}
+                <Button kind="secondary" title="Browse the marketplace" onPress={() => router.replace('/market')} />
+              </Row>
+            </Stack>
           ) : !family ? (
-            <T muted>Set up your family first, then open this link again to claim it.</T>
+            <Stack>
+              <T muted>Set up your family first, then open this link again to claim it.</T>
+              <Button title="Set up my family" onPress={() => router.push('/onboarding')} />
+            </Stack>
           ) : (
             <Button size="lg" title="Claim my gift" loading={busy} onPress={claim} />
           )}
