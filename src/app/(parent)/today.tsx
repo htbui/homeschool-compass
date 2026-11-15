@@ -298,7 +298,8 @@ export default function FlightDeck() {
             }}
           />
         ))}
-        {date === todayKey() ? (
+        {targets.length === 0 ? <T>No school days are set, so there is no day to move work to. Pick school days or a flex day in Settings.</T> : null}
+        {date === todayKey() && targets[0] ? (
           <Button
             kind="ghost"
             title="Only tasks from now on"

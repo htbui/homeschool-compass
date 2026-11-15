@@ -25,7 +25,8 @@ type TimerMode = 'stopwatch' | 'pomodoro';
 export default function ActivityCard() {
   const c = useColors();
   const { taskId } = useLocalSearchParams<{ taskId: string }>();
-  const task = useStore((s) => s.tasks.find((t) => t.id === taskId));
+  // In a kid's session, only their own missions open (another kid's is "not found").
+  const task = useStore((s) => s.tasks.find((t) => t.id === taskId && (s.mode.kind !== 'kid' || t.childId === s.mode.childId)));
   const kid = useStore((s) => s.children.find((k) => k.id === task?.childId));
   const family = useStore((s) => s.family);
   const photos = useStore(useShallow((s) => s.evidence.filter((e) => e.taskId === taskId)));
@@ -99,7 +100,7 @@ export default function ActivityCard() {
         <View style={{ alignItems: 'center', justifyContent: 'center', flex: 1, gap: space.lg, paddingTop: space.xxl * 2 }}>
           <Text style={{ fontSize: 96 }}>🌟</Text>
           <T v="display" style={{ textAlign: 'center' }}>Mission complete!</T>
-          <T v="title">+{reflection ? 15 : 10} Sparks</T>
+          <T v="title">+{reflection.trim() ? 15 : 10} Sparks</T>
         </View>
       </Screen>
     );

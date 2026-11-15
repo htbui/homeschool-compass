@@ -47,3 +47,4 @@ e2e/screenshots/
 supabase/functions/.env
 supabase/zcta.sql
 .claude/worktrees/
+coverage/
