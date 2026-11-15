@@ -304,8 +304,43 @@ try {
   await C.click('🚌 Field trips');
   await C.expect(`Museum day ${run}`, 'field trip visible to the other family');
   await C.clickIn(`Museum day ${run}`, 'RSVP');
+  await C.expect('Before you meet up', 'safety tips before the first meetup');
+  await C.click('Got it, RSVP');
   await C.clickIn(`Museum day ${run}`, 'Join carpool matching');
   await C.expect(`Carpool with: Dana ${run}`, 'carpool match shown');
+
+  // ───────────────────────────── Messages between the two connected families
+  scenario('Messages');
+  await C.goto('/messages');
+  await C.expect('Say hello', 'connected family ready to message');
+  await C.clickIn(`Dana ${run}`, 'Message');
+  await C.expect('Only your two families can read this conversation');
+  await C.page.type(`textarea[placeholder="Message Dana ${run}"]`, `Park day Tuesday? ${run}`);
+  await C.click('Send', { exact: true });
+  await C.expect(`Park day Tuesday? ${run}`, 'message sent');
+  await A.goto('/today');
+  const bellCounts = await A.page
+    .waitForFunction(() => [...document.querySelectorAll('[aria-label^="Notifications"]')].some((e) => /unread/.test(e.getAttribute('aria-label') ?? '')), { timeout: 15000 })
+    .then(() => true, () => false);
+  log(bellCounts, 'dana: bell counts the new message');
+  await A.goto('/notifications');
+  await A.expect(`1 new message from Rosa ${run}`, 'new message in notifications');
+  await A.click(`1 new message from Rosa ${run}`);
+  await A.expect(`Park day Tuesday? ${run}`, 'notification opens the conversation');
+  await A.page.type(`textarea[placeholder="Message Rosa ${run}"]`, `See you there ${run}`);
+  await A.click('Send', { exact: true });
+  await C.expect(`See you there ${run}`, 'reply arrives in real time', 15000);
+  await C.click('Report', { exact: true });
+  await C.expect('Report this message');
+  await C.click('📣 Spam or a scam');
+  await C.click('Send report');
+  await C.expect('Thanks, we got it.', 'message reported');
+  await C.click('Done', { exact: true });
+  // Dana asks to be verified (a moderator decides below).
+  await A.goto('/community');
+  await A.click('Ask to be verified');
+  await A.click('Send request');
+  await A.expect('The Freerange team got your request', 'verification requested');
 
   // ───────────────────────────── A creator adapts a free online course and publishes it
   scenario('Studio (cloud)');
@@ -410,6 +445,21 @@ try {
   log(await A.waitFor('That listing isn\'t available', 15000), 'taken-down listing is gone for families');
   await S.goto('/studio');
   await S.expect('Hidden by Freerange moderators', 'creator sees the takedown', 15000);
+  // The reported message: moderators see only that message, and the sender is told.
+  await B.goto('/moderation');
+  await B.expect(`Message from Dana ${run}`, 'moderator sees the reported message', 15000);
+  log(!(await B.has(`Park day Tuesday? ${run}`)), 'the rest of the conversation stays private');
+  await B.clickIn(`Message from Dana ${run}`, 'Hide message');
+  await A.goto('/notifications');
+  await A.expect('A moderator hid one of your messages', 'sender is told about the decision', 15000);
+  // Verification: the moderator marks Dana's family verified.
+  await B.goto('/moderation');
+  await B.expect('Verification requests (', 'verification queue', 15000);
+  await B.clickIn(`Dana ${run}`, 'Mark verified');
+  await C.goto('/messages');
+  await C.expect('✓ Verified family', 'verified badge in messages', 15000);
+  await A.goto('/notifications');
+  await A.expect('Your family is verified', 'family told it is verified', 15000);
   course.close();
 
   // ───────────────────────────── Sign out keeps data; erase stays local

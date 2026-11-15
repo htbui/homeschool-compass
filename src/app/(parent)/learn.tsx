@@ -1,4 +1,4 @@
-import { router } from 'expo-router';
+import { router, useLocalSearchParams } from 'expo-router';
 import { useMemo, useState } from 'react';
 import { View } from 'react-native';
 
@@ -40,7 +40,9 @@ export default function CurriculumHub() {
   const materialsCur = curricula.find((k) => k.id === materialsFor);
   const updates = usePlanUpdates();
   const [reviewing, setReviewing] = useState<string | null>(null);
-  const reviewCur = curricula.find((k) => k.id === reviewing);
+  // Opened from a notification: show that plan's update.
+  const { review } = useLocalSearchParams<{ review?: string }>();
+  const reviewCur = curricula.find((k) => k.id === (reviewing ?? review));
   const confirm = useConfirm();
 
   const [theme, setTheme] = useState('');
@@ -200,7 +202,11 @@ export default function CurriculumHub() {
       <Sheet visible={!!materialsCur} onClose={() => setMaterialsFor(null)} title={`📖 ${materialsCur?.name ?? ''}`}>
         {materialsCur ? <MaterialsEditor curriculumId={materialsCur.id} /> : null}
       </Sheet>
-      <PlanUpdateSheet curriculum={reviewCur} info={reviewCur ? updates[reviewCur.id] : undefined} onClose={() => setReviewing(null)} />
+      <PlanUpdateSheet curriculum={reviewCur} info={reviewCur ? updates[reviewCur.id] : undefined} onClose={() => {
+          setReviewing(null);
+          if (review) router.setParams({ review: undefined });
+        }}
+      />
       {confirm.element}
     </Screen>
   );

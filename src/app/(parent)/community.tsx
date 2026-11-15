@@ -3,6 +3,9 @@ import { useMemo, useState } from 'react';
 import { View } from 'react-native';
 
 import { LiveCommunity } from '@/components/community/LiveCommunity';
+import { useMeetupTips } from '@/components/community/SafetyTips';
+import { VerifiedBadge } from '@/components/community/VerifiedBadge';
+import { NotificationBell } from '@/components/NotificationBell';
 import { matchFamilies, SAMPLE_FAMILIES } from '@/lib/community';
 import { formatDate, addDays, todayKey } from '@/lib/dates';
 import { parseCount } from '@/lib/parse';
@@ -26,7 +29,10 @@ export default function CommunityHub() {
   const live = useAccount((s) => cloudEnabled && !!s.userId && !!s.familyId && !s.conflict);
   return (
     <Screen>
-      <T v="display">Community</T>
+      <Row style={{ justifyContent: 'space-between' }}>
+        <T v="display">Community</T>
+        <NotificationBell />
+      </Row>
       <T muted>Local families, co-ops, and field trips. Exact addresses are never shared — only distance bands.</T>
       {live ? <LiveCommunity /> : <PreviewCommunity />}
     </Screen>
@@ -53,6 +59,7 @@ function PreviewCommunity() {
 
   const [newCoop, setNewCoop] = useState(false);
   const [newEvent, setNewEvent] = useState(false);
+  const tips = useMeetupTips();
 
   return (
     <>
@@ -103,7 +110,10 @@ function PreviewCommunity() {
             {matches.map((f) => (
               <Card key={f.id}>
                 <Row style={{ justifyContent: 'space-between' }} wrap>
-                  <T v="heading">{f.displayName} {f.verified ? '✅' : ''}</T>
+                  <Row wrap gap={6} style={{ flex: 1 }}>
+                    <T v="heading">{f.displayName}</T>
+                    {f.verified ? <VerifiedBadge /> : null}
+                  </Row>
                   <Pill text={f.band} />
                 </Row>
                 <T v="caption" muted>Kids: {f.kidAges.join(', ')} · {f.philosophies.map((p) => PHILOSOPHY_INFO[p].label).join(', ')}</T>
@@ -167,7 +177,7 @@ function PreviewCommunity() {
                 <T v="caption" muted>📍 {e.location} · Ages {e.ages} · Host {e.host} · {e.costPerKid ? `$${e.costPerKid}/kid` : 'Free'}</T>
                 <T v="caption">{e.rsvps}/{e.capacity} going{e.rsvps >= 10 && e.costPerKid ? ' · group discount likely' : ''}</T>
                 <Row wrap>
-                  <Button size="sm" kind={e.going ? 'secondary' : 'primary'} title={e.going ? "Can't make it" : 'RSVP'} disabled={!e.going && e.rsvps >= e.capacity} onPress={() => toggleEvent(e.id, 'going')} />
+                  <Button size="sm" kind={e.going ? 'secondary' : 'primary'} title={e.going ? "Can't make it" : 'RSVP'} disabled={!e.going && e.rsvps >= e.capacity} onPress={() => (e.going ? toggleEvent(e.id, 'going') : tips.beforeMeetup(() => toggleEvent(e.id, 'going')))} />
                   {e.going ? <Button size="sm" kind="ghost" title={e.carpool ? '🚗 In carpool pool ✓' : '🚗 Join carpool matching'} onPress={() => toggleEvent(e.id, 'carpool')} /> : null}
                 </Row>
               </Card>
@@ -189,6 +199,12 @@ function PreviewCommunity() {
         </Section>
       ) : null}
 
+      {tab === 'events' ? (
+        <Row style={{ marginTop: space.sm }}>
+          <Button size="sm" kind="ghost" icon="🛟" title="Meetup safety tips" onPress={tips.show} />
+        </Row>
+      ) : null}
+      {tips.element}
       <CoopSheet visible={newCoop} onClose={() => setNewCoop(false)} onSave={(name, description, meets) => { addCoop({ name, description, meets, duties: [{ label: 'Organizer', family: family.parentName }] }); setNewCoop(false); }} />
       <EventSheet visible={newEvent} onClose={() => setNewEvent(false)} onSave={(e) => { addEvent({ ...e, host: family.parentName }); setNewEvent(false); }} />
     </>

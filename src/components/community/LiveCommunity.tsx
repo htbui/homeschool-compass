@@ -2,6 +2,10 @@ import { router } from 'expo-router';
 import { useEffect, useEffectEvent, useState } from 'react';
 import { View } from 'react-native';
 
+import { useMeetupTips } from './SafetyTips';
+import { VerificationCard } from './Verification';
+import { VerifiedBadge } from './VerifiedBadge';
+
 import { addDays, ageOn, formatDate, todayKey } from '@/lib/dates';
 import { parseCount } from '@/lib/parse';
 import { PHILOSOPHY_INFO } from '@/lib/quiz';
@@ -32,6 +36,7 @@ import {
   type LiveEvent,
   type NearbyFamily,
 } from '@/services/communityApi';
+import { useInbox, selectUnreadMessages } from '@/store/useInbox';
 import { useStore } from '@/store/useStore';
 import { Button, Card, Chip, DateField, Empty, Field, MoneyField, Pill, Row, Section, Segmented, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
 
@@ -142,11 +147,15 @@ function ProfileForm({ initial, onSaved, onCancel }: { initial?: CommunityProfil
 function CommunityTabs({ profile, onEditProfile }: { profile: CommunityProfile; onEditProfile: () => void }) {
   const [tab, setTab] = useState<Tab>('families');
   const [radius, setRadius] = useState(25);
+  const unread = useInbox(selectUnreadMessages);
   return (
     <>
       <Row wrap style={{ justifyContent: 'space-between', marginTop: space.md }}>
         <T v="caption" muted>Signed in as {profile.displayName}{profile.visible ? '' : ' (hidden from the finder)'}</T>
-        <Button size="sm" kind="ghost" title="Edit profile" onPress={onEditProfile} />
+        <Row wrap gap={space.xs}>
+          <Button size="sm" kind="secondary" icon="💬" title={unread ? `Messages (${unread})` : 'Messages'} onPress={() => router.push('/messages')} />
+          <Button size="sm" kind="ghost" title="Edit profile" onPress={onEditProfile} />
+        </Row>
       </Row>
       <View style={{ marginTop: space.sm }}>
         <Segmented<Tab>
@@ -168,6 +177,7 @@ function CommunityTabs({ profile, onEditProfile }: { profile: CommunityProfile; 
         </Row>
       ) : null}
       {tab === 'families' ? <Families radius={radius} /> : null}
+      {tab === 'families' ? <View style={{ marginTop: space.lg }}><VerificationCard /></View> : null}
       {tab === 'coops' ? <Coops radius={radius} profile={profile} /> : null}
       {tab === 'events' ? <Events radius={radius} profile={profile} /> : null}
       {tab === 'swap' ? (
@@ -249,7 +259,10 @@ function Families({ radius }: { radius: number }) {
           <Stack gap={space.sm}>
             {incoming.map((x) => (
               <Card key={x.familyId} tint={c.accentSoft}>
-                <T v="heading">{x.displayName}</T>
+                <Row wrap gap={6}>
+                  <T v="heading">{x.displayName}</T>
+                  {x.verified ? <VerifiedBadge /> : null}
+                </Row>
                 <T v="caption" muted>{x.band}{x.kidAges.length ? ` · kids ${x.kidAges.join(', ')}` : ''}</T>
                 {x.message ? <T>“{x.message}”</T> : null}
                 <Row>
@@ -290,12 +303,16 @@ function Families({ radius }: { radius: number }) {
           {(finder.data ?? []).map((f) => (
             <Card key={f.familyId}>
               <Row style={{ justifyContent: 'space-between' }} wrap>
-                <T v="heading">{f.displayName} {f.emailVerified ? '✅' : ''}</T>
+                <Row wrap gap={6} style={{ flex: 1 }}>
+                  <T v="heading">{f.displayName}</T>
+                  {f.verified ? <VerifiedBadge /> : null}
+                </Row>
                 <Pill text={f.band} />
               </Row>
               <T v="caption" muted>
                 {f.kidAges.length ? `Kids: ${f.kidAges.join(', ')}` : 'Kids’ ages not shared'}
                 {f.philosophies.length ? ` · ${f.philosophies.map((p) => PHILOSOPHY_INFO[p]?.label ?? p).join(', ')}` : ''}
+                {f.emailVerified ? ' · email confirmed' : ''}
               </T>
               {f.bio ? <T>{f.bio}</T> : null}
               {f.interests.length ? (
@@ -310,6 +327,7 @@ function Families({ radius }: { radius: number }) {
                 {f.connection === 'requested' ? <Button size="sm" kind="secondary" title="Request sent · cancel" onPress={() => act(() => removeConnection(f.familyId))} /> : null}
                 {f.connection === 'incoming' ? <Button size="sm" title="Accept their request" onPress={() => act(() => respondToConnection(f.familyId, true))} /> : null}
                 {f.connection === 'connected' ? <Pill text="✓ Connected" bg={c.successSoft} fg={c.success} /> : null}
+                {f.connection === 'connected' ? <Button size="sm" kind="secondary" icon="💬" title="Message" onPress={() => router.push({ pathname: '/messages/[familyId]', params: { familyId: f.familyId } })} /> : null}
               </Row>
             </Card>
           ))}
@@ -334,11 +352,15 @@ function ConnectionCard({ connection: x, onRemove }: { connection: Connection; o
   return (
     <Card tint={c.primarySoft}>
       <Row style={{ justifyContent: 'space-between' }} wrap>
-        <T v="heading">{x.displayName}</T>
+        <Row wrap gap={6} style={{ flex: 1 }}>
+          <T v="heading">{x.displayName}</T>
+          {x.verified ? <VerifiedBadge /> : null}
+        </Row>
         <Pill text={x.band} />
       </Row>
       <T>{x.contact ? `📬 ${x.contact}` : 'They haven’t shared contact details yet.'}</T>
-      <Row>
+      <Row wrap>
+        <Button size="sm" icon="💬" title="Message" onPress={() => router.push({ pathname: '/messages/[familyId]', params: { familyId: x.familyId } })} />
         <Button size="sm" kind="ghost" title="Remove connection" onPress={() => confirm.ask(`Remove ${x.displayName}?`, onRemove, { confirm: 'Remove' })} />
       </Row>
       {confirm.element}
@@ -462,6 +484,7 @@ function Events({ radius, profile }: { radius: number; profile: CommunityProfile
   const { act, error } = useAct(list.refresh);
   const [creating, setCreating] = useState(false);
   const confirm = useConfirm();
+  const tips = useMeetupTips();
 
   return (
     <Section title="Upcoming field trips & meetups" action={<Button size="sm" icon="＋" title="Organize" onPress={() => setCreating(true)} />}>
@@ -481,15 +504,19 @@ function Events({ radius, profile }: { radius: number; profile: CommunityProfile
               {e.iHost ? (
                 <Button size="sm" kind="ghost" title="Cancel event" onPress={() => confirm.ask(`Cancel ${e.title}?`, () => act(() => cancelEvent(e.id)), { confirm: 'Cancel event', body: 'Everyone who RSVP’d will no longer see it.' })} />
               ) : (
-                <Button size="sm" kind={e.iAmGoing ? 'secondary' : 'primary'} title={e.iAmGoing ? "Can't make it" : 'RSVP'} disabled={!e.iAmGoing && e.going >= e.capacity} reason="This event is full" onPress={() => act(() => setRsvp(e.id, !e.iAmGoing))} />
+                <Button size="sm" kind={e.iAmGoing ? 'secondary' : 'primary'} title={e.iAmGoing ? "Can't make it" : 'RSVP'} disabled={!e.iAmGoing && e.going >= e.capacity} reason="This event is full" onPress={() => (e.iAmGoing ? act(() => setRsvp(e.id, false)) : tips.beforeMeetup(() => act(() => setRsvp(e.id, true))))} />
               )}
               {e.iAmGoing ? <Button size="sm" kind="ghost" title={e.iCarpool ? '🚗 In carpool pool ✓' : '🚗 Join carpool matching'} onPress={() => act(() => setCarpool(e.id, !e.iCarpool))} /> : null}
             </Row>
           </Card>
         ))}
       </Stack>
+      <Row>
+        <Button size="sm" kind="ghost" icon="🛟" title="Meetup safety tips" onPress={tips.show} />
+      </Row>
       <EventSheet visible={creating} defaultZip={profile.zip} hostName={profile.displayName} onClose={() => setCreating(false)} onSave={(v) => { setCreating(false); act(() => createEvent(v)); }} />
       {confirm.element}
+      {tips.element}
     </Section>
   );
 }

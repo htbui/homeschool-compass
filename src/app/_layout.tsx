@@ -52,6 +52,8 @@ export default function RootLayout() {
         <Stack.Screen name="settings" options={{ headerShown: true, title: 'Settings' }} />
         <Stack.Screen name="account" options={{ headerShown: true, title: 'Account & sync' }} />
         <Stack.Screen name="moderation" options={{ headerShown: true, title: 'Moderation' }} />
+        <Stack.Screen name="notifications" options={{ headerShown: true, title: 'Notifications' }} />
+        <Stack.Screen name="messages" />
         <Stack.Screen name="listing/[id]" options={{ headerShown: true, title: 'Curriculum', headerBackTitle: 'Marketplace' }} />
         <Stack.Screen name="creator/[id]" options={{ headerShown: true, title: 'Creator' }} />
         <Stack.Screen name="studio" />

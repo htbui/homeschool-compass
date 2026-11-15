@@ -3,6 +3,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { useShallow } from 'zustand/react/shallow';
 import { Pressable, ScrollView, View, useWindowDimensions } from 'react-native';
 
+import { NotificationBell } from '@/components/NotificationBell';
 import { TaskSheet } from '@/components/TaskSheet';
 import { useCompliance } from '@/hooks/useCompliance';
 import { usePrint } from '@/hooks/usePrint';
@@ -174,6 +175,7 @@ export default function FlightDeck() {
           <T v="display">Family Flight Deck</T>
         </View>
         <Row gap={space.sm}>
+          <NotificationBell />
           <Button kind="secondary" size="sm" icon="⚙️" title="Settings" onPress={() => router.push('/settings')} />
           <Button kind="accent" size="sm" icon="🧒" title="Kid mode" onPress={() => router.push('/kid')} />
         </Row>
