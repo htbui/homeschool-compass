@@ -17,7 +17,7 @@ _Last updated: 2026-11-11_
 
 ## P0: Launch blockers (most need a decision or an account from you)
 
-- [ ] **Business email and DNS:** set up Google Workspace on freerangehomeschooling.com (admin@, support@ as aliases), then move the Cloudflare login to the business address. Add SPF, DKIM, and DMARC records.
+- [ ] **Business email and DNS:** for now, Cloudflare Email Routing forwards admin@, support@, and hello@freerangehomeschooling.com to Gmail (free). Google Workspace waits until launch. Add SPF, DKIM, and DMARC records when sending from the domain.
 - [ ] **Hosted backend:** create the production Supabase project, then share its URL and publishable key. Apply the migrations and deploy the edge functions (`create-checkout`, `stripe-webhook`, `fetch-page`).
 - [ ] **Permanent test links:** host the web app with EAS Hosting (`eas deploy`), and share an Android build anyone can install plus iOS TestFlight. Needs an Expo login. For now there's a temporary Cloudflare link that only works while the dev machine is running.
 - [ ] **Phone builds:** log in to Expo (`! npx eas-cli@latest login`) and run the first EAS builds. iOS also needs an Apple Developer account.
