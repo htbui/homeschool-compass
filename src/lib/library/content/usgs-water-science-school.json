@@ -1,945 +1,945 @@
 {
- "key": "usgs-water-science-school",
- "title": "Water Science School: The Water Cycle and Beyond",
- "sourceTitle": "USGS Water Science School",
- "author": "U.S. Geological Survey Water Science School",
- "seller": "U.S. Geological Survey",
- "year": 2026,
- "sourceUrl": "https://www.usgs.gov/water-science-school",
- "license": {
-  "kind": "public_domain"
- },
- "licenseEvidence": "USGS Copyrights and Credits policy (usgs.gov/information-policies-and-instructions/copyrights-and-credits, checked 2026-11-14; usgs.gov returned 403/504 to direct fetches that day, so read from the Internet Archive capture of 2026-11-11): \"USGS-authored or produced data and information are considered to be in the U.S. Public Domain.\" It adds that some non-USGS photographs and graphics on USGS sites are used with permission and \"are generally marked as being copyrighted,\" and asks for credit such as \"Credit: U.S. Geological Survey\"; the USGS identifier is trademarked. USGS Publications Warehouse FAQ (pubs.usgs.gov/documentation/faq, checked 2026-11-14, fetched live): \"USGS-authored or produced data and information are in the public domain\" and \"You are welcome to make a link to any of the Web pages USGS has published on the Internet. There is no need to request permission.\" Water Science School pages are written by the USGS Water Science School team and published on usgs.gov with no copyright notice on the text; each image carries a 'Sources/Usage' label, mostly 'Public Domain', some 'Some content may have restrictions' (those images are not used; only links are). Every linked page was confirmed to exist in Internet Archive captures from Aug–Nov 2026 (HTTP 200; live usgs.gov was blocking automated requests) and read before writing. Left out as not fully USGS-authored text: 'Are Raindrops Shaped Like Teardrops?' (built around long quotes from Alistair B. Fraser's web page) and 'A Visit to a Wastewater Treatment Plant' (says its information is courtesy of the Greater Vancouver Regional District). The Dryville page's downloadable class-play script, adapted by a Wisconsin teacher, is not used. This plan uses only page titles, links, and original steps, activities, questions and answers; no logos or insignia. year = the Water Science School's current online edition (pages updated through 2026).",
- "attribution": "Based on the USGS Water Science School (https://www.usgs.gov/water-science-school) by the U.S. Geological Survey. Credit: U.S. Geological Survey. Water Science School pages written by USGS are U.S. Government works in the public domain (17 U.S.C. § 105). The pages' text is not reproduced; Freerange organized them into daily lessons and wrote original steps, activities, questions, and answers. Images on those pages marked as having restrictions are not used. The U.S. Geological Survey does not endorse Freerange or this lesson plan.",
- "subjects": [
-  "science"
- ],
- "gradeMin": 4,
- "gradeMax": 8,
- "philosophies": [
-  "unit_study",
-  "traditional",
-  "nature_forest"
- ],
- "lessonsPerWeek": 3,
- "minutesPerLesson": 30,
- "parentInvolvement": "medium",
- "familyStyle": true,
- "cover": "💧",
- "color": "#4C7FD9",
- "description": "A hands-on water course from the U.S. Geological Survey's Water Science School. Your children follow water through the water cycle, discover why it is so unusual (surface tension, capillary action, density), then explore rivers, floods, groundwater, sinkholes, and water quality. Each lesson is one short USGS page to read online plus a kitchen or backyard experiment and a few questions. The Water Science School is a free, public-domain U.S. Government resource.",
- "includes": [
-  "39 lessons in 5 units",
-  "Link to the exact Water Science School page for every lesson",
-  "A simple experiment or field task in every lesson",
-  "Rain gauge, aquifer model and solar still projects",
-  "Questions with answers for every lesson"
- ],
- "units": [
-  {
-   "title": "Unit 1: The Water Cycle",
-   "lessons": [
-    {
-     "title": "Lesson 1: Evaporation",
-     "steps": [
-      "Read Evaporation and the Water Cycle",
-      "Set two identical cups of water out, one in the sun and one in the shade; mark the levels and check each day this week",
-      "Draw the water cycle and add an evaporation arrow from the ocean"
-     ],
-     "links": [
-      {
-       "label": "Read Evaporation and the Water Cycle",
-       "url": "https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle"
-      }
-     ],
-     "questions": [
-      "What does evaporation turn liquid water into?",
-      "Where does most of the moisture in the atmosphere come from?",
-      "What happens to most of the water that evaporates from the oceans?"
-     ],
-     "answers": [
-      "Water vapor (a gas)",
-      "Oceans, seas, lakes and rivers (about 90 percent)",
-      "It falls back into the oceans as precipitation"
-     ]
-    },
-    {
-     "title": "Lesson 2: Condensation",
-     "steps": [
-      "Read Condensation and the Water Cycle",
-      "Fill a glass with ice water on a warm day and watch the outside; explain where the drops came from",
-      "List three places you have seen condensation at home"
-     ],
-     "links": [
-      {
-       "label": "Read Condensation and the Water Cycle",
-       "url": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle"
-      }
-     ],
-     "questions": [
-      "What is condensation the opposite of?",
-      "Why is condensation so important to the water cycle?"
-     ],
-     "answers": [
-      "Evaporation",
-      "It forms clouds, which can produce precipitation"
-     ]
-    },
-    {
-     "title": "Lesson 3: Precipitation",
-     "steps": [
-      "Read Precipitation and the Water Cycle",
-      "Set up a rain gauge (a straight-sided jar with a ruler) and record rainfall this month",
-      "Work out: how many gallons fall when 2 inches of rain land on one acre?"
-     ],
-     "links": [
-      {
-       "label": "Read Precipitation and the Water Cycle",
-       "url": "https://www.usgs.gov/water-science-school/science/precipitation-and-water-cycle"
-      }
-     ],
-     "questions": [
-      "What do tiny cloud droplets need in order to start growing into raindrops?",
-      "How many gallons fall when 1 inch of rain lands on one acre?",
-      "Why does most cloud water never fall as rain?"
-     ],
-     "answers": [
-      "A tiny particle of dust, salt or smoke to condense on",
-      "27,154 gallons",
-      "The droplets are too small to fall against the updrafts holding the cloud up"
-     ]
-    },
-    {
-     "title": "Lesson 4: Sublimation",
-     "steps": [
-      "Read Sublimation and the Water Cycle",
-      "Put an ice cube in the freezer on a plate and check it over several days, or hang a wet cloth outside on a freezing day",
-      "Define sublimation and deposition in your notebook"
-     ],
-     "links": [
-      {
-       "label": "Read Sublimation and the Water Cycle",
-       "url": "https://www.usgs.gov/water-science-school/science/sublimation-and-water-cycle"
-      }
-     ],
-     "questions": [
-      "What is sublimation?",
-      "What is the opposite of sublimation called, and what is one example?",
-      "Name two conditions that help sublimation happen."
-     ],
-     "answers": [
-      "A solid changing straight to a gas without melting first",
-      "Deposition, such as frost or snowflakes forming",
-      "Any two: low humidity, dry winds, high altitude (low air pressure), strong sunlight"
-     ]
-    },
-    {
-     "title": "Lesson 5: Evapotranspiration",
-     "steps": [
-      "Read Evapotranspiration and the Water Cycle",
-      "Tie a clear plastic bag around a leafy branch on a sunny day and check it after a few hours",
-      "Label the three steps of transpiration on a plant drawing"
-     ],
-     "links": [
-      {
-       "label": "Read Evapotranspiration and the Water Cycle",
-       "url": "https://www.usgs.gov/water-science-school/science/evapotranspiration-and-water-cycle"
-      }
-     ],
-     "questions": [
-      "What two processes make up evapotranspiration?",
-      "Through what tiny openings do leaves release water vapor?"
-     ],
-     "answers": [
-      "Evaporation and transpiration",
-      "Stomata"
-     ]
-    },
-    {
-     "title": "Lesson 6: Infiltration",
-     "steps": [
-      "Read Infiltration and the Water Cycle",
-      "Pour the same cup of water on bare soil, grass, and pavement and time how fast it soaks in",
-      "List the factors that change how much water soaks into the ground"
-     ],
-     "links": [
-      {
-       "label": "Read Infiltration and the Water Cycle",
-       "url": "https://www.usgs.gov/water-science-school/science/infiltration-and-water-cycle"
-      }
-     ],
-     "questions": [
-      "Where can water go after it infiltrates the ground?",
-      "What is the biggest factor controlling infiltration?"
-     ],
-     "answers": [
-      "It can stay in the soil, move sideways, or sink deeper to recharge aquifers",
-      "The amount and type of precipitation (intensity and duration)"
-     ]
-    },
-    {
-     "title": "Lesson 7: Surface Runoff",
-     "steps": [
-      "Read Surface Runoff and the Water Cycle",
-      "In the rain (or with a hose), follow where water flows from your roof or driveway",
-      "Make a list of impervious surfaces around your home"
-     ],
-     "links": [
-      {
-       "label": "Read Surface Runoff and the Water Cycle",
-       "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle"
-      }
-     ],
-     "questions": [
-      "What is surface runoff?",
-      "What is an impervious surface? Give two examples."
-     ],
-     "answers": [
-      "Precipitation that flows over the land instead of soaking in",
-      "A surface water cannot pass through, such as roofs, roads, driveways or parking lots"
-     ]
-    },
-    {
-     "title": "Lesson 8: Ice, Snow, and Glaciers",
-     "steps": [
-      "Read Ice, Snow, and Glaciers and the Water Cycle",
-      "On a world map, color Antarctica and Greenland and label how much of Earth's ice each holds",
-      "Press a cup of snow or crushed ice firmly and see how it turns harder and icier"
-     ],
-     "links": [
-      {
-       "label": "Read Ice, Snow, and Glaciers and the Water Cycle",
-       "url": "https://www.usgs.gov/water-science-school/science/ice-snow-and-glaciers-and-water-cycle"
-      }
-     ],
-     "questions": [
-      "Where is almost 90 percent of Earth's ice?",
-      "How does snow turn into glacier ice?"
-     ],
-     "answers": [
-      "Antarctica",
-      "Snow piles up year after year and its weight compresses it into ice"
-     ]
-    },
-    {
-     "title": "Lesson 9: Oceans: The Great Storehouse",
-     "steps": [
-      "Read Oceans and Seas and the Water Cycle",
-      "Fill a 1-liter bottle as 'all Earth's water' and pour out about 3 percent to show fresh water",
-      "Taste-free test: dissolve salt in water and let it evaporate in a dish to see what stays behind"
-     ],
-     "links": [
-      {
-       "label": "Read Oceans and Seas and the Water Cycle",
-       "url": "https://www.usgs.gov/water-science-school/science/oceans-and-seas-and-water-cycle"
-      }
-     ],
-     "questions": [
-      "About what percent of Earth's water is in the oceans?",
-      "How much lower were the oceans in the last ice age?"
-     ],
-     "answers": [
-      "About 96.5 percent",
-      "About 400 feet lower"
-     ]
-    },
-    {
-     "title": "Lesson 10: Groundwater Storage",
-     "steps": [
-      "Read Groundwater Storage and the Water Cycle",
-      "Fill a clear cup with gravel, add water, and point out the water table",
-      "Finish your water-cycle poster with every part from this unit"
-     ],
-     "links": [
-      {
-       "label": "Read Groundwater Storage and the Water Cycle",
-       "url": "https://www.usgs.gov/water-science-school/science/groundwater-storage-and-water-cycle"
-      }
-     ],
-     "questions": [
-      "What is the top of the saturated zone called?",
-      "About what share of Earth's fresh water is groundwater?"
-     ],
-     "answers": [
-      "The water table",
-      "About 30 percent"
-     ]
-    }
-   ]
+  "key": "usgs-water-science-school",
+  "title": "Water Science School: The Water Cycle and Beyond",
+  "sourceTitle": "USGS Water Science School",
+  "author": "U.S. Geological Survey",
+  "seller": "U.S. Geological Survey",
+  "year": 2026,
+  "sourceUrl": "https://www.usgs.gov/water-science-school",
+  "license": {
+    "kind": "public_domain"
   },
-  {
-   "title": "Unit 2: The Amazing Properties of Water",
-   "lessons": [
+  "licenseEvidence": "USGS Copyrights and Credits policy (usgs.gov/information-policies-and-instructions/copyrights-and-credits, checked 2026-11-14; usgs.gov returned 403/504 to direct fetches that day, so read from the Internet Archive capture of 2026-11-11): \"USGS-authored or produced data and information are considered to be in the U.S. Public Domain.\" It adds that some non-USGS photographs and graphics on USGS sites are used with permission and \"are generally marked as being copyrighted,\" and asks for credit such as \"Credit: U.S. Geological Survey\"; the USGS identifier is trademarked. USGS Publications Warehouse FAQ (pubs.usgs.gov/documentation/faq, checked 2026-11-14, fetched live): \"USGS-authored or produced data and information are in the public domain\" and \"You are welcome to make a link to any of the Web pages USGS has published on the Internet. There is no need to request permission.\" Water Science School pages are written by the USGS Water Science School team and published on usgs.gov with no copyright notice on the text; each image carries a 'Sources/Usage' label, mostly 'Public Domain', some 'Some content may have restrictions' (those images are not used; only links are). Every linked page was confirmed to exist in Internet Archive captures from Aug–Nov 2026 (HTTP 200; live usgs.gov was blocking automated requests) and read before writing. Left out as not fully USGS-authored text: 'Are Raindrops Shaped Like Teardrops?' (built around long quotes from Alistair B. Fraser's web page) and 'A Visit to a Wastewater Treatment Plant' (says its information is courtesy of the Greater Vancouver Regional District). The Dryville page's downloadable class-play script, adapted by a Wisconsin teacher, is not used. This plan uses only page titles, links, and original steps, activities, questions and answers; no logos or insignia. year = the Water Science School's current online edition (pages updated through 2026).",
+  "attribution": "Based on the USGS Water Science School (https://www.usgs.gov/water-science-school) by the U.S. Geological Survey. Credit: U.S. Geological Survey. Water Science School pages written by USGS are U.S. Government works in the public domain (17 U.S.C. § 105). The pages' text is not reproduced; Freerange organized them into daily lessons and wrote original steps, activities, questions, and answers. Images on those pages marked as having restrictions are not used. The U.S. Geological Survey does not endorse Freerange or this lesson plan.",
+  "subjects": [
+    "science"
+  ],
+  "gradeMin": 4,
+  "gradeMax": 8,
+  "philosophies": [
+    "unit_study",
+    "traditional",
+    "nature_forest"
+  ],
+  "lessonsPerWeek": 3,
+  "minutesPerLesson": 30,
+  "parentInvolvement": "medium",
+  "familyStyle": true,
+  "cover": "💧",
+  "color": "#4C7FD9",
+  "description": "A hands-on water course from the U.S. Geological Survey's Water Science School. Your children follow water through the water cycle, discover why it is so unusual (surface tension, capillary action, density), then explore rivers, floods, groundwater, sinkholes, and water quality. Each lesson is one short USGS page to read online plus a kitchen or backyard experiment and a few questions. The Water Science School is a free, public-domain U.S. Government resource.",
+  "includes": [
+    "39 lessons in 5 units",
+    "Link to the exact Water Science School page for every lesson",
+    "A simple experiment or field task in every lesson",
+    "Rain gauge, aquifer model and solar still projects",
+    "Questions with answers for every lesson"
+  ],
+  "units": [
     {
-     "title": "Lesson 11: Facts About Water",
-     "steps": [
-      "Read Facts About Water",
-      "Weigh a gallon jug of water on a bathroom scale and compare with the number on the page",
-      "Write down three water facts that surprised you"
-     ],
-     "links": [
-      {
-       "label": "Read Facts About Water",
-       "url": "https://www.usgs.gov/water-science-school/science/facts-about-water"
-      }
-     ],
-     "questions": [
-      "About how much does a gallon of water weigh?",
-      "What is the pH of pure water?",
-      "Is 'wetness' one of our five senses?"
-     ],
-     "answers": [
-      "About 8.3 pounds",
-      "7 (neutral)",
-      "No; we mostly feel the water's temperature and movement"
-     ]
+      "title": "Unit 1: The Water Cycle",
+      "lessons": [
+        {
+          "title": "Lesson 1: Evaporation",
+          "steps": [
+            "Read Evaporation and the Water Cycle",
+            "Set two identical cups of water out, one in the sun and one in the shade; mark the levels and check each day this week",
+            "Draw the water cycle and add an evaporation arrow from the ocean"
+          ],
+          "links": [
+            {
+              "label": "Read Evaporation and the Water Cycle",
+              "url": "https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle"
+            }
+          ],
+          "questions": [
+            "What does evaporation turn liquid water into?",
+            "Where does most of the moisture in the atmosphere come from?",
+            "What happens to most of the water that evaporates from the oceans?"
+          ],
+          "answers": [
+            "Water vapor (a gas)",
+            "Oceans, seas, lakes and rivers (about 90 percent)",
+            "It falls back into the oceans as precipitation"
+          ]
+        },
+        {
+          "title": "Lesson 2: Condensation",
+          "steps": [
+            "Read Condensation and the Water Cycle",
+            "Fill a glass with ice water on a warm day and watch the outside; explain where the drops came from",
+            "List three places you have seen condensation at home"
+          ],
+          "links": [
+            {
+              "label": "Read Condensation and the Water Cycle",
+              "url": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle"
+            }
+          ],
+          "questions": [
+            "What is condensation the opposite of?",
+            "Why is condensation so important to the water cycle?"
+          ],
+          "answers": [
+            "Evaporation",
+            "It forms clouds, which can produce precipitation"
+          ]
+        },
+        {
+          "title": "Lesson 3: Precipitation",
+          "steps": [
+            "Read Precipitation and the Water Cycle",
+            "Set up a rain gauge (a straight-sided jar with a ruler) and record rainfall this month",
+            "Work out: how many gallons fall when 2 inches of rain land on one acre?"
+          ],
+          "links": [
+            {
+              "label": "Read Precipitation and the Water Cycle",
+              "url": "https://www.usgs.gov/water-science-school/science/precipitation-and-water-cycle"
+            }
+          ],
+          "questions": [
+            "What do tiny cloud droplets need in order to start growing into raindrops?",
+            "How many gallons fall when 1 inch of rain lands on one acre?",
+            "Why does most cloud water never fall as rain?"
+          ],
+          "answers": [
+            "A tiny particle of dust, salt or smoke to condense on",
+            "27,154 gallons",
+            "The droplets are too small to fall against the updrafts holding the cloud up"
+          ]
+        },
+        {
+          "title": "Lesson 4: Sublimation",
+          "steps": [
+            "Read Sublimation and the Water Cycle",
+            "Put an ice cube in the freezer on a plate and check it over several days, or hang a wet cloth outside on a freezing day",
+            "Define sublimation and deposition in your notebook"
+          ],
+          "links": [
+            {
+              "label": "Read Sublimation and the Water Cycle",
+              "url": "https://www.usgs.gov/water-science-school/science/sublimation-and-water-cycle"
+            }
+          ],
+          "questions": [
+            "What is sublimation?",
+            "What is the opposite of sublimation called, and what is one example?",
+            "Name two conditions that help sublimation happen."
+          ],
+          "answers": [
+            "A solid changing straight to a gas without melting first",
+            "Deposition, such as frost or snowflakes forming",
+            "Any two: low humidity, dry winds, high altitude (low air pressure), strong sunlight"
+          ]
+        },
+        {
+          "title": "Lesson 5: Evapotranspiration",
+          "steps": [
+            "Read Evapotranspiration and the Water Cycle",
+            "Tie a clear plastic bag around a leafy branch on a sunny day and check it after a few hours",
+            "Label the three steps of transpiration on a plant drawing"
+          ],
+          "links": [
+            {
+              "label": "Read Evapotranspiration and the Water Cycle",
+              "url": "https://www.usgs.gov/water-science-school/science/evapotranspiration-and-water-cycle"
+            }
+          ],
+          "questions": [
+            "What two processes make up evapotranspiration?",
+            "Through what tiny openings do leaves release water vapor?"
+          ],
+          "answers": [
+            "Evaporation and transpiration",
+            "Stomata"
+          ]
+        },
+        {
+          "title": "Lesson 6: Infiltration",
+          "steps": [
+            "Read Infiltration and the Water Cycle",
+            "Pour the same cup of water on bare soil, grass, and pavement and time how fast it soaks in",
+            "List the factors that change how much water soaks into the ground"
+          ],
+          "links": [
+            {
+              "label": "Read Infiltration and the Water Cycle",
+              "url": "https://www.usgs.gov/water-science-school/science/infiltration-and-water-cycle"
+            }
+          ],
+          "questions": [
+            "Where can water go after it infiltrates the ground?",
+            "What is the biggest factor controlling infiltration?"
+          ],
+          "answers": [
+            "It can stay in the soil, move sideways, or sink deeper to recharge aquifers",
+            "The amount and type of precipitation (intensity and duration)"
+          ]
+        },
+        {
+          "title": "Lesson 7: Surface Runoff",
+          "steps": [
+            "Read Surface Runoff and the Water Cycle",
+            "In the rain (or with a hose), follow where water flows from your roof or driveway",
+            "Make a list of impervious surfaces around your home"
+          ],
+          "links": [
+            {
+              "label": "Read Surface Runoff and the Water Cycle",
+              "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle"
+            }
+          ],
+          "questions": [
+            "What is surface runoff?",
+            "What is an impervious surface? Give two examples."
+          ],
+          "answers": [
+            "Precipitation that flows over the land instead of soaking in",
+            "A surface water cannot pass through, such as roofs, roads, driveways or parking lots"
+          ]
+        },
+        {
+          "title": "Lesson 8: Ice, Snow, and Glaciers",
+          "steps": [
+            "Read Ice, Snow, and Glaciers and the Water Cycle",
+            "On a world map, color Antarctica and Greenland and label how much of Earth's ice each holds",
+            "Press a cup of snow or crushed ice firmly and see how it turns harder and icier"
+          ],
+          "links": [
+            {
+              "label": "Read Ice, Snow, and Glaciers and the Water Cycle",
+              "url": "https://www.usgs.gov/water-science-school/science/ice-snow-and-glaciers-and-water-cycle"
+            }
+          ],
+          "questions": [
+            "Where is almost 90 percent of Earth's ice?",
+            "How does snow turn into glacier ice?"
+          ],
+          "answers": [
+            "Antarctica",
+            "Snow piles up year after year and its weight compresses it into ice"
+          ]
+        },
+        {
+          "title": "Lesson 9: Oceans: The Great Storehouse",
+          "steps": [
+            "Read Oceans and Seas and the Water Cycle",
+            "Fill a 1-liter bottle as 'all Earth's water' and pour out about 3 percent to show fresh water",
+            "Taste-free test: dissolve salt in water and let it evaporate in a dish to see what stays behind"
+          ],
+          "links": [
+            {
+              "label": "Read Oceans and Seas and the Water Cycle",
+              "url": "https://www.usgs.gov/water-science-school/science/oceans-and-seas-and-water-cycle"
+            }
+          ],
+          "questions": [
+            "About what percent of Earth's water is in the oceans?",
+            "How much lower were the oceans in the last ice age?"
+          ],
+          "answers": [
+            "About 96.5 percent",
+            "About 400 feet lower"
+          ]
+        },
+        {
+          "title": "Lesson 10: Groundwater Storage",
+          "steps": [
+            "Read Groundwater Storage and the Water Cycle",
+            "Fill a clear cup with gravel, add water, and point out the water table",
+            "Finish your water-cycle poster with every part from this unit"
+          ],
+          "links": [
+            {
+              "label": "Read Groundwater Storage and the Water Cycle",
+              "url": "https://www.usgs.gov/water-science-school/science/groundwater-storage-and-water-cycle"
+            }
+          ],
+          "questions": [
+            "What is the top of the saturated zone called?",
+            "About what share of Earth's fresh water is groundwater?"
+          ],
+          "answers": [
+            "The water table",
+            "About 30 percent"
+          ]
+        }
+      ]
     },
     {
-     "title": "Lesson 12: The Universal Solvent",
-     "steps": [
-      "Read Water, the Universal Solvent",
-      "Stir salt, sugar, sand, and oil into separate cups of water and record which dissolve",
-      "Draw a water molecule and mark its positive and negative sides"
-     ],
-     "links": [
-      {
-       "label": "Read Water, the Universal Solvent",
-       "url": "https://www.usgs.gov/water-science-school/science/water-universal-solvent"
-      }
-     ],
-     "questions": [
-      "Why is water called the 'universal solvent'?",
-      "What about a water molecule makes it good at dissolving things?"
-     ],
-     "answers": [
-      "It dissolves more substances than any other liquid",
-      "It is polar: one side is slightly positive and the other slightly negative"
-     ]
+      "title": "Unit 2: The Amazing Properties of Water",
+      "lessons": [
+        {
+          "title": "Lesson 11: Facts About Water",
+          "steps": [
+            "Read Facts About Water",
+            "Weigh a gallon jug of water on a bathroom scale and compare with the number on the page",
+            "Write down three water facts that surprised you"
+          ],
+          "links": [
+            {
+              "label": "Read Facts About Water",
+              "url": "https://www.usgs.gov/water-science-school/science/facts-about-water"
+            }
+          ],
+          "questions": [
+            "About how much does a gallon of water weigh?",
+            "What is the pH of pure water?",
+            "Is 'wetness' one of our five senses?"
+          ],
+          "answers": [
+            "About 8.3 pounds",
+            "7 (neutral)",
+            "No; we mostly feel the water's temperature and movement"
+          ]
+        },
+        {
+          "title": "Lesson 12: The Universal Solvent",
+          "steps": [
+            "Read Water, the Universal Solvent",
+            "Stir salt, sugar, sand, and oil into separate cups of water and record which dissolve",
+            "Draw a water molecule and mark its positive and negative sides"
+          ],
+          "links": [
+            {
+              "label": "Read Water, the Universal Solvent",
+              "url": "https://www.usgs.gov/water-science-school/science/water-universal-solvent"
+            }
+          ],
+          "questions": [
+            "Why is water called the 'universal solvent'?",
+            "What about a water molecule makes it good at dissolving things?"
+          ],
+          "answers": [
+            "It dissolves more substances than any other liquid",
+            "It is polar: one side is slightly positive and the other slightly negative"
+          ]
+        },
+        {
+          "title": "Lesson 13: Surface Tension",
+          "steps": [
+            "Read Surface Tension and Water",
+            "Float a paper clip on water using a bit of tissue, then add a drop of dish soap and watch",
+            "Count how many drops of water fit on a coin before it spills"
+          ],
+          "links": [
+            {
+              "label": "Read Surface Tension and Water",
+              "url": "https://www.usgs.gov/water-science-school/science/surface-tension-and-water"
+            }
+          ],
+          "questions": [
+            "What causes surface tension?",
+            "How do water striders stay on top of water?"
+          ],
+          "answers": [
+            "Water molecules at the surface cling strongly to each other (cohesion)",
+            "They use surface tension plus long, water-repelling legs that spread out their weight"
+          ]
+        },
+        {
+          "title": "Lesson 14: Adhesion and Cohesion",
+          "steps": [
+            "Read Adhesion and Cohesion",
+            "Watch drops on wax paper and on a paper towel and decide which shows cohesion and which shows adhesion",
+            "Make a memory card: cohesion = water to water, adhesion = water to other things"
+          ],
+          "links": [
+            {
+              "label": "Read Adhesion and Cohesion",
+              "url": "https://www.usgs.gov/water-science-school/science/adhesion-and-cohesion-water"
+            }
+          ],
+          "questions": [
+            "What is cohesion?",
+            "What is adhesion?"
+          ],
+          "answers": [
+            "Water being attracted to water",
+            "Water being attracted to other substances"
+          ]
+        },
+        {
+          "title": "Lesson 15: Capillary Action",
+          "steps": [
+            "Read Capillary Action and Water",
+            "Stand a celery stalk or white flower in colored water overnight and look at it the next day",
+            "Dip a strip of paper towel into water and time how high it climbs"
+          ],
+          "links": [
+            {
+              "label": "Read Capillary Action and Water",
+              "url": "https://www.usgs.gov/water-science-school/science/capillary-action-and-water"
+            }
+          ],
+          "questions": [
+            "What three forces work together in capillary action?",
+            "Why does water climb higher in a thin tube than a wide one?"
+          ],
+          "answers": [
+            "Adhesion, cohesion and surface tension",
+            "A thin tube has more inside surface for its size, so adhesion pulls water higher"
+          ]
+        },
+        {
+          "title": "Lesson 16: Water Density",
+          "steps": [
+            "Read Water Density",
+            "Put an ice cube in water and in cooking oil, and float an egg in plain water and then in very salty water",
+            "Explain why ice floating matters for fish in a frozen pond"
+          ],
+          "links": [
+            {
+              "label": "Read Water Density",
+              "url": "https://www.usgs.gov/water-science-school/science/water-density"
+            },
+            {
+              "label": "Facts About Water (density numbers)",
+              "url": "https://www.usgs.gov/water-science-school/science/facts-about-water"
+            }
+          ],
+          "questions": [
+            "What is density?",
+            "Why do ice cubes float?",
+            "At what temperature is water densest?"
+          ],
+          "answers": [
+            "The mass (weight) for a given volume",
+            "Ice is less dense than liquid water",
+            "About 4 °C (39.2 °F)"
+          ]
+        },
+        {
+          "title": "Lesson 17: Specific Heat",
+          "steps": [
+            "Read Specific Heat Capacity and Water",
+            "Set a cup of water and a cup of sand in the sun for an hour and compare their temperatures",
+            "Explain why towns by the sea have milder weather"
+          ],
+          "links": [
+            {
+              "label": "Read Specific Heat Capacity and Water",
+              "url": "https://www.usgs.gov/water-science-school/science/specific-heat-capacity-and-water"
+            }
+          ],
+          "questions": [
+            "What does it mean that water has a high specific heat?",
+            "Name one use of water that depends on its high specific heat."
+          ],
+          "answers": [
+            "It takes a lot of heat energy to raise its temperature",
+            "Cooling, such as in a car radiator or in industry"
+          ]
+        },
+        {
+          "title": "Lesson 18: pH and Water",
+          "steps": [
+            "Read pH and Water",
+            "Make red-cabbage indicator and test vinegar, baking-soda water, tap water, and lemon juice",
+            "Put each result on a 0–14 pH line"
+          ],
+          "links": [
+            {
+              "label": "Read pH and Water",
+              "url": "https://www.usgs.gov/water-science-school/science/ph-and-water"
+            }
+          ],
+          "questions": [
+            "What does a pH of 7 mean? Less than 7? More than 7?",
+            "Can vegetable oil have a pH? Why or why not?"
+          ],
+          "answers": [
+            "Neutral; acidic; basic",
+            "No; only water-based (aqueous) solutions have a pH"
+          ]
+        },
+        {
+          "title": "Lesson 19: How Much Does a Cloud Weigh?",
+          "steps": [
+            "Read How Much Does a Cloud Weigh?",
+            "Follow the page's math step by step with a calculator",
+            "Explain why something so heavy can float"
+          ],
+          "links": [
+            {
+              "label": "Read How Much Does a Cloud Weigh?",
+              "url": "https://www.usgs.gov/water-science-school/science/how-much-does-a-cloud-weigh"
+            }
+          ],
+          "questions": [
+            "About how much do the water droplets in the page's sample cumulus cloud weigh?",
+            "Why does the cloud float?"
+          ],
+          "answers": [
+            "About 1.1 million pounds (500,000 kilograms)",
+            "The cloud is less dense than the drier air below it"
+          ]
+        }
+      ]
     },
     {
-     "title": "Lesson 13: Surface Tension",
-     "steps": [
-      "Read Surface Tension and Water",
-      "Float a paper clip on water using a bit of tissue, then add a drop of dish soap and watch",
-      "Count how many drops of water fit on a coin before it spills"
-     ],
-     "links": [
-      {
-       "label": "Read Surface Tension and Water",
-       "url": "https://www.usgs.gov/water-science-school/science/surface-tension-and-water"
-      }
-     ],
-     "questions": [
-      "What causes surface tension?",
-      "How do water striders stay on top of water?"
-     ],
-     "answers": [
-      "Water molecules at the surface cling strongly to each other (cohesion)",
-      "They use surface tension plus long, water-repelling legs that spread out their weight"
-     ]
+      "title": "Unit 3: Rivers, Lakes, and Floods",
+      "lessons": [
+        {
+          "title": "Lesson 20: Watersheds",
+          "steps": [
+            "Read Watersheds and Drainage Basins",
+            "Crumple a sheet of paper, open it, color the ridges with marker, and spray it with water to see the 'watersheds'",
+            "Find which large river your home's watershed drains to"
+          ],
+          "links": [
+            {
+              "label": "Read Watersheds and Drainage Basins",
+              "url": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins"
+            }
+          ],
+          "questions": [
+            "What is a watershed?",
+            "What are the ridges between two watersheds called?"
+          ],
+          "answers": [
+            "All the land that drains water to a common outlet",
+            "The drainage divide"
+          ]
+        },
+        {
+          "title": "Lesson 21: Rivers, Streams, and Creeks",
+          "steps": [
+            "Read Rivers, Streams, and Creeks",
+            "Visit a creek or look at one on a map and trace it from source to mouth",
+            "List where river water comes from besides rain running off the land"
+          ],
+          "links": [
+            {
+              "label": "Read Rivers, Streams, and Creeks",
+              "url": "https://www.usgs.gov/water-science-school/science/rivers-streams-and-creeks"
+            }
+          ],
+          "questions": [
+            "Name two sources of the water in a river.",
+            "Name two ways runoff can be 'lost' before reaching a river."
+          ],
+          "answers": [
+            "Runoff from the land and groundwater seeping in along the banks and bed",
+            "Any two: evaporation, use by plants (transpiration), use by people, animals drinking"
+          ]
+        },
+        {
+          "title": "Lesson 22: How Streamflow Is Measured",
+          "steps": [
+            "Read How Streamflow Is Measured",
+            "Measure a small stream or gutter: time a floating leaf over 10 feet and estimate width and depth",
+            "Find a USGS streamgage near you on the online water-data map"
+          ],
+          "links": [
+            {
+              "label": "Read How Streamflow Is Measured",
+              "url": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured"
+            }
+          ],
+          "questions": [
+            "What is stream stage?",
+            "What are the three steps USGS uses to compute streamflow?",
+            "Where and when did USGS start its first streamgage?"
+          ],
+          "answers": [
+            "The height of the water surface (gage height)",
+            "Measure stage, make discharge measurements, and build the stage-discharge relation",
+            "On the Rio Grande in New Mexico, in 1889"
+          ]
+        },
+        {
+          "title": "Lesson 23: Floods and the '100-Year Flood'",
+          "steps": [
+            "Read Floods and Recurrence Intervals",
+            "Roll a 100-sided die (or draw from 100 numbered slips) for 'years' to see that a 1-in-100 event can happen twice in a row",
+            "Explain the term '100-year flood' in your own words"
+          ],
+          "links": [
+            {
+              "label": "Read Floods and Recurrence Intervals",
+              "url": "https://www.usgs.gov/water-science-school/science/floods-and-recurrence-intervals"
+            }
+          ],
+          "questions": [
+            "What is the chance of a '100-year flood' happening in any given year?",
+            "Does a 100-year flood this year mean the next one is 100 years away?"
+          ],
+          "answers": [
+            "1 percent (a 1 in 100 chance each year)",
+            "No; the chance is the same 1 in 100 every year"
+          ]
+        },
+        {
+          "title": "Lesson 24: Impervious Surfaces and Flooding",
+          "steps": [
+            "Read Impervious Surfaces and Flooding",
+            "Pour water on a tilted cookie sheet and on a tilted tray of soil; catch and compare what runs off",
+            "Suggest two ways a town could reduce runoff"
+          ],
+          "links": [
+            {
+              "label": "Read Impervious Surfaces and Flooding",
+              "url": "https://www.usgs.gov/water-science-school/science/impervious-surfaces-and-flooding"
+            }
+          ],
+          "questions": [
+            "Why does paving land make floods worse?",
+            "Why was the house near Peachtree Creek raised 10 feet?"
+          ],
+          "answers": [
+            "Rain can't soak in, so it runs quickly into sewers and creeks",
+            "The creek flooded its first floor in 1975 and 1976"
+          ]
+        },
+        {
+          "title": "Lesson 25: Lakes and Reservoirs",
+          "steps": [
+            "Read Lakes and Reservoirs",
+            "Find Lake Baikal, the Great Lakes, and Lake Mead on a map",
+            "Explain the difference between a natural lake and a reservoir"
+          ],
+          "links": [
+            {
+              "label": "Read Lakes and Reservoirs",
+              "url": "https://www.usgs.gov/water-science-school/science/lakes-and-reservoirs"
+            }
+          ],
+          "questions": [
+            "How does a lake form?",
+            "What is the world's oldest, largest, and deepest freshwater lake?"
+          ],
+          "answers": [
+            "Water flows into a low spot faster than it can leave by outflow, seepage or evaporation",
+            "Lake Baikal in Siberia"
+          ]
+        },
+        {
+          "title": "Lesson 26: Hydroelectric Power",
+          "steps": [
+            "Read Hydroelectric Power: How It Works",
+            "Build a pinwheel and turn it with water poured from a pitcher",
+            "Draw the path of water through a dam: reservoir, intake, turbine, generator"
+          ],
+          "links": [
+            {
+              "label": "Read Hydroelectric Power: How It Works",
+              "url": "https://www.usgs.gov/water-science-school/science/hydroelectric-power-how-it-works"
+            }
+          ],
+          "questions": [
+            "What turns the turbine in a hydroelectric plant? In a coal plant?",
+            "What does the turbine turn to make electricity?"
+          ],
+          "answers": [
+            "Falling water; steam from water heated by burning coal",
+            "A shaft in an electric generator"
+          ]
+        }
+      ]
     },
     {
-     "title": "Lesson 14: Adhesion and Cohesion",
-     "steps": [
-      "Read Adhesion and Cohesion",
-      "Watch drops on wax paper and on a paper towel and decide which shows cohesion and which shows adhesion",
-      "Make a memory card: cohesion = water to water, adhesion = water to other things"
-     ],
-     "links": [
-      {
-       "label": "Read Adhesion and Cohesion",
-       "url": "https://www.usgs.gov/water-science-school/science/adhesion-and-cohesion-water"
-      }
-     ],
-     "questions": [
-      "What is cohesion?",
-      "What is adhesion?"
-     ],
-     "answers": [
-      "Water being attracted to water",
-      "Water being attracted to other substances"
-     ]
+      "title": "Unit 4: Groundwater",
+      "lessons": [
+        {
+          "title": "Lesson 27: What Is Groundwater?",
+          "steps": [
+            "Read Groundwater: What Is Groundwater?",
+            "Dig a hole in damp sand (or at the beach) until water seeps in",
+            "Draw the unsaturated zone, saturated zone, and water table"
+          ],
+          "links": [
+            {
+              "label": "Read What Is Groundwater?",
+              "url": "https://www.usgs.gov/water-science-school/science/groundwater-what-groundwater"
+            }
+          ],
+          "questions": [
+            "How does the amount of fresh groundwater compare with all the water in rivers and freshwater lakes?",
+            "What kinds of rock layers can slow groundwater down?"
+          ],
+          "answers": [
+            "There is about a hundred times more fresh water in the ground",
+            "Dense or tight layers such as granite or shale"
+          ]
+        },
+        {
+          "title": "Lesson 28: Aquifers",
+          "steps": [
+            "Read Aquifers and Groundwater",
+            "Build an aquifer in a clear container with clay, sand and gravel layers, then 'rain' on it",
+            "Explain porosity and permeability with a sponge and a rock"
+          ],
+          "links": [
+            {
+              "label": "Read Aquifers and Groundwater",
+              "url": "https://www.usgs.gov/water-science-school/science/aquifers-and-groundwater"
+            }
+          ],
+          "questions": [
+            "What is an aquifer?",
+            "Why does the hole at the beach fill with water?"
+          ],
+          "answers": [
+            "Rock or sediment underground that holds and gives up usable amounts of water",
+            "The sand is below the water table, in the zone of saturation"
+          ]
+        },
+        {
+          "title": "Lesson 29: Wells",
+          "steps": [
+            "Read Groundwater Wells",
+            "Push a straw into your aquifer model and draw water out with a dropper",
+            "Label well casing, screen, and cap on a drawing"
+          ],
+          "links": [
+            {
+              "label": "Read Groundwater Wells",
+              "url": "https://www.usgs.gov/water-science-school/science/groundwater-wells"
+            }
+          ],
+          "questions": [
+            "Why do people in deserts depend on wells?",
+            "What does a well cap do?",
+            "Name the three kinds of wells the page describes."
+          ],
+          "answers": [
+            "Surface water is scarce there, so groundwater is the main supply",
+            "Keeps out debris, insects and small animals",
+            "Dug, driven, and drilled wells"
+          ]
+        },
+        {
+          "title": "Lesson 30: Artesian Water",
+          "steps": [
+            "Read Artesian Water and Artesian Wells",
+            "Model it: fill a bendy straw or tubing held high on one end and lower the other end to see water rise",
+            "Explain why a deep well is not always an artesian well"
+          ],
+          "links": [
+            {
+              "label": "Read Artesian Water and Artesian Wells",
+              "url": "https://www.usgs.gov/water-science-school/science/artesian-water-and-artesian-wells"
+            }
+          ],
+          "questions": [
+            "What makes water in an artesian well rise?",
+            "Where does the word 'artesian' come from?"
+          ],
+          "answers": [
+            "Pressure in a confined aquifer between poorly permeable layers",
+            "The town of Artois in France"
+          ]
+        },
+        {
+          "title": "Lesson 31: Sinkholes",
+          "steps": [
+            "Read Sinkholes",
+            "Model a sinkhole: bury a sugar cube under damp sand and drip water on it",
+            "Find whether your state has limestone or other karst rock"
+          ],
+          "links": [
+            {
+              "label": "Read Sinkholes",
+              "url": "https://www.usgs.gov/water-science-school/science/sinkholes"
+            }
+          ],
+          "questions": [
+            "In what kinds of rock are sinkholes common?",
+            "Why did over 110 sinkholes form near Dover, Florida, in January 2010?"
+          ],
+          "answers": [
+            "Rocks groundwater can dissolve, such as limestone, carbonate rock and salt beds",
+            "Farmers pumped so much groundwater to protect crops from freezing that water levels dropped to record lows"
+          ]
+        },
+        {
+          "title": "Lesson 32: Land Subsidence",
+          "steps": [
+            "Read Land Subsidence",
+            "Squeeze water out of a wet sponge stuffed in a cup and watch it shrink",
+            "Look at the photo of the pole near Mendota, California, and estimate how far the ground sank"
+          ],
+          "links": [
+            {
+              "label": "Read Land Subsidence",
+              "url": "https://www.usgs.gov/water-science-school/science/land-subsidence"
+            }
+          ],
+          "questions": [
+            "What causes most land subsidence in the United States?",
+            "Why does the ground sink when water is pumped out?"
+          ],
+          "answers": [
+            "Pumping too much groundwater (more than 80 percent of identified subsidence)",
+            "The water helped hold up the sediments, so they compact"
+          ]
+        },
+        {
+          "title": "Lesson 33: When Groundwater Runs Low",
+          "steps": [
+            "Read Groundwater Decline and Depletion",
+            "Use two straws in one cup to show two neighbors' wells drawing down the same water",
+            "Write three ways a family can save water"
+          ],
+          "links": [
+            {
+              "label": "Read Groundwater Decline and Depletion",
+              "url": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion"
+            }
+          ],
+          "questions": [
+            "What is groundwater depletion?",
+            "About what share of people in the United States get drinking water from groundwater?"
+          ],
+          "answers": [
+            "Long-term falling water levels from pumping faster than recharge",
+            "About half (and nearly all rural people)"
+          ]
+        }
+      ]
     },
     {
-     "title": "Lesson 15: Capillary Action",
-     "steps": [
-      "Read Capillary Action and Water",
-      "Stand a celery stalk or white flower in colored water overnight and look at it the next day",
-      "Dip a strip of paper towel into water and time how high it climbs"
-     ],
-     "links": [
-      {
-       "label": "Read Capillary Action and Water",
-       "url": "https://www.usgs.gov/water-science-school/science/capillary-action-and-water"
-      }
-     ],
-     "questions": [
-      "What three forces work together in capillary action?",
-      "Why does water climb higher in a thin tube than a wide one?"
-     ],
-     "answers": [
-      "Adhesion, cohesion and surface tension",
-      "A thin tube has more inside surface for its size, so adhesion pulls water higher"
-     ]
-    },
-    {
-     "title": "Lesson 16: Water Density",
-     "steps": [
-      "Read Water Density",
-      "Put an ice cube in water and in cooking oil, and float an egg in plain water and then in very salty water",
-      "Explain why ice floating matters for fish in a frozen pond"
-     ],
-     "links": [
-      {
-       "label": "Read Water Density",
-       "url": "https://www.usgs.gov/water-science-school/science/water-density"
-      },
-      {
-       "label": "Facts About Water (density numbers)",
-       "url": "https://www.usgs.gov/water-science-school/science/facts-about-water"
-      }
-     ],
-     "questions": [
-      "What is density?",
-      "Why do ice cubes float?",
-      "At what temperature is water densest?"
-     ],
-     "answers": [
-      "The mass (weight) for a given volume",
-      "Ice is less dense than liquid water",
-      "About 4 °C (39.2 °F)"
-     ]
-    },
-    {
-     "title": "Lesson 17: Specific Heat",
-     "steps": [
-      "Read Specific Heat Capacity and Water",
-      "Set a cup of water and a cup of sand in the sun for an hour and compare their temperatures",
-      "Explain why towns by the sea have milder weather"
-     ],
-     "links": [
-      {
-       "label": "Read Specific Heat Capacity and Water",
-       "url": "https://www.usgs.gov/water-science-school/science/specific-heat-capacity-and-water"
-      }
-     ],
-     "questions": [
-      "What does it mean that water has a high specific heat?",
-      "Name one use of water that depends on its high specific heat."
-     ],
-     "answers": [
-      "It takes a lot of heat energy to raise its temperature",
-      "Cooling, such as in a car radiator or in industry"
-     ]
-    },
-    {
-     "title": "Lesson 18: pH and Water",
-     "steps": [
-      "Read pH and Water",
-      "Make red-cabbage indicator and test vinegar, baking-soda water, tap water, and lemon juice",
-      "Put each result on a 0–14 pH line"
-     ],
-     "links": [
-      {
-       "label": "Read pH and Water",
-       "url": "https://www.usgs.gov/water-science-school/science/ph-and-water"
-      }
-     ],
-     "questions": [
-      "What does a pH of 7 mean? Less than 7? More than 7?",
-      "Can vegetable oil have a pH? Why or why not?"
-     ],
-     "answers": [
-      "Neutral; acidic; basic",
-      "No; only water-based (aqueous) solutions have a pH"
-     ]
-    },
-    {
-     "title": "Lesson 19: How Much Does a Cloud Weigh?",
-     "steps": [
-      "Read How Much Does a Cloud Weigh?",
-      "Follow the page's math step by step with a calculator",
-      "Explain why something so heavy can float"
-     ],
-     "links": [
-      {
-       "label": "Read How Much Does a Cloud Weigh?",
-       "url": "https://www.usgs.gov/water-science-school/science/how-much-does-a-cloud-weigh"
-      }
-     ],
-     "questions": [
-      "About how much do the water droplets in the page's sample cumulus cloud weigh?",
-      "Why does the cloud float?"
-     ],
-     "answers": [
-      "About 1.1 million pounds (500,000 kilograms)",
-      "The cloud is less dense than the drier air below it"
-     ]
+      "title": "Unit 5: Water Quality and Water Use",
+      "lessons": [
+        {
+          "title": "Lesson 34: Turbidity",
+          "steps": [
+            "Read Turbidity and Water",
+            "Make a simple 'Secchi' test: lower a white lid into jars of clear and muddy water and see when it disappears",
+            "List what makes water turbid"
+          ],
+          "links": [
+            {
+              "label": "Read Turbidity and Water",
+              "url": "https://www.usgs.gov/water-science-school/science/turbidity-and-water"
+            }
+          ],
+          "questions": [
+            "What is turbidity?",
+            "Why are rivers usually more turbid after a rainstorm?"
+          ],
+          "answers": [
+            "How cloudy or clear water is, measured by how much light is scattered",
+            "Rain washes soil particles in, and faster flows stir up sediment"
+          ]
+        },
+        {
+          "title": "Lesson 35: Dissolved Oxygen",
+          "steps": [
+            "Read Dissolved Oxygen and Water",
+            "Compare a still cup of water with one you stir hard and discuss which would get more oxygen",
+            "Explain why fish might struggle in a warm, still pond"
+          ],
+          "links": [
+            {
+              "label": "Read Dissolved Oxygen and Water",
+              "url": "https://www.usgs.gov/water-science-school/science/dissolved-oxygen-and-water"
+            }
+          ],
+          "questions": [
+            "What does dissolved oxygen measure?",
+            "Below what level is water called hypoxic?"
+          ],
+          "answers": [
+            "How much oxygen is dissolved in water for living things to use",
+            "Less than 2 milligrams per liter"
+          ]
+        },
+        {
+          "title": "Lesson 36: Acid Rain",
+          "steps": [
+            "Read Acid Rain and Water",
+            "Drop a piece of chalk or limestone in vinegar and in water and compare",
+            "Find the northeastern states on a map and explain why acid rain was worst there"
+          ],
+          "links": [
+            {
+              "label": "Read Acid Rain and Water",
+              "url": "https://www.usgs.gov/water-science-school/science/acid-rain-and-water"
+            }
+          ],
+          "questions": [
+            "What is the usual pH of normal rain, and of acid rain?",
+            "Which gases help make rain acidic?"
+          ],
+          "answers": [
+            "Normal rain is a bit less than 6; acid rain is about 5.0–5.5 or lower",
+            "Sulfur dioxide and nitrogen oxides"
+          ],
+          "notes": "The page calls acid rain a success story because regulations reduced it."
+        },
+        {
+          "title": "Lesson 37: How Much Is a Million Gallons?",
+          "steps": [
+            "Read A Million Gallons of Water: How Much Is It?",
+            "Mark out 267 feet in a park or field to see the length of a million-gallon pool",
+            "Calculate how many 40-gallon baths are in a million gallons"
+          ],
+          "links": [
+            {
+              "label": "Read A Million Gallons of Water",
+              "url": "https://www.usgs.gov/water-science-school/science/a-million-gallons-water-how-much-it"
+            }
+          ],
+          "questions": [
+            "How big a pool would hold a million gallons?",
+            "How many 40-gallon baths make a million gallons?",
+            "About how much does a million gallons of water weigh?"
+          ],
+          "answers": [
+            "About 267 feet long, 50 feet wide and 10 feet deep",
+            "25,000",
+            "About 8,340,000 pounds"
+          ]
+        },
+        {
+          "title": "Lesson 38: Desalination",
+          "steps": [
+            "Read Desalination",
+            "Make a solar still: a bowl of salty water, a cup in the middle, plastic wrap, and a pebble on top; leave it in the sun",
+            "List places in the world that need desalination"
+          ],
+          "links": [
+            {
+              "label": "Read Desalination",
+              "url": "https://www.usgs.gov/water-science-school/science/desalination"
+            }
+          ],
+          "questions": [
+            "How salty is ocean water?",
+            "Name two ways to remove salt from water."
+          ],
+          "answers": [
+            "About 35,000 parts per million",
+            "Distillation (boiling and condensing the steam) and reverse osmosis, shown in the page's plant photo"
+          ]
+        },
+        {
+          "title": "Lesson 39: The Story of Water in Dryville",
+          "steps": [
+            "Read The Story of Water in Dryville",
+            "As you read, list every way the new town needs water",
+            "Draw a map of your own Dryville showing its water source, water treatment, and wastewater"
+          ],
+          "links": [
+            {
+              "label": "Read The Story of Water in Dryville",
+              "url": "https://www.usgs.gov/water-science-school/science/story-water-dryville"
+            }
+          ],
+          "questions": [
+            "What is the first water need in a new town?",
+            "Name two possible sources of water for Dryville."
+          ],
+          "answers": [
+            "Drinking water (a water source)",
+            "Any two: the creek or pond, a reservoir behind a dam, a well into the water table"
+          ],
+          "notes": "The page also offers a class-play script adapted by a Wisconsin teacher; that script is not a USGS work and is not used here."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "title": "Unit 3: Rivers, Lakes, and Floods",
-   "lessons": [
-    {
-     "title": "Lesson 20: Watersheds",
-     "steps": [
-      "Read Watersheds and Drainage Basins",
-      "Crumple a sheet of paper, open it, color the ridges with marker, and spray it with water to see the 'watersheds'",
-      "Find which large river your home's watershed drains to"
-     ],
-     "links": [
-      {
-       "label": "Read Watersheds and Drainage Basins",
-       "url": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins"
-      }
-     ],
-     "questions": [
-      "What is a watershed?",
-      "What are the ridges between two watersheds called?"
-     ],
-     "answers": [
-      "All the land that drains water to a common outlet",
-      "The drainage divide"
-     ]
-    },
-    {
-     "title": "Lesson 21: Rivers, Streams, and Creeks",
-     "steps": [
-      "Read Rivers, Streams, and Creeks",
-      "Visit a creek or look at one on a map and trace it from source to mouth",
-      "List where river water comes from besides rain running off the land"
-     ],
-     "links": [
-      {
-       "label": "Read Rivers, Streams, and Creeks",
-       "url": "https://www.usgs.gov/water-science-school/science/rivers-streams-and-creeks"
-      }
-     ],
-     "questions": [
-      "Name two sources of the water in a river.",
-      "Name two ways runoff can be 'lost' before reaching a river."
-     ],
-     "answers": [
-      "Runoff from the land and groundwater seeping in along the banks and bed",
-      "Any two: evaporation, use by plants (transpiration), use by people, animals drinking"
-     ]
-    },
-    {
-     "title": "Lesson 22: How Streamflow Is Measured",
-     "steps": [
-      "Read How Streamflow Is Measured",
-      "Measure a small stream or gutter: time a floating leaf over 10 feet and estimate width and depth",
-      "Find a USGS streamgage near you on the online water-data map"
-     ],
-     "links": [
-      {
-       "label": "Read How Streamflow Is Measured",
-       "url": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured"
-      }
-     ],
-     "questions": [
-      "What is stream stage?",
-      "What are the three steps USGS uses to compute streamflow?",
-      "Where and when did USGS start its first streamgage?"
-     ],
-     "answers": [
-      "The height of the water surface (gage height)",
-      "Measure stage, make discharge measurements, and build the stage-discharge relation",
-      "On the Rio Grande in New Mexico, in 1889"
-     ]
-    },
-    {
-     "title": "Lesson 23: Floods and the '100-Year Flood'",
-     "steps": [
-      "Read Floods and Recurrence Intervals",
-      "Roll a 100-sided die (or draw from 100 numbered slips) for 'years' to see that a 1-in-100 event can happen twice in a row",
-      "Explain the term '100-year flood' in your own words"
-     ],
-     "links": [
-      {
-       "label": "Read Floods and Recurrence Intervals",
-       "url": "https://www.usgs.gov/water-science-school/science/floods-and-recurrence-intervals"
-      }
-     ],
-     "questions": [
-      "What is the chance of a '100-year flood' happening in any given year?",
-      "Does a 100-year flood this year mean the next one is 100 years away?"
-     ],
-     "answers": [
-      "1 percent (a 1 in 100 chance each year)",
-      "No; the chance is the same 1 in 100 every year"
-     ]
-    },
-    {
-     "title": "Lesson 24: Impervious Surfaces and Flooding",
-     "steps": [
-      "Read Impervious Surfaces and Flooding",
-      "Pour water on a tilted cookie sheet and on a tilted tray of soil; catch and compare what runs off",
-      "Suggest two ways a town could reduce runoff"
-     ],
-     "links": [
-      {
-       "label": "Read Impervious Surfaces and Flooding",
-       "url": "https://www.usgs.gov/water-science-school/science/impervious-surfaces-and-flooding"
-      }
-     ],
-     "questions": [
-      "Why does paving land make floods worse?",
-      "Why was the house near Peachtree Creek raised 10 feet?"
-     ],
-     "answers": [
-      "Rain can't soak in, so it runs quickly into sewers and creeks",
-      "The creek flooded its first floor in 1975 and 1976"
-     ]
-    },
-    {
-     "title": "Lesson 25: Lakes and Reservoirs",
-     "steps": [
-      "Read Lakes and Reservoirs",
-      "Find Lake Baikal, the Great Lakes, and Lake Mead on a map",
-      "Explain the difference between a natural lake and a reservoir"
-     ],
-     "links": [
-      {
-       "label": "Read Lakes and Reservoirs",
-       "url": "https://www.usgs.gov/water-science-school/science/lakes-and-reservoirs"
-      }
-     ],
-     "questions": [
-      "How does a lake form?",
-      "What is the world's oldest, largest, and deepest freshwater lake?"
-     ],
-     "answers": [
-      "Water flows into a low spot faster than it can leave by outflow, seepage or evaporation",
-      "Lake Baikal in Siberia"
-     ]
-    },
-    {
-     "title": "Lesson 26: Hydroelectric Power",
-     "steps": [
-      "Read Hydroelectric Power: How It Works",
-      "Build a pinwheel and turn it with water poured from a pitcher",
-      "Draw the path of water through a dam: reservoir, intake, turbine, generator"
-     ],
-     "links": [
-      {
-       "label": "Read Hydroelectric Power: How It Works",
-       "url": "https://www.usgs.gov/water-science-school/science/hydroelectric-power-how-it-works"
-      }
-     ],
-     "questions": [
-      "What turns the turbine in a hydroelectric plant? In a coal plant?",
-      "What does the turbine turn to make electricity?"
-     ],
-     "answers": [
-      "Falling water; steam from water heated by burning coal",
-      "A shaft in an electric generator"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Unit 4: Groundwater",
-   "lessons": [
-    {
-     "title": "Lesson 27: What Is Groundwater?",
-     "steps": [
-      "Read Groundwater: What Is Groundwater?",
-      "Dig a hole in damp sand (or at the beach) until water seeps in",
-      "Draw the unsaturated zone, saturated zone, and water table"
-     ],
-     "links": [
-      {
-       "label": "Read What Is Groundwater?",
-       "url": "https://www.usgs.gov/water-science-school/science/groundwater-what-groundwater"
-      }
-     ],
-     "questions": [
-      "How does the amount of fresh groundwater compare with all the water in rivers and freshwater lakes?",
-      "What kinds of rock layers can slow groundwater down?"
-     ],
-     "answers": [
-      "There is about a hundred times more fresh water in the ground",
-      "Dense or tight layers such as granite or shale"
-     ]
-    },
-    {
-     "title": "Lesson 28: Aquifers",
-     "steps": [
-      "Read Aquifers and Groundwater",
-      "Build an aquifer in a clear container with clay, sand and gravel layers, then 'rain' on it",
-      "Explain porosity and permeability with a sponge and a rock"
-     ],
-     "links": [
-      {
-       "label": "Read Aquifers and Groundwater",
-       "url": "https://www.usgs.gov/water-science-school/science/aquifers-and-groundwater"
-      }
-     ],
-     "questions": [
-      "What is an aquifer?",
-      "Why does the hole at the beach fill with water?"
-     ],
-     "answers": [
-      "Rock or sediment underground that holds and gives up usable amounts of water",
-      "The sand is below the water table, in the zone of saturation"
-     ]
-    },
-    {
-     "title": "Lesson 29: Wells",
-     "steps": [
-      "Read Groundwater Wells",
-      "Push a straw into your aquifer model and draw water out with a dropper",
-      "Label well casing, screen, and cap on a drawing"
-     ],
-     "links": [
-      {
-       "label": "Read Groundwater Wells",
-       "url": "https://www.usgs.gov/water-science-school/science/groundwater-wells"
-      }
-     ],
-     "questions": [
-      "Why do people in deserts depend on wells?",
-      "What does a well cap do?",
-      "Name the three kinds of wells the page describes."
-     ],
-     "answers": [
-      "Surface water is scarce there, so groundwater is the main supply",
-      "Keeps out debris, insects and small animals",
-      "Dug, driven, and drilled wells"
-     ]
-    },
-    {
-     "title": "Lesson 30: Artesian Water",
-     "steps": [
-      "Read Artesian Water and Artesian Wells",
-      "Model it: fill a bendy straw or tubing held high on one end and lower the other end to see water rise",
-      "Explain why a deep well is not always an artesian well"
-     ],
-     "links": [
-      {
-       "label": "Read Artesian Water and Artesian Wells",
-       "url": "https://www.usgs.gov/water-science-school/science/artesian-water-and-artesian-wells"
-      }
-     ],
-     "questions": [
-      "What makes water in an artesian well rise?",
-      "Where does the word 'artesian' come from?"
-     ],
-     "answers": [
-      "Pressure in a confined aquifer between poorly permeable layers",
-      "The town of Artois in France"
-     ]
-    },
-    {
-     "title": "Lesson 31: Sinkholes",
-     "steps": [
-      "Read Sinkholes",
-      "Model a sinkhole: bury a sugar cube under damp sand and drip water on it",
-      "Find whether your state has limestone or other karst rock"
-     ],
-     "links": [
-      {
-       "label": "Read Sinkholes",
-       "url": "https://www.usgs.gov/water-science-school/science/sinkholes"
-      }
-     ],
-     "questions": [
-      "In what kinds of rock are sinkholes common?",
-      "Why did over 110 sinkholes form near Dover, Florida, in January 2010?"
-     ],
-     "answers": [
-      "Rocks groundwater can dissolve, such as limestone, carbonate rock and salt beds",
-      "Farmers pumped so much groundwater to protect crops from freezing that water levels dropped to record lows"
-     ]
-    },
-    {
-     "title": "Lesson 32: Land Subsidence",
-     "steps": [
-      "Read Land Subsidence",
-      "Squeeze water out of a wet sponge stuffed in a cup and watch it shrink",
-      "Look at the photo of the pole near Mendota, California, and estimate how far the ground sank"
-     ],
-     "links": [
-      {
-       "label": "Read Land Subsidence",
-       "url": "https://www.usgs.gov/water-science-school/science/land-subsidence"
-      }
-     ],
-     "questions": [
-      "What causes most land subsidence in the United States?",
-      "Why does the ground sink when water is pumped out?"
-     ],
-     "answers": [
-      "Pumping too much groundwater (more than 80 percent of identified subsidence)",
-      "The water helped hold up the sediments, so they compact"
-     ]
-    },
-    {
-     "title": "Lesson 33: When Groundwater Runs Low",
-     "steps": [
-      "Read Groundwater Decline and Depletion",
-      "Use two straws in one cup to show two neighbors' wells drawing down the same water",
-      "Write three ways a family can save water"
-     ],
-     "links": [
-      {
-       "label": "Read Groundwater Decline and Depletion",
-       "url": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion"
-      }
-     ],
-     "questions": [
-      "What is groundwater depletion?",
-      "About what share of people in the United States get drinking water from groundwater?"
-     ],
-     "answers": [
-      "Long-term falling water levels from pumping faster than recharge",
-      "About half (and nearly all rural people)"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Unit 5: Water Quality and Water Use",
-   "lessons": [
-    {
-     "title": "Lesson 34: Turbidity",
-     "steps": [
-      "Read Turbidity and Water",
-      "Make a simple 'Secchi' test: lower a white lid into jars of clear and muddy water and see when it disappears",
-      "List what makes water turbid"
-     ],
-     "links": [
-      {
-       "label": "Read Turbidity and Water",
-       "url": "https://www.usgs.gov/water-science-school/science/turbidity-and-water"
-      }
-     ],
-     "questions": [
-      "What is turbidity?",
-      "Why are rivers usually more turbid after a rainstorm?"
-     ],
-     "answers": [
-      "How cloudy or clear water is, measured by how much light is scattered",
-      "Rain washes soil particles in, and faster flows stir up sediment"
-     ]
-    },
-    {
-     "title": "Lesson 35: Dissolved Oxygen",
-     "steps": [
-      "Read Dissolved Oxygen and Water",
-      "Compare a still cup of water with one you stir hard and discuss which would get more oxygen",
-      "Explain why fish might struggle in a warm, still pond"
-     ],
-     "links": [
-      {
-       "label": "Read Dissolved Oxygen and Water",
-       "url": "https://www.usgs.gov/water-science-school/science/dissolved-oxygen-and-water"
-      }
-     ],
-     "questions": [
-      "What does dissolved oxygen measure?",
-      "Below what level is water called hypoxic?"
-     ],
-     "answers": [
-      "How much oxygen is dissolved in water for living things to use",
-      "Less than 2 milligrams per liter"
-     ]
-    },
-    {
-     "title": "Lesson 36: Acid Rain",
-     "steps": [
-      "Read Acid Rain and Water",
-      "Drop a piece of chalk or limestone in vinegar and in water and compare",
-      "Find the northeastern states on a map and explain why acid rain was worst there"
-     ],
-     "links": [
-      {
-       "label": "Read Acid Rain and Water",
-       "url": "https://www.usgs.gov/water-science-school/science/acid-rain-and-water"
-      }
-     ],
-     "questions": [
-      "What is the usual pH of normal rain, and of acid rain?",
-      "Which gases help make rain acidic?"
-     ],
-     "answers": [
-      "Normal rain is a bit less than 6; acid rain is about 5.0–5.5 or lower",
-      "Sulfur dioxide and nitrogen oxides"
-     ],
-     "notes": "The page calls acid rain a success story because regulations reduced it."
-    },
-    {
-     "title": "Lesson 37: How Much Is a Million Gallons?",
-     "steps": [
-      "Read A Million Gallons of Water: How Much Is It?",
-      "Mark out 267 feet in a park or field to see the length of a million-gallon pool",
-      "Calculate how many 40-gallon baths are in a million gallons"
-     ],
-     "links": [
-      {
-       "label": "Read A Million Gallons of Water",
-       "url": "https://www.usgs.gov/water-science-school/science/a-million-gallons-water-how-much-it"
-      }
-     ],
-     "questions": [
-      "How big a pool would hold a million gallons?",
-      "How many 40-gallon baths make a million gallons?",
-      "About how much does a million gallons of water weigh?"
-     ],
-     "answers": [
-      "About 267 feet long, 50 feet wide and 10 feet deep",
-      "25,000",
-      "About 8,340,000 pounds"
-     ]
-    },
-    {
-     "title": "Lesson 38: Desalination",
-     "steps": [
-      "Read Desalination",
-      "Make a solar still: a bowl of salty water, a cup in the middle, plastic wrap, and a pebble on top; leave it in the sun",
-      "List places in the world that need desalination"
-     ],
-     "links": [
-      {
-       "label": "Read Desalination",
-       "url": "https://www.usgs.gov/water-science-school/science/desalination"
-      }
-     ],
-     "questions": [
-      "How salty is ocean water?",
-      "Name two ways to remove salt from water."
-     ],
-     "answers": [
-      "About 35,000 parts per million",
-      "Distillation (boiling and condensing the steam) and reverse osmosis, shown in the page's plant photo"
-     ]
-    },
-    {
-     "title": "Lesson 39: The Story of Water in Dryville",
-     "steps": [
-      "Read The Story of Water in Dryville",
-      "As you read, list every way the new town needs water",
-      "Draw a map of your own Dryville showing its water source, water treatment, and wastewater"
-     ],
-     "links": [
-      {
-       "label": "Read The Story of Water in Dryville",
-       "url": "https://www.usgs.gov/water-science-school/science/story-water-dryville"
-      }
-     ],
-     "questions": [
-      "What is the first water need in a new town?",
-      "Name two possible sources of water for Dryville."
-     ],
-     "answers": [
-      "Drinking water (a water source)",
-      "Any two: the creek or pond, a reservoir behind a dam, a well into the water table"
-     ],
-     "notes": "The page also offers a class-play script adapted by a Wisconsin teacher; that script is not a USGS work and is not used here."
-    }
-   ]
-  }
- ]
+  ]
 }
