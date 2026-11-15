@@ -76,6 +76,14 @@ _Last updated: 2026-11-11_
 
 _New ideas land here, then get a priority._
 
+- **Resources tab: explore options near you.** A new tab where families browse what's available to them, filtered by their state and ZIP:
+  - **Federal:** e.g. free educational programs from national agencies, plus the national parks Junior Ranger and Every Kid Outdoors passes.
+  - **State:** the homeschool law summary and notice-of-intent office, ESA, voucher and tax-credit programs, state homeschool associations, and access to public-school classes, sports or testing where the state allows it.
+  - **Local:** library programs and cards, museums and nature centers with homeschool days, and parks and rec classes.
+  - **Enrichment programs and co-ops:** homeschool enrichment days, hybrid schools, classes, and co-ops, including Freerange co-ops that are open to new families.
+  - Each entry shows its cost, ages, schedule, link and when it was last checked. Families can save entries, add them to their plan or calendar, and suggest new ones, which moderators review.
+  - Open questions: where the data comes from (hand-curated per state to start, then family submissions), how to keep links fresh, and paid placement (probably never, to keep trust).
+
 - **Design review, round 1:** the shared fixes and small P1s from the design review (https://claude.ai/artifact/8qLz8ns8mJDs2wsRaxBbDK), then rounds 2 and 3.
 - **From the Compass and Studio test suites:**
   - Throttle repeated wrong kid and parent PINs; there's no limit today.
