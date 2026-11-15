@@ -43,7 +43,7 @@ export const TIER_INFO: Record<RegTier, { label: string; color: string; blurb: s
   none: { label: 'No notice', color: '#4BA36B', blurb: 'No requirement to notify the state.' },
   low: { label: 'Low regulation', color: '#7FB24B', blurb: 'Notify the state; few other requirements.' },
   moderate: { label: 'Moderate regulation', color: '#E3A33B', blurb: 'Notice plus test scores and/or evaluations.' },
-  high: { label: 'High regulation', color: '#E0605A', blurb: 'Notice, assessments, and often curriculum approval or home visits.' },
+  high: { label: 'High regulation', color: '#C8463F', blurb: 'Notice, assessments, and often curriculum approval or home visits.' },
 };
 
 const s = (law: StateLaw) => law;
