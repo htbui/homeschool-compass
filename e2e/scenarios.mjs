@@ -504,10 +504,18 @@ async function run() {
   log(await isDisabled('Post review'), 'review needs stars + text');
   await clickLabel('4 stars');
   await fill("What worked, what didn't, and who it's best for.", 'Lovely gentle start to bird study for all ages.');
+  await expect('Show “On lesson 1 of 45”', 'review offers to show progress from the plan');
   await click('Post review', { exact: true });
   await expect('Edit review (4★)', 'review saved');
   await click('View listing');
   await expect('Verified purchase', 'own review shows verified');
+  await expect('On lesson 1 of 45', 'review shows the family’s progress');
+  await click('Most progress', { exact: true });
+  await expect('On lesson 1 of 45', 'sorting by progress keeps the review');
+  await click('Edit yours');
+  await click('Don’t show it');
+  await click('Save review', { exact: true });
+  await expectNot('On lesson 1 of 45', 'progress can be hidden');
   await page.goBack(); await sleep(600);
   // Sell something.
   await click('🏷️ Selling');

@@ -236,6 +236,7 @@ async function run() {
   scenario('Web import without an account');
   await page.goto(`${BASE}/studio/import?from=web`, { waitUntil: 'networkidle0' });
   await sleep(800);
+  await expect('a YouTube playlist, or an open textbook', 'says playlists and open textbooks can be read');
   await fill('https://…', 'example.org/course');
   await click('Load page');
   await sleep(500);

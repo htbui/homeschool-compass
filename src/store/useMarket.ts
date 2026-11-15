@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { create } from 'zustand';
 
-import { withReviews, type Listing, type Review } from '@/lib/market';
+import { reviewProgress, withReviews, type Listing, type Review } from '@/lib/market';
 import { libraryListings } from '@/lib/library';
 
 import { useStore } from './useStore';
@@ -38,6 +38,7 @@ export function useCatalog(): { listings: Listing[]; reviews: Review[]; source: 
   const myListings = useStore((s) => s.myListings);
   const myReviews = useStore((s) => s.myReviews);
   const votes = useStore((s) => s.helpfulVotes);
+  const curricula = useStore((s) => s.curricula);
 
   return useMemo(() => {
     const mineIds = new Set(myListings.map((l) => l.id));
@@ -48,9 +49,11 @@ export function useCatalog(): { listings: Listing[]; reviews: Review[]; source: 
     const merged = [...myListings, ...listings.filter((l) => !mineIds.has(l.id))].map((l) =>
       withReviews(l, pending.filter((r) => r.listingId === l.id)),
     );
-    const allReviews = [...myReviews, ...reviews.filter((r) => !myReviewIds.has(r.id))].map((r) =>
+    // Without an account, this family's progress comes straight from their plan (the server keeps it otherwise).
+    const mine = source === 'sample' ? myReviews.map((r) => ({ ...r, progress: r.showProgress === false ? undefined : reviewProgress(curricula, r.listingId) })) : myReviews;
+    const allReviews = [...mine, ...reviews.filter((r) => !myReviewIds.has(r.id))].map((r) =>
       source === 'sample' && votes.includes(r.id) ? { ...r, helpful: r.helpful + 1 } : r,
     );
     return { listings: merged, reviews: allReviews, source };
-  }, [listings, reviews, source, myListings, myReviews, votes]);
+  }, [listings, reviews, source, myListings, myReviews, votes, curricula]);
 }
