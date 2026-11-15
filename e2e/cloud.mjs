@@ -433,12 +433,18 @@ try {
   const modId = (await B.account()).userId;
   if (!/^[0-9a-f-]{36}$/.test(modId ?? '')) throw new Error('no user id for the moderator');
   sql(`insert into public.app_admins (user_id) values ('${modId}') on conflict do nothing`);
+  // The tablet is in kid mode, which can't open Settings: a grown-up exits it first.
+  await B.page.evaluate(() => {
+    const s = JSON.parse(localStorage.getItem('freerange-v1'));
+    s.state.mode = { kind: 'parent' };
+    localStorage.setItem('freerange-v1', JSON.stringify(s));
+  });
   await B.goto('/settings');
   await B.click('🚩 Moderation queue ›');
   await B.expect(`Pond Days, chapters 1–3 ${run}`, 'moderator sees the copyright claim', 15000);
   await B.expect('contact: author@example.test');
-  await B.fillLabel('Note (kept with the decision)', 'Upheld in e2e');
-  await B.click('Take it down');
+  // Other runs may have left reports in the queue: act on this run's card only.
+  await B.clickIn(`Pond Days, chapters 1–3 ${run}`, 'Take it down');
   await sleep(1500);
   log(!(await B.has(`Pond Days, chapters 1–3 ${run}`)), 'queue cleared after the decision');
   await A.goto(`/listing/${pub.listingId}`);
