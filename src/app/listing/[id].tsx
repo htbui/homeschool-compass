@@ -7,6 +7,8 @@ import { CheckoutSheet } from '@/components/market/CheckoutSheet';
 import { Cover, money, Stars } from '@/components/market/ListingCard';
 import { ReportSheet } from '@/components/market/ReportSheet';
 import { ReviewSheet } from '@/components/market/ReviewSheet';
+import { EsaBadge, VerifiedBadge } from '@/components/market/SellerBadges';
+import { stateList, storefrontId } from '@/lib/creators';
 import { formatDate } from '@/lib/dates';
 import {
   CONDITION_LABEL,
@@ -69,6 +71,7 @@ export default function ListingDetail() {
   const shown = sortReviews(starFilter ? reviews.filter((r) => r.rating === starFilter) : reviews, reviewSort);
   const mine = reviews.find((r) => r.mine);
   const match = matchListing(l, { family, kids });
+  const store = storefrontId(l);
   const wide = width >= 900;
 
   const buyBox = (
@@ -100,8 +103,8 @@ export default function ListingDetail() {
         <Button size="lg" title={l.price === 0 ? 'Get it free' : 'Buy'} onPress={() => setBuying(true)} />
       )}
       <T v="caption" muted>
-        {l.esaEligible ? '🏛️ Approved ESA vendor. ' : ''}
-        {l.sellerKind === 'open' ? `A free curriculum by ${l.seller}, organized into a lesson plan by Freerange (not affiliated with or endorsed by its author or publisher).` : l.sellerKind === 'family' ? 'Sold by a family: arrange pickup in a public place or shipping.' : `Sold by ${l.seller}${l.sellerVerified ? ' (verified publisher)' : l.sellerKind === 'creator' ? ', an independent creator' : ''}.`}
+        {l.esaEligible ? `🏛️ Approved ESA vendor${l.esaStates?.length ? ` in ${stateList(l.esaStates)}` : ''}; reimbursement goes through your state program. ` : ''}
+        {l.sellerKind === 'open' ? `A free curriculum by ${l.seller}, organized into a lesson plan by Freerange (not affiliated with or endorsed by its author or publisher).` : l.sellerKind === 'family' ? 'Sold by a family: arrange pickup in a public place or shipping.' : `Sold by ${l.seller}${l.sellerKind === 'creator' ? ', an independent creator' : ''}${l.sellerVerified ? ' (Freerange checked who they are)' : ''}.`}
         {l.packageId ? ' Comes with a lesson-by-lesson plan: each day shows that lesson’s steps, pages, and links.' : ''}
       </T>
       {!l.mine && !l.sample ? (
@@ -123,9 +126,13 @@ export default function ListingDetail() {
               <T v="title">{l.title}</T>
               <T muted>
                 {l.sellerKind === 'open' ? `by ${l.seller}` : l.seller}
-                {l.sellerVerified ? ' ✓ verified' : ''}
                 {SELLER_NOTE[l.sellerKind]}
               </T>
+              {store ? (
+                <Row>
+                  <Button size="sm" kind="ghost" title={`🏪 More from ${l.seller} ›`} onPress={() => router.push({ pathname: '/creator/[id]', params: { id: store } })} />
+                </Row>
+              ) : null}
               <Row gap={6}>
                 {summary.count ? (
                   <>
@@ -137,6 +144,8 @@ export default function ListingDetail() {
                 )}
               </Row>
               <Row wrap gap={6}>
+                {l.sellerVerified ? <VerifiedBadge /> : null}
+                {l.esaEligible ? <EsaBadge states={l.esaStates} homeState={family?.stateCode} /> : null}
                 <Pill text={gradeRangeLabel(l.gradeMin, l.gradeMax)} />
                 {l.subjects.map((s) => (
                   <Pill key={s} text={`${SUBJECTS[s].icon} ${SUBJECTS[s].label}`} />

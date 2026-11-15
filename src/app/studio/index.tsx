@@ -6,6 +6,9 @@ import { money } from '@/components/market/ListingCard';
 import { formatDate } from '@/lib/dates';
 import { LICENSE_INFO, licenseName } from '@/lib/license';
 import { lessonTotal, ORIGIN_LABEL, type CurriculumPackage } from '@/lib/package';
+import { EsaBadge, VerifiedBadge } from '@/components/market/SellerBadges';
+import { LOCAL_CREATOR_ID, stateList, type ApplicationStatus, type BadgeApplication } from '@/lib/creators';
+import { followerCount, myBadges, type MyBadges } from '@/services/creatorApi';
 import { creatorStats, loadStudio, type ListingStats } from '@/services/studioApi';
 import { useAccount } from '@/store/useAccount';
 import { useStore } from '@/store/useStore';
@@ -26,13 +29,20 @@ export default function StudioHome() {
   const family = useStore((s) => s.family);
   const userId = useAccount((s) => s.userId);
   const [stats, setStats] = useState<Record<string, ListingStats>>({});
+  const [followers, setFollowers] = useState<number>();
+  const [badges, setBadges] = useState<MyBadges>();
 
   useEffect(() => {
     let alive = true;
     loadStudio()
       .catch(() => {})
-      .then(() => creatorStats())
-      .then((s) => alive && setStats(s));
+      .then(() => Promise.all([creatorStats(), followerCount(), myBadges().catch(() => undefined)]))
+      .then(([s, f, b]) => {
+        if (!alive) return;
+        setStats(s);
+        setFollowers(f);
+        setBadges(b);
+      });
     return () => {
       alive = false;
     };
@@ -58,14 +68,24 @@ export default function StudioHome() {
           <T v="display">🎨 {profile.name}</T>
           <T muted>{profile.bio || 'Your Studio: make, convert, and publish curricula.'}</T>
         </Stack>
-        <Button size="sm" kind="secondary" title="Edit profile" onPress={() => router.push('/studio/setup')} />
+        <Row gap={6} wrap>
+          <Button size="sm" kind="ghost" title="🏪 My storefront" onPress={() => router.push({ pathname: '/creator/[id]', params: { id: userId ?? LOCAL_CREATOR_ID } })} />
+          <Button size="sm" kind="secondary" title="Edit profile" onPress={() => router.push('/studio/setup')} />
+        </Row>
       </Row>
+      {profile.verified || profile.esaStates?.length ? (
+        <Row wrap gap={6} style={{ marginTop: space.sm }}>
+          {profile.verified ? <VerifiedBadge /> : null}
+          {profile.esaStates?.length ? <EsaBadge states={profile.esaStates} /> : null}
+        </Row>
+      ) : null}
 
       <Row wrap gap={space.md} style={{ marginTop: space.lg }} align="stretch">
         <Stat label="Published" value={String(published.length)} />
         <Stat label="Drafts" value={String(drafts.length)} />
         {userId ? <Stat label="Families reached" value={String(totals.sales)} /> : null}
         {userId ? <Stat label="Sales" value={dollars(totals.revenue)} sub="before fees" /> : null}
+        {followers !== undefined ? <Stat label="Followers" value={String(followers)} sub="families following your shop" /> : null}
       </Row>
       {!userId ? <T v="caption" muted style={{ marginTop: space.sm }}>Sign in (Settings → Account) to publish to everyone and see sales. Until then, publishing lists curricula on this device only.</T> : null}
 
@@ -79,12 +99,46 @@ export default function StudioHome() {
       {published.length ? <PackageList title="Published" items={published} stats={stats} /> : null}
       {drafts.length ? <PackageList title="Drafts" items={drafts} stats={stats} /> : null}
       {privateOnes.length ? <PackageList title="Private (family use only)" subtitle="Conversions of books you own, or sources whose license doesn’t allow sharing." items={privateOnes} stats={stats} /> : null}
+      <Section title="Badges" subtitle="Freerange checks each application; badges show on your storefront and every listing.">
+        <Row wrap gap={space.md} align="stretch">
+          <BadgeCard
+            title="✓ Verified creator"
+            body="Show families that Freerange checked who made your curricula."
+            on={!!profile.verified}
+            onText="You’re verified."
+            app={badges?.latest.verified}
+            onPress={() => router.push({ pathname: '/studio/badge', params: { kind: 'verified' } })}
+          />
+          <BadgeCard
+            title="🏛️ ESA vendor"
+            body="Already approved by a state ESA program? Show families which states."
+            on={!!profile.esaStates?.length}
+            onText={profile.esaStates?.length ? `Listed in ${stateList(profile.esaStates)}.` : ''}
+            app={badges?.latest.esa}
+            onPress={() => router.push({ pathname: '/studio/badge', params: { kind: 'esa' } })}
+          />
+        </Row>
+      </Section>
       <View style={{ height: space.xl }} />
       <Card tint={c.surfaceAlt}>
         <T v="heading">How licensing works</T>
         <T v="caption">Your own work: you choose the license and price. Adapted from a free online curriculum: it keeps the source’s license, credits the source, and must be free if the source is non-commercial. Converted from a book you own: private to your family.</T>
       </Card>
     </Screen>
+  );
+}
+
+const APP_STATUS: Partial<Record<ApplicationStatus, string>> = { pending: '⏳ Waiting for review', declined: 'Not approved yet: see the note', revoked: 'Removed by Freerange: see the note' };
+
+function BadgeCard({ title, body, on, onText, app, onPress }: { title: string; body: string; on: boolean; onText: string; app?: BadgeApplication; onPress: () => void }) {
+  const c = useColors();
+  const status = app && app.status !== 'approved' ? APP_STATUS[app.status] : undefined;
+  return (
+    <Card onPress={onPress} tint={on ? c.successSoft : undefined} style={{ flex: 1, minWidth: 240 }}>
+      <T v="heading">{title}</T>
+      <T v="caption" muted>{on ? onText : body}</T>
+      <T v="label" color={c.primary}>{status ?? (on ? 'Details ›' : 'Apply ›')}</T>
+    </Card>
   );
 }
 
