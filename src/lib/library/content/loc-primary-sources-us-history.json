@@ -1,0 +1,1953 @@
+{
+  "key": "loc-primary-sources-us-history",
+  "title": "U.S. History Through Primary Sources",
+  "sourceTitle": "Library of Congress Primary Source Sets (U.S. history selection)",
+  "author": "Library of Congress",
+  "seller": "Library of Congress",
+  "year": 2026,
+  "sourceUrl": "https://www.loc.gov/classroom-materials/?fa=partof_type:primary+source+set",
+  "license": {
+    "kind": "public_domain"
+  },
+  "licenseEvidence": "Library of Congress Legal page (https://www.loc.gov/legal/, checked 2026-11-14), \"About Copyright and the Collections\": \"As a publicly supported institution, we generally do not own the rights to materials in our collections. You should determine for yourself whether or not an item is protected by copyright or in the public domain, and then satisfy any copyright or use restrictions when publishing or distributing materials from our collections.\" The same page asks automated tools to stay under 10 requests per minute (followed while building this plan) and says links \"are not endorsements.\" The Primary Source Sets' background essays and \"Suggestions for Teachers\" (shown on each set page in place of the older Teacher's Guide PDFs, whose links now return 404), the Primary Source Analysis Tool, and the \"Analyzing ...\" teacher's guides are written by Library of Congress staff and carry no copyright notice or outside author (all 27 set pages and all linked tool/guide PDFs checked 2026-11-14), so they are works of the U.S. Government, not subject to copyright under 17 U.S.C. §105. The primary-source items (maps, prints, photographs, manuscripts, newspapers, songs, films, oral histories) each carry their own rights statement on loc.gov and are NOT copied here: this plan uses only short item titles, links, and original steps, questions, and answers. Sets credited to non-staff fellows (Civil War Photographs, Civil War Images, and Civil War Music, each \"created by\" a Liljenquist Family Fellow) were left out.",
+  "attribution": "Built from the Library of Congress Primary Source Sets (https://www.loc.gov/classroom-materials/?fa=partof_type:primary+source+set) and the Library's Primary Source Analysis Tool and analysis guides (https://www.loc.gov/programs/teachers/getting-started-with-primary-sources/guides/). The sets' background essays and teaching suggestions were written by Library of Congress staff and are U.S. Government works in the public domain (17 U.S.C. §105). The primary-source items themselves are only linked, never copied; each carries its own rights statement on loc.gov. Freerange organized 27 sets into daily lessons with original steps, questions, and answers. The Library of Congress does not endorse Freerange or this lesson plan.",
+  "subjects": [
+    "history",
+    "civics"
+  ],
+  "gradeMin": 5,
+  "gradeMax": 10,
+  "philosophies": [
+    "unit_study",
+    "charlotte_mason",
+    "traditional"
+  ],
+  "lessonsPerWeek": 3,
+  "minutesPerLesson": 40,
+  "parentInvolvement": "medium",
+  "familyStyle": true,
+  "cover": "🗂️",
+  "color": "#2F6B5E",
+  "description": "A chronological U.S. history course, from Columbus and Jamestown to the Voting Rights Act, built on the Library of Congress's free Primary Source Sets. Each day your child studies two or three real maps, letters, photographs, posters, newspapers, songs, or oral histories on loc.gov, using the Library's Observe, Reflect, Question analysis tool, and then answers a few questions. Siblings can share a lesson, and everything is free online.",
+  "includes": [
+    "45 lessons in 6 units, in chronological order",
+    "Links to 27 Library of Congress Primary Source Sets with background essays and teaching ideas",
+    "Two or three hand-picked primary sources linked in every lesson",
+    "The Library's Primary Source Analysis Tool and a matching analysis guide for each source type",
+    "Observe, Reflect, Question steps, map and timeline work",
+    "Discussion questions with answers"
+  ],
+  "units": [
+    {
+      "title": "Unit 1: Three Worlds Meet (1492–1620)",
+      "lessons": [
+        {
+          "title": "Lesson 1: Naming a New World",
+          "steps": [
+            "Read the set's background on the Age of Exploration together",
+            "Observe: zoom into the 1507 Waldseemüller map and list five things you see before deciding what they mean",
+            "Reflect: find the word \"America\" and talk about why a German mapmaker put it there",
+            "Question: write two questions the map raises about what Europeans knew in 1507"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Spanish and Portuguese Exploration in the Americas",
+              "url": "https://www.loc.gov/classroom-materials/spanish-and-portuguese-exploration-in-the-americas/"
+            },
+            {
+              "label": "Primary source: Waldseemüller's world map, 1507",
+              "url": "https://www.loc.gov/resource/g3200.ct000725C/"
+            },
+            {
+              "label": "Primary source: The first voyage (Columbus)",
+              "url": "https://www.loc.gov/item/91721172/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Maps (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Maps.pdf"
+            }
+          ],
+          "questions": [
+            "Whom was the name \"America\" meant to honor?",
+            "Name two reasons European countries sent explorers across the ocean."
+          ],
+          "answers": [
+            "Amerigo Vespucci",
+            "Any two of: trade and spices, riches/precious metals, new markets, spreading Christianity, knowledge of the world"
+          ],
+          "notes": "Print the Primary Source Analysis Tool once and use it every lesson: Observe, Reflect, Question."
+        },
+        {
+          "title": "Lesson 2: Spain Claims the Borderlands",
+          "steps": [
+            "Put Ponce de León, Coronado, St. Augustine, and the California missions on a simple timeline using the set's background",
+            "Observe each of the three items closely and list who or what is shown",
+            "Reflect: what does each item tell you about how Spain held on to land it claimed?",
+            "Find St. Augustine, Santa Fe, and San Diego on a modern map"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Spanish and Portuguese Exploration in the Americas",
+              "url": "https://www.loc.gov/classroom-materials/spanish-and-portuguese-exploration-in-the-americas/"
+            },
+            {
+              "label": "Primary source: Drake's 1586 raid on St. Augustine (map)",
+              "url": "https://www.loc.gov/resource/g3934s.ct000068/"
+            },
+            {
+              "label": "Primary source: Oñate's inscription",
+              "url": "https://www.loc.gov/resource/cph.3c23607/"
+            },
+            {
+              "label": "Primary source: Mission San Diego de Alcalá",
+              "url": "https://www.loc.gov/resource/hhh.ca0607.photos?st=gallery"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Primary Sources (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Primary_Sources.pdf"
+            }
+          ],
+          "questions": [
+            "What was unusual about Juan de Oñate leaving his name on Inscription Rock?",
+            "Why might missions have mattered to Spain as much as forts did?"
+          ],
+          "notes": "Inscription Rock (El Morro, New Mexico) holds carvings left by many travelers over centuries."
+        },
+        {
+          "title": "Lesson 3: Mapping Virginia",
+          "steps": [
+            "Read the Historical Background through \"A City on the Swamp\" together",
+            "Observe both maps side by side: list rivers, villages, pictures, and words you notice",
+            "Reflect: whose knowledge went into these maps, the English, the Powhatan peoples, or both?",
+            "Question: what would a settler want from a map like this?"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Jamestown",
+              "url": "https://www.loc.gov/classroom-materials/jamestown/"
+            },
+            {
+              "label": "Primary source: John Smith's map of Virginia",
+              "url": "https://www.loc.gov/resource/g3880.ct000377/"
+            },
+            {
+              "label": "Primary source: John White's map of Virginia",
+              "url": "https://www.loc.gov/resource/g3880.ct000777/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Maps (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Maps.pdf"
+            }
+          ],
+          "questions": [
+            "In what year did the Jamestown settlers land and found their town?",
+            "Name two goals the Virginia Company hoped the colony would meet."
+          ],
+          "answers": [
+            "1607 (May 14)",
+            "Any two of: find gold, find a water route to Asia, make a profit, claim land for England"
+          ]
+        },
+        {
+          "title": "Lesson 4: The Powhatan World and Pocahontas",
+          "steps": [
+            "Observe the Secotan village and fishing pictures: sketch one detail of daily life",
+            "Reflect: these prints were made by a European engraver from John White's watercolors; what might have changed along the way?",
+            "Compare the much later wedding painting: when was it made, and how does it show Pocahontas?",
+            "Narrate what you learned about how the Powhatan people lived"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Jamestown",
+              "url": "https://www.loc.gov/classroom-materials/jamestown/"
+            },
+            {
+              "label": "Primary source: Village of Secotan",
+              "url": "https://www.loc.gov/resource/cph.3b00423/"
+            },
+            {
+              "label": "Primary source: Their manner of fishing in Virginia",
+              "url": "https://www.loc.gov/resource/cph.3g04805/"
+            },
+            {
+              "label": "Primary source: The wedding of Pocahontas",
+              "url": "https://www.loc.gov/resource/pga.03343/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Photographs and Prints (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Photographs_and_Prints.pdf"
+            }
+          ],
+          "questions": [
+            "How did trade with Chief Powhatan's people help Jamestown survive its first years?",
+            "Why should we be careful when a picture was made long after the event it shows?"
+          ],
+          "answers": [
+            "The Powhatan supplied food the settlers had not grown for themselves",
+            "It may show what the artist imagined or wanted people to believe, not what really happened"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 2: Revolution and the New Nation (1763–1806)",
+      "lessons": [
+        {
+          "title": "Lesson 5: The Road to Revolution",
+          "steps": [
+            "Read the set's timeline from 1763 to 1775",
+            "Observe the Boston Massacre print: who is firing, who is falling, what do the faces look like?",
+            "Reflect: the print was sold to colonists soon after the event; what did its makers want people to feel?",
+            "Question: write one question you would ask a witness standing in King Street that night"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The American Revolution",
+              "url": "https://www.loc.gov/classroom-materials/american-revolution/"
+            },
+            {
+              "label": "Primary source: \"No Stamped Paper to be had,\" 1765",
+              "url": "https://www.loc.gov/resource/rbpe.34604500/"
+            },
+            {
+              "label": "Primary source: \"The Bloody Massacre\" (Revere print)",
+              "url": "https://www.loc.gov/resource/ppmsca.01657/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Political Cartoons (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Political_Cartoons.pdf"
+            }
+          ],
+          "questions": [
+            "What did the Stamp Act of 1765 tax?",
+            "In what year did the Boston Massacre happen?"
+          ],
+          "answers": [
+            "Paper and parchment documents (printed papers such as newspapers and legal papers)",
+            "1770"
+          ]
+        },
+        {
+          "title": "Lesson 6: Declaring Independence",
+          "steps": [
+            "Observe Jefferson's rough draft: find words crossed out or written in above the lines",
+            "Reflect: why would a rough draft show changes made by other people?",
+            "Read the short title and description of Dunmore's proclamation and talk about what it offered enslaved people who joined the British",
+            "Copy one phrase from the Declaration you recognize and tell what it means"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The American Revolution",
+              "url": "https://www.loc.gov/classroom-materials/american-revolution/"
+            },
+            {
+              "label": "Primary source: Jefferson's rough draft of the Declaration",
+              "url": "https://www.loc.gov/resource/mtj1.001_0545_0548/?st=gallery"
+            },
+            {
+              "label": "Primary source: Lord Dunmore's proclamation, 1775",
+              "url": "https://www.loc.gov/resource/rbc.2024pe769134/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Manuscripts (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Manuscripts.pdf"
+            }
+          ],
+          "questions": [
+            "On what date did the Continental Congress adopt the Declaration of Independence?",
+            "What does a rough draft show that a final copy hides?"
+          ],
+          "answers": [
+            "July 4, 1776",
+            "The changes and edits the writers made along the way"
+          ]
+        },
+        {
+          "title": "Lesson 7: Ordinary People in the War",
+          "steps": [
+            "Choose one of the three items and spend five minutes observing it closely",
+            "Reflect: who made the item, and how was that person part of the war?",
+            "Question: list three things you still want to know about that person",
+            "Tell the family about your item in two minutes"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The American Revolution",
+              "url": "https://www.loc.gov/classroom-materials/american-revolution/"
+            },
+            {
+              "label": "Primary source: \"The Sentiments of an American Woman,\" 1780",
+              "url": "https://www.loc.gov/resource/rbpe.14600300/?st=gallery"
+            },
+            {
+              "label": "Primary source: Pay voucher for Cuff Freeman",
+              "url": "https://www.loc.gov/resource/mss83434.073/?st=gallery"
+            },
+            {
+              "label": "Primary source: Washington's spy-ring codes",
+              "url": "https://www.loc.gov/resource/mgw4.094_0022_0026/?st=gallery"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Primary Sources (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Primary_Sources.pdf"
+            }
+          ],
+          "questions": [
+            "Name one way women supported the war effort.",
+            "Why would George Washington need number codes?"
+          ],
+          "answers": [
+            "Raising money and supplies for soldiers (as in the 1780 broadside), running farms and businesses, or similar",
+            "So British agents could not read his spies' messages if they were captured"
+          ]
+        },
+        {
+          "title": "Lesson 8: A Government Too Weak",
+          "steps": [
+            "Read the first part of the set's Background on the Convention",
+            "Observe the 1787 cartoon: list the people, the wagon, and any words you can read",
+            "Reflect: the cartoon shows Connecticut pulled in two directions; what argument is it making?",
+            "List two problems with the Articles of Confederation"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The Constitution",
+              "url": "https://www.loc.gov/classroom-materials/constitution/"
+            },
+            {
+              "label": "Primary source: Articles of Confederation",
+              "url": "https://www.loc.gov/resource/rbpe.17802600/"
+            },
+            {
+              "label": "Primary source: The Looking Glass for 1787",
+              "url": "https://www.loc.gov/resource/cph.3b42510/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Political Cartoons (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Political_Cartoons.pdf"
+            }
+          ],
+          "questions": [
+            "What was the Constitutional Convention first meant to do?",
+            "Name two weaknesses of the government under the Articles."
+          ],
+          "answers": [
+            "Revise the Articles of Confederation",
+            "Any two of: it could not tax well, it had little say over trade, it could not settle conflicts between states, states held most power"
+          ]
+        },
+        {
+          "title": "Lesson 9: Compromise and Ratification",
+          "steps": [
+            "Read the Background section on the Great Compromise",
+            "Observe Washington's printed draft: look for his handwritten marks",
+            "Reflect: Jefferson was in France in 1788; why would he keep a chart of how states voted?",
+            "Draw a diagram of a two-house Congress and label how each house is filled"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The Constitution",
+              "url": "https://www.loc.gov/classroom-materials/constitution/"
+            },
+            {
+              "label": "Primary source: Constitution with Washington's notes",
+              "url": "https://www.loc.gov/resource/mgw4.097_0243_0247/?st=gallery"
+            },
+            {
+              "label": "Primary source: Jefferson's chart of state votes, 1788",
+              "url": "https://www.loc.gov/resource/mtj1.010_0679_0679/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Manuscripts (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Manuscripts.pdf"
+            }
+          ],
+          "questions": [
+            "How did the Great Compromise settle the fight between large and small states?",
+            "How many states had to ratify the Constitution before it took effect?"
+          ],
+          "answers": [
+            "A two-house Congress: equal votes per state in the Senate, seats by population in the House",
+            "Nine"
+          ]
+        },
+        {
+          "title": "Lesson 10: Adding a Bill of Rights",
+          "steps": [
+            "Observe the 1789 draft: how many articles can you count, and how is it printed?",
+            "Reflect: why did many people refuse to support the Constitution until rights were written down?",
+            "Compare the draft with today's ten amendments: which rights do you recognize?",
+            "Look at the ratification print and talk about how states are shown as pillars"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The American Revolution",
+              "url": "https://www.loc.gov/classroom-materials/american-revolution/"
+            },
+            {
+              "label": "Primary source: An early draft of the Bill of Rights, 1789",
+              "url": "https://www.loc.gov/resource/rbpe.21201600/?st=gallery"
+            },
+            {
+              "label": "Primary source: Print celebrating ratification",
+              "url": "https://www.loc.gov/resource/cph.3a45780/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Books and Other Printed Texts (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Books_and_Other_Printed_Texts.pdf"
+            }
+          ],
+          "questions": [
+            "Why did Anti-Federalists want a Bill of Rights?",
+            "Name two rights protected by the First Amendment today."
+          ],
+          "answers": [
+            "They feared a strong national government could take away people's liberties",
+            "Any two of: speech, religion, press, assembly, petition"
+          ],
+          "notes": "The early draft lists more articles than the ten that were finally ratified."
+        },
+        {
+          "title": "Lesson 11: Alexander Hamilton's Vision",
+          "steps": [
+            "Read the set's Background on Hamilton's early life and roles",
+            "Observe one manuscript page: how is the handwriting, are there corrections?",
+            "Reflect: in his report on manufactures, what kind of country did Hamilton picture?",
+            "Question: write one question you would ask Hamilton about the national bank or industry"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Alexander Hamilton",
+              "url": "https://www.loc.gov/classroom-materials/alexander-hamilton/"
+            },
+            {
+              "label": "Primary source: Hamilton's Plan of Government",
+              "url": "https://www.loc.gov/resource/mss24612.021_0060_0063/?sp=2"
+            },
+            {
+              "label": "Primary source: Report on the Subject of Manufactures",
+              "url": "https://www.loc.gov/resource/mss24612.021_0487_0546/?sp=10"
+            },
+            {
+              "label": "Primary source: Letter to Elizabeth Hamilton, July 4, 1804",
+              "url": "https://www.loc.gov/resource/mss24612.020_0611_0648/?sp=35&r=-0.734,-0.094,2.42,1.35,0"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Manuscripts (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Manuscripts.pdf"
+            }
+          ],
+          "questions": [
+            "Where did Hamilton grow up?",
+            "What job did Hamilton hold in Washington's cabinet?"
+          ],
+          "answers": [
+            "In the Caribbean (born on Nevis; raised on St. Croix)",
+            "Secretary of the Treasury"
+          ]
+        },
+        {
+          "title": "Lesson 12: The Louisiana Purchase",
+          "steps": [
+            "Read the set's Background on the purchase",
+            "On a blank U.S. map, shade the Louisiana Territory",
+            "Observe Jefferson's draft amendment: what was he worried the Constitution did not allow?",
+            "Reflect: the land was not empty; whose homelands were inside the new borders?"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The Louisiana Purchase and the Lewis and Clark Expedition",
+              "url": "https://www.loc.gov/classroom-materials/louisiana-purchase-and-lewis-and-clark-expedition/"
+            },
+            {
+              "label": "Primary source: Treaty with the French Republic, 1803",
+              "url": "https://www.loc.gov/resource/llsalvol.llsal_008/?sp=214&st=image&r=-2.148,-0.005,5.295,1.84,0"
+            },
+            {
+              "label": "Primary source: Jefferson's draft amendment",
+              "url": "https://www.loc.gov/resource/mtj1.003_0042_0043/?st=gallery"
+            },
+            {
+              "label": "Primary source: Lewis and Clark map",
+              "url": "https://www.loc.gov/resource/g4126s.ct000071/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Maps (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Maps.pdf"
+            }
+          ],
+          "questions": [
+            "From which country did the United States buy Louisiana?",
+            "Roughly how much did it cost?"
+          ],
+          "answers": [
+            "France",
+            "$15 million"
+          ]
+        },
+        {
+          "title": "Lesson 13: The Corps of Discovery",
+          "steps": [
+            "Observe Lewis's cost estimate: list three supplies he expected to need",
+            "Reflect: what do Jefferson's instructions say the expedition should learn?",
+            "Look at the council print and ask whose point of view it shows",
+            "Plan your own expedition supply list for a two-year trip"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The Louisiana Purchase and the Lewis and Clark Expedition",
+              "url": "https://www.loc.gov/classroom-materials/louisiana-purchase-and-lewis-and-clark-expedition/"
+            },
+            {
+              "label": "Primary source: Jefferson's instructions to Lewis",
+              "url": "https://www.loc.gov/resource/mtj1.028_0636_0639/?sp=1&st=text"
+            },
+            {
+              "label": "Primary source: Lewis's expedition estimate",
+              "url": "https://www.loc.gov/resource/mtj1.028_0183_0184/?st=gallery"
+            },
+            {
+              "label": "Primary source: Council with the Indians (1810 print)",
+              "url": "https://www.loc.gov/resource/cph.3a19565/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Manuscripts (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Manuscripts.pdf"
+            }
+          ],
+          "questions": [
+            "In what year did the expedition set out?",
+            "Name one thing Jefferson wanted the expedition to find or record."
+          ],
+          "answers": [
+            "1804",
+            "Any of: a water route to the Pacific, rivers, plants and animals, the land, the nations living there"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 3: Expansion, Division, and Reconstruction (1830–1877)",
+      "lessons": [
+        {
+          "title": "Lesson 14: Manifest Destiny",
+          "steps": [
+            "Read the set's Background on manifest destiny and the railroad",
+            "Observe American Progress: what moves west, what is pushed out of the picture?",
+            "Reflect: who would have made or bought a picture like this?",
+            "Trace a railroad route from the Midwest to California on the railroad map"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Westward Expansion: Encounters at a Cultural Crossroads",
+              "url": "https://www.loc.gov/classroom-materials/westward-expansion-encounters-at-a-cultural-crossroads/"
+            },
+            {
+              "label": "Primary source: American Progress",
+              "url": "https://www.loc.gov/resource/ppmsca.09855/"
+            },
+            {
+              "label": "Primary source: Map of land-grant railroads, 1892",
+              "url": "https://www.loc.gov/resource/g3701p.rr000650/"
+            },
+            {
+              "label": "Primary source: Last mile of the Pacific Railroad",
+              "url": "https://www.loc.gov/resource/cph.3c27764/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Photographs and Prints (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Photographs_and_Prints.pdf"
+            }
+          ],
+          "questions": [
+            "What did \"manifest destiny\" mean?",
+            "What did the transcontinental railroad connect?"
+          ],
+          "answers": [
+            "The belief that the United States was meant to spread across the continent",
+            "The eastern rail network with California and the West Coast"
+          ]
+        },
+        {
+          "title": "Lesson 15: Many Peoples in the West",
+          "steps": [
+            "Choose two of the three items and observe them",
+            "Reflect: what brought these people west, and what did they find there?",
+            "Write a short letter home as one of the people shown",
+            "Question: what do these sources leave out?"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Westward Expansion: Encounters at a Cultural Crossroads",
+              "url": "https://www.loc.gov/classroom-materials/westward-expansion-encounters-at-a-cultural-crossroads/"
+            },
+            {
+              "label": "Primary source: Chinese miners in California",
+              "url": "https://www.loc.gov/resource/cph.3c30289/"
+            },
+            {
+              "label": "Primary source: Early homestead, Nicodemus, Kansas",
+              "url": "https://www.loc.gov/resource/hhh.ks0077.photos/?sp=6"
+            },
+            {
+              "label": "Primary source: Interview with Bones Hooks",
+              "url": "https://www.loc.gov/resource/wpalh3.37091205/?st=gallery"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Oral Histories (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Oral_Histories.pdf"
+            }
+          ],
+          "questions": [
+            "Who founded the town of Nicodemus, Kansas?",
+            "Name one group besides white settlers who helped build the West."
+          ],
+          "answers": [
+            "African Americans who left the South after the Civil War",
+            "Any of: Chinese immigrants, Mexican Americans/Tejanos, Native nations, Black cowboys and homesteaders"
+          ]
+        },
+        {
+          "title": "Lesson 16: A Nation Divided Over Slavery",
+          "steps": [
+            "Read the set's timeline for 1850–1854",
+            "Observe the map: which counties are darkest, and what does the shading measure?",
+            "Reflect on the Fugitive Slave Law print: whom does it show, and what does the artist want you to feel?",
+            "Start a timeline of the 1850s on a long strip of paper"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The Civil War: The Nation Moves Towards War, 1850 to 1861",
+              "url": "https://www.loc.gov/classroom-materials/civil-war-the-nation-moves-towards-war-1850-to-1861/"
+            },
+            {
+              "label": "Primary source: Effects of the Fugitive-Slave-Law",
+              "url": "https://www.loc.gov/resource/cph.3a05114/"
+            },
+            {
+              "label": "Primary source: Map of slave distribution, 1860",
+              "url": "https://www.loc.gov/resource/g3861e.ct000782/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Maps (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Maps.pdf"
+            }
+          ],
+          "questions": [
+            "What did the Fugitive Slave Act of 1850 require?",
+            "On the map, what does darker shading show?"
+          ],
+          "answers": [
+            "That people who escaped slavery be returned, even from free states, with Northerners required to help",
+            "A higher share of enslaved people in the population"
+          ]
+        },
+        {
+          "title": "Lesson 17: Dred Scott and the Election of 1860",
+          "steps": [
+            "Read the timeline entries for 1857–1860",
+            "Observe the quadrille cartoon: who is dancing with whom, and who is in the middle?",
+            "Reflect: what was this newspaper's view of Lincoln's win?",
+            "Add the Dred Scott decision, John Brown's raid, and the 1860 election to your timeline"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The Civil War: The Nation Moves Towards War, 1850 to 1861",
+              "url": "https://www.loc.gov/classroom-materials/civil-war-the-nation-moves-towards-war-1850-to-1861/"
+            },
+            {
+              "label": "Primary source: The political quadrille. Music by Dred Scott",
+              "url": "https://www.loc.gov/resource/cph.3a17084/"
+            },
+            {
+              "label": "Primary source: Republican platform, 1860",
+              "url": "https://www.loc.gov/resource/lprbscsm.scsm0716/"
+            },
+            {
+              "label": "Primary source: \"WHOOP-EE! President, Abraham Lincoln\"",
+              "url": "https://www.loc.gov/resource/sn82015486/1860-11-08/ed-1/?sp=2"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Political Cartoons (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Political_Cartoons.pdf"
+            }
+          ],
+          "questions": [
+            "What did the Supreme Court decide in the Dred Scott case?",
+            "Why are four candidates dancing in the cartoon?"
+          ],
+          "answers": [
+            "That Scott remained enslaved, that Black Americans were not citizens, and that Congress could not ban slavery in the territories",
+            "There were four main candidates for president in 1860"
+          ]
+        },
+        {
+          "title": "Lesson 18: Lincoln's Rise",
+          "steps": [
+            "Read the set's Background on Lincoln's early life",
+            "Observe Lincoln's 1858 letter to Douglas: what is he asking for?",
+            "Reflect: how did the debates and the Cooper Institute speech make Lincoln known across the country?",
+            "Find one argument against the spread of slavery in the Cooper Institute speech"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Abraham Lincoln: Rise to National Prominence",
+              "url": "https://www.loc.gov/classroom-materials/abraham-lincoln/"
+            },
+            {
+              "label": "Primary source: Lincoln to Douglas, July 24, 1858",
+              "url": "https://www.loc.gov/resource/mal.0102700/"
+            },
+            {
+              "label": "Primary source: Cooper Institute speech, 1860",
+              "url": "https://www.loc.gov/resource/sn87058348/1860-09-18/ed-1/?sp=1"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Manuscripts (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Manuscripts.pdf"
+            }
+          ],
+          "questions": [
+            "What were the Lincoln–Douglas debates part of?",
+            "In what year was Lincoln elected president?"
+          ],
+          "answers": [
+            "The 1858 race for U.S. Senate in Illinois",
+            "1860"
+          ]
+        },
+        {
+          "title": "Lesson 19: Fort Sumter",
+          "steps": [
+            "Observe the harbor sketch: find the fort and the batteries around it",
+            "Read the newspaper headline and first lines; note how quickly the news traveled by telegraph",
+            "Reflect: how might a Northern reader and a Southern reader have felt reading this page?",
+            "Finish your 1850s timeline with secession and Fort Sumter"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The Civil War: The Nation Moves Towards War, 1850 to 1861",
+              "url": "https://www.loc.gov/classroom-materials/civil-war-the-nation-moves-towards-war-1850-to-1861/"
+            },
+            {
+              "label": "Primary source: Sketch of Charleston Harbor",
+              "url": "https://www.loc.gov/resource/g3912c.cw0385000/"
+            },
+            {
+              "label": "Primary source: \"Surrender of Fort Sumter\" by telegraph",
+              "url": "https://www.loc.gov/resource/sn82014760/1861-04-15/ed-1/?sp=3"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Newspapers (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Newspapers.pdf"
+            }
+          ],
+          "questions": [
+            "In which city's harbor is Fort Sumter?",
+            "In what month and year did the Civil War begin there?"
+          ],
+          "answers": [
+            "Charleston, South Carolina",
+            "April 1861"
+          ],
+          "notes": "This course moves from the coming of war to Reconstruction; to study the war years, pair this unit with a battle-by-battle history."
+        },
+        {
+          "title": "Lesson 20: New Amendments, New Freedoms",
+          "steps": [
+            "Read the set's Background on the Reconstruction amendments",
+            "Make a three-column chart: 13th, 14th, 15th, with one line on what each did",
+            "Observe the Fifteenth Amendment print: list the scenes around the edge",
+            "Reflect: what hopes does the print show, and what problems came later?"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Reconstruction",
+              "url": "https://www.loc.gov/classroom-materials/reconstruction/"
+            },
+            {
+              "label": "Primary source: The result of the Fifteenth Amendment",
+              "url": "https://www.loc.gov/resource/pga.02179/"
+            },
+            {
+              "label": "Primary source: 14th Amendment, 2nd Section",
+              "url": "https://www.loc.gov/resource/ppmsca.07161/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Political Cartoons (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Political_Cartoons.pdf"
+            }
+          ],
+          "questions": [
+            "Which amendment ended slavery?",
+            "Which amendment protected Black men's right to vote?"
+          ],
+          "answers": [
+            "The 13th",
+            "The 15th"
+          ]
+        },
+        {
+          "title": "Lesson 21: Freedpeople Build Communities",
+          "steps": [
+            "Observe the \"Information Wanted\" notices: who is searching for whom?",
+            "Reflect: what do the notices tell you about how slavery had torn families apart?",
+            "Look at the church and university photographs and list institutions freedpeople built",
+            "Question: write one question for a family who placed a notice"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Reconstruction",
+              "url": "https://www.loc.gov/classroom-materials/reconstruction/"
+            },
+            {
+              "label": "Primary source: \"Information Wanted\" notices, 1865",
+              "url": "https://www.loc.gov/resource/sn83016563/1865-05-13/ed-1/?sp=2"
+            },
+            {
+              "label": "Primary source: Students at Howard University",
+              "url": "https://www.loc.gov/resource/stereo.1s07887/"
+            },
+            {
+              "label": "Primary source: The First African Church, Richmond",
+              "url": "https://www.loc.gov/resource/cph.3c17891/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Newspapers (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Newspapers.pdf"
+            }
+          ],
+          "questions": [
+            "Why did so many freedpeople place notices in newspapers after the war?",
+            "Name two kinds of institutions African Americans built during Reconstruction."
+          ],
+          "answers": [
+            "To find family members who had been sold away or separated during slavery",
+            "Any two of: churches, schools, colleges, newspapers, businesses"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 4: Industry, Immigration, and Reform (1876–1920)",
+      "lessons": [
+        {
+          "title": "Lesson 22: Jim Crow",
+          "steps": [
+            "Read the set's Background on how Jim Crow laws spread after Reconstruction",
+            "Observe the Durham bus station photograph: what signs and doors do you see?",
+            "Reflect on the voting pamphlet: what hurdles were placed in front of Black voters?",
+            "Question: how would you feel if you were made to use a separate door?"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Jim Crow and Segregation",
+              "url": "https://www.loc.gov/classroom-materials/jim-crow-segregation/"
+            },
+            {
+              "label": "Primary source: \"The 'Jim Crow' Car\" (1900)",
+              "url": "https://www.loc.gov/resource/sn84025841/1900-09-15/ed-1/?sp=8"
+            },
+            {
+              "label": "Primary source: What a Colored Man Should Do to Vote",
+              "url": "https://www.loc.gov/resource/rbaapc.33200/?st=gallery"
+            },
+            {
+              "label": "Primary source: At the bus station in Durham",
+              "url": "https://www.loc.gov/resource/cph.3c25806/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Primary Sources (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Primary_Sources.pdf"
+            }
+          ],
+          "questions": [
+            "What were Jim Crow laws?",
+            "Name one way Southern states kept Black citizens from voting."
+          ],
+          "answers": [
+            "State and local laws that forced racial segregation",
+            "Any of: poll taxes, literacy tests, grandfather clauses, threats and violence"
+          ]
+        },
+        {
+          "title": "Lesson 23: Machines, Wires, and Rails",
+          "steps": [
+            "Read the set's Background on the Industrial Revolution",
+            "Sort the three items into causes, events, and effects of industrialization",
+            "Observe the 1844 telegraph tape: what four-word message did Morse send?",
+            "Reflect: how did fast messages and railroads change business?"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The Industrial Revolution in the United States",
+              "url": "https://www.loc.gov/classroom-materials/industrial-revolution-in-the-united-states/"
+            },
+            {
+              "label": "Primary source: First telegraphic message, 1844",
+              "url": "https://www.loc.gov/resource/mmorse.071009/"
+            },
+            {
+              "label": "Primary source: Union Pacific map",
+              "url": "https://www.loc.gov/resource/g3701p.rr005950/"
+            },
+            {
+              "label": "Primary source: Solvay Process works, Syracuse",
+              "url": "https://www.loc.gov/resource/det.4a07766/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Primary Sources (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Primary_Sources.pdf"
+            }
+          ],
+          "questions": [
+            "Who sent the first long-distance telegraph message in 1844?",
+            "Name two inventions that sped up industry."
+          ],
+          "answers": [
+            "Samuel F. B. Morse",
+            "Any two of: telegraph, railroad, steam engine, factory machines, electric power"
+          ]
+        },
+        {
+          "title": "Lesson 24: Workers and Bosses",
+          "steps": [
+            "Observe the breaker boys photograph: what are the boys doing, and how old do they look?",
+            "Watch part of the Westinghouse film and list the jobs you see",
+            "Reflect: why did workers form unions?",
+            "Question: what would you ask one of the breaker boys?"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The Industrial Revolution in the United States",
+              "url": "https://www.loc.gov/classroom-materials/industrial-revolution-in-the-united-states/"
+            },
+            {
+              "label": "Primary source: Labor and Capital",
+              "url": "https://www.loc.gov/resource/rbpe.01804500/"
+            },
+            {
+              "label": "Primary source: Breaker boys, Woodward Coal Mines",
+              "url": "https://www.loc.gov/resource/det.4a07285/"
+            },
+            {
+              "label": "Primary source: Taping coils, Westinghouse Works (film)",
+              "url": "https://www.loc.gov/item/96522213/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Photographs and Prints (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Photographs_and_Prints.pdf"
+            }
+          ],
+          "questions": [
+            "What job did breaker boys do?",
+            "Why did workers join labor unions?"
+          ],
+          "answers": [
+            "They picked slate and rock out of coal by hand",
+            "To win better pay, shorter hours, and safer conditions by acting together"
+          ]
+        },
+        {
+          "title": "Lesson 25: Arriving in America",
+          "steps": [
+            "Read the set's Background on the great wave of immigration",
+            "Observe the eye exam photograph: who is in charge, and how might the immigrants feel?",
+            "Compare Ellis Island (East Coast) and Angel Island (West Coast): who came through each?",
+            "Mark the two stations on a map"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Immigration Challenges for New Americans",
+              "url": "https://www.loc.gov/classroom-materials/immigration-challenges-for-new-americans/"
+            },
+            {
+              "label": "Primary source: View of Ellis Island",
+              "url": "https://www.loc.gov/resource/cph.3a40441/"
+            },
+            {
+              "label": "Primary source: Inspectors examining eyes of immigrants",
+              "url": "https://www.loc.gov/resource/cph.3a10036/"
+            },
+            {
+              "label": "Primary source: Angel Island immigration station",
+              "url": "https://www.loc.gov/resource/ds.03059/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Photographs and Prints (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Photographs_and_Prints.pdf"
+            }
+          ],
+          "questions": [
+            "Where did most European immigrants enter the United States around 1900?",
+            "Why were immigrants given health checks?"
+          ],
+          "answers": [
+            "Ellis Island in New York Harbor",
+            "To turn away people with contagious diseases or illnesses that might keep them from working"
+          ]
+        },
+        {
+          "title": "Lesson 26: Becoming American",
+          "steps": [
+            "Observe the English-class poster: who made it, and for whom?",
+            "Reflect on the anti-Chinese cartoon: what fears is it playing on?",
+            "Find on the 1890 map where most foreign-born people lived",
+            "Question: what is one challenge a new arrival faced, and how did people help?"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Immigration Challenges for New Americans",
+              "url": "https://www.loc.gov/classroom-materials/immigration-challenges-for-new-americans/"
+            },
+            {
+              "label": "Primary source: Free Classes in English!",
+              "url": "https://www.loc.gov/resource/ppmsca.05660/"
+            },
+            {
+              "label": "Primary source: The Chinese invasion",
+              "url": "https://www.loc.gov/resource/cph.3c03143/"
+            },
+            {
+              "label": "Primary source: Map of foreign-born population, 1890",
+              "url": "https://www.loc.gov/resource/g3701gm.gct00010/?sp=30"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Political Cartoons (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Political_Cartoons.pdf"
+            }
+          ],
+          "questions": [
+            "What law in 1882 shut out most Chinese immigrants?",
+            "Name one way new immigrants were helped to settle in."
+          ],
+          "answers": [
+            "The Chinese Exclusion Act",
+            "Any of: free English classes, settlement houses, YWCA programs, neighborhood communities and churches"
+          ]
+        },
+        {
+          "title": "Lesson 27: Native American Boarding Schools",
+          "steps": [
+            "Read the set's Background and the note on how hard this subject is to teach",
+            "Observe the before and after photographs side by side: list every change",
+            "Reflect: the school made these photos; what did it want viewers to believe?",
+            "Read the newspaper headline about Zitkala-Ša and talk about how she wrote about her own schooling"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Native American Boarding Schools",
+              "url": "https://www.loc.gov/classroom-materials/native-american-boarding-schools/"
+            },
+            {
+              "label": "Primary source: Chiricahua Apaches upon arrival",
+              "url": "https://www.loc.gov/resource/cph.3a51829/"
+            },
+            {
+              "label": "Primary source: Chiricahua Apaches after four months",
+              "url": "https://www.loc.gov/resource/cph.3a51830/"
+            },
+            {
+              "label": "Primary source: \"Zitkala-sa the Red Bird of the Sioux\"",
+              "url": "https://www.loc.gov/resource/sn83045462/1906-09-23/ed-1/?sp=28"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Photographs and Prints (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Photographs_and_Prints.pdf"
+            }
+          ],
+          "questions": [
+            "What was the goal of government boarding schools for Native children?",
+            "Why might the \"before and after\" photographs not tell the whole story?"
+          ],
+          "answers": [
+            "To make Native children give up their languages and cultures and live like white Americans",
+            "They were staged by the school to promote its own program and leave out the students' point of view"
+          ],
+          "notes": "Preview this lesson; some sources use the patronizing language of their time, and the set's Background explains why."
+        },
+        {
+          "title": "Lesson 28: The Spanish-American War",
+          "steps": [
+            "Read the set's Background on the causes of the war and media coverage",
+            "Observe the yellow kids cartoon: what are the two figures fighting with?",
+            "Reflect: how did newspapers like Pulitzer's and Hearst's shape public feelings about war?",
+            "On the strategic map find Cuba, Puerto Rico, and the Philippines"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The Spanish-American War: The United States Becomes a World Power",
+              "url": "https://www.loc.gov/classroom-materials/spanish-american-war-the-united-states-becomes-a-world-power/"
+            },
+            {
+              "label": "Primary source: Explosion of the Maine",
+              "url": "https://www.loc.gov/resource/ds.01036/"
+            },
+            {
+              "label": "Primary source: The big type war of the yellow kids",
+              "url": "https://www.loc.gov/resource/ppmsc.02832/"
+            },
+            {
+              "label": "Primary source: Strategic map of our war with Spain",
+              "url": "https://www.loc.gov/resource/g3701s.ct000302/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Political Cartoons (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Political_Cartoons.pdf"
+            }
+          ],
+          "questions": [
+            "What ship exploded in Havana Harbor in February 1898?",
+            "Name two places Spain gave up in the Treaty of Paris."
+          ],
+          "answers": [
+            "The USS Maine",
+            "Any two of: Puerto Rico, Guam, the Philippines"
+          ]
+        },
+        {
+          "title": "Lesson 29: Children at Work",
+          "steps": [
+            "Read the set's Background on child labor and the National Child Labor Committee",
+            "Observe the glass factory photograph: what time is it, and what are the boys doing?",
+            "Reflect: the photographer worked for reformers; how did he choose what to show?",
+            "List two persuasive techniques used in the cartoon"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Child Labor",
+              "url": "https://www.loc.gov/classroom-materials/child-labor/"
+            },
+            {
+              "label": "Primary source: Indiana glass factory at midnight, 1908",
+              "url": "https://www.loc.gov/resource/nclc.01151/"
+            },
+            {
+              "label": "Primary source: Norma Lawrence, cotton picker",
+              "url": "https://www.loc.gov/resource/nclc.00608/"
+            },
+            {
+              "label": "Primary source: Anti-child-labor cartoon",
+              "url": "https://www.loc.gov/resource/nclc.04784/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Photographs and Prints (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Photographs_and_Prints.pdf"
+            }
+          ],
+          "questions": [
+            "Which group hired Lewis Hine to photograph child workers?",
+            "What 1938 federal law finally limited child labor nationwide?"
+          ],
+          "answers": [
+            "The National Child Labor Committee",
+            "The Fair Labor Standards Act"
+          ]
+        },
+        {
+          "title": "Lesson 30: Progressive Reformers",
+          "steps": [
+            "Read the set's Background list of reform causes",
+            "Observe the Poison Squad article: what were the volunteers testing?",
+            "Reflect: what problem was the Pure Food and Drug Act meant to fix?",
+            "Learn how Ida B. Wells used facts and reporting to fight lynching"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Progressive Era Reforms",
+              "url": "https://www.loc.gov/classroom-materials/progressive-era-reforms/"
+            },
+            {
+              "label": "Primary source: \"Wiley's Poison Squad End Their Test\"",
+              "url": "https://www.loc.gov/resource/2010270508/1908-07-24/ed-1/?sp=4"
+            },
+            {
+              "label": "Primary source: Pure Food and Drug Act of 1906",
+              "url": "https://www.loc.gov/resource/llsalvol.llsal_034/?sp=798"
+            },
+            {
+              "label": "Primary source: Ida B. Wells, \"A Red Record\"",
+              "url": "https://www.loc.gov/resource/mss11879.40021/?sp=7"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Newspapers (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Newspapers.pdf"
+            }
+          ],
+          "questions": [
+            "What was the \"Poison Squad\"?",
+            "What did Ida B. Wells campaign against?"
+          ],
+          "answers": [
+            "Volunteers who ate food with common preservatives so government scientists could study their effects",
+            "Lynching"
+          ]
+        },
+        {
+          "title": "Lesson 31: The Fight for the Vote Begins",
+          "steps": [
+            "Read the set's Background from Seneca Falls on",
+            "Observe the anti-suffrage item: list the arguments against votes for women",
+            "Study the 1915 suffrage map: where could women already vote?",
+            "Reflect: why do you think Western states gave women the vote first?"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Women's Suffrage",
+              "url": "https://www.loc.gov/classroom-materials/womens-suffrage/"
+            },
+            {
+              "label": "Primary source: Seneca Falls convention report",
+              "url": "https://www.loc.gov/resource/rbcmil.scrp4006702/?sp=4"
+            },
+            {
+              "label": "Primary source: National Anti-Suffrage Association",
+              "url": "https://www.loc.gov/resource/cph.3a26270/"
+            },
+            {
+              "label": "Primary source: The Suffrage Map, 1915",
+              "url": "https://www.loc.gov/resource/sn89060379/1915-06-26/ed-1/?sp=1"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Primary Sources (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Primary_Sources.pdf"
+            }
+          ],
+          "questions": [
+            "In what year was the Seneca Falls Convention held?",
+            "In 1915, in which part of the country could women vote in most states?"
+          ],
+          "answers": [
+            "1848",
+            "The West"
+          ]
+        },
+        {
+          "title": "Lesson 32: Winning the Vote",
+          "steps": [
+            "Observe the 1913 parade program cover: what images and symbols do you see?",
+            "Reflect on the White House bonfire photo: why would protesters go to the President's door?",
+            "Read the 1920 headline and note which state cast the deciding vote",
+            "Make a timeline from 1848 to 1920"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Women's Suffrage",
+              "url": "https://www.loc.gov/classroom-materials/womens-suffrage/"
+            },
+            {
+              "label": "Primary source: Official program, Woman Suffrage procession, 1913",
+              "url": "https://www.loc.gov/resource/rbpe.20801600/?st=gallery"
+            },
+            {
+              "label": "Primary source: Bonfire before the White House",
+              "url": "https://www.loc.gov/resource/hec.11589/"
+            },
+            {
+              "label": "Primary source: \"Suffrage Ratification is Completed by Tennessee\"",
+              "url": "https://www.loc.gov/resource/sn83030214/1920-08-19/ed-1/?sp=1"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Newspapers (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Newspapers.pdf"
+            }
+          ],
+          "questions": [
+            "Which amendment gave women the right to vote?",
+            "Which state was the 36th to ratify it?"
+          ],
+          "answers": [
+            "The 19th Amendment",
+            "Tennessee"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Unit 5: World Wars and the Great Depression (1914–1945)",
+      "lessons": [
+        {
+          "title": "Lesson 33: The Great War",
+          "steps": [
+            "Read the set's Background on why the United States entered the war",
+            "Observe the \"I Want You\" poster: where are Uncle Sam's eyes and finger pointing?",
+            "Listen to or read \"Over There\" and talk about its mood",
+            "Reflect: how did posters and songs work to win public support?"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: World War I",
+              "url": "https://www.loc.gov/classroom-materials/world-war-i/"
+            },
+            {
+              "label": "Primary source: \"Lusitania Is Sunk\"",
+              "url": "https://www.loc.gov/resource/sn82016014/1915-05-07/ed-1/?sp=1"
+            },
+            {
+              "label": "Primary source: I Want You for U.S. Army",
+              "url": "https://www.loc.gov/resource/ppmsca.55870/"
+            },
+            {
+              "label": "Primary source: Over There",
+              "url": "https://www.loc.gov/item/ihas.100010567/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Political Cartoons (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Political_Cartoons.pdf"
+            }
+          ],
+          "questions": [
+            "What ocean liner was sunk by a German submarine in 1915?",
+            "In what year did the United States enter World War I?"
+          ],
+          "answers": [
+            "The Lusitania",
+            "1917"
+          ]
+        },
+        {
+          "title": "Lesson 34: The Great Migration",
+          "steps": [
+            "Read the set's Background on the Great Migration",
+            "Read part of the Goodlett interview: why did he leave the South?",
+            "Observe the 1916 newspaper: whose view does the headline give?",
+            "Mark three Southern states and three Northern cities on a map and draw arrows"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The Great Migration",
+              "url": "https://www.loc.gov/classroom-materials/great-migration/"
+            },
+            {
+              "label": "Primary source: \"South Unable to Put Stop to Negro Exodus\"",
+              "url": "https://www.loc.gov/resource/sn84026749/1916-10-23/ed-1/?sp=1"
+            },
+            {
+              "label": "Primary source: Interview with Arthur Goodlett",
+              "url": "https://www.loc.gov/resource/wpalh1.16041210/?sp=3&r=-0.309,0.166,1.865,0.637,0"
+            },
+            {
+              "label": "Primary source: \"Harlem Rent Parties,\" 1938",
+              "url": "https://www.loc.gov/resource/wpalh2.21011010/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Oral Histories (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Oral_Histories.pdf"
+            }
+          ],
+          "questions": [
+            "What was the Great Migration?",
+            "Name two reasons people moved north."
+          ],
+          "answers": [
+            "The movement of millions of African Americans from the rural South to cities in the North and West",
+            "Any two of: jobs, escaping Jim Crow and violence, better schools, higher pay"
+          ]
+        },
+        {
+          "title": "Lesson 35: The Harlem Renaissance",
+          "steps": [
+            "Read the set's Background on Harlem in the 1920s",
+            "Compare two drafts of the Hughes poem: find one change he made",
+            "Reflect: why might a writer change a word or line?",
+            "Look at the portraits of Hughes and Hurston and read their captions: who made each photograph, and when?"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The Harlem Renaissance",
+              "url": "https://www.loc.gov/classroom-materials/harlem-renaissance/"
+            },
+            {
+              "label": "Primary source: Drafts of Hughes's \"Ballad of Booker T.\"",
+              "url": "https://www.loc.gov/resource/mcc.024/?sp=4"
+            },
+            {
+              "label": "Primary source: Portrait of Langston Hughes",
+              "url": "https://www.loc.gov/resource/fsa.8d39489/"
+            },
+            {
+              "label": "Primary source: Portrait of Zora Neale Hurston",
+              "url": "https://www.loc.gov/resource/van.5a52142/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Manuscripts (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Manuscripts.pdf"
+            }
+          ],
+          "questions": [
+            "In which New York neighborhood was the Harlem Renaissance centered?",
+            "Name two Harlem Renaissance artists or writers."
+          ],
+          "answers": [
+            "Harlem",
+            "Any two of: Langston Hughes, Zora Neale Hurston, Louis Armstrong, Bessie Smith, Paul Robeson, and others"
+          ]
+        },
+        {
+          "title": "Lesson 36: The Dust Bowl",
+          "steps": [
+            "Read the set's Background on drought and migration",
+            "Observe Dorothea Lange's photograph: where is the mother looking, where are the children?",
+            "Reflect: why did this one photograph become a symbol of the Depression?",
+            "Read the migrant camp poem title and talk about why families headed for California"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Dust Bowl Migration",
+              "url": "https://www.loc.gov/classroom-materials/dust-bowl-migration/"
+            },
+            {
+              "label": "Primary source: Heavy black clouds of dust",
+              "url": "https://www.loc.gov/item/2017759842/"
+            },
+            {
+              "label": "Primary source: Destitute pea pickers (\"Migrant Mother\")",
+              "url": "https://www.loc.gov/resource/fsa.8b29516/"
+            },
+            {
+              "label": "Primary source: \"Why We Come to Californy\"",
+              "url": "https://www.loc.gov/resource/afc1985001.afc1985001_st116/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Photographs and Prints (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Photographs_and_Prints.pdf"
+            }
+          ],
+          "questions": [
+            "What caused the giant dust storms of the 1930s?",
+            "To which state did many Dust Bowl families move?"
+          ],
+          "answers": [
+            "Years of drought plus farming that had stripped the prairie of its grass, so wind blew the soil away",
+            "California"
+          ]
+        },
+        {
+          "title": "Lesson 37: The New Deal",
+          "steps": [
+            "Read the set's Background on Roosevelt's New Deal",
+            "Observe the CCC photograph: what work are the young men doing?",
+            "Study the TVA map: what did the dams bring to the valley?",
+            "Reflect: what problem did each program try to solve?"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The New Deal",
+              "url": "https://www.loc.gov/classroom-materials/new-deal/"
+            },
+            {
+              "label": "Primary source: CCC workers",
+              "url": "https://www.loc.gov/resource/fsa.8a00073/"
+            },
+            {
+              "label": "Primary source: Tennessee Valley Area pictorial map",
+              "url": "https://www.loc.gov/resource/g3962t.ct002436/"
+            },
+            {
+              "label": "Primary source: WPA poster: Better housing",
+              "url": "https://www.loc.gov/resource/cph.3f05647/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Primary Sources (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Primary_Sources.pdf"
+            }
+          ],
+          "questions": [
+            "Who was president during the New Deal?",
+            "What did the CCC give young men?"
+          ],
+          "answers": [
+            "Franklin D. Roosevelt",
+            "Paid jobs on conservation projects such as planting trees and building parks"
+          ]
+        },
+        {
+          "title": "Lesson 38: World War II on the Home Front",
+          "steps": [
+            "Read the set's Background on U.S. entry into the war",
+            "Listen to part of Roosevelt's address: what does he ask Congress to do?",
+            "Observe the war bonds poster: what is the reader asked to give?",
+            "List three ways families at home helped the war effort"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: World War II",
+              "url": "https://www.loc.gov/classroom-materials/world-war-ii/"
+            },
+            {
+              "label": "Primary source: FDR's address to Congress, 1941",
+              "url": "https://www.loc.gov/item/afccal000099"
+            },
+            {
+              "label": "Primary source: \"He gives 100%...\" war bonds poster",
+              "url": "https://www.loc.gov/resource/cph.3f05560/"
+            },
+            {
+              "label": "Primary source: \"Manpower, junior size,\" 1942",
+              "url": "https://www.loc.gov/resource/fsa.8b04392/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Sound Recordings (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Sound_Recordings.pdf"
+            }
+          ],
+          "questions": [
+            "What attack brought the United States into World War II?",
+            "Name one way children helped on the home front."
+          ],
+          "answers": [
+            "The Japanese attack on Pearl Harbor, December 7, 1941",
+            "Any of: collecting scrap, buying war stamps, planting victory gardens, saving materials"
+          ]
+        },
+        {
+          "title": "Lesson 39: Serving and Ending the War",
+          "steps": [
+            "Watch the Tuskegee airmen newsreel clip and listen to part of Quentin Smith's interview",
+            "Reflect: what did these airmen fight for abroad and at home?",
+            "Observe the August 1945 front page: what big news is on it?",
+            "Question: write two questions you would ask a World War II veteran"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: World War II",
+              "url": "https://www.loc.gov/classroom-materials/world-war-ii/"
+            },
+            {
+              "label": "Primary source: Newsreel: African American airmen in training",
+              "url": "https://www.loc.gov/item/2018600167/"
+            },
+            {
+              "label": "Primary source: Quentin Smith, Tuskegee pilot",
+              "url": "https://www.loc.gov/item/afc2001001.03001/?clipid=d23463e218&start=709"
+            },
+            {
+              "label": "Primary source: The Key West Citizen, August 8, 1945",
+              "url": "https://www.loc.gov/resource/sn83016244/1945-08-08/ed-1/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Oral Histories (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Oral_Histories.pdf"
+            }
+          ],
+          "questions": [
+            "Who were the Tuskegee Airmen?",
+            "What new weapon is in the August 1945 headlines?"
+          ],
+          "answers": [
+            "The first African American military pilots and their crews, trained at Tuskegee, Alabama",
+            "The atomic bomb"
+          ]
+        },
+        {
+          "title": "Lesson 40: Japanese American Incarceration",
+          "steps": [
+            "Read the set's Background on Executive Order 9066",
+            "Observe the exclusion order poster: what are people told to do, and how fast?",
+            "Observe the \"I am an American\" sign and say why a shop owner would hang it",
+            "Look at the Manzanar school photograph (by Ansel Adams) and list what school life looked like"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: Japanese American Internment",
+              "url": "https://www.loc.gov/classroom-materials/japanese-american-internment/"
+            },
+            {
+              "label": "Primary source: Civilian exclusion order #5",
+              "url": "https://www.loc.gov/resource/cph.3a35053/"
+            },
+            {
+              "label": "Primary source: \"I am an American\" sign",
+              "url": "https://www.loc.gov/resource/cph.3a24566/"
+            },
+            {
+              "label": "Primary source: School children, Manzanar",
+              "url": "https://www.loc.gov/resource/ppprs.00357/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Photographs and Prints (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Photographs_and_Prints.pdf"
+            }
+          ],
+          "questions": [
+            "What order in 1942 led to the removal of Japanese Americans from the West Coast?",
+            "About how many of the people removed were U.S. citizens?"
+          ],
+          "answers": [
+            "Executive Order 9066",
+            "About two-thirds"
+          ],
+          "notes": "Photographs from Manzanar were taken by Ansel Adams; read the caption for each one."
+        }
+      ]
+    },
+    {
+      "title": "Unit 6: The Cold War and Civil Rights (1945–1965)",
+      "lessons": [
+        {
+          "title": "Lesson 41: The Cold War",
+          "steps": [
+            "Read the set's Background on the start of the Cold War",
+            "Watch part of \"Duck and Cover\": what were schoolchildren told to do?",
+            "Find East and West Berlin on the map and explain why the city was divided",
+            "Reflect: how did fear shape life in the 1950s?"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The Cold War",
+              "url": "https://www.loc.gov/classroom-materials/cold-war/"
+            },
+            {
+              "label": "Primary source: Duck and cover (film)",
+              "url": "https://www.loc.gov/item/2022604365/"
+            },
+            {
+              "label": "Primary source: The Berlin region map",
+              "url": "https://www.loc.gov/resource/g6299b.ct002706/"
+            },
+            {
+              "label": "Primary source: \"Germany's Iron Curtain Is There For All to See\"",
+              "url": "https://www.loc.gov/resource/sn83045462/1961-10-01/ed-1/?sp=83"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Motion Pictures (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Motion_Pictures.pdf"
+            }
+          ],
+          "questions": [
+            "Which two superpowers faced off in the Cold War?",
+            "What was the \"Iron Curtain\"?"
+          ],
+          "answers": [
+            "The United States and the Soviet Union",
+            "The dividing line between Soviet-controlled Eastern Europe and the democracies of Western Europe"
+          ]
+        },
+        {
+          "title": "Lesson 42: Brown v. Board and Little Rock",
+          "steps": [
+            "Read the set's Background on Brown v. Board of Education",
+            "Observe the 1954 newspaper page: what does the headline claim?",
+            "Observe the photograph of students walking through a crowd: how do the faces differ?",
+            "Reflect: why did a court ruling not end school segregation right away?"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The Civil Rights Movement",
+              "url": "https://www.loc.gov/classroom-materials/civil-rights-movement/"
+            },
+            {
+              "label": "Primary source: \"Supreme Court Kills Segregation\" (1954)",
+              "url": "https://www.loc.gov/resource/sn83045462/1954-05-23/ed-1/?sp=29"
+            },
+            {
+              "label": "Primary source: Students walk through a crowd, Clinton, Tennessee",
+              "url": "https://www.loc.gov/resource/ppmsca.03089/"
+            },
+            {
+              "label": "Primary source: The Little Rock Nine in New York",
+              "url": "https://www.loc.gov/resource/cph.3c25125/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Newspapers (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Newspapers.pdf"
+            }
+          ],
+          "questions": [
+            "What did the Supreme Court decide in Brown v. Board of Education?",
+            "Who was the NAACP lawyer who argued the case?"
+          ],
+          "answers": [
+            "That segregated public schools were unconstitutional",
+            "Thurgood Marshall"
+          ]
+        },
+        {
+          "title": "Lesson 43: Rosa Parks and the Montgomery Bus Boycott",
+          "steps": [
+            "Observe Rosa Parks's handwritten account: what details does she include?",
+            "Reflect: how is her own account different from a textbook version?",
+            "Look at the 1956 poster and talk about why she was invited to speak",
+            "Narrate the story of the bus boycott in your own words"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The Civil Rights Movement",
+              "url": "https://www.loc.gov/classroom-materials/civil-rights-movement/"
+            },
+            {
+              "label": "Primary source: Rosa Parks describes her arrest",
+              "url": "https://www.loc.gov/resource/mss85943.001810/?sp=27&r=-1.41,0,3.821,1.513,0"
+            },
+            {
+              "label": "Primary source: Poster for an appearance by Rosa Parks, 1956",
+              "url": "https://www.loc.gov/resource/mss85943.001906/?sp=2&st=image&r=-1.472,-0.047,3.945,1.562,0"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Manuscripts (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Manuscripts.pdf"
+            }
+          ],
+          "questions": [
+            "In what city did Rosa Parks refuse to give up her bus seat?",
+            "About how long did the bus boycott last?"
+          ],
+          "answers": [
+            "Montgomery, Alabama",
+            "About a year (381 days)"
+          ]
+        },
+        {
+          "title": "Lesson 44: The March on Washington",
+          "steps": [
+            "Observe the march plans flyer: what are the marchers' demands?",
+            "Observe the crowd photograph: estimate how many people you see in one corner",
+            "Read the set's Background on the march and talk about how much planning an event this size needed",
+            "Reflect: how did the march put pressure on Congress to pass the Civil Rights Act of 1964?"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The Civil Rights Movement",
+              "url": "https://www.loc.gov/classroom-materials/civil-rights-movement/"
+            },
+            {
+              "label": "Primary source: Final plans for the March on Washington",
+              "url": "https://www.loc.gov/resource/ppmsca.37470/?st=gallery"
+            },
+            {
+              "label": "Primary source: The Lincoln Memorial during the March",
+              "url": "https://www.loc.gov/resource/ds.04411/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Primary Sources (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Primary_Sources.pdf"
+            }
+          ],
+          "questions": [
+            "In what year was the March on Washington?",
+            "What did the Civil Rights Act of 1964 outlaw?"
+          ],
+          "answers": [
+            "1963",
+            "Discrimination based on race, color, religion, sex, or national origin in public places and jobs"
+          ]
+        },
+        {
+          "title": "Lesson 45: Selma and the Right to Vote",
+          "steps": [
+            "Watch part of Freeman Hrabowski's oral history and note what he remembers as a child",
+            "Observe the Selma march photograph: who is marching and what are they carrying?",
+            "Reflect: how did the Voting Rights Act connect back to the 15th Amendment you studied?",
+            "Write a one-paragraph reflection on which source in this course moved you most"
+          ],
+          "links": [
+            {
+              "label": "Primary source set: The Civil Rights Movement",
+              "url": "https://www.loc.gov/classroom-materials/civil-rights-movement/"
+            },
+            {
+              "label": "Primary source: Selma to Montgomery march, 1965",
+              "url": "https://www.loc.gov/resource/ppmsca.08102/"
+            },
+            {
+              "label": "Primary source: Freeman Hrabowski remembers the church bombing",
+              "url": "https://www.loc.gov/item/2015669131/"
+            },
+            {
+              "label": "Primary Source Analysis Tool (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Primary_Source_Analysis_Tool_LOC.pdf"
+            },
+            {
+              "label": "Teacher's guide: Analyzing Oral Histories (PDF)",
+              "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Oral_Histories.pdf"
+            }
+          ],
+          "questions": [
+            "What was the Selma to Montgomery march for?",
+            "What did the Voting Rights Act of 1965 ban?"
+          ],
+          "answers": [
+            "Voting rights for Black citizens in Alabama and the South",
+            "Literacy tests and other practices used to keep people from voting because of race"
+          ]
+        }
+      ]
+    }
+  ]
+}

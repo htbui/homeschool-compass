@@ -1,0 +1,1212 @@
+{
+ "key": "noaa-weather-and-climate",
+ "title": "Weather Wise: NOAA Weather and Climate",
+ "sourceTitle": "JetStream – An Online School for Weather: Learning Lessons and topic pages (National Weather Service), with NOAA Education resource collections",
+ "author": "NOAA National Weather Service (JetStream)",
+ "seller": "NOAA",
+ "year": 2023,
+ "sourceUrl": "https://www.noaa.gov/jetstream/learning-lessons",
+ "license": {
+  "kind": "public_domain"
+ },
+ "licenseEvidence": "US Government work (17 U.S.C. §105). NWS Disclaimer (https://www.weather.gov/disclaimer, checked 2026-11-14): \"The information on National Weather Service (NWS) Web pages are in the public domain, unless specifically noted otherwise, and may be used without charge for any lawful purpose so long as you do not: 1) claim it is your own (e.g., by claiming copyright for NWS information -- see below), 2) use it in a manner that implies an endorsement or affiliation with NOAA/NWS, or 3) modify its content and then present it as official government material.\" It also says: \"As required by 17 U.S.C. § 403, third parties producing copyrighted works consisting predominantly of the material appearing in NWS Web pages must provide notice with such work(s) identifying the NWS material incorporated and stating that such material is not subject to copyright protection.\" NOAA Education FAQ (https://www.noaa.gov/office-education/outreach-communication/faq, last updated May 26, 2026; checked 2026-11-14): \"Nearly all of NOAA content, including images, videos, data products, educational materials, and more, is in the public domain and can be used without express permission.\" You may not \"Modify the content or misrepresent the content, and then present it as official government material. (If you make any edits, including using a generative AI program, make it clear that you edited it.)\" It also says: \"The resource collections are written by NOAA Office of Education staff in partnership with scientists and other experts from NOAA.\" JetStream About page (https://www.noaa.gov/jetstream/about, checked 2026-11-14) presents JetStream as the National Weather Service's \"JetStream Online School for Weather\". No © notice or non-federal author appears on any of the 36 JetStream lesson pages, the topic pages, or the worksheet PDFs linked here; the ENSO wheel PDF is JetStream-branded. JetStream moved from weather.gov/jetstream to noaa.gov/jetstream; the new URLs are used. SciJinks is not used: it is a joint NOAA/NASA site, and scijinks.gov did not resolve at check time. Only the NOAA Education El Niño collection page is linked; the partner resources listed on it are not used. This plan uses lesson titles, links and Freerange's own steps and questions; no NWS text is reproduced.",
+ "attribution": "Adapted from \"JetStream – An Online School for Weather\" by the NOAA National Weather Service (https://www.noaa.gov/jetstream/learning-lessons), with one NOAA Education resource collection page. These are U.S. Government works in the public domain and are not subject to copyright protection. Freerange organized them into daily lessons and wrote all of the steps, questions and answers, with AI assistance. These are new and adapted materials, not official NOAA or National Weather Service material. Follow each link for the original lesson plans. NOAA does not endorse Freerange or this lesson plan.",
+ "subjects": [
+  "science"
+ ],
+ "gradeMin": 3,
+ "gradeMax": 8,
+ "philosophies": [
+  "unit_study",
+  "traditional"
+ ],
+ "lessonsPerWeek": 3,
+ "minutesPerLesson": 30,
+ "parentInvolvement": "high",
+ "familyStyle": true,
+ "cover": "⛅",
+ "color": "#4C7FD9",
+ "description": "A year of kitchen-table weather science from the National Weather Service's JetStream online weather school. Kids crush a bottle with air pressure, build two kinds of barometers, make a cloud in a jug, float eggs in sea-strength salt water, time thunder, and draw fronts on a real weather map, then finish with a short unit on climate and El Niño. Each lesson is a quick demonstration or activity with a short reading and a weather-safety tip. All of it is free online from NOAA and in the public domain, and siblings can do it together.",
+ "includes": [
+  "40 lessons in 7 units",
+  "Link to the National Weather Service JetStream lesson plan for every lesson",
+  "Matching JetStream reading pages and free printable worksheets, maps and charts",
+  "Weather-safety discussion built into many lessons",
+  "Questions with answers for every lesson"
+ ],
+ "units": [
+  {
+   "title": "Unit 1: Air and Air Pressure",
+   "lessons": [
+    {
+     "title": "Lesson 1: Heavy Air",
+     "steps": [
+      "Tape a blown-up balloon to each end of a yardstick and hang the stick from a string so it balances",
+      "Predict: if one end got heavier, would it go up or down?",
+      "Let the air out of one balloon (a pinprick near the knot) and watch the balance",
+      "Read the JetStream page on air pressure together"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/ll-heavyair"
+      },
+      {
+       "label": "JetStream reading: Air Pressure",
+       "url": "https://www.noaa.gov/jetstream/atmosphere/air-pressure"
+      }
+     ],
+     "questions": [
+      "After one balloon was emptied, which end of the stick dipped down, and why?",
+      "What does a barometer actually measure?",
+      "The National Weather Service calls a thunderstorm severe when its winds reach what speed, or its hail reaches what size?"
+     ],
+     "answers": [
+      "The end with the full balloon, because the air inside it has weight",
+      "The weight of the column of air above it (air pressure)",
+      "Winds of 58 mph or more, or hail 1 inch or larger"
+     ]
+    },
+    {
+     "title": "Lesson 2: A Pressing Engagement",
+     "steps": [
+      "Lay a ruler on a table with about 3 inches sticking over the edge",
+      "Smooth a sheet of printer paper over the ruler and press down on the end that sticks out",
+      "Repeat with a full opened sheet of newspaper and compare"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/ll-engagement"
+      },
+      {
+       "label": "JetStream reading: Air Pressure",
+       "url": "https://www.noaa.gov/jetstream/atmosphere/air-pressure"
+      }
+     ],
+     "questions": [
+      "Which was harder to lift, the printer paper or the newspaper? Why?",
+      "About how much does air press on each square inch at sea level?"
+     ],
+     "answers": [
+      "The newspaper, because little air could get underneath it, so the air pressing down on top was not balanced",
+      "About 14.7 pounds"
+     ],
+     "notes": "A two-minute demonstration; pair it with the next lesson."
+    },
+    {
+     "title": "Lesson 3: Going with the Flow",
+     "steps": [
+      "Lay two empty soda cans on their sides about an inch apart",
+      "Predict whether blowing between them will push them apart or pull them together",
+      "Put your face near the table and blow hard between the cans; try again until they move",
+      "Talk through your family's tornado plan"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/ll-flow"
+      },
+      {
+       "label": "JetStream reading: Air Pressure",
+       "url": "https://www.noaa.gov/jetstream/atmosphere/air-pressure"
+      }
+     ],
+     "questions": [
+      "Did the cans move apart or together?",
+      "Which scientist's principle explains this, and what does it say?",
+      "Where should you go if a tornado warning is issued?"
+     ],
+     "answers": [
+      "Together",
+      "Daniel Bernoulli's: the faster air (or any fluid) moves, the lower its pressure",
+      "To a basement, safe room or interior room on the lowest floor, away from windows"
+     ]
+    },
+    {
+     "title": "Lesson 4: Crunch Time",
+     "steps": [
+      "Pour two cups of hot tap water into each of two empty 2-liter bottles, cover the openings and shake",
+      "Pour the water out and quickly cap only one bottle",
+      "Watch both bottles for five minutes and describe what happens"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/ll-crunch"
+      },
+      {
+       "label": "JetStream reading: Air Pressure",
+       "url": "https://www.noaa.gov/jetstream/atmosphere/air-pressure"
+      }
+     ],
+     "questions": [
+      "Why did the capped bottle crumple?",
+      "Should you open your windows when a tornado is coming?"
+     ],
+     "answers": [
+      "The air inside cooled and its pressure dropped, so the higher air pressure outside pushed the bottle in",
+      "No. Leave the windows alone and take shelter inside, away from windows"
+     ]
+    },
+    {
+     "title": "Lesson 5: Measure the Pressure – The \"Wet\" Barometer",
+     "steps": [
+      "Tape a ruler and a clear plastic tube inside a straight-sided glass, and half-fill the glass with colored water",
+      "Draw water partway up the tube, trap it and seal the top with clay",
+      "Record the water height and the weather at the same time every day for 5 to 10 days"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/ll-pressure"
+      },
+      {
+       "label": "JetStream reading: Air Pressure",
+       "url": "https://www.noaa.gov/jetstream/atmosphere/air-pressure"
+      }
+     ],
+     "questions": [
+      "Who built the first barometer, and in what year?",
+      "Why did he switch from water to mercury?"
+     ],
+     "answers": [
+      "Evangelista Torricelli, in 1643",
+      "Mercury is about 14 times heavier than water, so the tube could be about 3 feet long instead of more than 30"
+     ],
+     "notes": "Construction takes 5 minutes; then keep a daily log. Run it at the same time as Lesson 6 and compare the two barometers."
+    },
+    {
+     "title": "Lesson 6: Measure the Pressure II – The \"Dry\" Barometer",
+     "steps": [
+      "Stretch plastic wrap tightly over a can or jar and hold it with a rubber band",
+      "Tape a straw flat across the top so one end sits at the center and the rest sticks out like a pointer",
+      "Tape an index card behind the straw and mark where it points",
+      "Mark the straw's level and note the weather at the same time each day for 10 days"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/ll-pressure2"
+      },
+      {
+       "label": "JetStream reading: Air Pressure",
+       "url": "https://www.noaa.gov/jetstream/atmosphere/air-pressure"
+      }
+     ],
+     "questions": [
+      "What does the word \"aneroid\" mean?",
+      "Who built the first working aneroid barometer, and when?",
+      "When air pressure rises, what does the plastic wrap do?"
+     ],
+     "answers": [
+      "Without liquid (without water)",
+      "French scientist Lucien Vidie, in 1843",
+      "It is pushed in, so the pointing end of the straw rises"
+     ]
+    },
+    {
+     "title": "Lesson 7: AM in the PM",
+     "steps": [
+      "Read the JetStream page on the layers of the atmosphere",
+      "After sunset, with a parent, tune an AM radio (a car radio works) to faint, faraway stations",
+      "Log each station's call sign, city and signal quality on the reception form",
+      "Find the cities on a map and measure how far the signals traveled"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/learning-lesson-am-in-pm"
+      },
+      {
+       "label": "JetStream reading: Layers of the Atmosphere",
+       "url": "https://www.noaa.gov/jetstream/atmosphere/layers-of-atmosphere"
+      },
+      {
+       "label": "Radio station reception form (PDF)",
+       "url": "https://www.noaa.gov/sites/default/files/2022-01/ampm.pdf"
+      }
+     ],
+     "questions": [
+      "Which layer of the ionosphere soaks up AM signals during the day and disappears at night?",
+      "U.S. radio call signs usually start with which letter east of the Mississippi River? Which letter west of it?"
+     ],
+     "answers": [
+      "The D-layer",
+      "W in the east, K in the west"
+     ],
+     "notes": "An evening activity (30 minutes to two hours)."
+    }
+   ]
+  },
+  {
+   "title": "Unit 2: Sun, Heat and Wind",
+   "lessons": [
+    {
+     "title": "Lesson 8: Melts in Your Bag, Not in Your Hand",
+     "steps": [
+      "Seal a piece of chocolate in each of two bags, labeled A and B",
+      "Hang bag A in full sun, away from walls and the ground, and put bag B in the shade",
+      "After 20 minutes compare the chocolate and explain the difference",
+      "Read the JetStream page on how heat energy moves"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/ll-melts"
+      },
+      {
+       "label": "JetStream reading: The Transfer of Heat Energy",
+       "url": "https://www.noaa.gov/jetstream/atmosphere/transfer-of-heat-energy"
+      }
+     ],
+     "questions": [
+      "Which way of moving heat melted the chocolate in the sun: conduction, convection or radiation?",
+      "What is the lowest SPF the lesson recommends for sunscreen?"
+     ],
+     "answers": [
+      "Radiation",
+      "SPF 30"
+     ]
+    },
+    {
+     "title": "Lesson 9: Canned Heat",
+     "steps": [
+      "With an adult, paint one can flat black and one flat white, inside and out (or use a dark and a shiny container)",
+      "Put two inches of cold water in each can and check that the temperatures match",
+      "Leave both in the sun for two hours, then measure and compare"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/ll-canned-heat"
+      },
+      {
+       "label": "JetStream reading: The Earth-Atmosphere Energy Balance",
+       "url": "https://www.noaa.gov/jetstream/atmosphere/energy"
+      }
+     ],
+     "questions": [
+      "Which can's water got warmer?",
+      "What is albedo?",
+      "Why does the lesson recommend light-colored clothing on hot days?"
+     ],
+     "answers": [
+      "The black can's",
+      "How much a surface reflects the light that hits it",
+      "Light colors reflect heat and sunlight, which helps keep your body cooler"
+     ]
+    },
+    {
+     "title": "Lesson 10: Toasty Wind",
+     "steps": [
+      "Ask: where does wind come from? Can a toaster make wind?",
+      "With an adult, turn on a toaster and hold a pinwheel 10 to 15 inches above it, keeping the plastic away from the heat",
+      "Turn the toaster off and explain why the pinwheel spun",
+      "Read the JetStream page on the origin of wind"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/global/learning-lesson-toasty-wind"
+      },
+      {
+       "label": "JetStream reading: Origin of Wind",
+       "url": "https://www.noaa.gov/jetstream/synoptic/origin-of-wind"
+      }
+     ],
+     "questions": [
+      "What made the pinwheel spin?",
+      "What is the original source of the heat that drives Earth's winds?",
+      "Finish the safety saying: \"When thunder roars, ...\""
+     ],
+     "answers": [
+      "Air heated by the toaster rose (convection), making a breeze",
+      "The Sun",
+      "\"... go indoors.\""
+     ],
+     "notes": "Adult-run demonstration."
+    },
+    {
+     "title": "Lesson 11: The Shadow Knows I",
+     "steps": [
+      "On a sunny day, measure and record the shadows of a few fixed objects (a post, a fence, a swing set), with the date and time",
+      "Predict whether the shadows will be longer or shorter in three months",
+      "Set a calendar reminder and measure again at the same time of day three months later"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/global/learning-lesson-shadow-knows-i"
+      },
+      {
+       "label": "JetStream reading: Climate Zones",
+       "url": "https://www.noaa.gov/jetstream/global/climate-zones"
+      }
+     ],
+     "questions": [
+      "What causes the seasons?",
+      "What is an analemma?"
+     ],
+     "answers": [
+      "The tilt of Earth's axis as Earth orbits the Sun (not Earth's distance from the Sun)",
+      "The figure-8 pattern the Sun traces in the sky when you note its position at the same time each day for a year"
+     ],
+     "notes": "A long-term project: two 5-minute measurements three months apart. Start in September or January."
+    },
+    {
+     "title": "Lesson 12: The Shadow Knows II",
+     "steps": [
+      "Within two days of an equinox (around March 20 or September 22), stand a stick truly upright in level ground",
+      "At solar noon (look it up with the NOAA Solar Calculator), stretch a string from the stick's top to the end of its shadow and measure the angle",
+      "Find your latitude, multiply it by 111.1 to get your distance from the equator in kilometers, and calculate Earth's circumference"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/global/learning-lesson-shadow-knows-ii"
+      },
+      {
+       "label": "JetStream reading: Global Atmospheric Circulations",
+       "url": "https://www.noaa.gov/jetstream/global/global-atmospheric-circulations"
+      }
+     ],
+     "questions": [
+      "Write the proportion you use to find Earth's circumference.",
+      "If your angle is 40° and you are 4,444 km from the equator, what circumference do you get?",
+      "Why must this be done near an equinox?"
+     ],
+     "answers": [
+      "Measured angle ÷ 360° = distance to the equator ÷ circumference",
+      "About 40,000 km (4,444 × 360 ÷ 40)",
+      "That is when the Sun is directly over the equator at solar noon"
+     ],
+     "notes": "Only works near the spring or fall equinox; save this lesson for then if needed."
+    }
+   ]
+  },
+  {
+   "title": "Unit 3: The Water Cycle",
+   "lessons": [
+    {
+     "title": "Lesson 13: Water, Water Everywhere",
+     "steps": [
+      "Label eight cups or jars: oceans, glaciers and icecaps, groundwater, lakes, inland seas, soil moisture, atmosphere, rivers",
+      "Fill the \"oceans\" jar with 1,000 mL of water to stand for all the water on Earth, and guess how much belongs in each of the others",
+      "Move the real amounts from the lesson's list with a measuring cup and eyedropper and compare them with your guesses",
+      "Read the JetStream page on the hydrologic cycle"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/ll-water"
+      },
+      {
+       "label": "JetStream reading: The Hydrologic Cycle",
+       "url": "https://www.noaa.gov/jetstream/atmosphere/hydro"
+      }
+     ],
+     "questions": [
+      "About what percent of Earth's water is in the oceans?",
+      "What is the second-largest store of water?"
+     ],
+     "answers": [
+      "About 97%",
+      "Glaciers and icecaps (about 2%)"
+     ]
+    },
+    {
+     "title": "Lesson 14: Leaf It to Me",
+     "steps": [
+      "On a warm, sunny day, slip a large clear plastic bag over a leafy branch and tie it shut",
+      "Tie a small rock in the bottom corner so water collects there",
+      "After at least two hours, measure the water, then remove the bag"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/ll-leaf"
+      },
+      {
+       "label": "JetStream reading: The Hydrologic Cycle",
+       "url": "https://www.noaa.gov/jetstream/atmosphere/hydro"
+      }
+     ],
+     "questions": [
+      "What is transpiration?",
+      "Does wind speed up or slow down transpiration?",
+      "About how much of the moisture in the atmosphere comes from plants?"
+     ],
+     "answers": [
+      "Evaporation of water from inside plant leaves",
+      "Speeds it up",
+      "About 10%"
+     ],
+     "notes": "Takes 2–6 hours; set it up in the morning."
+    },
+    {
+     "title": "Lesson 15: Sweatin' to the Coldies",
+     "steps": [
+      "Fill a glass jar with ice and cold water",
+      "Wait about 30 minutes and look at the outside of the glass",
+      "Try a plastic cup and a foam cup and compare how much water collects"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/ll-sweatin"
+      },
+      {
+       "label": "JetStream reading: Precipitation",
+       "url": "https://www.noaa.gov/jetstream/atmosphere/precipitation"
+      }
+     ],
+     "questions": [
+      "Where did the water on the outside of the glass come from?",
+      "What is the dew point?"
+     ],
+     "answers": [
+      "Water vapor in the air that cooled and condensed on the cold glass",
+      "The temperature at which water vapor in the air condenses into liquid"
+     ]
+    },
+    {
+     "title": "Lesson 16: The Rain Man",
+     "steps": [
+      "Pour about two inches of hot water into a glass jar",
+      "Seal ice cubes in a sandwich bag and set it over the jar's mouth with one corner dipping in",
+      "Watch for drops forming and falling back, and explain each step",
+      "Talk through flash flood safety"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/ll-rainman"
+      },
+      {
+       "label": "JetStream reading: Precipitation",
+       "url": "https://www.noaa.gov/jetstream/atmosphere/precipitation"
+      }
+     ],
+     "questions": [
+      "What part of the real water cycle did the ice bag stand for?",
+      "How deep must fast-moving water be to knock a person off their feet?"
+     ],
+     "answers": [
+      "Cold air high up where water vapor condenses into clouds and rain",
+      "Only about six inches"
+     ]
+    },
+    {
+     "title": "Lesson 17: What-a-Cycle",
+     "steps": [
+      "Print the station cards and labels and set up water-cycle stations around the house (ocean, clouds, glacier, groundwater and so on)",
+      "Each player is a water molecule: roll a die, read the card at your station, and move or stay",
+      "Draw each move on your worksheet and play ten rolls",
+      "Compare paths: where did each molecule spend the most time?"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/ll-what-a-cycle"
+      },
+      {
+       "label": "Station cards (PDF)",
+       "url": "https://www.noaa.gov/sites/default/files/2022-10/ll-whatacycle-smallcards.pdf"
+      },
+      {
+       "label": "Water cycle worksheet (PDF)",
+       "url": "https://www.noaa.gov/sites/default/files/2022-10/ll_whatacycle_worksheet.pdf"
+      }
+     ],
+     "questions": [
+      "Name two different paths your water molecule took.",
+      "Did any molecule get stuck in one place for a long time? Where?"
+     ],
+     "notes": "Works best with two or more players; siblings can share one set of stations."
+    },
+    {
+     "title": "Lesson 18: Water Cycle Paper Craft",
+     "steps": [
+      "Print the paper craft (labeled or unlabeled version) and color it",
+      "If you use the unlabeled version, add each label as you discuss that part of the cycle",
+      "Cut along the solid lines, fold on the dashed lines and tape it together, then add cotton-ball clouds"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/ll-water-cycle-craft"
+      },
+      {
+       "label": "Paper craft with labels (PDF)",
+       "url": "https://www.noaa.gov/sites/default/files/2022-01/hydro_papercraft_bw_labels.pdf"
+      },
+      {
+       "label": "Paper craft, full color (PDF)",
+       "url": "https://www.noaa.gov/sites/default/files/2022-01/hydro_papercraft_color.pdf"
+      }
+     ],
+     "questions": [
+      "Point to where evaporation, condensation and precipitation happen on your model.",
+      "Name two ways water gets back to the ocean after it falls on land."
+     ],
+     "answers": [
+      "Answers will vary",
+      "Any two of: surface runoff, rivers and streams, groundwater flow"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 4: Clouds and Rain",
+   "lessons": [
+    {
+     "title": "Lesson 19: Smoking Clouds",
+     "steps": [
+      "Read the JetStream page on how clouds form",
+      "An adult puts an inch of warm water in a glass jug, shakes it, seals it with the valve stopper and pumps it up with a bicycle pump, then pops the stopper",
+      "Repeat after dropping a burning match's smoke into the jug, and compare"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/clouds/ll-smoke"
+      },
+      {
+       "label": "JetStream reading: How Clouds Form",
+       "url": "https://www.noaa.gov/jetstream/clouds/how-clouds-form"
+      }
+     ],
+     "questions": [
+      "Why did a cloud form only after smoke was added?",
+      "What happens to air's temperature when it expands?"
+     ],
+     "answers": [
+      "Cloud droplets need tiny particles (condensation nuclei) to form on",
+      "It cools"
+     ],
+     "notes": "Adult-only demonstration: matches and a pressurized glass jug."
+    },
+    {
+     "title": "Lesson 20: Head in the Clouds",
+     "steps": [
+      "Cut out and assemble the CloudSpotter wheel",
+      "Compare the sky with the wheel and the NWS cloud chart, and record the main cloud type on the observation form",
+      "Observe twice a day (midday and evening) for four days, ideally around a cold front"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/clouds/learning-lesson-head-in-clouds"
+      },
+      {
+       "label": "JetStream reading: The Basic Ten",
+       "url": "https://www.noaa.gov/jetstream/clouds/ten-basic-clouds"
+      },
+      {
+       "label": "CloudSpotter wheel (PDF)",
+       "url": "https://www.noaa.gov/sites/default/files/2022-11/cloudwheel.pdf"
+      },
+      {
+       "label": "Cloud observation form (PDF)",
+       "url": "https://www.noaa.gov/sites/default/files/2022-11/headclouds_obform.pdf"
+      }
+     ],
+     "questions": [
+      "Name the four basic cloud forms.",
+      "What is fog?"
+     ],
+     "answers": [
+      "Cirro-form, strato-form, cumulo-form and nimbo-form",
+      "A cloud at ground level"
+     ],
+     "notes": "Five minutes per observation over four days."
+    },
+    {
+     "title": "Lesson 21: A 'Hole' Lot of Clouds",
+     "steps": [
+      "Cut out the disc and the eleven cloud pictures and glue each picture onto its spot",
+      "Hold the disc up and look through the hole to match the clouds at each level (low, middle, high)",
+      "Record the main cloud code for each level, twice a day for five days"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/clouds/learning-lesson-hole-lot-of-clouds-2"
+      },
+      {
+       "label": "JetStream reading: NWS Cloud Chart",
+       "url": "https://www.noaa.gov/jetstream/clouds/nws-cloud-chart"
+      },
+      {
+       "label": "'Hole' lot of clouds disc (PDF)",
+       "url": "https://www.noaa.gov/sites/default/files/2022-11/holeclouds2.pdf"
+      }
+     ],
+     "questions": [
+      "Which low cloud always counts as the main low cloud if any of it is in the sky?",
+      "What do you record for a level that has no clouds?"
+     ],
+     "answers": [
+      "Cumulonimbus",
+      "A zero (0)"
+     ],
+     "notes": "Ten minutes per observation over five days."
+    },
+    {
+     "title": "Lesson 22: Atmospheric Collisions",
+     "steps": [
+      "Point a hair dryer straight up on high (no heat needed)",
+      "Float one ping-pong ball in the airstream, then carefully add a second",
+      "Listen for the clicks as they bump, and imagine each bump joining two cloud droplets"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/global/learning-lesson-atmospheric-collisions"
+      },
+      {
+       "label": "JetStream reading: Precipitation",
+       "url": "https://www.noaa.gov/jetstream/atmosphere/precipitation"
+      }
+     ],
+     "questions": [
+      "What are the two processes that grow cloud droplets into raindrops?",
+      "About how big can a raindrop get before it breaks apart?"
+     ],
+     "answers": [
+      "Collision and coalescence",
+      "About 10 mm (0.4 inch) across"
+     ]
+    },
+    {
+     "title": "Lesson 23: How Much Water Is in That Cloud?",
+     "steps": [
+      "Guess how many drops of water a cotton ball can hold before it drips",
+      "Hold a cotton ball over a cup while a partner adds drops one at a time, moving the dropper around",
+      "Stop counting when water drips from the bottom, and compare with your guess"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/ll-h2ocontent"
+      },
+      {
+       "label": "JetStream reading: Life Cycle of a Thunderstorm",
+       "url": "https://www.noaa.gov/jetstream/thunderstorms/life-cycle-of-thunderstorm"
+      }
+     ],
+     "questions": [
+      "Why did different people get different counts?",
+      "In a real cloud, what holds the water up until it falls as rain?"
+     ],
+     "answers": [
+      "Drops were different sizes, cotton balls differ, and people counted differently",
+      "The thunderstorm's updraft (rising air)"
+     ]
+    },
+    {
+     "title": "Lesson 24: It's the \"Rain,\" Man",
+     "steps": [
+      "Make a paper ruler strip, tape it to a straight-sided jar and cover it with tape",
+      "Set the gauge in an open spot away from trees and buildings",
+      "After each rain, record the amount on the rain chart and empty the jar",
+      "Compare your totals with the official amount for your area at weather.gov"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/global/earning-lesson-its-rain-man"
+      },
+      {
+       "label": "Rain chart (PDF)",
+       "url": "https://www.noaa.gov/sites/default/files/2023-03/rainchart.pdf"
+      }
+     ],
+     "questions": [
+      "To what fraction of an inch does the National Weather Service measure rain?",
+      "Why should a rain gauge be kept away from trees and buildings?"
+     ],
+     "answers": [
+      "Hundredths of an inch (0.01 inch)",
+      "They can block or add to the rain that falls into the gauge"
+     ],
+     "notes": "Build it in 30 minutes, then keep recording through the rest of the course."
+    }
+   ]
+  },
+  {
+   "title": "Unit 5: The Ocean and the Weather",
+   "lessons": [
+    {
+     "title": "Lesson 25: A Funny Taste",
+     "steps": [
+      "Mix one liter each of distilled water with the salt amounts in the lesson's table to match the Baltic Sea, Black Sea, ocean, Red Sea, Great Salt Lake and Dead Sea",
+      "Taste a tiny sip (a teaspoon or less) of each, from least to most salty, and find each body of water on a globe",
+      "Read the JetStream page on sea water"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/ocean/ll-taste"
+      },
+      {
+       "label": "JetStream reading: Sea Water",
+       "url": "https://www.noaa.gov/jetstream/ocean/sea-water"
+      }
+     ],
+     "questions": [
+      "What is the average salinity of the oceans?",
+      "If ocean water is salty, why is rain fresh?"
+     ],
+     "answers": [
+      "About 35 parts per thousand",
+      "Evaporation leaves the salt behind, so only fresh water rises into the clouds"
+     ],
+     "notes": "Taste only tiny amounts, and spit out the saltiest samples."
+    },
+    {
+     "title": "Lesson 26: We All Scream for Ice Cream",
+     "steps": [
+      "Seal milk or cream, sugar and vanilla in a small zip bag",
+      "Put it inside a gallon bag half-full of ice, with a different amount of rock salt for each bag (one with none)",
+      "Shake, wearing gloves or using a towel, and time how long each takes to freeze"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/ocean/ll_scream"
+      },
+      {
+       "label": "JetStream reading: Sea Water",
+       "url": "https://www.noaa.gov/jetstream/ocean/sea-water"
+      }
+     ],
+     "questions": [
+      "Which bags froze first?",
+      "Does salt make ice melt faster?"
+     ],
+     "answers": [
+      "The ones with the most salt",
+      "No; it lowers the temperature at which water freezes and melts"
+     ],
+     "notes": "Great with siblings: each pair uses a different amount of salt."
+    },
+    {
+     "title": "Lesson 27: Salt 'n Lighter",
+     "steps": [
+      "Fill three jars with water; stir ocean-strength salt into one and Dead-Sea-strength salt into another",
+      "Predict which eggs will float",
+      "Gently lower an egg into each jar and compare"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/ocean/ll-eggs"
+      },
+      {
+       "label": "JetStream reading: Sea Water",
+       "url": "https://www.noaa.gov/jetstream/ocean/sea-water"
+      }
+     ],
+     "questions": [
+      "In which jars did the eggs float?",
+      "Why does salt make an egg float?"
+     ],
+     "answers": [
+      "The two salty jars (highest in the saltiest one)",
+      "Salt makes the water denser, so the egg weighs less than the water it pushes aside"
+     ]
+    },
+    {
+     "title": "Lesson 28: Diet Light",
+     "steps": [
+      "Put an unopened can of regular soda and a can of diet soda in a deep container of water",
+      "Watch which floats and which sinks",
+      "Compare the nutrition labels to explain the difference"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/ocean/ll-diet"
+      },
+      {
+       "label": "JetStream reading: Sea Water",
+       "url": "https://www.noaa.gov/jetstream/ocean/sea-water"
+      }
+     ],
+     "questions": [
+      "Which can sank, and why?",
+      "Is warm, moist air more or less dense than cold, dry air?"
+     ],
+     "answers": [
+      "The regular soda, because its sugar (about 40 grams) makes it denser than water",
+      "Less dense, so it rises more easily"
+     ]
+    },
+    {
+     "title": "Lesson 29: How It Is Currently Done",
+     "steps": [
+      "Fill a baking pan with about an inch of water and sprinkle pepper in one corner",
+      "With a stir straw at each corner, gently blow along the side of the pan to your left",
+      "Watch the pepper circle, then try blowing toward each other",
+      "Read the JetStream page on ocean circulations"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/ocean/ll-current"
+      },
+      {
+       "label": "JetStream reading: Ocean Circulations",
+       "url": "https://www.noaa.gov/jetstream/ocean/circulations"
+      }
+     ],
+     "questions": [
+      "Which way did the pepper circle?",
+      "What pushes the ocean's surface currents?",
+      "What is a rip current?"
+     ],
+     "answers": [
+      "Clockwise, like Northern Hemisphere ocean currents",
+      "Wind",
+      "A strong, narrow current flowing away from shore"
+     ]
+    },
+    {
+     "title": "Lesson 30: That Sinking Feeling",
+     "steps": [
+      "The night before, freeze ice cubes of colored fresh water and of colored salty water (two different colors)",
+      "Fill a clear bowl with tap water and let it settle",
+      "Gently drop in one cube of each kind and describe what the melting colors do"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/ocean/ll-sink"
+      },
+      {
+       "label": "JetStream reading: Ocean Circulations",
+       "url": "https://www.noaa.gov/jetstream/ocean/circulations"
+      }
+     ],
+     "questions": [
+      "Which cube's meltwater sank faster?",
+      "What makes water sink in the far North Atlantic and drive the Great Ocean Conveyor?"
+     ],
+     "answers": [
+      "The salty cube's",
+      "When sea ice forms it leaves salt behind, making the cold water very dense, so it sinks"
+     ]
+    },
+    {
+     "title": "Lesson 31: Moonlight Serenade",
+     "steps": [
+      "In a dark room, take the shade off a lamp (the Sun) and push a foam ball onto a pencil (the Moon)",
+      "Hold the Moon at arm's length and turn in 45° steps, drawing what you see each time on the observation form",
+      "Switch roles and repeat, then read the JetStream page on tides"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/ocean/ll-moonphase"
+      },
+      {
+       "label": "JetStream reading: Tides",
+       "url": "https://www.noaa.gov/jetstream/ocean/tides"
+      },
+      {
+       "label": "Observation form (PDF)",
+       "url": "https://www.noaa.gov/sites/default/files/2023-02/moonphaseworksheet.pdf"
+      }
+     ],
+     "questions": [
+      "What causes the Moon's phases?",
+      "At which phase can a solar eclipse happen?"
+     ],
+     "answers": [
+      "The Moon's orbit changes how much of its sunlit side we can see from Earth",
+      "New moon"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 6: Storms and Forecasting",
+   "lessons": [
+    {
+     "title": "Lesson 32: Updrafts in Action",
+     "steps": [
+      "Float a ping-pong ball over a hair dryer on high",
+      "Tilt the dryer slowly until the ball falls out",
+      "Try two balls at once and watch them swap places",
+      "Read the JetStream page on hail"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/ll-updrafts"
+      },
+      {
+       "label": "JetStream reading: Hazard: Hail",
+       "url": "https://www.noaa.gov/jetstream/hail"
+      }
+     ],
+     "questions": [
+      "What does the ping-pong ball stand for in a thunderstorm?",
+      "How does updraft strength affect hail size?"
+     ],
+     "answers": [
+      "A hailstone or raindrop held up by the storm's updraft",
+      "Stronger updrafts can hold up, and so grow, larger hail"
+     ]
+    },
+    {
+     "title": "Lesson 33: The Rumblin' Road",
+     "steps": [
+      "Learn to count seconds with \"one-Mississippi, two-Mississippi\"",
+      "A parent flashes a flashlight, waits, then says \"BOOM\"; count the seconds between",
+      "Divide by 5 to get the distance in miles (or by 3 for kilometers), and repeat with different waits",
+      "Read the JetStream page on lightning safety"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/lightning/sound-of-thunder/learning-lesson-determining-distance-to-thunderstorm"
+      },
+      {
+       "label": "JetStream reading: The Sound of Thunder",
+       "url": "https://www.noaa.gov/jetstream/lightning/sound-of-thunder"
+      },
+      {
+       "label": "JetStream reading: Lightning Safety",
+       "url": "https://www.noaa.gov/jetstream/lightning/lightning-safety"
+      }
+     ],
+     "questions": [
+      "If you count 15 seconds from flash to thunder, how far away is the lightning?",
+      "If you can hear thunder, are you safe from lightning?"
+     ],
+     "answers": [
+      "About 3 miles (about 5 km)",
+      "No; you are close enough to be struck, so go indoors right away"
+     ]
+    },
+    {
+     "title": "Lesson 34: Drawing Conclusions",
+     "steps": [
+      "Read the JetStream page on surface weather maps",
+      "Work through the pressure, temperature, dew point and pressure-change maps, drawing lines that connect equal values",
+      "On the complete plot map, mark the low, then draw the cold front in blue and the warm front in red"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/wxmaps-max/learning-lesson-drawing-conclusions"
+      },
+      {
+       "label": "JetStream reading: Surface Weather Maps",
+       "url": "https://www.noaa.gov/jetstream/wxmaps"
+      },
+      {
+       "label": "Surface pressure map (PDF)",
+       "url": "https://www.noaa.gov/sites/default/files/2022-11/sfc_slp_map.pdf"
+      },
+      {
+       "label": "Complete plot map (PDF)",
+       "url": "https://www.noaa.gov/sites/default/files/2022-11/sfc_plot_map.pdf"
+      },
+      {
+       "label": "Plot key (PDF)",
+       "url": "https://www.noaa.gov/sites/default/files/2022-11/surface_plot_key.pdf"
+      }
+     ],
+     "questions": [
+      "What is a front?",
+      "Which kind of front usually brings the faster change in weather?"
+     ],
+     "answers": [
+      "The boundary between two air masses",
+      "A cold front"
+     ],
+     "notes": "About 60 minutes; print the maps ahead of time."
+    },
+    {
+     "title": "Lesson 35: Pie in the Sky",
+     "steps": [
+      "Trace the North America base map and two alignment dots onto one clear salad tray",
+      "On each of the other trays, trace just one height line (contour) from the 500 mb chart",
+      "Stack the trays from the lowest contour to the highest to see the upper air in 3D",
+      "Find the ridges and troughs and the side of the trough where rain is likely"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/jetstream/learning-lesson-pie-in-sky"
+      },
+      {
+       "label": "JetStream reading: Basic Wave Patterns",
+       "url": "https://www.noaa.gov/jetstream/upper-air-charts/basic-wave-patterns"
+      },
+      {
+       "label": "Base map (PDF)",
+       "url": "https://www.noaa.gov/sites/default/files/2023-04/pie_sky_basemap.pdf"
+      },
+      {
+       "label": "500 mb chart (PDF)",
+       "url": "https://www.noaa.gov/sites/default/files/2023-04/pie_sky_500mb_chart.pdf"
+      }
+     ],
+     "questions": [
+      "What are ridges and troughs in the upper air?",
+      "On which side of a trough is rain more likely, and why?"
+     ],
+     "answers": [
+      "High and low places in the height of the 500 mb pressure level",
+      "The right (east) side, where air is rising"
+     ],
+     "notes": "You need about ten clear hinged salad trays and permanent markers."
+    },
+    {
+     "title": "Lesson 36: Quadraphonic Wind",
+     "steps": [
+      "Read the JetStream page on how a tropical cyclone is built",
+      "Using Hurricane Bill's forecast advisory, draw the storm's motion arrow and its eye on the 0–170 nm chart",
+      "Plot and shade the 64-, 50- and 34-knot wind radii in each quadrant",
+      "Compare the quadrants and explain why one side reaches farther"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream lesson plan",
+       "url": "https://www.noaa.gov/jetstream/tc-tcm/learning-lesson-quadraphonic-wind"
+      },
+      {
+       "label": "JetStream reading: Tropical Cyclone Structure",
+       "url": "https://www.noaa.gov/jetstream/tropical/tropical-cyclone-introduction/tropical-cyclone-structure"
+      },
+      {
+       "label": "Hurricane Bill forecast advisory (PDF)",
+       "url": "https://www.noaa.gov/sites/default/files/2022-11/bill_forecast_adv.pdf"
+      },
+      {
+       "label": "0–170 nm chart (PDF)",
+       "url": "https://www.noaa.gov/sites/default/files/2022-11/ll_quadraphonic_170nm.pdf"
+      }
+     ],
+     "questions": [
+      "Which side of a hurricane usually has the strongest and widest winds?",
+      "How do you change knots into miles per hour?"
+     ],
+     "answers": [
+      "The right side of its forward motion (often the right-front quadrant)",
+      "Multiply by 1.15"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 7: Climate",
+   "lessons": [
+    {
+     "title": "Lesson 37: Climate vs. Weather",
+     "steps": [
+      "Read the JetStream page on climate and weather",
+      "Write today's high and low temperature and compare them with what is normal for your area",
+      "Explain in your own words the Dallas/Fort Worth examples of a record rainy year and a \"normal\" day that wasn't"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream reading",
+       "url": "https://www.noaa.gov/jetstream/global/climate-vs-weather"
+      }
+     ],
+     "questions": [
+      "What is the basic difference between weather and climate?",
+      "Climate normals are averages over how many years? Which years make up the current set?"
+     ],
+     "answers": [
+      "Time: weather is the conditions at one moment, and climate is the typical weather over many years",
+      "30 years; 1991–2020"
+     ],
+     "notes": "This and the next three lessons are reading lessons built on JetStream topic pages."
+    },
+    {
+     "title": "Lesson 38: Climate Zones",
+     "steps": [
+      "Read the JetStream page on climate zones",
+      "Make a chart of the six major zone letters (A, B, C, D, E, H) with a short description of each",
+      "Find your home on the U.S. map in the reading and name your climate zone"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream reading",
+       "url": "https://www.noaa.gov/jetstream/global/climate-zones"
+      }
+     ],
+     "questions": [
+      "What is the climate classification system in this lesson called?",
+      "Which letter stands for dry climates, and which for polar climates?"
+     ],
+     "answers": [
+      "The Köppen-Geiger system",
+      "B is dry; E is polar"
+     ]
+    },
+    {
+     "title": "Lesson 39: Global Atmospheric Circulations",
+     "steps": [
+      "Read the JetStream page on global atmospheric circulation",
+      "Draw Earth with the three circulation cells in each hemisphere and arrows for the surface winds",
+      "Connect it back to Toasty Wind: where does warm air rise, and where does cool air sink?"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream reading",
+       "url": "https://www.noaa.gov/jetstream/global/global-atmospheric-circulations"
+      }
+     ],
+     "questions": [
+      "Name the three circulation cells in each hemisphere.",
+      "What do we call the deflection of moving air caused by Earth's rotation?"
+     ],
+     "answers": [
+      "Hadley cell, Ferrel cell and Polar cell",
+      "The Coriolis effect"
+     ]
+    },
+    {
+     "title": "Lesson 40: El Niño and La Niña",
+     "steps": [
+      "Read the JetStream page on El Niño and the Southern Oscillation",
+      "Print, cut and assemble the JetStream ENSO wheel, then turn it to compare normal, El Niño and La Niña conditions",
+      "Browse NOAA's El Niño and La Niña collection and describe one way ENSO affects weather where you live"
+     ],
+     "links": [
+      {
+       "label": "NWS JetStream reading",
+       "url": "https://www.noaa.gov/jetstream/tropical/enso"
+      },
+      {
+       "label": "JetStream ENSO wheel (PDF)",
+       "url": "https://www.noaa.gov/sites/default/files/2022-11/enso_wheel.pdf"
+      },
+      {
+       "label": "NOAA Education: El Niño and La Niña collection",
+       "url": "https://www.noaa.gov/education/resource-collections/weather-atmosphere/el-nino"
+      }
+     ],
+     "questions": [
+      "Air-pressure differences between which two places are used to track the Southern Oscillation?",
+      "What is La Niña?",
+      "What weather does El Niño bring to equatorial South America and to Australia?"
+     ],
+     "answers": [
+      "Tahiti and Darwin, Australia",
+      "The cool phase of ENSO, with cooler-than-normal water in the eastern Pacific",
+      "Heavy rain in equatorial South America; drought in parts of Australia"
+     ]
+    }
+   ]
+  }
+ ]
+}

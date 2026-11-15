@@ -1,0 +1,767 @@
+{
+ "key": "noaa-ocean-explorers",
+ "title": "Deep-Sea Explorers: NOAA Ocean Exploration",
+ "sourceTitle": "NOAA Ocean Exploration Classroom Materials: Educator Guides and Student Investigations",
+ "author": "NOAA Ocean Exploration (Office of Ocean Exploration and Research)",
+ "seller": "NOAA",
+ "year": 2026,
+ "sourceUrl": "https://oceanexplorer.noaa.gov/classroom-materials/",
+ "license": {
+  "kind": "public_domain"
+ },
+ "licenseEvidence": "US Government work (17 U.S.C. §105). NOAA Education FAQ (https://www.noaa.gov/office-education/outreach-communication/faq, last updated May 26, 2026; checked 2026-11-14): \"Nearly all of NOAA content, including images, videos, data products, educational materials, and more, is in the public domain and can be used without express permission.\" \"Not all content on a NOAA website is NOAA-sourced. Please read credits carefully to verify the source.\" You may not \"Claim NOAA content as your own (e.g. by claiming copyright for federal information)\", \"Use NOAA content in a manner that implies an endorsement or affiliation with the U.S. Government\", or \"Modify the content or misrepresent the content, and then present it as official government material. (If you make any edits, including using a generative AI program, make it clear that you edited it.)\" oceanexplorer.noaa.gov/disclaimer/ (checked 2026-11-14): \"This website is maintained by the National Oceanic and Atmospheric Administration (NOAA) Ocean Exploration. Many authors have contributed content to this website.\" It has no copyright clause. Every educator guide used here ends: \"If reproducing this activity, please cite NOAA as the source, and provide the following URL: https://oceanexplorer.noaa.gov.\" None of the 20 guides carries a © notice or names a non-federal author. 13 of them add \"Created in cooperation with the National Marine Sanctuary Foundation under federal award NA19OAR0110405 for the Deep Ocean Education Project\"; they claim no copyright and name NOAA as the source. Skipped: the three Maritime Heritage lessons, whose guides say \"Created by D. Blair Moore in cooperation with the National Park Service, NOAA Ocean Exploration ... and the National Marine Sanctuary Foundation\", naming a non-federal individual author. Also skipped: the legacy \"Shipwreck Explorers\" (08lophelia-shipwreck) plan, which says \"This lesson plan was produced by Mel Goodwin, PhD, The Harmony Project, Charleston, SC\", a contractor. Some guides contain third-party images (e.g. \"Image copyright E. Widder; used by permission\") and point to videos by Schmidt Ocean Institute, Ocean Exploration Trust and WHOI. This plan only links to those and copies no images. This plan uses lesson titles, links and Freerange's own steps and questions; no guide text is reproduced.",
+ "attribution": "Adapted from NOAA Ocean Exploration classroom materials (https://oceanexplorer.noaa.gov/classroom-materials/), a U.S. Government work in the public domain. Source: NOAA, https://oceanexplorer.noaa.gov. Freerange organized the lessons into a home course and wrote all of its steps, questions and answers, with AI assistance. These are new and adapted materials, not official NOAA material, and NOAA has not reviewed them. Follow each link for NOAA's original educator guides. NOAA does not endorse Freerange or this lesson plan.",
+ "subjects": [
+  "science"
+ ],
+ "gradeMin": 6,
+ "gradeMax": 10,
+ "philosophies": [
+  "unit_study",
+  "traditional"
+ ],
+ "lessonsPerWeek": 2,
+ "minutesPerLesson": 60,
+ "parentInvolvement": "high",
+ "familyStyle": false,
+ "cover": "🐙",
+ "color": "#2F6B5E",
+ "description": "Hands-on deep-sea science from NOAA's ocean explorers. Students map a hidden seafloor in a shoebox, build a robot arm that runs on water pressure, hunt glowing \"prey\" through blue filters, grow a black-smoker chimney in a cup, and build a methane-ice molecule from candy. Each lesson follows one of NOAA Ocean Exploration's free educator guides, which are U.S. Government works in the public domain, using real expedition videos and data. Most lessons are for grades 6–8, and a few marked high-school investigations stretch older students.",
+ "includes": [
+  "20 lessons in 6 units",
+  "Link to NOAA's lesson page and free educator guide (PDF) for every lesson",
+  "Student worksheets, data tables and card sorts linked where NOAA provides them",
+  "Hands-on investigations with household materials, with safety notes",
+  "Questions with answers for every lesson"
+ ],
+ "units": [
+  {
+   "title": "Unit 1: Why We Explore and How We Map the Seafloor",
+   "lessons": [
+    {
+     "title": "Lesson 1: To Boldly Go – Why Do We Explore?",
+     "steps": [
+      "Brainstorm every reason you can think of for spending time and money exploring the ocean, and write them down",
+      "Watch NOAA's short video \"Going Deep in Search of Discovery\" (linked in the guide) and add any new reasons you heard",
+      "Print and fold the learning-shape octahedrons from the educator guide, then race to match two facts to each of the eight reasons we explore",
+      "Choose one reason and write a short paragraph on why it matters to you and your family"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/to-boldly-go/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/to-boldly-go.pdf"
+      },
+      {
+       "label": "Student worksheet (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/to-boldly-go-student-worksheet.pdf"
+      }
+     ],
+     "questions": [
+      "Name three of the eight modern reasons NOAA gives for exploring the ocean.",
+      "Which 1870s ship voyage is often called the first ocean expedition made for scientific research?"
+     ],
+     "answers": [
+      "Any three of: climate change, energy, human health, ocean health, research and exploration, technology and innovation, maritime heritage, ocean literacy",
+      "The voyage of HMS Challenger (1872–1876)"
+     ],
+     "notes": "Plan one or two sittings. Print the octahedron shapes on card stock ahead of time."
+    },
+    {
+     "title": "Lesson 2: Wet Maps",
+     "steps": [
+      "Ahead of time, a parent or sibling hides a clay \"seafloor feature\" (seamount, trench, ridge) in a shoebox with a grid of holes in the lid",
+      "Make sounding rods from pencils or dowels wrapped with the color depth scale from the guide",
+      "Probe every hole one row at a time, without peeking, and record each depth on the data sheet",
+      "Graph each row, cut and fold the graphs, stand them up in order to build a 3D model, then open the box and compare"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/seafloor-mapping-wet-maps/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/wetmaps.pdf"
+      },
+      {
+       "label": "Student worksheet (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/wetmaps-student-worksheet.pdf"
+      }
+     ],
+     "questions": [
+      "What do the sounding rods stand in for in this model?",
+      "Why can multibeam sonar map the seafloor faster than single-beam sonar?",
+      "On a false-color depth map, which color usually shows the deepest areas?"
+     ],
+     "answers": [
+      "The sound pulses (pings) sonar sends down to measure depth",
+      "It sends out a fan-shaped swath of many sound pulses at once instead of one at a time",
+      "Purple (red shows the shallowest)"
+     ],
+     "notes": "Two sittings: build the box and rods on day 1, map and model on day 2. Short videos on building the box are linked from the guide."
+    },
+    {
+     "title": "Lesson 3: Watching in 3D – Exploring Multibeam Sonar",
+     "steps": [
+      "Talk through why and how we map the ocean floor and what features you might find there",
+      "Open the NOAA Ocean Exploration Data Atlas, find expedition EX1702 (American Samoa, 2017) and zoom in to ROV Dive 9 on Vailulu'u Seamount",
+      "Pick one of the four Case Studies, watch its 3D Fledermaus video and fill in the case study worksheet",
+      "Report back: where your site is, what was discovered there, which tools were used, and what you would explore next"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/seafloor-mapping-3d-multibeam-sonar/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/Watching3Dinstructions.pdf"
+      },
+      {
+       "label": "Case Study 1: Underwater volcano (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/CaseStudy1_KawioBarat_Volcano.pdf"
+      },
+      {
+       "label": "NOAA Ocean Exploration Data Atlas",
+       "url": "https://www.ncei.noaa.gov/maps/ocean-exploration-data-atlas/"
+      }
+     ],
+     "questions": [
+      "In an expedition code like EX1702, what do \"EX\", \"17\" and \"02\" mean?",
+      "What does the time between a sonar ping and its echo tell scientists?",
+      "Why do the mapping lines on the Data Atlas run back and forth like stripes?"
+     ],
+     "answers": [
+      "EX = NOAA Ship Okeanos Explorer; 17 = the year 2017; 02 = the second cruise of that year",
+      "How far away the seafloor (or another object) is",
+      "The ship \"mows the lawn,\" driving back and forth so the sonar swaths cover the whole area"
+     ],
+     "notes": "This is one of NOAA's high-school (grades 9–12) investigations; treat it as a challenge lesson for an older or advanced student. Plan two or three sittings, one case study at a time."
+    }
+   ]
+  },
+  {
+   "title": "Unit 2: Underwater Robots",
+   "lessons": [
+    {
+     "title": "Lesson 4: Which Robot When",
+     "steps": [
+      "Read the Exploration Vehicle Summary Sheets and become the family \"expert\" on one or two vehicles (ROV, AUV, lander, uncrewed surface vessel or hybrid)",
+      "Record each vehicle's special abilities and limits in Section One of the worksheet",
+      "Work through the mission scenarios and decide which vehicle could do each job, giving your reasons",
+      "Try a collaborative mission that needs two vehicles working together and explain how they would share the work"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/underwater-robots-which-robot-when/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/which-robot-when-activity.pdf"
+      },
+      {
+       "label": "Student worksheet (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/which-robot-when-student-worksheet.pdf"
+      },
+      {
+       "label": "Exploration vehicle summary sheets (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/exploration-vehicle-summary-sheets.pdf"
+      }
+     ],
+     "questions": [
+      "How is a remotely operated vehicle (ROV) different from an autonomous underwater vehicle (AUV)?",
+      "Why might a scientist choose two different robots for one expedition?"
+     ],
+     "answers": [
+      "An ROV is tethered to a ship and driven by human pilots; an AUV travels on its own, following a preprogrammed mission",
+      "Answers will vary"
+     ],
+     "notes": "One or two sittings. Siblings can each take a different vehicle and argue for it."
+    },
+    {
+     "title": "Lesson 5: Simple Machines – Robot Building Blocks",
+     "steps": [
+      "Watch \"Engineering for Discovery\" and spot simple machines on ROV Deep Discoverer",
+      "Review the six simple machines with the handout and hunt for examples around the house",
+      "Connect two water-filled oral syringes with plastic tubing and test how pushing one plunger moves the other",
+      "Design and build a manipulator arm powered by your syringe actuator that can grasp a plastic cup and lift it one inch"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/underwater-robots-simple-machines/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/simple-machines-activity.pdf"
+      },
+      {
+       "label": "Simple machines handout (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/simple-machines-handout.pdf"
+      }
+     ],
+     "questions": [
+      "What is an actuator?",
+      "What is the difference between a hydraulic system and a pneumatic system?",
+      "What kind of simple machine is a robot arm?"
+     ],
+     "answers": [
+      "A device that turns energy into motion",
+      "Hydraulic systems use a liquid; pneumatic systems use air or another gas",
+      "A lever"
+     ],
+     "notes": "Two sittings. You will need oral syringes, plastic tubing, cardboard, craft sticks and tape."
+    },
+    {
+     "title": "Lesson 6: Designing a Scientific ROV",
+     "steps": [
+      "Watch \"Video 1 – Developing a Scientific ROV\" from the playlist linked in the guide",
+      "List the challenges of working in the deep sea and the features a science ROV needs to overcome them",
+      "Choose one part of ROV SuBastian (arms, pressure housings, tether, foam or frame), watch its video and fill in the robot design activity sheet",
+      "Use the engineering design process handout to explain to your family how that part went from idea to working tool"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/underwater-robots-design-scientific-rov/"
+      },
+      {
+       "label": "Educator guide and activity sheet (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/robot-design-activity.pdf"
+      },
+      {
+       "label": "Engineering design process handout (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/engineering-design-process-handout.pdf"
+      }
+     ],
+     "questions": [
+      "Name two conditions in the deep sea that an ROV must be built to survive.",
+      "Could one person engineer a scientific ROV alone? Why or why not?"
+     ],
+     "notes": "This is one of NOAA's high-school (grades 9–12) investigations; treat it as a challenge lesson for an older or advanced student. The videos are by Schmidt Ocean Institute (a private foundation) and are only linked from NOAA's guide."
+    }
+   ]
+  },
+  {
+   "title": "Unit 3: Light in the Deep Ocean",
+   "lessons": [
+    {
+     "title": "Lesson 7: Light and Color in the Deep Ocean",
+     "steps": [
+      "Discuss how animals' colors help them on land and guess what colors animals are at different ocean depths; sketch your predictions",
+      "Close your eyes while a parent reads the guided ROV-dive story from the guide, then write what you pictured",
+      "Play the predator game: spread colored paper squares on black paper and, looking through one and then three layers of blue film, grab the easiest-to-see \"prey\" in 7 seconds",
+      "Tally which colors were caught and explain your results using NOAA's graphic of how deep each color of light travels"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/bioluminescence-light-and-color/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/science-of-light-investigation.pdf"
+      },
+      {
+       "label": "NOAA Ocean Service: How far does light travel in the ocean?",
+       "url": "https://oceanservice.noaa.gov/facts/light_travel.html"
+      }
+     ],
+     "questions": [
+      "Which color of sunlight is absorbed closest to the ocean surface?",
+      "Why might a red animal be hard to see in deep water?",
+      "Why does the ocean look blue?"
+     ],
+     "answers": [
+      "Red",
+      "Red light does not reach that deep, so a red animal looks dark or black",
+      "Red, orange and yellow light are absorbed near the surface, while blue light travels deepest"
+     ],
+     "notes": "Plan one long sitting (80–90 minutes) or two shorter ones. You need blue filter film or cellophane and colored felt or paper squares."
+    },
+    {
+     "title": "Lesson 8: Bioluminescence – An Adaptation for Deep-sea Survival",
+     "steps": [
+      "Watch the NOAA clip \"Dragon Fish Charms ROV\" with the sound off and fill in an I Notice / I Wonder / It Reminds Me Of chart",
+      "Study the image-only Creature Cards and answer the Think About It questions: how might each animal find food, avoid being eaten and find a mate?",
+      "Read the second set of cards and the bioluminescence fact sheet to check your ideas",
+      "Choose one glowing animal and make a model or poster that explains how its light helps it survive"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/bioluminescence-adaptation-for-survival/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/bioluminescent-creatures-adaptations-investigations.pdf"
+      },
+      {
+       "label": "Bioluminescent creature cards (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/bioluminescent-creatures.pdf"
+      },
+      {
+       "label": "Think About It worksheet (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/think-about-it-worksheet.pdf"
+      }
+     ],
+     "questions": [
+      "What is bioluminescence?",
+      "Name two ways producing light can help a deep-sea animal.",
+      "What are the rows of light-making organs on a dragonfish called?"
+     ],
+     "answers": [
+      "Light made by a chemical reaction inside a living thing",
+      "Any two of: luring prey, finding or attracting a mate, startling or escaping predators, camouflage",
+      "Photophores"
+     ],
+     "notes": "Two sittings. Some card images belong to other photographers; view them in NOAA's PDF rather than copying them."
+    }
+   ]
+  },
+  {
+   "title": "Unit 4: Seamounts and Deep-Sea Corals",
+   "lessons": [
+    {
+     "title": "Lesson 9: Formation of Seamounts and Island Chains",
+     "steps": [
+      "Study the Hawaii and Alaska maps and data tables and record what you notice and wonder about the ages and positions of the islands and seamounts",
+      "Model a hotspot: hold a grease-splatter screen over a can of shaving cream, squirt a mound, slide the screen a little, and repeat",
+      "Read the hotspot and plate-movement resources listed in the guide",
+      "Draw a labeled model that explains how a chain of seamounts and islands forms, then calculate how fast the Pacific Plate moves"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/seamounts-seamounts-island-chains/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/12/seamounts-island-chains-investigation.pdf"
+      },
+      {
+       "label": "Hawaii map and data table (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/hawaiian-map-data-table.pdf"
+      },
+      {
+       "label": "Student worksheet (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/12/seamounts-island-chains-worksheet.pdf"
+      }
+     ],
+     "questions": [
+      "In the shaving-cream model, what do the screen and the foam stand for?",
+      "Where in a hotspot chain are the oldest islands and seamounts?",
+      "Midway is about 2,432 km from the Hawaiian hotspot and about 27.7 million years old. About how fast has the Pacific Plate moved, in centimeters per year?"
+     ],
+     "answers": [
+      "The screen is a tectonic plate; the foam is magma rising from the hotspot",
+      "Farthest from the hotspot (the active volcano)",
+      "About 8.8 cm per year (2,432 km ÷ 27,700,000 years)"
+     ],
+     "notes": "Two sittings. Practice the shaving-cream demonstration once before showing it."
+    },
+    {
+     "title": "Lesson 10: Seamounts and Biological Productivity",
+     "steps": [
+      "Find American Samoa on a map and watch the start of \"Exploring the Deep Waters of American Samoa\" (to 2:16)",
+      "Look at Data Set 1 (seamounts, chlorophyll and fish catch) and list the patterns you see",
+      "Study the Fieberling Guyot current measurements, then model it: squeeze ice-cold blue water into a tub of warm water, first without and then with a clay seamount",
+      "Write an explanation of how a seamount can make the water above it richer in life"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/seamounts-seamounts-biological-productivity/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/12/seamounts-biological-productivity-investigation.pdf"
+      },
+      {
+       "label": "Student worksheet (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/12/seamounts-biological-productivity-worksheet.pdf"
+      },
+      {
+       "label": "What is upwelling? handout (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/upwelling-information-handout.pdf"
+      }
+     ],
+     "questions": [
+      "What does a high level of chlorophyll in surface water tell scientists?",
+      "What happened to the cold blue water when the clay seamount was in the tub?",
+      "How does upwelling lead to more fish?"
+     ],
+     "answers": [
+      "That lots of phytoplankton are growing there",
+      "It was pushed up and spread over and around the seamount instead of staying flat along the bottom",
+      "It brings cold, nutrient-rich deep water up into sunlight, so phytoplankton grow and feed the rest of the food web"
+     ],
+     "notes": "This is one of NOAA's high-school (grades 9–12) investigations; treat it as a challenge lesson for an older or advanced student. Two sittings; the tub model needs a clear plastic bin, a squeeze bottle, ice water, food coloring and modeling clay."
+    },
+    {
+     "title": "Lesson 11: Habitat Complexity in the Deep Sea",
+     "steps": [
+      "Watch a sandy-seafloor clip and a kelp-forest clip with no sound and rate each habitat's complexity as low, medium or high",
+      "Watch \"A Protected Oasis\" and list the living and nonliving things that make a seamount complex",
+      "On the worksheet triangle, connect the midpoints again and again, coloring each new level: rock face, boulders and crannies, corals and sponges, then other animals",
+      "Fill in your color key and draw a word diagram of your own seamount community"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/habitat-complexity/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/12/habitat-complexity.pdf"
+      },
+      {
+       "label": "Student worksheet (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/12/habitat-complexity-student-worksheet.pdf"
+      }
+     ],
+     "questions": [
+      "Why are deep-sea corals and sponges called foundation species on a seamount?",
+      "What does the word rugosity describe?",
+      "What is one limit of the triangle model?"
+     ],
+     "answers": [
+      "They build hard, complex structure that many other animals live on and hide in",
+      "How rough, wrinkled or ridged a surface is",
+      "You cannot keep dividing the triangles forever, so it only approximates a real habitat"
+     ],
+     "notes": "One sitting. Colored pencils in gray, red and purple plus a few more colors."
+    },
+    {
+     "title": "Lesson 12: Feeding the Million Mounds of Deep-Sea Coral",
+     "steps": [
+      "Watch the Million Mounds video clip, write down your questions and sort them into no more than three groups",
+      "Think about how animals that cannot move get their food, and draw a first explanation for how these corals eat",
+      "Read NOAA's short facts on plankton and marine snow, then study the ocean-current animation, the chlorophyll model and the current-speed table",
+      "Revise your explanation using the evidence, and predict another place in the ocean where deep-sea corals might thrive"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/deep-sea-corals-feeding-million-mounds/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/12/feeding-million-mounds-investigation.pdf"
+      },
+      {
+       "label": "Student worksheet (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/12/feeding-million-mounds-worksheet.pdf"
+      },
+      {
+       "label": "Lesson slides (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/12/feeding-million-mounds-slides.pdf"
+      }
+     ],
+     "questions": [
+      "Where is the Million Mounds coral region, and about how deep is it?",
+      "Which ocean current flows past the region and moves the most water in the lesson's table?",
+      "Name two kinds of food that drift to the corals."
+     ],
+     "answers": [
+      "Off the coasts of Florida and Georgia, about 600–800 meters deep",
+      "The Gulf Stream (up to about 150 Sverdrups)",
+      "Plankton and marine snow"
+     ],
+     "notes": "Two sittings. The coral in this lesson, once called Lophelia pertusa, is now named Desmophyllum pertusum; healthy colonies are naturally white."
+    },
+    {
+     "title": "Lesson 13: Laying the Foundation for Deep-Sea Coral Gardens",
+     "steps": [
+      "Compare the images from dive sites 6 and 7 of the 2019 Southeastern U.S. expedition and fill in a Notice / Wonder chart",
+      "Watch \"Ancient Coral Garden\" twice, adding to your chart each time",
+      "Study the slide images of animals living among the corals and record how each one benefits: a home, shelter, a surface to grow on, or food",
+      "Watch part of \"Architects of the Deep\", compare deep corals with land foundation species such as redwoods, and write your explanation"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/deep-sea-corals-foundation-for-deep-corals/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/12/foundation-for-deep-corals-investigation.pdf"
+      },
+      {
+       "label": "Student worksheet (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/12/foundation-for-deep-corals-worksheet.pdf"
+      }
+     ],
+     "questions": [
+      "How is a foundation species different from a keystone species?",
+      "Name three things deep-sea corals provide for other animals."
+     ],
+     "answers": [
+      "A foundation species shapes its ecosystem by being abundant and building physical structure; a keystone species has a big effect even when it is not abundant",
+      "Any three of: a home or habitat, shelter, a hard surface to attach to, food"
+     ],
+     "notes": "This is one of NOAA's high-school (grades 9–12) investigations; treat it as a challenge lesson for an older or advanced student. Two sittings."
+    }
+   ]
+  },
+  {
+   "title": "Unit 5: Hydrothermal Vents",
+   "lessons": [
+    {
+     "title": "Lesson 14: How Black Smoker Chimneys Form",
+     "steps": [
+      "Watch the NOAA \"Black Smoker\" video and record what you notice and wonder, then look at a map of where vents are found",
+      "With an adult, make a saturated Epsom salt solution and a saturated washing soda solution (about 1 teaspoon in 140 mL distilled water each)",
+      "Fill a cup with the Epsom salt solution and slowly push the washing soda solution in from below with a syringe; watch closely",
+      "Write the reaction and use it to explain how vent chimneys grow"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/vents-and-volcanoes-black-smoker/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/vent-chimney-formation-investigation.pdf"
+      },
+      {
+       "label": "Student worksheet (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/vent-chimney-formation-student-worksheet.pdf"
+      }
+     ],
+     "questions": [
+      "What was the white solid that formed when the two liquids mixed?",
+      "In the model, what did the washing-soda solution stand for?",
+      "Where on Earth are most hydrothermal vents found?"
+     ],
+     "answers": [
+      "Magnesium carbonate",
+      "Hot, mineral-rich vent fluid (seawater heated by magma)",
+      "Along plate boundaries, such as mid-ocean spreading centers and volcanic areas near subduction zones"
+     ],
+     "notes": "Two sittings. Household chemicals: wear safety glasses and do not taste anything."
+    },
+    {
+     "title": "Lesson 15: Using Chemistry to Find Vents",
+     "steps": [
+      "Describe the deep ocean, watch the first part of \"Oases of Life\", and brainstorm ways scientists could find vents in the dark",
+      "A parent secretly prepares six labeled cups of cold, warm and hot water, some with vinegar, as the guide describes",
+      "Act as a CTD: measure the temperature and pH of every sample and graph your results",
+      "Draw a model of where the vent probably is, watch the \"Hydrothermal Hunt\" clips, and revise your drawing"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/vents-and-volcanoes-chemistry-vents/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/investigation-using-chemistry-to-find-vents.pdf"
+      },
+      {
+       "label": "Student worksheet (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/investigation-using-chemistry-to-find-vents-student-worksheet.pdf"
+      }
+     ],
+     "questions": [
+      "Which two measurements did you use as clues that a vent was close?",
+      "What happens to the pH of seawater near a vent?",
+      "What do the letters CTD stand for?"
+     ],
+     "answers": [
+      "Temperature and pH",
+      "It drops (the water becomes more acidic)",
+      "Conductivity, temperature and depth"
+     ],
+     "notes": "One or two sittings. You need pH strips and a thermometer."
+    },
+    {
+     "title": "Lesson 16: Fueling Life on Earth – Chemosynthesis versus Photosynthesis",
+     "steps": [
+      "Review what you know about photosynthesis and watch part of \"Deep-Sea Dialogues: Hydrothermal Vents\"",
+      "Use colored cubes or building bricks (one color per element) to build the reactants of photosynthesis, then rebuild them into the products",
+      "Do the same for chemosynthesis, checking that every atom is used exactly once",
+      "Fill in the worksheet table comparing the two processes"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/vents-and-volcanoes-fueling-life/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/educator-guide-fueling-life-on-earth.pdf"
+      },
+      {
+       "label": "Student worksheet (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/student-worksheet-fueling-life-on-earth.pdf"
+      }
+     ],
+     "questions": [
+      "Write the balanced equation for photosynthesis.",
+      "Write the chemosynthesis equation used in this lesson.",
+      "What energy source powers each process?"
+     ],
+     "answers": [
+      "6CO2 + 6H2O → C6H12O6 + 6O2",
+      "CO2 + 4H2S + O2 → CH2O + 4S + 3H2O",
+      "Photosynthesis runs on sunlight; chemosynthesis runs on chemical energy from substances such as hydrogen sulfide"
+     ],
+     "notes": "This is one of NOAA's high-school (grades 9–12) investigations; treat it as a challenge lesson for an older or advanced student."
+    },
+    {
+     "title": "Lesson 17: Life on a Hydrothermal Vent",
+     "steps": [
+      "List what you know about ecosystems and where their energy comes from",
+      "Look at the vent photos from the Mariana region and watch the expedition's hydrothermal vent video; note how deep the vents are",
+      "Use the organism cards in the food-web presentation to build a vent food web and draw the connections",
+      "Explain how an ecosystem can survive without sunlight, comparing it with a sunlit ecosystem"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/vents-and-volcanoes-life-hydrothermal-vent/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/life-on-hydrothermal-vent-investigation.pdf"
+      },
+      {
+       "label": "Vent food web presentation (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/vent-food-web.pdf"
+      }
+     ],
+     "questions": [
+      "How deep were the Mariana vents shown in the video?",
+      "What is at the base of a hydrothermal vent food web?",
+      "Does sunlight reach the vents? How do you know?"
+     ],
+     "answers": [
+      "About 3,275 meters",
+      "Chemosynthetic bacteria and other microbes",
+      "No; sunlight does not reach anywhere near that deep"
+     ],
+     "notes": "This is one of NOAA's high-school (grades 9–12) investigations; treat it as a challenge lesson for an older or advanced student. Two sittings."
+    }
+   ]
+  },
+  {
+   "title": "Unit 6: Cold Seeps and Methane Ice",
+   "lessons": [
+    {
+     "title": "Lesson 18: Methane Hydrates in the Deep Sea",
+     "steps": [
+      "Read the background in the guide and answer the first worksheet questions about methane and clathrates",
+      "Tape 12 paper pentagons into a dodecahedron \"bowl\" template",
+      "Build the cage from 20 candy dots (water molecules) joined by toothpicks (hydrogen bonds), then build a methane molecule from one carbon and four hydrogens and trap it inside",
+      "Watch the methane hydrate video and finish the discussion questions"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/cold-seeps-methane-hydrate-model/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/activity-methane-hydrate-model.pdf"
+      },
+      {
+       "label": "Student worksheet (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/activity-methane-hydrate-model-student-worksheet.pdf"
+      }
+     ],
+     "questions": [
+      "How many water molecules make up the cage in this model?",
+      "Is the methane chemically bonded to the water cage?",
+      "What two conditions let methane hydrate form on the seafloor?"
+     ],
+     "answers": [
+      "20",
+      "No; it is trapped inside the cage, not bonded to it",
+      "Cold temperature and high pressure"
+     ],
+     "notes": "One sitting. Candy dots or mini marshmallows in three colors and about 32 toothpicks."
+    },
+    {
+     "title": "Lesson 19: Fire Ice in the Deep Sea",
+     "steps": [
+      "Watch the Astoria Canyon methane hydrate clip with the sound off and record observations and questions",
+      "With an adult using tongs and gloves, drop a few dry ice pellets into a test tube, cover them with diluted coffee and set the cap on loosely",
+      "Observe the icy crust that forms and record what you see",
+      "Use the chemical-structure and phase-diagram slides to compare your model with methane hydrate, then explain how fire ice forms"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/cold-seeps-fire-ice-in-deep-sea/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/student-investigation-fire-ice-in-deep-sea.pdf"
+      },
+      {
+       "label": "Student worksheet (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/fire-ice-in-deep-sea-student-worksheet.pdf"
+      },
+      {
+       "label": "Methane hydrate slides (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/fire-ice-in-deep-sea-slides.pdf"
+      }
+     ],
+     "questions": [
+      "Which gas made the hydrate in your test tube?",
+      "Why can methane hydrate exist on the deep seafloor but not on a beach?"
+     ],
+     "answers": [
+      "Carbon dioxide",
+      "It needs both low temperature and high pressure, which the deep sea has"
+     ],
+     "notes": "Two sittings. Dry ice safety: adults handle it with tongs and gloves, wear goggles, work in a ventilated room, and never seal the tube tightly."
+    },
+    {
+     "title": "Lesson 20: Methane Ice Worms",
+     "steps": [
+      "Watch the first part of the \"Cold Seeps and Methane Hydrates\" video",
+      "Study the ice worm image and write two or three observations and questions",
+      "Review the scientists' hypotheses and do the evidence-and-reasoning card sort",
+      "Write an argument for the hypothesis you think fits the evidence best"
+     ],
+     "links": [
+      {
+       "label": "NOAA lesson page",
+       "url": "https://oceanexplorer.noaa.gov/lesson/cold-seeps-methane-ice-worms/"
+      },
+      {
+       "label": "Educator guide (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/student-investigation-methane-ice-worms.pdf"
+      },
+      {
+       "label": "Student worksheet (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/student-worksheet-methane-ice-worms.pdf"
+      },
+      {
+       "label": "Evidence and reasoning card sort (PDF)",
+       "url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/04/methane-worm-evidence-reasoning-cardsort.pdf"
+      }
+     ],
+     "questions": [
+      "What two energy sources did scientists think the ice worms might use?",
+      "Where were methane ice worms discovered?",
+      "What do scientists currently think is the most likely explanation?"
+     ],
+     "answers": [
+      "Methane and hydrogen sulfide",
+      "On methane hydrate mounds at cold seeps in the Gulf of America (Gulf of Mexico)",
+      "A partnership (mutualism) with sulfide-using bacteria, a kind of \"symbiotic farming\"; the question is not fully settled"
+     ],
+     "notes": "This is one of NOAA's high-school (grades 9–12) investigations; treat it as a challenge lesson for an older or advanced student. Two sittings. Print and cut the card sort ahead of time."
+    }
+   ]
+  }
+ ]
+}

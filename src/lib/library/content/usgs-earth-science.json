@@ -1,0 +1,1283 @@
+{
+ "key": "usgs-earth-science",
+ "title": "Earth Science with the USGS: Rocks, Quakes & Volcanoes",
+ "sourceTitle": "USGS General Interest Publications: The Interior of the Earth; Fossils, Rocks, and Time; Geologic Time; This Dynamic Earth; Earthquakes; The San Andreas Fault; Volcanoes; Volcanoes of the United States; Collecting Rocks; Natural Gemstones; Deserts: Geology and Resources (online editions)",
+ "author": "U.S. Geological Survey",
+ "seller": "U.S. Geological Survey",
+ "year": 1996,
+ "sourceUrl": "https://pubs.usgs.gov/gip/dynamic/dynamic.html",
+ "license": {
+  "kind": "public_domain"
+ },
+ "licenseEvidence": "USGS Copyrights and Credits policy (usgs.gov/information-policies-and-instructions/copyrights-and-credits, checked 2026-11-14; usgs.gov blocked direct fetches that day, so read from the Internet Archive capture of 2026-11-11): \"USGS-authored or produced data and information are considered to be in the U.S. Public Domain.\" It adds that some non-USGS photographs and graphics on USGS sites are used with permission and \"are generally marked as being copyrighted,\" and asks for credit such as \"Credit: U.S. Geological Survey\"; the USGS identifier is trademarked. USGS Publications Warehouse FAQ (pubs.usgs.gov/documentation/faq, checked 2026-11-14, fetched live): \"USGS-authored or produced data and information are in the public domain\" and \"You are welcome to make a link to any of the Web pages USGS has published on the Internet. There is no need to request permission.\" Every booklet used is a USGS General Interest Publication written by USGS staff (e.g. This Dynamic Earth, 1996, by USGS volcanologist Robert I. Tilling with W. Jacquelyne Kious, who wrote it as a USGS Volunteer for Science, published by USGS with no copyright notice; Volcanoes by Robert I. Tilling; Earthquakes by Kaye M. Shedlock and Louis C. Pakiser; The San Andreas Fault by Sandra S. Schulz and Robert E. Wallace; Volcanoes of the United States by Steven R. Brantley; Collecting Rocks by Rachel M. Barker) and served from pubs.usgs.gov; all 1990s editions, with This Dynamic Earth's online pages last modified July 2025. Every linked page was fetched (HTTP 200) and checked for copyright marks. Pages carrying a copyright notice were left out: This Dynamic Earth 'Hawaiian hotspot' side page (base map Copyright 1977 Heezen and Tharp), Volcanoes 'Volcano Environments' (photo © National Geographic Society), and Eruptions of Hawaiian Volcanoes p. 7 (same 1977 base map). Some linked pages show photos credited 'courtesy of' NASA, the Smithsonian, universities or companies; those images are only seen at the USGS link and none are copied. This plan uses only booklet and chapter titles, links, and original steps, questions and answers; no logos or insignia.",
+ "attribution": "Based on general-interest booklets by the U.S. Geological Survey (USGS), including This Dynamic Earth, Earthquakes, The San Andreas Fault, Volcanoes, Volcanoes of the United States, Fossils, Rocks, and Time, Geologic Time, The Interior of the Earth, Collecting Rocks, Natural Gemstones, and Deserts: Geology and Resources, free at pubs.usgs.gov. Credit: U.S. Geological Survey. These USGS-authored works are U.S. Government works in the public domain (17 U.S.C. § 105). The booklets' text is not reproduced; Freerange organized them into daily lessons and wrote original steps, questions, and answers. Photographs and maps credited to non-USGS sources on those pages are not used. The U.S. Geological Survey does not endorse Freerange or this lesson plan.",
+ "subjects": [
+  "science"
+ ],
+ "gradeMin": 5,
+ "gradeMax": 9,
+ "philosophies": [
+  "unit_study",
+  "traditional",
+  "charlotte_mason"
+ ],
+ "lessonsPerWeek": 3,
+ "minutesPerLesson": 40,
+ "parentInvolvement": "medium",
+ "familyStyle": false,
+ "cover": "🌋",
+ "color": "#E07A5F",
+ "description": "A middle-school earth science course built from the U.S. Geological Survey's classic free booklets for the public. Your child travels from the Earth's core through deep time, plate tectonics, earthquakes, volcanoes, rocks and gems, and the world's deserts. Each day is a short USGS reading online plus a hands-on model, a map task, or a notebook sketch, with a few questions to talk over. Every booklet is a U.S. Government work in the public domain and free to read at pubs.usgs.gov.",
+ "includes": [
+  "44 lessons in 6 units",
+  "Link to the exact USGS booklet chapter for every lesson",
+  "Kitchen-table models: convection, seafloor spreading, faults, calderas, dunes",
+  "Map and time-line work throughout",
+  "Questions with answers for every lesson"
+ ],
+ "units": [
+  {
+   "title": "Unit 1: Inside the Earth and Deep Time",
+   "lessons": [
+    {
+     "title": "Lesson 1: The Earth's Crust",
+     "steps": [
+      "Read the Introduction and The Crust in The Interior of the Earth",
+      "Draw the Earth as three shells (crust, mantle, core) and label how much of Earth's volume each takes up",
+      "Compare: how thick is oceanic crust under Hawaii versus continental crust under the Sierra Nevada?"
+     ],
+     "links": [
+      {
+       "label": "Read The Interior of the Earth",
+       "url": "https://pubs.usgs.gov/gip/interior/index.html"
+      }
+     ],
+     "questions": [
+      "What percent of Earth's volume is the crust? The mantle? The core?",
+      "What did Isaac Newton figure out about the inside of the Earth?"
+     ],
+     "answers": [
+      "About 1 percent; about 84 percent; about 15 percent",
+      "Earth's average density is about twice that of surface rocks, so the inside must be made of denser material"
+     ]
+    },
+    {
+     "title": "Lesson 2: The Mantle, the Core, and the Moon",
+     "steps": [
+      "Read The Mantle, The Core, and The Structure of the Moon",
+      "Trace the earthquake-wave paths in Figure 2 with a finger and find where S waves stop",
+      "Add the low-velocity zone, outer core, and inner core to yesterday's drawing"
+     ],
+     "links": [
+      {
+       "label": "Read The Interior of the Earth",
+       "url": "https://pubs.usgs.gov/gip/interior/index.html"
+      }
+     ],
+     "questions": [
+      "How do scientists know the outer core is liquid?",
+      "Who discovered the core, and in what year?"
+     ],
+     "answers": [
+      "Shear (S) waves do not pass through it and P waves slow down sharply",
+      "R. D. Oldham, in 1906"
+     ]
+    },
+    {
+     "title": "Lesson 3: Putting Events in Order",
+     "steps": [
+      "Read Introduction and Putting Events in Order in Fossils, Rocks, and Time",
+      "Put the six historical events from the booklet in order without using any dates, then check",
+      "Stack five books or towels and explain which was put down first and why"
+     ],
+     "links": [
+      {
+       "label": "Read Introduction",
+       "url": "https://pubs.usgs.gov/gip/fossils/intro.html"
+      },
+      {
+       "label": "Read Putting Events in Order",
+       "url": "https://pubs.usgs.gov/gip/fossils/order.html"
+      }
+     ],
+     "questions": [
+      "In a pile of rock layers that has not been disturbed, which layer is oldest?",
+      "Why can we order events even without knowing their dates?"
+     ],
+     "answers": [
+      "The bottom layer",
+      "Because words like before and after, or layers lying on top of one another, show what came first"
+     ]
+    },
+    {
+     "title": "Lesson 4: Rocks and Layers",
+     "steps": [
+      "Read Rocks and Layers",
+      "Make a table: gravel, sand, mud and what rock each one becomes",
+      "Shake soil, sand and pebbles in a jar of water, let it settle overnight, and sketch the layers"
+     ],
+     "links": [
+      {
+       "label": "Read Rocks and Layers",
+       "url": "https://pubs.usgs.gov/gip/fossils/rocks-layers.html"
+      }
+     ],
+     "questions": [
+      "What rock does sand become? What does mud become?",
+      "Why are most rocks at Earth's surface sedimentary rocks good 'pages' for reading Earth's history?"
+     ],
+     "answers": [
+      "Sandstone; mudstone or shale",
+      "They are laid down layer by layer and can bury and preserve living things, recording past events in order"
+     ]
+    },
+    {
+     "title": "Lesson 5: Fossils and Fossil Succession",
+     "steps": [
+      "Read Fossils and Rocks and Fossil Succession",
+      "Write the three key ideas about fossils in your own words",
+      "Draw a column of rock layers and mark where you would stop finding flowering plants, birds and mammals as you go deeper"
+     ],
+     "links": [
+      {
+       "label": "Read Fossils and Rocks",
+       "url": "https://pubs.usgs.gov/gip/fossils/fossils-rocks.html"
+      },
+      {
+       "label": "Read Fossil Succession",
+       "url": "https://pubs.usgs.gov/gip/fossils/succession.html"
+      },
+      {
+       "label": "Geologic Time: Index Fossils",
+       "url": "https://pubs.usgs.gov/gip/geotime/fossils.html"
+      }
+     ],
+     "questions": [
+      "Are most fossils from species that are still alive today?",
+      "Why do rocks of different ages hold different kinds of fossils?",
+      "About when did the last dinosaurs die out?"
+     ],
+     "answers": [
+      "No, most are from extinct species",
+      "Because life on Earth has changed through time",
+      "About 65 million years ago"
+     ]
+    },
+    {
+     "title": "Lesson 6: The Relative Time Scale",
+     "steps": [
+      "Read The Relative Time Scale, and the Relative Time Scale page in Geologic Time",
+      "Look up what paleo-, meso-, ceno- and -zoic mean and name the three eras",
+      "Make a paper-strip time line of eons, eras and periods (oldest at the bottom)"
+     ],
+     "links": [
+      {
+       "label": "Read The Relative Time Scale",
+       "url": "https://pubs.usgs.gov/gip/fossils/scale.html"
+      },
+      {
+       "label": "Geologic Time: Relative Time Scale",
+       "url": "https://pubs.usgs.gov/gip/geotime/relative.html"
+      },
+      {
+       "label": "Geologic Time: Major Divisions",
+       "url": "https://pubs.usgs.gov/gip/geotime/divisions.html"
+      }
+     ],
+     "questions": [
+      "List the time divisions from largest to smallest.",
+      "What does 'Paleozoic' mean?"
+     ],
+     "answers": [
+      "Eons, eras, periods, epochs",
+      "Ancient animal life"
+     ]
+    },
+    {
+     "title": "Lesson 7: Numbers on the Time Scale: How Old Is the Earth?",
+     "steps": [
+      "Read The Numeric Time Scale, then Radiometric Time Scale and Age of the Earth in Geologic Time",
+      "Explain radioactive decay with a 'half-life' game: start with 32 coins, shake, and remove the tails each round",
+      "Add numbers in millions of years to your paper time line"
+     ],
+     "links": [
+      {
+       "label": "Read The Numeric Time Scale",
+       "url": "https://pubs.usgs.gov/gip/fossils/numeric.html"
+      },
+      {
+       "label": "Geologic Time: Radiometric Time Scale",
+       "url": "https://pubs.usgs.gov/gip/geotime/radiometric.html"
+      },
+      {
+       "label": "Geologic Time: Age of the Earth",
+       "url": "https://pubs.usgs.gov/gip/geotime/age.html"
+      }
+     ],
+     "questions": [
+      "About how old is the Earth?",
+      "Why can't scientists date the Earth directly from its oldest rocks?",
+      "Besides Earth rocks, what else do scientists date to find Earth's age?"
+     ],
+     "answers": [
+      "About 4.5 to 4.6 billion years",
+      "Earth's first rocks have been recycled and destroyed by plate tectonics",
+      "Moon rocks and meteorites"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 2: This Dynamic Earth (Plate Tectonics)",
+   "lessons": [
+    {
+     "title": "Lesson 8: What Is Plate Tectonics?",
+     "steps": [
+      "Read the Preface and the first part of Historical perspective (through Hutton's principle)",
+      "Read the side pages Inside the Earth and What is a tectonic plate?",
+      "Explain 'the present is the key to the past' with an everyday example"
+     ],
+     "links": [
+      {
+       "label": "Read the Preface",
+       "url": "https://pubs.usgs.gov/gip/dynamic/preface.html"
+      },
+      {
+       "label": "Read Historical perspective",
+       "url": "https://pubs.usgs.gov/gip/dynamic/historical.html"
+      },
+      {
+       "label": "Inside the Earth",
+       "url": "https://pubs.usgs.gov/gip/dynamic/inside.html"
+      },
+      {
+       "label": "What is a tectonic plate?",
+       "url": "https://pubs.usgs.gov/gip/dynamic/tectonic.html"
+      }
+     ],
+     "questions": [
+      "What does the Greek root of 'tectonics' mean?",
+      "What does the name Pangaea mean?",
+      "Which idea replaced 'catastrophism' in the 1800s?"
+     ],
+     "answers": [
+      "To build",
+      "All lands",
+      "Uniformitarianism"
+     ]
+    },
+    {
+     "title": "Lesson 9: Wegener and Continental Drift",
+     "steps": [
+      "Finish Historical perspective and read the Alfred Lothar Wegener side page",
+      "Cut out South America and Africa from a printed world map and fit them together",
+      "List Wegener's evidence and the one big question he could not answer"
+     ],
+     "links": [
+      {
+       "label": "Read Historical perspective",
+       "url": "https://pubs.usgs.gov/gip/dynamic/historical.html"
+      },
+      {
+       "label": "Alfred Lothar Wegener",
+       "url": "https://pubs.usgs.gov/gip/dynamic/wegener.html"
+      },
+      {
+       "label": "Rejoined continents",
+       "url": "https://pubs.usgs.gov/gip/dynamic/continents.html"
+      }
+     ],
+     "questions": [
+      "What did fossils of tropical plants in Antarctica suggest to Wegener?",
+      "What was the fatal weakness in Wegener's theory?"
+     ],
+     "answers": [
+      "Antarctica was once closer to the equator, in a warmer climate",
+      "He could not explain what force could move the continents"
+     ]
+    },
+    {
+     "title": "Lesson 10: Mapping the Ocean Floor",
+     "steps": [
+      "Read Developing the theory through 'Ocean floor mapping' and the mid-ocean ridge",
+      "Read the side page Exploring the deep ocean floor",
+      "Echo-sounding model: time a ball dropped into a tall box and explain how a 'ping' measures depth"
+     ],
+     "links": [
+      {
+       "label": "Read Developing the theory",
+       "url": "https://pubs.usgs.gov/gip/dynamic/developing.html"
+      },
+      {
+       "label": "Exploring the deep ocean floor",
+       "url": "https://pubs.usgs.gov/gip/dynamic/exploring.html"
+      },
+      {
+       "label": "Mid-ocean ridge, like a baseball seam",
+       "url": "https://pubs.usgs.gov/gip/dynamic/baseball.html"
+      }
+     ],
+     "questions": [
+      "What did the 1947 Atlantis survey find surprising about ocean-floor sediment?",
+      "How long is the global mid-ocean ridge?"
+     ],
+     "answers": [
+      "It was much thinner than expected",
+      "More than 50,000 kilometers"
+     ]
+    },
+    {
+     "title": "Lesson 11: Magnetic Stripes and Seafloor Spreading",
+     "steps": [
+      "Read the magnetic striping and seafloor spreading sections of Developing the theory",
+      "Read the side pages Magnetic stripes and isotopic clocks and Harry Hammond Hess",
+      "Model it: pull two sheets of paper out of a slot between two desks, coloring a new stripe each time the 'field flips'"
+     ],
+     "links": [
+      {
+       "label": "Read Developing the theory",
+       "url": "https://pubs.usgs.gov/gip/dynamic/developing.html"
+      },
+      {
+       "label": "Magnetic stripes and isotopic clocks",
+       "url": "https://pubs.usgs.gov/gip/dynamic/stripes.html"
+      },
+      {
+       "label": "Harry Hammond Hess",
+       "url": "https://pubs.usgs.gov/gip/dynamic/HHH.html"
+      },
+      {
+       "label": "Glomar Challenger",
+       "url": "https://pubs.usgs.gov/gip/dynamic/glomar.html"
+      }
+     ],
+     "questions": [
+      "What magnetic mineral in basalt records the Earth's field?",
+      "Where on the ocean floor are the youngest rocks?",
+      "Which ship's drill cores in 1968 gave the clinching evidence for seafloor spreading?"
+     ],
+     "answers": [
+      "Magnetite",
+      "At the crest of the mid-ocean ridge",
+      "The Glomar Challenger"
+     ]
+    },
+    {
+     "title": "Lesson 12: Divergent Boundaries",
+     "steps": [
+      "Read the start of Understanding plate motions and the Divergent boundaries section",
+      "Find Iceland, the Red Sea, and the East African Rift on a map",
+      "Calculate: at 2.5 cm a year, how far does the Atlantic widen in your lifetime so far?"
+     ],
+     "links": [
+      {
+       "label": "Read Understanding plate motions",
+       "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html"
+      },
+      {
+       "label": "Thingvellir fissure zone",
+       "url": "https://pubs.usgs.gov/gip/dynamic/Thingvellir.html"
+      },
+      {
+       "label": "East Africa volcanoes",
+       "url": "https://pubs.usgs.gov/gip/dynamic/East_Africa.html"
+      }
+     ],
+     "questions": [
+      "Name the four kinds of plate boundaries.",
+      "Which country sits right on top of the Mid-Atlantic Ridge?",
+      "What might happen to the Horn of Africa if spreading continues?"
+     ],
+     "answers": [
+      "Divergent, convergent, transform, and plate-boundary zones",
+      "Iceland",
+      "It could become a large island"
+     ]
+    },
+    {
+     "title": "Lesson 13: Convergent Boundaries",
+     "steps": [
+      "Read the Convergent boundaries sections (oceanic-continental, oceanic-oceanic, continental-continental)",
+      "Read the side pages Ring of Fire and The Himalayas",
+      "Push two towels together on a table to model a mountain range, then slide a stiff folder under a towel to model subduction"
+     ],
+     "links": [
+      {
+       "label": "Read Understanding plate motions",
+       "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html"
+      },
+      {
+       "label": "Convergence of plates",
+       "url": "https://pubs.usgs.gov/gip/dynamic/Nazca.html"
+      },
+      {
+       "label": "Ring of Fire",
+       "url": "https://pubs.usgs.gov/gip/dynamic/fire.html"
+      },
+      {
+       "label": "The Himalayas",
+       "url": "https://pubs.usgs.gov/gip/dynamic/himalaya.html"
+      }
+     ],
+     "questions": [
+      "What is a subduction zone?",
+      "Which mountains are rising where the Nazca Plate dives under South America?",
+      "Why must crust be destroyed somewhere if new crust is always forming?"
+     ],
+     "answers": [
+      "A place where one plate sinks under another",
+      "The Andes",
+      "Because the Earth is not getting bigger"
+     ]
+    },
+    {
+     "title": "Lesson 14: Transform Boundaries and How Fast Plates Move",
+     "steps": [
+      "Read Transform boundaries, Plate-boundary zones, and Rates of motion",
+      "Read the side pages San Andreas fault and GPS satellite & receiver",
+      "Make a bar graph of the slowest and fastest spreading rates given in the text"
+     ],
+     "links": [
+      {
+       "label": "Read Understanding plate motions",
+       "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html"
+      },
+      {
+       "label": "San Andreas fault",
+       "url": "https://pubs.usgs.gov/gip/dynamic/San_Andreas.html"
+      },
+      {
+       "label": "GPS satellite & receiver",
+       "url": "https://pubs.usgs.gov/gip/dynamic/GPS.html"
+      }
+     ],
+     "questions": [
+      "Who first described transform faults?",
+      "Which ridge spreads slowest, and which spreads fastest?"
+     ],
+     "answers": [
+      "J. Tuzo Wilson",
+      "The Arctic Ridge is slowest; the East Pacific Rise near Easter Island is fastest"
+     ]
+    },
+    {
+     "title": "Lesson 15: Hotspots",
+     "steps": [
+      "Read \"Hotspots\": Mantle thermal plumes and the J. Tuzo Wilson side page",
+      "Hotspot model: slide a sheet of paper slowly over a fixed marker dot, tapping it down every few seconds",
+      "Find Yellowstone, Iceland and the Galapagos on the hotspot map"
+     ],
+     "links": [
+      {
+       "label": "Read Hotspots",
+       "url": "https://pubs.usgs.gov/gip/dynamic/hotspots.html"
+      },
+      {
+       "label": "J. Tuzo Wilson",
+       "url": "https://pubs.usgs.gov/gip/dynamic/Wilson.html"
+      },
+      {
+       "label": "Prominent hotspots on a world map",
+       "url": "https://pubs.usgs.gov/gip/dynamic/world_map.html"
+      }
+     ],
+     "questions": [
+      "Why are the Hawaiian Islands older toward the northwest?",
+      "How does the legend of Pele match the geology?"
+     ],
+     "answers": [
+      "The Pacific Plate moves northwest over the hotspot, carrying older volcanoes away",
+      "Pele moved from Kauai southeast to Hawaii, the same direction the islands get younger"
+     ],
+     "notes": "The booklet's 1996 authors' note says newer studies question whether hotspots are deep and fixed; talk about how science keeps testing ideas."
+    },
+    {
+     "title": "Lesson 16: Some Unanswered Questions",
+     "steps": [
+      "Read Some unanswered questions",
+      "Watch convection: heat water with a few drops of food coloring or rice grains and sketch the flow",
+      "Write a short paragraph: 'ridge push' or 'slab pull' — which do most scientists now favor, and why?"
+     ],
+     "links": [
+      {
+       "label": "Read Some unanswered questions",
+       "url": "https://pubs.usgs.gov/gip/dynamic/unanswered.html"
+      },
+      {
+       "label": "Moving slabs",
+       "url": "https://pubs.usgs.gov/gip/dynamic/slabs.html"
+      }
+     ],
+     "questions": [
+      "What are the two main sources of heat inside the Earth?",
+      "Why have the Moon and Mars stopped being volcanically active?"
+     ],
+     "answers": [
+      "Radioactive decay and residual heat from Earth's formation",
+      "They are small, so they lost their internal heat faster"
+     ]
+    },
+    {
+     "title": "Lesson 17: Plate Tectonics and People",
+     "steps": [
+      "Read Plate tectonics and people",
+      "Bend a thin stick until it snaps to model a locked fault releasing energy",
+      "Make a two-column chart of plate-tectonic hazards and natural resources"
+     ],
+     "links": [
+      {
+       "label": "Read Plate tectonics and people",
+       "url": "https://pubs.usgs.gov/gip/dynamic/tectonics.html"
+      },
+      {
+       "label": "Tsunamis and the Ring of Fire",
+       "url": "https://pubs.usgs.gov/gip/dynamic/tsunamis.html"
+      },
+      {
+       "label": "Geothermal powerplant, The Geysers",
+       "url": "https://pubs.usgs.gov/gip/dynamic/geothermal.html"
+      }
+     ],
+     "questions": [
+      "Will California fall into the ocean in a big earthquake? Why or why not?",
+      "What is the difference between an earthquake's focus and its epicenter?"
+     ],
+     "answers": [
+      "No. The fault is only about 15 km deep and California's light continental crust rides high",
+      "The focus is the rupture point underground; the epicenter is the spot on the surface directly above it"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 3: Earthquakes",
+   "lessons": [
+    {
+     "title": "Lesson 18: Earthquakes in History",
+     "steps": [
+      "Read Introduction and Earthquakes in History in the booklet Earthquakes",
+      "Make a time line from the Chinese earthquake of 1177 B.C. to the 1906 San Francisco earthquake",
+      "Find New Madrid, Missouri, on a map and mark Boston and Denver, where its shaking was felt"
+     ],
+     "links": [
+      {
+       "label": "Read Introduction",
+       "url": "https://pubs.usgs.gov/gip/earthq1/intro.html"
+      },
+      {
+       "label": "Read Earthquakes in History",
+       "url": "https://pubs.usgs.gov/gip/earthq1/history.html"
+      }
+     ],
+     "questions": [
+      "What is an earthquake, in one sentence?",
+      "Why did the huge 1811-1812 New Madrid earthquakes cause little loss of life?"
+     ],
+     "answers": [
+      "A sudden movement of the Earth caused by the release of strain that built up over a long time",
+      "The area was sparsely populated then"
+     ]
+    },
+    {
+     "title": "Lesson 19: Where Earthquakes Occur",
+     "steps": [
+      "Read Where Earthquakes Occur",
+      "On a world map, color the three kinds of plate boundaries the booklet names",
+      "Compare this list with the four boundary types from This Dynamic Earth"
+     ],
+     "links": [
+      {
+       "label": "Read Where Earthquakes Occur",
+       "url": "https://pubs.usgs.gov/gip/earthq1/where.html"
+      },
+      {
+       "label": "Earthquake zones (This Dynamic Earth)",
+       "url": "https://pubs.usgs.gov/gip/dynamic/zones.html"
+      }
+     ],
+     "questions": [
+      "Where do most earthquakes happen?",
+      "Name the three kinds of plate boundaries described in this chapter."
+     ],
+     "answers": [
+      "At the boundaries where plates meet",
+      "Spreading zones, transform faults, and subduction zones"
+     ]
+    },
+    {
+     "title": "Lesson 20: How Earthquakes Happen",
+     "steps": [
+      "Read How Earthquakes Happen",
+      "Act out normal, reverse (thrust) and strike-slip faults with two blocks of wood or books",
+      "Draw a fault and label the focus and epicenter"
+     ],
+     "links": [
+      {
+       "label": "Read How Earthquakes Happen",
+       "url": "https://pubs.usgs.gov/gip/earthq1/how.html"
+      }
+     ],
+     "questions": [
+      "Besides moving crust, what else can cause an earthquake?",
+      "What happens to rock just before it 'snaps' to a new position?"
+     ],
+     "answers": [
+      "A volcanic eruption or a man-made explosion",
+      "It bends under stress until the stress exceeds the rock's strength"
+     ]
+    },
+    {
+     "title": "Lesson 21: Seismic Waves",
+     "steps": [
+      "Read the first half of Measuring Earthquakes (seismographs and seismic waves)",
+      "Model P waves with a stretched Slinky pushed end-on, and S waves by shaking it side to side",
+      "Retell the order of waves felt at Valdez, Alaska, in 1964"
+     ],
+     "links": [
+      {
+       "label": "Read Measuring Earthquakes",
+       "url": "https://pubs.usgs.gov/gip/earthq1/measure.html"
+      }
+     ],
+     "questions": [
+      "Which waves arrive first, and why are they called 'P' waves?",
+      "Which kind of body wave cannot pass through the Earth's molten core?",
+      "Which waves usually do the most damage?"
+     ],
+     "answers": [
+      "Compressional waves; they are primary, the fastest to arrive",
+      "Shear (S) waves",
+      "Surface waves"
+     ]
+    },
+    {
+     "title": "Lesson 22: Magnitude and Intensity",
+     "steps": [
+      "Finish Measuring Earthquakes, then read Magnitude and Intensity in The San Andreas Fault",
+      "Work out: how many times more energy does a magnitude 8 release than a magnitude 6?",
+      "Write one sentence telling magnitude and intensity apart"
+     ],
+     "links": [
+      {
+       "label": "Read Measuring Earthquakes",
+       "url": "https://pubs.usgs.gov/gip/earthq1/measure.html"
+      },
+      {
+       "label": "Read Magnitude and Intensity",
+       "url": "https://pubs.usgs.gov/gip/earthq3/magnitude.html"
+      }
+     ],
+     "questions": [
+      "Ground motion of a magnitude 7 is how many times that of a magnitude 6?",
+      "Which scale describes how strongly shaking was felt at a place?",
+      "What is the smallest magnitude people normally feel?"
+     ],
+     "answers": [
+      "10 times",
+      "The Modified Mercalli Intensity Scale",
+      "About magnitude 2"
+     ]
+    },
+    {
+     "title": "Lesson 23: Volcanoes, Prediction, and Probability",
+     "steps": [
+      "Read Volcanoes and Earthquakes and Predicting Earthquakes",
+      "Work the booklet's example: four big quakes in 200 years means what chance in the next 50 years?",
+      "Discuss why 'random' timing might not be true on a real fault"
+     ],
+     "links": [
+      {
+       "label": "Read Volcanoes and Earthquakes",
+       "url": "https://pubs.usgs.gov/gip/earthq1/volcano.html"
+      },
+      {
+       "label": "Read Predicting Earthquakes",
+       "url": "https://pubs.usgs.gov/gip/earthq1/predict.html"
+      }
+     ],
+     "questions": [
+      "What do swarms of small earthquakes under a volcano tell scientists?",
+      "What two kinds of evidence do scientists use to estimate earthquake chances?"
+     ],
+     "answers": [
+      "That magma is moving inside the volcano",
+      "The history of large earthquakes in the area and the rate strain builds up in the rock"
+     ],
+     "notes": "This booklet was last reprinted in 1995; the USGS Earthquake Hazards Program site has current science."
+    },
+    {
+     "title": "Lesson 24: The San Andreas Fault: What and Where",
+     "steps": [
+      "Read sections I to III of The San Andreas Fault",
+      "Trace the fault on a map of California from the Gulf of California to Cape Mendocino",
+      "Label the Pacific Plate and North American Plate with arrows showing how they move"
+     ],
+     "links": [
+      {
+       "label": "Read I. Introduction",
+       "url": "https://pubs.usgs.gov/gip/earthq3/intro.html"
+      },
+      {
+       "label": "Read II. What Is It?",
+       "url": "https://pubs.usgs.gov/gip/earthq3/what.html"
+      },
+      {
+       "label": "Read III. Where Is It?",
+       "url": "https://pubs.usgs.gov/gip/earthq3/where.html"
+      }
+     ],
+     "questions": [
+      "Which two plates meet along the San Andreas fault?",
+      "How long is the whole San Andreas fault system?"
+     ],
+     "answers": [
+      "The Pacific Plate and the North American Plate",
+      "More than 800 miles"
+     ]
+    },
+    {
+     "title": "Lesson 25: Reading the Landscape Along a Fault",
+     "steps": [
+      "Read sections V and VI (surface features and movement)",
+      "Draw a stream crossing the fault before and after it is offset to the right",
+      "Find Crystal Springs Reservoir or Tomales Bay on an online map and look for the straight fault valley"
+     ],
+     "links": [
+      {
+       "label": "Read V. Surface Features",
+       "url": "https://pubs.usgs.gov/gip/earthq3/surface.html"
+      },
+      {
+       "label": "Read VI. Movement",
+       "url": "https://pubs.usgs.gov/gip/earthq3/move.html"
+      }
+     ],
+     "questions": [
+      "What is 'right-lateral strike-slip' movement?",
+      "What was the largest offset measured in the 1906 earthquake, and where?"
+     ],
+     "answers": [
+      "Blocks slide sideways so the far side appears to move to the right",
+      "Almost 21 feet, on the road across the head of Tomales Bay"
+     ]
+    },
+    {
+     "title": "Lesson 26: Living with Earthquakes",
+     "steps": [
+      "Read sections VII to XI (what is an earthquake through what can be done)",
+      "List the three lines of defense against earthquake hazards",
+      "Make a family earthquake plan: a safe spot in each room and a meeting place outside"
+     ],
+     "links": [
+      {
+       "label": "Read VII. What Is an Earthquake?",
+       "url": "https://pubs.usgs.gov/gip/earthq3/whatearth.html"
+      },
+      {
+       "label": "Read IX. Earthquakes Along the Fault",
+       "url": "https://pubs.usgs.gov/gip/earthq3/along.html"
+      },
+      {
+       "label": "Read X. When Could the Next Large Earthquake Occur",
+       "url": "https://pubs.usgs.gov/gip/earthq3/when.html"
+      },
+      {
+       "label": "Read XI. What Can Be Done",
+       "url": "https://pubs.usgs.gov/gip/earthq3/done.html"
+      }
+     ],
+     "questions": [
+      "What is a 'seismic gap'?",
+      "About how often have large earthquakes struck the southern San Andreas fault?"
+     ],
+     "answers": [
+      "A fault segment with no large earthquake for a long time",
+      "About every 150 years"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 4: Volcanoes",
+   "lessons": [
+    {
+     "title": "Lesson 27: Volcanoes Destroy and Create",
+     "steps": [
+      "Read the Introduction and The Nature of Volcanoes in the booklet Volcanoes",
+      "Make a list of three things volcanoes destroy and three things they create",
+      "Draw a volcano and label vent, magma reservoir, lava, and tephra"
+     ],
+     "links": [
+      {
+       "label": "Read Introduction",
+       "url": "https://pubs.usgs.gov/gip/volc/intro.html"
+      },
+      {
+       "label": "Read The Nature of Volcanoes",
+       "url": "https://pubs.usgs.gov/gip/volc/nature.html"
+      }
+     ],
+     "questions": [
+      "About how much of Earth's surface is of volcanic origin?",
+      "How are volcanoes different from other mountains?"
+     ],
+     "answers": [
+      "More than 80 percent",
+      "They are built up from their own erupted material, not by folding or uplift"
+     ]
+    },
+    {
+     "title": "Lesson 28: Four Kinds of Volcanoes",
+     "steps": [
+      "Read Principal Types of Volcanoes",
+      "Build cinder-cone, shield and composite models out of play dough or damp sand and compare slopes",
+      "Make a chart: type, shape, what it is built of, one example"
+     ],
+     "links": [
+      {
+       "label": "Read Principal Types of Volcanoes",
+       "url": "https://pubs.usgs.gov/gip/volc/types.html"
+      }
+     ],
+     "questions": [
+      "What are the four main kinds of volcanoes?",
+      "What grew in a Mexican cornfield starting in 1943?",
+      "What is another name for a composite volcano?"
+     ],
+     "answers": [
+      "Cinder cones, composite volcanoes, shield volcanoes, and lava domes",
+      "Parícutin, a cinder cone",
+      "Stratovolcano"
+     ]
+    },
+    {
+     "title": "Lesson 29: Plugs, Maars, and Undersea Volcanoes",
+     "steps": [
+      "Read Other Volcanic Structures and Submarine Volcanoes",
+      "Look up a photo of Ship Rock, New Mexico, as an example of a volcanic neck",
+      "Explain in your own words why deep-sea eruptions may not disturb the ocean surface"
+     ],
+     "links": [
+      {
+       "label": "Read Other Volcanic Structures",
+       "url": "https://pubs.usgs.gov/gip/volc/structures.html"
+      },
+      {
+       "label": "Read Submarine Volcanoes",
+       "url": "https://pubs.usgs.gov/gip/volc/submarine.html"
+      }
+     ],
+     "questions": [
+      "What is a volcanic plug or neck?",
+      "How are black-sand beaches made?"
+     ],
+     "answers": [
+      "Hardened magma left in a volcano's feeding pipe after the cone erodes",
+      "Lava meeting the sea cools so fast it shatters into sand and rubble"
+     ]
+    },
+    {
+     "title": "Lesson 30: Types of Eruptions",
+     "steps": [
+      "Read Types of Volcanic Eruptions",
+      "Make a scale from gentle to violent and place Hawaiian, Strombolian, Vulcanian, Vesuvian and Peléan eruptions on it",
+      "Shake a soda bottle and open it over a sink to talk about gas pressure (carefully!)"
+     ],
+     "links": [
+      {
+       "label": "Read Types of Volcanic Eruptions",
+       "url": "https://pubs.usgs.gov/gip/volc/eruptions.html"
+      }
+     ],
+     "questions": [
+      "What is a nuée ardente?",
+      "Which kind of eruption destroyed St. Pierre on Martinique in 1902?"
+     ],
+     "answers": [
+      "A glowing avalanche of hot gas, ash and lava fragments rushing downslope",
+      "A Peléan eruption of Mont Pelée"
+     ]
+    },
+    {
+     "title": "Lesson 31: Geysers, Fumaroles, and Hot Springs",
+     "steps": [
+      "Read Geysers, Fumaroles, and Hot Springs",
+      "Draw the underground path water takes to become a geyser",
+      "Look up the current eruption interval of Old Faithful"
+     ],
+     "links": [
+      {
+       "label": "Read Geysers, Fumaroles, and Hot Springs",
+       "url": "https://pubs.usgs.gov/gip/volc/geysers.html"
+      }
+     ],
+     "questions": [
+      "Why are these features sometimes called 'dying volcanoes'?",
+      "What makes a geyser suddenly erupt?"
+     ],
+     "answers": [
+      "They seem to be the last stage of activity as magma below cools",
+      "Some of the heated water suddenly flashes into steam and blasts the water out"
+     ]
+    },
+    {
+     "title": "Lesson 32: Volcanoes, Plates, and Other Worlds",
+     "steps": [
+      "Read Plate-Tectonics Theory and Extraterrestrial Volcanism",
+      "Mark plate-boundary volcanoes and intra-plate volcanoes on a world map in two colors",
+      "Compare a picture of Olympus Mons on Mars with Mauna Loa"
+     ],
+     "links": [
+      {
+       "label": "Read Plate-Tectonics Theory",
+       "url": "https://pubs.usgs.gov/gip/volc/tectonics.html"
+      },
+      {
+       "label": "Read Extraterrestrial Volcanism",
+       "url": "https://pubs.usgs.gov/gip/volc/extraterrestrial.html"
+      }
+     ],
+     "questions": [
+      "What is an 'intra-plate' volcano? Give an example.",
+      "What kind of volcano do Martian and Hawaiian volcanoes both resemble?"
+     ],
+     "answers": [
+      "A volcano far from a plate boundary, such as the Hawaiian Islands",
+      "Shield volcanoes"
+     ]
+    },
+    {
+     "title": "Lesson 33: Watching Volcanoes",
+     "steps": [
+      "Read Volcano Monitoring and Research and Volcanoes and People",
+      "List the tools scientists use to watch a restless volcano",
+      "Debate: why do people live on the slopes of volcanoes?"
+     ],
+     "links": [
+      {
+       "label": "Read Volcano Monitoring and Research",
+       "url": "https://pubs.usgs.gov/gip/volc/monitoring.html"
+      },
+      {
+       "label": "Read Volcanoes and People",
+       "url": "https://pubs.usgs.gov/gip/volc/people.html"
+      }
+     ],
+     "questions": [
+      "Whose letters about Vesuvius in A.D. 79 are often called the start of volcanology?",
+      "Name two ways volcanoes help people."
+     ],
+     "answers": [
+      "Pliny the Younger",
+      "Any two: fertile soils, building materials, abrasives and industrial materials, geothermal energy"
+     ]
+    },
+    {
+     "title": "Lesson 34: Volcanoes of the United States: Hawaii and the Cascades",
+     "steps": [
+      "Read the Introduction, Volcanoes and the Theory of Plate Tectonics, and the Hawaiian and Cascade sections of Volcanoes of the United States",
+      "Find Kilauea, Mauna Loa, Mount St. Helens, Mount Rainier and Mount Shasta on a U.S. map",
+      "Compare the eruptions of Kilauea and Mount St. Helens in a Venn diagram"
+     ],
+     "links": [
+      {
+       "label": "Read the Introduction",
+       "url": "https://pubs.usgs.gov/gip/volcus/page02.html"
+      },
+      {
+       "label": "Read Volcanoes and the Theory of Plate Tectonics",
+       "url": "https://pubs.usgs.gov/gip/volcus/page06.html"
+      },
+      {
+       "label": "Read Hawaiian volcanoes",
+       "url": "https://pubs.usgs.gov/gip/volcus/page10.html"
+      },
+      {
+       "label": "Read Cascade volcanoes",
+       "url": "https://pubs.usgs.gov/gip/volcus/page16.html"
+      }
+     ],
+     "questions": [
+      "Why are Cascade volcanoes more dangerous than Kilauea?",
+      "In what year did Mount St. Helens erupt so destructively?"
+     ],
+     "answers": [
+      "They erupt violently and explosively and sit near populated, farmed areas",
+      "1980"
+     ]
+    },
+    {
+     "title": "Lesson 35: Alaska, Calderas, and Ancient Volcanoes",
+     "steps": [
+      "Read the Alaskan volcanoes, Restless calderas, and Active Volcanoes: Windows into the Past sections",
+      "Model a caldera: bury a balloon under flour, let some air out, and watch the surface sink",
+      "Look for volcanic rock (basalt, pumice, obsidian) in your own area or a rock shop"
+     ],
+     "links": [
+      {
+       "label": "Read Alaskan volcanoes",
+       "url": "https://pubs.usgs.gov/gip/volcus/page24.html"
+      },
+      {
+       "label": "Read Restless calderas",
+       "url": "https://pubs.usgs.gov/gip/volcus/page34.html"
+      },
+      {
+       "label": "Read Active Volcanoes: Windows into the Past",
+       "url": "https://pubs.usgs.gov/gip/volcus/page40.html"
+      }
+     ],
+     "questions": [
+      "What is a caldera and how does it form?",
+      "Which 1912 Alaskan eruption is the most recent caldera-forming eruption there?"
+     ],
+     "answers": [
+      "A huge depression formed when the ground collapses after a large volume of magma is erupted",
+      "Novarupta, in Katmai"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 5: Rocks, Minerals, and Gems",
+   "lessons": [
+    {
+     "title": "Lesson 36: Rocks Tell the Story of the Earth",
+     "steps": [
+      "Read Rocks Tell the Story of the Earth and Types of Rocks in Collecting Rocks",
+      "Sort a handful of rocks into igneous, sedimentary and metamorphic as best you can",
+      "Draw the rock cycle with arrows between the three groups"
+     ],
+     "links": [
+      {
+       "label": "Read Collecting Rocks",
+       "url": "https://pubs.usgs.gov/gip/collect1/collectgip.html"
+      }
+     ],
+     "questions": [
+      "What are the three groups of rocks?",
+      "Why does slowly cooled magma make coarse-grained rock?"
+     ],
+     "answers": [
+      "Igneous, sedimentary, and metamorphic",
+      "Crystals have time to grow large when magma cools slowly deep underground"
+     ]
+    },
+    {
+     "title": "Lesson 37: Starting a Rock Collection",
+     "steps": [
+      "Read Starting a Collection through Hints for Rock Collectors",
+      "Gather equipment (bags, marker, notebook, hand lens) and go on a short collecting walk",
+      "Label each specimen with where and when you found it"
+     ],
+     "links": [
+      {
+       "label": "Read Collecting Rocks",
+       "url": "https://pubs.usgs.gov/gip/collect1/collectgip.html"
+      }
+     ],
+     "questions": [
+      "Why should you write down where each rock was found?",
+      "What kind of map helps you find and identify rocks in an area?"
+     ],
+     "answers": [
+      "A specimen is much more useful when you know its source, so you can match it with geologic maps and other collections",
+      "A geologic map"
+     ],
+     "notes": "Collect only where it is allowed; many parks forbid taking rocks."
+    },
+    {
+     "title": "Lesson 38: What Makes a Gemstone?",
+     "steps": [
+      "Read Key Terminology and Geologic Environment in Natural Gemstones",
+      "Write the difference between a gemstone, a gem, and a mineral",
+      "List the three qualities of a precious gemstone"
+     ],
+     "links": [
+      {
+       "label": "Read Key Terminology",
+       "url": "https://pubs.usgs.gov/gip/gemstones/terms.html"
+      },
+      {
+       "label": "Read Geologic Environment",
+       "url": "https://pubs.usgs.gov/gip/gemstones/environment.html"
+      }
+     ],
+     "questions": [
+      "What three qualities does a precious gemstone have?",
+      "Why are gemstones usually hard to find?"
+     ],
+     "answers": [
+      "Beauty, durability, and rarity",
+      "They are scattered sparsely through rock rather than in big deposits"
+     ]
+    },
+    {
+     "title": "Lesson 39: Hardness, Weight, and Organic Gems",
+     "steps": [
+      "Read Mineral Gemstones and Organic Gemstones",
+      "Do a scratch test: fingernail, copper coin, steel nail, and glass on several rocks; rank them on the Mohs scale",
+      "Pick one organic gemstone and explain where it comes from"
+     ],
+     "links": [
+      {
+       "label": "Read Mineral Gemstones",
+       "url": "https://pubs.usgs.gov/gip/gemstones/mineral.html"
+      },
+      {
+       "label": "Read Organic Gemstones",
+       "url": "https://pubs.usgs.gov/gip/gemstones/organic.html"
+      }
+     ],
+     "questions": [
+      "What is the hardest mineral on the Mohs scale, and what is the softest?",
+      "What is amber?",
+      "What does specific gravity compare?"
+     ],
+     "answers": [
+      "Diamond (10); talc (1)",
+      "Hardened fossil resin or sap of ancient trees",
+      "How heavy a gemstone is compared with the same volume of water"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 6: Deserts",
+   "lessons": [
+    {
+     "title": "Lesson 40: What Is a Desert?",
+     "steps": [
+      "Read What Is a Desert? and How the Atmosphere Influences Aridity in Deserts: Geology and Resources",
+      "On a globe, find the Tropic of Cancer and Tropic of Capricorn",
+      "Sketch how air rises at the Equator and sinks around 30 degrees latitude"
+     ],
+     "links": [
+      {
+       "label": "Read What Is a Desert?",
+       "url": "https://pubs.usgs.gov/gip/deserts/what/"
+      },
+      {
+       "label": "Read How the Atmosphere Influences Aridity",
+       "url": "https://pubs.usgs.gov/gip/deserts/atmosphere/"
+      }
+     ],
+     "questions": [
+      "About how much of Earth's land is desert?",
+      "Do all deserts have to be hot?"
+     ],
+     "answers": [
+      "About one-third",
+      "No; they are defined by dryness and can be cold"
+     ]
+    },
+    {
+     "title": "Lesson 41: Where Deserts Form and Kinds of Deserts",
+     "steps": [
+      "Read Where Deserts Form and Types of Deserts",
+      "Make a chart of the six desert types with one example of each",
+      "Model a rain shadow: blow a fine mist over a book 'mountain' and see which side stays dry"
+     ],
+     "links": [
+      {
+       "label": "Read Where Deserts Form",
+       "url": "https://pubs.usgs.gov/gip/deserts/form/"
+      },
+      {
+       "label": "Read Types of Deserts",
+       "url": "https://pubs.usgs.gov/gip/deserts/types/"
+      }
+     ],
+     "questions": [
+      "What is the world's largest (hot) desert?",
+      "What is a paleodesert?"
+     ],
+     "answers": [
+      "The Sahara",
+      "A former desert area that is no longer arid"
+     ]
+    },
+    {
+     "title": "Lesson 42: Desert Features and the Work of Wind",
+     "steps": [
+      "Read Desert Features and Eolian Processes",
+      "Use a hair dryer on a tray of mixed sand and gravel and watch deflation leave the pebbles behind",
+      "Define deflation and abrasion in your notebook"
+     ],
+     "links": [
+      {
+       "label": "Read Desert Features",
+       "url": "https://pubs.usgs.gov/gip/deserts/features/"
+      },
+      {
+       "label": "Read Eolian Processes",
+       "url": "https://pubs.usgs.gov/gip/deserts/eolian/"
+      }
+     ],
+     "questions": [
+      "About how much of the world's desert surface is covered by sand?",
+      "What does 'eolian' refer to?"
+     ],
+     "answers": [
+      "Only about 20 percent",
+      "The activity of the wind"
+     ]
+    },
+    {
+     "title": "Lesson 43: Dunes and Seeing Deserts from Space",
+     "steps": [
+      "Read Types of Dunes and Remote Sensing of Arid Lands",
+      "Sketch the five basic dune shapes and show the wind direction for crescentic dunes",
+      "Look at a satellite map of a desert and find a dune field"
+     ],
+     "links": [
+      {
+       "label": "Read Types of Dunes",
+       "url": "https://pubs.usgs.gov/gip/deserts/dunes/"
+      },
+      {
+       "label": "Read Remote Sensing of Arid Lands",
+       "url": "https://pubs.usgs.gov/gip/deserts/remote/"
+      }
+     ],
+     "questions": [
+      "Name the five basic types of dunes.",
+      "What is the most common dune form on Earth and Mars?",
+      "What is remote sensing?"
+     ],
+     "answers": [
+      "Crescentic, linear, star, dome, and parabolic",
+      "Crescentic",
+      "Collecting information about something without touching it, such as with satellite images"
+     ]
+    },
+    {
+     "title": "Lesson 44: Desert Riches and Desertification",
+     "steps": [
+      "Read Mineral Resources in Deserts and Desertification",
+      "Evaporate salt water in a shallow dish in the sun to see how evaporites form",
+      "Write a short paragraph on one way people can slow desertification"
+     ],
+     "links": [
+      {
+       "label": "Read Mineral Resources in Deserts",
+       "url": "https://pubs.usgs.gov/gip/deserts/minerals/"
+      },
+      {
+       "label": "Read Desertification",
+       "url": "https://pubs.usgs.gov/gip/deserts/desertification/"
+      }
+     ],
+     "questions": [
+      "How does evaporation help make mineral deposits in deserts?",
+      "What drought beginning in 1968 caused great loss of life in Africa?"
+     ],
+     "answers": [
+      "Water evaporates from desert lakes and leaves dissolved minerals behind",
+      "The Sahelian drought"
+     ]
+    }
+   ]
+  }
+ ]
+}

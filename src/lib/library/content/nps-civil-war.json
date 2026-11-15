@@ -1,0 +1,746 @@
+{
+ "key": "nps-civil-war",
+ "title": "The Civil War Through the National Parks",
+ "sourceTitle": "National Park Service lesson plans: Teaching with Historic Places and park education lesson plans on slavery, the Civil War, and emancipation",
+ "author": "National Park Service (Teaching with Historic Places program and park education staff)",
+ "seller": "National Park Service",
+ "year": 2026,
+ "sourceUrl": "https://www.nps.gov/teachers/index.htm",
+ "license": {
+  "kind": "public_domain"
+ },
+ "licenseEvidence": "NPS site Disclaimer, https://www.nps.gov/aboutus/disclaimer.htm (checked 2026-11-14; page last updated March 5, 2025), under 'Ownership': \"Copyright law does not protect 'any work of the U.S. Government' where 'a work prepared by an officer or employee of the U.S. Government as part of that person's official duties' (See, 17 U.S.C. §§ 101, 105). Thus, material created by the National Park Service and presented on this website, unless otherwise indicated, is generally considered in the public domain. It may be distributed or copied as permitted by applicable law.\" It adds that when such material is \"published or republished commercially, in part or in full, the copyright notice must include a reference to the original U.S. Government work (see, 17 U.S.C.§ 403), such as: 'No protection is claimed in original U.S. Government works'\"; the attribution includes that line. It also says \"not all materials appearing on this website ... are in the public domain\" and that \"The Arrowhead symbol is the official insignia and registered trademark of the National Park Service ... [and] may not be used without prior written permission\"; this plan uses no Arrowhead, logo, insignia, or NPS branding, and makes no claim of endorsement (the Disclaimer also says references to products or services do not constitute endorsement by the NPS). Authorship checked lesson by lesson on 2026-11-14. The Teaching with Historic Places (TwHP) lessons used each name NPS staff as authors in their 'About This Lesson' credits: First Battle of Manassas (Michael Litterst, park ranger and supervisory historian, Manassas NBP), Fort Pickens (Ann Marie Folker, park ranger, Gulf Islands NS), Chatham Plantation (Elsa W. Lohman and Janice M. Frye, park rangers, Fredericksburg and Spotsylvania NMP), Clara Barton's House (Joan S. Pryor, park ranger, Clara Barton NHS), Choices and Commitments at Gettysburg (John Andrews, supervisory park ranger, Gettysburg NMP), Andersonville (Alan Marsh, supervisory park ranger, Andersonville NHS), and War at Your Doorstep (\"Park Rangers at Antietam Battlefield wrote this lesson plan,\" 2019); they were edited by TwHP staff, two of them also by an education consultant (Fay Metcalf). The park lesson plans (nps.gov/teachers/classrooms/...) are published by the parks named, with no outside author credit and no copyright notice on the page. Third-party items inside lessons are only linked, never copied: e.g., the Gettysburg lesson reprints two soldier accounts marked 'Copyright 1991 Robert Hunt Rhodes' and 'Copyright 1989 by the University of North Carolina Press. Used by permission'; the Barton lesson uses a reading 'Courtesy of the American Red Cross'; several lessons use Library of Congress or archive images. Not used because the credited authors are not NPS staff or the page carries a third-party copyright: TwHP lessons on the Florence Stockade (written by an archeologist with MACTEC, a private firm), the Dayton Soldiers' Home and Camp Chase cemetery (high school teacher), Fort Morgan, Bentonville, Honey Springs, Mill Springs, Prairie Grove, and Port Hudson (state or local historic site staff and teachers), Corinth (co-written with a city schools teacher), Stones River (co-written with a school principal), Lincoln Home (teacher), President Lincoln's Cottage (American University graduate students, sponsored by the National Trust), and Lincoln's Second Inaugural Ball (includes an image marked '© 2006 Smithsonian American Art Museum'); the Shiloh teacher packet ('Prepared by' a Teacher-Ranger-Teacher from a county school); and the Glorieta Pass TwHP lesson (co-written by a New Mexico historian with a Pecos NHP archeologist). Also skipped: the Lincoln Boyhood TwHP lesson (the author's affiliation is not stated) and The Civil War Comes to Louisiana (its materials come only by email).",
+ "attribution": "Built from lesson plans by the National Park Service (the Teaching with Historic Places program and the national parks named on each lesson), https://www.nps.gov/teachers/index.htm and https://www.nps.gov/subjects/teachingwithhistoricplaces/index.htm. These are works of the U.S. Government and are in the public domain in the United States (17 U.S.C. §105). No protection is claimed in original U.S. Government works. Freerange organized the lessons into a daily plan and wrote original steps, questions, and answers; the NPS lesson text is not reproduced, and documents and images owned by others are only linked on nps.gov. The National Park Service does not endorse Freerange or this lesson plan.",
+ "subjects": [
+  "history",
+  "civics",
+  "geography"
+ ],
+ "gradeMin": 5,
+ "gradeMax": 8,
+ "philosophies": [
+  "unit_study",
+  "traditional"
+ ],
+ "lessonsPerWeek": 3,
+ "minutesPerLesson": 45,
+ "parentInvolvement": "medium",
+ "familyStyle": false,
+ "cover": "🥁",
+ "color": "#2F6B5E",
+ "description": "A middle-grades Civil War course built from the free lesson plans that National Park Service rangers and historians wrote for the places where it happened, from Underground Railroad sites and Harpers Ferry to Manassas, Antietam, Gettysburg, Andersonville, and Appomattox. Each day your child works through one park lesson online: maps, letters, photographs, and primary documents, then a short writing or discussion activity. Every lesson plan and handout is free on nps.gov.",
+ "includes": [
+  "26 lessons in 5 units, from the road to war through emancipation",
+  "Link to the National Park Service lesson page for every lesson, plus key handouts",
+  "Primary sources: soldiers' letters, maps, photographs, pension files, and the Emancipation Proclamation",
+  "Map work, letter writing, debate, and one math lesson using real prison records",
+  "Discussion questions with answers"
+ ],
+ "units": [
+  {
+   "title": "Unit 1: Slavery, Freedom Seekers, and a Nation Dividing",
+   "lessons": [
+    {
+     "title": "Seeking Sanctuary on the Underground Railroad",
+     "steps": [
+      "Warm up: write two sentences on what freedom means to you",
+      "Watch the park's short 'Seeking Sanctuary' ranger video and retell its main ideas",
+      "Make a Venn diagram comparing the escape route south to Spanish Florida with the routes north to Canada",
+      "Look at the Network to Freedom map and find Fort Mose and Castillo de San Marcos"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Seeking Sanctuary (Castillo de San Marcos NM)",
+       "url": "https://www.nps.gov/teachers/classrooms/seeking-sanctuary.htm"
+      }
+     ],
+     "questions": [
+      "Before there was a route north to Canada, which way did some freedom seekers in the British colonies escape?",
+      "What made Fort Mose special?"
+     ],
+     "answers": [
+      "South, to Spanish Florida (St. Augustine)",
+      "It was the first legally recognized free Black settlement in what became the United States"
+     ]
+    },
+    {
+     "title": "Harriet Tubman: Brave Woman or Just Plain Crazy?",
+     "steps": [
+      "Look at a portrait of Harriet Tubman and list what you already know about her",
+      "Work through pages of the free Underground Railroad Junior Ranger booklet",
+      "Gather at least three pieces of evidence about why she escaped and why she went back",
+      "Write a short argument answering the lesson's question, and explain her impact"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Harriet Tubman (Harriet Tubman Underground Railroad NHP)",
+       "url": "https://www.nps.gov/teachers/classrooms/harriet-tubman-brave-woman-or-crazy.htm"
+      },
+      {
+       "label": "Underground Railroad Junior Ranger booklet (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/UGRR-Junior-Ranger-Activity-Booklet.pdf"
+      }
+     ],
+     "questions": [
+      "In what state was Harriet Tubman born into slavery?",
+      "Name two roles Tubman had besides Underground Railroad conductor.",
+      "What risks did she take each time she returned south?"
+     ],
+     "answers": [
+      "Maryland (Dorchester County, on the Eastern Shore)",
+      "Any two of: abolitionist, Civil War spy or scout, nurse, suffragist, humanitarian",
+      "Being caught and sent back into slavery, punished, or killed"
+     ],
+     "notes": "The lesson suggests a picture book and a TV trailer as hooks; a library biography works just as well."
+    },
+    {
+     "title": "Bleeding Kansas: One Decision, Many Problems",
+     "steps": [
+      "Review the Missouri Compromise, the Compromise of 1850, and the Kansas-Nebraska Act",
+      "Watch the Fort Scott 'Bleeding Kansas' video",
+      "Write a short, persuasive letter to a congressman from the point of view of someone living in 1854",
+      "Discuss: did your letter appeal to feelings or to reasons?"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Border Conflict (Fort Scott NHS)",
+       "url": "https://www.nps.gov/teachers/classrooms/border-conflict.htm"
+      }
+     ],
+     "questions": [
+      "What is popular sovereignty?",
+      "Why did the Kansas-Nebraska Act upset many Northerners?"
+     ],
+     "answers": [
+      "Letting the people of a territory vote on whether to allow slavery",
+      "It opened land the Missouri Compromise had closed to slavery, so the compromise had to be repealed"
+     ]
+    },
+    {
+     "title": "Incident at Harpers Ferry: Slavery and John Brown",
+     "steps": [
+      "Write a paragraph: is it ever okay to use violence to bring about needed change?",
+      "Research the lesson's 'History Detective' questions about slavery in North America",
+      "Read 'John Brown: Just the Facts' and circle the three most important facts",
+      "Decide where you stand: was Brown right to use violence? Explain your reasons aloud"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Incident at Harpers Ferry (Harpers Ferry NHP)",
+       "url": "https://www.nps.gov/teachers/classrooms/john-brown-lesson-1.htm"
+      }
+     ],
+     "questions": [
+      "Where did John Brown fight against slavery in 1855 to 1857?",
+      "What did the Dred Scott decision say about whether an enslaved man could sue in federal court?"
+     ],
+     "answers": [
+      "Kansas",
+      "It said he was not a citizen, so he could not sue"
+     ],
+     "notes": "The 'Rounds' reading uses real pre-war newspaper ads about enslaved people; preview it first."
+    },
+    {
+     "title": "A Nation Divided: Compromises and Their Limits",
+     "steps": [
+      "Read the NPS articles on John C. Calhoun and James L. Petigru and compare them in a Venn diagram",
+      "Use the historical maps to fill in the 'Chart the Maps' sheet: free or slave, 1820 to 1854",
+      "Read the agreed statement of facts in the Dred Scott case and answer who, where, and why"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: A Nation Divided (Kennesaw Mountain NBP)",
+       "url": "https://www.nps.gov/teachers/classrooms/a-nation-divided-middle-school-lesson-plan.htm"
+      },
+      {
+       "label": "Chart the Maps student sheet (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Map%20the%20Charts%20for%20Students.pdf"
+      }
+     ],
+     "questions": [
+      "Calhoun and Petigru were both South Carolinians. Which one was a Unionist?",
+      "Name three events from 1820 to 1857 that raised tension between North and South."
+     ],
+     "answers": [
+      "James L. Petigru",
+      "Any three of: Missouri Compromise, Mexican War, Compromise of 1850, Kansas-Nebraska Act, Dred Scott decision"
+     ],
+     "notes": "Choose one or two of the three activities per sitting; this can stretch over two days."
+    },
+    {
+     "title": "Dear Diary: Abraham Lincoln's Reflections",
+     "steps": [
+      "Write about a person or event that had a big effect on your life",
+      "Read Lincoln's 'House Divided' speech and his farewell to Springfield; note key words, people, and events",
+      "Write a journal entry as Lincoln might have, quoting one of the sources"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Dear Diary (Lincoln Boyhood NM)",
+       "url": "https://www.nps.gov/teachers/classrooms/dear-diary-abraham-lincolns-reflections.htm"
+      },
+      {
+       "label": "House Divided speech (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/House-Divided-Speech.pdf"
+      },
+      {
+       "label": "Farewell address to Springfield (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Lincoln-s-Farewell-Address-to-Citizens-of-Springfield-Illinois.pdf"
+      }
+     ],
+     "questions": [
+      "What did Lincoln mean when he said a house divided against itself cannot stand?",
+      "Did Lincoln keep a diary?"
+     ],
+     "answers": [
+      "The country could not last forever half slave and half free",
+      "No; we learn his thoughts from speeches, letters, and other sources"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 2: 1861, the War Begins",
+   "lessons": [
+    {
+     "title": "Fort Pickens and the Outbreak of the Civil War",
+     "steps": [
+      "Look at the aerial photo of Fort Pickens and guess what it was for",
+      "Study the 1861 map of Pensacola's harbor forts",
+      "Read 'The Civil War in Pensacola Area' and the Chase and Slemmer meeting",
+      "Activity: decide whether you would have surrendered the fort, and defend your choice"
+     ],
+     "links": [
+      {
+       "label": "Lesson: Fort Pickens and the Outbreak of the Civil War (Teaching with Historic Places)",
+       "url": "https://www.nps.gov/articles/fort-pickens-and-the-outbreak-of-the-civil-war-teaching-with-historic-places.htm"
+      }
+     ],
+     "questions": [
+      "Why was Pensacola Bay a valuable prize?",
+      "What did Lieutenant Slemmer do on the day Florida seceded?",
+      "Which other fort, like Fort Pickens, needed supplies when Lincoln took office?"
+     ],
+     "answers": [
+      "Its safe harbor and navy yard (docks, supplies, shipbuilding)",
+      "He moved all his men into Fort Pickens",
+      "Fort Sumter"
+     ]
+    },
+    {
+     "title": "Joining Up! Why Young Men Enlisted",
+     "steps": [
+      "Sort the 'reasons to enlist in 1861' cards from least to most important",
+      "Move ahead to 1862: after so many deaths, would the reasons change? Sort them again",
+      "Take on the identity of a real soldier of the 126th New York and introduce yourself",
+      "Read the U.S. oath of allegiance aloud"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: The Battle of Harpers Ferry 1862, Joining Up! (Harpers Ferry NHP)",
+       "url": "https://www.nps.gov/teachers/classrooms/battle-of-hf.htm"
+      },
+      {
+       "label": "Reasons young men joined the armies in 1861 (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Reasons-Why-Young-Men-Rushed-off-to-join-the-armies-in-1861%20(508%20compliant).pdf"
+      }
+     ],
+     "questions": [
+      "What is the difference between a regiment and a company?",
+      "In mid-1862, how many more volunteers did Lincoln call for?"
+     ],
+     "answers": [
+      "A regiment is a larger unit led by a colonel and made up of several companies",
+      "300,000"
+     ]
+    },
+    {
+     "title": "First Battle of Manassas: An End to Innocence",
+     "steps": [
+      "Find Manassas Junction on the lesson's 1861 maps and say why both armies wanted it",
+      "Read Major Sullivan Ballou's last letter and the letters of Private J. W. Reid",
+      "Read about Judith Henry, the widow whose home stood on the battlefield",
+      "Write a letter home as a soldier after the battle"
+     ],
+     "links": [
+      {
+       "label": "Lesson page: First Battle of Manassas (Teaching with Historic Places)",
+       "url": "https://www.nps.gov/teachers/classrooms/12manassas.htm"
+      },
+      {
+       "label": "Full lesson plan (PDF)",
+       "url": "https://www.nps.gov/teachers/classrooms/upload/TwHP-Lessons_12manassas.pdf"
+      }
+     ],
+     "questions": [
+      "What was the date of the first battle of Manassas?",
+      "What did Northerners usually call this battle?",
+      "How did the battle change the way Americans thought about the war?"
+     ],
+     "answers": [
+      "July 21, 1861",
+      "Bull Run",
+      "They stopped thinking of it as a short adventure and saw it would be long and costly"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 3: 1862, Rivers, Refuge, and the Bloodiest Day",
+   "lessons": [
+    {
+     "title": "Fortifications at Fort Donelson",
+     "steps": [
+      "Find the Tennessee and Cumberland Rivers and Forts Henry, Heiman, and Donelson on the park map",
+      "Complete the park's fortifications worksheet",
+      "Sketch an earthen fort with its earthworks and abatis, or write two paragraphs about it"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Fortifications (Fort Donelson NB)",
+       "url": "https://www.nps.gov/teachers/classrooms/fortifications.htm"
+      },
+      {
+       "label": "Fortifications worksheet (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Fortifications_4_28.pdf"
+      }
+     ],
+     "questions": [
+      "Why did the Confederates build these forts just south of Kentucky instead of farther north?",
+      "What is an abatis?",
+      "Which of the three forts is now under water?"
+     ],
+     "answers": [
+      "They could not violate Kentucky's neutrality",
+      "Felled trees with sharpened tops placed as a barrier in front of earthworks",
+      "Fort Henry"
+     ]
+    },
+    {
+     "title": "The Free State at Fort Donelson",
+     "steps": [
+      "Read the background on enslaved laborers who built the forts and on the 1862 Union victory",
+      "Study the postwar sketch of the 'Free State' near the national cemetery",
+      "Read parts of Caroline Dorris's widow's pension file and list what it tells about her life"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: The Free State at Fort Donelson (Fort Donelson NB)",
+       "url": "https://www.nps.gov/teachers/classrooms/the-free-state.htm"
+      },
+      {
+       "label": "Declaration for Widow's Pension (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Declaration%20for%20Widow's%20Pension.pdf"
+      }
+     ],
+     "questions": [
+      "Why did freedom seekers come to Union-held forts?",
+      "About how many formerly enslaved people lived at Fort Donelson by the winter of 1863?"
+     ],
+     "answers": [
+      "For protection, food, shelter, and freedom",
+      "Nearly 300"
+     ],
+     "notes": "The handwritten pension papers are hard to read; read them together and take turns."
+    },
+    {
+     "title": "Chatham Plantation: Witness to the Civil War",
+     "steps": [
+      "Find Chatham on its bluff above the Rappahannock River opposite Fredericksburg",
+      "Read how the war changed the Lacy family's home and how armies used it",
+      "Read about Chatham as a field hospital after the Battle of Fredericksburg",
+      "Write a letter home as a soldier, nurse, or member of the Lacy family"
+     ],
+     "links": [
+      {
+       "label": "Lesson page: Chatham Plantation (Teaching with Historic Places)",
+       "url": "https://www.nps.gov/teachers/classrooms/45chatham.htm"
+      },
+      {
+       "label": "Full lesson plan (PDF)",
+       "url": "https://www.nps.gov/teachers/classrooms/upload/TwHP-Lessons_45chatham.pdf"
+      }
+     ],
+     "questions": [
+      "Which president visited Chatham in 1862?",
+      "Name two famous volunteers who helped wounded soldiers at Chatham."
+     ],
+     "answers": [
+      "Abraham Lincoln",
+      "Clara Barton and Walt Whitman"
+     ]
+    },
+    {
+     "title": "Antietam: The Bloodiest Day and Hope for Freedom",
+     "steps": [
+      "Watch an animated map or read the park brochure about September 17, 1862",
+      "Look at the linked historic photographs and eyewitness accounts",
+      "Write and illustrate a front page of a newspaper reporting the battle and its meaning"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: The Bloodiest Day in American History (Antietam NB)",
+       "url": "https://www.nps.gov/teachers/classrooms/middle-school-antietam-lesson-plan.htm"
+      }
+     ],
+     "questions": [
+      "About how many soldiers were killed, wounded, or missing at Antietam?",
+      "What did President Lincoln issue after the battle?"
+     ],
+     "answers": [
+      "More than 23,000",
+      "The preliminary Emancipation Proclamation"
+     ],
+     "notes": "The lesson plans three class periods; at home, spread the newspaper over two or three days."
+    },
+    {
+     "title": "War at Your Doorstep: The Mumma Family at Antietam",
+     "steps": [
+      "Look at the battlefield map and the Mumma farm site plan",
+      "Read 'A House was Burning' and the reading on slavery on the Mumma farm",
+      "Look at the family's claim for damages and list what they lost"
+     ],
+     "links": [
+      {
+       "label": "Lesson page: War at Your Doorstep (Antietam NB)",
+       "url": "https://www.nps.gov/teachers/classrooms/antietam-teaching-with-historic-places-lesson-plan.htm"
+      },
+      {
+       "label": "Full lesson plan (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/CURRENT%20twhp%20mumma%20farm(508).pdf"
+      }
+     ],
+     "questions": [
+      "Who burned the Mumma farm, and why?",
+      "What happened to Lucy Young in 1856?"
+     ],
+     "answers": [
+      "Confederate soldiers, so Union sharpshooters could not use the buildings",
+      "Samuel Mumma set her free (a deed of manumission)"
+     ]
+    },
+    {
+     "title": "Clara Barton: Angel of the Battlefield",
+     "steps": [
+      "Read 'Clara Barton, Advocate for Human Rights'",
+      "Read about the American Red Cross and the women who went to the field",
+      "Activity: plan how a local group could help after a disaster"
+     ],
+     "links": [
+      {
+       "label": "Lesson: Clara Barton's House (Teaching with Historic Places)",
+       "url": "https://www.nps.gov/articles/clara-barton-s-house-home-of-the-american-red-cross-teaching-with-historic-places.htm"
+      }
+     ],
+     "questions": [
+      "What job did Clara Barton have in Washington before the war?",
+      "After the war, what did she spend four years doing?",
+      "What organization did she found?"
+     ],
+     "answers": [
+      "Patent clerk",
+      "Identifying missing soldiers",
+      "The American Red Cross"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 4: 1863 to 1864, Emancipation, Turning Points, and Hard War",
+   "lessons": [
+    {
+     "title": "War Has Been Declared: The Emancipation Proclamation",
+     "steps": [
+      "Watch the short NPS video 'A New Birth of Freedom'",
+      "Read the Emancipation Proclamation one paragraph at a time and write a one-sentence summary of each",
+      "Read about the Atlanta Campaign and study its map"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: War Has Been Declared (Kennesaw Mountain NBP)",
+       "url": "https://www.nps.gov/teachers/classrooms/war-has-been-declared-middle-school-lesson-plan.htm"
+      }
+     ],
+     "questions": [
+      "Which enslaved people did the Emancipation Proclamation declare free?",
+      "What is a proclamation?"
+     ],
+     "answers": [
+      "Those in areas still in rebellion against the United States",
+      "An important public or official announcement"
+     ],
+     "notes": "The Ambrose Bierce story in Activity 3 is grim; preview it before using."
+    },
+    {
+     "title": "Choices and Commitments: The Soldiers at Gettysburg",
+     "steps": [
+      "Use Map 2 to follow the three days of fighting, July 1 to 3, 1863",
+      "Read 'Three Days of Carnage at Gettysburg' and answer its questions",
+      "Read the soldiers' accounts and compare their views",
+      "Read the Gettysburg Address aloud and copy one sentence"
+     ],
+     "links": [
+      {
+       "label": "Lesson: Choices and Commitments, the Soldiers at Gettysburg (Teaching with Historic Places)",
+       "url": "https://www.nps.gov/articles/choices-and-commitments-soldier-at-gettysburg.htm"
+      }
+     ],
+     "questions": [
+      "What shape did the Union line form on July 2?",
+      "What was the name of Lee's final attack on July 3?",
+      "About how many casualties did Gettysburg cause?"
+     ],
+     "answers": [
+      "A fishhook",
+      "Pickett's Charge",
+      "About 51,000"
+     ],
+     "notes": "Two of the soldier accounts are excerpts from copyrighted books that the lesson reprints with permission; read them on the NPS page only."
+    },
+    {
+     "title": "The 1st Kansas Colored Infantry",
+     "steps": [
+      "Watch the Fort Scott video on the 1st Kansas Colored Volunteer Infantry",
+      "Read the officers' quotations about the regiment",
+      "Put the regiment's battles from 1862 to 1864 on a timeline and a map"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: 1st Kansas Colored Infantry (Fort Scott NHS)",
+       "url": "https://www.nps.gov/teachers/classrooms/infantry-in-kansas.htm"
+      }
+     ],
+     "questions": [
+      "At which battle did the 1st Kansas Colored first fight, in October 1862?",
+      "Name one battle the regiment fought in Indian Territory."
+     ],
+     "answers": [
+      "Island Mound, Missouri",
+      "Any of: Cabin Creek, Honey Springs, Flat Rock Creek, Timber Hills"
+     ]
+    },
+    {
+     "title": "Neither Cold Nor a Harbor: Archeology at Cold Harbor",
+     "steps": [
+      "Read the background on the Overland Campaign and the June 1864 battle",
+      "Look at the 3D model of a canteen cut down into a shovel",
+      "Use the maps, readings, and images handouts to complete the student worksheet"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Neither Cold Nor a Harbor (Richmond NBP)",
+       "url": "https://www.nps.gov/teachers/classrooms/archeology-cold-harbor.htm"
+      },
+      {
+       "label": "Student worksheet (Word)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Cold%20Harbor%20Handout%204%20Student%20Worksheet.docx"
+      }
+     ],
+     "questions": [
+      "What was the Union army's main goal in the Overland Campaign?",
+      "Why did soldiers turn a canteen into a shovel?"
+     ],
+     "answers": [
+      "To capture Richmond, the Confederate capital",
+      "They had no shovels and needed to dig earthworks for protection"
+     ]
+    },
+    {
+     "title": "Civilian War Experience: Kennesaw Mountain",
+     "steps": [
+      "Discuss what happens to a town when a battle is fought there",
+      "Read the account of Minerva McClatchey or Lucinda Hardage",
+      "Fill in the 'Questions, Problems, or Concerns' sheet: five problems and five actions"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Civilian War Experience (Kennesaw Mountain NBP)",
+       "url": "https://www.nps.gov/teachers/classrooms/civilian-war-experience-the-battle-of-kennesaw-mountain.htm"
+      },
+      {
+       "label": "Questions, Problems, or Concerns worksheet (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Question-Problems-Concerns%20Worksheet_A.pdf"
+      }
+     ],
+     "questions": [
+      "Why read accounts by civilians, and not only by soldiers?",
+      "Which campaign was the Battle of Kennesaw Mountain part of?"
+     ],
+     "answers": [
+      "They show how a battle hurt families at home: their food, homes, and safety",
+      "The Atlanta Campaign"
+     ]
+    },
+    {
+     "title": "When War Hits Home: The Election of 1864",
+     "steps": [
+      "Read the background on Peninsula, Ohio, a town on the Ohio and Erie Canal",
+      "Read excerpts from the letters of Lt. George Waterman and Sgt. Levi Boodey",
+      "Compare the 1864 Democratic and Republican platforms, then vote as Peninsula voters might have"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: When War Hits Home (Cuyahoga Valley NP)",
+       "url": "https://www.nps.gov/teachers/classrooms/when-war-hits-home.htm"
+      },
+      {
+       "label": "Boodey letters (Word)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Boodey%20Letters.docx"
+      },
+      {
+       "label": "Democratic Party platform, 1864 (Word)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Democratic%20Party%20Platform%201864.docx"
+      }
+     ],
+     "questions": [
+      "Which two men ran for president in 1864?",
+      "How can a soldier's experience shape how his family votes?"
+     ],
+     "answers": [
+      "Abraham Lincoln and George McClellan",
+      "His letters about the war could push his family toward the party that wanted to keep fighting, or toward the one that wanted peace"
+     ],
+     "notes": "Chunk the letters; one or two excerpts per child is plenty."
+    }
+   ]
+  },
+  {
+   "title": "Unit 5: Prison Camps, Surrender, and the Meaning of Freedom",
+   "lessons": [
+    {
+     "title": "Andersonville: Prisoner of War Camp",
+     "steps": [
+      "Look at the 1885 drawing and guess what the place was",
+      "Find Civil War prison camps and Andersonville on the maps",
+      "Read 'Life as a Prisoner' and study the 1864 photographs",
+      "Activity: research one prisoner's story"
+     ],
+     "links": [
+      {
+       "label": "Lesson: Andersonville, Prisoner of War Camp (Teaching with Historic Places)",
+       "url": "https://www.nps.gov/articles/andersonville-prisoner-of-war-camp-teaching-with-historic-places.htm"
+      }
+     ],
+     "questions": [
+      "In what state was Andersonville prison?",
+      "Why did both sides start holding prisoners for a long time?"
+     ],
+     "answers": [
+      "Georgia",
+      "The prisoner exchange system broke down in 1863"
+     ]
+    },
+    {
+     "title": "August Anguish at Andersonville: A Math Lesson",
+     "steps": [
+      "Review mean, median, mode, and ratios",
+      "Use the August 1864 daily returns to work out the statistics on the worksheet",
+      "Write a short reflection: what do the numbers show about life in the prison?"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: August Anguish at Andersonville (Andersonville NHS)",
+       "url": "https://www.nps.gov/teachers/classrooms/august-anguish-at-andersonville-a-middle-school-math-lesson.htm"
+      },
+      {
+       "label": "Daily returns, August 1864 (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Daily%20Returns%20August%2018641.pdf"
+      },
+      {
+       "label": "Map of Andersonville Prison (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Map%20of%20Andersonville%20Prison1.pdf"
+      }
+     ],
+     "questions": [
+      "About how many prisoners were held at Andersonville in summer 1864, and how many was it built for?",
+      "If 33,000 men were in a space built for 10,000, about how many times too crowded was it?"
+     ],
+     "answers": [
+      "About 33,000 in a space meant for 10,000",
+      "About 3.3 times"
+     ]
+    },
+    {
+     "title": "Perspectives After the Surrender at Appomattox",
+     "steps": [
+      "Look at the picture of the McLean parlor and guess what happened there",
+      "Read the short biographies of Charles Wainwright, Fannie Berry, and Charles Minnigerode",
+      "Compare how each person felt about the end of the war"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Perspectives After the Surrender (Appomattox Court House NHP)",
+       "url": "https://www.nps.gov/teachers/classrooms/perspectives-after-the-appomattox-surrender.htm"
+      },
+      {
+       "label": "Worksheet 1: the McLean parlor (PDF)",
+       "url": "https://www.nps.gov/teachers/classrooms/upload/finalworksheet-1.pdf"
+      }
+     ],
+     "questions": [
+      "Who surrendered to whom in the McLean parlor on April 9, 1865?",
+      "What does 'perspective' mean?"
+     ],
+     "answers": [
+      "Robert E. Lee surrendered to Ulysses S. Grant",
+      "The different ways people can see the same event"
+     ]
+    },
+    {
+     "title": "Choosing a Path in Freedom",
+     "steps": [
+      "List the jobs and skills it took to run Hampton, one of Maryland's largest plantations",
+      "Read about the choices formerly enslaved people at Hampton faced after Maryland ended slavery in 1864",
+      "Discuss how a person's skills could shape the path they chose in freedom"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Choosing a Path in Freedom (Hampton NHS)",
+       "url": "https://www.nps.gov/teachers/classrooms/choosing-a-path-in-freedom.htm"
+      },
+      {
+       "label": "Student activity book (Word)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Path%20in%20Freedom%20STUDENT%20Activity%20Book.docx"
+      }
+     ],
+     "questions": [
+      "In what year did Maryland end slavery?",
+      "Why could freedom still be hard for newly freed people?"
+     ],
+     "answers": [
+      "1864",
+      "They needed work, housing, and land, and faced discrimination"
+     ]
+    },
+    {
+     "title": "Frederick Douglass, Educator of Anacostia",
+     "steps": [
+      "Read about Douglass's early life and why learning to read mattered so much to him",
+      "Read about the artifacts he collected and how he used them to teach",
+      "Use the lesson's activity sheets to 'read' a primary source like an archeologist"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Frederick Douglass, The Educator of Anacostia (Frederick Douglass NHS)",
+       "url": "https://www.nps.gov/teachers/classrooms/frederick-douglass-the-collector-and-educator-of-anacostia.htm"
+      },
+      {
+       "label": "Activity sheet 1 (Word)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/TeacherFRDO1.docx"
+      }
+     ],
+     "questions": [
+      "Why did slaveholders fear enslaved people learning to read?",
+      "Who helped Douglass plan and pay for his escape?",
+      "What is archeology?"
+     ],
+     "answers": [
+      "Reading opened new ideas and communication, which threatened slavery",
+      "Anna Murray",
+      "The study of the human past through the things people left behind"
+     ]
+    }
+   ]
+  }
+ ]
+}

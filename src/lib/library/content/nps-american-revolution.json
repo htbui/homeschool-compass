@@ -1,0 +1,654 @@
+{
+ "key": "nps-american-revolution",
+ "title": "The American Revolution Through the National Parks",
+ "sourceTitle": "National Park Service lesson plans: Teaching with Historic Places and park education lesson plans on the American Revolution",
+ "author": "National Park Service (Teaching with Historic Places program and park education staff)",
+ "seller": "National Park Service",
+ "year": 2026,
+ "sourceUrl": "https://www.nps.gov/teachers/index.htm",
+ "license": {
+  "kind": "public_domain"
+ },
+ "licenseEvidence": "NPS site Disclaimer, https://www.nps.gov/aboutus/disclaimer.htm (checked 2026-11-14; page last updated March 5, 2025), under 'Ownership': \"Copyright law does not protect 'any work of the U.S. Government' where 'a work prepared by an officer or employee of the U.S. Government as part of that person's official duties' (See, 17 U.S.C. §§ 101, 105). Thus, material created by the National Park Service and presented on this website, unless otherwise indicated, is generally considered in the public domain. It may be distributed or copied as permitted by applicable law.\" It adds that when such material is \"published or republished commercially, in part or in full, the copyright notice must include a reference to the original U.S. Government work (see, 17 U.S.C.§ 403), such as: 'No protection is claimed in original U.S. Government works'\"; the attribution includes that line. It also says \"not all materials appearing on this website ... are in the public domain\" and that \"The Arrowhead symbol is the official insignia and registered trademark of the National Park Service ... [and] may not be used without prior written permission\"; this plan uses no Arrowhead, logo, insignia, or NPS branding, and makes no claim of endorsement (the Disclaimer also says references to products or services do not constitute endorsement by the NPS). Authorship checked lesson by lesson on 2026-11-14. The Teaching with Historic Places (TwHP) lessons used each name NPS staff as authors in their 'About This Lesson' credits: Bunker Hill (Sandy Brue, park ranger, Boston NHP), Independence Hall (Brenda K. Olio, TwHP historian, with Independence NHP), The Liberty Bell (Joanne C. Blacoe, park ranger, Independence NHP), Oriskany (Mike Kusch, chief of visitor services, and Susan Jones, park ranger, Fort Stanwix NM), Saratoga (James Parillo, park ranger, Saratoga NHP), and Guilford Courthouse (Thomas E. Baker, park ranger and education coordinator, Guilford Courthouse NMP); they were edited by TwHP staff, Oriskany and Saratoga also by an education consultant (Jean West). The park lesson plans (nps.gov/teachers/classrooms/...) are published by the parks named, with no outside author credit and no copyright notice on the page. Third-party items inside lessons are only linked, never copied: e.g., the Highland Scots reading is adapted from an article in the Tar Heel Junior Historian, and the Kings Mountain lesson includes a sample advice column from another publication. Not used because the credited authors are not NPS staff: the TwHP lessons Embattled Farmers (Lexington and Concord; written by James A. Percoco, a teacher), The Battle of Bennington (written by an educational consultant), and Sister Revolutions (written by an NCPE intern, a partner program); Declaration of Independence Remix (\"developed by\" a Saugus, Massachusetts teacher; Salem Maritime co-created its lessons with the Hard History Project and local teachers); Fort Stanwix in the Campaign of 1777 and A Different Kind of Childhood (credited to 2025 teacher interns, funded by a nonprofit partner); and Fort Necessity's French and Indian War unit (its kit credits a foundation grant, partner organizations, and 'Main Text by: Evergreen Educational Foundation'). Also skipped on quality grounds: Events That Led Up to the Revolutionary War (needs the GarageBand app and a subscription encyclopedia).",
+ "attribution": "Built from lesson plans by the National Park Service (the Teaching with Historic Places program and the national parks named on each lesson), https://www.nps.gov/teachers/index.htm and https://www.nps.gov/subjects/teachingwithhistoricplaces/index.htm. These are works of the U.S. Government and are in the public domain in the United States (17 U.S.C. §105). No protection is claimed in original U.S. Government works. Freerange organized the lessons into a daily plan and wrote original steps, questions, and answers; the NPS lesson text is not reproduced, and documents and images owned by others are only linked on nps.gov. The National Park Service does not endorse Freerange or this lesson plan.",
+ "subjects": [
+  "history",
+  "civics",
+  "geography"
+ ],
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "philosophies": [
+  "unit_study",
+  "traditional"
+ ],
+ "lessonsPerWeek": 3,
+ "minutesPerLesson": 45,
+ "parentInvolvement": "medium",
+ "familyStyle": false,
+ "cover": "🔔",
+ "color": "#E07A5F",
+ "description": "The War for Independence told through the national parks where it happened: Concord and Bunker Hill, Henry Knox's cannon train, Independence Hall and the Liberty Bell, Oriskany and Saratoga, Valley Forge, and the southern battles from Kings Mountain to Yorktown. Each day your child works through one free National Park Service lesson: maps, primary sources, a short reading, and a hands-on activity such as a reader's theater, a debate, or a STEM challenge. Every lesson plan and handout is free on nps.gov.",
+ "includes": [
+  "22 lessons in 5 units, from Lexington and Concord to Yorktown",
+  "Link to the National Park Service lesson page for every lesson, plus key handouts",
+  "Primary sources: orders, letters, maps, and the Articles of Capitulation",
+  "Reader's theater, debates, a STEM sled challenge, and a Valley Forge math lesson",
+  "Discussion questions with answers"
+ ],
+ "units": [
+  {
+   "title": "Unit 1: 1775, the Shot Heard Round the World",
+   "lessons": [
+    {
+     "title": "Barrett Farm and the Start of the Revolution",
+     "steps": [
+      "Read the background on Colonel James Barrett of Concord",
+      "Read the primary sources: the list of militia supplies, General Gage's orders, and Barrett's sworn statement",
+      "Use the evidence to write a short account of what Barrett did before and on April 19, 1775",
+      "Discuss: is every historical source equally reliable?"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Barrett Farm (Minute Man NHP)",
+       "url": "https://www.nps.gov/teachers/classrooms/barrett-farm-and-the-start-of-the-american-revolution.htm"
+      },
+      {
+       "label": "Primary source 3: General Gage's orders (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/primary%20source%203%20gage%20orders%20real.pdf"
+      },
+      {
+       "label": "Primary source 5: Barrett's deposition (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/primary%20source%205.pdf"
+      }
+     ],
+     "questions": [
+      "Why did British troops march to Concord?",
+      "What is the difference between a primary and a secondary source?"
+     ],
+     "answers": [
+      "To find and destroy the colonists' military supplies, many kept under Colonel Barrett's care",
+      "A primary source was made by someone at the time; a secondary source was made later, about the event"
+     ],
+     "notes": "Written for high school; read the sources together and split them across two days for younger students."
+    },
+    {
+     "title": "The Battle of Bunker Hill: Now We Are at War",
+     "steps": [
+      "Compare the Boston area today with the 1775 map",
+      "Read 'Setting the Stage for a Battle' and 'The Battle of Bunker Hill'",
+      "Activity: compare the colonists' rebellion with a protest or reform movement you know about"
+     ],
+     "links": [
+      {
+       "label": "Lesson page: The Battle of Bunker Hill (Teaching with Historic Places)",
+       "url": "https://www.nps.gov/teachers/classrooms/42bunker.htm"
+      },
+      {
+       "label": "Full lesson plan (PDF)",
+       "url": "https://www.nps.gov/teachers/classrooms/upload/TwHP-Lessons_42Bunker.pdf"
+      }
+     ],
+     "questions": [
+      "On which hill was most of the 'Bunker Hill' fighting actually done?",
+      "What was the date of the battle?",
+      "The British won the hill. Why did the battle still encourage the colonists?"
+     ],
+     "answers": [
+      "Breed's Hill",
+      "June 17, 1775",
+      "The British lost so many men that the colonists saw they could stand up to the regular army"
+     ]
+    },
+    {
+     "title": "The Spark at Ticonderoga",
+     "steps": [
+      "Find Fort Ticonderoga and Boston on a map of the northeastern colonies",
+      "Read the background on Henry Knox and his plan to haul the fort's cannons to Boston",
+      "Annotate the route map: mark rivers, mountains, and places where trouble could happen",
+      "Predict: will the plan work? List your reasons"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: The Spark at Ticonderoga (Springfield Armory NHS)",
+       "url": "https://www.nps.gov/teachers/classrooms/the-spark-at-ticonderoga.htm"
+      },
+      {
+       "label": "Student map annotation activity (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Student%20Map%20Annotation%20Activity.pdf"
+      }
+     ],
+     "questions": [
+      "Why did the Continental Army near Boston need Knox's plan?",
+      "What job did Henry Knox have before the war?",
+      "Some of the cannons weighed over how many pounds?"
+     ],
+     "answers": [
+      "It had no heavy artillery to challenge the British in Boston",
+      "Bookseller in Boston",
+      "5,000 pounds"
+     ]
+    },
+    {
+     "title": "Ice, Iron, and the Hudson",
+     "steps": [
+      "Study the Hudson corridor map and the photo of the frozen river",
+      "List ways to move heavy cannons in winter: sleds, skids, boats, roads; weigh pros and cons",
+      "STEM challenge: build a small sled from craft supplies and test how much weight it carries across a smooth 'frozen river'"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Ice, Iron, and the Hudson (Springfield Armory NHS)",
+       "url": "https://www.nps.gov/teachers/classrooms/ice-iron-and-the-hudson.htm"
+      },
+      {
+       "label": "Hudson corridor map (image)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Hudson%20Corridor%20Map.png"
+      }
+     ],
+     "questions": [
+      "Why was the frozen Hudson both a help and a danger?",
+      "What problem-solving skills helped Knox's team succeed?"
+     ],
+     "answers": [
+      "Thick ice let sleds travel fast, but thin ice could break under the heavy guns",
+      "Adapting plans, teamwork, and creative thinking"
+     ]
+    },
+    {
+     "title": "The Turning Point in Springfield",
+     "steps": [
+      "Read how Knox's train passed through Springfield, Massachusetts",
+      "Read the student-friendly version of Knox's 1777 letter to John Adams",
+      "Compare maps of Springfield and Boston and list what made Springfield a good supply depot",
+      "Write a short letter, as Knox, recommending Springfield"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: The Turning Point in Springfield (Springfield Armory NHS)",
+       "url": "https://www.nps.gov/teachers/classrooms/the-turning-point-in-springfield.htm"
+      },
+      {
+       "label": "Knox letter and student-friendly version (Word)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Knox%20Letter%20AND%20Student%20Friendly%20Version.docx"
+      }
+     ],
+     "questions": [
+      "Which river made Springfield useful for moving supplies?",
+      "To whom did Knox write in 1777 recommending Springfield over Brookfield?"
+     ],
+     "answers": [
+      "The Connecticut River",
+      "John Adams"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 2: 1776, Choosing Sides and Declaring Independence",
+   "lessons": [
+    {
+     "title": "Choosing Sides: Loyalist or Patriot?",
+     "steps": [
+      "Read the two colonists' 'campaign speeches' aloud (one child or parent each)",
+      "Fill in the lesson's 'Which will you choose?' handout (on the lesson page): what would you gain or lose on each side?",
+      "Vote, then reveal which colonist was the Loyalist and which the Patriot"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Choosing Sides (Moores Creek NB)",
+       "url": "https://www.nps.gov/teachers/classrooms/choosing-sides.htm"
+      },
+      {
+       "label": "Colonist A and B scripts (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Colonist%20A%20and%20B%20Scripts.pdf"
+      }
+     ],
+     "questions": [
+      "What is a Loyalist?",
+      "What is a Patriot?"
+     ],
+     "answers": [
+      "A colonist who stayed loyal to the British king",
+      "A colonist who supported independence from Britain"
+     ]
+    },
+    {
+     "title": "The Highland Scots at Moores Creek",
+     "steps": [
+      "Look at the painting of the Battle of Moores Creek Bridge: what do you notice?",
+      "Read the lesson's short reading on Highland Scots who settled in North Carolina",
+      "Make a push and pull chart for why they came, then compare their experience with immigrants today"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: The Highland Scots (Moores Creek NB)",
+       "url": "https://www.nps.gov/teachers/classrooms/the-highland-scots.htm"
+      },
+      {
+       "label": "Push and pull factor worksheet (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Worksheet.pdf"
+      }
+     ],
+     "questions": [
+      "Which side did many Highland Scots join at Moores Creek Bridge?",
+      "What are push and pull factors?",
+      "What had been removed from the bridge in the painting?"
+     ],
+     "answers": [
+      "The Loyalists",
+      "Reasons that push people to leave a place and pull them to a new one",
+      "The planks"
+     ]
+    },
+    {
+     "title": "Loyal to Whom?",
+     "steps": [
+      "Answer: what does loyalty mean to you?",
+      "Watch the park's video clips about three neighbors near Saratoga: John Neilson, Jotham Bemus, and John Freeman",
+      "Sort their choices into Royalist, neutral, or supporter of independence, and list pros and cons of each"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Loyal to Whom? (Saratoga NHP)",
+       "url": "https://www.nps.gov/teachers/classrooms/loyal-to-whom.htm"
+      },
+      {
+       "label": "Student activity packet (Word)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Loyal_to_Whom_Activity_Packet.docx"
+      }
+     ],
+     "questions": [
+      "Name the three main responses colonists had to independence.",
+      "Why might a family try to stay neutral?"
+     ],
+     "answers": [
+      "Royalist (Loyalist), neutral, or supporter of independence",
+      "They had friends or family on both sides, or a business that depended on both"
+     ]
+    },
+    {
+     "title": "Independence Hall: International Symbol of Freedom",
+     "steps": [
+      "Find Philadelphia on the map of the thirteen colonies and the 1777 city plan",
+      "Read 'American Democracy Takes Shape' and the partial transcript of the Declaration of Independence",
+      "Read about the Constitution and about how the State House became a World Heritage Site",
+      "Activity: pick one signer and write a short profile"
+     ],
+     "links": [
+      {
+       "label": "Lesson page: Independence Hall (Teaching with Historic Places)",
+       "url": "https://www.nps.gov/teachers/classrooms/132independence.htm"
+      },
+      {
+       "label": "Full lesson plan (PDF)",
+       "url": "https://www.nps.gov/teachers/classrooms/upload/TwHP-Lessons_132independence.pdf"
+      }
+     ],
+     "questions": [
+      "What was Independence Hall called in 1776?",
+      "Which two founding documents were signed there?",
+      "In what year did it become a World Heritage Site?"
+     ],
+     "answers": [
+      "The Pennsylvania State House",
+      "The Declaration of Independence and the U.S. Constitution",
+      "1979"
+     ]
+    },
+    {
+     "title": "The Liberty Bell: From Obscurity to Icon",
+     "steps": [
+      "Locate the Liberty Bell on the Philadelphia maps",
+      "Read 'The Growth of a Symbol' and 'The Crack in the Liberty Bell'",
+      "Read about the bell's tours and follow one trip on a map",
+      "Activity: design a symbol for something you believe in"
+     ],
+     "links": [
+      {
+       "label": "Lesson page: The Liberty Bell (Teaching with Historic Places)",
+       "url": "https://www.nps.gov/teachers/classrooms/36libertybell.htm"
+      },
+      {
+       "label": "Full lesson plan (PDF)",
+       "url": "https://www.nps.gov/teachers/classrooms/upload/TwHP-Lessons_36libertybell.pdf"
+      }
+     ],
+     "questions": [
+      "Who first called it the 'Liberty Bell'?",
+      "What year is cast on the bell?"
+     ],
+     "answers": [
+      "Abolitionist publications in the 1830s",
+      "1753"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 3: The Campaign of 1777",
+   "lessons": [
+    {
+     "title": "The Battle of Oriskany: Blood Shed a Stream Running Down",
+     "steps": [
+      "Trace the Great Carry trade route and the lands of the Iroquois Confederacy on the maps",
+      "Read 'Growing Tensions in Central New York' and 'The Battle of Oriskany'",
+      "Read about the battle's effects on neighbors and on the Haudenosaunee nations",
+      "Activity: 'Where Do I Stand?' Decide which side you would have chosen in the Mohawk Valley"
+     ],
+     "links": [
+      {
+       "label": "Lesson page: The Battle of Oriskany (Teaching with Historic Places)",
+       "url": "https://www.nps.gov/teachers/classrooms/79oriskany.htm"
+      },
+      {
+       "label": "Full lesson plan (PDF)",
+       "url": "https://www.nps.gov/teachers/classrooms/upload/TwHP-Lessons_79oriskany.pdf"
+      }
+     ],
+     "questions": [
+      "When was the Battle of Oriskany fought?",
+      "Which Iroquois nation's lands held the Great Carry trade route?",
+      "Why was Oriskany called a battle of neighbors?"
+     ],
+     "answers": [
+      "August 6, 1777",
+      "The Oneida Nation",
+      "Neighbors in the Mohawk Valley, both settlers and Native nations, fought on opposite sides"
+     ]
+    },
+    {
+     "title": "Saratoga: The Tide Turns on the Frontier",
+     "steps": [
+      "Study the map of the Lake Champlain and Hudson Valley campaign",
+      "Read 'The Battles of Saratoga' and 'Eighteenth-Century Warfare'",
+      "Look at the French engraving of Burgoyne's surrender",
+      "Activity: hold a council of war as Burgoyne's officers: retreat, fight, or surrender?"
+     ],
+     "links": [
+      {
+       "label": "Lesson: Saratoga, The Tide Turns on the Frontier (Teaching with Historic Places)",
+       "url": "https://www.nps.gov/articles/saratoga-the-tide-turns-on-the-frontier-teaching-with-historic-places.htm"
+      }
+     ],
+     "questions": [
+      "Which British general surrendered at Saratoga?",
+      "Why is Saratoga called the turning point of the Revolution?"
+     ],
+     "answers": [
+      "John Burgoyne",
+      "The American victory encouraged France to join the war as an ally"
+     ]
+    },
+    {
+     "title": "Tradesmen of the Springfield Arsenal",
+     "steps": [
+      "Read the arsenal's 'want ad' aloud",
+      "Take a tradesman role card (blacksmith, carpenter, wheelwright, and more) and read the bio sheet",
+      "Hold a 'town hall': explain why your trade matters to the army"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Tradesmen of the Springfield Arsenal (Springfield Armory NHS)",
+       "url": "https://www.nps.gov/teachers/classrooms/tradesmen-of-the-springfield-arsenal-in-the-american-revolution.htm"
+      },
+      {
+       "label": "Tradesmen cards (Word)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Tradesmen%20Cards.docx"
+      }
+     ],
+     "questions": [
+      "In what year was the Springfield Arsenal established?",
+      "What does a blacksmith do?"
+     ],
+     "answers": [
+      "1777",
+      "Shapes iron into tools and parts, including parts for weapons"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 4: Valley Forge and the Soldiers Who Endured",
+   "lessons": [
+    {
+     "title": "The March In: Why Valley Forge?",
+     "steps": [
+      "Brainstorm what you would look for in a winter campsite",
+      "Read the secondary sources and use the maps in 'The March In' handout",
+      "List the reasons Washington chose Valley Forge and score your group on the survival rubric"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: The March In (Valley Forge NHP)",
+       "url": "https://www.nps.gov/teachers/classrooms/marin.htm"
+      },
+      {
+       "label": "The March In: texts and maps (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Copy%20of%20The-March-In.pdf"
+      }
+     ],
+     "questions": [
+      "About how far was Valley Forge from British-held Philadelphia?",
+      "Name one reason the site was good for defense."
+     ],
+     "answers": [
+      "About 20 miles",
+      "The high ground of Mount Joy and Mount Misery, with the Schuylkill River to the north"
+     ]
+    },
+    {
+     "title": "Valley Forge by the Numbers",
+     "steps": [
+      "Watch the park film or read the talking points about the 1777 to 1778 encampment",
+      "Work the worksheet problems: food, firewood, and supplies for 12,000 soldiers",
+      "Discuss how the army's needs affected local farm families"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Valley Forge by the Numbers (Valley Forge NHP)",
+       "url": "https://www.nps.gov/teachers/classrooms/vf-by-the-numbers.htm"
+      }
+     ],
+     "questions": [
+      "Was Valley Forge a battle?",
+      "About how many men died of disease at Valley Forge?",
+      "Who trained the troops there?"
+     ],
+     "answers": [
+      "No, it was a winter encampment",
+      "About 1,700 to 2,000",
+      "Baron von Steuben"
+     ]
+    },
+    {
+     "title": "African Americans in the American Revolution",
+     "steps": [
+      "Read the lesson's reading on African Americans in the Revolution",
+      "Choose one person from the reading and plan a mock interview",
+      "Design a stamp honoring that person and explain your choice"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: African Americans in the American Revolution (Kings Mountain NMP)",
+       "url": "https://www.nps.gov/teachers/classrooms/african-americans-in-the-american-revolution.htm"
+      },
+      {
+       "label": "Reading (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/African%20Americans%20in%20the%20Revolution.pdf"
+      }
+     ],
+     "questions": [
+      "About how many African Americans served in the war?",
+      "Why did many enslaved people join the British side?"
+     ],
+     "answers": [
+      "About 5,000",
+      "British commanders offered freedom to enslaved people who fought for the king"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 5: The Southern Campaign and Victory",
+   "lessons": [
+    {
+     "title": "Tactics in the Battle of Kings Mountain",
+     "steps": [
+      "Read the lesson's reading on the battle and its terrain",
+      "Fill in a Venn diagram comparing Patriot and Loyalist tactics",
+      "Write a short advice column giving tactical tips to a soldier"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Tactics in the Battle of Kings Mountain (Kings Mountain NMP)",
+       "url": "https://www.nps.gov/teachers/classrooms/tactics-in-the-battle-of-kings-mountain.htm"
+      },
+      {
+       "label": "Reading: Tactics at Kings Mountain (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Reading%20-%20Tactices%20in%20the%20Battle%20of%20Kings%20Mountain.pdf"
+      }
+     ],
+     "questions": [
+      "What made Kings Mountain unusual among Revolutionary War battles?",
+      "Rifle or musket: which was more accurate, and which was faster to load?"
+     ],
+     "answers": [
+      "It was fought between Americans: no British troops served there",
+      "The rifle was more accurate; the musket was faster to load"
+     ]
+    },
+    {
+     "title": "Leaders at Cowpens: Morgan and Tarleton",
+     "steps": [
+      "Read the background on Daniel Morgan and Banastre Tarleton",
+      "Make a two-column chart of each man's background and leadership style",
+      "Write a paragraph: how did leadership decide the battle?"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Leaders at the Battle of Cowpens (Cowpens NB)",
+       "url": "https://www.nps.gov/teachers/classrooms/leaders-at-the-battle-of-cowpens-morgan-and-tarleton.htm"
+      }
+     ],
+     "questions": [
+      "What job did Morgan have in the French and Indian War?",
+      "How did Morgan arrange his soldiers at Cowpens?",
+      "Why were Tarleton's men worn out when the battle began?"
+     ],
+     "answers": [
+      "Wagon driver (the 'Old Wagoner')",
+      "In three lines, so the militia could fire and fall back",
+      "He marched them from two in the morning with little food or rest"
+     ]
+    },
+    {
+     "title": "The Battle of Cowpens: Reader's Theater",
+     "steps": [
+      "Read the teacher background on the people in the script",
+      "Perform the Cowpens reader's theater script together",
+      "Put the battle's events in order on the series-of-events chain"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Battle of Cowpens Reader's Theater (Cowpens NB)",
+       "url": "https://www.nps.gov/teachers/classrooms/battle-of-cowpens-readers-theater.htm"
+      },
+      {
+       "label": "Reader's theater script (Word)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/CowpensBattlefieldReadersTheater1.docx"
+      },
+      {
+       "label": "Series of events chain (Word)",
+       "url": "https://www.nps.gov/cowp/learn/education/upload/BattleofCowpensSeriesofEventsChain.docx"
+      }
+     ],
+     "questions": [
+      "What was 'Tarleton's Quarter'?",
+      "On what date was the Battle of Cowpens fought?"
+     ],
+     "answers": [
+      "A Patriot rallying cry after reports that Tarleton's men killed surrendering soldiers at the Waxhaws",
+      "January 17, 1781"
+     ]
+    },
+    {
+     "title": "Unsung Patriots: Women at Cowpens",
+     "steps": [
+      "Read the background on women's roles in the Revolution",
+      "Match the women on the lesson's list with facts about them and find their home colonies on a map",
+      "Write a diary entry as one of these women"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Unsung Patriots, Women at the Battle of Cowpens (Cowpens NB)",
+       "url": "https://www.nps.gov/teachers/classrooms/unsung-patriots-women-at-the-battle-of-cowpens.htm"
+      }
+     ],
+     "questions": [
+      "What were 'camp followers'?",
+      "Why should we be careful with stories about Revolutionary heroines?"
+     ],
+     "answers": [
+      "Women (and families) who traveled with the army, cooking, sewing, and nursing",
+      "Many mix fact and legend, so good researchers check the evidence"
+     ]
+    },
+    {
+     "title": "Guilford Courthouse: A Pivotal Battle",
+     "steps": [
+      "Study the maps of Guilford Courthouse and the battle",
+      "Read the battle account and the generals' reports",
+      "Hold a debate: who really won at Guilford Courthouse?"
+     ],
+     "links": [
+      {
+       "label": "Lesson page: Guilford Courthouse (Teaching with Historic Places)",
+       "url": "https://www.nps.gov/teachers/classrooms/32guilford.htm"
+      },
+      {
+       "label": "Full lesson plan (PDF)",
+       "url": "https://www.nps.gov/teachers/classrooms/upload/TwHP-Lessons_32guilford.pdf"
+      }
+     ],
+     "questions": [
+      "When was the battle fought?",
+      "Which generals commanded the two armies?",
+      "Where did Cornwallis's road lead seven months later?"
+     ],
+     "answers": [
+      "March 15, 1781",
+      "Nathanael Greene (American) and Lord Cornwallis (British)",
+      "To defeat at Yorktown, Virginia"
+     ]
+    },
+    {
+     "title": "Yorktown Through Poetry",
+     "steps": [
+      "Review the siege of Yorktown and the people involved",
+      "Read the Articles of Capitulation",
+      "Write an acrostic or blackout poem about Yorktown from words in a document"
+     ],
+     "links": [
+      {
+       "label": "Lesson plan: Interacting With Yorktown Through Poetry (Colonial NHP)",
+       "url": "https://www.nps.gov/teachers/classrooms/interacting-with-yorktown-through-poetry.htm"
+      },
+      {
+       "label": "Articles of Capitulation, Yorktown (PDF)",
+       "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Articles%20of%20Capitulation%2C%20Yorktown.pdf"
+      }
+     ],
+     "questions": [
+      "Who surrendered at Yorktown in 1781?",
+      "What is a blackout poem?"
+     ],
+     "answers": [
+      "Lord Cornwallis and his British army",
+      "A poem made by blacking out most words on a page and keeping a few"
+     ]
+    }
+   ]
+  }
+ ]
+}
