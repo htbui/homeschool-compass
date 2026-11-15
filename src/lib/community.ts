@@ -75,3 +75,13 @@ export const SAMPLE_FAMILIES: FamilyCard[] = [
   { id: 'f7', displayName: 'Tomás G.', kidAges: [9], philosophies: ['unschooling'], interests: ['minecraft', 'dinosaurs', 'cooking'], distanceMiles: 2.6, verified: true },
   { id: 'f8', displayName: 'Rachel B.', kidAges: [10, 13, 16], philosophies: ['classical', 'faith_based'], interests: ['creative writing', 'theater', 'history'], distanceMiles: 19.0, verified: true },
 ];
+
+/** Shown before a family's first meetup, and any time from Community or a conversation. */
+export const MEETUP_SAFETY_TIPS = [
+  { icon: '🏞️', title: 'Meet somewhere public', body: 'A park, library, or museum for the first few meetups, never at someone’s home.' },
+  { icon: '👨‍👩‍👧', title: 'Grown-ups stay', body: 'Each parent stays with their own kids the whole time. No drop-offs at a first meetup.' },
+  { icon: '🎥', title: 'Say hello first', body: 'A quick phone or video call before you meet helps you know who you’re meeting.' },
+  { icon: '📱', title: 'Tell someone your plans', body: 'Share where you’re going, who you’re meeting, and when you’ll be back.' },
+  { icon: '🔒', title: 'Keep private details private', body: 'Hold back your home address, kids’ full names, and daily routine until you know a family well.' },
+  { icon: '🚩', title: 'Trust your gut', body: 'If something feels off, leave. Block and report anyone who makes you or your kids uncomfortable.' },
+] as const;

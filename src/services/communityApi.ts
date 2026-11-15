@@ -31,6 +31,8 @@ export interface NearbyFamily {
   interests: string[];
   band: string;
   emailVerified: boolean;
+  /** Checked by the Freerange team (shown as a badge). */
+  verified: boolean;
   connection: ConnectionState;
 }
 
@@ -43,6 +45,7 @@ export interface Connection {
   contact: string;
   kidAges: number[];
   band: string;
+  verified: boolean;
 }
 
 export interface LiveCoop {
@@ -135,14 +138,14 @@ export async function saveProfile(p: CommunityProfile): Promise<void> {
 
 export async function nearbyFamilies(f: { maxMiles: number; ageMin?: number; ageMax?: number; style?: Philosophy }): Promise<NearbyFamily[]> {
   const rows = check(await db().rpc('nearby_families', { max_miles: f.maxMiles, age_min: f.ageMin ?? null, age_max: f.ageMax ?? null, style: f.style ?? null })) as {
-    family_id: string; display_name: string; bio: string; kid_ages: number[]; philosophies: Philosophy[]; interests: string[]; band: string; email_verified: boolean; connection: ConnectionState;
+    family_id: string; display_name: string; bio: string; kid_ages: number[]; philosophies: Philosophy[]; interests: string[]; band: string; email_verified: boolean; connection: ConnectionState; verified: boolean;
   }[];
-  return rows.map((r) => ({ familyId: r.family_id, displayName: r.display_name, bio: r.bio, kidAges: r.kid_ages, philosophies: r.philosophies, interests: r.interests, band: r.band, emailVerified: r.email_verified, connection: r.connection }));
+  return rows.map((r) => ({ familyId: r.family_id, displayName: r.display_name, bio: r.bio, kidAges: r.kid_ages, philosophies: r.philosophies, interests: r.interests, band: r.band, emailVerified: r.email_verified, verified: !!r.verified, connection: r.connection }));
 }
 
 export async function myConnections(): Promise<Connection[]> {
-  const rows = check(await db().rpc('my_connections')) as { family_id: string; display_name: string; status: Connection['status']; direction: Connection['direction']; message: string; contact: string; kid_ages: number[]; band: string }[];
-  return rows.map((r) => ({ familyId: r.family_id, displayName: r.display_name, status: r.status, direction: r.direction, message: r.message, contact: r.contact, kidAges: r.kid_ages, band: r.band }));
+  const rows = check(await db().rpc('my_connections')) as { family_id: string; display_name: string; status: Connection['status']; direction: Connection['direction']; message: string; contact: string; kid_ages: number[]; band: string; verified: boolean }[];
+  return rows.map((r) => ({ familyId: r.family_id, displayName: r.display_name, status: r.status, direction: r.direction, message: r.message, contact: r.contact, kidAges: r.kid_ages, band: r.band, verified: !!r.verified }));
 }
 
 export async function requestConnection(to: string, message: string) {

@@ -51,6 +51,8 @@ interface Data {
   myListings: Listing[];
   myReviews: Review[];
   helpfulVotes: ID[];
+  /** When a parent read the meetup safety tips (shown before the first meetup). */
+  meetupTipsSeenAt?: string;
   mode: AppMode;
 }
 
@@ -107,6 +109,7 @@ interface Actions {
   addCoop: (c: Omit<CoOp, 'id' | 'joined' | 'members'>) => void;
   toggleEvent: (id: ID, field: 'going' | 'carpool') => void;
   addEvent: (e: Omit<CommunityEvent, 'id' | 'rsvps' | 'going' | 'carpool'>) => void;
+  markMeetupTipsSeen: () => void;
 
   recordPurchase: (p: Purchase) => void;
   /** `content` is the full lesson plan for Studio packages. */
@@ -326,6 +329,7 @@ export const useStore = create<Store>()(
           }),
         })),
       addEvent: (e) => set((s) => ({ events: [...s.events, { ...e, id: uid('e'), rsvps: 1, going: true, carpool: false }] })),
+      markMeetupTipsSeen: () => set({ meetupTipsSeenAt: new Date().toISOString() }),
 
       recordPurchase: (p) =>
         set((s) => {

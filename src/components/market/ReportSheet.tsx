@@ -14,10 +14,12 @@ const REASONS: { value: ReportReason; label: string; listingOnly?: boolean }[] =
   { value: 'other', label: 'Something else' },
 ];
 
-/** Report a listing or review to the Freerange moderators. */
+const TITLE: Record<ReportTarget['kind'], string> = { listing: 'Report this listing', review: 'Report this review', message: 'Report this message' };
+
+/** Report a listing, review, or message to the Freerange moderators. */
 export function ReportSheet({ target, name, onClose }: { target?: ReportTarget; name?: string; onClose: () => void }) {
   return (
-    <Sheet visible={!!target} onClose={onClose} title={target?.kind === 'review' ? 'Report this review' : 'Report this listing'}>
+    <Sheet visible={!!target} onClose={onClose} title={TITLE[target?.kind ?? 'listing']}>
       {target ? <ReportForm key={target.id} target={target} name={name} onClose={onClose} /> : null}
     </Sheet>
   );
@@ -43,6 +45,7 @@ function ReportForm({ target, name, onClose }: { target: ReportTarget; name?: st
           A Freerange moderator will look at {name ? `“${name}”` : 'it'} and decide whether it stays up.
           {sent.hidden ? ' Several families reported it, so it’s hidden until then.' : ''}
         </T>
+        {target.kind === 'message' ? <T muted>If you don’t want to hear from this family again, you can also block them.</T> : null}
         <Row style={{ justifyContent: 'flex-end' }}>
           <Button title="Done" onPress={onClose} />
         </Row>
@@ -76,6 +79,7 @@ function ReportForm({ target, name, onClose }: { target: ReportTarget; name?: st
   return (
     <Stack>
       {name ? <T muted>{name}</T> : null}
+      {target.kind === 'message' ? <T v="caption" muted>The moderators will see this one message, not the rest of your conversation.</T> : null}
       <Stack gap={6}>
         <T v="label">What’s wrong?</T>
         <Row wrap gap={6}>
