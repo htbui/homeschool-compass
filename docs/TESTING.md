@@ -181,3 +181,19 @@ Bugs these tests found and fixed (migration `20261115000012_studio_community_fix
 - fetch-page accepted `localhost.` / `intranet.` (trailing dot) before the DNS check.
 - Studio and co-op invite links opened in kid mode.
 - Asking a family to connect again after they declined showed a raw database error.
+## Shared UI foundations (design review)
+
+The cross-cutting fixes from the UI/UX review live in the shared components, so they are
+tested once here rather than per screen. Files: unit `src/lib/__tests__/contrast.test.ts`,
+`nav.test.ts`, `draft.test.ts`, `accountCopy.test.ts`; e2e `e2e/ux-foundation.mjs`
+(local-only build, desktop and 390×844, part of `npm run test:e2e`).
+
+| Feature | Covered by | Known gaps |
+| --- | --- | --- |
+| Text contrast ≥ 4.5:1 (Pill tones, ModeBadge, Chip, Button kinds, ink tokens, discard bar, state tier pills) in light and dark | unit `contrast` (every pair, both palettes; WCAG reference values) | Placeholders are deliberately lighter (≥ 2.5:1, below helper text) so empty fields don't look filled; screen-specific one-off colors aren't enumerated |
+| Inputs named for screen readers (`Field` label → aria-label, hint → aria-describedby), "e.g." example placeholders in a lighter color | e2e `ux-foundation` › *Inputs are named* (family step, add-child sheet, Notice of Intent, hours) | The cloud sign-in form is only on the cloud build (same `Field`) |
+| "Still needed" reason under the button row (`Actions`), Cancel stays visible | e2e `ux-foundation` › *"Still needed" stays on screen* (sell sheet: inside the viewport, not clipped, on its own line, Cancel on screen) | Other sheets use the same `Actions` but aren't measured one by one |
+| Back from deep links (`HeaderBack`: history, else the parent route) | unit `nav` (every route family, query/hash/trailing slash, fallback); e2e `ux-foundation` › *Back from deep links* (listing, gift, bundle, storefront, studio page, studio, account, NOI, notifications: label, 44 px, lands on the parent; in-app push goes back normally) | Native header (iOS/Android) not exercised here |
+| Roles, states and 44 px hit boxes (Chip checkbox/radio + aria-checked, Segmented tablist/tab + aria-selected, small buttons, tappable cards) | e2e `ux-foundation` › *Chips and tabs* (marketplace filters and tabs, "＋ Task", Today task cards) | Screen-specific pressables (mission cards, stars) are left to their screens |
+| Delete asks first (`ConfirmButton`), unsaved-changes guard (`Sheet dirty`) | unit `draft` (draft comparison ignores key order/undefined, catches edits); e2e `ux-foundation` › *Delete a task asks first*, *Lesson sheet: discard and delete* (untouched closes, edits ask on ✕ and backdrop, keep editing, discard doesn't save, cancel keeps the lesson, Delete apart from Save) | No undo toast: deletes are confirmed instead |
+| Device-only build never says "Sign in" (`AccountNote` / `needsAccount`) | unit `accountCopy`; e2e `ux-foundation` › *Local build never says "Sign in"* (Studio, classes, promotions, community, messages, marketplace, settings, storefront; no dead-end storefront link; preview connect says nothing was sent); `market-local` (report sheet), `scenarios` (preview community) | The cloud build's wording is only checked by the existing cloud suites |

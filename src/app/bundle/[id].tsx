@@ -49,7 +49,7 @@ export default function BundleDetail() {
 
       <Card style={{ marginTop: space.lg }}>
         {all ? (
-          <Pill text="✓ You have everything in this bundle" bg={c.successSoft} fg={c.success} />
+          <Pill text="✓ You have everything in this bundle" tone="success" />
         ) : (
           <>
             <Price price={s.price} was={s.listTotal} size="display" />

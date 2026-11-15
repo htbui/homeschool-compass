@@ -90,7 +90,7 @@ export function GiftsPanel() {
             <Card key={g.id}>
               <Row style={{ justifyContent: 'space-between' }} wrap>
                 <T v="heading" style={{ flex: 1 }}>{g.title}</T>
-                <Pill text={GIFT_STATUS[g.status]} bg={g.status === 'claimed' ? c.successSoft : undefined} fg={g.status === 'claimed' ? c.success : undefined} />
+                <Pill text={GIFT_STATUS[g.status]} tone={g.status === 'claimed' ? 'success' : undefined} />
               </Row>
               <T v="caption" muted>
                 For {g.recipientLabel} · {day(g.createdAt)} · {g.price > 0 ? `${money(g.price)}${g.demo ? ' (demo)' : ''}` : 'free'}

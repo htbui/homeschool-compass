@@ -2,6 +2,7 @@ import { router } from 'expo-router';
 import { useMemo, useState } from 'react';
 import { View } from 'react-native';
 
+import { needsAccount } from '@/components/AccountNote';
 import { LiveCommunity } from '@/components/community/LiveCommunity';
 import { useMeetupTips } from '@/components/community/SafetyTips';
 import { VerifiedBadge } from '@/components/community/VerifiedBadge';
@@ -114,7 +115,10 @@ function PreviewCommunity() {
                     <T v="heading">{f.displayName}</T>
                     {f.verified ? <VerifiedBadge /> : null}
                   </Row>
-                  <Pill text={f.band} />
+                  <Row gap={6}>
+                    <Pill text="Sample family" tone="accent" />
+                    <Pill text={f.band} />
+                  </Row>
                 </Row>
                 <T v="caption" muted>Kids: {f.kidAges.join(', ')} · {f.philosophies.map((p) => PHILOSOPHY_INFO[p].label).join(', ')}</T>
                 <Row wrap gap={6}>
@@ -122,15 +126,16 @@ function PreviewCommunity() {
                     <Pill key={i} text={i} bg={family.interests.includes(i) ? c.primarySoft : undefined} />
                   ))}
                 </Row>
-                <Row>
-                  <Button
-                    size="sm"
-                    kind={connected.has(f.id) ? 'secondary' : 'primary'}
-                    title={connected.has(f.id) ? 'Request sent' : 'Request to connect'}
-                    disabled={connected.has(f.id)}
-                    onPress={() => setConnected(new Set([...connected, f.id]))}
-                  />
-                </Row>
+                {connected.has(f.id) ? (
+                  // A sample family can't get a request: say so instead of pretending it was sent.
+                  <T v="caption" color={c.accentInk} accessibilityLiveRegion="polite">
+                    🧪 This is a sample family, so no request is sent. {needsAccount('Sign in to connect with real families near you.', 'The live community turns on when this app is connected to the Freerange service.')}
+                  </T>
+                ) : (
+                  <Row>
+                    <Button size="sm" title="Request to connect" onPress={() => setConnected(new Set([...connected, f.id]))} />
+                  </Row>
+                )}
               </Card>
             ))}
           </Stack>
@@ -157,8 +162,9 @@ function PreviewCommunity() {
                   </View>
                 ) : null}
                 <Row>
-                  <Button size="sm" kind={co.joined ? 'secondary' : 'primary'} title={co.joined ? 'Leave' : 'Request to join'} onPress={() => toggleCoop(co.id)} />
+                  <Button size="sm" kind={co.joined ? 'secondary' : 'primary'} title={co.joined ? 'Leave' : 'Join (preview)'} onPress={() => toggleCoop(co.id)} />
                 </Row>
+                {co.joined ? <T v="caption" muted>🧪 Preview: joined on this device only. No one else sees it.</T> : null}
               </Card>
             ))}
           </Stack>

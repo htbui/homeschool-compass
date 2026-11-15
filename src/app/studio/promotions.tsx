@@ -2,6 +2,7 @@ import { router, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
 import { View } from 'react-native';
 
+import { AccountNote } from '@/components/AccountNote';
 import { money, Price, SaleNote } from '@/components/market/PriceTag';
 import { addDays, formatDate, todayKey } from '@/lib/dates';
 import type { Listing } from '@/lib/market';
@@ -10,7 +11,7 @@ import { bundleIssues, bundleSummary, couponIssues, couponLabel, currentPrice, n
 import { deleteCoupon, myBundles, myCoupons, removeBundle, saveBundle, saveCoupon, setSale } from '@/services/promoApi';
 import { useAccount } from '@/store/useAccount';
 import { useCatalog } from '@/store/useMarket';
-import { Button, Card, Chip, DateField, Empty, Field, MoneyField, Pill, Row, Screen, Section, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
+import { Actions, Button, Card, Chip, DateField, Empty, Field, MoneyField, Pill, Row, Screen, Section, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
 
 /** End of the chosen day, as a timestamp. */
 const endOf = (d: string) => new Date(`${d}T23:59:00`).toISOString();
@@ -52,7 +53,7 @@ export default function Promotions() {
     <Screen edges={[]}>
       <T v="display">🏷️ Sales, bundles & coupons</T>
       <T muted>Prices are always worked out by Freerange at checkout, so what families pay matches what you set here.</T>
-      {!userId ? <T v="caption" muted style={{ marginTop: space.sm }}>Without an account these stay on this device, like your listings. Sign in so families everywhere see them.</T> : null}
+      {!userId ? <AccountNote style={{ marginTop: space.sm }} signIn="Without an account these stay on this device, like your listings. Sign in so families everywhere see them." deviceOnly="Sales, bundles, and coupons stay here too, like your listings." /> : null}
       {error ? <T color={c.danger}>{error}</T> : null}
 
       {mine.length === 0 ? (
@@ -117,7 +118,7 @@ export default function Promotions() {
                   <Card key={k.id}>
                     <Row style={{ justifyContent: 'space-between' }} wrap>
                       <T v="heading" style={{ flex: 1, letterSpacing: 1 }} selectable>{k.code}</T>
-                      <Pill text={!k.active ? 'Paused' : expired ? 'Expired' : usedUp ? 'Used up' : 'Active'} bg={k.active && !expired && !usedUp ? c.successSoft : undefined} fg={k.active && !expired && !usedUp ? c.success : undefined} />
+                      <Pill text={!k.active ? 'Paused' : expired ? 'Expired' : usedUp ? 'Used up' : 'Active'} tone={k.active && !expired && !usedUp ? 'success' : undefined} />
                     </Row>
                     <T v="caption">
                       {couponLabel(k)} · {title(k.listingId)} · used {k.uses}{k.maxUses ? ` of ${k.maxUses}` : ''} time{k.uses === 1 && !k.maxUses ? '' : 's'}
@@ -170,10 +171,10 @@ function SaleSheet({ listing, onClose }: { listing: Listing; onClose: () => void
       <DateField label="Last day of the sale" value={ends} onChange={setEnds} />
       {n && !issues.length ? <T>Families pay {money(currentPrice({ price: listing.price, salePercent: n, saleEndsAt: endsAt }))} instead of {money(listing.price)}.</T> : null}
       {error ? <T color={c.danger}>{error}</T> : null}
-      <Row style={{ justifyContent: 'flex-end' }}>
+      <Actions>
         <Button kind="secondary" title="Cancel" onPress={onClose} />
         <Button title="Start the sale" loading={busy} disabled={issues.length > 0} reason={`Still needed: ${issues.join(', ')}`} onPress={save} />
-      </Row>
+      </Actions>
     </Sheet>
   );
 }
@@ -217,10 +218,10 @@ function BundleSheet({ existing, mine, onClose }: { existing?: Bundle; mine: Lis
         <MoneyField label={`Bundle price${sum ? ` (separately: ${money(sum)})` : ''}`} value={price} onChange={setPrice} />
       </View>
       {error ? <T color={c.danger}>{error}</T> : null}
-      <Row style={{ justifyContent: 'flex-end' }}>
+      <Actions>
         <Button kind="secondary" title="Cancel" onPress={onClose} />
         <Button title="Save bundle" loading={busy} disabled={issues.length > 0} reason={`Still needed: ${issues.join(', ')}`} onPress={save} />
-      </Row>
+      </Actions>
     </Sheet>
   );
 }
@@ -271,10 +272,10 @@ function CouponSheet({ mine, existing, onClose }: { mine: Listing[]; existing: C
       <Field label="How many times it can be used (optional)" placeholder="No limit" keyboardType="number-pad" value={maxUses} onChangeText={setMaxUses} />
       <DateField label="Last day it works (optional)" value={expires} onChange={setExpires} />
       {error ? <T color={c.danger}>{error}</T> : null}
-      <Row style={{ justifyContent: 'flex-end' }}>
+      <Actions>
         <Button kind="secondary" title="Cancel" onPress={onClose} />
         <Button title="Create coupon" loading={busy} disabled={issues.length > 0} reason={`Still needed: ${issues.join(', ')}`} onPress={save} />
-      </Row>
+      </Actions>
     </Sheet>
   );
 }

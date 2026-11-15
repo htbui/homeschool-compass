@@ -1,9 +1,10 @@
 import { useState } from 'react';
 
+import { AccountNote } from '@/components/AccountNote';
 import { cloudEnabled } from '@/services/cloud';
 import { reportContent, type ReportReason, type ReportTarget } from '@/services/marketApi';
 import { useAccount } from '@/store/useAccount';
-import { Button, Card, Chip, Field, Row, Sheet, Stack, T, useColors } from '@/ui';
+import { Actions, Button, Card, Chip, Field, Row, Sheet, Stack, T, useColors } from '@/ui';
 
 const REASONS: { value: ReportReason; label: string; listingOnly?: boolean }[] = [
   { value: 'copyright', label: '©️ Copies my work or breaks a license', listingOnly: true },
@@ -55,7 +56,7 @@ function ReportForm({ target, name, onClose }: { target: ReportTarget; name?: st
   if (!cloudEnabled || !signedIn) {
     return (
       <Stack>
-        <T>Reports go to the Freerange moderators, so they need an account. Sign in under Settings → Account &amp; sync, then report it again.</T>
+        <AccountNote v="body" muted={false} signIn="Reports go to the Freerange moderators, so they need an account. Sign in under Settings → Account & sync, then report it again." deviceOnly="Reports go to the Freerange moderators, so they only work in the connected app." />
         <Row style={{ justifyContent: 'flex-end' }}>
           <Button title="OK" onPress={onClose} />
         </Row>
@@ -104,10 +105,10 @@ function ReportForm({ target, name, onClose }: { target: ReportTarget; name?: st
       />
       {copyright ? <Field label="Email or phone to reach you" value={contact} onChangeText={(v) => setContact(v.slice(0, 200))} autoCapitalize="none" /> : null}
       {error ? <T color={c.danger}>{error}</T> : null}
-      <Row style={{ justifyContent: 'flex-end' }} wrap>
+      <Actions>
         <Button kind="ghost" title="Cancel" onPress={onClose} />
         <Button title="Send report" disabled={missing.length > 0} reason={`Still needed: ${missing.join(', ')}`} loading={busy} onPress={send} />
-      </Row>
+      </Actions>
     </Stack>
   );
 }

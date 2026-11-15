@@ -2,6 +2,7 @@ import { router, Stack as RouterStack, useLocalSearchParams } from 'expo-router'
 import { useEffect, useState } from 'react';
 import { Pressable, View } from 'react-native';
 
+import { AccountNote } from '@/components/AccountNote';
 import { AddToPlanSheet } from '@/components/market/AddToPlanSheet';
 import { money } from '@/components/market/ListingCard';
 import { normalizeUrl } from '@/lib/curriculum';
@@ -30,6 +31,7 @@ import {
   type PackageUnit,
   type ThemedVersion,
 } from '@/lib/package';
+import { draftKey } from '@/lib/draft';
 import { parseCount, parseMoney } from '@/lib/parse';
 import { planCsv, planFileName, planHtml } from '@/lib/planExport';
 import { parseStandardList, standardCode, standardLabel, strandsFor } from '@/lib/standards';
@@ -40,7 +42,7 @@ import { lessonInsights, type InsightsResult } from '@/services/insights';
 import { deletePackage, publishPackage, savePackage, unpublishPackage } from '@/services/studioApi';
 import { useStore } from '@/store/useStore';
 import { useStudio } from '@/store/useStudio';
-import { Button, Card, Chip, Empty, Field, Pill, Row, Screen, Section, Segmented, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
+import { Actions, Button, Card, Chip, ConfirmButton, Empty, Field, Pill, Row, Screen, Section, Segmented, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
 
 type Tab = 'details' | 'lessons' | 'publish' | 'insights';
 const COVERS = ['📘', '🧮', '🔤', '📚', '✏️', '🌱', '🔬', '🏛️', '🌎', '🎨', '🎵', '🧩', '🍕', '🌻', '🐋', '🚀', '🕊️', '🧺'];
@@ -80,9 +82,10 @@ export default function PackageEditor() {
         <Pill text={pkg.status === 'published' ? `Published v${pkg.version}` : 'Draft'} />
       </Row>
       <T v="caption" muted>{ORIGIN_LABEL[pkg.origin.kind]} · {lessonTotal(pkg.units)} lessons · saved automatically</T>
-      {changed ? <T v="caption" color={c.accent}>You have changes that aren’t published yet — publish an update from the Publish tab.</T> : null}
+      {changed ? <T v="caption" color={c.accentInk}>You have changes that aren’t published yet — publish an update from the Publish tab.</T> : null}
       <View style={{ marginTop: space.md }}>
         <Segmented<Tab>
+          scroll
           value={tab}
           onChange={setTab}
           options={[
@@ -382,9 +385,12 @@ function LessonSheet({ lesson, pkg, units, unitIndex, onClose, onSave, onDelete 
       ...(tagList.length ? { standards: tagList } : {}),
     };
   };
+  // The rest of the editor autosaves, but this sheet saves on "Save lesson": closing it with edits asks first.
+  const [saved] = useState(() => draftKey(build()));
+  const dirty = draftKey(build()) !== saved || unit !== unitIndex || !!linkUrl.trim();
 
   return (
-    <Sheet visible onClose={onClose} title="Lesson">
+    <Sheet visible onClose={onClose} title="Lesson" dirty={dirty} discardQuestion="Discard your changes to this lesson?">
       <Field label="Title" value={title} onChangeText={setTitle} maxLength={160} />
       <Row gap={space.md} align="flex-start">
         <View style={{ flex: 1 }}><Field label="Pages (optional)" value={pages} onChangeText={setPages} placeholder="88–92" /></View>
@@ -495,15 +501,16 @@ function LessonSheet({ lesson, pkg, units, unitIndex, onClose, onSave, onDelete 
           </Row>
         </Stack>
       ) : null}
-      <Row style={{ justifyContent: 'flex-end' }} wrap>
-        <Button kind="danger" title="Delete lesson" onPress={onDelete} />
+      {/* Delete sits at the far side from Save and asks first: lessons have no undo. */}
+      <Actions align="space-between">
+        <ConfirmButton title="Delete lesson" question={`Delete “${lesson.title || 'this lesson'}”?`} body="Its steps, questions, answers and versions go too. This can’t be undone." confirm="Delete lesson" onConfirm={onDelete} />
         <Button
           title="Save lesson"
           disabled={missing.length > 0}
           reason={`Still needed: ${missing.join(', ')}`}
           onPress={() => onSave(build(), unit)}
         />
-      </Row>
+      </Actions>
     </Sheet>
   );
 }
@@ -746,7 +753,7 @@ function Insights({ pkg }: { pkg: CurriculumPackage }) {
       {!result && !error ? <T muted>Loading…</T> : null}
       {result?.source === 'device' ? (
         <Card tint={c.accentSoft}>
-          <T>Sign in to see insights from every family using this plan. Without an account, only this device’s family counts, which is below the {MIN_FAMILIES}-family minimum.</T>
+          <AccountNote v="body" muted={false} signIn={`Sign in to see insights from every family using this plan. Without an account, only this device’s family counts, which is below the ${MIN_FAMILIES}-family minimum.`} deviceOnly={`Only this device’s family counts, which is below the ${MIN_FAMILIES}-family minimum for insights.`} />
         </Card>
       ) : null}
       {result && !stats.length ? <Empty icon="🌱" title={`No lesson has ${MIN_FAMILIES} families yet`} body="Check back as more families use it. Numbers appear lesson by lesson as each one reaches the minimum." /> : null}

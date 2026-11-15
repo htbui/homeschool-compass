@@ -2,6 +2,7 @@ import { Stack as RouterStack, router, useLocalSearchParams } from 'expo-router'
 import { useEffect, useState } from 'react';
 import { View, useWindowDimensions } from 'react-native';
 
+import { needsAccount } from '@/components/AccountNote';
 import { ListingCard, Stars } from '@/components/market/ListingCard';
 import { EsaBadge, VerifiedBadge } from '@/components/market/SellerBadges';
 import { storefrontSummary, type Badge } from '@/lib/creators';
@@ -51,7 +52,7 @@ export default function CreatorStorefront() {
   if (!store) {
     return (
       <Screen edges={[]}>
-        <Empty icon="🏪" title="That storefront isn’t available" body={error || (source === 'sample' ? 'Creator storefronts need the live Marketplace. Sign in under Settings → Account.' : 'The creator may have closed their shop.')} action={<Button title="Back to the marketplace" onPress={() => router.replace('/market')} />} />
+        <Empty icon="🏪" title="That storefront isn’t available" body={error || (source === 'sample' ? needsAccount('Creator storefronts need the live Marketplace. Sign in under Settings → Account.', 'Creator storefronts need the live Marketplace.') : 'The creator may have closed their shop.')} action={<Button title="Back to the marketplace" onPress={() => router.replace('/market')} />} />
       </Screen>
     );
   }

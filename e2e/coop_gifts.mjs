@@ -185,9 +185,9 @@ async function run() {
   await fillLabel('Bundle name', 'Pond and birds year');
   await click('🐸 Pond Life · $20');
   await click('🐸 Bird Math · $10');
-  await fill('49.99', '30');
+  await fill('e.g. 49.99', '30');
   await expect('a price under $30', 'bundle must cost less than buying separately');
-  await fill('49.99', '24');
+  await fill('e.g. 49.99', '24');
   await click('Save bundle');
   await sleep(600);
   const bundles = (await studio()).bundles ?? [];

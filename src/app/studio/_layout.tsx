@@ -1,16 +1,18 @@
 import { Redirect, Stack } from 'expo-router';
 
+import { useHeaderOptions } from '@/components/HeaderBack';
 import { useStore } from '@/store/useStore';
 import { useColors } from '@/ui';
 
 /** Studio: where curricula are made, converted, and published. Grown-ups only: kid mode never shows it. */
 export default function StudioLayout() {
   const c = useColors();
+  const header = useHeaderOptions();
   const family = useStore((s) => s.family);
   const mode = useStore((s) => s.mode);
   if (family && mode.kind === 'kid') return <Redirect href={{ pathname: '/kid/[id]', params: { id: mode.childId } }} />;
   return (
-    <Stack screenOptions={{ headerShown: true, contentStyle: { backgroundColor: c.bg }, headerStyle: { backgroundColor: c.surface }, headerTintColor: c.text }}>
+    <Stack screenOptions={{ headerShown: true, contentStyle: { backgroundColor: c.bg }, ...header }}>
       <Stack.Screen name="index" options={{ title: 'Freerange Studio' }} />
       <Stack.Screen name="setup" options={{ title: 'Creator profile' }} />
       <Stack.Screen name="new" options={{ title: 'New curriculum' }} />

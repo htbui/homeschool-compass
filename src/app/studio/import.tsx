@@ -8,7 +8,7 @@ import { LICENSE_INFO, licenseName, SOURCE_LICENSES, type LicenseKind } from '@/
 import { lessonTotal, newLesson, newPackage, newUnit, type CurriculumPackage, type Origin, type PackageUnit } from '@/lib/package';
 import { parseCount } from '@/lib/parse';
 import { fetchPage, savePackage } from '@/services/studioApi';
-import { Button, Card, Chip, Field, Row, Screen, Section, space, Stack, T, useColors } from '@/ui';
+import { Actions, Button, Card, Chip, Field, Row, Screen, Section, space, Stack, T, useColors } from '@/ui';
 
 type From = 'scratch' | 'web' | 'sheet' | 'book';
 const TITLES: Record<From, string> = { scratch: 'Start from scratch', web: 'Adapt a free curriculum', sheet: 'Import a spreadsheet', book: 'Convert a book you own' };
@@ -54,7 +54,7 @@ function Preview({ result }: { result: ImportResult }) {
       ))}
       {result.units.length > 6 ? <T v="caption" muted>…and {result.units.length - 6} more units</T> : null}
       {result.warnings.map((w) => (
-        <T key={w} v="caption" color={c.accent}>⚠️ {w}</T>
+        <T key={w} v="caption" color={c.accentInk}>⚠️ {w}</T>
       ))}
       <T v="caption" muted>You can rename, reorder, split, and add details to every lesson next.</T>
     </Card>
@@ -77,7 +77,7 @@ function Scratch({ onCreate }: { onCreate: Create }) {
         <View style={{ flex: 1 }}><Field label="Units" value={units} onChangeText={setUnits} keyboardType="number-pad" /></View>
         <View style={{ flex: 1 }}><Field label="Lessons per unit" value={per} onChangeText={setPer} keyboardType="number-pad" /></View>
       </Row>
-      <Row style={{ justifyContent: 'flex-end' }}>
+      <Actions>
         <Button
           title="Create"
           disabled={missing.length > 0}
@@ -88,7 +88,7 @@ function Scratch({ onCreate }: { onCreate: Create }) {
             onCreate({ title: title.trim(), units: plan, origin: { kind: 'original' } });
           }}
         />
-      </Row>
+      </Actions>
     </Section>
   );
 }
@@ -126,7 +126,7 @@ function Book({ onCreate }: { onCreate: Create }) {
         </Row>
       </Section>
       <Preview result={result} />
-      <Row style={{ justifyContent: 'flex-end', marginTop: space.md }}>
+      <Actions style={{ marginTop: space.md }}>
         <Button
           title="Create lesson plan"
           disabled={missing.length > 0}
@@ -141,7 +141,7 @@ function Book({ onCreate }: { onCreate: Create }) {
             })
           }
         />
-      </Row>
+      </Actions>
     </>
   );
 }
@@ -169,7 +169,7 @@ function Sheet({ onCreate }: { onCreate: Create }) {
         <T v="caption" muted>Adapting a free online course? Use “Adapt a free curriculum” instead so its license and credit come along.</T>
       </Section>
       <Preview result={result} />
-      <Row style={{ justifyContent: 'flex-end', marginTop: space.md }}>
+      <Actions style={{ marginTop: space.md }}>
         <Button
           title="Create lesson plan"
           disabled={missing.length > 0}
@@ -182,7 +182,7 @@ function Sheet({ onCreate }: { onCreate: Create }) {
             })
           }
         />
-      </Row>
+      </Actions>
     </>
   );
 }
@@ -359,7 +359,7 @@ function Web({ onCreate }: { onCreate: Create }) {
           <Preview result={result} />
         </>
       ) : null}
-      <Row style={{ justifyContent: 'flex-end', marginTop: space.md }}>
+      <Actions style={{ marginTop: space.md }}>
         <Button
           title="Create lesson plan"
           disabled={missing.length > 0}
@@ -379,7 +379,7 @@ function Web({ onCreate }: { onCreate: Create }) {
             })
           }
         />
-      </Row>
+      </Actions>
     </>
   );
 }

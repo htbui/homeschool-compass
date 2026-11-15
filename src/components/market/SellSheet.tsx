@@ -9,7 +9,7 @@ import { SUBJECT_LIST, SUBJECTS } from '@/lib/subjects';
 import type { Philosophy, Subject } from '@/lib/types';
 import { useStore } from '@/store/useStore';
 import { saveListing } from '@/services/marketApi';
-import { Button, Chip, Field, MoneyField, Row, Sheet, space, Stack, T, useColors } from '@/ui';
+import { Actions, Button, Chip, Field, MoneyField, Row, Sheet, space, Stack, T, useColors } from '@/ui';
 
 const GRADE_SHORT = ['Pre-K', 'K', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'];
 
@@ -169,10 +169,10 @@ function SellForm({ existing, onClose }: { existing?: Listing; onClose: () => vo
       <Field label="What's included (one per line)" multiline value={includes} onChangeText={setIncludes} placeholder={'Teacher guide\nStudent workbook'} />
       <T v="caption" muted>Your listing shows your first name and last initial. Arrange pickup in a public place — never share your home address.</T>
       {error ? <T color={c.danger}>{error}</T> : null}
-      <Row style={{ justifyContent: 'flex-end' }}>
+      <Actions>
         <Button kind="secondary" title="Cancel" onPress={onClose} />
         <Button title={existing ? 'Save listing' : 'Publish listing'} loading={busy} disabled={missing.length > 0} reason={`Still needed: ${missing.join(', ')}`} onPress={save} />
-      </Row>
+      </Actions>
     </Sheet>
   );
 }

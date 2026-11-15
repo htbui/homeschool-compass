@@ -200,7 +200,7 @@ async function run() {
   p = await pkgNamed('Rock Detectives');
   log(p.status === 'published', 'published');
   await click('📈 Insights');
-  await expect('Sign in to see insights from every family', 'explains insights need an account');
+  await expect('Only this device’s family counts, which is below the', 'explains insights need more families than this device has');
   await expect('No lesson has 5 families yet', 'nothing shown below the minimum');
 
   scenario('CSV imports back');
@@ -286,7 +286,7 @@ async function run() {
   await page.goto(`${BASE}/settings`, { waitUntil: 'networkidle0' });
   await sleep(800);
   await expect('never names, ages, or anything about who your kids are', 'clear wording');
-  await expect('Nothing leaves this device until you sign in.');
+  await expect('This copy of Freerange keeps everything on this device. Nothing is shared from it.', 'device-only build says nothing is shared');
   log(!(await store()).family.insightsOptOut, 'on by default');
   await click('Share anonymous lesson insights');
   await sleep(300);

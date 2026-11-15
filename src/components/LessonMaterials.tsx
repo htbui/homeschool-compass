@@ -7,7 +7,7 @@ import { uid } from '@/lib/id';
 import type { LessonMaterial, Task } from '@/lib/types';
 import { deleteMaterialFile, MAX_FILE_MB, openMaterial, pickMaterialFile } from '@/services/materials';
 import { useStore } from '@/store/useStore';
-import { Button, Card, Field, Row, space, Stack, T, useColors } from '@/ui';
+import { Actions, Button, Card, Field, Row, space, Stack, T, useColors } from '@/ui';
 
 const kindIcon = (m: LessonMaterial) => (m.url ? '🔗' : m.mimeType?.startsWith('image/') ? '🖼️' : '📄');
 
@@ -145,10 +145,10 @@ export function MaterialsEditor({ curriculumId }: { curriculumId: string }) {
           <Field label="Name (optional)" value={label} onChangeText={setLabel} placeholder="Video lessons" />
         </View>
       </Row>
-      <Row wrap style={{ justifyContent: 'flex-end' }}>
+      <Actions>
         <Button kind="secondary" title={`📄 Upload PDF or image (up to ${MAX_FILE_MB} MB)`} loading={uploading} onPress={addFile} />
         <Button title="Add link" disabled={!link} reason="Enter a web address" onPress={addLink} />
-      </Row>
+      </Actions>
       {error ? <T v="caption" color={c.danger}>{error}</T> : null}
     </Stack>
   );

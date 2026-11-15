@@ -1,5 +1,6 @@
 import { Redirect, Stack } from 'expo-router';
 
+import { useHeaderOptions } from '@/components/HeaderBack';
 import { useInboxLive } from '@/services/inbox';
 import { useStore } from '@/store/useStore';
 import { useColors } from '@/ui';
@@ -7,6 +8,7 @@ import { useColors } from '@/ui';
 /** Messages are for parents only: kid mode never shows them. */
 export default function MessagesLayout() {
   const c = useColors();
+  const header = useHeaderOptions();
   const family = useStore((s) => s.family);
   const mode = useStore((s) => s.mode);
   useInboxLive(!!family && mode.kind === 'parent');
@@ -16,13 +18,11 @@ export default function MessagesLayout() {
     <Stack
       screenOptions={{
         headerShown: true,
-        headerStyle: { backgroundColor: c.surface },
-        headerTintColor: c.text,
         contentStyle: { backgroundColor: c.bg },
-        headerBackTitle: 'Back',
+        ...header,
       }}>
       <Stack.Screen name="index" options={{ title: 'Messages' }} />
-      <Stack.Screen name="[familyId]" options={{ title: 'Conversation', headerBackTitle: 'Messages' }} />
+      <Stack.Screen name="[familyId]" options={{ title: 'Conversation' }} />
     </Stack>
   );
 }

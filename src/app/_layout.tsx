@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 import { useColorScheme } from 'react-native';
 
 import { markLoaded } from '@/components/AppErrorBoundary';
+import { useHeaderOptions } from '@/components/HeaderBack';
 import { PrintSetupSheet } from '@/components/PrintSetupSheet';
 import { startInsights } from '@/services/insights';
 import { startSync } from '@/services/sync';
@@ -21,6 +22,7 @@ SplashScreen.preventAutoHideAsync();
 export default function RootLayout() {
   const scheme = useColorScheme();
   const c = useColors();
+  const header = useHeaderOptions();
   const familyHydrated = useStore((s) => s.hydrated);
   const studioHydrated = useStudio((s) => s.hydrated);
   const hydrated = familyHydrated && studioHydrated;
@@ -46,7 +48,7 @@ export default function RootLayout() {
   return (
     <ThemeProvider value={theme}>
       <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />
-      <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: c.bg } }}>
+      <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: c.bg }, ...header }}>
         <Stack.Screen name="index" />
         <Stack.Screen name="kid" />
         <Stack.Protected guard={!kidMode}>
@@ -58,8 +60,8 @@ export default function RootLayout() {
           <Stack.Screen name="moderation" options={{ headerShown: true, title: 'Moderation' }} />
           <Stack.Screen name="notifications" options={{ headerShown: true, title: 'Notifications' }} />
           <Stack.Screen name="messages" />
-          <Stack.Screen name="listing/[id]" options={{ headerShown: true, title: 'Curriculum', headerBackTitle: 'Marketplace' }} />
-          <Stack.Screen name="bundle/[id]" options={{ headerShown: true, title: 'Bundle', headerBackTitle: 'Marketplace' }} />
+          <Stack.Screen name="listing/[id]" options={{ headerShown: true, title: 'Curriculum' }} />
+          <Stack.Screen name="bundle/[id]" options={{ headerShown: true, title: 'Bundle' }} />
           <Stack.Screen name="gift/[code]" options={{ headerShown: true, title: 'A gift for you' }} />
           <Stack.Screen name="coop/[code]" options={{ headerShown: true, title: 'Join a co-op class' }} />
           <Stack.Screen name="creator/[id]" options={{ headerShown: true, title: 'Creator' }} />

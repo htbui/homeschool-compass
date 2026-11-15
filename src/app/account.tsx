@@ -65,7 +65,7 @@ function SignInForm() {
           <Field label="Email" value={email} onChangeText={setEmail} autoCapitalize="none" autoComplete="email" keyboardType="email-address" textContentType="emailAddress" />
           <Field label="Password" value={password} onChangeText={setPassword} secureTextEntry autoComplete={mode === 'in' ? 'current-password' : 'new-password'} textContentType={mode === 'in' ? 'password' : 'newPassword'} />
           {error ? <T color={c.danger}>{error}</T> : null}
-          {notice ? <T color={c.success}>{notice}</T> : null}
+          {notice ? <T color={c.successInk}>{notice}</T> : null}
           <Button title={mode === 'in' ? 'Sign in' : 'Create account'} loading={busy} disabled={missing.length > 0} reason={`Still needed: ${missing.join(', ')}`} onPress={go} />
         </Card>
         <T v="caption" muted>

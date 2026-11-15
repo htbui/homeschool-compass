@@ -2,6 +2,7 @@ import { Redirect, router, Stack as RouterStack } from 'expo-router';
 import { useEffect, useState } from 'react';
 import { View } from 'react-native';
 
+import { AccountNote } from '@/components/AccountNote';
 import { money } from '@/components/market/ListingCard';
 import { formatDate } from '@/lib/dates';
 import { LICENSE_INFO, licenseName } from '@/lib/license';
@@ -87,7 +88,7 @@ export default function StudioHome() {
         {userId ? <Stat label="Sales" value={dollars(totals.revenue)} sub="before fees" /> : null}
         {followers !== undefined ? <Stat label="Followers" value={String(followers)} sub="families following your shop" /> : null}
       </Row>
-      {!userId ? <T v="caption" muted style={{ marginTop: space.sm }}>Sign in (Settings → Account) to publish to everyone and see sales. Until then, publishing lists curricula on this device only.</T> : null}
+      {!userId ? <AccountNote style={{ marginTop: space.sm }} signIn="Sign in (Settings → Account) to publish to everyone and see sales. Until then, publishing lists curricula on this device only." deviceOnly="Publishing lists your curricula in this device’s Marketplace." /> : null}
 
       <Section title="Make a curriculum" subtitle="Start fresh, or bring in lessons you already have.">
         <Button size="lg" icon="＋" title="New curriculum" onPress={() => router.push('/studio/new')} />
@@ -171,7 +172,7 @@ function PackageList({ title, subtitle, items, stats }: { title: string; subtitl
               <T v="caption" muted>
                 {ORIGIN_LABEL[p.origin.kind]} · {lessonTotal(p.units)} lessons · {p.license.kind === 'unknown' ? LICENSE_INFO.unknown.label : licenseName(p.license)} · edited {formatDate(p.updatedAt.slice(0, 10), { month: 'short', day: 'numeric' })}
               </T>
-              {s?.status === 'suspended' ? <T v="caption" color={c.accent}>🚩 Hidden by Freerange moderators after a report. Families who have it keep it. Questions: support@freerangehomeschooling.com</T> : null}
+              {s?.status === 'suspended' ? <T v="caption" color={c.accentInk}>🚩 Hidden by Freerange moderators after a report. Families who have it keep it. Questions: support@freerangehomeschooling.com</T> : null}
               {s ? <T v="caption">{s.sales} famil{s.sales === 1 ? 'y' : 'ies'} · {dollars(s.revenue)} · {s.ratingCount ? `★ ${s.ratingAvg.toFixed(1)} (${s.ratingCount})` : 'no reviews yet'}</T> : null}
             </Card>
           );

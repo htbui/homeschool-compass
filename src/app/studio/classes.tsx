@@ -1,13 +1,14 @@
 import { router, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
 
+import { AccountNote } from '@/components/AccountNote';
 import { Cover } from '@/components/market/ListingCard';
 import { MAX_FAMILIES, type CoopClass } from '@/lib/coop';
 import { parseCount } from '@/lib/parse';
 import { classIssues, createClass, teachingClasses } from '@/services/coopApi';
 import { useAccount } from '@/store/useAccount';
 import { useStudio } from '@/store/useStudio';
-import { Button, Card, Chip, Empty, Field, Pill, Row, Screen, Section, space, Stack, T, useColors } from '@/ui';
+import { Actions, Button, Card, Chip, Empty, Field, Pill, Row, Screen, Section, space, Stack, T, useColors } from '@/ui';
 
 /** The teacher's co-op classes, and starting a new one from a Studio curriculum. */
 export default function CoopClasses() {
@@ -55,7 +56,7 @@ export default function CoopClasses() {
     <Screen edges={[]}>
       <T v="display">👩‍🏫 Co-op classes</T>
       <T muted>Teach one plan to a group of families. They join with an invite code, schedule it at their own pace, and get your changes as updates. You see how many lessons each student has finished (names only if a family chooses to share them).</T>
-      {!userId ? <T v="caption" muted style={{ marginTop: space.sm }}>Without an account, classes stay on this device (your own family can join to try it). Sign in (Settings → Account) so other families can join.</T> : null}
+      {!userId ? <AccountNote style={{ marginTop: space.sm }} signIn="Without an account, classes stay on this device (your own family can join to try it). Sign in (Settings → Account) so other families can join." deviceOnly="Classes stay here too, so only your own family can join to try one." /> : null}
 
       <Section title="Your classes">
         {classes === null ? (
@@ -72,7 +73,7 @@ export default function CoopClasses() {
                     <T v="heading">{k.title}</T>
                     <T v="caption" muted>{k.families} of {k.maxFamilies} families · version {k.version}{k.code ? ` · code ${k.code}` : ''}</T>
                   </Stack>
-                  {k.status === 'closed' ? <Pill text="Closed to new families" /> : <Pill text="Open" bg={c.successSoft} fg={c.success} />}
+                  {k.status === 'closed' ? <Pill text="Closed to new families" /> : <Pill text="Open" tone="success" />}
                 </Row>
               </Card>
             ))}
@@ -92,9 +93,9 @@ export default function CoopClasses() {
             </Row>
             <Field label={`Room for how many families? (up to ${MAX_FAMILIES})`} keyboardType="number-pad" value={max} onChangeText={setMax} />
             {error ? <T color={c.danger}>{error}</T> : null}
-            <Row style={{ justifyContent: 'flex-end' }}>
+            <Actions>
               <Button title="Start the class" loading={busy} disabled={missing.length > 0} reason={`Still needed: ${missing.join(', ')}`} onPress={create} />
-            </Row>
+            </Actions>
           </Stack>
         )}
       </Section>

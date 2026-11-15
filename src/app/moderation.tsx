@@ -1,6 +1,7 @@
 import { router } from 'expo-router';
 import { useEffect, useState } from 'react';
 
+import { goBackOr } from '@/components/HeaderBack';
 import { formatDate } from '@/lib/dates';
 import { stateList } from '@/lib/creators';
 import { badgeQueue, decideBadge, type BadgeQueueItem } from '@/services/creatorApi';
@@ -59,7 +60,7 @@ export default function Moderation() {
   if (allowed === false) {
     return (
       <Screen edges={[]}>
-        <Empty icon="🔒" title="Moderators only" body="This page is for the Freerange team." action={<Button title="Back" onPress={() => router.back()} />} />
+        <Empty icon="🔒" title="Moderators only" body="This page is for the Freerange team." action={<Button title="Back" onPress={() => goBackOr('/moderation')} />} />
       </Screen>
     );
   }
@@ -150,7 +151,7 @@ function BadgeCard({ app: a, onDone }: { app: BadgeQueueItem; onDone: () => void
       <Row wrap gap={6}>
         <Pill text={a.badge === 'verified' ? '✓ Verified creator' : '🏛️ ESA vendor'} bg={c.primarySoft} fg={c.text} />
         <Pill text={a.sellerType === 'publisher' ? '🏢 Publisher' : '🎨 Independent creator'} />
-        {a.verified ? <Pill text="Already verified" bg={c.successSoft} fg={c.success} /> : null}
+        {a.verified ? <Pill text="Already verified" tone="success" /> : null}
         {a.esaStates.length ? <Pill text={`ESA now: ${a.esaStates.join(', ')}`} /> : null}
       </Row>
       <T v="heading">{a.creatorName}</T>

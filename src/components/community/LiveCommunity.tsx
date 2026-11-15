@@ -38,7 +38,7 @@ import {
 } from '@/services/communityApi';
 import { useInbox, selectUnreadMessages } from '@/store/useInbox';
 import { useStore } from '@/store/useStore';
-import { Button, Card, Chip, DateField, Empty, Field, MoneyField, Pill, Row, Section, Segmented, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
+import { Actions, Button, Card, Chip, DateField, Empty, Field, MoneyField, Pill, Row, Section, Segmented, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
 
 type Tab = 'families' | 'coops' | 'events' | 'swap';
 const RADII = [2, 5, 10, 25, 50];
@@ -133,10 +133,10 @@ function ProfileForm({ initial, onSaved, onCancel }: { initial?: CommunityProfil
         <Field label="How connected families can reach you (optional)" value={contact} onChangeText={setContact} placeholder="Email or phone" hint="Shown only to families whose connection you accept." />
         <Chip label={`${visible ? '✓' : '○'} Show my family in the family finder`} selected={visible} onPress={() => setVisible(!visible)} />
         {error ? <T color={c.danger}>{error}</T> : null}
-        <Row style={{ justifyContent: 'flex-end' }}>
+        <Actions>
           {onCancel ? <Button kind="secondary" title="Cancel" onPress={onCancel} /> : null}
           <Button title={initial ? 'Save profile' : 'Join the community'} loading={busy} disabled={missing.length > 0} reason={`Still needed: ${missing.join(', ')}`} onPress={save} />
-        </Row>
+        </Actions>
       </Card>
     </Section>
   );
@@ -326,7 +326,7 @@ function Families({ radius }: { radius: number }) {
                 {f.connection === 'none' || f.connection === 'declined' ? <Button size="sm" title="Request to connect" onPress={() => { setAsking(f); setMessage(''); }} /> : null}
                 {f.connection === 'requested' ? <Button size="sm" kind="secondary" title="Request sent · cancel" onPress={() => act(() => removeConnection(f.familyId))} /> : null}
                 {f.connection === 'incoming' ? <Button size="sm" title="Accept their request" onPress={() => act(() => respondToConnection(f.familyId, true))} /> : null}
-                {f.connection === 'connected' ? <Pill text="✓ Connected" bg={c.successSoft} fg={c.success} /> : null}
+                {f.connection === 'connected' ? <Pill text="✓ Connected" tone="success" /> : null}
                 {f.connection === 'connected' ? <Button size="sm" kind="secondary" icon="💬" title="Message" onPress={() => router.push({ pathname: '/messages/[familyId]', params: { familyId: f.familyId } })} /> : null}
               </Row>
             </Card>
@@ -500,14 +500,14 @@ function Events({ radius, profile }: { radius: number; profile: CommunityProfile
             <T v="caption" muted>📍 {e.location} · {e.band} · Ages {e.ages} · Host {e.iHost ? 'you' : e.host} · {e.costPerKid ? `$${e.costPerKid}/kid` : 'Free'}</T>
             <T v="caption">{e.going}/{e.capacity} families going{e.carpooling ? ` · ${e.carpooling} in the carpool pool` : ''}</T>
             {e.iCarpool && e.carpoolNames.length ? <T v="caption" color={c.primary}>🚗 Carpool with: {e.carpoolNames.join(', ')}</T> : null}
-            <Row wrap>
+            <Actions align="flex-start">
               {e.iHost ? (
                 <Button size="sm" kind="ghost" title="Cancel event" onPress={() => confirm.ask(`Cancel ${e.title}?`, () => act(() => cancelEvent(e.id)), { confirm: 'Cancel event', body: 'Everyone who RSVP’d will no longer see it.' })} />
               ) : (
                 <Button size="sm" kind={e.iAmGoing ? 'secondary' : 'primary'} title={e.iAmGoing ? "Can't make it" : 'RSVP'} disabled={!e.iAmGoing && e.going >= e.capacity} reason="This event is full" onPress={() => (e.iAmGoing ? act(() => setRsvp(e.id, false)) : tips.beforeMeetup(() => act(() => setRsvp(e.id, true))))} />
               )}
               {e.iAmGoing ? <Button size="sm" kind="ghost" title={e.iCarpool ? '🚗 In carpool pool ✓' : '🚗 Join carpool matching'} onPress={() => act(() => setCarpool(e.id, !e.iCarpool))} /> : null}
-            </Row>
+            </Actions>
           </Card>
         ))}
       </Stack>

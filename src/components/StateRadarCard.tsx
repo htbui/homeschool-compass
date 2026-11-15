@@ -1,5 +1,6 @@
 import { View } from 'react-native';
 
+import { readableOn } from '@/lib/contrast';
 import { TIER_INFO, VERIFY_NOTICE, type StateLaw } from '@/lib/states';
 import { Card, Pill, Row, space, T, useColors } from '@/ui';
 
@@ -20,7 +21,7 @@ export function StateRadarCard({ law, compact }: { law: StateLaw; compact?: bool
     <Card>
       <Row style={{ justifyContent: 'space-between' }} wrap>
         <T v="heading">⚖️ {law.name} Legal Radar</T>
-        <Pill text={tier.label} fg="#fff" bg={tier.color} />
+        <Pill text={tier.label} fg={readableOn(tier.color)} bg={tier.color} />
       </Row>
       <T muted>{tier.blurb}</T>
       <Row wrap gap={6}>
@@ -38,7 +39,7 @@ export function StateRadarCard({ law, compact }: { law: StateLaw; compact?: bool
       ) : null}
       {law.funding.length > 0 ? (
         <View style={{ backgroundColor: c.successSoft, borderRadius: 10, padding: space.md, gap: 4, marginTop: space.xs }}>
-          <T v="label" color={c.success}>💰 Funding radar</T>
+          <T v="label" color={c.successInk}>💰 Funding radar</T>
           {law.funding.map((f) => (
             <T key={f.name} v="caption">
               <T v="caption" style={{ fontWeight: '700' }}>{f.name}</T>

@@ -155,7 +155,7 @@ try {
   scenario('Realtime sync');
   // Add today's missions for Leo (the weekly rhythm has none on weekends).
   for (const title of ['Lego / Sensory Play', 'Outdoor Free Play']) {
-    await B.click('➕  Task', { exact: true });
+    await B.click('＋  Task', { exact: true });
     await B.fillLabel('Title', title);
     await B.click('Save', { exact: true });
     await sleep(600);

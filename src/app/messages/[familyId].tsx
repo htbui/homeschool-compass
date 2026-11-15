@@ -1,8 +1,10 @@
-import { router, Stack as RouterStack, useLocalSearchParams } from 'expo-router';
+import { Stack as RouterStack, useLocalSearchParams } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
 import { KeyboardAvoidingView, Platform, ScrollView, View, type ScrollViewInstance } from 'react-native';
 
+import { needsAccount } from '@/components/AccountNote';
 import { useMeetupTips } from '@/components/community/SafetyTips';
+import { goBackOr } from '@/components/HeaderBack';
 import { VerifiedBadge } from '@/components/community/VerifiedBadge';
 import { ReportSheet } from '@/components/market/ReportSheet';
 import { formatDate } from '@/lib/dates';
@@ -71,7 +73,7 @@ export default function Thread() {
   if (!live) {
     return (
       <Screen edges={[]}>
-        <Empty icon="💬" title="Messages need an account" body="Sign in to message families you’ve connected with." action={<Button title="Back" onPress={() => router.back()} />} />
+        <Empty icon="💬" title="Messages need an account" body={needsAccount('Sign in to message families you’ve connected with.', 'Messages turn on when this app is connected to the Freerange service.')} action={<Button title="Back" onPress={() => goBackOr('/messages/thread')} />} />
       </Screen>
     );
   }

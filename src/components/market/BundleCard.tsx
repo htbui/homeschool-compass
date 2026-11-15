@@ -28,7 +28,7 @@ export function BundleCard({ bundle, listings, owned }: { bundle: Bundle; listin
       </Row>
       <Row wrap gap={6}>
         <Pill text="🎁 Bundle" bg={c.primarySoft} />
-        {all ? <Pill text="✓ Owned" bg={c.successSoft} fg={c.success} /> : s.owned.length ? <Pill text={`You have ${s.owned.length} of ${s.items.length}`} /> : null}
+        {all ? <Pill text="✓ Owned" tone="success" /> : s.owned.length ? <Pill text={`You have ${s.owned.length} of ${s.items.length}`} /> : null}
         {bundle.mine ? <Pill text="Yours" /> : null}
       </Row>
     </Card>

@@ -37,13 +37,13 @@ export function ParsedField<V>({ value, onChange, parse, format, describe, valid
   if (!text.trim()) feedback = required ? { text: `Required — e.g. ${example}`, color: c.textMuted } : { text: `e.g. ${example}`, color: c.textMuted };
   else if (parsed === undefined) feedback = { text: `Not recognized — try ${example}`, color: c.danger };
   else if (error) feedback = { text: error, color: c.danger };
-  else feedback = { text: `✓ ${describe ? describe(parsed) : format(parsed)}`, color: c.success };
+  else feedback = { text: `✓ ${describe ? describe(parsed) : format(parsed)}`, color: c.successInk };
 
   return (
     <View style={{ gap: 4 }}>
       <Field
         label={label}
-        placeholder={example}
+        example={example}
         {...rest}
         value={text}
         onChangeText={(t) => {

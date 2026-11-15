@@ -19,8 +19,8 @@ export default function FamilyStep() {
     <Screen>
       <StepHeader step={1} total={4} title="Your family & location" subtitle="We'll pull your state's homeschool rules and available funding." />
       <Stack gap={space.lg}>
-        <Field label="Family name" placeholder="The Miller Crew" value={d.familyName} onChangeText={(familyName) => d.set({ familyName })} />
-        <Field label="Your name (primary educator)" placeholder="Dana Miller" value={d.parentName} onChangeText={(parentName) => d.set({ parentName })} />
+        <Field label="Family name" example="The Miller Crew" value={d.familyName} onChangeText={(familyName) => d.set({ familyName })} />
+        <Field label="Your name (primary educator)" example="Dana Miller" value={d.parentName} onChangeText={(parentName) => d.set({ parentName })} />
         <Field
           label="Parent PIN"
           hint="4 digits. Kids need this to leave their view or reach parent-only areas."

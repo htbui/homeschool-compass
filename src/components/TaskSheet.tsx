@@ -9,7 +9,9 @@ import { parseCount } from '@/lib/parse';
 import { subjectLabel } from '@/lib/subjects';
 import type { Task } from '@/lib/types';
 import { useStore } from '@/store/useStore';
-import { Button, Chip, Field, ModeBadge, Pill, Row, Sheet, space, Stack, T, TimeField } from '@/ui';
+import { Button, Chip, ConfirmButton, Field, ModeBadge, Pill, Row, Sheet, space, Stack, T, TimeField, useColors } from '@/ui';
+
+const STATUS_LABEL: Record<Task['status'], string> = { todo: 'Not started', in_progress: 'In progress', done: 'Done ✓', skipped: 'Skipped' };
 
 /** Parent-side detail for one task: steps, adjust time, mark done, skip. */
 export function TaskSheet({ task, onClose }: { task?: Task; onClose: () => void }) {
@@ -25,6 +27,7 @@ export function TaskSheet({ task, onClose }: { task?: Task; onClose: () => void 
 }
 
 function TaskDetail({ task: live, onClose }: { task: Task; onClose: () => void }) {
+  const c = useColors();
   const child = useStore((s) => s.children.find((c) => c.id === live.childId));
   const { updateTask, completeTask, reopenTask, toggleStep, removeTask } = useStore.getState();
   const { print, printAnswers, busy: printing } = usePrint();
@@ -40,7 +43,7 @@ function TaskDetail({ task: live, onClose }: { task: Task; onClose: () => void }
         <ModeBadge mode={live.mode} />
         <Pill text={subjectLabel(live.subject)} />
         <Pill text={`${child?.avatar ?? ''} ${child?.name ?? ''}`} />
-        <Pill text={live.status.replace('_', ' ')} />
+        <Pill text={STATUS_LABEL[live.status] ?? live.status} tone={live.status === 'done' ? 'success' : undefined} />
       </Row>
       <T muted>
         {formatDate(live.date)} · {formatClock(live.start)} · {live.durationMin} min
@@ -77,14 +80,6 @@ function TaskDetail({ task: live, onClose }: { task: Task; onClose: () => void }
       <Row wrap style={{ justifyContent: 'flex-end', marginTop: space.sm }}>
         <Button title="Print worksheet" icon="🖨️" kind="secondary" loading={printing} onPress={() => print([live])} />
         {keyed ? <Button title="Answer key" icon="🔑" kind="secondary" loading={printing} onPress={() => printAnswers([live], `Answer key · ${live.title}`)} /> : null}
-        <Button
-          title="Delete"
-          kind="danger"
-          onPress={() => {
-            removeTask(live.id);
-            onClose();
-          }}
-        />
         {live.status !== 'skipped' && live.status !== 'done' ? <Button title="Skip today" kind="secondary" onPress={() => updateTask(live.id, { status: 'skipped' })} /> : null}
         {live.status === 'skipped' ? <Button title="Restore" kind="secondary" onPress={() => updateTask(live.id, { status: 'todo' })} /> : null}
         {live.status === 'done' ? (
@@ -92,6 +87,19 @@ function TaskDetail({ task: live, onClose }: { task: Task; onClose: () => void }
         ) : (
           <Button title="Mark done ✓" onPress={() => completeTask(live.id)} />
         )}
+      </Row>
+      {/* Delete sits apart from the everyday actions and asks first: there's no undo. */}
+      <Row style={{ borderTopWidth: 1, borderColor: c.border, paddingTop: space.sm }}>
+        <ConfirmButton
+          title="Delete task"
+          question={`Delete “${live.title}” for ${formatDate(live.date)}?`}
+          body="This only removes it from this day. The weekly rhythm keeps it."
+          confirm="Delete"
+          onConfirm={() => {
+            removeTask(live.id);
+            onClose();
+          }}
+        />
       </Row>
     </>
   );
