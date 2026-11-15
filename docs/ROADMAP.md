@@ -110,3 +110,5 @@ _New ideas land here, then get a priority._
 - [x] Family messaging (connected families only, block, report, limits), the verified-family badge, meetup safety tips, and in-app notifications (`75ef599`)
 - [x] Co-op classes, gifts, bundles, sales, and coupons, priced on the server (`aebc714`)
 - [x] Free & open curricula: 48 curricula, 3,374 lessons, adding NOAA, NPS, USGS, the Library of Congress, MVP Math I, and Wikijunior (`b065d6e`)
+- [x] Design review: 95 findings, 13 of them P1, with screenshots and a suggested order (https://claude.ai/artifact/8qLz8ns8mJDs2wsRaxBbDK)
+- [x] Test suite for every area: 533 unit, 191 server, and 16 browser suites at phone and desktop sizes; 92% statement coverage, mapped in docs/TESTING.md. It found and fixed 25 bugs, including kid mode reaching parent screens, connection-request hijacking, coupon overuse, and NC licenses read as CC BY (`91ef5c3`, `69eee3a`, and the Compass suite)
