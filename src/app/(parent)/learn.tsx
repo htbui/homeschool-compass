@@ -7,6 +7,7 @@ import { PlanUpdateSheet, UpdateBanner, usePlanUpdates } from '@/components/Plan
 import { doneFor, forChild } from '@/lib/curriculum';
 import { formatDate } from '@/lib/dates';
 import { uid } from '@/lib/id';
+import { LEVEL_LABEL, planLevels, planThemes } from '@/lib/package';
 import { CURRICULUM_PRESETS, pacing } from '@/lib/pacing';
 import { parseCount } from '@/lib/parse';
 import { PHILOSOPHY_INFO } from '@/lib/quiz';
@@ -231,6 +232,37 @@ function KidProgress({ curriculum, childId, named }: { curriculum: Curriculum; c
         <Button size="sm" kind="secondary" title="−1" onPress={() => adjustLessons(curriculum.id, -1, childId)} />
         <Button size="sm" title={named ? `+1 lesson for ${kid?.name ?? 'student'}` : '+1 lesson'} onPress={() => adjustLessons(curriculum.id, 1, childId)} />
       </Row>
+      <VersionPicker curriculum={curriculum} childId={childId} name={kid?.name} />
+    </Stack>
+  );
+}
+
+/** Easier/harder level and interest theme for one student, when the plan offers them. */
+function VersionPicker({ curriculum, childId, name }: { curriculum: Curriculum; childId: string; name?: string }) {
+  const levels = planLevels(curriculum.outline);
+  const themes = planThemes(curriculum.outline);
+  if (!levels.length && !themes.length) return null;
+  const pick = curriculum.versionPicks?.[childId] ?? {};
+  const set = (patch: typeof pick) => useStore.getState().setVersion(curriculum.id, childId, { ...pick, ...patch });
+  return (
+    <Stack gap={4}>
+      <T v="caption" muted>Version{name ? ` for ${name}` : ''} — kid mode and worksheets show it; lessons without one use the main version.</T>
+      {levels.length ? (
+        <Row wrap gap={6}>
+          <Chip label="Main" selected={!pick.level} onPress={() => set({ level: undefined })} />
+          {levels.map((lv) => (
+            <Chip key={lv} label={LEVEL_LABEL[lv]} selected={pick.level === lv} onPress={() => set({ level: lv })} />
+          ))}
+        </Row>
+      ) : null}
+      {themes.length ? (
+        <Row wrap gap={6}>
+          <Chip label="No theme" selected={!pick.theme} onPress={() => set({ theme: undefined })} />
+          {themes.map((t) => (
+            <Chip key={t} label={`🎨 ${t}`} selected={pick.theme === t} onPress={() => set({ theme: t })} />
+          ))}
+        </Row>
+      ) : null}
     </Stack>
   );
 }

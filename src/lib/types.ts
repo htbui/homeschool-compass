@@ -1,5 +1,5 @@
 import type { License } from './license';
-import type { PackageUnit } from './package';
+import type { PackageUnit, VersionPick } from './package';
 
 // Core domain model for Freerange. Everything here is plain data so it can be
 // persisted locally today and synced to the Freerange API later.
@@ -75,6 +75,11 @@ export interface FamilyProfile {
   schoolDays: Weekday[];
   /** Optional weekly catch-up day that bumped tasks land on first. */
   flexDay?: Weekday;
+  /**
+   * Stop sharing anonymous lesson signals with curriculum creators (on unless
+   * turned off). Turning it off also deletes what was shared.
+   */
+  insightsOptOut?: boolean;
   createdAt: string;
 }
 
@@ -195,6 +200,8 @@ export interface Curriculum {
   materials?: LessonMaterial[];
   /** Lesson-by-lesson plan, from Studio or a Marketplace package. */
   outline?: PackageUnit[];
+  /** The easier/harder level and interest theme each student uses (lesson-by-lesson plans). */
+  versionPicks?: Partial<Record<ID, VersionPick>>;
   packageId?: ID;
   packageVersion?: number;
   /** The Marketplace listing it came from (where newer versions show up). */
