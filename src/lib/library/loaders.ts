@@ -21,6 +21,7 @@ export const LOADERS: Record<string, () => Promise<unknown>> = {
   'mcguffey-second-reader': () => import('./content/mcguffey-second-reader.json'),
   'mcguffey-sixth-reader': () => import('./content/mcguffey-sixth-reader.json'),
   'mcguffey-third-reader': () => import('./content/mcguffey-third-reader.json'),
+  'mvp-secondary-math-1': () => import('./content/mvp-secondary-math-1.json'),
   'our-island-story': () => import('./content/our-island-story.json'),
   'parables-from-nature': () => import('./content/parables-from-nature.json'),
   'rays-intellectual-arithmetic': () => import('./content/rays-intellectual-arithmetic.json'),
@@ -35,4 +36,9 @@ export const LOADERS: Record<string, () => Promise<unknown>> = {
   'this-country-of-ours': () => import('./content/this-country-of-ours.json'),
   'viking-tales': () => import('./content/viking-tales.json'),
   'webster-speller': () => import('./content/webster-speller.json'),
+  'wikijunior-ancient-civilizations': () => import('./content/wikijunior-ancient-civilizations.json'),
+  'wikijunior-big-cats': () => import('./content/wikijunior-big-cats.json'),
+  'wikijunior-bugs': () => import('./content/wikijunior-bugs.json'),
+  'wikijunior-europe': () => import('./content/wikijunior-europe.json'),
+  'wikijunior-solar-system': () => import('./content/wikijunior-solar-system.json'),
 };

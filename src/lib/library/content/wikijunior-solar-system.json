@@ -1,0 +1,911 @@
+{
+ "key": "wikijunior-solar-system",
+ "seller": "Wikijunior (Wikibooks contributors)",
+ "title": "Wikijunior Solar System",
+ "sourceTitle": "Wikijunior Solar System",
+ "author": "Wikibooks contributors",
+ "year": 2005,
+ "sourceUrl": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System",
+ "license": {
+  "kind": "cc_by_sa",
+  "version": "4.0"
+ },
+ "licenseEvidence": "Wikibooks:Copyrights (en.wikibooks.org/wiki/Wikibooks:Copyrights, checked 2026-11-14): 'Most of Wikibooks' text is dual licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (\"CC BY-SA 4.0\") and the GNU Free Documentation License (GFDL)' and 'Wikibooks content can be copied, modified, and redistributed if and only if the copied version is made available on the same terms to others and acknowledgment of the authors of the work used is included (a link back to the book or module is generally thought to satisfy the attribution requirement)'. Wikimedia Foundation Terms of Use (foundation.wikimedia.org/wiki/Policy:Terms_of_Use, checked 2026-11-14), §7: 'these licenses do allow commercial uses of your contributions'; 'Reuse of content that we host is welcome'; reusers attribute 'Through hyperlink (where possible) or URL to the page or pages that you are reusing'; modified text must be licensed 'under CC BY-SA 4.0 or later' with an indication 'that the original work has been modified'. The only automated-use limit is on uses that 'are abusive or disruptive of the services'; API use follows the User-Agent Policy and API:Etiquette (pages were read through the MediaWiki API with a descriptive User-Agent). No clause bars AI use, derivatives, commercial use, or linking. Wikimedia Trademark Policy §3.6 (nominative use) allows the word marks to describe 'A derivative work of Wikimedia content in a way that is not misleading' and to link to Wikimedia sites; 'Wikijunior' is not on the Wikimedia trademarks list, 'Wikibooks' is, so no logos are used and no endorsement is implied. This plan uses only page titles, links, and our own steps and questions; no images (Commons images carry their own licenses).",
+ "attribution": "Wikijunior Solar System is adapted from “Wikijunior Solar System” (https://en.wikibooks.org/wiki/Wikijunior:Solar_System) by Wikibooks contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Each lesson links to the page it uses; the full list of authors is in each page's history. Changes: pages grouped into daily lessons, with new steps and questions, by Freerange. This adapted lesson plan is also released under CC BY-SA 4.0 (ShareAlike). Not endorsed by or affiliated with the Wikimedia Foundation or the Wikibooks community.",
+ "subjects": [
+  "science"
+ ],
+ "gradeMin": 3,
+ "gradeMax": 6,
+ "philosophies": [
+  "charlotte_mason",
+  "unit_study",
+  "traditional"
+ ],
+ "lessonsPerWeek": 3,
+ "minutesPerLesson": 30,
+ "parentInvolvement": "medium",
+ "familyStyle": true,
+ "cover": "🪐",
+ "color": "#4C7FD9",
+ "description": "A tour of our Solar System written for 8–12 year olds by Wikijunior volunteers: the Sun, each planet and its main moons, the asteroid and Kuiper belts, comets, and the story of space travel. Each day you read one short page together online, then narrate, sketch, or add to a planet notebook. It's a free, openly licensed children's book; every page is free to read on Wikibooks.",
+ "includes": [
+  "35 lessons in 5 units",
+  "Link to the free Wikibooks page for every lesson",
+  "A planet notebook page for each world: size, day, year, and namesake",
+  "Simple hands-on extras: scale models, weight math, night-sky watching",
+  "Questions with answers for every lesson"
+ ],
+ "units": [
+  {
+   "title": "Unit 1: Our Place in Space",
+   "lessons": [
+    {
+     "title": "Lesson 1: Studying the Solar System",
+     "steps": [
+      "Read the introduction together",
+      "Talk about the difference between an astronomer and an astrophysicist",
+      "Start a Solar System notebook with a title page"
+     ],
+     "links": [
+      {
+       "label": "Read: Introduction",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Introduction"
+      }
+     ],
+     "questions": [
+      "What do we call scientists who study space?"
+     ],
+     "answers": [
+      "Astronomers (and astrophysicists)"
+     ]
+    },
+    {
+     "title": "Lesson 2: What Is in the Solar System?",
+     "steps": [
+      "Read the first half, through 'What holds it together?'",
+      "Draw the Sun with the inner planets, the asteroid belt and the outer planets in order",
+      "Narrate why the planets keep going around the Sun"
+     ],
+     "links": [
+      {
+       "label": "Read: Our Solar System",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Solar_System"
+      }
+     ],
+     "questions": [
+      "Which four planets are the inner planets?",
+      "What force keeps the planets orbiting the Sun?"
+     ],
+     "answers": [
+      "Mercury, Venus, Earth and Mars",
+      "Gravity"
+     ]
+    },
+    {
+     "title": "Lesson 3: Who Discovered the Solar System?",
+     "steps": [
+      "Read the second half, from 'Who discovered the Solar System?'",
+      "Make a mini timeline: Aristarchus, Copernicus, Galileo",
+      "Narrate how the Solar System formed from a cloud of dust and gas"
+     ],
+     "links": [
+      {
+       "label": "Read: Our Solar System",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Solar_System"
+      }
+     ],
+     "questions": [
+      "Which new invention did Galileo point at the sky?",
+      "Which galaxy is our Solar System part of?"
+     ],
+     "answers": [
+      "The telescope",
+      "The Milky Way"
+     ]
+    },
+    {
+     "title": "Lesson 4: The Sun",
+     "steps": [
+      "Read the page together",
+      "Draw the Sun's layers: core, radiative zone, photosphere, corona",
+      "Never look straight at the Sun; talk about why"
+     ],
+     "links": [
+      {
+       "label": "Read: The Sun",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/The_Sun"
+      }
+     ],
+     "questions": [
+      "What two gases is the Sun mostly made of?",
+      "About how often does the sunspot cycle repeat?",
+      "What lights in the sky near the North Pole can solar flares cause?"
+     ],
+     "answers": [
+      "Hydrogen and helium",
+      "About every 11 years",
+      "The Northern Lights (aurora)"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 2: The Inner Planets",
+   "lessons": [
+    {
+     "title": "Lesson 5: Mercury",
+     "steps": [
+      "Read the page together",
+      "Make a notebook page: size, day, year, namesake",
+      "Narrate: tell back three things you learned"
+     ],
+     "links": [
+      {
+       "label": "Read: Mercury",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Mercury"
+      }
+     ],
+     "questions": [
+      "Which planet is closest to the Sun?",
+      "How long is a year on Mercury?",
+      "Who was the Roman god Mercury?"
+     ],
+     "answers": [
+      "Mercury",
+      "About 88 Earth days",
+      "The messenger of the gods"
+     ]
+    },
+    {
+     "title": "Lesson 6: Venus",
+     "steps": [
+      "Read the page together",
+      "Add Venus to your notebook",
+      "Compare Venus and Earth in a two-column chart"
+     ],
+     "links": [
+      {
+       "label": "Read: Venus",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Venus"
+      }
+     ],
+     "questions": [
+      "Why is Venus called Earth's twin?",
+      "Is a day on Venus longer or shorter than its year?",
+      "What is the tall mountain on Venus called?"
+     ],
+     "answers": [
+      "It is nearly the same size as Earth",
+      "Longer",
+      "Maxwell Montes"
+     ]
+    },
+    {
+     "title": "Lesson 7: Earth",
+     "steps": [
+      "Read the page together",
+      "On a globe, find all seven continents and five oceans",
+      "Narrate what moving plates can cause"
+     ],
+     "links": [
+      {
+       "label": "Read: Earth",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Earth"
+      }
+     ],
+     "questions": [
+      "Which planet from the Sun is Earth?",
+      "Why does Earth have seasons?",
+      "Why do we have a leap year about every four years?"
+     ],
+     "answers": [
+      "The third",
+      "Its axis is tilted",
+      "To use up the extra quarter day each year"
+     ]
+    },
+    {
+     "title": "Lesson 8: The Moon",
+     "steps": [
+      "Read the page together",
+      "Look at the Moon tonight (or a photo) and find the dark maria",
+      "Sketch the Moon in your notebook"
+     ],
+     "links": [
+      {
+       "label": "Read: Moon",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Moon"
+      }
+     ],
+     "questions": [
+      "What are the dark areas on the Moon called?",
+      "Why do we always see the same side of the Moon?"
+     ],
+     "answers": [
+      "Maria (old lava pools)",
+      "It spins once in the same time it takes to orbit Earth (about 27 days)"
+     ]
+    },
+    {
+     "title": "Lesson 9: Mars",
+     "steps": [
+      "Read the page together",
+      "Add Mars to your notebook",
+      "Compare Olympus Mons with Mount Everest using a quick drawing"
+     ],
+     "links": [
+      {
+       "label": "Read: Mars",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Mars"
+      }
+     ],
+     "questions": [
+      "Why is Mars red?",
+      "What is the highest mountain in the Solar System?",
+      "How long is a year on Mars?"
+     ],
+     "answers": [
+      "Rust in its rocks",
+      "Olympus Mons on Mars",
+      "687 Earth days (almost two Earth years)"
+     ]
+    },
+    {
+     "title": "Lesson 10: Phobos and Deimos",
+     "steps": [
+      "Read both moon pages",
+      "Shape two lumpy 'potato moons' from clay or playdough",
+      "Narrate how the two moons are alike and different"
+     ],
+     "links": [
+      {
+       "label": "Read: Phobos",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Mars/Phobos"
+      },
+      {
+       "label": "Read: Deimos",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Mars/Deimos"
+      }
+     ],
+     "questions": [
+      "Which moon of Mars is bigger, Phobos or Deimos?",
+      "What will Mars' gravity probably do to Phobos one day?"
+     ],
+     "answers": [
+      "Phobos",
+      "Shred it into smaller pieces"
+     ]
+    },
+    {
+     "title": "Lesson 11: The Asteroid Belt",
+     "steps": [
+      "Read the page together",
+      "Mark the asteroid belt between Mars and Jupiter on your Solar System drawing",
+      "Narrate: tell back three things you learned"
+     ],
+     "links": [
+      {
+       "label": "Read: Asteroid belt",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Asteroid_belt"
+      }
+     ],
+     "questions": [
+      "Between which two planets is the asteroid belt?",
+      "What is the biggest object in the asteroid belt?"
+     ],
+     "answers": [
+      "Mars and Jupiter",
+      "Ceres"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 3: Jupiter, Saturn and Their Moons",
+   "lessons": [
+    {
+     "title": "Lesson 12: Jupiter",
+     "steps": [
+      "Read the page together",
+      "Add Jupiter to your notebook",
+      "Draw the Great Red Spot and compare it with Earth's size"
+     ],
+     "links": [
+      {
+       "label": "Read: Jupiter",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Jupiter"
+      }
+     ],
+     "questions": [
+      "What is the largest planet in the Solar System?",
+      "About how long is a day on Jupiter?",
+      "Who was Jupiter in Roman stories?"
+     ],
+     "answers": [
+      "Jupiter",
+      "About 10 Earth hours",
+      "The king of the Roman gods"
+     ]
+    },
+    {
+     "title": "Lesson 13: Amalthea and Io",
+     "steps": [
+      "Read both moon pages",
+      "Paint or color Io's yellow and orange volcanic surface",
+      "Narrate: tell back three things you learned"
+     ],
+     "links": [
+      {
+       "label": "Read: Amalthea",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Jupiter/Amalthea"
+      },
+      {
+       "label": "Read: Io",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Jupiter/Io"
+      }
+     ],
+     "questions": [
+      "Which object is the reddest in the Solar System?",
+      "What makes Io so full of volcanoes?"
+     ],
+     "answers": [
+      "Amalthea",
+      "Jupiter's pull causes tides inside it"
+     ]
+    },
+    {
+     "title": "Lesson 14: Europa",
+     "steps": [
+      "Read the page together",
+      "Imagine and draw a creature that might live in an ocean under ice",
+      "Narrate why scientists are so curious about Europa"
+     ],
+     "links": [
+      {
+       "label": "Read: Europa",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Jupiter/Europa"
+      }
+     ],
+     "questions": [
+      "What might lie under Europa's icy surface?"
+     ],
+     "answers": [
+      "An ocean"
+     ]
+    },
+    {
+     "title": "Lesson 15: Ganymede and Callisto",
+     "steps": [
+      "Read both moon pages",
+      "Make a chart of the four Galilean moons: Io, Europa, Ganymede, Callisto",
+      "Narrate: tell back three things you learned"
+     ],
+     "links": [
+      {
+       "label": "Read: Ganymede",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Jupiter/Ganymede"
+      },
+      {
+       "label": "Read: Callisto",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Jupiter/Callisto"
+      }
+     ],
+     "questions": [
+      "What is the largest moon in the Solar System?",
+      "What are the only features on Callisto's surface?"
+     ],
+     "answers": [
+      "Ganymede",
+      "Impact craters"
+     ]
+    },
+    {
+     "title": "Lesson 16: Saturn",
+     "steps": [
+      "Read the page together",
+      "Add Saturn and its rings to your notebook",
+      "Test which things float in a bowl of water and talk about why Saturn could float"
+     ],
+     "links": [
+      {
+       "label": "Read: Saturn",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Saturn"
+      }
+     ],
+     "questions": [
+      "What are Saturn's rings made of?",
+      "What do shepherd moons do?",
+      "Which day of the week is named after Saturn?"
+     ],
+     "answers": [
+      "Pieces of rock and ice",
+      "Keep the ring particles in place with their gravity",
+      "Saturday"
+     ]
+    },
+    {
+     "title": "Lesson 17: Titan",
+     "steps": [
+      "Read the page together",
+      "Draw the Huygens probe parachuting down to Titan",
+      "Narrate: tell back three things you learned"
+     ],
+     "links": [
+      {
+       "label": "Read: Titan",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Saturn/Titan"
+      }
+     ],
+     "questions": [
+      "What makes Titan different from every other moon?",
+      "Which moon is the only one bigger than Titan?"
+     ],
+     "answers": [
+      "It has a thick atmosphere",
+      "Ganymede"
+     ]
+    },
+    {
+     "title": "Lesson 18: Mimas, Enceladus and Tethys",
+     "steps": [
+      "Read the three short moon pages",
+      "Draw Mimas with its giant crater Herschel",
+      "Narrate one surprising fact about each moon"
+     ],
+     "links": [
+      {
+       "label": "Read: Mimas",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Saturn/Mimas"
+      },
+      {
+       "label": "Read: Enceladus",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Saturn/Enceladus"
+      },
+      {
+       "label": "Read: Tethys",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Saturn/Tethys"
+      }
+     ],
+     "questions": [
+      "What is the biggest crater on Mimas called?",
+      "What is the largest crater on Tethys called?"
+     ],
+     "answers": [
+      "Herschel",
+      "Odysseus"
+     ]
+    },
+    {
+     "title": "Lesson 19: Dione and Rhea",
+     "steps": [
+      "Read both moon pages",
+      "Talk about what 'synchronous rotation' means using a ball and a lamp",
+      "Narrate: tell back three things you learned"
+     ],
+     "links": [
+      {
+       "label": "Read: Dione",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Saturn/Dione"
+      },
+      {
+       "label": "Read: Rhea",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Saturn/Rhea"
+      }
+     ],
+     "questions": [
+      "What are the bright wispy streaks on Dione?",
+      "Why does the same side of Rhea always face Saturn?"
+     ],
+     "answers": [
+      "Cliffs in the ice",
+      "It turns once in the same time it takes to orbit Saturn"
+     ]
+    },
+    {
+     "title": "Lesson 20: Hyperion, Iapetus and Phoebe",
+     "steps": [
+      "Read the three moon pages",
+      "Color a two-tone Iapetus: one dark half, one bright half",
+      "Finish your chart of Saturn's moons"
+     ],
+     "links": [
+      {
+       "label": "Read: Hyperion",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Saturn/Hyperion"
+      },
+      {
+       "label": "Read: Iapetus",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Saturn/Iapetus"
+      },
+      {
+       "label": "Read: Phoebe",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Saturn/Phoebe"
+      }
+     ],
+     "questions": [
+      "Which moon of Saturn looks like a sponge?",
+      "Which way does Phoebe orbit compared with moons like Titan?"
+     ],
+     "answers": [
+      "Hyperion",
+      "The opposite direction (retrograde)"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 4: The Ice Giants and Beyond",
+   "lessons": [
+    {
+     "title": "Lesson 21: Uranus",
+     "steps": [
+      "Read the page together",
+      "Add Uranus to your notebook",
+      "Roll a ball across the table to show a planet spinning on its side"
+     ],
+     "links": [
+      {
+       "label": "Read: Uranus",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Uranus"
+      }
+     ],
+     "questions": [
+      "Who discovered Uranus?",
+      "How long is a year on Uranus?"
+     ],
+     "answers": [
+      "William Herschel",
+      "About 84 Earth years"
+     ]
+    },
+    {
+     "title": "Lesson 22: Miranda, Ariel and Umbriel",
+     "steps": [
+      "Read the three moon pages",
+      "Note which spacecraft took the only close-up pictures",
+      "Narrate: tell back three things you learned"
+     ],
+     "links": [
+      {
+       "label": "Read: Miranda",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Uranus/Miranda"
+      },
+      {
+       "label": "Read: Ariel",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Uranus/Ariel"
+      },
+      {
+       "label": "Read: Umbriel",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Uranus/Umbriel"
+      }
+     ],
+     "questions": [
+      "Which spacecraft flew past Uranus in 1986?",
+      "Which is the darkest of Uranus' moons?"
+     ],
+     "answers": [
+      "Voyager 2",
+      "Umbriel"
+     ]
+    },
+    {
+     "title": "Lesson 23: Titania and Oberon",
+     "steps": [
+      "Read both moon pages",
+      "Find the play The Tempest or A Midsummer Night's Dream and see the names that moons share",
+      "Narrate: tell back three things you learned"
+     ],
+     "links": [
+      {
+       "label": "Read: Titania",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Uranus/Titania"
+      },
+      {
+       "label": "Read: Oberon",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Uranus/Oberon"
+      }
+     ],
+     "questions": [
+      "What is the largest moon of Uranus?",
+      "Which moon of Uranus is the outermost of the major moons?"
+     ],
+     "answers": [
+      "Titania",
+      "Oberon"
+     ]
+    },
+    {
+     "title": "Lesson 24: Neptune",
+     "steps": [
+      "Read the page together",
+      "Add Neptune to your notebook",
+      "Compare Neptune's winds with the fastest tornado on Earth"
+     ],
+     "links": [
+      {
+       "label": "Read: Neptune",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Neptune"
+      }
+     ],
+     "questions": [
+      "What was the large dark storm Voyager saw on Neptune called?",
+      "Where are the fastest winds in the Solar System?"
+     ],
+     "answers": [
+      "The Great Dark Spot",
+      "On Neptune"
+     ]
+    },
+    {
+     "title": "Lesson 25: Proteus, Triton and Nereid",
+     "steps": [
+      "Read the three moon pages",
+      "Draw Triton's icy geysers",
+      "Narrate: tell back three things you learned"
+     ],
+     "links": [
+      {
+       "label": "Read: Proteus",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Neptune/Proteus"
+      },
+      {
+       "label": "Read: Triton",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Neptune/Triton"
+      },
+      {
+       "label": "Read: Nereid",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Neptune/Nereid"
+      }
+     ],
+     "questions": [
+      "What is the largest moon of Neptune?",
+      "What do scientists think Nereid might once have been?"
+     ],
+     "answers": [
+      "Triton",
+      "An asteroid captured by Neptune's gravity"
+     ]
+    },
+    {
+     "title": "Lesson 26: Pluto and Charon",
+     "steps": [
+      "Read both pages",
+      "Add Pluto, the dwarf planet, to your notebook",
+      "Narrate why Pluto and Charon are sometimes called a double planet"
+     ],
+     "links": [
+      {
+       "label": "Read: Pluto",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Pluto"
+      },
+      {
+       "label": "Read: Charon",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Pluto/Charon"
+      }
+     ],
+     "questions": [
+      "Who discovered Pluto, and in what year?",
+      "How long is a year on Pluto?"
+     ],
+     "answers": [
+      "Clyde Tombaugh, in 1930",
+      "About 248 Earth years"
+     ]
+    },
+    {
+     "title": "Lesson 27: Comets",
+     "steps": [
+      "Read the page together",
+      "Make a comet: a ball of foil with streamers for a tail, and point the tail away from a lamp 'Sun'",
+      "Narrate: tell back three things you learned"
+     ],
+     "links": [
+      {
+       "label": "Read: Comets",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Comets"
+      }
+     ],
+     "questions": [
+      "What is a good way to picture a comet?",
+      "What causes a meteor shower?",
+      "Who is a comet usually named after?"
+     ],
+     "answers": [
+      "A big, dirty, gassy snowball",
+      "Earth passing through dust left by a comet",
+      "The person who discovered it"
+     ]
+    },
+    {
+     "title": "Lesson 28: The Kuiper Belt and the Oort Cloud",
+     "steps": [
+      "Read both pages",
+      "Add both regions to the edge of your Solar System drawing",
+      "Narrate: tell back three things you learned"
+     ],
+     "links": [
+      {
+       "label": "Read: Kuiper Belt",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Kuiper_Belt"
+      },
+      {
+       "label": "Read: Oort Cloud",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Oort_Cloud"
+      }
+     ],
+     "questions": [
+      "Where does the Kuiper belt lie?",
+      "What is the Oort cloud made of?"
+     ],
+     "answers": [
+      "Beyond the orbit of Neptune",
+      "Millions of comets (rock and ice)"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 5: Exploring Space and Big Questions",
+   "lessons": [
+    {
+     "title": "Lesson 29: Space Exploration, Part 1",
+     "steps": [
+      "Read from the beginning through 'The race to the Moon'",
+      "Make a timeline: Sputnik, Laika, Gagarin, Apollo 11",
+      "Narrate: tell back three things you learned"
+     ],
+     "links": [
+      {
+       "label": "Read: Space exploration",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Space_exploration"
+      }
+     ],
+     "questions": [
+      "What was the first satellite, and which country launched it?",
+      "Who was the first person in space?",
+      "Who was the first person to walk on the Moon?"
+     ],
+     "answers": [
+      "Sputnik 1, launched by the Soviet Union",
+      "Yuri Gagarin",
+      "Neil Armstrong"
+     ]
+    },
+    {
+     "title": "Lesson 30: Space Exploration, Part 2",
+     "steps": [
+      "Read from 'The Space Shuttle' to the end",
+      "Draw your own idea for a spaceship of the future",
+      "Narrate: tell back three things you learned"
+     ],
+     "links": [
+      {
+       "label": "Read: Space exploration",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Space_exploration"
+      }
+     ],
+     "questions": [
+      "What big project did the Space Shuttle help to build?",
+      "Why can the Hubble Space Telescope see so clearly?"
+     ],
+     "answers": [
+      "The International Space Station",
+      "It orbits above Earth's atmosphere"
+     ]
+    },
+    {
+     "title": "Lesson 31: Review: Puzzles and Test",
+     "steps": [
+      "Try the puzzle page together",
+      "Answer the test questions out loud or on paper",
+      "Look back over your notebook and pick a favorite world"
+     ],
+     "links": [
+      {
+       "label": "Read: Puzzles",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Puzzles"
+      },
+      {
+       "label": "Read: Test",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Test"
+      }
+     ],
+     "questions": [
+      "Name the eight planets in order from the Sun."
+     ],
+     "answers": [
+      "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune"
+     ],
+     "notes": "Look up any word you're unsure of in the book's Glossary page."
+    },
+    {
+     "title": "Lesson 32: Gravity, Mass and Weight",
+     "steps": [
+      "Read the page together",
+      "Weigh a book on a kitchen scale and talk about whether its mass would change on the Moon",
+      "Narrate: tell back three things you learned"
+     ],
+     "links": [
+      {
+       "label": "Read: About gravity, mass, and weight",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/About_gravity%2C_mass%2C_and_weight"
+      }
+     ],
+     "questions": [
+      "What is mass?",
+      "Would your mass change if you went to the Moon?"
+     ],
+     "answers": [
+      "The amount of material something is made of",
+      "No (only your weight would)"
+     ]
+    },
+    {
+     "title": "Lesson 33: How the Solar System Was Born",
+     "steps": [
+      "Read the page together",
+      "Blow up a dotted balloon to see how everything spreads apart as it grows",
+      "Narrate: tell back three things you learned"
+     ],
+     "links": [
+      {
+       "label": "Read: How the Solar System was born",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/How_the_Solar_System_was_born"
+      }
+     ],
+     "questions": [
+      "About how long ago do scientists think the Big Bang happened?"
+     ],
+     "answers": [
+      "About 13.7 billion years ago"
+     ]
+    },
+    {
+     "title": "Lesson 34: What Will Happen to the Solar System?",
+     "steps": [
+      "Read the page together",
+      "Draw the Sun now and as a red giant",
+      "Narrate: tell back three things you learned"
+     ],
+     "links": [
+      {
+       "label": "Read: What will happen to the Solar System in the future",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/What_will_happen_to_the_Solar_System_in_the_future"
+      }
+     ],
+     "questions": [
+      "About how many more years will the Sun keep shining much as it does now?",
+      "What is the process called that makes the Sun's energy?"
+     ],
+     "answers": [
+      "About 5 billion years",
+      "Nuclear fusion"
+     ]
+    },
+    {
+     "title": "Lesson 35: Is There Life Out There?",
+     "steps": [
+      "Read the page together",
+      "Talk about where in the Solar System life might be found, and why",
+      "Write or dictate your own guess, with a reason"
+     ],
+     "links": [
+      {
+       "label": "Read: Is there life out there?",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Solar_System/Is_there_life_out_there%3F"
+      }
+     ],
+     "questions": [
+      "What is the equation called that scientists use to guess how much life is out there?",
+      "About how many stars are in the Milky Way?"
+     ],
+     "answers": [
+      "The Drake Equation",
+      "About three hundred billion"
+     ]
+    }
+   ]
+  }
+ ]
+}
