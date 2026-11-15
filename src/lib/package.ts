@@ -357,6 +357,8 @@ export function packageToListing(pkg: CurriculumPackage, seller: string, existin
     license: pkg.license,
     attribution: attributionFor(pkg, seller),
     outline: outlinePreview(pkg.units),
+    salePercent: existing?.salePercent,
+    saleEndsAt: existing?.saleEndsAt,
     mine: true,
   };
 }

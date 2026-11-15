@@ -55,6 +55,9 @@ export default function RootLayout() {
         <Stack.Screen name="notifications" options={{ headerShown: true, title: 'Notifications' }} />
         <Stack.Screen name="messages" />
         <Stack.Screen name="listing/[id]" options={{ headerShown: true, title: 'Curriculum', headerBackTitle: 'Marketplace' }} />
+        <Stack.Screen name="bundle/[id]" options={{ headerShown: true, title: 'Bundle', headerBackTitle: 'Marketplace' }} />
+        <Stack.Screen name="gift/[code]" options={{ headerShown: true, title: 'A gift for you' }} />
+        <Stack.Screen name="coop/[code]" options={{ headerShown: true, title: 'Join a co-op class' }} />
         <Stack.Screen name="creator/[id]" options={{ headerShown: true, title: 'Creator' }} />
         <Stack.Screen name="studio" />
       </Stack>

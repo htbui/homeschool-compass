@@ -211,6 +211,13 @@ export interface Curriculum {
   license?: License;
   /** Credit line the license requires (shown on lessons and printouts). */
   attribution?: string;
+  /** Joined from a teacher's co-op class (where newer versions come from). */
+  coopClassId?: ID;
+  coopTeacher?: string;
+  /** Show the teacher the kids' first names with their progress. */
+  coopShareNames?: boolean;
+  /** The teacher removed the family, or ended the class: no more updates. */
+  coopEnded?: boolean;
 }
 
 export interface LessonMaterial {

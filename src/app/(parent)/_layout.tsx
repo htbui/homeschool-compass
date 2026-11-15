@@ -3,6 +3,7 @@ import { Redirect, Tabs } from 'expo-router';
 import { Platform, Text, useWindowDimensions } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { useCoopSync } from '@/hooks/useCoopSync';
 import { useInboxLive } from '@/services/inbox';
 import { selectOpenHelp, useStore } from '@/store/useStore';
 import { useColors } from '@/ui';
@@ -33,6 +34,7 @@ export default function ParentTabs() {
   const mode = useStore((s) => s.mode);
   const helpCount = useStore((s) => selectOpenHelp(s).length);
   const wide = width >= 900;
+  useCoopSync();
   // Messages and moderators' decisions stay live while a parent is here (never in kid mode).
   useInboxLive(!!family && mode.kind === 'parent');
 

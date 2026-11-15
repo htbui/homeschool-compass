@@ -5,9 +5,10 @@ import { CONDITION_LABEL, FORMAT_LABEL, gradeRangeLabel, SELLER_NOTE, type Listi
 import { SUBJECTS } from '@/lib/subjects';
 import { Card, Pill, Row, space, T, useColors } from '@/ui';
 
+import { PriceTag } from './PriceTag';
 import { VerifiedBadge } from './SellerBadges';
 
-export const money = (n: number) => (n === 0 ? 'Free' : `$${n % 1 === 0 ? n : n.toFixed(2)}`);
+export { money } from './PriceTag';
 
 export function Stars({ value, size = 14 }: { value: number; size?: number }) {
   const c = useColors();
@@ -51,7 +52,7 @@ export function ListingCard({ listing: l, owned, reasons }: { listing: Listing; 
             )}
           </Row>
         </View>
-        <T v="heading" color={c.primary}>{money(l.price)}</T>
+        <PriceTag listing={l} />
       </Row>
       <Row wrap gap={6}>
         {owned ? <Pill text="✓ Owned" bg={c.successSoft} fg={c.success} /> : null}

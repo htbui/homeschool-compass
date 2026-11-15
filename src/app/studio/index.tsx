@@ -93,6 +93,19 @@ export default function StudioHome() {
         <Button size="lg" icon="＋" title="New curriculum" onPress={() => router.push('/studio/new')} />
       </Section>
 
+      <Section title="Teach and sell">
+        <Row wrap gap={space.md} align="stretch">
+          <Card onPress={() => router.push('/studio/classes')} style={{ flex: 1, minWidth: 240 }}>
+            <T v="heading">👩‍🏫 Co-op classes</T>
+            <T v="caption" muted>Share a plan with 5–30 families. Each family goes at its own pace, and you see how far everyone has got.</T>
+          </Card>
+          <Card onPress={() => router.push('/studio/promotions')} style={{ flex: 1, minWidth: 240 }}>
+            <T v="heading">🏷️ Sales, bundles & coupons</T>
+            <T v="caption" muted>Put a curriculum on sale, sell several together for less, or make coupon codes.</T>
+          </Card>
+        </Row>
+      </Section>
+
       {packages.length === 0 ? (
         <Empty icon="📝" title="Nothing here yet" body="Write a curriculum from scratch, turn a free online course into a lesson plan, or import a spreadsheet of lessons." />
       ) : null}

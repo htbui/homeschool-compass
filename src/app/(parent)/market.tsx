@@ -3,6 +3,8 @@ import { useMemo, useState } from 'react';
 import { ScrollView, View, useWindowDimensions } from 'react-native';
 
 import { AddToPlanSheet } from '@/components/market/AddToPlanSheet';
+import { BundleCard } from '@/components/market/BundleCard';
+import { GiftsPanel } from '@/components/market/GiftsPanel';
 import { ListingCard, money } from '@/components/market/ListingCard';
 import { ReviewSheet } from '@/components/market/ReviewSheet';
 import { SellSheet } from '@/components/market/SellSheet';
@@ -27,7 +29,7 @@ import {
 import { PHILOSOPHY_INFO } from '@/lib/quiz';
 import { SUBJECT_LIST, SUBJECTS } from '@/lib/subjects';
 import type { Philosophy, Subject } from '@/lib/types';
-import { useCatalog } from '@/store/useMarket';
+import { useBundles, useCatalog } from '@/store/useMarket';
 import { enterStudio } from '@/services/studioMode';
 import { useStore } from '@/store/useStore';
 import { deleteListing, refreshPurchases } from '@/services/marketApi';
@@ -47,6 +49,7 @@ export default function Marketplace() {
   const allMine = useStore((s) => s.myListings);
   const myListings = useMemo(() => allMine.filter((l) => !l.packageId), [allMine]);
   const { listings, source } = useCatalog();
+  const bundles = useBundles();
 
   const [view, setView] = useState<View_>(params.view === 'selling' ? 'selling' : params.view === 'library' ? 'library' : 'browse');
   const [query, setQuery] = useState(params.q ?? '');
@@ -91,6 +94,9 @@ export default function Marketplace() {
   // The React Compiler memoizes this; the catalog is small enough to filter on every render.
   const results = sortListings(filterListings(listings, filters), sort, ctx);
   const owned = new Set(purchases.map((p) => p.listingId));
+  // Bundles with something in the current results.
+  const shownIds = new Set(results.map((l) => l.id));
+  const shownBundles = bundles.filter((b) => b.listingIds.some((id) => shownIds.has(id)));
   const extraFilters = [price !== 'any', formats.length > 0, philosophies.length > 0, esaOnly, used !== 'any', minRating > 0].filter(Boolean).length;
   const cols = width >= 1200 ? 3 : width >= 760 ? 2 : 1;
 
@@ -149,6 +155,18 @@ export default function Marketplace() {
               ))}
             </ChipRow>
           </Stack>
+
+          {shownBundles.length ? (
+            <Section title="🎁 Bundles" subtitle="Curricula from one creator, together for less.">
+              <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: space.md }}>
+                {shownBundles.map((b) => (
+                  <View key={b.id} style={{ width: cols === 1 ? '100%' : `${100 / cols - 2}%`, flexGrow: 1 }}>
+                    <BundleCard bundle={b} listings={listings} owned={owned} />
+                  </View>
+                ))}
+              </View>
+            </Section>
+          ) : null}
 
           <Section title={`${results.length} ${results.length === 1 ? 'curriculum' : 'curricula'}`} subtitle={sort === 'match' ? `Ranked for your family: ${family.philosophy ? 'teaching style, ' : ''}kids' grades, and ratings.` : undefined}>
             {results.length === 0 ? (
@@ -276,12 +294,16 @@ function Library({ purchases, listings, onBrowse }: { purchases: Purchase[]; lis
 
   if (purchases.length === 0) {
     return (
-      <Section title="My library">
-        <Empty icon="📚" title="No curricula yet" body="Anything you buy or get free shows up here, ready to add to your plan." action={<Button title="Browse the marketplace" onPress={onBrowse} />} />
-      </Section>
+      <>
+        <Section title="My library">
+          <Empty icon="📚" title="No curricula yet" body="Anything you buy, get free, or are given shows up here, ready to add to your plan." action={<Button title="Browse the marketplace" onPress={onBrowse} />} />
+        </Section>
+        <GiftsPanel />
+      </>
     );
   }
   return (
+    <>
     <Section title="My library" subtitle="Everything you've bought or claimed. Add any of it to your plan with a pace that fits your year.">
       <Stack>
         {purchases.map((p) => {
@@ -292,11 +314,13 @@ function Library({ purchases, listings, onBrowse }: { purchases: Purchase[]; lis
             <Card key={p.id}>
               <Row style={{ justifyContent: 'space-between' }} wrap>
                 <T v="heading" style={{ flex: 1 }}>{listing?.cover ?? '📘'} {p.title}</T>
-                <Pill text={p.status === 'free' ? 'Free' : `${money(p.price)}${p.demo ? ' · demo' : ''}`} />
+                <Pill text={p.giftFrom ? `🎁 Gift from ${p.giftFrom}` : p.status === 'free' ? 'Free' : `${money(p.price)}${p.demo ? ' · demo' : ''}`} bg={p.giftFrom ? c.successSoft : undefined} />
               </Row>
               <T v="caption" muted>
                 {p.seller} · {formatDate(p.purchasedAt.slice(0, 10), { month: 'short', day: 'numeric', year: 'numeric' })}
                 {p.price > 0 ? ` · ${p.fundingSource === 'esa' ? 'ESA' : p.fundingSource === 'tax' ? 'tax-deductible' : 'out of pocket'} · in your expenses` : ''}
+                {p.bundleId ? ' · part of a bundle' : ''}
+                {p.listPrice && p.listPrice > p.price ? ` · saved ${money(Math.round((p.listPrice - p.price) * 100) / 100)}` : ''}
               </T>
               <Row wrap>
                 {inPlan ? (
@@ -314,6 +338,8 @@ function Library({ purchases, listings, onBrowse }: { purchases: Purchase[]; lis
       {planFor ? <AddToPlanSheet listing={planFor.listing} purchaseId={planFor.purchase.id} visible onClose={() => setPlanFor(null)} /> : null}
       {reviewFor ? <ReviewSheet listing={reviewFor} existing={myReviews.find((r) => r.listingId === reviewFor.id)} visible onClose={() => setReviewFor(null)} /> : null}
     </Section>
+    <GiftsPanel />
+    </>
   );
 }
 

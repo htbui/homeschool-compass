@@ -4,7 +4,8 @@ import { View, useWindowDimensions } from 'react-native';
 
 import { AddToPlanSheet } from '@/components/market/AddToPlanSheet';
 import { CheckoutSheet } from '@/components/market/CheckoutSheet';
-import { Cover, money, Stars } from '@/components/market/ListingCard';
+import { Cover, Stars } from '@/components/market/ListingCard';
+import { money, PriceTag, SaleNote } from '@/components/market/PriceTag';
 import { ReportSheet } from '@/components/market/ReportSheet';
 import { ReviewSheet } from '@/components/market/ReviewSheet';
 import { EsaBadge, VerifiedBadge } from '@/components/market/SellerBadges';
@@ -25,7 +26,8 @@ import {
   type ReviewSort,
 } from '@/lib/market';
 import { SUBJECTS } from '@/lib/subjects';
-import { useCatalog } from '@/store/useMarket';
+import { bundleSummary } from '@/lib/pricing';
+import { useBundles, useCatalog } from '@/store/useMarket';
 import { useStore } from '@/store/useStore';
 import { useStudio } from '@/store/useStudio';
 import { LICENSE_INFO, licenseName } from '@/lib/license';
@@ -47,6 +49,9 @@ export default function ListingDetail() {
   const studioPkg = useStudio((s) => s.packages.find((p) => p.listingId === id));
   const confirm = useConfirm();
   const [buying, setBuying] = useState(false);
+  const [gifting, setGifting] = useState(false);
+  const bundles = useBundles();
+  const owned = useStore((s) => s.purchases);
   const [planning, setPlanning] = useState<{ purchase: Purchase; fresh: boolean } | null>(null);
   const [reviewing, setReviewing] = useState(false);
   const [reviewSort, setReviewSort] = useState<ReviewSort>('helpful');
@@ -72,12 +77,15 @@ export default function ListingDetail() {
   const shown = sortReviews(starFilter ? reviews.filter((r) => r.rating === starFilter) : reviews, reviewSort);
   const mine = reviews.find((r) => r.mine);
   const match = matchListing(l, { family, kids });
+  const inBundles = bundles.filter((b) => b.listingIds.includes(l.id));
+  const ownedIds = new Set(owned.map((p) => p.listingId));
   const store = storefrontId(l);
   const wide = width >= 900;
 
   const buyBox = (
     <Card style={wide ? { width: 300 } : undefined}>
-      <T v="display" color={c.primary}>{money(l.price)}</T>
+      <PriceTag listing={l} size="display" />
+      <SaleNote listing={l} />
       {l.format === 'online' && l.price > 0 ? <T v="caption" muted>per month, as listed by the seller</T> : null}
       {purchase ? (
         <>
@@ -103,6 +111,16 @@ export default function ListingDetail() {
       ) : (
         <Button size="lg" title={l.price === 0 ? 'Get it free' : 'Buy'} onPress={() => setBuying(true)} />
       )}
+      {!l.mine && family && l.sellerKind !== 'family' ? <Button kind="secondary" title={l.price === 0 ? '🎁 Send to a friend' : '🎁 Give as a gift'} onPress={() => setGifting(true)} /> : null}
+      {inBundles.map((b) => {
+        const s = bundleSummary(b, listings, ownedIds);
+        return s.items.length > 1 && s.owned.length < s.items.length ? (
+          <Card key={b.id} tint={c.primarySoft} onPress={() => router.push({ pathname: '/bundle/[id]', params: { id: b.id } })}>
+            <T v="label">🎁 In the bundle “{b.title}”</T>
+            <T v="caption">{s.items.length} curricula for {money(s.price)}{s.save ? ` · save ${s.save}%` : ''}</T>
+          </Card>
+        ) : null;
+      })}
       <T v="caption" muted>
         {l.esaEligible ? `🏛️ Approved ESA vendor${l.esaStates?.length ? ` in ${stateList(l.esaStates)}` : ''}; reimbursement goes through your state program. ` : ''}
         {l.sellerKind === 'open' ? `A free curriculum by ${l.seller}, organized into a lesson plan by Freerange (not affiliated with or endorsed by its author or publisher).` : l.sellerKind === 'family' ? 'Sold by a family: arrange pickup in a public place or shipping.' : `Sold by ${l.seller}${l.sellerKind === 'creator' ? ', an independent creator' : ''}${l.sellerVerified ? ' (Freerange checked who they are)' : ''}.`}
@@ -285,14 +303,16 @@ export default function ListingDetail() {
 
       <ReportSheet target={reporting ?? undefined} name={reporting?.name} onClose={() => setReporting(null)} />
       <CheckoutSheet
-        listing={l}
+        item={{ kind: 'listing', listing: l }}
         visible={buying}
         onClose={() => setBuying(false)}
-        onPurchased={(p) => {
+        onPurchased={(ps) => {
           setBuying(false);
-          setPlanning({ purchase: p, fresh: true });
+          const p = ps.find((x) => x.listingId === l.id) ?? ps[0];
+          if (p) setPlanning({ purchase: p, fresh: true });
         }}
       />
+      <CheckoutSheet item={{ kind: 'listing', listing: l }} asGift visible={gifting} onClose={() => setGifting(false)} />
       {planning ? <AddToPlanSheet listing={l} purchaseId={planning.purchase.id} intro={planning.fresh ? '🎉 It’s in your library! Want to schedule it now?' : undefined} visible onClose={() => setPlanning(null)} /> : null}
       <ReviewSheet listing={l} existing={mine} visible={reviewing} onClose={() => setReviewing(false)} />
       {confirm.element}

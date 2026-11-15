@@ -1,5 +1,6 @@
 import type { Listing, Purchase, Review } from '@/lib/market';
 import { libraryListings } from '@/lib/library';
+import type { Bundle } from '@/lib/pricing';
 import type { FundingSource, ID } from '@/lib/types';
 import { useAccount } from '@/store/useAccount';
 import { useMarket } from '@/store/useMarket';
@@ -25,10 +26,14 @@ export type ListingRow = {
   minutes_per_lesson: number; parent_involvement: Listing['parentInvolvement']; family_style: boolean; lesson_steps: string[]; cover: string; color: string; esa_eligible: boolean;
   rating_avg: number | string; rating_count: number; sample: boolean; status: string; created_at: string;
   creator_user?: string | null; package_id?: string | null; package_version?: number | null; license?: Listing['license'] | null; attribution?: string | null; outline?: Listing['outline'] | null;
+  sale_percent?: number | null; sale_ends_at?: string | null;
   esa_states?: string[] | null;
 };
 type ReviewRow = { id: string; listing_id: string; family_id: string | null; author_name: string; rating: number; title: string; body: string; child_grade: string | null; verified: boolean; helpful: number; sample: boolean; hidden?: boolean; show_progress?: boolean; progress_done?: number | null; progress_total?: number | null; created_at: string };
-type PurchaseRow = { id: string; listing_id: string | null; title: string; seller: string; price: number | string; funding_source: FundingSource; status: Purchase['status'] | 'cancelled'; demo: boolean; esa_eligible: boolean; created_at: string };
+export type PurchaseRow = {
+  id: string; listing_id: string | null; title: string; seller: string; price: number | string; funding_source: FundingSource; status: Purchase['status'] | 'cancelled'; demo: boolean; esa_eligible: boolean; created_at: string;
+  list_price?: number | string | null; bundle_id?: string | null; gift_id?: string | null; gift_from?: string | null;
+};
 
 export const toListing = (r: ListingRow, fid?: string): Listing => ({
   id: r.id,
@@ -67,6 +72,8 @@ export const toListing = (r: ListingRow, fid?: string): Listing => ({
   attribution: r.attribution ?? undefined,
   outline: r.outline ?? undefined,
   suspended: r.status === 'suspended' || undefined,
+  salePercent: r.sale_percent ?? undefined,
+  saleEndsAt: r.sale_ends_at ?? undefined,
 });
 
 const fromListing = (l: Listing, fid: string) => ({
@@ -112,20 +119,55 @@ const toReview = (r: ReviewRow, fid?: string): Review => ({
   showProgress: r.show_progress ?? true,
 });
 
-export const toPurchase = (r: PurchaseRow): Purchase => ({
+export const toPurchase = (r: PurchaseRow): Purchase => {
+  // A gift's row carries what the giver paid (for the creator's sales); this family paid nothing.
+  const gift = !!r.gift_id;
+  const listPrice = r.list_price == null ? undefined : Number(r.list_price);
+  return {
+    id: r.id,
+    listingId: r.listing_id ?? '',
+    title: r.title,
+    seller: r.seller,
+    price: gift ? 0 : Number(r.price),
+    fundingSource: r.funding_source,
+    purchasedAt: r.created_at,
+    status: gift ? 'free' : r.status === 'cancelled' ? 'pending' : r.status,
+    demo: r.demo || undefined,
+    esaEligible: r.esa_eligible,
+    listPrice: !gift && listPrice !== undefined && listPrice > Number(r.price) ? listPrice : undefined,
+    bundleId: r.bundle_id ?? undefined,
+    giftFrom: gift ? (r.gift_from ?? 'another family') : undefined,
+  };
+};
+
+export type BundleRow = {
+  id: string; creator_user: string; seller_name: string; title: string; description: string; listing_ids: string[]; price: number | string; cover: string; color: string;
+  status: Bundle['status']; created_at: string;
+};
+
+export const toBundle = (r: BundleRow): Bundle => ({
   id: r.id,
-  listingId: r.listing_id ?? '',
   title: r.title,
-  seller: r.seller,
+  description: r.description,
+  seller: r.seller_name,
+  creatorUser: r.creator_user,
+  listingIds: r.listing_ids,
   price: Number(r.price),
-  fundingSource: r.funding_source,
-  purchasedAt: r.created_at,
-  status: r.status === 'cancelled' ? 'pending' : r.status,
-  demo: r.demo || undefined,
-  esaEligible: r.esa_eligible,
+  cover: r.cover,
+  color: r.color,
+  status: r.status,
+  createdAt: r.created_at,
+  mine: r.creator_user === useAccount.getState().userId || undefined,
 });
 
 // ───────────────────────────── Catalog
+
+/** Creators' live bundles. (Bundles made without an account are read straight from Studio.) */
+export async function refreshBundles(): Promise<void> {
+  if (!supabase) return;
+  const { data, error } = await supabase.from('bundles').select('*').eq('status', 'active').order('created_at', { ascending: false }).limit(500);
+  if (!error) useMarket.getState().setBundles((data as BundleRow[]).map(toBundle));
+}
 
 /** Load the catalog (and, when signed in, this family's purchases, listings, reviews, votes). */
 export async function refreshMarketplace(): Promise<void> {
@@ -143,6 +185,7 @@ export async function refreshMarketplace(): Promise<void> {
     // Keep reviews already loaded for listing pages; they refresh per listing.
     const kept = useMarket.getState();
     market.setCatalog({ listings, reviews: kept.source === 'cloud' ? kept.reviews : [], source: 'cloud' });
+    await refreshBundles();
     if (signedIn() && fid) await refreshMine(fid);
     if (signedIn()) await refreshFollows();
   } catch (e) {

@@ -4,6 +4,7 @@ import { createJSONStorage, persist } from 'zustand/middleware';
 
 import { doneFor, setDoneFor, setVersionPick, withLessons } from '@/lib/curriculum';
 import { fromMinutes, schoolYearLabel, todayKey } from '@/lib/dates';
+import type { SentGift } from '@/lib/gifts';
 import { uid } from '@/lib/id';
 import { applyPlanUpdate } from '@/lib/planUpdate';
 import { autoStagger, gentleBump, tasksForDate } from '@/lib/schedule';
@@ -52,6 +53,8 @@ interface Data {
   myListings: Listing[];
   myReviews: Review[];
   helpfulVotes: ID[];
+  /** Gifts sent without an account (kept on this device; with one, the server keeps them). */
+  localGifts: SentGift[];
   /** When a parent read the meetup safety tips (shown before the first meetup). */
   meetupTipsSeenAt?: string;
   /** Creators whose storefronts this family follows (mirrors the account's when signed in). */
@@ -117,8 +120,9 @@ interface Actions {
   markMeetupTipsSeen: () => void;
 
   recordPurchase: (p: Purchase) => void;
-  /** `content` is the full lesson plan for Studio packages. */
-  addListingToPlan: (listing: Listing, opts: PlanOptions, purchaseId?: ID, content?: PackageContent) => { curriculum: Curriculum; blocks: RhythmBlock[] };
+  /** `content` is the full lesson plan for Studio packages; `extra` adds to the curriculum (e.g. its co-op class). */
+  addListingToPlan: (listing: Listing, opts: PlanOptions, purchaseId?: ID, content?: PackageContent, extra?: Partial<Curriculum>) => { curriculum: Curriculum; blocks: RhythmBlock[] };
+  upsertLocalGift: (g: SentGift) => void;
   upsertMyListing: (l: Listing) => void;
   removeMyListing: (id: ID) => void;
   upsertMyReview: (r: Review) => void;
@@ -162,6 +166,7 @@ const initialData = (): Data => ({
   myListings: [],
   myReviews: [],
   helpfulVotes: [],
+  localGifts: [],
   followedCreators: [],
   mode: { kind: 'parent' },
 });
@@ -355,8 +360,10 @@ export const useStore = create<Store>()(
               : undefined;
           return { purchases: [p, ...s.purchases.filter((x) => x.id !== p.id)], expenses: expense ? [expense, ...s.expenses] : s.expenses };
         }),
-      addListingToPlan: (listing, opts, purchaseId, content) => {
-        const { curriculum, blocks } = planFromListing(listing, opts, content);
+      addListingToPlan: (listing, opts, purchaseId, content, extra) => {
+        const planned = planFromListing(listing, opts, content);
+        const curriculum = extra ? { ...planned.curriculum, ...extra } : planned.curriculum;
+        const blocks = planned.blocks;
         set((s) => ({
           curricula: [...s.curricula, curriculum],
           blocks: [...s.blocks, ...blocks],
@@ -364,6 +371,7 @@ export const useStore = create<Store>()(
         }));
         return { curriculum, blocks };
       },
+      upsertLocalGift: (g) => set((s) => ({ localGifts: [g, ...s.localGifts.filter((x) => x.id !== g.id)] })),
       upsertMyListing: (l) => set((s) => ({ myListings: [{ ...l, mine: true }, ...s.myListings.filter((x) => x.id !== l.id)] })),
       removeMyListing: (id) => set((s) => ({ myListings: s.myListings.filter((x) => x.id !== id) })),
       upsertMyReview: (r) => set((s) => ({ myReviews: [{ ...r, mine: true }, ...s.myReviews.filter((x) => x.id !== r.id && x.listingId !== r.listingId)] })),

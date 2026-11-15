@@ -2,7 +2,10 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 
+import type { ClassMember, CoopClass } from '@/lib/coop';
+import type { PackageContent } from '@/lib/market';
 import type { CurriculumPackage } from '@/lib/package';
+import type { Bundle, Coupon } from '@/lib/pricing';
 
 /**
  * Studio: the creator side of Freerange (like a seller's shop manager). A
@@ -23,17 +26,31 @@ export interface CreatorProfile {
   createdAt: string;
 }
 
+/** A co-op class kept on this device (no account): its versions and the families in it. */
+export interface LocalClass extends CoopClass {
+  code: string;
+  releases: PackageContent[];
+  members: ClassMember[];
+}
+
 interface StudioState {
   /** This device is showing Studio rather than the family planner. */
   active: boolean;
   profile?: CreatorProfile;
   packages: CurriculumPackage[];
+  /** Without an account: this device's bundles, coupons, and co-op classes. */
+  bundles: Bundle[];
+  coupons: Coupon[];
+  classes: LocalClass[];
   hydrated: boolean;
   setActive: (active: boolean) => void;
   saveProfile: (p: Omit<CreatorProfile, 'createdAt'>) => void;
   upsertPackage: (p: CurriculumPackage) => void;
   removePackage: (id: string) => void;
   setPackages: (p: CurriculumPackage[]) => void;
+  setBundles: (b: Bundle[]) => void;
+  setCoupons: (c: Coupon[]) => void;
+  setClasses: (c: LocalClass[]) => void;
   reset: () => void;
 }
 
@@ -42,6 +59,9 @@ export const useStudio = create<StudioState>()(
     (set) => ({
       active: false,
       packages: [],
+      bundles: [],
+      coupons: [],
+      classes: [],
       hydrated: false,
       setActive: (active) => set({ active }),
       saveProfile: (p) => set((s) => ({ profile: { ...s.profile, ...p, createdAt: s.profile?.createdAt ?? new Date().toISOString() } })),
@@ -52,7 +72,10 @@ export const useStudio = create<StudioState>()(
         }),
       removePackage: (id) => set((s) => ({ packages: s.packages.filter((p) => p.id !== id) })),
       setPackages: (packages) => set({ packages }),
-      reset: () => set({ active: false, profile: undefined, packages: [] }),
+      setBundles: (bundles) => set({ bundles }),
+      setCoupons: (coupons) => set({ coupons }),
+      setClasses: (classes) => set({ classes }),
+      reset: () => set({ active: false, profile: undefined, packages: [], bundles: [], coupons: [], classes: [] }),
     }),
     {
       name: 'freerange-studio',

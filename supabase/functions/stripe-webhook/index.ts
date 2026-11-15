@@ -1,4 +1,4 @@
-// Stripe → Freerange: marks purchases paid (or cancelled) when Checkout finishes.
+// Stripe → Freerange: marks orders (purchases or gifts) paid, or cancelled, when Checkout finishes.
 // Verifies Stripe's signature, so it must be deployed with JWT verification
 // off (see supabase/config.toml) and STRIPE_WEBHOOK_SECRET set.
 import { createClient } from 'npm:@supabase/supabase-js@2';
@@ -16,10 +16,12 @@ Deno.serve(async (req) => {
   const event = JSON.parse(body);
   const session = event?.data?.object;
   const admin = createClient(Deno.env.get('SUPABASE_URL')!, Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!, { auth: { persistSession: false } });
-  if (event.type === 'checkout.session.completed' && session?.payment_status === 'paid') {
-    await admin.from('purchases').update({ status: 'paid', paid_at: new Date().toISOString() }).eq('provider_session', session.id).eq('status', 'pending');
-  } else if (event.type === 'checkout.session.expired') {
-    await admin.from('purchases').update({ status: 'cancelled' }).eq('provider_session', session.id).eq('status', 'pending');
+  // settle_order() settles the whole order: every purchase in a bundle, or a gift
+  // (which becomes claimable), and gives back the coupon use if it expired.
+  const settle = event.type === 'checkout.session.completed' && session?.payment_status === 'paid' ? true : event.type === 'checkout.session.expired' ? false : null;
+  if (settle !== null) {
+    const { error } = await admin.rpc('settle_order', { sid: session.id, paid: settle });
+    if (error) return json({ error: error.message }, 500);
   }
   return json({ received: true });
 });

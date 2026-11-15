@@ -59,6 +59,17 @@ async function pushPackage(pkg: CurriculumPackage): Promise<void> {
   if (error) throw new Error(friendlyError(error));
 }
 
+/** Save a package to the account right away (before the server reads it), with its credit line. */
+export async function pushPackageNow(pkg: CurriculumPackage): Promise<CurriculumPackage> {
+  const ready: CurriculumPackage = { ...pkg, attribution: attributionFor(pkg, useStudio.getState().profile?.name) };
+  if (ready.attribution !== pkg.attribution) useStudio.getState().upsertPackage(ready);
+  if (signedIn()) {
+    clearTimeout(timers.get(pkg.id));
+    await pushPackage(useStudio.getState().packages.find((p) => p.id === pkg.id) ?? ready);
+  }
+  return ready;
+}
+
 export async function deletePackage(pkg: CurriculumPackage): Promise<void> {
   if (pkg.status === 'published') await unpublishPackage(pkg);
   if (signedIn()) {
