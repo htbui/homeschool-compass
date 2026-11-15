@@ -25,6 +25,7 @@ export type ListingRow = {
   minutes_per_lesson: number; parent_involvement: Listing['parentInvolvement']; family_style: boolean; lesson_steps: string[]; cover: string; color: string; esa_eligible: boolean;
   rating_avg: number | string; rating_count: number; sample: boolean; status: string; created_at: string;
   creator_user?: string | null; package_id?: string | null; package_version?: number | null; license?: Listing['license'] | null; attribution?: string | null; outline?: Listing['outline'] | null;
+  esa_states?: string[] | null;
 };
 type ReviewRow = { id: string; listing_id: string; family_id: string | null; author_name: string; rating: number; title: string; body: string; child_grade: string | null; verified: boolean; helpful: number; sample: boolean; hidden?: boolean; created_at: string };
 type PurchaseRow = { id: string; listing_id: string | null; title: string; seller: string; price: number | string; funding_source: FundingSource; status: Purchase['status'] | 'cancelled'; demo: boolean; esa_eligible: boolean; created_at: string };
@@ -53,10 +54,12 @@ export const toListing = (r: ListingRow, fid?: string): Listing => ({
   cover: r.cover,
   color: r.color,
   esaEligible: r.esa_eligible,
+  esaStates: r.esa_states?.length ? r.esa_states : undefined,
   ratingAvg: Number(r.rating_avg),
   ratingCount: r.rating_count,
   createdAt: r.created_at,
   sample: r.sample || undefined,
+  creatorId: r.creator_user ?? undefined,
   mine: (!!fid && r.seller_family === fid) || (!!r.creator_user && r.creator_user === useAccount.getState().userId) ? true : undefined,
   packageId: r.package_id ?? undefined,
   packageVersion: r.package_version ?? undefined,
@@ -139,6 +142,7 @@ export async function refreshMarketplace(): Promise<void> {
     const kept = useMarket.getState();
     market.setCatalog({ listings, reviews: kept.source === 'cloud' ? kept.reviews : [], source: 'cloud' });
     if (signedIn() && fid) await refreshMine(fid);
+    if (signedIn()) await refreshFollows();
   } catch (e) {
     market.setStatus({ loading: false, error: friendlyError(e) });
   }
@@ -157,6 +161,14 @@ async function refreshMine(fid: string) {
     helpfulVotes: ((votes.data ?? []) as { review_id: string }[]).map((v) => v.review_id),
   });
   await refreshPurchases();
+}
+
+/** Bring down the account's followed creators (they replace this device's). */
+export async function refreshFollows(): Promise<void> {
+  if (!signedIn()) return;
+  const { data, error } = await supabase!.from('creator_follows').select('creator_user');
+  if (error) return;
+  useStore.setState({ followedCreators: ((data ?? []) as { creator_user: string }[]).map((r) => r.creator_user) });
 }
 
 /** Reviews for one listing (loaded when its page opens). */

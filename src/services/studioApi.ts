@@ -1,5 +1,6 @@
 import { Platform } from 'react-native';
 
+import { LOCAL_CREATOR_ID } from '@/lib/creators';
 import { uid } from '@/lib/id';
 import type { Listing, PackageContent } from '@/lib/market';
 import { attributionFor, packageToListing, publishIssues, type CurriculumPackage } from '@/lib/package';
@@ -28,7 +29,10 @@ export async function saveCreatorProfile(p: Omit<CreatorProfile, 'createdAt'>): 
     const { error } = await supabase!.from('creator_profiles').upsert({ user_id: useAccount.getState().userId, name: p.name.trim(), bio: p.bio.trim(), website: p.website?.trim() || null });
     if (error) throw new Error(friendlyError(error));
   }
-  useStudio.getState().saveProfile({ ...p, name: p.name.trim(), bio: p.bio.trim(), website: p.website?.trim() || undefined });
+  const before = useStudio.getState().profile;
+  // A new name needs a new check, like on the server.
+  const verified = before?.verified && before.name === p.name.trim() ? true : undefined;
+  useStudio.getState().saveProfile({ ...p, name: p.name.trim(), bio: p.bio.trim(), website: p.website?.trim() || undefined, verified });
 }
 
 // ───────────────────────────── Packages
@@ -72,7 +76,7 @@ export async function loadStudio(): Promise<void> {
     supabase!.from('creator_profiles').select('*').eq('user_id', useAccount.getState().userId).maybeSingle(),
     supabase!.from('packages').select('content, updated_at'),
   ]);
-  if (profile.data) studio.saveProfile({ name: profile.data.name, bio: profile.data.bio, website: profile.data.website ?? undefined });
+  if (profile.data) studio.saveProfile({ name: profile.data.name, bio: profile.data.bio, website: profile.data.website ?? undefined, verified: profile.data.verified || undefined, esaStates: profile.data.esa_states?.length ? profile.data.esa_states : undefined });
   else if (studio.profile) await saveCreatorProfile(studio.profile).catch(() => {});
   const remote = ((rows.data ?? []) as { content: CurriculumPackage }[]).map((r) => r.content);
   const local = studio.packages;
@@ -114,7 +118,7 @@ export async function publishPackage(pkg: CurriculumPackage): Promise<Curriculum
   const now = new Date().toISOString();
   const saved: CurriculumPackage = { ...ready, releaseNote: undefined, status: 'published', version: pkg.version + 1, listingId: pkg.listingId ?? uid('l'), publishedAt: now, updatedAt: now };
   const existing = useStore.getState().myListings.find((l) => l.id === saved.listingId);
-  useStore.getState().upsertMyListing(packageToListing(saved, profile.name, existing));
+  useStore.getState().upsertMyListing({ ...packageToListing(saved, profile.name, existing), creatorId: LOCAL_CREATOR_ID });
   useStudio.getState().upsertPackage(saved);
   return saved;
 }

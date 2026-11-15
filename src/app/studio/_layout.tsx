@@ -12,6 +12,7 @@ export default function StudioLayout() {
       <Stack.Screen name="new" options={{ title: 'New curriculum' }} />
       <Stack.Screen name="import" options={{ title: 'Import' }} />
       <Stack.Screen name="[id]" options={{ title: 'Edit curriculum' }} />
+      <Stack.Screen name="badge" options={{ title: 'Badges' }} />
     </Stack>
   );
 }

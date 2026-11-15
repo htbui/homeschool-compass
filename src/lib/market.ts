@@ -46,11 +46,15 @@ export interface Listing {
   cover: string;
   color: string;
   esaEligible: boolean;
+  /** States whose ESA programs approved this seller as a vendor. */
+  esaStates?: string[];
   ratingAvg: number;
   ratingCount: number;
   createdAt: string;
   /** Demo catalog entry (shown with a "Sample" badge). */
   sample?: boolean;
+  /** The Studio creator selling it: their storefront is /creator/<creatorId>. */
+  creatorId?: ID;
   /** Listed by this family (or this Studio creator). */
   mine?: boolean;
   /** Taken down by moderators (only its seller still sees it). */

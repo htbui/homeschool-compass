@@ -51,6 +51,8 @@ interface Data {
   myListings: Listing[];
   myReviews: Review[];
   helpfulVotes: ID[];
+  /** Creators whose storefronts this family follows (mirrors the account's when signed in). */
+  followedCreators: ID[];
   mode: AppMode;
 }
 
@@ -116,6 +118,7 @@ interface Actions {
   upsertMyReview: (r: Review) => void;
   removeMyReview: (id: ID) => void;
   toggleHelpful: (reviewId: ID) => void;
+  setFollowing: (creatorId: ID, on: boolean) => void;
 
   setMode: (m: AppMode) => void;
   importData: (json: string) => void;
@@ -153,6 +156,7 @@ const initialData = (): Data => ({
   myListings: [],
   myReviews: [],
   helpfulVotes: [],
+  followedCreators: [],
   mode: { kind: 'parent' },
 });
 
@@ -350,6 +354,7 @@ export const useStore = create<Store>()(
       upsertMyReview: (r) => set((s) => ({ myReviews: [{ ...r, mine: true }, ...s.myReviews.filter((x) => x.id !== r.id && x.listingId !== r.listingId)] })),
       removeMyReview: (id) => set((s) => ({ myReviews: s.myReviews.filter((x) => x.id !== id) })),
       toggleHelpful: (reviewId) => set((s) => ({ helpfulVotes: s.helpfulVotes.includes(reviewId) ? s.helpfulVotes.filter((x) => x !== reviewId) : [...s.helpfulVotes, reviewId] })),
+      setFollowing: (creatorId, on) => set((s) => ({ followedCreators: [...(s.followedCreators ?? []).filter((x) => x !== creatorId), ...(on ? [creatorId] : [])] })),
 
       setMode: (mode) => set({ mode }),
       exportData: () => {
