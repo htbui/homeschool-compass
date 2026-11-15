@@ -17,7 +17,7 @@ import type { Curriculum, RhythmBlock, Subject } from '@/lib/types';
 import { generateUnitStudy, TIER_LABEL, type UnitPlan } from '@/lib/unitStudy';
 import { leaveClass, setShareNames } from '@/services/coopApi';
 import { useStore } from '@/store/useStore';
-import { Button, Card, Chip, DateField, Empty, Field, Pill, Progress, Row, Screen, Section, Segmented, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
+import { Actions, Button, Card, Chip, DateField, Empty, Field, Pill, Progress, Row, Screen, Section, Segmented, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
 
 type Tab = 'curricula' | 'unit';
 
@@ -153,7 +153,7 @@ export default function CurriculumHub() {
                 {plan.days.map((d) => (
                   <Card key={d.day}>
                     <T v="heading">Day {d.day} · {SUBJECTS[d.focus].icon} {subjectLabel(d.focus)}</T>
-                    <T v="caption" color={c.group}>🔵 Together: {d.together}</T>
+                    <T v="caption" color={c.groupInk}>🔵 Together: {d.together}</T>
                     {d.perChild.map((p) => {
                       const k = kids.find((x) => x.id === p.childId);
                       return (
@@ -408,7 +408,7 @@ function CurriculumForm({ initial, onSave, onDelete }: { initial?: Curriculum; o
           ))}
         </Row>
       </View>
-      <Row style={{ justifyContent: 'flex-end' }}>
+      <Actions>
         {onDelete ? <Button kind="danger" title="Remove" onPress={onDelete} /> : null}
         <Button
           title="Save"
@@ -435,7 +435,7 @@ function CurriculumForm({ initial, onSave, onDelete }: { initial?: Curriculum; o
             })
           }
         />
-      </Row>
+      </Actions>
     </Stack>
   );
 }

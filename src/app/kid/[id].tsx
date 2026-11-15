@@ -219,7 +219,7 @@ export default function DailyAdventure() {
                   <Text style={{ fontSize: 28 }}>🔊</Text>
                 </Pressable>
               ) : (
-                <T v="label" color={isDone ? c.success : isCurrent ? c.accent : c.textMuted}>
+                <T v="label" color={isDone ? c.successInk : isCurrent ? c.accentInk : c.textMuted}>
                   {isDone ? 'COMPLETED' : t.status === 'in_progress' ? 'IN PROGRESS' : isCurrent ? 'UP NEXT' : isFuture ? 'START EARLY? 🚀' : !isToday ? 'NOT FINISHED' : ''}
                 </T>
               )}

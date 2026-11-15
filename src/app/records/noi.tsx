@@ -4,7 +4,7 @@ import { NOI_CHECKLIST, noiHtml } from '@/lib/documents';
 import { getStateLaw, VERIFY_NOTICE } from '@/lib/states';
 import { useStore } from '@/store/useStore';
 import { exportHtml } from '@/services/exportDoc';
-import { Button, Card, Chip, Empty, Field, Row, Screen, Section, space, Stack, T, useColors } from '@/ui';
+import { Actions, Button, Card, Chip, Empty, Field, Screen, Section, space, Stack, T, useColors } from '@/ui';
 
 export default function NoiScreen() {
   const c = useColors();
@@ -47,8 +47,8 @@ export default function NoiScreen() {
         <Stack gap={space.md}>
           <Field label="School year" value={noi.schoolYear} onChangeText={(schoolYear) => updateNoi({ schoolYear })} />
           <Field label="Parent / educator name" value={noi.parentName} onChangeText={(parentName) => updateNoi({ parentName })} />
-          <Field label="Home address" multiline value={noi.address} onChangeText={(address) => updateNoi({ address })} placeholder={'123 Maple St\nDenver, CO 80202'} />
-          <Field label="School district" value={noi.district} onChangeText={(district) => updateNoi({ district })} placeholder="Denver Public Schools" />
+          <Field label="Home address" multiline value={noi.address} onChangeText={(address) => updateNoi({ address })} example={'123 Maple St, Denver, CO 80202'} />
+          <Field label="School district" value={noi.district} onChangeText={(district) => updateNoi({ district })} example="Denver Public Schools" />
           <Field label="Superintendent (or office)" value={noi.superintendent} onChangeText={(superintendent) => updateNoi({ superintendent })} placeholder="Office of the Superintendent" />
           <T v="caption" muted>Children included: {kids.map((k) => `${k.name} (${k.grade})`).join(', ')}</T>
         </Stack>
@@ -57,14 +57,14 @@ export default function NoiScreen() {
       <Section title="Digital signature">
         <Field label="Type your full legal name to sign" value={noi.signature} onChangeText={(signature) => updateNoi({ signature, signedAt: undefined })} />
         <T v="caption" muted>By signing you confirm the information is accurate. Some districts require a wet signature or notarization (e.g. Pennsylvania) — print and sign if so.</T>
-        <Row wrap>
+        <Actions align="flex-start">
           {signed ? (
             <Button kind="secondary" title={`Signed ${noi.signedAt!.slice(0, 10)} · Unsign`} onPress={() => updateNoi({ signedAt: undefined, checklist: { ...noi.checklist, signed: false } })} />
           ) : (
             <Button title="Sign letter ✍️" disabled={!canSign} reason={`Still needed: ${[!noi.parentName.trim() && 'educator name', !noi.address.trim() && 'home address', noi.signature.trim().length <= 2 && 'your typed signature'].filter(Boolean).join(', ')}`} onPress={() => updateNoi({ signedAt: new Date().toISOString(), checklist: { ...noi.checklist, signed: true } })} />
           )}
           <Button kind={signed ? 'primary' : 'secondary'} icon="⬇️" title="Export PDF" loading={busy} onPress={exportLetter} />
-        </Row>
+        </Actions>
       </Section>
 
       <Section title="Proof-of-mailing checklist">

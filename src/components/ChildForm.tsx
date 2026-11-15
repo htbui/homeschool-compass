@@ -5,7 +5,7 @@ import { ageOn, formatDate, todayKey } from '@/lib/dates';
 import { uid } from '@/lib/id';
 import type { Child, LearningDifference } from '@/lib/types';
 import { AVATARS, KID_COLORS } from '@/store/seed';
-import { Button, Chip, DateField, Field, Row, space, Stack, T } from '@/ui';
+import { Actions, Button, Chip, DateField, Field, Row, space, Stack, T } from '@/ui';
 
 const DIFFS: { value: LearningDifference; label: string }[] = [
   { value: 'adhd', label: 'ADHD' },
@@ -44,7 +44,7 @@ export function ChildForm({ initial, index, onSave, onCancel }: { initial?: Chil
 
   return (
     <Stack gap={space.lg}>
-      <Field label="Name" value={name} onChangeText={setName} placeholder="Maya" />
+      <Field label="Name" value={name} onChangeText={setName} example="Maya" />
       <DateField
         label="Birthdate"
         required
@@ -80,7 +80,7 @@ export function ChildForm({ initial, index, onSave, onCancel }: { initial?: Chil
           ))}
         </Row>
       </View>
-      <Field label="Passions" placeholder="dinosaurs, robotics, creative writing" value={passions} onChangeText={setPassions} />
+      <Field label="Passions" example="dinosaurs, robotics, creative writing" value={passions} onChangeText={setPassions} />
       <View style={{ gap: 6 }}>
         <T v="label">Can work solo for about…</T>
         <Row wrap gap={6}>
@@ -90,7 +90,7 @@ export function ChildForm({ initial, index, onSave, onCancel }: { initial?: Chil
         </Row>
       </View>
       <Field label="Kid PIN (optional)" hint="4 digits. Leave blank for tap-your-avatar login." keyboardType="number-pad" maxLength={4} value={pin} onChangeText={(v) => setPin(v.replace(/\D/g, ''))} />
-      <Row style={{ justifyContent: 'flex-end' }}>
+      <Actions>
         {onCancel ? <Button title="Cancel" kind="secondary" onPress={onCancel} /> : null}
         <Button
           style={{ flexShrink: 1 }}
@@ -114,7 +114,7 @@ export function ChildForm({ initial, index, onSave, onCancel }: { initial?: Chil
             })
           }
         />
-      </Row>
+      </Actions>
     </Stack>
   );
 }

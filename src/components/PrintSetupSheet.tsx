@@ -5,7 +5,7 @@ import { testPageHtml } from '@/lib/worksheet';
 import { canChoosePrinter, choosePrinter } from '@/services/exportDoc';
 import { runPrint } from '@/services/printing';
 import { usePrinter, type Paper, type PrinterConfig } from '@/store/usePrinter';
-import { Button, Card, Chip, Row, Sheet, Stack, T, useColors } from '@/ui';
+import { Actions, Button, Card, Chip, Row, Sheet, Stack, T, useColors } from '@/ui';
 
 const HOW_TO: Record<string, string> = {
   ios: 'Your iPhone or iPad prints with AirPrint. Make sure the printer is on and on the same Wi-Fi network.',
@@ -83,10 +83,10 @@ function SetupForm() {
         </Row>
       </Stack>
 
-      <Row wrap style={{ justifyContent: 'flex-end' }}>
+      <Actions>
         <Button kind="secondary" title="Print a test page" disabled={!ready} reason="Choose a printer first" loading={busy === 'test'} onPress={test} />
         <Button title={pending ? 'Save & print' : 'Save'} disabled={!ready} reason="Choose a printer, or use the print dialog" onPress={done} />
-      </Row>
+      </Actions>
     </Sheet>
   );
 }

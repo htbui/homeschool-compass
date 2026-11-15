@@ -35,5 +35,5 @@ export function PriceTag({ listing, size }: { listing: Listing; size?: 'heading'
 export function SaleNote({ listing }: { listing: Listing }) {
   const c = useColors();
   if (!onSale(listing)) return null;
-  return <T v="caption" color={c.accent}>🏷️ {listing.salePercent}% off until {formatDate(listing.saleEndsAt!.slice(0, 10), { month: 'short', day: 'numeric' })}</T>;
+  return <T v="caption" color={c.accentInk}>🏷️ {listing.salePercent}% off until {formatDate(listing.saleEndsAt!.slice(0, 10), { month: 'short', day: 'numeric' })}</T>;
 }

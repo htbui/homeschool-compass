@@ -9,7 +9,7 @@ import { loadRelease, releaseUpdates, releaseVersions, studioUpdates, type PlanU
 import { useAccount } from '@/store/useAccount';
 import { useStore } from '@/store/useStore';
 import { useStudio } from '@/store/useStudio';
-import { Button, Card, Pill, Row, Sheet, space, Stack, T, useColors } from '@/ui';
+import { Actions, Button, Card, Pill, Row, Sheet, space, Stack, T, useColors } from '@/ui';
 
 /** Newer versions of this family's scheduled plans, keyed by curriculum id. Rechecked when the screen is focused. */
 export function usePlanUpdates(): Record<ID, PlanUpdateInfo> {
@@ -139,7 +139,7 @@ function UpdatePreview({ curriculum, info, onClose }: { curriculum: Curriculum; 
         <T v="caption" muted>Finished lessons keep their history. Today’s not-started lessons switch to the new version.</T>
       </Stack>
 
-      <Row wrap style={{ justifyContent: 'flex-end' }}>
+      <Actions>
         <Button
           kind="ghost"
           title={info.source === 'release' ? 'Skip this version' : 'Keep the plan as it is'}
@@ -157,7 +157,7 @@ function UpdatePreview({ curriculum, info, onClose }: { curriculum: Curriculum; 
             onClose();
           }}
         />
-      </Row>
+      </Actions>
     </Stack>
   );
 }

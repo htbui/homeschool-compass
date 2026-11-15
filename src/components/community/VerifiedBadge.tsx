@@ -1,7 +1,6 @@
-import { Pill, useColors } from '@/ui';
+import { Pill } from '@/ui';
 
 /** Shown next to families the Freerange team has verified. */
 export function VerifiedBadge() {
-  const c = useColors();
-  return <Pill text="✓ Verified family" bg={c.successSoft} fg={c.success} />;
+  return <Pill text="✓ Verified family" tone="success" />;
 }

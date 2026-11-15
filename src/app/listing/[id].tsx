@@ -89,7 +89,7 @@ export default function ListingDetail() {
       {l.format === 'online' && l.price > 0 ? <T v="caption" muted>per month, as listed by the seller</T> : null}
       {purchase ? (
         <>
-          <Pill text={`✓ In your library${purchase.demo ? ' (demo purchase)' : ''}`} bg={c.successSoft} fg={c.success} />
+          <Pill text={`✓ In your library${purchase.demo ? ' (demo purchase)' : ''}`} tone="success" />
           {inPlan ? (
             <Button kind="secondary" title="✓ In your plan · see pacing" onPress={() => router.push('/learn')} />
           ) : (
@@ -147,7 +147,8 @@ export default function ListingDetail() {
                 {l.sellerKind === 'open' ? `by ${l.seller}` : l.seller}
                 {SELLER_NOTE[l.sellerKind]}
               </T>
-              {store ? (
+              {/* Other creators' storefronts need the live Marketplace: don't link to a dead end from the sample catalog. */}
+              {store && (l.mine || source !== 'sample') ? (
                 <Row>
                   <Button size="sm" kind="ghost" title={`🏪 More from ${l.seller} ›`} onPress={() => router.push({ pathname: '/creator/[id]', params: { id: store } })} />
                 </Row>
@@ -196,7 +197,7 @@ export default function ListingDetail() {
             <Fact label="Parent time" value={INVOLVEMENT_LABEL[l.parentInvolvement]} />
             <Fact label="Finishes in" value={`~${Math.ceil(l.lessons / l.lessonsPerWeek)} weeks`} />
           </Row>
-          {l.familyStyle ? <T v="caption" color={c.group}>👨‍👩‍👧 Family-style: siblings can do it together in one block.</T> : null}
+          {l.familyStyle ? <T v="caption" color={c.groupInk}>👨‍👩‍👧 Family-style: siblings can do it together in one block.</T> : null}
           {l.philosophies.length ? <T v="caption" muted>Teaching style: {l.philosophies.map((p) => PHILOSOPHY_SHORT[p]).join(', ')}</T> : null}
 
           {l.outline?.length ? <Outline outline={l.outline} /> : null}
@@ -286,7 +287,7 @@ export default function ListingDetail() {
                     </T>
                   ) : null}
                   <T>{r.body}</T>
-                  {r.mine && r.hidden ? <T v="caption" color={c.accent}>🚩 Hidden by moderators. Other families don’t see this review.</T> : null}
+                  {r.mine && r.hidden ? <T v="caption" color={c.accentInk}>🚩 Hidden by moderators. Other families don’t see this review.</T> : null}
                   {!r.mine ? (
                     <Row>
                       <Button size="sm" kind="ghost" title={`👍 Helpful${r.helpful ? ` (${r.helpful})` : ''}${votes.includes(r.id) ? ' ✓' : ''}`} onPress={() => voteHelpful(r.id)} />

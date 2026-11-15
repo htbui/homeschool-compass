@@ -10,7 +10,7 @@ import type { Expense, FundingSource } from '@/lib/types';
 import { useStore } from '@/store/useStore';
 import { exportHtml } from '@/services/exportDoc';
 import { pickPhoto } from '@/services/media';
-import { Button, Card, Chip, DateField, Empty, Field, MoneyField, Pill, Progress, Row, Screen, Section, Sheet, space, Stack, Stat, T, useColors } from '@/ui';
+import { Actions, Button, Card, Chip, DateField, Empty, Field, MoneyField, Pill, Progress, Row, Screen, Section, Sheet, space, Stack, Stat, T, useColors } from '@/ui';
 
 const CATEGORIES: Expense['category'][] = ['curriculum', 'supplies', 'tutoring', 'technology', 'field_trip', 'testing', 'other'];
 const SOURCES: { value: FundingSource; label: string }[] = [
@@ -96,7 +96,7 @@ export default function ExpensesScreen() {
                 <T v="caption" muted>{formatDate(e.date)} · {e.category.replace('_', ' ')} · {kids.find((k) => k.id === e.childId)?.name ?? 'Family'}{e.description ? ` · ${e.description}` : ''}</T>
                 <Row gap={6}>
                   <Pill text={SOURCES.find((s) => s.value === e.fundingSource)!.label} />
-                  {e.approvedVendor ? <Pill text="Approved vendor ✓" bg={c.successSoft} fg={c.success} /> : null}
+                  {e.approvedVendor ? <Pill text="Approved vendor ✓" tone="success" /> : null}
                   {e.receiptUri || e.receiptPath ? <Pill text="🧾 Receipt" /> : null}
                 </Row>
               </Card>
@@ -108,7 +108,7 @@ export default function ExpensesScreen() {
       <Sheet visible={!!editing} onClose={() => setEditing(null)} title={editing && expenses.some((x) => x.id === editing.id) ? 'Edit expense' : 'New expense'}>
         {editing ? (
           <Stack gap={space.md}>
-            <Field label="Vendor" value={editing.vendor} onChangeText={(vendor) => setEditing({ ...editing, vendor })} placeholder="Rainbow Resource Center" />
+            <Field label="Vendor" value={editing.vendor} onChangeText={(vendor) => setEditing({ ...editing, vendor })} example="Rainbow Resource Center" />
             <Field label="Description" value={editing.description} onChangeText={(description) => setEditing({ ...editing, description })} />
             <Row gap={space.md} align="flex-start" wrap>
               <View style={{ flex: 1, minWidth: 150 }}><MoneyField label="Amount ($)" required value={editing.amount || undefined} onChange={(v) => setEditing({ ...editing, amount: v ?? 0 })} /></View>
@@ -133,7 +133,7 @@ export default function ExpensesScreen() {
             <Chip label={`${editing.approvedVendor ? '✓' : '○'} Approved ESA vendor`} selected={editing.approvedVendor} onPress={() => setEditing({ ...editing, approvedVendor: !editing.approvedVendor })} />
             {editing.receiptUri || editing.receiptPath ? <MediaImage uri={editing.receiptUri} remotePath={editing.receiptPath} style={{ width: '100%', height: 180, borderRadius: 12 }} resizeMode="contain" /> : null}
             <Button kind="secondary" icon="🧾" title={editing.receiptUri ? 'Replace receipt' : 'Attach receipt'} onPress={async () => { const uri = await pickPhoto('library'); if (uri) setEditing({ ...editing, receiptUri: uri, receiptPath: undefined }); }} />
-            <Row style={{ justifyContent: 'flex-end' }}>
+            <Actions>
               {expenses.some((x) => x.id === editing.id) ? <Button kind="danger" title="Delete" onPress={() => { removeExpense(editing.id); setEditing(null); }} /> : null}
               <Button
                 title="Save"
@@ -141,7 +141,7 @@ export default function ExpensesScreen() {
                 reason={`Still needed: ${[!editing.vendor.trim() && 'vendor', !editing.amount && 'an amount', !editing.date && 'a valid date'].filter(Boolean).join(', ')}`}
                 onPress={() => { upsertExpense(editing); setEditing(null); }}
               />
-            </Row>
+            </Actions>
           </Stack>
         ) : null}
       </Sheet>

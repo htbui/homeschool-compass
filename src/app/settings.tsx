@@ -2,6 +2,7 @@ import { router } from 'expo-router';
 import { useEffect, useState } from 'react';
 import { View } from 'react-native';
 
+import { needsAccount } from '@/components/AccountNote';
 import { ChildForm } from '@/components/ChildForm';
 import { StatePicker } from '@/components/StatePicker';
 import { ageOn, WEEKDAY_SHORT } from '@/lib/dates';
@@ -165,11 +166,11 @@ export default function Settings() {
           <T v="caption">
             When your family uses a curriculum from the Marketplace, Freerange tells its creator how each lesson went: finished or skipped, about how long it took compared with the plan, and whether it was marked tricky. That’s all — never names, ages, or anything about who your kids are.
           </T>
-          <T v="caption" muted>{account.userId ? '' : 'Nothing leaves this device until you sign in. '}Creators only see totals, and only for lessons at least 5 families have used. Turning this off stops it and deletes what your family already shared.</T>
+          <T v="caption" muted>{account.userId ? '' : needsAccount('Nothing leaves this device until you sign in. ', 'Nothing is shared from it. ')}Creators only see totals, and only for lessons at least 5 families have used. Turning this off stops it and deletes what your family already shared.</T>
         </Card>
       </Section>
 
-      <Section title="Your data" subtitle={account.userId ? 'Freerange is offline-first: this device keeps a full copy and syncs with your account. Backups are a handy extra copy.' : 'Freerange is offline-first: everything lives on this device. Back up to move it, or sign in to sync.'}>
+      <Section title="Your data" subtitle={account.userId ? 'Freerange is offline-first: this device keeps a full copy and syncs with your account. Backups are a handy extra copy.' : needsAccount('Freerange is offline-first: everything lives on this device. Back up to move it, or sign in to sync.', 'Back up to move it to another device.')}>
         <Row wrap>
           <Button kind="secondary" icon="⬇️" title="Export backup" onPress={() => shareText(exportData(), `freerange-backup-${new Date().toISOString().slice(0, 10)}.json`, 'application/json')} />
           <Button kind="secondary" icon="⬆️" title="Import backup" onPress={() => setImportOpen(true)} />

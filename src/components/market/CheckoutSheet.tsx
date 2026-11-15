@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 
+import { needsAccount } from '@/components/AccountNote';
 import { ShareCode } from '@/components/ShareCode';
 import { formatDate } from '@/lib/dates';
 import { formatGiftCode, GIFT_NOTE_MAX, isEmail, type SentGift } from '@/lib/gifts';
@@ -11,7 +12,7 @@ import { checkout, priceQuote, recordCheckout, type CheckoutItem } from '@/servi
 import { giftableFamilies } from '@/services/giftApi';
 import { useMarket } from '@/store/useMarket';
 import { useStore } from '@/store/useStore';
-import { Button, Card, Chip, Field, Row, Segmented, Sheet, space, Stack, T, useColors } from '@/ui';
+import { Actions, Button, Card, Chip, Field, Row, Segmented, Sheet, space, Stack, T, useColors } from '@/ui';
 
 import { Cover } from './ListingCard';
 import { money, Price } from './PriceTag';
@@ -159,7 +160,7 @@ function CheckoutForm({ item: given, asGift, onClose, onPurchased }: { item: Che
               {q.kind === 'bundle' ? `Bundle price ${money(q.price)} instead of ${money(q.listPrice)} separately` : `On sale: ${q.salePercent}% off${q.saleEndsAt ? ` until ${formatDate(q.saleEndsAt.slice(0, 10), { month: 'short', day: 'numeric' })}` : ''}`}
             </T>
           ) : null}
-          {q.couponCode ? <T v="caption" color={c.success}>✓ Coupon {q.couponCode}: −{money(q.discount)}</T> : null}
+          {q.couponCode ? <T v="caption" color={c.successInk}>✓ Coupon {q.couponCode}: −{money(q.discount)}</T> : null}
           {q.kind === 'bundle' ? (
             <Stack gap={2}>
               {q.items.map((i) => (
@@ -225,16 +226,16 @@ function CheckoutForm({ item: given, asGift, onClose, onPurchased }: { item: Che
       ) : null}
       {!free && source === 'sample' ? (
         <Card tint={c.accentSoft}>
-          <T v="caption">🧪 Demo checkout: no card is charged on this device. Real purchases go through secure checkout once you sign in to Freerange.</T>
+          <T v="caption">🧪 Demo checkout: no card is charged on this device. {needsAccount('Real purchases go through secure checkout once you sign in to Freerange.', 'Real purchases go through secure checkout in the connected app.')}</T>
         </Card>
       ) : !free ? (
         <T v="caption" muted>🔒 You&apos;ll pay on a secure checkout page; Freerange never sees your card.</T>
       ) : null}
       {error ? <T color={c.danger}>{error}</T> : null}
-      <Row style={{ justifyContent: 'flex-end' }}>
+      <Actions>
         <Button kind="secondary" title="Cancel" onPress={onClose} />
         <Button title={action} loading={busy} disabled={missing.length > 0} reason={`Still needed: ${missing.join(', ')}`} onPress={buy} />
-      </Row>
+      </Actions>
     </>
   );
 }

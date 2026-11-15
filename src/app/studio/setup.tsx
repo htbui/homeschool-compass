@@ -6,7 +6,7 @@ import { cloudEnabled } from '@/services/cloud';
 import { saveCreatorProfile } from '@/services/studioApi';
 import { useAccount } from '@/store/useAccount';
 import { useStudio } from '@/store/useStudio';
-import { Button, Card, Field, Row, Screen, Section, space, Stack, T, useColors } from '@/ui';
+import { Actions, Button, Card, Field, Row, Screen, Section, space, Stack, T, useColors } from '@/ui';
 
 /** The creator's shop profile: the seller name families see on the Marketplace. */
 export default function CreatorSetup() {
@@ -58,9 +58,9 @@ export default function CreatorSetup() {
         </Card>
       ) : null}
       {error ? <T color={c.danger}>{error}</T> : null}
-      <Row style={{ justifyContent: 'flex-end', marginTop: space.lg }}>
+      <Actions style={{ marginTop: space.lg }}>
         <Button title={profile ? 'Save' : 'Open my Studio'} disabled={missing.length > 0} reason={`Still needed: ${missing.join(', ')}`} loading={busy} onPress={save} />
-      </Row>
+      </Actions>
     </Screen>
   );
 }

@@ -8,7 +8,7 @@ import { defaultLessonDays, finishDateFor, INVOLVEMENT_LABEL, matchListing, next
 import { packageContent } from '@/services/studioApi';
 import type { Curriculum, ID, Weekday } from '@/lib/types';
 import { useStore } from '@/store/useStore';
-import { Button, Card, Chip, DateField, Row, Sheet, space, Stack, T, TimeField, useColors } from '@/ui';
+import { Actions, Button, Card, Chip, DateField, Row, Sheet, space, Stack, T, TimeField, useColors } from '@/ui';
 
 /**
  * Turn a curriculum into a paced plan: who's doing it, which days, when.
@@ -117,10 +117,10 @@ function PlanForm({ listing, purchaseId, onClose, intro, content, extra }: { lis
         </Card>
       ) : null}
       {error ? <T color={c.danger}>{error}</T> : null}
-      <Row style={{ justifyContent: 'flex-end' }}>
+      <Actions>
         <Button kind="secondary" title={intro ? 'Later' : 'Cancel'} onPress={onClose} />
         <Button title="Add to plan" disabled={missing.length > 0} reason={`Still needed: ${missing.join(', ')}`} loading={busy} onPress={save} />
-      </Row>
+      </Actions>
     </Sheet>
   );
 }

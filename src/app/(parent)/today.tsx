@@ -7,6 +7,7 @@ import { NotificationBell } from '@/components/NotificationBell';
 import { TaskSheet } from '@/components/TaskSheet';
 import { useCompliance } from '@/hooks/useCompliance';
 import { usePrint } from '@/hooks/usePrint';
+import { readableOn } from '@/lib/contrast';
 import { addDays, formatClock, formatDate, fromMinutes, toMinutes, todayKey } from '@/lib/dates';
 import { bumpTargets, findParentConflicts, suggestWhileWaiting } from '@/lib/schedule';
 import { TIER_INFO } from '@/lib/states';
@@ -95,6 +96,7 @@ export default function FlightDeck() {
                       <Pressable
                         key={t.id}
                         onPress={() => setOpenTask(t)}
+                        accessibilityRole="button"
                         accessibilityLabel={`${t.title}, ${formatClock(t.start)}`}
                         style={({ pressed }) => ({
                           position: 'absolute',
@@ -156,7 +158,7 @@ export default function FlightDeck() {
       <Card onPress={() => router.push('/compliance')}>
         <Row style={{ justifyContent: 'space-between' }}>
           <T v="heading">🧭 Compliance radar</T>
-          {law ? <Pill text={TIER_INFO[law.tier].label} fg="#fff" bg={TIER_INFO[law.tier].color} /> : null}
+          {law ? <Pill text={TIER_INFO[law.tier].label} fg={readableOn(TIER_INFO[law.tier].color)} bg={TIER_INFO[law.tier].color} /> : null}
         </Row>
         {compliance.items.map((i) => (
           <T key={i.label} v="caption">{i.ok ? '✅' : '⚠️'} {i.label}</T>
@@ -207,7 +209,7 @@ export default function FlightDeck() {
               onPress={() => printAnswers(tasks.filter((t) => t.status !== 'skipped'), `Answer key · ${formatDate(date, { weekday: 'long', month: 'long', day: 'numeric' })}`)}
             />
           ) : null}
-          <Button kind="secondary" size="sm" icon="➕" title="Task" onPress={() => router.push({ pathname: '/schedule', params: { addFor: date } })} />
+          <Button kind="secondary" size="sm" icon="＋" title="Task" onPress={() => router.push({ pathname: '/schedule', params: { addFor: date } })} />
           <Button kind="secondary" size="sm" icon="↪︎" title="Bump remaining" disabled={!tasks.some((t) => t.status === 'todo' || t.status === 'in_progress')} onPress={() => setBumpOpen(true)} />
         </Row>
       </Row>

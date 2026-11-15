@@ -57,13 +57,25 @@ export function Screen({ children, scroll = true, padded = true, edges = ['top']
   );
 }
 
-/** A tappable card is a button for screen readers; pass `label` to give it a short name instead of all its text. */
+/** True when the tree (as written, not inside other components) holds its own buttons or chips. */
+function holdsControls(node: ReactNode): boolean {
+  return Children.toArray(node).some((child) => {
+    if (!isValidElement(child)) return false;
+    if (child.type === Button || child.type === Chip || child.type === ConfirmButton || child.type === Pressable) return true;
+    return holdsControls((child.props as { children?: ReactNode }).children);
+  });
+}
+
+/**
+ * A tappable card is a button for screen readers; pass `label` to give it a short name instead of
+ * all its text. A card holding its own buttons stays a plain group (a button can't contain buttons).
+ */
 export function Card({ children, style, onPress, tint, label }: { children: ReactNode; style?: StyleProp<ViewStyle>; onPress?: () => void; tint?: string; label?: string }) {
   const c = useColors();
   const base = [styles.card, { backgroundColor: tint ?? c.surface, borderColor: c.border }, style];
   if (!onPress) return <View style={base}>{children}</View>;
   return (
-    <Pressable onPress={onPress} accessibilityRole="button" accessibilityLabel={label} style={({ pressed }) => [base, pressed && { opacity: 0.85 }]}>
+    <Pressable onPress={onPress} accessibilityRole={holdsControls(children) ? undefined : 'button'} accessibilityLabel={label} style={({ pressed }) => [base, pressed && { opacity: 0.85 }]}>
       {children}
     </Pressable>
   );

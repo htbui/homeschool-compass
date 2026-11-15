@@ -5,7 +5,7 @@ import { uid } from '@/lib/id';
 import { progressLabel, reviewProgress, type Listing, type Review } from '@/lib/market';
 import { useStore } from '@/store/useStore';
 import { submitReview } from '@/services/marketApi';
-import { Button, Chip, Field, Row, Sheet, Stack, T, useColors } from '@/ui';
+import { Actions, Button, Chip, Field, Row, Sheet, Stack, T, useColors } from '@/ui';
 
 const WORDS = ['', 'Didn’t work for us', 'Not a great fit', 'It’s okay', 'Really good', 'Love it'];
 
@@ -98,10 +98,10 @@ function ReviewForm({ listing, existing, onClose }: { listing: Listing; existing
       ) : null}
       <T v="caption" muted>{owned ? '✓ Shown as a verified purchase.' : 'You haven’t bought this through Freerange, so it won’t carry a verified-purchase badge.'} Reviews show your first name and last initial only.</T>
       {error ? <T color={c.danger}>{error}</T> : null}
-      <Row style={{ justifyContent: 'flex-end' }}>
+      <Actions>
         <Button kind="secondary" title="Cancel" onPress={onClose} />
         <Button title={existing ? 'Save review' : 'Post review'} loading={busy} disabled={missing.length > 0} reason={`Still needed: ${missing.join(', ')}`} onPress={save} />
-      </Row>
+      </Actions>
     </Sheet>
   );
 }

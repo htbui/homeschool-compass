@@ -55,7 +55,7 @@ export function ListingCard({ listing: l, owned, reasons }: { listing: Listing; 
         <PriceTag listing={l} />
       </Row>
       <Row wrap gap={6}>
-        {owned ? <Pill text="✓ Owned" bg={c.successSoft} fg={c.success} /> : null}
+        {owned ? <Pill text="✓ Owned" tone="success" /> : null}
         {l.sellerVerified ? <VerifiedBadge plain /> : null}
         <Pill text={gradeRangeLabel(l.gradeMin, l.gradeMax)} />
         {l.subjects.slice(0, 2).map((s) => (

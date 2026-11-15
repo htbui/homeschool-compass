@@ -8,7 +8,7 @@ import { STATE_LAWS } from '@/lib/states';
 import { cloudEnabled } from '@/services/cloud';
 import { applyForBadge, myBadges, withdrawApplication, type MyBadges } from '@/services/creatorApi';
 import { useAccount } from '@/store/useAccount';
-import { Button, Card, Chip, Field, Row, Screen, Section, Segmented, space, Stack, T, useColors } from '@/ui';
+import { Actions, Button, Card, Chip, Field, Row, Screen, Section, Segmented, space, Stack, T, useColors } from '@/ui';
 
 const TITLE: Record<Badge, string> = { verified: '✓ Get verified', esa: '🏛️ ESA vendor listing' };
 
@@ -170,10 +170,10 @@ export default function BadgeApplicationScreen() {
             </>
           )}
           {error ? <T color={c.danger}>{error}</T> : null}
-          <Row style={{ justifyContent: 'flex-end' }} wrap>
+          <Actions>
             {editing ? <Button kind="ghost" title="Cancel" onPress={() => setEditing(false)} /> : null}
             <Button title={pending ? 'Send update' : 'Send to Freerange'} disabled={issues.length > 0} reason={`Still needed: ${issues.join(', ')}`} loading={busy === 'send'} onPress={send} />
-          </Row>
+          </Actions>
         </Section>
       ) : error ? (
         <T color={c.danger}>{error}</T>

@@ -2,6 +2,7 @@ import { router, useLocalSearchParams } from 'expo-router';
 import { useMemo, useState } from 'react';
 import { ScrollView, View, useWindowDimensions } from 'react-native';
 
+import { needsAccount } from '@/components/AccountNote';
 import { AddToPlanSheet } from '@/components/market/AddToPlanSheet';
 import { BundleCard } from '@/components/market/BundleCard';
 import { GiftsPanel } from '@/components/market/GiftsPanel';
@@ -118,7 +119,7 @@ export default function Marketplace() {
       <T muted>Curricula from publishers and used books from other families — compare reviews, buy, and drop it straight into your plan.</T>
       {source === 'sample' ? (
         <Card tint={c.accentSoft} style={{ marginTop: space.md }}>
-          <T v="caption">📚 Free & open curricula: classics and openly licensed courses from their original authors, organized into lesson plans that drop straight into your schedule. Sign in (Settings → Account) to also see publishers, creators, and used books from families.</T>
+          <T v="caption">📚 Free & open curricula: classics and openly licensed courses from their original authors, organized into lesson plans that drop straight into your schedule. {needsAccount('Sign in (Settings → Account) to also see publishers, creators, and used books from families.', 'Publishers, creators, and used books from families are in the connected app.')}</T>
         </Card>
       ) : null}
       <View style={{ marginTop: space.lg }}>
@@ -324,7 +325,7 @@ function Library({ purchases, listings, onBrowse }: { purchases: Purchase[]; lis
               </T>
               <Row wrap>
                 {inPlan ? (
-                  <Pill text="✓ In your plan" bg={c.successSoft} fg={c.success} />
+                  <Pill text="✓ In your plan" tone="success" />
                 ) : listing ? (
                   <Button size="sm" title="Add to plan" onPress={() => setPlanFor({ listing, purchase: p })} />
                 ) : null}

@@ -6,7 +6,7 @@ import { uid } from '@/lib/id';
 import { SUBJECT_LIST, SUBJECTS } from '@/lib/subjects';
 import type { AttentionMode, RhythmBlock, Subject, Weekday } from '@/lib/types';
 import { useStore } from '@/store/useStore';
-import { Button, Chip, Field, MODE_META, Row, space, Stack, T, TimeField } from '@/ui';
+import { Actions, Button, Chip, Field, MODE_META, Row, space, Stack, T, TimeField } from '@/ui';
 
 const DURATIONS = [10, 15, 20, 30, 45, 60, 90];
 
@@ -126,7 +126,7 @@ export function BlockForm({
         </View>
       ) : null}
       <Field label="Steps (one per line)" multiline value={steps} onChangeText={setSteps} placeholder={'Watch the lesson\nDo problems 1–10'} />
-      <Row style={{ justifyContent: 'flex-end' }} wrap>
+      <Actions>
         {onDelete ? <Button title="Delete" kind="danger" onPress={onDelete} /> : null}
         <Button title="Cancel" kind="secondary" onPress={onCancel} />
         <Button
@@ -150,7 +150,7 @@ export function BlockForm({
             })
           }
         />
-      </Row>
+      </Actions>
     </Stack>
   );
 }
