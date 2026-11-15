@@ -104,9 +104,39 @@ function mergeEntities(base: Entity[], local: Entity[], remote: Entity[]): Entit
   return out;
 }
 
+/** Where a task happens: these move together, never field by field. */
+const WHEN = ['date', 'start', 'bumpedFrom', 'groupKey'] as const;
+
+/**
+ * A task finished on one device while another device moved it to another day
+ * (a bump) keeps the day and time it was done on: per-field merging would
+ * otherwise file finished work, and its hours, under the day it was bumped to.
+ */
+function finishedStayPut(tasks: Json[], local: unknown, remote: unknown): Json[] {
+  const byId = (v: unknown) => new Map((isEntityList(v) ? v : []).map((e) => [e.id, e]));
+  const l = byId(local);
+  const r = byId(remote);
+  return tasks.map((t) => {
+    if (!isObj(t) || t.status !== 'done' || typeof t.id !== 'string') return t;
+    const le = l.get(t.id);
+    const re = r.get(t.id);
+    const finisher = le?.status === 'done' && re?.status !== 'done' ? le : re?.status === 'done' && le?.status !== 'done' ? re : undefined;
+    // A new time on the same day is fine; only moving it to another day is undone.
+    if (!finisher || finisher.date === t.date) return t;
+    const out: Obj = { ...t };
+    for (const k of WHEN) {
+      if (finisher[k] === undefined) delete out[k];
+      else out[k] = finisher[k];
+    }
+    return out;
+  });
+}
+
 /** Merge whole workspace documents (top-level keys are collections or values). */
 export function mergeWorkspace<T extends Record<string, unknown>>(base: Partial<T>, local: T, remote: Partial<T>): T {
-  return mergeObject(base as Obj, local as unknown as Obj, remote as Obj) as unknown as T;
+  const out = mergeObject(base as Obj, local as unknown as Obj, remote as Obj);
+  if (Array.isArray(out.tasks)) out.tasks = finishedStayPut(out.tasks, (local as Obj).tasks, (remote as Obj).tasks);
+  return out as unknown as T;
 }
 
 /** True when `local` has changes that `base` doesn't. */

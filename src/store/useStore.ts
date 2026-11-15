@@ -171,6 +171,16 @@ const initialData = (): Data => ({
   mode: { kind: 'parent' },
 });
 
+const LIST_KEYS = ['children', 'blocks', 'tasks', 'help', 'moods', 'evidence', 'hoursLogs', 'curricula', 'expenses', 'coops', 'events', 'purchases', 'myListings', 'myReviews', 'helpfulVotes', 'localGifts', 'followedCreators'] as const;
+
+/** A backup's data: lists where the app expects lists, objects where it expects objects (a bad file would break every screen). */
+function isBackupData(d: unknown): d is Partial<Data> {
+  if (!d || typeof d !== 'object' || Array.isArray(d)) return false;
+  const r = d as Record<string, unknown>;
+  const isObj = (v: unknown) => v === undefined || (typeof v === 'object' && v !== null && !Array.isArray(v));
+  return LIST_KEYS.every((k) => r[k] === undefined || Array.isArray(r[k])) && isObj(r.family) && isObj(r.noi);
+}
+
 /** Sparks awarded per completed task, more for a full self-assessment. */
 const SPARKS_PER_TASK = 10;
 
@@ -189,6 +199,15 @@ export const useStore = create<Store>()(
           children: s.children.filter((c) => c.id !== id),
           tasks: s.tasks.filter((t) => t.childId !== id),
           blocks: s.blocks.map((b) => ({ ...b, childIds: b.childIds.filter((c) => c !== id) })).filter((b) => b.childIds.length > 0),
+          // Their open help request and check-ins go too, or the parent's queue shows a nameless kid forever.
+          help: s.help.filter((h) => h.childId !== id),
+          moods: s.moods.filter((m) => m.childId !== id),
+          curricula: s.curricula.map((c) => {
+            if (!c.childIds.includes(id) && !(c.progress && id in c.progress)) return c;
+            const { [id]: _gone, ...progress } = c.progress ?? {};
+            return { ...c, childIds: c.childIds.filter((k) => k !== id), progress };
+          }),
+          // Hours logs and portfolio samples are records the state may ask for, so they stay.
         })),
 
       upsertBlock: (b) =>
@@ -386,9 +405,15 @@ export const useStore = create<Store>()(
         return JSON.stringify({ app: 'freerange', version: 1, exportedAt: new Date().toISOString(), data }, null, 2);
       },
       importData: (json) => {
-        const parsed = JSON.parse(json);
-        if (parsed?.app !== 'freerange' || !parsed.data) throw new Error('Not a Freerange backup file');
-        set({ ...initialData(), ...parsed.data, mode: { kind: 'parent' } });
+        let parsed: { app?: unknown; data?: Record<string, unknown> } | undefined;
+        try {
+          parsed = JSON.parse(json);
+        } catch {
+          parsed = undefined;
+        }
+        const data = parsed?.app === 'freerange' ? parsed.data : undefined;
+        if (!isBackupData(data)) throw new Error('Not a Freerange backup file');
+        set({ ...initialData(), ...data, mode: { kind: 'parent' } });
       },
       resetAll: () => set({ ...initialData() }),
     }),

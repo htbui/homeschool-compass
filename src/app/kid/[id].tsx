@@ -1,4 +1,4 @@
-import { router, useLocalSearchParams } from 'expo-router';
+import { Redirect, router, useLocalSearchParams } from 'expo-router';
 import { useEffect, useState } from 'react';
 import { Pressable, Text, View } from 'react-native';
 
@@ -33,6 +33,8 @@ export default function DailyAdventure() {
   const allTasks = useStore((s) => s.tasks);
   const mood = useStore((s) => s.moods.find((m) => m.childId === id && m.date === today));
   const openHelp = useStore((s) => s.help.find((h) => h.childId === id && !h.resolvedAt));
+  // A kid's session only opens their own day: another kid's (PIN-protected) day goes through the picker.
+  const otherKid = useStore((s) => (s.mode.kind === 'kid' && s.mode.childId !== id ? s.mode.childId : undefined));
   const { ensureTasks, setMood, requestHelp, setMode } = useStore.getState();
   const [helpOpen, setHelpOpen] = useState(false);
   const [exitOpen, setExitOpen] = useState(false);
@@ -56,6 +58,8 @@ export default function DailyAdventure() {
   const prevDay = stepDay(date, -1, isOpen);
   const nextDay = stepDay(date, 1, isOpen);
   const goDay = (d: string) => router.setParams({ date: d === today ? undefined : d });
+
+  if (otherKid) return <Redirect href={{ pathname: '/kid/[id]', params: { id: otherKid } }} />;
 
   if (!kid) {
     return (
