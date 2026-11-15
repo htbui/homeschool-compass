@@ -18,7 +18,8 @@ export function usePlanUpdates(): Record<ID, PlanUpdateInfo> {
   const creator = useStudio((s) => s.profile?.name);
   const userId = useAccount((s) => s.userId);
   const [versions, setVersions] = useState<Record<ID, number>>({});
-  const listingIds = curricula.map((c) => c.listingId ?? '').join(',');
+  // Where newer versions come from: Marketplace listings and co-op classes.
+  const listingIds = curricula.map((c) => c.listingId ?? (c.coopClassId ? `coop:${c.coopClassId}` : '')).join(',');
   useFocusEffect(
     useCallback(() => {
       let alive = true;

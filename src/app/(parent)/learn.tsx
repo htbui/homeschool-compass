@@ -4,6 +4,7 @@ import { View } from 'react-native';
 
 import { MaterialsEditor } from '@/components/LessonMaterials';
 import { PlanUpdateSheet, UpdateBanner, usePlanUpdates } from '@/components/PlanUpdate';
+import { normalizeClassCode } from '@/lib/coop';
 import { doneFor, forChild } from '@/lib/curriculum';
 import { formatDate } from '@/lib/dates';
 import { uid } from '@/lib/id';
@@ -13,6 +14,7 @@ import { PHILOSOPHY_INFO } from '@/lib/quiz';
 import { SUBJECT_LIST, SUBJECTS, subjectLabel } from '@/lib/subjects';
 import type { Curriculum, RhythmBlock, Subject } from '@/lib/types';
 import { generateUnitStudy, TIER_LABEL, type UnitPlan } from '@/lib/unitStudy';
+import { leaveClass, setShareNames } from '@/services/coopApi';
 import { useStore } from '@/store/useStore';
 import { Button, Card, Chip, DateField, Empty, Field, Pill, Progress, Row, Screen, Section, Segmented, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
 
@@ -36,6 +38,8 @@ export default function CurriculumHub() {
   const [editing, setEditing] = useState<Curriculum | 'new' | null>(null);
   const [materialsFor, setMaterialsFor] = useState<string | null>(null);
   const [adding, setAdding] = useState(false);
+  const [joining, setJoining] = useState(false);
+  const [classCode, setClassCode] = useState('');
   const materialsCur = curricula.find((k) => k.id === materialsFor);
   const updates = usePlanUpdates();
   const [reviewing, setReviewing] = useState<string | null>(null);
@@ -91,6 +95,7 @@ export default function CurriculumHub() {
                     <T v="caption" muted>
                       {k.childIds.map((id) => kids.find((x) => x.id === id)?.name).filter(Boolean).join(', ')} · {k.model} · target {formatDate(k.targetEndDate, { month: 'short', day: 'numeric', year: 'numeric' })}
                     </T>
+                    {k.coopClassId || k.coopTeacher ? <CoopInfo curriculum={k} onLeave={() => confirm.ask('Leave this co-op class?', () => leaveClass(k.id, k.coopClassId!), { confirm: 'Leave', body: 'You keep the plan and your kids’ progress. It just stops getting the teacher’s updates, and the teacher no longer sees your progress.' })} /> : null}
                     {updates[k.id] ? <UpdateBanner info={updates[k.id]} onPress={() => setReviewing(k.id)} /> : null}
                     {k.childIds.map((id) => (
                       <KidProgress key={id} curriculum={k} childId={id} named={k.childIds.length > 1} />
@@ -181,6 +186,7 @@ export default function CurriculumHub() {
               { icon: '🛍️', title: 'Find one in the Marketplace', body: 'Browse by your kids’ grades and your style, read reviews, and add it to your plan with every lesson scheduled.', go: () => router.push('/market') },
               { icon: '📕', title: 'Convert a book you own', body: 'Paste its table of contents and get daily lessons with page ranges. Private to your family.', go: () => router.push({ pathname: '/studio/import', params: { from: 'book' } }) },
               { icon: '🎨', title: 'Create your own in Studio', body: 'Write lessons from scratch, import a spreadsheet, or adapt a free online course.', go: () => router.push('/studio/new') },
+              { icon: '👩‍🏫', title: 'Join a co-op class', body: 'Got an invite code from a teacher? Get the class plan and go at your own pace.', go: () => setJoining(true) },
               { icon: '🔢', title: 'Just track lessons', body: 'Already have a curriculum and only want pacing? Enter its lesson count.', go: () => setEditing('new') },
             ] as const
           ).map((o) => (
@@ -196,12 +202,58 @@ export default function CurriculumHub() {
           ))}
         </Stack>
       </Sheet>
+      <Sheet visible={joining} onClose={() => setJoining(false)} title="Join a co-op class">
+        <T muted>Enter the invite code from the teacher (or open the link they sent).</T>
+        <Field label="Class code" placeholder="ABCD2345" value={classCode} onChangeText={(t) => setClassCode(t.toUpperCase())} autoCapitalize="characters" autoComplete="off" maxLength={12} />
+        <Row style={{ justifyContent: 'flex-end' }}>
+          <Button kind="secondary" title="Cancel" onPress={() => setJoining(false)} />
+          <Button
+            title="Find the class"
+            disabled={normalizeClassCode(classCode).length < 6}
+            onPress={() => {
+              setJoining(false);
+              router.push({ pathname: '/coop/[code]', params: { code: normalizeClassCode(classCode) } });
+            }}
+          />
+        </Row>
+      </Sheet>
       <Sheet visible={!!materialsCur} onClose={() => setMaterialsFor(null)} title={`📖 ${materialsCur?.name ?? ''}`}>
         {materialsCur ? <MaterialsEditor curriculumId={materialsCur.id} /> : null}
       </Sheet>
       <PlanUpdateSheet curriculum={reviewCur} info={reviewCur ? updates[reviewCur.id] : undefined} onClose={() => setReviewing(null)} />
       {confirm.element}
     </Screen>
+  );
+}
+
+/** Where a co-op plan comes from, what the teacher sees, and leaving. */
+function CoopInfo({ curriculum: k, onLeave }: { curriculum: Curriculum; onLeave: () => void }) {
+  const c = useColors();
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState('');
+  if (!k.coopClassId) return <T v="caption" muted>👩‍🏫 From {k.coopTeacher}’s co-op class (you left it).</T>;
+  if (k.coopEnded) return <T v="caption" muted>👩‍🏫 {k.coopTeacher}’s co-op class has ended (or you were removed), so this plan won’t get updates.</T>;
+  const toggle = async () => {
+    setBusy(true);
+    setError('');
+    try {
+      await setShareNames(k.id, k.coopClassId!, !k.coopShareNames);
+    } catch (e) {
+      setError(e instanceof Error ? e.message : String(e));
+    } finally {
+      setBusy(false);
+    }
+  };
+  return (
+    <Card tint={c.surfaceAlt}>
+      <T v="label">👩‍🏫 Co-op class with {k.coopTeacher}</T>
+      <T v="caption" muted>The teacher sees how many lessons each student has finished{k.coopShareNames ? ', with their first names' : ', but not their names'}.</T>
+      <Row wrap>
+        <Button size="sm" kind="secondary" loading={busy} title={k.coopShareNames ? 'Hide names from the teacher' : 'Show the teacher first names'} onPress={toggle} />
+        <Button size="sm" kind="ghost" title="Leave class" onPress={onLeave} />
+      </Row>
+      {error ? <T v="caption" color={c.danger}>{error}</T> : null}
+    </Card>
   );
 }
 

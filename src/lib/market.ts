@@ -2,6 +2,7 @@ import { addDays, ageOn, fromMinutes, schoolDatesBetween, toMinutes, todayKey, w
 import { uid } from './id';
 import type { License } from './license';
 import { lessonTotal, type PackageUnit } from './package';
+import { currentPrice } from './pricing';
 import type { AttentionMode, Child, ClockTime, Curriculum, DateKey, FamilyProfile, FundingSource, ID, Philosophy, RhythmBlock, Subject, Weekday } from './types';
 
 /**
@@ -64,6 +65,9 @@ export interface Listing {
   attribution?: string;
   /** Unit and lesson titles, shown before buying. */
   outline?: { title: string; lessons: string[] }[];
+  /** The creator's sale: percent off until `saleEndsAt`. */
+  salePercent?: number;
+  saleEndsAt?: string;
 }
 
 export interface Review {
@@ -97,6 +101,12 @@ export interface Purchase {
   /** Demo purchases never charge a card. */
   demo?: boolean;
   curriculumId?: ID;
+  /** Price before the sale, bundle, or coupon (when it was less). */
+  listPrice?: number;
+  /** Bought as part of this bundle. */
+  bundleId?: ID;
+  /** A gift from this family (the recipient paid nothing). */
+  giftFrom?: string;
 }
 
 export const FORMAT_LABEL: Record<ListingFormat, string> = { print: '📦 Print', digital: '📄 Digital PDF', online: '💻 Online course', bundle: '🎁 Bundle' };
@@ -238,7 +248,7 @@ export function filterListings(listings: Listing[], f: ListingFilters): Listing[
     if (f.subjects?.length && !l.subjects.some((s) => f.subjects!.includes(s))) return false;
     if (f.grades?.length && !f.grades.some((g) => fitsGrade(l, g))) return false;
     if (f.philosophies?.length && !l.philosophies.some((p) => f.philosophies!.includes(p))) return false;
-    if (f.price && f.price !== 'any' && l.price > PRICE_MAX[f.price]) return false;
+    if (f.price && f.price !== 'any' && currentPrice(l) > PRICE_MAX[f.price]) return false;
     if (f.formats?.length && !f.formats.includes(l.format)) return false;
     if (f.esaOnly && !l.esaEligible) return false;
     if (f.used === 'used' && l.sellerKind !== 'family') return false;
@@ -254,8 +264,8 @@ export function sortListings(listings: Listing[], sort: SortKey, ctx: MatchConte
     match: (l: Listing) => -matchListing(l, ctx).score,
     rating: (l: Listing) => -weightedRating(l.ratingAvg, l.ratingCount),
     reviews: (l: Listing) => -l.ratingCount,
-    price_asc: (l: Listing) => l.price,
-    price_desc: (l: Listing) => -l.price,
+    price_asc: (l: Listing) => currentPrice(l),
+    price_desc: (l: Listing) => -currentPrice(l),
     newest: (l: Listing) => -Date.parse(l.createdAt),
   }[sort];
   return out.sort((a, b) => by(a) - by(b) || a.title.localeCompare(b.title));

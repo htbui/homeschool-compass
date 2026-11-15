@@ -2,9 +2,11 @@ import { useMemo } from 'react';
 import { create } from 'zustand';
 
 import { withReviews, type Listing, type Review } from '@/lib/market';
+import type { Bundle } from '@/lib/pricing';
 import { libraryListings } from '@/lib/library';
 
 import { useStore } from './useStore';
+import { useStudio } from './useStudio';
 
 /**
  * The browsable catalog (everyone's listings and reviews). It's a cache:
@@ -14,20 +16,25 @@ import { useStore } from './useStore';
 interface MarketState {
   listings: Listing[];
   reviews: Review[];
+  /** Creators' bundles (the live ones; on this device, Studio's own). */
+  bundles: Bundle[];
   source: 'sample' | 'cloud';
   loading: boolean;
   error?: string;
   setCatalog: (c: { listings: Listing[]; reviews: Review[]; source: 'sample' | 'cloud' }) => void;
   setStatus: (s: { loading: boolean; error?: string }) => void;
+  setBundles: (b: Bundle[]) => void;
 }
 
 export const useMarket = create<MarketState>()((set) => ({
   listings: libraryListings(),
   reviews: [],
+  bundles: [],
   source: 'sample',
   loading: false,
   setCatalog: (c) => set({ ...c, loading: false, error: undefined }),
   setStatus: (s) => set(s),
+  setBundles: (bundles) => set({ bundles }),
 }));
 
 /** Catalog merged with this family's own listings and reviews. */
@@ -53,4 +60,15 @@ export function useCatalog(): { listings: Listing[]; reviews: Review[]; source: 
     );
     return { listings: merged, reviews: allReviews, source };
   }, [listings, reviews, source, myListings, myReviews, votes]);
+}
+
+/** Bundles to show: the live ones, plus any this device's Studio made without an account. */
+export function useBundles(): Bundle[] {
+  const live = useMarket((s) => s.bundles);
+  const local = useStudio((s) => s.bundles);
+  return useMemo(() => {
+    const mine = local.filter((b) => b.status === 'active').map((b) => ({ ...b, mine: true }));
+    const ids = new Set(mine.map((b) => b.id));
+    return [...mine, ...live.filter((b) => !ids.has(b.id))];
+  }, [live, local]);
 }

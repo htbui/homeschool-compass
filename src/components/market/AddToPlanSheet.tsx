@@ -6,7 +6,7 @@ import { MaterialsEditor } from '@/components/LessonMaterials';
 import { formatDate, WEEKDAY_SHORT } from '@/lib/dates';
 import { defaultLessonDays, finishDateFor, INVOLVEMENT_LABEL, matchListing, nextStartDate, suggestStartTime, type Listing, type PackageContent } from '@/lib/market';
 import { packageContent } from '@/services/studioApi';
-import type { ID, Weekday } from '@/lib/types';
+import type { Curriculum, ID, Weekday } from '@/lib/types';
 import { useStore } from '@/store/useStore';
 import { Button, Card, Chip, DateField, Row, Sheet, space, Stack, T, TimeField, useColors } from '@/ui';
 
@@ -14,11 +14,12 @@ import { Button, Card, Chip, DateField, Row, Sheet, space, Stack, T, TimeField, 
  * Turn a curriculum into a paced plan: who's doing it, which days, when.
  * Creates a Curriculum (pacing) and RhythmBlocks (schedule) in one step.
  */
-export function AddToPlanSheet({ listing, purchaseId, visible, onClose, intro, content }: { listing: Listing; purchaseId?: ID; visible: boolean; onClose: () => void; intro?: string; content?: PackageContent }) {
-  return visible ? <PlanForm listing={listing} purchaseId={purchaseId} onClose={onClose} intro={intro} content={content} /> : null;
+export function AddToPlanSheet({ listing, purchaseId, visible, onClose, intro, content, extra }: { listing: Listing; purchaseId?: ID; visible: boolean; onClose: () => void; intro?: string; content?: PackageContent; extra?: Partial<Curriculum> }) {
+  return visible ? <PlanForm listing={listing} purchaseId={purchaseId} onClose={onClose} intro={intro} content={content} extra={extra} /> : null;
 }
 
-function PlanForm({ listing, purchaseId, onClose, intro, content }: { listing: Listing; purchaseId?: ID; onClose: () => void; intro?: string; content?: PackageContent }) {
+/** `extra` is added to the new curriculum (e.g. the co-op class it came from). */
+function PlanForm({ listing, purchaseId, onClose, intro, content, extra }: { listing: Listing; purchaseId?: ID; onClose: () => void; intro?: string; content?: PackageContent; extra?: Partial<Curriculum> }) {
   const c = useColors();
   const family = useStore((s) => s.family)!;
   const kids = useStore((s) => s.children);
@@ -47,7 +48,7 @@ function PlanForm({ listing, purchaseId, onClose, intro, content }: { listing: L
     try {
       // Studio packages bring their full lesson-by-lesson plan.
       const plan = content ?? (listing.packageId ? await packageContent(listing) : undefined);
-      const r = useStore.getState().addListingToPlan(listing, { childIds, days, startDate, startTime, children: kids }, purchaseId, plan);
+      const r = useStore.getState().addListingToPlan(listing, { childIds, days, startDate, startTime, children: kids }, purchaseId, plan, extra);
       setDone({ finish: r.curriculum.targetEndDate, curriculumId: r.curriculum.id });
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
