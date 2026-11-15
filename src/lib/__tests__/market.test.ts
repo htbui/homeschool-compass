@@ -8,7 +8,9 @@ import {
   gradeRangeLabel,
   matchListing,
   planFromListing,
+  progressLabel,
   ratingSummary,
+  reviewProgress,
   sortListings,
   sortReviews,
   suggestStartTime,
@@ -54,6 +56,22 @@ describe('ratings', () => {
     expect(sortReviews(list, 'helpful').map((x) => x.id)).toEqual(['b', 'c', 'a']);
     expect(sortReviews(list, 'newest').map((x) => x.id)).toEqual(['b', 'c', 'a']);
     expect(sortReviews(list, 'low')[0].id).toBe('b');
+  });
+  it('shows how far the reviewer got, from their own plan', () => {
+    const c = (o: Partial<Parameters<typeof reviewProgress>[0][number]>) => ({ listingId: 'l1', totalLessons: 120, lessonsDone: 0, childIds: [] as string[], ...o });
+    // The furthest kid counts; a kid without their own count is at the starting point.
+    expect(reviewProgress([c({ childIds: ['k1', 'k2'], lessonsDone: 10, progress: { k1: 34 } })], 'l1')).toEqual({ done: 34, total: 120 });
+    expect(reviewProgress([c({ childIds: ['k1'], lessonsDone: 10, progress: {} })], 'l1')).toEqual({ done: 10, total: 120 });
+    expect(reviewProgress([c({ lessonsDone: 500 })], 'l1')).toEqual({ done: 120, total: 120 });
+    expect(reviewProgress([c({ listingId: 'other', lessonsDone: 5 })], 'l1')).toBeUndefined();
+    expect(reviewProgress([c({ totalLessons: 0 })], 'l1')).toBeUndefined();
+    expect(progressLabel({ done: 120, total: 120 })).toBe('Finished 120/120 lessons');
+    expect(progressLabel({ done: 33, total: 120 })).toBe('On lesson 34 of 120');
+  });
+  it('sorts reviews by progress, furthest first', () => {
+    const r = (id: string, progress?: { done: number; total: number }): Review => ({ id, listingId: 'l1', author: 'A', rating: 5, title: '', body: '', createdAt: '2026-01-01', verified: false, helpful: 0, progress });
+    const list = [r('none'), r('half', { done: 60, total: 120 }), r('done', { done: 120, total: 120 }), r('start', { done: 2, total: 120 }), r('short', { done: 10, total: 10 })];
+    expect(sortReviews(list, 'progress').map((x) => x.id)).toEqual(['done', 'short', 'half', 'start', 'none']);
   });
 });
 

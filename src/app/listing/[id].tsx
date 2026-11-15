@@ -17,6 +17,7 @@ import {
   INVOLVEMENT_LABEL,
   matchListing,
   PHILOSOPHY_SHORT,
+  progressLabel,
   ratingSummary,
   SELLER_NOTE,
   sortReviews,
@@ -31,7 +32,7 @@ import { LICENSE_INFO, licenseName } from '@/lib/license';
 import { deleteReview, loadReviews, voteHelpful, type ReportTarget } from '@/services/marketApi';
 import { Button, Card, Chip, Empty, Pill, Progress, Row, Screen, Section, space, Stack, T, useColors, useConfirm } from '@/ui';
 
-const REVIEW_SORT: Record<ReviewSort, string> = { helpful: 'Most helpful', newest: 'Newest', high: 'Highest', low: 'Lowest' };
+const REVIEW_SORT: Record<ReviewSort, string> = { helpful: 'Most helpful', newest: 'Newest', progress: 'Most progress', high: 'Highest', low: 'Lowest' };
 
 export default function ListingDetail() {
   const c = useColors();
@@ -261,6 +262,11 @@ export default function ListingDetail() {
                     {r.childGrade ? ` · used with ${r.childGrade}` : ''} · {formatDate(r.createdAt.slice(0, 10), { month: 'short', day: 'numeric', year: 'numeric' })}
                     {r.verified ? ' · ✓ Verified purchase' : ''}
                   </T>
+                  {r.progress ? (
+                    <T v="caption" color={r.progress.done >= r.progress.total ? c.primary : undefined} style={{ fontWeight: '600' }}>
+                      {r.progress.done >= r.progress.total ? '🏁' : '📖'} {progressLabel(r.progress)}
+                    </T>
+                  ) : null}
                   <T>{r.body}</T>
                   {r.mine && r.hidden ? <T v="caption" color={c.accent}>🚩 Hidden by moderators. Other families don’t see this review.</T> : null}
                   {!r.mine ? (

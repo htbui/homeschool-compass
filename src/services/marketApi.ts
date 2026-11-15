@@ -27,7 +27,7 @@ export type ListingRow = {
   creator_user?: string | null; package_id?: string | null; package_version?: number | null; license?: Listing['license'] | null; attribution?: string | null; outline?: Listing['outline'] | null;
   esa_states?: string[] | null;
 };
-type ReviewRow = { id: string; listing_id: string; family_id: string | null; author_name: string; rating: number; title: string; body: string; child_grade: string | null; verified: boolean; helpful: number; sample: boolean; hidden?: boolean; created_at: string };
+type ReviewRow = { id: string; listing_id: string; family_id: string | null; author_name: string; rating: number; title: string; body: string; child_grade: string | null; verified: boolean; helpful: number; sample: boolean; hidden?: boolean; show_progress?: boolean; progress_done?: number | null; progress_total?: number | null; created_at: string };
 type PurchaseRow = { id: string; listing_id: string | null; title: string; seller: string; price: number | string; funding_source: FundingSource; status: Purchase['status'] | 'cancelled'; demo: boolean; esa_eligible: boolean; created_at: string };
 
 export const toListing = (r: ListingRow, fid?: string): Listing => ({
@@ -108,6 +108,8 @@ const toReview = (r: ReviewRow, fid?: string): Review => ({
   sample: r.sample || undefined,
   mine: !!fid && r.family_id === fid ? true : undefined,
   hidden: r.hidden || undefined,
+  progress: r.progress_done != null && r.progress_total ? { done: r.progress_done, total: r.progress_total } : undefined,
+  showProgress: r.show_progress ?? true,
 });
 
 export const toPurchase = (r: PurchaseRow): Purchase => ({
@@ -226,7 +228,7 @@ export async function submitReview(r: Review): Promise<void> {
   const fid = requireCloud();
   const { data, error } = await supabase!
     .from('reviews')
-    .upsert({ listing_id: r.listingId, family_id: fid, author_name: r.author, rating: r.rating, title: r.title, body: r.body, child_grade: r.childGrade ?? null }, { onConflict: 'listing_id,family_id' })
+    .upsert({ listing_id: r.listingId, family_id: fid, author_name: r.author, rating: r.rating, title: r.title, body: r.body, child_grade: r.childGrade ?? null, show_progress: r.showProgress !== false }, { onConflict: 'listing_id,family_id' })
     .select()
     .single();
   if (error) throw new Error(friendlyError(error));
