@@ -248,7 +248,8 @@ export function splitRows(text: string): string[][] {
     rows.push(row);
   }
   // A leading ' marks text a spreadsheet must not treat as a formula (see csvCell).
-  return rows.map((r) => r.map((c) => c.trim().replace(/^'(?=[=+@])/, ''))).filter((r) => r.some(Boolean));
+  // A line break at the end of a cell is kept: it marks a one-item list (see planCsv).
+  return rows.map((r) => r.map((c) => c.replace(/^\s+|[ \t]+$/g, '').replace(/^'(?=[=+@])/, ''))).filter((r) => r.some((c) => c.trim()));
 }
 
 /** One item per line; or, in a single-line cell, split on ";" or "|". */
@@ -303,7 +304,9 @@ export function parseTable(text: string): ImportResult {
     if (rows.every((r) => !r[1] || /^\d[\d\s–-]*$/.test(r[1]))) cols.set('pages', 1);
     warnings.push('No header row found, so the first column was used as lesson titles. Add headers like Unit, Lesson, Pages, Link, Steps for more.');
   }
-  const get = (r: string[], c: Column) => (cols.has(c) ? r[cols.get(c)!] : undefined);
+  /** Lists split on line breaks when the cell has any, so they read the cell as it is. */
+  const raw = (r: string[], c: Column) => (cols.has(c) ? r[cols.get(c)!] : undefined);
+  const get = (r: string[], c: Column) => raw(r, c)?.trim();
   const units: PackageUnit[] = [];
   for (const r of body) {
     const title = get(r, 'title');
@@ -318,10 +321,10 @@ export function parseTable(text: string): ImportResult {
     const lesson = newLesson(title, {
       pages: get(r, 'pages')?.replace(/^pp?\.?\s*/i, '').replace('-', '–') || undefined,
       minutes: Number.isFinite(minutes) && minutes > 0 && minutes <= 480 ? Math.round(minutes) : undefined,
-      links: linkCell(get(r, 'link')),
-      steps: listCell(get(r, 'steps')),
-      questions: listCell(get(r, 'questions')),
-      answers: answerCell(get(r, 'answers')),
+      links: linkCell(raw(r, 'link')),
+      steps: listCell(raw(r, 'steps')),
+      questions: listCell(raw(r, 'questions')),
+      answers: answerCell(raw(r, 'answers')),
       notes: get(r, 'notes') || undefined,
     });
     const standards = parseStandardList(get(r, 'standards') ?? '');
@@ -368,7 +371,7 @@ export interface WebImport extends ImportResult {
 export function parseWebPage(html: string, pageUrl: string): WebImport {
   const base = new URL(pageUrl);
   const ld = jsonLdInfo(html);
-  const title = decode(meta(html, 'og:title') ?? html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1] ?? '').replace(/\s+/g, ' ').trim() || base.hostname;
+  const title = textOf(meta(html, 'og:title') ?? html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1] ?? '') || base.hostname;
   const author = meta(html, 'author') ?? meta(html, 'article:author') ?? undefined;
 
   // A playlist is the creator's videos: lessons link to them; their license is per video.
@@ -387,7 +390,8 @@ export function parseWebPage(html: string, pageUrl: string): WebImport {
   const gutenberg = gutenbergInfo(html);
   return {
     units: units.slice(0, 60).map((u) => ({ ...u, lessons: u.lessons.slice(0, 200) })),
-    warnings: license || !gutenberg ? warnings : warnings.filter((w) => !w.startsWith('No license')),
+    // A Gutenberg book in the US public domain needs no license on the page; a copyrighted one keeps the warning.
+    warnings: license || !gutenberg?.license ? warnings : warnings.filter((w) => !w.startsWith('No license')),
     title: gutenberg?.title ?? site?.title ?? siteTitle(title),
     author: gutenberg?.author ?? site?.author ?? ld.author ?? author,
     license: license ?? gutenberg?.license,
@@ -536,13 +540,14 @@ function readPage(html: string, base: URL): ImportResult {
   // A whole book on one page: its contents links (or, without them, its chapter headings) are the lessons.
   // (Not wikis: every wiki heading has an id; their whole books are print versions.)
   const onPage = wiki ? [] : anchors.length >= 3 ? anchors : headingAnchors(body, base);
-  if (onPage.length >= 3 && linked < onPage.length / 2) {
+  const wholeBook = onPage.length >= 3 && linked < onPage.length / 2;
+  if (wholeBook) {
     kept = chunkUnits(onPage);
     warnings.push('This looks like a whole book on one page, so each chapter became a lesson. Group them into units in the editor if you like.');
   }
   if (!kept.length && scriptBuilt(html)) warnings.push('This site builds its pages with scripts, so its outline can’t be read automatically. Open the course in your browser, select its list of units and lessons, copy it, and paste it below. Lesson links you paste with it are kept.');
   else if (!kept.length) warnings.push('Couldn’t find a list of lessons on that page. Paste the course outline instead — the source and license are still recorded.');
-  else if (kept.length < units.length && !wiki) warnings.push('Some sections without lessons were left out.');
+  else if (kept.length < units.length && !wiki && !wholeBook) warnings.push('Some sections without lessons were left out.');
   return { units: kept, warnings };
 }
 

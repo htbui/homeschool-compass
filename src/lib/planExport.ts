@@ -10,9 +10,16 @@ import { subjectLabel } from './subjects';
  * importing again gives back the same lessons.
  */
 
-const lines = (list?: string[]) => (list ?? []).join('\n');
+/**
+ * One item per line. The importer splits a one-line cell on ";" and "|", so a
+ * single item holding one of those ends with a line break to stay whole.
+ */
+const lines = (list?: string[]) => {
+  const all = list ?? [];
+  return all.join('\n') + (all.length === 1 && /[;|]/.test(all[0]) ? '\n' : '');
+};
 /** Blank answers keep their place as "-" (the importer reads that as blank). */
-const answerLines = (list?: string[]) => (list ?? []).map((a) => a || '-').join('\n');
+const answerLines = (list?: string[]) => lines((list ?? []).map((a) => a || '-'));
 
 /**
  * One CSV cell: quoted when it has a comma, quote, or line break. Tabs become spaces (the importer treats a tab as TSV).
@@ -38,7 +45,7 @@ export function planCsv(pkg: Pick<CurriculumPackage, 'units'>): string {
     { header: 'Lesson', cell: (l) => l.title },
     { header: 'Pages', cell: (l) => l.pages },
     { header: 'Minutes', cell: (l) => l.minutes },
-    { header: 'Link', cell: (l) => l.links.map((k) => (k.label && k.label !== 'Open lesson' ? `${k.label}: ${k.url}` : k.url)).join('\n') },
+    { header: 'Link', cell: (l) => lines(l.links.map((k) => (k.label && k.label !== 'Open lesson' ? `${k.label}: ${k.url}` : k.url))) },
     { header: 'Steps', cell: (l) => lines(l.steps) },
     { header: 'Questions', cell: (l) => lines(l.questions) },
     { header: 'Answers', cell: (l) => answerLines(l.answers) },
