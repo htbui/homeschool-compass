@@ -76,6 +76,12 @@ _Last updated: 2026-11-11_
 
 _New ideas land here, then get a priority._
 
+- **Design review, round 1:** the shared fixes and small P1s from the design review (https://claude.ai/artifact/8qLz8ns8mJDs2wsRaxBbDK), then rounds 2 and 3.
+- **From the Compass and Studio test suites:**
+  - Throttle repeated wrong kid and parent PINs; there's no limit today.
+  - A family removed from a co-op can rejoin with the old code until the teacher makes a new one.
+  - Spreadsheet import should read "30 min" as 30, and themes named "Easy", "Hard", or "Student" clash with column names.
+  - When a curriculum is past its target end date, the pace shows every remaining lesson due in one day.
 - **Marketplace (from the test suite):**
   - Handle Stripe's `checkout.session.async_payment_succeeded` / `_failed` before turning on delayed payment methods (bank debits); today such an order would stay pending.
   - A coupon typed in on an order that's already free (a free listing, or a bundle you already own most of) still uses up one of its uses.
