@@ -454,6 +454,7 @@ try {
   await A.expect('A moderator hid one of your messages', 'sender is told about the decision', 15000);
   // Verification: the moderator marks Dana's family verified.
   await B.goto('/moderation');
+  await B.click('🛡️ Family verification');
   await B.expect('Verification requests (', 'verification queue', 15000);
   await B.clickIn(`Dana ${run}`, 'Mark verified');
   await C.goto('/messages');

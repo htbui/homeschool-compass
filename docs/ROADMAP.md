@@ -39,18 +39,10 @@ _Last updated: 2026-11-11_
 
 - [ ] **Studio: AI drafting with Claude, approved by a parent or creator.** _Waiting on an Anthropic API key (paid per use); parked until you're ready to pay for services._ Drafts lesson steps, worksheet questions, answer keys, and versions for younger and older kids. Every draft stays marked "draft" until a person approves it.
 - [ ] **Studio: photo → table of contents in the app.** _Needs an on-device text-recognition module, so it waits for the first Expo development build._ Read the text on the device so there's no need to copy it with Live Text or Google Lens first.
-- [ ] **Studio: better web import** for sites that build their pages with scripts:
-  - video playlists
-  - large open textbook sites
-  - each site's own outline format
-- [ ] **Marketplace: creator verification badge,** plus onboarding as an ESA vendor.
-- [ ] **Community:** messaging between families, and identity verification for meetups.
-- [ ] **Free & open curricula: keep converting.** Only works anyone may adapt and sell (public domain, CC0, CC BY, CC BY-SA), and only from sites whose terms allow it. Each is listed under its original author. Next candidates, from the survey of 41 sources:
-  - NASA, National Park Service, and NOAA lesson units (US government works)
-  - Library of Congress primary-source sets
-  - Mathematics Vision Project Secondary Math, 2016 edition (verify CC BY on MVP's site)
-  - Wikijunior and Wikibooks K–12 books (CC BY-SA)
-  - Oak National Academy (UK, Open Government Licence)
+- [ ] **Free & open curricula: keep converting.** Only works anyone may adapt and sell (public domain, CC0, CC BY, CC BY-SA), and only from sites whose terms allow it. Each is listed under its original author. Next candidates:
+  - more NOAA, National Park Service, and USGS units
+  - more public-domain classics, e.g. the Story of the English and Story of the Great Republic (Guerber), Our Little Cousin series, Burgess Seashore Book
+  - more Wikijunior and Wikibooks books as they're completed
 
   **Decided, 2026-11-12:** non-commercial or restricted sources stay out of the Marketplace. Families can still build private plans from them in Studio. The list:
   - Khan Academy, Core Knowledge, EngageNY / Eureka Math, CK-12, IM v.360, and OER Project
@@ -66,20 +58,19 @@ _Last updated: 2026-11-11_
 
 ## P2: Soon
 
-- [ ] **Studio analytics for creators.** Anonymous signals: where kids struggle ("Lesson 14 takes twice as long as planned", "marked tricky"), drop-off points, and completion rates.
-- [ ] **Studio co-op mode:** a teacher shares a class plan with 5–30 families, and each family paces it on its own.
-- [ ] **Studio: versions by age and theme.** One plan with easier and harder versions per lesson, plus interest themes (for example, dinosaurs or space).
-- [ ] **Studio: tag lessons to state standards,** and flag required subjects that are missing.
-- [ ] **Reviews that show progress:** "Finished 120/120 lessons" next to a review.
-- [ ] **`fetch-page` hardening:** per-user rate limits, and pinning the looked-up address so a site can't switch to an internal address between the safety check and the fetch.
-- [ ] **Notifications:** help requests, co-op events, and curriculum updates.
+- [ ] **Real identity checks for meetups:** plug in a vendor (e.g. Stripe Identity) at `record_vendor_verification()`. Needs your account. Until then, moderators verify families by hand.
+- [ ] **Push notifications** (needs a dev build and Expo account); in-app notifications are built.
+- [ ] **Gift emails:** send gift codes by email once there's an email provider. Today the giver shares the code or link.
+- [ ] **Check the state subject lists** in `src/lib/standards.ts` (28 states, a simplified summary) against each state's statute.
+- [ ] **Tune limits:** web import allows 20 fetches a minute and 300 a day; messages allow 10 a minute and 200 a day.
+- [ ] **Ask NASA / Oak National Academy / MVP:**
+  - **NASA:** its 2026 policy bars attributing AI-assisted output to NASA. Two NASA units (46 lessons) are held.
+  - **Oak National Academy:** its site signals no AI input. Use its API with a key, and ask about naming Oak.
+  - **MVP:** the license notes conflict for Secondary Math II and III, which are held.
 
 ## P3: Later or nice to have
 
-- [ ] Bundles, discounts, and coupon codes for creators.
-- [ ] Gift a curriculum to another family.
-- [ ] Creator storefront pages with followers.
-- [ ] Export a Studio plan as PDF or CSV.
+- _(empty)_
 
 ## Ideas inbox
 
