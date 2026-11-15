@@ -1,0 +1,1383 @@
+{
+ "key": "wikijunior-europe",
+ "seller": "Wikijunior (Wikibooks contributors)",
+ "title": "Wikijunior Europe",
+ "sourceTitle": "Wikijunior Europe",
+ "author": "Wikibooks contributors",
+ "year": 2006,
+ "sourceUrl": "https://en.wikibooks.org/wiki/Wikijunior:Europe",
+ "license": {
+  "kind": "cc_by_sa",
+  "version": "4.0"
+ },
+ "licenseEvidence": "Wikibooks:Copyrights (en.wikibooks.org/wiki/Wikibooks:Copyrights, checked 2026-11-14): 'Most of Wikibooks' text is dual licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (\"CC BY-SA 4.0\") and the GNU Free Documentation License (GFDL)' and 'Wikibooks content can be copied, modified, and redistributed if and only if the copied version is made available on the same terms to others and acknowledgment of the authors of the work used is included (a link back to the book or module is generally thought to satisfy the attribution requirement)'. Wikimedia Foundation Terms of Use (foundation.wikimedia.org/wiki/Policy:Terms_of_Use, checked 2026-11-14), §7: 'these licenses do allow commercial uses of your contributions'; 'Reuse of content that we host is welcome'; reusers attribute 'Through hyperlink (where possible) or URL to the page or pages that you are reusing'; modified text must be licensed 'under CC BY-SA 4.0 or later' with an indication 'that the original work has been modified'. The only automated-use limit is on uses that 'are abusive or disruptive of the services'; API use follows the User-Agent Policy and API:Etiquette (pages were read through the MediaWiki API with a descriptive User-Agent). No clause bars AI use, derivatives, commercial use, or linking. Wikimedia Trademark Policy §3.6 (nominative use) allows the word marks to describe 'A derivative work of Wikimedia content in a way that is not misleading' and to link to Wikimedia sites; 'Wikijunior' is not on the Wikimedia trademarks list, 'Wikibooks' is, so no logos are used and no endorsement is implied. This plan uses only page titles, links, and our own steps and questions; no images (Commons images carry their own licenses).",
+ "attribution": "Wikijunior Europe is adapted from “Wikijunior Europe” (https://en.wikibooks.org/wiki/Wikijunior:Europe) by Wikibooks contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Each lesson links to the page it uses; the full list of authors is in each page's history. Changes: pages grouped into daily lessons, with new steps and questions, by Freerange. This adapted lesson plan is also released under CC BY-SA 4.0 (ShareAlike). Not endorsed by or affiliated with the Wikimedia Foundation or the Wikibooks community.",
+ "subjects": [
+  "geography",
+  "history"
+ ],
+ "gradeMin": 3,
+ "gradeMax": 6,
+ "philosophies": [
+  "charlotte_mason",
+  "unit_study",
+  "traditional"
+ ],
+ "lessonsPerWeek": 3,
+ "minutesPerLesson": 25,
+ "parentInvolvement": "medium",
+ "familyStyle": true,
+ "cover": "🗺️",
+ "color": "#2F6B5E",
+ "description": "A country-by-country tour of Europe written for children by Wikijunior volunteers: what Europe and the European Union are, its mountains, peoples and languages, then a short profile of every European country with its history, land, people and sights. Each day you read one page together, color the country on your own map, and add a stamp to a homemade passport. It's a free, openly licensed book; every page is free to read on Wikibooks.",
+ "includes": [
+  "59 lessons in 7 units",
+  "Link to the free Wikibooks page for every lesson",
+  "A page for each of Europe's 50 countries, plus three that no longer exist",
+  "Map work every day on one blank map of Europe",
+  "Questions with answers for every lesson"
+ ],
+ "units": [
+  {
+   "title": "Unit 1: Introducing Europe",
+   "lessons": [
+    {
+     "title": "Lesson 1: What Is Europe?",
+     "steps": [
+      "Read the introduction together",
+      "Print or draw a blank map of Europe for the whole course",
+      "Talk about the difference between Europe and the European Union"
+     ],
+     "links": [
+      {
+       "label": "Read: Introduction",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Europe"
+      }
+     ],
+     "questions": [
+      "Which mountains mark the eastern edge of Europe?",
+      "Is Europe the same thing as the European Union?"
+     ],
+     "answers": [
+      "The Ural Mountains",
+      "No; Europe is a continent, the EU is a group of countries"
+     ]
+    },
+    {
+     "title": "Lesson 2: The European Union",
+     "steps": [
+      "Read the page together",
+      "Draw the EU flag: twelve gold stars in a ring on blue",
+      "Narrate two things EU countries share"
+     ],
+     "links": [
+      {
+       "label": "Read: European Union",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/EU"
+      }
+     ],
+     "questions": [
+      "How many countries are in the EU?",
+      "Which country left the EU in 2020?"
+     ],
+     "answers": [
+      "27",
+      "The United Kingdom"
+     ]
+    },
+    {
+     "title": "Lesson 3: Geography of Europe",
+     "steps": [
+      "Read the page together",
+      "Mark the Alps, the Urals, and the Carpathians on your map",
+      "Find two landlocked countries"
+     ],
+     "links": [
+      {
+       "label": "Read: Geography of Europe",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Geography_of_Europe"
+      }
+     ],
+     "questions": [
+      "What is a landlocked country?",
+      "Which famous volcano is on the island of Sicily?"
+     ],
+     "answers": [
+      "A country with no sea or ocean coast",
+      "Mount Etna"
+     ]
+    },
+    {
+     "title": "Lesson 4: People of Europe",
+     "steps": [
+      "Read the page together",
+      "Pick one famous European from the page and find out one more thing about them",
+      "Narrate what the main religion of Europe is and where other faiths are common"
+     ],
+     "links": [
+      {
+       "label": "Read: People of Europe",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/People_of_Europe"
+      }
+     ],
+     "questions": [
+      "Which country in Europe has the most people?",
+      "Which country has the fewest people?"
+     ],
+     "answers": [
+      "Russia",
+      "Vatican City"
+     ]
+    },
+    {
+     "title": "Lesson 5: Languages of Europe",
+     "steps": [
+      "Read the page together",
+      "Learn to say 'hello' in three European languages",
+      "Sort five languages into Germanic, Romance, or Slavic"
+     ],
+     "links": [
+      {
+       "label": "Read: Languages of Europe",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Language_of_Europe"
+      }
+     ],
+     "questions": [
+      "Which language is spoken by the most people in Europe?",
+      "Is Finnish an Indo-European language?"
+     ],
+     "answers": [
+      "Russian",
+      "No, it is a Uralic language"
+     ]
+    },
+    {
+     "title": "Lesson 6: The Fact File",
+     "steps": [
+      "Read the explanation at the top and scan the table",
+      "Find the most crowded and the least crowded country",
+      "Start a 'country passport' booklet to stamp as you visit each country page"
+     ],
+     "links": [
+      {
+       "label": "Read: Fact File",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Facts"
+      }
+     ],
+     "questions": [
+      "What does 'population per km²' tell you about a country?"
+     ],
+     "answers": [
+      "How crowded it is"
+     ],
+     "notes": "Some figures in the table are older than the country pages; the country pages are more up to date."
+    }
+   ]
+  },
+  {
+   "title": "Unit 2: Northern Europe",
+   "lessons": [
+    {
+     "title": "Lesson 7: Denmark",
+     "steps": [
+      "Read the page together",
+      "Color Denmark on your blank map of Europe and mark Copenhagen",
+      "Find the bridge that links Denmark to Sweden"
+     ],
+     "links": [
+      {
+       "label": "Read: Denmark",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Denmark"
+      }
+     ],
+     "questions": [
+      "What is the capital of Denmark?",
+      "What is Denmark's currency?"
+     ],
+     "answers": [
+      "Copenhagen",
+      "The Danish krone"
+     ]
+    },
+    {
+     "title": "Lesson 8: Estonia",
+     "steps": [
+      "Read the page together",
+      "Color Estonia on your blank map of Europe and mark Tallinn",
+      "Look for the 1,150 lakes: what covers almost half the land?"
+     ],
+     "links": [
+      {
+       "label": "Read: Estonia",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Estonia"
+      }
+     ],
+     "questions": [
+      "What is the capital of Estonia?",
+      "Which countries does Estonia border?"
+     ],
+     "answers": [
+      "Tallinn",
+      "Russia and Latvia"
+     ]
+    },
+    {
+     "title": "Lesson 9: Finland",
+     "steps": [
+      "Read the page together",
+      "Color Finland on your blank map of Europe and mark Helsinki",
+      "Find Lapland in the far north"
+     ],
+     "links": [
+      {
+       "label": "Read: Finland",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Finland"
+      }
+     ],
+     "questions": [
+      "What is the capital of Finland?",
+      "What are Finland's two national languages?"
+     ],
+     "answers": [
+      "Helsinki",
+      "Finnish and Swedish"
+     ]
+    },
+    {
+     "title": "Lesson 10: Iceland",
+     "steps": [
+      "Read the page together",
+      "Color Iceland on your blank map of Europe and mark Reykjavík",
+      "Talk about why Iceland is called the island of ice and fire"
+     ],
+     "links": [
+      {
+       "label": "Read: Iceland",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Iceland"
+      }
+     ],
+     "questions": [
+      "What is the capital of Iceland?",
+      "Who was the first settler of Iceland?"
+     ],
+     "answers": [
+      "Reykjavík",
+      "Ingólfur Arnason"
+     ]
+    },
+    {
+     "title": "Lesson 11: Ireland",
+     "steps": [
+      "Read the page together",
+      "Color Ireland on your blank map of Europe and mark Dublin",
+      "Find the border with Northern Ireland, which is part of the UK"
+     ],
+     "links": [
+      {
+       "label": "Read: Ireland",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Ireland"
+      }
+     ],
+     "questions": [
+      "What is the capital of Ireland?",
+      "What is the highest mountain in Ireland?"
+     ],
+     "answers": [
+      "Dublin",
+      "Carrauntoohil"
+     ]
+    },
+    {
+     "title": "Lesson 12: Latvia",
+     "steps": [
+      "Read the page together",
+      "Color Latvia on your blank map of Europe and mark Riga",
+      "Look for the old town of Riga in pictures"
+     ],
+     "links": [
+      {
+       "label": "Read: Latvia",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Latvia"
+      }
+     ],
+     "questions": [
+      "What is the capital of Latvia?",
+      "In what year did Latvia join the EU?"
+     ],
+     "answers": [
+      "Riga",
+      "2004"
+     ]
+    },
+    {
+     "title": "Lesson 13: Lithuania",
+     "steps": [
+      "Read the page together",
+      "Color Lithuania on your blank map of Europe and mark Vilnius",
+      "Find the sand dunes on the Baltic coast"
+     ],
+     "links": [
+      {
+       "label": "Read: Lithuania",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Lithuania"
+      }
+     ],
+     "questions": [
+      "What is the capital of Lithuania?",
+      "Who united the Lithuanian lands and became king in 1253?"
+     ],
+     "answers": [
+      "Vilnius",
+      "Mindaugas"
+     ]
+    },
+    {
+     "title": "Lesson 14: Norway",
+     "steps": [
+      "Read the page together",
+      "Color Norway on your blank map of Europe and mark Oslo",
+      "Look up a picture of a fjord and describe it"
+     ],
+     "links": [
+      {
+       "label": "Read: Norway",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Norway"
+      }
+     ],
+     "questions": [
+      "What is the capital of Norway?",
+      "What is a fjord?"
+     ],
+     "answers": [
+      "Oslo",
+      "A long inlet from the sea"
+     ]
+    },
+    {
+     "title": "Lesson 15: Sweden",
+     "steps": [
+      "Read the page together",
+      "Color Sweden on your blank map of Europe and mark Stockholm",
+      "Narrate who the Vikings were"
+     ],
+     "links": [
+      {
+       "label": "Read: Sweden",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Sweden"
+      }
+     ],
+     "questions": [
+      "What is the capital of Sweden?",
+      "What is Sweden's currency?"
+     ],
+     "answers": [
+      "Stockholm",
+      "The Swedish krona"
+     ]
+    },
+    {
+     "title": "Lesson 16: United Kingdom",
+     "steps": [
+      "Read the page together",
+      "Color United Kingdom on your blank map of Europe and mark London",
+      "Name the four nations of the UK and find each on the map"
+     ],
+     "links": [
+      {
+       "label": "Read: United Kingdom",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/United_Kingdom"
+      }
+     ],
+     "questions": [
+      "What is the capital of United Kingdom?",
+      "When was the United Kingdom created?"
+     ],
+     "answers": [
+      "London",
+      "1707"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 3: Western Europe",
+   "lessons": [
+    {
+     "title": "Lesson 17: Andorra",
+     "steps": [
+      "Read the page together",
+      "Color Andorra on your blank map of Europe and mark Andorra la Vella",
+      "Find the Pyrenees between France and Spain"
+     ],
+     "links": [
+      {
+       "label": "Read: Andorra",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Andorra"
+      }
+     ],
+     "questions": [
+      "What is the capital of Andorra?",
+      "What is the only official language of Andorra?"
+     ],
+     "answers": [
+      "Andorra la Vella",
+      "Catalan"
+     ]
+    },
+    {
+     "title": "Lesson 18: Belgium",
+     "steps": [
+      "Read the page together",
+      "Color Belgium on your blank map of Europe and mark Brussels",
+      "Find Flanders and Wallonia"
+     ],
+     "links": [
+      {
+       "label": "Read: Belgium",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Belgium"
+      }
+     ],
+     "questions": [
+      "What is the capital of Belgium?",
+      "Which two languages do most Belgians speak?"
+     ],
+     "answers": [
+      "Brussels",
+      "Dutch and French"
+     ]
+    },
+    {
+     "title": "Lesson 19: France",
+     "steps": [
+      "Read the page together",
+      "Color France on your blank map of Europe and mark Paris",
+      "Find Mont Blanc on the border with Italy"
+     ],
+     "links": [
+      {
+       "label": "Read: France",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/France"
+      }
+     ],
+     "questions": [
+      "What is the capital of France?",
+      "What is the most popular tourist country in the world?"
+     ],
+     "answers": [
+      "Paris",
+      "France"
+     ]
+    },
+    {
+     "title": "Lesson 20: Liechtenstein",
+     "steps": [
+      "Read the page together",
+      "Color Liechtenstein on your blank map of Europe and mark Vaduz",
+      "Find the river Rhine on Liechtenstein's western border"
+     ],
+     "links": [
+      {
+       "label": "Read: Liechtenstein",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Liechtenstein"
+      }
+     ],
+     "questions": [
+      "What is the capital of Liechtenstein?",
+      "What money does Liechtenstein use?"
+     ],
+     "answers": [
+      "Vaduz",
+      "The Swiss franc"
+     ]
+    },
+    {
+     "title": "Lesson 21: Luxembourg",
+     "steps": [
+      "Read the page together",
+      "Color Luxembourg on your blank map of Europe and mark Luxembourg (the city has the same name as the country)",
+      "Narrate why such a small country is important for business"
+     ],
+     "links": [
+      {
+       "label": "Read: Luxembourg",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Luxembourg"
+      }
+     ],
+     "questions": [
+      "What is the capital of Luxembourg?",
+      "In what year did Luxembourg become independent?"
+     ],
+     "answers": [
+      "Luxembourg (the city has the same name as the country)",
+      "1839"
+     ]
+    },
+    {
+     "title": "Lesson 22: Monaco",
+     "steps": [
+      "Read the page together",
+      "Color Monaco on your blank map of Europe and mark Monaco (Monte Carlo)",
+      "Find the famous car race held in Monaco's streets"
+     ],
+     "links": [
+      {
+       "label": "Read: Monaco",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Monaco"
+      }
+     ],
+     "questions": [
+      "What is the capital of Monaco?",
+      "Which family has ruled Monaco since 1297?"
+     ],
+     "answers": [
+      "Monaco (Monte Carlo)",
+      "The Grimaldi family"
+     ]
+    },
+    {
+     "title": "Lesson 23: Netherlands",
+     "steps": [
+      "Read the page together",
+      "Color Netherlands on your blank map of Europe and mark Amsterdam",
+      "Talk about what dikes do"
+     ],
+     "links": [
+      {
+       "label": "Read: Netherlands",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Netherlands"
+      }
+     ],
+     "questions": [
+      "What is the capital of Netherlands?",
+      "Where is the Dutch government based?"
+     ],
+     "answers": [
+      "Amsterdam",
+      "The Hague"
+     ]
+    },
+    {
+     "title": "Lesson 24: Portugal",
+     "steps": [
+      "Read the page together",
+      "Color Portugal on your blank map of Europe and mark Lisbon",
+      "Find the Algarve region"
+     ],
+     "links": [
+      {
+       "label": "Read: Portugal",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Portugal"
+      }
+     ],
+     "questions": [
+      "What is the capital of Portugal?",
+      "Which is the only country Portugal borders?"
+     ],
+     "answers": [
+      "Lisbon",
+      "Spain"
+     ]
+    },
+    {
+     "title": "Lesson 25: Spain",
+     "steps": [
+      "Read the page together",
+      "Color Spain on your blank map of Europe and mark Madrid",
+      "Find the Canary Islands off the coast of Africa"
+     ],
+     "links": [
+      {
+       "label": "Read: Spain",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Spain"
+      }
+     ],
+     "questions": [
+      "What is the capital of Spain?",
+      "What is Spain's highest mountain?"
+     ],
+     "answers": [
+      "Madrid",
+      "Teide, in the Canary Islands"
+     ]
+    },
+    {
+     "title": "Lesson 26: Switzerland",
+     "steps": [
+      "Read the page together",
+      "Color Switzerland on your blank map of Europe and mark Bern",
+      "Find the Alps, which cover most of Switzerland"
+     ],
+     "links": [
+      {
+       "label": "Read: Switzerland",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Switzerland"
+      }
+     ],
+     "questions": [
+      "What is the capital of Switzerland?",
+      "Since what year has Switzerland not been at war?"
+     ],
+     "answers": [
+      "Bern",
+      "1815"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 4: Central Europe",
+   "lessons": [
+    {
+     "title": "Lesson 27: Austria",
+     "steps": [
+      "Read the page together",
+      "Color Austria on your blank map of Europe and mark Vienna",
+      "Narrate who the Habsburgs were"
+     ],
+     "links": [
+      {
+       "label": "Read: Austria",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Austria"
+      }
+     ],
+     "questions": [
+      "What is the capital of Austria?",
+      "What is the main language of Austria?"
+     ],
+     "answers": [
+      "Vienna",
+      "German"
+     ]
+    },
+    {
+     "title": "Lesson 28: Czechia (Czech Republic)",
+     "steps": [
+      "Read the page together",
+      "Color Czechia (Czech Republic) on your blank map of Europe and mark Prague",
+      "Find the line where Czechoslovakia split in two"
+     ],
+     "links": [
+      {
+       "label": "Read: Czechia (Czech Republic)",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Czech_Republic"
+      }
+     ],
+     "questions": [
+      "What is the capital of Czechia (Czech Republic)?",
+      "In what year was the Czech Republic founded?"
+     ],
+     "answers": [
+      "Prague",
+      "1993"
+     ]
+    },
+    {
+     "title": "Lesson 29: Germany",
+     "steps": [
+      "Read the page together",
+      "Color Germany on your blank map of Europe and mark Berlin",
+      "Talk about why Berlin was once two cities"
+     ],
+     "links": [
+      {
+       "label": "Read: Germany",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Germany"
+      }
+     ],
+     "questions": [
+      "What is the capital of Germany?",
+      "What festival is held in Munich every autumn?"
+     ],
+     "answers": [
+      "Berlin",
+      "Oktoberfest"
+     ]
+    },
+    {
+     "title": "Lesson 30: Hungary",
+     "steps": [
+      "Read the page together",
+      "Color Hungary on your blank map of Europe and mark Budapest",
+      "Look at a picture of the Parliament Building in Budapest"
+     ],
+     "links": [
+      {
+       "label": "Read: Hungary",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Hungary"
+      }
+     ],
+     "questions": [
+      "What is the capital of Hungary?",
+      "Who founded the kingdom of Hungary in the year 1000?"
+     ],
+     "answers": [
+      "Budapest",
+      "István I (Stephen)"
+     ]
+    },
+    {
+     "title": "Lesson 31: Italy",
+     "steps": [
+      "Read the page together",
+      "Color Italy on your blank map of Europe and mark Rome",
+      "Find the two tiny countries inside Italy"
+     ],
+     "links": [
+      {
+       "label": "Read: Italy",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Italy"
+      }
+     ],
+     "questions": [
+      "What is the capital of Italy?",
+      "What are Italy's two largest islands?"
+     ],
+     "answers": [
+      "Rome",
+      "Sicily and Sardinia"
+     ]
+    },
+    {
+     "title": "Lesson 32: Malta",
+     "steps": [
+      "Read the page together",
+      "Color Malta on your blank map of Europe and mark Valletta",
+      "Find Malta between Sicily and Tunisia"
+     ],
+     "links": [
+      {
+       "label": "Read: Malta",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Malta"
+      }
+     ],
+     "questions": [
+      "What is the capital of Malta?",
+      "What are Malta's two official languages?"
+     ],
+     "answers": [
+      "Valletta",
+      "Maltese and English"
+     ]
+    },
+    {
+     "title": "Lesson 33: Poland",
+     "steps": [
+      "Read the page together",
+      "Color Poland on your blank map of Europe and mark Warsaw",
+      "Find the Carpathian and Sudetes mountains"
+     ],
+     "links": [
+      {
+       "label": "Read: Poland",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Poland"
+      }
+     ],
+     "questions": [
+      "What is the capital of Poland?",
+      "How many citizens did Poland lose in World War II?"
+     ],
+     "answers": [
+      "Warsaw",
+      "More than six million"
+     ]
+    },
+    {
+     "title": "Lesson 34: San Marino and Vatican City",
+     "steps": [
+      "Read both pages",
+      "Color both tiny countries inside Italy on your map",
+      "Look at a picture of the Sistine Chapel"
+     ],
+     "links": [
+      {
+       "label": "Read: San Marino",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/San_Marino"
+      },
+      {
+       "label": "Read: Vatican City",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Vatican_City"
+      }
+     ],
+     "questions": [
+      "Which is the smallest country in the world?",
+      "Who founded San Marino, according to tradition?"
+     ],
+     "answers": [
+      "Vatican City",
+      "Saint Marinus"
+     ]
+    },
+    {
+     "title": "Lesson 35: Slovakia",
+     "steps": [
+      "Read the page together",
+      "Color Slovakia on your blank map of Europe and mark Bratislava",
+      "Narrate what the 'Velvet Divorce' was"
+     ],
+     "links": [
+      {
+       "label": "Read: Slovakia",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Slovakia"
+      }
+     ],
+     "questions": [
+      "What is the capital of Slovakia?",
+      "When did Slovakia become independent?"
+     ],
+     "answers": [
+      "Bratislava",
+      "January 1, 1993"
+     ]
+    },
+    {
+     "title": "Lesson 36: Slovenia",
+     "steps": [
+      "Read the page together",
+      "Color Slovenia on your blank map of Europe and mark Ljubljana",
+      "Find Lake Bled and Mount Triglav"
+     ],
+     "links": [
+      {
+       "label": "Read: Slovenia",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Slovenia"
+      }
+     ],
+     "questions": [
+      "What is the capital of Slovenia?",
+      "What is Slovenia's highest mountain?"
+     ],
+     "answers": [
+      "Ljubljana",
+      "Triglav"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 5: South-Eastern Europe",
+   "lessons": [
+    {
+     "title": "Lesson 37: Albania",
+     "steps": [
+      "Read the page together",
+      "Color Albania on your blank map of Europe and mark Tirana",
+      "Narrate who Skanderbeg was"
+     ],
+     "links": [
+      {
+       "label": "Read: Albania",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Albania"
+      }
+     ],
+     "questions": [
+      "What is the capital of Albania?",
+      "What is Albania's currency?"
+     ],
+     "answers": [
+      "Tirana",
+      "The lek"
+     ]
+    },
+    {
+     "title": "Lesson 38: Bosnia-Herzegovina",
+     "steps": [
+      "Read the page together",
+      "Color Bosnia-Herzegovina on your blank map of Europe and mark Sarajevo",
+      "Look at a picture of the old bridge at Mostar"
+     ],
+     "links": [
+      {
+       "label": "Read: Bosnia-Herzegovina",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Bosnia-Herzegovina"
+      }
+     ],
+     "questions": [
+      "What is the capital of Bosnia-Herzegovina?",
+      "Which two regions give the country its name?"
+     ],
+     "answers": [
+      "Sarajevo",
+      "Bosnia and Herzegovina"
+     ]
+    },
+    {
+     "title": "Lesson 39: Bulgaria",
+     "steps": [
+      "Read the page together",
+      "Color Bulgaria on your blank map of Europe and mark Sofia",
+      "Find the River Danube on Bulgaria's northern border"
+     ],
+     "links": [
+      {
+       "label": "Read: Bulgaria",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Bulgaria"
+      }
+     ],
+     "questions": [
+      "What is the capital of Bulgaria?",
+      "Which country lies to the north of Bulgaria?"
+     ],
+     "answers": [
+      "Sofia",
+      "Romania"
+     ]
+    },
+    {
+     "title": "Lesson 40: Croatia",
+     "steps": [
+      "Read the page together",
+      "Color Croatia on your blank map of Europe and mark Zagreb",
+      "Count how many islands Croatia has (more than a thousand!)"
+     ],
+     "links": [
+      {
+       "label": "Read: Croatia",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Croatia"
+      }
+     ],
+     "questions": [
+      "What is the capital of Croatia?",
+      "In what year did Croatia join the EU?"
+     ],
+     "answers": [
+      "Zagreb",
+      "2013"
+     ]
+    },
+    {
+     "title": "Lesson 41: Greece",
+     "steps": [
+      "Read the page together",
+      "Color Greece on your blank map of Europe and mark Athens",
+      "List things that began in ancient Greece"
+     ],
+     "links": [
+      {
+       "label": "Read: Greece",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Greece"
+      }
+     ],
+     "questions": [
+      "What is the capital of Greece?",
+      "What is the highest mountain in Greece?"
+     ],
+     "answers": [
+      "Athens",
+      "Mount Olympus"
+     ]
+    },
+    {
+     "title": "Lesson 42: Kosovo",
+     "steps": [
+      "Read the page together",
+      "Color Kosovo on your blank map of Europe and mark Pristina",
+      "Talk about why not every country recognizes Kosovo"
+     ],
+     "links": [
+      {
+       "label": "Read: Kosovo",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Kosovo"
+      }
+     ],
+     "questions": [
+      "What is the capital of Kosovo?",
+      "In what year did Kosovo declare independence?"
+     ],
+     "answers": [
+      "Pristina",
+      "2008"
+     ]
+    },
+    {
+     "title": "Lesson 43: North Macedonia",
+     "steps": [
+      "Read the page together",
+      "Color North Macedonia on your blank map of Europe and mark Skopje",
+      "Find Lake Ohrid"
+     ],
+     "links": [
+      {
+       "label": "Read: North Macedonia",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/North_Macedonia"
+      }
+     ],
+     "questions": [
+      "What is the capital of North Macedonia?",
+      "Does North Macedonia have a coastline?"
+     ],
+     "answers": [
+      "Skopje",
+      "No, it is landlocked"
+     ]
+    },
+    {
+     "title": "Lesson 44: Montenegro",
+     "steps": [
+      "Read the page together",
+      "Color Montenegro on your blank map of Europe and mark Podgorica",
+      "Find the Adriatic coast and the town of Kotor"
+     ],
+     "links": [
+      {
+       "label": "Read: Montenegro",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Montenegro"
+      }
+     ],
+     "questions": [
+      "What is the capital of Montenegro?",
+      "In what year did Montenegro become independent?"
+     ],
+     "answers": [
+      "Podgorica",
+      "2006"
+     ]
+    },
+    {
+     "title": "Lesson 45: Romania",
+     "steps": [
+      "Read the page together",
+      "Color Romania on your blank map of Europe and mark Bucharest",
+      "Find the Carpathian Mountains and the Black Sea coast"
+     ],
+     "links": [
+      {
+       "label": "Read: Romania",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Romania"
+      }
+     ],
+     "questions": [
+      "What is the capital of Romania?",
+      "What is the largest country in south-eastern Europe?"
+     ],
+     "answers": [
+      "Bucharest",
+      "Romania"
+     ]
+    },
+    {
+     "title": "Lesson 46: Serbia",
+     "steps": [
+      "Read the page together",
+      "Color Serbia on your blank map of Europe and mark Belgrade",
+      "Talk about which countries were once part of Yugoslavia"
+     ],
+     "links": [
+      {
+       "label": "Read: Serbia",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Serbia"
+      }
+     ],
+     "questions": [
+      "What is the capital of Serbia?",
+      "Does Serbia have a coastline?"
+     ],
+     "answers": [
+      "Belgrade",
+      "No, it is landlocked"
+     ]
+    },
+    {
+     "title": "Lesson 47: Turkey",
+     "steps": [
+      "Read the page together",
+      "Color Turkey on your blank map of Europe and mark Ankara",
+      "Find the Bosporus that divides European and Asian Turkey"
+     ],
+     "links": [
+      {
+       "label": "Read: Turkey",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Turkey"
+      }
+     ],
+     "questions": [
+      "What is the capital of Turkey?",
+      "Which city is Turkey's major tourist city?"
+     ],
+     "answers": [
+      "Ankara",
+      "Istanbul"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 6: Eastern Europe and the Caucasus",
+   "lessons": [
+    {
+     "title": "Lesson 48: Armenia",
+     "steps": [
+      "Read the page together",
+      "Color Armenia on your blank map of Europe and mark Yerevan",
+      "Find Lake Sevan"
+     ],
+     "links": [
+      {
+       "label": "Read: Armenia",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Armenia"
+      }
+     ],
+     "questions": [
+      "What is the capital of Armenia?",
+      "Is Armenia in Europe or Asia?"
+     ],
+     "answers": [
+      "Yerevan",
+      "Western Asia, with close ties to Europe"
+     ]
+    },
+    {
+     "title": "Lesson 49: Azerbaijan",
+     "steps": [
+      "Read the page together",
+      "Color Azerbaijan on your blank map of Europe and mark Baku",
+      "Find the Caspian Sea on Azerbaijan's eastern side"
+     ],
+     "links": [
+      {
+       "label": "Read: Azerbaijan",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Azerbaijan"
+      }
+     ],
+     "questions": [
+      "What is the capital of Azerbaijan?",
+      "What ancient art can be seen at Gobustan?"
+     ],
+     "answers": [
+      "Baku",
+      "Rock art (carvings)"
+     ]
+    },
+    {
+     "title": "Lesson 50: Belarus",
+     "steps": [
+      "Read the page together",
+      "Color Belarus on your blank map of Europe and mark Minsk",
+      "Narrate what a landlocked country is"
+     ],
+     "links": [
+      {
+       "label": "Read: Belarus",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Belarus"
+      }
+     ],
+     "questions": [
+      "What is the capital of Belarus?",
+      "Is Belarus a member of the EU?"
+     ],
+     "answers": [
+      "Minsk",
+      "No"
+     ]
+    },
+    {
+     "title": "Lesson 51: Cyprus",
+     "steps": [
+      "Read the page together",
+      "Color Cyprus on your blank map of Europe and mark Nicosia",
+      "Talk about why Cyprus is a divided island"
+     ],
+     "links": [
+      {
+       "label": "Read: Cyprus",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Cyprus"
+      }
+     ],
+     "questions": [
+      "What is the capital of Cyprus?",
+      "Which two languages are official in Cyprus?"
+     ],
+     "answers": [
+      "Nicosia",
+      "Greek and Turkish"
+     ]
+    },
+    {
+     "title": "Lesson 52: Georgia",
+     "steps": [
+      "Read the page together",
+      "Color Georgia on your blank map of Europe and mark Tbilisi",
+      "Find the Black Sea coast and the Caucasus mountains"
+     ],
+     "links": [
+      {
+       "label": "Read: Georgia",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Georgia"
+      }
+     ],
+     "questions": [
+      "What is the capital of Georgia?",
+      "How much of Georgia is covered by mountains?"
+     ],
+     "answers": [
+      "Tbilisi",
+      "About 85 percent"
+     ]
+    },
+    {
+     "title": "Lesson 53: Kazakhstan",
+     "steps": [
+      "Read the page together",
+      "Color Kazakhstan on your blank map of Europe and mark Astana",
+      "Talk about how huge Kazakhstan is"
+     ],
+     "links": [
+      {
+       "label": "Read: Kazakhstan",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Kazakhstan"
+      }
+     ],
+     "questions": [
+      "What is the capital of Kazakhstan?",
+      "What is the world's largest landlocked country?"
+     ],
+     "answers": [
+      "What is the capital of Kazakhstan?",
+      "What is the world's largest landlocked country?"
+     ],
+     "notes": "Astana is the capital today; it was called Nur-Sultan from 2019 to 2022, the name the page uses."
+    },
+    {
+     "title": "Lesson 54: Moldova",
+     "steps": [
+      "Read the page together",
+      "Color Moldova on your blank map of Europe and mark Chişinău",
+      "Find the Black Sea and see how close Moldova comes to it"
+     ],
+     "links": [
+      {
+       "label": "Read: Moldova",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Moldova"
+      }
+     ],
+     "questions": [
+      "What is the capital of Moldova?",
+      "Which language is Moldovan close to?"
+     ],
+     "answers": [
+      "Chişinău",
+      "Romanian"
+     ]
+    },
+    {
+     "title": "Lesson 55: Russia",
+     "steps": [
+      "Read the page together",
+      "Color Russia on your blank map of Europe and mark Moscow",
+      "Find where Russia crosses into Asia"
+     ],
+     "links": [
+      {
+       "label": "Read: Russia",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Russia"
+      }
+     ],
+     "questions": [
+      "What is the capital of Russia?",
+      "What is the largest country in the world?"
+     ],
+     "answers": [
+      "Moscow",
+      "Russia"
+     ]
+    },
+    {
+     "title": "Lesson 56: Ukraine",
+     "steps": [
+      "Read the page together",
+      "Color Ukraine on your blank map of Europe and mark Kyiv",
+      "Find the Black Sea coast"
+     ],
+     "links": [
+      {
+       "label": "Read: Ukraine",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Ukraine"
+      }
+     ],
+     "questions": [
+      "What is the capital of Ukraine?",
+      "What is the second-largest country in Europe?"
+     ],
+     "answers": [
+      "Kyiv",
+      "Ukraine"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 7: Countries of the Past and Review",
+   "lessons": [
+    {
+     "title": "Lesson 57: The Soviet Union",
+     "steps": [
+      "Read the page together",
+      "On your map, shade the European countries that were once part of the USSR",
+      "Narrate when the USSR began and ended"
+     ],
+     "links": [
+      {
+       "label": "Read: Soviet Union (USSR)",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/USSR"
+      }
+     ],
+     "questions": [
+      "When did the Soviet Union exist?",
+      "What was its capital city?"
+     ],
+     "answers": [
+      "From 1922 to 1991",
+      "Moscow"
+     ]
+    },
+    {
+     "title": "Lesson 58: East Germany and Yugoslavia",
+     "steps": [
+      "Read both pages",
+      "Draw a quick map of Germany split in two, with Berlin",
+      "List the countries that were formed from Yugoslavia"
+     ],
+     "links": [
+      {
+       "label": "Read: East Germany (DDR)",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/DDR"
+      },
+      {
+       "label": "Read: Yugoslavia",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Yugoslavia"
+      }
+     ],
+     "questions": [
+      "What was the capital of East Germany?",
+      "In what year was Yugoslavia formed?"
+     ],
+     "answers": [
+      "East Berlin",
+      "1918"
+     ]
+    },
+    {
+     "title": "Lesson 59: Europe Quiz",
+     "steps": [
+      "Take the quiz on the page",
+      "Look back at your map: can you name every country without peeking?",
+      "Pick a favorite country and tell why"
+     ],
+     "links": [
+      {
+       "label": "Read: Quiz",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Quiz"
+      }
+     ],
+     "questions": [
+      "Which country was divided in two during the Cold War?",
+      "Which is the smallest country in Europe?"
+     ],
+     "answers": [
+      "Germany",
+      "Vatican City"
+     ]
+    }
+   ]
+  }
+ ]
+}

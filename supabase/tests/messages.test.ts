@@ -81,7 +81,9 @@ describe('messages', () => {
     expect(await convos(cara)).toEqual([]);
     // No writing around send_message().
     expect((await ben.from('messages').insert({ conversation_id: sent.conversation_id, sender_family: famA, body: 'Fake' })).error).toBeTruthy();
-    expect((await ben.from('messages').update({ body: 'Edited' }).eq('id', messageId)).error).toBeTruthy();
+    // Refused outright (no write privileges), or at least matches no rows (no write policies).
+    const edit = await ben.from('messages').update({ body: 'Edited' }).eq('id', messageId).select('id');
+    expect(edit.error !== null || edit.data?.length === 0).toBe(true);
     expect(ok(await ana.from('messages').select('body').eq('id', messageId).single())).toEqual({ body: 'Park day on Tuesday?' });
 
     expect((await cara.rpc('mark_conversation_read', { cid: sent.conversation_id })).error).toBeTruthy();

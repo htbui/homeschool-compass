@@ -14,6 +14,7 @@ import { usePrinter } from '@/store/usePrinter';
 import { useStore } from '@/store/useStore';
 import { cloudEnabled } from '@/services/cloud';
 import { shareText } from '@/services/exportDoc';
+import { forgetInsights, resumeInsights } from '@/services/insights';
 import { isModerator } from '@/services/marketApi';
 import { signOut } from '@/services/sync';
 import { Button, Card, Chip, DateField, Field, Row, Screen, Section, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
@@ -147,6 +148,24 @@ export default function Settings() {
           </Row>
           <T v="caption" muted>{printer.config ? `Paper: ${printer.config.paper === 'a4' ? 'A4' : 'US Letter'}` : 'You’ll be asked the first time you print.'}</T>
           {printer.lastError ? <T v="caption" color={c.danger}>{printer.lastError}</T> : null}
+        </Card>
+      </Section>
+
+      <Section title="Help curriculum creators" subtitle="Anonymous lesson insights, on unless you turn them off.">
+        <Card>
+          <Chip
+            label={`${family.insightsOptOut ? '○' : '✓'} Share anonymous lesson insights`}
+            selected={!family.insightsOptOut}
+            onPress={() => {
+              const optOut = !family.insightsOptOut;
+              updateFamily({ insightsOptOut: optOut });
+              (optOut ? forgetInsights() : resumeInsights()).catch(() => {});
+            }}
+          />
+          <T v="caption">
+            When your family uses a curriculum from the Marketplace, Freerange tells its creator how each lesson went: finished or skipped, about how long it took compared with the plan, and whether it was marked tricky. That’s all — never names, ages, or anything about who your kids are.
+          </T>
+          <T v="caption" muted>{account.userId ? '' : 'Nothing leaves this device until you sign in. '}Creators only see totals, and only for lessons at least 5 families have used. Turning this off stops it and deletes what your family already shared.</T>
         </Card>
       </Section>
 

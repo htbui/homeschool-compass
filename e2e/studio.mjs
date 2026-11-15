@@ -209,6 +209,28 @@ async function run() {
   await sleep(500);
   log((await pkgNamed('Space Math!'))?.version === 2, 'publish an update');
 
+  scenario('Storefront and badges (local)');
+  await click('View listing');
+  await expect('More from Test Creator Co', 'listing links to the creator’s storefront');
+  await click('More from Test Creator Co');
+  await expect('This is your storefront.', 'storefront opens');
+  await expect('Space Math!', 'storefront lists the creator’s curricula');
+  await expectNot('＋ Follow', 'no follow button on your own storefront');
+  await page.goto(`${BASE}/studio`, { waitUntil: 'networkidle0' });
+  await sleep(800);
+  await expect('Badges', 'Studio shows the badges section');
+  await click('✓ Verified creator');
+  await expect('Freerange checked who made this', 'explains what verified means');
+  await expect('Badges need a Freerange account', 'applying needs an account in local-only mode');
+  await page.goto(`${BASE}/studio/badge?kind=esa`, { waitUntil: 'networkidle0' });
+  await sleep(800);
+  await expect('Applying here doesn’t sign you up with any state', 'says ESA enrollment happens outside Freerange');
+  await page.goto(`${BASE}/creator/someone-else`, { waitUntil: 'networkidle0' });
+  await sleep(800);
+  await expect('Creator storefronts need the live Marketplace', 'other storefronts need the live Marketplace');
+  await page.goto(`${BASE}/studio`, { waitUntil: 'networkidle0' });
+  await sleep(800);
+
   scenario('Convert a book (private)');
   await page.goto(`${BASE}/studio/new`, { waitUntil: 'networkidle0' });
   await sleep(800);
@@ -236,6 +258,7 @@ async function run() {
   scenario('Web import without an account');
   await page.goto(`${BASE}/studio/import?from=web`, { waitUntil: 'networkidle0' });
   await sleep(800);
+  await expect('a YouTube playlist, or an open textbook', 'says playlists and open textbooks can be read');
   await fill('https://…', 'example.org/course');
   await click('Load page');
   await sleep(500);
@@ -338,6 +361,7 @@ async function run() {
   await expect('Counting to 10');
   await expect('License: Public domain');
   await expect('by Joseph Ray', 'listed under its original author');
+  await expectNot('More from', 'free & open curricula have no storefront');
   await click('Get it free', { exact: true });
   await click('Get it free', { exact: true });
   await sleep(800);

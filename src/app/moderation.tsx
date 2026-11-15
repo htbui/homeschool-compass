@@ -2,10 +2,12 @@ import { router } from 'expo-router';
 import { useEffect, useState } from 'react';
 
 import { formatDate } from '@/lib/dates';
+import { stateList } from '@/lib/creators';
+import { badgeQueue, decideBadge, type BadgeQueueItem } from '@/services/creatorApi';
 import { isModerator, moderate, moderationQueue, type QueueItem, type ReportReason } from '@/services/marketApi';
 import { decideVerification, verificationQueue, type VerificationRequest } from '@/services/verification';
 import { useAccount } from '@/store/useAccount';
-import { Button, Card, Empty, Field, Pill, Row, Screen, Section, Stack, T, useColors } from '@/ui';
+import { Button, Card, Empty, Field, Pill, Row, Screen, Section, Segmented, Stack, T, useColors } from '@/ui';
 
 const KIND_LABEL: Record<QueueItem['kind'], string> = { listing: '📦 Listing', review: '💬 Review', message: '✉️ Message' };
 const HIDE_LABEL: Record<QueueItem['kind'], string> = { listing: 'Take it down', review: 'Hide review', message: 'Hide message' };
@@ -25,7 +27,9 @@ export default function Moderation() {
   const userId = useAccount((s) => s.userId);
   const [allowed, setAllowed] = useState<boolean | null>(null);
   const [items, setItems] = useState<QueueItem[] | null>(null);
-  const [requests, setRequests] = useState<VerificationRequest[]>([]);
+  const [apps, setApps] = useState<BadgeQueueItem[] | null>(null);
+  const [requests, setRequests] = useState<VerificationRequest[] | null>(null);
+  const [tab, setTab] = useState<'reports' | 'badges' | 'families'>('reports');
   const [error, setError] = useState('');
 
   const [tick, setTick] = useState(0);
@@ -35,13 +39,15 @@ export default function Moderation() {
     let alive = true;
     (async () => {
       const ok = await isModerator();
-      return { ok, queue: ok ? await moderationQueue() : [], requests: ok ? await verificationQueue() : [] };
+      const [queue, badges, families] = ok ? await Promise.all([moderationQueue(), badgeQueue(), verificationQueue()]) : [[], [], []];
+      return { ok, queue, badges, families };
     })()
       .then((r) => {
         if (!alive) return;
         setAllowed(r.ok);
         setItems(r.queue);
-        setRequests(r.requests);
+        setApps(r.badges);
+        setRequests(r.families);
         setError('');
       })
       .catch((e) => alive && setError(e instanceof Error ? e.message : String(e)));
@@ -60,31 +66,115 @@ export default function Moderation() {
   return (
     <Screen edges={[]}>
       <T v="display">Moderation</T>
-      <T muted>Reports from families and creators. Three reports from different people hide an item until you decide.</T>
+      <Segmented
+        value={tab}
+        onChange={setTab}
+        options={[
+          { value: 'reports', label: `🚩 Reports${items?.length ? ` (${items.length})` : ''}` },
+          { value: 'badges', label: `✓ Badge applications${apps?.length ? ` (${apps.length})` : ''}` },
+          { value: 'families', label: `🛡️ Family verification${requests?.length ? ` (${requests.length})` : ''}` },
+        ]}
+      />
       {error ? <T color={c.danger}>{error}</T> : null}
-      <Section title={items ? `Open reports (${items.length})` : 'Open reports'} action={<Button size="sm" kind="secondary" title="Refresh" onPress={load} />}>
-        {items === null ? (
-          <T muted>Loading…</T>
-        ) : items.length === 0 ? (
-          <Empty icon="✅" title="Nothing to review" body="New reports show up here." />
-        ) : (
-          <Stack>
-            {items.map((it) => (
-              <QueueCard key={`${it.kind}:${it.id}`} item={it} onDone={load} />
-            ))}
-          </Stack>
-        )}
-      </Section>
-      {requests.length ? (
-        <Section title={`Verification requests (${requests.length})`} subtitle="Check each family (for example a short video call with a parent) before marking it verified.">
-          <Stack>
-            {requests.map((r) => (
-              <VerificationCard key={r.familyId} request={r} onDone={load} />
-            ))}
-          </Stack>
+      {tab === 'badges' ? (
+        <Section title={apps ? `Waiting for review (${apps.length})` : 'Waiting for review'} subtitle="Creators asking for the verified badge or an ESA vendor listing. Approving adds the badge to every listing they sell." action={<Button size="sm" kind="secondary" title="Refresh" onPress={load} />}>
+          {apps === null ? (
+            <T muted>Loading…</T>
+          ) : apps.length === 0 ? (
+            <Empty icon="✅" title="No applications" body="New applications show up here." />
+          ) : (
+            <Stack>
+              {apps.map((a) => (
+                <BadgeCard key={a.id} app={a} onDone={load} />
+              ))}
+            </Stack>
+          )}
         </Section>
-      ) : null}
+      ) : tab === 'families' ? (
+        <Section title={requests ? `Verification requests (${requests.length})` : 'Verification requests'} subtitle="Families asking for the Verified badge shown in the family finder and messages. Check each family (for example a short video call with a parent) before marking it verified." action={<Button size="sm" kind="secondary" title="Refresh" onPress={load} />}>
+          {requests === null ? (
+            <T muted>Loading…</T>
+          ) : requests.length === 0 ? (
+            <Empty icon="✅" title="No requests" body="New verification requests show up here." />
+          ) : (
+            <Stack>
+              {requests.map((r) => (
+                <VerificationCard key={r.familyId} request={r} onDone={load} />
+              ))}
+            </Stack>
+          )}
+        </Section>
+      ) : (
+        <>
+          <T muted>Reports from families and creators. Three reports from different people hide an item until you decide.</T>
+          <Section title={items ? `Open reports (${items.length})` : 'Open reports'} action={<Button size="sm" kind="secondary" title="Refresh" onPress={load} />}>
+            {items === null ? (
+              <T muted>Loading…</T>
+            ) : items.length === 0 ? (
+              <Empty icon="✅" title="Nothing to review" body="New reports show up here." />
+            ) : (
+              <Stack>
+                {items.map((it) => (
+                  <QueueCard key={`${it.kind}:${it.id}`} item={it} onDone={load} />
+                ))}
+              </Stack>
+            )}
+          </Section>
+        </>
+      )}
     </Screen>
+  );
+}
+
+/** One creator's application: what they told us, and approve or decline. */
+function BadgeCard({ app: a, onDone }: { app: BadgeQueueItem; onDone: () => void }) {
+  const c = useColors();
+  const [note, setNote] = useState('');
+  const [busy, setBusy] = useState('');
+  const [error, setError] = useState('');
+  const act = async (decision: 'approve' | 'decline') => {
+    setBusy(decision);
+    setError('');
+    try {
+      await decideBadge(a.id, decision, note);
+      onDone();
+    } catch (e) {
+      setError(e instanceof Error ? e.message : String(e));
+    } finally {
+      setBusy('');
+    }
+  };
+  const fact = (label: string, value?: string) => (value ? <T v="caption"><T v="caption" style={{ fontWeight: '700' }}>{label}:</T> {value}</T> : null);
+  return (
+    <Card>
+      <Row wrap gap={6}>
+        <Pill text={a.badge === 'verified' ? '✓ Verified creator' : '🏛️ ESA vendor'} bg={c.primarySoft} fg={c.text} />
+        <Pill text={a.sellerType === 'publisher' ? '🏢 Publisher' : '🎨 Independent creator'} />
+        {a.verified ? <Pill text="Already verified" bg={c.successSoft} fg={c.success} /> : null}
+        {a.esaStates.length ? <Pill text={`ESA now: ${a.esaStates.join(', ')}`} /> : null}
+      </Row>
+      <T v="heading">{a.creatorName}</T>
+      <T v="caption" muted>{a.listingCount} active listing{a.listingCount === 1 ? '' : 's'} · applied {formatDate(a.createdAt.slice(0, 10), { month: 'short', day: 'numeric' })}{a.creatorWebsite ? ` · profile site ${a.creatorWebsite}` : ''}</T>
+      {a.creatorBio ? <T v="caption">“{a.creatorBio}”</T> : null}
+      <Stack gap={4}>
+        {fact(a.badge === 'esa' ? 'Business name (W-9)' : 'Who they are', a.legalName)}
+        {fact('Website or portfolio', a.website)}
+        {fact(a.badge === 'esa' ? 'Notes' : 'How they made their curricula', a.about)}
+        {fact('Sample', a.sampleUrl)}
+        {a.badge === 'esa' ? fact('Approved in', stateList(a.states)) : null}
+        {fact('Vendor IDs or links', a.vendorInfo)}
+      </Stack>
+      <Row>
+        <Button size="sm" kind="ghost" title="Open their storefront" onPress={() => router.push({ pathname: '/creator/[id]', params: { id: a.userId } })} />
+      </Row>
+      <T v="caption" muted>{a.badge === 'esa' ? 'Check each state program’s public vendor list before approving.' : 'Check that the website or portfolio is really theirs and matches the curricula they sell.'}</T>
+      <Field label="Note to the creator (kept with the decision)" value={note} onChangeText={setNote} placeholder={a.badge === 'esa' ? 'Found you on the AZ vendor list' : 'Portfolio matches; welcome!'} />
+      {error ? <T v="caption" color={c.danger}>{error}</T> : null}
+      <Row wrap style={{ justifyContent: 'flex-end' }}>
+        <Button size="sm" kind="ghost" title="Decline" loading={busy === 'decline'} onPress={() => act('decline')} />
+        <Button size="sm" title="Approve" loading={busy === 'approve'} onPress={() => act('approve')} />
+      </Row>
+    </Card>
   );
 }
 

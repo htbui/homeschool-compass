@@ -33,7 +33,36 @@ export interface PackageLesson {
   answers?: string[];
   /** For the parent only. */
   notes?: string;
+  /** Alternate steps/questions for kids who need it simpler or want a stretch. */
+  versions?: Partial<Record<LessonLevel, LessonVersion>>;
+  /** The same lesson dressed in an interest (dinosaurs, space…). */
+  themes?: ThemedVersion[];
+  /** Standard codes this lesson covers, e.g. "CCSS.MATH.CONTENT.3.NF". */
+  standards?: string[];
 }
+
+export type LessonLevel = 'easier' | 'harder';
+
+/** An alternate version of a lesson. Empty lists fall back to the main lesson's. */
+export interface LessonVersion {
+  steps: string[];
+  questions: string[];
+  /** Matches this version's `questions` by position. */
+  answers?: string[];
+}
+
+export interface ThemedVersion extends LessonVersion {
+  theme: string;
+}
+
+/** Which version a family picked for one child. Nothing picked = the main lesson. */
+export interface VersionPick {
+  level?: LessonLevel;
+  theme?: string;
+}
+
+export const LEVEL_LABEL: Record<LessonLevel, string> = { easier: '🌱 Easier', harder: '🚀 Harder' };
+export const THEME_IDEAS = ['Dinosaurs', 'Space', 'Animals', 'Ocean', 'Sports', 'Fairy tales', 'Cooking', 'Trains', 'Minecraft', 'Horses'];
 
 export interface PackageUnit {
   id: ID;
@@ -130,6 +159,8 @@ export interface FlatLesson extends PackageLesson {
   unit: string;
   /** 1-based position in the whole curriculum. */
   n: number;
+  /** The level/theme shown, when a child's version replaced some of it. */
+  applied?: VersionPick;
 }
 
 export function allLessons(units: PackageUnit[] = []): FlatLesson[] {
@@ -153,6 +184,55 @@ export function lessonAt(units: PackageUnit[] | undefined, n: number): FlatLesso
 /** Titles only — what anyone can see on the listing before buying. */
 export function outlinePreview(units: PackageUnit[]): { title: string; lessons: string[] }[] {
   return units.map((u) => ({ title: u.title, lessons: u.lessons.map((l) => l.title) }));
+}
+
+// ───────────────────────────── Versions (levels and themes)
+
+const themeKey = (t: string) => t.trim().toLowerCase();
+
+/** Every theme any lesson in the plan has, in first-seen order. */
+export function planThemes(units: PackageUnit[] = []): string[] {
+  const seen = new Map<string, string>();
+  for (const l of allLessons(units)) for (const t of l.themes ?? []) if (t.theme.trim() && !seen.has(themeKey(t.theme))) seen.set(themeKey(t.theme), t.theme.trim());
+  return [...seen.values()];
+}
+
+/** Levels at least one lesson has. */
+export function planLevels(units: PackageUnit[] = []): LessonLevel[] {
+  const lessons = allLessons(units);
+  return (['easier', 'harder'] as const).filter((lv) => lessons.some((l) => hasContent(l.versions?.[lv])));
+}
+
+const hasContent = (v?: LessonVersion) => !!v && (v.steps.length > 0 || v.questions.length > 0);
+
+/**
+ * The lesson as one child does it: a theme's steps/questions win, then the
+ * level's, then the main lesson's — field by field, so a theme that only
+ * re-words the steps keeps the level's questions. Answers travel with the
+ * questions they belong to.
+ */
+export function lessonVersion<L extends PackageLesson>(lesson: L, pick?: VersionPick): L & { applied?: VersionPick } {
+  if (!pick || (!pick.level && !pick.theme)) return lesson;
+  const theme = pick.theme ? lesson.themes?.find((t) => themeKey(t.theme) === themeKey(pick.theme!)) : undefined;
+  const level = pick.level ? lesson.versions?.[pick.level] : undefined;
+  const sources = [theme, level].filter((v): v is LessonVersion => hasContent(v));
+  if (!sources.length) return lesson;
+  const stepsFrom = sources.find((v) => v.steps.length);
+  const questionsFrom = sources.find((v) => v.questions.length);
+  return {
+    ...lesson,
+    steps: stepsFrom?.steps ?? lesson.steps,
+    questions: questionsFrom?.questions ?? lesson.questions,
+    answers: questionsFrom ? questionsFrom.answers : lesson.answers,
+    applied: { level: level && hasContent(level) ? pick.level : undefined, theme: theme && hasContent(theme) ? theme.theme : undefined },
+  };
+}
+
+/** "🎨 Dinosaurs · 🚀 Harder version" for the version a child sees. */
+export function versionLabel(pick?: VersionPick): string | undefined {
+  if (!pick) return undefined;
+  const parts = [pick.theme && `🎨 ${pick.theme}`, pick.level && LEVEL_LABEL[pick.level]].filter(Boolean);
+  return parts.length ? `${parts.join(' · ')} version` : undefined;
 }
 
 // ───────────────────────────── Licensing
@@ -251,7 +331,15 @@ export function packageToListing(pkg: CurriculumPackage, seller: string, existin
     format: pkg.format,
     price: publishRules(pkg).mustBeFree ? 0 : pkg.price,
     description: pkg.description.trim(),
-    includes: [`${lessons} lessons in ${pkg.units.length} unit${pkg.units.length === 1 ? '' : 's'}`, 'Lesson-by-lesson plan that schedules into Freerange', ...(allLessons(pkg.units).some((l) => l.questions.length) ? ['Printable worksheet questions'] : []), ...(allLessons(pkg.units).some((l) => l.answers?.some(Boolean)) ? ['Answer key for grown-ups'] : [])],
+    includes: [
+      `${lessons} lessons in ${pkg.units.length} unit${pkg.units.length === 1 ? '' : 's'}`,
+      'Lesson-by-lesson plan that schedules into Freerange',
+      ...(allLessons(pkg.units).some((l) => l.questions.length) ? ['Printable worksheet questions'] : []),
+      ...(allLessons(pkg.units).some((l) => l.answers?.some(Boolean)) ? ['Answer key for grown-ups'] : []),
+      ...(planLevels(pkg.units).length ? [`${planLevels(pkg.units).map((lv) => (lv === 'easier' ? 'Easier' : 'Harder')).join(' and ')} versions of lessons`] : []),
+      ...(planThemes(pkg.units).length ? [`Themed versions: ${planThemes(pkg.units).join(', ')}`] : []),
+      ...(allLessons(pkg.units).some((l) => l.standards?.length) ? ['Lessons tagged to standards'] : []),
+    ],
     lessons,
     lessonsPerWeek: pkg.lessonsPerWeek,
     minutesPerLesson: pkg.minutesPerLesson,

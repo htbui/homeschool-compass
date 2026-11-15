@@ -1,0 +1,893 @@
+{
+ "key": "wikijunior-ancient-civilizations",
+ "seller": "Wikijunior (Wikibooks contributors)",
+ "title": "Wikijunior Ancient Civilizations",
+ "sourceTitle": "Wikijunior Ancient Civilizations",
+ "author": "Wikibooks contributors",
+ "year": 2005,
+ "sourceUrl": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations",
+ "license": {
+  "kind": "cc_by_sa",
+  "version": "4.0"
+ },
+ "licenseEvidence": "Wikibooks:Copyrights (en.wikibooks.org/wiki/Wikibooks:Copyrights, checked 2026-11-14): 'Most of Wikibooks' text is dual licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (\"CC BY-SA 4.0\") and the GNU Free Documentation License (GFDL)' and 'Wikibooks content can be copied, modified, and redistributed if and only if the copied version is made available on the same terms to others and acknowledgment of the authors of the work used is included (a link back to the book or module is generally thought to satisfy the attribution requirement)'. Wikimedia Foundation Terms of Use (foundation.wikimedia.org/wiki/Policy:Terms_of_Use, checked 2026-11-14), §7: 'these licenses do allow commercial uses of your contributions'; 'Reuse of content that we host is welcome'; reusers attribute 'Through hyperlink (where possible) or URL to the page or pages that you are reusing'; modified text must be licensed 'under CC BY-SA 4.0 or later' with an indication 'that the original work has been modified'. The only automated-use limit is on uses that 'are abusive or disruptive of the services'; API use follows the User-Agent Policy and API:Etiquette (pages were read through the MediaWiki API with a descriptive User-Agent). No clause bars AI use, derivatives, commercial use, or linking. Wikimedia Trademark Policy §3.6 (nominative use) allows the word marks to describe 'A derivative work of Wikimedia content in a way that is not misleading' and to link to Wikimedia sites; 'Wikijunior' is not on the Wikimedia trademarks list, 'Wikibooks' is, so no logos are used and no endorsement is implied. This plan uses only page titles, links, and our own steps and questions; no images (Commons images carry their own licenses).",
+ "attribution": "Wikijunior Ancient Civilizations is adapted from “Wikijunior Ancient Civilizations” (https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations) by Wikibooks contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Each lesson links to the page it uses; the full list of authors is in each page's history. Changes: pages grouped into daily lessons, with new steps and questions, by Freerange. This adapted lesson plan is also released under CC BY-SA 4.0 (ShareAlike). Not endorsed by or affiliated with the Wikimedia Foundation or the Wikibooks community.",
+ "subjects": [
+  "history",
+  "geography"
+ ],
+ "gradeMin": 3,
+ "gradeMax": 6,
+ "philosophies": [
+  "charlotte_mason",
+  "classical",
+  "unit_study"
+ ],
+ "lessonsPerWeek": 3,
+ "minutesPerLesson": 30,
+ "parentInvolvement": "medium",
+ "familyStyle": true,
+ "cover": "🏛️",
+ "color": "#E07A5F",
+ "description": "A world tour of ancient peoples written for 8–12 year olds by Wikijunior volunteers, from the Sumerians and Egyptians to the Vikings, the Maya, and the Inca. Every page answers the same questions: where they lived, what they built, ate, wore, believed and wrote, and what is left of them today. Each day you read one page together, find the place on a map, and add a page to a notebook and a timeline. It's a free, openly licensed book; every page is free to read on Wikibooks.",
+ "includes": [
+  "37 lessons in 6 units",
+  "Link to the free Wikibooks page for every lesson",
+  "A notebook page and timeline entry for each civilization",
+  "Map work for every people you meet",
+  "Questions with answers for every lesson"
+ ],
+ "units": [
+  {
+   "title": "Unit 1: Before History",
+   "lessons": [
+    {
+     "title": "Lesson 1: Once Upon a Time",
+     "steps": [
+      "Read the introduction together",
+      "Start a long paper timeline across a wall or hallway",
+      "Narrate the order of the Stone, Bronze and Iron Ages"
+     ],
+     "links": [
+      {
+       "label": "Read: Introduction",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Introduction"
+      }
+     ],
+     "questions": [
+      "Which came first: the Bronze Age or the Stone Age?"
+     ],
+     "answers": [
+      "The Stone Age"
+     ]
+    },
+    {
+     "title": "Lesson 2: What Is a Civilization?",
+     "steps": [
+      "Read the page together",
+      "Talk about what a group of people needs to count as a civilization",
+      "List three things our own civilization passes on to the next generation"
+     ],
+     "links": [
+      {
+       "label": "Read: What is a Civilization?",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/What_is_a_Civilization%3F"
+      }
+     ],
+     "questions": [
+      "What Latin word meaning 'citizen' is the word civilization related to?"
+     ],
+     "answers": [
+      "Civis"
+     ]
+    },
+    {
+     "title": "Lesson 3: Archaeology",
+     "steps": [
+      "Read the page together",
+      "Bury a few objects in layers in a tub of sand and dig them up like an archaeologist",
+      "Narrate how layers in the ground help date a find"
+     ],
+     "links": [
+      {
+       "label": "Read: Archaeology",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Archaeology"
+      }
+     ],
+     "questions": [
+      "What do we call objects that archaeologists dig up?",
+      "What modern method uses carbon-14 to tell how old something is?"
+     ],
+     "answers": [
+      "Artifacts (artefacts)",
+      "Carbon dating"
+     ]
+    },
+    {
+     "title": "Lesson 4: Prehistory",
+     "steps": [
+      "Read the page together",
+      "Draw a cave painting with chalk or charcoal",
+      "Narrate how people remembered things before writing"
+     ],
+     "links": [
+      {
+       "label": "Read: Pre-History",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Pre-History"
+      }
+     ],
+     "questions": [
+      "What does 'prehistory' mean?",
+      "About how long ago was writing invented?"
+     ],
+     "answers": [
+      "Before recorded history",
+      "About 6,000 years ago"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 2: Mesopotamia and the Near East",
+   "lessons": [
+    {
+     "title": "Lesson 5: The Sumerians",
+     "steps": [
+      "Find the Tigris and Euphrates rivers on a world map and add it to your timeline",
+      "Read the page together",
+      "Press wedge marks into clay with a craft stick to try cuneiform"
+     ],
+     "links": [
+      {
+       "label": "Read: Sumerians",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Sumerians"
+      }
+     ],
+     "questions": [
+      "What were the Sumerians the first to invent?",
+      "Who is the most famous Sumerian?",
+      "Name one Sumerian invention still used today."
+     ],
+     "answers": [
+      "Writing",
+      "Gilgamesh, king of Uruk",
+      "The wheel (also the potter's wheel)"
+     ]
+    },
+    {
+     "title": "Lesson 6: The Akkadians",
+     "steps": [
+      "Read the page together",
+      "Find Akkad in Mesopotamia on a world map and add it to your timeline",
+      "Add a notebook page: where they lived, how they wrote, what they left behind"
+     ],
+     "links": [
+      {
+       "label": "Read: Akkadians",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Akkadians"
+      }
+     ],
+     "questions": [
+      "Which king united Akkad and Sumer into one empire?",
+      "What kind of writing did the Akkadians use?"
+     ],
+     "answers": [
+      "Sargon the Great",
+      "Cuneiform"
+     ]
+    },
+    {
+     "title": "Lesson 7: The Babylonians",
+     "steps": [
+      "Read the page together",
+      "Find Babylon, near modern Baghdad on a world map and add it to your timeline",
+      "Write three fair rules for your home, like a mini law code"
+     ],
+     "links": [
+      {
+       "label": "Read: Babylonians",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Babylonians"
+      }
+     ],
+     "questions": [
+      "Which Babylonian king made one of the first written sets of laws?",
+      "Who was the chief god of Babylon?"
+     ],
+     "answers": [
+      "Hammurabi",
+      "Marduk"
+     ]
+    },
+    {
+     "title": "Lesson 8: The Assyrians",
+     "steps": [
+      "Read the page together",
+      "Find northern Mesopotamia on the Tigris on a world map and add it to your timeline",
+      "Add a notebook page: where they lived, how they wrote, what they left behind"
+     ],
+     "links": [
+      {
+       "label": "Read: Assyrians",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Assyrians"
+      }
+     ],
+     "questions": [
+      "Which Assyrian king collected a great library of clay tablets?",
+      "What were the winged bull statues on Assyrian palaces called?"
+     ],
+     "answers": [
+      "Ashurbanipal",
+      "Cherubs"
+     ]
+    },
+    {
+     "title": "Lesson 9: The Hittites",
+     "steps": [
+      "Read the page together",
+      "Find Turkey (Anatolia) on a world map and add it to your timeline",
+      "Add a notebook page: where they lived, how they wrote, what they left behind"
+     ],
+     "links": [
+      {
+       "label": "Read: Hittites",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Hittites"
+      }
+     ],
+     "questions": [
+      "Whose writing system did the Hittites borrow?",
+      "Who destroyed the Hittite empire around 1200 BC?"
+     ],
+     "answers": [
+      "The Akkadians' cuneiform",
+      "The Sea Peoples"
+     ]
+    },
+    {
+     "title": "Lesson 10: The Hebrews",
+     "steps": [
+      "Read the page together",
+      "Find Canaan on the eastern Mediterranean coast on a world map and add it to your timeline",
+      "Add a notebook page: where they lived, how they wrote, what they left behind"
+     ],
+     "links": [
+      {
+       "label": "Read: Hebrews",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Hebrews"
+      }
+     ],
+     "questions": [
+      "What is monotheism?",
+      "What are the first five books of Hebrew writing called?"
+     ],
+     "answers": [
+      "Belief in only one God",
+      "The Torah"
+     ]
+    },
+    {
+     "title": "Lesson 11: The Phoenicians",
+     "steps": [
+      "Read the page together",
+      "Find Tyre and Byblos in modern Lebanon on a world map and add it to your timeline",
+      "Compare a few Phoenician letters with our alphabet"
+     ],
+     "links": [
+      {
+       "label": "Read: Phoenicians",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Phoenicians"
+      }
+     ],
+     "questions": [
+      "What were the Phoenicians best known as?",
+      "What was their most important gift to the world?"
+     ],
+     "answers": [
+      "Merchants and sailors",
+      "The alphabet"
+     ]
+    },
+    {
+     "title": "Lesson 12: The Persians",
+     "steps": [
+      "Read the page together",
+      "Find Persia (modern Iran) on a world map and add it to your timeline",
+      "Add a notebook page: where they lived, how they wrote, what they left behind"
+     ],
+     "links": [
+      {
+       "label": "Read: Persians",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Persians"
+      }
+     ],
+     "questions": [
+      "Who founded the Persian Empire?",
+      "What was the name of the Persian capital whose ruins still stand?"
+     ],
+     "answers": [
+      "Cyrus the Great",
+      "Persepolis"
+     ]
+    },
+    {
+     "title": "Lesson 13: The Arabians",
+     "steps": [
+      "Read the page together",
+      "Find the Arabian peninsula on a world map and add it to your timeline",
+      "Draw a desert tent and a mud-brick house"
+     ],
+     "links": [
+      {
+       "label": "Read: Arabian",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Arabian"
+      }
+     ],
+     "questions": [
+      "Which way did Arabian writing run?",
+      "Which famous queen may have come from the south Arabian kingdom of Saba?"
+     ],
+     "answers": [
+      "From right to left",
+      "The Queen of Sheba"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 3: Around the Mediterranean",
+   "lessons": [
+    {
+     "title": "Lesson 14: The Egyptians",
+     "steps": [
+      "Read the page together",
+      "Find the River Nile on a world map and add it to your timeline",
+      "Write your name in hieroglyphs using a picture chart"
+     ],
+     "links": [
+      {
+       "label": "Read: Egyptians",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Egyptians"
+      }
+     ],
+     "questions": [
+      "Which river did the ancient Egyptians live along?",
+      "Why were the pyramids built?",
+      "What fabric did most Egyptians wear?"
+     ],
+     "answers": [
+      "The Nile",
+      "To hold the bodies of the pharaohs after death",
+      "Linen"
+     ]
+    },
+    {
+     "title": "Lesson 15: The Minoans",
+     "steps": [
+      "Read the page together",
+      "Find the island of Crete on a world map and add it to your timeline",
+      "Draw a Minoan palace wall painting"
+     ],
+     "links": [
+      {
+       "label": "Read: Minoans",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Minoans"
+      }
+     ],
+     "questions": [
+      "On which island did the Minoans live?",
+      "What disaster struck around 1550 BC?",
+      "What is the Minoan writing called that no one can read?"
+     ],
+     "answers": [
+      "Crete",
+      "A volcano erupted on Thera",
+      "Linear A"
+     ]
+    },
+    {
+     "title": "Lesson 16: The Mycenaeans",
+     "steps": [
+      "Read the page together",
+      "Find Mycenae in mainland Greece on a world map and add it to your timeline",
+      "Add a notebook page: where they lived, how they wrote, what they left behind"
+     ],
+     "links": [
+      {
+       "label": "Read: Mycenaeans",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Mycenaeans"
+      }
+     ],
+     "questions": [
+      "Why are the Mycenaeans sometimes called the first Greeks?",
+      "What did the Minoan 'Earthshaker' god become in Mycenaean religion?"
+     ],
+     "answers": [
+      "They were the first advanced civilization in mainland Greece",
+      "Poseidon"
+     ]
+    },
+    {
+     "title": "Lesson 17: The Greeks",
+     "steps": [
+      "Read the page together",
+      "Find Greece and western Turkey on a world map and add it to your timeline",
+      "Draw a Greek temple with its row of columns"
+     ],
+     "links": [
+      {
+       "label": "Read: Greeks",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Greeks"
+      }
+     ],
+     "questions": [
+      "Who was the blind poet who composed the Iliad and the Odyssey?",
+      "Whose alphabet influenced the Greek alphabet?"
+     ],
+     "answers": [
+      "Homer",
+      "The Phoenicians'"
+     ]
+    },
+    {
+     "title": "Lesson 18: The Romans, Part 1",
+     "steps": [
+      "Read from the beginning through 'What is left of them today?'",
+      "Find Rome and the lands of its empire on a world map and add it to your timeline",
+      "Add a notebook page: where they lived, how they wrote, what they left behind"
+     ],
+     "links": [
+      {
+       "label": "Read: Romans",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Romans"
+      }
+     ],
+     "questions": [
+      "What alphabet did the Romans develop?",
+      "What does polytheistic mean?"
+     ],
+     "answers": [
+      "The Latin alphabet",
+      "Worshipping many gods"
+     ]
+    },
+    {
+     "title": "Lesson 19: The Romans, Part 2",
+     "steps": [
+      "Read the sections on everyday life: beauty, marriage, slaves, children, and shows",
+      "Talk about how a Roman child's life differed from yours",
+      "Narrate what you would and would not have liked about Roman life"
+     ],
+     "links": [
+      {
+       "label": "Read: Romans",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Romans"
+      }
+     ],
+     "questions": [
+      "How did the Romans get most of their slaves?",
+      "About how many days a year were taken up by Roman shows in the 300s?"
+     ],
+     "answers": [
+      "From prisoners of war and conquered cities",
+      "176 days"
+     ],
+     "notes": "These sections discuss marriage and slavery frankly; read them yourself first and choose what to share."
+    },
+    {
+     "title": "Lesson 20: The Carthaginians",
+     "steps": [
+      "Read the page together",
+      "Find Carthage in modern Tunisia on a world map and add it to your timeline",
+      "Draw Hannibal's elephants crossing the mountains"
+     ],
+     "links": [
+      {
+       "label": "Read: Carthaginians",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Carthage"
+      }
+     ],
+     "questions": [
+      "Who is the most famous Carthaginian?",
+      "Which empire destroyed Carthage?"
+     ],
+     "answers": [
+      "Hannibal",
+      "The Roman Empire"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 4: Ancient Asia",
+   "lessons": [
+    {
+     "title": "Lesson 21: The Indus Valley",
+     "steps": [
+      "Read the page together",
+      "Find the Indus River in India and Pakistan on a world map and add it to your timeline",
+      "Make a stamp seal from clay"
+     ],
+     "links": [
+      {
+       "label": "Read: Indus Valley",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Indus_Valley"
+      }
+     ],
+     "questions": [
+      "What is another name for the Indus Valley civilization?",
+      "Do we know for sure what happened to it?"
+     ],
+     "answers": [
+      "The Harappan civilization",
+      "No"
+     ]
+    },
+    {
+     "title": "Lesson 22: The Vedic People",
+     "steps": [
+      "Read the page together",
+      "Find the Ganges plain on a world map and add it to your timeline",
+      "Add a notebook page: where they lived, how they wrote, what they left behind"
+     ],
+     "links": [
+      {
+       "label": "Read: Vedic",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Vedic"
+      }
+     ],
+     "questions": [
+      "What language did the Vedic people use?",
+      "Which modern religion grew out of the Vedic religion?"
+     ],
+     "answers": [
+      "Sanskrit",
+      "Hinduism"
+     ]
+    },
+    {
+     "title": "Lesson 23: The Chinese",
+     "steps": [
+      "Read the page together",
+      "Find the Yellow River in China on a world map and add it to your timeline",
+      "Practice writing one Chinese character with a brush"
+     ],
+     "links": [
+      {
+       "label": "Read: Chinese",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Chinese"
+      }
+     ],
+     "questions": [
+      "Name two inventions that came from ancient China.",
+      "Who is China's most famous wise teacher?",
+      "Which color could only the emperor wear?"
+     ],
+     "answers": [
+      "Any two: compass, paper, gunpowder, silk, porcelain, paper money",
+      "Confucius",
+      "Yellow (gold)"
+     ]
+    },
+    {
+     "title": "Lesson 24: The Koreans",
+     "steps": [
+      "Read the page together",
+      "Find the Korean Peninsula on a world map and add it to your timeline",
+      "Add a notebook page: where they lived, how they wrote, what they left behind"
+     ],
+     "links": [
+      {
+       "label": "Read: Korean",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Korean"
+      }
+     ],
+     "questions": [
+      "What were the Three Kingdoms of Korea?",
+      "Which river separates Korea from China?"
+     ],
+     "answers": [
+      "Goguryeo, Silla and Baekje",
+      "The Yalu River"
+     ]
+    },
+    {
+     "title": "Lesson 25: The Japanese",
+     "steps": [
+      "Read the page together",
+      "Find the islands of Japan on a world map and add it to your timeline",
+      "Write a haiku: five, seven, five syllables"
+     ],
+     "links": [
+      {
+       "label": "Read: Japanese",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Japanese"
+      }
+     ],
+     "questions": [
+      "What does 'Nihon' mean?",
+      "What is the native religion of Japan?"
+     ],
+     "answers": [
+      "Source of the sun",
+      "Shinto"
+     ]
+    },
+    {
+     "title": "Lesson 26: The Khmer",
+     "steps": [
+      "Read the page together",
+      "Find Cambodia and the Mekong River on a world map and add it to your timeline",
+      "Draw a house raised on poles and talk about why"
+     ],
+     "links": [
+      {
+       "label": "Read: Khmer",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Khmer"
+      }
+     ],
+     "questions": [
+      "Which country are the Khmer people from?",
+      "Why were Khmer houses built on poles?"
+     ],
+     "answers": [
+      "Cambodia",
+      "To stay above floods"
+     ]
+    },
+    {
+     "title": "Lesson 27: The Mongols",
+     "steps": [
+      "Read the page together",
+      "Find Mongolia on a world map and add it to your timeline",
+      "Build a model yurt from paper and string"
+     ],
+     "links": [
+      {
+       "label": "Read: Mongols",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Mongolians"
+      }
+     ],
+     "questions": [
+      "What were Mongol homes called?",
+      "Who united the Mongol tribes in 1206?"
+     ],
+     "answers": [
+      "Yurts",
+      "Genghis Khan"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 5: Northern Europe",
+   "lessons": [
+    {
+     "title": "Lesson 28: The Celts",
+     "steps": [
+      "Read the page together",
+      "Find Britain, Ireland and Brittany on a world map and add it to your timeline",
+      "Draw a Celtic roundhouse with its cone-shaped roof"
+     ],
+     "links": [
+      {
+       "label": "Read: Celts",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Celts"
+      }
+     ],
+     "questions": [
+      "How did the Celts keep their history without writing much down?",
+      "What kind of houses did most Celts in Britain live in?"
+     ],
+     "answers": [
+      "By telling it aloud (oral tradition)",
+      "Roundhouses"
+     ]
+    },
+    {
+     "title": "Lesson 29: The Germanic Peoples",
+     "steps": [
+      "Read the page together",
+      "Find southern Scandinavia and the Rhine and Danube rivers on a world map and add it to your timeline",
+      "Add a notebook page: where they lived, how they wrote, what they left behind"
+     ],
+     "links": [
+      {
+       "label": "Read: Germanic peoples",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Germanic_peoples"
+      }
+     ],
+     "questions": [
+      "What was the earliest Germanic alphabet called?",
+      "Who was their most important god?"
+     ],
+     "answers": [
+      "Runes (the futhark)",
+      "Woden"
+     ]
+    },
+    {
+     "title": "Lesson 30: The Norse (Vikings)",
+     "steps": [
+      "Read the page together",
+      "Find Scandinavia, Iceland and Greenland on a world map and add it to your timeline",
+      "Write your name in runes"
+     ],
+     "links": [
+      {
+       "label": "Read: The Norse (Vikings)",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Norse"
+      }
+     ],
+     "questions": [
+      "Which Viking sailed to North America around the year 1000?",
+      "What great tree held the nine worlds together?"
+     ],
+     "answers": [
+      "Leif Eriksson",
+      "Yggdrasil"
+     ]
+    },
+    {
+     "title": "Lesson 31: The Magyars",
+     "steps": [
+      "Read the page together",
+      "Find Hungary on a world map and add it to your timeline",
+      "Add a notebook page: where they lived, how they wrote, what they left behind"
+     ],
+     "links": [
+      {
+       "label": "Read: Magyars",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Magyar"
+      }
+     ],
+     "questions": [
+      "Which modern country's people descend from the Magyars?",
+      "How many tribes did the ancient Magyars have?"
+     ],
+     "answers": [
+      "Hungary",
+      "Seven"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 6: The Ancient Americas",
+   "lessons": [
+    {
+     "title": "Lesson 32: The Ancient Pueblo Peoples",
+     "steps": [
+      "Read the page together",
+      "Find the Four Corners of the southwestern United States on a world map and add it to your timeline",
+      "Draw a many-roomed pueblo building"
+     ],
+     "links": [
+      {
+       "label": "Read: Ancient Pueblo Peoples",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Ancient_Pueblo_Peoples"
+      }
+     ],
+     "questions": [
+      "Which three crops did the Ancient Pueblo people mainly eat?",
+      "Who led a revolt against the Spanish in 1680?"
+     ],
+     "answers": [
+      "Corn, beans and squash",
+      "Popé"
+     ]
+    },
+    {
+     "title": "Lesson 33: The Mound Builders",
+     "steps": [
+      "Read the page together",
+      "Find the Ohio and Mississippi valleys on a world map and add it to your timeline",
+      "Build a small earth mound in the garden or a sandbox"
+     ],
+     "links": [
+      {
+       "label": "Read: Mound Builders",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Mound_Builders"
+      }
+     ],
+     "questions": [
+      "Why don't we know the name of a single Mound Builder?",
+      "What foods did they spread across eastern North America?"
+     ],
+     "answers": [
+      "They did not use writing",
+      "Corn, beans and squash"
+     ]
+    },
+    {
+     "title": "Lesson 34: The Iroquois",
+     "steps": [
+      "Read the page together",
+      "Find New York State on a world map and add it to your timeline",
+      "Measure out 50 feet to see how long a longhouse could be"
+     ],
+     "links": [
+      {
+       "label": "Read: Iroquois",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Iroquois"
+      }
+     ],
+     "questions": [
+      "What did the Iroquois call themselves?",
+      "What kind of houses did they live in?"
+     ],
+     "answers": [
+      "The Haudenosaunee",
+      "Longhouses"
+     ]
+    },
+    {
+     "title": "Lesson 35: The Maya",
+     "steps": [
+      "Read the page together",
+      "Find southern Mexico and Guatemala on a world map and add it to your timeline",
+      "Look at a picture of the pyramid at Chichen Itza"
+     ],
+     "links": [
+      {
+       "label": "Read: Maya",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Mayans"
+      }
+     ],
+     "questions": [
+      "How did the Maya write?",
+      "Name one Maya city that still stands."
+     ],
+     "answers": [
+      "With glyphs (picture symbols)",
+      "Any one: Chichen Itza, Tikal, Copán, Uxmal, Coba"
+     ]
+    },
+    {
+     "title": "Lesson 36: The Aztecs",
+     "steps": [
+      "Read the page together",
+      "Find Lake Texcoco and Mexico City on a world map and add it to your timeline",
+      "Draw Tenochtitlan on its island in the lake"
+     ],
+     "links": [
+      {
+       "label": "Read: Aztecs",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Aztecs"
+      }
+     ],
+     "questions": [
+      "What was the Aztec capital city?",
+      "Where does the name 'Mexico' come from?",
+      "Who was the emperor when the Spanish arrived?"
+     ],
+     "answers": [
+      "Tenochtitlan",
+      "The Aztec word Mexica",
+      "Moctezuma"
+     ]
+    },
+    {
+     "title": "Lesson 37: The Inca",
+     "steps": [
+      "Read the page together",
+      "Find the Andes and Machu Picchu on a world map and add it to your timeline",
+      "Tie a quipu: knots on strings to record numbers"
+     ],
+     "links": [
+      {
+       "label": "Read: Inca",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Incas"
+      }
+     ],
+     "questions": [
+      "In which mountains did the Inca live?",
+      "How did the Inca keep records without writing?"
+     ],
+     "answers": [
+      "The Andes",
+      "With knotted strings called quipu"
+     ]
+    }
+   ]
+  }
+ ]
+}

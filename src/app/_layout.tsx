@@ -8,6 +8,7 @@ import { useColorScheme } from 'react-native';
 
 import { markLoaded } from '@/components/AppErrorBoundary';
 import { PrintSetupSheet } from '@/components/PrintSetupSheet';
+import { startInsights } from '@/services/insights';
 import { startSync } from '@/services/sync';
 import { useStore } from '@/store/useStore';
 import { useStudio } from '@/store/useStudio';
@@ -30,6 +31,7 @@ export default function RootLayout() {
       markLoaded();
       // Start cloud sync only after local data has loaded, so it merges against the real state.
       startSync();
+      startInsights();
     }
   }, [hydrated]);
 
@@ -53,6 +55,7 @@ export default function RootLayout() {
         <Stack.Screen name="notifications" options={{ headerShown: true, title: 'Notifications' }} />
         <Stack.Screen name="messages" />
         <Stack.Screen name="listing/[id]" options={{ headerShown: true, title: 'Curriculum', headerBackTitle: 'Marketplace' }} />
+        <Stack.Screen name="creator/[id]" options={{ headerShown: true, title: 'Creator' }} />
         <Stack.Screen name="studio" />
       </Stack>
       <PrintSetupSheet />

@@ -7,6 +7,8 @@ import { CheckoutSheet } from '@/components/market/CheckoutSheet';
 import { Cover, money, Stars } from '@/components/market/ListingCard';
 import { ReportSheet } from '@/components/market/ReportSheet';
 import { ReviewSheet } from '@/components/market/ReviewSheet';
+import { EsaBadge, VerifiedBadge } from '@/components/market/SellerBadges';
+import { stateList, storefrontId } from '@/lib/creators';
 import { formatDate } from '@/lib/dates';
 import {
   CONDITION_LABEL,
@@ -15,6 +17,7 @@ import {
   INVOLVEMENT_LABEL,
   matchListing,
   PHILOSOPHY_SHORT,
+  progressLabel,
   ratingSummary,
   SELLER_NOTE,
   sortReviews,
@@ -29,7 +32,7 @@ import { LICENSE_INFO, licenseName } from '@/lib/license';
 import { deleteReview, loadReviews, voteHelpful, type ReportTarget } from '@/services/marketApi';
 import { Button, Card, Chip, Empty, Pill, Progress, Row, Screen, Section, space, Stack, T, useColors, useConfirm } from '@/ui';
 
-const REVIEW_SORT: Record<ReviewSort, string> = { helpful: 'Most helpful', newest: 'Newest', high: 'Highest', low: 'Lowest' };
+const REVIEW_SORT: Record<ReviewSort, string> = { helpful: 'Most helpful', newest: 'Newest', progress: 'Most progress', high: 'Highest', low: 'Lowest' };
 
 export default function ListingDetail() {
   const c = useColors();
@@ -69,6 +72,7 @@ export default function ListingDetail() {
   const shown = sortReviews(starFilter ? reviews.filter((r) => r.rating === starFilter) : reviews, reviewSort);
   const mine = reviews.find((r) => r.mine);
   const match = matchListing(l, { family, kids });
+  const store = storefrontId(l);
   const wide = width >= 900;
 
   const buyBox = (
@@ -100,8 +104,8 @@ export default function ListingDetail() {
         <Button size="lg" title={l.price === 0 ? 'Get it free' : 'Buy'} onPress={() => setBuying(true)} />
       )}
       <T v="caption" muted>
-        {l.esaEligible ? '🏛️ Approved ESA vendor. ' : ''}
-        {l.sellerKind === 'open' ? `A free curriculum by ${l.seller}, organized into a lesson plan by Freerange (not affiliated with or endorsed by its author or publisher).` : l.sellerKind === 'family' ? 'Sold by a family: arrange pickup in a public place or shipping.' : `Sold by ${l.seller}${l.sellerVerified ? ' (verified publisher)' : l.sellerKind === 'creator' ? ', an independent creator' : ''}.`}
+        {l.esaEligible ? `🏛️ Approved ESA vendor${l.esaStates?.length ? ` in ${stateList(l.esaStates)}` : ''}; reimbursement goes through your state program. ` : ''}
+        {l.sellerKind === 'open' ? `A free curriculum by ${l.seller}, organized into a lesson plan by Freerange (not affiliated with or endorsed by its author or publisher).` : l.sellerKind === 'family' ? 'Sold by a family: arrange pickup in a public place or shipping.' : `Sold by ${l.seller}${l.sellerKind === 'creator' ? ', an independent creator' : ''}${l.sellerVerified ? ' (Freerange checked who they are)' : ''}.`}
         {l.packageId ? ' Comes with a lesson-by-lesson plan: each day shows that lesson’s steps, pages, and links.' : ''}
       </T>
       {!l.mine && !l.sample ? (
@@ -123,9 +127,13 @@ export default function ListingDetail() {
               <T v="title">{l.title}</T>
               <T muted>
                 {l.sellerKind === 'open' ? `by ${l.seller}` : l.seller}
-                {l.sellerVerified ? ' ✓ verified' : ''}
                 {SELLER_NOTE[l.sellerKind]}
               </T>
+              {store ? (
+                <Row>
+                  <Button size="sm" kind="ghost" title={`🏪 More from ${l.seller} ›`} onPress={() => router.push({ pathname: '/creator/[id]', params: { id: store } })} />
+                </Row>
+              ) : null}
               <Row gap={6}>
                 {summary.count ? (
                   <>
@@ -137,6 +145,8 @@ export default function ListingDetail() {
                 )}
               </Row>
               <Row wrap gap={6}>
+                {l.sellerVerified ? <VerifiedBadge /> : null}
+                {l.esaEligible ? <EsaBadge states={l.esaStates} homeState={family?.stateCode} /> : null}
                 <Pill text={gradeRangeLabel(l.gradeMin, l.gradeMax)} />
                 {l.subjects.map((s) => (
                   <Pill key={s} text={`${SUBJECTS[s].icon} ${SUBJECTS[s].label}`} />
@@ -252,6 +262,11 @@ export default function ListingDetail() {
                     {r.childGrade ? ` · used with ${r.childGrade}` : ''} · {formatDate(r.createdAt.slice(0, 10), { month: 'short', day: 'numeric', year: 'numeric' })}
                     {r.verified ? ' · ✓ Verified purchase' : ''}
                   </T>
+                  {r.progress ? (
+                    <T v="caption" color={r.progress.done >= r.progress.total ? c.primary : undefined} style={{ fontWeight: '600' }}>
+                      {r.progress.done >= r.progress.total ? '🏁' : '📖'} {progressLabel(r.progress)}
+                    </T>
+                  ) : null}
                   <T>{r.body}</T>
                   {r.mine && r.hidden ? <T v="caption" color={c.accent}>🚩 Hidden by moderators. Other families don’t see this review.</T> : null}
                   {!r.mine ? (

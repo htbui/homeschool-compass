@@ -1,0 +1,882 @@
+{
+ "key": "wikijunior-bugs",
+ "seller": "Wikijunior (Wikibooks contributors)",
+ "title": "Wikijunior Bugs",
+ "sourceTitle": "Wikijunior Bugs",
+ "author": "Wikibooks contributors",
+ "year": 2007,
+ "sourceUrl": "https://en.wikibooks.org/wiki/Wikijunior:Bugs",
+ "license": {
+  "kind": "cc_by_sa",
+  "version": "4.0"
+ },
+ "licenseEvidence": "Wikibooks:Copyrights (en.wikibooks.org/wiki/Wikibooks:Copyrights, checked 2026-11-14): 'Most of Wikibooks' text is dual licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (\"CC BY-SA 4.0\") and the GNU Free Documentation License (GFDL)' and 'Wikibooks content can be copied, modified, and redistributed if and only if the copied version is made available on the same terms to others and acknowledgment of the authors of the work used is included (a link back to the book or module is generally thought to satisfy the attribution requirement)'. Wikimedia Foundation Terms of Use (foundation.wikimedia.org/wiki/Policy:Terms_of_Use, checked 2026-11-14), §7: 'these licenses do allow commercial uses of your contributions'; 'Reuse of content that we host is welcome'; reusers attribute 'Through hyperlink (where possible) or URL to the page or pages that you are reusing'; modified text must be licensed 'under CC BY-SA 4.0 or later' with an indication 'that the original work has been modified'. The only automated-use limit is on uses that 'are abusive or disruptive of the services'; API use follows the User-Agent Policy and API:Etiquette (pages were read through the MediaWiki API with a descriptive User-Agent). No clause bars AI use, derivatives, commercial use, or linking. Wikimedia Trademark Policy §3.6 (nominative use) allows the word marks to describe 'A derivative work of Wikimedia content in a way that is not misleading' and to link to Wikimedia sites; 'Wikijunior' is not on the Wikimedia trademarks list, 'Wikibooks' is, so no logos are used and no endorsement is implied. This plan uses only page titles, links, and our own steps and questions; no images (Commons images carry their own licenses).",
+ "attribution": "Wikijunior Bugs is adapted from “Wikijunior Bugs” (https://en.wikibooks.org/wiki/Wikijunior:Bugs) by Wikibooks contributors, licensed under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Each lesson links to the page it uses; the full list of authors is in each page's history. Changes: pages grouped into daily lessons, with new steps and questions, by Freerange. This adapted lesson plan is also released under CC BY-SA 4.0 (ShareAlike). Not endorsed by or affiliated with the Wikimedia Foundation or the Wikibooks community.",
+ "subjects": [
+  "science"
+ ],
+ "gradeMin": 2,
+ "gradeMax": 5,
+ "philosophies": [
+  "charlotte_mason",
+  "nature_forest",
+  "unit_study"
+ ],
+ "lessonsPerWeek": 3,
+ "minutesPerLesson": 25,
+ "parentInvolvement": "medium",
+ "familyStyle": true,
+ "cover": "🐞",
+ "color": "#3D9970",
+ "description": "A field guide to insects, spiders, and other creepy-crawlies written for 8–12 year olds by Wikijunior volunteers. Each page tells what a bug looks like, where it lives, what it eats, and how it defends itself. Each day you read one or two pages together, sketch the bug in a journal, and head outside to look for it. It's a free, openly licensed book; every page is free to read on Wikibooks.",
+ "includes": [
+  "32 lessons in 5 units",
+  "Link to the free Wikibooks page for every lesson",
+  "A bug journal page for every creature",
+  "Short outdoor bug hunts and simple at-home observations",
+  "Questions with answers for every lesson"
+ ],
+ "units": [
+  {
+   "title": "Unit 1: Meet the Insects",
+   "lessons": [
+    {
+     "title": "Lesson 1: Crazy Bug Facts and Insects",
+     "steps": [
+      "Read both pages together",
+      "Start a bug journal and draw an insect's three body parts",
+      "Narrate how scientists sort living things into groups"
+     ],
+     "links": [
+      {
+       "label": "Read: Crazy Bug Facts",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Crazy_Bug_Facts"
+      },
+      {
+       "label": "Read: Insects",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Insects_Intro"
+      }
+     ],
+     "questions": [
+      "What are the smallest insects in the world?",
+      "How many legs does an insect have?"
+     ],
+     "answers": [
+      "Fairyflies",
+      "Six"
+     ]
+    },
+    {
+     "title": "Lesson 2: Ants",
+     "steps": [
+      "Read the page together",
+      "Sketch it in your bug journal and label head, thorax and abdomen",
+      "Put a crumb near an ant trail and watch what happens"
+     ],
+     "links": [
+      {
+       "label": "Read: Ant",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Ant"
+      }
+     ],
+     "questions": [
+      "Who lays the eggs in an ant colony?",
+      "How long can some queen ants live?"
+     ],
+     "answers": [
+      "The queen ant",
+      "Up to 15 years"
+     ]
+    },
+    {
+     "title": "Lesson 3: Aphids",
+     "steps": [
+      "Read the page together",
+      "Sketch it in your bug journal and label head, thorax and abdomen",
+      "Look under rose or garden leaves for aphids"
+     ],
+     "links": [
+      {
+       "label": "Read: Aphid",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Aphid"
+      }
+     ],
+     "questions": [
+      "What is special about the shape of an aphid?",
+      "What do aphids' mouthparts pierce?"
+     ],
+     "answers": [
+      "They are small and pear-shaped",
+      "Plants"
+     ]
+    },
+    {
+     "title": "Lesson 4: Beetles",
+     "steps": [
+      "Read the page together",
+      "Sketch it in your bug journal and label head, thorax and abdomen",
+      "Look under a log or stone for a beetle, then put it back"
+     ],
+     "links": [
+      {
+       "label": "Read: Beetle",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Beetle"
+      }
+     ],
+     "questions": [
+      "What are a beetle's hard front wing covers called?",
+      "Which beetle can be 4 or 5 inches long?"
+     ],
+     "answers": [
+      "Elytra",
+      "The Goliath beetle"
+     ]
+    },
+    {
+     "title": "Lesson 5: Bees",
+     "steps": [
+      "Read the page together",
+      "Sketch it in your bug journal and label head, thorax and abdomen",
+      "Watch bees visiting flowers from a safe distance"
+     ],
+     "links": [
+      {
+       "label": "Read: Bee",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Bee"
+      }
+     ],
+     "questions": [
+      "What are the three kinds of honey bees in a hive?",
+      "What do most bees eat?"
+     ],
+     "answers": [
+      "Queen, workers and drones",
+      "Nectar and pollen"
+     ]
+    },
+    {
+     "title": "Lesson 6: Butterflies and Caterpillars",
+     "steps": [
+      "Read both pages",
+      "Draw the life cycle: egg, larva, pupa, adult",
+      "Plant or look for milkweed"
+     ],
+     "links": [
+      {
+       "label": "Read: Butterflies and Caterpillars",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Caterpillar/Butterfly"
+      },
+      {
+       "label": "Read: Monarch Butterfly",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Monarch_butterfly"
+      }
+     ],
+     "questions": [
+      "What covers a butterfly's wings?",
+      "Where do eastern monarchs fly in the fall?",
+      "Which plant do monarch caterpillars eat?"
+     ],
+     "answers": [
+      "Tiny scales",
+      "The mountains of central Mexico",
+      "Milkweed"
+     ]
+    },
+    {
+     "title": "Lesson 7: Moths",
+     "steps": [
+      "Read the page together",
+      "Sketch it in your bug journal and label head, thorax and abdomen",
+      "Leave a porch light on and look for moths after dark"
+     ],
+     "links": [
+      {
+       "label": "Read: Moth",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Moth"
+      }
+     ],
+     "questions": [
+      "When do most moths fly?",
+      "How do moths and butterflies drink nectar?"
+     ],
+     "answers": [
+      "At night",
+      "Through a long coiled tube (proboscis)"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 2: Hoppers, Singers and Hiders",
+   "lessons": [
+    {
+     "title": "Lesson 8: Cockroaches",
+     "steps": [
+      "Read the page together",
+      "Sketch it in your bug journal and label head, thorax and abdomen",
+      "Narrate why a cockroach must shed its exoskeleton"
+     ],
+     "links": [
+      {
+       "label": "Read: Cockroach",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Cockroach"
+      }
+     ],
+     "questions": [
+      "How many knees does a cockroach have?",
+      "What is the hard outside skeleton called?"
+     ],
+     "answers": [
+      "18",
+      "An exoskeleton"
+     ]
+    },
+    {
+     "title": "Lesson 9: Crickets",
+     "steps": [
+      "Read the page together",
+      "Sketch it in your bug journal and label head, thorax and abdomen",
+      "Listen for crickets on a warm evening"
+     ],
+     "links": [
+      {
+       "label": "Read: Cricket",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Cricket"
+      }
+     ],
+     "questions": [
+      "How do crickets make their sound?",
+      "How can you tell a cricket from a grasshopper?"
+     ],
+     "answers": [
+      "By rubbing a scraper on a toothed vein on the wing",
+      "Crickets have longer antennae and are usually brown or black"
+     ]
+    },
+    {
+     "title": "Lesson 10: Cicadas",
+     "steps": [
+      "Read the page together",
+      "Sketch it in your bug journal and label head, thorax and abdomen",
+      "Look for empty cicada shells on tree bark in summer"
+     ],
+     "links": [
+      {
+       "label": "Read: Cicada",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Cicada"
+      }
+     ],
+     "questions": [
+      "How often do periodical cicadas come out?",
+      "Which cicadas make the sound?"
+     ],
+     "answers": [
+      "Every 13 or 17 years",
+      "The males"
+     ]
+    },
+    {
+     "title": "Lesson 11: Grasshoppers and Locusts",
+     "steps": [
+      "Read both pages",
+      "Sketch it in your bug journal and label head, thorax and abdomen",
+      "Measure how far you can jump, then compare with a grasshopper's size"
+     ],
+     "links": [
+      {
+       "label": "Read: Grasshopper",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Grasshopper"
+      },
+      {
+       "label": "Read: Locust",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Locust"
+      }
+     ],
+     "questions": [
+      "What is a locust?",
+      "What are a grasshopper's back legs made for?"
+     ],
+     "answers": [
+      "A grasshopper in its swarming form",
+      "Jumping"
+     ]
+    },
+    {
+     "title": "Lesson 12: Walking Sticks and Praying Mantises",
+     "steps": [
+      "Read both pages",
+      "Play a hiding game: who can stand as still as a stick?",
+      "Sketch it in your bug journal and label head, thorax and abdomen"
+     ],
+     "links": [
+      {
+       "label": "Read: Walking Sticks",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Walking_Stick"
+      },
+      {
+       "label": "Read: Praying Mantis",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Praying_Mantis"
+      }
+     ],
+     "questions": [
+      "How does a walking stick hide?",
+      "Why is a praying mantis called that?"
+     ],
+     "answers": [
+      "It looks like a twig and sways like a branch",
+      "Its front legs look like it is praying"
+     ]
+    },
+    {
+     "title": "Lesson 13: Shield Bugs and Stink Bugs",
+     "steps": [
+      "Read both pages",
+      "Sketch it in your bug journal and label head, thorax and abdomen",
+      "Compare the shape of the two bugs"
+     ],
+     "links": [
+      {
+       "label": "Read: Shield Bugs",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Shield_Bug"
+      },
+      {
+       "label": "Read: Stink Bugs",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Stinkbug"
+      }
+     ],
+     "questions": [
+      "How did stink bugs get their name?",
+      "What shape is a shield bug's body?"
+     ],
+     "answers": [
+      "They give off a bad smell when disturbed",
+      "Like a shield"
+     ]
+    },
+    {
+     "title": "Lesson 14: Ladybugs",
+     "steps": [
+      "Read the page together",
+      "Sketch it in your bug journal and label head, thorax and abdomen",
+      "Look for ladybugs on garden plants"
+     ],
+     "links": [
+      {
+       "label": "Read: Ladybug",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Ladybug"
+      }
+     ],
+     "questions": [
+      "Which pests are ladybugs best known for eating?",
+      "About how many kinds of ladybugs live in the world?"
+     ],
+     "answers": [
+      "Aphids",
+      "Over 5,000"
+     ]
+    },
+    {
+     "title": "Lesson 15: Fireflies",
+     "steps": [
+      "Read the page together",
+      "Sketch it in your bug journal and label head, thorax and abdomen",
+      "Go out on a summer evening to watch fireflies flash"
+     ],
+     "links": [
+      {
+       "label": "Read: Firefly",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Firefly"
+      }
+     ],
+     "questions": [
+      "What part of a firefly glows?",
+      "Do both male and female fireflies flash?"
+     ],
+     "answers": [
+      "Its rear end",
+      "Yes"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 3: Flies, Biters and Water Bugs",
+   "lessons": [
+    {
+     "title": "Lesson 16: House Flies and Fruit Flies",
+     "steps": [
+      "Read both pages",
+      "Sketch it in your bug journal and label head, thorax and abdomen",
+      "Set a bowl of ripe fruit out and watch for fruit flies"
+     ],
+     "links": [
+      {
+       "label": "Read: Fly",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Fly"
+      },
+      {
+       "label": "Read: Fruit Flies",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Fruit_Fly"
+      }
+     ],
+     "questions": [
+      "What can house flies taste with?",
+      "How do scientists tell fruit fly species apart?"
+     ],
+     "answers": [
+      "Their feet",
+      "By the markings on their wings"
+     ]
+    },
+    {
+     "title": "Lesson 17: Mosquitoes, Black Flies and Crane Flies",
+     "steps": [
+      "Read the three pages",
+      "Make a chart: which of these bite, and why?",
+      "Sketch it in your bug journal and label head, thorax and abdomen"
+     ],
+     "links": [
+      {
+       "label": "Read: Mosquito",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Mosquito"
+      },
+      {
+       "label": "Read: Black Flies",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Black_Fly"
+      },
+      {
+       "label": "Read: Crane Flies",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Crane_Fly"
+      }
+     ],
+     "questions": [
+      "Why does a female mosquito drink blood?",
+      "Does a crane fly bite like a mosquito?"
+     ],
+     "answers": [
+      "To get nutrients for her eggs",
+      "No; it only looks like a giant mosquito"
+     ]
+    },
+    {
+     "title": "Lesson 18: Fleas and Lice",
+     "steps": [
+      "Read both pages",
+      "Sketch it in your bug journal and label head, thorax and abdomen",
+      "Talk about how pets are kept free of fleas"
+     ],
+     "links": [
+      {
+       "label": "Read: Flea",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Flea"
+      },
+      {
+       "label": "Read: Louse",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Louse"
+      }
+     ],
+     "questions": [
+      "Do fleas have wings?",
+      "Can head lice jump or fly?"
+     ],
+     "answers": [
+      "No",
+      "No"
+     ]
+    },
+    {
+     "title": "Lesson 19: Dragonflies and Damselflies",
+     "steps": [
+      "Read the dragonfly and damselfly pages (the third page is extra reading)",
+      "Sketch it in your bug journal and label head, thorax and abdomen",
+      "Visit a pond and watch them hunt"
+     ],
+     "links": [
+      {
+       "label": "Read: Dragonfly",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Dragonfly"
+      },
+      {
+       "label": "Read: Damselfly",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Damselfly"
+      },
+      {
+       "label": "Read: Dragonfly & Damselfly",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Dragonfly_&_Damselfly"
+      }
+     ],
+     "questions": [
+      "How can you tell a damselfly from a dragonfly at rest?",
+      "What do dragonflies eat?"
+     ],
+     "answers": [
+      "A damselfly folds its wings over its body; a dragonfly holds them out flat",
+      "Other insects, such as flies and mosquitoes"
+     ]
+    },
+    {
+     "title": "Lesson 20: Mayflies",
+     "steps": [
+      "Read the page together",
+      "Sketch it in your bug journal and label head, thorax and abdomen",
+      "Look for mayfly nymphs under stones in a stream"
+     ],
+     "links": [
+      {
+       "label": "Read: Mayfly",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Mayfly"
+      }
+     ],
+     "questions": [
+      "Why are mayflies sometimes called dayflies?",
+      "How many long 'tails' trail behind a mayfly?"
+     ],
+     "answers": [
+      "They live for a very short time as adults",
+      "Three"
+     ]
+    },
+    {
+     "title": "Lesson 21: Water Beetles and Water Striders",
+     "steps": [
+      "Read the three pages",
+      "Float a paper clip on water to see surface tension",
+      "Sketch it in your bug journal and label head, thorax and abdomen"
+     ],
+     "links": [
+      {
+       "label": "Read: Diving Beetles",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Diving_Beetle"
+      },
+      {
+       "label": "Read: Predaceous Diving Beetles",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Predaceous_Diving_Beetle"
+      },
+      {
+       "label": "Read: Water Striders",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Pondskater/Water_Strider"
+      }
+     ],
+     "questions": [
+      "How do diving beetles swim?",
+      "Why don't water striders sink?"
+     ],
+     "answers": [
+      "They paddle with flat, hairy back legs",
+      "Water-repelling hairs keep their legs dry on the surface"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 4: Arachnids",
+   "lessons": [
+    {
+     "title": "Lesson 22: Arachnids and Spiders",
+     "steps": [
+      "Read both pages",
+      "Sketch it in your bug journal and count its legs",
+      "Find a web and see if you can spot the spider"
+     ],
+     "links": [
+      {
+       "label": "Read: Arachnids",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Arachnids_Intro"
+      },
+      {
+       "label": "Read: Spider",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Spider"
+      }
+     ],
+     "questions": [
+      "How many legs does a spider have?",
+      "Where does a spider's silk come from?",
+      "Is a spider an insect?"
+     ],
+     "answers": [
+      "Eight",
+      "Spinnerets on its abdomen",
+      "No, it is an arachnid"
+     ]
+    },
+    {
+     "title": "Lesson 23: Spiders That Hunt",
+     "steps": [
+      "Read the three pages",
+      "Sketch it in your bug journal and count its legs",
+      "Look in flowers for a crab spider"
+     ],
+     "links": [
+      {
+       "label": "Read: Jumping Spiders",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Jumping_Spider"
+      },
+      {
+       "label": "Read: Wolf Spiders",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Wolf_Spider"
+      },
+      {
+       "label": "Read: Crab Spiders",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Crab_Spider"
+      }
+     ],
+     "questions": [
+      "Where do wolf spider babies ride?",
+      "How does a crab spider move?"
+     ],
+     "answers": [
+      "On their mother's back",
+      "Sideways and backward, like a crab"
+     ]
+    },
+    {
+     "title": "Lesson 24: Spiders That Build",
+     "steps": [
+      "Read the three pages",
+      "Draw an orb web, a funnel web and a trapdoor burrow",
+      "Spray a web lightly with water to see its pattern"
+     ],
+     "links": [
+      {
+       "label": "Read: Orb Weavers",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Orb_Weaver"
+      },
+      {
+       "label": "Read: Funnel-Web Spiders",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Funnel-Web_Spider"
+      },
+      {
+       "label": "Read: Trapdoor Spiders",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Trap-door_Spider"
+      }
+     ],
+     "questions": [
+      "What do trapdoor spiders use the spines on their jaws for?",
+      "How many eyes do orb weavers have?"
+     ],
+     "answers": [
+      "Digging burrows",
+      "Eight"
+     ]
+    },
+    {
+     "title": "Lesson 25: Spiders to Watch Out For",
+     "steps": [
+      "Read the three pages",
+      "Learn what a black widow and a brown recluse look like, and never touch one",
+      "Sketch it in your bug journal and count its legs"
+     ],
+     "links": [
+      {
+       "label": "Read: Black Widow",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Black_Widow"
+      },
+      {
+       "label": "Read: Brown Recluse",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Brown_Recluse"
+      },
+      {
+       "label": "Read: Ant-Mimicking Spiders",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Ant-Mimicking_Spider"
+      }
+     ],
+     "questions": [
+      "What mark does a black widow have?",
+      "How many eyes does a brown recluse have?"
+     ],
+     "answers": [
+      "A red or orange hourglass",
+      "Six"
+     ]
+    },
+    {
+     "title": "Lesson 26: Tarantulas",
+     "steps": [
+      "Read both pages",
+      "Sketch it in your bug journal and count its legs",
+      "Narrate how tree-living tarantulas climb smooth leaves"
+     ],
+     "links": [
+      {
+       "label": "Read: Tarantula",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Tarantula"
+      },
+      {
+       "label": "Read: Mexican Red-Kneed Tarantula",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Mexican_Red-Kneed_Tarantula"
+      }
+     ],
+     "questions": [
+      "What are the largest spiders in the world?",
+      "Where does the Mexican red-knee get its name?"
+     ],
+     "answers": [
+      "Tarantulas",
+      "Red or orange hair on its leg joints"
+     ]
+    },
+    {
+     "title": "Lesson 27: Scorpions and Pseudoscorpions",
+     "steps": [
+      "Read the three pages",
+      "Sketch it in your bug journal and count its legs",
+      "Compare a scorpion and a pseudoscorpion"
+     ],
+     "links": [
+      {
+       "label": "Read: Scorpion",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Scorpion"
+      },
+      {
+       "label": "Read: Australian Burrowing Scorpion",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Australian_burrowing_scorpion"
+      },
+      {
+       "label": "Read: Pseudoscorpion",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Pseudoscorpion"
+      }
+     ],
+     "questions": [
+      "What happens when ultraviolet light shines on a scorpion?",
+      "Does a pseudoscorpion have a stinger?"
+     ],
+     "answers": [
+      "It glows",
+      "No"
+     ]
+    },
+    {
+     "title": "Lesson 28: Harvestmen, Mites and Ticks",
+     "steps": [
+      "Read the three pages",
+      "Sketch it in your bug journal and count its legs",
+      "Learn how to check for ticks after a walk in tall grass"
+     ],
+     "links": [
+      {
+       "label": "Read: Harvestman (Daddy Longlegs)",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Harvestman_(Daddy_Longlegs)"
+      },
+      {
+       "label": "Read: Mite",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Mite"
+      },
+      {
+       "label": "Read: Tick",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Tick"
+      }
+     ],
+     "questions": [
+      "Is a daddy longlegs a true spider?",
+      "Why should we check ourselves for ticks?"
+     ],
+     "answers": [
+      "No",
+      "They can pass on diseases"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Unit 5: Other Creepy-Crawlies",
+   "lessons": [
+    {
+     "title": "Lesson 29: Other Bugs and Earthworms",
+     "steps": [
+      "Read both pages",
+      "Dig gently in garden soil and look for worms",
+      "Narrate why worms are good for soil"
+     ],
+     "links": [
+      {
+       "label": "Read: Other Bugs",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Other_Intro"
+      },
+      {
+       "label": "Read: Earthworm",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Earthworm"
+      }
+     ],
+     "questions": [
+      "How does an earthworm get oxygen?",
+      "Where do earthworms live?"
+     ],
+     "answers": [
+      "Through its skin",
+      "Underground, in the soil"
+     ]
+    },
+    {
+     "title": "Lesson 30: Centipedes and Millipedes",
+     "steps": [
+      "Read both pages",
+      "Draw both and compare: legs per segment",
+      "Go on a short bug hunt and look for one"
+     ],
+     "links": [
+      {
+       "label": "Read: Centipede",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Centipede"
+      },
+      {
+       "label": "Read: Millipede",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Millipede"
+      }
+     ],
+     "questions": [
+      "How many pairs of legs does a millipede have on each segment?",
+      "Does a millipede really have a thousand legs?"
+     ],
+     "answers": [
+      "Two",
+      "No, usually 80 to 400"
+     ]
+    },
+    {
+     "title": "Lesson 31: Woodlice (Pill Bugs)",
+     "steps": [
+      "Read the page together",
+      "Look under a damp log or flowerpot for roly-polies",
+      "Sketch it in your bug journal and count its body segments"
+     ],
+     "links": [
+      {
+       "label": "Read: Woodlouse, Pill Bug or Armadillo Bug",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Woodlouse"
+      }
+     ],
+     "questions": [
+      "What group of animals are woodlice part of, like crabs and shrimp?",
+      "What do some woodlice do to protect themselves?"
+     ],
+     "answers": [
+      "Crustaceans",
+      "Curl up into a ball"
+     ]
+    },
+    {
+     "title": "Lesson 32: Glossary and Review",
+     "steps": [
+      "Read through the glossary and pick five new words",
+      "Make a chart: insects, arachnids, and other bugs",
+      "Choose your favorite bug and tell why"
+     ],
+     "links": [
+      {
+       "label": "Read: Glossary",
+       "url": "https://en.wikibooks.org/wiki/Wikijunior:Bugs/Glossary"
+      }
+     ],
+     "questions": [
+      "How many body parts does an insect have?",
+      "Name one arachnid that is not a spider."
+     ],
+     "answers": [
+      "Three",
+      "Any one: scorpion, tick, mite, harvestman"
+     ]
+    }
+   ]
+  }
+ ]
+}

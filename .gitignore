@@ -46,3 +46,4 @@ e2e/screenshots/
 # Edge Function secrets (local)
 supabase/functions/.env
 supabase/zcta.sql
+.claude/worktrees/

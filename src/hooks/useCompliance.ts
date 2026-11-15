@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 
 import { todayKey } from '@/lib/dates';
 import { summarizeHours } from '@/lib/hours';
+import { missingSubjects, requiredSubjects, subjectCoverage } from '@/lib/standards';
 import { getStateLaw } from '@/lib/states';
 import { useStore } from '@/store/useStore';
 
@@ -19,6 +20,8 @@ export function useCompliance() {
   const children = useStore((s) => s.children);
   const evidence = useStore((s) => s.evidence);
   const noi = useStore((s) => s.noi);
+  const curricula = useStore((s) => s.curricula);
+  const blocks = useStore((s) => s.blocks);
 
   return useMemo(() => {
     const law = family ? getStateLaw(family.stateCode) : undefined;
@@ -38,8 +41,12 @@ export function useCompliance() {
     if (law?.requiredDays) items.push({ ok: family_.daysAttended >= law.requiredDays, label: `${family_.daysAttended} / ${law.requiredDays} days logged`, route: '/records/hours' });
     if (law?.requiredHours) items.push({ ok: minChildHours >= law.requiredHours, label: `${Math.round(minChildHours)} / ${law.requiredHours} hours (lowest child)`, route: '/records/hours' });
     if (law?.testingRequired) items.push({ ok: false, label: 'Annual assessment / evaluation — schedule it' });
+    const coverage = subjectCoverage(curricula, blocks);
+    const missing = missingSubjects(family?.stateCode, coverage);
+    if (law && requiredSubjects(law.code).length)
+      items.push(missing.length ? { ok: false, label: `Not in your plan yet: ${missing.map((m) => m.label).join(', ')}` } : { ok: true, label: `Your plan covers the subjects ${law.name} lists` });
     if (law?.portfolioRequired) items.push({ ok: yearEvidence.length >= 3 * Math.max(1, children.length), label: `${yearEvidence.length} portfolio samples this year`, route: '/records/portfolio' });
 
-    return { law, family: family_, perChild, items, evidenceCount: yearEvidence.length };
-  }, [family, tasks, logs, children, evidence, noi]);
+    return { law, family: family_, perChild, items, evidenceCount: yearEvidence.length, coverage, missing };
+  }, [family, tasks, logs, children, evidence, noi, curricula, blocks]);
 }
