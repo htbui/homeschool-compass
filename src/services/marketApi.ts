@@ -7,6 +7,7 @@ import { useMarket } from '@/store/useMarket';
 import { useStore } from '@/store/useStore';
 
 import { friendlyError, supabase } from './cloud';
+import { listingPhotoUrl, uploadListingPhotos } from './listingPhotos';
 
 /**
  * Marketplace actions. Without the Freerange service everything stays on the
@@ -28,6 +29,7 @@ export type ListingRow = {
   creator_user?: string | null; package_id?: string | null; package_version?: number | null; license?: Listing['license'] | null; attribution?: string | null; outline?: Listing['outline'] | null;
   sale_percent?: number | null; sale_ends_at?: string | null;
   esa_states?: string[] | null;
+  photos?: string[] | null; pickup_area?: string | null; ships?: boolean | null; pace_known?: boolean | null;
 };
 type ReviewRow = { id: string; listing_id: string; family_id: string | null; author_name: string; rating: number; title: string; body: string; child_grade: string | null; verified: boolean; helpful: number; sample: boolean; hidden?: boolean; show_progress?: boolean; progress_done?: number | null; progress_total?: number | null; created_at: string };
 export type PurchaseRow = {
@@ -74,9 +76,13 @@ export const toListing = (r: ListingRow, fid?: string): Listing => ({
   suspended: r.status === 'suspended' || undefined,
   salePercent: r.sale_percent ?? undefined,
   saleEndsAt: r.sale_ends_at ?? undefined,
+  photos: r.photos?.length ? r.photos.map(listingPhotoUrl) : undefined,
+  pickupArea: r.pickup_area ?? undefined,
+  ships: r.ships || undefined,
+  paceUnknown: r.pace_known === false || undefined,
 });
 
-const fromListing = (l: Listing, fid: string) => ({
+const fromListing = (l: Listing, fid: string, photos: string[]) => ({
   id: l.id,
   seller_family: fid,
   seller_name: l.seller,
@@ -99,6 +105,10 @@ const fromListing = (l: Listing, fid: string) => ({
   lesson_steps: l.lessonSteps,
   cover: l.cover,
   color: l.color,
+  photos,
+  pickup_area: l.pickupArea?.trim() || null,
+  ships: !!l.ships,
+  pace_known: !l.paceUnknown,
 });
 
 const toReview = (r: ReviewRow, fid?: string): Review => ({
@@ -302,7 +312,7 @@ export async function saveListing(l: Listing): Promise<void> {
   }
   const fid = requireCloud();
   const exists = useStore.getState().myListings.some((x) => x.id === l.id);
-  const row = fromListing(l, fid);
+  const row = fromListing(l, fid, await uploadListingPhotos(fid, l.photos ?? []));
   const q = exists ? supabase!.from('listings').update(row).eq('id', l.id) : supabase!.from('listings').insert({ ...row, id: undefined });
   const { data, error } = await q.select().single();
   if (error) throw new Error(friendlyError(error));

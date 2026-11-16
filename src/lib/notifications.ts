@@ -43,6 +43,11 @@ export interface ConversationSummary {
   unread: number;
   canMessage: boolean;
   blocked: boolean;
+  /** The listing a buyer asked about when this conversation started. */
+  listingId?: string;
+  listingTitle?: string;
+  /** The other family is selling that listing. */
+  seller?: boolean;
 }
 
 export type ModerationAction = 'hidden' | 'auto_hidden' | 'restored' | 'verified' | 'declined' | 'revoked';

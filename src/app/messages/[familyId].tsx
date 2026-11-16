@@ -1,4 +1,4 @@
-import { Stack as RouterStack, useLocalSearchParams } from 'expo-router';
+import { Stack as RouterStack, router, useLocalSearchParams } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
 import { KeyboardAvoidingView, Platform, ScrollView, View, type ScrollViewInstance } from 'react-native';
 
@@ -19,7 +19,7 @@ import { Button, Card, Empty, Field, Row, Screen, space, T, useColors, useConfir
 const MAX = 2000;
 const clock = (iso: string) => new Date(iso).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
 
-/** One conversation with a connected family. */
+/** One conversation with a connected family, or with a family about a used curriculum one of you is selling. */
 export default function Thread() {
   const c = useColors();
   const { familyId } = useLocalSearchParams<{ familyId: string }>();
@@ -121,6 +121,13 @@ export default function Thread() {
             </Row>
             <Button size="sm" kind="ghost" title={blocked ? 'Unblock' : 'Block'} onPress={toggleBlock} />
           </Row>
+          {convo?.listingId ? (
+            <Card tint={c.surfaceAlt} onPress={() => router.push({ pathname: '/listing/[id]', params: { id: convo.listingId! } })} label={`About ${convo.listingTitle ?? 'a listing'}. Open the listing`}>
+              <T v="caption">
+                🏷️ About {convo.seller ? 'their' : 'your'} listing “{convo.listingTitle ?? 'a curriculum'}” ›
+              </T>
+            </Card>
+          ) : null}
           {!tipsSeen ? (
             <Card tint={c.accentSoft}>
               <Row wrap style={{ justifyContent: 'space-between' }}>
