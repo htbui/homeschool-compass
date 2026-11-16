@@ -517,7 +517,8 @@ async function run() {
   log(st.blocks.some((b) => b.curriculumId === cur?.id), 'rhythm block linked to curriculum');
   log(st.purchases.some((p) => p.curriculumId === cur?.id), 'purchase linked to plan');
   await click('See the rhythm');
-  await goTab('My Curriculum');
+  await expect('Weekly Rhythm', 'lands on the Plan tab’s week');
+  await click('📚 Curricula', { exact: true });
   await expect(BIRDS, 'shows on Curriculum tab');
   await expect('Lesson links & files (1)', 'curriculum card shows its materials');
   await expect('Where curricula come from');
