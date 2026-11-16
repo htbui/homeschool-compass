@@ -18,7 +18,7 @@ _Last updated: 2026-11-11_
 ## P0: Launch blockers (most need a decision or an account from you)
 
 - [ ] **Business email and DNS:** for now, Cloudflare Email Routing forwards admin@, support@, and hello@freerangehomeschooling.com to Gmail (free). Google Workspace waits until launch. Add SPF, DKIM, and DMARC records when sending from the domain.
-- [ ] **Hosted backend:** create the production Supabase project, then share its URL and publishable key. Apply the migrations and deploy the edge functions (`create-checkout`, `stripe-webhook`, `fetch-page`).
+- [ ] **Hosted backend:** create the production Supabase project, then share its URL and publishable key. Add the production site addresses to the allowed redirect URLs, so password-reset links work. Apply the migrations and deploy the edge functions (`create-checkout`, `stripe-webhook`, `fetch-page`).
 - [ ] **Permanent test links:** host the web app with EAS Hosting (`eas deploy`), and share an Android build anyone can install plus iOS TestFlight. Needs an Expo login. For now there's a temporary Cloudflare link that only works while the dev machine is running.
 - [ ] **Phone builds:** log in to Expo (`! npx eas-cli@latest login`) and run the first EAS builds. iOS also needs an Apple Developer account.
 - [ ] **Payments:** add Stripe keys so buyers can pay for real. Today only demo payments work.
@@ -131,7 +131,11 @@ _New ideas land here, then get a priority._
   - **A review queue** for moderators or admins shows what changed: the old text, the new source text, and a suggested update for a person to approve. AI-assisted drafting waits for the API key. Approved changes publish as a content update without an app release.
   - **Community signals feed the queue:** "Is this still right?" or "Still happening?" prompts to families who use an entry, and reports of wrong info. Stale programs are hidden automatically after no confirmations for a set time.
   - **Families affected by a change hear about it**, e.g. "Colorado changed its notice-of-intent deadline", with a dated changelog.
-- **Design review, round 1:** the shared fixes and small P1s from the design review (https://claude.ai/artifact/8qLz8ns8mJDs2wsRaxBbDK), then rounds 2 and 3.
+- **Design review leftovers:**
+  - The Studio lesson editor should be a full-screen page on phones (SC-08); today it folds into sections, with Save pinned at the bottom.
+  - Add right-click to report a message on the web (SC-19), and swipe to mark notifications read (SC-20).
+  - On phones, copy invite codes with `expo-clipboard` (SC-13), which needs the next development build; on the web the Copy buttons already work.
+  - Check the password-reset email link on a real phone (C-05); it's unit-tested only.
 - **From the Compass and Studio test suites:**
   - Throttle repeated wrong kid and parent PINs; there's no limit today.
   - A family removed from a co-op can rejoin with the old code until the teacher makes a new one.
@@ -172,4 +176,5 @@ _New ideas land here, then get a priority._
 - [x] Co-op classes, gifts, bundles, sales, and coupons, priced on the server (`aebc714`)
 - [x] Free & open curricula: 48 curricula, 3,374 lessons, adding NOAA, NPS, USGS, the Library of Congress, MVP Math I, and Wikijunior (`b065d6e`)
 - [x] Design review: 95 findings, 13 of them P1, with screenshots and a suggested order (https://claude.ai/artifact/8qLz8ns8mJDs2wsRaxBbDK)
+- [x] Design review fixes: all 95 findings across the shared components, Compass, Marketplace and Studio & Community. A few parts are left over (see the ideas inbox). Every fix has a labelled browser check at phone and desktop sizes, plus unit and server tests where there's logic (`6bf1f36`, `4cc4de9` and the merges before it)
 - [x] Test suite for every area: 533 unit, 191 server, and 16 browser suites at phone and desktop sizes; 92% statement coverage, mapped in docs/TESTING.md. It found and fixed 25 bugs, including kid mode reaching parent screens, connection-request hijacking, coupon overuse, and NC licenses read as CC BY (`91ef5c3`, `69eee3a`, and the Compass suite)
