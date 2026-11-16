@@ -6,15 +6,9 @@ import { Button, Card, Field, Row, Sheet, T, useColors } from '@/ui';
 
 import { VerifiedBadge } from './VerifiedBadge';
 
-/** The family's Verified status, with a way to ask for it. */
-export function VerificationCard() {
-  const c = useColors();
+/** The family's Verified status (undefined while loading). */
+export function useMyVerification() {
   const [v, setV] = useState<MyVerification | undefined>();
-  const [asking, setAsking] = useState(false);
-  const [note, setNote] = useState('');
-  const [busy, setBusy] = useState(false);
-  const [error, setError] = useState('');
-
   useEffect(() => {
     let alive = true;
     myVerification()
@@ -24,6 +18,16 @@ export function VerificationCard() {
       alive = false;
     };
   }, []);
+  return [v, setV] as const;
+}
+
+/** The family's Verified status, with a way to ask for it. */
+export function VerificationCard({ state: [v, setV] }: { state: ReturnType<typeof useMyVerification> }) {
+  const c = useColors();
+  const [asking, setAsking] = useState(false);
+  const [note, setNote] = useState('');
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState('');
 
   if (!v) return null;
   if (v.status === 'verified') {

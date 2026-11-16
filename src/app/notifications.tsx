@@ -2,12 +2,12 @@ import { Redirect, router } from 'expo-router';
 import { View } from 'react-native';
 
 import { markNoticesRead, useNotices } from '@/hooks/useNotices';
-import { timeAgo, type NoticeLink, type ReadNotice } from '@/lib/notifications';
+import { groupNotices, timeAgo, type NoticeLink, type ReadNotice } from '@/lib/notifications';
 import { cloudEnabled } from '@/services/cloud';
 import { useInboxLive } from '@/services/inbox';
 import { useAccount } from '@/store/useAccount';
 import { useStore } from '@/store/useStore';
-import { Button, Card, Empty, Row, Screen, space, Stack, T, useColors } from '@/ui';
+import { Button, Card, Empty, Row, Screen, Section, space, Stack, T, useColors } from '@/ui';
 
 function open(link: NoticeLink) {
   switch (link.to) {
@@ -57,23 +57,31 @@ export default function Notifications() {
             }
           />
         ) : (
-          <Stack gap={space.sm}>
-            {items.map((n) => (
-              <NoticeCard key={n.id} notice={n} />
-            ))}
-          </Stack>
+          groupNotices(items).map((g, i) => (
+            <View key={g.title} style={i ? undefined : { marginTop: -space.xl }}>
+              <Section title={g.title}>
+                <Stack gap={space.sm}>
+                  {g.items.map((n) => (
+                    <NoticeCard key={n.id} notice={n} />
+                  ))}
+                </Stack>
+              </Section>
+            </View>
+          ))
         )}
       </View>
     </Screen>
   );
 }
 
+/** Opening a notification marks it read (and "Mark all read" clears the rest), so rows have no button of their own. */
 function NoticeCard({ notice: n }: { notice: ReadNotice }) {
   const c = useColors();
   const when = n.at && n.kind !== 'event' ? timeAgo(n.at) : '';
   return (
     <Card
       tint={n.read ? undefined : c.primarySoft}
+      label={[n.read ? '' : 'Unread:', n.title, n.body, when].filter(Boolean).join(' ')}
       onPress={() => {
         markNoticesRead([n]);
         open(n.link);
@@ -81,11 +89,12 @@ function NoticeCard({ notice: n }: { notice: ReadNotice }) {
       <Row align="flex-start" gap={space.sm}>
         <T v="heading">{n.icon}</T>
         <View style={{ flex: 1, gap: 2 }}>
-          <T v="label">{n.read ? '' : '● '}{n.title}</T>
+          <T v="label">{n.title}</T>
           {n.body ? <T v="caption" numberOfLines={3}>{n.body}</T> : null}
           {when ? <T v="caption" muted>{when}</T> : null}
         </View>
-        {n.read ? null : <Button size="sm" kind="ghost" title="Mark read" onPress={() => markNoticesRead([n])} />}
+        {/* The unread dot is drawn, not a "●" character a screen reader would read out. */}
+        {n.read ? null : <View accessibilityLabel="Unread" style={{ width: 10, height: 10, borderRadius: 5, backgroundColor: c.primary, marginTop: 6 }} />}
       </Row>
     </Card>
   );
