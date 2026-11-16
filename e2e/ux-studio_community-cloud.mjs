@@ -294,7 +294,7 @@ try {
   await A.goto('/community');
   await A.expect('Connection requests (1)');
   await A.expect('Decline and block', 'SC-05 requests offer Decline and block');
-  await A.clickLabel(`More for Ben ${run}`);
+  await A.clickLabel(`More for Ben ${run}’s request`);
   await A.click(`🚩 Report Ben ${run}`);
   const prefilled = await A.page.evaluate(() => [...document.querySelectorAll('textarea')].filter((e) => e.offsetParent).map((e) => e.value).join('|'));
   log(prefilled.includes(`send me your address ${run}`), 'ana: SC-05 the report carries their note');

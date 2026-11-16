@@ -292,7 +292,7 @@ function Families({ radius }: { radius: number }) {
                       }
                     />
                   </Row>
-                  <FamilyMenu familyId={x.familyId} name={x.displayName} note={x.message || undefined} onBlocked={refreshAll} />
+                  <FamilyMenu familyId={x.familyId} name={x.displayName} note={x.message || undefined} label={`More for ${x.displayName}’s request`} onBlocked={refreshAll} />
                 </Row>
               </Card>
             ))}

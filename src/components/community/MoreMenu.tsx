@@ -51,7 +51,7 @@ export function MoreMenu({ label, title, items }: { label: string; title: string
  * Report or block a family from wherever you meet them (the finder, a connection request).
  * `note` is what they wrote to you, passed on to the moderators with the report.
  */
-export function FamilyMenu({ familyId, name, note, onBlocked }: { familyId: string; name: string; note?: string; onBlocked: () => void }) {
+export function FamilyMenu({ familyId, name, note, label, onBlocked }: { familyId: string; name: string; note?: string; label?: string; onBlocked: () => void }) {
   const confirm = useConfirm();
   const [reporting, setReporting] = useState(false);
   const [error, setError] = useState('');
@@ -64,7 +64,7 @@ export function FamilyMenu({ familyId, name, note, onBlocked }: { familyId: stri
   return (
     <>
       <MoreMenu
-        label={`More for ${name}`}
+        label={label ?? `More for ${name}`}
         title={name}
         items={[
           { label: `🚩 Report ${name}`, onPress: () => setReporting(true), hint: 'A Freerange moderator looks at their profile and what you tell us.' },
