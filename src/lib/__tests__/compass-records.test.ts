@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 
-import { complianceStatus, type ComplianceInput } from '../compliance';
-import { addDays, todayKey } from '../dates';
+import { complianceStatus, pace, splitRadar, yearProgress, type ComplianceInput } from '../compliance';
+import { addDays, formatDate, todayKey } from '../dates';
 import { esc, evaluatorPacketHtml, expenseReportHtml, NOI_CHECKLIST, noiHtml } from '../documents';
 import { summarizeHours, toHours } from '../hours';
 import { newLesson } from '../package';
@@ -90,23 +90,55 @@ describe('compliance radar', () => {
 
   it('walks Colorado: notice, 172 days, 688 hours for the lowest child, testing, subjects', () => {
     expect(labels({})).toEqual([
-      '✗ Notice of Intent not filed yet',
-      '✗ 0 / 172 days logged',
-      '✗ 0 / 688 hours (lowest child)',
-      '✗ Annual assessment / evaluation — schedule it',
+      '✗ File your Notice of Intent',
+      '✗ Days: 0 of 172',
+      '✗ Hours: 0 of 688 (lowest child)',
+      '✗ Plan this year’s assessment / evaluation',
       '✗ Not in your plan yet: Reading, Writing, Math, History, Civics & citizenship, Literature, Science',
     ]);
   });
 
+  it('C-10: every item that needs something has a next step, and the NOI carries the state’s deadline', () => {
+    const { items } = complianceStatus(input({}), today);
+    for (const i of items.filter((x) => !x.ok)) expect(i.action?.label, i.label).toBeTruthy();
+    expect(items[0]).toMatchObject({ status: 'todo', detail: 'Due: Notice of intent 14 days before starting, then annually.', action: { label: 'Start letter', route: '/records/noi' } });
+    expect(items.find((i) => i.label.startsWith('Plan this year'))).toMatchObject({ action: { kind: 'assessment' }, detail: expect.stringMatching(/Evaluation in grades/) });
+  });
+
+  it('C-10: day one of a new year is on pace, not a warning', () => {
+    const fresh = family({ schoolYearStart: today, schoolYearEnd: addDays(today, 280) });
+    const { items } = complianceStatus(input({ family: fresh }), today);
+    expect(items.find((i) => i.label.startsWith('Days'))).toMatchObject({ ok: true, status: 'on_track', detail: 'on pace ✓' });
+    expect(items.find((i) => i.label.startsWith('Hours'))).toMatchObject({ ok: true, status: 'on_track' });
+    expect(yearProgress(fresh, today)).toBe(0);
+  });
+
+  it('C-10: pace has some slack, and a finished goal is done', () => {
+    expect(pace(0, 172, 0)).toEqual({ status: 'on_track', expected: 0 });
+    expect(pace(10, 172, 0.1)).toMatchObject({ status: 'behind', expected: 17 });
+    expect(pace(15, 172, 0.1)).toMatchObject({ status: 'on_track' });
+    expect(pace(172, 172, 0.5)).toMatchObject({ status: 'done' });
+  });
+
+  it('C-10: a planned assessment is on track, and to-dos sort before what is on track', () => {
+    const later = addDays(today, 30);
+    const { items } = complianceStatus(input({ family: family({ assessmentDate: later }), noi: noi({ signedAt: `${today}T10:00:00Z` }) }), today);
+    expect(items.find((i) => i.label.startsWith('Assessment'))).toMatchObject({ ok: true, label: `Assessment planned for ${formatDate(later, { weekday: 'short', month: 'short', day: 'numeric' })}` });
+    const { todo, onTrack } = splitRadar(items);
+    expect(todo.map((i) => i.label)).toEqual(['Days: 0 of 172', 'Hours: 0 of 688 (lowest child)', expect.stringMatching(/^Not in your plan yet/)]);
+    expect(onTrack.map((i) => i.status)).toEqual(['on_track', 'done']);
+  });
+
   it('marks the NOI signed, and mailed once the certified-mail box is ticked', () => {
-    expect(labels({ noi: noi({ signedAt: `${today}T10:00:00Z` }) })[0]).toBe(`✓ NOI signed ${today}`);
-    expect(labels({ noi: noi({ signedAt: `${today}T10:00:00Z`, checklist: { certified: true } }) })[0]).toBe(`✓ NOI signed ${today} & mailed`);
+    const when = formatDate(today, { weekday: 'short', month: 'short', day: 'numeric' });
+    expect(labels({ noi: noi({ signedAt: `${today}T10:00:00Z` }) })[0]).toBe(`✓ NOI signed ${when}`);
+    expect(labels({ noi: noi({ signedAt: `${today}T10:00:00Z`, checklist: { certified: true } }) })[0]).toBe(`✓ NOI signed ${when} & mailed`);
   });
 
   it('counts hours for the child who has the fewest, within this school year only', () => {
     const logs = [log({ childId: 'a', minutes: 700 * 60 }), log({ childId: 'b', minutes: 100 * 60 }), log({ childId: 'b', minutes: 999 * 60, date: addDays(yearStart, -1) })];
     const status = complianceStatus(input({ logs }), today);
-    expect(status.items.find((i) => i.label.includes('hours'))).toMatchObject({ ok: false, label: '100 / 688 hours (lowest child)' });
+    expect(status.items.find((i) => i.label.startsWith('Hours'))).toMatchObject({ ok: false, label: 'Hours: 100 of 688 (lowest child)' });
     expect(status.perChild.map((p) => p.summary.totalMin / 60)).toEqual([700, 100]);
   });
 
@@ -123,7 +155,7 @@ describe('compliance radar', () => {
   it('Pennsylvania: three portfolio samples per child, counted from the start of the school year', () => {
     const sample = (i: number, date = today): Evidence => ({ id: `e${i}`, childId: 'a', date, subject: 'art', uri: '', note: '' });
     const pa = (evidence: Evidence[]) => complianceStatus(input({ family: family({ stateCode: 'PA' }), evidence }), today).items.find((i) => i.route === '/records/portfolio');
-    expect(pa([1, 2, 3, 4, 5].map((i) => sample(i)))).toMatchObject({ ok: false, label: '5 portfolio samples this year' });
+    expect(pa([1, 2, 3, 4, 5].map((i) => sample(i)))).toMatchObject({ ok: false, label: 'Portfolio: 5 samples this year', action: { route: '/records/portfolio' } });
     expect(pa([1, 2, 3, 4, 5, 6].map((i) => sample(i)))).toMatchObject({ ok: true });
     expect(pa([1, 2, 3, 4, 5].map((i) => sample(i)).concat(sample(6, addDays(yearStart, -1))))).toMatchObject({ ok: false });
   });
