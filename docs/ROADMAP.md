@@ -83,7 +83,26 @@ _New ideas land here, then get a priority._
   - **Enrichment programs and co-ops:** homeschool enrichment days, hybrid schools, classes, and co-ops, including Freerange co-ops that are open to new families.
   - Each entry shows its cost, ages, schedule, link and when it was last checked. Families can save entries, add them to their plan or calendar, and suggest new ones, which moderators review.
   - Open questions: where the data comes from (hand-curated per state to start, then family submissions), how to keep links fresh, and paid placement (probably never, to keep trust).
-
+  - **Brainstorm, 2026-11-16:** two halves.
+    - **Programs & benefits:** hand-collected, per state. Each entry says who qualifies, the deadline and the next step, with "Remind me" before application windows.
+    - **Find & join:** local programs. "Add to plan" turns one into a weekly rhythm block with a subject (e.g. PE). Attendance logs hours toward records and the compliance check, and fees go to Expenses (ESA-eligible).
+    - Sources: families share programs they attend; organizers list their own (with verification); open Freerange co-ops; OpenStreetMap places to seed the map.
+    - Open questions:
+      - who can list programs
+      - automatic hours vs. confirmed attendance
+      - splitting one program's hours across subjects
+      - link-out vs. in-app sign-up and payment
+      - which states to launch with
+- **Keeping information fresh: a regular review workflow.** Curated content goes stale: state laws and rules (`src/lib/standards.ts`, notice-of-intent details), the programs and benefits list, co-op and program listings, and Library sources and licenses.
+  - **Every entry records** its source link, when it was last checked, who checked it, and a review interval (e.g. laws yearly and before each school year, benefit deadlines each season, local programs every few months).
+  - **A scheduled job** (e.g. a weekly Supabase cron or GitHub Action):
+    - flags entries due for review
+    - checks source links for dead pages or changed content (page hash or last-modified date)
+    - checks Library sources for license changes
+    - watches state legislature and agency pages during session
+  - **A review queue** for moderators or admins shows what changed: the old text, the new source text, and a suggested update for a person to approve. AI-assisted drafting waits for the API key. Approved changes publish as a content update without an app release.
+  - **Community signals feed the queue:** "Is this still right?" or "Still happening?" prompts to families who use an entry, and reports of wrong info. Stale programs are hidden automatically after no confirmations for a set time.
+  - **Families affected by a change hear about it**, e.g. "Colorado changed its notice-of-intent deadline", with a dated changelog.
 - **Design review, round 1:** the shared fixes and small P1s from the design review (https://claude.ai/artifact/8qLz8ns8mJDs2wsRaxBbDK), then rounds 2 and 3.
 - **From the Compass and Studio test suites:**
   - Throttle repeated wrong kid and parent PINs; there's no limit today.
