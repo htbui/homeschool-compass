@@ -210,14 +210,15 @@ async function run() {
   await click('All grades');
   await expect('🎁 Bundles', 'bundle section');
   await expect('Pond and birds year');
-  await expect('Save 20%', 'bundle saving (24 instead of 30)');
+  await expect('Save 13%', 'bundle saving against today’s prices ($24 instead of $27.50 with the sale)');
   await shot('cg-market-bundles');
   await expect('$7.50', 'sale price in the catalog');
   await go(`/listing/${birdsId}`);
   await expect('25% off until', 'sale on the listing page');
   await expect('In the bundle “Pond and birds year”', 'listing links to its bundle');
   await click('In the bundle');
-  await expect('$30 if bought separately');
+  await expect('$27.50 separately today', 'bundle compares with today’s prices');
+  await expect('($30 at full price)');
   await expect('This is your bundle.', 'creators can’t buy their own bundle');
 
   scenario('Send a free curriculum as a gift');
@@ -247,7 +248,8 @@ async function run() {
   log(!!got?.giftFrom && got.price === 0, 'purchase marked as a gift');
   await expect('✓ Claimed', 'status updates to claimed');
   await go(`/gift/${gift.code}`);
-  await expect('already been claimed', 'a code works once');
+  await expect('It’s in your library.', 'a claimed code says the gift is already yours');
+  log(!(await has('Claim my gift')), 'a code works once');
 
   scenario('Start a co-op class');
   await go('/studio/classes');
