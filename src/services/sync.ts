@@ -1,7 +1,9 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import type { RealtimeChannel } from '@supabase/supabase-js';
-import { AppState } from 'react-native';
+import * as Linking from 'expo-linking';
+import { AppState, Platform } from 'react-native';
 
+import { parseAuthRedirect, resetRedirect } from '@/lib/authLinks';
 import { deepEqual, mergeWorkspace } from '@/lib/sync';
 import { useAccount } from '@/store/useAccount';
 import { useStore, type Store } from '@/store/useStore';
@@ -93,7 +95,9 @@ export function startSync() {
     if (raw) base = JSON.parse(raw);
   });
   supabase.auth.onAuthStateChange((event, session) => {
-    if (session && (event === 'SIGNED_IN' || event === 'INITIAL_SESSION')) {
+    // Opened from a password-reset email: signed in, and asked to choose a new password.
+    if (event === 'PASSWORD_RECOVERY') account().set({ recovering: true });
+    if (session && (event === 'SIGNED_IN' || event === 'INITIAL_SESSION' || event === 'PASSWORD_RECOVERY')) {
       // Leave the auth callback before doing more Supabase calls (supabase-js deadlocks otherwise).
       setTimeout(() => connect(session.user.id, session.user.email ?? undefined), 0);
     }
@@ -102,6 +106,11 @@ export function startSync() {
   AppState.addEventListener('change', (st) => {
     if (st === 'active' && account().familyId) pull();
   });
+  if (Platform.OS !== 'web') {
+    // Phones: the reset email opens freerange://account#access_token=… (the web client reads the link itself).
+    Linking.getInitialURL().then((u) => { if (u) openAuthLink(u); });
+    Linking.addEventListener('url', ({ url }) => openAuthLink(url));
+  }
   if (typeof window !== 'undefined' && typeof window.addEventListener === 'function') {
     window.addEventListener('online', () => account().familyId && pull());
   }
@@ -405,7 +414,43 @@ export async function mediaUrl(path: string): Promise<string | undefined> {
   return data.signedUrl;
 }
 
+async function openAuthLink(url: string) {
+  const link = parseAuthRedirect(url);
+  if (!supabase || !link) return;
+  const { error } = await supabase.auth.setSession({ access_token: link.accessToken, refresh_token: link.refreshToken });
+  if (!error && link.type === 'recovery') account().set({ recovering: true });
+}
+
 // ───────────────────────────── Account actions
+
+/** Email a link to choose a new password. It opens the account screen, signed in. */
+export async function sendPasswordReset(email: string) {
+  if (!supabase) throw new Error('Cloud sync isn’t set up for this build.');
+  const origin = Platform.OS === 'web' && typeof window !== 'undefined' ? window.location.origin : undefined;
+  const { error } = await supabase.auth.resetPasswordForEmail(email.trim(), { redirectTo: resetRedirect(origin, Linking.createURL('/account')) });
+  if (error) throw new Error(friendlyError(error));
+}
+
+/** Set a new password for the signed-in account (after a reset link, or to change it). */
+export async function changePassword(password: string) {
+  if (!supabase) throw new Error('Cloud sync isn’t set up for this build.');
+  const { error } = await supabase.auth.updateUser({ password });
+  if (error) throw new Error(friendlyError(error));
+  account().set({ recovering: false });
+}
+
+/** Ask to move the account to a new email. Returns true when a confirmation link was sent first. */
+export async function changeEmail(email: string): Promise<boolean> {
+  if (!supabase) throw new Error('Cloud sync isn’t set up for this build.');
+  const { data, error } = await supabase.auth.updateUser({ email: email.trim() });
+  if (error) throw new Error(friendlyError(error));
+  const now = data.user?.email;
+  if (now && now.toLowerCase() === email.trim().toLowerCase()) {
+    account().set({ email: now });
+    return false;
+  }
+  return true;
+}
 
 export async function signIn(email: string, password: string) {
   if (!supabase) throw new Error('Cloud sync isn’t set up for this build.');

@@ -42,6 +42,9 @@ export function friendlyError(e: unknown): string {
   if (/User already registered/i.test(msg)) return 'There’s already an account with that email — sign in instead.';
   if (/Password should be at least/i.test(msg)) return 'Use a password of at least 6 characters.';
   if (/Email not confirmed/i.test(msg)) return 'Check your inbox and confirm your email first.';
+  if (/only request this after|rate limit|too many/i.test(msg)) return 'We just sent one. Wait a minute, then try again.';
+  if (/should be different from the old/i.test(msg)) return 'Choose a password you haven’t used for this account.';
+  if (/Unable to validate email|invalid format/i.test(msg)) return 'That doesn’t look like an email address.';
   if (/JWT|not authenticated|Sign in first/i.test(msg)) return 'Please sign in again.';
   return msg;
 }
