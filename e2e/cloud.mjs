@@ -206,7 +206,7 @@ try {
   await A.expect('Kitchen Chemistry');
   await A.click('Buy', { exact: true });
   await A.expect('secure checkout page', 'live checkout copy');
-  await A.click('🧾 Tax-deductible');
+  await A.click('🧾 For tax records');
   await A.click('Buy for $29');
   await A.expect('in your library', 'purchase completed (local demo payments)', 20000);
   await A.click('Add to plan', { exact: true });
@@ -390,8 +390,7 @@ try {
   await A.expect(expectLesson);
   await A.expect(real ? `(${real})` : `Adapted from “Open Pond Science ${run}” by Pond Project`, 'credit to the source');
   await A.click('Get it free', { exact: true });
-  await A.click('Get it free', { exact: true });
-  await A.expect('It’s in your library', 'claimed', 15000);
+  await A.expect('It’s in your library', 'claimed in one tap', 15000);
   await A.click('Add to plan', { exact: true });
   await A.expect('Added to your plan ✓');
   const pond = (await A.store()).curricula.find((k) => k.packageId === pub.id);
