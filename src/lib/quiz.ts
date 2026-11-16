@@ -279,3 +279,23 @@ export function describeResult(result: QuizResult): string {
   if (result.breakdown.length === 0) return 'Eclectic';
   return result.breakdown.map((b) => `${b.percent}% ${PHILOSOPHY_INFO[b.philosophy].label}`).join(' + ');
 }
+
+/**
+ * A friendly headline for a quiz result: "You lean Traditional", with the runners-up as
+ * "with a touch of Classical & Charlotte Mason" (instead of a row of percentages).
+ */
+export function leanHeadline(result: QuizResult): { lead: string; touch?: string } {
+  const [first, ...rest] = result.breakdown;
+  if (!first) return { lead: 'You’re eclectic', touch: 'a little of everything' };
+  // "Traditional / School-at-Home" reads as just "Traditional" in a sentence.
+  const short = (p: Philosophy) => PHILOSOPHY_INFO[p].label.split(' / ')[0];
+  const names = rest.map((b) => short(b.philosophy));
+  return {
+    lead: `You lean ${short(first.philosophy)}`,
+    touch: names.length ? `with a touch of ${names.length === 1 ? names[0] : `${names.slice(0, -1).join(', ')} & ${names.at(-1)}`}` : undefined,
+  };
+}
+
+/** Optional chips for family values and interests (onboarding and Settings). */
+export const FAMILY_VALUES = ['curiosity', 'kindness', 'faith', 'independence', 'creativity', 'time outdoors', 'academic rigor', 'family time', 'service', 'self-discipline'];
+export const FAMILY_INTERESTS = ['nature', 'history', 'robotics', 'art', 'music', 'reading', 'space', 'animals', 'cooking', 'sports', 'coding', 'languages'];

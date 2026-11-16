@@ -14,11 +14,13 @@ interface Draft {
   result?: QuizResult;
   values: string[];
   interests: string[];
+  /** Retaking the style quiz from Settings: the results update the family instead of creating one. */
+  retake?: boolean;
   set: (patch: Partial<Omit<Draft, 'set' | 'reset'>>) => void;
   reset: () => void;
 }
 
-const blank = { familyName: '', parentName: '', parentPin: '', zip: '', stateCode: '', children: [], answers: {}, result: undefined, values: [], interests: [] };
+const blank = { familyName: '', parentName: '', parentPin: '', zip: '', stateCode: '', children: [], answers: {}, result: undefined, values: [], interests: [], retake: false };
 
 export const useDraft = create<Draft>()((set) => ({
   ...blank,

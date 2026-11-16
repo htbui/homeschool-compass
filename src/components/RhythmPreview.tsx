@@ -1,14 +1,47 @@
-import { ScrollView, View } from 'react-native';
+import { ScrollView, useWindowDimensions, View } from 'react-native';
 
 import { formatClock, toMinutes } from '@/lib/dates';
 import type { Child, RhythmBlock } from '@/lib/types';
-import { modeColors, Row, space, T, useColors } from '@/ui';
+import { MODE_META, modeColors, Row, space, T, useColors } from '@/ui';
 
-/** Compact per-child timeline of a weekly rhythm (Monday view). */
+/**
+ * A weekly rhythm's Monday, per child: a list on phones (nothing clipped), a compact
+ * timeline on wider screens.
+ */
 export function RhythmPreview({ blocks, kids }: { blocks: RhythmBlock[]; kids: Child[] }) {
   const c = useColors();
-  const monday = blocks.filter((b) => b.days.includes(1));
+  const { width } = useWindowDimensions();
+  const monday = blocks.filter((b) => b.days.includes(1)).sort((a, b) => toMinutes(a.start) - toMinutes(b.start));
   if (!monday.length) return <T muted>No blocks yet.</T>;
+
+  if (width < 700) {
+    return (
+      <View style={{ gap: space.md }} accessibilityLabel="Monday, per child">
+        {kids.map((k) => {
+          const mine = monday.filter((b) => b.childIds.includes(k.id));
+          return (
+            <View key={k.id} style={{ gap: 6 }}>
+              <T v="label">{k.avatar} {k.name}</T>
+              {mine.length === 0 ? <T v="caption" muted>Nothing on Monday</T> : null}
+              {mine.map((b) => {
+                const m = modeColors(c, b.mode);
+                return (
+                  <Row key={b.id} gap={space.sm} align="flex-start" style={{ backgroundColor: m.bg, borderLeftWidth: 4, borderLeftColor: m.fg, borderRadius: 8, paddingVertical: 6, paddingHorizontal: 8 }}>
+                    <T v="caption" style={{ width: 64, fontWeight: '700' }}>{formatClock(b.start)}</T>
+                    <View style={{ flex: 1 }}>
+                      <T v="caption" style={{ fontWeight: '700' }}>{b.icon} {b.title}</T>
+                      <T v="caption" color={m.ink}>{MODE_META[b.mode].short} · {b.durationMin} min</T>
+                    </View>
+                  </Row>
+                );
+              })}
+            </View>
+          );
+        })}
+      </View>
+    );
+  }
+
   const start = Math.min(...monday.map((b) => toMinutes(b.start)));
   const end = Math.max(...monday.map((b) => toMinutes(b.start) + b.durationMin));
   const PX = 2.4; // px per minute
