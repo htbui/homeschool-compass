@@ -1,4 +1,4 @@
-import { isCore } from './subjects';
+import { isCore, SUBJECTS } from './subjects';
 import type { DateKey, HoursLog, ID, Subject, Task } from './types';
 
 export interface HoursSummary {
@@ -37,7 +37,7 @@ export function summarizeHours(
   };
 
   for (const t of tasks) {
-    if (t.status !== 'done' || !forChild(t.childId) || !inRange(t.date)) continue;
+    if (t.status !== 'done' || t.hoursExcluded || !forChild(t.childId) || !inRange(t.date)) continue;
     add(t.subject, t.minutesSpent && t.minutesSpent > 0 ? t.minutesSpent : t.durationMin, t.date);
   }
   for (const l of logs) {
@@ -50,3 +50,12 @@ export function summarizeHours(
 }
 
 export const toHours = (min: number) => Math.round((min / 60) * 10) / 10;
+
+/** "🏃 PE 5 h (non-core)": spelled out, no abbreviations. */
+export function subjectHoursLabel(subject: Subject, minutes: number): string {
+  const s = SUBJECTS[subject];
+  return `${s.icon} ${s.label} ${toHours(minutes)} h${s.core ? '' : ' (non-core)'}`;
+}
+
+/** "22.5 of 688 hrs" (or "22.5 hrs" when the state sets no goal). */
+export const hoursOfGoal = (minutes: number, goal?: number) => `${toHours(minutes)}${goal ? ` of ${goal}` : ''} hrs`;

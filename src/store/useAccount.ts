@@ -21,6 +21,8 @@ interface AccountState {
   error?: string;
   /** Account has a family in the cloud and this device has a different one: ask before replacing. */
   conflict?: { familyId: string; familyName: string };
+  /** Signed in from a password-reset link: ask for a new password. */
+  recovering?: boolean;
   set: (p: Partial<Omit<AccountState, 'set' | 'reset'>>) => void;
   reset: () => void;
 }
@@ -31,7 +33,7 @@ export const useAccount = create<AccountState>()(
       version: 0,
       status: 'off',
       set: (p) => set(p),
-      reset: () => set({ userId: undefined, email: undefined, familyId: undefined, familyName: undefined, version: 0, status: 'off', lastSyncedAt: undefined, error: undefined, conflict: undefined }),
+      reset: () => set({ userId: undefined, email: undefined, familyId: undefined, familyName: undefined, version: 0, status: 'off', lastSyncedAt: undefined, error: undefined, conflict: undefined, recovering: false }),
     }),
     {
       name: 'freerange-account',

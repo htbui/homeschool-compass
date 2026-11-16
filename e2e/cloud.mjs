@@ -169,6 +169,7 @@ try {
   for (const title of ['Lego / Sensory Play', 'Outdoor Free Play']) {
     await B.click('＋  Task', { exact: true });
     await B.fillLabel('Title', title);
+    await B.click('🦖 Leo', { exact: true }); // with several kids nobody is preselected (C-24)
     await B.click('Save', { exact: true });
     await sleep(600);
   }

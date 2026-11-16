@@ -74,7 +74,7 @@ await page.screenshot({ path: `${OUT}10-results.png` });
 await clickText('Start homeschooling with Freerange');
 await sleep(1200);
 await check('landed on flight deck', 'Family Flight Deck');
-await check('compliance radar NOI', 'Notice of Intent not filed yet');
+await check('compliance radar NOI', 'File your Notice of Intent');
 await page.screenshot({ path: `${OUT}11-new-family-today.png` });
 console.log('Console errors:', errors.length ? errors.slice(0, 10).join('\n') : 'none');
 await browser.close();

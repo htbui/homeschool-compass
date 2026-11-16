@@ -1,9 +1,10 @@
 import { router } from 'expo-router';
 import { useState } from 'react';
 
+import { ComplianceRadar } from '@/components/ComplianceRadar';
 import { StateRadarCard } from '@/components/StateRadarCard';
 import { useCompliance } from '@/hooks/useCompliance';
-import { todayKey } from '@/lib/dates';
+import { formatDate, todayKey } from '@/lib/dates';
 import { evaluatorPacketHtml } from '@/lib/documents';
 import { toHours } from '@/lib/hours';
 import { missingSentence, standardLabel } from '@/lib/standards';
@@ -46,16 +47,8 @@ export default function Compass() {
       <T v="display">Homeschool Compass</T>
       <T muted>Legal radar, records, and benefits for {state.family?.familyName}.</T>
 
-      <Section title="Compliance radar">
-        <Card>
-          {items.map((i) => (
-            <Row key={i.label} style={{ justifyContent: 'space-between' }}>
-              <T style={{ flex: 1 }}>{i.ok ? '✅' : '⚠️'} {i.label}</T>
-              {i.route ? <Button kind="ghost" size="sm" title="Open ›" onPress={() => router.push(i.route!)} /> : null}
-            </Row>
-          ))}
-          {items.length === 0 ? <T muted>Choose your state in Settings to see requirements.</T> : null}
-        </Card>
+      <Section title="Compliance radar" subtitle="What to do next, and what’s on track for this school year.">
+        {items.length ? <ComplianceRadar items={items} /> : <Card><T muted>Choose your state in Settings to see requirements.</T></Card>}
       </Section>
 
       <Section title="Subject coverage" subtitle="From your curricula, your weekly rhythm, and the standards tagged in lesson plans.">
@@ -84,7 +77,7 @@ export default function Compass() {
         </Card>
       </Section>
 
-      <Section title="Hours this school year" subtitle={`Since ${state.family?.schoolYearStart} · ${fam.daysAttended} days of instruction`}>
+      <Section title="Hours this school year" subtitle={`${state.family ? `Since ${formatDate(state.family.schoolYearStart, { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' })} · ` : ''}${fam.daysAttended} day${fam.daysAttended === 1 ? '' : 's'} of instruction`}>
         <Stack gap={space.sm}>
           {perChild.map(({ child, summary }) => {
             const hrs = toHours(summary.totalMin);
@@ -93,7 +86,7 @@ export default function Compass() {
               <Card key={child.id}>
                 <Row style={{ justifyContent: 'space-between' }}>
                   <T v="heading">{child.avatar} {child.name}</T>
-                  <T v="label">{hrs}{goal ? ` / ${goal}` : ''} hrs</T>
+                  <T v="label">{hrs}{goal ? ` of ${goal}` : ''} hrs</T>
                 </Row>
                 {goal ? <Progress value={hrs / goal} /> : null}
                 <T v="caption" muted>Core {toHours(summary.coreMin)} h · Non-core {toHours(summary.nonCoreMin)} h · {summary.daysAttended} days</T>

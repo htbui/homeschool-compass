@@ -1,9 +1,12 @@
 import { router } from 'expo-router';
 import { useState } from 'react';
+import { View } from 'react-native';
 
+import { PasswordField } from '@/components/PasswordField';
+import { passwordProblems, validEmail as isEmail } from '@/lib/authLinks';
 import { formatDate } from '@/lib/dates';
 import { cloudEnabled } from '@/services/cloud';
-import { createInvite, joinFamily, leaveFamily, pull, push, resolveConflict, signIn, signOut, signUp } from '@/services/sync';
+import { changeEmail, changePassword, createInvite, joinFamily, leaveFamily, pull, push, resolveConflict, sendPasswordReset, signIn, signOut, signUp } from '@/services/sync';
 import { STATUS_LABEL, useAccount } from '@/store/useAccount';
 import { useStore } from '@/store/useStore';
 import { Button, Card, Field, Pill, Row, Screen, Section, Segmented, Stack, T, useColors, useConfirm } from '@/ui';
@@ -17,11 +20,17 @@ export default function AccountScreen() {
 }
 
 function LocalOnly() {
+  const hasFamily = useStore((s) => !!s.family);
   return (
     <Screen edges={[]}>
       <Section title="Cloud sync isn't set up in this build">
         <T>Freerange is running local-only: your family&apos;s data lives on this device. Use Settings → Export backup to move it to another device.</T>
-        <T muted>Developers: add EXPO_PUBLIC_SUPABASE_URL and EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY (see README → Cloud).</T>
+        {/* Setup notes are for developers running their own build, never for parents. */}
+        {__DEV__ ? <T muted>Developers: add EXPO_PUBLIC_SUPABASE_URL and EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY (see README → Cloud).</T> : null}
+        <Row wrap>
+          {hasFamily ? <Button title="Go to Today" onPress={() => router.replace('/today')} /> : <Button title="Set up my family" onPress={() => router.replace('/onboarding')} />}
+          {hasFamily ? <Button kind="secondary" title="Settings" onPress={() => router.push('/settings')} /> : null}
+        </Row>
       </Section>
     </Screen>
   );
@@ -31,12 +40,13 @@ function SignInForm() {
   const c = useColors();
   const hasFamily = useStore((s) => !!s.family);
   const [mode, setMode] = useState<'in' | 'up'>('in');
+  const [forgot, setForgot] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
   const [notice, setNotice] = useState('');
-  const validEmail = /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email.trim());
+  const validEmail = isEmail(email);
   const missing = [!validEmail && 'a valid email', password.length < 6 && 'a password of 6+ characters'].filter(Boolean);
 
   const go = async () => {
@@ -57,13 +67,53 @@ function SignInForm() {
     }
   };
 
+  if (forgot) {
+    return (
+      <Screen edges={[]}>
+        <Section title="Reset your password" subtitle="We’ll email you a link. It opens Freerange, signed in, so you can choose a new password. Your family’s records stay safe in your account.">
+          <Card>
+            <Field label="Email" value={email} onChangeText={(t) => { setEmail(t); setNotice(''); }} autoCapitalize="none" autoComplete="email" keyboardType="email-address" textContentType="emailAddress" />
+            {error ? <T color={c.danger}>{error}</T> : null}
+            {notice ? <T color={c.successInk} accessibilityLiveRegion="polite">{notice}</T> : null}
+            <Button
+              title="Email me a reset link"
+              loading={busy}
+              disabled={!validEmail}
+              reason="Still needed: a valid email"
+              onPress={async () => {
+                setBusy(true);
+                setError('');
+                try {
+                  await sendPasswordReset(email);
+                  setNotice(`If ${email.trim()} has a Freerange account, a reset link is on its way. Check your inbox (and spam).`);
+                } catch (e) {
+                  setError(e instanceof Error ? e.message : String(e));
+                } finally {
+                  setBusy(false);
+                }
+              }}
+            />
+          </Card>
+          <Row>
+            <Button kind="ghost" title="‹ Back to sign in" onPress={() => { setForgot(false); setError(''); setNotice(''); }} />
+          </Row>
+        </Section>
+      </Screen>
+    );
+  }
+
   return (
     <Screen edges={[]}>
       <Section title={mode === 'in' ? 'Sign in to Freerange' : 'Create your Freerange account'} subtitle="Sync your family across phones, tablets, and the web, shop the live marketplace, and meet families nearby.">
         <Segmented<'in' | 'up'> value={mode} onChange={setMode} options={[{ value: 'in', label: 'Sign in' }, { value: 'up', label: 'Create account' }]} />
         <Card>
           <Field label="Email" value={email} onChangeText={setEmail} autoCapitalize="none" autoComplete="email" keyboardType="email-address" textContentType="emailAddress" />
-          <Field label="Password" value={password} onChangeText={setPassword} secureTextEntry autoComplete={mode === 'in' ? 'current-password' : 'new-password'} textContentType={mode === 'in' ? 'password' : 'newPassword'} />
+          <PasswordField label="Password" value={password} onChangeText={setPassword} autoComplete={mode === 'in' ? 'current-password' : 'new-password'} textContentType={mode === 'in' ? 'password' : 'newPassword'} />
+          {mode === 'in' ? (
+            <Row>
+              <Button kind="ghost" size="sm" title="Forgot password?" onPress={() => { setForgot(true); setError(''); setNotice(''); }} />
+            </Row>
+          ) : null}
           {error ? <T color={c.danger}>{error}</T> : null}
           {notice ? <T color={c.successInk}>{notice}</T> : null}
           <Button title={mode === 'in' ? 'Sign in' : 'Create account'} loading={busy} disabled={missing.length > 0} reason={`Still needed: ${missing.join(', ')}`} onPress={go} />
@@ -124,6 +174,7 @@ function SignedIn() {
 
   return (
     <Screen edges={[]}>
+      {acct.recovering ? <NewPassword title="Choose a new password" subtitle="You opened a password-reset link. Pick a new password to finish." /> : null}
       <Section title="Account & sync">
         <Card>
           <Row wrap style={{ justifyContent: 'space-between' }}>
@@ -172,6 +223,11 @@ function SignedIn() {
 
       {error ? <T color={c.danger}>{error}</T> : null}
 
+      <Section title="Sign-in details">
+        <ChangeEmail current={acct.email} />
+        {acct.recovering ? null : <NewPassword title="Change password" compact />}
+      </Section>
+
       <Section title="Sign out">
         <Row wrap>
           <Button kind="secondary" title="Sign out" loading={busy === 'out'} onPress={() => run('out', () => signOut(true))} />
@@ -196,5 +252,112 @@ function SignedIn() {
       </Section>
       {confirm.element}
     </Screen>
+  );
+}
+
+/** Set a new password: after a reset link, or to change it. */
+function NewPassword({ title, subtitle, compact }: { title: string; subtitle?: string; compact?: boolean }) {
+  const c = useColors();
+  const [open, setOpen] = useState(!compact);
+  const [pw, setPw] = useState('');
+  const [again, setAgain] = useState('');
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState('');
+  const [done, setDone] = useState(false);
+  const problems = passwordProblems(pw, again);
+  if (!open) {
+    return (
+      <Card>
+        <Row wrap style={{ justifyContent: 'space-between' }}>
+          <T v="heading">🔑 Password</T>
+          <Button size="sm" kind="secondary" title={done ? 'Password changed ✓' : 'Change password'} onPress={() => { setOpen(true); setDone(false); }} />
+        </Row>
+      </Card>
+    );
+  }
+  return (
+    <Card tint={compact ? undefined : c.accentSoft}>
+      <T v="heading">{title}</T>
+      {subtitle ? <T v="caption" muted>{subtitle}</T> : null}
+      <PasswordField label="New password" value={pw} onChangeText={setPw} autoComplete="new-password" textContentType="newPassword" />
+      <PasswordField label="New password again" value={again} onChangeText={setAgain} autoComplete="new-password" textContentType="newPassword" />
+      {error ? <T color={c.danger}>{error}</T> : null}
+      <Row wrap style={{ justifyContent: 'flex-end' }}>
+        {compact ? <Button kind="secondary" title="Cancel" onPress={() => { setOpen(false); setPw(''); setAgain(''); setError(''); }} /> : null}
+        <Button
+          title="Save new password"
+          loading={busy}
+          disabled={problems.length > 0}
+          reason={`Still needed: ${problems.join(', ')}`}
+          onPress={async () => {
+            setBusy(true);
+            setError('');
+            try {
+              await changePassword(pw);
+              setPw('');
+              setAgain('');
+              setDone(true);
+              setOpen(false);
+            } catch (e) {
+              setError(e instanceof Error ? e.message : String(e));
+            } finally {
+              setBusy(false);
+            }
+          }}
+        />
+      </Row>
+    </Card>
+  );
+}
+
+/** Move the account to a new email (confirmed by a link sent to it). */
+function ChangeEmail({ current }: { current?: string }) {
+  const c = useColors();
+  const [open, setOpen] = useState(false);
+  const [email, setEmail] = useState('');
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState('');
+  const [notice, setNotice] = useState('');
+  const same = email.trim().toLowerCase() === (current ?? '').toLowerCase();
+  return (
+    <Card>
+      <Row wrap style={{ justifyContent: 'space-between' }}>
+        <View style={{ flex: 1, minWidth: 180 }}>
+          <T v="heading">✉️ Email</T>
+          <T v="caption" muted>{current}</T>
+        </View>
+        {open ? null : <Button size="sm" kind="secondary" title="Change email" onPress={() => { setOpen(true); setNotice(''); }} />}
+      </Row>
+      {notice ? <T color={c.successInk} accessibilityLiveRegion="polite">{notice}</T> : null}
+      {open ? (
+        <>
+          <Field label="New email" value={email} onChangeText={setEmail} autoCapitalize="none" autoComplete="email" keyboardType="email-address" textContentType="emailAddress" />
+          {error ? <T color={c.danger}>{error}</T> : null}
+          <Row wrap style={{ justifyContent: 'flex-end' }}>
+            <Button kind="secondary" title="Cancel" onPress={() => { setOpen(false); setEmail(''); setError(''); }} />
+            <Button
+              title="Change email"
+              loading={busy}
+              disabled={!isEmail(email) || same}
+              reason={same ? 'That’s already your email' : 'Still needed: a valid email'}
+              onPress={async () => {
+                setBusy(true);
+                setError('');
+                try {
+                  const pending = await changeEmail(email);
+                  setNotice(pending ? `We sent a confirmation link to ${email.trim()}. Your sign-in email changes once you open it.` : `Your sign-in email is now ${email.trim()}.`);
+                  setOpen(false);
+                  setEmail('');
+                } catch (e) {
+                  setError(e instanceof Error ? e.message : String(e));
+                } finally {
+                  setBusy(false);
+                }
+              }}
+            />
+          </Row>
+        </>
+      ) : null}
+    </Card>
   );
 }

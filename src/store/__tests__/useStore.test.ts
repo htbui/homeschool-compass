@@ -233,15 +233,28 @@ describe('working ahead (start early)', () => {
     expect(S().tasks.find((x) => x.id === t.id)!.date).toBe(today);
   });
 
-  it('a group mission started early leaves the family session', () => {
-    setup({ blocks: [block({ id: 'g', mode: 'group', childIds: ['a', 'b'] })] });
+  it('C-12: family sessions and 1-on-1s stay on their day (only solo missions start early)', () => {
+    setup({ blocks: [block({ id: 'g', mode: 'group', childIds: ['a', 'b'] }), block({ id: 'p', mode: 'parent', childIds: ['b'], start: '11:00' })] });
     const later = addDays(today, 3);
     S().ensureTasks(later);
-    const [a, b] = ['a', 'b'].map((k) => tasksOn(later, k)[0]);
-    S().startEarly(a.id);
-    const moved = S().tasks.find((x) => x.id === a.id)!;
-    expect(moved.groupKey).not.toBe(b.groupKey);
+    const before = JSON.stringify(S().tasks);
+    for (const t of tasksOn(later)) S().startEarly(t.id);
+    expect(JSON.stringify(S().tasks)).toBe(before);
     expect(findParentConflicts(tasksOn(later))).toEqual([]);
+  });
+
+  it('C-12: the parent can turn starting early off, and an early start is recorded for their notification', () => {
+    setup({ blocks: [block({ id: 'b1' })], family: { kidsStartEarly: false } });
+    const later = addDays(today, 1);
+    S().ensureTasks(later);
+    const t = tasksOn(later, 'a')[0];
+    S().startEarly(t.id);
+    expect(S().tasks.find((x) => x.id === t.id)!.date).toBe(later);
+    S().updateFamily({ kidsStartEarly: true });
+    S().startEarly(t.id);
+    const moved = S().tasks.find((x) => x.id === t.id)!;
+    expect(moved.date).toBe(today);
+    expect(Date.parse(moved.startedEarlyAt!)).toBeGreaterThan(Date.now() - 5000);
   });
 
   it('refuses to "start early" today or past tasks', () => {
@@ -440,5 +453,58 @@ describe('school days', () => {
   it('next school day from a Friday is the following Monday for a weekday family', () => {
     const friday = nextDayIn(today, [5])!;
     expect(weekdayOf(nextDayIn(friday, [1, 2, 3, 4, 5])!)).toBe(1);
+  });
+});
+
+describe('C-03: the mission timer lives on the task', () => {
+  it('keeps counting while the kid is elsewhere, pauses, and logs its real minutes', () => {
+    vi.useFakeTimers();
+    try {
+      vi.setSystemTime(new Date(`${today}T10:00:00`));
+      setup({ blocks: [block({ id: 'b1', durationMin: 30 })] });
+      S().ensureTasks(today);
+      const t = tasksOn(today, 'a')[0];
+      S().startTaskTimer(t.id);
+      expect(S().tasks.find((x) => x.id === t.id)!.status).toBe('in_progress');
+      // 12 minutes later (the screen was closed the whole time), pause.
+      vi.setSystemTime(new Date(`${today}T10:12:00`));
+      S().pauseTaskTimer(t.id);
+      expect(S().tasks.find((x) => x.id === t.id)!.timer).toEqual({ mode: 'stopwatch', pausedMs: 12 * 60000 });
+      // Paused time doesn't count; resume for 3 more minutes, then finish.
+      vi.setSystemTime(new Date(`${today}T10:40:00`));
+      S().startTaskTimer(t.id);
+      vi.setSystemTime(new Date(`${today}T10:43:00`));
+      S().completeTask(t.id);
+      const done = S().tasks.find((x) => x.id === t.id)!;
+      expect(done.minutesSpent).toBe(15);
+      expect(done.timer?.startedAt).toBeUndefined();
+    } finally {
+      vi.useRealTimers();
+    }
+  });
+
+  it('switching to a Pomodoro starts over, and a task that never timed falls back to its plan', () => {
+    setup({ blocks: [block({ id: 'b1', durationMin: 30 })] });
+    S().ensureTasks(today);
+    const [t] = tasksOn(today, 'a');
+    S().startTaskTimer(t.id);
+    S().setTimerMode(t.id, 'pomodoro');
+    expect(S().tasks.find((x) => x.id === t.id)!.timer).toEqual({ mode: 'pomodoro', pausedMs: 0 });
+    S().completeTask(t.id);
+    expect(S().tasks.find((x) => x.id === t.id)!.minutesSpent).toBeUndefined();
+  });
+});
+
+describe('C-13: "I figured it out"', () => {
+  it('withdraws the open request, so the queue has nothing stale', () => {
+    setup();
+    S().requestHelp('a');
+    expect(selectOpenHelp(S())).toHaveLength(1);
+    S().withdrawHelp('a');
+    expect(selectOpenHelp(S())).toHaveLength(0);
+    expect(S().help[0]).toMatchObject({ withdrawn: true });
+    // They can ask again later.
+    S().requestHelp('a');
+    expect(selectOpenHelp(S())).toHaveLength(1);
   });
 });

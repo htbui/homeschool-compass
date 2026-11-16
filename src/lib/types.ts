@@ -1,5 +1,6 @@
 import type { License } from './license';
 import type { PackageUnit, VersionPick } from './package';
+import type { TaskTimer } from './timer';
 
 // Core domain model for Freerange. Everything here is plain data so it can be
 // persisted locally today and synced to the Freerange API later.
@@ -80,6 +81,14 @@ export interface FamilyProfile {
    * turned off). Turning it off also deletes what was shared.
    */
   insightsOptOut?: boolean;
+  /** Kids may start upcoming solo missions early (on unless turned off). */
+  kidsStartEarly?: boolean;
+  /** Kids may print their own day and worksheets (on unless turned off). */
+  kidsCanPrint?: boolean;
+  /** The parent closed the "Your first week" card on Today. */
+  firstWeekDismissed?: boolean;
+  /** When this year's assessment / evaluation is planned (states that require one). */
+  assessmentDate?: DateKey;
   createdAt: string;
 }
 
@@ -143,6 +152,12 @@ export interface Task {
   /** The outline lesson this task's steps were filled from. */
   lessonId?: ID;
   bumpedFrom?: DateKey;
+  /** The mission's focus timer, so it keeps counting while a kid is on another screen. */
+  timer?: TaskTimer;
+  /** A kid started this upcoming mission early (the parent is told). */
+  startedEarlyAt?: string;
+  /** Left out of the hours records (e.g. logged by mistake). */
+  hoursExcluded?: boolean;
 }
 
 export interface HelpRequest {
@@ -152,6 +167,8 @@ export interface HelpRequest {
   note?: string;
   createdAt: string;
   resolvedAt?: string;
+  /** The kid figured it out themselves ("I figured it out"). */
+  withdrawn?: boolean;
 }
 
 export interface MoodCheckIn {

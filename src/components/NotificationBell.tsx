@@ -13,9 +13,11 @@ export function NotificationBell() {
       accessibilityRole="button"
       accessibilityLabel={unread ? `Notifications, ${unread} unread` : 'Notifications'}
       onPress={() => router.push('/notifications')}
-      hitSlop={6}
       style={({ pressed }) => ({
-        paddingVertical: 6,
+        minWidth: 44,
+        minHeight: 44,
+        alignItems: 'center',
+        justifyContent: 'center',
         paddingHorizontal: 10,
         borderRadius: radius.md,
         borderWidth: 1,

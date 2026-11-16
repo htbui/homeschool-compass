@@ -65,22 +65,32 @@ await check('flight deck', 'Family Flight Deck');
 await check('timeline kid', 'Maya');
 await shot('02-today');
 
-for (const [tab, expect] of [['Rhythm', 'Weekly Rhythm'], ['Curriculum', 'Beast Academy'], ['Compass', 'Homeschool Compass'], ['Community', 'Family finder']]) {
-  await clickText(tab);
+// Tabs (and the Plan tab's parts) by their exact label.
+const clickTab = async (name) => {
+  const ok = await page.evaluate((n) => {
+    const el = [...document.querySelectorAll('[role="tab"]')].find((e) => e.offsetParent && e.innerText.trim().split('\n').at(-1).trim().replace(/^\S+\s+/, (m) => (/[A-Za-z]/.test(m) ? m : '')) === n);
+    el?.click();
+    return !!el;
+  }, name);
+  if (!ok) throw new Error(`No tab: ${name}`);
+  await sleep(700);
+};
+for (const [tab, expect] of [['Plan', 'Weekly Rhythm'], ['Curricula', 'Beast Academy'], ['Compass', 'Homeschool Compass'], ['Community', 'Family finder']]) {
+  await clickTab(tab);
   await sleep(800);
   await check(`tab ${tab}`, expect);
   await shot(`03-${tab.toLowerCase()}`);
 }
 
 // Unit study generator
-await clickText('Curriculum');
-await clickText('Unit Study Generator');
+await clickTab('Plan');
+await clickTab('Unit study');
 await page.type('input[placeholder^="Space Exploration"]', 'Ancient Egypt');
 await clickText('Generate');
 await check('unit study', 'Day 10');
 
 // Compass → NOI
-await clickText('Compass');
+await clickTab('Compass');
 await clickText('Notice of Intent');
 await sleep(800);
 await check('noi screen', 'Proof-of-mailing checklist');
@@ -89,7 +99,7 @@ await page.goBack();
 await sleep(800);
 
 // Kid mode: Maya has PIN 1111
-await clickText('Today');
+await clickTab('Today');
 await clickText('Kid mode');
 await check('kid picker', "Who's learning today?");
 await shot('05-kid-picker');

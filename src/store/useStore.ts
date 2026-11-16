@@ -7,7 +7,9 @@ import { fromMinutes, schoolYearLabel, todayKey } from '@/lib/dates';
 import type { SentGift } from '@/lib/gifts';
 import { uid } from '@/lib/id';
 import { applyPlanUpdate } from '@/lib/planUpdate';
+import { canStartEarly } from '@/lib/kidRules';
 import { autoStagger, gentleBump, tasksForDate } from '@/lib/schedule';
+import { minutesSpent, pauseTimer, startTimer, switchMode, type TimerMode } from '@/lib/timer';
 import type {
   Child,
   CommunityEvent,
@@ -83,11 +85,17 @@ interface Actions {
   reopenTask: (id: ID) => void;
   /** A kid working ahead: move an upcoming task to today so its time counts today. */
   startEarly: (id: ID) => void;
+  /** The mission's focus timer (kept on the task, so it runs while the kid is elsewhere). */
+  startTaskTimer: (id: ID) => void;
+  pauseTaskTimer: (id: ID) => void;
+  setTimerMode: (id: ID, mode: TimerMode) => void;
   staggerDay: (date: DateKey) => number;
   bumpDay: (date: DateKey, target: DateKey, opts?: { fromTime?: string; childId?: ID }) => number;
 
   requestHelp: (childId: ID, taskId?: ID, note?: string) => void;
   resolveHelp: (id: ID) => void;
+  /** "I figured it out": the kid takes back their open help request. */
+  withdrawHelp: (childId: ID) => void;
   setMood: (m: MoodCheckIn) => void;
 
   addEvidence: (e: Omit<Evidence, 'id'>) => void;
@@ -251,10 +259,13 @@ export const useStore = create<Store>()(
           const task = s.tasks.find((t) => t.id === id);
           if (!task || task.status === 'done') return {};
           const bonus = p.reflection ? 5 : 0;
+          // The timer's real time goes in the hours records (not the planned length).
+          const spent = p.minutesSpent ?? minutesSpent(task.timer);
+          const timer = task.timer ? pauseTimer(task.timer) : undefined;
           const cur = task.curriculumId ? s.curricula.find((c) => c.id === task.curriculumId) : undefined;
           return {
             tasks: s.tasks.map((t) =>
-              t.id === id ? { ...t, ...p, status: 'done', completedAt: new Date().toISOString(), steps: t.steps.map((st) => ({ ...st, done: true })), lessonNo: cur ? Math.min(cur.totalLessons, doneFor(cur, t.childId) + 1) : undefined } : t,
+              t.id === id ? { ...t, ...p, minutesSpent: spent, timer, status: 'done', completedAt: new Date().toISOString(), steps: t.steps.map((st) => ({ ...st, done: true })), lessonNo: cur ? Math.min(cur.totalLessons, doneFor(cur, t.childId) + 1) : undefined } : t,
             ),
             children: s.children.map((c) => (c.id === task.childId ? { ...c, sparks: c.sparks + SPARKS_PER_TASK + bonus } : c)),
             curricula: cur ? s.curricula.map((c) => (c.id === cur.id ? setDoneFor(c, task.childId, doneFor(c, task.childId) + 1) : c)) : s.curricula,
@@ -275,7 +286,8 @@ export const useStore = create<Store>()(
         set((s) => {
           const today = todayKey();
           const task = s.tasks.find((t) => t.id === id);
-          if (!task || task.date <= today) return {};
+          // Only solo missions, and only when the parent allows it (1-on-1s and family time stay put).
+          if (!task || !canStartEarly(task, today, s.family)) return {};
           const now = new Date();
           const start = fromMinutes(Math.ceil((now.getHours() * 60 + now.getMinutes()) / 5) * 5);
           return {
@@ -286,6 +298,7 @@ export const useStore = create<Store>()(
                     date: today,
                     start,
                     status: 'in_progress',
+                    startedEarlyAt: now.toISOString(),
                     // Remember the planned day so the rhythm doesn't recreate it there.
                     bumpedFrom: t.bumpedFrom ?? t.date,
                     // Done solo ahead of the family, so it's no longer part of the group session.
@@ -295,6 +308,10 @@ export const useStore = create<Store>()(
             ),
           };
         }),
+      startTaskTimer: (id) =>
+        set((s) => ({ tasks: s.tasks.map((t) => (t.id === id ? { ...t, status: t.status === 'todo' ? 'in_progress' : t.status, timer: startTimer(t.timer) } : t)) })),
+      pauseTaskTimer: (id) => set((s) => ({ tasks: s.tasks.map((t) => (t.id === id && t.timer ? { ...t, timer: pauseTimer(t.timer) } : t)) })),
+      setTimerMode: (id, mode) => set((s) => ({ tasks: s.tasks.map((t) => (t.id === id ? { ...t, timer: switchMode(mode) } : t)) })),
       staggerDay: (date) => {
         const s = get();
         const day = s.tasks.filter((t) => t.date === date);
@@ -318,6 +335,8 @@ export const useStore = create<Store>()(
             : { help: [...s.help, { id: uid('h'), childId, taskId, note, createdAt: new Date().toISOString() }] },
         ),
       resolveHelp: (id) => set((s) => ({ help: s.help.map((h) => (h.id === id ? { ...h, resolvedAt: new Date().toISOString() } : h)) })),
+      withdrawHelp: (childId) =>
+        set((s) => ({ help: s.help.map((h) => (h.childId === childId && !h.resolvedAt ? { ...h, resolvedAt: new Date().toISOString(), withdrawn: true } : h)) })),
       setMood: (m) => set((s) => ({ moods: [...s.moods.filter((x) => !(x.childId === m.childId && x.date === m.date)), m] })),
 
       addEvidence: (e) => set((s) => ({ evidence: [{ ...e, id: uid('ev') }, ...s.evidence] })),

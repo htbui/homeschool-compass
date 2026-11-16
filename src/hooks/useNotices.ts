@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 
 import { usePlanUpdates } from '@/components/PlanUpdate';
 import { todayKey } from '@/lib/dates';
-import { arrangeNotices, eventNotices, helpNotices, messageNotices, moderationNotice, planNotices, type Notice } from '@/lib/notifications';
+import { arrangeNotices, earlyStartNotices, eventNotices, helpNotices, messageNotices, moderationNotice, planNotices, type Notice } from '@/lib/notifications';
 import { refreshConversations } from '@/services/inbox';
 import { markConversationRead, messagesLive } from '@/services/messagesApi';
 import { useAccount } from '@/store/useAccount';
@@ -34,6 +34,7 @@ export function useNotices() {
     const events = live && messagesLive() ? going : localEvents.filter((e) => e.going).map((e) => ({ id: e.id, title: e.title, date: e.date, location: e.location }));
     const all: Notice[] = [
       ...helpNotices(help, kids, tasks),
+      ...earlyStartNotices(tasks, kids, today),
       ...eventNotices(events, today),
       ...planNotices(updates, curricula),
       ...messageNotices(conversations),

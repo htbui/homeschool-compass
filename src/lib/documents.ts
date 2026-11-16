@@ -61,6 +61,36 @@ export function noiHtml(family: FamilyProfile, law: StateLaw, children: Child[],
   );
 }
 
+/**
+ * The letter as plain paragraphs, for reading it over before signing or exporting. Anything
+ * still blank shows as "[home address — still needed]" so it can't be mistaken for filled in.
+ */
+export function noiPreview(family: FamilyProfile, law: StateLaw, children: Child[], draft: NoiDraft): { lines: string[]; missing: string[] } {
+  const missing: string[] = [];
+  const need = (value: string, what: string) => {
+    if (value.trim()) return value.trim();
+    missing.push(what);
+    return `[${what} — still needed]`;
+  };
+  const who = draft.superintendent.trim() || 'Superintendent';
+  const educator = need(draft.parentName || family.parentName, 'educator name');
+  const kids = children.map((c) => `${c.name}, born ${formatDate(c.birthdate, { year: 'numeric', month: 'long', day: 'numeric' })} (${c.grade})`);
+  const lines = [
+    formatDate(todayKey(), { year: 'numeric', month: 'long', day: 'numeric' }),
+    `${who}, ${draft.district.trim() || `${law.name} School District`}`,
+    `Notice of Intent to Homeschool · School year ${draft.schoolYear} · ${law.name}`,
+    `Dear ${who},`,
+    `Please accept this letter as notice that we will provide home education for the following ${children.length === 1 ? 'child' : 'children'} of compulsory school age, in accordance with the homeschool laws of ${law.name}, for the ${draft.schoolYear} school year:`,
+    ...(kids.length ? kids.map((k) => `• ${k}`) : [`• [${(missing.push('children'), 'children')} — still needed]`]),
+    `Instruction will be provided at: ${need(draft.address, 'home address')}`,
+    `Instruction will be provided by ${educator}.`,
+    ...(law.requiredDays || law.requiredHours ? [`We will maintain records of instruction${law.requiredDays ? ` for at least ${law.requiredDays} days` : ''}${law.requiredHours ? `${law.requiredDays ? ' /' : ' totaling at least'} ${law.requiredHours} hours` : ''} as required.`] : []),
+    'Sincerely,',
+    draft.signature.trim() ? `${draft.signature.trim()}${draft.signedAt ? ` · signed electronically ${formatDate(draft.signedAt.slice(0, 10), { year: 'numeric', month: 'long', day: 'numeric' })}` : ' · not signed yet'}` : `[${(missing.push('signature'), 'signature')} — still needed]`,
+  ];
+  return { lines, missing };
+}
+
 export const NOI_CHECKLIST = [
   { key: 'reviewed', label: 'Reviewed state requirements and deadlines' },
   { key: 'signed', label: 'Signed the notice' },

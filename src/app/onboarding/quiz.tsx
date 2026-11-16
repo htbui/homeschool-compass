@@ -9,7 +9,7 @@ import { Button, Progress, Row, Screen, space, Stack, T, useColors } from '@/ui'
 
 export default function QuizStep() {
   const c = useColors();
-  const { answers, set } = useDraft();
+  const { answers, set, retake } = useDraft();
   const [i, setI] = useState(() => Math.min(Object.keys(answers).length, QUIZ.length - 1));
   const q = QUIZ[i];
 
@@ -25,7 +25,7 @@ export default function QuizStep() {
 
   return (
     <Screen>
-      <StepHeader step={3} total={4} title="Homeschool style quiz" subtitle="15 quick questions. There are no wrong answers." />
+      <StepHeader step={3} total={4} title={retake ? 'Retake the style quiz' : 'Homeschool style quiz'} subtitle="15 quick questions. There are no wrong answers." onBack={retake ? () => router.replace('/settings') : undefined} />
       <Stack gap={space.lg}>
         <Row style={{ justifyContent: 'space-between' }}>
           <T v="label" muted>Question {i + 1} of {QUIZ.length}</T>

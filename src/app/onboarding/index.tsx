@@ -1,18 +1,21 @@
 import { router } from 'expo-router';
 import { View } from 'react-native';
 
+import { isPlannedDay, nextPlannedDay } from '@/lib/agenda';
+import { todayKey } from '@/lib/dates';
 import { cloudEnabled } from '@/services/cloud';
 import { enterStudio } from '@/services/studioMode';
 import { useDraft } from '@/store/onboardingDraft';
 import { demoWorkspace } from '@/store/seed';
 import { useStore } from '@/store/useStore';
-import { Button, Card, Row, Screen, space, Stack, T, useColors } from '@/ui';
+import { Button, Screen, space, Stack, T, useColors } from '@/ui';
 
+// Short enough that both buttons fit on a phone screen without scrolling.
 const PILLARS = [
-  { icon: '👨‍👩‍👧‍👦', title: 'Multi-kid synchrony', body: 'Group subjects together, stagger 1-on-1 time so no one waits.' },
-  { icon: '⚖️', title: 'Legal peace of mind', body: 'Your state\'s rules, hours, NOI letters, and portfolio in one place.' },
-  { icon: '🧭', title: 'Your homeschool style', body: 'A 3-minute quiz matches you to a philosophy and a daily rhythm.' },
-  { icon: '⭐', title: 'Kids run their own day', body: 'Age-tailored mission cards, timers, and an "I need help" button.' },
+  { icon: '👨‍👩‍👧‍👦', title: 'Several kids, one plan', body: 'Stagger 1-on-1 time so no one waits.' },
+  { icon: '⚖️', title: 'Legal peace of mind', body: 'Your state’s rules, hours, and letters.' },
+  { icon: '🧭', title: 'Your style', body: 'A 3-minute quiz picks a daily rhythm.' },
+  { icon: '⭐', title: 'Kids run their day', body: 'Mission cards, timers, a help button.' },
 ];
 
 export default function Welcome() {
@@ -21,15 +24,19 @@ export default function Welcome() {
   const completeOnboarding = useStore((s) => s.completeOnboarding);
 
   const startDemo = () => {
-    completeOnboarding(demoWorkspace());
-    router.replace('/today');
+    const demo = demoWorkspace();
+    completeOnboarding(demo);
+    // On a weekend or day off, open on the demo family's next school day so the plan shows.
+    const today = todayKey();
+    const day = isPlannedDay(today, demo.blocks ?? [], demo.tasks ?? []) ? undefined : nextPlannedDay(today, demo.blocks ?? [], demo.tasks ?? []);
+    router.replace(day ? { pathname: '/today', params: { date: day } } : '/today');
   };
 
   return (
     <Screen>
-      <View style={{ alignItems: 'center', paddingTop: space.xxl, gap: space.md }}>
-        <View style={{ width: 84, height: 84, borderRadius: 28, backgroundColor: c.primary, alignItems: 'center', justifyContent: 'center' }}>
-          <T style={{ fontSize: 44 }}>🧭</T>
+      <View style={{ alignItems: 'center', paddingTop: space.lg, gap: space.sm }}>
+        <View style={{ width: 64, height: 64, borderRadius: 22, backgroundColor: c.primary, alignItems: 'center', justifyContent: 'center' }}>
+          <T style={{ fontSize: 34 }}>🧭</T>
         </View>
         <T v="display" style={{ textAlign: 'center' }}>Welcome to Freerange</T>
         <T muted style={{ textAlign: 'center', maxWidth: 480 }}>
@@ -37,17 +44,19 @@ export default function Welcome() {
         </T>
       </View>
 
-      <Row wrap gap={space.md} style={{ marginTop: space.xxl, justifyContent: 'center' }} align="stretch">
+      <View style={{ marginTop: space.lg, flexDirection: 'row', flexWrap: 'wrap', gap: space.sm, justifyContent: 'center', alignSelf: 'center', width: '100%', maxWidth: 720 }}>
         {PILLARS.map((p) => (
-          <Card key={p.title} style={{ width: 250, flexGrow: 1 }}>
-            <T style={{ fontSize: 28 }}>{p.icon}</T>
-            <T v="heading">{p.title}</T>
-            <T muted>{p.body}</T>
-          </Card>
+          <View key={p.title} style={{ flexBasis: '45%', flexGrow: 1, minWidth: 150, flexDirection: 'row', gap: space.sm, alignItems: 'flex-start', padding: space.sm, borderRadius: 14, backgroundColor: c.surface, borderWidth: 1, borderColor: c.border }}>
+            <T style={{ fontSize: 22 }}>{p.icon}</T>
+            <View style={{ flex: 1 }}>
+              <T v="label">{p.title}</T>
+              <T v="caption" muted>{p.body}</T>
+            </View>
+          </View>
         ))}
-      </Row>
+      </View>
 
-      <Stack style={{ marginTop: space.xxl, alignSelf: 'center', width: '100%', maxWidth: 420 }}>
+      <Stack style={{ marginTop: space.lg, alignSelf: 'center', width: '100%', maxWidth: 420 }}>
         <Button
           size="lg"
           title="Set up my family"

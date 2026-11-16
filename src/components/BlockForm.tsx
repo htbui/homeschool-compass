@@ -18,6 +18,7 @@ export function BlockForm({
   onDelete,
   onCancel,
 }: {
+  /** A new block or task starts with no child picked when there are several, so it's never saved for the wrong one. */
   initial?: Partial<RhythmBlock>;
   oneOff?: boolean;
   onSave: (b: RhythmBlock) => void;
@@ -28,7 +29,7 @@ export function BlockForm({
   const curricula = useStore((s) => s.curricula);
   const [title, setTitle] = useState(initial?.title ?? '');
   const [subject, setSubject] = useState<Subject>(initial?.subject ?? 'math');
-  const [childIds, setChildIds] = useState<string[]>(initial?.childIds ?? (kids[0] ? [kids[0].id] : []));
+  const [childIds, setChildIds] = useState<string[]>(initial?.childIds ?? (kids.length === 1 ? [kids[0].id] : []));
   const [mode, setMode] = useState<AttentionMode>(initial?.mode ?? 'solo');
   const [start, setStart] = useState<string | undefined>(initial?.start ?? '09:00');
   const [duration, setDuration] = useState(initial?.durationMin ?? 30);
@@ -43,7 +44,7 @@ export function BlockForm({
 
   return (
     <Stack gap={space.lg}>
-      <Field label="Title" placeholder="1-on-1 Phonics" value={title} onChangeText={setTitle} />
+      <Field label="Title" example="Piano practice" value={title} onChangeText={setTitle} />
       <View style={{ gap: 6 }}>
         <T v="label">Subject</T>
         <Row wrap gap={6}>
@@ -61,7 +62,7 @@ export function BlockForm({
         </Row>
       </View>
       <View style={{ gap: 6 }}>
-        <T v="label">Who</T>
+        <T v="label">Who{kids.length > 1 ? ' (pick one or more)' : ''}</T>
         <Row wrap gap={6}>
           {kids.map((k) => (
             <Chip

@@ -2,8 +2,11 @@ import { Redirect, router, useLocalSearchParams } from 'expo-router';
 import { useEffect, useState } from 'react';
 import { Pressable, Text, View } from 'react-native';
 
+import { KidHelp } from '@/components/KidHelp';
+import { KidPrintButton } from '@/components/KidPrint';
 import { PinPad } from '@/components/PinPad';
-import { usePrint } from '@/hooks/usePrint';
+import { helpSentText, MISSION_STATUS_TEXT, missionLabel, missionStatus } from '@/lib/kidRules';
+import { timerBadge } from '@/lib/timer';
 import { addDays, ageOn, formatClock, formatDate, isDateKey, relativeDayLabel, stepDay, toMinutes, todayKey, weekdayOf } from '@/lib/dates';
 import { suggestWhileWaiting } from '@/lib/schedule';
 import { useStore } from '@/store/useStore';
@@ -35,10 +38,9 @@ export default function DailyAdventure() {
   const openHelp = useStore((s) => s.help.find((h) => h.childId === id && !h.resolvedAt));
   // A kid's session only opens their own day: another kid's (PIN-protected) day goes through the picker.
   const otherKid = useStore((s) => (s.mode.kind === 'kid' && s.mode.childId !== id ? s.mode.childId : undefined));
-  const { ensureTasks, setMood, requestHelp, setMode } = useStore.getState();
+  const { ensureTasks, setMood, setMode, withdrawHelp } = useStore.getState();
   const [helpOpen, setHelpOpen] = useState(false);
   const [exitOpen, setExitOpen] = useState(false);
-  const { print, busy: printing } = usePrint();
 
   useEffect(() => {
     // Plan today and upcoming days from the rhythm. Past days show what actually happened.
@@ -46,6 +48,14 @@ export default function DailyAdventure() {
   }, [date, today, ensureTasks]);
 
   const tasks = allTasks.filter((t) => t.childId === id && t.date === date && t.status !== 'skipped').sort((a, b) => toMinutes(a.start) - toMinutes(b.start));
+  // Running mission timers show on their cards ("⏱ 12 min"), so keep the minutes fresh.
+  const [now, setNow] = useState(() => Date.now());
+  const timing = tasks.some((t) => t.timer?.startedAt);
+  useEffect(() => {
+    if (!timing) return;
+    const tick = setInterval(() => setNow(Date.now()), 15_000);
+    return () => clearInterval(tick);
+  }, [timing]);
 
   // Navigable days: school days (or any day this child has work) from when the
   // family started, up to three weeks ahead within the school year.
@@ -98,7 +108,7 @@ export default function DailyAdventure() {
         <View style={{ alignItems: 'center', gap: space.lg, paddingTop: space.xxl }}>
           <Text style={{ fontSize: 80 }}>{kid.avatar}</Text>
           <T v="display" style={{ textAlign: 'center' }}>{greet}, {kid.name}!</T>
-          <Pressable onPress={() => speak(`${greet}, ${kid.name}! How are you feeling today?`)}>
+          <Pressable onPress={() => speak(`${greet}, ${kid.name}! How are you feeling today?`)} accessibilityRole="button" accessibilityLabel="How are you feeling today? Read aloud">
             <T v="title" style={{ textAlign: 'center' }}>How are you feeling today? {nonReader ? '🔊' : ''}</T>
           </Pressable>
           <Row wrap gap={space.md} style={{ justifyContent: 'center' }}>
@@ -106,6 +116,7 @@ export default function DailyAdventure() {
               <Pressable
                 key={m.v}
                 onPress={() => setMood({ childId: kid.id, date: today, mood: m.v })}
+                accessibilityRole="button"
                 accessibilityLabel={m.l}
                 style={({ pressed }) => ({ alignItems: 'center', padding: space.md, borderRadius: 20, backgroundColor: pressed ? c.primarySoft : c.surface, borderWidth: 1, borderColor: c.border, width: 96 })}>
                 <Text style={{ fontSize: 48 }}>{m.e}</Text>
@@ -129,17 +140,13 @@ export default function DailyAdventure() {
               <T v="label">⭐ {kid.sparks} Sparks earned</T>
             </View>
           </Row>
-          {isToday ? <Button
-            kind={openHelp ? 'secondary' : 'accent'}
-            size="lg"
-            title={openHelp ? `${parentWord} is coming ✋` : `Ask ${parentWord} for help ✋`}
-            onPress={() => {
-              if (!openHelp) requestHelp(kid.id, current?.id);
-              setHelpOpen(true);
-            }}
-          /> : null}
         </Row>
       </Card>
+      {isToday ? (
+        <View style={{ marginTop: space.md }}>
+          <KidHelp kid={kid} taskId={current?.id} onAsked={() => setHelpOpen(true)} />
+        </View>
+      ) : null}
 
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.sm, marginTop: space.lg }}>
         <Button kind="secondary" size="lg" title="‹" accessibilityLabel="Previous day" disabled={!prevDay} onPress={() => prevDay && goDay(prevDay)} />
@@ -166,7 +173,7 @@ export default function DailyAdventure() {
           </T>
           <Row gap={4}>
             {nonReader ? <Button kind="ghost" size="sm" title="🔊 Read to me" onPress={() => speak(isFuture ? `On ${dayName} you will do ${tasks.length} things. ${tasks.map((t) => t.title).join(', ')}.` : `You have ${tasks.length - done} things to do. ${current ? `Next is ${current.title}.` : ''}`)} /> : null}
-            {tasks.length ? <Button kind="ghost" size="sm" title="🖨️ Print my day" loading={printing} onPress={() => print(tasks, `${kid.name}'s day · ${formatDate(date, { weekday: 'long', month: 'long', day: 'numeric' })}`)} /> : null}
+            <KidPrintButton tasks={tasks} childId={kid.id} label="🖨️ Print my day" title={`${kid.name}'s day · ${formatDate(date, { weekday: 'long', month: 'long', day: 'numeric' })}`} nonReader={nonReader} />
           </Row>
         </Row>
         <Progress value={tasks.length ? done / tasks.length : 0} color={c.accent} height={12} />
@@ -183,20 +190,35 @@ export default function DailyAdventure() {
       ) : null}
 
       <Stack gap={space.md} style={{ marginTop: space.lg }}>
-        {tasks.length === 0 ? <Card><T>{isToday ? 'No missions today — enjoy a free day! 🌈' : isFuture ? `Nothing planned for ${dayName} yet. 🌈` : `No missions were recorded for ${dayName}.`}</T></Card> : null}
+        {tasks.length === 0 ? (
+          <Card>
+            <T>{isToday ? 'No missions today — enjoy a free day! 🌈' : isFuture ? `Nothing planned for ${dayName} yet. 🌈` : `No missions were recorded for ${dayName}.`}</T>
+            {isToday && nextDay && nextDay > today ? (
+              <Button kind="secondary" title={`See ${relativeDayLabel(nextDay, today) === 'Tomorrow' ? 'tomorrow' : formatDate(nextDay, { weekday: 'long' })}’s missions ›`} onPress={() => goDay(nextDay)} />
+            ) : null}
+          </Card>
+        ) : null}
         {tasks.map((t, i) => {
           const isCurrent = isToday && current?.id === t.id;
           const isDone = t.status === 'done';
           const withWho = companions(t.groupKey);
+          const status = missionStatus(t, { current: isCurrent, isToday, isFuture, today, family });
+          const badge = isDone ? undefined : timerBadge(t.timer, now);
+          const who = t.mode === 'parent' ? `with ${parentWord}` : withWho ? `with ${withWho}` : '';
           return (
+            // The read-aloud button sits beside the card, not inside it (a button can't hold a button).
+            <View key={t.id} style={{ justifyContent: 'center' }}>
             <Pressable
-              key={t.id}
               onPress={() => router.push({ pathname: '/kid/task/[taskId]', params: { taskId: t.id } })}
+              accessibilityRole="button"
+              accessibilityLabel={missionLabel(i + 1, t.title, formatClock(t.start), status, [who, badge?.replace(/^\S+ /, 'timer ')].filter(Boolean).join(', '))}
               style={({ pressed }) => ({
                 flexDirection: 'row',
                 alignItems: 'center',
                 gap: space.md,
                 padding: nonReader ? space.lg : space.md,
+                paddingRight: nonReader ? 76 : space.md,
+                minHeight: nonReader ? 88 : 64,
                 borderRadius: 18,
                 borderWidth: isCurrent ? 3 : 1,
                 borderColor: isCurrent ? c.accent : c.border,
@@ -210,20 +232,22 @@ export default function DailyAdventure() {
                 </T>
                 <T v="caption" muted>
                   {formatClock(t.start)} · {t.durationMin} min
-                  {t.mode === 'parent' ? ` · with ${parentWord}` : ''}
-                  {withWho ? ` · with ${withWho}` : ''}
+                  {who ? ` · ${who}` : ''}
                 </T>
+                {badge ? <T v="label" color={c.accentInk}>{badge}</T> : null}
               </View>
-              {nonReader ? (
-                <Pressable onPress={() => speak(t.title)} hitSlop={10} accessibilityLabel={`Read ${t.title} aloud`}>
-                  <Text style={{ fontSize: 28 }}>🔊</Text>
-                </Pressable>
-              ) : (
-                <T v="label" color={isDone ? c.successInk : isCurrent ? c.accentInk : c.textMuted}>
-                  {isDone ? 'COMPLETED' : t.status === 'in_progress' ? 'IN PROGRESS' : isCurrent ? 'UP NEXT' : isFuture ? 'START EARLY? 🚀' : !isToday ? 'NOT FINISHED' : ''}
-                </T>
-              )}
+              {!nonReader && MISSION_STATUS_TEXT[status] ? (
+                <View style={{ borderRadius: 999, paddingVertical: 4, paddingHorizontal: 10, backgroundColor: isDone ? c.successSoft : isCurrent ? c.accentSoft : c.surfaceAlt, borderWidth: 1, borderColor: isDone ? c.success : isCurrent ? c.accent : c.border }}>
+                  <T v="label" color={isDone ? c.successInk : isCurrent ? c.accentInk : c.text}>{MISSION_STATUS_TEXT[status]}</T>
+                </View>
+              ) : null}
             </Pressable>
+            {nonReader ? (
+              <Pressable onPress={() => speak(t.title)} hitSlop={10} accessibilityRole="button" accessibilityLabel={`Read ${t.title} aloud`} style={{ position: 'absolute', right: space.md, minWidth: 56, minHeight: 56, alignItems: 'center', justifyContent: 'center' }}>
+                <Text style={{ fontSize: 28 }}>🔊</Text>
+              </Pressable>
+            ) : null}
+            </View>
           );
         })}
       </Stack>
@@ -233,20 +257,21 @@ export default function DailyAdventure() {
         <Button kind="ghost" title="Grown-up exit 🔒" onPress={() => setExitOpen(true)} />
       </Row>
 
-      <Sheet visible={helpOpen} onClose={() => setHelpOpen(false)} title="Help is on the way ✋">
-        <T>
-          {parentWord} knows you need help{current ? ` with “${current.title}”` : ''}. They&apos;re helping someone else right now and will come as soon as they can.
-        </T>
+      <Sheet visible={helpOpen} onClose={() => setHelpOpen(false)} title={helpSentText(parentWord)}>
+        <T>{parentWord} knows you need help{current ? ` with “${current.title}”` : ''} and will come as soon as they can.</T>
         {filler ? (
           <Card tint={c.accentSoft}>
-            <T v="label">While you wait, try:</T>
-            <T v="heading">{filler.icon} {filler.title}</T>
+            <T v="label" color={c.accentInk}>While you wait, try:</T>
+            <T v="heading" color={c.accentInk}>{filler.icon} {filler.title}</T>
             <Button title="Start it" onPress={() => { setHelpOpen(false); router.push({ pathname: '/kid/task/[taskId]', params: { taskId: filler.id } }); }} />
           </Card>
         ) : (
           <T muted>While you wait, read a book quietly or tidy your space. 📚</T>
         )}
-        <Button kind="secondary" title="OK" onPress={() => setHelpOpen(false)} />
+        <Row wrap style={{ justifyContent: 'flex-end' }}>
+          {openHelp ? <Button kind="secondary" title="I figured it out ✓" onPress={() => { withdrawHelp(kid.id); setHelpOpen(false); }} /> : null}
+          <Button title="OK" onPress={() => setHelpOpen(false)} />
+        </Row>
       </Sheet>
 
       <Sheet visible={exitOpen} onClose={() => setExitOpen(false)} title="Grown-ups only">

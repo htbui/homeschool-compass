@@ -383,6 +383,8 @@ async function run() {
     const s = JSON.parse(localStorage.getItem('freerange-v1'));
     s.state.mode = { kind: 'kid', childId: id };
     localStorage.setItem('freerange-v1', JSON.stringify(s));
+    // A grown-up set up printing on this device (kids are asked to fetch one otherwise).
+    localStorage.setItem('freerange-printer', JSON.stringify({ state: { config: { mode: 'dialog', paper: 'letter', setupAt: new Date().toISOString() } }, version: 0 }));
   }, kidId);
   await page.goto(`${BASE}/kid/${kidId}`, { waitUntil: 'networkidle0' });
   await sleep(1000);
@@ -403,7 +405,6 @@ async function run() {
     await expect('Count out 1 to 10 buttons', 'mission steps come from the lesson');
     await expect('Lesson plan by Freerange', 'credit shown on the lesson');
     await click('Print worksheet');
-    await click('Save & print').catch(() => {});
     await sleep(800);
     const printed = await page.evaluate(() => [...document.querySelectorAll('iframe')].at(-1)?.contentDocument?.body?.textContent ?? '');
     log(printed.includes('Write the figure for seven.') && printed.includes('public domain'), 'worksheet prints the lesson’s questions and credit');

@@ -3,7 +3,9 @@ import { useMemo, useState } from 'react';
 import { View } from 'react-native';
 
 import { BlockForm } from '@/components/BlockForm';
-import { formatClock, formatDate, toMinutes, WEEKDAY_SHORT } from '@/lib/dates';
+import { OneOffTaskSheet } from '@/components/OneOffTaskSheet';
+import { PlanSwitcher } from '@/components/PlanSwitcher';
+import { formatClock, toMinutes, WEEKDAY_SHORT } from '@/lib/dates';
 import { findRhythmConflicts } from '@/lib/schedule';
 import type { RhythmBlock, Weekday } from '@/lib/types';
 import { useStore } from '@/store/useStore';
@@ -14,7 +16,7 @@ export default function RhythmBuilder() {
   const params = useLocalSearchParams<{ addFor?: string }>();
   const blocks = useStore((s) => s.blocks);
   const kids = useStore((s) => s.children);
-  const { upsertBlock, removeBlock, addTask } = useStore.getState();
+  const { upsertBlock, removeBlock } = useStore.getState();
   const [day, setDay] = useState<Weekday>(() => {
     const d = new Date().getDay() as Weekday;
     return d === 0 || d === 6 ? 1 : d;
@@ -41,7 +43,10 @@ export default function RhythmBuilder() {
   return (
     <Screen>
       <T v="display">Weekly Rhythm</T>
-      <T muted>Your recurring week. Each day&apos;s timeline is generated from this — edit a block once and every future day updates.</T>
+      <T muted>Your recurring week. Each day&apos;s plan is generated from this — edit a block once and every future day updates.</T>
+      <View style={{ marginTop: space.lg }}>
+        <PlanSwitcher value="week" />
+      </View>
 
       <Row wrap gap={6} style={{ marginTop: space.lg }}>
         {WEEKDAY_SHORT.map((d, i) => {
@@ -108,24 +113,8 @@ export default function RhythmBuilder() {
         ) : null}
       </Sheet>
 
-      <Sheet visible={!!oneOffDate} onClose={() => setOneOffDate(undefined)} title={`One-off task · ${oneOffDate ? formatDate(oneOffDate) : ''}`}>
-        {oneOffDate ? (
-          <View>
-            <BlockForm
-              oneOff
-              onCancel={() => setOneOffDate(undefined)}
-              onSave={(b) => {
-                const groupKey = b.mode === 'group' ? `oneoff-${b.id}` : undefined;
-                for (const childId of b.childIds) {
-                  addTask({ childId, date: oneOffDate, title: b.title, subject: b.subject, mode: b.mode, start: b.start, durationMin: b.durationMin, icon: b.icon, steps: b.steps, groupKey, curriculumId: b.curriculumId });
-                }
-                setOneOffDate(undefined);
-                router.navigate('/today');
-              }}
-            />
-          </View>
-        ) : null}
-      </Sheet>
+      {/* Old links (…/schedule?addFor=…) still open the one-off form; Today now opens it in place. */}
+      <OneOffTaskSheet date={oneOffDate} onClose={() => setOneOffDate(undefined)} onSaved={() => router.navigate({ pathname: '/today', params: { date: oneOffDate } })} />
       {confirm.element}
     </Screen>
   );

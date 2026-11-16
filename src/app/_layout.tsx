@@ -1,6 +1,6 @@
 import '@/global.css';
 
-import { DarkTheme, DefaultTheme, Stack, ThemeProvider } from 'expo-router';
+import { DarkTheme, DefaultTheme, router, Stack, ThemeProvider } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
@@ -11,6 +11,7 @@ import { useHeaderOptions } from '@/components/HeaderBack';
 import { PrintSetupSheet } from '@/components/PrintSetupSheet';
 import { startInsights } from '@/services/insights';
 import { startSync } from '@/services/sync';
+import { useAccount } from '@/store/useAccount';
 import { useStore } from '@/store/useStore';
 import { useStudio } from '@/store/useStudio';
 import { useColors } from '@/ui';
@@ -29,6 +30,11 @@ export default function RootLayout() {
   // While a kid is using the device, only their day is reachable (typed URLs and deep links included);
   // everything else sends them back to it through the index route.
   const kidMode = useStore((s) => !!s.family && s.mode.kind === 'kid');
+  // A password-reset link (wherever it landed) goes on to the account screen to pick a new password.
+  const recovering = useAccount((s) => !!s.recovering);
+  useEffect(() => {
+    if (hydrated && recovering && !kidMode) router.navigate('/account');
+  }, [hydrated, recovering, kidMode]);
 
   useEffect(() => {
     if (hydrated) {

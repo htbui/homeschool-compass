@@ -794,6 +794,8 @@ function Publish({ pkg, update }: { pkg: CurriculumPackage; update: Update }) {
           visible
           listing={packageToListing(pkg, profile?.name ?? family?.familyName ?? 'My family')}
           content={{ units: pkg.units, version: pkg.version, license: pkg.license, attribution: credit }}
+          // A private copy of a book has no grade range of its own, so no "outside grade range" warnings.
+          gradesKnown={pkg.origin.kind !== 'owned_book'}
           onClose={() => setPlanning(false)}
         />
       ) : null}

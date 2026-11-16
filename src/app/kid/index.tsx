@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Pressable, Text, View } from 'react-native';
 
 import { PinPad } from '@/components/PinPad';
+import { ageOn } from '@/lib/dates';
 import type { Child } from '@/lib/types';
 import { useStore } from '@/store/useStore';
 import { Button, Row, Screen, Sheet, space, T, useColors } from '@/ui';
@@ -32,7 +33,8 @@ export default function KidPicker() {
           <Pressable
             key={k.id}
             onPress={() => (k.pin ? setPinFor(k) : enter(k))}
-            accessibilityLabel={k.name}
+            accessibilityRole="button"
+            accessibilityLabel={`${k.name}${k.pin ? ', needs a secret code' : ''}`}
             style={({ pressed }) => ({ alignItems: 'center', gap: 8, padding: space.lg, borderRadius: 28, backgroundColor: pressed ? c.primarySoft : c.surface, borderWidth: 3, borderColor: k.color, width: 160 })}>
             <Text style={{ fontSize: 72 }}>{k.avatar}</Text>
             <T v="title">{k.name}</T>
@@ -45,7 +47,7 @@ export default function KidPicker() {
       </View>
 
       <Sheet visible={!!pinFor} onClose={() => setPinFor(null)} title={`Hi ${pinFor?.name ?? ''}!`}>
-        {pinFor ? <PinPad prompt="Enter your secret code" expected={pinFor.pin!} onSuccess={() => { const k = pinFor; setPinFor(null); enter(k); }} /> : null}
+        {pinFor ? <PinPad prompt="Enter your secret code" expected={pinFor.pin!} readAloud={ageOn(pinFor.birthdate) <= 6} onSuccess={() => { const k = pinFor; setPinFor(null); enter(k); }} /> : null}
       </Sheet>
       <Sheet visible={parentGate} onClose={() => setParentGate(false)} title="Grown-ups only">
         <PinPad
