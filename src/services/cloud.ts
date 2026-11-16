@@ -11,6 +11,12 @@ import { AppState, Platform } from 'react-native';
 const url = process.env.EXPO_PUBLIC_FREERANGE_LOCAL_ONLY === '1' ? undefined : process.env.EXPO_PUBLIC_SUPABASE_URL;
 const key = process.env.EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
 
+/**
+ * Opened from a password-reset email (web). Read before the auth client consumes the link:
+ * it reports the reset during its own start-up, before the app is listening.
+ */
+export const openedFromResetLink = Platform.OS === 'web' && typeof window !== 'undefined' && /(^|[#&])type=recovery(&|$)/.test(window.location.hash);
+
 export const supabase: SupabaseClient | null =
   url && key
     ? createClient(url, key, {

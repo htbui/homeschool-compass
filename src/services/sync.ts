@@ -9,7 +9,7 @@ import { useAccount } from '@/store/useAccount';
 import { useStore, type Store } from '@/store/useStore';
 import { useStudio } from '@/store/useStudio';
 
-import { friendlyError, supabase } from './cloud';
+import { friendlyError, openedFromResetLink, supabase } from './cloud';
 import { readForUpload } from './media';
 
 /**
@@ -94,6 +94,7 @@ export function startSync() {
   AsyncStorage.getItem(BASE_KEY).then((raw) => {
     if (raw) base = JSON.parse(raw);
   });
+  if (openedFromResetLink) account().set({ recovering: true });
   supabase.auth.onAuthStateChange((event, session) => {
     // Opened from a password-reset email: signed in, and asked to choose a new password.
     if (event === 'PASSWORD_RECOVERY') account().set({ recovering: true });

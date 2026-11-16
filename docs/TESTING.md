@@ -197,3 +197,44 @@ tested once here rather than per screen. Files: unit `src/lib/__tests__/contrast
 | Roles, states and 44 px hit boxes (Chip checkbox/radio + aria-checked, Segmented tablist/tab + aria-selected, small buttons, tappable cards) | e2e `ux-foundation` › *Chips and tabs* (marketplace filters and tabs, "＋ Task", Today task cards) | Screen-specific pressables (mission cards, stars) are left to their screens |
 | Delete asks first (`ConfirmButton`), unsaved-changes guard (`Sheet dirty`) | unit `draft` (draft comparison ignores key order/undefined, catches edits); e2e `ux-foundation` › *Delete a task asks first*, *Lesson sheet: discard and delete* (untouched closes, edits ask on ✕ and backdrop, keep editing, discard doesn't save, cancel keeps the lesson, Delete apart from Save) | No undo toast: deletes are confirmed instead |
 | Device-only build never says "Sign in" (`AccountNote` / `needsAccount`) | unit `accountCopy`; e2e `ux-foundation` › *Local build never says "Sign in"* (Studio, classes, promotions, community, messages, marketplace, settings, storefront; no dead-end storefront link; preview connect says nothing was sent); `market-local` (report sheet), `scenarios` (preview community) | The cloud build's wording is only checked by the existing cloud suites |
+
+## Compass design review (C-01 … C-30)
+
+The per-screen fixes from the Compass-area UI/UX review. Files: unit
+`src/lib/__tests__/compass-ux.test.ts` (agenda, timer, kid rules, pacing words, style headline,
+records wording, NOI preview, reset links), `compass-records.test.ts` (radar to-dos and pace),
+`src/store/__tests__/useStore.test.ts` (timer on the task, start-early rules, "I figured it
+out"); e2e `e2e/ux-compass.mjs` (local-only build) and `e2e/ux-compass-cloud.mjs` (cloud build +
+the local stack's Mailpit on :55424), each at desktop and 390×844, in `npm run test:e2e` /
+`npm run test:e2e:cloud`. Every e2e check is labelled with its finding id.
+
+| Finding | Covered by | Known gaps |
+| --- | --- | --- |
+| C-01 Today agenda, Now/Next, fitted timeline + now line | unit *Today agenda*; e2e *C-01 Today agenda* (labelled rows, no sideways scroll, Now card, desktop timeline fits with a now line, phones agenda-only) | — |
+| C-02 Empty day → next school day, first week card, demo | unit *empty day points to the next school day*; e2e *C-02* (preview, "Go to tomorrow", hide is remembered, demo opens on a school day) | Demo on a real Saturday is only covered by the unit rule |
+| C-03 Timer survives leaving / reload | unit *mission timer*, store *C-03*; e2e *C-03* (badge on the card, still counting, reload) | — |
+| C-05 Forgot / show / change password, change email | unit *password reset links*; e2e cloud *C-05* (Show toggle, change password, old one refused, reset email → link → new password, change email) | Native deep link (`freerange://account#…`) only unit-tested; the local stack only allows :8081 redirects, so the suite lands the link on its own port |
+| C-06 Add a task in place; C-24 no preselected kid | e2e *C-06 / C-24* | — |
+| C-07 Task sheet layout | e2e *C-07* (Mark done full width below, Update time after a change, Delete under More and confirmed) | — |
+| C-08 Five tabs / Plan; C-23 sidebar, form width | e2e *C-08 / C-23* | Native tab bar look not exercised |
+| C-09 44 px header, help banner, tappable stats | e2e *C-09* | — |
+| C-10 Radar to-dos with next steps, pace | unit radar tests; e2e *C-10* (every to-do has a button, assessment date, Today shows one item) | — |
+| C-12 Start early solo only, switch, parent notice | unit *who may start early*, store *C-12*; e2e *C-12* | — |
+| C-13 Help copy, "I figured it out", same big button | store *C-13*; e2e *C-13* | Spoken confirmation (speech) not asserted |
+| C-14 "How did it go?" on screen | e2e *C-14* (in the viewport on a phone) | — |
+| C-15 Kid roles/labels, step boxes, 64 px | unit mission labels; e2e *C-15* | — |
+| C-16 Kids and printing | e2e *C-16* (ask a grown-up + help request, switch hides it) | — |
+| C-17 Settings order, retake quiz, values, insights opt-in | e2e *C-17*, *C-20* (onboarding asks, starts off) | Existing families keep their old "on" default (deliberately not changed) |
+| C-18 Account dev copy, way on, back | e2e *C-18* (local), cloud *C-18* | Dev copy shows in dev builds by design (`__DEV__`) |
+| C-19 Pace line, Undo, explainer; C-29 update summary | unit *pacing in plain words*; e2e *C-19 / C-29* | — |
+| C-20 Results headline, switch, list preview | unit *style headline*; e2e *C-20* | — |
+| C-21 Welcome CTA above the fold | e2e *C-21* (both buttons within 844 px) | — |
+| C-22 Records wording, fixable auto-logs, ESA, NOI preview | unit *records wording and corrections*; e2e *C-22* | — |
+| C-25 Midnight axis | unit *timeline axis*; e2e *C-25* | — |
+| C-26 PIN pad doesn't jump | e2e *C-26* | Shake animation not measured |
+| C-27 No disabled "Mark all read"; C-30 no grade warning for a private book | e2e *C-27*, *C-30* | — |
+
+Bugs these tests found and fixed: a kid mission opened from a link or after a reload had no
+history, so "‹ My day" and finishing it went nowhere; the non-reader 🔊 button was nested inside
+the mission card's button; the web reset link was read by the auth client before the app was
+listening, so the "choose a new password" step was missed.
