@@ -10,8 +10,8 @@ import { decideVerification, verificationQueue, type VerificationRequest } from 
 import { useAccount } from '@/store/useAccount';
 import { Button, Card, Empty, Field, Pill, Row, Screen, Section, Segmented, Stack, T, useColors } from '@/ui';
 
-const KIND_LABEL: Record<QueueItem['kind'], string> = { listing: '📦 Listing', review: '💬 Review', message: '✉️ Message' };
-const HIDE_LABEL: Record<QueueItem['kind'], string> = { listing: 'Take it down', review: 'Hide review', message: 'Hide message' };
+const KIND_LABEL: Record<QueueItem['kind'], string> = { listing: '📦 Listing', review: '💬 Review', message: '✉️ Message', family: '👪 Family' };
+const HIDE_LABEL: Record<QueueItem['kind'], string> = { listing: 'Take it down', review: 'Hide review', message: 'Hide message', family: 'Hide from the finder' };
 
 const REASON_LABEL: Record<ReportReason, string> = {
   copyright: '©️ Copyright / license',
@@ -39,24 +39,31 @@ export default function Moderation() {
   useEffect(() => {
     let alive = true;
     (async () => {
-      const ok = await isModerator();
-      const [queue, badges, families] = ok ? await Promise.all([moderationQueue(), badgeQueue(), verificationQueue()]) : [[], [], []];
-      return { ok, queue, badges, families };
-    })()
-      .then((r) => {
-        if (!alive) return;
-        setAllowed(r.ok);
-        setItems(r.queue);
-        setApps(r.badges);
-        setRequests(r.families);
-        setError('');
-      })
-      .catch((e) => alive && setError(e instanceof Error ? e.message : String(e)));
+      // A failed access check counts as "no": the moderator screens never show to someone it couldn't confirm.
+      const ok = await isModerator().catch(() => false);
+      if (!alive) return;
+      setAllowed(ok);
+      if (!ok) return;
+      const [queue, badges, families] = await Promise.all([moderationQueue(), badgeQueue(), verificationQueue()]);
+      if (!alive) return;
+      setItems(queue);
+      setApps(badges);
+      setRequests(families);
+      setError('');
+    })().catch((e) => alive && setError(e instanceof Error ? e.message : String(e)));
     return () => {
       alive = false;
     };
   }, [userId, tick]);
 
+  if (allowed === null) {
+    // Nothing of the moderator screen until access is confirmed.
+    return (
+      <Screen edges={[]}>
+        <T muted accessibilityLiveRegion="polite">Checking access…</T>
+      </Screen>
+    );
+  }
   if (allowed === false) {
     return (
       <Screen edges={[]}>
