@@ -87,12 +87,13 @@ _New ideas land here, then get a priority._
     - **Programs & benefits:** hand-collected, per state. Each entry says who qualifies, the deadline and the next step, with "Remind me" before application windows.
     - **Find & join:** local programs. "Add to plan" turns one into a weekly rhythm block with a subject (e.g. PE). Attendance logs hours toward records and the compliance check, and fees go to Expenses (ESA-eligible).
     - Sources: families share programs they attend; organizers list their own (with verification); open Freerange co-ops; OpenStreetMap places to seed the map.
-    - Open questions:
-      - who can list programs
-      - automatic hours vs. confirmed attendance
-      - splitting one program's hours across subjects
-      - link-out vs. in-app sign-up and payment
-      - which states to launch with
+    - **Decided, 2026-11-16:**
+      - **Who lists:** organizers (coaches, nature centers, co-op leaders, tutors) list programs with verification. Families can also create their own entries and share them.
+      - **Hours count only after attendance is confirmed.** Either the family confirms (honor system) or the organizer marks attendance, and the record notes which one. Calendar entries alone never log hours.
+      - **Split hours:** a family can split one program's time across subjects (e.g. nature club = 50% science, 50% PE). Organizers can suggest a split.
+      - **Sign-up:** both modes, set per listing. Either link to the organizer's own sign-up, or sign up (and pay, if it costs money) inside Freerange through the Marketplace checkout and payout system.
+      - **Launch states, done thoroughly: Colorado, Texas, Florida and Arizona.** Benefits, public-school access, state passes, a seeded local map and outreach to organizers.
+- [ ] **Resources tab: the other 46 states plus DC, after launch.** Same depth as the launch states, rolled out in batches. Order by homeschool population and funding programs, e.g. North Carolina, Georgia, Ohio, Utah, Tennessee and Pennsylvania first. Until a state is done, show federal programs, the state law summary already in the app, and family- or organizer-added programs.
 - **Keeping information fresh: a regular review workflow.** Curated content goes stale: state laws and rules (`src/lib/standards.ts`, notice-of-intent details), the programs and benefits list, co-op and program listings, and Library sources and licenses.
   - **Every entry records** its source link, when it was last checked, who checked it, and a review interval (e.g. laws yearly and before each school year, benefit deadlines each season, local programs every few months).
   - **A scheduled job** (e.g. a weekly Supabase cron or GitHub Action):
