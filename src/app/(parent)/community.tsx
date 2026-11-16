@@ -7,15 +7,15 @@ import { LiveCommunity } from '@/components/community/LiveCommunity';
 import { useMeetupTips } from '@/components/community/SafetyTips';
 import { VerifiedBadge } from '@/components/community/VerifiedBadge';
 import { NotificationBell } from '@/components/NotificationBell';
-import { matchFamilies, SAMPLE_FAMILIES } from '@/lib/community';
-import { formatDate, addDays, todayKey } from '@/lib/dates';
+import { agesLabel, eventWhen, knownPlace, matchFamilies, SAMPLE_FAMILIES } from '@/lib/community';
+import { addDays, formatUsDate, todayKey } from '@/lib/dates';
 import { parseCount } from '@/lib/parse';
 import { PHILOSOPHY_INFO } from '@/lib/quiz';
 import type { Philosophy } from '@/lib/types';
 import { cloudEnabled } from '@/services/cloud';
 import { useAccount } from '@/store/useAccount';
 import { useStore } from '@/store/useStore';
-import { Button, Card, Chip, DateField, Field, MoneyField, Pill, Row, Screen, Section, Segmented, Sheet, space, Stack, T, useColors } from '@/ui';
+import { Button, Card, Chip, DateField, Field, MoneyField, Pill, Row, Screen, Section, Segmented, Sheet, space, Stack, T, TimeField, useColors } from '@/ui';
 
 type Tab = 'families' | 'coops' | 'events' | 'swap';
 const RADII = [2, 5, 10, 25, 50];
@@ -178,9 +178,10 @@ function PreviewCommunity() {
               <Card key={e.id} tint={e.going ? c.primarySoft : undefined}>
                 <Row style={{ justifyContent: 'space-between' }} wrap>
                   <T v="heading" style={{ flex: 1 }}>{e.title}</T>
-                  <Pill text={formatDate(e.date)} />
+                  <Pill text={eventWhen(e.date, e.time)} />
                 </Row>
-                <T v="caption" muted>📍 {e.location} · Ages {e.ages} · Host {e.host} · {e.costPerKid ? `$${e.costPerKid}/kid` : 'Free'}</T>
+                <T v="caption" muted>{[knownPlace(e.location) && `📍 ${knownPlace(e.location)}`, agesLabel(e.ages), `Host ${e.host}`, e.costPerKid ? `$${e.costPerKid}/kid` : 'Free'].filter(Boolean).join(' · ')}</T>
+                {e.details ? <T v="caption">{e.details}</T> : null}
                 <T v="caption">{e.rsvps}/{e.capacity} going{e.rsvps >= 10 && e.costPerKid ? ' · group discount likely' : ''}</T>
                 <Row wrap>
                   <Button size="sm" kind={e.going ? 'secondary' : 'primary'} title={e.going ? "Can't make it" : 'RSVP'} disabled={!e.going && e.rsvps >= e.capacity} onPress={() => (e.going ? toggleEvent(e.id, 'going') : tips.beforeMeetup(() => toggleEvent(e.id, 'going')))} />
@@ -231,30 +232,34 @@ function CoopSheet({ visible, onClose, onSave }: { visible: boolean; onClose: ()
   );
 }
 
-function EventSheet({ visible, onClose, onSave }: { visible: boolean; onClose: () => void; onSave: (e: { title: string; date: string; location: string; ages: string; costPerKid: number; capacity: number }) => void }) {
+function EventSheet({ visible, onClose, onSave }: { visible: boolean; onClose: () => void; onSave: (e: { title: string; date: string; time: string; details?: string; location: string; ages: string; costPerKid: number; capacity: number }) => void }) {
   const [title, setTitle] = useState('');
   const [date, setDate] = useState<string | undefined>(addDays(todayKey(), 7));
+  const [time, setTime] = useState<string | undefined>();
+  const [details, setDetails] = useState('');
   const [location, setLocation] = useState('');
   const [ages, setAges] = useState('All ages');
   const [cost, setCost] = useState<number | undefined>(0);
   const [capacity, setCapacity] = useState('20');
   const cap = parseCount(capacity);
-  const missing = [!title.trim() && 'a title', !date && 'a valid upcoming date', cost === undefined && 'a cost (0 for free)', !cap && 'capacity'].filter(Boolean);
+  const missing = [!title.trim() && 'a title', !date && 'a valid upcoming date', !time && 'a start time', !location.trim() && 'a public meeting place', cost === undefined && 'a cost (0 for free)', !cap && 'capacity'].filter(Boolean);
   return (
     <Sheet visible={visible} onClose={onClose} title="Organize a field trip">
       <Field label="Title" value={title} onChangeText={setTitle} />
-      <DateField label="Date" value={date} onChange={setDate} validate={(d) => (d < todayKey() ? 'Pick today or a future date' : undefined)} />
-      <Field label="Location (public meeting place)" value={location} onChangeText={setLocation} />
+      <DateField label="Date" value={date} onChange={setDate} example={formatUsDate(addDays(todayKey(), 7))} validate={(d) => (d < todayKey() ? 'Pick today or a future date' : undefined)} />
+      <TimeField label="Start time" value={time} onChange={setTime} example="10:00 AM" required />
+      <Field label="Location (public meeting place)" value={location} onChangeText={setLocation} example="City park, north pavilion" />
       <Field label="Ages" value={ages} onChangeText={setAges} />
       <Row gap={space.md} align="flex-start">
         <View style={{ flex: 1 }}><MoneyField label="Cost per kid ($)" value={cost} onChange={setCost} example="0" /></View>
         <View style={{ flex: 1 }}><Field label="Capacity" keyboardType="number-pad" value={capacity} onChangeText={setCapacity} /></View>
       </Row>
+      <Field label="Details (optional)" multiline value={details} onChangeText={(t) => setDetails(t.slice(0, 1000))} example="Bring a packed lunch. We meet by the fountain." />
       <Button
         title="Create"
         disabled={missing.length > 0}
         reason={`Still needed: ${missing.join(', ')}`}
-        onPress={() => date && cap && onSave({ title: title.trim(), date, location: location.trim() || 'TBD', ages, costPerKid: cost ?? 0, capacity: cap })}
+        onPress={() => date && time && cap && onSave({ title: title.trim(), date, time, details: details.trim() || undefined, location: location.trim(), ages, costPerKid: cost ?? 0, capacity: cap })}
       />
     </Sheet>
   );

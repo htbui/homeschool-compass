@@ -308,6 +308,11 @@ export function parseTable(text: string): ImportResult {
   const raw = (r: string[], c: Column) => (cols.has(c) ? r[cols.get(c)!] : undefined);
   const get = (r: string[], c: Column) => raw(r, c)?.trim();
   const units: PackageUnit[] = [];
+  // Row numbers as the spreadsheet shows them (a header row is row 1).
+  const skipped: number[] = [];
+  body.forEach((r, i) => {
+    if (!get(r, 'title')) skipped.push(i + 1 + (body === rows ? 0 : 1));
+  });
   for (const r of body) {
     const title = get(r, 'title');
     if (!title) continue;
@@ -344,6 +349,11 @@ export function parseTable(text: string): ImportResult {
     }
     unit.lessons.push(lesson);
   }
+  if (skipped.length && units.length) {
+    const where = skipped.length > 5 ? `rows ${skipped.slice(0, 5).join(', ')}…` : `row${skipped.length === 1 ? '' : 's'} ${skipped.join(', ')}`;
+    const column = body !== rows ? header[cols.get('title')!]?.trim() : undefined;
+    warnings.push(`${skipped.length} row${skipped.length === 1 ? '' : 's'} couldn’t be read (${where}): no lesson title${column ? ` in the “${column}” column` : ''}.`);
+  }
   if (!units.length) warnings.push('No lessons found in those rows.');
   return { units, warnings };
 }
@@ -356,8 +366,8 @@ export interface WebImport extends ImportResult {
   license?: License;
   /** A better page to read for this course: its table of contents, outline, or print version. */
   next?: NextPage;
-  /** Read as a video playlist, an open textbook, or an ordinary page. */
-  format: 'playlist' | 'textbook' | 'page';
+  /** Read as a video playlist, an open textbook, a whole book (Project Gutenberg), or an ordinary page. */
+  format: 'playlist' | 'textbook' | 'book' | 'page';
 }
 
 /**
@@ -396,7 +406,7 @@ export function parseWebPage(html: string, pageUrl: string): WebImport {
     author: gutenberg?.author ?? site?.author ?? ld.author ?? author,
     license: license ?? gutenberg?.license,
     next,
-    format: book || isWiki(base) || next?.kind === 'libretexts' ? 'textbook' : 'page',
+    format: gutenberg?.title ? 'book' : book || isWiki(base) || next?.kind === 'libretexts' ? 'textbook' : 'page',
   };
 }
 

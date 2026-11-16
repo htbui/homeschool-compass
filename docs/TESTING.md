@@ -181,6 +181,34 @@ Bugs these tests found and fixed (migration `20261115000012_studio_community_fix
 - fetch-page accepted `localhost.` / `intranet.` (trailing dot) before the DNS check.
 - Studio and co-op invite links opened in kid mode.
 - Asking a family to connect again after they declined showed a raw database error.
+
+### Studio & Community UX review (SC-xx)
+
+Files: unit `src/lib/__tests__/studioCommunityUx.test.ts`; server `supabase/tests/studioCommunityUx.test.ts`
+(migration `20261116000400_studio_community_ux.sql`); e2e `e2e/ux-studio_community.mjs` (local-only, in `test:e2e` at
+both sizes) and `e2e/ux-studio_community-cloud.mjs` (accounts, in `test:e2e:cloud` at both sizes). Each e2e check is
+labelled with its finding id.
+
+| Finding | Covered by | Known gaps |
+| --- | --- | --- |
+| SC-04 publish confirms; no empty "Publish update"; release note only with changes | unit *SC-04* (`publishAction`, `hasUnpublishedChanges`, server `+00:00` times, `upsertPackage(p, false)`); e2e local *Publish*, cloud *SC-04* (also after reloading from the account) | — |
+| SC-05 report / block a family from the finder and requests; "Decline and block"; "On Freerange since"; blocked-families list | server *SC-05* (report rules, moderator queue, hide/restore + notices, owner can't unhide, `my_blocks`, `member_since`); unit *SC-05*; e2e cloud *the finder*, *a request* | Moderators act on families in the existing queue (no separate profile view) |
+| SC-06 Studio home: continue editing first, compact New, teach & sell below | e2e local *Creator-only Studio* (order, header button, no sales card before publishing) | — |
+| SC-08 / SC-03 lesson sheet folded into sections, Save pinned; paste sheet asks before discarding | e2e local *Lessons tab* | Still a sheet, not a full-screen route on phones |
+| SC-09 grade steppers, siblings switch, "Lessons per week" | e2e local *Details tab* | — |
+| SC-10 Private pill; Use tab explains family setup | unit *SC-10*; e2e local *Creator-only Studio* | — |
+| SC-11 dropped spreadsheet rows reported | unit *SC-11*; e2e local *Spreadsheet and web import* | Row numbers skip blank lines |
+| SC-12 Gutenberg/archive.org mentioned, 📖, license named once, empty scan record | unit *SC-12*; e2e local (subtitle), cloud *SC-12* | — |
+| SC-13 Copy link / Copy code on web | e2e local *Co-op class* (clipboard contents) | Native keeps the Share sheet |
+| SC-14 class settings: switch + one Save, primary "New code", End in its own section | e2e local *Co-op class* | — |
+| SC-15 field-trip start time and details, "Ages: all", no "TBD" | unit *SC-15*; server *SC-15*; e2e local *Preview field trip*, `studio_community-cloud` / `scenarios` (time required) | — |
+| SC-16 connected families not repeated, count, Show more, Verified card first | unit *SC-16*; e2e cloud *the finder* | — |
+| SC-18 / SC-19 thread ⋯ menu, long-press report, blocked banner | e2e cloud *messages* | Right-click on web isn't wired (long-press and the menu are) |
+| SC-20 notifications: New/Earlier, no per-row Mark read, labelled dot | unit *SC-20*; e2e local *Notifications*, cloud *messages*, `scenarios` › Notifications | No swipe-to-read |
+| SC-21 reorder arrows 44 pt | e2e local *Lessons tab* | — |
+| SC-23–SC-29, SC-31–SC-33 copy and layout | e2e local (each labelled), cloud (SC-31, SC-32); unit *SC-23*, *SC-26*, *SC-28* | — |
+| SC-30 moderation shows nothing until access is known | e2e local and cloud *Moderation* | — |
+
 ## Shared UI foundations (design review)
 
 The cross-cutting fixes from the UI/UX review live in the shared components, so they are

@@ -62,6 +62,18 @@ async function device(name) {
       await sleep(500);
     },
     /** Click a button inside the smallest card containing `cardText`. */
+    /** The finder shows 10 families at a time: tap "Show more" until this text is on screen. */
+    async reveal(t) {
+      for (let i = 0; i < 12 && !(await page.evaluate((t) => document.body.innerText.includes(t), t)); i++) {
+        const more = await page.evaluate(() => {
+          const b = [...document.querySelectorAll('[role="button"]')].reverse().find((e) => e.offsetParent && e.innerText.trim().startsWith('Show more ('));
+          b?.click();
+          return !!b;
+        });
+        if (!more) break;
+        await sleep(400);
+      }
+    },
     async clickIn(cardText, buttonText) {
       const ok = await page.evaluate((cardText, buttonText) => {
         const cards = [...document.querySelectorAll('div')].filter((d) => d.offsetParent && d.innerText?.includes(cardText) && d.innerText.includes(buttonText));
@@ -262,6 +274,7 @@ try {
     await d.click('Join the community');
     await d.expect('Family finder');
   }
+  await C.reveal(`Dana ${run}`);
   await C.expect(`Dana ${run}`, 'family finder shows the nearby family');
   log(!(await C.has(`dana-${run}@example.test`)), 'contact hidden before connecting');
   // Click "Request to connect" on this run's family card specifically.

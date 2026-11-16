@@ -50,6 +50,12 @@ export function formatClock(t: ClockTime): string {
   return `${h12}:${pad(m)} ${suffix}`;
 }
 
+/** "06/14/2027": how a date is typed in the app's date fields. */
+export function formatUsDate(key: DateKey): string {
+  const [y, m, d] = key.split('-');
+  return `${m}/${d}/${y}`;
+}
+
 export function formatDate(key: DateKey, opts: Intl.DateTimeFormatOptions = { weekday: 'short', month: 'short', day: 'numeric' }): string {
   return fromDateKey(key).toLocaleDateString('en-US', opts);
 }

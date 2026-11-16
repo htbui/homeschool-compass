@@ -166,12 +166,15 @@ async function run() {
   await click('1. Lesson 1');
   await fillLabel('Title', 'Sorting rocks');
   await fill('Watch the video\nDo problems 1–10\nCheck your answers', 'Sort ten rocks by size\nCount each pile');
+  await click('Worksheet & answer key');
   await fill('What is ¼ of 12?', 'How many piles?');
+  await click('Other versions');
   await click('🌱 Easier', { exact: true });
   await fillLabel('Easier steps (one per line)', 'Sort five rocks');
   await click('＋ Theme');
   await fill('Dinosaurs', 'Dinosaurs');
   await fillLabel('“Dinosaurs” steps (one per line)', 'Sort dinosaur eggs by size\nCount the nests');
+  await click('Standards');
   await click('OA Operations & Algebraic Thinking');
   await expect('Math 1.OA', 'standard tag shows its label');
   await click('Save lesson');

@@ -192,6 +192,8 @@ async function main() {
   log(first?.versions?.easier?.steps[0] === 'Count 10 beans' && first.themes?.[0]?.theme === 'Dinosaurs' && first.themes[0].answers?.[0] === '60', 'easier and themed versions with their answers');
   log(first?.standards?.[0] === 'CCSS.MATH.CONTENT.K.CC', 'standards tag');
   await click('1. Count to 20');
+  await expect('🌱 Easier · 🎨 Dinosaurs', 'the folded versions section sums them up');
+  await click('Other versions');
   await expect('🌱 Easier ✓', 'lesson editor shows the easier version');
   await expect('🎨 Dinosaurs ✓', 'lesson editor shows the theme');
   await expect('Math K.CC · Counting & Cardinality', 'standards read as labels');

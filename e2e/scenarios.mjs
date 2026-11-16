@@ -451,9 +451,11 @@ async function run() {
   await expect('In carpool pool ✓');
   await click('Organize');
   await fillLabel('Title', 'Capitol tour');
-  await fill('e.g. 05/21/2017', '1/1/2020');
+  await fillLabel('Date', '1/1/2020');
   await expect('Pick today or a future date');
-  await fill('e.g. 05/21/2017', new Date(Date.now() + 5 * 864e5).toLocaleDateString('en-US'));
+  await fillLabel('Date', new Date(Date.now() + 5 * 864e5).toLocaleDateString('en-US'));
+  await fillLabel('Start time', '10:00 AM');
+  await fillLabel('Location (public meeting place)', 'Capitol steps');
   await click('Create', { exact: true });
   await expect('Capitol tour', 'event created');
   await click('📦 Swap');
@@ -729,10 +731,12 @@ async function run() {
   await expect('Lucia needs help', 'help request from kid mode');
   await expect('Coming up: Capitol tour', 'field trip the family is going to');
   await expect(`${unread} unread`);
-  await click('Mark read', { exact: true });
-  await expect(`${unread - 1} unread`, 'mark one read');
+  // Rows have no "Mark read" button of their own: opening one marks it read (SC-20).
+  log(!(await page.evaluate(() => [...document.querySelectorAll('[role="button"]')].some((e) => e.offsetParent && e.innerText.trim() === 'Mark read'))), 'no per-row "Mark read"');
+  await expect('New', 'unread notifications are grouped under New');
   await click('Mark all read', { exact: true });
   await expect('You’re all caught up', 'mark all read');
+  await expect('Earlier', 'read notifications move under Earlier');
   await click('Lucia needs help');
   await expect('Family Flight Deck', 'tapping a help notification opens Today');
   log((await bell()) === 'Notifications', 'bell cleared after reading');

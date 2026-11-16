@@ -1,8 +1,9 @@
 import { Stack as RouterStack, router, useLocalSearchParams } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
-import { KeyboardAvoidingView, Platform, ScrollView, View, type ScrollViewInstance } from 'react-native';
+import { KeyboardAvoidingView, Platform, Pressable, ScrollView, View, type ScrollViewInstance } from 'react-native';
 
 import { needsAccount } from '@/components/AccountNote';
+import { MoreMenu } from '@/components/community/MoreMenu';
 import { useMeetupTips } from '@/components/community/SafetyTips';
 import { goBackOr } from '@/components/HeaderBack';
 import { VerifiedBadge } from '@/components/community/VerifiedBadge';
@@ -14,7 +15,7 @@ import { blockFamily, markConversationRead, messagesLive, sendMessage, threadMes
 import type { ReportTarget } from '@/services/marketApi';
 import { useInbox } from '@/store/useInbox';
 import { useStore } from '@/store/useStore';
-import { Button, Card, Empty, Field, Row, Screen, space, T, useColors, useConfirm } from '@/ui';
+import { Button, Card, Empty, Field, Row, Screen, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
 
 const MAX = 2000;
 const clock = (iso: string) => new Date(iso).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
@@ -31,6 +32,8 @@ export default function Thread() {
   const [sending, setSending] = useState(false);
   const [error, setError] = useState('');
   const [reporting, setReporting] = useState<ReportTarget | undefined>();
+  /** "Report a message" from the menu: pick which one. */
+  const [picking, setPicking] = useState(false);
   const scroll = useRef<ScrollViewInstance>(null);
   const tips = useMeetupTips();
   const confirm = useConfirm();
@@ -101,6 +104,7 @@ export default function Thread() {
     }
   };
 
+  const theirs = (messages ?? []).filter((m) => !m.fromMe);
   const toggleBlock = () =>
     blocked
       ? unblockFamily(familyId!).then(refreshConversations).catch((e) => setError(e.message))
@@ -114,12 +118,20 @@ export default function Thread() {
       <RouterStack.Screen options={{ title: name }} />
       <KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : undefined} keyboardVerticalOffset={90}>
         <View style={{ paddingHorizontal: space.lg, paddingTop: space.md, gap: space.sm }}>
-          <Row wrap style={{ justifyContent: 'space-between' }}>
+          <Row style={{ justifyContent: 'space-between' }}>
             <Row wrap gap={6} style={{ flex: 1 }}>
               <T v="heading">{name}</T>
               {verified ? <VerifiedBadge /> : null}
             </Row>
-            <Button size="sm" kind="ghost" title={blocked ? 'Unblock' : 'Block'} onPress={toggleBlock} />
+            <MoreMenu
+              label={`More for ${name}`}
+              title={name}
+              items={[
+                ...(theirs.length ? [{ label: '🚩 Report a message…', onPress: () => setPicking(true), hint: 'Moderators see only the message you pick.' }] : []),
+                { label: '🛟 Meetup safety tips', onPress: tips.show },
+                blocked ? { label: `Unblock ${name}`, onPress: toggleBlock } : { label: `⛔ Block ${name}`, onPress: toggleBlock, danger: true },
+              ]}
+            />
           </Row>
           {convo?.listingId ? (
             <Card tint={c.surfaceAlt} onPress={() => router.push({ pathname: '/listing/[id]', params: { id: convo.listingId! } })} label={`About ${convo.listingTitle ?? 'a listing'}. Open the listing`}>
@@ -128,7 +140,16 @@ export default function Thread() {
               </T>
             </Card>
           ) : null}
-          {!tipsSeen ? (
+          {blocked ? (
+            <Card tint={c.dangerSoft}>
+              <Row wrap style={{ justifyContent: 'space-between' }}>
+                <T v="label" color={c.dangerInk} style={{ flex: 1, minWidth: 180 }} accessibilityRole="alert">
+                  You blocked {name}. They can’t message you or see you in the finder.
+                </T>
+                <Button size="sm" kind="secondary" title="Unblock" onPress={toggleBlock} />
+              </Row>
+            </Card>
+          ) : !tipsSeen ? (
             <Card tint={c.accentSoft}>
               <Row wrap style={{ justifyContent: 'space-between' }}>
                 <T v="caption" style={{ flex: 1, minWidth: 180 }}>🛟 Planning a first meetup? Read our quick safety tips first.</T>
@@ -151,7 +172,13 @@ export default function Thread() {
             return (
               <View key={m.id} style={{ gap: 4 }}>
                 {showDay ? <T v="caption" muted style={{ textAlign: 'center' }}>{formatDate(day)}</T> : null}
-                <View
+                <Pressable
+                  // Report is on long-press (or the ⋯ menu), not a link under every message.
+                  disabled={m.fromMe}
+                  onLongPress={m.fromMe ? undefined : () => setReporting({ kind: 'message', id: m.id })}
+                  accessibilityHint={m.fromMe ? undefined : 'Long-press to report this message'}
+                  accessibilityActions={m.fromMe ? undefined : [{ name: 'report', label: 'Report this message' }]}
+                  onAccessibilityAction={() => setReporting({ kind: 'message', id: m.id })}
                   style={{
                     alignSelf: m.fromMe ? 'flex-end' : 'flex-start',
                     maxWidth: '82%',
@@ -168,12 +195,7 @@ export default function Thread() {
                     {clock(m.at)}
                     {m.hidden ? ' · hidden by a moderator' : ''}
                   </T>
-                </View>
-                {!m.fromMe ? (
-                  <View style={{ alignSelf: 'flex-start' }}>
-                    <Button size="sm" kind="ghost" title="Report" accessibilityLabel="Report this message" onPress={() => setReporting({ kind: 'message', id: m.id })} />
-                  </View>
-                ) : null}
+                </Pressable>
               </View>
             );
           })}
@@ -181,7 +203,7 @@ export default function Thread() {
 
         <View style={{ paddingHorizontal: space.lg, paddingBottom: space.md, gap: 4, borderTopWidth: 1, borderColor: c.border, paddingTop: space.sm }}>
           {error ? <T v="caption" color={c.danger}>{error}</T> : null}
-          {canMessage && !blocked ? (
+          {blocked ? null : canMessage ? (
             <Row align="flex-end" gap={space.sm}>
               <View style={{ flex: 1 }}>
                 <Field placeholder={`Message ${name}`} multiline value={draft} onChangeText={(t) => setDraft(t.slice(0, MAX))} accessibilityLabel="Message" />
@@ -189,13 +211,27 @@ export default function Thread() {
               <Button title="Send" loading={sending} disabled={!draft.trim()} onPress={send} />
             </Row>
           ) : (
-            <T v="caption" muted>
-              {blocked ? `You blocked ${name}. Unblock to message again.` : `You can message ${name} while you’re connected.`}
-            </T>
+            <T v="caption" muted>You can message {name} while you’re connected.</T>
           )}
           {draft.length > MAX - 200 ? <T v="caption" muted>{MAX - draft.length} characters left</T> : null}
         </View>
       </KeyboardAvoidingView>
+      <Sheet visible={picking} onClose={() => setPicking(false)} title="Which message?">
+        <T muted>Pick the message to report. Moderators see only that one.</T>
+        <Stack gap={6}>
+          {theirs.slice(-10).reverse().map((m) => (
+            <Button
+              key={m.id}
+              kind="secondary"
+              title={`${clock(m.at)} · ${m.body.length > 60 ? `${m.body.slice(0, 60)}…` : m.body}`}
+              onPress={() => {
+                setPicking(false);
+                setReporting({ kind: 'message', id: m.id });
+              }}
+            />
+          ))}
+        </Stack>
+      </Sheet>
       <ReportSheet target={reporting} name={`A message from ${name}`} onClose={() => setReporting(undefined)} />
       {tips.element}
       {confirm.element}

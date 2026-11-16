@@ -286,13 +286,13 @@ try {
   await A.expect(`About their listing “${USED}”`, 'MKT-03 the conversation says what it’s about');
   await A.expect('still available?');
   log(!(await A.has(`uxseller-${run}@example.test`)), 'MKT-03 no contact details shared');
-  await A.expect('Block', 'MKT-03 block is available');
+  log(!!(await A.page.$('[aria-label^="More for "]')), 'MKT-03 block and report are available (the ⋯ menu)');
 
   await S.goto('/messages');
   await S.expect(`About “${USED}”`, 'MKT-03 the seller sees what the buyer asked about', 15000);
   await S.click(`About “${USED}”`);
   await S.expect('still available?');
-  await S.expect('Report', 'MKT-03 the seller can report the message');
+  log(!!(await S.page.$('[aria-label^="More for "]')), 'MKT-03 the seller can report or block (the ⋯ menu)');
   await S.fillName('Message', `Yes! Library on Saturday? ${run}`);
   await S.click('Send', { exact: true });
   await sleep(1000);

@@ -118,8 +118,11 @@ export async function publishPackage(pkg: CurriculumPackage): Promise<Curriculum
     if (error) throw new Error(friendlyError(error));
     const listing = toListing(data as ListingRow, useAccount.getState().familyId);
     const { data: row } = await supabase!.from('packages').select('content').eq('id', pkg.id).single();
-    const saved = (row?.content as CurriculumPackage | undefined) ?? { ...ready, status: 'published', listingId: listing.id };
-    useStudio.getState().upsertPackage(saved);
+    const content = (row?.content as CurriculumPackage | undefined) ?? { ...ready, status: 'published' as const, listingId: listing.id, publishedAt: new Date().toISOString() };
+    // Stamped with the server's publish time, so a device clock running ahead doesn't read as an edit.
+    const saved: CurriculumPackage = { ...content, updatedAt: content.publishedAt ?? content.updatedAt };
+    // Publishing isn't an edit: keep the times, so it doesn't look changed since.
+    useStudio.getState().upsertPackage(saved, false);
     const market = useMarket.getState();
     if (market.source === 'cloud') market.setCatalog({ listings: [listing, ...market.listings.filter((l) => l.id !== listing.id)], reviews: market.reviews, source: 'cloud' });
     return saved;
@@ -130,7 +133,7 @@ export async function publishPackage(pkg: CurriculumPackage): Promise<Curriculum
   const saved: CurriculumPackage = { ...ready, releaseNote: undefined, status: 'published', version: pkg.version + 1, listingId: pkg.listingId ?? uid('l'), publishedAt: now, updatedAt: now };
   const existing = useStore.getState().myListings.find((l) => l.id === saved.listingId);
   useStore.getState().upsertMyListing({ ...packageToListing(saved, profile.name, existing), creatorId: LOCAL_CREATOR_ID });
-  useStudio.getState().upsertPackage(saved);
+  useStudio.getState().upsertPackage(saved, false);
   return saved;
 }
 
@@ -143,7 +146,7 @@ export async function unpublishPackage(pkg: CurriculumPackage): Promise<Curricul
   }
   if (pkg.listingId) useStore.getState().removeMyListing(pkg.listingId);
   const saved: CurriculumPackage = { ...pkg, status: 'draft' };
-  useStudio.getState().upsertPackage(saved);
+  useStudio.getState().upsertPackage(saved, false);
   return saved;
 }
 

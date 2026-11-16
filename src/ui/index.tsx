@@ -340,8 +340,8 @@ export function Segmented<V extends string>({ options, value, onChange, scroll }
 
 /**
  * Bottom sheet on phones, centered dialog on wide screens. With `dirty`, closing it (✕, backdrop,
- * Escape/back) first asks whether to throw the unsaved changes away. `footer` (usually <Actions>)
- * stays pinned under the scrolling content, so the main button is always on screen.
+ * Escape/back) first asks whether to throw the unsaved changes away. `footer` stays pinned under
+ * the scrolling content (a Save button that's always in reach on a long form).
  */
 export function Sheet({ visible, onClose, title, children, dirty, discardQuestion = 'Discard your changes?', footer }: { visible: boolean; onClose: () => void; title: string; children: ReactNode; dirty?: boolean; discardQuestion?: string; footer?: ReactNode }) {
   const c = useColors();
@@ -377,19 +377,19 @@ export function Sheet({ visible, onClose, title, children, dirty, discardQuestio
               </Row>
             </View>
           ) : null}
-          <ScrollView keyboardShouldPersistTaps="handled" style={footer ? { flexShrink: 1 } : undefined} contentContainerStyle={{ gap: space.md, paddingBottom: space.lg }}>
+          <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{ gap: space.md, paddingBottom: space.lg }}>
             {children}
           </ScrollView>
-          {footer ? <View style={[styles.sheetFooter, { borderColor: c.border }]}>{footer}</View> : null}
+          {footer ? <View style={{ borderTopWidth: 1, borderColor: c.border, paddingTop: space.md }}>{footer}</View> : null}
         </View>
       </View>
     </Modal>
   );
 }
 
-/** Cross-platform confirm (Alert.alert is a no-op on web). */
+/** Cross-platform confirm (Alert.alert is a no-op on web). `kind: 'primary'` for a question that isn't destructive. */
 export function useConfirm() {
-  const [state, setState] = useState<{ title: string; body?: string; confirm: string; onYes: () => void } | null>(null);
+  const [state, setState] = useState<{ title: string; body?: string; confirm: string; kind: 'danger' | 'primary'; onYes: () => void } | null>(null);
   const element = (
     <Sheet visible={!!state} onClose={() => setState(null)} title={state?.title ?? ''}>
       {state?.body ? <T muted>{state.body}</T> : null}
@@ -397,7 +397,7 @@ export function useConfirm() {
         <Button title="Cancel" kind="secondary" onPress={() => setState(null)} />
         <Button
           title={state?.confirm ?? 'OK'}
-          kind="danger"
+          kind={state?.kind ?? 'danger'}
           onPress={() => {
             state?.onYes();
             setState(null);
@@ -406,7 +406,8 @@ export function useConfirm() {
       </Row>
     </Sheet>
   );
-  const ask = (title: string, onYes: () => void, opts: { body?: string; confirm?: string } = {}) => setState({ title, onYes, body: opts.body, confirm: opts.confirm ?? 'Confirm' });
+  const ask = (title: string, onYes: () => void, opts: { body?: string; confirm?: string; kind?: 'danger' | 'primary' } = {}) =>
+    setState({ title, onYes, body: opts.body, confirm: opts.confirm ?? 'Confirm', kind: opts.kind ?? 'danger' });
   return { ask, element };
 }
 
@@ -437,6 +438,5 @@ const styles = StyleSheet.create({
   segmentItem: { paddingVertical: 7, paddingHorizontal: 14, minHeight: 34, justifyContent: 'center', borderRadius: radius.sm, borderWidth: 1, borderColor: 'transparent' },
   backdrop: { flex: 1, backgroundColor: 'rgba(0,0,0,0.45)', justifyContent: 'center', alignItems: 'center', padding: space.lg },
   sheet: { width: '100%', maxWidth: 560, maxHeight: '90%', borderRadius: radius.lg, borderWidth: 1, padding: space.xl },
-  sheetFooter: { borderTopWidth: 1, paddingTop: space.md, marginHorizontal: -space.xl, paddingHorizontal: space.xl },
   stat: { flex: 1, minWidth: 140, borderWidth: 1, borderRadius: radius.lg, padding: space.lg, gap: 2 },
 });

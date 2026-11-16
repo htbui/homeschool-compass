@@ -93,6 +93,12 @@ export async function blockFamily(other: string): Promise<void> {
   check(await db().from('family_blocks').insert({ blocker_family: fid(), blocked_family: other }));
 }
 
+/** Families this family blocked (from a conversation, the finder, or a request), newest first. */
+export async function myBlocks(): Promise<{ familyId: string; displayName: string; at: string }[]> {
+  const rows = check(await db().rpc('my_blocks')) as { family_id: string; display_name: string; blocked_at: string }[];
+  return rows.map((r) => ({ familyId: r.family_id, displayName: r.display_name, at: r.blocked_at }));
+}
+
 export async function unblockFamily(other: string): Promise<void> {
   check(await db().from('family_blocks').delete().eq('blocker_family', fid()).eq('blocked_family', other));
 }

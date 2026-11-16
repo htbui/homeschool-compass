@@ -296,13 +296,14 @@ async function main() {
   await expect(`For gran-${run}@example.com`, 'MKT-11 the recipient’s email is shown');
   const mail = await page.evaluate(() => [...document.querySelectorAll('a')].find((a) => a.offsetParent && a.href.startsWith('mailto:'))?.href);
   log(!!mail && mail.startsWith(`mailto:gran-${run}@example.com`) && mail.includes('gift'), 'MKT-11 a mail link with the code ready to send');
-  await click('🔗 Copy link');
+  await click('Copy link', { exact: true });
   await expect('Copied ✓', 'MKT-11 copy link says it’s copied');
   const clip = await page.evaluate(() => navigator.clipboard.readText().catch(() => ''));
   const gift = (await store()).localGifts?.[0];
   log(clip.includes(`/gift/${gift.code}`), `MKT-11 the link is on the clipboard (${clip.slice(0, 60)})`);
-  await click('📋 Copy code');
-  await expect('Code copied.');
+  await sleep(2700);
+  await click('Copy code', { exact: true });
+  await expect('Copied ✓', 'MKT-11 copy code says it’s copied');
   await click('Done', { exact: true });
   await goto(`/gift/${gift.code}`);
   await expect('A gift from', 'MKT-12 the gift page says who it’s from');

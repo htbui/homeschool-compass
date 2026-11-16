@@ -54,7 +54,7 @@ export type ModerationAction = 'hidden' | 'auto_hidden' | 'restored' | 'verified
 
 export interface ModerationEvent {
   id: string;
-  targetKind: 'listing' | 'review' | 'message' | 'verification';
+  targetKind: 'listing' | 'review' | 'message' | 'family' | 'verification';
   targetId: string;
   action: ModerationAction;
   title: string;
@@ -148,10 +148,11 @@ export function messageNotices(conversations: ConversationSummary[]): Notice[] {
     }));
 }
 
-const THING: Record<'listing' | 'review' | 'message', (title: string) => string> = {
+const THING: Record<'listing' | 'review' | 'message' | 'family', (title: string) => string> = {
   listing: (t) => `your listing “${t}”`,
   review: (t) => (t ? `your review of “${t}”` : 'your review'),
   message: () => 'one of your messages',
+  family: () => 'your family’s community profile',
 };
 
 export function moderationNotice(e: ModerationEvent): Notice {
@@ -162,7 +163,7 @@ export function moderationNotice(e: ModerationEvent): Notice {
     return { ...base, icon: '🛡️', title: 'We couldn’t verify your family yet', body: 'You can ask again tomorrow.', link: { to: 'community' } };
   }
   const thing = THING[e.targetKind](e.title);
-  const link: NoticeLink = e.targetKind === 'message' ? { to: 'messages' } : { to: 'market' };
+  const link: NoticeLink = e.targetKind === 'message' ? { to: 'messages' } : e.targetKind === 'family' ? { to: 'community' } : { to: 'market' };
   const quote = e.targetKind === 'message' && e.title ? `“${e.title}”` : undefined;
   if (e.action === 'restored') return { ...base, icon: '👍', title: `A moderator restored ${thing}`, body: quote ?? 'Everyone can see it again.', link };
   if (e.action === 'auto_hidden') return { ...base, icon: '⏸️', title: `${cap(thing)} is hidden for review`, body: 'Several families reported it. A moderator will decide soon.', link };
@@ -185,6 +186,15 @@ export function arrangeNotices(all: Notice[], read: Record<string, string>, now 
     .map((n) => ({ ...n, read: !!read[n.id] }))
     .sort((a, b) => Number(a.read) - Number(b.read) || (b.at ?? now).localeCompare(a.at ?? now));
   return { items, unread: items.filter((n) => !n.read).length };
+}
+
+/** "New" (unread) and "Earlier" (read) groups, in the order `arrangeNotices` gives; empty groups are left out. */
+export function groupNotices(items: ReadNotice[]): { title: 'New' | 'Earlier'; items: ReadNotice[] }[] {
+  const groups = [
+    { title: 'New' as const, items: items.filter((n) => !n.read) },
+    { title: 'Earlier' as const, items: items.filter((n) => n.read) },
+  ];
+  return groups.filter((g) => g.items.length);
 }
 
 /** Forget read marks after a while so the list of ids doesn't grow forever. */
