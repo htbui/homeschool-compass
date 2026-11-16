@@ -97,8 +97,8 @@ describe('quote', () => {
 
 describe('bundles', () => {
   it('summarize savings and skip what you own', () => {
-    expect(bundleSummary(bundle, [pond, birds], new Set(), NOW)).toMatchObject({ listTotal: 30, price: 24, save: 20 });
-    expect(bundleSummary(bundle, [pond, birds], new Set(['l2']), NOW)).toMatchObject({ listTotal: 20, price: 15, save: 25 });
+    expect(bundleSummary(bundle, [pond, birds], new Set(), NOW)).toMatchObject({ listTotal: 30, nowTotal: 25, price: 24, save: 0 });
+    expect(bundleSummary(bundle, [pond, birds], new Set(['l2']), NOW)).toMatchObject({ listTotal: 20, nowTotal: 15, price: 15, save: 0 });
     expect(bundleSummary(bundle, [birds], new Set(), NOW).items.map((l) => l.id)).toEqual(['l2']);
   });
 

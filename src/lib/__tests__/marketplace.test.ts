@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { afterAll, beforeAll, describe, expect, it, vi } from 'vitest';
 
 import { formatGiftCode, GIFT_NOTE_MAX, isEmail, normalizeGiftCode, randomCode } from '../gifts';
 import {
@@ -23,6 +23,14 @@ import type { Child } from '../types';
 
 const NOW = new Date('2026-11-14T12:00:00Z');
 const inDays = (n: number) => new Date(NOW.getTime() + n * 86400000).toISOString();
+// Browsing and pricing read the clock (a sale ends at a moment in time): pin it to NOW.
+beforeAll(() => {
+  vi.useFakeTimers({ toFake: ['Date'] });
+  vi.setSystemTime(NOW);
+});
+afterAll(() => {
+  vi.useRealTimers();
+});
 
 const base: Listing = {
   id: 'l1', title: 'Fraction Forest', seller: 'Test Press', sellerKind: 'publisher', sellerVerified: true, subjects: ['math'], gradeMin: 3, gradeMax: 5,
