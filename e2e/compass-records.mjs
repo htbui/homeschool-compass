@@ -22,7 +22,9 @@ async function fillLabel(label, text) {
   if (text) await page.keyboard.type(text);
   await sleep(150);
 }
-const radar = () => page.evaluate(() => document.body.innerText.split('\n').filter((l) => /^(✅|⚠️) /.test(l.trim())).map((l) => l.trim()));
+// Radar lines: 📌 to do, ⏳ behind pace, ✓ on track or done, ℹ️ nothing required.
+const radar = () => page.evaluate(() => document.body.innerText.split('\n').filter((l) => /^(📌|⏳|✓|ℹ️) /.test(l.trim())).map((l) => l.trim()));
+const short = (d) => new Date(`${d}T00:00:00`).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
 
 async function journeys() {
   await load(seed);
@@ -31,11 +33,11 @@ async function journeys() {
   await goTab('Compass');
   await expect('Homeschool Compass');
   let r = await radar();
-  log(r.includes('⚠️ Notice of Intent not filed yet'), 'NOI not filed');
-  log(r.includes('⚠️ 1 / 172 days logged'), `yesterday’s finished reading counts as a day (${r.find((x) => x.includes('days logged'))})`);
-  log(r.includes('⚠️ 0 / 688 hours (lowest child)'), 'hours for the lowest child');
-  log(r.includes('⚠️ Annual assessment / evaluation — schedule it'), 'Colorado testing reminder');
-  log(r.some((x) => x === '⚠️ Not in your plan yet: History, Civics & citizenship, Science'), `missing subjects (${r.find((x) => x.includes('Not in your plan'))})`);
+  log(r.includes('📌 File your Notice of Intent'), 'NOI to do');
+  log(r.includes('⏳ Days: 1 of 172'), `yesterday’s finished reading counts as a day (${r.find((x) => x.includes('Days:'))})`);
+  log(r.includes('⏳ Hours: 0 of 688 (lowest child)'), 'hours for the lowest child');
+  log(r.includes('📌 Plan this year’s assessment / evaluation'), 'Colorado testing reminder');
+  log(r.some((x) => x === '📌 Not in your plan yet: History, Civics & citizenship, Science'), `missing subjects (${r.find((x) => x.includes('Not in your plan'))})`);
   await expect('Colorado asks for History, Civics & citizenship and Science', 'subject coverage sentence');
   await page.screenshot({ path: `${OUT}compass-${W}-radar.png` });
 
@@ -47,7 +49,7 @@ async function journeys() {
   await page.keyboard.press('Escape');
   await click('Close', { exact: false }).catch(() => {});
   await goTab('Compass');
-  await expect('2 / 172 days logged', 'today now counts');
+  await expect('Days: 2 of 172', 'today now counts');
 
   scenario('Hours: logged per child, lowest child counts');
   await click('Hours & Attendance');
@@ -61,8 +63,8 @@ async function journeys() {
   log(s1.hoursLogs.length === 1 && s1.hoursLogs[0].childId === ADA && s1.hoursLogs[0].date === TODAY, 'one log, for Ada, today');
   await page.goBack(); await sleep(700);
   r = await radar();
-  log(r.includes('⚠️ 0 / 688 hours (lowest child)'), 'Ben still has 0 hours, so the radar stays at 0');
-  log((await bodyText()).includes('3 / 688 hrs'), 'Ada’s card shows her 2.5 h rounded (reading 30 min + 2 h swim)');
+  log(r.includes('⏳ Hours: 0 of 688 (lowest child)'), 'Ben still has 0 hours, so the radar stays at 0');
+  log((await bodyText()).includes('3 of 688 hrs'), 'Ada’s card shows her 3 of 688 hrs (two readings + 2 h swim)');
   await click('Hours & Attendance');
   await click('🦉 Ada', { exact: true }); // the form opens with both kids picked: log for Ben only
   await fillLabel('Minutes', '90');
@@ -70,7 +72,7 @@ async function journeys() {
   await sleep(300);
   await page.goBack(); await sleep(700);
   r = await radar();
-  log(r.includes('⚠️ 2 / 688 hours (lowest child)'), `Ben’s 1.5 h now leads the radar (${r.find((x) => x.includes('hours'))})`);
+  log(r.includes('⏳ Hours: 2 of 688 (lowest child)'), `Ben’s 1.5 h now leads the radar (${r.find((x) => x.includes('Hours:'))})`);
 
   scenario('NOI: sign, mail, unsign');
   await click('Notice of Intent');
@@ -80,30 +82,30 @@ async function journeys() {
   await click('Sign letter ✍️');
   await expect('Unsign');
   await page.goBack(); await sleep(700);
-  await expect(`NOI signed ${TODAY}`, 'radar shows the signature date');
+  await expect(`NOI signed ${short(TODAY)}`, 'radar shows the signature date');
   await click('Notice of Intent');
   await click('Sent via certified mail');
   await page.goBack(); await sleep(700);
-  await expect(`NOI signed ${TODAY} & mailed`, 'mailing recorded');
+  await expect(`NOI signed ${short(TODAY)} & mailed`, 'mailing recorded');
   await click('Notice of Intent');
   await fillLabel('Type your full legal name to sign', 'Pat Lee Jr');
   log(!(await store()).noi.signedAt, 'editing the signature un-signs the letter');
   await page.goBack(); await sleep(700);
-  await expect('Notice of Intent not filed yet');
+  await expect('File your Notice of Intent');
 
   scenario('Another state, other rules');
   await load({ ...seed, family: { ...seed.family, stateCode: 'TX' } });
   await goTab('Compass');
   r = await radar();
-  log(r.includes('✅ Texas: no notice required'), `Texas needs no notice (${r.join(' | ')})`);
-  log(!r.some((x) => x.includes('days logged') || x.includes('hours')), 'no day or hour count in Texas');
+  log(r.includes('ℹ️ Texas: no notice required'), `Texas needs no notice (${r.join(' | ')})`);
+  log(!r.some((x) => x.includes('Days:') || x.includes('Hours:')), 'no day or hour count in Texas');
   log(r.some((x) => x.includes('Not in your plan yet: Spelling & grammar, Civics & citizenship') || x.includes('Not in your plan yet: Civics')), `Texas subjects (${r.at(-1)})`);
   await click('Notice of Intent');
   await expect("Texas doesn't require a notice");
   await page.goBack(); await sleep(700);
   await load({ ...seed, family: { ...seed.family, stateCode: 'PA' } });
   await goTab('Compass');
-  await expect('0 portfolio samples this year', 'Pennsylvania asks for a portfolio');
+  await expect('Portfolio: 0 samples this year', 'Pennsylvania asks for a portfolio');
   await expect('180 days', 'Pennsylvania’s day count');
 
   scenario('Kids are never in the records');

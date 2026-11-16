@@ -25,7 +25,7 @@ async function run_() {
   await click('Happy');
   await expect('🗺️ My day', 'non-reader day map');
   await click('for help');
-  await expect('Help is on the way');
+  await expect('Pat got your message', 'help sent (neutral wording)');
   await click('OK', { exact: true });
   await click('Switch kid');
   await click('Ada');
@@ -67,7 +67,7 @@ async function run_() {
   log((await store()).tasks.find((t) => t.blockId === 'b-frac' && t.date === TODAY).status === 'in_progress', 'ticking a step starts the mission');
   await click("I'm done!");
   await click('😕 Tricky');
-  await fill('Today I learned…', '   ');
+  await fill('e.g. Today I learned…', '   ');
   await click('Mark complete ✓');
   await expect('+10 Sparks', 'a blank reflection earns no bonus (and says so)');
   await expect('Your missions today (1 of 3 done)');
@@ -83,14 +83,14 @@ async function run_() {
   await expect('Silent reading', 'suggests her next solo mission');
   await click('Start it');
   await expect('Read 20 minutes', 'opens the suggested mission');
-  await expect('Pat is coming', 'help already requested');
+  await expect('Pat got your message', 'help already requested');
   await click('‹ My day');
 
   scenario('Days: looking back');
   await clickLabel('Previous day');
   await expect('looking back');
-  await expect('NOT FINISHED', 'yesterday’s unfinished work is labelled');
-  await expect('COMPLETED');
+  await expect('○ Not finished', 'yesterday’s unfinished work is labelled');
+  await expect('✓ Done');
   await expectNot('for help', 'no help button on past days');
   await click('Back to today');
   await expect('Your missions today');
@@ -98,11 +98,11 @@ async function run_() {
   scenario('Days: start early');
   await clickLabel('Next day');
   await expect('coming up');
-  await expect('START EARLY? 🚀');
+  await expect('🚀 Start early?');
   const before = (await store()).tasks.filter((t) => t.childId === ADA && t.date === TOMORROW).length;
   log(await openMission('Silent reading'), 'opened tomorrow’s reading');
   await expect('Planned for');
-  await expectNot('Need help', 'no help on an upcoming mission');
+  await expectNot('for help', 'no help on an upcoming mission');
   await click('Start it now');
   await expect("I'm done!", 'started early');
   const s2 = await store();
