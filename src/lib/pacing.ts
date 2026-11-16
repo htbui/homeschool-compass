@@ -1,4 +1,4 @@
-import { diffDays, schoolDatesBetween, todayKey } from './dates';
+import { diffDays, formatDate, schoolDatesBetween, todayKey } from './dates';
 import type { Curriculum, DateKey } from './types';
 
 export interface PacingStatus {
@@ -64,6 +64,32 @@ export function pacing(c: Curriculum, today: DateKey = todayKey(), breaks: Set<D
 }
 
 const round1 = (n: number) => Math.round(n * 10) / 10;
+
+const shortDate = (d: DateKey) => formatDate(d, { month: 'short', day: 'numeric' });
+
+/** "about 2 lessons a week", "about 1 lesson every 3 weeks" — words, not decimals. */
+export function rateWords(lessonsPerWeek: number): string {
+  if (lessonsPerWeek <= 0) return 'no lessons left';
+  if (lessonsPerWeek >= 0.75) {
+    const n = Math.max(1, Math.round(lessonsPerWeek));
+    return `about ${n} lesson${n === 1 ? '' : 's'} a week`;
+  }
+  return `about 1 lesson every ${Math.round(1 / lessonsPerWeek)} weeks`;
+}
+
+/**
+ * One plain line for a curriculum's pace ("On track to finish Jun 4 · about 2 lessons a week"),
+ * plus the details for "Why re-paced?" / "Details".
+ */
+export function paceSummary(c: Pick<Curriculum, 'targetEndDate' | 'startDate'>, p: PacingStatus): { lead: string; details: string[]; why: string } {
+  if (p.state === 'done') return { lead: 'Finished 🎓', details: [], why: 'Details' };
+  if (p.state === 'not_started') return { lead: `Starts ${shortDate(c.startDate)} · ${rateWords(p.lessonsPerWeek)}`, details: [`${p.remainingLessons} lessons over ${p.remainingSchoolDays} school days.`], why: 'Details' };
+  const details = [`${p.remainingLessons} lesson${p.remainingLessons === 1 ? '' : 's'} left over ${p.remainingSchoolDays} school day${p.remainingSchoolDays === 1 ? '' : 's'}: ${p.lessonsPerWeek} a week (${p.lessonsPerDay} a day).`];
+  if (p.delta < 0) details.push(`${-p.delta} lesson${p.delta === -1 ? '' : 's'} behind the original plan, so the rest are spread out a little more — no backlog to catch up on.`);
+  if (p.delta > 0) details.push(`${p.delta} lesson${p.delta === 1 ? '' : 's'} ahead of the original plan.`);
+  if (p.delta < 0 && p.projectedFinish) details.push(`At the original pace you'd finish ${shortDate(p.projectedFinish)} instead.`);
+  return { lead: `On track to finish ${shortDate(c.targetEndDate)} · ${rateWords(p.lessonsPerWeek)}`, details, why: p.state === 'behind' ? 'Why re-paced?' : 'Details' };
+}
 
 function addYears(key: DateKey, years: number): DateKey {
   const [y, m, d] = key.split('-');

@@ -1,15 +1,16 @@
 import { router, useLocalSearchParams } from 'expo-router';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { View } from 'react-native';
 
 import { MaterialsEditor } from '@/components/LessonMaterials';
+import { PlanSwitcher } from '@/components/PlanSwitcher';
 import { PlanUpdateSheet, UpdateBanner, usePlanUpdates } from '@/components/PlanUpdate';
 import { normalizeClassCode } from '@/lib/coop';
 import { doneFor, forChild } from '@/lib/curriculum';
 import { formatDate } from '@/lib/dates';
 import { uid } from '@/lib/id';
 import { LEVEL_LABEL, planLevels, planThemes } from '@/lib/package';
-import { CURRICULUM_PRESETS, pacing } from '@/lib/pacing';
+import { CURRICULUM_PRESETS, paceSummary, pacing } from '@/lib/pacing';
 import { parseCount } from '@/lib/parse';
 import { PHILOSOPHY_INFO } from '@/lib/quiz';
 import { SUBJECT_LIST, SUBJECTS, subjectLabel } from '@/lib/subjects';
@@ -17,7 +18,7 @@ import type { Curriculum, RhythmBlock, Subject } from '@/lib/types';
 import { generateUnitStudy, TIER_LABEL, type UnitPlan } from '@/lib/unitStudy';
 import { leaveClass, setShareNames } from '@/services/coopApi';
 import { useStore } from '@/store/useStore';
-import { Actions, Button, Card, Chip, DateField, Empty, Field, Pill, Progress, Row, Screen, Section, Segmented, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
+import { Actions, Button, Card, Chip, DateField, Empty, Field, Pill, Progress, Row, Screen, Section, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
 
 type Tab = 'curricula' | 'unit';
 
@@ -31,7 +32,6 @@ const STATE_LABEL = {
 
 export default function CurriculumHub() {
   const c = useColors();
-  const [tab, setTab] = useState<Tab>('curricula');
   const curricula = useStore((s) => s.curricula);
   const kids = useStore((s) => s.children);
   const family = useStore((s) => s.family)!;
@@ -45,8 +45,13 @@ export default function CurriculumHub() {
   const updates = usePlanUpdates();
   const [reviewing, setReviewing] = useState<string | null>(null);
   // Opened from a notification: show that plan's update.
-  const { review } = useLocalSearchParams<{ review?: string }>();
+  const { review, tab: tabParam } = useLocalSearchParams<{ review?: string; tab?: string }>();
+  const tab: Tab = tabParam === 'unit' ? 'unit' : 'curricula';
   const reviewCur = curricula.find((k) => k.id === (reviewing ?? review));
+  const pendingUpdates = curricula.filter((k) => updates[k.id]);
+  // The explainer is for getting started; once there's a curriculum it folds away.
+  const [explainerOpen, setExplainerOpen] = useState(false);
+  const showExplainer = curricula.length === 0 || explainerOpen;
   const confirm = useConfirm();
 
   const [theme, setTheme] = useState('');
@@ -77,12 +82,22 @@ export default function CurriculumHub() {
       <T v="display">My Curriculum</T>
       <T muted>Everything your kids are learning, paced lesson by lesson — from the Marketplace, a book you own, or one you made in Studio.</T>
       <View style={{ marginTop: space.lg }}>
-        <Segmented<Tab> value={tab} onChange={setTab} options={[{ value: 'curricula', label: '📚 Pacing' }, { value: 'unit', label: '🧭 Unit Study Generator' }]} />
+        <PlanSwitcher value={tab} />
       </View>
 
       {tab === 'curricula' ? (
         <>
           <Section title="Your curricula" subtitle="Missed days are re-spread across the rest of the year — no backlog, no guilt." action={<Button size="sm" icon="＋" title="Add" onPress={() => setAdding(true)} />}>
+            {pendingUpdates.length ? (
+              <Card tint={c.primarySoft} label="Plan updates">
+                <Row wrap style={{ justifyContent: 'space-between' }}>
+                  <T style={{ flex: 1, minWidth: 180, fontWeight: '700' }}>
+                    ✨ {pendingUpdates.length === 1 ? `1 plan has an update: ${pendingUpdates[0].name}` : `${pendingUpdates.length} plans have updates`}
+                  </T>
+                  <Button size="sm" title="Review" onPress={() => setReviewing(pendingUpdates[0].id)} />
+                </Row>
+              </Card>
+            ) : null}
             {curricula.length === 0 ? (
               <Empty
                 icon="📚"
@@ -96,7 +111,7 @@ export default function CurriculumHub() {
                   <Card key={k.id}>
                     <T v="heading">{SUBJECTS[k.subject].icon} {k.name}</T>
                     <T v="caption" muted>
-                      {k.childIds.map((id) => kids.find((x) => x.id === id)?.name).filter(Boolean).join(', ')} · {k.model} · target {formatDate(k.targetEndDate, { month: 'short', day: 'numeric', year: 'numeric' })}
+                      {k.childIds.map((id) => kids.find((x) => x.id === id)?.name).filter(Boolean).join(', ')} · finish by {formatDate(k.targetEndDate, { month: 'short', day: 'numeric', year: 'numeric' })}
                     </T>
                     {k.coopClassId || k.coopTeacher ? <CoopInfo curriculum={k} onLeave={() => confirm.ask('Leave this co-op class?', () => leaveClass(k.id, k.coopClassId!), { confirm: 'Leave', body: 'You keep the plan and your kids’ progress. It just stops getting the teacher’s updates, and the teacher no longer sees your progress.' })} /> : null}
                     {updates[k.id] ? <UpdateBanner info={updates[k.id]} onPress={() => setReviewing(k.id)} /> : null}
@@ -112,25 +127,31 @@ export default function CurriculumHub() {
               </Stack>
             )}
           </Section>
-          <Section title="Where curricula come from">
-            <Card>
-              <T>
-                <T style={{ fontWeight: '700' }}>🛍️ The Marketplace</T> — publishers list their curricula and families list used or homemade ones. Compare ratings and reviews, filter by your kids&apos; grades and your teaching style, then buy and add it to your plan in one step.
-              </T>
-              <T>
-                <T style={{ fontWeight: '700' }}>📦 What you already own</T> — tap <T style={{ fontWeight: '700' }}>＋ Add</T> and enter the lesson count (or pick a popular program from Quick import). Freerange doesn&apos;t need to sell it to pace it.
-              </T>
-              <T>
-                <T style={{ fontWeight: '700' }}>📕 Lesson by lesson</T> — paste a book&apos;s table of contents and Studio turns it into daily lessons with page ranges (private to your family). Or build your own, or adapt a free online course.
-              </T>
-              <Row wrap>
-                <Button title="Browse the Marketplace" onPress={() => router.push('/market')} />
-                {primary ? <Button kind="secondary" title={`${PHILOSOPHY_INFO[primary].emoji} Picks for ${PHILOSOPHY_INFO[primary].label}`} onPress={() => router.push({ pathname: '/market', params: { style: primary } })} /> : null}
-                <Button kind="secondary" title="📕 Convert a book you own" onPress={() => router.push({ pathname: '/studio/import', params: { from: 'book' } })} />
-                <Button kind="ghost" title="🎨 Make your own in Studio" onPress={() => router.push('/studio/new')} />
-              </Row>
-            </Card>
-          </Section>
+          {showExplainer ? (
+            <Section title="Where curricula come from" action={curricula.length ? <Button size="sm" kind="ghost" title="Hide" onPress={() => setExplainerOpen(false)} /> : undefined}>
+              <Card>
+                <T>
+                  <T style={{ fontWeight: '700' }}>🛍️ The Marketplace</T> — publishers list their curricula and families list used or homemade ones. Compare ratings and reviews, filter by your kids&apos; grades and your teaching style, then buy and add it to your plan in one step.
+                </T>
+                <T>
+                  <T style={{ fontWeight: '700' }}>📦 What you already own</T> — tap <T style={{ fontWeight: '700' }}>＋ Add</T>, choose <T style={{ fontWeight: '700' }}>Just track lessons</T>, and enter the lesson count (popular programs are one tap). Freerange doesn&apos;t need to sell it to pace it.
+                </T>
+                <T>
+                  <T style={{ fontWeight: '700' }}>📕 Lesson by lesson</T> — paste a book&apos;s table of contents and Studio turns it into daily lessons with page ranges (private to your family). Or build your own, or adapt a free online course.
+                </T>
+                <Row wrap>
+                  <Button title="Browse the Marketplace" onPress={() => router.push('/market')} />
+                  {primary ? <Button kind="secondary" title={`${PHILOSOPHY_INFO[primary].emoji} Picks for ${PHILOSOPHY_INFO[primary].label}`} onPress={() => router.push({ pathname: '/market', params: { style: primary } })} /> : null}
+                  <Button kind="secondary" title="📕 Convert a book you own" onPress={() => router.push({ pathname: '/studio/import', params: { from: 'book' } })} />
+                  <Button kind="ghost" title="🎨 Make your own in Studio" onPress={() => router.push('/studio/new')} />
+                </Row>
+              </Card>
+            </Section>
+          ) : (
+            <Row style={{ marginTop: space.lg }}>
+              <Button kind="ghost" title="Where curricula come from ›" onPress={() => setExplainerOpen(true)} />
+            </Row>
+          )}
         </>
       ) : (
         <>
@@ -264,7 +285,7 @@ function CoopInfo({ curriculum: k, onLeave }: { curriculum: Curriculum; onLeave:
   );
 }
 
-/** One student's progress and pace through a curriculum. */
+/** One student's progress and pace through a curriculum: one plain line, details on request. */
 function KidProgress({ curriculum, childId, named }: { curriculum: Curriculum; childId: string; named: boolean }) {
   const c = useColors();
   const kid = useStore((s) => s.children.find((x) => x.id === childId));
@@ -272,23 +293,42 @@ function KidProgress({ curriculum, childId, named }: { curriculum: Curriculum; c
   const done = doneFor(curriculum, childId);
   const p = pacing(forChild(curriculum, childId), undefined);
   const st = STATE_LABEL[p.state];
+  const summary = paceSummary(curriculum, p);
+  const [details, setDetails] = useState(false);
+  // "+1 lesson" can be taken back for a few seconds (instead of a tiny "−1" right next to it).
+  const [undo, setUndo] = useState(false);
+  useEffect(() => {
+    if (!undo) return;
+    const t = setTimeout(() => setUndo(false), 6000);
+    return () => clearTimeout(t);
+  }, [undo]);
   return (
     <Stack gap={4} style={named ? { borderTopWidth: 1, borderColor: c.border, paddingTop: space.sm } : undefined}>
       <Row style={{ justifyContent: 'space-between' }} wrap>
         <T v="label" style={{ flex: 1 }}>{named ? `${kid?.avatar ?? ''} ${kid?.name ?? 'Student'} · ` : ''}{done} / {curriculum.totalLessons} lessons</T>
-        <Pill text={`${st.emoji} ${st.text}`} bg={p.state === 'behind' ? c.accentSoft : c.primarySoft} fg={c.text} />
+        <Pill text={`${st.emoji} ${st.text}`} bg={p.state === 'behind' ? c.accentSoft : c.primarySoft} fg={p.state === 'behind' ? c.accentInk : c.text} />
       </Row>
       <Progress value={done / curriculum.totalLessons} />
-      {p.state !== 'done' ? (
-        <T v="caption">
-          Pace: <T v="caption" style={{ fontWeight: '700' }}>{p.lessonsPerWeek} lessons/week</T> ({p.lessonsPerDay}/day) over {p.remainingSchoolDays} school days left
-          {p.delta < 0 ? ` · ${-p.delta} behind the original plan, now spread out` : p.delta > 0 ? ` · ${p.delta} ahead` : ''}
-          {p.projectedFinish ? ` · at original pace you'd finish ${formatDate(p.projectedFinish, { month: 'short', day: 'numeric' })}` : ''}
-        </T>
+      <T v="caption" style={{ fontWeight: '700' }}>{summary.lead}</T>
+      {summary.details.length ? (
+        details ? (
+          <Stack gap={2}>
+            {summary.details.map((d) => (
+              <T key={d} v="caption" muted>{d}</T>
+            ))}
+            <Row>
+              <Button size="sm" kind="ghost" title="Hide details" onPress={() => setDetails(false)} />
+            </Row>
+          </Stack>
+        ) : (
+          <Row>
+            <Button size="sm" kind="ghost" title={`${summary.why} ›`} onPress={() => setDetails(true)} />
+          </Row>
+        )
       ) : null}
       <Row wrap>
-        <Button size="sm" kind="secondary" title="−1" onPress={() => adjustLessons(curriculum.id, -1, childId)} />
-        <Button size="sm" title={named ? `+1 lesson for ${kid?.name ?? 'student'}` : '+1 lesson'} onPress={() => adjustLessons(curriculum.id, 1, childId)} />
+        <Button size="sm" title={named ? `+1 lesson for ${kid?.name ?? 'student'}` : '+1 lesson'} disabled={done >= curriculum.totalLessons} onPress={() => { adjustLessons(curriculum.id, 1, childId); setUndo(true); }} />
+        {undo ? <Button size="sm" kind="ghost" title="Undo" accessibilityLabel={`Undo +1 lesson${named ? ` for ${kid?.name ?? 'student'}` : ''}`} onPress={() => { adjustLessons(curriculum.id, -1, childId); setUndo(false); }} /> : null}
       </Row>
       <VersionPicker curriculum={curriculum} childId={childId} name={kid?.name} />
     </Stack>
@@ -401,10 +441,11 @@ function CurriculumForm({ initial, onSave, onDelete }: { initial?: Curriculum; o
         </Row>
       ) : null}
       <View style={{ gap: 6 }}>
-        <T v="label">Model</T>
+        <T v="label">What kind of curriculum? (optional)</T>
+        <T v="caption" muted>Boxed: one publisher’s complete program. À la carte: pieces you mix and match. Custom: your own plan or unit studies. It only helps you sort; pacing works the same.</T>
         <Row wrap gap={6}>
           {(['turnkey', 'modular', 'custom'] as const).map((m) => (
-            <Chip key={m} label={m === 'turnkey' ? 'Turnkey / boxed' : m === 'modular' ? 'Modular / à la carte' : 'Custom / unit study'} selected={model === m} onPress={() => setModel(m)} />
+            <Chip key={m} role="radio" label={m === 'turnkey' ? 'Boxed' : m === 'modular' ? 'À la carte' : 'Custom'} selected={model === m} onPress={() => setModel(m)} />
           ))}
         </Row>
       </View>
