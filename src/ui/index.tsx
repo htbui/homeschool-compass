@@ -340,9 +340,10 @@ export function Segmented<V extends string>({ options, value, onChange, scroll }
 
 /**
  * Bottom sheet on phones, centered dialog on wide screens. With `dirty`, closing it (✕, backdrop,
- * Escape/back) first asks whether to throw the unsaved changes away.
+ * Escape/back) first asks whether to throw the unsaved changes away. `footer` (usually <Actions>)
+ * stays pinned under the scrolling content, so the main button is always on screen.
  */
-export function Sheet({ visible, onClose, title, children, dirty, discardQuestion = 'Discard your changes?' }: { visible: boolean; onClose: () => void; title: string; children: ReactNode; dirty?: boolean; discardQuestion?: string }) {
+export function Sheet({ visible, onClose, title, children, dirty, discardQuestion = 'Discard your changes?', footer }: { visible: boolean; onClose: () => void; title: string; children: ReactNode; dirty?: boolean; discardQuestion?: string; footer?: ReactNode }) {
   const c = useColors();
   const [asking, setAsking] = useState(false);
   const requestClose = () => (dirty ? setAsking(true) : onClose());
@@ -376,9 +377,10 @@ export function Sheet({ visible, onClose, title, children, dirty, discardQuestio
               </Row>
             </View>
           ) : null}
-          <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{ gap: space.md, paddingBottom: space.lg }}>
+          <ScrollView keyboardShouldPersistTaps="handled" style={footer ? { flexShrink: 1 } : undefined} contentContainerStyle={{ gap: space.md, paddingBottom: space.lg }}>
             {children}
           </ScrollView>
+          {footer ? <View style={[styles.sheetFooter, { borderColor: c.border }]}>{footer}</View> : null}
         </View>
       </View>
     </Modal>
@@ -435,5 +437,6 @@ const styles = StyleSheet.create({
   segmentItem: { paddingVertical: 7, paddingHorizontal: 14, minHeight: 34, justifyContent: 'center', borderRadius: radius.sm, borderWidth: 1, borderColor: 'transparent' },
   backdrop: { flex: 1, backgroundColor: 'rgba(0,0,0,0.45)', justifyContent: 'center', alignItems: 'center', padding: space.lg },
   sheet: { width: '100%', maxWidth: 560, maxHeight: '90%', borderRadius: radius.lg, borderWidth: 1, padding: space.xl },
+  sheetFooter: { borderTopWidth: 1, paddingTop: space.md, marginHorizontal: -space.xl, paddingHorizontal: space.xl },
   stat: { flex: 1, minWidth: 140, borderWidth: 1, borderRadius: radius.lg, padding: space.lg, gap: 2 },
 });
