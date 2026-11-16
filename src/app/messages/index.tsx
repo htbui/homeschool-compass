@@ -8,8 +8,10 @@ import { timeAgo } from '@/lib/notifications';
 import { cloudEnabled } from '@/services/cloud';
 import { myConnections, type Connection } from '@/services/communityApi';
 import { refreshConversations } from '@/services/inbox';
+import { myBlocks, unblockFamily } from '@/services/messagesApi';
 import { useAccount } from '@/store/useAccount';
 import { useInbox } from '@/store/useInbox';
+import { useStore } from '@/store/useStore';
 import { Button, Card, Empty, Pill, Row, Screen, Section, space, Stack, T, useColors } from '@/ui';
 
 const openThread = (familyId: string) => router.push({ pathname: '/messages/[familyId]', params: { familyId } });
@@ -21,8 +23,10 @@ export default function Messages() {
   const conversations = useInbox((s) => s.conversations);
   const loaded = useInbox((s) => s.loaded);
   const [connections, setConnections] = useState<Connection[] | undefined>();
+  const [blocks, setBlocks] = useState<Awaited<ReturnType<typeof myBlocks>>>([]);
   const [error, setError] = useState('');
   const tips = useMeetupTips();
+  const tipsSeen = useStore((s) => !!s.meetupTipsSeenAt);
 
   useFocusEffect(
     useCallback(() => {
@@ -32,6 +36,9 @@ export default function Messages() {
       myConnections()
         .then((x) => alive && setConnections(x.filter((k) => k.status === 'accepted')))
         .catch((e) => alive && setError(e instanceof Error ? e.message : String(e)));
+      myBlocks()
+        .then((b) => alive && setBlocks(b))
+        .catch(() => {});
       return () => {
         alive = false;
       };
@@ -61,9 +68,12 @@ export default function Messages() {
   return (
     <Screen edges={[]}>
       <T muted>Private messages with families you’ve connected with. Only your two families can read them.</T>
-      <Row wrap style={{ marginTop: space.sm }}>
-        <Button size="sm" kind="ghost" icon="🛟" title="Meetup safety tips" onPress={tips.show} />
-      </Row>
+      {/* Until they're read once; after that they're in each conversation's ⋯ menu. */}
+      {!tipsSeen ? (
+        <Row wrap style={{ marginTop: space.sm }}>
+          <Button size="sm" kind="ghost" icon="🛟" title="Meetup safety tips" onPress={tips.show} />
+        </Row>
+      ) : null}
       {error ? <T color={c.danger}>{error}</T> : null}
 
       <Section title="Conversations">
@@ -110,6 +120,31 @@ export default function Messages() {
                     <T v="caption" muted>{k.band}</T>
                   </View>
                   <Button size="sm" title="Message" onPress={() => openThread(k.familyId)} />
+                </Row>
+              </Card>
+            ))}
+          </Stack>
+        </Section>
+      ) : null}
+      {blocks.length ? (
+        <Section title="Blocked families" subtitle="They can’t message you, send requests, or see you in the finder. They aren’t told.">
+          <Stack gap={space.sm}>
+            {blocks.map((b) => (
+              <Card key={b.familyId}>
+                <Row wrap style={{ justifyContent: 'space-between' }}>
+                  <T v="heading" style={{ flex: 1, minWidth: 140 }}>{b.displayName}</T>
+                  <Button
+                    size="sm"
+                    kind="secondary"
+                    title="Unblock"
+                    accessibilityLabel={`Unblock ${b.displayName}`}
+                    onPress={() =>
+                      unblockFamily(b.familyId)
+                        .then(refreshConversations)
+                        .then(() => myBlocks().then(setBlocks))
+                        .catch((e: Error) => setError(e.message))
+                    }
+                  />
                 </Row>
               </Card>
             ))}

@@ -1,27 +1,26 @@
-import { Pressable, View } from 'react-native';
+import { Pressable, Switch, View } from 'react-native';
 
 import { space, T, useColors } from '@/ui';
 
-/**
- * A labelled on/off setting. The whole row is the switch (one big target, announced as a
- * switch with its state), with the explanation under the label.
- */
-export function SwitchRow({ label, body, value, onChange }: { label: string; body?: string; value: boolean; onChange: (on: boolean) => void }) {
+/** An on/off setting with its label: the whole row is one switch for screen readers and taps. */
+export function SwitchRow({ label, hint, value, onChange, disabled }: { label: string; hint?: string; value: boolean; onChange: (v: boolean) => void; disabled?: boolean }) {
   const c = useColors();
   return (
     <Pressable
-      onPress={() => onChange(!value)}
       role="switch"
       aria-checked={value}
-      accessibilityLabel={label}
-      accessibilityHint={body}
-      style={({ pressed }) => ({ flexDirection: 'row', alignItems: 'flex-start', gap: space.md, paddingVertical: 6, minHeight: 44, opacity: pressed ? 0.85 : 1 })}>
+      aria-label={label}
+      aria-disabled={disabled}
+      disabled={disabled}
+      onPress={() => onChange(!value)}
+      style={({ pressed }) => ({ flexDirection: 'row', alignItems: 'center', gap: space.md, minHeight: 44, opacity: disabled ? 0.5 : pressed ? 0.8 : 1 })}>
       <View style={{ flex: 1, gap: 2 }}>
         <T v="label">{label}</T>
-        {body ? <T v="caption" muted>{body}</T> : null}
+        {hint ? <T v="caption" muted>{hint}</T> : null}
       </View>
-      <View style={{ width: 46, height: 28, borderRadius: 14, padding: 3, backgroundColor: value ? c.primary : c.surfaceAlt, borderWidth: 1, borderColor: value ? c.primary : c.border, justifyContent: 'center' }}>
-        <View style={{ width: 20, height: 20, borderRadius: 10, backgroundColor: value ? c.primaryText : c.textMuted, alignSelf: value ? 'flex-end' : 'flex-start' }} />
+      {/* Decorative: the row is the control (a focusable switch inside a switch would be announced twice). */}
+      <View pointerEvents="none" importantForAccessibility="no-hide-descendants" aria-hidden>
+        <Switch value={value} disabled={disabled} trackColor={{ true: c.primary, false: c.border }} thumbColor={c.surface} />
       </View>
     </Pressable>
   );

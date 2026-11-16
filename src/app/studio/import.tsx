@@ -4,7 +4,7 @@ import { Platform, View } from 'react-native';
 
 import { normalizeUrl } from '@/lib/curriculum';
 import { followNext, linkScanPages, parseOutline, parseScanRecord, parseTable, parseWebPage, sourceAddress, type ImportResult, type WebImport } from '@/lib/importers';
-import { LICENSE_INFO, licenseName, SOURCE_LICENSES, type LicenseKind } from '@/lib/license';
+import { LICENSE_INFO, licenseSummary, SOURCE_LICENSES, type LicenseKind } from '@/lib/license';
 import { lessonTotal, newLesson, newPackage, newUnit, type CurriculumPackage, type Origin, type PackageUnit } from '@/lib/package';
 import { parseCount } from '@/lib/parse';
 import { fetchPage, savePackage } from '@/services/studioApi';
@@ -204,7 +204,7 @@ function Web({ onCreate }: { onCreate: Create }) {
   const [chosen, setChosen] = useState<LicenseKind | undefined>();
   const [title, setTitle] = useState('');
   // A scanned book (archive.org): the pasted outline's page numbers link to its pages.
-  const [scan, setScan] = useState<{ id: string; note?: string } | null>(null);
+  const [scan, setScan] = useState<{ id: string; note?: string; found: boolean } | null>(null);
   const [firstPage, setFirstPage] = useState('');
   const link = normalizeUrl(url);
   const pasted = useMemo(() => {
@@ -235,7 +235,7 @@ function Web({ onCreate }: { onCreate: Create }) {
       if (source.kind === 'scan') {
         // Scans have no text outline: fill in what archive.org knows, then the creator pastes the contents.
         const rec = parseScanRecord(res.html);
-        setScan({ id: source.scanId!, note: rec.publicDomain ? `archive.org lists this ${rec.year} scan as not in copyright.` : undefined });
+        setScan({ id: source.scanId!, note: rec.publicDomain ? `archive.org lists this ${rec.year} scan as not in copyright.` : undefined, found: !!rec.title });
         setManual(true);
         setPage(null);
         setSourceTitle(rec.title ?? '');
@@ -266,7 +266,7 @@ function Web({ onCreate }: { onCreate: Create }) {
 
   return (
     <>
-      <Section title="Adapt a free online curriculum" subtitle="Paste the address of the course’s overview or table of contents page, a YouTube playlist, or an open textbook (Pressbooks, LibreTexts, Wikibooks, Wikiversity). We read its sections and lesson links, and look for its license so your plan can keep it and credit the source.">
+      <Section title="Adapt a free online curriculum" subtitle="Paste the address of the course’s overview or table of contents page, a YouTube playlist, an open textbook (Pressbooks, LibreTexts, Wikibooks, Wikiversity), a Project Gutenberg book, or an archive.org scan. We read its sections and lesson links, and look for its license so your plan can keep it and credit the source.">
         <Row gap={space.sm} align="flex-end">
           <View style={{ flex: 1 }}>
             <Field label="Course page" value={url} onChangeText={setUrl} placeholder="https://…" autoCapitalize="none" autoCorrect={false} keyboardType="url" hint={url.trim() && !link ? 'Enter a web address' : undefined} />
@@ -288,7 +288,7 @@ function Web({ onCreate }: { onCreate: Create }) {
 
       {page && !manual ? (
         <Card>
-          <T v="heading">{page.format === 'playlist' ? '▶️' : page.format === 'textbook' ? '📖' : '🌐'} {page.title}</T>
+          <T v="heading">{page.format === 'playlist' ? '▶️' : page.format === 'textbook' || page.format === 'book' ? '📖' : '🌐'} {page.title}</T>
           <T v="caption" muted>{page.url}{page.author ? ` · by ${page.author}` : ''}</T>
           {page.next && !page.next.auto ? (
             <Row>
@@ -300,7 +300,7 @@ function Web({ onCreate }: { onCreate: Create }) {
           ) : null}
           {page.license ? (
             <T>
-              License found: <T style={{ fontWeight: '700' }}>{licenseName(page.license)}</T> — {LICENSE_INFO[page.license.kind].label}. Your plan keeps this license.
+              License found: <T style={{ fontWeight: '700' }}>{licenseSummary(page.license)}</T>. Your plan keeps this license.
               {!LICENSE_INFO[page.license.kind].adapt ? ' It doesn’t allow sharing adapted versions, so your plan will be for your family only.' : !LICENSE_INFO[page.license.kind].commercial ? ' It’s non-commercial, so your plan must be free.' : ''}
             </T>
           ) : (
@@ -312,6 +312,9 @@ function Web({ onCreate }: { onCreate: Create }) {
       {scan ? (
         <Card>
           <T v="heading">📜 Scanned book</T>
+          {!scan.found ? (
+            <T color={c.accentInk} accessibilityLiveRegion="polite">We couldn’t find details for this scan on archive.org. Enter the book’s name below, then paste its contents.</T>
+          ) : null}
           <T v="caption">
             Paste the book’s table of contents below with page numbers (type it from the scan’s contents page). Each lesson links to the page where it starts.{scan.note ? ` ${scan.note}` : ''}
           </T>
@@ -327,7 +330,8 @@ function Web({ onCreate }: { onCreate: Create }) {
 
       {manual ? (
         <Section title="About the course" subtitle="Used to credit the source on your plan, its listing, and printouts.">
-          <Field label="Course name" value={sourceTitle} onChangeText={(v) => { setSourceTitle(v); if (!title || title === `${sourceTitle} (lesson plan)`) setTitle(v ? `${v} (lesson plan)` : ''); }} placeholder="Open Botany for Kids" maxLength={160} />
+          {/* No record for a scan: the creator types its name, so start them there. */}
+          <Field autoFocus={!!scan && !scan.found} label={scan ? 'Book or course name' : 'Course name'} value={sourceTitle} onChangeText={(v) => { setSourceTitle(v); if (!title || title === `${sourceTitle} (lesson plan)`) setTitle(v ? `${v} (lesson plan)` : ''); }} placeholder="Open Botany for Kids" maxLength={160} />
           <Field label="Author or organization (optional)" value={author} onChangeText={setAuthor} maxLength={120} />
         </Section>
       ) : null}
@@ -346,7 +350,7 @@ function Web({ onCreate }: { onCreate: Create }) {
       ) : null}
 
       {ready ? (
-        <>
+        <Section title="Your plan" subtitle="What families see, and the lessons it starts with.">
           <Field label="Your plan’s title" value={title} onChangeText={setTitle} maxLength={160} />
           <Field
             label={manual ? 'Course outline' : 'Or paste the course outline (optional)'}
@@ -357,7 +361,7 @@ function Web({ onCreate }: { onCreate: Create }) {
             placeholder={manual ? 'Paste the table of contents — one lesson per line. Lines starting with Unit, Chapter, Week… start a new unit. Lesson links in the text are kept.' : 'Use this if the page’s lessons didn’t come through. The source and license above are still recorded.'}
           />
           <Preview result={result} />
-        </>
+        </Section>
       ) : null}
       <Actions style={{ marginTop: space.md }}>
         <Button

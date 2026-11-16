@@ -34,6 +34,8 @@ export interface NearbyFamily {
   /** Checked by the Freerange team (shown as a badge). */
   verified: boolean;
   connection: ConnectionState;
+  /** When the family joined Freerange (month precision), to tell lookalike names apart. */
+  memberSince?: string;
 }
 
 export interface Connection {
@@ -66,6 +68,10 @@ export interface LiveEvent {
   id: string;
   title: string;
   date: string;
+  /** Start time ("10:00"); older trips have none. */
+  time?: string;
+  /** What to bring, where exactly to meet. */
+  details: string;
   location: string;
   ages: string;
   costPerKid: number;
@@ -138,9 +144,9 @@ export async function saveProfile(p: CommunityProfile): Promise<void> {
 
 export async function nearbyFamilies(f: { maxMiles: number; ageMin?: number; ageMax?: number; style?: Philosophy }): Promise<NearbyFamily[]> {
   const rows = check(await db().rpc('nearby_families', { max_miles: f.maxMiles, age_min: f.ageMin ?? null, age_max: f.ageMax ?? null, style: f.style ?? null })) as {
-    family_id: string; display_name: string; bio: string; kid_ages: number[]; philosophies: Philosophy[]; interests: string[]; band: string; email_verified: boolean; connection: ConnectionState; verified: boolean;
+    family_id: string; display_name: string; bio: string; kid_ages: number[]; philosophies: Philosophy[]; interests: string[]; band: string; email_verified: boolean; connection: ConnectionState; verified: boolean; member_since: string | null;
   }[];
-  return rows.map((r) => ({ familyId: r.family_id, displayName: r.display_name, bio: r.bio, kidAges: r.kid_ages, philosophies: r.philosophies, interests: r.interests, band: r.band, emailVerified: r.email_verified, verified: !!r.verified, connection: r.connection }));
+  return rows.map((r) => ({ familyId: r.family_id, displayName: r.display_name, bio: r.bio, kidAges: r.kid_ages, philosophies: r.philosophies, interests: r.interests, band: r.band, emailVerified: r.email_verified, verified: !!r.verified, connection: r.connection, memberSince: r.member_since ?? undefined }));
 }
 
 export async function myConnections(): Promise<Connection[]> {
@@ -217,12 +223,14 @@ export async function setCoopDuties(coopId: string, duties: LiveCoop['duties']) 
 
 export async function nearbyEvents(maxMiles: number): Promise<LiveEvent[]> {
   const rows = check(await db().rpc('nearby_events', { max_miles: maxMiles })) as {
-    id: string; title: string; starts_on: string; location: string; ages: string; cost_per_kid: number | string; capacity: number; host_name: string; band: string; going: number; carpooling: number; i_am_going: boolean; i_carpool: boolean; i_host: boolean; carpool_names: string[] | null;
+    id: string; title: string; starts_on: string; location: string; ages: string; cost_per_kid: number | string; capacity: number; host_name: string; band: string; going: number; carpooling: number; i_am_going: boolean; i_carpool: boolean; i_host: boolean; carpool_names: string[] | null; start_time: string | null; details: string | null;
   }[];
   return rows.map((r) => ({
     id: r.id,
     title: r.title,
     date: r.starts_on,
+    time: r.start_time ? r.start_time.slice(0, 5) : undefined,
+    details: r.details ?? '',
     location: r.location,
     ages: r.ages,
     costPerKid: Number(r.cost_per_kid),
@@ -238,8 +246,8 @@ export async function nearbyEvents(maxMiles: number): Promise<LiveEvent[]> {
   }));
 }
 
-export async function createEvent(e: { title: string; date: string; location: string; zip: string; ages: string; costPerKid: number; capacity: number; hostName: string }) {
-  check(await db().from('events').insert({ title: e.title, starts_on: e.date, location: e.location, zip5: e.zip || null, ages: e.ages, cost_per_kid: e.costPerKid, capacity: e.capacity, host_family: fid(), host_name: e.hostName }));
+export async function createEvent(e: { title: string; date: string; time: string; details: string; location: string; zip: string; ages: string; costPerKid: number; capacity: number; hostName: string }) {
+  check(await db().from('events').insert({ title: e.title, starts_on: e.date, start_time: e.time, details: e.details, location: e.location, zip5: e.zip || null, ages: e.ages, cost_per_kid: e.costPerKid, capacity: e.capacity, host_family: fid(), host_name: e.hostName }));
 }
 
 export async function setRsvp(eventId: string, going: boolean) {

@@ -314,6 +314,35 @@ export function publishIssues(pkg: CurriculumPackage): string[] {
   ].filter((x): x is string => !!x);
 }
 
+/** Book conversions, and adaptations of sources whose license never allows sharing them: family use only, never published. */
+export function privateForGood(p: Pick<CurriculumPackage, 'origin' | 'license'>): boolean {
+  return p.origin.kind === 'owned_book' || (p.origin.kind === 'open_web' && p.license.kind !== 'unknown' && !LICENSE_INFO[p.license.kind].adapt);
+}
+
+/** Edited since it was last published, so an update would carry something new. */
+export function hasUnpublishedChanges(pkg: Pick<CurriculumPackage, 'status' | 'publishedAt' | 'updatedAt'>): boolean {
+  return pkg.status === 'published' && !!pkg.publishedAt && Date.parse(pkg.updatedAt) > Date.parse(pkg.publishedAt);
+}
+
+/**
+ * The Publish button: its label, whether it's ready, and whether to ask for release notes.
+ * A published curriculum with no edits since can't be "updated" (families would get an
+ * empty "Update available").
+ */
+export function publishAction(pkg: CurriculumPackage): { title: string; ready: boolean; reason: string; releaseNote: boolean } {
+  const published = pkg.status === 'published';
+  const changed = hasUnpublishedChanges(pkg);
+  if (published && !changed) return { title: `Publish update (v${pkg.version + 1})`, ready: false, reason: `No changes since v${pkg.version}`, releaseNote: false };
+  const issues = publishIssues(pkg);
+  return {
+    title: published ? `Publish update (v${pkg.version + 1})` : 'Publish to the Marketplace',
+    ready: issues.length === 0,
+    reason: issues.length ? `Still needed: ${issues.join(', ')}` : '',
+    // Families who already have it (an earlier version) see the note when they review the update.
+    releaseNote: pkg.version > 0,
+  };
+}
+
 /** The Marketplace listing for a package (its full lessons are delivered on purchase). */
 export function packageToListing(pkg: CurriculumPackage, seller: string, existing?: Listing): Listing {
   const lessons = lessonTotal(pkg.units);

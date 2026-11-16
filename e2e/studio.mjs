@@ -143,7 +143,7 @@ async function run() {
   await fill('Maple Room Studio', 'Test Creator Co');
   await click('Open my Studio');
   await expect('Test Creator Co', 'dashboard shows the creator');
-  await expect('Make a curriculum');
+  await expect('Nothing here yet', 'an empty Studio offers a first curriculum');
   await page.goto(BASE, { waitUntil: 'networkidle0' });
   await sleep(1000);
   await expect('Test Creator Co', 'app opens straight into Studio for a creator');
@@ -164,8 +164,11 @@ async function run() {
   await fillLabel('Title', 'Counting rockets');
   await fillLabel('Pages (optional)', '4–9');
   await fill('Watch the video\nDo problems 1–10\nCheck your answers', 'Count the rockets\nDraw a rocket');
+  // The long lesson form folds into sections; Basics stay open.
+  await click('Worksheet & answer key');
   await fill('What is ¼ of 12?', 'How many rockets are there?');
   await fillLabel('Answer key (one per line, in the same order)', 'Five');
+  await click('Links & notes');
   await fill('https://… (video, reading, worksheet)', 'example.com/rockets');
   await fill('Label', 'Rocket video');
   await click('Add link', { exact: true });
@@ -258,7 +261,8 @@ async function run() {
   scenario('Web import without an account');
   await page.goto(`${BASE}/studio/import?from=web`, { waitUntil: 'networkidle0' });
   await sleep(800);
-  await expect('a YouTube playlist, or an open textbook', 'says playlists and open textbooks can be read');
+  await expect('a YouTube playlist, an open textbook', 'says playlists and open textbooks can be read');
+  await expect('a Project Gutenberg book, or an archive.org scan', 'SC-12 says Gutenberg books and archive.org scans can be read');
   await fill('https://…', 'example.org/course');
   await click('Load page');
   await sleep(500);

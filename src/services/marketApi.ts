@@ -345,7 +345,7 @@ export const refreshCatalog = refreshMarketplace;
 // ───────────────────────────── Reports and moderation
 
 export type ReportReason = 'copyright' | 'inappropriate' | 'spam' | 'misleading' | 'personal_info' | 'other';
-export type ReportTarget = { kind: 'listing' | 'review' | 'message'; id: ID };
+export type ReportTarget = { kind: 'listing' | 'review' | 'message' | 'family'; id: ID };
 
 /** Send a report to the moderators. Returns whether it's now hidden (several people reported it). */
 export async function reportContent(target: ReportTarget, reason: ReportReason, details: string, contact?: string): Promise<{ hidden: boolean }> {

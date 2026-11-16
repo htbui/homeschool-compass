@@ -1,4 +1,5 @@
-import type { Philosophy } from './types';
+import { formatClock, formatDate } from './dates';
+import type { ClockTime, DateKey, Philosophy } from './types';
 
 /**
  * Privacy-first family matching. Exact locations never leave a device: the
@@ -85,3 +86,44 @@ export const MEETUP_SAFETY_TIPS = [
   { icon: '🔒', title: 'Keep private details private', body: 'Hold back your home address, kids’ full names, and daily routine until you know a family well.' },
   { icon: '🚩', title: 'Trust your gut', body: 'If something feels off, leave. Block and report anyone who makes you or your kids uncomfortable.' },
 ] as const;
+
+// ───────────────────────────── Live finder and field trips
+
+/** How many finder cards show before "Show more". */
+export const FINDER_PAGE = 10;
+
+/**
+ * The family finder's list: families you're already connected to are left out (they're under
+ * "Your connections"), nearest first as the server sends them, a page at a time.
+ */
+export function finderView<F extends { connection: string }>(families: F[], shown = FINDER_PAGE): { list: F[]; total: number; more: number } {
+  const others = families.filter((f) => f.connection !== 'connected');
+  const list = others.slice(0, Math.max(0, shown));
+  return { list, total: others.length, more: others.length - list.length };
+}
+
+/** "12 families within 25 mi" (or "1 family…"). */
+export function finderCount(total: number, miles: number): string {
+  return `${total} ${total === 1 ? 'family' : 'families'} within ${miles} mi`;
+}
+
+/** "On Freerange since Nov 2026": tells lookalike names apart. */
+export function memberSince(iso: string | undefined): string | undefined {
+  if (!iso || Number.isNaN(Date.parse(iso))) return undefined;
+  return `On Freerange since ${new Date(iso).toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' })}`;
+}
+
+/** "Fri, Nov 20 · 10 AM" for a field trip's date pill ("Fri, Nov 20" when it has no time). */
+export function eventWhen(date: DateKey, time?: ClockTime): string {
+  const day = formatDate(date);
+  return time ? `${day} · ${formatClock(time).replace(':00 ', ' ')}` : day;
+}
+
+/** "Ages: all", "Ages: 6–10". */
+export function agesLabel(ages: string): string {
+  const a = ages.trim().replace(/^ages?:?\s*/i, '');
+  return `Ages: ${!a || /^all( ages)?$/i.test(a) ? 'all' : a}`;
+}
+
+/** A trip's place, unless it's the old "TBD" placeholder. */
+export const knownPlace = (location: string): string | undefined => (location.trim() && !/^tbd$/i.test(location.trim()) ? location.trim() : undefined);

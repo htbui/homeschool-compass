@@ -15,22 +15,22 @@ const REASONS: { value: ReportReason; label: string; listingOnly?: boolean }[] =
   { value: 'other', label: 'Something else' },
 ];
 
-const TITLE: Record<ReportTarget['kind'], string> = { listing: 'Report this listing', review: 'Report this review', message: 'Report this message' };
+const TITLE: Record<ReportTarget['kind'], string> = { listing: 'Report this listing', review: 'Report this review', message: 'Report this message', family: 'Report this family' };
 
-/** Report a listing, review, or message to the Freerange moderators. */
-export function ReportSheet({ target, name, onClose }: { target?: ReportTarget; name?: string; onClose: () => void }) {
+/** Report a listing, review, message, or family to the Freerange moderators. `details` starts the details box (e.g. a connection note). */
+export function ReportSheet({ target, name, details, onClose }: { target?: ReportTarget; name?: string; details?: string; onClose: () => void }) {
   return (
     <Sheet visible={!!target} onClose={onClose} title={TITLE[target?.kind ?? 'listing']}>
-      {target ? <ReportForm key={target.id} target={target} name={name} onClose={onClose} /> : null}
+      {target ? <ReportForm key={target.id} target={target} name={name} initialDetails={details} onClose={onClose} /> : null}
     </Sheet>
   );
 }
 
-function ReportForm({ target, name, onClose }: { target: ReportTarget; name?: string; onClose: () => void }) {
+function ReportForm({ target, name, initialDetails = '', onClose }: { target: ReportTarget; name?: string; initialDetails?: string; onClose: () => void }) {
   const c = useColors();
   const signedIn = useAccount((s) => !!s.userId);
   const [reason, setReason] = useState<ReportReason | undefined>();
-  const [details, setDetails] = useState('');
+  const [details, setDetails] = useState(initialDetails);
   const [contact, setContact] = useState('');
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
@@ -46,7 +46,7 @@ function ReportForm({ target, name, onClose }: { target: ReportTarget; name?: st
           A Freerange moderator will look at {name ? `“${name}”` : 'it'} and decide whether it stays up.
           {sent.hidden ? ' Several families reported it, so it’s hidden until then.' : ''}
         </T>
-        {target.kind === 'message' ? <T muted>If you don’t want to hear from this family again, you can also block them.</T> : null}
+        {target.kind === 'message' || target.kind === 'family' ? <T muted>If you don’t want to hear from this family again, you can also block them.</T> : null}
         <Row style={{ justifyContent: 'flex-end' }}>
           <Button title="Done" onPress={onClose} />
         </Row>
@@ -81,6 +81,7 @@ function ReportForm({ target, name, onClose }: { target: ReportTarget; name?: st
     <Stack>
       {name ? <T muted>{name}</T> : null}
       {target.kind === 'message' ? <T v="caption" muted>The moderators will see this one message, not the rest of your conversation.</T> : null}
+      {target.kind === 'family' ? <T v="caption" muted>The moderators see this family’s profile and what you write here, never your messages. They aren’t told who reported them.</T> : null}
       <Stack gap={6}>
         <T v="label">What’s wrong?</T>
         <Row wrap gap={6}>

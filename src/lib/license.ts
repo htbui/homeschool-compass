@@ -72,6 +72,18 @@ export function licenseName(l: License): string {
   return l.version && l.kind.startsWith('cc_by') ? `${info.short} ${l.version}` : info.short;
 }
 
+/** A license in a list of curricula: "CC BY-SA 4.0", but "All rights reserved" rather than a bare "©". */
+export function licenseLabel(l: License): string {
+  return l.kind === 'all_rights_reserved' || l.kind === 'unknown' ? LICENSE_INFO[l.kind].label : licenseName(l);
+}
+
+/** "CC BY 4.0 — Creative Commons Attribution", or just "Public domain" when the long name says nothing more. */
+export function licenseSummary(l: License): string {
+  const name = licenseName(l);
+  const label = LICENSE_INFO[l.kind].label;
+  return label.toLowerCase() === name.toLowerCase() ? name : `${name} — ${label}`;
+}
+
 /**
  * Find a license statement in a web page: Creative Commons links (the usual
  * badge or rel="license"), or a written "licensed under a Creative Commons

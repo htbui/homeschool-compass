@@ -99,8 +99,21 @@ async function device(name, { fakeFetch = false } = {}) {
       if (!ok) throw new Error(`[${section}] ${name}: nothing clickable with text "${t}"`);
       await sleep(500);
     },
+    /** The finder shows 10 families at a time: tap "Show more" until this text is on screen. */
+    async reveal(t) {
+      for (let i = 0; i < 12 && !(await d.has(t)); i++) {
+        const more = await p.evaluate(() => {
+          const b = [...document.querySelectorAll('[role="button"]')].reverse().find((e) => e.offsetParent && e.innerText.trim().startsWith('Show more ('));
+          b?.click();
+          return !!b;
+        });
+        if (!more) break;
+        await sleep(400);
+      }
+    },
     /** Click a button inside the smallest card containing `cardText`. */
     async clickIn(cardText, buttonText) {
+      await d.reveal(cardText);
       let ok = false;
       for (const end = Date.now() + 8000; !ok && Date.now() < end; ) {
         ok = await p.evaluate((cardText, buttonText) => {
@@ -122,6 +135,15 @@ async function device(name, { fakeFetch = false } = {}) {
         const btn = card && [...card.querySelectorAll('[role="button"],[tabindex]')].find((b) => b.innerText.trim() === buttonText);
         return btn ? btn.getAttribute('aria-disabled') === 'true' : null;
       }, cardText, buttonText);
+    },
+    async clickLabel(label) {
+      const ok = await p.waitForFunction((l) => {
+        const el = [...document.querySelectorAll(`[aria-label="${l}"]`)].reverse().find((e) => e.offsetParent !== null);
+        el?.click();
+        return !!el;
+      }, { timeout: 8000, polling: 200 }, label).then(() => true, () => false);
+      if (!ok) throw new Error(`[${section}] ${name}: nothing labelled "${label}"`);
+      await sleep(500);
     },
     async isDisabled(t) {
       return p.evaluate((t) => {
@@ -321,6 +343,7 @@ try {
   }
 
   scenario('A declined request shares nothing');
+  await C.reveal(`Ana ${run}`);
   await C.expect(`Ana ${run}`, 'finder shows the other family');
   await C.clickIn(`Ana ${run}`, 'Request to connect');
   await C.click('Send request');
@@ -356,14 +379,16 @@ try {
   await C.goto('/messages');
   await C.click(`Ana ${run}`);
   await C.expect(`Library on Friday? ${run}`, 'message received');
-  await C.click('Block', { exact: true });
-  await C.click('Block', { exact: true }).catch(() => {}); // confirm, when asked
+  // Block lives in the conversation's ⋯ menu.
+  await C.clickLabel(`More for Ana ${run}`);
+  await C.click(`⛔ Block Ana ${run}`);
+  await C.click('Block', { exact: true }); // confirm
   await C.expect('Unblock', 'blocked');
   await A.goto('/messages');
   await A.click(`Cara ${run}`);
   await A.expect(`You can message Cara ${run} while you’re connected.`, 'can no longer message the family that blocked her');
   log((await A.isDisabled('Send')) === null, 'ana: no message box once blocked');
-  await C.expect(`You blocked Ana ${run}. Unblock to message again.`, 'the blocker is told how to undo it');
+  await C.expect(`You blocked Ana ${run}. They can’t message you`, 'the blocker is told what blocking does, next to Unblock');
   await C.goto('/community');
   await C.expectNot(`ana-${run}@example.test`, 'blocking ends the connection');
 
@@ -390,6 +415,7 @@ try {
   await A.click('🚌 Field trips');
   await A.click('Organize');
   await A.fillLabel('Title', `Tiny tour ${run}`);
+  await A.fillLabel('Start time', '10:00 AM');
   await A.fillLabel('Location (public meeting place)', 'Library steps');
   await A.fillLabel('Capacity (families)', '1');
   await A.click('Create', { exact: true });

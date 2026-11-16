@@ -143,14 +143,14 @@ export default function Results() {
       ) : (
         <>
           <Section title="Recommended daily rhythm" subtitle="1-on-1 lessons are staggered so only one child needs you at a time.">
-            <SwitchRow label="Start with this daily rhythm" body={withRhythm ? 'You can edit it anytime.' : 'You’ll start with an empty week and build your own.'} value={withRhythm} onChange={setWithRhythm} />
+            <SwitchRow label="Start with this daily rhythm" hint={withRhythm ? 'You can edit it anytime.' : 'You’ll start with an empty week and build your own.'} value={withRhythm} onChange={setWithRhythm} />
             {withRhythm ? <RhythmPreview blocks={rhythm} kids={d.children} /> : null}
           </Section>
 
           <Section title="Help curriculum creators?">
             <SwitchRow
               label="Share anonymous lesson insights"
-              body="When you use a Marketplace curriculum, its creator learns how lessons went (finished or skipped, time taken, marked tricky) as totals from 5+ families. Never names, ages, or who your kids are. Change it any time in Settings."
+              hint="When you use a Marketplace curriculum, its creator learns how lessons went (finished or skipped, time taken, marked tricky) as totals from 5+ families. Never names, ages, or who your kids are. Change it any time in Settings."
               value={shareInsights}
               onChange={setShareInsights}
             />

@@ -147,13 +147,13 @@ export default function Settings() {
           <Card>
             <SwitchRow
               label="Let kids start upcoming work early"
-              body="Only their own solo missions. 1-on-1 time and family sessions stay on their day, and you get a notification when they start early."
+              hint="Only their own solo missions. 1-on-1 time and family sessions stay on their day, and you get a notification when they start early."
               value={kidsMayStartEarly(family)}
               onChange={(on) => updateFamily({ kidsStartEarly: on })}
             />
             <SwitchRow
               label="Kids can print"
-              body="Their day and worksheets. Until printing is set up on a device, they're asked to fetch you instead."
+              hint="Their day and worksheets. Until printing is set up on a device, they're asked to fetch you instead."
               value={kidsMayPrint(family)}
               onChange={(on) => updateFamily({ kidsCanPrint: on })}
             />
@@ -187,7 +187,7 @@ export default function Settings() {
           <Card>
             <SwitchRow
               label="Share anonymous lesson insights"
-              body="When your family uses a curriculum from the Marketplace, Freerange tells its creator how each lesson went: finished or skipped, about how long it took compared with the plan, and whether it was marked tricky. That’s all — never names, ages, or anything about who your kids are."
+              hint="When your family uses a curriculum from the Marketplace, Freerange tells its creator how each lesson went: finished or skipped, about how long it took compared with the plan, and whether it was marked tricky. That’s all — never names, ages, or anything about who your kids are."
               value={sharing}
               onChange={(on) => {
                 updateFamily({ insightsOptOut: !on });

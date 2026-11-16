@@ -54,13 +54,13 @@
     "lint": "expo lint",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
-    "test:e2e": "export BASE_URL=${BASE_URL:-http://localhost:8082} && node e2e/scenarios.mjs && W=390 H=844 node e2e/scenarios.mjs && node e2e/studio.mjs && W=390 H=844 node e2e/studio.mjs && node e2e/insights.mjs && node e2e/coop_gifts.mjs && node e2e/onboarding.mjs && node e2e/market-local.mjs && W=390 H=844 node e2e/market-local.mjs && node e2e/studio_community-local.mjs && W=390 H=844 node e2e/studio_community-local.mjs && node e2e/compass-kid.mjs && W=390 H=844 node e2e/compass-kid.mjs && node e2e/compass-records.mjs && W=390 H=844 node e2e/compass-records.mjs && node e2e/ux-foundation.mjs && W=390 H=844 node e2e/ux-foundation.mjs && node e2e/ux-compass.mjs && W=390 H=844 node e2e/ux-compass.mjs && node e2e/smoke.mjs",
+    "test:e2e": "export BASE_URL=${BASE_URL:-http://localhost:8082} && node e2e/scenarios.mjs && W=390 H=844 node e2e/scenarios.mjs && node e2e/studio.mjs && W=390 H=844 node e2e/studio.mjs && node e2e/insights.mjs && node e2e/coop_gifts.mjs && node e2e/onboarding.mjs && node e2e/market-local.mjs && W=390 H=844 node e2e/market-local.mjs && node e2e/studio_community-local.mjs && W=390 H=844 node e2e/studio_community-local.mjs && node e2e/compass-kid.mjs && W=390 H=844 node e2e/compass-kid.mjs && node e2e/compass-records.mjs && W=390 H=844 node e2e/compass-records.mjs && node e2e/ux-foundation.mjs && W=390 H=844 node e2e/ux-foundation.mjs && node e2e/ux-studio_community.mjs && W=390 H=844 node e2e/ux-studio_community.mjs && node e2e/ux-compass.mjs && W=390 H=844 node e2e/ux-compass.mjs && node e2e/smoke.mjs",
     "test:cloud": "set -a && . ./.env.local && set +a && vitest run --config vitest.cloud.config.mts",
     "db:start": "supabase start -x studio,imgproxy,vector,logflare,supavisor",
     "db:reset": "supabase db reset",
     "library:gen": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --import ./scripts/ts-hooks.mjs scripts/gen-seed.ts",
     "web:local": "EXPO_PUBLIC_FREERANGE_LOCAL_ONLY=1 expo start --web --port 8082",
-    "test:e2e:cloud": "node e2e/cloud.mjs && export BASE_URL=${BASE_URL:-http://localhost:8081} && node e2e/market-cloud.mjs && W=390 H=844 node e2e/market-cloud.mjs && node e2e/studio_community-cloud.mjs && W=390 H=844 node e2e/studio_community-cloud.mjs && node e2e/compass-cloud.mjs && W=390 H=844 node e2e/compass-cloud.mjs && node e2e/ux-compass-cloud.mjs && W=390 H=844 node e2e/ux-compass-cloud.mjs",
+    "test:e2e:cloud": "node e2e/cloud.mjs && export BASE_URL=${BASE_URL:-http://localhost:8081} && node e2e/market-cloud.mjs && W=390 H=844 node e2e/market-cloud.mjs && node e2e/studio_community-cloud.mjs && W=390 H=844 node e2e/studio_community-cloud.mjs && node e2e/compass-cloud.mjs && W=390 H=844 node e2e/compass-cloud.mjs && node e2e/ux-studio_community-cloud.mjs && W=390 H=844 node e2e/ux-studio_community-cloud.mjs && node e2e/ux-compass-cloud.mjs && W=390 H=844 node e2e/ux-compass-cloud.mjs",
     "test:coverage": "vitest run --coverage"
   },
   "private": true

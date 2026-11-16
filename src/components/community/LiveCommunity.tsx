@@ -2,11 +2,13 @@ import { router } from 'expo-router';
 import { useEffect, useEffectEvent, useState } from 'react';
 import { View } from 'react-native';
 
+import { FamilyMenu } from './MoreMenu';
 import { useMeetupTips } from './SafetyTips';
-import { VerificationCard } from './Verification';
+import { useMyVerification, VerificationCard } from './Verification';
 import { VerifiedBadge } from './VerifiedBadge';
 
-import { addDays, ageOn, formatDate, todayKey } from '@/lib/dates';
+import { agesLabel, eventWhen, FINDER_PAGE, finderCount, finderView, knownPlace, memberSince } from '@/lib/community';
+import { addDays, ageOn, formatUsDate, todayKey } from '@/lib/dates';
 import { parseCount } from '@/lib/parse';
 import { PHILOSOPHY_INFO } from '@/lib/quiz';
 import type { Philosophy } from '@/lib/types';
@@ -36,9 +38,10 @@ import {
   type LiveEvent,
   type NearbyFamily,
 } from '@/services/communityApi';
+import { blockFamily } from '@/services/messagesApi';
 import { useInbox, selectUnreadMessages } from '@/store/useInbox';
 import { useStore } from '@/store/useStore';
-import { Actions, Button, Card, Chip, DateField, Empty, Field, MoneyField, Pill, Row, Section, Segmented, Sheet, space, Stack, T, useColors, useConfirm } from '@/ui';
+import { Actions, Button, Card, Chip, DateField, Empty, Field, MoneyField, Pill, Row, Section, Segmented, Sheet, space, Stack, T, TimeField, useColors, useConfirm } from '@/ui';
 
 type Tab = 'families' | 'coops' | 'events' | 'swap';
 const RADII = [2, 5, 10, 25, 50];
@@ -151,7 +154,7 @@ function CommunityTabs({ profile, onEditProfile }: { profile: CommunityProfile; 
   return (
     <>
       <Row wrap style={{ justifyContent: 'space-between', marginTop: space.md }}>
-        <T v="caption" muted>Signed in as {profile.displayName}{profile.visible ? '' : ' (hidden from the finder)'}</T>
+        <T v="caption" muted>Shown to others as {profile.displayName}{profile.visible ? '' : ' (hidden from the finder)'}</T>
         <Row wrap gap={space.xs}>
           <Button size="sm" kind="secondary" icon="💬" title={unread ? `Messages (${unread})` : 'Messages'} onPress={() => router.push('/messages')} />
           <Button size="sm" kind="ghost" title="Edit profile" onPress={onEditProfile} />
@@ -177,7 +180,6 @@ function CommunityTabs({ profile, onEditProfile }: { profile: CommunityProfile; 
         </Row>
       ) : null}
       {tab === 'families' ? <Families radius={radius} /> : null}
-      {tab === 'families' ? <View style={{ marginTop: space.lg }}><VerificationCard /></View> : null}
       {tab === 'coops' ? <Coops radius={radius} profile={profile} /> : null}
       {tab === 'events' ? <Events radius={radius} profile={profile} /> : null}
       {tab === 'swap' ? (
@@ -248,12 +250,21 @@ function Families({ radius }: { radius: number }) {
   const { act, error } = useAct(refreshAll);
   const [asking, setAsking] = useState<NearbyFamily | null>(null);
   const [message, setMessage] = useState('');
+  const [shown, setShown] = useState(FINDER_PAGE);
+  const verification = useMyVerification();
+  const confirm = useConfirm();
 
   const incoming = (conns.data ?? []).filter((x) => x.status === 'pending' && x.direction === 'incoming');
   const connected = (conns.data ?? []).filter((x) => x.status === 'accepted');
+  // Connected families are under "Your connections", so the finder leaves them out.
+  const view = finderView(finder.data ?? [], shown);
+  // Until the family is verified, asking for the badge is worth seeing first; afterwards it's just a note at the end.
+  const verifiedCard = <VerificationCard state={verification} />;
+  const verifiedFirst = verification[0] && verification[0].status !== 'verified';
 
   return (
     <>
+      {verifiedFirst ? <View style={{ marginTop: space.lg }}>{verifiedCard}</View> : null}
       {incoming.length ? (
         <Section title={`Connection requests (${incoming.length})`}>
           <Stack gap={space.sm}>
@@ -265,9 +276,23 @@ function Families({ radius }: { radius: number }) {
                 </Row>
                 <T v="caption" muted>{x.band}{x.kidAges.length ? ` · kids ${x.kidAges.join(', ')}` : ''}</T>
                 {x.message ? <T>“{x.message}”</T> : null}
-                <Row>
-                  <Button size="sm" title="Accept" onPress={() => act(() => respondToConnection(x.familyId, true))} />
-                  <Button size="sm" kind="secondary" title="Decline" onPress={() => act(() => respondToConnection(x.familyId, false))} />
+                <Row wrap style={{ justifyContent: 'space-between' }}>
+                  <Row wrap>
+                    <Button size="sm" title="Accept" onPress={() => act(() => respondToConnection(x.familyId, true))} />
+                    <Button size="sm" kind="secondary" title="Decline" onPress={() => act(() => respondToConnection(x.familyId, false))} />
+                    <Button
+                      size="sm"
+                      kind="quietDanger"
+                      title="Decline and block"
+                      onPress={() =>
+                        confirm.ask(`Decline and block ${x.displayName}?`, () => act(() => blockFamily(x.familyId)), {
+                          confirm: 'Block',
+                          body: 'Their request goes away, and neither of you can send requests or messages, or see each other in the finder. They aren’t told. You can unblock from Messages.',
+                        })
+                      }
+                    />
+                  </Row>
+                  <FamilyMenu familyId={x.familyId} name={x.displayName} note={x.message || undefined} onBlocked={refreshAll} />
                 </Row>
               </Card>
             ))}
@@ -285,7 +310,7 @@ function Families({ radius }: { radius: number }) {
         </Section>
       ) : null}
 
-      <Section title="Family finder" subtitle="Families who opted in, by distance band.">
+      <Section title="Family finder" subtitle={finder.data ? `${finderCount(view.total, radius)} · nearest first` : 'Families who opted in, by distance band.'}>
         <Row wrap gap={6}>
           {AGE_BANDS.map((a, i) => (
             <Chip key={a.label} label={a.label} selected={ageBand === i} onPress={() => setAgeBand(i)} />
@@ -299,16 +324,20 @@ function Families({ radius }: { radius: number }) {
         </Row>
         {finder.error || error ? <T color={c.danger}>{finder.error || error}</T> : null}
         <Stack gap={space.sm}>
-          {finder.data && finder.data.length === 0 ? <Empty icon="🧭" title="No families match yet" body="Try a wider radius. As more families nearby join Freerange, they'll show up here." /> : null}
-          {(finder.data ?? []).map((f) => (
+          {finder.data && view.total === 0 ? <Empty icon="🧭" title="No families match yet" body="Try a wider radius. As more families nearby join Freerange, they'll show up here." /> : null}
+          {view.list.map((f) => (
             <Card key={f.familyId}>
               <Row style={{ justifyContent: 'space-between' }} wrap>
                 <Row wrap gap={6} style={{ flex: 1 }}>
                   <T v="heading">{f.displayName}</T>
                   {f.verified ? <VerifiedBadge /> : null}
                 </Row>
-                <Pill text={f.band} />
+                <Row gap={4}>
+                  <Pill text={f.band} />
+                  <FamilyMenu familyId={f.familyId} name={f.displayName} onBlocked={refreshAll} />
+                </Row>
               </Row>
+              {memberSince(f.memberSince) ? <T v="caption" muted>{memberSince(f.memberSince)}</T> : null}
               <T v="caption" muted>
                 {f.kidAges.length ? `Kids: ${f.kidAges.join(', ')}` : 'Kids’ ages not shared'}
                 {f.philosophies.length ? ` · ${f.philosophies.map((p) => PHILOSOPHY_INFO[p]?.label ?? p).join(', ')}` : ''}
@@ -326,13 +355,18 @@ function Families({ radius }: { radius: number }) {
                 {f.connection === 'none' || f.connection === 'declined' ? <Button size="sm" title="Request to connect" onPress={() => { setAsking(f); setMessage(''); }} /> : null}
                 {f.connection === 'requested' ? <Button size="sm" kind="secondary" title="Request sent · cancel" onPress={() => act(() => removeConnection(f.familyId))} /> : null}
                 {f.connection === 'incoming' ? <Button size="sm" title="Accept their request" onPress={() => act(() => respondToConnection(f.familyId, true))} /> : null}
-                {f.connection === 'connected' ? <Pill text="✓ Connected" tone="success" /> : null}
-                {f.connection === 'connected' ? <Button size="sm" kind="secondary" icon="💬" title="Message" onPress={() => router.push({ pathname: '/messages/[familyId]', params: { familyId: f.familyId } })} /> : null}
               </Row>
             </Card>
           ))}
+          {view.more > 0 ? (
+            <Row>
+              <Button kind="secondary" title={`Show more (${view.more})`} onPress={() => setShown(shown + FINDER_PAGE)} />
+            </Row>
+          ) : null}
         </Stack>
       </Section>
+      {!verifiedFirst ? <View style={{ marginTop: space.lg }}>{verifiedCard}</View> : null}
+      {confirm.element}
 
       <Sheet visible={!!asking} onClose={() => setAsking(null)} title={`Connect with ${asking?.displayName ?? ''}`}>
         <T muted>They&apos;ll see your display name, kids&apos; ages, and this note. Contact details are shared only if they accept.</T>
@@ -495,9 +529,10 @@ function Events({ radius, profile }: { radius: number; profile: CommunityProfile
           <Card key={e.id} tint={e.iAmGoing ? c.primarySoft : undefined}>
             <Row style={{ justifyContent: 'space-between' }} wrap>
               <T v="heading" style={{ flex: 1 }}>{e.title}</T>
-              <Pill text={formatDate(e.date)} />
+              <Pill text={eventWhen(e.date, e.time)} />
             </Row>
-            <T v="caption" muted>📍 {e.location} · {e.band} · Ages {e.ages} · Host {e.iHost ? 'you' : e.host} · {e.costPerKid ? `$${e.costPerKid}/kid` : 'Free'}</T>
+            <T v="caption" muted>{[knownPlace(e.location) && `📍 ${knownPlace(e.location)}`, e.band, agesLabel(e.ages), `Host ${e.iHost ? 'you' : e.host}`, e.costPerKid ? `$${e.costPerKid}/kid` : 'Free'].filter(Boolean).join(' · ')}</T>
+            {e.details ? <T v="caption">{e.details}</T> : null}
             <T v="caption">{e.going}/{e.capacity} families going{e.carpooling ? ` · ${e.carpooling} in the carpool pool` : ''}</T>
             {e.iCarpool && e.carpoolNames.length ? <T v="caption" color={c.primary}>🚗 Carpool with: {e.carpoolNames.join(', ')}</T> : null}
             <Actions align="flex-start">
@@ -524,17 +559,20 @@ function Events({ radius, profile }: { radius: number; profile: CommunityProfile
 function EventSheet({ visible, defaultZip, hostName, onClose, onSave }: { visible: boolean; defaultZip: string; hostName: string; onClose: () => void; onSave: (e: Parameters<typeof createEvent>[0]) => void }) {
   const [title, setTitle] = useState('');
   const [date, setDate] = useState<string | undefined>(addDays(todayKey(), 7));
+  const [time, setTime] = useState<string | undefined>();
+  const [details, setDetails] = useState('');
   const [location, setLocation] = useState('');
   const [zip, setZip] = useState(defaultZip);
   const [ages, setAges] = useState('All ages');
   const [cost, setCost] = useState<number | undefined>(0);
   const [capacity, setCapacity] = useState('20');
   const cap = parseCount(capacity);
-  const missing = [!title.trim() && 'a title', !date && 'a valid upcoming date', !location.trim() && 'a public meeting place', !/^\d{5}$/.test(zip) && 'a 5-digit ZIP', cost === undefined && 'a cost (0 for free)', !cap && 'capacity'].filter(Boolean);
+  const missing = [!title.trim() && 'a title', !date && 'a valid upcoming date', !time && 'a start time', !location.trim() && 'a public meeting place', !/^\d{5}$/.test(zip) && 'a 5-digit ZIP', cost === undefined && 'a cost (0 for free)', !cap && 'capacity'].filter(Boolean);
   return (
     <Sheet visible={visible} onClose={onClose} title="Organize a field trip">
       <Field label="Title" value={title} onChangeText={setTitle} />
-      <DateField label="Date" value={date} onChange={setDate} validate={(d) => (d < todayKey() ? 'Pick today or a future date' : undefined)} />
+      <DateField label="Date" value={date} onChange={setDate} example={formatUsDate(addDays(todayKey(), 7))} validate={(d) => (d < todayKey() ? 'Pick today or a future date' : undefined)} />
+      <TimeField label="Start time" value={time} onChange={setTime} example="10:00 AM" required />
       <Field label="Location (public meeting place)" value={location} onChangeText={setLocation} placeholder="City park, north pavilion" />
       <Field label="Location ZIP (for distance)" value={zip} onChangeText={setZip} keyboardType="number-pad" maxLength={5} />
       <Field label="Ages" value={ages} onChangeText={setAges} />
@@ -542,11 +580,12 @@ function EventSheet({ visible, defaultZip, hostName, onClose, onSave }: { visibl
         <View style={{ flex: 1 }}><MoneyField label="Cost per kid ($)" value={cost} onChange={setCost} example="0" /></View>
         <View style={{ flex: 1 }}><Field label="Capacity (families)" keyboardType="number-pad" value={capacity} onChangeText={setCapacity} /></View>
       </Row>
+      <Field label="Details (optional)" multiline value={details} onChangeText={(t) => setDetails(t.slice(0, 1000))} example="Bring a packed lunch. We meet by the fountain." />
       <Button
         title="Create"
         disabled={missing.length > 0}
         reason={`Still needed: ${missing.join(', ')}`}
-        onPress={() => date && cap && onSave({ title: title.trim(), date, location: location.trim(), zip, ages, costPerKid: cost ?? 0, capacity: cap, hostName })}
+        onPress={() => date && time && cap && onSave({ title: title.trim(), date, time, details: details.trim(), location: location.trim(), zip, ages, costPerKid: cost ?? 0, capacity: cap, hostName })}
       />
     </Sheet>
   );

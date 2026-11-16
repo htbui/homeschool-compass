@@ -291,6 +291,10 @@ export interface CommunityEvent {
   id: ID;
   title: string;
   date: DateKey;
+  /** Start time; older trips have none. */
+  time?: ClockTime;
+  /** What to bring, where exactly to meet. */
+  details?: string;
   location: string;
   ages: string;
   host: string;

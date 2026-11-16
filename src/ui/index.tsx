@@ -345,9 +345,10 @@ export function Segmented<V extends string>({ options, value, onChange, scroll }
 
 /**
  * Bottom sheet on phones, centered dialog on wide screens. With `dirty`, closing it (✕, backdrop,
- * Escape/back) first asks whether to throw the unsaved changes away.
+ * Escape/back) first asks whether to throw the unsaved changes away. `footer` stays pinned under
+ * the scrolling content (a Save button that's always in reach on a long form).
  */
-export function Sheet({ visible, onClose, title, children, dirty, discardQuestion = 'Discard your changes?' }: { visible: boolean; onClose: () => void; title: string; children: ReactNode; dirty?: boolean; discardQuestion?: string }) {
+export function Sheet({ visible, onClose, title, children, dirty, discardQuestion = 'Discard your changes?', footer }: { visible: boolean; onClose: () => void; title: string; children: ReactNode; dirty?: boolean; discardQuestion?: string; footer?: ReactNode }) {
   const c = useColors();
   const [asking, setAsking] = useState(false);
   const requestClose = () => (dirty ? setAsking(true) : onClose());
@@ -384,15 +385,16 @@ export function Sheet({ visible, onClose, title, children, dirty, discardQuestio
           <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{ gap: space.md, paddingBottom: space.lg }}>
             {children}
           </ScrollView>
+          {footer ? <View style={{ borderTopWidth: 1, borderColor: c.border, paddingTop: space.md }}>{footer}</View> : null}
         </View>
       </View>
     </Modal>
   );
 }
 
-/** Cross-platform confirm (Alert.alert is a no-op on web). */
+/** Cross-platform confirm (Alert.alert is a no-op on web). `kind: 'primary'` for a question that isn't destructive. */
 export function useConfirm() {
-  const [state, setState] = useState<{ title: string; body?: string; confirm: string; onYes: () => void } | null>(null);
+  const [state, setState] = useState<{ title: string; body?: string; confirm: string; kind: 'danger' | 'primary'; onYes: () => void } | null>(null);
   const element = (
     <Sheet visible={!!state} onClose={() => setState(null)} title={state?.title ?? ''}>
       {state?.body ? <T muted>{state.body}</T> : null}
@@ -400,7 +402,7 @@ export function useConfirm() {
         <Button title="Cancel" kind="secondary" onPress={() => setState(null)} />
         <Button
           title={state?.confirm ?? 'OK'}
-          kind="danger"
+          kind={state?.kind ?? 'danger'}
           onPress={() => {
             state?.onYes();
             setState(null);
@@ -409,7 +411,8 @@ export function useConfirm() {
       </Row>
     </Sheet>
   );
-  const ask = (title: string, onYes: () => void, opts: { body?: string; confirm?: string } = {}) => setState({ title, onYes, body: opts.body, confirm: opts.confirm ?? 'Confirm' });
+  const ask = (title: string, onYes: () => void, opts: { body?: string; confirm?: string; kind?: 'danger' | 'primary' } = {}) =>
+    setState({ title, onYes, body: opts.body, confirm: opts.confirm ?? 'Confirm', kind: opts.kind ?? 'danger' });
   return { ask, element };
 }
 
