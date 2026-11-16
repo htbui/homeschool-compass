@@ -104,6 +104,18 @@ _New ideas land here, then get a priority._
   - **Onboarding fits the roles picked:** a family sets up kids and their state, a creator sets up a storefront, and an organizer sets up a program page. People who skip a role don't see its setup.
   - **Kid mode stays separate:** switching roles never opens kid mode, and leaving kid mode still needs the parent PIN.
   - **Today:** everyone is a family, and creator tools live in Studio. This makes creators and organizers first-class, and it's needed before organizers can list programs in the Resources tab.
+- **Verification at sign-up, by role (strictest for event organizers).** Build on what exists: email confirmation, moderator-verified families, creators' `verified` flag, and the `record_vendor_verification()` hook. Show badges that say exactly what was checked, e.g. "ID verified", "Background check on file", "Insured". Never a vague "trusted".
+  - **Everyone:** confirmed email, plus an optional phone check. SMS costs money, so it waits for a provider.
+  - **Families (for meetups):** moderator review today, with an ID check through a vendor later (already on the roadmap).
+  - **Creators who sell:** Stripe Connect onboarding verifies identity and bank details for payouts, at no extra cost, so "Verified seller" comes from that.
+  - **Event organizers,** in tiers. Listings show the highest tier reached:
+    1. **Basic (required to list):** confirmed email, a real name or organization name, a phone number, a public meeting place or service area, and agreeing to an organizer code of conduct and a child-safety policy. Early listings get a moderator review.
+    2. **Identity verified:** a government ID and selfie check through a vendor (e.g. Stripe Identity, about $1.50 per check, or Persona or Veriff). Required to take sign-ups or payments inside Freerange. Stripe Connect covers this for paid programs.
+    3. **Organization verified:** for nature centers, libraries, leagues and businesses. An email at the organization's own domain, an EIN or state registration lookup, or a listing on the organization's own site that links back.
+    4. **Child-safety credentials (optional badges):** upload proof of a background check, SafeSport or similar training, CPR/first aid, or liability insurance, each with an expiry date. Moderators check it, and it's re-requested on expiry. Running background checks in the app (e.g. Checkr, roughly $30 or more each) can come later, paid by the organizer or as a premium option.
+  - **Ongoing trust:** reviews from families who attended, a report button on every listing and organizer page, and automatic re-review after reports. Repeat no-shows or complaints pause listings.
+  - **Privacy:** ID images stay with the vendor; Freerange stores only the result, the vendor's reference and the date. Explain in the privacy policy.
+  - **Needs from you:** a vendor account and budget for ID checks (and background checks, if offered), plus legal review of the child-safety policy and code of conduct.
 - **Keeping information fresh: a regular review workflow.** Curated content goes stale: state laws and rules (`src/lib/standards.ts`, notice-of-intent details), the programs and benefits list, co-op and program listings, and Library sources and licenses.
   - **Every entry records** its source link, when it was last checked, who checked it, and a review interval (e.g. laws yearly and before each school year, benefit deadlines each season, local programs every few months).
   - **A scheduled job** (e.g. a weekly Supabase cron or GitHub Action):
