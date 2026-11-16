@@ -197,7 +197,7 @@ try {
   scenario('Live catalog and storefront');
   const A = await familyWithAccount('buyer', EMAIL_A);
   await A.goto('/market');
-  log(!(await A.has('Free & open curricula: classics and openly licensed')), 'buyer: live catalog (no local-only banner)');
+  log(!(await A.has('Showing free & open curricula')), 'buyer: live catalog (no local-only note)');
   await A.click('All grades', { exact: true });
   await A.fill('Search curricula, publishers, subjects…', run);
   await A.expect(POND, 'creator’s new curriculum is in the catalog');
@@ -232,7 +232,7 @@ try {
   await A.fill('Coupon code', CODE.toLowerCase());
   await A.click('Apply', { exact: true });
   await A.expect(`✓ Coupon ${CODE}: −$2`, 'coupon applied by the server');
-  await A.click('🧾 Tax-deductible');
+  await A.click('🧾 For tax records');
   await A.click('Buy for $18');
   await A.expect('It’s in your library', 'purchase completed (demo payments)', 20000);
   await A.click('Later', { exact: true });
@@ -241,9 +241,9 @@ try {
   const bought = stA.purchases?.find((p) => p.listingId === pondId);
   log(bought?.status === 'paid' && bought.price === 18 && bought.listPrice === 20 && bought.fundingSource === 'tax' && bought.demo === true, 'purchase recorded at the server’s price');
   const exp = stA.expenses?.filter((e) => e.description === POND) ?? [];
-  log(exp.length === 1 && exp[0].amount === 18 && exp[0].fundingSource === 'tax' && exp[0].category === 'curriculum', 'one expense, tagged tax-deductible');
+  log(exp.length === 1 && exp[0].amount === 18 && exp[0].fundingSource === 'tax' && exp[0].category === 'curriculum', 'one expense, tagged for tax records');
   await A.goto('/market?view=library');
-  await A.expect('tax-deductible · in your expenses', 'library says it’s in expenses');
+  await A.expect('tax records · in your expenses', 'library says it’s in expenses');
   await A.expect('saved $2', 'library shows the saving');
   await A.goto('/records/expenses');
   await A.expect(POND, 'expense tracker lists the purchase');
