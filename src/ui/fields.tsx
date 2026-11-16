@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { View, type TextInputProps } from 'react-native';
 
-import { formatClock, formatDate } from '@/lib/dates';
+import { formatClock, formatDate, formatUsDate } from '@/lib/dates';
 import { parseDate, parseMoney, parseTime } from '@/lib/parse';
 import type { ClockTime, DateKey } from '@/lib/types';
 
@@ -62,11 +62,6 @@ export function ParsedField<V>({ value, onChange, parse, format, describe, valid
   );
 }
 
-const usDate = (d: DateKey) => {
-  const [y, m, day] = d.split('-');
-  return `${m}/${day}/${y}`;
-};
-
 export function DateField(props: Omit<ParsedFieldProps<DateKey>, 'parse' | 'format' | 'example'> & { example?: string }) {
   return (
     <ParsedField<DateKey>
@@ -76,7 +71,7 @@ export function DateField(props: Omit<ParsedFieldProps<DateKey>, 'parse' | 'form
       describe={(d) => formatDate(d, { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' })}
       {...props}
       parse={parseDate}
-      format={usDate}
+      format={formatUsDate}
     />
   );
 }

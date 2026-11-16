@@ -3,6 +3,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { View } from 'react-native';
 
 import { ShareCode } from '@/components/ShareCode';
+import { SwitchRow } from '@/components/SwitchRow';
 import { furthest, MAX_FAMILIES, rosterSummary, studentLabel, type ClassMember, type CoopClass } from '@/lib/coop';
 import { formatDate } from '@/lib/dates';
 import type { PackageContent } from '@/lib/market';
@@ -11,7 +12,7 @@ import { parseCount } from '@/lib/parse';
 import { sameOutline } from '@/lib/planUpdate';
 import { classContent, classRoster, classSettings, endClass, newInviteCode, removeFamily, sendClassUpdate, teachingClasses } from '@/services/coopApi';
 import { useStudio } from '@/store/useStudio';
-import { Button, Card, Chip, Empty, Field, Progress, Row, Screen, Section, space, Stack, Stat, T, useColors, useConfirm } from '@/ui';
+import { Actions, Button, Card, Empty, Field, Progress, Row, Screen, Section, space, Stack, Stat, T, useColors, useConfirm } from '@/ui';
 
 const day = (iso: string) => formatDate(iso.slice(0, 10), { month: 'short', day: 'numeric' });
 
@@ -25,6 +26,7 @@ export default function CoopClassScreen() {
   const pkg = useStudio((s) => s.packages.find((p) => p.id === cls?.packageId));
   const [note, setNote] = useState('');
   const [max, setMax] = useState('');
+  const [open, setOpen] = useState(true);
   const [busy, setBusy] = useState<string | null>(null);
   const [error, setError] = useState('');
   const [sentMsg, setSentMsg] = useState('');
@@ -37,7 +39,10 @@ export default function CoopClassScreen() {
   }, [id]);
   const show = useCallback(({ found, r, k }: Awaited<ReturnType<typeof fetchAll>>) => {
     setCls(found);
-    if (found) setMax(String(found.maxFamilies));
+    if (found) {
+      setMax(String(found.maxFamilies));
+      setOpen(found.status === 'open');
+    }
     setRoster(r);
     setContent(k);
   }, []);
@@ -72,6 +77,9 @@ export default function CoopClassScreen() {
   const summary = rosterSummary(roster, total);
   const changed = !!pkg && !!content && (!sameOutline(content.units, pkg.units) || content.license?.kind !== pkg.license.kind);
   const maxN = parseCount(max);
+  // Both settings apply together on Save, so nothing changes until the teacher says so.
+  const settingsChanged = maxN !== cls.maxFamilies || open !== (cls.status === 'open');
+  const settingsMissing = [!(maxN && maxN <= MAX_FAMILIES) && `room for 1–${MAX_FAMILIES} families`].filter(Boolean);
 
   return (
     <Screen edges={[]}>
@@ -162,18 +170,37 @@ export default function CoopClassScreen() {
 
       <Section title="Settings">
         <Card>
-          <Row gap={space.md} align="flex-end" wrap>
-            <View style={{ flex: 1, minWidth: 180 }}>
-              <Field label={`Room for (1–${MAX_FAMILIES} families)`} keyboardType="number-pad" value={max} onChangeText={setMax} />
-            </View>
-            <Chip label={cls.status === 'open' ? '✓ Open to new families' : 'Closed to new families'} selected={cls.status === 'open'} onPress={() => run('open', () => classSettings(cls, cls.maxFamilies, cls.status !== 'open'))} />
-            <Button size="sm" kind="secondary" title="Save" disabled={!maxN || maxN > MAX_FAMILIES || maxN === cls.maxFamilies} loading={busy === 'max'} onPress={() => run('max', () => classSettings(cls, maxN!, cls.status === 'open'))} />
-          </Row>
-          <Row wrap>
-            <Button size="sm" kind="secondary" title="New invite code" loading={busy === 'code'} onPress={() => confirm.ask('Make a new invite code?', () => run('code', () => newInviteCode(cls)), { confirm: 'New code', body: 'The old code and link stop working. Families already in the class stay.' })} />
-            <Button size="sm" kind="danger" title="End the class" onPress={() => confirm.ask(`End “${cls.title}”?`, () => run('end', async () => { await endClass(cls); router.replace('/studio/classes'); }), { confirm: 'End class', body: 'Families keep the plan and their progress, but get no more updates. This can’t be undone.' })} />
+          <View style={{ maxWidth: 260 }}>
+            <Field label={`Room for (1–${MAX_FAMILIES} families)`} keyboardType="number-pad" value={max} onChangeText={setMax} />
+          </View>
+          <SwitchRow label="Open to new families" hint={open ? 'Families with the code can join.' : 'The code stops working until you open it again.'} value={open} onChange={setOpen} />
+          <Actions>
+            {settingsChanged ? (
+              <Button
+                kind="secondary"
+                title="Undo"
+                onPress={() => {
+                  setMax(String(cls.maxFamilies));
+                  setOpen(cls.status === 'open');
+                }}
+              />
+            ) : null}
+            <Button title="Save settings" disabled={!settingsChanged || settingsMissing.length > 0} reason={settingsMissing.length ? `Still needed: ${settingsMissing.join(', ')}` : undefined} loading={busy === 'settings'} onPress={() => run('settings', () => classSettings(cls, maxN!, open))} />
+          </Actions>
+        </Card>
+        <Card>
+          <T v="heading">Invite code</T>
+          <T v="caption" muted>Make a new code if the old one was shared too widely. The old code and link stop working; families already in the class stay.</T>
+          <Row>
+            <Button size="sm" kind="secondary" title="New invite code" loading={busy === 'code'} onPress={() => confirm.ask('Make a new invite code?', () => run('code', () => newInviteCode(cls)), { confirm: 'New code', kind: 'primary', body: 'The old code and link stop working. Families already in the class stay.' })} />
           </Row>
         </Card>
+      </Section>
+
+      <Section title="End the class" subtitle="Families keep the plan and their progress, but get no more updates.">
+        <Row>
+          <Button size="sm" kind="danger" title="End the class" onPress={() => confirm.ask(`End “${cls.title}”?`, () => run('end', async () => { await endClass(cls); router.replace('/studio/classes'); }), { confirm: 'End class', body: 'Families keep the plan and their progress, but get no more updates. This can’t be undone.' })} />
+        </Row>
       </Section>
       {error ? <T color={c.danger}>{error}</T> : null}
       {confirm.element}

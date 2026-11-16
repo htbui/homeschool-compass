@@ -45,7 +45,8 @@ interface StudioState {
   hydrated: boolean;
   setActive: (active: boolean) => void;
   saveProfile: (p: Omit<CreatorProfile, 'createdAt'>) => void;
-  upsertPackage: (p: CurriculumPackage) => void;
+  /** Saves an edit (and stamps `updatedAt`); `touch: false` keeps the package's own time, for publishing. */
+  upsertPackage: (p: CurriculumPackage, touch?: boolean) => void;
   removePackage: (id: string) => void;
   setPackages: (p: CurriculumPackage[]) => void;
   setBundles: (b: Bundle[]) => void;
@@ -65,9 +66,9 @@ export const useStudio = create<StudioState>()(
       hydrated: false,
       setActive: (active) => set({ active }),
       saveProfile: (p) => set((s) => ({ profile: { ...s.profile, ...p, createdAt: s.profile?.createdAt ?? new Date().toISOString() } })),
-      upsertPackage: (p) =>
+      upsertPackage: (p, touch = true) =>
         set((s) => {
-          const next = { ...p, updatedAt: new Date().toISOString() };
+          const next = touch ? { ...p, updatedAt: new Date().toISOString() } : p;
           return { packages: s.packages.some((x) => x.id === p.id) ? s.packages.map((x) => (x.id === p.id ? next : x)) : [next, ...s.packages] };
         }),
       removePackage: (id) => set((s) => ({ packages: s.packages.filter((p) => p.id !== id) })),

@@ -4,7 +4,7 @@ import { View } from 'react-native';
 
 import { AccountNote } from '@/components/AccountNote';
 import { money, Price, SaleNote } from '@/components/market/PriceTag';
-import { addDays, formatDate, todayKey } from '@/lib/dates';
+import { addDays, formatDate, formatUsDate, todayKey } from '@/lib/dates';
 import type { Listing } from '@/lib/market';
 import { parseCount } from '@/lib/parse';
 import { bundleIssues, bundleSummary, couponIssues, couponLabel, currentPrice, normalizeCode, onSale, saleIssues, SALE_MAX, SALE_MIN, type Bundle, type Coupon } from '@/lib/pricing';
@@ -52,7 +52,7 @@ export default function Promotions() {
   return (
     <Screen edges={[]}>
       <T v="display">🏷️ Sales, bundles & coupons</T>
-      <T muted>Prices are always worked out by Freerange at checkout, so what families pay matches what you set here.</T>
+      <T muted>Families always pay the price you set here, including any sale or coupon.</T>
       {!userId ? <AccountNote style={{ marginTop: space.sm }} signIn="Without an account these stay on this device, like your listings. Sign in so families everywhere see them." deviceOnly="Sales, bundles, and coupons stay here too, like your listings." /> : null}
       {error ? <T color={c.danger}>{error}</T> : null}
 
@@ -168,7 +168,7 @@ function SaleSheet({ listing, onClose }: { listing: Listing; onClose: () => void
   return (
     <Sheet visible onClose={onClose} title={`Sale: ${listing.title}`}>
       <Field label="Percent off" keyboardType="number-pad" value={pct} onChangeText={setPct} />
-      <DateField label="Last day of the sale" value={ends} onChange={setEnds} />
+      <DateField label="Last day of the sale" value={ends} onChange={setEnds} example={formatUsDate(addDays(todayKey(), 30))} />
       {n && !issues.length ? <T>Families pay {money(currentPrice({ price: listing.price, salePercent: n, saleEndsAt: endsAt }))} instead of {money(listing.price)}.</T> : null}
       {error ? <T color={c.danger}>{error}</T> : null}
       <Actions>
@@ -270,7 +270,7 @@ function CouponSheet({ mine, existing, onClose }: { mine: Listing[]; existing: C
         </Row>
       </Stack>
       <Field label="How many times it can be used (optional)" placeholder="No limit" keyboardType="number-pad" value={maxUses} onChangeText={setMaxUses} />
-      <DateField label="Last day it works (optional)" value={expires} onChange={setExpires} />
+      <DateField label="Last day it works (optional)" value={expires} onChange={setExpires} example={formatUsDate(addDays(todayKey(), 30))} />
       {error ? <T color={c.danger}>{error}</T> : null}
       <Actions>
         <Button kind="secondary" title="Cancel" onPress={onClose} />

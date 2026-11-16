@@ -1,8 +1,11 @@
 import { router, Stack as RouterStack, useLocalSearchParams } from 'expo-router';
-import { useEffect, useState } from 'react';
+import { type ReactNode, useEffect, useState } from 'react';
 import { Pressable, View } from 'react-native';
+import * as Linking from 'expo-linking';
 
-import { AccountNote } from '@/components/AccountNote';
+import { AccountNote, needsAccount } from '@/components/AccountNote';
+import { CopyButton } from '@/components/CopyButton';
+import { SwitchRow } from '@/components/SwitchRow';
 import { AddToPlanSheet } from '@/components/market/AddToPlanSheet';
 import { money } from '@/components/market/ListingCard';
 import { normalizeUrl } from '@/lib/curriculum';
@@ -14,6 +17,7 @@ import { FORMAT_LABEL, GRADE_LABELS, INVOLVEMENT_LABEL, PHILOSOPHY_SHORT, type I
 import {
   allLessons,
   attributionFor,
+  hasUnpublishedChanges,
   LEVEL_LABEL,
   lessonTotal,
   newLesson,
@@ -21,6 +25,8 @@ import {
   ORIGIN_LABEL,
   packageToListing,
   planThemes,
+  privateForGood,
+  publishAction,
   publishIssues,
   publishRules,
   THEME_IDEAS,
@@ -36,6 +42,7 @@ import { parseCount, parseMoney } from '@/lib/parse';
 import { planCsv, planFileName, planHtml } from '@/lib/planExport';
 import { parseStandardList, standardCode, standardLabel, strandsFor } from '@/lib/standards';
 import { SUBJECT_LIST, SUBJECTS } from '@/lib/subjects';
+import { plural } from '@/lib/text';
 import type { Philosophy } from '@/lib/types';
 import { exportHtml, shareText } from '@/services/exportDoc';
 import { lessonInsights, type InsightsResult } from '@/services/insights';
@@ -47,6 +54,42 @@ import { Actions, Button, Card, Chip, ConfirmButton, Empty, Field, Pill, Row, Sc
 type Tab = 'details' | 'lessons' | 'publish' | 'insights';
 const COVERS = ['📘', '🧮', '🔤', '📚', '✏️', '🌱', '🔬', '🏛️', '🌎', '🎨', '🎵', '🧩', '🍕', '🌻', '🐋', '🚀', '🕊️', '🧺'];
 const PHILOSOPHIES = Object.keys(PHILOSOPHY_SHORT) as Philosophy[];
+/** Reorder arrows: a 44 pt square to tap, not just the glyph. */
+const ARROW = { minWidth: 44, alignItems: 'stretch' } as const;
+const gradeName = (g: number) => (g < 0 ? 'Pre-K' : g === 0 ? 'K' : `Grade ${g}`);
+const GRADE_MIN = -1;
+const GRADE_MAX = GRADE_LABELS.length - 2;
+
+/** "From  ‹ Grade 3 ›": one compact control per end of the grade range instead of 14 chips each. */
+function GradeStepper({ which, grade, onChange }: { which: 'From' | 'To'; grade: number; onChange: (g: number) => void }) {
+  const c = useColors();
+  return (
+    <Row gap={4} style={{ borderWidth: 1, borderColor: c.border, borderRadius: 10, paddingHorizontal: 4, backgroundColor: c.surface }}>
+      <T v="caption" muted style={{ paddingLeft: 6 }}>{which}</T>
+      <Button size="sm" kind="ghost" title="‹" style={ARROW} accessibilityLabel={`${which}: lower grade`} disabled={grade <= GRADE_MIN} onPress={() => onChange(grade - 1)} />
+      <T v="label" style={{ minWidth: 64, textAlign: 'center' }} accessibilityLiveRegion="polite" aria-label={`${which} ${gradeName(grade)}`}>{gradeName(grade)}</T>
+      <Button size="sm" kind="ghost" title="›" style={ARROW} accessibilityLabel={`${which}: higher grade`} disabled={grade >= GRADE_MAX} onPress={() => onChange(grade + 1)} />
+    </Row>
+  );
+}
+
+/** A collapsible group in a long form; shows a one-line summary while closed. */
+function Fold({ title, summary, open: initial = false, children }: { title: string; summary?: string; open?: boolean; children: ReactNode }) {
+  const c = useColors();
+  const [open, setOpen] = useState(initial);
+  return (
+    <View style={{ borderTopWidth: 1, borderColor: c.border, paddingTop: space.sm, gap: space.md }}>
+      <Pressable role="button" aria-expanded={open} onPress={() => setOpen(!open)} style={{ minHeight: 44, flexDirection: 'row', alignItems: 'center', gap: space.sm }}>
+        <T v="heading" style={{ width: 18 }}>{open ? '▾' : '▸'}</T>
+        <View style={{ flex: 1 }}>
+          <T v="heading">{title}</T>
+          {!open && summary ? <T v="caption" muted numberOfLines={1}>{summary}</T> : null}
+        </View>
+      </Pressable>
+      {open ? children : null}
+    </View>
+  );
+}
 const move = <T,>(list: T[], from: number, to: number): T[] => {
   if (to < 0 || to >= list.length) return list;
   const out = [...list];
@@ -65,12 +108,17 @@ export default function PackageEditor() {
   if (!pkg) {
     return (
       <Screen edges={[]}>
-        <Empty icon="🔎" title="Curriculum not found" action={<Button title="Back to Studio" onPress={() => router.replace('/studio')} />} />
+        <Empty
+          icon="🔎"
+          title="Curriculum not found"
+          body={needsAccount('It may have been deleted, or it’s in your Studio on another device: sign in there and here to sync.', 'It may have been deleted, or it was made on another device.')}
+          action={<Button title="Back to Studio" onPress={() => router.replace('/studio')} />}
+        />
       </Screen>
     );
   }
   const update = (patch: Partial<CurriculumPackage>) => savePackage({ ...pkg, ...patch });
-  const changed = pkg.status === 'published' && !!pkg.publishedAt && pkg.updatedAt > pkg.publishedAt;
+  const changed = hasUnpublishedChanges(pkg);
   // Insights need a published listing for families to report on.
   const insights = pkg.status === 'published' && !!pkg.listingId;
 
@@ -79,7 +127,7 @@ export default function PackageEditor() {
       <RouterStack.Screen options={{ title: pkg.title || 'Untitled curriculum' }} />
       <Row style={{ justifyContent: 'space-between' }} wrap>
         <T v="title" style={{ flex: 1 }}>{pkg.cover} {pkg.title || 'Untitled curriculum'}</T>
-        <Pill text={pkg.status === 'published' ? `Published v${pkg.version}` : 'Draft'} />
+        <Pill text={pkg.status === 'published' ? `Published v${pkg.version}` : privateForGood(pkg) ? '🔒 Private' : 'Draft'} />
       </Row>
       <T v="caption" muted>{ORIGIN_LABEL[pkg.origin.kind]} · {lessonTotal(pkg.units)} lessons · saved automatically</T>
       {changed ? <T v="caption" color={c.accentInk}>You have changes that aren’t published yet — publish an update from the Publish tab.</T> : null}
@@ -131,17 +179,9 @@ function Details({ pkg, update }: { pkg: CurriculumPackage; update: Update }) {
       </Stack>
       <Stack gap={6}>
         <T v="label">Grades: {GRADE_LABELS[pkg.gradeMin + 1]} to {GRADE_LABELS[pkg.gradeMax + 1]}</T>
-        <Row wrap gap={6}>
-          <T v="caption" muted style={{ width: 40 }}>From</T>
-          {GRADE_LABELS.map((g, i) => (
-            <Chip key={g} label={i === 0 ? 'Pre-K' : i === 1 ? 'K' : String(i - 1)} selected={pkg.gradeMin === i - 1} onPress={() => update({ gradeMin: i - 1, gradeMax: Math.max(pkg.gradeMax, i - 1) })} />
-          ))}
-        </Row>
-        <Row wrap gap={6}>
-          <T v="caption" muted style={{ width: 40 }}>To</T>
-          {GRADE_LABELS.map((g, i) => (
-            <Chip key={g} label={i === 0 ? 'Pre-K' : i === 1 ? 'K' : String(i - 1)} selected={pkg.gradeMax === i - 1} onPress={() => update({ gradeMax: i - 1, gradeMin: Math.min(pkg.gradeMin, i - 1) })} />
-          ))}
+        <Row wrap gap={space.md}>
+          <GradeStepper which="From" grade={pkg.gradeMin} onChange={(g) => update({ gradeMin: g, gradeMax: Math.max(pkg.gradeMax, g) })} />
+          <GradeStepper which="To" grade={pkg.gradeMax} onChange={(g) => update({ gradeMax: g, gradeMin: Math.min(pkg.gradeMin, g) })} />
         </Row>
       </Stack>
       <Stack gap={6}>
@@ -156,17 +196,17 @@ function Details({ pkg, update }: { pkg: CurriculumPackage; update: Update }) {
         <T v="label">Parent involvement</T>
         <Row wrap gap={6}>
           {(Object.keys(INVOLVEMENT_LABEL) as Involvement[]).map((k) => (
-            <Chip key={k} label={INVOLVEMENT_LABEL[k]} selected={pkg.parentInvolvement === k} onPress={() => update({ parentInvolvement: k })} />
+            <Chip key={k} role="radio" label={INVOLVEMENT_LABEL[k]} selected={pkg.parentInvolvement === k} onPress={() => update({ parentInvolvement: k })} />
           ))}
-          <Chip label={`${pkg.familyStyle ? '✓' : '○'} Siblings can do it together`} selected={pkg.familyStyle} onPress={() => update({ familyStyle: !pkg.familyStyle })} />
         </Row>
       </Stack>
+      <SwitchRow label="Siblings can do it together" hint="One lesson for several kids at once (family style)." value={pkg.familyStyle} onChange={(familyStyle) => update({ familyStyle })} />
       <Row gap={space.md} align="flex-start" wrap>
         <View style={{ flex: 1, minWidth: 150 }}>
           <Field label="Minutes per lesson" value={minutes} keyboardType="number-pad" onChangeText={(v) => { setMinutes(v); const n = parseCount(v); if (n && n <= 480) update({ minutesPerLesson: n }); }} hint={parseCount(minutes) && parseCount(minutes)! <= 480 ? undefined : '1–480 minutes'} />
         </View>
         <View style={{ flex: 1, minWidth: 150 }}>
-          <Field label="Suggested lessons per week" value={perWeek} keyboardType="number-pad" onChangeText={(v) => { setPerWeek(v); const n = parseCount(v); if (n && n <= 7) update({ lessonsPerWeek: n }); }} hint={parseCount(perWeek) && parseCount(perWeek)! <= 7 ? undefined : '1–7 a week'} />
+          <Field label="Lessons per week" value={perWeek} keyboardType="number-pad" onChangeText={(v) => { setPerWeek(v); const n = parseCount(v); if (n && n <= 7) update({ lessonsPerWeek: n }); }} hint={parseCount(perWeek) && parseCount(perWeek)! <= 7 ? undefined : '1–7 a week'} />
         </View>
       </Row>
       <Stack gap={6}>
@@ -210,8 +250,8 @@ function Lessons({ pkg, update }: { pkg: CurriculumPackage; update: Update }) {
             <View style={{ flex: 1 }}>
               <Field label={`Unit ${ui + 1}`} value={u.title} onChangeText={(title) => setUnit(ui, { ...u, title })} placeholder="Unit name" />
             </View>
-            <Button size="sm" kind="ghost" title="↑" accessibilityLabel={`Move unit ${ui + 1} up`} disabled={ui === 0} onPress={() => setUnits(move(pkg.units, ui, ui - 1))} />
-            <Button size="sm" kind="ghost" title="↓" accessibilityLabel={`Move unit ${ui + 1} down`} disabled={ui === pkg.units.length - 1} onPress={() => setUnits(move(pkg.units, ui, ui + 1))} />
+            <Button size="sm" kind="ghost" title="↑" style={ARROW} accessibilityLabel={`Move unit ${ui + 1} up`} disabled={ui === 0} onPress={() => setUnits(move(pkg.units, ui, ui - 1))} />
+            <Button size="sm" kind="ghost" title="↓" style={ARROW} accessibilityLabel={`Move unit ${ui + 1} down`} disabled={ui === pkg.units.length - 1} onPress={() => setUnits(move(pkg.units, ui, ui + 1))} />
             <Button
               size="sm"
               kind="ghost"
@@ -247,8 +287,8 @@ function Lessons({ pkg, update }: { pkg: CurriculumPackage; update: Update }) {
                       .join(' · ') || 'Tap to add steps, pages, links, questions'}
                   </T>
                 </Pressable>
-                <Button size="sm" kind="ghost" title="↑" accessibilityLabel={`Move lesson ${num} up`} disabled={li === 0} onPress={() => setUnit(ui, { ...u, lessons: move(u.lessons, li, li - 1) })} />
-                <Button size="sm" kind="ghost" title="↓" accessibilityLabel={`Move lesson ${num} down`} disabled={li === u.lessons.length - 1} onPress={() => setUnit(ui, { ...u, lessons: move(u.lessons, li, li + 1) })} />
+                <Button size="sm" kind="ghost" title="↑" style={ARROW} accessibilityLabel={`Move lesson ${num} up`} disabled={li === 0} onPress={() => setUnit(ui, { ...u, lessons: move(u.lessons, li, li - 1) })} />
+                <Button size="sm" kind="ghost" title="↓" style={ARROW} accessibilityLabel={`Move lesson ${num} down`} disabled={li === u.lessons.length - 1} onPress={() => setUnit(ui, { ...u, lessons: move(u.lessons, li, li + 1) })} />
               </Row>
             );
           })}
@@ -390,13 +430,26 @@ function LessonSheet({ lesson, pkg, units, unitIndex, onClose, onSave, onDelete 
   const dirty = draftKey(build()) !== saved || unit !== unitIndex || !!linkUrl.trim();
 
   return (
-    <Sheet visible onClose={onClose} title="Lesson" dirty={dirty} discardQuestion="Discard your changes to this lesson?">
+    <Sheet
+      visible
+      onClose={onClose}
+      title="Lesson"
+      dirty={dirty}
+      discardQuestion="Discard your changes to this lesson?"
+      footer={
+        // Pinned under the form, so Save is always in reach; Delete sits at the far side and asks first (lessons have no undo).
+        <Actions align="space-between">
+          <ConfirmButton title="Delete lesson" question={`Delete “${lesson.title || 'this lesson'}”?`} body="Its steps, questions, answers and versions go too. This can’t be undone." confirm="Delete lesson" onConfirm={onDelete} />
+          <Button title="Save lesson" disabled={missing.length > 0} reason={`Still needed: ${missing.join(', ')}`} onPress={() => onSave(build(), unit)} />
+        </Actions>
+      }>
       <Field label="Title" value={title} onChangeText={setTitle} maxLength={160} />
       <Row gap={space.md} align="flex-start">
         <View style={{ flex: 1 }}><Field label="Pages (optional)" value={pages} onChangeText={setPages} placeholder="88–92" /></View>
         <View style={{ flex: 1 }}><Field label="Minutes (optional)" value={minutes} onChangeText={setMinutes} keyboardType="number-pad" placeholder="Usual length" /></View>
       </Row>
       <Field label="Steps for the kid (one per line)" value={steps} onChangeText={setSteps} multiline placeholder={'Watch the video\nDo problems 1–10\nCheck your answers'} />
+      <Fold title="Worksheet & answer key" summary={lines(questions).length ? `${plural(lines(questions).length, 'question')}${lines(answers).length ? ` · ${plural(lines(answers).length, 'answer')}` : ''}` : 'Optional questions to print, with answers for grown-ups'}>
       <Field label="Worksheet questions (one per line, optional)" value={questions} onChangeText={setQuestions} multiline placeholder="What is ¼ of 12?" />
       {lines(questions).length ? (
         <Field
@@ -404,10 +457,12 @@ function LessonSheet({ lesson, pkg, units, unitIndex, onClose, onSave, onDelete 
           value={answers}
           onChangeText={setAnswers}
           multiline
-          placeholder="3"
+          placeholder={'One answer per line, same order as the questions\n12 ÷ 4 = 3'}
           hint={answers.split('\n').filter((x) => x.trim()).length > lines(questions).length ? 'There are more answers than questions.' : 'Only grown-ups see these. They print on a separate answer sheet.'}
         />
       ) : null}
+      </Fold>
+      <Fold title="Links & notes" summary={[links.length ? plural(links.length, 'link') : '', notes.trim() ? 'parent notes' : ''].filter(Boolean).join(' · ') || 'Videos, readings, notes for the parent'}>
       <Stack gap={6}>
         <T v="label">Links</T>
         {links.map((l, i) => (
@@ -424,8 +479,11 @@ function LessonSheet({ lesson, pkg, units, unitIndex, onClose, onSave, onDelete 
         {linkUrl.trim() && !link ? <T v="caption" color={c.danger}>Enter a web address</T> : null}
       </Stack>
       <Field label="Notes for the parent (optional)" value={notes} onChangeText={setNotes} multiline hint="Never shown to kids." />
+      </Fold>
+      <Fold
+        title="Other versions"
+        summary={[...(['easier', 'harder'] as const).filter((lv) => fromDraft(levels[lv])).map((lv) => LEVEL_LABEL[lv]), ...themes.filter((t) => t.theme?.trim()).map((t) => `🎨 ${t.theme!.trim()}`)].join(' · ') || 'Easier, harder, or themed takes (optional)'}>
       <Stack gap={6}>
-        <T v="label">Other versions (optional)</T>
         <T v="caption" muted>An easier or harder take, or the same lesson dressed in an interest. Families pick one per child; anything you leave blank uses the main lesson.</T>
         <Row wrap gap={6}>
           {(['easier', 'harder'] as const).map((lv) => (
@@ -468,6 +526,8 @@ function LessonSheet({ lesson, pkg, units, unitIndex, onClose, onSave, onDelete 
           </Card>
         ) : null}
       </Stack>
+      </Fold>
+      <Fold title="Standards" summary={tagList.length ? tagList.map(standardLabel).join(' · ') : 'Optional codes, e.g. Common Core'}>
       <Stack gap={6}>
         <Field label="Standards (optional)" value={standards} onChangeText={setStandards} placeholder="CCSS.MATH.CONTENT.3.NF, TEKS 3.4A" hint="Any codes, separated by commas. Families see which subjects their plan covers." />
         {strands.length ? (
@@ -491,26 +551,16 @@ function LessonSheet({ lesson, pkg, units, unitIndex, onClose, onSave, onDelete 
         ) : null}
         {tagList.length ? <T v="caption" muted>🎯 {tagList.map(standardLabel).join(' · ')}</T> : null}
       </Stack>
+      </Fold>
       {units.length > 1 ? (
-        <Stack gap={6}>
-          <T v="label">Unit</T>
+        <Fold title="Unit" summary={units[unit]?.title || `Unit ${unit + 1}`}>
           <Row wrap gap={6}>
             {units.map((u, i) => (
-              <Chip key={u.id} label={u.title || `Unit ${i + 1}`} selected={unit === i} onPress={() => setUnit(i)} />
+              <Chip key={u.id} role="radio" label={u.title || `Unit ${i + 1}`} selected={unit === i} onPress={() => setUnit(i)} />
             ))}
           </Row>
-        </Stack>
+        </Fold>
       ) : null}
-      {/* Delete sits at the far side from Save and asks first: lessons have no undo. */}
-      <Actions align="space-between">
-        <ConfirmButton title="Delete lesson" question={`Delete “${lesson.title || 'this lesson'}”?`} body="Its steps, questions, answers and versions go too. This can’t be undone." confirm="Delete lesson" onConfirm={onDelete} />
-        <Button
-          title="Save lesson"
-          disabled={missing.length > 0}
-          reason={`Still needed: ${missing.join(', ')}`}
-          onPress={() => onSave(build(), unit)}
-        />
-      </Actions>
     </Sheet>
   );
 }
@@ -520,12 +570,12 @@ function PasteSheet({ onClose, onAdd }: { onClose: () => void; onAdd: (units: Pa
   const result = text.trim() ? parseOutline(text) : undefined;
   const total = result ? lessonTotal(result.units) : 0;
   return (
-    <Sheet visible onClose={onClose} title="Paste more lessons">
+    <Sheet visible onClose={onClose} title="Paste more lessons" dirty={!!text.trim()} discardQuestion="Discard the lessons you pasted?">
       <T muted>One entry per line. Lines starting with Unit, Chapter, Week… (or a “#”) start a new unit.</T>
       <Field value={text} onChangeText={setText} multiline style={{ minHeight: 160 }} placeholder={'Unit 4: Decimals\nTenths\nHundredths\nMoney math'} />
-      {result ? <T v="caption">{total} lessons in {result.units.length} units</T> : null}
+      {result ? <T v="caption">{plural(total, 'lesson')} in {plural(result.units.length, 'unit')}</T> : null}
       <Row style={{ justifyContent: 'flex-end' }}>
-        <Button title={`Add ${total} lessons`} disabled={!total} onPress={() => result && onAdd(result.units)} />
+        <Button title={`Add ${plural(total, 'lesson')}`} disabled={!total} onPress={() => result && onAdd(result.units)} />
       </Row>
     </Sheet>
   );
@@ -542,8 +592,11 @@ function Publish({ pkg, update }: { pkg: CurriculumPackage; update: Update }) {
   const [busy, setBusy] = useState('');
   const [error, setError] = useState('');
   const [planning, setPlanning] = useState(false);
+  /** Set right after publishing, for the "it's live" card. */
+  const [justPublished, setJustPublished] = useState<{ version: number; listingId?: string } | null>(null);
   const rules = publishRules(pkg);
-  const issues = publishIssues(pkg);
+  const action = publishAction(pkg);
+  const issues = pkg.status === 'published' && !action.releaseNote ? [] : publishIssues(pkg);
   const lessons = allLessons(pkg.units);
   const credit = attributionFor(pkg, profile?.name);
   const o = pkg.origin;
@@ -636,7 +689,18 @@ function Publish({ pkg, update }: { pkg: CurriculumPackage; update: Update }) {
         <Section title="Use it in your family" subtitle="Schedule it for your kids now — no publishing needed.">
           <Button kind="secondary" icon="🏠" title="Add to my family’s plan" disabled={!lessons.length} reason="Add lessons first" onPress={() => setPlanning(true)} />
         </Section>
-      ) : null}
+      ) : (
+        // Creator-only mode: say why there's no "Add to my family's plan", and how to get it.
+        <Section title="Use it in your family">
+          <Card tint={c.surfaceAlt}>
+            <T>Set up your family to schedule this for your kids.</T>
+            <T v="caption" muted>Studio works on its own; the family planner (Compass) is where lessons land on your kids’ days.</T>
+            <Row>
+              <Button size="sm" kind="secondary" title="Set up my family" onPress={() => { useStudio.getState().setActive(false); router.push('/onboarding'); }} />
+            </Row>
+          </Card>
+        </Section>
+      )}
 
       {o.kind !== 'owned_book' && !profile ? (
         <Card tint={c.accentSoft}>
@@ -660,6 +724,18 @@ function Publish({ pkg, update }: { pkg: CurriculumPackage; update: Update }) {
             }}
             hint={rules.mustBeFree ? 'The source is non-commercial, so this must be free.' : 'Families can pay with ESA funds where allowed. Payouts to creators are set up separately.'}
           />
+          {justPublished ? (
+            <Card tint={c.successSoft}>
+              <T v="heading" accessibilityRole="alert">🎉 {pkg.title} v{justPublished.version} is live in the Marketplace</T>
+              <T v="caption">{justPublished.version > 1 ? 'Families who have it see “Update available” and choose when to switch.' : 'Families can find it in the Marketplace now.'}</T>
+              {justPublished.listingId ? (
+                <Row wrap gap={6}>
+                  <Button size="sm" title="View listing" onPress={() => router.push({ pathname: '/listing/[id]', params: { id: justPublished.listingId! } })} />
+                  <CopyButton title="Copy link" text={Linking.createURL(`/listing/${justPublished.listingId}`)} />
+                </Row>
+              ) : null}
+            </Card>
+          ) : null}
           {issues.length ? (
             <Card tint={c.surfaceAlt}>
               <T v="label">Before publishing, add:</T>
@@ -668,7 +744,7 @@ function Publish({ pkg, update }: { pkg: CurriculumPackage; update: Update }) {
               ))}
             </Card>
           ) : null}
-          {pkg.version > 0 ? (
+          {action.releaseNote ? (
             <Field
               label="What’s new in this update (optional)"
               value={pkg.releaseNote ?? ''}
@@ -683,10 +759,17 @@ function Publish({ pkg, update }: { pkg: CurriculumPackage; update: Update }) {
             {pkg.status === 'published' && pkg.listingId ? <Button kind="secondary" title="View listing" onPress={() => router.push({ pathname: '/listing/[id]', params: { id: pkg.listingId! } })} /> : null}
             {pkg.status === 'published' ? <Button kind="secondary" title="Unpublish" loading={busy === 'unpub'} onPress={() => run('unpub', () => unpublishPackage(pkg))} /> : null}
             <Button
-              title={pkg.status === 'published' ? `Publish update (v${pkg.version + 1})` : 'Publish to the Marketplace'}
-              disabled={issues.length > 0}
+              title={action.title}
+              disabled={!action.ready}
+              // The list above says what's missing; the button only explains "nothing new to publish".
+              reason={issues.length ? undefined : action.reason}
               loading={busy === 'pub'}
-              onPress={() => run('pub', () => publishPackage(pkg))}
+              onPress={() =>
+                run('pub', async () => {
+                  const saved = await publishPackage(pkg);
+                  setJustPublished({ version: saved.version, listingId: saved.listingId });
+                })
+              }
             />
           </Row>
           {pkg.status === 'published' ? <T v="caption" muted>New families get the update. Families who already have it see “Update available” and choose when to switch; everyone keeps their place.</T> : null}
