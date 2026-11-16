@@ -182,6 +182,7 @@ async function main() {
   // ───────────────────────────── Deleting asks first
   scenario('Delete a task asks first');
   await click('Fraction practice');
+  await click('More…', { exact: true }); // Delete is tucked under More (C-07)
   await expect('Delete task');
   await click('Delete task', { exact: true });
   await expect('Delete “Fraction practice”', 'asks before deleting the task');
