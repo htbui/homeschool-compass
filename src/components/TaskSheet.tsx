@@ -36,6 +36,7 @@ function TaskDetail({ task: live, onClose }: { task: Task; onClose: () => void }
   const [dur, setDur] = useState(String(live.durationMin));
   const minutes = parseCount(dur);
   const changed = start !== live.start || minutes !== live.durationMin;
+  const [more, setMore] = useState(false);
 
   return (
     <>
@@ -69,38 +70,45 @@ function TaskDetail({ task: live, onClose }: { task: Task; onClose: () => void }
           <Field label="Minutes" value={dur} onChangeText={setDur} keyboardType="number-pad" hint={minutes ? undefined : 'Whole minutes'} />
         </View>
       </Row>
-      <Button
-        title="Update time"
-        kind="secondary"
-        disabled={!start || !minutes || !changed}
-        reason={!start ? 'Enter a valid start time' : !minutes ? 'Enter minutes greater than 0' : 'Change the time or length to update'}
-        onPress={() => start && minutes && updateTask(live.id, { start, durationMin: minutes })}
-      />
-
-      <Row wrap style={{ justifyContent: 'flex-end', marginTop: space.sm }}>
-        <Button title="Print worksheet" icon="🖨️" kind="secondary" loading={printing} onPress={() => print([live])} />
-        {keyed ? <Button title="Answer key" icon="🔑" kind="secondary" loading={printing} onPress={() => printAnswers([live], `Answer key · ${live.title}`)} /> : null}
-        {live.status !== 'skipped' && live.status !== 'done' ? <Button title="Skip today" kind="secondary" onPress={() => updateTask(live.id, { status: 'skipped' })} /> : null}
-        {live.status === 'skipped' ? <Button title="Restore" kind="secondary" onPress={() => updateTask(live.id, { status: 'todo' })} /> : null}
-        {live.status === 'done' ? (
-          <Button title="Reopen" kind="secondary" onPress={() => reopenTask(live.id)} />
-        ) : (
-          <Button title="Mark done ✓" onPress={() => completeTask(live.id)} />
-        )}
-      </Row>
-      {/* Delete sits apart from the everyday actions and asks first: there's no undo. */}
-      <Row style={{ borderTopWidth: 1, borderColor: c.border, paddingTop: space.sm }}>
-        <ConfirmButton
-          title="Delete task"
-          question={`Delete “${live.title}” for ${formatDate(live.date)}?`}
-          body="This only removes it from this day. The weekly rhythm keeps it."
-          confirm="Delete"
-          onConfirm={() => {
-            removeTask(live.id);
-            onClose();
-          }}
+      {/* Only once something changed: an always-there disabled button just takes up room. */}
+      {changed ? (
+        <Button
+          title="Update time"
+          kind="secondary"
+          disabled={!start || !minutes}
+          reason={!start ? 'Enter a valid start time' : 'Enter minutes greater than 0'}
+          onPress={() => start && minutes && updateTask(live.id, { start, durationMin: minutes })}
         />
+      ) : null}
+
+      <Row wrap style={{ marginTop: space.sm }}>
+        <Button title="Print worksheet" icon="🖨️" kind="secondary" size="sm" loading={printing} onPress={() => print([live])} />
+        {keyed ? <Button title="Answer key" icon="🔑" kind="secondary" size="sm" loading={printing} onPress={() => printAnswers([live], `Answer key · ${live.title}`)} /> : null}
+        {live.status !== 'skipped' && live.status !== 'done' ? <Button title="Skip today" kind="secondary" size="sm" onPress={() => updateTask(live.id, { status: 'skipped' })} /> : null}
+        {live.status === 'skipped' ? <Button title="Restore" kind="secondary" size="sm" onPress={() => updateTask(live.id, { status: 'todo' })} /> : null}
+        <Button title={more ? 'Less' : 'More…'} kind="ghost" size="sm" onPress={() => setMore(!more)} accessibilityLabel={more ? 'Fewer actions' : 'More actions'} />
       </Row>
+      {/* The everyday action: full width, at the bottom where a thumb reaches it. */}
+      {live.status === 'done' ? (
+        <Button title="Reopen" kind="secondary" size="lg" onPress={() => reopenTask(live.id)} />
+      ) : live.status === 'skipped' ? null : (
+        <Button title="Mark done ✓" size="lg" onPress={() => completeTask(live.id)} />
+      )}
+      {/* Delete is tucked under "More…" and asks first: there's no undo. */}
+      {more ? (
+        <Row style={{ borderTopWidth: 1, borderColor: c.border, paddingTop: space.sm }}>
+          <ConfirmButton
+            title="Delete task"
+            question={`Delete “${live.title}” for ${formatDate(live.date)}?`}
+            body="This only removes it from this day. The weekly rhythm keeps it."
+            confirm="Delete"
+            onConfirm={() => {
+              removeTask(live.id);
+              onClose();
+            }}
+          />
+        </Row>
+      ) : null}
     </>
   );
 }
