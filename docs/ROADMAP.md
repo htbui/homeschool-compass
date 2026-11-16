@@ -112,12 +112,12 @@ _New ideas land here, then get a priority._
     1. **Basic (required to list):** confirmed email, a real name or organization name, a phone number, a public meeting place or service area, and agreeing to an organizer code of conduct and a child-safety policy. Early listings get a moderator review.
     2. **Identity verified:** a government ID and selfie check through a vendor (e.g. Stripe Identity, about $1.50 per check, or Persona or Veriff). Required to take sign-ups or payments inside Freerange. Stripe Connect covers this for paid programs.
     3. **Organization verified:** for nature centers, libraries, leagues and businesses. An email at the organization's own domain, an EIN or state registration lookup, or a listing on the organization's own site that links back.
-    4. **Child-safety credentials (optional badges):** upload proof of a background check, SafeSport or similar training, CPR/first aid, or liability insurance, each with an expiry date. Moderators check it, and it's re-requested on expiry. Running background checks in the app (e.g. Checkr, roughly $30 or more each) can come later, paid by the organizer or as a premium option.
-  - **Identity checks are done by the account owner personally.** The person who owns the account completes the ID and live-selfie check themselves, and the name on the ID must match the account's legal name.
-    - No checks on someone else's behalf, and no shared accounts.
-    - For an organization, the account owner verifies personally and is shown as the responsible person.
-    - Every coach, teacher or staff member who leads sessions has their own account and their own check. A listing shows which verified people run it.
-    - Verification belongs to the person, not the listing or organization. It's redone if account ownership changes, the legal name changes, or there's a suspicious sign-in (e.g. a new device plus a password reset) before taking new sign-ups or payouts.
+    4. **Child-safety credentials (optional badges):** upload proof of a background check, SafeSport or similar training, CPR/first aid, or liability insurance, each with an expiry date. Moderators check it, and it's re-requested on expiry. Running background checks in the app (e.g. Checkr, roughly $30 or more each) can come later.
+  - **The account owner pays for their own verification.** ID checks (about $1.50 each) and any in-app background checks (about $30 or more) are paid by the person or organization being verified, at checkout during the verification step. Freerange doesn't cover these costs.
+    - The fee is shown upfront, and a check that fails because of a vendor error is retried for free.
+    - The free basic tier and Stripe Connect's own identity check for payouts cost the account owner nothing.
+    - Uploading proof of a background check, training or insurance done elsewhere stays free.
+    - Charge at cost or with a small margin; decide later.
   - **Ongoing trust:** reviews from families who attended, a report button on every listing and organizer page, and automatic re-review after reports. Repeat no-shows or complaints pause listings.
   - **Privacy:** ID images stay with the vendor; Freerange stores only the result, the vendor's reference and the date. Explain in the privacy policy.
   - **Needs from you:** a vendor account and budget for ID checks (and background checks, if offered), plus legal review of the child-safety policy and code of conduct.
