@@ -31,6 +31,9 @@ export default function ExpensesScreen() {
   const [awardDraft, setAwardDraft] = useState<number | undefined>(award || undefined);
   const [busy, setBusy] = useState(false);
   const law = getStateLaw(family.stateCode);
+  // ESA lines only for states that have an ESA program (or families already tracking one).
+  const hasEsa = !!law?.funding.some((f) => f.kind === 'esa') || award > 0 || expenses.some((e) => e.fundingSource === 'esa');
+  const sources = SOURCES.filter((s) => hasEsa || s.value !== 'esa');
 
   const yearStart = family.schoolYearStart;
   const year = expenses.filter((e) => e.date >= yearStart);
@@ -65,17 +68,21 @@ export default function ExpensesScreen() {
 
       <Section title={`School year ${schoolYearLabel()}`}>
         <Row wrap gap={space.md} align="stretch">
-          <Stat label="ESA spent" value={money(esaSpent)} sub={award ? `${money(Math.max(0, award - esaSpent))} remaining` : 'Set your award below'} />
+          {hasEsa ? <Stat label="ESA spent" value={money(esaSpent)} sub={award ? `${money(Math.max(0, award - esaSpent))} remaining` : 'Set your award below'} /> : null}
           <Stat label="Tax-eligible" value={money(sum('tax'))} />
           <Stat label="Out of pocket" value={money(sum('out_of_pocket'))} />
         </Row>
-        <Row gap={space.sm} align="flex-end">
-          <View style={{ flex: 1 }}>
-            <MoneyField label="Annual ESA award" value={awardDraft} onChange={setAwardDraft} example="7,000" />
-          </View>
-          <Button kind="secondary" title={awardDraft === award ? 'Saved ✓' : 'Save'} disabled={awardDraft === undefined || awardDraft === award} onPress={() => awardDraft !== undefined && setEsaAward(awardDraft)} />
-        </Row>
-        {award ? <Progress value={esaSpent / award} color={esaSpent > award ? c.danger : c.success} /> : null}
+        {hasEsa ? (
+          <>
+            <Row gap={space.sm} align="flex-end">
+              <View style={{ flex: 1 }}>
+                <MoneyField label="Annual ESA award" value={awardDraft} onChange={setAwardDraft} example="7,000" />
+              </View>
+              <Button kind="secondary" title={awardDraft === award ? 'Saved ✓' : 'Save'} disabled={awardDraft === undefined || awardDraft === award} onPress={() => awardDraft !== undefined && setEsaAward(awardDraft)} />
+            </Row>
+            {award ? <Progress value={esaSpent / award} color={esaSpent > award ? c.danger : c.success} /> : null}
+          </>
+        ) : null}
         <Row wrap>
           <Button icon="＋" title="Add expense" onPress={() => setEditing(blank())} />
           <Button kind="secondary" icon="⬇️" title="Export report" loading={busy} disabled={!year.length} onPress={exportReport} />
@@ -120,7 +127,7 @@ export default function ExpensesScreen() {
               ))}
             </Row>
             <Row wrap gap={6}>
-              {SOURCES.map((s) => (
+              {sources.map((s) => (
                 <Chip key={s.value} label={s.label} selected={editing.fundingSource === s.value} onPress={() => setEditing({ ...editing, fundingSource: s.value })} />
               ))}
             </Row>
@@ -130,7 +137,7 @@ export default function ExpensesScreen() {
                 <Chip key={k.id} label={`${k.avatar} ${k.name}`} selected={editing.childId === k.id} onPress={() => setEditing({ ...editing, childId: k.id })} />
               ))}
             </Row>
-            <Chip label={`${editing.approvedVendor ? '✓' : '○'} Approved ESA vendor`} selected={editing.approvedVendor} onPress={() => setEditing({ ...editing, approvedVendor: !editing.approvedVendor })} />
+            {hasEsa ? <Chip label={`${editing.approvedVendor ? '✓' : '○'} Approved ESA vendor`} selected={editing.approvedVendor} onPress={() => setEditing({ ...editing, approvedVendor: !editing.approvedVendor })} /> : null}
             {editing.receiptUri || editing.receiptPath ? <MediaImage uri={editing.receiptUri} remotePath={editing.receiptPath} style={{ width: '100%', height: 180, borderRadius: 12 }} resizeMode="contain" /> : null}
             <Button kind="secondary" icon="🧾" title={editing.receiptUri ? 'Replace receipt' : 'Attach receipt'} onPress={async () => { const uri = await pickPhoto('library'); if (uri) setEditing({ ...editing, receiptUri: uri, receiptPath: undefined }); }} />
             <Actions>
