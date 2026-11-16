@@ -98,6 +98,15 @@ export function savePercent(list: number, price: number): number {
   return list > 0 && price < list ? Math.round((1 - price / list) * 100) : 0;
 }
 
+/** Savings smaller than this aren't advertised ("Save 4%" reads as a gimmick). */
+export const MIN_SHOWN_SAVE = 5;
+
+/** "Save X%" to show next to a price, or 0 when it's too small to mention. */
+export function shownSavePercent(reference: number, price: number): number {
+  const p = savePercent(reference, price);
+  return p >= MIN_SHOWN_SAVE ? p : 0;
+}
+
 export interface BundleSummary {
   /** Curricula still in the Marketplace, in the bundle's order. */
   items: Listing[];
@@ -105,7 +114,10 @@ export interface BundleSummary {
   owned: Listing[];
   /** What the curricula still needed cost one by one (list prices). */
   listTotal: number;
+  /** What they cost one by one today, with any sales: the honest comparison. */
+  nowTotal: number;
   price: number;
+  /** Percent saved against buying them separately today (0 when under MIN_SHOWN_SAVE). */
   save: number;
 }
 
@@ -116,7 +128,7 @@ export function bundleSummary(b: Pick<Bundle, 'listingIds' | 'price'>, listings:
   const listTotal = fromCents(need.reduce((a, l) => a + toCents(l.price), 0));
   const nowTotal = fromCents(need.reduce((a, l) => a + toCents(currentPrice(l, now)), 0));
   const price = Math.min(b.price, nowTotal);
-  return { items, owned: have, listTotal, price, save: savePercent(listTotal, price) };
+  return { items, owned: have, listTotal, nowTotal, price, save: shownSavePercent(nowTotal, price) };
 }
 
 /** Why a coupon can't be used here (the same words the server uses), or undefined. */

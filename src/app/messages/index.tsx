@@ -67,7 +67,7 @@ export default function Messages() {
 
   return (
     <Screen edges={[]}>
-      <T muted>Private messages with families you’ve connected with. Only your two families can read them.</T>
+      <T muted>Private messages with families you’ve connected with, or about a used curriculum you’re buying or selling. Only your two families can read them.</T>
       {/* Until they're read once; after that they're in each conversation's ⋯ menu. */}
       {!tipsSeen ? (
         <Row wrap style={{ marginTop: space.sm }}>
@@ -93,6 +93,7 @@ export default function Messages() {
                   </Row>
                   {x.unread ? <Pill text={`${x.unread} new`} bg={c.primary} fg={c.primaryText} /> : null}
                 </Row>
+                {x.listingTitle ? <T v="caption" muted numberOfLines={1}>🏷️ About “{x.listingTitle}”</T> : null}
                 {x.lastBody ? (
                   <T v="caption" numberOfLines={2}>
                     {x.lastFromMe ? 'You: ' : ''}

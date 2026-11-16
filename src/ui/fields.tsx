@@ -21,13 +21,15 @@ interface ParsedFieldProps<V> extends Base {
   validate?: (v: V) => string | undefined;
   example: string;
   required?: boolean;
+  /** `false` hides the "✓ …" line once the value is valid (when the field already shows it plainly). */
+  echo?: boolean;
 }
 
 /**
  * Text field that accepts forgiving input, shows live feedback, and only
  * reports a value to the form once it parses (and passes `validate`).
  */
-export function ParsedField<V>({ value, onChange, parse, format, describe, validate, example, required, label, ...rest }: ParsedFieldProps<V>) {
+export function ParsedField<V>({ value, onChange, parse, format, describe, validate, example, required, label, echo = true, ...rest }: ParsedFieldProps<V>) {
   const c = useColors();
   const [text, setText] = useState(value === undefined ? '' : format(value));
   const parsed = text.trim() ? parse(text) : undefined;
@@ -37,7 +39,7 @@ export function ParsedField<V>({ value, onChange, parse, format, describe, valid
   if (!text.trim()) feedback = required ? { text: `Required — e.g. ${example}`, color: c.textMuted } : { text: `e.g. ${example}`, color: c.textMuted };
   else if (parsed === undefined) feedback = { text: `Not recognized — try ${example}`, color: c.danger };
   else if (error) feedback = { text: error, color: c.danger };
-  else feedback = { text: `✓ ${describe ? describe(parsed) : format(parsed)}`, color: c.successInk };
+  else if (echo) feedback = { text: `✓ ${describe ? describe(parsed) : format(parsed)}`, color: c.successInk };
 
   return (
     <View style={{ gap: 4 }}>
@@ -57,7 +59,7 @@ export function ParsedField<V>({ value, onChange, parse, format, describe, valid
           rest.onBlur?.(e);
         }}
       />
-      <T v="caption" color={feedback.color} accessibilityLiveRegion="polite">{feedback.text}</T>
+      {feedback ? <T v="caption" color={feedback.color} accessibilityLiveRegion="polite">{feedback.text}</T> : null}
     </View>
   );
 }

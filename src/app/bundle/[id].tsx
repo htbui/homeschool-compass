@@ -19,6 +19,7 @@ export default function BundleDetail() {
   const { listings } = useCatalog();
   const family = useStore((s) => s.family);
   const purchases = useStore((s) => s.purchases);
+  const curricula = useStore((s) => s.curricula);
   const [buying, setBuying] = useState(false);
   const [bought, setBought] = useState<Purchase[] | null>(null);
   const [planning, setPlanning] = useState<{ listing: Listing; purchase: Purchase } | null>(null);
@@ -37,7 +38,7 @@ export default function BundleDetail() {
 
   return (
     <Screen edges={[]}>
-      <RouterStack.Screen options={{ title: b.title }} />
+      <RouterStack.Screen options={{ title: 'Bundle' }} />
       <Row gap={space.lg} align="flex-start">
         <Cover listing={b} size={88} />
         <Stack gap={4} style={{ flex: 1 }}>
@@ -52,9 +53,10 @@ export default function BundleDetail() {
           <Pill text="✓ You have everything in this bundle" tone="success" />
         ) : (
           <>
-            <Price price={s.price} was={s.listTotal} size="display" />
+            <Price price={s.price} was={s.nowTotal} size="display" />
             <T v="caption" muted>
-              {money(s.listTotal)} if bought separately
+              {money(s.nowTotal)} separately today
+              {s.nowTotal < s.listTotal ? ` (${money(s.listTotal)} at full price)` : ''}
               {s.owned.length ? ` · you already have ${s.owned.length}, so ${s.owned.length === 1 ? 'it isn’t' : 'they aren’t'} counted` : ''}
             </T>
             {b.mine ? (
@@ -79,15 +81,22 @@ export default function BundleDetail() {
         <Stack>
           {s.items.map((l) => {
             const p = purchases.find((x) => x.listingId === l.id);
+            const inPlan = !!p?.curriculumId && curricula.some((k) => k.id === p.curriculumId);
+            // Owned ones show "✓ Owned" instead of a price, with their actions inside the card.
             return (
-              <Stack key={l.id} gap={4}>
-                <ListingCard listing={l} owned={owned.has(l.id)} />
-                {p && !p.curriculumId ? (
-                  <Row style={{ justifyContent: 'flex-end' }}>
-                    <Button size="sm" title="Add to plan" onPress={() => setPlanning({ listing: l, purchase: p })} />
-                  </Row>
-                ) : null}
-              </Stack>
+              <ListingCard
+                key={l.id}
+                listing={l}
+                owned={owned.has(l.id)}
+                footer={
+                  p ? (
+                    <>
+                      <Button size="sm" kind="ghost" title="View" accessibilityLabel={`View ${l.title}`} onPress={() => router.push({ pathname: '/listing/[id]', params: { id: l.id } })} />
+                      {inPlan ? <Pill text="✓ In your plan" tone="success" /> : <Button size="sm" title="Add to plan" accessibilityLabel={`Add ${l.title} to plan`} onPress={() => setPlanning({ listing: l, purchase: p })} />}
+                    </>
+                  ) : undefined
+                }
+              />
             );
           })}
         </Stack>

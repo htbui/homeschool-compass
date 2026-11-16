@@ -59,6 +59,8 @@ interface Data {
   localGifts: SentGift[];
   /** When a parent read the meetup safety tips (shown before the first meetup). */
   meetupTipsSeenAt?: string;
+  /** When the parent hid the Marketplace's "showing free & open curricula" note. */
+  marketNoticeHiddenAt?: string;
   /** Creators whose storefronts this family follows (mirrors the account's when signed in). */
   followedCreators: ID[];
   mode: AppMode;
@@ -126,6 +128,7 @@ interface Actions {
   toggleEvent: (id: ID, field: 'going' | 'carpool') => void;
   addEvent: (e: Omit<CommunityEvent, 'id' | 'rsvps' | 'going' | 'carpool'>) => void;
   markMeetupTipsSeen: () => void;
+  hideMarketNotice: () => void;
 
   recordPurchase: (p: Purchase) => void;
   /** `content` is the full lesson plan for Studio packages; `extra` adds to the curriculum (e.g. its co-op class). */
@@ -388,6 +391,7 @@ export const useStore = create<Store>()(
         })),
       addEvent: (e) => set((s) => ({ events: [...s.events, { ...e, id: uid('e'), rsvps: 1, going: true, carpool: false }] })),
       markMeetupTipsSeen: () => set({ meetupTipsSeenAt: new Date().toISOString() }),
+      hideMarketNotice: () => set({ marketNoticeHiddenAt: new Date().toISOString() }),
 
       recordPurchase: (p) =>
         set((s) => {

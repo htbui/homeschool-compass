@@ -41,6 +41,7 @@ export const messagesLive = () => {
 export async function myConversations(): Promise<ConversationSummary[]> {
   const rows = check(await db().rpc('my_conversations')) as {
     conversation_id: string; family_id: string; display_name: string; verified: boolean; last_body: string | null; last_at: string | null; last_from_me: boolean | null; unread: number; can_message: boolean; blocked: boolean;
+    listing_id?: string | null; listing_title?: string | null; seller?: boolean | null;
   }[];
   return rows.map((r) => ({
     conversationId: r.conversation_id,
@@ -53,6 +54,9 @@ export async function myConversations(): Promise<ConversationSummary[]> {
     unread: r.unread,
     canMessage: r.can_message,
     blocked: r.blocked,
+    listingId: r.listing_id ?? undefined,
+    listingTitle: r.listing_title ?? undefined,
+    seller: r.seller ?? undefined,
   }));
 }
 
@@ -68,6 +72,16 @@ export async function threadMessages(conversationId: string, limit = 200): Promi
 export async function sendMessage(toFamily: string, body: string): Promise<{ id: string; conversationId: string; at: string }> {
   const r = check(await db().rpc('send_message', { to_family: toFamily, body: body.trim() })) as { id: string; conversation_id: string; created_at: string };
   return { id: r.id, conversationId: r.conversation_id, at: r.created_at };
+}
+
+/**
+ * Ask the family selling a used curriculum about it. No Community connection is needed; the server
+ * starts the two families' conversation (blocks and sending limits still apply). Returns the
+ * seller's family id, for opening the conversation.
+ */
+export async function messageSeller(listingId: string, body: string): Promise<{ id: string; conversationId: string; familyId: string; at: string }> {
+  const r = check(await db().rpc('message_seller', { listing: listingId, body: body.trim() })) as { id: string; conversation_id: string; family_id: string; created_at: string };
+  return { id: r.id, conversationId: r.conversation_id, familyId: r.family_id, at: r.created_at };
 }
 
 export async function markConversationRead(conversationId: string): Promise<void> {

@@ -2,15 +2,15 @@ import { Text, View } from 'react-native';
 
 import { formatDate } from '@/lib/dates';
 import type { Listing } from '@/lib/market';
-import { currentPrice, onSale, savePercent } from '@/lib/pricing';
+import { currentPrice, onSale, shownSavePercent } from '@/lib/pricing';
 import { Pill, Row, T, useColors } from '@/ui';
 
 export const money = (n: number) => (n === 0 ? 'Free' : `$${n % 1 === 0 ? n : n.toFixed(2)}`);
 
-/** A price, with the original crossed out and "Save X%" when it's lower. */
+/** A price, with the original crossed out and "Save X%" when it's lower (by enough to mention). */
 export function Price({ price, was, size = 'heading' }: { price: number; was?: number; size?: 'heading' | 'title' | 'display' }) {
   const c = useColors();
-  const save = was !== undefined ? savePercent(was, price) : 0;
+  const save = was !== undefined ? shownSavePercent(was, price) : 0;
   return (
     <View style={{ alignItems: size === 'heading' ? 'flex-end' : 'flex-start', gap: 2 }}>
       <Row gap={6} align="flex-end">

@@ -1,11 +1,14 @@
 import { router } from 'expo-router';
+import type { ReactNode } from 'react';
 import { Text, View } from 'react-native';
 
-import { CONDITION_LABEL, FORMAT_LABEL, gradeRangeLabel, SELLER_NOTE, type Listing } from '@/lib/market';
+import { CONDITION_LABEL, gradeRangeLabel, SELLER_NOTE, type Listing } from '@/lib/market';
+import { formatLabel, listingCardLabel } from '@/lib/marketView';
+import { currentPrice } from '@/lib/pricing';
 import { SUBJECTS } from '@/lib/subjects';
 import { Card, Pill, Row, space, T, useColors } from '@/ui';
 
-import { PriceTag } from './PriceTag';
+import { money, PriceTag } from './PriceTag';
 import { VerifiedBadge } from './SellerBadges';
 
 export { money } from './PriceTag';
@@ -29,44 +32,56 @@ export function Cover({ listing, size = 64 }: { listing: Pick<Listing, 'cover' |
   );
 }
 
-export function ListingCard({ listing: l, owned, reasons }: { listing: Listing; owned?: boolean; reasons?: string[] }) {
+/**
+ * A listing in a grid or list. Screen readers hear one sentence ("Burgess Bird Book, by Thornton
+ * Burgess, free, grades 1–4"). `hideSeller` on a creator's own storefront; `footer` puts actions
+ * (like "Add to plan") inside the card, with a "View" button since the card itself can't be tapped then.
+ */
+export function ListingCard({ listing: l, owned, reasons, hideSeller, footer }: { listing: Listing; owned?: boolean; reasons?: string[]; hideSeller?: boolean; footer?: ReactNode }) {
   const c = useColors();
+  const grades = gradeRangeLabel(l.gradeMin, l.gradeMax);
+  const label = listingCardLabel(l, money(currentPrice(l)), grades, owned);
+  const open = () => router.push({ pathname: '/listing/[id]', params: { id: l.id } });
   return (
-    <Card onPress={() => router.push({ pathname: '/listing/[id]', params: { id: l.id } })} style={{ flex: 1 }}>
+    <Card onPress={footer ? undefined : open} label={footer ? undefined : label} style={{ flex: 1 }}>
       <Row align="flex-start" gap={space.md}>
         <Cover listing={l} />
         <View style={{ flex: 1, gap: 3 }}>
-          <T v="heading" numberOfLines={2}>{l.title}</T>
-          <T v="caption" muted numberOfLines={1}>
-            {l.sellerKind === 'open' ? `by ${l.seller}` : l.seller}
-            {SELLER_NOTE[l.sellerKind]}
-          </T>
-          <Row gap={6}>
-            {l.ratingCount ? (
-              <>
-                <Stars value={l.ratingAvg} />
-                <T v="caption" muted>{l.ratingAvg.toFixed(1)} ({l.ratingCount})</T>
-              </>
-            ) : (
-              <T v="caption" muted>No reviews yet</T>
-            )}
-          </Row>
+          <T v="heading" numberOfLines={3}>{l.title}</T>
+          {hideSeller ? null : (
+            <T v="caption" muted numberOfLines={1}>
+              {l.sellerKind === 'open' ? `by ${l.seller}` : l.seller}
+              {SELLER_NOTE[l.sellerKind]}
+            </T>
+          )}
+          {/* No "No reviews yet" on every card: the row only appears once there's something to show. */}
+          {l.ratingCount ? (
+            <Row gap={6}>
+              <Stars value={l.ratingAvg} />
+              <T v="caption" muted>{l.ratingAvg.toFixed(1)} ({l.ratingCount})</T>
+            </Row>
+          ) : null}
         </View>
-        <PriceTag listing={l} />
+        {owned ? <Pill text="✓ Owned" tone="success" /> : <PriceTag listing={l} />}
       </Row>
       <Row wrap gap={6}>
-        {owned ? <Pill text="✓ Owned" tone="success" /> : null}
         {l.sellerVerified ? <VerifiedBadge plain /> : null}
-        <Pill text={gradeRangeLabel(l.gradeMin, l.gradeMax)} />
+        <Pill text={grades} />
         {l.subjects.slice(0, 2).map((s) => (
           <Pill key={s} text={`${SUBJECTS[s].icon} ${SUBJECTS[s].label}`} />
         ))}
-        <Pill text={FORMAT_LABEL[l.format]} />
-        {l.condition ? <Pill text={`Used · ${CONDITION_LABEL[l.condition]}`} bg={c.accentSoft} /> : null}
-        {l.esaEligible ? <Pill text={`ESA ✓${l.esaStates?.length && l.esaStates.length <= 3 ? ` ${l.esaStates.join(' ')}` : ''}`} bg={c.primarySoft} /> : null}
+        <Pill text={formatLabel(l)} />
+        {l.condition ? <Pill text={`Used · ${CONDITION_LABEL[l.condition]}`} tone="accent" /> : null}
+        {l.photos?.length ? <Pill text={`📷 ${l.photos.length} photo${l.photos.length === 1 ? '' : 's'}`} /> : null}
+        {l.esaEligible ? <Pill text={`ESA ✓${l.esaStates?.length && l.esaStates.length <= 3 ? ` ${l.esaStates.join(' ')}` : ''}`} tone="primary" /> : null}
         {l.sample ? <Pill text="Sample" /> : null}
       </Row>
-      {reasons?.length ? <T v="caption" color={c.primary}>✨ {reasons.join(' · ')}</T> : null}
+      {reasons?.length ? <T v="caption" color={c.primaryInk}>✨ {reasons.join(' · ')}</T> : null}
+      {footer ? (
+        <Row wrap style={{ justifyContent: 'flex-end' }}>
+          {footer}
+        </Row>
+      ) : null}
     </Card>
   );
 }

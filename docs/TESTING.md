@@ -226,6 +226,52 @@ tested once here rather than per screen. Files: unit `src/lib/__tests__/contrast
 | Delete asks first (`ConfirmButton`), unsaved-changes guard (`Sheet dirty`) | unit `draft` (draft comparison ignores key order/undefined, catches edits); e2e `ux-foundation` › *Delete a task asks first*, *Lesson sheet: discard and delete* (untouched closes, edits ask on ✕ and backdrop, keep editing, discard doesn't save, cancel keeps the lesson, Delete apart from Save) | No undo toast: deletes are confirmed instead |
 | Device-only build never says "Sign in" (`AccountNote` / `needsAccount`) | unit `accountCopy`; e2e `ux-foundation` › *Local build never says "Sign in"* (Studio, classes, promotions, community, messages, marketplace, settings, storefront; no dead-end storefront link; preview connect says nothing was sent); `market-local` (report sheet), `scenarios` (preview community) | The cloud build's wording is only checked by the existing cloud suites |
 
+## Marketplace design review (MKT-01…MKT-32)
+
+The per-screen fixes from the Marketplace UI/UX review. Files: unit `src/lib/__tests__/marketView.test.ts`
+(Filters counts, empty-state cause, sorts, labels, credit link, bundle savings vs today's prices, library groups,
+followed creators, bundle cap, number-field errors, optional lesson numbers) plus updated `pricing.test.ts`;
+server `supabase/tests/marketUx.test.ts` (migration `20261116000300_market_ux.sql`); e2e `e2e/ux-market.mjs`
+(local-only build, part of `npm run test:e2e`) and `e2e/ux-market-cloud.mjs` (accounts, part of
+`npm run test:e2e:cloud`), each at 1280×900 and 390×844. Every e2e check is labelled with its finding id.
+
+| Finding | Covered by | Known gaps |
+| --- | --- | --- |
+| MKT-01 refused coupon stays until the code is edited, `role="alert"` | `ux-market-cloud` *Listing and checkout*; `market-cloud` (unknown/expired/used up) | — |
+| MKT-02 deep links get "‹ Marketplace" | `ux-market` *Deep links*; `ux-foundation` | — |
+| MKT-03 used curricula: photos (public `listing-photos` bucket, paths only), "Message the seller" without a Community connection, seller replies, block/report, no contact details, "Next: arrange pickup" | server `marketUx` (message_seller rules, replies, blocks both ways, reports, removed listings, photo paths/folders/limit, pickup area); `ux-market` *Sell sheet* (photo on device); `ux-market-cloud` *A family sells…*, *Buyer messages the seller*, *After getting it* | Native image picker; carousel swiping on touch devices |
+| MKT-04 short Browse header, dismissible note (remembered), sort in one chip | `ux-market` *Browse header* (first result position on phones) | — |
+| MKT-05 Filters: pinned full-width "Show N curricula", counts, dimmed dead ends, no Rating without reviews | unit *option counts*; `ux-market` *Filters* | — |
+| MKT-06 empty state by cause (search / grades / filters), nearby subjects, no ranking line over 0 | unit *empty results say why*; `ux-market` *Empty results* | — |
+| MKT-07 "Still needed" under the buttons, pinned sheet footers | `ux-market` *Sell sheet*; `ux-foundation` | — |
+| MKT-08 two-step sell form, no preset grades, inline number errors, pickup area, shipping, optional lesson numbers (buyer sets them in Add to plan) | unit *small helpers*; server `marketUx`; `ux-market` *Sell sheet*; `market-local` *Sell* | — |
+| MKT-09 free curricula claim in one tap, Add to plan footer pinned | `ux-market` *Free claim*; `market-local` *Claim* | — |
+| MKT-10 "Every lesson links to the free text" finish, upload button fits its card | unit *lessons that already link*; `ux-market` *Free claim* | — |
+| MKT-11 Copy link / Copy code (and `navigator.share`), recipient email with a mail link | `ux-market` *Gift codes* (clipboard read back) | `navigator.share` isn't available in headless Chrome |
+| MKT-12 gift page shows what the gift is; claimed/invalid states have next steps | `ux-market` *Gift codes* | — |
+| MKT-13 bundle savings against today's prices, under 5% not shown | unit *bundle savings*, `pricing`; `ux-market-cloud` | — |
+| MKT-14 / MKT-31 "Track this expense as", renamed options, "?" explainer, ESA caption for non-vendors | `ux-market-cloud` *Listing and checkout*; `market-cloud` | — |
+| MKT-15 dark-mode chip contrast | `ux-market` *Dark mode*; unit `contrast` | — |
+| MKT-16 listing/bundle cards read as one sentence, stars are a radio group | unit *listing labels*; `ux-market` *Cards…*, *Reviews* | — |
+| MKT-17 no report/storefront dead ends; signed-out "Sign in to report" | `ux-market` *Listing page*; `ux-market-cloud` *Signed out* | — |
+| MKT-18 storefront bundles, Follow on the name row, what following does, "From creators you follow" in Browse, no repeated seller line | unit *creators you follow*; `ux-market-cloud` *Storefront* | — |
+| MKT-19 two bundles above the results ("See all N"), sideways on phones | unit *bundles above the results*; `ux-market-cloud` *Bundles above the results* | — |
+| MKT-20 license named once, credit link is a real link | unit *license card* (every Library credit line); `ux-market` *Listing page* | — |
+| MKT-21 no "No reviews yet" on cards; rating sorts hidden until reviews exist | unit *sorts that need reviews*; `ux-market` *Browse header* | — |
+| MKT-22 "📖 Free online text" for free & open classics | unit *listing labels*; `ux-market` | — |
+| MKT-23 report at the bottom of the listing | `ux-market-cloud` *Listing and checkout* | — |
+| MKT-24 review sort/filters from 5 reviews | `ux-market` *Reviews*; `market-local` *Review it* | — |
+| MKT-25 "Used with" names the child (only the grade is published), pre-selected from the plan | `ux-market` *Reviews* | — |
+| MKT-26 one set of teaching-style labels | `ux-market` *Sell sheet* | — |
+| MKT-27 owned items in a bundle show "✓ Owned", actions inside the card | `ux-market-cloud` *Bundle with something owned* | — |
+| MKT-28 sticky buy box on wide web, no duplicate title | `ux-market` *Listing page* | Header uses "Curriculum" (the back button already says "Marketplace") |
+| MKT-29 three-line card titles, 3 columns only from 1400 px | `ux-market` *Browse header* (desktop) | — |
+| MKT-30 family-style books suggest siblings, no "✓ time" echo | `ux-market` *Free claim* | — |
+| MKT-32 My library grouped (Not started / Gifts / In your plan), own header | unit *My library groups*; `ux-market` *My library* | — |
+
+Bug found while doing this: claiming a first gift from My library reset the Gifts panel (the library's
+layout changed around it), so the "is in your library" message vanished. Fixed in `market.tsx`; proven by
+`market-cloud.mjs` *Paid gift to another family*.
 ## Compass design review (C-01 … C-30)
 
 The per-screen fixes from the Compass-area UI/UX review. Files: unit

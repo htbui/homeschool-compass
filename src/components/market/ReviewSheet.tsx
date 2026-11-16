@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Pressable, Text } from 'react-native';
+import { Pressable, Text, View } from 'react-native';
 
 import { uid } from '@/lib/id';
 import { progressLabel, reviewProgress, type Listing, type Review } from '@/lib/market';
@@ -26,10 +26,12 @@ function ReviewForm({ listing, existing, onClose }: { listing: Listing; existing
   const [rating, setRating] = useState<number>(existing?.rating ?? 0);
   const [title, setTitle] = useState(existing?.title ?? '');
   const [body, setBody] = useState(existing?.body ?? '');
-  const [grade, setGrade] = useState<string | undefined>(existing?.childGrade);
+  // "Used with": pick the child (only their grade is published); start with the one who has it in their plan.
+  const planned = curricula.find((k) => k.listingId === listing.id)?.childIds[0];
+  const [childId, setChildId] = useState<string | undefined>(() => (existing ? (existing.childGrade ? kids.find((k) => k.grade === existing.childGrade)?.id : undefined) : kids.some((k) => k.id === planned) ? planned : undefined));
+  const grade = kids.find((k) => k.id === childId)?.grade;
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
-  const grades = [...new Set(kids.map((k) => k.grade))];
   const missing = [!rating && 'a star rating', body.trim().length < 10 && 'a few words about your experience (10+ characters)'].filter(Boolean);
 
   const save = async () => {
@@ -65,25 +67,26 @@ function ReviewForm({ listing, existing, onClose }: { listing: Listing; existing
     <Sheet visible onClose={onClose} title={existing ? 'Edit your review' : 'Write a review'}>
       <T muted>{listing.title}</T>
       <Stack gap={4}>
-        <Row gap={4}>
+        <View role="radiogroup" aria-label="Your rating" style={{ flexDirection: 'row', gap: 4 }}>
           {[1, 2, 3, 4, 5].map((n) => (
-            <Pressable key={n} onPress={() => setRating(n)} accessibilityLabel={`${n} star${n === 1 ? '' : 's'}`} hitSlop={4}>
+            <Pressable key={n} onPress={() => setRating(n)} role="radio" aria-checked={rating === n} accessibilityLabel={`${n} star${n === 1 ? '' : 's'}`} hitSlop={4} style={{ minWidth: 44, minHeight: 44, alignItems: 'center', justifyContent: 'center' }}>
               <Text style={{ fontSize: 36, color: n <= rating ? c.accent : c.border }}>★</Text>
             </Pressable>
           ))}
-        </Row>
+        </View>
         <T v="caption" muted>{rating ? WORDS[rating] : 'Tap a star to rate'}</T>
       </Stack>
       <Field label="Headline (optional)" value={title} onChangeText={setTitle} placeholder={rating ? WORDS[rating] : 'Sum it up'} />
       <Field label="Your review" multiline value={body} onChangeText={setBody} placeholder="What worked, what didn't, and who it's best for." style={{ minHeight: 110 }} />
-      {grades.length ? (
+      {kids.length ? (
         <Stack gap={6}>
           <T v="label">Used with</T>
           <Row wrap gap={6}>
-            {grades.map((g) => (
-              <Chip key={g} label={g} selected={grade === g} onPress={() => setGrade(grade === g ? undefined : g)} />
+            {kids.map((k) => (
+              <Chip key={k.id} role="radio" label={`${k.avatar} ${k.name} · ${k.grade}`} selected={childId === k.id} onPress={() => setChildId(childId === k.id ? undefined : k.id)} />
             ))}
           </Row>
+          <T v="caption" muted>Only the grade is shown with your review{grade ? ` (“used with ${grade}”)` : ''}, never your child’s name.</T>
         </Stack>
       ) : null}
       {progress ? (

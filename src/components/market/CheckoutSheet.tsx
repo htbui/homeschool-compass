@@ -1,26 +1,30 @@
+import * as Linking from 'expo-linking';
+import { Link } from 'expo-router';
 import { useEffect, useState } from 'react';
+import { View } from 'react-native';
 
 import { needsAccount } from '@/components/AccountNote';
 import { ShareCode } from '@/components/ShareCode';
 import { formatDate } from '@/lib/dates';
 import { formatGiftCode, GIFT_NOTE_MAX, isEmail, type SentGift } from '@/lib/gifts';
 import type { Purchase } from '@/lib/market';
-import type { Quote } from '@/lib/pricing';
+import { bundleSummary, type Quote } from '@/lib/pricing';
 import { getStateLaw } from '@/lib/states';
 import type { FundingSource, ID } from '@/lib/types';
 import { checkout, priceQuote, recordCheckout, type CheckoutItem } from '@/services/checkout';
 import { giftableFamilies } from '@/services/giftApi';
-import { useMarket } from '@/store/useMarket';
+import { useCatalog, useMarket } from '@/store/useMarket';
 import { useStore } from '@/store/useStore';
 import { Actions, Button, Card, Chip, Field, Row, Segmented, Sheet, space, Stack, T, useColors } from '@/ui';
 
 import { Cover } from './ListingCard';
 import { money, Price } from './PriceTag';
 
+/** How the purchase is filed in the expense tracker (payment itself happens at checkout). */
 const FUNDING: { value: FundingSource; label: string }[] = [
   { value: 'esa', label: '🏛️ ESA / state funds' },
-  { value: 'tax', label: '🧾 Tax-deductible' },
-  { value: 'out_of_pocket', label: '💳 Out of pocket' },
+  { value: 'tax', label: '🧾 For tax records (state credit)' },
+  { value: 'out_of_pocket', label: '💳 Family budget' },
 ];
 
 /**
@@ -53,6 +57,9 @@ function CheckoutForm({ item: given, asGift, onClose, onPurchased }: { item: Che
   const [applied, setApplied] = useState<string | undefined>();
   const [q, setQ] = useState<Quote | null>(null);
   const [couponError, setCouponError] = useState('');
+  const [refused, setRefused] = useState('');
+  const [whatIsThis, setWhatIsThis] = useState(false);
+  const bundleSeparately = useBundleSeparately(item);
   const [error, setError] = useState('');
   const [busy, setBusy] = useState(false);
   const [sent, setSent] = useState<SentGift | null>(null);
@@ -69,13 +76,14 @@ function CheckoutForm({ item: given, asGift, onClose, onPurchased }: { item: Che
       .then((r) => {
         if (!alive) return;
         setQ(r);
-        // A refused code falls back to the price without it; keep saying why until a code works.
+        // A refused code falls back to the price without it; the reason stays until the code is edited.
         if (applied) setCouponError('');
       })
       .catch((e: Error) => {
         if (!alive) return;
         if (applied) {
           setCouponError(e.message);
+          setRefused(applied);
           setApplied(undefined);
         } else setError(e.message);
       });
@@ -102,10 +110,20 @@ function CheckoutForm({ item: given, asGift, onClose, onPurchased }: { item: Che
           path={`/gift/${sent.code}`}
           message={`🎁 A gift for you on Freerange: ${sent.title}.${sent.note ? ` “${sent.note}”` : ''}`}
         />
+        {sent.recipientEmail ? (
+          <Row wrap gap={6}>
+            <T v="caption">For {sent.recipientEmail}</T>
+            <Link
+              href={`mailto:${sent.recipientEmail}?subject=${encodeURIComponent(`A gift for you: ${sent.title}`)}&body=${encodeURIComponent(`🎁 A gift for you on Freerange: ${sent.title}.${sent.note ? ` “${sent.note}”` : ''}\n\n${Linking.createURL(`/gift/${sent.code}`)}\nCode: ${formatGiftCode(sent.code)}`)}`}
+              style={{ color: c.primaryInk, fontWeight: '700', fontSize: 12, paddingVertical: 12 }}>
+              ✉️ Email it from your mail app
+            </Link>
+          </Row>
+        ) : null}
         <T v="caption" muted>
           {sent.recipientFamily
             ? 'It’s waiting in their Marketplace library under Gifts. You can also send them the code.'
-            : 'Freerange doesn’t email gifts yet, so send them this code or link. If they sign up with that email, it also waits in their library.'}
+            : 'Freerange doesn’t email gifts for you, so send them this code or link. If they sign up with that email, it also waits in their library.'}
           {source === 'sample' ? ' (On this device it’s a demo: you can redeem the code yourself under My library → Gifts.)' : ''}
         </T>
         <T v="caption" muted>See whether it’s been claimed under Marketplace → My library → Gifts.</T>
@@ -150,14 +168,14 @@ function CheckoutForm({ item: given, asGift, onClose, onPurchased }: { item: Che
           <T v="heading">{head.title}</T>
           <T v="caption" muted>{head.seller}{item.kind === 'bundle' ? ` · bundle of ${item.bundle.listingIds.length}` : ''}</T>
         </Stack>
-        {q ? <Price price={q.total} was={q.listPrice > q.total ? q.listPrice : undefined} size="title" /> : null}
+        {q ? <Price price={q.total} was={q.kind === 'bundle' ? (bundleSeparately ?? q.listPrice) : q.listPrice > q.total ? q.listPrice : undefined} size="title" /> : null}
       </Row>
 
       {q ? (
         <Stack gap={2}>
-          {q.listPrice > q.price ? (
+          {(q.kind === 'bundle' ? (bundleSeparately ?? q.listPrice) : q.listPrice) > q.price ? (
             <T v="caption" muted>
-              {q.kind === 'bundle' ? `Bundle price ${money(q.price)} instead of ${money(q.listPrice)} separately` : `On sale: ${q.salePercent}% off${q.saleEndsAt ? ` until ${formatDate(q.saleEndsAt.slice(0, 10), { month: 'short', day: 'numeric' })}` : ''}`}
+              {q.kind === 'bundle' ? `Bundle price ${money(q.price)} instead of ${money(bundleSeparately ?? q.listPrice)} separately today` : `On sale: ${q.salePercent}% off${q.saleEndsAt ? ` until ${formatDate(q.saleEndsAt.slice(0, 10), { month: 'short', day: 'numeric' })}` : ''}`}
             </T>
           ) : null}
           {q.couponCode ? <T v="caption" color={c.successInk}>✓ Coupon {q.couponCode}: −{money(q.discount)}</T> : null}
@@ -178,11 +196,27 @@ function CheckoutForm({ item: given, asGift, onClose, onPurchased }: { item: Che
         <Stack gap={4}>
           <Row gap={space.sm} align="flex-end">
             <Stack gap={0} style={{ flex: 1 }}>
-              <Field placeholder="Coupon code" value={code} onChangeText={(t) => setCode(t.toUpperCase())} autoCapitalize="characters" accessibilityLabel="Coupon code" />
+              <Field
+                placeholder="Coupon code"
+                value={code}
+                onChangeText={(t) => {
+                  setCode(t.toUpperCase());
+                  // The refusal stays until the code is changed.
+                  setCouponError('');
+                }}
+                autoCapitalize="characters"
+                accessibilityLabel="Coupon code"
+                aria-invalid={!!couponError}
+                aria-describedby={couponError ? 'coupon-error' : undefined}
+              />
             </Stack>
-            <Button kind="secondary" title={applied ? 'Applied ✓' : 'Apply'} disabled={!code.trim() || code.trim() === applied} onPress={() => setApplied(code.trim())} />
+            <Button kind="secondary" title={applied ? 'Applied ✓' : 'Apply'} disabled={!code.trim() || code.trim() === applied || (!!couponError && code.trim() === refused)} onPress={() => setApplied(code.trim())} />
           </Row>
-          {couponError ? <T v="caption" color={c.danger}>{couponError}</T> : null}
+          {couponError ? (
+            <T v="caption" color={c.dangerInk} nativeID="coupon-error" role="alert" accessibilityLiveRegion="polite">
+              {couponError}
+            </T>
+          ) : null}
         </Stack>
       ) : null}
 
@@ -213,15 +247,24 @@ function CheckoutForm({ item: given, asGift, onClose, onPurchased }: { item: Che
         </Stack>
       ) : !free && q ? (
         <Stack gap={6}>
-          <T v="label">How are you paying for it?</T>
-          <Row wrap gap={6}>
-            {FUNDING.map((f) => (
-              <Chip key={f.value} label={f.label} selected={funding === f.value} onPress={() => setFunding(f.value)} />
-            ))}
+          <Row gap={space.xs}>
+            <T v="label">Track this expense as</T>
+            <Button size="sm" kind="ghost" title="?" accessibilityLabel="What is this?" aria-expanded={whatIsThis} onPress={() => setWhatIsThis(!whatIsThis)} />
           </Row>
-          {funding === 'esa' && !head.esaEligible ? <T v="caption" color={c.danger}>This seller isn&apos;t a listed ESA vendor — check your program&apos;s rules before using state funds.</T> : null}
+          {whatIsThis ? (
+            <T v="caption" muted>This only labels the purchase in your Compass expense tracker, so your records are ready for your ESA program or state tax credit. It doesn’t change how you pay: the card is charged on the checkout page.</T>
+          ) : null}
+          <View role="radiogroup" aria-label="Track this expense as" style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 6 }}>
+            {FUNDING.map((f) => (
+              <Chip key={f.value} role="radio" label={f.label} selected={funding === f.value} onPress={() => setFunding(f.value)} />
+            ))}
+          </View>
           {funding === 'esa' && award > 0 ? <T v="caption" muted>ESA balance after this: {money(Math.max(0, esaLeft - total))} of {money(award)}</T> : null}
-          <T v="caption" muted>It&apos;s added to your expense tracker automatically, tagged for {funding === 'esa' ? 'ESA reimbursement' : funding === 'tax' ? 'tax records' : 'your budget'}.</T>
+          {funding === 'esa' && !head.esaEligible ? (
+            <T v="caption" color={c.accentInk}>This seller isn’t a listed ESA vendor. Check with your program before submitting this for reimbursement.</T>
+          ) : (
+            <T v="caption" muted>It’s added to your expense tracker automatically, {funding === 'esa' ? 'ready to submit for ESA reimbursement' : funding === 'tax' ? 'kept for your tax records' : 'under your family budget'}.</T>
+          )}
         </Stack>
       ) : null}
       {!free && source === 'sample' ? (
@@ -238,4 +281,12 @@ function CheckoutForm({ item: given, asGift, onClose, onPurchased }: { item: Che
       </Actions>
     </>
   );
+}
+
+/** What a bundle's curricula cost one by one today (sales applied), the fair thing to compare its price with. */
+function useBundleSeparately(item: CheckoutItem): number | undefined {
+  const { listings } = useCatalog();
+  const purchases = useStore((s) => s.purchases);
+  if (item.kind !== 'bundle') return undefined;
+  return bundleSummary(item.bundle, listings, new Set(purchases.filter((p) => p.status !== 'pending').map((p) => p.listingId))).nowTotal;
 }

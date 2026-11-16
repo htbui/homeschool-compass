@@ -146,9 +146,11 @@ export function MaterialsEditor({ curriculumId }: { curriculumId: string }) {
         </View>
       </Row>
       <Actions>
-        <Button kind="secondary" title={`📄 Upload PDF or image (up to ${MAX_FILE_MB} MB)`} loading={uploading} onPress={addFile} />
+        {/* Short enough to fit beside "Add link" inside a card on a phone; the size limit is in the caption below. */}
+        <Button kind="secondary" title="📄 Upload PDF or image" loading={uploading} onPress={addFile} />
         <Button title="Add link" disabled={!link} reason="Enter a web address" onPress={addLink} />
       </Actions>
+      <T v="caption" muted>Files: a PDF or image, up to {MAX_FILE_MB} MB.</T>
       {error ? <T v="caption" color={c.danger}>{error}</T> : null}
     </Stack>
   );

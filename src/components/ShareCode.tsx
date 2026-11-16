@@ -21,6 +21,9 @@ export function ShareCode({ code, display, path, message, label }: { code: strin
           <>
             <CopyButton title="Copy link" text={link} />
             <CopyButton title="Copy code" text={display ?? code} />
+            {typeof navigator !== 'undefined' && typeof navigator.share === 'function' ? (
+              <Button size="sm" kind="secondary" title="Share…" onPress={() => navigator.share({ text: `${message}\n\n${link}\nCode: ${display ?? code}` }).catch(() => {})} />
+            ) : null}
           </>
         ) : (
           <Button size="sm" kind="secondary" title="Share…" onPress={() => Share.share({ message: `${message}\n\n${link}\nCode: ${display ?? code}` }).catch(() => {})} />

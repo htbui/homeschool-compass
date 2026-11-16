@@ -201,7 +201,7 @@ async function run() {
   await click('View listing');
   await expect("What's inside", 'listing shows the outline');
   await expect('Counting rockets');
-  await expect('License: CC BY 4.0', 'listing shows the license');
+  await expect('📜 CC BY 4.0', 'listing shows the license');
   await expect('Edit in Studio');
   await click('Edit in Studio');
   await click('📝 Details');
@@ -363,13 +363,12 @@ async function run() {
   await sleep(900);
   await expect("What's inside");
   await expect('Counting to 10');
-  await expect('License: Public domain');
+  await expect('📜 Public domain');
   await expect('by Joseph Ray', 'listed under its original author');
   await expectNot('More from', 'free & open curricula have no storefront');
   await click('Get it free', { exact: true });
-  await click('Get it free', { exact: true });
   await sleep(800);
-  await expect('in your library', 'plan sheet opens after claiming');
+  await expect('in your library', 'plan sheet opens after claiming (one tap)');
   await click('Add to plan', { exact: true });
   await expect('Added to your plan ✓');
   const NAME = "Ray's New Primary Arithmetic";

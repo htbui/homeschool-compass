@@ -72,7 +72,20 @@ export interface Listing {
   /** The creator's sale: percent off until `saleEndsAt`. */
   salePercent?: number;
   saleEndsAt?: string;
+  /** A family seller's photos of the item (1–4), shown at the top of the listing. */
+  photos?: string[];
+  /** A family seller's pickup area: a city or neighborhood, never an address. */
+  pickupArea?: string;
+  /** A family seller can ship it. */
+  ships?: boolean;
+  /** The seller skipped "Help families schedule it": the lesson numbers are placeholders the buyer sets. */
+  paceUnknown?: boolean;
 }
+
+export const LISTING_PHOTOS_MAX = 4;
+export const PICKUP_AREA_MAX = 60;
+/** Lesson numbers stored when a family seller doesn't know them (the buyer picks the real ones). */
+export const UNKNOWN_PACE = { lessons: 36, minutesPerLesson: 30, lessonsPerWeek: 3 } as const;
 
 export interface Review {
   id: ID;
@@ -153,22 +166,30 @@ export const CONDITION_LABEL: Record<Condition, string> = { new: 'New', like_new
 
 // ───────────────────────────── Selling
 
-/** What's still missing or out of range on a listing a family sells (mirrors the listings table's checks). */
-export function listingIssues(l: { title: string; subjects: Subject[]; price?: number; lessons?: number; minutesPerLesson?: number; description: string }): string[] {
+/**
+ * What's still missing or out of range on a listing a family sells (mirrors the listings table's checks).
+ * `grades: false` means no grade is picked yet; `paceKnown: false` means the seller skipped the
+ * lesson numbers (they're optional for a used book).
+ */
+export function listingIssues(l: { title: string; subjects: Subject[]; price?: number; lessons?: number; minutesPerLesson?: number; description: string; grades?: boolean; paceKnown?: boolean; pickupArea?: string; photos?: number }): string[] {
   const title = l.title.trim();
   const description = l.description.trim();
+  const pace = l.paceKnown !== false;
   return [
     !title && 'a title',
     title.length > 160 && 'a shorter title (160 characters at most)',
     l.subjects.length === 0 && 'a subject',
+    l.grades === false && 'the grades it’s for',
     l.price === undefined && 'a price (0 for free)',
     l.price !== undefined && l.price > 10000 && 'a price of $10,000 or less',
-    !l.lessons && 'number of lessons',
-    !!l.lessons && l.lessons > 2000 && 'at most 2,000 lessons',
-    !l.minutesPerLesson && 'minutes per lesson',
-    !!l.minutesPerLesson && l.minutesPerLesson > 480 && 'at most 480 minutes per lesson',
+    pace && !l.lessons && 'number of lessons',
+    pace && !!l.lessons && l.lessons > 2000 && 'at most 2,000 lessons',
+    pace && !l.minutesPerLesson && 'minutes per lesson',
+    pace && !!l.minutesPerLesson && l.minutesPerLesson > 480 && 'at most 480 minutes per lesson',
     description.length < 10 && 'a short description',
     description.length > 4000 && 'a shorter description (4,000 characters at most)',
+    (l.pickupArea?.trim().length ?? 0) > PICKUP_AREA_MAX && `a shorter pickup area (${PICKUP_AREA_MAX} characters at most)`,
+    (l.photos ?? 0) > LISTING_PHOTOS_MAX && `at most ${LISTING_PHOTOS_MAX} photos`,
   ].filter((x): x is string => !!x);
 }
 
