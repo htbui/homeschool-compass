@@ -43,7 +43,7 @@ export default function Notifications() {
         <T muted style={{ flex: 1, minWidth: 200 }}>
           {unread ? `${unread} unread` : 'You’re all caught up.'}
         </T>
-        <Button size="sm" kind="secondary" title="Mark all read" disabled={!unread} onPress={() => markNoticesRead(items.filter((n) => !n.read))} />
+        {unread ? <Button size="sm" kind="secondary" title="Mark all read" onPress={() => markNoticesRead(items.filter((n) => !n.read))} /> : null}
       </Row>
       <View style={{ marginTop: space.lg }}>
         {items.length === 0 ? (

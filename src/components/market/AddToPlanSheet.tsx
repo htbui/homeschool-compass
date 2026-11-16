@@ -14,17 +14,18 @@ import { Actions, Button, Card, Chip, DateField, Row, Sheet, space, Stack, T, Ti
  * Turn a curriculum into a paced plan: who's doing it, which days, when.
  * Creates a Curriculum (pacing) and RhythmBlocks (schedule) in one step.
  */
-export function AddToPlanSheet({ listing, purchaseId, visible, onClose, intro, content, extra }: { listing: Listing; purchaseId?: ID; visible: boolean; onClose: () => void; intro?: string; content?: PackageContent; extra?: Partial<Curriculum> }) {
-  return visible ? <PlanForm listing={listing} purchaseId={purchaseId} onClose={onClose} intro={intro} content={content} extra={extra} /> : null;
+export function AddToPlanSheet({ listing, purchaseId, visible, onClose, intro, content, extra, gradesKnown = true }: { listing: Listing; purchaseId?: ID; visible: boolean; onClose: () => void; intro?: string; content?: PackageContent; extra?: Partial<Curriculum>; gradesKnown?: boolean }) {
+  return visible ? <PlanForm listing={listing} purchaseId={purchaseId} onClose={onClose} intro={intro} content={content} extra={extra} gradesKnown={gradesKnown} /> : null;
 }
 
 /** `extra` is added to the new curriculum (e.g. the co-op class it came from). */
-function PlanForm({ listing, purchaseId, onClose, intro, content, extra }: { listing: Listing; purchaseId?: ID; onClose: () => void; intro?: string; content?: PackageContent; extra?: Partial<Curriculum> }) {
+/** `gradesKnown: false` (e.g. a private copy of a book, which has no real grade range) skips the grade warnings. */
+function PlanForm({ listing, purchaseId, onClose, intro, content, extra, gradesKnown }: { listing: Listing; purchaseId?: ID; onClose: () => void; intro?: string; content?: PackageContent; extra?: Partial<Curriculum>; gradesKnown: boolean }) {
   const c = useColors();
   const family = useStore((s) => s.family)!;
   const kids = useStore((s) => s.children);
   const blocks = useStore((s) => s.blocks);
-  const fits = matchListing(listing, { family, kids }).fitsKids;
+  const fits = gradesKnown ? matchListing(listing, { family, kids }).fitsKids : [];
   const [childIds, setChildIds] = useState<ID[]>(fits.length ? (listing.familyStyle ? fits : fits.slice(0, 1)) : kids.slice(0, 1).map((k) => k.id));
   const [days, setDays] = useState<Weekday[]>(defaultLessonDays(listing.lessonsPerWeek, family.schoolDays));
   const [startDate, setStartDate] = useState<string | undefined>(nextStartDate(family.schoolDays));
@@ -85,7 +86,7 @@ function PlanForm({ listing, purchaseId, onClose, intro, content, extra }: { lis
         <T v="label">Who&apos;s doing it?</T>
         <Row wrap gap={6}>
           {kids.map((k) => (
-            <Chip key={k.id} label={`${k.avatar} ${k.name}${fits.includes(k.id) ? '' : ' (outside grade range)'}`} selected={childIds.includes(k.id)} onPress={() => toggleKid(k.id)} />
+            <Chip key={k.id} label={`${k.avatar} ${k.name}${!gradesKnown || fits.includes(k.id) ? '' : ' (outside grade range)'}`} selected={childIds.includes(k.id)} onPress={() => toggleKid(k.id)} />
           ))}
         </Row>
         {childIds.length > 1 ? (
