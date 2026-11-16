@@ -46,6 +46,15 @@ async function device(name) {
       return false;
     },
     async expect(t, label = `shows "${t}"`, ms) { log(await d.waitFor(t, ms), `${name}: ${label}`); },
+    async clickLabel(label) {
+      const ok = await page.waitForFunction((l) => {
+        const el = [...document.querySelectorAll(`[aria-label="${l}"]`)].reverse().find((e) => e.offsetParent !== null);
+        el?.click();
+        return !!el;
+      }, { timeout: 8000, polling: 200 }, label).then(() => true, () => false);
+      if (!ok) throw new Error(`${name}: nothing labelled "${label}"`);
+      await sleep(500);
+    },
     async click(t, { exact = false } = {}) {
       // Screens load their code on demand, so wait (up to 8s) for the button over slow links.
       let ok = false;
@@ -310,6 +319,7 @@ try {
   await A.click('🚌 Field trips');
   await A.click('Organize');
   await A.fillLabel('Title', `Museum day ${run}`);
+  await A.fillLabel('Start time', '10:00 AM');
   await A.fillLabel('Location (public meeting place)', 'Science museum entrance');
   await A.click('Create', { exact: true });
   await A.expect(`Museum day ${run}`);
@@ -344,7 +354,9 @@ try {
   await A.page.type(`textarea[placeholder="Message Rosa ${run}"]`, `See you there ${run}`);
   await A.click('Send', { exact: true });
   await C.expect(`See you there ${run}`, 'reply arrives in real time', 15000);
-  await C.click('Report', { exact: true });
+  await C.clickLabel(`More for Dana ${run}`);
+  await C.click('🚩 Report a message…');
+  await C.click(`See you there ${run}`);
   await C.expect('Report this message');
   await C.click('📣 Spam or a scam');
   await C.click('Send report');
@@ -382,7 +394,7 @@ try {
   await S.goto('/studio/import?from=web');
   await S.fillLabel('Course page', courseUrl);
   await S.click('Load page');
-  await S.expect(`License found: ${expectLicense}`, 'server fetched the page and found its license', 20000);
+  await S.expect(`License found: ${expectLicense}`, 'server fetched the page and found its license', real ? 45000 : 20000);
   await S.expect(real ? 'Preview:' : 'Preview: 3 lessons in 2 units');
   if (real) await S.fillLabel('Your plan’s title', `Chemistry plan ${run}`);
   await S.click('Create lesson plan');
@@ -402,7 +414,12 @@ try {
   await A.goto(`/listing/${pub.listingId}`);
   await A.expect("What's inside", 'family sees the outline');
   await A.expect(expectLesson);
-  await A.expect(real ? `(${real})` : `Adapted from “Open Pond Science ${run}” by Pond Project`, 'credit to the source');
+  if (real) {
+    const linked = await A.page
+      .waitForFunction((u) => [...document.querySelectorAll('a[href]')].some((a) => a.href.startsWith(u)), { timeout: 15000 }, real)
+      .then(() => true, () => false);
+    log(linked, 'phone: credit links to the source');
+  } else await A.expect(`Adapted from “Open Pond Science ${run}” by Pond Project`, 'credit to the source');
   await A.click('Get it free', { exact: true });
   await A.expect('It’s in your library', 'claimed in one tap', 15000);
   await A.click('Add to plan', { exact: true });
