@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { View, useWindowDimensions } from 'react-native';
 
 import { needsAccount } from '@/components/AccountNote';
+import { BundleCard } from '@/components/market/BundleCard';
 import { ListingCard, Stars } from '@/components/market/ListingCard';
 import { EsaBadge, VerifiedBadge } from '@/components/market/SellerBadges';
 import { storefrontSummary, type Badge } from '@/lib/creators';
@@ -10,7 +11,7 @@ import { isModerator } from '@/services/marketApi';
 import { loadStorefront, revokeBadge, setFollowing, type Storefront } from '@/services/creatorApi';
 import { openMaterial } from '@/services/materials';
 import { useAccount } from '@/store/useAccount';
-import { useMarket } from '@/store/useMarket';
+import { useBundles, useMarket } from '@/store/useMarket';
 import { useStore } from '@/store/useStore';
 import { Button, Card, Empty, Field, Row, Screen, Section, space, Stack, T, useColors } from '@/ui';
 
@@ -23,6 +24,7 @@ export default function CreatorStorefront() {
   const source = useMarket((s) => s.source);
   const family = useStore((s) => s.family);
   const purchases = useStore((s) => s.purchases);
+  const bundles = useBundles();
   const following = useStore((s) => (s.followedCreators ?? []).includes(id ?? ''));
   const [store, setStore] = useState<Storefront | null | undefined>(undefined);
   const [error, setError] = useState('');
@@ -59,7 +61,8 @@ export default function CreatorStorefront() {
 
   const summary = storefrontSummary(store.listings);
   const owned = new Set(purchases.map((p) => p.listingId));
-  const cols = width >= 1200 ? 3 : width >= 760 ? 2 : 1;
+  const cols = width >= 1400 ? 3 : width >= 760 ? 2 : 1;
+  const storeBundles = bundles.filter((b) => b.creatorUser === store.id || (store.mine && b.mine));
   const toggle = async () => {
     setBusy(true);
     setError('');
@@ -75,41 +78,54 @@ export default function CreatorStorefront() {
   return (
     <Screen edges={[]}>
       <RouterStack.Screen options={{ title: store.name }} />
-      <Row style={{ justifyContent: 'space-between' }} wrap align="flex-start">
-        <Stack gap={space.xs} style={{ flex: 1, minWidth: 240 }}>
-          <T v="display">🏪 {store.name}</T>
-          <Row wrap gap={6}>
-            {store.verified ? <VerifiedBadge /> : null}
-            {store.esaStates.length ? <EsaBadge states={store.esaStates} homeState={family?.stateCode} /> : null}
-          </Row>
-          {store.bio ? <T>{store.bio}</T> : null}
-          <Row gap={6} wrap>
-            {summary.reviews ? (
-              <>
-                <Stars value={summary.avg} size={18} />
-                <T v="label">{summary.avg.toFixed(1)} · {summary.reviews} review{summary.reviews === 1 ? '' : 's'}</T>
-              </>
-            ) : (
-              <T v="caption" muted>No reviews yet</T>
-            )}
-            <T v="caption" muted>· {summary.listings} curricul{summary.listings === 1 ? 'um' : 'a'}</T>
-          </Row>
-          {store.website ? (
-            <Row>
-              <Button size="sm" kind="ghost" title={`🔗 ${store.website.replace(/^https?:\/\//, '').replace(/\/$/, '')}`} onPress={() => openMaterial({ id: 'site', label: store.name, url: store.website })} />
-            </Row>
-          ) : null}
-        </Stack>
+      {/* Name and Follow share a row at every width, so Follow never floats on its own on phones. */}
+      <Row style={{ justifyContent: 'space-between' }} align="flex-start" gap={space.md}>
+        <T v="display" style={{ flex: 1 }}>🏪 {store.name}</T>
+        {store.mine ? null : (
+          <Button kind={following ? 'secondary' : 'primary'} title={following ? '✓ Following' : '＋ Follow'} accessibilityLabel={following ? `Following ${store.name}` : `Follow ${store.name}`} loading={busy} onPress={toggle} />
+        )}
+      </Row>
+      <Stack gap={space.xs}>
         {store.mine ? (
           <T v="caption" muted>This is your storefront.</T>
         ) : (
-          <Stack gap={4} style={{ alignItems: 'flex-end' }}>
-            <Button kind={following ? 'secondary' : 'primary'} title={following ? '✓ Following' : '＋ Follow'} loading={busy} onPress={toggle} />
-            <T v="caption" muted>{userId ? 'See them under My library.' : 'Saved on this device.'}</T>
-          </Stack>
+          <T v="caption" muted>
+            {following ? 'You follow this creator: ' : 'Follow to see '}their newest curricula at the top of Marketplace → Browse{userId ? '' : ' (saved on this device)'}.
+          </T>
         )}
-      </Row>
+        <Row wrap gap={6}>
+          {store.verified ? <VerifiedBadge /> : null}
+          {store.esaStates.length ? <EsaBadge states={store.esaStates} homeState={family?.stateCode} /> : null}
+        </Row>
+        {store.bio ? <T>{store.bio}</T> : null}
+        <Row gap={6} wrap>
+          {summary.reviews ? (
+            <>
+              <Stars value={summary.avg} size={18} />
+              <T v="label">{summary.avg.toFixed(1)} · {summary.reviews} review{summary.reviews === 1 ? '' : 's'} ·</T>
+            </>
+          ) : null}
+          <T v="caption" muted>{summary.listings} curricul{summary.listings === 1 ? 'um' : 'a'}{storeBundles.length ? ` · ${storeBundles.length} bundle${storeBundles.length === 1 ? '' : 's'}` : ''}</T>
+        </Row>
+        {store.website ? (
+          <Row>
+            <Button size="sm" kind="ghost" title={`🔗 ${store.website.replace(/^https?:\/\//, '').replace(/\/$/, '')}`} onPress={() => openMaterial({ id: 'site', label: store.name, url: store.website })} />
+          </Row>
+        ) : null}
+      </Stack>
       {error ? <T color={c.danger}>{error}</T> : null}
+
+      {storeBundles.length ? (
+        <Section title="🎁 Bundles" subtitle="Their curricula together, for less.">
+          <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: space.md }}>
+            {storeBundles.map((b) => (
+              <View key={b.id} style={{ width: cols === 1 ? '100%' : `${100 / cols - 2}%`, flexGrow: 1 }}>
+                <BundleCard bundle={b} listings={store.listings} owned={owned} />
+              </View>
+            ))}
+          </View>
+        </Section>
+      ) : null}
 
       <Section title="Curricula">
         {store.listings.length === 0 ? (
@@ -118,7 +134,7 @@ export default function CreatorStorefront() {
           <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: space.md }}>
             {summary.sorted.map((l) => (
               <View key={l.id} style={{ width: cols === 1 ? '100%' : `${100 / cols - 2}%`, flexGrow: 1 }}>
-                <ListingCard listing={l} owned={owned.has(l.id)} />
+                <ListingCard listing={l} owned={owned.has(l.id)} hideSeller />
               </View>
             ))}
           </View>
