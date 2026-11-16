@@ -80,6 +80,8 @@ export default function ActivityCard() {
   }
 
   const parentWord = family?.parentName.split(' ')[0] ?? 'your grown-up';
+  // Back to the kid's day, even when this mission was opened from a link or after a reload.
+  const toDay = () => (router.canGoBack() ? router.back() : router.replace({ pathname: '/kid/[id]', params: { id: kid.id } }));
   const timerMode: TimerMode = timer?.mode ?? 'stopwatch';
   const spent = elapsedMs(timer, now);
   const done = task.status === 'done';
@@ -100,7 +102,7 @@ export default function ActivityCard() {
     completeTask(task.id, { selfAssessment: assess, reflection: reflection.trim() || undefined });
     setCelebrate(true);
     speak(`Woohoo! You finished ${task.title}!`);
-    setTimeout(() => router.back(), 1800);
+    setTimeout(toDay, 1800);
   };
 
   if (celebrate) {
@@ -135,7 +137,7 @@ export default function ActivityCard() {
   return (
     <Screen scrollRef={scrollRef}>
       <Row wrap style={{ justifyContent: 'space-between' }}>
-        <Button kind="ghost" title="‹ My day" onPress={() => router.back()} />
+        <Button kind="ghost" title="‹ My day" onPress={toDay} />
         <KidPrintButton tasks={[task]} childId={kid.id} kind="secondary" label="🖨️ Print worksheet" nonReader={nonReader} />
       </Row>
       {upcoming ? (

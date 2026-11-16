@@ -168,9 +168,9 @@ export default function FlightDeck() {
 
       <Row style={{ marginTop: space.lg, justifyContent: 'space-between' }} wrap gap={space.sm}>
         <Row gap={space.xs}>
-          <Button kind="secondary" title="‹" onPress={() => setDate(addDays(date, -1))} accessibilityLabel="Previous day" />
+          <Button kind="secondary" title="‹" style={{ minWidth: 44 }} onPress={() => setDate(addDays(date, -1))} accessibilityLabel="Previous day" />
           <Button kind={isToday ? 'primary' : 'secondary'} title={isToday ? `Today · ${formatDate(date)}` : formatDate(date)} onPress={() => setDate(todayKey())} accessibilityLabel={isToday ? `Today, ${daySpan}` : `${daySpan}. Go to today`} />
-          <Button kind="secondary" title="›" onPress={() => setDate(addDays(date, 1))} accessibilityLabel="Next day" />
+          <Button kind="secondary" title="›" style={{ minWidth: 44 }} onPress={() => setDate(addDays(date, 1))} accessibilityLabel="Next day" />
         </Row>
         <Row gap={space.xs} wrap style={{ flexShrink: 1, maxWidth: '100%' }}>
           <Button kind="secondary" icon="🖨️" title="Print day" loading={printing} disabled={!printable.length} onPress={() => print(printable, `Lesson packet · ${daySpan}`)} />

@@ -206,8 +206,9 @@ export default function DailyAdventure() {
           const badge = isDone ? undefined : timerBadge(t.timer, now);
           const who = t.mode === 'parent' ? `with ${parentWord}` : withWho ? `with ${withWho}` : '';
           return (
+            // The read-aloud button sits beside the card, not inside it (a button can't hold a button).
+            <View key={t.id} style={{ justifyContent: 'center' }}>
             <Pressable
-              key={t.id}
               onPress={() => router.push({ pathname: '/kid/task/[taskId]', params: { taskId: t.id } })}
               accessibilityRole="button"
               accessibilityLabel={missionLabel(i + 1, t.title, formatClock(t.start), status, [who, badge?.replace(/^\S+ /, 'timer ')].filter(Boolean).join(', '))}
@@ -216,6 +217,7 @@ export default function DailyAdventure() {
                 alignItems: 'center',
                 gap: space.md,
                 padding: nonReader ? space.lg : space.md,
+                paddingRight: nonReader ? 76 : space.md,
                 minHeight: nonReader ? 88 : 64,
                 borderRadius: 18,
                 borderWidth: isCurrent ? 3 : 1,
@@ -234,16 +236,18 @@ export default function DailyAdventure() {
                 </T>
                 {badge ? <T v="label" color={c.accentInk}>{badge}</T> : null}
               </View>
-              {nonReader ? (
-                <Pressable onPress={() => speak(t.title)} hitSlop={10} accessibilityRole="button" accessibilityLabel={`Read ${t.title} aloud`} style={{ minWidth: 48, minHeight: 48, alignItems: 'center', justifyContent: 'center' }}>
-                  <Text style={{ fontSize: 28 }}>🔊</Text>
-                </Pressable>
-              ) : MISSION_STATUS_TEXT[status] ? (
+              {!nonReader && MISSION_STATUS_TEXT[status] ? (
                 <View style={{ borderRadius: 999, paddingVertical: 4, paddingHorizontal: 10, backgroundColor: isDone ? c.successSoft : isCurrent ? c.accentSoft : c.surfaceAlt, borderWidth: 1, borderColor: isDone ? c.success : isCurrent ? c.accent : c.border }}>
                   <T v="label" color={isDone ? c.successInk : isCurrent ? c.accentInk : c.text}>{MISSION_STATUS_TEXT[status]}</T>
                 </View>
               ) : null}
             </Pressable>
+            {nonReader ? (
+              <Pressable onPress={() => speak(t.title)} hitSlop={10} accessibilityRole="button" accessibilityLabel={`Read ${t.title} aloud`} style={{ position: 'absolute', right: space.md, minWidth: 56, minHeight: 56, alignItems: 'center', justifyContent: 'center' }}>
+                <Text style={{ fontSize: 28 }}>🔊</Text>
+              </Pressable>
+            ) : null}
+            </View>
           );
         })}
       </Stack>
