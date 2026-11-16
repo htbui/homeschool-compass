@@ -94,6 +94,16 @@ _New ideas land here, then get a priority._
       - **Sign-up:** both modes, set per listing. Either link to the organizer's own sign-up, or sign up (and pay, if it costs money) inside Freerange through the Marketplace checkout and payout system.
       - **Launch states, done thoroughly: Colorado, Texas, Florida and Arizona.** Benefits, public-school access, state passes, a seeded local map and outreach to organizers.
 - [ ] **Resources tab: the other 46 states plus DC, after launch.** Same depth as the launch states, rolled out in batches. Order by homeschool population and funding programs, e.g. North Carolina, Georgia, Ohio, Utah, Tennessee and Pennsylvania first. Until a state is done, show federal programs, the state law summary already in the app, and family- or organizer-added programs.
+- **Roles at sign-up, and easy switching between them.** At sign-up, people pick one or more roles: **parent/family**, **curriculum creator**, **event organizer**, or all of them. The choice can change later in Settings.
+  - **Each role gets its own home and tabs:**
+    - Family: Today, Compass, Marketplace and Community.
+    - Creator: Studio, sales and payouts.
+    - Organizer: programs, sign-ups, attendance and rosters.
+  - Someone with several roles **switches with one tap** (e.g. a role switcher in the header or profile menu, like switching accounts). The app remembers the last role used on each device.
+  - **One account and one identity,** with the right public face per role: the family profile stays private, while the creator storefront and organizer page are public. Verification carries across where it applies.
+  - **Onboarding fits the roles picked:** a family sets up kids and their state, a creator sets up a storefront, and an organizer sets up a program page. People who skip a role don't see its setup.
+  - **Kid mode stays separate:** switching roles never opens kid mode, and leaving kid mode still needs the parent PIN.
+  - **Today:** everyone is a family, and creator tools live in Studio. This makes creators and organizers first-class, and it's needed before organizers can list programs in the Resources tab.
 - **Keeping information fresh: a regular review workflow.** Curated content goes stale: state laws and rules (`src/lib/standards.ts`, notice-of-intent details), the programs and benefits list, co-op and program listings, and Library sources and licenses.
   - **Every entry records** its source link, when it was last checked, who checked it, and a review interval (e.g. laws yearly and before each school year, benefit deadlines each season, local programs every few months).
   - **A scheduled job** (e.g. a weekly Supabase cron or GitHub Action):
